@@ -1,0 +1,41 @@
+# Rust 학습 환경 Docker Compose 설정
+# 사용법: docker compose up -d
+
+services:
+  rust-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: rust-learning
+
+    # 현재 디렉토리를 컨테이너의 /workspace에 마운트
+    volumes:
+      - .:/workspace
+      # Cargo 캐시를 볼륨으로 유지 (빌드 속도 향상)
+      - cargo-registry:/usr/local/cargo/registry
+      - cargo-git:/usr/local/cargo/git
+      - target-cache:/workspace/target
+
+    # 작업 디렉토리
+    working_dir: /workspace
+
+    # 컨테이너가 계속 실행되도록 유지
+    tty: true
+    stdin_open: true
+
+    # 환경 변수
+    environment:
+      - RUST_BACKTRACE=1
+      - CARGO_HOME=/usr/local/cargo
+
+    # 웹 개발용 포트 (나중에 Axum, Leptos 학습시 사용)
+    ports:
+      - "3000:3000" # Leptos 기본 포트
+      - "3001:3001" # Axum API 서버
+      - "8080:8080" # 대체 포트
+
+# 볼륨 정의 (Cargo 캐시 유지)
+volumes:
+  cargo-registry:
+  cargo-git:
+  target-cache:
