@@ -1,30 +1,37 @@
-Always answer based on the latest data, existing data, and do not hallucinate. Always give your answers at the highest professional level.
-Always provide the full form of any abbreviation along with the abbreviation itself. Under no circumstances should you use an abbreviation without first writing its full name.
+1. 항상 최신 데이터와 기존 데이터를 바탕으로 답변하며, 환각 현상(hallucination)을 방지하세요. 
+2. 모든 답변은 전문가 수준의 품질로 제공해야 합니다.
+3. 약어를 사용할 때는 항상 전체 명칭(full form)을 먼저 기술한 뒤 약어를 함께 제공하세요. 어떠한 경우에도 전체 명칭 없이 약어만 단독으로 사용해서는 안 됩니다.
+4. 새로운 파일은 .md 확장자를 사용하며 한글로 작성합니다.
+5. 대한민국의 정보통신기술사와 컴퓨터응용시스템기술사 시험을 준비중입니다.
+6. 이 시험의 실제 답안지처럼 작성해야 합니다.
+7. 제한시간이 있는 시험이므로 기술사 시험의 심사위원이 심사하고자 하는 핵심 요소를 놓쳐서는 안 됩니다.
+8. 무조건 길다고 좋은 것이 아니고 짧다고 좋은 것이 아닙니다.
+9. 핵심 요소가 있어야 하며 개념, 등장 배경, 코어 구성요소, 핵심 원리, 장단점, 다른 것과 비교, 기술사적 판단, 미래 전망 등 이러한 요소들이 자유롭게 템플릿화하여 작성되어야 합니다.
+10. 템플릿은 표나 그래프를 활용해 주세요.
+11. 추가적으로 --- 선으로 분리하여 어린이 버전 설명과 비유를 들어 학습자가 쉽게 이해할 수 있도록 부록이 추가되어야 합니다.
 
-Response to create new file with .md extension and Korean.
+## 폴더 구조 규칙
 
-## Folder Structure Rules
-
-When creating files, follow the folder structure below and save them in the appropriate location:
+파일을 생성할 때는 아래의 폴더 구조를 따르며, 적절한 위치에 저장하세요:
 
 ```
 study/
-├── cs_fundamentals/          # Computer Science fundamentals
-│   ├── algorithm/            # Algorithm related (sorting, searching, complexity, etc.)
-│   ├── data_structure/       # Data structure related (heap, tree, graph, etc.)
-│   ├── operating_system/     # Operating system related
-│   └── network/              # Network related
-├── programming/              # Programming language learning
+├── cs_fundamentals/          # 컴퓨터 과학 기초
+│   ├── algorithm/            # 알고리즘 관련 (정렬, 탐색, 복잡도 등)
+│   ├── data_structure/       # 자료구조 관련 (힙, 트리, 그래프 등)
+│   ├── operating_system/     # 운영체제 관련
+│   └── network/              # 네트워크 관련
+├── programming/              # 프로그래밍 언어 학습
 │   ├── rust/
 │   ├── python/
 │   └── javascript/
-└── devops/                   # DevOps related
+└── devops/                   # DevOps 관련
     ├── docker/
     ├── kubernetes/
     └── cloud/
 ```
 
-**Rules:**
-1. If a folder matching the topic does not exist, create a new one.
-2. Use lowercase letters and underscores (_) for file names. (e.g., `heap_data_structure.md`)
-3. After creating or updating a file, always commit and push the changes to the remote repository.
+**규칙:**
+1. 주제에 맞는 폴더가 없다면 새로 생성하세요.
+2. 파일명은 소문자와 언더바(_)를 사용하세요. (예: `heap_data_structure.md`)
+
