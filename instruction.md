@@ -27,3 +27,4 @@ study/
 **Rules:**
 1. If a folder matching the topic does not exist, create a new one.
 2. Use lowercase letters and underscores (_) for file names. (e.g., `heap_data_structure.md`)
+3. After creating or updating a file, always commit and push the changes to the remote repository.
