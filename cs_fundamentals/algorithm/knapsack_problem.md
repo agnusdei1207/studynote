@@ -121,7 +121,7 @@ function knapsack(n, W, weights[], values[]):
 | **무한 배낭** | 동적 계획법(Dynamic Programming, DP) | $O(n \times W)$ | ✅ 예 |
 | **다중 배낭** | 분기 한정법(Branch and Bound), 메타휴리스틱(Metaheuristic) | 지수적 | 근사 가능 |
 
-### 5.2 기술사적 판단 (PE's Insight)
+### 5.2 기술사적 판단 (Professional Engineer, PE's Insight)
 - **의사 다항 시간(Pseudo-Polynomial Time):** 0/1 배낭 문제의 $O(n \times W)$는 입력 크기가 아닌 **입력 값(W)**에 비례합니다. W가 매우 클 경우 실질적으로 지수 시간에 가까워지므로, NP-완전(NP-Complete) 문제로 분류됩니다.
 - **그리디 vs DP 선택 기준:** 물건 분할이 가능하면 그리디가 최적, 불가능하면 DP가 필수입니다. **탐욕적 선택 속성(Greedy Choice Property)**의 성립 여부가 핵심 판단 기준입니다.
 - **공간 최적화 필수:** 실무에서 W가 클 경우 2차원 테이블 대신 **1차원 롤링 배열**을 사용하여 메모리 사용량을 $O(n \times W)$에서 $O(W)$로 감소시켜야 합니다.
