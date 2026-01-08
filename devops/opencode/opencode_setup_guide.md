@@ -80,3 +80,6 @@ source ~/.zshrc
 |------|------|
 | `AI_LoadAPIKeyError` | `GOOGLE_GENERATIVE_AI_API_KEY` 환경변수 설정 |
 | `Model Not Found` | `opencode models google`로 모델명 확인 |
+
+opencode auth logout
+opencode auth login
