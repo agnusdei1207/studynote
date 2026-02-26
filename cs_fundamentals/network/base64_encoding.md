@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: note
 title: Base64 인코딩
 ---
 

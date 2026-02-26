@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: note
 title: 파일 디스크립터 (File Descriptor)
 ---
 

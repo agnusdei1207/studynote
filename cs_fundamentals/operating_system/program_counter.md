@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: note
 title: 프로그램 카운터 (Program Counter, PC)
 ---
 

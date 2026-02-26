@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: note
 title: 패리티 비트
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: note
 title: Rust가 함수 오버로딩과 가변 인자를 지원하지 않는 이유
 ---
 

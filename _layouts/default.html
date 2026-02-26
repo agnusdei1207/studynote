@@ -1,120 +1,204 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'ko-KR' }}">
+<html lang="{{ page.lang | default: site.lang | default: 'ko-KR' }}" data-theme="light">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title }} | {{ site.title }}</title>
+  <title>{% if page.title and page.title != 'Home' %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{%
+    endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
-    onload="renderMathInElement(document.body);"></script>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
-    rel="stylesheet">
+
+  <!-- KaTeX -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"
+    onload="renderMathInElement(document.body, {
+      delimiters: [
+        {left:'$$', right:'$$', display:true},
+        {left:'$',  right:'$',  display:false}
+      ]
+    });"></script>
+
+  <script>
+    // Apply theme before paint to avoid FOUC
+    (function () {
+      var t = localStorage.getItem('theme');
+      if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
 </head>
 
-<body data-theme="light">
-  <script>
-    const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-    document.body.setAttribute('data-theme', theme);
-  </script>
+<body>
 
+  <!-- ===== HEADER ===== -->
   <header class="site-header">
-    <div class="container header-inner">
-      <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
-      <div class="nav-actions">
-        <button class="btn-icon" onclick="openSearch()" title="검색 (/)">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <circle cx="11" cy="11" r="8" />
-            <path d="m21 21-4.3-4.3" />
-          </svg>
-        </button>
-        <button class="btn-icon" onclick="toggleTheme()" id="theme-toggle">
-          <svg class="sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-            stroke-width="2">
+    <div class="header-inner">
+
+      <a href="{{ '/' | relative_url }}" class="site-logo">{{ site.title | default: 'note' }}</a>
+
+      <!-- Search (inline in header, like rdot) -->
+      <div class="header-search" id="header-search-wrap">
+        <svg class="search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8" />
+          <path d="m21 21-4.3-4.3" />
+        </svg>
+        <input type="text" id="search-input" placeholder="검색..." autocomplete="off" spellcheck="false">
+        <div id="search-dropdown"></div>
+      </div>
+
+      <!-- Actions -->
+      <div class="header-actions">
+        <a href="https://github.com/{{ site.github_username | default: 'agnusdei1207' }}" class="btn-ghost"
+          target="_blank" rel="noopener">GitHub</a>
+        <button class="btn-ghost" id="theme-btn" style="padding: 0; width: 36px;">
+          <!-- Sun icon (shown in dark mode to switch to light) -->
+          <svg id="i-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
             <circle cx="12" cy="12" r="5" />
             <path
-              d="M12 1v2m0 18v2M4.2 4.2l1.4 1.4m12.8 12.8l1.4 1.4M1 12h2m18 0h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4" />
+              d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
+          </svg>
+          <svg id="i-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" style="display:none">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
           </svg>
         </button>
       </div>
     </div>
   </header>
 
-  <main class="container" style="padding: 40px 0;">
-    {{ content }}
+  <!-- ===== MAIN ===== -->
+  <main style="min-height: calc(100vh - 120px); padding: 0 0 40px;">
+    <div class="container">
+      {{ content }}
+    </div>
   </main>
 
+  <!-- ===== FOOTER ===== -->
   <footer class="site-footer">
-    <div class="container">
-      <p>© {{ 'now' | date: "%Y" }} {{ site.title }}. Built with Simplicity.</p>
+    <div class="container footer-inner">
+      <span>© {{ 'now' | date: "%Y" }} {{ site.title }}</span>
+      <span>Jekyll · GitHub Pages</span>
     </div>
   </footer>
 
-  <div id="search-modal" onclick="if(event.target===this) closeSearch()">
-    <div class="search-box">
-      <div class="search-input-wrapper">
-        <input type="text" id="search-input" placeholder="제목이나 내용으로 검색..." autocomplete="off">
-      </div>
-      <div class="search-results" id="search-results"></div>
-    </div>
-  </div>
-
+  <!-- ===== SEARCH INDEX ===== -->
   <script>
-    function toggleTheme() {
-      const current = document.body.getAttribute('data-theme');
-      const next = current === 'light' ? 'dark' : 'light';
-      document.body.setAttribute('data-theme', next);
-      localStorage.setItem('theme', next);
-    }
-
-    const searchModal = document.getElementById('search-modal');
-    const searchInput = document.getElementById('search-input');
-    const searchResults = document.getElementById('search-results');
-
-    const index = [
-      {% for page in site.html_pages %}
-    { title: { { page.title | jsonify } }, url: { { page.url | relative_url | jsonify } }, content: { { page.content | strip_html | strip_newlines | jsonify } } },
-    {% endfor %}
-    {% for post in site.posts %}
-    { title: { { post.title | jsonify } }, url: { { post.url | relative_url | jsonify } }, content: { { post.content | strip_html | strip_newlines | jsonify } } },
+    var SEARCH_INDEX = [
+      {% assign all_docs = site.html_pages | concat: site.documents %}
+    {% for doc in all_docs %}
+    {% if doc.title and doc.title != '' %}
+    {
+      "title": { { doc.title | jsonify } },
+      "url": { { doc.url | relative_url | jsonify } },
+      "category": { { doc.collection | default: doc.dir | remove: "/" | jsonify } },
+      "body": { { doc.content | strip_html | normalize_whitespace | jsonify } }
+    } {% unless forloop.last %}, {% endunless %}
+    {% endif %}
     {% endfor %}
     ];
+  </script>
 
-    function openSearch() {
-      searchModal.classList.add('active');
-      searchInput.focus();
-    }
-    function closeSearch() {
-      searchModal.classList.remove('active');
-      searchInput.value = '';
-      searchResults.innerHTML = '';
-    }
+  <!-- ===== SCRIPTS ===== -->
+  <script>
+    // ---------- Theme ----------
+    var themeBtn = document.getElementById('theme-btn');
+    var iSun = document.getElementById('i-sun');
+    var iMoon = document.getElementById('i-moon');
 
-    document.addEventListener('keydown', (e) => {
-      if (e.key === '/' && !searchModal.classList.contains('active')) {
-        e.preventDefault();
-        openSearch();
-      }
-      if (e.key === 'Escape') closeSearch();
+    function syncThemeIcon(t) {
+      if (t === 'dark') { iSun.style.display = 'none'; iMoon.style.display = ''; }
+      else { iSun.style.display = ''; iMoon.style.display = 'none'; }
+    }
+    syncThemeIcon(document.documentElement.getAttribute('data-theme') || 'light');
+
+    themeBtn.addEventListener('click', function () {
+      var cur = document.documentElement.getAttribute('data-theme');
+      var next = cur === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      document.body.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+      syncThemeIcon(next);
     });
 
-    searchInput.addEventListener('input', (e) => {
-      const q = e.target.value.toLowerCase().trim();
-      if (!q) { searchResults.innerHTML = ''; return; }
-      const results = index.filter(item =>
-        (item.title && item.title.toLowerCase().includes(q)) ||
-        (item.content && item.content.toLowerCase().includes(q))
-      ).slice(0, 10);
+    // ---------- Search ----------
+    var searchInput = document.getElementById('search-input');
+    var searchDropdown = document.getElementById('search-dropdown');
 
-      searchResults.innerHTML = results.map(res => `
-        <a href="${res.url}" class="result-item">
-          <div class="title">${res.title || 'Untitled'}</div>
-          <div class="excerpt">${res.content.substring(0, 120)}...</div>
-        </a>
-      `).join('');
+    function escHtml(s) {
+      return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    }
+
+    function highlight(text, query) {
+      if (!query) return escHtml(text);
+      var re = new RegExp('(' + query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+      return escHtml(text).replace(re, '<mark>$1</mark>');
+    }
+
+    function getExcerpt(body, query, len) {
+      len = len || 160;
+      if (!body) return '';
+      var q = query.toLowerCase();
+      var idx = body.toLowerCase().indexOf(q);
+      var start = Math.max(0, idx - 60);
+      var slice = body.substring(start, start + len);
+      if (start > 0) slice = '…' + slice;
+      if (start + len < body.length) slice += '…';
+      return highlight(slice, query);
+    }
+
+    function renderDropdown(query) {
+      if (!query || query.length < 2) {
+        searchDropdown.classList.remove('open');
+        return;
+      }
+
+      var q = query.toLowerCase();
+      var results = SEARCH_INDEX.filter(function (d) {
+        return (d.title && d.title.toLowerCase().includes(q))
+          || (d.body && d.body.toLowerCase().includes(q));
+      }).slice(0, 12);
+
+      if (!results.length) {
+        searchDropdown.innerHTML = '<div class="search-empty">결과 없음</div>';
+        searchDropdown.classList.add('open');
+        return;
+      }
+
+      searchDropdown.innerHTML = results.map(function (r) {
+        return '<a class="search-result-item" href="' + r.url + '">'
+          + (r.category ? '<div class="sri-path">' + escHtml(r.category) + '</div>' : '')
+          + '<div class="sri-title">' + highlight(r.title, query) + '</div>'
+          + '<div class="sri-excerpt">' + getExcerpt(r.body, query) + '</div>'
+          + '</a>';
+      }).join('');
+
+      searchDropdown.classList.add('open');
+    }
+
+    searchInput.addEventListener('input', function () {
+      renderDropdown(this.value.trim());
+    });
+
+    searchInput.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        searchDropdown.classList.remove('open');
+        this.value = '';
+      }
+    });
+
+    document.addEventListener('click', function (e) {
+      if (!document.getElementById('header-search-wrap').contains(e.target)) {
+        searchDropdown.classList.remove('open');
+      }
     });
   </script>
 </body>

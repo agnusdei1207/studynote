@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: note
 title: 멀티플렉서와 디멀티플렉서
 ---
 

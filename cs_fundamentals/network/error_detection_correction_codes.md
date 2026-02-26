@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: note
 title: 오류 검출 및 정정 코드 비교 분석
 ---
 

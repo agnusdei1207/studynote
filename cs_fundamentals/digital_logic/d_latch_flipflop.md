@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: note
 title: D 래치와 D 플립플롭
 ---
 

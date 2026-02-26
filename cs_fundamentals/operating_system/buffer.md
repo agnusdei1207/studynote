@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: note
 title: 버퍼 (Buffer)
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: note
 title: 플립플롭 (Flip-Flop)
 ---
 

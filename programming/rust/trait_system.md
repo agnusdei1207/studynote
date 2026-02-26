@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: note
 title: Rust 트레이트(Trait) 완전 정복 - 초보자용
 ---
 

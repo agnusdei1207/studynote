@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: note
 title: 순서논리회로 (Sequential Logic Circuit)
 ---
 

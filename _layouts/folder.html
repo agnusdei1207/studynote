@@ -2,62 +2,70 @@
 layout: default
 ---
 
-<div class="post-header" style="margin-bottom: 40px; border-bottom: 1px solid var(--border); padding-bottom: 24px;">
-    <div class="breadcrumb" style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 16px;">
-        <a href="{{ '/' | relative_url }}" style="color: inherit; text-decoration: none;">root</a>
-        {% assign paths = page.url | split: '/' %}
-        {% assign current_path = '' %}
-        {% for path in paths %}
-        {% if path != '' %}
-        {% assign current_path = current_path | append: '/' | append: path %}
-        <span> / </span>
-        <a href="{{ current_path | relative_url }}" style="color: inherit; text-decoration: none;">{{ path }}</a>
-        {% endif %}
-        {% endfor %}
-    </div>
-
-    <h1 style="font-size: 2.5rem; line-height: 1.2;">{{ page.title }}</h1>
+{% comment %} Auto-generate breadcrumb {% endcomment %}
+<div class="breadcrumb">
+    <a href="{{ '/' | relative_url }}">root</a>
+    {% assign parts = page.url | split: '/' %}
+    {% assign cur = '' %}
+    {% for part in parts %}
+    {% if part != '' %}
+    {% assign cur = cur | append: '/' | append: part %}
+    <span class="breadcrumb-sep">/</span>
+    <a href="{{ cur | relative_url }}">{{ part | replace: '_', ' ' }}</a>
+    {% endif %}
+    {% endfor %}
 </div>
 
-<div class="folder-content">
-    <div class="file-list">
-        {% assign current_url = page.url | append: "/" | replace: "//", "/" %}
+{% if page.title and page.title != '' %}
+<h1 style="font-size:1.5rem; font-weight:700; margin-bottom:24px;">{{ page.title }}</h1>
+{% endif %}
 
-        {% comment %} Directories {% endcomment %}
-        {% for p in site.pages %}
-        {% assign p_url = p.url | append: "/" | replace: "//", "/" %}
-        {% if p_url contains current_url and p.url != page.url %}
-        {% assign sub_path = p_url | replace: current_url, "" %}
-        {% assign sub_parts = sub_path | split: "/" %}
-        {% if sub_parts.size == 1 %}
-        <div class="file-item"
-            style="padding: 12px 0; border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 12px;">
-            <span style="opacity: 0.5;">📁</span>
-            <a href="{{ p.url | relative_url }}"
-                style="font-weight: 500; text-decoration: none; color: var(--text-primary);">{{ p.title | default:
-                sub_parts[0] }}</a>
-            <span style="font-size: 0.8rem; color: var(--text-muted); margin-left: auto;">directory</span>
-        </div>
-        {% endif %}
-        {% endif %}
-        {% endfor %}
+{% if page.description %}
+<p style="color:var(--fg-muted); margin-bottom:24px; font-size:0.9rem;">{{ page.description }}</p>
+{% endif %}
 
-        {% comment %} Files {% endcomment %}
-        {% for p in site.pages %}
-        {% if p.url contains page.url and p.url != page.url %}
-        {% assign p_dir = p.url | split: "/" %}
-        {% assign page_dir = page.url | split: "/" %}
-        {% if p_dir.size == page_dir.size %}
-        <div class="file-item"
-            style="padding: 12px 0; border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 12px;">
-            <span style="opacity: 0.5;">📄</span>
-            <a href="{{ p.url | relative_url }}" style="text-decoration: none; color: var(--link);">{{ p.title |
-                default: p.name }}</a>
-            <span style="font-size: 0.8rem; color: var(--text-muted); margin-left: auto;">{{ p.date | date: "%Y-%m-%d" |
-                default: "doc" }}</span>
-        </div>
-        {% endif %}
-        {% endif %}
-        {% endfor %}
-    </div>
+<div class="folder-list">
+    {% assign cur_url = page.url | append: '/' | replace: '//', '/' %}
+
+    {% comment %} Sub-directories {% endcomment %}
+    {% for p in site.html_pages %}
+    {% assign p_url = p.url | append: '/' | replace: '//', '/' %}
+    {% if p_url contains cur_url and p.url != page.url %}
+    {% assign rel = p_url | replace: cur_url, '' %}
+    {% assign parts = rel | split: '/' %}
+    {% if parts.size == 1 %}
+    <a class="folder-item" href="{{ p.url | relative_url }}">
+        <span class="fi-icon">📁</span>
+        <span class="fi-name">{{ p.title | default: parts[0] }}</span>
+        <span class="fi-meta">directory</span>
+    </a>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+
+    {% comment %} Files at same depth {% endcomment %}
+    {% for p in site.html_pages %}
+    {% if p.url contains page.url and p.url != page.url %}
+    {% assign p_parts = p.url | split: '/' %}
+    {% assign page_parts = page.url | split: '/' %}
+    {% if p_parts.size == page_parts.size %}
+    <a class="folder-item" href="{{ p.url | relative_url }}">
+        <span class="fi-icon">📄</span>
+        <span class="fi-name">{{ p.title | default: p.name }}</span>
+        <span class="fi-meta">{{ p.date | date: '%Y-%m-%d' }}</span>
+    </a>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+
+    {% comment %} Documents in collection {% endcomment %}
+    {% for doc in site.documents %}
+    {% if doc.url contains page.url %}
+    <a class="folder-item" href="{{ doc.url | relative_url }}">
+        <span class="fi-icon">📄</span>
+        <span class="fi-name">{{ doc.title | default: doc.name }}</span>
+        <span class="fi-meta">{{ doc.date | date: '%Y-%m-%d' }}</span>
+    </a>
+    {% endif %}
+    {% endfor %}
 </div>

@@ -3,31 +3,25 @@ layout: default
 title: Home
 ---
 
-<div class="hero">
-  <h1>{{ site.title }}</h1>
-  <p>{{ site.description }}</p>
+<div class="post-feed">
+  {% assign all_notes = site.html_pages | concat: site.documents | sort: "date" | reverse %}
+  {% for doc in all_notes %}
+    {% unless doc.url == '/' or doc.title == nil or doc.title == '' or doc.layout == 'default' or doc.layout == 'folder' %}
+    <a class="post-card" href="{{ doc.url | relative_url }}">
+      <div class="pc-meta">
+        <div class="pc-avatar">{{ doc.title | slice: 0, 2 | upcase }}</div>
+        {% if doc.date %}
+        <span class="pc-date">{{ doc.date | date: "%Y.%m.%d" }}</span>
+        {% endif %}
+        {% if doc.collection %}
+        <span class="pc-category">{{ doc.collection }}</span>
+        {% elsif doc.dir %}
+        <span class="pc-category">{{ doc.dir | remove: "/" | split: "/" | last }}</span>
+        {% endif %}
+      </div>
+      <div class="pc-title">{{ doc.title }}</div>
+      <div class="pc-excerpt">{{ doc.content | strip_html | normalize_whitespace | truncate: 160 }}</div>
+    </a>
+    {% endunless %}
+  {% endfor %}
 </div>
-
-<div class="category-grid">
-  <a href="{{ '/cs_fundamentals/' | relative_url }}" class="category-card">
-    <h3>CS Fundamentals</h3>
-    <p>Operating Systems, Computer Architecture, Networks, and Logic.</p>
-  </a>
-
-  <a href="{{ '/programming/' | relative_url }}" class="category-card">
-    <h3>Programming</h3>
-    <p>Rust, Python, Systems Language, and development techniques.</p>
-  </a>
-</div>
-
-<section style="margin-top: 40px;">
-  <h2 style="margin-bottom: 24px; font-size: 1.5rem;">Recent Notes</h2>
-  <div class="post-list">
-    {% for post in site.posts limit:5 %}
-    <div style="margin-bottom: 24px;">
-      <a href="{{ post.url | relative_url }}" style="font-size: 1.1rem; font-weight: 600; text-decoration: none; color: var(--link);">{{ post.title }}</a>
-      <p style="color: var(--text-secondary); font-size: 0.95rem; margin-top: 4px;">{{ post.excerpt | strip_html | truncate: 140 }}</p>
-    </div>
-    {% endfor %}
-  </div>
-</section>

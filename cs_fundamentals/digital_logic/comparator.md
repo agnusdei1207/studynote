@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: note
 title: 비교기 (Comparator)
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: note
 title: 인코더와 디코더 (Encoder and Decoder)
 ---
 

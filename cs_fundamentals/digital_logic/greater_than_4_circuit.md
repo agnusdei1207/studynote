@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: note
 title: 4 초과 판별 조합회로 (Greater-Than-4 Circuit)
 ---
 

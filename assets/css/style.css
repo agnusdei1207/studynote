@@ -1,0 +1,714 @@
+/* ============================================================
+   SHADCN-STYLE DESIGN SYSTEM
+   CSS variables matching shadcn/ui's token structure
+   ============================================================ */
+
+:root {
+    /* shadcn neutral palette — light */
+    --background: 0 0% 100%;
+    --foreground: 240 10% 4%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 4%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 4%;
+    --primary: 240 6% 10%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 5% 96%;
+    --secondary-foreground: 240 6% 10%;
+    --muted: 240 5% 96%;
+    --muted-foreground: 240 4% 46%;
+    --accent: 240 5% 96%;
+    --accent-foreground: 240 6% 10%;
+    --destructive: 0 84% 60%;
+    --border: 240 6% 90%;
+    --input: 240 6% 90%;
+    --ring: 240 6% 10%;
+    --radius: 0.5rem;
+
+    /* layout */
+    --max-width: 680px;
+    --header-height: 56px;
+
+    /* semantic shortcuts */
+    --bg: hsl(var(--secondary));
+    --surface: hsl(var(--card));
+    --fg: hsl(var(--foreground));
+    --fg-muted: hsl(var(--muted-foreground));
+    --line: hsl(var(--border));
+}
+
+[data-theme="dark"] {
+    --background: 240 10% 4%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 4%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 4%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 6% 10%;
+    --secondary: 240 4% 16%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 4% 16%;
+    --muted-foreground: 240 5% 65%;
+    --accent: 240 4% 16%;
+    --accent-foreground: 0 0% 98%;
+    --border: 240 4% 16%;
+    --input: 240 4% 16%;
+    --ring: 212 27% 84%;
+
+    --bg: hsl(var(--background));
+    --surface: hsl(240 4% 10%);
+    --fg: hsl(var(--foreground));
+    --fg-muted: hsl(var(--muted-foreground));
+    --line: hsl(var(--border));
+}
+
+/* ============================================================
+   RESET
+   ============================================================ */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", Inter,
+        Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji";
+    background: var(--bg);
+    color: var(--fg);
+    line-height: 1.7;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    transition: background 0.2s, color 0.2s;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    font-family: inherit;
+}
+
+/* ============================================================
+   LAYOUT
+   ============================================================ */
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ============================================================
+   HEADER  (rdot style: logo | search | actions)
+   ============================================================ */
+.site-header {
+    position: sticky;
+    top: 0;
+    height: var(--header-height);
+    background: var(--bg);
+    border-bottom: 1px solid var(--line);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.site-logo {
+    font-size: 1.1rem;
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    color: var(--fg);
+    flex-shrink: 0;
+    text-decoration: none;
+}
+
+/* shadcn Input style — search in center */
+.header-search {
+    flex: 1;
+    position: relative;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.header-search input {
+    width: 100%;
+    height: 36px;
+    padding: 0 12px 0 36px;
+    background: hsl(var(--card));
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    font-size: 0.875rem;
+    color: var(--fg);
+    outline: none;
+    transition: border-color 0.15s, box-shadow 0.15s;
+    font-family: inherit;
+}
+
+.header-search input::placeholder {
+    color: var(--fg-muted);
+}
+
+.header-search input:focus {
+    border-color: hsl(var(--ring));
+    box-shadow: 0 0 0 3px hsl(var(--ring) / 0.15);
+}
+
+.header-search .search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--fg-muted);
+    pointer-events: none;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+}
+
+/* shadcn Ghost Button */
+.btn-ghost {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    padding: 0 12px;
+    border: none;
+    background: transparent;
+    border-radius: var(--radius);
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--fg-muted);
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+    white-space: nowrap;
+}
+
+.btn-ghost:hover {
+    background: hsl(var(--accent));
+    color: var(--fg);
+    text-decoration: none;
+}
+
+/* ============================================================
+   SEARCH RESULTS DROPDOWN
+   ============================================================ */
+#search-dropdown {
+    display: none;
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    right: 0;
+    background: hsl(var(--popover));
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    box-shadow: 0 4px 16px hsl(0 0% 0% / 0.12);
+    overflow: hidden;
+    z-index: 200;
+    max-height: 420px;
+    overflow-y: auto;
+}
+
+#search-dropdown.open {
+    display: block;
+}
+
+.search-result-item {
+    display: block;
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--line);
+    cursor: pointer;
+    transition: background 0.12s;
+    text-decoration: none;
+}
+
+.search-result-item:last-child {
+    border-bottom: none;
+}
+
+.search-result-item:hover {
+    background: hsl(var(--accent));
+}
+
+.sri-path {
+    font-size: 0.7rem;
+    color: var(--fg-muted);
+    margin-bottom: 2px;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.sri-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--fg);
+    margin-bottom: 4px;
+}
+
+.sri-excerpt {
+    font-size: 0.8rem;
+    color: var(--fg-muted);
+    line-height: 1.4;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.sri-excerpt mark {
+    background: hsl(48 100% 67% / 0.5);
+    color: inherit;
+    border-radius: 2px;
+    padding: 0 1px;
+}
+
+.search-empty {
+    padding: 24px;
+    text-align: center;
+    color: var(--fg-muted);
+    font-size: 0.875rem;
+}
+
+/* ============================================================
+   POST FEED (home / index)
+   ============================================================ */
+.post-feed {
+    padding: 24px 0;
+}
+
+/* shadcn Card — but borderless like rdot */
+.post-card {
+    display: block;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--line);
+    cursor: pointer;
+    transition: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+.post-card:hover {
+    text-decoration: none;
+}
+
+.post-card:hover .pc-title {
+    text-decoration: underline;
+}
+
+.pc-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.pc-avatar {
+    width: 22px;
+    height: 22px;
+    border-radius: 4px;
+    background: hsl(var(--muted));
+    border: 1px solid var(--line);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.65rem;
+    font-weight: 700;
+    color: var(--fg-muted);
+    flex-shrink: 0;
+    letter-spacing: -0.05em;
+}
+
+.pc-date {
+    font-size: 0.8rem;
+    color: var(--fg-muted);
+}
+
+.pc-category {
+    font-size: 0.75rem;
+    color: var(--fg-muted);
+    padding: 1px 7px;
+    background: hsl(var(--muted));
+    border-radius: 99px;
+}
+
+.pc-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--fg);
+    line-height: 1.4;
+    margin-bottom: 6px;
+}
+
+.pc-excerpt {
+    font-size: 0.9rem;
+    color: var(--fg-muted);
+    line-height: 1.5;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+/* ============================================================
+   POST / NOTE CONTENT TYPOGRAPHY
+   ============================================================ */
+.post-header {
+    padding: 32px 0 24px;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 40px;
+}
+
+.post-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.85rem;
+    color: var(--fg-muted);
+    margin-bottom: 20px;
+    transition: color 0.15s;
+}
+
+.post-back:hover {
+    color: var(--fg);
+    text-decoration: none;
+}
+
+.post-title {
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    line-height: 1.25;
+    margin-bottom: 16px;
+}
+
+.post-meta {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 0.825rem;
+    color: var(--fg-muted);
+}
+
+.post-content {
+    font-size: 0.975rem;
+    line-height: 1.85;
+    padding-bottom: 80px;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4 {
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--fg);
+    margin-top: 2.5em;
+    margin-bottom: 0.75em;
+}
+
+.post-content h1 {
+    font-size: 1.75rem;
+    letter-spacing: -0.02em;
+}
+
+.post-content h2 {
+    font-size: 1.375rem;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid var(--line);
+}
+
+.post-content h3 {
+    font-size: 1.15rem;
+}
+
+.post-content h4 {
+    font-size: 1rem;
+}
+
+.post-content p {
+    margin-bottom: 1.2em;
+    color: hsl(var(--foreground));
+}
+
+.post-content a {
+    color: hsl(210 100% 50%);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+[data-theme="dark"] .post-content a {
+    color: hsl(210 100% 67%);
+}
+
+.post-content strong {
+    font-weight: 700;
+}
+
+.post-content em {
+    font-style: italic;
+}
+
+.post-content ul,
+.post-content ol {
+    padding-left: 1.5em;
+    margin-bottom: 1.2em;
+}
+
+.post-content li {
+    margin-bottom: 0.4em;
+}
+
+.post-content hr {
+    border: none;
+    border-top: 1px solid var(--line);
+    margin: 2.5em 0;
+}
+
+.post-content blockquote {
+    border-left: 3px solid var(--line);
+    padding: 12px 20px;
+    margin: 1.5em 0;
+    color: var(--fg-muted);
+    font-style: italic;
+}
+
+.post-content blockquote p {
+    margin: 0;
+}
+
+/* Code — inline */
+.post-content code {
+    font-family: "JetBrains Mono", "Fira Code", ui-monospace, monospace;
+    font-size: 0.85em;
+    background: hsl(var(--muted));
+    padding: 0.15em 0.45em;
+    border-radius: 4px;
+}
+
+/* Code — block (dark like rdot) */
+.post-content pre {
+    background: hsl(240 10% 14%);
+    border-radius: var(--radius);
+    padding: 20px;
+    overflow-x: auto;
+    margin: 1.5em 0;
+    font-size: 0.875rem;
+    line-height: 1.65;
+}
+
+.post-content pre code {
+    background: none;
+    padding: 0;
+    font-size: inherit;
+    color: hsl(0 0% 88%);
+}
+
+/* Rouge highlight wrapper — dark */
+.highlight {
+    background: hsl(240 10% 14%) !important;
+    border-radius: var(--radius);
+    padding: 20px !important;
+    overflow-x: auto;
+    margin: 1.5em 0;
+    font-size: 0.875rem;
+    line-height: 1.65;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.highlight pre {
+    background: none;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.highlight code {
+    color: hsl(0 0% 85%);
+    background: none;
+    padding: 0;
+}
+
+/* Tables — shadcn table style */
+.post-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5em 0;
+    font-size: 0.9rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    overflow: hidden;
+}
+
+.post-content th {
+    background: hsl(var(--muted));
+    font-weight: 600;
+    text-align: left;
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--line);
+}
+
+.post-content td {
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--line);
+}
+
+.post-content tr:last-child td {
+    border-bottom: none;
+}
+
+.post-content tr:hover td {
+    background: hsl(var(--muted) / 0.5);
+}
+
+/* Images */
+.post-content img {
+    max-width: 100%;
+    border-radius: var(--radius);
+    border: 1px solid var(--line);
+    margin: 1.5em 0;
+}
+
+/* KaTeX */
+.katex-display {
+    margin: 1.5em 0;
+    overflow-x: auto;
+}
+
+/* ============================================================
+   FOLDER / BREADCRUMB
+   ============================================================ */
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    align-items: center;
+    font-size: 0.8rem;
+    color: var(--fg-muted);
+    padding: 20px 0 12px;
+}
+
+.breadcrumb a {
+    color: var(--fg-muted);
+    transition: color 0.15s;
+}
+
+.breadcrumb a:hover {
+    color: var(--fg);
+}
+
+.breadcrumb-sep {
+    opacity: 0.4;
+}
+
+.folder-list {
+    padding-bottom: 60px;
+}
+
+.folder-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--line);
+    text-decoration: none;
+    color: var(--fg);
+    transition: color 0.15s;
+}
+
+.folder-item:hover {
+    color: hsl(var(--primary));
+    text-decoration: none;
+}
+
+.folder-item .fi-icon {
+    font-size: 1rem;
+    opacity: 0.5;
+    flex-shrink: 0;
+}
+
+.folder-item .fi-name {
+    flex: 1;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.folder-item .fi-meta {
+    font-size: 0.775rem;
+    color: var(--fg-muted);
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.site-footer {
+    border-top: 1px solid var(--line);
+    padding: 28px 0;
+    margin-top: 40px;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+    color: var(--fg-muted);
+}
+
+.footer-inner a {
+    color: var(--fg-muted);
+}
+
+.footer-inner a:hover {
+    color: var(--fg);
+}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width: 600px) {
+    .post-title {
+        font-size: 1.5rem;
+    }
+
+    .header-actions .btn-ghost:not(:last-child) {
+        display: none;
+    }
+}
+
+/* ============================================================
+   SCROLLBAR
+   ============================================================ */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: hsl(var(--border));
+    border-radius: 99px;
+}

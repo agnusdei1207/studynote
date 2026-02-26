@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: note
 title: 시프터와 곱셈/나눗셈의 관계
 ---
 
