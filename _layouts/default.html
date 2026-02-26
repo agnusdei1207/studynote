@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'ko-KR' }}" data-theme="light">
+<html lang="{{ page.lang | default: site.lang | default: 'ko-KR' }}">
 
 <head>
   <meta charset="utf-8">
@@ -14,36 +14,26 @@
 
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
-  <!-- KaTeX -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"
-    onload="renderMathInElement(document.body, {
-      delimiters: [
-        {left:'$$', right:'$$', display:true},
-        {left:'$',  right:'$',  display:false}
-      ]
-    });"></script>
+    onload="renderMathInElement(document.body, { delimiters: [{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}] });"></script>
 
   <script>
-    // Apply theme before paint to avoid FOUC
     (function () {
-      var t = localStorage.getItem('theme');
-      if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      var t = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
       document.documentElement.setAttribute('data-theme', t);
-    })();
+    }());
   </script>
 </head>
 
 <body>
 
-  <!-- ===== HEADER ===== -->
   <header class="site-header">
     <div class="header-inner">
 
       <a href="{{ '/' | relative_url }}" class="site-logo">{{ site.title | default: 'note' }}</a>
 
-      <!-- Search (inline in header, like rdot) -->
       <div class="header-search" id="header-search-wrap">
         <svg class="search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
           stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -54,12 +44,9 @@
         <div id="search-dropdown"></div>
       </div>
 
-      <!-- Actions -->
       <div class="header-actions">
-        <a href="https://github.com/{{ site.github_username | default: 'agnusdei1207' }}" class="btn-ghost"
-          target="_blank" rel="noopener">GitHub</a>
-        <button class="btn-ghost" id="theme-btn" style="padding: 0; width: 36px;">
-          <!-- Sun icon (shown in dark mode to switch to light) -->
+        <a href="https://github.com/agnusdei1207" class="btn-ghost" target="_blank" rel="noopener">GitHub</a>
+        <button class="btn-ghost" id="theme-btn" style="padding:0;width:36px;">
           <svg id="i-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
             stroke-linecap="round" stroke-linejoin="round">
             <circle cx="12" cy="12" r="5" />
@@ -72,17 +59,16 @@
           </svg>
         </button>
       </div>
+
     </div>
   </header>
 
-  <!-- ===== MAIN ===== -->
-  <main style="min-height: calc(100vh - 120px); padding: 0 0 40px;">
+  <main style="min-height:calc(100vh - 120px);padding:0 0 40px;">
     <div class="container">
       {{ content }}
     </div>
   </main>
 
-  <!-- ===== FOOTER ===== -->
   <footer class="site-footer">
     <div class="container footer-inner">
       <span>© {{ 'now' | date: "%Y" }} {{ site.title }}</span>
@@ -90,68 +76,52 @@
     </div>
   </footer>
 
-  <!-- ===== SEARCH INDEX ===== -->
   <script>
-    var SEARCH_INDEX = [
-      {% assign all_docs = site.html_pages | concat: site.documents %}
-    {% for doc in all_docs %}
-    {% if doc.title and doc.title != '' %}
-    {
-      "title": { { doc.title | jsonify } },
-      "url": { { doc.url | relative_url | jsonify } },
-      "category": { { doc.collection | default: doc.dir | remove: "/" | jsonify } },
-      "body": { { doc.content | strip_html | normalize_whitespace | jsonify } }
-    } {% unless forloop.last %}, {% endunless %}
-    {% endif %}
-    {% endfor %}
-    ];
-  </script>
+    var BASE = '{{ site.baseurl }}';
 
-  <!-- ===== SCRIPTS ===== -->
-  <script>
-    // ---------- Theme ----------
+    /* ---------- Theme ---------- */
     var themeBtn = document.getElementById('theme-btn');
     var iSun = document.getElementById('i-sun');
     var iMoon = document.getElementById('i-moon');
 
-    function syncThemeIcon(t) {
+    function applyTheme(t) {
+      document.documentElement.setAttribute('data-theme', t);
       if (t === 'dark') { iSun.style.display = 'none'; iMoon.style.display = ''; }
       else { iSun.style.display = ''; iMoon.style.display = 'none'; }
     }
-    syncThemeIcon(document.documentElement.getAttribute('data-theme') || 'light');
+    applyTheme(document.documentElement.getAttribute('data-theme') || 'light');
 
     themeBtn.addEventListener('click', function () {
-      var cur = document.documentElement.getAttribute('data-theme');
-      var next = cur === 'dark' ? 'light' : 'dark';
-      document.documentElement.setAttribute('data-theme', next);
-      document.body.setAttribute('data-theme', next);
+      var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
       localStorage.setItem('theme', next);
-      syncThemeIcon(next);
+      applyTheme(next);
     });
 
-    // ---------- Search ----------
+    /* ---------- Search ---------- */
     var searchInput = document.getElementById('search-input');
     var searchDropdown = document.getElementById('search-dropdown');
+    var searchWrap = document.getElementById('header-search-wrap');
+    var SEARCH_INDEX = null;
 
     function escHtml(s) {
-      return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      return String(s)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
     }
 
     function highlight(text, query) {
-      if (!query) return escHtml(text);
+      if (!query || !text) return escHtml(text);
       var re = new RegExp('(' + query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
       return escHtml(text).replace(re, '<mark>$1</mark>');
     }
 
-    function getExcerpt(body, query, len) {
-      len = len || 160;
+    function getExcerpt(body, query) {
       if (!body) return '';
-      var q = query.toLowerCase();
-      var idx = body.toLowerCase().indexOf(q);
+      var idx = body.toLowerCase().indexOf(query.toLowerCase());
       var start = Math.max(0, idx - 60);
-      var slice = body.substring(start, start + len);
-      if (start > 0) slice = '…' + slice;
-      if (start + len < body.length) slice += '…';
+      var slice = body.substring(start, start + 160);
+      if (start > 0) { slice = '…' + slice; }
       return highlight(slice, query);
     }
 
@@ -160,29 +130,33 @@
         searchDropdown.classList.remove('open');
         return;
       }
+      if (!SEARCH_INDEX) { return; }
 
       var q = query.toLowerCase();
-      var results = SEARCH_INDEX.filter(function (d) {
-        return (d.title && d.title.toLowerCase().includes(q))
-          || (d.body && d.body.toLowerCase().includes(q));
+      var hits = SEARCH_INDEX.filter(function (d) {
+        return (d.title && d.title.toLowerCase().indexOf(q) !== -1)
+          || (d.body && d.body.toLowerCase().indexOf(q) !== -1);
       }).slice(0, 12);
 
-      if (!results.length) {
+      if (!hits.length) {
         searchDropdown.innerHTML = '<div class="search-empty">결과 없음</div>';
-        searchDropdown.classList.add('open');
-        return;
+      } else {
+        searchDropdown.innerHTML = hits.map(function (r) {
+          return '<a class="search-result-item" href="' + r.url + '">'
+            + (r.category ? '<div class="sri-path">' + escHtml(r.category) + '</div>' : '')
+            + '<div class="sri-title">' + highlight(r.title, query) + '</div>'
+            + '<div class="sri-excerpt">' + getExcerpt(r.body, query) + '</div>'
+            + '</a>';
+        }).join('');
       }
-
-      searchDropdown.innerHTML = results.map(function (r) {
-        return '<a class="search-result-item" href="' + r.url + '">'
-          + (r.category ? '<div class="sri-path">' + escHtml(r.category) + '</div>' : '')
-          + '<div class="sri-title">' + highlight(r.title, query) + '</div>'
-          + '<div class="sri-excerpt">' + getExcerpt(r.body, query) + '</div>'
-          + '</a>';
-      }).join('');
-
       searchDropdown.classList.add('open');
     }
+
+    /* Load search index once */
+    fetch(BASE + '/search.json')
+      .then(function (r) { return r.json(); })
+      .then(function (data) { SEARCH_INDEX = data; })
+      .catch(function () { SEARCH_INDEX = []; });
 
     searchInput.addEventListener('input', function () {
       renderDropdown(this.value.trim());
@@ -196,11 +170,12 @@
     });
 
     document.addEventListener('click', function (e) {
-      if (!document.getElementById('header-search-wrap').contains(e.target)) {
+      if (!searchWrap.contains(e.target)) {
         searchDropdown.classList.remove('open');
       }
     });
   </script>
+
 </body>
 
 </html>
