@@ -4,23 +4,31 @@ author: "agnusdei1207"
 baseurl: "/note"
 url: "https://agnusdei1207.github.io"
 
-# 커스텀 테마 사용 (minima 제거)
-# theme: minima
-
 # 마크다운 설정
 markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
 
 # 한국어 지원
 lang: ko-KR
+
+# 검색 인덱스 생성
+lunr:
+  search_within_pages: true
 
 # 네비게이션
 header_pages:
   - cs_fundamentals.md
 
-# 폴더 구조 유지
+# 태그/카테고리
+taxonomies:
+  - category
+  - tag
+
+# 기본 레이아웃
 defaults:
   - scope:
       path: ""
@@ -39,8 +47,13 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+  - "*.log"
 
 # 플러그인 (GitHub Pages 지원)
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+
+# 사이트 설정
+timezone: Asia/Seoul

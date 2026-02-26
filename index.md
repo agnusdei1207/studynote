@@ -10,7 +10,6 @@ title: 홈
  ██╔══╝  ██║   ██║   ██║   ██╔══╝  ╚════██║   ██║   ██║   ██║██╔══██╗   ██║
  ██║     ╚██████╔╝   ██║   ███████╗███████║   ██║   ╚██████╔╝██║  ██║   ██║
  ╚═╝      ╚═════╝    ╚═╝   ╚══════╝╚══════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝   ╚═╝
-                    Study Notes
 </pre>
 
 <div class="terminal-window">
@@ -18,36 +17,55 @@ title: 홈
     <span class="dot red"></span>
     <span class="dot yellow"></span>
     <span class="dot green"></span>
-    <span class="filename">about.md</span>
+    <span class="filename">intro.sh</span>
   </div>
   <div class="terminal-body">
-    <p><span class="text-green">$</span> cat intro.txt</p>
-    <p>정보통신기술사 및 컴퓨터응용시스템기술사 시험을 준비하며 정리한 학습 노트입니다.</p>
-    <p><span class="text-green">$</span> echo "AI, Infra, DevSecOps, Cloud Native, Security" <span class="cursor-blink"></span></p>
+    <p><span class="prompt">$</span> cat about.txt</p>
+    <p class="text-muted">AI, Infra, DevSecOps, Cloud Native, Security</p>
+    <p><span class="prompt">$</span> echo "Learning is a journey, not a destination"<span class="cursor"></span></p>
   </div>
 </div>
 
-## // 카테고리
+<div class="section-header">
+  <span class="section-number">01</span>
+  <h2>카테고리</h2>
+  <span class="section-line"></span>
+</div>
 
-### 01 // 컴퓨터 과학 기초
+<div class="category-grid">
+  <a href="cs_fundamentals/digital_logic/" class="category-card">
+    <div class="category-icon">⚡</div>
+    <div class="category-title">디지털 논리</div>
+    <div class="category-desc">불 대수, 게이트, 플립플롭, 순차/조합 논리</div>
+  </a>
 
-| 폴더 | 설명 |
-|------|------|
-| [디지털 논리](cs_fundamentals/digital_logic/) | 불 대수, 게이트, 플립플롭 |
-| [운영체제](cs_fundamentals/operating_system/) | 프로세스, 메모리, 스케줄링 |
-| [네트워크](cs_fundamentals/network/) | OSI 7계층, TCP/IP, HTTP |
-| [컴퓨터 구조](cs_fundamentals/computer_architecture/) | CPU, 캐시, 파이프라인 |
-| [데이터 통신](cs_fundamentals/data_communication/) | 전송, 변복조, 에러제어 |
+  <a href="cs_fundamentals/operating_system/" class="category-card">
+    <div class="category-icon">🖥️</div>
+    <div class="category-title">운영체제</div>
+    <div class="category-desc">프로세스, 메모리, 스케줄링, 동기화</div>
+  </a>
 
-### 02 // 프로그래밍
+  <a href="cs_fundamentals/network/" class="category-card">
+    <div class="category-icon">🌐</div>
+    <div class="category-title">네트워크</div>
+    <div class="category-desc">OSI 7계층, TCP/IP, HTTP, 라우팅</div>
+  </a>
 
-| 폴더 | 설명 |
-|------|------|
-| [Rust](programming/rust/) | 시스템 프로그래밍 언어 |
+  <a href="cs_fundamentals/computer_architecture/" class="category-card">
+    <div class="category-icon">🔧</div>
+    <div class="category-title">컴퓨터 구조</div>
+    <div class="category-desc">CPU, 캐시, 파이프라인, 병렬처리</div>
+  </a>
 
----
+  <a href="cs_fundamentals/data_communication/" class="category-card">
+    <div class="category-icon">📡</div>
+    <div class="category-title">데이터 통신</div>
+    <div class="category-desc">전송, 변복조, 에러제어, 흐름제어</div>
+  </a>
 
-<div class="insight-box">
-  <div class="insight-title">Learning Philosophy</div>
-  <p>"학습은 여정이지 목적지가 아니다"</p>
+  <a href="programming/rust/" class="category-card">
+    <div class="category-icon">🦀</div>
+    <div class="category-title">Rust</div>
+    <div class="category-desc">시스템 프로그래밍, 메모리 안전성</div>
+  </a>
 </div>

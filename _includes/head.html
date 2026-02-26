@@ -5,17 +5,27 @@
 
   {%- seo -%}
 
-  <!-- Fonts -->
+  <!-- Preconnect -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
 
-  <!-- Custom Styles -->
+  <!-- Styles -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
-  <!-- RSS Feed -->
+  <!-- RSS -->
   {%- feed_meta -%}
+
+  <!-- Search Data -->
+  <script>
+    window.site = {
+      baseurl: '{{ site.baseurl }}',
+      searchIndex: []
+    };
+  </script>
 </head>
