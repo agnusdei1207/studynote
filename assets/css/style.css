@@ -21,7 +21,7 @@
     --glass-bg: rgba(255, 255, 255, 0.7);
     --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
     --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
-    --shadow-lg: 0 10px 30px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+    --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
     --max-width: 680px;
 }
 
@@ -112,7 +112,7 @@ button {
     align-items: center;
     gap: 20px;
     width: 100%;
-    max-width: 960px;
+    max-width: calc(var(--max-width) + 48px);
     margin: 0 auto;
     padding: 0 24px;
 }
@@ -175,8 +175,7 @@ button {
     top: calc(100% + 8px);
     left: 0;
     right: 0;
-    background: hsl(var(--glass-bg));
-    backdrop-filter: blur(20px);
+    background: hsl(var(--bg));
     border: 1px solid hsl(var(--border));
     border-radius: calc(var(--radius) + 2px);
     box-shadow: var(--shadow-lg);
