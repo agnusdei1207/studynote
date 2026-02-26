@@ -6,56 +6,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title and page.title != 'Home' %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{%
     endif %}</title>
-  <meta name="description" content="{{ page.description | default: site.description }}">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
     onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}]})"></script>
 
   <script>
-    (function () { var t = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'); document.documentElement.setAttribute('data-theme', t); }());
+    (function () {
+      var t = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', t);
+    }());
   </script>
 </head>
 
 <body>
 
-  <!-- Search Index — type=application/json so IDE treats it as JSON, not JS -->
-  <!-- Liquid runs server-side; browser just sees valid JSON -->
   <script type="application/json" id="search-data">
-    [{% assign sep = "" %}{% assign all_docs = site.html_pages | concat: site.documents %}{% for doc in all_docs %}{% if doc.title and doc.title != "" %}{{ sep }}{"title":{{ doc.title | jsonify }},"url":{{ doc.url | relative_url | jsonify }},"cat":{{ doc.collection | default: "" | jsonify }},"body":{{ doc.content | strip_html | jsonify }}}{% assign sep = "," %}{% endif %}{% endfor %}]
+    [{% assign sep = "" %}{% assign all_docs = site.html_pages | concat: site.documents %}{% for doc in all_docs %}{% if doc.title and doc.title != "" %}{{ sep }}{"title":{{ doc.title | jsonify }},"url":{{ doc.url | relative_url | jsonify }},"cat":{{ doc.collection | default: "" | jsonify }},"body":{{ doc.content | strip_html | normalize_whitespace | jsonify }}}{% assign sep = "," %}{% endif %}{% endfor %}]
   </script>
 
   <header class="site-header">
     <div class="header-inner">
-      <a href="{{ '/' | relative_url }}" class="site-logo">{{ site.title | default: 'note' }}</a>
+      <a href="{{ '/' | relative_url }}" class="site-logo">Study<span>Note</span></a>
 
       <div class="header-search" id="header-search-wrap">
-        <svg class="search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-          stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
           <circle cx="11" cy="11" r="8" />
           <path d="m21 21-4.3-4.3" />
         </svg>
-        <input type="text" id="search-input" placeholder="검색..." autocomplete="off" spellcheck="false">
+        <input type="text" id="search-input" placeholder="Search anything..." autocomplete="off">
         <div id="search-dropdown"></div>
       </div>
 
       <div class="header-actions">
-        <a href="https://github.com/agnusdei1207" class="btn-ghost" target="_blank" rel="noopener">GitHub</a>
-        <button class="btn-ghost" id="theme-btn" style="padding:0;width:36px;">
-          <svg id="i-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round">
+        <button id="theme-btn" title="Toggle theme"
+          style="padding: 8px; color: hsl(var(--muted-fg)); hover: color: hsl(var(--fg));">
+          <svg id="i-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <circle cx="12" cy="12" r="5" />
             <path
               d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
           </svg>
-          <svg id="i-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round" style="display:none">
+          <svg id="i-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            style="display:none">
             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
           </svg>
         </button>
@@ -63,114 +65,87 @@
     </div>
   </header>
 
-  <main style="min-height:calc(100vh - 120px);padding:0 0 40px;">
+  <main>
     <div class="container">
       {{ content }}
     </div>
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-inner">
-      <span>© {{ 'now' | date: "%Y" }} {{ site.title }}</span>
-      <span>Jekyll · GitHub Pages</span>
+    <div class="container" style="display:flex; justify-content:space-between; align-items:center;">
+      <span>&copy; {{ 'now' | date: "%Y" }} Agnusdei Note</span>
+      <div style="display:flex; gap:16px;">
+        <a href="https://github.com/agnusdei1207" target="_blank" rel="noopener">GitHub</a>
+      </div>
     </div>
   </footer>
 
   <script>
-    /* ---- Parse search index synchronously (no fetch, no async race) ---- */
-    var SEARCH_INDEX = (function () {
-      try {
-        return JSON.parse(document.getElementById('search-data').textContent);
-      } catch (e) {
-        return [];
-      }
-    }());
+    var SEARCH_INDEX = JSON.parse(document.getElementById('search-data').textContent || '[]');
 
-    /* ---- Theme ---- */
-    var themeBtn = document.getElementById('theme-btn');
-    var iSun = document.getElementById('i-sun');
-    var iMoon = document.getElementById('i-moon');
-
-    function applyTheme(t) {
+    /* Theme */
+    var tBtn = document.getElementById('theme-btn'), iS = document.getElementById('i-sun'), iM = document.getElementById('i-moon');
+    function apply(t) {
       document.documentElement.setAttribute('data-theme', t);
-      if (t === 'dark') { iSun.style.display = 'none'; iMoon.style.display = ''; }
-      else { iSun.style.display = ''; iMoon.style.display = 'none'; }
+      iS.style.display = t === 'dark' ? 'none' : ''; iM.style.display = t === 'dark' ? '' : 'none';
     }
-    applyTheme(document.documentElement.getAttribute('data-theme') || 'light');
+    apply(document.documentElement.getAttribute('data-theme') || 'light');
+    tBtn.onclick = function () {
+      var n = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      localStorage.setItem('theme', n); apply(n);
+    };
 
-    themeBtn.addEventListener('click', function () {
-      var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-      localStorage.setItem('theme', next);
-      applyTheme(next);
-    });
-
-    /* ---- Search ---- */
-    var searchInput = document.getElementById('search-input');
-    var searchDropdown = document.getElementById('search-dropdown');
-    var searchWrap = document.getElementById('header-search-wrap');
-
-    function esc(s) {
-      return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-    }
-
-    function hi(text, q) {
-      if (!q || !text) return esc(text || '');
+    /* Search */
+    var sInput = document.getElementById('search-input'), sDrop = document.getElementById('search-dropdown'), sWrap = document.getElementById('header-search-wrap');
+    function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+    function hi(txt, q) {
+      if (!q || !txt) return esc(txt || '');
       var re = new RegExp('(' + q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
-      return esc(text).replace(re, '<mark>$1</mark>');
+      return esc(txt).replace(re, '<mark>$1</mark>');
     }
-
     function excerpt(body, q) {
       if (!body) return '';
-      var i = body.toLowerCase().indexOf(q.toLowerCase());
-      var s = Math.max(0, i - 60);
-      var chunk = body.substring(s, s + 160);
-      return (s > 0 ? '…' : '') + hi(chunk, q) + (s + 160 < body.length ? '…' : '');
+      var idx = body.toLowerCase().indexOf(q.toLowerCase());
+      if (idx === -1) return esc(body.substring(0, 140)) + '...';
+      var start = Math.max(0, idx - 40);
+      return (start > 0 ? '…' : '') + hi(body.substring(start, start + 140), q) + (start + 140 < body.length ? '…' : '');
     }
 
-    function doSearch(query) {
-      if (!query || query.length < 2) {
-        searchDropdown.classList.remove('open');
-        return;
-      }
+    sInput.oninput = function () {
+      var val = this.value.trim(), q = val.toLowerCase();
+      if (!val) { sDrop.classList.remove('open'); return; }
 
-      var q = query.toLowerCase();
-      var hits = SEARCH_INDEX.filter(function (d) {
-        return (d.title && d.title.toLowerCase().indexOf(q) !== -1)
-          || (d.body && d.body.toLowerCase().indexOf(q) !== -1);
-      }).slice(0, 12);
+      var hits = SEARCH_INDEX.map(function (d) {
+        var score = 0;
+        if (d.title.toLowerCase() === q) score += 100;
+        else if (d.title.toLowerCase().indexOf(q) === 0) score += 50;
+        else if (d.title.toLowerCase().indexOf(q) !== -1) score += 30;
+        if (d.body.toLowerCase().indexOf(q) !== -1) score += 10;
+        return { d: d, score: score };
+      }).filter(function (h) { return h.score > 0; })
+        .sort(function (a, b) { return b.score - a.score; })
+        .slice(0, 10);
 
       if (!hits.length) {
-        searchDropdown.innerHTML = '<div class="search-empty">결과 없음</div>';
+        sDrop.innerHTML = '<div style="padding:24px; text-align:center; font-size:0.9rem; color:hsl(var(--muted-fg));">No results found</div>';
       } else {
-        searchDropdown.innerHTML = hits.map(function (r) {
-          return '<a class="search-result-item" href="' + esc(r.url) + '">'
-            + (r.cat ? '<div class="sri-path">' + esc(r.cat) + '</div>' : '')
-            + '<div class="sri-title">' + hi(r.title, query) + '</div>'
-            + '<div class="sri-excerpt">' + excerpt(r.body, query) + '</div>'
+        sDrop.innerHTML = hits.map(function (h) {
+          return '<a class="search-result-item" href="' + h.d.url + '">'
+            + (h.d.cat ? '<div class="sri-path">' + esc(h.d.cat) + '</div>' : '')
+            + '<div class="sri-title">' + hi(h.d.title, val) + '</div>'
+            + '<div class="sri-excerpt">' + excerpt(h.d.body, val) + '</div>'
             + '</a>';
         }).join('');
       }
-      searchDropdown.classList.add('open');
-    }
+      sDrop.classList.add('open');
+    };
 
-    searchInput.addEventListener('input', function () {
-      doSearch(this.value.trim());
-    });
-
-    searchInput.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape') {
-        searchDropdown.classList.remove('open');
-        this.value = '';
-      }
-    });
-
-    document.addEventListener('click', function (e) {
-      if (!searchWrap.contains(e.target)) {
-        searchDropdown.classList.remove('open');
-      }
-    });
+    window.onclick = function (e) { if (!sWrap.contains(e.target)) sDrop.classList.remove('open'); };
+    window.onkeydown = function (e) {
+      if (e.key === '/' && document.activeElement !== sInput) { e.preventDefault(); sInput.focus(); }
+      if (e.key === 'Escape') { sDrop.classList.remove('open'); sInput.blur(); }
+    };
   </script>
-
 </body>
 
 </html>

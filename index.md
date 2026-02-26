@@ -6,22 +6,29 @@ title: Home
 <div class="post-feed">
   {% assign all_notes = site.html_pages | concat: site.documents | sort: "date" | reverse %}
   {% for doc in all_notes %}
-    {% unless doc.url == '/' or doc.title == nil or doc.title == '' or doc.layout == 'default' or doc.layout == 'folder' %}
+    {% if doc.title and doc.title != "" and doc.url != "/" and doc.layout != "default" and doc.layout != "folder" %}
     <a class="post-card" href="{{ doc.url | relative_url }}">
       <div class="pc-meta">
-        <div class="pc-avatar">{{ doc.title | slice: 0, 2 | upcase }}</div>
-        {% if doc.date %}
-        <span class="pc-date">{{ doc.date | date: "%Y.%m.%d" }}</span>
-        {% endif %}
+        <div class="pc-avatar">{{ doc.title | slice: 0, 1 | upcase }}</div>
         {% if doc.collection %}
-        <span class="pc-category">{{ doc.collection }}</span>
+          <span>{{ doc.collection }}</span>
         {% elsif doc.dir %}
-        <span class="pc-category">{{ doc.dir | remove: "/" | split: "/" | last }}</span>
+          <span>{{ doc.dir | remove: "/" | split: "/" | last }}</span>
+        {% endif %}
+        {% if doc.date %}
+          <span style="opacity: 0.5;">•</span>
+          <span>{{ doc.date | date: "%B %d, %Y" }}</span>
         {% endif %}
       </div>
       <div class="pc-title">{{ doc.title }}</div>
-      <div class="pc-excerpt">{{ doc.content | strip_html | normalize_whitespace | truncate: 160 }}</div>
+      <div class="pc-excerpt">
+        {% if doc.description %}
+          {{ doc.description }}
+        {% else %}
+          {{ doc.content | strip_html | truncate: 140 }}
+        {% endif %}
+      </div>
     </a>
-    {% endunless %}
+    {% endif %}
   {% endfor %}
 </div>
