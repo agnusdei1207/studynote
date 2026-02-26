@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header">
+    <div class="section-label">study_note</div>
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+
+    <div class="post-meta">
+      {%- if page.date -%}
+      <span class="date">{{ page.date | date: "%Y-%m-%d" }}</span>
+      {%- endif -%}
+
+      {%- if page.categories -%}
+      <span class="category">{{ page.categories | join: ", " }}</span>
+      {%- endif -%}
+
+      {%- if page.tags -%}
+      <span class="tags">{{ page.tags | join: ", " }}</span>
+      {%- endif -%}
+    </div>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+</article>

@@ -1,11 +1,11 @@
 title: "기술사 스터디 노트"
 description: "정보통신기술사 & 컴퓨터응용시스템기술사 | AI, Infra, DevSecOps, Cloud Native, Security"
 author: "agnusdei1207"
-baseurl: "/studynote"
+baseurl: "/note"
 url: "https://agnusdei1207.github.io"
 
-# 테마 (GitHub Pages 공식 지원)
-theme: minima
+# 커스텀 테마 사용 (minima 제거)
+# theme: minima
 
 # 마크다운 설정
 markdown: kramdown

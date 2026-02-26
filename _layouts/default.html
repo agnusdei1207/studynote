@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'ko-KR' }}">
+{%- include head.html -%}
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title | default: "terminal" }}<span class="cursor-blink"></span></a>
+
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}">home</a>
+        {%- for page in site.header_pages -%}
+        <a href="{{ page | relative_url }}">{{ page | replace: '_', '-' | replace: '.md', '' }}</a>
+        {%- endfor -%}
+        <a href="{{ '/cs_fundamentals/' | relative_url }}">cs_fundamentals</a>
+        <a href="https://github.com/agnusdei1207/note">github</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>// project</h4>
+          <a href="{{ '/' | relative_url }}">home</a>
+          <a href="{{ '/cs_fundamentals/' | relative_url }}">cs_fundamentals</a>
+        </div>
+
+        <div class="footer-section">
+          <h4>// links</h4>
+          <a href="https://github.com/agnusdei1207/note">github</a>
+          <a href="{{ '/feed.xml' | relative_url }}">rss</a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        © {{ 'now' | date: "%Y" }} {{ site.author }} · MIT License
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
