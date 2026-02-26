@@ -1,168 +1,122 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'ko-KR' }}">
-{%- include head.html -%}
-<body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body);"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+</head>
+
+<body data-theme="light">
+  <script>
+    const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.body.setAttribute('data-theme', theme);
+  </script>
+
   <header class="site-header">
     <div class="container header-inner">
-      <a class="site-brand" href="{{ '/' | relative_url }}">
-        <div class="logo-icon">S</div>
-        <span class="site-title"><span>{{ site.title }}</span></span>
-      </a>
-
-      <div class="header-right">
-        <div class="search-container">
-          <span class="search-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
-            </svg>
-          </span>
-          <input type="text" class="search-input" id="search-input" placeholder="검색..." autocomplete="off">
-          <span class="search-shortcut">/</span>
-          <div class="search-results" id="search-results"></div>
-        </div>
-
-        <nav class="site-nav">
-          <a href="{{ '/' | relative_url }}">home</a>
-          <a href="{{ '/cs_fundamentals/' | relative_url }}">cs</a>
-          <a href="{{ '/programming/' | relative_url }}">code</a>
-          <a href="https://github.com/agnusdei1207/note">github</a>
-        </nav>
+      <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
+      <div class="nav-actions">
+        <button class="btn-icon" onclick="openSearch()" title="검색 (/)">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8" />
+            <path d="m21 21-4.3-4.3" />
+          </svg>
+        </button>
+        <button class="btn-icon" onclick="toggleTheme()" id="theme-toggle">
+          <svg class="sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2">
+            <circle cx="12" cy="12" r="5" />
+            <path
+              d="M12 1v2m0 18v2M4.2 4.2l1.4 1.4m12.8 12.8l1.4 1.4M1 12h2m18 0h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4" />
+          </svg>
+        </button>
       </div>
     </div>
   </header>
 
-  <main class="container">
+  <main class="container" style="padding: 40px 0;">
     {{ content }}
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <div class="footer-inner">
-        <div class="footer-section">
-          <h4>project</h4>
-          <a href="{{ '/' | relative_url }}">home</a>
-          <a href="{{ '/cs_fundamentals/' | relative_url }}">cs_fundamentals</a>
-          <a href="{{ '/programming/' | relative_url }}">programming</a>
-        </div>
-
-        <div class="footer-section">
-          <h4>links</h4>
-          <a href="https://github.com/agnusdei1207/note">github</a>
-          <a href="{{ '/feed.xml' | relative_url }}">rss</a>
-          <a href="{{ '/sitemap.xml' | relative_url }}">sitemap</a>
-        </div>
-      </div>
-
-      <div class="footer-bottom">
-        © {{ 'now' | date: "%Y" }} {{ site.author }}
-      </div>
+      <p>© {{ 'now' | date: "%Y" }} {{ site.title }}. Built with Simplicity.</p>
     </div>
   </footer>
 
-  <!-- Search Script (XSS-safe) -->
+  <div id="search-modal" onclick="if(event.target===this) closeSearch()">
+    <div class="search-box">
+      <div class="search-input-wrapper">
+        <input type="text" id="search-input" placeholder="제목이나 내용으로 검색..." autocomplete="off">
+      </div>
+      <div class="search-results" id="search-results"></div>
+    </div>
+  </div>
+
   <script>
-  (function() {
-    // Escape HTML for safe rendering
-    function escapeHtml(text) {
-      const div = document.createElement('div');
-      div.textContent = text;
-      return div.innerHTML;
+    function toggleTheme() {
+      const current = document.body.getAttribute('data-theme');
+      const next = current === 'light' ? 'dark' : 'light';
+      document.body.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
     }
 
-    // Build search index from all pages
-    const searchIndex = [
-      {%- for doc in site.html_pages -%}
-      {%- if doc.title and doc.title != '홈' -%}
-      {
-        title: {{ doc.title | jsonify }},
-        url: {{ doc.url | relative_url | jsonify }},
-        content: {{ doc.content | strip_html | strip_newlines | truncatewords: 100 | jsonify }},
-        categories: {{ doc.categories | jsonify }},
-        tags: {{ doc.tags | jsonify }}
-      },
-      {%- endif -%}
-      {%- endfor -%}
-      {%- for doc in site.documents -%}
-      {%- if doc.title and doc.layout == 'post' -%}
-      {
-        title: {{ doc.title | jsonify }},
-        url: {{ doc.url | relative_url | jsonify }},
-        content: {{ doc.content | strip_html | strip_newlines | truncatewords: 100 | jsonify }},
-        categories: {{ doc.categories | jsonify }},
-        tags: {{ doc.tags | jsonify }}
-      },
-      {%- endif -%}
-      {%- endfor -%}
-    ];
-
+    const searchModal = document.getElementById('search-modal');
     const searchInput = document.getElementById('search-input');
     const searchResults = document.getElementById('search-results');
 
-    // Focus search on "/" key
+    const index = [
+      {% for page in site.html_pages %}
+    { title: { { page.title | jsonify } }, url: { { page.url | relative_url | jsonify } }, content: { { page.content | strip_html | strip_newlines | jsonify } } },
+    {% endfor %}
+    {% for post in site.posts %}
+    { title: { { post.title | jsonify } }, url: { { post.url | relative_url | jsonify } }, content: { { post.content | strip_html | strip_newlines | jsonify } } },
+    {% endfor %}
+    ];
+
+    function openSearch() {
+      searchModal.classList.add('active');
+      searchInput.focus();
+    }
+    function closeSearch() {
+      searchModal.classList.remove('active');
+      searchInput.value = '';
+      searchResults.innerHTML = '';
+    }
+
     document.addEventListener('keydown', (e) => {
-      if (e.key === '/' && document.activeElement !== searchInput) {
+      if (e.key === '/' && !searchModal.classList.contains('active')) {
         e.preventDefault();
-        searchInput.focus();
+        openSearch();
       }
-      if (e.key === 'Escape') {
-        searchInput.blur();
-        searchResults.classList.remove('active');
-      }
+      if (e.key === 'Escape') closeSearch();
     });
 
-    // Search function
     searchInput.addEventListener('input', (e) => {
-      const query = e.target.value.toLowerCase().trim();
+      const q = e.target.value.toLowerCase().trim();
+      if (!q) { searchResults.innerHTML = ''; return; }
+      const results = index.filter(item =>
+        (item.title && item.title.toLowerCase().includes(q)) ||
+        (item.content && item.content.toLowerCase().includes(q))
+      ).slice(0, 10);
 
-      if (query.length < 2) {
-        searchResults.classList.remove('active');
-        return;
-      }
-
-      const results = searchIndex.filter(item => {
-        const titleMatch = item.title.toLowerCase().includes(query);
-        const contentMatch = item.content.toLowerCase().includes(query);
-        const tagMatch = item.tags && item.tags.some(tag => tag.toLowerCase().includes(query));
-        return titleMatch || contentMatch || tagMatch;
-      }).slice(0, 10);
-
-      searchResults.textContent = '';
-
-      if (results.length === 0) {
-        const noResults = document.createElement('div');
-        noResults.className = 'no-results';
-        noResults.textContent = '검색 결과가 없습니다';
-        searchResults.appendChild(noResults);
-      } else {
-        results.forEach(item => {
-          const link = document.createElement('a');
-          link.href = item.url;
-          link.className = 'search-result-item';
-
-          const titleDiv = document.createElement('div');
-          titleDiv.className = 'result-title';
-          titleDiv.textContent = item.title;
-
-          const pathDiv = document.createElement('div');
-          pathDiv.className = 'result-path';
-          pathDiv.textContent = item.url.replace('{{ site.baseurl }}', '');
-
-          link.appendChild(titleDiv);
-          link.appendChild(pathDiv);
-          searchResults.appendChild(link);
-        });
-      }
-
-      searchResults.classList.add('active');
+      searchResults.innerHTML = results.map(res => `
+        <a href="${res.url}" class="result-item">
+          <div class="title">${res.title || 'Untitled'}</div>
+          <div class="excerpt">${res.content.substring(0, 120)}...</div>
+        </a>
+      `).join('');
     });
-
-    // Close results when clicking outside
-    document.addEventListener('click', (e) => {
-      if (!e.target.closest('.search-container')) {
-        searchResults.classList.remove('active');
-      }
-    });
-  })();
   </script>
 </body>
+
 </html>

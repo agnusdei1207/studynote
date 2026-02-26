@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<div class="post-header" style="margin-bottom: 40px; border-bottom: 1px solid var(--border); padding-bottom: 24px;">
+    <div class="breadcrumb" style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 16px;">
+        <a href="{{ '/' | relative_url }}" style="color: inherit; text-decoration: none;">root</a>
+        {% assign paths = page.url | split: '/' %}
+        {% assign current_path = '' %}
+        {% for path in paths %}
+        {% if path != '' %}
+        {% assign current_path = current_path | append: '/' | append: path %}
+        <span> / </span>
+        <a href="{{ current_path | relative_url }}" style="color: inherit; text-decoration: none;">{{ path }}</a>
+        {% endif %}
+        {% endfor %}
+    </div>
+
+    <h1 style="font-size: 2.5rem; line-height: 1.2;">{{ page.title }}</h1>
+</div>
+
+<div class="folder-content">
+    <div class="file-list">
+        {% assign current_url = page.url | append: "/" | replace: "//", "/" %}
+
+        {% comment %} Directories {% endcomment %}
+        {% for p in site.pages %}
+        {% assign p_url = p.url | append: "/" | replace: "//", "/" %}
+        {% if p_url contains current_url and p.url != page.url %}
+        {% assign sub_path = p_url | replace: current_url, "" %}
+        {% assign sub_parts = sub_path | split: "/" %}
+        {% if sub_parts.size == 1 %}
+        <div class="file-item"
+            style="padding: 12px 0; border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 12px;">
+            <span style="opacity: 0.5;">📁</span>
+            <a href="{{ p.url | relative_url }}"
+                style="font-weight: 500; text-decoration: none; color: var(--text-primary);">{{ p.title | default:
+                sub_parts[0] }}</a>
+            <span style="font-size: 0.8rem; color: var(--text-muted); margin-left: auto;">directory</span>
+        </div>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+
+        {% comment %} Files {% endcomment %}
+        {% for p in site.pages %}
+        {% if p.url contains page.url and p.url != page.url %}
+        {% assign p_dir = p.url | split: "/" %}
+        {% assign page_dir = page.url | split: "/" %}
+        {% if p_dir.size == page_dir.size %}
+        <div class="file-item"
+            style="padding: 12px 0; border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 12px;">
+            <span style="opacity: 0.5;">📄</span>
+            <a href="{{ p.url | relative_url }}" style="text-decoration: none; color: var(--link);">{{ p.title |
+                default: p.name }}</a>
+            <span style="font-size: 0.8rem; color: var(--text-muted); margin-left: auto;">{{ p.date | date: "%Y-%m-%d" |
+                default: "doc" }}</span>
+        </div>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
