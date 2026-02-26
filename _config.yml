@@ -1,0 +1,46 @@
+title: "기술사 스터디 노트"
+description: "정보통신기술사 & 컴퓨터응용시스템기술사 | AI, Infra, DevSecOps, Cloud Native, Security"
+author: "agnusdei1207"
+baseurl: "/study"
+url: "https://agnusdei1207.github.io"
+
+# 테마 (GitHub Pages 공식 지원)
+theme: minima
+
+# 마크다운 설정
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# 한국어 지원
+lang: ko-KR
+
+# 네비게이션
+header_pages:
+  - cs_fundamentals.md
+
+# 폴더 구조 유지
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# 파일 무시
+exclude:
+  - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# 플러그인 (GitHub Pages 지원)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

@@ -1,3 +1,8 @@
+---
+layout: default
+title: 비교기 (Comparator)
+---
+
 # 비교기 (Comparator)
 
 ## 1. 개념

@@ -1,3 +1,8 @@
+---
+layout: default
+title: 버퍼 (Buffer)
+---
+
 # 버퍼 (Buffer)
 
 ## 1. 개념

@@ -1,3 +1,8 @@
+---
+layout: default
+title: Rust 트레이트(Trait) 완전 정복 - 초보자용
+---
+
 # Rust 트레이트(Trait) 완전 정복 - 초보자용
 
 ## 1. 개념

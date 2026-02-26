@@ -1,3 +1,8 @@
+---
+layout: default
+title: Base64 인코딩
+---
+
 # Base64 인코딩
 
 ## 1. 개념

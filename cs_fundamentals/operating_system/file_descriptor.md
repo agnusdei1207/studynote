@@ -1,3 +1,8 @@
+---
+layout: default
+title: 파일 디스크립터 (File Descriptor)
+---
+
 # 파일 디스크립터 (File Descriptor)
 
 ## 1. 개념

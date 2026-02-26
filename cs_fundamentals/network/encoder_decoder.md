@@ -1,3 +1,8 @@
+---
+layout: default
+title: 인코더와 디코더 (Encoder and Decoder)
+---
+
 # 인코더와 디코더 (Encoder and Decoder)
 
 ## 1. 개념

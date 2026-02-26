@@ -1,3 +1,8 @@
+---
+layout: default
+title: 플립플롭 (Flip-Flop)
+---
+
 # 플립플롭 (Flip-Flop)
 
 ## 1. 개념
