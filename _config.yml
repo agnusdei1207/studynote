@@ -1,7 +1,7 @@
 title: "기술사 스터디 노트"
 description: "정보통신기술사 & 컴퓨터응용시스템기술사 | AI, Infra, DevSecOps, Cloud Native, Security"
 author: "agnusdei1207"
-baseurl: "/study"
+baseurl: "/studynote"
 url: "https://agnusdei1207.github.io"
 
 # 테마 (GitHub Pages 공식 지원)
