@@ -11,27 +11,28 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"
-    onload="renderMathInElement(document.body, { delimiters: [{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}] });"></script>
+    onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}]})"></script>
 
   <script>
-    (function () {
-      var t = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-      document.documentElement.setAttribute('data-theme', t);
-    }());
+    (function () { var t = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'); document.documentElement.setAttribute('data-theme', t); }());
   </script>
 </head>
 
 <body>
 
+  <!-- Search Index — type=application/json so IDE treats it as JSON, not JS -->
+  <!-- Liquid runs server-side; browser just sees valid JSON -->
+  <script type="application/json" id="search-data">
+    [{% assign sep = "" %}{% assign all_docs = site.html_pages | concat: site.documents %}{% for doc in all_docs %}{% if doc.title and doc.title != "" %}{{ sep }}{"title":{{ doc.title | jsonify }},"url":{{ doc.url | relative_url | jsonify }},"cat":{{ doc.collection | default: "" | jsonify }},"body":{{ doc.content | strip_html | jsonify }}}{% assign sep = "," %}{% endif %}{% endfor %}]
+  </script>
+
   <header class="site-header">
     <div class="header-inner">
-
       <a href="{{ '/' | relative_url }}" class="site-logo">{{ site.title | default: 'note' }}</a>
 
       <div class="header-search" id="header-search-wrap">
@@ -59,7 +60,6 @@
           </svg>
         </button>
       </div>
-
     </div>
   </header>
 
@@ -77,9 +77,16 @@
   </footer>
 
   <script>
-    var BASE = '{{ site.baseurl }}';
+    /* ---- Parse search index synchronously (no fetch, no async race) ---- */
+    var SEARCH_INDEX = (function () {
+      try {
+        return JSON.parse(document.getElementById('search-data').textContent);
+      } catch (e) {
+        return [];
+      }
+    }());
 
-    /* ---------- Theme ---------- */
+    /* ---- Theme ---- */
     var themeBtn = document.getElementById('theme-btn');
     var iSun = document.getElementById('i-sun');
     var iMoon = document.getElementById('i-moon');
@@ -97,40 +104,34 @@
       applyTheme(next);
     });
 
-    /* ---------- Search ---------- */
+    /* ---- Search ---- */
     var searchInput = document.getElementById('search-input');
     var searchDropdown = document.getElementById('search-dropdown');
     var searchWrap = document.getElementById('header-search-wrap');
-    var SEARCH_INDEX = null;
 
-    function escHtml(s) {
-      return String(s)
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;');
+    function esc(s) {
+      return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
     }
 
-    function highlight(text, query) {
-      if (!query || !text) return escHtml(text);
-      var re = new RegExp('(' + query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
-      return escHtml(text).replace(re, '<mark>$1</mark>');
+    function hi(text, q) {
+      if (!q || !text) return esc(text || '');
+      var re = new RegExp('(' + q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+      return esc(text).replace(re, '<mark>$1</mark>');
     }
 
-    function getExcerpt(body, query) {
+    function excerpt(body, q) {
       if (!body) return '';
-      var idx = body.toLowerCase().indexOf(query.toLowerCase());
-      var start = Math.max(0, idx - 60);
-      var slice = body.substring(start, start + 160);
-      if (start > 0) { slice = '…' + slice; }
-      return highlight(slice, query);
+      var i = body.toLowerCase().indexOf(q.toLowerCase());
+      var s = Math.max(0, i - 60);
+      var chunk = body.substring(s, s + 160);
+      return (s > 0 ? '…' : '') + hi(chunk, q) + (s + 160 < body.length ? '…' : '');
     }
 
-    function renderDropdown(query) {
+    function doSearch(query) {
       if (!query || query.length < 2) {
         searchDropdown.classList.remove('open');
         return;
       }
-      if (!SEARCH_INDEX) { return; }
 
       var q = query.toLowerCase();
       var hits = SEARCH_INDEX.filter(function (d) {
@@ -142,24 +143,18 @@
         searchDropdown.innerHTML = '<div class="search-empty">결과 없음</div>';
       } else {
         searchDropdown.innerHTML = hits.map(function (r) {
-          return '<a class="search-result-item" href="' + r.url + '">'
-            + (r.category ? '<div class="sri-path">' + escHtml(r.category) + '</div>' : '')
-            + '<div class="sri-title">' + highlight(r.title, query) + '</div>'
-            + '<div class="sri-excerpt">' + getExcerpt(r.body, query) + '</div>'
+          return '<a class="search-result-item" href="' + esc(r.url) + '">'
+            + (r.cat ? '<div class="sri-path">' + esc(r.cat) + '</div>' : '')
+            + '<div class="sri-title">' + hi(r.title, query) + '</div>'
+            + '<div class="sri-excerpt">' + excerpt(r.body, query) + '</div>'
             + '</a>';
         }).join('');
       }
       searchDropdown.classList.add('open');
     }
 
-    /* Load search index once */
-    fetch(BASE + '/search.json')
-      .then(function (r) { return r.json(); })
-      .then(function (data) { SEARCH_INDEX = data; })
-      .catch(function () { SEARCH_INDEX = []; });
-
     searchInput.addEventListener('input', function () {
-      renderDropdown(this.value.trim());
+      doSearch(this.value.trim());
     });
 
     searchInput.addEventListener('keydown', function (e) {
