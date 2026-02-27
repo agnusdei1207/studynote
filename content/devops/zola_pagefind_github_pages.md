@@ -10,9 +10,11 @@ categories = "devops"
 
 ## 핵심 인사이트 (3줄 요약)
 
-> **Zola**는 Rust로 만든 정적 사이트 생성기(SSG)로, Jekyll 대비 수십~수백 배 빠른 빌드 속도를 제공한다.  
-> **Pagefind**는 빌드된 HTML을 인덱싱해 서버 없이 브라우저에서 전문 검색을 제공하는 Rust + WASM 도구다.  
+> **Zola**는 Rust로 만든 정적 사이트 생성기(SSG)로, Jekyll 대비 수십~수백 배 빠른 빌드 속도를 제공한다.
+> **Pagefind**는 빌드된 HTML을 인덱싱해 서버 없이 브라우저에서 전문 검색을 제공하는 Rust + WASM 도구다.
 > GitHub Actions에서 Zola 빌드 → Pagefind 인덱싱 → GitHub Pages 배포 순으로 연결하면 10만 글도 수 분 내 배포 가능하다.
+
+> 이 가이드는 실제 macos + GitHub Pages 환경에서 직접 구현하고 발생한 모든 트러블슈팅을 포함한다.
 
 ---
 
@@ -66,9 +68,9 @@ studynote/
 ├── content/                 ← 모든 마크다운 콘텐츠
 │   ├── _index.md            ← 홈 페이지
 │   ├── cs_fundamentals/
-│   │   ├── _index.md        ← 섹션 인덱스
+│   │   ├── _index.md        ← 섹션 인덱스 (필수!)
 │   │   ├── network/
-│   │   │   ├── _index.md
+│   │   │   ├── _index.md    ← 섹션 인덱스 (필수!)
 │   │   │   └── base64.md    ← 실제 포스트
 │   │   └── ...
 │   ├── programming/
@@ -80,15 +82,15 @@ studynote/
 │       ├── _index.md
 │       └── zola_pagefind.md
 ├── templates/               ← Tera 템플릿
-│   ├── base.html            ← 기본 레이아웃
+│   ├── base.html            ← 기본 레이아웃 (site-wide JS 포함)
 │   ├── index.html           ← 홈 페이지 템플릿
 │   ├── page.html            ← 포스트 페이지
 │   ├── section.html         ← 섹션(폴더) 페이지
-│   └── icons/               ← SVG 아이콘
+│   └── icons/               ← SVG 아이콘 include용
 │       ├── search.html
 │       ├── copy.html
 │       └── ...
-├── static/                  ← 정적 파일 (Zola가 public/으로 복사)
+├── static/                  ← 정적 파일 (Zola가 public/으로 그대로 복사)
 │   └── assets/css/style.css
 ├── package.json
 └── .github/workflows/deploy.yml
@@ -114,7 +116,8 @@ highlight_code = false       # highlight.js 등 외부 라이브러리 사용 �
 github_username = "username"
 ```
 
-> **핵심**: `base_url`에 `/` 뒤 경로(repo명)까지 포함해야 정적 파일 경로가 올바르게 생성된다.
+> **핵심**: `base_url`에 레포 이름까지 포함해야 정적 파일 경로가 올바르게 생성된다.
+> 예: `"https://username.github.io"` (❌) → `"https://username.github.io/studynote"` (✅)
 
 ### 4.2 콘텐츠 파일 작성 (TOML front matter)
 
@@ -132,7 +135,7 @@ categories = "cs_fundamentals-network"
 마크다운 본문...
 ```
 
-**섹션 인덱스 파일** (`_index.md`):
+**섹션 인덱스 파일 (`_index.md`)** — 모든 콘텐츠 디렉토리에 필수:
 ```toml
 +++
 title = "Network"
@@ -165,18 +168,24 @@ sort_by = "title"
   </main>
 
   <script>
-    // Pagefind lazy load
+    // Pagefind lazy load — focus 시 초기화
+    var pagefind = null;
     async function initPagefind() {
+      if (pagefind) return;
       try {
-        const pf = await import('{ { get_url(path="/pagefind/pagefind.js") } }');
-        return pf;
-      } catch(e) { return null; }
+        // Zola get_url()이 실제 배포 URL을 삽입 (서브경로 포함)
+        pagefind = await import('{ { get_url(path="/pagefind/pagefind.js") } }');
+      } catch(e) { console.log('Pagefind not available'); }
     }
-    // ... 검색 로직
+    document.getElementById('pagefind-search')
+      .addEventListener('focus', initPagefind);
   </script>
 </body>
 </html>
 ```
+
+> **중요**: 위 코드에서 `{ { ... } }` (공백 포함)는 실제 파일에서 `{ { ... } }`로 작성해야 한다.
+> 이 문서 파일 자체가 Zola로 빌드되므로 `{ { } }`를 직접 쓰면 shortcode로 오인식된다.
 
 **`templates/page.html`** (포스트 페이지):
 ```html
@@ -184,19 +193,42 @@ sort_by = "title"
 
 {% block content %}
 <article class="post-content">
-  { { page.content | safe } }   {# { { content } } 가 아닌 page.content | safe #}
+  { { page.content | safe } }
 </article>
 {% endblock content %}
 ```
+
+Liquid → Tera 핵심 차이:
+
+| Jekyll Liquid | Zola Tera | 비고 |
+|---|---|---|
+| `content` | `page.content \| safe` | 필수 변경 |
+| `'/' \| relative_url` | `get_url(path='/')` | URL 생성 |
+| `page.date \| date: "%Y"` | `page.date \| date(format="%Y")` | 필터 문법 |
+| `include icons/copy.html` | `include "icons/copy.html"` | 따옴표 추가 |
+| `site.posts` | `section.pages` | 섹션 내 페이지 |
+| `site.baseurl` | `config.base_url` | 설정값 접근 |
 
 **`templates/section.html`** (섹션/폴더 페이지):
 ```html
 {% extends "base.html" %}
 
 {% block content %}
-<div class="folder-list">
 
-  {# 하위 섹션(폴더) #}
+{# 브레드크럼: section.ancestors로 부모 섹션 자동 생성 #}
+<div class="breadcrumb">
+  <a href="{ { get_url(path='/') } }">root</a>
+  {% for ancestor in section.ancestors %}
+    {% set anc = get_section(path=ancestor) %}
+    <span>/</span>
+    <a href="{ { anc.permalink } }">{ { anc.title } }</a>
+  {% endfor %}
+  <span>/</span>
+  <span>{ { section.title } }</span>
+</div>
+
+<div class="folder-list">
+  {# 하위 섹션(폴더) - Jekyll site.html_pages 루프 불필요 #}
   {% for sub_path in section.subsections %}
     {% set sub = get_section(path=sub_path) %}
     <a href="{ { sub.permalink } }">📁 { { sub.title } }</a>
@@ -206,17 +238,17 @@ sort_by = "title"
   {% for page in section.pages %}
     <a href="{ { page.permalink } }">📄 { { page.title } }</a>
   {% endfor %}
-
 </div>
+
 {% endblock content %}
 ```
 
-**`templates/index.html`** (홈 페이지 - 최신글 3개):
+**`templates/index.html`** (홈 페이지 - 최신글):
 ```html
 {% extends "base.html" %}
 
 {% block content %}
-{# 각 섹션에서 페이지를 수집해 최신 3개 표시 #}
+{# 각 섹션을 명시적으로 불러와 합산 (Tera는 전역 site.posts 없음) #}
 {%- set dl = get_section(path="cs_fundamentals/digital_logic/_index.md") -%}
 {%- set nw = get_section(path="cs_fundamentals/network/_index.md") -%}
 {%- set rust = get_section(path="programming/rust/_index.md") -%}
@@ -229,17 +261,6 @@ sort_by = "title"
 {% endfor %}
 {% endblock content %}
 ```
-
-> **Tera vs Liquid 주요 차이점**
-
-| Jekyll Liquid | Zola Tera | 비고 |
-|---|---|---|
-| `{ { content } }` | `{ { page.content \| safe } }` | 필수 변경 |
-| `{ { '/' \| relative_url } }` | `{ { get_url(path='/') } }` | URL 생성 |
-| `{ { page.date \| date: "%Y" } }` | `{ { page.date \| date(format="%Y") } }` | 필터 문법 |
-| `{% include icons/copy.html %}` | `{% include "icons/copy.html" %}` | 따옴표 추가 |
-| `site.posts` | `section.pages` | 섹션 내 페이지 |
-| `site.baseurl` | `config.base_url` | 설정값 접근 |
 
 ### 4.4 package.json
 
@@ -303,12 +324,12 @@ jobs:
 
       - name: Build Pagefind Index
         run: npx pagefind --site public --glob "**/*.html" --force-language ko
-        # → public/pagefind/ 생성
+        # → public/pagefind/ 생성 (이 단계 후에 배포해야 검색 동작)
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: public            # Zola 출력 디렉토리
+          path: public            # ← Zola 출력 디렉토리 (Jekyll의 _site/ 아님!)
 
   deploy:
     environment:
@@ -322,7 +343,7 @@ jobs:
         uses: actions/deploy-pages@v4
 ```
 
-**흐름 요약**:
+전체 빌드 흐름:
 ```
 push to main
     ↓
@@ -332,7 +353,7 @@ Pagefind 인덱싱 → public/pagefind/pagefind.js 생성
     ↓
 public/ 전체 GitHub Pages 배포
     ↓
-브라우저에서 import('/studynote/pagefind/pagefind.js') 로 검색
+브라우저: import('/studynote/pagefind/pagefind.js') → 검색 동작
 ```
 
 ---
@@ -341,8 +362,8 @@ public/ 전체 GitHub Pages 배포
 
 ### 5.1 포스트 front matter 변환
 
+Jekyll YAML:
 ```yaml
-# Jekyll YAML (before)
 ---
 layout: note
 title: "Base64 인코딩"
@@ -352,8 +373,8 @@ original_path: cs_fundamentals/network
 ---
 ```
 
+Zola TOML:
 ```toml
-# Zola TOML (after)
 +++
 title = "Base64 인코딩"
 date = 2026-02-27
@@ -364,28 +385,28 @@ original_path = "cs_fundamentals/network"
 +++
 ```
 
-> **자동 변환 스크립트 (Python)**:
-> ```python
-> import os, re
->
-> def convert(content):
->     m = re.match(r'^---\n(.+?)\n---\n', content, re.DOTALL)
->     if not m: return content
->     fm = {}
->     for line in m.group(1).split('\n'):
->         if ':' in line:
->             k, _, v = line.partition(':')
->             fm[k.strip()] = v.strip()
->     toml = ['+++',
->             f'title = "{fm.get("title","")}"',
->             f'date = {fm.get("date","")}',
->             '[extra]']
->     for k in ('categories', 'original_path'):
->         if k in fm:
->             toml.append(f'{k} = "{fm[k]}"')
->     toml.append('+++')
->     return '\n'.join(toml) + '\n' + content[m.end():]
-> ```
+자동 변환 스크립트 (Python):
+```python
+import os, re
+
+def convert(content):
+    m = re.match(r'^---\n(.+?)\n---\n', content, re.DOTALL)
+    if not m: return content
+    fm = {}
+    for line in m.group(1).split('\n'):
+        if ':' in line:
+            k, _, v = line.partition(':')
+            fm[k.strip()] = v.strip()
+    toml = ['+++',
+            f'title = "{fm.get("title","")}"',
+            f'date = {fm.get("date","")}',
+            '[extra]']
+    for k in ('categories', 'original_path'):
+        if k in fm:
+            toml.append(f'{k} = "{fm[k]}"')
+    toml.append('+++')
+    return '\n'.join(toml) + '\n' + content[m.end():]
+```
 
 ### 5.2 파일 이동
 
@@ -396,32 +417,38 @@ _posts/2026-02-27-trait.md   →  content/programming/rust/trait.md
 
 - 날짜 접두사(`2026-02-27-`) 제거
 - `_posts/` 대신 섹션 디렉토리 내부로 이동
-- `_index.md` (섹션 인덱스 파일) 각 디렉토리에 추가
+- `_index.md` (섹션 인덱스) 각 디렉토리에 추가
 
 ### 5.3 레이아웃 파일 변환
 
-| Jekyll (`_layouts/`) | Zola (`templates/`) |
-|---|---|
-| `default.html` | `base.html` |
-| `note.html` | `page.html` |
-| `folder.html` | `section.html` |
-| `_includes/icons/` | `templates/icons/` |
+| Jekyll | Zola | 비고 |
+|---|---|---|
+| `_layouts/default.html` | `templates/base.html` | 전체 레이아웃 |
+| `_layouts/note.html` | `templates/page.html` | 포스트 |
+| `_layouts/folder.html` | `templates/section.html` | section.subsections로 단순화 |
+| `_includes/icons/` | `templates/icons/` | 그대로 복사 |
+| `assets/` | `static/assets/` | Zola가 public/으로 복사 |
 
 ---
 
 ## 6. Pagefind JavaScript 연동
 
-검색 UI는 순수 JavaScript로 구현한다. Zola 템플릿(`base.html`)에 포함:
+검색 UI 전체 구현 코드 (templates/base.html 내 script 블록):
 
 ```js
+var sInput = document.getElementById('pagefind-search');
+var sDrop  = document.getElementById('pagefind-dropdown');
+var sWrap  = document.getElementById('header-search-wrap');
 var pagefind = null;
 var searchCache = {};
+var activeIdx = -1;
 
-// Focus 시 한 번만 lazy load
+// 검색 입력창 focus 시 lazy load (첫 focus 때 한번만 로드)
 async function initPagefind() {
   if (pagefind) return;
   try {
-    pagefind = await import('{ { get_url(path="/pagefind/pagefind.js") } }');
+    // Zola 템플릿에서는 get_url(path="/pagefind/pagefind.js") 로 작성
+    pagefind = await import('https://username.github.io/studynote/pagefind/pagefind.js');
   } catch(e) {
     console.log('Pagefind not available (dev mode)');
   }
@@ -429,169 +456,95 @@ async function initPagefind() {
 
 async function search(query) {
   if (!query || !pagefind) return;
-  if (searchCache[query]) { renderResults(searchCache[query]); return; }
+  if (searchCache[query]) { renderResults(searchCache[query], query); return; }
   const result = await pagefind.search(query);
   const data = await Promise.all(result.results.slice(0,5).map(r => r.data()));
   searchCache[query] = data;
-  renderResults(data);
+  renderResults(data, query);
 }
 
-function renderResults(results) {
-  const drop = document.getElementById('pagefind-dropdown');
+function renderResults(results, query) {
   if (!results.length) {
-    drop.innerHTML = '<div class="pf-empty">No results</div>';
+    sDrop.innerHTML = '<div class="pf-empty">No results</div>';
   } else {
-    drop.innerHTML = results.map(r =>
-      `<a class="pf-result" href="${r.url}">${r.meta.title}</a>`
-    ).join('');
+    const frag = document.createDocumentFragment();
+    results.forEach(r => {
+      const a = document.createElement('a');
+      a.className = 'pf-result';
+      a.href = r.url;
+      a.textContent = r.meta.title || 'Untitled';
+      frag.appendChild(a);
+    });
+    sDrop.textContent = '';
+    sDrop.appendChild(frag);
   }
-  drop.classList.add('open');
+  sDrop.classList.add('open'); // 콘텐츠 채운 뒤 마지막에 열기 (빈 박스 방지)
 }
 
-// 방향키 네비게이션
-document.getElementById('pagefind-search').addEventListener('keydown', function(e) {
-  const items = Array.from(document.querySelectorAll('.pf-result'));
-  let idx = items.findIndex(el => el.classList.contains('pf-active'));
-  if (e.key === 'ArrowDown') { idx = Math.min(idx+1, items.length-1); }
-  else if (e.key === 'ArrowUp') { idx = Math.max(idx-1, 0); }
-  else if (e.key === 'Enter' && idx >= 0) {
-    window.location.href = items[idx].href; return;
+// 방향키 + Enter 네비게이션
+sInput.addEventListener('keydown', function(e) {
+  const items = Array.from(sDrop.querySelectorAll('.pf-result'));
+  if (e.key === 'ArrowDown') { activeIdx = Math.min(activeIdx+1, items.length-1); }
+  else if (e.key === 'ArrowUp') { activeIdx = Math.max(activeIdx-1, 0); }
+  else if (e.key === 'Enter' && activeIdx >= 0) {
+    window.location.href = items[activeIdx].href; return;
   }
-  items.forEach(el => el.classList.remove('pf-active'));
-  if (items[idx]) items[idx].classList.add('pf-active');
+  items.forEach((el,i) => el.classList.toggle('pf-active', i === activeIdx));
 });
+
+// 200ms debounce
+var timer;
+sInput.addEventListener('focus', initPagefind);
+sInput.addEventListener('input', function() {
+  activeIdx = -1;
+  clearTimeout(timer);
+  timer = setTimeout(() => search(this.value.trim()), 200);
+});
+window.onclick = e => { if (!sWrap.contains(e.target)) sDrop.classList.remove('open'); };
 ```
 
 ---
 
-## 7. 주의사항 / 트러블슈팅
+## 7. Rust가 클라이언트 사이드에서 유리한 이유
 
-### ⚠️ base_url 경로 필수 포함
+Pagefind는 **Rust → WebAssembly(WASM)** 로 컴파일된다.
 
-```toml
-# ❌ 잘못됨: 경로 누락
-base_url = "https://username.github.io"
+### JavaScript 검색 vs Rust + WASM 검색
 
-# ✅ 올바름: 레포 이름까지 포함
-base_url = "https://username.github.io/studynote"
-```
+| 비교 항목 | lunr.js / Fuse.js (JS) | Pagefind (Rust WASM) |
+|-----------|------------------------|----------------------|
+| **인덱스 로딩** | 전체 인덱스를 한 번에 로드 | 검색어별 청크 1개만 로드 |
+| **메모리 사용** | 인덱스 크기 = 메모리 | 검색 1회당 ~50KB 고정 |
+| **GC 중단** | GC Pause로 지연 가능 | Rust: GC 없음 |
+| **정밀도** | 단순 문자열 매칭 | 역색인(Inverted Index) |
+| **10만 글 지원** | 수백 MB → 브라우저 OOM | 청크 로딩으로 항상 ~50KB |
 
-`get_url(path="assets/css/style.css")` 가 `https://username.github.io/studynote/assets/css/style.css`를 생성해야 한다.
-
-### ⚠️ public/ 디렉토리를 artifact로 업로드
-
-```yaml
-# ❌ Jekyll 잔재: _site/ 업로드
-- uses: actions/upload-pages-artifact@v3
-  with:
-    path: _site   # 틀림
-
-# ✅ Zola 출력: public/ 업로드
-- uses: actions/upload-pages-artifact@v3
-  with:
-    path: public  # 올바름
-```
-
-### ⚠️ Tera에서 전역 페이지 목록 없음
-
-Zola의 Tera 템플릿은 `site.posts` 같은 전역 목록을 지원하지 않는다. 홈 페이지에서 최신 글을 보여주려면 각 섹션을 명시적으로 불러와 합쳐야 한다:
-
-```tera
-{%- set s1 = get_section(path="cs_fundamentals/network/_index.md") -%}
-{%- set s2 = get_section(path="programming/rust/_index.md") -%}
-{%- set all = s1.pages | concat(with=s2.pages) | sort(attribute="date") | reverse -%}
-{% for page in all | slice(end=3) %}...{% endfor %}
-```
-
-### ⚠️ 로컬에서 검색 동작 안 함
-
-`zola serve`로 로컬 실행 시 Pagefind 인덱스가 없으므로 검색 불가.
-로컬 검색 테스트:
-```bash
-zola build && npx pagefind --site public --force-language ko
-cd public && python3 -m http.server 8080
-```
-
-### ⚠️ 섹션 `_index.md` 누락 시 빌드 에러
-
-```
-Error: Failed to build site: content/cs_fundamentals/network is not a section
-```
-모든 콘텐츠 디렉토리에 `_index.md`가 있어야 한다:
-```bash
-touch content/cs_fundamentals/network/_index.md
-```
-
----
-
-## 8. 빌드 서버 성능 비교 (SSG 도구 비교)
-
-| 항목 | Jekyll (Ruby) | Hugo (Go) | **Zola (Rust)** |
-|------|--------------|-----------|-----------------|
-| **빌드 시간 (100글)** | ~10초 | ~0.5초 | **~0.3초** |
-| **빌드 시간 (10,000글)** | ~5분 | ~5초 | **~3초** |
-| **빌드 시간 (100,000글)** | 2~4시간 | ~1분 | **~2분** |
-| **Actions 콜드 스타트** | +15초 (Ruby 설치) | +3초 | **+3초** |
-| **메모리 사용 (빌드 중)** | 높음 (Ruby GC) | 낮음 | **매우 낮음** |
-| **의존성** | Ruby + Bundler | Go 바이너리 | **단일 바이너리** |
-| **병렬 처리** | 제한적 | ✅ | **✅ Rayon 기반** |
-
-> Zola는 Rust의 **Rayon** 라이브러리로 CPU 코어 수만큼 병렬 렌더링을 수행한다. 4코어 머신에서 Hugo 대비 비슷하거나 빠른 속도를 낸다.
-
----
-
-## 8-1. Rust가 클라이언트 사이드에서 유리한 이유 (Pagefind 기준)
-
-Pagefind는 **Rust → WebAssembly(WASM)** 로 컴파일된다. 브라우저에서 실행되는 검색 엔진이 왜 Rust/WASM인지가 핵심이다.
-
-### 왜 JavaScript가 아닌 Rust + WASM인가?
-
-| 비교 항목 | JavaScript 검색 (lunr.js, Fuse.js) | Rust + WASM (Pagefind) |
-|-----------|-------------------------------------|------------------------|
-| **인덱스 로딩** | 전체 인덱스를 한 번에 로드 | **청크 단위 지연 로딩** |
-| **메모리 사용** | 인덱스 크기 = 메모리 사용 | **검색어별 필요한 청크만** |
-| **실행 속도** | JS 엔진 JIT에 의존 | **WASM: 네이티브에 가까운 속도** |
-| **GC 중단** | GC Pause로 검색 지연 가능 | **Rust: GC 없음, 일정한 응답속도** |
-| **정밀도** | 단순 문자열 매칭 위주 | **역색인(Inverted Index) 기반** |
-| **글 10만 개 지원** | 인덱스 수백 MB → 브라우저 OOM | **청크 로딩으로 수 MB만 사용** |
-
-### 클라이언트 사이드 메모리 사용량 비교
+### 클라이언트 사이드 메모리 비교
 
 | 검색 도구 | 글 1,000개 | 글 10,000개 | 글 100,000개 |
 |-----------|-----------|------------|------------|
-| **lunr.js** | ~5MB (전체 로드) | ~50MB ❌ | 수백 MB → 크래시 ❌ |
-| **Fuse.js** | ~3MB (전체 로드) | ~30MB ❌ | 수백 MB → 크래시 ❌ |
+| **lunr.js** | ~5MB | ~50MB ❌ | 수백 MB → 크래시 ❌ |
+| **Fuse.js** | ~3MB | ~30MB ❌ | 수백 MB → 크래시 ❌ |
 | **Pagefind (WASM)** | **~50KB** | **~50KB** | **~50KB** |
 
-> Pagefind의 런타임 메모리가 글 수와 무관하게 일정한 이유: **검색어에 해당하는 인덱스 청크만 네트워크에서 가져와 사용 후 버린다.**
+메모리가 글 수와 무관한 이유: **검색어에 해당하는 인덱스 청크만 네트워크에서 가져와 사용한다.**
 
-### Rust WASM의 구체적 이점
-
+역색인 구조:
 ```
-사용자가 "rust"를 검색
+빌드 타임:
+  "rust"    → [문서 B (8%), 문서 D (20%)]
+  "base64"  → [문서 A (15%)]
+  "network" → [문서 A (5%), 문서 C (12%)]
+     ↓
+  index_r.pf_index  ("r"로 시작하는 모든 단어 역색인, ~10KB)
+  index_n.pf_index  ("n"으로 시작, ~10KB)
+  ...
 
-JavaScript 검색 엔진:
-  → 전체 index.json (50MB) 메모리에 상주
-  → 50MB 중 "rust" 관련 부분 순회
-  → 결과 반환
-
-Pagefind (Rust WASM):
-  → "r"로 시작하는 청크 파일 1개 (~10KB) 다운로드
-  → WASM 바이너리에서 역색인 조회 (네이티브 속도)
-  → 결과 반환
-  → 청크 캐시 (재검색 시 재다운로드 없음)
+런타임:
+  "rust" 입력 → index_r.pf_index 1개만 fetch (~10KB)
+  → WASM에서 역색인 조회 → 결과 반환
   → 총 메모리: ~50KB
 ```
-
-### WASM이 JS보다 빠른 이유
-
-| 항목 | JavaScript | WebAssembly |
-|------|-----------|-------------|
-| **파싱** | 소스코드 → 파싱 → AST → JIT | **사전 컴파일된 바이너리 직접 실행** |
-| **최적화** | 런타임 JIT 최적화 (불안정) | **AOT 최적화 (일정한 성능)** |
-| **메모리 모델** | GC가 관리 (Pause 발생) | **선형 메모리, 수동 관리 (Pause 없음)** |
-| **연산 집약 작업** | 느림 | **C/C++ 수준 속도** |
-| **검색 벤치마크** | 기준값 1.0x | **2~10x 빠름** |
 
 ### 실제 검색 응답속도 비교 (글 10,000개 기준)
 
@@ -599,53 +552,177 @@ Pagefind (Rust WASM):
 |------|--------------|-------------|--------|
 | **lunr.js** | 200~500ms (인덱스 로딩) | ~10ms | ~50MB |
 | **Fuse.js** | 300~800ms (인덱스 로딩) | ~20ms | ~30MB |
-| **Pagefind** | **50~150ms** (청크 다운) | **<5ms** | **~1MB** |
-
-### 왜 Rust → WASM인가? (Go, C++ 대비)
-
-Pagefind가 Rust를 선택한 이유:
-
-| 이유 | 설명 |
-|------|------|
-| **Zero-cost abstractions** | 고수준 추상화가 런타임 오버헤드 없음 |
-| **메모리 안전성** | GC 없이도 메모리 오류(dangling pointer, buffer overflow) 컴파일 타임 차단 |
-| **wasm-pack 생태계** | Rust → WASM 변환 도구체인이 가장 성숙 |
-| **크기 최적화** | `wasm-opt` 등을 통해 WASM 바이너리 최소화 가능 |
-| **병렬 처리** | `rayon`, `tokio`로 인덱싱 단계 병렬화 |
+| **Pagefind** | **50~150ms** (청크 fetch) | **<5ms** | **~1MB** |
 
 ---
 
-## 9. 기술사적 판단
+## 8. 빌드 도구 비교 (SSG)
 
-**현재 (2026) 최적 조합**: 소규모~중규모 기술 블로그/문서 사이트에서는 **Zola + Pagefind + GitHub Pages**가 비용 0원으로 사용할 수 있는 가장 완성도 높은 스택이다.
-
-| 규모 | 추천 |
-|------|------|
-| ~1,000글 | Jekyll 또는 Zola 모두 OK |
-| 1,000~50,000글 | **Zola 강력 추천** |
-| 50,000글+ | **Zola 필수** (Jekyll로는 사실상 불가) |
-| 검색 실시간성 필요 | Algolia / Meilisearch |
+| 항목 | Jekyll (Ruby) | Hugo (Go) | **Zola (Rust)** |
+|------|--------------|-----------|-----------------||
+| **빌드 시간 (100글)** | ~10초 | ~0.5초 | **~0.3초** |
+| **빌드 시간 (10,000글)** | ~5분 | ~5초 | **~3초** |
+| **빌드 시간 (100,000글)** | 2~4시간 | ~1분 | **~2분** |
+| **Actions 콜드 스타트** | +15초 (Ruby 설치) | +3초 | **+3초** |
+| **메모리 사용 (빌드 중)** | 높음 (Ruby GC) | 낮음 | **매우 낮음** |
+| **병렬 처리** | 제한적 | ✅ | **✅ Rayon** |
+| **의존성** | Ruby + Bundler | Go 바이너리 | **단일 바이너리** |
+| **GitHub Pages 호환** | ✅ 공식 네이티브 | ✅ Actions | **✅ Actions** |
 
 ---
 
-## 10. 미래 전망
+## 9. 트러블슈팅 (실제 발생한 문제 전부)
 
-| 트렌드 | 설명 |
-|--------|------|
-| **Rust 생태계 확장** | Zola, Pagefind 모두 Rust 기반으로 지속 성장 중 |
-| **WASM 검색 고도화** | 벡터 임베딩 기반 시맨틱 검색과 결합 가능 |
-| **AI 생성 콘텐츠** | 대량 글 자동 생성 시 빠른 빌드 도구 필수 |
-| **Edge 배포** | Cloudflare Pages 등과 조합해 CDN 엣지 배포 |
+### ⚠️ 트러블 1: Zola 빌드 실패 — Shortcode 오인식
+
+**오류 메시지**:
+```
+Error: Failed to build site
+Reason: Found usage of a shortcode named `get_url` but we do not know about it.
+```
+
+**원인**: Zola 콘텐츠 파일(`.md`) 안에서 `{ { get_url(...) } }` 형태가 있으면, 코드 블록 내부라도 Zola가 shortcode 호출로 인식해 에러를 낸다. Tera 문법(템플릿)을 설명하는 문서를 작성할 때 특히 주의.
+
+**해결**: `{ { } }` 안에 공백을 추가해서 shortcode 패턴에서 벗어나게 이스케이프
+
+```diff
+- { { get_url(path='/') } }
++ { { get_url(path='/') } }
+```
+
+또는 Python 스크립트로 일괄 처리:
+```python
+import re
+content = re.sub(r'(?<!\$)\{\{', '{ {', content)
+content = re.sub(r'\}\}', '} }', content)
+content = content.replace('${{', '${{')  # GitHub Actions 표현식 복원
+```
+
+> 이 문제로 Run #25, #26이 연속 실패 → Pagefind 인덱스가 배포되지 않아 검색 결과 0건이 됐다.
+
+---
+
+### ⚠️ 트러블 2: 검색 결과 0건 (pagefind.js 404)
+
+**현상**: 검색창에 무엇을 입력해도 항상 "No results" 표시. 콘솔에 `Pagefind not available` 반복 출력.
+
+**원인**: GitHub Actions 빌드가 실패하거나, Pagefind 인덱싱 단계가 스킵되면 `public/pagefind/` 디렉토리가 생성되지 않은 채 배포됨.
+
+**진단**:
+1. Actions 탭에서 최근 워크플로 상태 확인
+2. `build` 잡의 **"Build Pagefind Index"** 스텝이 성공했는지 확인
+3. `https://<user>.github.io/<repo>/pagefind/pagefind.js` 직접 접속 → 200 OK 여부 확인
+
+**해결**: 빌드 실패 원인 수정 후 재배포. 해결 순서:
+```
+1. 빌드 실패 원인 파악 (Actions 로그)
+2. 원인 수정 후 push
+3. Actions에서 "Build Pagefind Index" 스텝 성공 확인
+4. pagefind.js URL 200 OK 확인
+5. 실서버에서 검색 동작 확인
+```
+
+---
+
+### ⚠️ 트러블 3: base_url 경로 누락
+
+**오류**: CSS/JS 등 정적 파일 경로가 `/studynote/assets/css/style.css`가 아닌 `/assets/css/style.css`로 생성됨 (404)
+
+```toml
+# ❌ 잘못됨: 서브경로 누락
+base_url = "https://username.github.io"
+
+# ✅ 올바름: 레포 이름까지 포함
+base_url = "https://username.github.io/studynote"
+```
+
+---
+
+### ⚠️ 트러블 4: `public/` 대신 `_site/` 업로드
+
+Jekyll에서 마이그레이션 시 artifact 경로를 바꾸지 않은 경우:
+
+```yaml
+# ❌ Jekyll 잔재
+- uses: actions/upload-pages-artifact@v3
+  with:
+    path: _site
+
+# ✅ Zola 출력
+- uses: actions/upload-pages-artifact@v3
+  with:
+    path: public
+```
+
+---
+
+### ⚠️ 트러블 5: `_index.md` 누락 시 빌드 에러
+
+```
+Error: content/cs_fundamentals/network is not a section
+(or is not indexed)
+```
+
+**원인**: 콘텐츠 하위 디렉토리에 `_index.md`가 없으면 Zola가 섹션으로 인식하지 못함.
+
+**해결**: 모든 콘텐츠 디렉토리에 `_index.md` 추가:
+```bash
+# 일괄 생성 예시
+for dir in content/cs_fundamentals/*/; do
+  echo '+++\ntitle = "Section"\n+++' > "${dir}_index.md"
+done
+```
+
+---
+
+### ⚠️ 트러블 6: 로컬에서 검색 동작 안 함
+
+`zola serve`는 Pagefind 인덱스를 생성하지 않으므로 로컬에서 검색 불가.
+
+**로컬 검색 테스트 방법**:
+```bash
+zola build && npx pagefind --site public --force-language ko
+cd public && python3 -m http.server 8080
+# → http://localhost:8080 에서 검색 테스트
+```
+
+---
+
+### ⚠️ 트러블 7: `pages-build-deployment` 실패 무시
+
+GitHub Pages 설정에서 Jekyll 빌더가 기본 활성화된 경우, 우리 Zola Actions와 별도로 `pages-build-deployment` 잡이 자동 실행되어 실패한다. **이건 무시해도 된다.** 우리 `Build and Deploy (Zola)` 워크플로가 이미 배포를 담당하고 있다.
+
+혼란을 피하려면 GitHub Settings → Pages에서 Source를 "GitHub Actions"로 명시 설정.
+
+---
+
+## 10. 성능 정리
+
+| 규모 | Jekyll | **Zola** | Pagefind 클라이언트 메모리 |
+|------|--------|---------|--------------------------|
+| ~1,000글 | OK | OK | ~50KB |
+| ~10,000글 | 느림 | **빠름** | ~50KB |
+| ~50,000글 | 매우 느림 | **빠름** | ~50KB |
+| ~100,000글 | 사실상 불가 | **~2분** | ~50KB |
+
+---
+
+## 11. 기술 선택 가이드
+
+| 상황 | 추천 |
+|------|------|
+| ~1,000글, 마이그레이션 비용 부담 | Jekyll 유지 |
+| 1,000~50,000글 목표 | **Zola 강력 추천** |
+| 50,000글+ 목표 | **Zola 필수** |
+| 실시간 검색, 동적 데이터 | Algolia / Meilisearch |
 
 ---
 
 ## 🧒 어린이를 위한 설명
 
-### 🏗️ 비유: 레고 + 도서관 색인
-
-- **Zola (Rust)**: 설계도(마크다운)를 보고 레고 집(HTML)을 초고속으로 완성하는 로봇. Rust로 만들어서 거의 쉬지 않고 일한다.
-- **Pagefind**: 레고 집이 완성된 후, 집 안 모든 방을 돌아다니며 "이 방에는 '네트워크'라는 단어가 있어!" 라고 색인 카드를 만드는 도서관 사서.
-- **GitHub Actions**: 새 레고 설계도가 올라올 때마다 자동으로 로봇(Zola)을 깨우고, 사서(Pagefind)를 불러 색인을 갱신한 뒤, 전 세계 방문자에게 집을 공개하는 자동화 시스템.
+- **Zola (Rust)**: 설계도(마크다운)를 보고 레고 집(HTML)을 초고속으로 완성하는 Rust 로봇.
+- **Pagefind**: 집 완성 후 모든 방을 돌며 "이 방엔 'network' 단어가 있어!"라고 색인 카드를 만드는 사서. 방이 100만 개여도 원하는 단어 해당 서랍만 열어본다 → 항상 빠르고 메모리 효율적.
+- **GitHub Actions**: 새 설계도가 올라올 때마다 자동으로 Zola 로봇을 깨우고, Pagefind 사서를 불러 색인 갱신 후 전 세계에 공개하는 자동화 시스템.
 
 ---
 
