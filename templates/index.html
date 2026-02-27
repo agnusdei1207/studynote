@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="recent-posts">
+    <div class="post-feed">
+        {%- set dl = get_section(path="cs_fundamentals/digital_logic/_index.md") -%}
+        {%- set nw = get_section(path="cs_fundamentals/network/_index.md") -%}
+        {%- set os = get_section(path="cs_fundamentals/operating_system/_index.md") -%}
+        {%- set ca = get_section(path="cs_fundamentals/computer_architecture/_index.md") -%}
+        {%- set dc = get_section(path="cs_fundamentals/data_communication/_index.md") -%}
+        {%- set rust = get_section(path="programming/rust/_index.md") -%}
+        {%- set devops = get_section(path="devops/_index.md") -%}
+        {%- set all_pages = dl.pages | concat(with=nw.pages) | concat(with=os.pages) | concat(with=ca.pages) |
+        concat(with=dc.pages) | concat(with=rust.pages) | concat(with=devops.pages) -%}
+        {%- set sorted = all_pages | sort(attribute="date") | reverse -%}
+        {% for page in sorted | slice(end=3) %}
+        <div class="post-card-wrapper">
+            <a class="post-card" href="{{ page.permalink }}">
+                <div class="pc-meta">
+                    <span class="pc-avatar">{{ page.title | truncate(length=1, end="") }}</span>
+                    <span>{{ page.date | date(format="%Y.%m.%d") }}</span>
+                    {% if page.extra.categories %}
+                    <span style="opacity:0.4">·</span>
+                    <span>{{ page.extra.categories | replace(from="-", to=" ") }}</span>
+                    {% endif %}
+                </div>
+                <div class="pc-title">{{ page.title }}</div>
+                {% if page.summary %}
+                <div class="pc-excerpt">{{ page.summary | safe | striptags | truncate(length=100) }}</div>
+                {% endif %}
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+{% endblock content %}

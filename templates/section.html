@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="breadcrumb">
+    <a href="{{ get_url(path='/') }}">root</a>
+    {% for ancestor in section.ancestors %}
+    {% set anc = get_section(path=ancestor) %}
+    <span class="breadcrumb-sep">/</span>
+    <a href="{{ anc.permalink }}">{{ anc.title }}</a>
+    {% endfor %}
+    <span class="breadcrumb-sep">/</span>
+    <span class="breadcrumb-current">{{ section.title }}</span>
+</div>
+
+{% if section.title %}
+<h1 style="font-size:1.5rem; font-weight:700; margin-bottom:24px;">{{ section.title }}</h1>
+{% endif %}
+
+{% if section.description %}
+<p style="color:var(--text-secondary); margin-bottom:24px; font-size:0.9rem;">{{ section.description }}</p>
+{% endif %}
+
+<div class="folder-list">
+
+    {# Subsections (subdirectories) #}
+    {% for sub_path in section.subsections %}
+    {% set sub = get_section(path=sub_path) %}
+    <a class="folder-item" href="{{ sub.permalink }}">
+        <span class="fi-icon">📁</span>
+        <span class="fi-name">{{ sub.title }}</span>
+        <span class="fi-meta">directory</span>
+    </a>
+    {% endfor %}
+
+    {# Pages in this section #}
+    {% for page in section.pages %}
+    <div class="folder-item-wrapper">
+        <a class="folder-item" href="{{ page.permalink }}">
+            <span class="fi-icon">📄</span>
+            <span class="fi-name">{{ page.title }}</span>
+            <span class="fi-meta">{{ page.date | date(format="%Y-%m-%d") }}</span>
+        </a>
+        <button class="card-copy-btn" data-url="{{ page.permalink }}" title="Copy content">
+            {% include "icons/copy.html" %}
+            {% include "icons/check.html" %}
+        </button>
+    </div>
+    {% endfor %}
+
+</div>
+
+<script>
+    document.querySelectorAll('.card-copy-btn').forEach(function (btn) {
+        btn.addEventListener('click', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            var url = this.dataset.url;
+            var btnEl = this;
+            fetch(url)
+                .then(function (res) { return res.text(); })
+                .then(function (html) {
+                    var parser = new DOMParser();
+                    var doc = parser.parseFromString(html, 'text/html');
+                    var content = doc.querySelector('.post-content');
+                    if (content) {
+                        var text = content.innerText || content.textContent;
+                        navigator.clipboard.writeText(text).then(function () {
+                            btnEl.classList.add('copied');
+                            setTimeout(function () { btnEl.classList.remove('copied'); }, 2000);
+                        });
+                    }
+                });
+        });
+    });
+</script>
+{% endblock content %}

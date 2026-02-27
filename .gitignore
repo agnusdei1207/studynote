@@ -1,4 +1,7 @@
-# Jekyll
+# Zola
+public/
+
+# Jekyll (legacy)
 _site/
 .sass-cache/
 .jekyll-cache/
@@ -17,12 +20,3 @@ Thumbs.db
 
 # Node
 node_modules/
-
-# Pagefind (generated at build time)
-_site/pagefind/
-
-# Jekyll
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata

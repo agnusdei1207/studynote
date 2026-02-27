@@ -1,0 +1,12 @@
+base_url = "https://agnusdei1207.github.io/studynote"
+title = "Study Note"
+description = "AI, Infra, DevSecOps, Cloud Native, Security"
+compile_sass = false
+build_search_index = false
+minify_html = false
+
+[markdown]
+highlight_code = false
+
+[extra]
+github_username = "agnusdei1207"
