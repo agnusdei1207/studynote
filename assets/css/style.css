@@ -39,7 +39,7 @@
     --highlight-text: hsl(var(--color-brand-dark));
 
     --radius: 0.6rem;
-    --max-width: 680px;
+    --max-width: 600px;
 }
 
 [data-theme="dark"] {
@@ -323,10 +323,6 @@ mark {
    FEED (Home)
    ============================================================ */
 .recent-posts {
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 0 24px;
     padding-top: 16px;
 }
 
