@@ -18,8 +18,8 @@
     --radius: 0.6rem;
 
     /* Semantic shortcuts */
-    --site-bg: #ffffff;
-    --header-bg: rgba(255, 255, 255, 0.85);
+    --site-bg: #fcfcfd;
+    --header-bg: rgba(252, 252, 253, 0.85);
     --glass-bg: rgba(255, 255, 255, 0.7);
     --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
     --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
@@ -40,9 +40,9 @@
     --accent: 158 64% 52%;
     /* lighter green for dark bg */
 
-    --site-bg: #09090b;
-    --header-bg: rgba(9, 9, 11, 0.85);
-    --glass-bg: rgba(9, 9, 11, 0.7);
+    --site-bg: #121214;
+    --header-bg: rgba(18, 18, 20, 0.85);
+    --glass-bg: rgba(18, 18, 20, 0.7);
 }
 
 /* ============================================================
