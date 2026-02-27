@@ -18,8 +18,8 @@
     --radius: 0.6rem;
 
     /* Semantic shortcuts */
-    --site-bg: #fcfcfd;
-    --header-bg: rgba(252, 252, 253, 0.85);
+    --site-bg: #f5f5f7;
+    --header-bg: rgba(245, 245, 247, 0.85);
     --glass-bg: rgba(255, 255, 255, 0.7);
     --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
     --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
