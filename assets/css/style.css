@@ -344,12 +344,11 @@ mark {
 .post-card {
     flex: 1;
     display: block;
-    padding: 28px 44px 28px 0;
-    margin-right: -44px;
-    padding-right: 44px;
+    padding: 28px 50px 28px 0;
     border-bottom: 1px solid var(--border-default);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     min-width: 0;
+    max-width: calc(100% - 40px);
 }
 
 .post-card:last-child {
@@ -396,6 +395,9 @@ mark {
     line-height: 1.25;
     margin-bottom: 10px;
     color: var(--text-primary);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .pc-excerpt {
