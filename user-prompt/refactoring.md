@@ -1,3 +1,7 @@
+---
+title: Refactoring Master Document
+---
+
 # ╔═══════════════════════════════════════════════════════════════╗
 # ║   UNIVERSAL REFACTORING MASTER DOCUMENT  v5.0               ║
 # ║   All languages · All sizes · Autonomous Agent Compatible   ║

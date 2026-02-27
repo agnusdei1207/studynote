@@ -62,6 +62,10 @@ defaults:
       path: "programming/rust/index.md"
     values:
       layout: "folder"
+  - scope:
+      path: "user-prompt/index.md"
+    values:
+      layout: "folder"
 
 exclude:
   - CLAUDE.md
@@ -71,7 +75,6 @@ exclude:
   - vendor
   - "*.log"
   - .playwright-mcp
-  - user-prompt
 
 plugins:
   - jekyll-feed
