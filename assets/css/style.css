@@ -306,8 +306,9 @@ mark {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 0.65rem;
+    font-size: 0.75rem;
     font-weight: 700;
+    line-height: 1;
     color: hsl(var(--muted-fg));
     flex-shrink: 0;
 }
