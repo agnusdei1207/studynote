@@ -484,3 +484,101 @@ mark {
 ::-webkit-scrollbar-thumb:hover {
     background: hsl(var(--ring));
 }
+
+/* ============================================================
+   FOLDER LIST
+   ============================================================ */
+.folder-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.folder-item-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.folder-item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 20px;
+    background: hsl(var(--card));
+    border: 1px solid hsl(var(--border));
+    border-radius: var(--radius);
+    transition: all 0.2s ease;
+}
+
+.folder-item:hover {
+    background: hsl(var(--muted) / 0.5);
+    border-color: hsl(var(--accent) / 0.3);
+}
+
+.fi-icon {
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.fi-name {
+    flex: 1;
+    font-weight: 500;
+    color: hsl(var(--fg));
+}
+
+.fi-meta {
+    font-size: 0.8rem;
+    color: hsl(var(--muted-fg));
+}
+
+/* ============================================================
+   COPY BUTTONS
+   ============================================================ */
+.copy-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 10px;
+    background: hsl(var(--muted) / 0.5);
+    border-radius: 6px;
+    color: hsl(var(--muted-fg));
+    font-size: 0.75rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.copy-btn:hover {
+    background: hsl(var(--accent) / 0.15);
+    color: hsl(var(--accent));
+}
+
+.card-copy-btn {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 8px;
+    background: hsl(var(--card));
+    border: 1px solid hsl(var(--border));
+    border-radius: 6px;
+    color: hsl(var(--muted-fg));
+    opacity: 0;
+    transition: all 0.2s ease;
+}
+
+.folder-item-wrapper:hover .card-copy-btn {
+    opacity: 1;
+}
+
+.card-copy-btn:hover {
+    background: hsl(var(--accent) / 0.15);
+    border-color: hsl(var(--accent) / 0.3);
+    color: hsl(var(--accent));
+}
+
+.card-copy-btn.copied {
+    background: hsl(var(--accent) / 0.2);
+    color: hsl(var(--accent));
+}

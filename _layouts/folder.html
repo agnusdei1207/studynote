@@ -49,11 +49,19 @@ layout: default
     {% assign p_parts = p.url | split: '/' %}
     {% assign page_parts = page.url | split: '/' %}
     {% if p_parts.size == page_parts.size %}
-    <a class="folder-item" href="{{ p.url | relative_url }}">
-        <span class="fi-icon">📄</span>
-        <span class="fi-name">{{ p.title | default: p.name }}</span>
-        <span class="fi-meta">{{ p.date | date: '%Y-%m-%d' }}</span>
-    </a>
+    <div class="folder-item-wrapper">
+        <a class="folder-item" href="{{ p.url | relative_url }}">
+            <span class="fi-icon">📄</span>
+            <span class="fi-name">{{ p.title | default: p.name }}</span>
+            <span class="fi-meta">{{ p.date | date: '%Y-%m-%d' }}</span>
+        </a>
+        <button class="card-copy-btn" data-url="{{ p.url | relative_url }}" title="Copy content">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+            </svg>
+        </button>
+    </div>
     {% endif %}
     {% endif %}
     {% endfor %}
@@ -61,11 +69,44 @@ layout: default
     {% comment %} Documents in collection {% endcomment %}
     {% for doc in site.documents %}
     {% if doc.url contains page.url %}
-    <a class="folder-item" href="{{ doc.url | relative_url }}">
-        <span class="fi-icon">📄</span>
-        <span class="fi-name">{{ doc.title | default: doc.name }}</span>
-        <span class="fi-meta">{{ doc.date | date: '%Y-%m-%d' }}</span>
-    </a>
+    <div class="folder-item-wrapper">
+        <a class="folder-item" href="{{ doc.url | relative_url }}">
+            <span class="fi-icon">📄</span>
+            <span class="fi-name">{{ doc.title | default: doc.name }}</span>
+            <span class="fi-meta">{{ doc.date | date: '%Y-%m-%d' }}</span>
+        </a>
+        <button class="card-copy-btn" data-url="{{ doc.url | relative_url }}" title="Copy content">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+            </svg>
+        </button>
+    </div>
     {% endif %}
     {% endfor %}
 </div>
+
+<script>
+document.querySelectorAll('.card-copy-btn').forEach(function(btn) {
+    btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var url = this.dataset.url;
+        var btnEl = this;
+        fetch(url)
+            .then(function(res) { return res.text(); })
+            .then(function(html) {
+                var parser = new DOMParser();
+                var doc = parser.parseFromString(html, 'text/html');
+                var content = doc.querySelector('.post-content');
+                if (content) {
+                    var text = content.innerText || content.textContent;
+                    navigator.clipboard.writeText(text).then(function() {
+                        btnEl.classList.add('copied');
+                        setTimeout(function() { btnEl.classList.remove('copied'); }, 2000);
+                    });
+                }
+            });
+    });
+});
+</script>
