@@ -54,7 +54,7 @@
     --color-border: 240 3.7% 15.9%;
     --color-focus-ring: 240 4.9% 83.9%;
 
-    --bg-base: #1a1714;
+    --bg-base: #181613;
     --bg-elevated: #161412;
     --bg-header: rgba(22, 20, 18, 0.88);
     --bg-glass: rgba(26, 24, 22, 0.7);
@@ -244,9 +244,12 @@ button {
 }
 
 #pagefind-dropdown .pagefind-ui__message {
-    padding: 16px 20px;
+    padding: 8px 16px;
     color: var(--text-secondary);
-    font-size: 0.9rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    background: var(--bg-muted);
+    border-bottom: 1px solid var(--border-default);
 }
 
 #pagefind-dropdown .pagefind-ui__result {

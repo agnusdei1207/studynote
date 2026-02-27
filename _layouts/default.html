@@ -91,6 +91,22 @@
     var sWrap = document.getElementById('header-search-wrap');
     var pagefindInstance = null;
 
+    // Simplify result message to just number
+    function simplifyMessage() {
+      var msg = sDrop.querySelector('.pagefind-ui__message');
+      if (msg) {
+        var text = msg.textContent;
+        var match = text.match(/^(\d+)/);
+        if (match) {
+          msg.textContent = match[1] + ' results';
+        }
+      }
+    }
+
+    // Observe message changes
+    var observer = new MutationObserver(simplifyMessage);
+    observer.observe(sDrop, { childList: true, subtree: true });
+
     // Initialize Pagefind
     async function initPagefind() {
       if (typeof PagefindUI !== 'undefined') {
