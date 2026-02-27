@@ -594,6 +594,31 @@ mark {
     color: hsl(var(--accent));
 }
 
+.copy-btn.copied {
+    background: hsl(var(--accent) / 0.2);
+    color: hsl(var(--accent));
+}
+
+.copy-btn.copied .icon-copy {
+    display: none;
+}
+
+.copy-btn .icon-check {
+    display: none;
+}
+
+.copy-btn.copied .icon-check {
+    display: inline;
+}
+
+.copy-btn.copied .copy-text::after {
+    content: 'ied!';
+}
+
+.copy-btn .copy-text::after {
+    content: '';
+}
+
 .card-copy-btn {
     position: absolute;
     right: 0;

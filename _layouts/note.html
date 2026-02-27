@@ -8,7 +8,7 @@ layout: default
             <path d="m15 18-6-6 6-6" />
         </svg>
         Back
-    </a1>
+    </a>
     <div class="pc-meta">
         {% if page.date %}
         <span>{{ page.date | date: "%B %d, %Y" }}</span>
@@ -17,10 +17,17 @@ layout: default
         <span>{{ page.categories | join: ", " }}</span>
         {% endif %}
         <span style="opacity: 0.5;">•</span>
-        <button class="copy-btn" id="detail-copy-btn" onclick="copyDetail()" title="Copy content">
+        <button class="copy-btn" onclick="previewContent()" title="Preview (300 chars)">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M1 12s4 7-4 7-4 4-3-6 6 6-6"/>
+            </svg>
+            <span class="copy-text">Preview</span>
+        </button>
+        <span style="opacity: 0.5;">•</span>
+        <button class="copy-btn" onclick="copyDetail()" title="Copy all content">
             <svg class="icon-copy" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
-                <path d="M5 15H4a3 4.336-6 6-6"/>
+                <path d="M5 15H4a2 2 0 0 1 2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
             </svg>
             <svg class="icon-check" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <polyline points="20 6 9 17 4 12"/>
@@ -35,12 +42,19 @@ layout: default
 </article>
 
 <script>
+function previewContent() {
+    var article = document.querySelector('.post-content');
+    var text = article.innerText || article.textContent;
+    var preview = text.substring(0, 300);
+    alert("Preview (first 300 characters):\n\n" + preview + "\n\n(Close alert to copy full content)");
+}
+
 function copyDetail() {
     var article = document.querySelector('.post-content');
     var text = article.innerText || article.textContent;
     navigator.clipboard.writeText(text).then(function() {
-        var btn = document.querySelector('.copy-btn');
-        btn.classList.add('copied');
+        var btn = document.querySelector('.copy-btn:last-child');
+        if (btn) btn.classList.add('copied');
         var textSpan = btn.querySelector('.copy-text');
         textSpan.textContent = 'Copied!';
         setTimeout(function() {
