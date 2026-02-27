@@ -284,7 +284,8 @@ button {
     border-bottom: none;
 }
 
-.pf-result:hover {
+.pf-result:hover,
+.pf-result.pf-active {
     background: var(--bg-muted);
     color: var(--text-accent);
 }
@@ -321,9 +322,24 @@ mark {
 /* ============================================================
    FEED (Home)
    ============================================================ */
-.post-feed {
-    padding: 40px 0 80px;
+.recent-posts {
+    padding-top: 32px;
 }
+
+.recent-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    margin-bottom: 4px;
+    opacity: 0.7;
+}
+
+.post-feed {
+    padding: 0 0 80px;
+}
+
 
 .post-card-wrapper {
     position: relative;
