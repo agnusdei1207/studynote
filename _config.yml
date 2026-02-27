@@ -73,6 +73,7 @@ exclude:
   - vendor
   - "*.log"
   - .playwright-mcp
+  - user-prompt
 
 plugins:
   - jekyll-feed
