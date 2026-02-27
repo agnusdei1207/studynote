@@ -112,8 +112,9 @@
       if (typeof PagefindUI !== 'undefined') {
         pagefindInstance = new PagefindUI({
           element: '#pagefind-dropdown',
-          showSubResults: true,
-          showImages: false
+          showSubResults: false,
+          showImages: false,
+          excerptLength: 16
         });
       }
     }
