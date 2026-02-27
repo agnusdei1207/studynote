@@ -596,9 +596,8 @@ mark {
 
 .card-copy-btn {
     position: absolute;
-    right: 8px;
-    top: 50%;
-    transform: translateY(-50%);
+    right: 0;
+    top: 32px;
     padding: 8px;
     background: hsl(var(--card));
     border: 1px solid hsl(var(--border));
@@ -606,6 +605,7 @@ mark {
     color: hsl(var(--muted-fg));
     opacity: 0;
     transition: all 0.2s ease;
+    z-index: 10;
 }
 
 .folder-item-wrapper:hover .card-copy-btn,
@@ -622,4 +622,17 @@ mark {
 .card-copy-btn.copied {
     background: hsl(var(--accent) / 0.2);
     color: hsl(var(--accent));
+    border-color: hsl(var(--accent) / 0.4);
+}
+
+.card-copy-btn.copied .icon-copy {
+    display: none;
+}
+
+.card-copy-btn .icon-check {
+    display: none;
+}
+
+.card-copy-btn.copied .icon-check {
+    display: block;
 }
