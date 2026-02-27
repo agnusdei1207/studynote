@@ -66,11 +66,11 @@ layout: default
     {% endif %}
     {% endfor %}
 
-    {% comment %} Posts in this folder {% endcomment %}
-    {% assign url_parts = page.url | split: '/' %}
-    {% assign folder_cat = url_parts[1] | append: '-' | append: url_parts[2] %}
+    {% comment %} Posts in this folder (using original_path) {% endcomment %}
+    {% assign folder_path = page.url | remove_first: '/' | remove: '/' %}
     {% for post in site.posts %}
-    {% if post.categories == folder_cat %}
+    {% assign post_path = post.original_path | replace: '/', '' %}
+    {% if post_path == folder_path %}
     <div class="folder-item-wrapper">
         <a class="folder-item" href="{{ post.url | relative_url }}">
             <span class="fi-icon">📄</span>

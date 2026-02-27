@@ -34,7 +34,7 @@
 <body>
 
   <script type="application/json" id="search-data">
-    [{% assign sep = "" %}{% assign all_docs = site.html_pages | concat: site.documents %}{% for doc in all_docs %}{% if doc.title and doc.title != "" %}{{ sep }}{"title":{{ doc.title | jsonify }},"url":{{ doc.url | relative_url | jsonify }},"cat":{{ doc.collection | default: "" | jsonify }},"body":{{ doc.content | strip_html | normalize_whitespace | jsonify }}}{% assign sep = "," %}{% endif %}{% endfor %}]
+    [{% assign sep = "" %}{% assign all_docs = site.html_pages | concat: site.documents | concat: site.posts %}{% for doc in all_docs %}{% if doc.title and doc.title != "" %}{{ sep }}{"title":{{ doc.title | jsonify }},"url":{{ doc.url | relative_url | jsonify }},"cat":{{ doc.collection | default: doc.categories | default: "" | jsonify }},"body":{{ doc.content | strip_html | normalize_whitespace | jsonify }}}{% assign sep = "," %}{% endif %}{% endfor %}]
   </script>
 
   <header class="site-header">
