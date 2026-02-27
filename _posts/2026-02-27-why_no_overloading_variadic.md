@@ -1,5 +1,7 @@
 ---
 layout: note
+categories: programming-rust
+original_path: programming/rust
 title: Rust가 함수 오버로딩과 가변 인자를 지원하지 않는 이유
 date: 2026-02-27
 ---

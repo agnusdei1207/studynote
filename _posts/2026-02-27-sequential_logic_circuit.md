@@ -1,5 +1,7 @@
 ---
 layout: note
+categories: cs_fundamentals-digital_logic
+original_path: cs_fundamentals/digital_logic
 title: 순서논리회로 (Sequential Logic Circuit)
 date: 2026-02-27
 ---

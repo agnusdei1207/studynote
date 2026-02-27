@@ -1,5 +1,7 @@
 ---
 layout: note
+categories: cs_fundamentals-operating_system
+original_path: cs_fundamentals/operating_system
 title: 프로그램 카운터 (Program Counter, PC)
 date: 2026-02-27
 ---

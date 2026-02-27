@@ -1,5 +1,7 @@
 ---
 layout: note
+categories: cs_fundamentals-digital_logic
+original_path: cs_fundamentals/digital_logic
 title: 플립플롭(Flip-Flop)과 래치(Latch)
 date: 2026-02-27
 ---

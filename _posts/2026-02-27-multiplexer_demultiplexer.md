@@ -1,5 +1,7 @@
 ---
 layout: note
+categories: cs_fundamentals-digital_logic
+original_path: cs_fundamentals/digital_logic
 title: 멀티플렉서와 디멀티플렉서
 date: 2026-02-27
 ---

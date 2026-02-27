@@ -1,5 +1,7 @@
 ---
 layout: note
+categories: cs_fundamentals-digital_logic
+original_path: cs_fundamentals/digital_logic
 title: 시프터와 곱셈/나눗셈의 관계
 date: 2026-02-27
 ---

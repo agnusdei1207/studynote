@@ -1,5 +1,7 @@
 ---
 layout: note
+categories: cs_fundamentals-network
+original_path: cs_fundamentals/network
 title: 오류 검출 및 정정 코드 비교 분석
 date: 2026-02-27
 ---

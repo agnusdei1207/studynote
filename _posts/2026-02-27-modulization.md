@@ -1,5 +1,7 @@
 ---
 title: Modulization Protocol
+categories: user-prompt
+original_path: user-prompt
 date: 2026-02-27
 ---
 

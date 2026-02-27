@@ -1,5 +1,7 @@
 ---
 layout: note
+categories: cs_fundamentals-digital_logic
+original_path: cs_fundamentals/digital_logic
 title: 비교기 (Comparator)
 date: 2026-02-27
 ---

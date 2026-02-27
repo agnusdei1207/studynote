@@ -1,35 +1,46 @@
 ---
 layout: default
 title: Home
-date: 2026-02-27
 ---
 
 <div class="post-feed">
-  {% assign all_notes = site.html_pages | concat: site.documents | sort: "date" | reverse %}
-  {% for doc in all_notes %}
-    {% if doc.title and doc.title != "" and doc.url != "/" and doc.layout != "default" and doc.layout != "folder" %}
-    <a class="post-card" href="{{ doc.url | relative_url }}">
+  {% for post in paginator.posts %}
+    <a class="post-card" href="{{ post.url | relative_url }}">
       <div class="pc-meta">
-        <div class="pc-avatar">{{ doc.title | slice: 0, 1 | upcase }}</div>
-        {% if doc.collection %}
-          <span>{{ doc.collection }}</span>
-        {% elsif doc.dir %}
-          <span>{{ doc.dir | remove: "/" | split: "/" | last }}</span>
+        <div class="pc-avatar">{{ post.title | slice: 0, 1 | upcase }}</div>
+        {% if post.categories %}
+          <span>{{ post.categories | first }}</span>
         {% endif %}
-        {% if doc.date %}
+        {% if post.date %}
           <span style="opacity: 0.5;">•</span>
-          <span>{{ doc.date | date: "%B %d, %Y" }}</span>
+          <span>{{ post.date | date: "%B %d, %Y" }}</span>
         {% endif %}
       </div>
-      <div class="pc-title">{{ doc.title }}</div>
+      <div class="pc-title">{{ post.title }}</div>
       <div class="pc-excerpt">
-        {% if doc.description %}
-          {{ doc.description }}
+        {% if post.description %}
+          {{ post.description }}
         {% else %}
-          {{ doc.content | strip_html | truncate: 140 }}
+          {{ post.content | strip_html | truncate: 140 }}
         {% endif %}
       </div>
     </a>
-    {% endif %}
   {% endfor %}
 </div>
+
+<!-- Pagination -->
+{% if paginator.total_pages > 1 %}
+<nav class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination-prev">&larr; 이전</a>
+  {% endif %}
+
+  <span class="pagination-info">
+    {{ paginator.page }} / {{ paginator.total_pages }}
+  </span>
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}" class="pagination-next">다음 &rarr;</a>
+  {% endif %}
+</nav>
+{% endif %}

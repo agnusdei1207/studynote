@@ -80,5 +80,10 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-paginate
+
+# Pagination
+paginate: 20
+paginate_path: "/page:num/"
 
 timezone: Asia/Seoul

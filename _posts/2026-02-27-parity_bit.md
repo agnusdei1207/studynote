@@ -1,5 +1,7 @@
 ---
 layout: note
+categories: cs_fundamentals-data_communication
+original_path: cs_fundamentals/data_communication
 title: 패리티 비트
 date: 2026-02-27
 ---

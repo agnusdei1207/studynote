@@ -1,5 +1,7 @@
 ---
 layout: note
+categories: cs_fundamentals-operating_system
+original_path: cs_fundamentals/operating_system
 title: 파일 디스크립터 (File Descriptor)
 date: 2026-02-27
 ---
