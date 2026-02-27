@@ -327,6 +327,11 @@ mark {
     color: hsl(var(--muted-fg));
     line-height: 1.6;
     max-width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-clamp: 2;
 }
 
 /* ============================================================
