@@ -3,46 +3,67 @@
    ============================================================ */
 
 :root {
-    /* shadcn/ui zinc palette — light refined */
-    --bg: 0 0% 100%;
-    --fg: 240 10% 3.9%;
-    --card: 0 0% 100%;
-    --muted: 240 4.8% 95.9%;
-    --muted-fg: 240 3.8% 46.1%;
-    --border: 240 5.9% 90%;
-    --input: 240 5.9% 90%;
-    --ring: 240 5% 64.9%;
-    --primary: 240 5.9% 10%;
-    --accent: 160 84% 39%;
-    /* #10b981 — randomkeygen green */
-    --radius: 0.6rem;
+    /* === COLOR PALETTE === */
+    --color-brand: 160 84% 39%;
+    --color-brand-light: 160 84% 88%;
+    --color-brand-dark: 160 84% 18%;
 
-    /* Semantic shortcuts */
-    --site-bg: #f5f0e6;
-    --header-bg: rgba(245, 240, 230, 0.85);
-    --glass-bg: rgba(255, 255, 255, 0.7);
+    --color-surface: 0 0% 100%;
+    --color-surface-muted: 240 4.8% 95.9%;
+    --color-text: 240 10% 3.9%;
+    --color-text-secondary: 240 3.8% 46.1%;
+    --color-border: 240 5.9% 90%;
+    --color-focus-ring: 240 5% 64.9%;
+
+    /* === SEMANTIC ALIASES === */
+    --bg-base: #f8f5ee;
+    --bg-elevated: #f5f0e6;
+    --bg-header: rgba(248, 245, 238, 0.88);
+    --bg-glass: rgba(255, 255, 255, 0.7);
+    --bg-card: hsl(var(--color-surface));
+    --bg-muted: hsl(var(--color-surface-muted));
+
+    --text-primary: hsl(var(--color-text));
+    --text-secondary: hsl(var(--color-text-secondary));
+    --text-accent: hsl(var(--color-brand));
+    --text-code: hsl(160 84% 35%);
+
+    --border-default: hsl(var(--color-border));
+    --border-accent: hsl(var(--color-brand) / 0.3);
+
     --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
     --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
     --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+    --highlight-bg: hsl(var(--color-brand-light));
+    --highlight-text: hsl(var(--color-brand-dark));
+
+    --radius: 0.6rem;
     --max-width: 680px;
 }
 
 [data-theme="dark"] {
-    --bg: 240 10% 4.9%;
-    --fg: 0 0% 98%;
-    --card: 240 10% 4.9%;
-    --muted: 240 3.7% 15.9%;
-    --muted-fg: 240 5% 64.9%;
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 240 4.9% 83.9%;
-    --primary: 0 0% 98%;
-    --accent: 158 64% 52%;
-    /* lighter green for dark bg */
+    --color-brand: 158 64% 52%;
+    --color-brand-light: 160 84% 18%;
+    --color-brand-dark: 160 84% 75%;
 
-    --site-bg: #221e1a;
-    --header-bg: rgba(34, 30, 26, 0.85);
-    --glass-bg: rgba(34, 30, 26, 0.7);
+    --color-surface: 240 10% 4.9%;
+    --color-surface-muted: 240 3.7% 15.9%;
+    --color-text: 0 0% 98%;
+    --color-text-secondary: 240 5% 64.9%;
+    --color-border: 240 3.7% 15.9%;
+    --color-focus-ring: 240 4.9% 83.9%;
+
+    --bg-base: #1a1816;
+    --bg-elevated: #1f1c18;
+    --bg-header: rgba(26, 24, 22, 0.88);
+    --bg-glass: rgba(26, 24, 22, 0.7);
+    --bg-card: hsl(var(--color-surface));
+    --bg-muted: hsl(var(--color-surface-muted));
+
+    --text-code: hsl(160 64% 60%);
+    --highlight-bg: hsl(var(--color-brand-light));
+    --highlight-text: hsl(var(--color-brand-dark));
 }
 
 /* ============================================================
@@ -64,8 +85,8 @@ html {
 body {
     font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR",
         sans-serif, "Apple Color Emoji";
-    background: var(--site-bg);
-    color: hsl(var(--fg));
+    background: var(--bg-base);
+    color: var(--text-primary);
     line-height: 1.6;
     min-height: 100vh;
     -webkit-font-smoothing: antialiased;
@@ -101,10 +122,10 @@ button {
     position: sticky;
     top: 0;
     height: 64px;
-    background: var(--header-bg);
+    background: var(--bg-elevated);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-    border-bottom: 1px solid hsl(var(--border));
+    border-bottom: 1px solid var(--border-default);
     z-index: 1000;
     display: flex;
     align-items: center;
@@ -124,13 +145,13 @@ button {
 .site-logo {
     font-size: 1.2rem;
     font-weight: 800;
-    color: hsl(var(--fg));
+    color: var(--text-primary);
     letter-spacing: -0.05em;
     flex-shrink: 0;
 }
 
 .site-logo span {
-    color: hsl(var(--muted-fg));
+    color: var(--text-secondary);
     font-weight: 400;
     margin-left: 2px;
 }
@@ -145,23 +166,23 @@ button {
     width: 100%;
     height: 40px;
     padding: 0 12px 0 38px;
-    background: hsl(var(--muted) / 0.5);
+    background: var(--bg-muted);
     border: 1px solid transparent;
     border-radius: var(--radius);
     font-size: 0.9rem;
-    color: hsl(var(--fg));
+    color: var(--text-primary);
     outline: none;
     transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-search input:focus {
-    background: hsl(var(--bg));
-    border-color: hsl(var(--accent));
-    box-shadow: 0 0 0 4px hsl(var(--accent) / 0.1);
+    background: hsl(var(--color-surface));
+    border-color: var(--text-accent);
+    box-shadow: 0 0 0 4px hsl(var(--color-brand) / 0.1);
 }
 
 .header-search:focus-within .search-icon {
-    color: hsl(var(--accent));
+    color: var(--text-accent);
 }
 
 .header-search .search-icon {
@@ -169,7 +190,7 @@ button {
     left: 12px;
     top: 50%;
     transform: translateY(-50%);
-    color: hsl(var(--muted-fg));
+    color: var(--text-secondary);
     pointer-events: none;
     opacity: 0.7;
 }
@@ -183,8 +204,8 @@ button {
     top: calc(100% + 8px);
     left: 0;
     right: 0;
-    background: hsl(var(--bg));
-    border: 1px solid hsl(var(--border));
+    background: hsl(var(--color-surface));
+    border: 1px solid var(--border-default);
     border-radius: calc(var(--radius) + 2px);
     box-shadow: var(--shadow-lg);
     overflow: hidden;
@@ -213,7 +234,7 @@ button {
 .search-result-item {
     display: block;
     padding: 16px 20px;
-    border-bottom: 1px solid hsl(var(--border) / 0.5);
+    border-bottom: 1px solid var(--border-default);
     transition: background 0.15s ease;
 }
 
@@ -222,13 +243,13 @@ button {
 }
 
 .search-result-item:hover {
-    background: hsl(var(--muted));
+    background: var(--bg-muted);
 }
 
 .sri-path {
     font-size: 0.7rem;
     font-weight: 500;
-    color: hsl(var(--muted-fg));
+    color: var(--text-secondary);
     margin-bottom: 4px;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -237,13 +258,13 @@ button {
 .sri-title {
     font-size: 0.95rem;
     font-weight: 600;
-    color: hsl(var(--fg));
+    color: var(--text-primary);
     margin-bottom: 4px;
 }
 
 .sri-excerpt {
     font-size: 0.825rem;
-    color: hsl(var(--muted-fg));
+    color: var(--text-secondary);
     line-height: 1.5;
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -252,18 +273,13 @@ button {
     overflow: hidden;
 }
 
-/* Refined Highlight */
+/* Highlight */
 mark {
-    background: hsl(160 84% 88%);
-    color: hsl(160 84% 18%);
+    background: var(--highlight-bg);
+    color: var(--highlight-text);
     border-radius: 2px;
     padding: 0 2px;
     font-weight: 500;
-}
-
-[data-theme="dark"] mark {
-    background: hsl(160 84% 18%);
-    color: hsl(160 84% 75%);
 }
 
 /* ============================================================
@@ -286,7 +302,7 @@ mark {
     padding: 28px 44px 28px 0;
     margin-right: -44px;
     padding-right: 44px;
-    border-bottom: 1px solid hsl(var(--border) / 0.6);
+    border-bottom: 1px solid var(--border-default);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     min-width: 0;
 }
@@ -300,7 +316,7 @@ mark {
 }
 
 .post-card:hover .pc-title {
-    color: hsl(var(--accent));
+    color: var(--text-accent);
 }
 
 .pc-meta {
@@ -309,14 +325,14 @@ mark {
     gap: 10px;
     margin-bottom: 12px;
     font-size: 0.8rem;
-    color: hsl(var(--muted-fg));
+    color: var(--text-secondary);
 }
 
 .pc-avatar {
     width: 24px;
     height: 24px;
-    background: hsl(var(--muted));
-    border: 1px solid hsl(var(--border));
+    background: var(--bg-muted);
+    border: 1px solid var(--border-default);
     border-radius: 6px;
     display: flex;
     align-items: center;
@@ -324,7 +340,7 @@ mark {
     font-size: 0.75rem;
     font-weight: 700;
     line-height: 1;
-    color: hsl(var(--muted-fg));
+    color: var(--text-secondary);
     flex-shrink: 0;
 }
 
@@ -334,12 +350,12 @@ mark {
     letter-spacing: -0.025em;
     line-height: 1.25;
     margin-bottom: 10px;
-    color: hsl(var(--fg));
+    color: var(--text-primary);
 }
 
 .pc-excerpt {
     font-size: 0.925rem;
-    color: hsl(var(--muted-fg));
+    color: var(--text-secondary);
     line-height: 1.6;
     max-width: 100%;
     overflow: hidden;
@@ -355,7 +371,7 @@ mark {
 .post-header {
     padding: 60px 0 40px;
     margin-bottom: 40px;
-    border-bottom: 1px solid hsl(var(--border));
+    border-bottom: 1px solid var(--border-default);
 }
 
 .post-back {
@@ -363,12 +379,12 @@ mark {
     align-items: center;
     gap: 6px;
     font-size: 0.85rem;
-    color: hsl(var(--muted-fg));
+    color: var(--text-secondary);
     margin-bottom: 24px;
 }
 
 .post-back:hover {
-    color: hsl(var(--fg));
+    color: var(--text-primary);
 }
 
 .post-title {
@@ -382,7 +398,7 @@ mark {
 .post-content {
     font-size: 1.05rem;
     line-height: 1.8;
-    color: hsl(var(--fg) / 0.9);
+    color: var(--text-primary);
     padding-bottom: 120px;
     overflow-wrap: break-word;
     word-break: break-word;
@@ -407,11 +423,11 @@ mark {
 .post-content blockquote {
     padding: 16px 24px;
     margin: 2em 0;
-    background: hsl(var(--muted) / 0.4);
-    border-left: 4px solid hsl(var(--border));
+    background: var(--bg-muted);
+    border-left: 4px solid var(--border-default);
     border-radius: 0 var(--radius) var(--radius) 0;
     font-style: italic;
-    color: hsl(var(--muted-fg));
+    color: var(--text-secondary);
 }
 
 .post-content pre {
@@ -423,27 +439,19 @@ mark {
     font-size: 0.9rem;
 }
 
-/* highlight.js 가 배경/색상 담당 — 추가 override 제거 */
 .post-content pre code.hljs {
     border-radius: var(--radius);
     padding: 20px 24px;
 }
 
-/* 인라인 코드만 subtle 배경 */
 .post-content :not(pre)>code {
     font-family: "JetBrains Mono", monospace;
     font-size: 0.85em;
-    background: hsl(var(--muted) / 0.7);
-    color: hsl(160 84% 35%);
-    /* accent green tint */
+    background: var(--bg-muted);
+    color: var(--text-code);
     padding: 0.15rem 0.4rem;
     border-radius: 4px;
-    border: 1px solid hsl(var(--border));
-}
-
-[data-theme="dark"] .post-content :not(pre)>code {
-    background: hsl(var(--muted) / 0.5);
-    color: hsl(160 64% 60%);
+    border: 1px solid var(--border-default);
 }
 
 .post-content img {
@@ -453,7 +461,6 @@ mark {
     margin: 2em 0;
 }
 
-/* Tables */
 .post-content table {
     width: 100%;
     border-collapse: collapse;
@@ -464,12 +471,12 @@ mark {
 .post-content th,
 .post-content td {
     padding: 12px 16px;
-    border-bottom: 1px solid hsl(var(--border));
+    border-bottom: 1px solid var(--border-default);
     text-align: left;
 }
 
 .post-content th {
-    background: hsl(var(--muted) / 0.5);
+    background: var(--bg-muted);
     font-weight: 600;
 }
 
@@ -477,11 +484,12 @@ mark {
    FOOTER
    ============================================================ */
 .site-footer {
-    border-top: 1px solid hsl(var(--border));
+    background: var(--bg-elevated);
+    border-top: 1px solid var(--border-default);
     padding: 48px 0;
     margin-top: 80px;
     font-size: 0.85rem;
-    color: hsl(var(--muted-fg));
+    color: var(--text-secondary);
 }
 
 /* ============================================================
@@ -492,19 +500,17 @@ mark {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: hsl(var(--border));
+    background: var(--border-default);
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: hsl(var(--ring));
+    background: hsl(var(--color-focus-ring));
 }
 
 /* ============================================================
    FOLDER LIST
    ============================================================ */
-
-/* Breadcrumb Navigation */
 .breadcrumb {
     display: flex;
     align-items: center;
@@ -513,16 +519,16 @@ mark {
     padding-top: 32px;
     margin-bottom: 16px;
     font-size: 0.85rem;
-    color: hsl(var(--muted-fg));
+    color: var(--text-secondary);
 }
 
 .breadcrumb a {
-    color: hsl(var(--muted-fg));
+    color: var(--text-secondary);
     transition: color 0.2s ease;
 }
 
 .breadcrumb a:hover {
-    color: hsl(var(--fg));
+    color: var(--text-primary);
 }
 
 .breadcrumb-sep {
@@ -531,11 +537,10 @@ mark {
 }
 
 .breadcrumb-current {
-    color: hsl(var(--accent));
+    color: var(--text-accent);
     font-weight: 600;
 }
 
-/* Folder Items */
 .folder-list {
     display: flex;
     flex-direction: column;
@@ -554,15 +559,15 @@ mark {
     align-items: center;
     gap: 12px;
     padding: 16px 20px;
-    background: hsl(var(--card));
-    border: 1px solid hsl(var(--border));
+    background: var(--bg-card);
+    border: 1px solid var(--border-default);
     border-radius: var(--radius);
     transition: all 0.2s ease;
 }
 
 .folder-item:hover {
-    background: hsl(var(--muted) / 0.5);
-    border-color: hsl(var(--accent) / 0.3);
+    background: var(--bg-muted);
+    border-color: var(--border-accent);
 }
 
 .fi-icon {
@@ -573,12 +578,12 @@ mark {
 .fi-name {
     flex: 1;
     font-weight: 500;
-    color: hsl(var(--fg));
+    color: var(--text-primary);
 }
 
 .fi-meta {
     font-size: 0.8rem;
-    color: hsl(var(--muted-fg));
+    color: var(--text-secondary);
 }
 
 /* ============================================================
@@ -589,22 +594,22 @@ mark {
     align-items: center;
     gap: 6px;
     padding: 6px 10px;
-    background: hsl(var(--muted) / 0.5);
+    background: var(--bg-muted);
     border-radius: 6px;
-    color: hsl(var(--muted-fg));
+    color: var(--text-secondary);
     font-size: 0.75rem;
     font-weight: 500;
     transition: all 0.2s ease;
 }
 
 .copy-btn:hover {
-    background: hsl(var(--accent) / 0.15);
-    color: hsl(var(--accent));
+    background: hsl(var(--color-brand) / 0.15);
+    color: var(--text-accent);
 }
 
 .copy-btn.copied {
-    background: hsl(var(--accent) / 0.2);
-    color: hsl(var(--accent));
+    background: hsl(var(--color-brand) / 0.2);
+    color: var(--text-accent);
 }
 
 .copy-btn.copied .icon-copy {
@@ -633,10 +638,10 @@ mark {
     top: 50%;
     transform: translateY(-50%);
     padding: 8px;
-    background: hsl(var(--card));
-    border: 1px solid hsl(var(--border));
+    background: var(--bg-card);
+    border: 1px solid var(--border-default);
     border-radius: 6px;
-    color: hsl(var(--muted-fg));
+    color: var(--text-secondary);
     opacity: 0;
     transition: all 0.2s ease;
     z-index: 10;
@@ -649,15 +654,15 @@ mark {
 }
 
 .card-copy-btn:hover {
-    background: hsl(var(--accent) / 0.15);
-    border-color: hsl(var(--accent) / 0.3);
-    color: hsl(var(--accent));
+    background: hsl(var(--color-brand) / 0.15);
+    border-color: var(--border-accent);
+    color: var(--text-accent);
 }
 
 .card-copy-btn.copied {
-    background: hsl(var(--accent) / 0.2);
-    color: hsl(var(--accent));
-    border-color: hsl(var(--accent) / 0.4);
+    background: hsl(var(--color-brand) / 0.2);
+    color: var(--text-accent);
+    border-color: hsl(var(--color-brand) / 0.4);
 }
 
 .card-copy-btn.copied .icon-copy {
