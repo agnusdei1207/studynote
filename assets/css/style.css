@@ -157,7 +157,7 @@ button {
 }
 
 .site-logo {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 800;
     color: var(--text-primary);
     letter-spacing: -0.05em;
@@ -191,7 +191,7 @@ button {
 }
 
 .header-actions button {
-    padding: 8px;
+    padding: 10px;
     color: var(--text-secondary);
     background: none;
     border: none;
