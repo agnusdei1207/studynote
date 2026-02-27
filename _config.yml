@@ -86,4 +86,7 @@ plugins:
 paginate: 20
 paginate_path: "/page:num/"
 
+# Permalink
+permalink: /posts/:year/:month/:day/:title.html
+
 timezone: Asia/Seoul
