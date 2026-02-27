@@ -172,7 +172,7 @@ button {
 .header-search {
     position: relative;
     width: 100%;
-    max-width: 480px;
+    max-width: 100%;
 }
 
 .header-actions {
