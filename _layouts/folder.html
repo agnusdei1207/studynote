@@ -7,11 +7,23 @@ layout: default
     <a href="{{ '/' | relative_url }}">root</a>
     {% assign parts = page.url | split: '/' %}
     {% assign cur = '' %}
+    {% assign total = 0 %}
+    {% for part in parts %}
+    {% if part != '' %}
+    {% assign total = total | plus: 1 %}
+    {% endif %}
+    {% endfor %}
+    {% assign index = 0 %}
     {% for part in parts %}
     {% if part != '' %}
     {% assign cur = cur | append: '/' | append: part %}
+    {% assign index = index | plus: 1 %}
     <span class="breadcrumb-sep">/</span>
+    {% if index == total %}
+    <span class="breadcrumb-current">{{ part | replace: '_', ' ' }}</span>
+    {% else %}
     <a href="{{ cur | relative_url }}">{{ part | replace: '_', ' ' }}</a>
+    {% endif %}
     {% endif %}
     {% endfor %}
 </div>

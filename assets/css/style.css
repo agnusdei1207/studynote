@@ -488,6 +488,39 @@ mark {
 /* ============================================================
    FOLDER LIST
    ============================================================ */
+
+/* Breadcrumb Navigation */
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding-top: 32px;
+    margin-bottom: 16px;
+    font-size: 0.85rem;
+    color: hsl(var(--muted-fg));
+}
+
+.breadcrumb a {
+    color: hsl(var(--muted-fg));
+    transition: color 0.2s ease;
+}
+
+.breadcrumb a:hover {
+    color: hsl(var(--fg));
+}
+
+.breadcrumb-sep {
+    margin: 0 4px;
+    opacity: 0.5;
+}
+
+.breadcrumb-current {
+    color: hsl(var(--accent));
+    font-weight: 600;
+}
+
+/* Folder Items */
 .folder-list {
     display: flex;
     flex-direction: column;
