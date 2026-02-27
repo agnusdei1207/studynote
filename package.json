@@ -1,0 +1,10 @@
+{
+  "name": "studynote",
+  "scripts": {
+    "build": "bundle exec jekyll build && npx pagefind --site _site",
+    "serve": "bundle exec jekyll serve"
+  },
+  "devDependencies": {
+    "pagefind": "^1.4.0"
+  }
+}

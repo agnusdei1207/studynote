@@ -196,9 +196,9 @@ button {
 }
 
 /* ============================================================
-   SEARCH DROPDOWN (Refined Popover)
+   PAGEFIND SEARCH DROPDOWN
    ============================================================ */
-#search-dropdown {
+#pagefind-dropdown {
     display: none;
     position: absolute;
     top: calc(100% + 8px);
@@ -215,8 +215,92 @@ button {
     animation: slideDown 0.2s ease-out;
 }
 
-#search-dropdown.open {
+#pagefind-dropdown.open {
     display: block;
+}
+
+/* Pagefind UI overrides */
+#pagefind-dropdown .pagefind-ui {
+    --pagefind-ui-scale: 1;
+    --pagefind-ui-primary: hsl(var(--color-brand));
+    --pagefind-ui-text: var(--text-primary);
+    --pagefind-ui-background: hsl(var(--color-surface));
+    --pagefind-ui-border: var(--border-default);
+    --pagefind-ui-tag: var(--bg-muted);
+    --pagefind-ui-border-width: 1px;
+    --pagefind-ui-border-radius: var(--radius);
+    --pagefind-ui-image-border-radius: var(--radius);
+    --pagefind-ui-image-box-ratio: 3 / 2;
+    --pagefind-ui-font: inherit;
+}
+
+#pagefind-dropdown .pagefind-ui__search-input {
+    display: none !important;
+}
+
+#pagefind-dropdown .pagefind-ui__drawer {
+    gap: 0;
+    max-width: 100%;
+}
+
+#pagefind-dropdown .pagefind-ui__message {
+    padding: 16px 20px;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+#pagefind-dropdown .pagefind-ui__result {
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border-default);
+}
+
+#pagefind-dropdown .pagefind-ui__result:last-child {
+    border-bottom: none;
+}
+
+#pagefind-dropdown .pagefind-ui__result-link {
+    color: var(--text-primary);
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+#pagefind-dropdown .pagefind-ui__result-link:hover {
+    color: var(--text-accent);
+}
+
+#pagefind-dropdown .pagefind-ui__result-excerpt {
+    color: var(--text-secondary);
+    font-size: 0.825rem;
+    line-height: 1.5;
+    margin-top: 6px;
+}
+
+#pagefind-dropdown .pagefind-ui__result-nested {
+    margin-top: 8px;
+    padding-left: 12px;
+    border-left: 2px solid var(--border-default);
+}
+
+#pagefind-dropdown .pagefind-ui__result-tags {
+    margin-top: 8px;
+}
+
+#pagefind-dropdown .pagefind-ui__result-tag {
+    background: var(--bg-muted);
+    color: var(--text-secondary);
+    font-size: 0.7rem;
+    padding: 2px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+#pagefind-dropdown .pagefind-mark {
+    background: var(--highlight-bg);
+    color: var(--highlight-text);
+    border-radius: 2px;
+    padding: 0 2px;
+    font-weight: 500;
 }
 
 @keyframes slideDown {
@@ -229,48 +313,6 @@ button {
         opacity: 1;
         transform: translateY(0);
     }
-}
-
-.search-result-item {
-    display: block;
-    padding: 16px 20px;
-    border-bottom: 1px solid var(--border-default);
-    transition: background 0.15s ease;
-}
-
-.search-result-item:last-child {
-    border-bottom: none;
-}
-
-.search-result-item:hover {
-    background: var(--bg-muted);
-}
-
-.sri-path {
-    font-size: 0.7rem;
-    font-weight: 500;
-    color: var(--text-secondary);
-    margin-bottom: 4px;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-}
-
-.sri-title {
-    font-size: 0.95rem;
-    font-weight: 600;
-    color: var(--text-primary);
-    margin-bottom: 4px;
-}
-
-.sri-excerpt {
-    font-size: 0.825rem;
-    color: var(--text-secondary);
-    line-height: 1.5;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    line-clamp: 2;
-    overflow: hidden;
 }
 
 /* Highlight */

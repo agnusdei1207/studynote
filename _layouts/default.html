@@ -33,9 +33,7 @@
 
 <body>
 
-  <script type="application/json" id="search-data">
-    [{% assign sep = "" %}{% assign all_docs = site.html_pages | concat: site.documents | concat: site.posts %}{% for doc in all_docs %}{% if doc.title and doc.title != "" %}{{ sep }}{"title":{{ doc.title | jsonify }},"url":{{ doc.url | relative_url | jsonify }},"cat":{{ doc.collection | default: doc.categories | default: "" | jsonify }},"body":{{ doc.content | strip_html | normalize_whitespace | jsonify }}}{% assign sep = "," %}{% endif %}{% endfor %}]
-  </script>
+  <link href="{{ '/pagefind/pagefind-ui.css' | relative_url }}" rel="stylesheet">
 
   <header class="site-header">
     <div class="header-inner">
@@ -45,8 +43,8 @@
 
       <div class="header-search" id="header-search-wrap">
         {% include icons/search.html %}
-        <input type="text" id="search-input" placeholder="Search anything..." autocomplete="off">
-        <div id="search-dropdown"></div>
+        <input type="text" id="pagefind-search" placeholder="Search anything..." autocomplete="off">
+        <div id="pagefind-dropdown"></div>
       </div>
 
       <div class="header-actions">
@@ -73,9 +71,8 @@
     </div>
   </footer>
 
+  <script src="{{ '/pagefind/pagefind-ui.js' | relative_url }}" defer></script>
   <script>
-    var SEARCH_INDEX = JSON.parse(document.getElementById('search-data').textContent || '[]');
-
     /* Theme */
     var tBtn = document.getElementById('theme-btn'), iS = document.getElementById('i-sun'), iM = document.getElementById('i-moon');
     function apply(t) {
@@ -88,56 +85,60 @@
       localStorage.setItem('theme', n); apply(n);
     };
 
-    /* Search */
-    var sInput = document.getElementById('search-input'), sDrop = document.getElementById('search-dropdown'), sWrap = document.getElementById('header-search-wrap');
-    function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
-    function hi(txt, q) {
-      if (!q || !txt) return esc(txt || '');
-      var re = new RegExp('(' + q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
-      return esc(txt).replace(re, '<mark>$1</mark>');
-    }
-    function excerpt(body, q) {
-      if (!body) return '';
-      var idx = body.toLowerCase().indexOf(q.toLowerCase());
-      if (idx === -1) return esc(body.substring(0, 140)) + '...';
-      var start = Math.max(0, idx - 40);
-      return (start > 0 ? '…' : '') + hi(body.substring(start, start + 140), q) + (start + 140 < body.length ? '…' : '');
-    }
+    /* Pagefind Search */
+    var sInput = document.getElementById('pagefind-search');
+    var sDrop = document.getElementById('pagefind-dropdown');
+    var sWrap = document.getElementById('header-search-wrap');
+    var pagefindInstance = null;
 
-    sInput.oninput = function () {
-      var val = this.value.trim(), q = val.toLowerCase();
-      if (!val) { sDrop.classList.remove('open'); return; }
-
-      var hits = SEARCH_INDEX.map(function (d) {
-        var score = 0;
-        if (d.title.toLowerCase() === q) score += 100;
-        else if (d.title.toLowerCase().indexOf(q) === 0) score += 50;
-        else if (d.title.toLowerCase().indexOf(q) !== -1) score += 30;
-        if (d.body.toLowerCase().indexOf(q) !== -1) score += 10;
-        return { d: d, score: score };
-      }).filter(function (h) { return h.score > 0; })
-        .sort(function (a, b) { return b.score - a.score; })
-        .slice(0, 10);
-
-      if (!hits.length) {
-        sDrop.innerHTML = '<div style="padding:24px; text-align:center; font-size:0.9rem; color:hsl(var(--muted-fg));">No results found</div>';
-      } else {
-        sDrop.innerHTML = hits.map(function (h) {
-          return '<a class="search-result-item" href="' + h.d.url + '">'
-            + (h.d.cat ? '<div class="sri-path">' + esc(h.d.cat) + '</div>' : '')
-            + '<div class="sri-title">' + hi(h.d.title, val) + '</div>'
-            + '<div class="sri-excerpt">' + excerpt(h.d.body, val) + '</div>'
-            + '</a>';
-        }).join('');
+    // Initialize Pagefind
+    async function initPagefind() {
+      if (typeof PagefindUI !== 'undefined') {
+        pagefindInstance = new PagefindUI({
+          element: '#pagefind-dropdown',
+          showSubResults: true,
+          showImages: false
+        });
       }
-      sDrop.classList.add('open');
+    }
+
+    // Show/hide dropdown
+    sInput.addEventListener('focus', function() {
+      if (this.value.trim()) {
+        sDrop.classList.add('open');
+      }
+    });
+
+    sInput.addEventListener('input', function() {
+      if (this.value.trim()) {
+        sDrop.classList.add('open');
+        if (pagefindInstance) {
+          pagefindInstance.triggerSearch(this.value);
+        }
+      } else {
+        sDrop.classList.remove('open');
+      }
+    });
+
+    // Close on click outside
+    window.onclick = function (e) {
+      if (!sWrap.contains(e.target)) sDrop.classList.remove('open');
     };
 
-    window.onclick = function (e) { if (!sWrap.contains(e.target)) sDrop.classList.remove('open'); };
+    // Keyboard shortcuts
     window.onkeydown = function (e) {
-      if (e.key === '/' && document.activeElement !== sInput) { e.preventDefault(); sInput.focus(); }
-      if (e.key === 'Escape') { sDrop.classList.remove('open'); sInput.blur(); }
+      if (e.key === '/' && document.activeElement !== sInput) {
+        e.preventDefault();
+        sInput.focus();
+      }
+      if (e.key === 'Escape') {
+        sDrop.classList.remove('open');
+        sInput.blur();
+      }
     };
+
+    // Init Pagefind when loaded
+    document.addEventListener('DOMContentLoaded', initPagefind);
   </script>
 
   <script>document.addEventListener('DOMContentLoaded', function () { hljs.highlightAll(); });</script>
