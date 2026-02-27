@@ -29,8 +29,34 @@
                 <div class="pc-excerpt">{{ page.summary | safe | striptags | truncate(length=100) }}</div>
                 {% endif %}
             </a>
+            <button class="card-copy-btn" data-url="{{ page.permalink }}" title="Copy content">
+                {% include "icons/copy.html" %}
+                {% include "icons/check.html" %}
+            </button>
         </div>
         {% endfor %}
     </div>
 </section>
+
+<script>
+    document.querySelectorAll('.card-copy-btn').forEach(function (btn) {
+        btn.addEventListener('click', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            var url = btn.dataset.url;
+            fetch(url)
+                .then(function (r) { return r.text(); })
+                .then(function (html) {
+                    var doc = new DOMParser().parseFromString(html, 'text/html');
+                    var content = doc.querySelector('.post-content');
+                    if (content) {
+                        navigator.clipboard.writeText(content.innerText || content.textContent).then(function () {
+                            btn.classList.add('copied');
+                            setTimeout(function () { btn.classList.remove('copied'); }, 2000);
+                        });
+                    }
+                });
+        });
+    });
+</script>
 {% endblock content %}
