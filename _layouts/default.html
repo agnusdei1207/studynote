@@ -115,17 +115,7 @@
         var a = document.createElement('a');
         a.className = 'pf-result';
         a.href = r.url;
-
-        var title = document.createElement('div');
-        title.className = 'pf-title';
-        title.innerHTML = highlight(r.meta.title || 'Untitled', query);
-
-        var excerpt = document.createElement('div');
-        excerpt.className = 'pf-excerpt';
-        excerpt.innerHTML = highlight(r.excerpt || '', query);
-
-        a.appendChild(title);
-        a.appendChild(excerpt);
+        a.innerHTML = highlight(r.meta.title || 'Untitled', query);
         frag.appendChild(a);
       });
       sDrop.textContent = '';
