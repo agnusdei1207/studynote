@@ -17,8 +17,8 @@
 
     /* === SEMANTIC ALIASES === */
     --bg-base: #f8f5ee;
-    --bg-elevated: #f5f0e6;
-    --bg-header: rgba(248, 245, 238, 0.88);
+    --bg-elevated: #f0ebe3;
+    --bg-header: rgba(240, 235, 227, 0.88);
     --bg-glass: rgba(255, 255, 255, 0.7);
     --bg-card: hsl(var(--color-surface));
     --bg-muted: hsl(var(--color-surface-muted));
@@ -54,9 +54,9 @@
     --color-border: 240 3.7% 15.9%;
     --color-focus-ring: 240 4.9% 83.9%;
 
-    --bg-base: #1a1816;
-    --bg-elevated: #1f1c18;
-    --bg-header: rgba(26, 24, 22, 0.88);
+    --bg-base: #1e1b18;
+    --bg-elevated: #161412;
+    --bg-header: rgba(22, 20, 18, 0.88);
     --bg-glass: rgba(26, 24, 22, 0.7);
     --bg-card: hsl(var(--color-surface));
     --bg-muted: hsl(var(--color-surface-muted));
