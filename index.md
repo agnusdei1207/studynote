@@ -40,16 +40,24 @@ title: Home
   function renderPost(post) {
     var avatar = post.title.charAt(0).toUpperCase();
     var catHtml = post.categories ? '<span>' + post.categories + '</span>' : '';
-    return '<a class="post-card" href="' + post.url + '">' +
-      '<div class="pc-meta">' +
-        '<div class="pc-avatar">' + avatar + '</div>' +
-        catHtml +
-        '<span style="opacity: 0.5;">•</span>' +
-        '<span>' + post.date + '</span>' +
-      '</div>' +
-      '<div class="pc-title">' + post.title + '</div>' +
-      '<div class="pc-excerpt">' + post.excerpt + '</div>' +
-    '</a>';
+    return '<div class="post-card-wrapper">' +
+      '<a class="post-card" href="' + post.url + '">' +
+        '<div class="pc-meta">' +
+          '<div class="pc-avatar">' + avatar + '</div>' +
+          catHtml +
+          '<span style="opacity: 0.5;">•</span>' +
+          '<span>' + post.date + '</span>' +
+        '</div>' +
+        '<div class="pc-title">' + post.title + '</div>' +
+        '<div class="pc-excerpt">' + post.excerpt + '</div>' +
+      '</a>' +
+      '<button class="card-copy-btn" data-url="' + post.url + '" title="Copy content">' +
+        '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">' +
+          '<rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>' +
+          '<path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>' +
+        '</svg>' +
+      '</button>' +
+    '</div>';
   }
 
   function loadMore() {
@@ -83,5 +91,30 @@ title: Home
     // Fallback: show load more button
     loadMoreBtn.onclick = loadMore;
   }
+
+  // Copy button handler
+  feed.addEventListener('click', function(e) {
+    var btn = e.target.closest('.card-copy-btn');
+    if (!btn) return;
+
+    e.preventDefault();
+    e.stopPropagation();
+
+    var url = btn.dataset.url;
+    fetch(url)
+      .then(function(res) { return res.text(); })
+      .then(function(html) {
+        var parser = new DOMParser();
+        var doc = parser.parseFromString(html, 'text/html');
+        var content = doc.querySelector('.post-content');
+        if (content) {
+          var text = content.innerText || content.textContent;
+          navigator.clipboard.writeText(text).then(function() {
+            btn.classList.add('copied');
+            setTimeout(function() { btn.classList.remove('copied'); }, 2000);
+          });
+        }
+      });
+  });
 })();
 </script>

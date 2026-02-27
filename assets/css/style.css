@@ -269,7 +269,14 @@ mark {
     padding: 40px 0 80px;
 }
 
+.post-card-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
 .post-card {
+    flex: 1;
     display: block;
     padding: 32px 0;
     border-bottom: 1px solid hsl(var(--border) / 0.6);
@@ -601,7 +608,8 @@ mark {
     transition: all 0.2s ease;
 }
 
-.folder-item-wrapper:hover .card-copy-btn {
+.folder-item-wrapper:hover .card-copy-btn,
+.post-card-wrapper:hover .card-copy-btn {
     opacity: 1;
 }
 
