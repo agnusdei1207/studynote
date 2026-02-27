@@ -13,6 +13,8 @@
     --input: 240 5.9% 90%;
     --ring: 240 5% 64.9%;
     --primary: 240 5.9% 10%;
+    --accent: 160 84% 39%;
+    /* #10b981 — randomkeygen green */
     --radius: 0.6rem;
 
     /* Semantic shortcuts */
@@ -35,6 +37,8 @@
     --input: 240 3.7% 15.9%;
     --ring: 240 4.9% 83.9%;
     --primary: 0 0% 98%;
+    --accent: 158 64% 52%;
+    /* lighter green for dark bg */
 
     --site-bg: #09090b;
     --header-bg: rgba(9, 9, 11, 0.85);
@@ -152,8 +156,8 @@ button {
 
 .header-search input:focus {
     background: hsl(var(--bg));
-    border-color: hsl(var(--ring));
-    box-shadow: 0 0 0 4px hsl(var(--ring) / 0.1);
+    border-color: hsl(var(--accent));
+    box-shadow: 0 0 0 4px hsl(var(--accent) / 0.1);
 }
 
 .header-search .search-icon {
@@ -246,16 +250,16 @@ button {
 
 /* Refined Highlight */
 mark {
-    background: hsl(210 100% 90%);
-    color: hsl(210 100% 25%);
+    background: hsl(160 84% 88%);
+    color: hsl(160 84% 18%);
     border-radius: 2px;
     padding: 0 2px;
     font-weight: 500;
 }
 
 [data-theme="dark"] mark {
-    background: hsl(210 100% 20%);
-    color: hsl(210 100% 80%);
+    background: hsl(160 84% 18%);
+    color: hsl(160 84% 75%);
 }
 
 /* ============================================================
@@ -281,7 +285,7 @@ mark {
 }
 
 .post-card:hover .pc-title {
-    color: hsl(210 100% 45%);
+    color: hsl(var(--accent));
 }
 
 .pc-meta {
