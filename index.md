@@ -4,7 +4,6 @@ title: Home
 ---
 
 <section class="recent-posts">
-  <p class="recent-label">최근 노트</p>
   <div class="post-feed">
     {% for post in site.posts limit:3 %}
     <div class="post-card-wrapper">
