@@ -210,7 +210,7 @@ button {
     box-shadow: var(--shadow-lg);
     overflow: hidden;
     z-index: 1100;
-    max-height: 480px;
+    max-height: 400px;
     overflow-y: auto;
     animation: slideDown 0.2s ease-out;
 }
@@ -219,65 +219,41 @@ button {
     display: block;
 }
 
-/* Pagefind UI overrides */
-#pagefind-dropdown .pagefind-ui {
-    --pagefind-ui-scale: 1;
-    --pagefind-ui-primary: hsl(var(--color-brand));
-    --pagefind-ui-text: var(--text-primary);
-    --pagefind-ui-background: hsl(var(--color-surface));
-    --pagefind-ui-border: var(--border-default);
-    --pagefind-ui-tag: var(--bg-muted);
-    --pagefind-ui-border-width: 1px;
-    --pagefind-ui-border-radius: var(--radius);
-    --pagefind-ui-image-border-radius: var(--radius);
-    --pagefind-ui-image-box-ratio: 3 / 2;
-    --pagefind-ui-font: inherit;
-}
-
-#pagefind-dropdown .pagefind-ui__search-input {
-    display: none !important;
-}
-
-#pagefind-dropdown .pagefind-ui__drawer {
-    gap: 0;
-    max-width: 100%;
-}
-
-#pagefind-dropdown .pagefind-ui__message {
-    padding: 8px 16px;
+.pf-empty {
+    padding: 24px;
+    text-align: center;
     color: var(--text-secondary);
-    font-size: 0.75rem;
-    font-weight: 500;
-    background: var(--bg-muted);
-    border-bottom: 1px solid var(--border-default);
+    font-size: 0.9rem;
 }
 
-#pagefind-dropdown .pagefind-ui__result {
+.pf-result {
+    display: block;
     padding: 12px 16px;
     border-bottom: 1px solid var(--border-default);
     transition: background 0.15s ease;
+    text-decoration: none;
 }
 
-#pagefind-dropdown .pagefind-ui__result:hover {
-    background: var(--bg-muted);
-}
-
-#pagefind-dropdown .pagefind-ui__result:last-child {
+.pf-result:last-child {
     border-bottom: none;
 }
 
-#pagefind-dropdown .pagefind-ui__result-link {
+.pf-result:hover {
+    background: var(--bg-muted);
+}
+
+.pf-title {
     color: var(--text-primary);
     font-weight: 600;
     font-size: 0.9rem;
-    display: block;
+    line-height: 1.3;
 }
 
-#pagefind-dropdown .pagefind-ui__result-link:hover {
+.pf-result:hover .pf-title {
     color: var(--text-accent);
 }
 
-#pagefind-dropdown .pagefind-ui__result-excerpt {
+.pf-excerpt {
     color: var(--text-secondary);
     font-size: 0.8rem;
     line-height: 1.4;
@@ -288,19 +264,11 @@ button {
     overflow: hidden;
 }
 
-#pagefind-dropdown .pagefind-ui__result-nested {
-    display: none;
-}
-
-#pagefind-dropdown .pagefind-ui__result-tags {
-    display: none;
-}
-
-#pagefind-dropdown .pagefind-mark {
+.pf-result mark {
     background: var(--highlight-bg);
     color: var(--highlight-text);
     border-radius: 2px;
-    padding: 0 3px;
+    padding: 0 2px;
     font-weight: 600;
 }
 

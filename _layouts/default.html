@@ -85,65 +85,89 @@
       localStorage.setItem('theme', n); apply(n);
     };
 
-    /* Pagefind Search */
+    /* Pagefind Search - Direct API */
     var sInput = document.getElementById('pagefind-search');
     var sDrop = document.getElementById('pagefind-dropdown');
     var sWrap = document.getElementById('header-search-wrap');
-    var pagefindInstance = null;
+    var pagefind = null;
 
-    // Simplify result message to just number
-    function simplifyMessage() {
-      var msg = sDrop.querySelector('.pagefind-ui__message');
-      if (msg) {
-        var text = msg.textContent;
-        var match = text.match(/^(\d+)/);
-        if (match) {
-          msg.textContent = match[1] + ' results';
-        }
-      }
-    }
-
-    // Observe message changes
-    var observer = new MutationObserver(simplifyMessage);
-    observer.observe(sDrop, { childList: true, subtree: true });
-
-    // Initialize Pagefind
     async function initPagefind() {
-      if (typeof PagefindUI !== 'undefined') {
-        pagefindInstance = new PagefindUI({
-          element: '#pagefind-dropdown',
-          showSubResults: false,
-          showImages: false,
-          excerptLength: 16
-        });
+      try {
+        pagefind = await import('{{ "/pagefind/pagefind.js" | relative_url }}');
+      } catch (e) {
+        console.log('Pagefind not available');
       }
     }
 
-    // Show/hide dropdown
-    sInput.addEventListener('focus', function() {
-      if (this.value.trim()) {
-        sDrop.classList.add('open');
+    async function search(query) {
+      if (!pagefind || !query) {
+        sDrop.textContent = '';
+        return;
       }
-    });
+      var result = await pagefind.search(query);
+      var results = await Promise.all(result.results.slice(0, 10).map(function(r) { return r.data(); }));
 
+      if (results.length === 0) {
+        sDrop.textContent = 'No results';
+        return;
+      }
+
+      var frag = document.createDocumentFragment();
+      results.forEach(function(r) {
+        var a = document.createElement('a');
+        a.className = 'pf-result';
+        a.href = r.url;
+
+        var title = document.createElement('div');
+        title.className = 'pf-title';
+        title.innerHTML = highlight(r.meta.title || 'Untitled', query);
+
+        var excerpt = document.createElement('div');
+        excerpt.className = 'pf-excerpt';
+        excerpt.innerHTML = highlight(r.excerpt || '', query);
+
+        a.appendChild(title);
+        a.appendChild(excerpt);
+        frag.appendChild(a);
+      });
+      sDrop.textContent = '';
+      sDrop.appendChild(frag);
+    }
+
+    function highlight(text, query) {
+      if (!query) return esc(text);
+      var re = new RegExp('(' + query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+      return esc(text).replace(re, '<mark>$1</mark>');
+    }
+
+    function esc(s) {
+      return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    }
+
+    var debounceTimer;
     sInput.addEventListener('input', function() {
-      if (this.value.trim()) {
-        sDrop.classList.add('open');
-        if (pagefindInstance) {
-          pagefindInstance.triggerSearch(this.value);
+      var q = this.value.trim();
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function() {
+        if (q) {
+          sDrop.classList.add('open');
+          search(q);
+        } else {
+          sDrop.classList.remove('open');
+          sDrop.textContent = '';
         }
-      } else {
-        sDrop.classList.remove('open');
-      }
+      }, 150);
     });
 
-    // Close on click outside
-    window.onclick = function (e) {
+    sInput.addEventListener('focus', function() {
+      if (this.value.trim()) sDrop.classList.add('open');
+    });
+
+    window.onclick = function(e) {
       if (!sWrap.contains(e.target)) sDrop.classList.remove('open');
     };
 
-    // Keyboard shortcuts
-    window.onkeydown = function (e) {
+    window.onkeydown = function(e) {
       if (e.key === '/' && document.activeElement !== sInput) {
         e.preventDefault();
         sInput.focus();
@@ -154,7 +178,6 @@
       }
     };
 
-    // Init Pagefind when loaded
     document.addEventListener('DOMContentLoaded', initPagefind);
   </script>
 
