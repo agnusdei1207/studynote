@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+ruby ">= 4.0"
+
 gem "jekyll", "~> 4.4"
 gem "kramdown", "~> 2.5"
 gem "jekyll-feed", "~> 0.17"
