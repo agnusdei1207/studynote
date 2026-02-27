@@ -150,12 +150,12 @@ sort_by = "title"
 <html lang="ko-KR">
 <head>
   <meta charset="utf-8">
-  <title>{% block title %}{{ config.title }}{% endblock title %}</title>
-  <link rel="stylesheet" href="{{ get_url(path='assets/css/style.css') }}">
+  <title>{% block title %}{ { config.title } }{% endblock title %}</title>
+  <link rel="stylesheet" href="{ { get_url(path='assets/css/style.css') } }">
 </head>
 <body>
   <header>
-    <a href="{{ get_url(path='/') }}">홈</a>
+    <a href="{ { get_url(path='/') } }">홈</a>
     <input type="text" id="pagefind-search" placeholder="Search...">
     <div id="pagefind-dropdown"></div>
   </header>
@@ -168,7 +168,7 @@ sort_by = "title"
     // Pagefind lazy load
     async function initPagefind() {
       try {
-        const pf = await import('{{ get_url(path="/pagefind/pagefind.js") }}');
+        const pf = await import('{ { get_url(path="/pagefind/pagefind.js") } }');
         return pf;
       } catch(e) { return null; }
     }
@@ -184,7 +184,7 @@ sort_by = "title"
 
 {% block content %}
 <article class="post-content">
-  {{ page.content | safe }}   {# {{ content }} 가 아닌 page.content | safe #}
+  { { page.content | safe } }   {# { { content } } 가 아닌 page.content | safe #}
 </article>
 {% endblock content %}
 ```
@@ -199,12 +199,12 @@ sort_by = "title"
   {# 하위 섹션(폴더) #}
   {% for sub_path in section.subsections %}
     {% set sub = get_section(path=sub_path) %}
-    <a href="{{ sub.permalink }}">📁 {{ sub.title }}</a>
+    <a href="{ { sub.permalink } }">📁 { { sub.title } }</a>
   {% endfor %}
 
   {# 이 섹션의 포스트 #}
   {% for page in section.pages %}
-    <a href="{{ page.permalink }}">📄 {{ page.title }}</a>
+    <a href="{ { page.permalink } }">📄 { { page.title } }</a>
   {% endfor %}
 
 </div>
@@ -225,7 +225,7 @@ sort_by = "title"
 {%- set sorted = all | sort(attribute="date") | reverse -%}
 
 {% for page in sorted | slice(end=3) %}
-  <a href="{{ page.permalink }}">{{ page.title }}</a>
+  <a href="{ { page.permalink } }">{ { page.title } }</a>
 {% endfor %}
 {% endblock content %}
 ```
@@ -234,9 +234,9 @@ sort_by = "title"
 
 | Jekyll Liquid | Zola Tera | 비고 |
 |---|---|---|
-| `{{ content }}` | `{{ page.content \| safe }}` | 필수 변경 |
-| `{{ '/' \| relative_url }}` | `{{ get_url(path='/') }}` | URL 생성 |
-| `{{ page.date \| date: "%Y" }}` | `{{ page.date \| date(format="%Y") }}` | 필터 문법 |
+| `{ { content } }` | `{ { page.content \| safe } }` | 필수 변경 |
+| `{ { '/' \| relative_url } }` | `{ { get_url(path='/') } }` | URL 생성 |
+| `{ { page.date \| date: "%Y" } }` | `{ { page.date \| date(format="%Y") } }` | 필터 문법 |
 | `{% include icons/copy.html %}` | `{% include "icons/copy.html" %}` | 따옴표 추가 |
 | `site.posts` | `section.pages` | 섹션 내 페이지 |
 | `site.baseurl` | `config.base_url` | 설정값 접근 |
@@ -313,7 +313,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url } }
     runs-on: ubuntu-latest
     needs: build
     steps:
@@ -421,7 +421,7 @@ var searchCache = {};
 async function initPagefind() {
   if (pagefind) return;
   try {
-    pagefind = await import('{{ get_url(path="/pagefind/pagefind.js") }}');
+    pagefind = await import('{ { get_url(path="/pagefind/pagefind.js") } }');
   } catch(e) {
     console.log('Pagefind not available (dev mode)');
   }
