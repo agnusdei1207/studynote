@@ -1,6 +1,7 @@
 ---
 layout: note
 title: 인코더와 디코더 (Encoder and Decoder)
+date: 2026-02-27
 ---
 
 # 인코더와 디코더 (Encoder and Decoder)

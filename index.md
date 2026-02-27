@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+date: 2026-02-27
 ---
 
 <div class="post-feed">

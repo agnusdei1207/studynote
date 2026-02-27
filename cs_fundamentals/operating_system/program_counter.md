@@ -1,6 +1,7 @@
 ---
 layout: note
 title: 프로그램 카운터 (Program Counter, PC)
+date: 2026-02-27
 ---
 
 # 프로그램 카운터 (Program Counter, PC)

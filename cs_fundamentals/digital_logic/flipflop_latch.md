@@ -1,6 +1,7 @@
 ---
 layout: note
 title: 플립플롭(Flip-Flop)과 래치(Latch)
+date: 2026-02-27
 ---
 
 # 플립플롭(Flip-Flop)과 래치(Latch)

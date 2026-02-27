@@ -1,6 +1,7 @@
 ---
 layout: note
 title: 비교기 (Comparator)
+date: 2026-02-27
 ---
 
 # 비교기 (Comparator)

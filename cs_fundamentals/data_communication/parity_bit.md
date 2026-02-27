@@ -1,6 +1,7 @@
 ---
 layout: note
 title: 패리티 비트
+date: 2026-02-27
 ---
 
 # 패리티 비트

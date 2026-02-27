@@ -1,6 +1,7 @@
 ---
 layout: note
 title: Base64 인코딩
+date: 2026-02-27
 ---
 
 # Base64 인코딩

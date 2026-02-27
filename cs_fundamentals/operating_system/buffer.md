@@ -1,6 +1,7 @@
 ---
 layout: note
 title: 버퍼 (Buffer)
+date: 2026-02-27
 ---
 
 # 버퍼 (Buffer)

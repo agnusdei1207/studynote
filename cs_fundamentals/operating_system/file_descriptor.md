@@ -1,6 +1,7 @@
 ---
 layout: note
 title: 파일 디스크립터 (File Descriptor)
+date: 2026-02-27
 ---
 
 # 파일 디스크립터 (File Descriptor)

@@ -1,6 +1,7 @@
 ---
 layout: note
 title: D 래치와 D 플립플롭
+date: 2026-02-27
 ---
 
 # D 래치와 D 플립플롭
