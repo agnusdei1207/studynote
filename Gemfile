@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby ">= 4.0"
+ruby ">= 3.3"
 
 gem "jekyll", "~> 4.4"
 gem "kramdown", "~> 2.5"
