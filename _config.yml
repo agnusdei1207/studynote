@@ -10,9 +10,7 @@ lang: ko-KR
 markdown: kramdown
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    css_class: highlight
+  syntax_highlighter: ~
 
 defaults:
   # Posts

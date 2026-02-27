@@ -17,6 +17,8 @@
   <link rel="icon" type="image/svg+xml" href="https://api.iconify.design/lucide:brain-circuit.svg?color=%2310b981">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
     onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}]})"></script>
@@ -148,6 +150,8 @@
       if (e.key === 'Escape') { sDrop.classList.remove('open'); sInput.blur(); }
     };
   </script>
+
+  <script>document.addEventListener('DOMContentLoaded', function () { hljs.highlightAll(); });</script>
 </body>
 
 </html>
