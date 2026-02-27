@@ -116,7 +116,7 @@ button {
     align-items: center;
     gap: 20px;
     width: 100%;
-    max-width: calc(var(--max-width) + 48px);
+    max-width: var(--max-width);
     margin: 0 auto;
     padding: 0 24px;
 }
