@@ -41,7 +41,7 @@ jobs:
         run: bundle exec jekyll build --profile
 
       - name: Build Pagefind Index
-        run: npx pagefind --site _site --glob "**/*.html"
+        run: npx pagefind --site _site --glob "**/*.html" --force-language ko
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

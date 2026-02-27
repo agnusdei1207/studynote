@@ -79,18 +79,24 @@
       localStorage.setItem('theme', n); apply(n);
     };
 
-    /* Pagefind Search - Direct API */
+    /* Pagefind Search - Optimized */
     var sInput = document.getElementById('pagefind-search');
     var sDrop = document.getElementById('pagefind-dropdown');
     var sWrap = document.getElementById('header-search-wrap');
     var pagefind = null;
+    var searchCache = {};
+    var pagefindLoading = false;
 
+    // Lazy init: load pagefind only when user focuses search
     async function initPagefind() {
+      if (pagefind || pagefindLoading) return;
+      pagefindLoading = true;
       try {
         pagefind = await import('{{ "/pagefind/pagefind.js" | relative_url }}');
       } catch (e) {
         console.log('Pagefind not available');
       }
+      pagefindLoading = false;
     }
 
     async function search(query) {
@@ -98,9 +104,22 @@
         sDrop.textContent = '';
         return;
       }
-      var result = await pagefind.search(query);
-      var results = await Promise.all(result.results.slice(0, 10).map(function(r) { return r.data(); }));
 
+      // Check cache
+      if (searchCache[query]) {
+        renderResults(searchCache[query], query);
+        return;
+      }
+
+      var result = await pagefind.search(query);
+      var results = await Promise.all(result.results.slice(0, 5).map(function(r) { return r.data(); }));
+
+      // Cache results
+      searchCache[query] = results;
+      renderResults(results, query);
+    }
+
+    function renderResults(results, query) {
       if (results.length === 0) {
         sDrop.innerHTML = '<div class="pf-empty">No results</div>';
         return;
@@ -129,6 +148,11 @@
     }
 
     var debounceTimer;
+    sInput.addEventListener('focus', function() {
+      initPagefind(); // Lazy load on focus
+      if (this.value.trim()) sDrop.classList.add('open');
+    });
+
     sInput.addEventListener('input', function() {
       var q = this.value.trim();
       clearTimeout(debounceTimer);
@@ -140,11 +164,7 @@
           sDrop.classList.remove('open');
           sDrop.textContent = '';
         }
-      }, 150);
-    });
-
-    sInput.addEventListener('focus', function() {
-      if (this.value.trim()) sDrop.classList.add('open');
+      }, 200);
     });
 
     window.onclick = function(e) {
@@ -161,8 +181,6 @@
         sInput.blur();
       }
     };
-
-    document.addEventListener('DOMContentLoaded', initPagefind);
   </script>
 
   <script>document.addEventListener('DOMContentLoaded', function () { hljs.highlightAll(); });</script>
