@@ -175,6 +175,36 @@ button {
     max-width: 480px;
 }
 
+.header-actions {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.header-actions a {
+    color: var(--text-secondary);
+    transition: color 0.2s ease;
+}
+
+.header-actions a:hover {
+    color: var(--text-accent);
+}
+
+.header-actions button {
+    padding: 8px;
+    color: var(--text-secondary);
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.header-actions button:hover {
+    background: var(--bg-muted);
+    color: var(--text-accent);
+}
+
 .header-search input {
     width: 100%;
     height: 40px;
@@ -486,18 +516,6 @@ mark {
 .post-content th {
     background: var(--bg-muted);
     font-weight: 600;
-}
-
-/* ============================================================
-   FOOTER
-   ============================================================ */
-.site-footer {
-    background: var(--bg-elevated);
-    border-top: 1px solid var(--border-default);
-    padding: 48px 0;
-    margin-top: 80px;
-    font-size: 0.85rem;
-    color: var(--text-secondary);
 }
 
 /* ============================================================
