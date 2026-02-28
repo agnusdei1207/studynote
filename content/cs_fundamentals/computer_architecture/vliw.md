@@ -1,3 +1,8 @@
++++
+title = "VLIW (Very Long Instruction Word)"
+date = 2025-02-27
++++
+
 # VLIW (Very Long Instruction Word)
 
 ## 핵심 인사이트 (3줄 요약)

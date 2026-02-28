@@ -1,3 +1,8 @@
++++
+title = "병렬 처리 (Parallel Processing)"
+date = 2025-02-27
++++
+
 # 병렬 처리 (Parallel Processing)
 
 ## 핵심 인사이트 (3줄 요약)

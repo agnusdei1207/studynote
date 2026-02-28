@@ -1,3 +1,8 @@
++++
+title = "핸드쉐이킹 (Handshaking)"
+date = 2025-02-27
++++
+
 # 핸드쉐이킹 (Handshaking)
 
 ## 핵심 인사이트 (3줄 요약)

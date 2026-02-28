@@ -1,3 +1,8 @@
++++
+title = "직접 메모리 접근 (DMA, Direct Memory Access)"
+date = 2025-02-27
++++
+
 # 직접 메모리 접근 (DMA, Direct Memory Access)
 
 ## 핵심 인사이트 (3줄 요약)

@@ -1,3 +1,8 @@
++++
+title = "XOR 게이트 (XOR Gate / 배타적 OR)"
+date = 2025-02-27
++++
+
 # XOR 게이트 (XOR Gate / 배타적 OR)
 
 ## 핵심 인사이트 (3줄 요약)

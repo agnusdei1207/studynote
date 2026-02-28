@@ -1,3 +1,8 @@
++++
+title = "EISC (Embedded Instruction Set Computer)"
+date = 2025-02-27
++++
+
 # EISC (Embedded Instruction Set Computer)
 
 ## 핵심 인사이트 (3줄 요약)

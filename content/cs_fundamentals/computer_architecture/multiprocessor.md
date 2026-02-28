@@ -1,3 +1,8 @@
++++
+title = "다중 처리기 (Multiprocessor)"
+date = 2025-02-27
++++
+
 # 다중 처리기 (Multiprocessor)
 
 ## 핵심 인사이트 (3줄 요약)

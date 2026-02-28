@@ -1,3 +1,8 @@
++++
+title = "주소 지정 방식 (Addressing Mode)"
+date = 2025-02-27
++++
+
 # 주소 지정 방식 (Addressing Mode)
 
 ## 핵심 인사이트 (3줄 요약)

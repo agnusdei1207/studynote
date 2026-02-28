@@ -1,3 +1,8 @@
++++
+title = "디스크 스케줄링 알고리즘 (FCFS, SCAN, C-SCAN, C-LOOK, SSTF, SLTF)"
+date = 2025-02-27
++++
+
 # 디스크 스케줄링 알고리즘 (FCFS, SCAN, C-SCAN, C-LOOK, SSTF, SLTF)
 
 ## 핵심 인사이트 (3줄 요약)

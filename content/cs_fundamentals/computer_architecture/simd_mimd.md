@@ -1,3 +1,8 @@
++++
+title = "SIMD / MIMD / SISD / MISD (플린 분류)"
+date = 2025-02-27
++++
+
 # SIMD / MIMD / SISD / MISD (플린 분류)
 
 ## 핵심 인사이트 (3줄 요약)

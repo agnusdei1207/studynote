@@ -1,3 +1,8 @@
++++
+title = "명령어 사이클 (Instruction Cycle)"
+date = 2025-02-27
++++
+
 # 명령어 사이클 (Instruction Cycle)
 
 ## 핵심 인사이트 (3줄 요약)

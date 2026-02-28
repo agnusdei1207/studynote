@@ -1,3 +1,8 @@
++++
+title = "RS 플립플롭 (RS Flip-Flop / SR 래치)"
+date = 2025-02-27
++++
+
 # RS 플립플롭 (RS Flip-Flop / SR 래치)
 
 ## 핵심 인사이트 (3줄 요약)

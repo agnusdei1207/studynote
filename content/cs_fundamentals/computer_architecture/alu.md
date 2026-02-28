@@ -1,3 +1,8 @@
++++
+title = "산술 논리 장치 (ALU, Arithmetic Logic Unit)"
+date = 2025-02-27
++++
+
 # 산술 논리 장치 (ALU, Arithmetic Logic Unit)
 
 ## 핵심 인사이트 (3줄 요약)

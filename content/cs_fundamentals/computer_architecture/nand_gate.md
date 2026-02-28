@@ -1,3 +1,8 @@
++++
+title = "NAND 게이트 (NAND Gate)"
+date = 2025-02-27
++++
+
 # NAND 게이트 (NAND Gate)
 
 ## 핵심 인사이트 (3줄 요약)

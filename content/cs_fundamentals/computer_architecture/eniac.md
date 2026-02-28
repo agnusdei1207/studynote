@@ -1,3 +1,8 @@
++++
+title = "ENIAC (Electronic Numerical Integrator and Computer)"
+date = 2025-02-27
++++
+
 # ENIAC (Electronic Numerical Integrator and Computer)
 
 ## 핵심 인사이트 (3줄 요약)

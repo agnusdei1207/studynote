@@ -1,3 +1,8 @@
++++
+title = "부동 소수점 수 (Floating Point Number)"
+date = 2025-02-27
++++
+
 # 부동 소수점 수 (Floating Point Number)
 
 ## 핵심 인사이트 (3줄 요약)

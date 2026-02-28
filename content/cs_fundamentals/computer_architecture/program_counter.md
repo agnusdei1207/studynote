@@ -1,3 +1,8 @@
++++
+title = "프로그램 카운터 (Program Counter, PC)"
+date = 2025-02-27
++++
+
 # 프로그램 카운터 (Program Counter, PC)
 
 ## 핵심 인사이트 (3줄 요약)

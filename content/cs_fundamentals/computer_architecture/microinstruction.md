@@ -1,3 +1,8 @@
++++
+title = "마이크로 명령어 / 마이크로 오퍼레이션 (Microinstruction / Micro-operation)"
+date = 2025-02-27
++++
+
 # 마이크로 명령어 / 마이크로 오퍼레이션 (Microinstruction / Micro-operation)
 
 ## 핵심 인사이트 (3줄 요약)

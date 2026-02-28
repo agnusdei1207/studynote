@@ -1,3 +1,8 @@
++++
+title = "NOR 게이트 (NOR Gate)"
+date = 2025-02-27
++++
+
 # NOR 게이트 (NOR Gate)
 
 ## 핵심 인사이트 (3줄 요약)

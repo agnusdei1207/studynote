@@ -1,3 +1,8 @@
++++
+title = "JK 플립플롭 (JK Flip-Flop)"
+date = 2025-02-27
++++
+
 # JK 플립플롭 (JK Flip-Flop)
 
 ## 핵심 인사이트 (3줄 요약)

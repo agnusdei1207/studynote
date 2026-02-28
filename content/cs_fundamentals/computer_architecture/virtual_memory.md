@@ -1,3 +1,8 @@
++++
+title = "가상 메모리 (Virtual Memory)"
+date = 2025-02-27
++++
+
 # 가상 메모리 (Virtual Memory)
 
 ## 핵심 인사이트 (3줄 요약)

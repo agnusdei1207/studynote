@@ -1,3 +1,8 @@
++++
+title = "하이브리드 컴퓨터 (Hybrid Computer)"
+date = 2025-02-27
++++
+
 # 하이브리드 컴퓨터 (Hybrid Computer)
 
 ## 핵심 인사이트 (3줄 요약)

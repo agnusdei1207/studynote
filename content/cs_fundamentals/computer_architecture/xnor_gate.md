@@ -1,3 +1,8 @@
++++
+title = "XNOR 게이트 (XNOR Gate)"
+date = 2025-02-27
++++
+
 # XNOR 게이트 (XNOR Gate)
 
 ## 핵심 인사이트 (3줄 요약)

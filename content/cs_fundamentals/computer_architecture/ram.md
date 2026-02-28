@@ -1,3 +1,8 @@
++++
+title = "RAM (Random Access Memory)"
+date = 2025-02-27
++++
+
 # RAM (Random Access Memory)
 
 ## 핵심 인사이트 (3줄 요약)
