@@ -6,10 +6,7 @@ date = 2026-02-27
 categories = "user-prompt"
 +++
 
-# ╔═══════════════════════════════════════════════════════════════╗
-# ║   UNIVERSAL REFACTORING MASTER DOCUMENT  v5.0               ║
-# ║   All languages · All sizes · Autonomous Agent Compatible   ║
-# ╚═══════════════════════════════════════════════════════════════╝
+# UNIVERSAL REFACTORING MASTER DOCUMENT
 
 > **Scope**: All programming languages · All project sizes · Autonomous Agent Compatible
 > **Purpose**: Stabilization → Modulization → Refactoring → Readability → Structure → Quality → Safety
