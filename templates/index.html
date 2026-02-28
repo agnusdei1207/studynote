@@ -1,62 +1,55 @@
 {% extends "base.html" %}
 
 {% block content %}
-<section class="recent-posts">
-    <div class="post-feed">
-        {%- set dl = get_section(path="cs_fundamentals/digital_logic/_index.md") -%}
-        {%- set nw = get_section(path="cs_fundamentals/network/_index.md") -%}
-        {%- set os = get_section(path="cs_fundamentals/operating_system/_index.md") -%}
-        {%- set ca = get_section(path="cs_fundamentals/computer_architecture/_index.md") -%}
-        {%- set dc = get_section(path="cs_fundamentals/data_communication/_index.md") -%}
-        {%- set rust = get_section(path="programming/rust/_index.md") -%}
-        {%- set devops = get_section(path="devops/_index.md") -%}
-        {%- set all_pages = dl.pages | concat(with=nw.pages) | concat(with=os.pages) | concat(with=ca.pages) |
-        concat(with=dc.pages) | concat(with=rust.pages) | concat(with=devops.pages) -%}
-        {%- set sorted = all_pages | sort(attribute="date") | reverse -%}
-        {% for page in sorted | slice(end=3) %}
-        <div class="post-card-wrapper">
-            <a class="post-card" href="{{ page.permalink }}">
-                <div class="pc-meta">
-                    <span class="pc-avatar">{{ page.title | truncate(length=1, end="") }}</span>
-                    <span>{{ page.date | date(format="%Y.%m.%d") }}</span>
-                    {% if page.extra.categories %}
-                    <span style="opacity:0.4">·</span>
-                    <span>{{ page.extra.categories | replace(from="-", to=" ") }}</span>
-                    {% endif %}
-                </div>
-                <div class="pc-title">{{ page.title }}</div>
-                {% if page.summary %}
-                <div class="pc-excerpt">{{ page.summary | safe | striptags | truncate(length=100) }}</div>
-                {% endif %}
-            </a>
-            <button class="card-copy-btn" data-url="{{ page.permalink }}" title="Copy content">
-                {% include "icons/copy.html" %}
-                {% include "icons/check.html" %}
-            </button>
+<section class="search-prompt">
+    <div class="search-prompt-inner">
+        <div class="search-prompt-icon">
+            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="11" cy="11" r="8"/>
+                <path d="m21 21-4.35-4.35"/>
+            </svg>
         </div>
-        {% endfor %}
+        <h1>무엇을 찾고 계신가요?</h1>
+        <p>위의 검색창에 키워드를 입력하세요</p>
+        <div class="search-prompt-shortcut">
+            <kbd>/</kbd> 를 누르면 검색창으로 이동합니다
+        </div>
     </div>
 </section>
 
-<script>
-    document.querySelectorAll('.card-copy-btn').forEach(function (btn) {
-        btn.addEventListener('click', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-            var url = btn.dataset.url;
-            fetch(url)
-                .then(function (r) { return r.text(); })
-                .then(function (html) {
-                    var doc = new DOMParser().parseFromString(html, 'text/html');
-                    var content = doc.querySelector('.post-content');
-                    if (content) {
-                        navigator.clipboard.writeText(content.innerText || content.textContent).then(function () {
-                            btn.classList.add('copied');
-                            setTimeout(function () { btn.classList.remove('copied'); }, 2000);
-                        });
-                    }
-                });
-        });
-    });
-</script>
+<style>
+.search-prompt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    text-align: center;
+}
+.search-prompt-inner {
+    opacity: 0.6;
+}
+.search-prompt-icon {
+    margin-bottom: 1.5rem;
+    color: var(--accent);
+}
+.search-prompt h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.search-prompt p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+.search-prompt-shortcut {
+    font-size: 0.875rem;
+}
+.search-prompt-shortcut kbd {
+    background: var(--bg-secondary);
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-family: inherit;
+    border: 1px solid var(--border);
+}
+</style>
 {% endblock content %}
