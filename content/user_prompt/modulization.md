@@ -1,9 +1,10 @@
----
-title: Modulization Protocol
-categories: user-prompt
-original_path: user-prompt
-date: 2026-02-27
----
++++
+title = "Modulization Protocol"
+date = 2026-02-27
+
+[extra]
+categories = "user-prompt"
++++
 
 # ╔══════════════════════════════════════════════════════════╗
 # ║  MODULIZATION PROTOCOL — 모듈화 작업 지시문               ║

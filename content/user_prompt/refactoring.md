@@ -1,9 +1,10 @@
----
-title: Refactoring Master Document
-categories: user-prompt
-original_path: user-prompt
-date: 2026-02-27
----
++++
+title = "Refactoring Master Document"
+date = 2026-02-27
+
+[extra]
+categories = "user-prompt"
++++
 
 # ╔═══════════════════════════════════════════════════════════════╗
 # ║   UNIVERSAL REFACTORING MASTER DOCUMENT  v5.0               ║

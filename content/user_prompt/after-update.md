@@ -1,9 +1,10 @@
----
-title: Post-Work Audit
-categories: user-prompt
-original_path: user-prompt
-date: 2026-02-27
----
++++
+title = "Post-Work Audit"
+date = 2026-02-27
+
+[extra]
+categories = "user-prompt"
++++
 
 # ╔══════════════════════════════════════════════════════════╗
 # ║  POST-WORK MANDATORY AUDIT — 작업 완료 후 필수 전수조사    ║

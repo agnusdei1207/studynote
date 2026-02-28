@@ -41,40 +41,94 @@
 
 ## 파일 작성 규칙
 
-1. 새로운 파일은 `.md` 확장자를 사용하며 한글로 작성합니다.
-2. 파일명은 소문자와 언더바(`_`)를 사용하세요.
+1. **모든 새 글은 반드시 `content/` 안의 적절한 카테고리 폴더에 작성합니다.** `_posts/` 등 Jekyll 관례 경로에 글을 쓰지 마세요.
+2. 파일명은 **소문자와 언더바(`_`)** 사용하세요.
    - 예: `heap_data_structure.md`, `docker_container.md`
-3. 주제에 맞는 폴더가 없다면 새로 생성하세요.
-4. **[필수] 모든 답변/파일 작성 완료 후 무조건 클립보드에 복사하세요. 절대 까먹지 마세요!**
+3. 모든 파일은 반드시 아래 **Zola TOML front matter**로 시작해야 합니다:
+   ```toml
+   +++
+   title = "제목"
+   date = YYYY-MM-DD
+
+   [extra]
+   categories = "카테고리명"
+   +++
+   ```
+   - `categories` 값은 아래 폴더 구조의 카테고리 중 하나 (예: `cs_fundamentals-network`, `programming-rust`)
+4. 새 카테고리 폴더를 만들 때는 반드시 해당 디렉토리에 `_index.md` 파일도 함께 생성합니다:
+   ```toml
+   +++
+   title = "섹션 제목"
+   description = "설명"
+   sort_by = "title"
+   +++
+   ```
+5. 파일 본문은 한글로 작성합니다.
+6. **[필수] 모든 답변/파일 작성 완료 후 무조건 클립보드에 복사하세요. 절대 까먹지 마세요!**
    - macOS: `cat 파일경로 | pbcopy`
    - 새 파일 작성, 기존 파일 수정, 답변 완료 등 **모든 경우에 항상 pbcopy 실행**
    - 사용자에게 "클립보드에 복사 완료!"라고 안내
 
-## 폴더 구조
+## 폴더 구조 (Zola content/ 기반)
+
+글은 **`content/` 안에 카테고리별 폴더**로 저장합니다. 각 폴더에 `_index.md`가 반드시 있어야 합니다.
 
 ```
-study/
-├── cs_fundamentals/          # 컴퓨터 과학 기초
-│   ├── algorithm/            # 알고리즘 (정렬, 탐색, 복잡도, 동적계획법 등)
-│   ├── data_structure/       # 자료구조 (힙, 트리, 그래프, 해시 등)
-│   ├── operating_system/     # 운영체제 (프로세스, 메모리, 스케줄링 등)
-│   └── network/              # 네트워크 (OSI 7계층, TCP/IP, HTTP 등)
-├── programming/              # 프로그래밍 언어
-│   ├── rust/
-│   ├── python/
-│   ├── javascript/
-│   └── java/
-├── database/                 # 데이터베이스
-│   ├── relational/           # 관계형 DB (SQL, 정규화 등)
-│   └── nosql/                # NoSQL (Redis, MongoDB 등)
-├── devops/                   # DevOps
-│   ├── docker/
-│   ├── kubernetes/
-│   └── cloud/                # AWS, GCP, Azure
-└── security/                 # 보안
-    ├── cryptography/         # 암호학
-    └── web_security/         # 웹 보안
+studynote/
+└── content/
+    ├── _index.md
+    ├── cs_fundamentals/
+    │   ├── _index.md
+    │   ├── algorithm/
+    │   │   ├── _index.md
+    │   │   └── heap.md          # categories = "cs_fundamentals-algorithm"
+    │   ├── data_structure/
+    │   ├── operating_system/
+    │   ├── network/
+    │   ├── computer_architecture/
+    │   └── digital_logic/
+    ├── programming/
+    │   ├── _index.md
+    │   ├── rust/
+    │   ├── python/
+    │   └── javascript/
+    ├── database/
+    │   ├── _index.md
+    │   ├── relational/
+    │   └── nosql/
+    ├── devops/
+    │   ├── _index.md
+    │   ├── docker/
+    │   ├── kubernetes/
+    │   └── cloud/
+    └── security/
+        ├── _index.md
+        ├── cryptography/
+        └── web/
 ```
+
+### categories 값 규칙
+
+`상위카테고리-하위카테고리` 형태로 작성합니다 (하이픈 구분).
+
+| categories 값 | 분류 |
+|---|---|
+| `cs_fundamentals-algorithm` | 알고리즘 (정렬, 탐색, 복잡도 등) |
+| `cs_fundamentals-data_structure` | 자료구조 (힙, 트리, 그래프, 해시 등) |
+| `cs_fundamentals-operating_system` | 운영체제 (프로세스, 메모리, 스케줄링 등) |
+| `cs_fundamentals-network` | 네트워크 (OSI 7계층, TCP/IP, HTTP 등) |
+| `cs_fundamentals-computer_architecture` | 컴퓨터 구조 (CPU, 메모리, 버스 등) |
+| `cs_fundamentals-digital_logic` | 디지털 논리회로 (게이트, 플립플롭 등) |
+| `programming-rust` | Rust |
+| `programming-python` | Python |
+| `programming-javascript` | JavaScript |
+| `database-relational` | 관계형 DB (SQL, 정규화 등) |
+| `database-nosql` | NoSQL (Redis, MongoDB 등) |
+| `devops-docker` | Docker |
+| `devops-kubernetes` | Kubernetes |
+| `devops-cloud` | AWS, GCP, Azure |
+| `security-cryptography` | 암호학 |
+| `security-web` | 웹 보안 |
 
 ## 답변 예시 템플릿
 
