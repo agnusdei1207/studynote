@@ -4,9 +4,9 @@
 
 :root {
     /* === COLOR PALETTE === */
-    --color-brand: 160 84% 39%;
-    --color-brand-light: 160 84% 88%;
-    --color-brand-dark: 160 84% 18%;
+    --color-brand: 206 85% 54%;
+    --color-brand-light: 206 85% 88%;
+    --color-brand-dark: 206 85% 18%;
 
     --color-surface: 0 0% 100%;
     --color-surface-muted: 240 4.8% 95.9%;
@@ -26,7 +26,7 @@
     --text-primary: hsl(var(--color-text));
     --text-secondary: hsl(var(--color-text-secondary));
     --text-accent: hsl(var(--color-brand));
-    --text-code: hsl(160 84% 35%);
+    --text-code: hsl(206 85% 35%);
 
     --border-default: hsl(var(--color-border));
     --border-accent: hsl(var(--color-brand) / 0.3);
@@ -43,9 +43,9 @@
 }
 
 [data-theme="dark"] {
-    --color-brand: 158 64% 52%;
-    --color-brand-light: 160 84% 18%;
-    --color-brand-dark: 160 84% 75%;
+    --color-brand: 206 85% 54%;
+    --color-brand-light: 206 85% 18%;
+    --color-brand-dark: 206 85% 75%;
 
     --color-surface: 240 10% 4.9%;
     --color-surface-muted: 240 3.7% 15.9%;
@@ -61,7 +61,7 @@
     --bg-card: hsl(var(--color-surface));
     --bg-muted: hsl(var(--color-surface-muted));
 
-    --text-code: hsl(160 64% 60%);
+    --text-code: hsl(206 85% 60%);
     --highlight-bg: hsl(var(--color-brand-light));
     --highlight-text: hsl(var(--color-brand-dark));
 }

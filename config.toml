@@ -1,5 +1,5 @@
 base_url = "https://agnusdei1207.github.io/studynote"
-title = "Study Note"
+title = "Science"
 description = "AI, Infra, DevSecOps, Cloud Native, Security"
 compile_sass = false
 build_search_index = false
