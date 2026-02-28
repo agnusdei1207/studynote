@@ -148,6 +148,7 @@ sort_by = "title"
 
 **`templates/base.html`** (기본 레이아웃):
 
+{% raw %}
 ```html
 <!DOCTYPE html>
 <html lang="ko-KR">
@@ -183,11 +184,13 @@ sort_by = "title"
 </body>
 </html>
 ```
+{% endraw %}
 
 > **중요**: 위 코드에서 `{ { ... } }` (공백 포함)는 실제 파일에서 `{ { ... } }`로 작성해야 한다.
 > 이 문서 파일 자체가 Zola로 빌드되므로 `{ { } }`를 직접 쓰면 shortcode로 오인식된다.
 
 **`templates/page.html`** (포스트 페이지):
+{% raw %}
 ```html
 {% extends "base.html" %}
 
@@ -197,6 +200,7 @@ sort_by = "title"
 </article>
 {% endblock content %}
 ```
+{% endraw %}
 
 Liquid → Tera 핵심 차이:
 
@@ -210,6 +214,7 @@ Liquid → Tera 핵심 차이:
 | `site.baseurl` | `config.base_url` | 설정값 접근 |
 
 **`templates/section.html`** (섹션/폴더 페이지):
+{% raw %}
 ```html
 {% extends "base.html" %}
 
@@ -242,8 +247,10 @@ Liquid → Tera 핵심 차이:
 
 {% endblock content %}
 ```
+{% endraw %}
 
 **`templates/index.html`** (홈 페이지 - 최신글):
+{% raw %}
 ```html
 {% extends "base.html" %}
 
@@ -261,6 +268,7 @@ Liquid → Tera 핵심 차이:
 {% endfor %}
 {% endblock content %}
 ```
+{% endraw %}
 
 ### 4.4 package.json
 
