@@ -26,7 +26,7 @@ echo "╚═══════════════════════�
 # ── 1. TOML: _index.md에 date 필드 금지 ──────────────────
 echo ""
 echo "▶ [1/4] _index.md date 필드 검사..."
-INDEX_DATE=$(grep -rl "^date = " "$CONTENT_DIR" --include="*_index.md" 2>/dev/null || true)
+INDEX_DATE=$(grep -rl "^date = " "$CONTENT_DIR" --include="_index.md" 2>/dev/null || true)
 if [ -n "$INDEX_DATE" ]; then
   fail "_index.md에 허용되지 않는 'date' 필드:"
   echo "$INDEX_DATE" | sed 's/^/      /'
