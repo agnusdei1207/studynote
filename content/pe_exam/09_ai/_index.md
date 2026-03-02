@@ -1,6 +1,5 @@
 +++
 title = "09. 인공지능 (Artificial Intelligence)"
-date = 2026-03-02
 sort_by = "title"
 [extra]
 categories = "pe_exam"
