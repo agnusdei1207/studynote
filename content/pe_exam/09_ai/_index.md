@@ -1,5 +1,5 @@
 +++
-title = "09. 인공지능 (Artificial Intelligence)"
+title = "제9과목: 인공지능"
 sort_by = "title"
 [extra]
 categories = "pe_exam"
