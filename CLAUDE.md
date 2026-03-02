@@ -41,6 +41,7 @@
 **06 ICT 융합**: AI/ML(지도·비지도·강화), 딥러닝(CNN·RNN·Transformer), 빅데이터(Hadoop·Spark), 클라우드(IaaS·PaaS·SaaS), 컨테이너·쿠버네티스, 블록체인, IoT, 보안(암호화·PKI·Zero Trust), 핀테크
 **07 기업정보시스템**: ERP·SCM·CRM, SOA·ESB·EAI, BPM·BPR, IT전략(ISP·EA·BSC), IT거버넌스(COBIT·ITIL), BI·OLAP·데이터마이닝, DX, RPA, 컴플라이언스
 **08 알고리즘/통계**: 정렬(퀵·합병·힙·기수), 탐색(이진·해시), 그래프(BFS·DFS·다익스트라·벨만포드·크루스칼·프림), DP(배낭·LCS·최장증가), 분할정복, 탐욕, 백트래킹, 복잡도(P·NP), 자료구조(힙·B트리·트라이), 통계(확률분포·가설검정·회귀)
+**09 AI**
 
 ### 콘텐츠 품질 기준 (새 파일 작성 시)
 - [ ] `categories = "pe_exam-과목명"` 형식 사용
