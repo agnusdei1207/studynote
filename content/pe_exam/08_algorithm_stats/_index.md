@@ -1,5 +1,5 @@
 +++
-title = "제8과목: 알고리즘 / 통계"
+title = "8. 알고리즘/통계"
 description = "자료구조, 알고리즘 설계, 복잡도 분석, 통계 기초"
 sort_by = "title"
 weight = 8

@@ -1,5 +1,5 @@
 +++
-title = "제3과목: 데이터통신 / 네트워크"
+title = "3. 데이터통신/네트워크"
 description = "OSI 7계층, TCP/IP, 무선통신, 네트워크 장비, 프로토콜"
 sort_by = "title"
 weight = 3

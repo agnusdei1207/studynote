@@ -1,5 +1,5 @@
 +++
-title = "제2과목: 운영체제"
+title = "2. 운영체제"
 description = "프로세스 관리, 메모리 관리, 파일 시스템, 동기화"
 sort_by = "title"
 weight = 2

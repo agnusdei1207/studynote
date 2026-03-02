@@ -1,5 +1,5 @@
 +++
-title = "제5과목: 데이터베이스"
+title = "5. 데이터베이스"
 description = "관계형 DB, NoSQL, 트랜잭션, 정규화, 분산 DB, 데이터 웨어하우스"
 sort_by = "title"
 weight = 5

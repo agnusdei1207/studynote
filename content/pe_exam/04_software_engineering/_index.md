@@ -1,5 +1,5 @@
 +++
-title = "제4과목: 소프트웨어 공학"
+title = "4. 소프트웨어 공학"
 description = "개발 방법론, 아키텍처 설계, 테스트, 품질, 형상관리"
 sort_by = "title"
 weight = 4

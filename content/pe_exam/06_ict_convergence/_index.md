@@ -1,5 +1,5 @@
 +++
-title = "제6과목: ICT 융합기술"
+title = "6. ICT 융합기술"
 description = "AI/ML, 빅데이터, 클라우드, 블록체인, IoT, XR, 정보보안, 핀테크"
 sort_by = "title"
 weight = 6

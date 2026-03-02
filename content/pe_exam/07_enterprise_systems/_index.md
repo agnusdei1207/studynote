@@ -1,5 +1,5 @@
 +++
-title = "제7과목: 기업정보시스템"
+title = "7. 기업정보시스템"
 description = "ERP, CRM, SCM, IT 전략, 경영정보, 비즈니스 인텔리전스"
 sort_by = "title"
 weight = 7

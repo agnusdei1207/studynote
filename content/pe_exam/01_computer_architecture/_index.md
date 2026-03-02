@@ -1,5 +1,5 @@
 +++
-title = "제1과목: 컴퓨터 구조"
+title = "1. 컴퓨터 구조"
 description = "컴퓨터 구조, CPU, 메모리, 입출력, 디지털 논리 회로"
 sort_by = "title"
 weight = 1
