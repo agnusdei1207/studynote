@@ -3,7 +3,7 @@ title = "정보보안 (Information Security)"
 date = 2025-03-01
 
 [extra]
-categories = "pe_exam-ict_convergence"main"
+categories = "pe_exam-ict_convergence"
 +++
 
 # 정보보안 (Information Security)
@@ -285,3 +285,24 @@ categories = "pe_exam-ict_convergence"main"
 
 ---
 
+## 어린이를 위한 종합 설명
+
+**정보보안를 쉽게 이해해보자!**
+
+> 정보의 기밀성, 무결성, 가용성을 보호하는 활동. 기술적, 물리적, 관리적 보안 대책 적용. CIA 3요소가 핵심 원칙이다.
+
+```
+왜 필요할까?
+  기존 방식의 한계를 넘기 위해
+
+어떻게 동작하나?
+  복잡한 문제 → 정보보안 적용 → 더 빠르고 안전한 결과!
+
+핵심 한 줄:
+  정보보안 = 똑똑하게 문제를 해결하는 방법
+```
+
+> **비유**: 정보보안은 마치 요리사가 레시피를 따르는 것과 같아.
+> 혼란스러운 재료들을 정해진 순서대로 조합하면 → 맛있는 요리(최적 결과)가 나오지! 🍳
+
+---

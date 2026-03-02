@@ -3,7 +3,7 @@ title = "비대칭키 암호 (Asymmetric Encryption)"
 date = 2025-03-02
 
 [extra]
-categories = "pe_exam-ict_convergence"cryptography"
+categories = "pe_exam-ict_convergence"
 +++
 
 # 비대칭키 암호 (Asymmetric Encryption)
@@ -128,3 +128,24 @@ categories = "pe_exam-ict_convergence"cryptography"
 
 ---
 
+## 어린이를 위한 종합 설명
+
+**비대칭키 암호를 쉽게 이해해보자!**
+
+> 공개키/개인키 쌍으로 암호화. RSA, ECC, 디피헬만. 기밀성, 서명, 키 교환.
+
+```
+왜 필요할까?
+  기존 방식의 한계를 넘기 위해
+
+어떻게 동작하나?
+  복잡한 문제 → 비대칭키 암호 적용 → 더 빠르고 안전한 결과!
+
+핵심 한 줄:
+  비대칭키 암호 = 똑똑하게 문제를 해결하는 방법
+```
+
+> **비유**: 비대칭키 암호은 마치 요리사가 레시피를 따르는 것과 같아.
+> 혼란스러운 재료들을 정해진 순서대로 조합하면 → 맛있는 요리(최적 결과)가 나오지! 🍳
+
+---

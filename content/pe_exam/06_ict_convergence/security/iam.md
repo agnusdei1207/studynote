@@ -3,7 +3,7 @@ title = "IAM (통합 신원 및 접근 관리)"
 date = 2025-03-01
 
 [extra]
-categories = "pe_exam-ict_convergence"access_control"
+categories = "pe_exam-ict_convergence"
 +++
 
 # IAM (통합 신원 및 접근 관리)
@@ -126,3 +126,24 @@ IAM(Identity and Access Management)은 **조직 내외부 사용자의 디지털
 
 ---
 
+## 어린이를 위한 종합 설명
+
+**IAM를 쉽게 이해해보자!**
+
+> 사용자 신원과 권한의 통합 관리. 인증, 인가, 감사. Zero Trust 기반.
+
+```
+왜 필요할까?
+  기존 방식의 한계를 넘기 위해
+
+어떻게 동작하나?
+  복잡한 문제 → IAM 적용 → 더 빠르고 안전한 결과!
+
+핵심 한 줄:
+  IAM = 똑똑하게 문제를 해결하는 방법
+```
+
+> **비유**: IAM은 마치 요리사가 레시피를 따르는 것과 같아.
+> 혼란스러운 재료들을 정해진 순서대로 조합하면 → 맛있는 요리(최적 결과)가 나오지! 🍳
+
+---

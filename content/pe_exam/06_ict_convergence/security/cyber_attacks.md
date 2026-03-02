@@ -3,7 +3,7 @@ title = "사이버 공격 유형 (Cyber Attacks)"
 date = 2025-03-01
 
 [extra]
-categories = "pe_exam-ict_convergence"threats"
+categories = "pe_exam-ict_convergence"
 +++
 
 # 사이버 공격 유형 (Cyber Attacks)
@@ -144,3 +144,24 @@ categories = "pe_exam-ict_convergence"threats"
 
 ---
 
+## 어린이를 위한 종합 설명
+
+**사이버 공격 유형를 쉽게 이해해보자!**
+
+> 다양한 사이버 위협 기법. 악성코드, 피싱, DDoS 등. 방어 전략 수립 필요.
+
+```
+왜 필요할까?
+  기존 방식의 한계를 넘기 위해
+
+어떻게 동작하나?
+  복잡한 문제 → 사이버 공격 유형 적용 → 더 빠르고 안전한 결과!
+
+핵심 한 줄:
+  사이버 공격 유형 = 똑똑하게 문제를 해결하는 방법
+```
+
+> **비유**: 사이버 공격 유형은 마치 요리사가 레시피를 따르는 것과 같아.
+> 혼란스러운 재료들을 정해진 순서대로 조합하면 → 맛있는 요리(최적 결과)가 나오지! 🍳
+
+---

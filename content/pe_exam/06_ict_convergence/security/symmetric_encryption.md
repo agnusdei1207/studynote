@@ -3,7 +3,7 @@ title = "대칭키 암호 (Symmetric Encryption)"
 date = 2025-03-02
 
 [extra]
-categories = "pe_exam-ict_convergence"cryptography"
+categories = "pe_exam-ict_convergence"
 +++
 
 # 대칭키 암호 (Symmetric Encryption)
@@ -133,3 +133,24 @@ categories = "pe_exam-ict_convergence"cryptography"
 
 ---
 
+## 어린이를 위한 종합 설명
+
+**대칭키 암호를 쉽게 이해해보자!**
+
+> 동일한 키로 암호화/복호화. 블록 암호, 스트림 암호, 운용 모드. 빠른 속도, 키 분배 문제.
+
+```
+왜 필요할까?
+  기존 방식의 한계를 넘기 위해
+
+어떻게 동작하나?
+  복잡한 문제 → 대칭키 암호 적용 → 더 빠르고 안전한 결과!
+
+핵심 한 줄:
+  대칭키 암호 = 똑똑하게 문제를 해결하는 방법
+```
+
+> **비유**: 대칭키 암호은 마치 요리사가 레시피를 따르는 것과 같아.
+> 혼란스러운 재료들을 정해진 순서대로 조합하면 → 맛있는 요리(최적 결과)가 나오지! 🍳
+
+---

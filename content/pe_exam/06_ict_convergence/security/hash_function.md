@@ -3,7 +3,7 @@ title = "해시 함수 (Hash Function)"
 date = 2025-03-02
 
 [extra]
-categories = "pe_exam-ict_convergence"cryptography"
+categories = "pe_exam-ict_convergence"
 +++
 
 # 해시 함수 (Hash Function)
@@ -131,3 +131,24 @@ categories = "pe_exam-ict_convergence"cryptography"
 
 ---
 
+## 어린이를 위한 종합 설명
+
+**해시 함수를 쉽게 이해해보자!**
+
+> 임의 길이 입력을 고정 길이 출력으로 변환. 단방향, 충돌 저항, 무결성. MD5, SHA.
+
+```
+왜 필요할까?
+  기존 방식의 한계를 넘기 위해
+
+어떻게 동작하나?
+  복잡한 문제 → 해시 함수 적용 → 더 빠르고 안전한 결과!
+
+핵심 한 줄:
+  해시 함수 = 똑똑하게 문제를 해결하는 방법
+```
+
+> **비유**: 해시 함수은 마치 요리사가 레시피를 따르는 것과 같아.
+> 혼란스러운 재료들을 정해진 순서대로 조합하면 → 맛있는 요리(최적 결과)가 나오지! 🍳
+
+---

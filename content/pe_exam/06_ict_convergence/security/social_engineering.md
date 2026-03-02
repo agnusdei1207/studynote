@@ -3,7 +3,7 @@ title = "사회공학 공격 (Social Engineering)"
 date = 2025-03-02
 
 [extra]
-categories = "pe_exam-ict_convergence"threats"
+categories = "pe_exam-ict_convergence"
 +++
 
 # 사회공학 공격 (Social Engineering)
@@ -138,3 +138,24 @@ categories = "pe_exam-ict_convergence"threats"
 
 ---
 
+## 어린이를 위한 종합 설명
+
+**사회공학 공격를 쉽게 이해해보자!**
+
+> 사람의 심리적 취약점을 이용한 공격. 피싱, 스피어피싱, 프리텍팅. 보안 교육 핵심.
+
+```
+왜 필요할까?
+  기존 방식의 한계를 넘기 위해
+
+어떻게 동작하나?
+  복잡한 문제 → 사회공학 공격 적용 → 더 빠르고 안전한 결과!
+
+핵심 한 줄:
+  사회공학 공격 = 똑똑하게 문제를 해결하는 방법
+```
+
+> **비유**: 사회공학 공격은 마치 요리사가 레시피를 따르는 것과 같아.
+> 혼란스러운 재료들을 정해진 순서대로 조합하면 → 맛있는 요리(최적 결과)가 나오지! 🍳
+
+---
