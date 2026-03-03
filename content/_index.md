@@ -1,6 +1,6 @@
 +++
 title = "학습 노트"
-description = "PE 시험 / 일반 학습"
+description = "기술사 시험 / 일반 학습"
 +++
 
 # 학습 노트
@@ -9,5 +9,5 @@ description = "PE 시험 / 일반 학습"
 
 | 영역 | 링크 | 설명 |
 |------|------|------|
-| 🏆 PE 시험 | [pe_exam](/pe_exam/) | 정보처리 PE 8과목 핵심 정리 |
+| 🏆 PE 시험 | [pe_exam](/pe_exam/) | 기술사 8과목 핵심 정리 |
 | 📚 일반 학습 | [study](/study/) | CS, AI, 개발 도구 등 |
