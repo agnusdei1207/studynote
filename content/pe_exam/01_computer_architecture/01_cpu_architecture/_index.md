@@ -1,1 +1,5 @@
-+++\ntitle = "CPU 아키텍처"\nsort_by = "title"\n+++
++++
+title = "CPU 아키텍처"
+sort_by = "title"
+insert_anchor_links = "right"
++++

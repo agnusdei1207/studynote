@@ -2,6 +2,7 @@
 title = "PE 시험 (Professional Engineer Exam)"
 description = "PE 16과목 핵심 정리 — 정보통신기술사·컴퓨터응용시스템기술사"
 sort_by = "weight"
+insert_anchor_links = "right"
 +++
 
 # 🏆 PE 시험

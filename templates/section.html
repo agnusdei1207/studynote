@@ -40,7 +40,7 @@
             <span class="fi-icon"><img src="https://api.iconify.design/lucide:file-text.svg?color=%236b7280" width="16"
                     height="16" alt=""></span>
             <span class="fi-name">{{ page.title }}</span>
-            <span class="fi-meta">{{ page.date | date(format="%Y-%m-%d") }}</span>
+            <span class="fi-meta">{% if page.date %}{{ page.date | date(format="%Y-%m-%d") }}{% endif %}</span>
         </a>
         <button class="card-copy-btn" data-url="{{ page.permalink }}" title="Copy content">
             {% include "icons/copy.html" %}
