@@ -218,10 +218,10 @@ if __name__ == "__main__":
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[캐시 메모리 (Cache Memory)](../../01_computer_architecture/02_memory_hierarchy/cache_memory.md)**: TLB와 CPU 캐시의 구조적 유사성과 메모리 계층 구조에서의 역할 분담 관계.
-- **[프로세스 vs 스레드 (Process vs Thread)](../01_process_management/process_vs_thread.md)**: 가상 메모리 주소 공간을 공유(Thread)하느냐, 격리(Process)하느냐에 따른 실행 단위의 차이.
-- **[운영체제 스케줄링 (CPU Scheduling)](../01_process_management/cpu_scheduling.md)**: 페이지 폴트 발생 시 I/O 대기 상태(Waiting)로 전환되는 프로세스의 상태 전이 모델.
-- **[도커 및 컨테이너 (Docker/K8s)](../../../13_cloud_architecture/01_cloud_native/kubernetes.md)**: 리눅스 커널의 Namespace 기술을 이용해 가상 메모리 격리를 한 단계 더 추상화한 기술.
+- **[캐시 메모리 (Cache Memory)](@/studynotes/01_computer_architecture/02_memory_hierarchy/cache_memory.md)**: TLB와 CPU 캐시의 구조적 유사성과 메모리 계층 구조에서의 역할 분담 관계.
+- **[프로세스 vs 스레드 (Process vs Thread)](@/studynotes/02_operating_system/01_process_management/process_vs_thread.md)**: 가상 메모리 주소 공간을 공유(Thread)하느냐, 격리(Process)하느냐에 따른 실행 단위의 차이.
+- **[운영체제 스케줄링 (CPU Scheduling)](@/studynotes/02_operating_system/01_process_management/cpu_scheduling.md)**: 페이지 폴트 발생 시 I/O 대기 상태(Waiting)로 전환되는 프로세스의 상태 전이 모델.
+- **[도커 및 컨테이너 (Docker/K8s)](@/studynotes/13_cloud_architecture/01_cloud_native/kubernetes.md)**: 리눅스 커널의 Namespace 기술을 이용해 가상 메모리 격리를 한 단계 더 추상화한 기술.
 
 ---
 

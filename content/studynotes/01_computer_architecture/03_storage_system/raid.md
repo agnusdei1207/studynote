@@ -176,9 +176,9 @@ CPU가 `0101`이라는 데이터를 디스크 1, 2, 3에 분산해서 쓴다고 
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-*   [캐시 메모리(Cache Memory)](../02_memory_hierarchy/cache_memory.md) : 하드웨어 RAID 컨트롤러 내부에도 BBU(Battery Backed Unit)와 결합된 자체 RAM 캐시가 장착되어 Write Penalty를 흡수하는 데 핵심적인 역할을 함.
-*   [가상 메모리(Virtual Memory)](../02_memory_management/virtual_memory.md) : OS가 페이징(Paging)을 수행할 때 스왑 영역(Swap Area)을 RAID 0 공간에 두면 컨텍스트 스위칭 성능을 크게 높일 수 있음.
-*   [분산 데이터베이스(Distributed DB)](../../05_database/01_relational_model/nosql.md) : NoSQL 시스템(Cassandra, MongoDB 등)은 단일 서버 내의 RAID 대신, 여러 서버 간에 데이터를 복제(Replication)하는 분산 시스템 레벨의 데이터 이중화 철학을 채택함.
+*   [캐시 메모리(Cache Memory)](@/studynotes/01_computer_architecture/02_memory_hierarchy/cache_memory.md) : 하드웨어 RAID 컨트롤러 내부에도 BBU(Battery Backed Unit)와 결합된 자체 RAM 캐시가 장착되어 Write Penalty를 흡수하는 데 핵심적인 역할을 함.
+*   [가상 메모리(Virtual Memory)](@/studynotes/02_operating_system/02_memory_management/virtual_memory.md) : OS가 페이징(Paging)을 수행할 때 스왑 영역(Swap Area)을 RAID 0 공간에 두면 컨텍스트 스위칭 성능을 크게 높일 수 있음.
+*   [분산 데이터베이스(Distributed DB)](@/studynotes/05_database/01_relational_model/nosql.md) : NoSQL 시스템(Cassandra, MongoDB 등)은 단일 서버 내의 RAID 대신, 여러 서버 간에 데이터를 복제(Replication)하는 분산 시스템 레벨의 데이터 이중화 철학을 채택함.
 
 ---
 

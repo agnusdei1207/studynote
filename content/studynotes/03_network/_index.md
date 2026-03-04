@@ -1,5 +1,5 @@
 +++
-title = "03. 데이터통신 및 네트워크 (Network)"
+title = "03. Network"
 description = "OSI 7계층, TCP/IP, 무선통신, 차세대 네트워크 및 통신 표준"
 sort_by = "title"
 insert_anchor_links = "right"

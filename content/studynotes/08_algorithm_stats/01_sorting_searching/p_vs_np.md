@@ -146,11 +146,11 @@ categories = "studynotes-algorithm-stats"
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
--   [지수 시간 복잡도 ($2^n$)](../03_complexity/exponential_time.md): NP 문제의 일반적인 성격.
--   [양자 컴퓨팅 (Quantum Computing)](../../01_computer_architecture/quantum_computing.md): 복잡도 계층을 파괴할 게임 체인저.
--   [RSA 암호 알고리즘](../../09_security/rsa.md): NP 문제의 어려움을 이용한 대표 기술.
--   [SAT Problem](./sat_problem.md): 모든 NP-완비 문제의 근간이 되는 논리식 만족 문제.
--   [휴리스틱 (Heuristic)](./heuristic.md): NP-Hard 문제를 다루는 실용적인 접근법.
+-   [지수 시간 복잡도 ($2^n$)](@/studynotes/08_algorithm_stats/_index.md): NP 문제의 일반적인 성격.
+-   [양자 컴퓨팅 (Quantum Computing)](@/studynotes/01_computer_architecture/_index.md): 복잡도 계층을 파괴할 게임 체인저.
+-   [RSA 암호 알고리즘](@/studynotes/09_security/_index.md): NP 문제의 어려움을 이용한 대표 기술.
+-   [SAT Problem](@/studynotes/08_algorithm_stats/_index.md): 모든 NP-완비 문제의 근간이 되는 논리식 만족 문제.
+-   [휴리스틱 (Heuristic)](@/studynotes/08_algorithm_stats/_index.md): NP-Hard 문제를 다루는 실용적인 접근법.
 
 ---
 

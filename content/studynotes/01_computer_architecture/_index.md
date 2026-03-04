@@ -1,5 +1,5 @@
 +++
-title = "01. 컴퓨터 구조 (Computer Architecture)"
+title = "01. Computer Architecture"
 description = "CPU 아키텍처, 메모리 계층, 입출력 시스템 등 하드웨어 근간 기술"
 sort_by = "title"
 insert_anchor_links = "right"

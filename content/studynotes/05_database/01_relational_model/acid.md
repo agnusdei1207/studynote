@@ -169,10 +169,10 @@ COMMIT;
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[2PL (Two-Phase Locking)](./concurrency_control.md)**: 격리성을 보장하기 위한 가장 고전적인 잠금 프로토콜.
-- **[MVCC (Multi-Version Concurrency Control)](./concurrency_control.md)**: 읽기와 쓰기의 성능 병목을 해결하기 위한 현대적 격리 기법.
-- **[CAP 이론](./nosql.md)**: 분산 시스템에서 일관성(C)과 가용성(A), 분산 내성(P) 간의 선택 문제.
-- **[WAL (Write-Ahead Log)](./acid.md)**: 영속성과 원자성을 구현하기 위한 물리적 기록 방식.
+- **[2PL (Two-Phase Locking)](@/studynotes/05_database/02_concurrency_control/concurrency_control.md)**: 격리성을 보장하기 위한 가장 고전적인 잠금 프로토콜.
+- **[MVCC (Multi-Version Concurrency Control)](@/studynotes/05_database/02_concurrency_control/concurrency_control.md)**: 읽기와 쓰기의 성능 병목을 해결하기 위한 현대적 격리 기법.
+- **[CAP 이론](@/studynotes/05_database/01_relational_model/nosql.md)**: 분산 시스템에서 일관성(C)과 가용성(A), 분산 내성(P) 간의 선택 문제.
+- **[WAL (Write-Ahead Log)](@/studynotes/05_database/01_relational_model/acid.md)**: 영속성과 원자성을 구현하기 위한 물리적 기록 방식.
 
 ---
 

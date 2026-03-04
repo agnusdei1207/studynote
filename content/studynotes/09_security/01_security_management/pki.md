@@ -211,11 +211,11 @@ PKI는 눈에 보이지 않지만 사이버 공간의 모든 상거래와 통신
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- [X.509 인증서 구조](./x509.md): PKI에서 발급하는 디지털 신분증의 상세 데이터 포맷.
-- [TLS / SSL 핸드쉐이크](../../03_network/tls_ssl.md): 웹 환경에서 PKI를 응용하여 보안 채널을 형성하는 프로토콜.
-- [해시 알고리즘 (SHA-256)](./hash_algorithm.md): 디지털 서명 시 무결성을 확보하기 위해 필수적으로 선행되는 기술.
-- [양자 내성 암호 (PQC)](../../10_ai/02_quantum_computing/pqc.md): 미래의 양자 컴퓨터 위협으로부터 PKI를 방어할 차세대 암호 체계.
-- [제로 트러스트 아키텍처](./zero_trust_architecture.md): 내부망도 믿지 않고 mTLS 등 PKI 기반 강력한 인증을 요구하는 보안 철학.
+- [X.509 인증서 구조](@/studynotes/09_security/01_security_management/_index.md): PKI에서 발급하는 디지털 신분증의 상세 데이터 포맷.
+- [TLS / SSL 핸드쉐이크](@/studynotes/03_network/_index.md): 웹 환경에서 PKI를 응용하여 보안 채널을 형성하는 프로토콜.
+- [해시 알고리즘 (SHA-256)](@/studynotes/09_security/01_security_management/_index.md): 디지털 서명 시 무결성을 확보하기 위해 필수적으로 선행되는 기술.
+- [양자 내성 암호 (PQC)](@/studynotes/10_ai/_index.md): 미래의 양자 컴퓨터 위협으로부터 PKI를 방어할 차세대 암호 체계.
+- [제로 트러스트 아키텍처](@/studynotes/09_security/01_security_management/zero_trust_architecture.md): 내부망도 믿지 않고 mTLS 등 PKI 기반 강력한 인증을 요구하는 보안 철학.
 
 ---
 

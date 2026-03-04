@@ -196,10 +196,10 @@ MSA에서 가장 어려운 점은 "주문 서비스(DB A)와 결제 서비스(DB
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-*   [DDD (Domain Driven Design)](../../04_software_engineering/01_sdlc_methodology/_index.md) : MSA의 서비스 경계를 나누는 가장 강력하고 유일한 설계 이론적 토대.
-*   [Kubernetes](../../06_ict_convergence/01_cloud_computing/cloud_computing.md) : MSA의 복잡한 운영을 자동화해 주는 사실상의 표준(De-facto) 오케스트레이션 플랫폼.
-*   [Kafka](../../16_bigdata/01_bigdata_processing/_index.md) : 서비스 간 비동기 통신과 데이터 일관성(Eventual Consistency)을 보장하기 위한 핵심 메시지 브로커.
-*   [Design Patterns](./design_patterns.md) : MSA 내부 로직을 견고하게 만드는 기초 체력이자, Circuit Breaker 등의 분산 패턴의 모태.
+*   [DDD (Domain Driven Design)](@/studynotes/04_software_engineering/01_sdlc_methodology/_index.md) : MSA의 서비스 경계를 나누는 가장 강력하고 유일한 설계 이론적 토대.
+*   [Kubernetes](@/studynotes/06_ict_convergence/01_cloud_computing/cloud_computing.md) : MSA의 복잡한 운영을 자동화해 주는 사실상의 표준(De-facto) 오케스트레이션 플랫폼.
+*   [Kafka](@/studynotes/_index.md) : 서비스 간 비동기 통신과 데이터 일관성(Eventual Consistency)을 보장하기 위한 핵심 메시지 브로커.
+*   [Design Patterns](@/studynotes/04_software_engineering/01_sdlc_methodology/design_patterns.md) : MSA 내부 로직을 견고하게 만드는 기초 체력이자, Circuit Breaker 등의 분산 패턴의 모태.
 
 ---
 

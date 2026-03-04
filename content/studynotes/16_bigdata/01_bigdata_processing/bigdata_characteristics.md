@@ -185,11 +185,11 @@ else:
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- `[Data Lakehouse](./data_lakehouse.md)`: Data Lake의 확장성과 Data Warehouse의 신뢰성을 결합한 최신 데이터 아키텍처.
-- `[NoSQL Database](./nosql.md)`: 빅데이터의 다양성(Variety)을 수용하기 위해 고정된 스키마 없이 데이터를 저장하는 DB 기술.
-- `[Data Governance](./data_governance.md)`: 데이터의 신뢰성(Veracity)과 보안을 보장하기 위한 조직적 관리 체계.
-- `[Apache Kafka](./kafka.md)`: 빅데이터의 속도(Velocity) 문제를 해결하기 위한 고성능 메시징 시스템.
-- `[Privacy Preserving Analytics](./privacy_tech.md)`: 개인정보를 보호하면서 빅데이터를 분석하기 위한 기술적 수단(차분 프라이버시 등).
+- `[Data Lakehouse](@/studynotes/14_data_engineering/01_data_architecture/data_lakehouse.md)`: Data Lake의 확장성과 Data Warehouse의 신뢰성을 결합한 최신 데이터 아키텍처.
+- `[NoSQL Database](@/studynotes/05_database/01_relational_model/nosql.md)`: 빅데이터의 다양성(Variety)을 수용하기 위해 고정된 스키마 없이 데이터를 저장하는 DB 기술.
+- `[Data Governance](@/studynotes/16_bigdata/_index.md)`: 데이터의 신뢰성(Veracity)과 보안을 보장하기 위한 조직적 관리 체계.
+- `[Apache Kafka](@/studynotes/16_bigdata/_index.md)`: 빅데이터의 속도(Velocity) 문제를 해결하기 위한 고성능 메시징 시스템.
+- `[Privacy Preserving Analytics](@/studynotes/16_bigdata/_index.md)`: 개인정보를 보호하면서 빅데이터를 분석하기 위한 기술적 수단(차분 프라이버시 등).
 
 ---
 

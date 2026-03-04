@@ -221,11 +221,11 @@ def run_udp_reliable_client(server_ip, server_port, message):
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- [OSI 7계층 (OSI 7 Layer)](./osi_7_layer.md): TCP와 UDP가 동작하는 4계층 전송 계층의 상하위 역할 모델.
-- [소켓 프로그래밍 (Socket API)](../software_engineering/socket_api.md): 애플리케이션에서 TCP/UDP를 호출하기 위한 인터페이스.
-- [QUIC 프로토콜 (HTTP/3)](../web_tech/quic.md): UDP 기반으로 TCP의 한계를 극복한 차세대 전송 프로토콜.
-- [TCP 혼잡 제어 (Reno/Cubic/BBR)](./tcp_congestion_control.md): 네트워크 붕괴를 막기 위한 심화 윈도우 조절 알고리즘.
-- [네트워크 주소 변환 (NAT)](./nat.md): UDP가 NAT 환경을 통과하기 위해 필요한 STUN/TURN 메커니즘 연계.
+- [OSI 7계층 (OSI 7 Layer)](@/studynotes/03_network/01_network_fundamentals/osi_7_layer.md): TCP와 UDP가 동작하는 4계층 전송 계층의 상하위 역할 모델.
+- [소켓 프로그래밍 (Socket API)](@/studynotes/03_network/_index.md): 애플리케이션에서 TCP/UDP를 호출하기 위한 인터페이스.
+- [QUIC 프로토콜 (HTTP/3)](@/studynotes/03_network/_index.md): UDP 기반으로 TCP의 한계를 극복한 차세대 전송 프로토콜.
+- [TCP 혼잡 제어 (Reno/Cubic/BBR)](@/studynotes/03_network/02_transport_layer/_index.md): 네트워크 붕괴를 막기 위한 심화 윈도우 조절 알고리즘.
+- [네트워크 주소 변환 (NAT)](@/studynotes/03_network/02_transport_layer/_index.md): UDP가 NAT 환경을 통과하기 위해 필요한 STUN/TURN 메커니즘 연계.
 
 ---
 

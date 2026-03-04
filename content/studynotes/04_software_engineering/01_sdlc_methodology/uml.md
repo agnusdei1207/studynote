@@ -221,11 +221,11 @@ public class OrderItem {
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
--   [객체 지향 5대 원칙 (SOLID)](./solid.md): UML 설계의 품질을 결정하는 핵심 원칙.
--   [디자인 패턴 (GoF)](./gof_patterns.md): UML로 정형화된 소프트웨어 재사용 설계 템플릿.
--   [MDA (Model Driven Architecture)](./mda.md): UML 모델을 소스코드로 변환하는 상위 개발 방법론.
--   [ERD (Entity Relationship Diagram)](../../05_database/erd.md): 데이터 관점의 모델링 언어로 UML Class Diagram과 상호 보완적 관계.
--   [SysML (Systems Modeling Language)](./sysml.md): 시스템 공학을 위한 UML의 대표적 확장 프로파일.
+-   [객체 지향 5대 원칙 (SOLID)](@/studynotes/04_software_engineering/01_sdlc_methodology/_index.md): UML 설계의 품질을 결정하는 핵심 원칙.
+-   [디자인 패턴 (GoF)](@/studynotes/04_software_engineering/01_sdlc_methodology/_index.md): UML로 정형화된 소프트웨어 재사용 설계 템플릿.
+-   [MDA (Model Driven Architecture)](@/studynotes/04_software_engineering/01_sdlc_methodology/_index.md): UML 모델을 소스코드로 변환하는 상위 개발 방법론.
+-   [ERD (Entity Relationship Diagram)](@/studynotes/05_database/_index.md): 데이터 관점의 모델링 언어로 UML Class Diagram과 상호 보완적 관계.
+-   [SysML (Systems Modeling Language)](@/studynotes/04_software_engineering/01_sdlc_methodology/_index.md): 시스템 공학을 위한 UML의 대표적 확장 프로파일.
 
 ---
 

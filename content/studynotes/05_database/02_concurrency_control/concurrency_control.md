@@ -165,10 +165,10 @@ WHERE item_id = 1 AND version = 1;
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[ACID](./acid.md)**: 동시성 제어가 궁극적으로 수호하고자 하는 트랜잭션의 4대 속성 (특히 I - 격리성).
-- **[트랜잭션 격리 수준 (Isolation Level)](./concurrency_control.md)**: 성능과 일관성을 조율하는 4단계 스펙.
-- **[MVCC (Multi-Version Concurrency Control)](./concurrency_control.md)**: 락을 회피하여 성능을 높이는 현대적 동시성 제어 아키텍처.
-- **[교착 상태 (Deadlock)](../../02_operating_system/01_process_management/deadlock.md)**: OS와 DB 모두에서 발생하는 자원 경쟁의 극단적 상태.
+- **[ACID](@/studynotes/05_database/01_relational_model/acid.md)**: 동시성 제어가 궁극적으로 수호하고자 하는 트랜잭션의 4대 속성 (특히 I - 격리성).
+- **[트랜잭션 격리 수준 (Isolation Level)](@/studynotes/05_database/02_concurrency_control/concurrency_control.md)**: 성능과 일관성을 조율하는 4단계 스펙.
+- **[MVCC (Multi-Version Concurrency Control)](@/studynotes/05_database/02_concurrency_control/concurrency_control.md)**: 락을 회피하여 성능을 높이는 현대적 동시성 제어 아키텍처.
+- **[교착 상태 (Deadlock)](@/studynotes/02_operating_system/01_process_management/deadlock.md)**: OS와 DB 모두에서 발생하는 자원 경쟁의 극단적 상태.
 
 ---
 

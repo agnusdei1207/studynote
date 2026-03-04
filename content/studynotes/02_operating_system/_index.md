@@ -1,5 +1,5 @@
 +++
-title = "02. 운영체제 (Operating System)"
+title = "02. Operating System"
 description = "프로세스 관리, 메모리/파일 시스템, 동기화 및 자원 최적화 전략"
 sort_by = "title"
 insert_anchor_links = "right"

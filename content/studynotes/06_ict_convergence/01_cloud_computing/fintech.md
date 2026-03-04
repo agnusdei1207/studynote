@@ -278,11 +278,11 @@ if __name__ == "__main__":
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[오픈 API (Open API)](../../04_software_engineering/01_sdlc_methodology/msa.md)**: 핀테크 서비스가 외부 금융기관 및 핀테크 기업들과 데이터를 주고받는 핵심 인터페이스 아키텍처 (MSA와 강한 연관).
-- **[블록체인 (Blockchain)](../02_blockchain/blockchain.md)**: 금융의 중개자(Middleman)를 완전히 제거하는 분산 원장 기술로, 핀테크의 궁극적인 지향점인 DeFi를 가능하게 함.
-- **[제로 트러스트 아키텍처 (Zero Trust)](../../09_security/01_security_management/zero_trust_architecture.md)**: 금융 데이터가 API를 통해 외부 망으로 유통되는 오픈뱅킹 환경에서 반드시 요구되는 핵심 보안 패러다임.
-- **[머신러닝 알고리즘 (Machine Learning)](../../10_ai/01_deep_learning/mlops.md)**: 이상거래탐지(FDS) 및 로보어드바이저의 예측 정확도를 높이는 수학적 근간 엔진.
-- **[ISMS-P 인증](../../09_security/01_security_management/isms_p.md)**: 한국에서 핀테크 비즈니스를 영위하기 위해 반드시 획득해야 하는 정보보호 및 개인정보보호 관리체계.
+- **[오픈 API (Open API)](@/studynotes/04_software_engineering/01_sdlc_methodology/msa.md)**: 핀테크 서비스가 외부 금융기관 및 핀테크 기업들과 데이터를 주고받는 핵심 인터페이스 아키텍처 (MSA와 강한 연관).
+- **[블록체인 (Blockchain)](@/studynotes/06_ict_convergence/02_blockchain/blockchain.md)**: 금융의 중개자(Middleman)를 완전히 제거하는 분산 원장 기술로, 핀테크의 궁극적인 지향점인 DeFi를 가능하게 함.
+- **[제로 트러스트 아키텍처 (Zero Trust)](@/studynotes/09_security/01_security_management/zero_trust_architecture.md)**: 금융 데이터가 API를 통해 외부 망으로 유통되는 오픈뱅킹 환경에서 반드시 요구되는 핵심 보안 패러다임.
+- **[머신러닝 알고리즘 (Machine Learning)](@/studynotes/10_ai/01_deep_learning/mlops.md)**: 이상거래탐지(FDS) 및 로보어드바이저의 예측 정확도를 높이는 수학적 근간 엔진.
+- **[ISMS-P 인증](@/studynotes/09_security/01_security_management/isms_p.md)**: 한국에서 핀테크 비즈니스를 영위하기 위해 반드시 획득해야 하는 정보보호 및 개인정보보호 관리체계.
 
 ---
 

@@ -225,10 +225,10 @@ Speedup = 1 / (S + (1-S)/N)  (N: 프로세서 개수)
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[가상 메모리 (Virtual Memory)](../02_memory_management/virtual_memory.md)**: 프로세스의 독립된 주소 공간을 물리적으로 구현하고 보호하는 핵심 운영체제 기술.
-- **[CPU 스케줄링 (CPU Scheduling)](../cpu_scheduling.md)**: 준비 큐에 있는 PCB/TCB 중 어떤 것을 다음에 실행할지 결정하는 알고리즘.
-- **[교착 상태 (Deadlock)](../01_process_management/deadlock.md)**: 멀티 스레드 환경에서 자원 점유와 대기로 인해 발생하는 치명적 교착 현상과 해결책.
-- **[데이터베이스 트랜잭션 (ACID)](../../05_database/01_relational_model/acid.md)**: 여러 스레드가 DB에 동시에 접근할 때 무결성을 보장하기 위한 고차원적 동기화 개념.
+- **[가상 메모리 (Virtual Memory)](@/studynotes/02_operating_system/02_memory_management/virtual_memory.md)**: 프로세스의 독립된 주소 공간을 물리적으로 구현하고 보호하는 핵심 운영체제 기술.
+- **[CPU 스케줄링 (CPU Scheduling)](@/studynotes/02_operating_system/01_process_management/cpu_scheduling.md)**: 준비 큐에 있는 PCB/TCB 중 어떤 것을 다음에 실행할지 결정하는 알고리즘.
+- **[교착 상태 (Deadlock)](@/studynotes/02_operating_system/01_process_management/deadlock.md)**: 멀티 스레드 환경에서 자원 점유와 대기로 인해 발생하는 치명적 교착 현상과 해결책.
+- **[데이터베이스 트랜잭션 (ACID)](@/studynotes/05_database/01_relational_model/acid.md)**: 여러 스레드가 DB에 동시에 접근할 때 무결성을 보장하기 위한 고차원적 동기화 개념.
 
 ---
 

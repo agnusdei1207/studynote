@@ -252,9 +252,9 @@ public:
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-*   [가상 메모리(Virtual Memory)](../02_memory_management/virtual_memory.md) : 주기억장치(DRAM)를 디스크의 캐시처럼 활용하는 운영체제 차원의 또 다른 계층적 지역성 원리 적용 사례.
-*   [CPU 파이프라인(CPU Pipeline)](../01_cpu_architecture/cpu_pipeline.md) : 명령어를 중첩 실행하는 기술로, 파이프라인이 멈추지 않으려면 캐시 메모리에서 명령어를 지연 없이(Zero Wait State) 공급해 주는 것이 절대적으로 필요함.
-*   [동시성 제어(Concurrency Control)](../../05_database/02_concurrency_control/concurrency_control.md) : DB의 동시성 문제는 하드웨어 레벨의 멀티코어 캐시 일관성(MESI 프로토콜) 문제를 소프트웨어 트랜잭션 단위로 확장한 동일한 철학의 문제.
+*   [가상 메모리(Virtual Memory)](@/studynotes/02_operating_system/02_memory_management/virtual_memory.md) : 주기억장치(DRAM)를 디스크의 캐시처럼 활용하는 운영체제 차원의 또 다른 계층적 지역성 원리 적용 사례.
+*   [CPU 파이프라인(CPU Pipeline)](@/studynotes/01_computer_architecture/01_cpu_architecture/cpu_pipeline.md) : 명령어를 중첩 실행하는 기술로, 파이프라인이 멈추지 않으려면 캐시 메모리에서 명령어를 지연 없이(Zero Wait State) 공급해 주는 것이 절대적으로 필요함.
+*   [동시성 제어(Concurrency Control)](@/studynotes/05_database/02_concurrency_control/concurrency_control.md) : DB의 동시성 문제는 하드웨어 레벨의 멀티코어 캐시 일관성(MESI 프로토콜) 문제를 소프트웨어 트랜잭션 단위로 확장한 동일한 철학의 문제.
 
 ---
 

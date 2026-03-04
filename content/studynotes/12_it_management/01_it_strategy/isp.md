@@ -195,11 +195,11 @@ print(f"추천 전략 방향: {best}")
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- [ISMP (정보시스템 마스터플랜)](./ismp.md): ISP의 구체적 실행을 위한 상세 설계 및 발주 전략.
-- [전사적 아키텍처 (EA)](./enterprise_architecture.md): ISP의 기초 자료가 되며, To-Be 설계의 기준이 되는 기업 청사진.
-- [BPR (Business Process Reengineering)](./bpr.md): ISP와 병행하여 업무 프로세스를 근본적으로 혁신하는 기법.
-- [IT 거버넌스](./it_governance.md): 수립된 ISP가 잘 이행되도록 관리하고 통제하는 의사결정 체계.
-- [클라우드 전환 전략](../cloud/migration_strategy.md): 현대 ISP의 핵심 과제인 클라우드 마이그레이션 방법론.
+- [ISMP (정보시스템 마스터플랜)](@/studynotes/12_it_management/_index.md): ISP의 구체적 실행을 위한 상세 설계 및 발주 전략.
+- [전사적 아키텍처 (EA)](@/studynotes/07_enterprise_systems/01_it_strategy/enterprise_architecture.md): ISP의 기초 자료가 되며, To-Be 설계의 기준이 되는 기업 청사진.
+- [BPR (Business Process Reengineering)](@/studynotes/12_it_management/_index.md): ISP와 병행하여 업무 프로세스를 근본적으로 혁신하는 기법.
+- [IT 거버넌스](@/studynotes/12_it_management/01_it_strategy/it_governance.md): 수립된 ISP가 잘 이행되도록 관리하고 통제하는 의사결정 체계.
+- [클라우드 전환 전략](@/studynotes/12_it_management/_index.md): 현대 ISP의 핵심 과제인 클라우드 마이그레이션 방법론.
 
 ---
 

@@ -209,11 +209,11 @@ def split_node(node):
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[LSM-Tree](../../16_bigdata/lsm_tree.md)**: B-Tree의 쓰기 병목을 극복하기 위해 Append-only 방식으로 설계된 최신 인덱스 아키텍처.
-- **[실행 계획 및 옵티마이저](../02_optimization/query_plan.md)**: 생성된 B-Tree 인덱스를 탈지 말지 비용(Cost)을 계산하여 결정하는 DBMS의 핵심 두뇌.
-- **[클러스터형 인덱스 (Clustered Index)](./clustered_index.md)**: B-Tree의 리프 노드 자체가 실제 데이터 페이지인 특수 구조로, 테이블당 1개만 생성 가능하며 범위 검색에 극도로 유리함.
-- **[격리 수준 (Isolation Level)](../relational/isolation_level.md)**: B-Tree 인덱스를 기반으로 Next-Key Lock이나 Gap Lock을 걸어 Phantom Read 이상 현상을 제어함.
-- **[가상 메모리와 페이징](../../02_operating_system/02_memory_management/virtual_memory.md)**: B-Tree의 노드 크기가 OS의 페이지 프레임 크기와 일치해야 하는 물리적 이유.
+- **[LSM-Tree](@/studynotes/16_bigdata/_index.md)**: B-Tree의 쓰기 병목을 극복하기 위해 Append-only 방식으로 설계된 최신 인덱스 아키텍처.
+- **[실행 계획 및 옵티마이저](@/studynotes/05_database/_index.md)**: 생성된 B-Tree 인덱스를 탈지 말지 비용(Cost)을 계산하여 결정하는 DBMS의 핵심 두뇌.
+- **[클러스터형 인덱스 (Clustered Index)](@/studynotes/05_database/01_relational_model/_index.md)**: B-Tree의 리프 노드 자체가 실제 데이터 페이지인 특수 구조로, 테이블당 1개만 생성 가능하며 범위 검색에 극도로 유리함.
+- **[격리 수준 (Isolation Level)](@/studynotes/05_database/02_concurrency_control/isolation_level.md)**: B-Tree 인덱스를 기반으로 Next-Key Lock이나 Gap Lock을 걸어 Phantom Read 이상 현상을 제어함.
+- **[가상 메모리와 페이징](@/studynotes/02_operating_system/02_memory_management/virtual_memory.md)**: B-Tree의 노드 크기가 OS의 페이지 프레임 크기와 일치해야 하는 물리적 이유.
 
 ---
 

@@ -217,11 +217,11 @@ def predict(data: dict):
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- `[CI/CD/CT](./ci_cd_ct.md)`: MLOps의 3대 핵심 기둥으로, 코드와 데이터와 모델의 지속적 통합/배포/학습을 의미.
-- `[Data Drift & Concept Drift](./drift_detection.md)`: 운영 중 발생하는 데이터 분포 변화와 타겟 변수 성격 변화를 감지하는 핵심 기술.
-- `[Feature Store](./feature_store.md)`: 학습과 추론 간의 데이터 일관성을 유지하기 위한 특성 데이터 중앙 저장소.
-- `[Kubeflow](./kubeflow.md)`: 쿠버네티스 환경에서 MLOps 파이프라인을 구축하고 관리하기 위한 대표적인 오픈소스 플랫폼.
-- `[Explainable AI (XAI)](./xai.md)`: 모델의 결과를 인간이 이해할 수 있게 설명하여 운영 단계의 신뢰성을 높여주는 보조 기술.
+- `[CI/CD/CT](@/studynotes/10_ai/01_deep_learning/_index.md)`: MLOps의 3대 핵심 기둥으로, 코드와 데이터와 모델의 지속적 통합/배포/학습을 의미.
+- `[Data Drift & Concept Drift](@/studynotes/10_ai/01_deep_learning/_index.md)`: 운영 중 발생하는 데이터 분포 변화와 타겟 변수 성격 변화를 감지하는 핵심 기술.
+- `[Feature Store](@/studynotes/10_ai/01_deep_learning/_index.md)`: 학습과 추론 간의 데이터 일관성을 유지하기 위한 특성 데이터 중앙 저장소.
+- `[Kubeflow](@/studynotes/10_ai/01_deep_learning/_index.md)`: 쿠버네티스 환경에서 MLOps 파이프라인을 구축하고 관리하기 위한 대표적인 오픈소스 플랫폼.
+- `[Explainable AI (XAI)](@/studynotes/10_ai/01_deep_learning/_index.md)`: 모델의 결과를 인간이 이해할 수 있게 설명하여 운영 단계의 신뢰성을 높여주는 보조 기술.
 
 ---
 

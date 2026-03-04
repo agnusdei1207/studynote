@@ -229,11 +229,11 @@ for key, val in mrp_result.items():
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- [BPR (Business Process Reengineering)](./bpr.md): ERP 도입의 성패를 가르는 업무 프로세스 전면 혁신 기법.
-- [SCM (Supply Chain Management)](./scm.md): ERP의 내부 최적화를 외부 파트너 및 유통망으로 확장한 시스템.
-- [클라우드 컴퓨팅 및 SaaS](../../06_ict_convergence/01_cloud_computing/cloud_computing.md): 차세대 Composable ERP가 구동되는 필수적인 인프라 환경.
-- [EAI (Enterprise Application Integration)](../../03_network/eai.md): ERP와 타 이기종 레거시 시스템 간의 실시간 트랜잭션 연계 기술.
-- [인메모리 데이터베이스 (In-Memory DB)](../../05_database/01_relational_model/in_memory_db.md): OLTP와 OLAP를 단일 시스템에서 실시간으로 처리 가능하게 한 핵심 아키텍처 혁신.
+- [BPR (Business Process Reengineering)](@/studynotes/07_enterprise_systems/_index.md): ERP 도입의 성패를 가르는 업무 프로세스 전면 혁신 기법.
+- [SCM (Supply Chain Management)](@/studynotes/07_enterprise_systems/01_it_strategy/scm.md): ERP의 내부 최적화를 외부 파트너 및 유통망으로 확장한 시스템.
+- [클라우드 컴퓨팅 및 SaaS](@/studynotes/06_ict_convergence/01_cloud_computing/cloud_computing.md): 차세대 Composable ERP가 구동되는 필수적인 인프라 환경.
+- [EAI (Enterprise Application Integration)](@/studynotes/03_network/_index.md): ERP와 타 이기종 레거시 시스템 간의 실시간 트랜잭션 연계 기술.
+- [인메모리 데이터베이스 (In-Memory DB)](@/studynotes/05_database/01_relational_model/_index.md): OLTP와 OLAP를 단일 시스템에서 실시간으로 처리 가능하게 한 핵심 아키텍처 혁신.
 
 ---
 

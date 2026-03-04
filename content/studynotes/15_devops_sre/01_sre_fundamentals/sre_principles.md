@@ -197,10 +197,10 @@ groups:
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[도커 및 쿠버네티스 (Docker & Kubernetes)](../../13_cloud_architecture/01_cloud_native/kubernetes.md)**: SRE가 애플리케이션을 선언적으로 배포하고 자가 치유(Self-Healing)를 구현하기 위해 사용하는 핵심 클라우드 네이티브 OS.
-- **[마이크로서비스 아키텍처 (MSA)](../../04_software_engineering/01_sdlc_methodology/msa.md)**: SRE의 옵저버빌리티(분산 트레이싱)가 필수적으로 요구되는 파편화된 서비스 아키텍처.
-- **[클라우드 컴퓨팅 (Cloud Computing)](../06_ict_convergence/01_cloud_computing/cloud_computing.md)**: 서버, 스토리지, 네트워크 자원을 API 코드로 조작(IaC)할 수 있게 해 주어 SRE의 '자동화'를 가능하게 하는 근간 인프라.
-- **[소프트웨어 테스팅 (Software Testing)](../../04_software_engineering/02_quality_management/software_testing.md)**: 장애를 프로덕션 이전에 차단하기 위해 CI/CD 파이프라인 내에 통합되는 단위/통합/부하 테스트 자동화 기술.
+- **[도커 및 쿠버네티스 (Docker & Kubernetes)](@/studynotes/13_cloud_architecture/01_cloud_native/kubernetes.md)**: SRE가 애플리케이션을 선언적으로 배포하고 자가 치유(Self-Healing)를 구현하기 위해 사용하는 핵심 클라우드 네이티브 OS.
+- **[마이크로서비스 아키텍처 (MSA)](@/studynotes/04_software_engineering/01_sdlc_methodology/msa.md)**: SRE의 옵저버빌리티(분산 트레이싱)가 필수적으로 요구되는 파편화된 서비스 아키텍처.
+- **[클라우드 컴퓨팅 (Cloud Computing)](@/studynotes/06_ict_convergence/01_cloud_computing/cloud_computing.md)**: 서버, 스토리지, 네트워크 자원을 API 코드로 조작(IaC)할 수 있게 해 주어 SRE의 '자동화'를 가능하게 하는 근간 인프라.
+- **[소프트웨어 테스팅 (Software Testing)](@/studynotes/04_software_engineering/02_quality_management/software_testing.md)**: 장애를 프로덕션 이전에 차단하기 위해 CI/CD 파이프라인 내에 통합되는 단위/통합/부하 테스트 자동화 기술.
 
 ---
 

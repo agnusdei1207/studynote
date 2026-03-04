@@ -209,11 +209,11 @@ class DR_Orchestrator:
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- [CDC (Change Data Capture)](../../05_database/cdc.md): 실시간 데이터 복제를 위한 핵심 기술.
-- [GSLB (Global Server Load Balancing)](../../03_network/gslb.md): 트래픽을 글로벌하게 제어하는 기술.
-- [카오스 엔지니어링](../../15_devops_sre/chaos_engineering.md): 장애를 주입하여 복원력을 검증하는 방법론.
-- [제로 트러스트 (Zero Trust)](./zero_trust_architecture.md): 복구된 환경에서의 신뢰 기반 보안 아키텍처.
-- [백업 및 아카이빙](../../05_database/backup_archiving.md): DR의 기본이 되는 데이터 보존 기술.
+- [CDC (Change Data Capture)](@/studynotes/05_database/_index.md): 실시간 데이터 복제를 위한 핵심 기술.
+- [GSLB (Global Server Load Balancing)](@/studynotes/03_network/_index.md): 트래픽을 글로벌하게 제어하는 기술.
+- [카오스 엔지니어링](@/studynotes/15_devops_sre/_index.md): 장애를 주입하여 복원력을 검증하는 방법론.
+- [제로 트러스트 (Zero Trust)](@/studynotes/09_security/01_security_management/zero_trust_architecture.md): 복구된 환경에서의 신뢰 기반 보안 아키텍처.
+- [백업 및 아카이빙](@/studynotes/05_database/_index.md): DR의 기본이 되는 데이터 보존 기술.
 
 ---
 

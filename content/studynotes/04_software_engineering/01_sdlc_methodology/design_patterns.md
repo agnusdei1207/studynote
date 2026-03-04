@@ -243,10 +243,10 @@ public class CoffeeShop {
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-*   [애자일 방법론](./agile_methodology.md) : 잦은 요구사항 변경을 전제로 하는 애자일에서 디자인 패턴은 코드를 무너지지 않게 하는 근육 역할을 함.
-*   [MSA(Microservices Architecture)](./msa.md) : 서비스 간의 복잡한 통신과 장애 복구를 위해 디자인 패턴의 확장된 개념들이 적용됨.
-*   [리팩토링(Refactoring)](../../study/dev_tools/refactoring.md) : 냄새나는 코드를 디자인 패턴이 적용된 깨끗한 코드로 바꾸는 과정.
-*   [객체지향 프로그래밍(OOP)](../../study/programming/rust/_index.md) : 디자인 패턴을 구현하기 위한 가장 기본적인 패러다임이자 토대.
+*   [애자일 방법론](@/studynotes/04_software_engineering/01_sdlc_methodology/agile_methodology.md) : 잦은 요구사항 변경을 전제로 하는 애자일에서 디자인 패턴은 코드를 무너지지 않게 하는 근육 역할을 함.
+*   [MSA(Microservices Architecture)](@/studynotes/04_software_engineering/01_sdlc_methodology/msa.md) : 서비스 간의 복잡한 통신과 장애 복구를 위해 디자인 패턴의 확장된 개념들이 적용됨.
+*   [리팩토링(Refactoring)](@/studynotes/_index.md) : 냄새나는 코드를 디자인 패턴이 적용된 깨끗한 코드로 바꾸는 과정.
+*   [객체지향 프로그래밍(OOP)](@/studynotes/_index.md) : 디자인 패턴을 구현하기 위한 가장 기본적인 패러다임이자 토대.
 
 ---
 

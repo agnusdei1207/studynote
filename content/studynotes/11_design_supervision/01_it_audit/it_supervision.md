@@ -167,10 +167,10 @@ String query = "SELECT * FROM users WHERE userid = '" + userId + "'"; // 위험!
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
--   [PMO (Project Management Office)](../../12_it_management/pmo.md): 감리와 상호 보완적으로 프로젝트 성공을 지원하는 조직.
--   [EA (Enterprise Architecture)](../../07_enterprise_systems/01_it_strategy/enterprise_architecture.md): 감리 시 시스템의 표준 준수 여부를 판단하는 기준.
--   [시큐어 코딩 (Secure Coding)](../../09_security/secure_coding.md): 기술 감리 중 보안 영역의 핵심 점검 항목.
--   [소프트웨어 품질 특성 (ISO 25010)](../../04_software_engineering/quality/iso_25010.md): 감리의 정성적 평가 지표.
+-   [PMO (Project Management Office)](@/studynotes/12_it_management/_index.md): 감리와 상호 보완적으로 프로젝트 성공을 지원하는 조직.
+-   [EA (Enterprise Architecture)](@/studynotes/07_enterprise_systems/01_it_strategy/enterprise_architecture.md): 감리 시 시스템의 표준 준수 여부를 판단하는 기준.
+-   [시큐어 코딩 (Secure Coding)](@/studynotes/09_security/_index.md): 기술 감리 중 보안 영역의 핵심 점검 항목.
+-   [소프트웨어 품질 특성 (ISO 25010)](@/studynotes/04_software_engineering/_index.md): 감리의 정성적 평가 지표.
 
 ---
 

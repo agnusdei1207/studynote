@@ -143,11 +143,11 @@ ISMS-P 인증 취득 및 유지는 막대한 비용이 들지만, 사고 발생 
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- [위험 평가 (Risk Assessment)](./risk_analysis.md): ISMS 관리체계 구축의 출발점이자 핵심 엔진.
-- [CISO (최고정보보호책임자)](./ciso.md): ISMS-P 체계를 책임지고 이끌어가는 법정 최고 책임자.
-- [ISO 27001 (정보보호 경영시스템)](./iso_27001.md): ISMS-P의 뼈대가 된 글로벌 정보보호 표준.
-- [CSAP (클라우드 보안인증)](./csap.md): 공공기관에 클라우드를 제공하기 위해 ISMS와 함께 요구되는 클라우드 특화 인증.
-- [DR / BCP (재해 복구 및 비즈니스 연속성)](./dr_bcp.md): ISMS-P의 통제 항목(사고 예방 및 복구)을 실현하는 구체적 기술 체계.
+- [위험 평가 (Risk Assessment)](@/studynotes/09_security/01_security_management/_index.md): ISMS 관리체계 구축의 출발점이자 핵심 엔진.
+- [CISO (최고정보보호책임자)](@/studynotes/09_security/01_security_management/_index.md): ISMS-P 체계를 책임지고 이끌어가는 법정 최고 책임자.
+- [ISO 27001 (정보보호 경영시스템)](@/studynotes/09_security/01_security_management/_index.md): ISMS-P의 뼈대가 된 글로벌 정보보호 표준.
+- [CSAP (클라우드 보안인증)](@/studynotes/09_security/01_security_management/_index.md): 공공기관에 클라우드를 제공하기 위해 ISMS와 함께 요구되는 클라우드 특화 인증.
+- [DR / BCP (재해 복구 및 비즈니스 연속성)](@/studynotes/09_security/01_security_management/dr_bcp.md): ISMS-P의 통제 항목(사고 예방 및 복구)을 실현하는 구체적 기술 체계.
 
 ---
 

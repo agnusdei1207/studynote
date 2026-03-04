@@ -1,5 +1,5 @@
 +++
-title = "10. 인공지능 (Artificial Intelligence)"
+title = "10. Artificial Intelligence"
 description = "머신러닝, 딥러닝 아키텍처, LLM, MLOps 및 AI 윤리"
 sort_by = "title"
 insert_anchor_links = "right"

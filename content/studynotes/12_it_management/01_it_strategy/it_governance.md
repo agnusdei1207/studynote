@@ -198,11 +198,11 @@ print(f"Project ROI: {result['ROI']}%")
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- [COBIT 2019](./cobit_2019.md): IT 거버넌스의 가장 대표적인 국제 표준 프레임워크 상세 분석.
-- [전사적 아키텍처 (EA)](./enterprise_architecture.md): IT 거버넌스를 기술적으로 뒷받침하는 기업 청사진.
-- [IT 투자 경제성 분석](./it_investment_analysis.md): ROI, TCO, NPV 등 거버넌스 의사결정을 위한 정량적 분석 기법.
-- [IT 서비스 관리 (ITSM)](./itsm.md): 거버넌스의 하위 실행 체계인 ITIL 기반 운영 프로세스.
-- [디지털 거버넌스](./digital_governance.md): 클라우드, AI, 빅데이터 시대를 아우르는 확장된 거버넌스 패러다임.
+- [COBIT 2019](@/studynotes/12_it_management/_index.md): IT 거버넌스의 가장 대표적인 국제 표준 프레임워크 상세 분석.
+- [전사적 아키텍처 (EA)](@/studynotes/07_enterprise_systems/01_it_strategy/enterprise_architecture.md): IT 거버넌스를 기술적으로 뒷받침하는 기업 청사진.
+- [IT 투자 경제성 분석](@/studynotes/12_it_management/_index.md): ROI, TCO, NPV 등 거버넌스 의사결정을 위한 정량적 분석 기법.
+- [IT 서비스 관리 (ITSM)](@/studynotes/12_it_management/_index.md): 거버넌스의 하위 실행 체계인 ITIL 기반 운영 프로세스.
+- [디지털 거버넌스](@/studynotes/12_it_management/_index.md): 클라우드, AI, 빅데이터 시대를 아우르는 확장된 거버넌스 패러다임.
 
 ---
 

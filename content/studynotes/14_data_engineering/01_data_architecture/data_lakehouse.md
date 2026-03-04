@@ -171,10 +171,10 @@ targetTable.alias("t").merge(
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[객체 스토리지 (Object Storage)](../../13_cloud_architecture/01_cloud_native/object_storage.md)**: 데이터 레이크하우스의 밑바탕이 되는 무한 확장 가능한 분산 저장소.
-- **[데이터 리니지 (Data Lineage)](../02_data_governance/data_lineage.md)**: 레이크하우스 내의 방대한 데이터가 어떻게 생성되고 변환되었는지 추적하는 거버넌스 도구.
-- **[컬럼형 스토리지 (Columnar Storage)](../../05_database/01_relational_model/nosql.md)**: Parquet과 같은 대용량 분석에 특화된 물리적 데이터 저장 방식.
-- **[데이터 웨어하우스 (DW)](./data_warehouse.md)**: 레이크하우스가 극복하고자 하는 과거의 구조화된 데이터 저장 모델.
+- **[객체 스토리지 (Object Storage)](@/studynotes/13_cloud_architecture/_index.md)**: 데이터 레이크하우스의 밑바탕이 되는 무한 확장 가능한 분산 저장소.
+- **[데이터 리니지 (Data Lineage)](@/studynotes/14_data_engineering/02_data_governance/data_lineage.md)**: 레이크하우스 내의 방대한 데이터가 어떻게 생성되고 변환되었는지 추적하는 거버넌스 도구.
+- **[컬럼형 스토리지 (Columnar Storage)](@/studynotes/05_database/01_relational_model/nosql.md)**: Parquet과 같은 대용량 분석에 특화된 물리적 데이터 저장 방식.
+- **[데이터 웨어하우스 (DW)](@/studynotes/14_data_engineering/01_data_architecture/_index.md)**: 레이크하우스가 극복하고자 하는 과거의 구조화된 데이터 저장 모델.
 
 ---
 

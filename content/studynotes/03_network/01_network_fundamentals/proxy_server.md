@@ -190,10 +190,10 @@ server {
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[로드 밸런싱 (Load Balancing)](./load_balancing.md)**: 리버스 프록시가 제공하는 핵심 기능으로, 트래픽을 여러 백엔드 서버로 고르게 분산하는 기법.
-- **[CDN (Content Delivery Network)](../06_ict_convergence/network/cdn.md)**: 전 세계 단위로 엣지 로케이션에 분산 배치된 거대한 리버스 캐싱 프록시 네트워크.
-- **[MSA (Microservices Architecture)](../../04_software_engineering/01_sdlc_methodology/msa.md)**: API 게이트웨이 및 서비스 메시(사이드카 프록시) 아키텍처를 강제하게 만든 소프트웨어 설계 패러다임.
-- **[방화벽 및 WAF (Web Application Firewall)](./vpn_network_security.md)**: 프록시 레이어에 통합되어 애플리케이션 계층의 악의적 페이로드를 차단하는 보안 기술.
+- **[로드 밸런싱 (Load Balancing)](@/studynotes/03_network/01_network_fundamentals/_index.md)**: 리버스 프록시가 제공하는 핵심 기능으로, 트래픽을 여러 백엔드 서버로 고르게 분산하는 기법.
+- **[CDN (Content Delivery Network)](@/studynotes/03_network/_index.md)**: 전 세계 단위로 엣지 로케이션에 분산 배치된 거대한 리버스 캐싱 프록시 네트워크.
+- **[MSA (Microservices Architecture)](@/studynotes/04_software_engineering/01_sdlc_methodology/msa.md)**: API 게이트웨이 및 서비스 메시(사이드카 프록시) 아키텍처를 강제하게 만든 소프트웨어 설계 패러다임.
+- **[방화벽 및 WAF (Web Application Firewall)](@/studynotes/03_network/01_network_fundamentals/_index.md)**: 프록시 레이어에 통합되어 애플리케이션 계층의 악의적 페이로드를 차단하는 보안 기술.
 
 ---
 

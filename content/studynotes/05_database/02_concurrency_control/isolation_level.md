@@ -175,10 +175,10 @@ class TransactionManager:
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[ACID 원칙](./acid.md)**: 격리 수준이 구현하고자 하는 원자성, 일관성, 고립성, 지속성의 근간.
-- **[MVCC (다중 버전 동시성 제어)](./mvcc.md)**: 현대적 DBMS가 Lock 없이 격리 수준을 구현하는 핵심 알고리즘.
-- **[낙관적 락 vs 비관적 락](../concurrency_control.md)**: 격리 수준의 한계를 애플리케이션 측면에서 보완하는 동시성 제어 기법.
-- **[2단계 잠금 규약 (2PL)](../relational/two_phase_locking.md)**: 직렬 가능성을 보장하기 위한 고전적 락 관리 프로토콜.
+- **[ACID 원칙](@/studynotes/05_database/01_relational_model/acid.md)**: 격리 수준이 구현하고자 하는 원자성, 일관성, 고립성, 지속성의 근간.
+- **[MVCC (다중 버전 동시성 제어)](@/studynotes/05_database/02_concurrency_control/_index.md)**: 현대적 DBMS가 Lock 없이 격리 수준을 구현하는 핵심 알고리즘.
+- **[낙관적 락 vs 비관적 락](@/studynotes/05_database/02_concurrency_control/concurrency_control.md)**: 격리 수준의 한계를 애플리케이션 측면에서 보완하는 동시성 제어 기법.
+- **[2단계 잠금 규약 (2PL)](@/studynotes/05_database/_index.md)**: 직렬 가능성을 보장하기 위한 고전적 락 관리 프로토콜.
 
 ---
 

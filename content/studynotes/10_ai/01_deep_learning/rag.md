@@ -239,11 +239,11 @@ print(response)
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- `[Vector Database](./vector_database.md)`: RAG의 기억 저장소 역할을 하며 고차원 벡터의 근사 최근접 이웃(ANN) 검색을 수행하는 핵심 인프라.
-- `[Embedding](./embedding.md)`: 자연어를 컴퓨터가 유사도를 계산할 수 있는 실수 벡터 좌표계로 변환하는 선형 대수적 매핑 기술.
-- `[LLM Hallucination](./llm_hallucination.md)`: LLM이 그럴싸한 거짓말을 지어내는 현상으로, RAG가 극복하고자 하는 가장 핵심적인 Pain Point.
-- `[Fine-Tuning](./fine_tuning.md)`: 모델의 가중치를 직접 수정하는 기법으로, RAG와 상호 보완적으로(RAG는 지식 주입, Fine-Tuning은 어조/도메인 지시어 학습) 사용됨.
-- `[LangChain / LlamaIndex](./llm_frameworks.md)`: RAG의 복잡한 파이프라인(Loader, Splitter, Retriever, Prompting)을 쉽게 구성하도록 돕는 오케스트레이션 프레임워크.
+- `[Vector Database](@/studynotes/10_ai/01_deep_learning/_index.md)`: RAG의 기억 저장소 역할을 하며 고차원 벡터의 근사 최근접 이웃(ANN) 검색을 수행하는 핵심 인프라.
+- `[Embedding](@/studynotes/10_ai/01_deep_learning/_index.md)`: 자연어를 컴퓨터가 유사도를 계산할 수 있는 실수 벡터 좌표계로 변환하는 선형 대수적 매핑 기술.
+- `[LLM Hallucination](@/studynotes/10_ai/01_deep_learning/_index.md)`: LLM이 그럴싸한 거짓말을 지어내는 현상으로, RAG가 극복하고자 하는 가장 핵심적인 Pain Point.
+- `[Fine-Tuning](@/studynotes/10_ai/01_deep_learning/_index.md)`: 모델의 가중치를 직접 수정하는 기법으로, RAG와 상호 보완적으로(RAG는 지식 주입, Fine-Tuning은 어조/도메인 지시어 학습) 사용됨.
+- `[LangChain / LlamaIndex](@/studynotes/10_ai/01_deep_learning/_index.md)`: RAG의 복잡한 파이프라인(Loader, Splitter, Retriever, Prompting)을 쉽게 구성하도록 돕는 오케스트레이션 프레임워크.
 
 ---
 

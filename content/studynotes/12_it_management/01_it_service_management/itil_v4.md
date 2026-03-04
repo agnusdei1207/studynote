@@ -279,11 +279,11 @@ ITIL v4를 애자일 및 데브옵스 환경과 성공적으로 융합하여 도
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-*   [DevOps](./devops.md) : ITIL v4의 빠른 가치 창출을 위해 필수적으로 결합되어야 하는 개발 및 운영 통합 문화이자 자동화 방법론.
-*   [Agile Methodology](../../04_software_engineering/01_sdlc_methodology/agile_methodology.md) : SVS의 작동 원리에 반영된 반복적이고 피드백 수용적인 소프트웨어 개발 철학.
-*   [MSA(Microservices Architecture)](../../04_software_engineering/01_sdlc_methodology/msa.md) : 현대 IT 서비스의 복잡성을 낮추고 독립적 배포를 가능하게 하여 ITIL v4의 유연한 변경 실현을 돕는 아키텍처.
-*   [클라우드 컴퓨팅(Cloud Computing)](../../06_ict_convergence/01_cloud_computing/cloud_computing.md) : ITIL 4차원 모델 중 '정보와 기술'의 핵심 인프라 기반으로, 인프라의 코딩화(IaC)를 통해 서비스 제공을 자동화.
-*   [SLA(Service Level Agreement)](../../12_it_management/01_it_service_management/sla.md) : 서비스 제공자와 고객 간의 정량적 약속으로, ITIL v4에서는 단순한 기술 지표를 넘어 비즈니스 경험(XLA)으로 확장됨.
+*   [DevOps](@/studynotes/12_it_management/_index.md) : ITIL v4의 빠른 가치 창출을 위해 필수적으로 결합되어야 하는 개발 및 운영 통합 문화이자 자동화 방법론.
+*   [Agile Methodology](@/studynotes/04_software_engineering/01_sdlc_methodology/agile_methodology.md) : SVS의 작동 원리에 반영된 반복적이고 피드백 수용적인 소프트웨어 개발 철학.
+*   [MSA(Microservices Architecture)](@/studynotes/04_software_engineering/01_sdlc_methodology/msa.md) : 현대 IT 서비스의 복잡성을 낮추고 독립적 배포를 가능하게 하여 ITIL v4의 유연한 변경 실현을 돕는 아키텍처.
+*   [클라우드 컴퓨팅(Cloud Computing)](@/studynotes/06_ict_convergence/01_cloud_computing/cloud_computing.md) : ITIL 4차원 모델 중 '정보와 기술'의 핵심 인프라 기반으로, 인프라의 코딩화(IaC)를 통해 서비스 제공을 자동화.
+*   [SLA(Service Level Agreement)](@/studynotes/12_it_management/_index.md) : 서비스 제공자와 고객 간의 정량적 약속으로, ITIL v4에서는 단순한 기술 지표를 넘어 비즈니스 경험(XLA)으로 확장됨.
 
 ---
 

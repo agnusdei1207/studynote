@@ -260,11 +260,11 @@ if __name__ == "__main__":
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[서버리스 컴퓨팅 (Serverless)](./serverless.md)**: 클라우드 IaaS의 서버 관리 부담을 완벽히 제거하고 이벤트 기반으로 코드를 실행시키는 다음 단계의 진화형.
-- **[도커 및 쿠버네티스 (Docker & Kubernetes)](../13_cloud_architecture/01_cloud_native/kubernetes.md)**: 클라우드의 자원을 효율적으로 분할하고 멀티 클라우드를 가능하게 하는 사실상의 클라우드 OS.
-- **[마이크로서비스 아키텍처 (MSA)](../../04_software_engineering/01_sdlc_methodology/msa.md)**: 클라우드의 탄력성과 확장성을 소프트웨어 구조적으로 100% 활용하기 위한 핵심 설계 기법.
-- **[가상 메모리 (Virtual Memory)](../../02_operating_system/02_memory_management/virtual_memory.md)**: 하이퍼바이저가 Host 메모리와 Guest 물리 메모리를 격리하고 맵핑하는 데 기반이 되는 OS 핵심 이론.
-- **[제로 트러스트 아키텍처 (Zero Trust)](../../09_security/01_security_management/zero_trust_architecture.md)**: 경계가 사라진 클라우드 환경에서 모든 접근을 검증하는 필수 보안 프레임워크.
+- **[서버리스 컴퓨팅 (Serverless)](@/studynotes/06_ict_convergence/_index.md)**: 클라우드 IaaS의 서버 관리 부담을 완벽히 제거하고 이벤트 기반으로 코드를 실행시키는 다음 단계의 진화형.
+- **[도커 및 쿠버네티스 (Docker & Kubernetes)](@/studynotes/13_cloud_architecture/01_cloud_native/kubernetes.md)**: 클라우드의 자원을 효율적으로 분할하고 멀티 클라우드를 가능하게 하는 사실상의 클라우드 OS.
+- **[마이크로서비스 아키텍처 (MSA)](@/studynotes/04_software_engineering/01_sdlc_methodology/msa.md)**: 클라우드의 탄력성과 확장성을 소프트웨어 구조적으로 100% 활용하기 위한 핵심 설계 기법.
+- **[가상 메모리 (Virtual Memory)](@/studynotes/02_operating_system/02_memory_management/virtual_memory.md)**: 하이퍼바이저가 Host 메모리와 Guest 물리 메모리를 격리하고 맵핑하는 데 기반이 되는 OS 핵심 이론.
+- **[제로 트러스트 아키텍처 (Zero Trust)](@/studynotes/09_security/01_security_management/zero_trust_architecture.md)**: 경계가 사라진 클라우드 환경에서 모든 접근을 검증하는 필수 보안 프레임워크.
 
 ---
 

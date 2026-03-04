@@ -220,11 +220,11 @@ impact_analysis(ea_graph, "S_CentOS7_DB")
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- [TOGAF 프레임워크](./togaf.md): EA 구축을 위한 실행 방법론(ADM)과 구조.
-- [ISP (정보화 전략 계획)](../../12_it_management/isp.md): EA 수립의 방향성을 제시하는 IT 마스터플랜.
-- [IT 거버넌스 및 COBIT](../../12_it_management/it_governance.md): EA를 기반으로 IT 자원을 통제하고 가치를 극대화하는 상위 체계.
-- [MSA (마이크로서비스 아키텍처)](../../04_software_engineering/01_sdlc_methodology/msa.md): 현대 애플리케이션 아키텍처(AA)의 핵심 패러다임.
-- [BPR (업무 프로세스 재설계)](./bpr.md): EA의 비즈니스 아키텍처(BA)를 재구성하는 혁신 기법.
+- [TOGAF 프레임워크](@/studynotes/07_enterprise_systems/_index.md): EA 구축을 위한 실행 방법론(ADM)과 구조.
+- [ISP (정보화 전략 계획)](@/studynotes/12_it_management/01_it_strategy/isp.md): EA 수립의 방향성을 제시하는 IT 마스터플랜.
+- [IT 거버넌스 및 COBIT](@/studynotes/12_it_management/01_it_strategy/it_governance.md): EA를 기반으로 IT 자원을 통제하고 가치를 극대화하는 상위 체계.
+- [MSA (마이크로서비스 아키텍처)](@/studynotes/04_software_engineering/01_sdlc_methodology/msa.md): 현대 애플리케이션 아키텍처(AA)의 핵심 패러다임.
+- [BPR (업무 프로세스 재설계)](@/studynotes/07_enterprise_systems/_index.md): EA의 비즈니스 아키텍처(BA)를 재구성하는 혁신 기법.
 
 ---
 

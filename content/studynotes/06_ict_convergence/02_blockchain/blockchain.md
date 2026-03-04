@@ -229,10 +229,10 @@ if __name__ == "__main__":
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[스마트 컨트랙트 (Smart Contract)](../../04_software_engineering/01_sdlc_methodology/msa.md)**: 블록체인 내에서 실행되는 튜링 완전한 자동화 코드로 분산 애플리케이션(DApp)의 근간.
-- **[핀테크 및 디파이 (FinTech & DeFi)](../01_cloud_computing/fintech.md)**: 전통 금융의 중개자를 제거하는 혁신이며, 블록체인을 통해 탈중앙화 금융(DeFi)으로 최종 완성됨.
-- **[해시 함수와 공개키 암호 (Cryptography)](../../09_security/01_security_management/pki.md)**: 무결성과 익명성을 제공하여 블록체인이 수학적으로 완벽하게 동작할 수 있게 해주는 핵심 보안 인프라(PKI 기반).
-- **[오픈 소스 및 P2P 네트워크 (P2P)](../../03_network/01_network_fundamentals/osi_7_layer.md)**: 블록체인 노드들이 상호 연결되어 가십(Gossip) 프로토콜을 통해 데이터를 분산하는 네트워크 기반.
+- **[스마트 컨트랙트 (Smart Contract)](@/studynotes/04_software_engineering/01_sdlc_methodology/msa.md)**: 블록체인 내에서 실행되는 튜링 완전한 자동화 코드로 분산 애플리케이션(DApp)의 근간.
+- **[핀테크 및 디파이 (FinTech & DeFi)](@/studynotes/06_ict_convergence/01_cloud_computing/fintech.md)**: 전통 금융의 중개자를 제거하는 혁신이며, 블록체인을 통해 탈중앙화 금융(DeFi)으로 최종 완성됨.
+- **[해시 함수와 공개키 암호 (Cryptography)](@/studynotes/09_security/01_security_management/pki.md)**: 무결성과 익명성을 제공하여 블록체인이 수학적으로 완벽하게 동작할 수 있게 해주는 핵심 보안 인프라(PKI 기반).
+- **[오픈 소스 및 P2P 네트워크 (P2P)](@/studynotes/03_network/01_network_fundamentals/osi_7_layer.md)**: 블록체인 노드들이 상호 연결되어 가십(Gossip) 프로토콜을 통해 데이터를 분산하는 네트워크 기반.
 
 ---
 

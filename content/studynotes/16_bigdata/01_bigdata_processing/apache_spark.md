@@ -189,11 +189,11 @@ spark.stop()
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- `[RDD & Lineage](./rdd_lineage.md)`: 스파크의 근본 데이터 모델이자 장애 복구의 핵심 메커니즘.
-- `[Spark SQL & Catalyst](./catalyst_optimizer.md)`: 고수준 쿼리 최적화를 담당하는 지능형 실행 계획 수립 엔진.
-- `[Delta Lake](./delta_lake.md)`: 스파크 위에서 데이터 신뢰성과 성능을 보장하는 오픈소스 저장 레이어.
-- `[YARN / Kubernetes](./cluster_managers.md)`: 스파크 클러스터의 물리적 자원을 할당하고 관리하는 인프라 소프트웨어.
-- `[Shuffle & Skew](./shuffle_skew.md)`: 분산 컴퓨팅의 최대 적이며, 스파크 성능 튜닝의 80%를 차지하는 핵심 이슈.
+- `[RDD & Lineage](@/studynotes/16_bigdata/_index.md)`: 스파크의 근본 데이터 모델이자 장애 복구의 핵심 메커니즘.
+- `[Spark SQL & Catalyst](@/studynotes/16_bigdata/_index.md)`: 고수준 쿼리 최적화를 담당하는 지능형 실행 계획 수립 엔진.
+- `[Delta Lake](@/studynotes/16_bigdata/_index.md)`: 스파크 위에서 데이터 신뢰성과 성능을 보장하는 오픈소스 저장 레이어.
+- `[YARN / Kubernetes](@/studynotes/16_bigdata/_index.md)`: 스파크 클러스터의 물리적 자원을 할당하고 관리하는 인프라 소프트웨어.
+- `[Shuffle & Skew](@/studynotes/16_bigdata/_index.md)`: 분산 컴퓨팅의 최대 적이며, 스파크 성능 튜닝의 80%를 차지하는 핵심 이슈.
 
 ---
 

@@ -1,5 +1,5 @@
 +++
-title = "05. 데이터베이스 (Database)"
+title = "05. Database"
 description = "관계형 모델, SQL 최적화, 동시성 제어, NoSQL 및 데이터 모델링"
 sort_by = "title"
 insert_anchor_links = "right"

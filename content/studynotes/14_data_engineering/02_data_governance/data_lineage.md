@@ -163,10 +163,10 @@ categories = "studynotes-data-engineering"
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[데이터 거버넌스 (Data Governance)](./_index.md)**: 데이터 리니지가 달성하고자 하는 궁극적인 목표인 데이터 관리 체계.
-- **[데이터 레이크하우스 (Data Lakehouse)](../01_data_architecture/data_lakehouse.md)**: 리니지 추적의 주요 대상이 되는 현대적인 복합 데이터 아키텍처.
-- **[그래프 데이터베이스 (Graph DB)](../../05_database/01_relational_model/nosql.md)**: 복잡한 리니지의 노드와 엣지를 가장 효율적으로 저장하고 탐색하는 저장소.
-- **[Apache Airflow](../../15_devops_sre/01_sre_fundamentals/_index.md)**: 리니지 이벤트를 방출(Emit)하는 가장 대표적인 데이터 파이프라인 오케스트레이션 도구.
+- **[데이터 거버넌스 (Data Governance)](@/studynotes/14_data_engineering/02_data_governance/_index.md)**: 데이터 리니지가 달성하고자 하는 궁극적인 목표인 데이터 관리 체계.
+- **[데이터 레이크하우스 (Data Lakehouse)](@/studynotes/14_data_engineering/01_data_architecture/data_lakehouse.md)**: 리니지 추적의 주요 대상이 되는 현대적인 복합 데이터 아키텍처.
+- **[그래프 데이터베이스 (Graph DB)](@/studynotes/05_database/01_relational_model/nosql.md)**: 복잡한 리니지의 노드와 엣지를 가장 효율적으로 저장하고 탐색하는 저장소.
+- **[Apache Airflow](@/studynotes/_index.md)**: 리니지 이벤트를 방출(Emit)하는 가장 대표적인 데이터 파이프라인 오케스트레이션 도구.
 
 ---
 

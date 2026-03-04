@@ -193,10 +193,10 @@ def build_lcp_array(s, sa):
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[이진 탐색 (Binary Search)](./binary_search.md)**: 접미사 배열 위에서 특정 패턴을 찾는 기본 메커니즘.
-- **[Burrows-Wheeler Transform](../../16_bigdata/bwt.md)**: 접미사 배열을 응용한 데이터 가역 변환 및 압축 기술.
-- **[KMP 알고리즘](./kmp.md)**: 단일 패턴 검색에 특화된 알고리즘이나, 접미사 배열은 모든 부분 문자열을 미리 인덱싱한다는 차이가 있음.
-- **[RMQ (Range Minimum Query)](./rmq.md)**: LCP 배열에서 두 접미사 사이의 최장 공통 접두사를 $O(1)$에 구하기 위한 보조 알고리즘.
+- **[이진 탐색 (Binary Search)](@/studynotes/08_algorithm_stats/_index.md)**: 접미사 배열 위에서 특정 패턴을 찾는 기본 메커니즘.
+- **[Burrows-Wheeler Transform](@/studynotes/16_bigdata/_index.md)**: 접미사 배열을 응용한 데이터 가역 변환 및 압축 기술.
+- **[KMP 알고리즘](@/studynotes/08_algorithm_stats/_index.md)**: 단일 패턴 검색에 특화된 알고리즘이나, 접미사 배열은 모든 부분 문자열을 미리 인덱싱한다는 차이가 있음.
+- **[RMQ (Range Minimum Query)](@/studynotes/08_algorithm_stats/_index.md)**: LCP 배열에서 두 접미사 사이의 최장 공통 접두사를 $O(1)$에 구하기 위한 보조 알고리즘.
 
 ---
 

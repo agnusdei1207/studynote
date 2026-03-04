@@ -192,11 +192,11 @@ print(results.tail(3))
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- [채찍 효과 (Bullwhip Effect)](./bullwhip.md): 정보 왜곡의 증폭 현상과 그 해법.
-- [디지털 트윈 (Digital Twin)](../../06_ict_convergence/digital_twin.md): 가상 공간에서의 공급망 시뮬레이션.
-- [ESG 경영](../../07_enterprise_systems/02_it_governance/esg.md): SCM이 지원해야 할 현대적 경영 가치.
-- [블록체인 물류](../../06_ict_convergence/blockchain_logistics.md): 신뢰 기반의 이력 관리 기술.
-- [AI 수요 예측](../../10_ai/01_deep_learning/forecasting.md): 딥러닝을 활용한 정교한 예측.
+- [채찍 효과 (Bullwhip Effect)](@/studynotes/07_enterprise_systems/_index.md): 정보 왜곡의 증폭 현상과 그 해법.
+- [디지털 트윈 (Digital Twin)](@/studynotes/06_ict_convergence/_index.md): 가상 공간에서의 공급망 시뮬레이션.
+- [ESG 경영](@/studynotes/07_enterprise_systems/_index.md): SCM이 지원해야 할 현대적 경영 가치.
+- [블록체인 물류](@/studynotes/06_ict_convergence/_index.md): 신뢰 기반의 이력 관리 기술.
+- [AI 수요 예측](@/studynotes/10_ai/01_deep_learning/_index.md): 딥러닝을 활용한 정교한 예측.
 
 ---
 

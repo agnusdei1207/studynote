@@ -199,10 +199,10 @@ class OrderServiceTest {
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
--   [TDD (Test Driven Development)](./tdd.md): 테스트를 먼저 작성하고 코드를 맞추는 설계 기법.
--   [CI/CD (Continuous Integration/Deployment)](../../15_devops_sre/cicd.md): 테스트 자동화가 필수적인 현대적 배포 아키텍처.
--   [코드 커버리지 (Code Coverage)](./coverage.md): 테스트의 충분성을 측정하는 지표.
--   [뮤테이션 테스팅 (Mutation Testing)](./mutation.md): 테스트 케이스 자체의 품질을 테스트하는 기법.
+-   [TDD (Test Driven Development)](@/studynotes/04_software_engineering/02_quality_management/_index.md): 테스트를 먼저 작성하고 코드를 맞추는 설계 기법.
+-   [CI/CD (Continuous Integration/Deployment)](@/studynotes/15_devops_sre/_index.md): 테스트 자동화가 필수적인 현대적 배포 아키텍처.
+-   [코드 커버리지 (Code Coverage)](@/studynotes/04_software_engineering/02_quality_management/_index.md): 테스트의 충분성을 측정하는 지표.
+-   [뮤테이션 테스팅 (Mutation Testing)](@/studynotes/04_software_engineering/02_quality_management/_index.md): 테스트 케이스 자체의 품질을 테스트하는 기법.
 
 ---
 

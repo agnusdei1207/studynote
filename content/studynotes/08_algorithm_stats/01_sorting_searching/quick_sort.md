@@ -205,10 +205,10 @@ void quick_sort(std::vector<int>& arr, int low, int high) {
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
--   [분할 정복 (Divide & Conquer)](./divide_and_conquer.md): 퀵 정렬의 기반이 되는 알고리즘 설계 패러다임.
--   [인트로 정렬 (Introsort)](./introsort.md): 퀵 정렬과 힙 정렬의 장점을 결합한 하이브리드 알고리즘.
--   [시간 복잡도 (Big-O)](../03_complexity/big_o.md): 알고리즘의 효율성을 측정하는 수학적 척도.
--   [Timsort](./timsort.md): 실무에서 퀵 정렬의 강력한 경쟁자인 안정적 하이브리드 정렬.
+-   [분할 정복 (Divide & Conquer)](@/studynotes/08_algorithm_stats/_index.md): 퀵 정렬의 기반이 되는 알고리즘 설계 패러다임.
+-   [인트로 정렬 (Introsort)](@/studynotes/08_algorithm_stats/_index.md): 퀵 정렬과 힙 정렬의 장점을 결합한 하이브리드 알고리즘.
+-   [시간 복잡도 (Big-O)](@/studynotes/08_algorithm_stats/_index.md): 알고리즘의 효율성을 측정하는 수학적 척도.
+-   [Timsort](@/studynotes/08_algorithm_stats/_index.md): 실무에서 퀵 정렬의 강력한 경쟁자인 안정적 하이브리드 정렬.
 
 ---
 

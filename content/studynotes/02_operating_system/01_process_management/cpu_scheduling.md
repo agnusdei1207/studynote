@@ -216,11 +216,11 @@ for p in sorted(results, key=lambda x: x.name):
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- [문맥 교환 (Context Switching)](./context_switching.md): 스케줄링 결과에 따라 실제 CPU를 교체하는 저수준 메커니즘.
-- [다단계 피드백 큐 (MLFQ)](./mlfq.md): 현대 OS에서 가장 널리 쓰이는 동적 우선순위 스케줄링의 상세 구조.
-- [우선순위 역전 (Priority Inversion)](./priority_inversion.md): 스케줄링과 동기화 락이 얽혔을 때 발생하는 치명적 결함과 해결책.
-- [기아 상태와 에이징 (Starvation & Aging)](./starvation_aging.md): 스케줄링의 부작용인 불공평성을 해소하기 위한 기술적 보완책.
-- [쿠버네티스 스케줄러](./k8s_scheduler.md): OS 스케줄링 개념이 분산 환경으로 확장된 클라우드 네이티브 스케줄링.
+- [문맥 교환 (Context Switching)](@/studynotes/02_operating_system/01_process_management/_index.md): 스케줄링 결과에 따라 실제 CPU를 교체하는 저수준 메커니즘.
+- [다단계 피드백 큐 (MLFQ)](@/studynotes/02_operating_system/01_process_management/_index.md): 현대 OS에서 가장 널리 쓰이는 동적 우선순위 스케줄링의 상세 구조.
+- [우선순위 역전 (Priority Inversion)](@/studynotes/02_operating_system/01_process_management/_index.md): 스케줄링과 동기화 락이 얽혔을 때 발생하는 치명적 결함과 해결책.
+- [기아 상태와 에이징 (Starvation & Aging)](@/studynotes/02_operating_system/01_process_management/_index.md): 스케줄링의 부작용인 불공평성을 해소하기 위한 기술적 보완책.
+- [쿠버네티스 스케줄러](@/studynotes/02_operating_system/01_process_management/_index.md): OS 스케줄링 개념이 분산 환경으로 확장된 클라우드 네이티브 스케줄링.
 
 ---
 

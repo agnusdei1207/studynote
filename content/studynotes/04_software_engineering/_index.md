@@ -1,5 +1,5 @@
 +++
-title = "04. 소프트웨어 공학 (Software Engineering)"
+title = "04. Software Engineering"
 description = "개발 방법론, 요구사항 공학, 설계 패턴, 품질 관리 및 프로젝트 관리"
 sort_by = "title"
 insert_anchor_links = "right"
