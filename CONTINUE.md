@@ -12,11 +12,11 @@
 
 | 과목 | 완료 | 다음 키워드 |
 |------|------|------|
-| 컴퓨터구조 | 125 | 125. 캐시 교체 정책 (Translation Lookaside Buffer) |
-| 운영체제 | 110 | 110. IPC (Thread Safety) |
-| 네트워크 | 31 | 31. VPN (Simple Mail Transfer Protocol) |
-| 소프트웨어공학 | 36 | 36. CI/CD 도구 시스템 (Version Control System) |
-| 데이터베이스 | 28 | 28. 결과적 일관성 (Transaction Isolation) |
+| 컴퓨터구조 | 126 | 126. 메모리 일관성 모델 (Translation Lookaside Buffer) |
+| 운영체제 | 111 | 111. 데드락 예방 (Thread Safety) |
+| 네트워크 | 32 | 32. QoS (Simple Mail Transfer Protocol) |
+| 소프트웨어공학 | 37 | 37. 모니터링 도구 시스템 (Version Control System) |
+| 데이터베이스 | 29 | 29. 분산 합의 (Transaction Isolation) |
 | ICT융합 | 0 | - |
 | 기업시스템 | 0 | - |
 | 알고리즘 | 0 | - |
@@ -30,7 +30,7 @@
 | 빅데이터 | 0 | - |
 
 ## 최근 작업 로그
-- 2026-03-06: CA(125. 캐시 교체 정책, OS(110. IPC, NW(31. VPN, SE(32) VCS, DB(28. 결과적 일관성 작성 완료 (310 files)
+- 2026-03-06: CA(126. 메모리 일관성 모델, OS(111. 데드락 예방, NW(32. QoS, SE(32) VCS, DB(29. 분산 합의 작성 완료 (310 files)
 - 2026-03-06: CA(120) 캐시, OS(94) 가상 메모리, NW(26) FTP, SE(31) 포매터, DB(23) 인덱스 작성 완료
 - 2026-03-06: CA(115) VLIW, OS(101) 뮤텍스, NW(21) DNS 보안, SE(26) 테스트 도구, DB(18) 로드 밸런싱 작성 완료
 - 2026-03-06: CA(114) CISC, OS(100) 공유 메모리, NW(20) MIME, SE(25) 보안 도구, DB(17) 장애 조치 작성 완료
