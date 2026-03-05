@@ -4,7 +4,7 @@
 
 | 과목 | 완료 | 다음 |
 |------|------|------|
-| 컴퓨터구조 | 67 | 68. 인터럽트 (Interrupt) |
+| 컴퓨터구조 | 77 | 78. 명령어 포맷 (Instruction Format) |
 | 운영체제 | 0 | - |
 | 네트워크 | 0 | - |
 | 소프트웨어공학 | 0 | - |
@@ -57,3 +57,13 @@
 | 75 | I/O 제어 방식 |
 | 76 | 타이머 (Timer) |
 | 77 | 카운터/타이머 칩 |
+| 78 | 명령어 포맷 (Instruction Format) |
+| 79 | 명령어 인코딩 (Instruction Encoding) |
+| 80 | 명령어 세트 (Instruction Set) |
+| 81 | RISC 명령어 세트 |
+| 82 | CISC 명령어 세트 |
+| 83 | 주소 지정 방식 (Addressing Mode) |
+| 84 | 스택 (Stack) |
+| 85 | 서브루틴 (Subroutine) |
+| 86 | 인터럽트 처리 (Interrupt Handling) |
+| 87 | 예외 처리 (Exception Handling) |
