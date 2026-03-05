@@ -12,11 +12,11 @@
 
 | 과목 | 완료 | 다음 키워드 |
 |------|------|------|
-| 컴퓨터구조 | 121 | 121. TLB (Translation Lookaside Buffer) |
-| 운영체제 | 106 | 106. 스레드 안전성 (Thread Safety) |
-| 네트워크 | 27 | 27. SMTP (Simple Mail Transfer Protocol) |
-| 소프트웨어공학 | 32 | 32. 버전 관리 시스템 (Version Control System) |
-| 데이터베이스 | 24 | 24. 트랜잭션 격리 (Transaction Isolation) |
+| 컴퓨터구조 | 122 | 122. 캐시 일관성 (Translation Lookaside Buffer) |
+| 운영체제 | 107 | 107. 프로세스와 스레드 (Thread Safety) |
+| 네트워크 | 28 | 28. POP3/IMAP (Simple Mail Transfer Protocol) |
+| 소프트웨어공학 | 33 | 33. 프로젝트 관리 시스템 (Version Control System) |
+| 데이터베이스 | 25 | 25. 2단계 커밋 (Transaction Isolation) |
 | ICT융합 | 0 | - |
 | 기업시스템 | 0 | - |
 | 알고리즘 | 0 | - |
@@ -30,7 +30,7 @@
 | 빅데이터 | 0 | - |
 
 ## 최근 작업 로그
-- 2026-03-06: CA(121) TLB, OS(106) 스레드 안전성, NW(27) SMTP, SE(32) VCS, DB(24) 트랜잭션 격리 작성 완료 (310 files)
+- 2026-03-06: CA(122. 캐시 일관성, OS(107. 프로세스와 스레드, NW(28. POP3/IMAP, SE(32) VCS, DB(25. 2단계 커밋 작성 완료 (310 files)
 - 2026-03-06: CA(120) 캐시, OS(94) 가상 메모리, NW(26) FTP, SE(31) 포매터, DB(23) 인덱스 작성 완료
 - 2026-03-06: CA(115) VLIW, OS(101) 뮤텍스, NW(21) DNS 보안, SE(26) 테스트 도구, DB(18) 로드 밸런싱 작성 완료
 - 2026-03-06: CA(114) CISC, OS(100) 공유 메모리, NW(20) MIME, SE(25) 보안 도구, DB(17) 장애 조치 작성 완료
