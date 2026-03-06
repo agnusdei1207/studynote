@@ -14,11 +14,11 @@
 
 | 과목 | 완료 | 다음 키워드 |
 |------|------|------|
-| 컴퓨터구조 | 131 | 131. 추측 실행 (Spectre, Meltdown) |
-| 운영체제 | 116 | 116. 데드락 감지 (Resource Allocation Graph) |
-| 네트워크 | 37 | 37. NFV (VNF, Service Chaining) |
-| 소프트웨어공학 | 42 | 42. 리팩토링 (Extract Method) |
-| 데이터베이스 | 34 | 34. 멀티모델 DB (ArangoDB, Couchbase) |
+| 컴퓨터구조 | 131 | 132. 클럭 주파수 (Clock Frequency) |
+| 운영체제 | 116 | 117. 프로세스 간 통신 (IPC) |
+| 네트워크 | 37 | 38. RZ (Return to Zero) 부호화 |
+| 소프트웨어공학 | 42 | 43. 품질 보증 (QA) vs 품질 제어 (QC) |
+| 데이터베이스 | 34 | 35. 블로킹 팩터 (Blocking Factor) |
 | ICT융합 | 0 | - |
 | 기업시스템 | 0 | - |
 | 알고리즘 | 0 | - |
