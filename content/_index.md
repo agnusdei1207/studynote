@@ -9,5 +9,5 @@ description = "기술사 시험 / 일반 학습"
 
 | 영역 | 링크 | 설명 |
 |------|------|------|
-| 🏆 PE 시험 | [PE](/studynotes/) | 기술사 핵심 정리 |
+| 🏆 PE 시험 | [PE](@/studynotes/_index.md) | 기술사 핵심 정리 |
 | 📚 일반 학습 | [study](/study/) | CS, AI, 개발 도구 등 |
