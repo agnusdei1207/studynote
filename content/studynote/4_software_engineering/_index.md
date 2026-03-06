@@ -123,8 +123,8 @@ kids_analogy = "건물을 지을 때 설계도를 그리고, 튼튼한지 검사
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- [`[애자일과 스크럼]`](@/PE/4_software_engineering/1_sdlc/_index.md): 불확실성 속에서 소프트웨어를 점진적으로 개발하는 현대적 프레임워크.
-- [`[소프트웨어 테스트 (QA)]`](@/PE/4_software_engineering/2_quality/_index.md): 버그를 찾고 시스템의 신뢰성을 증명하는 화이트박스/블랙박스 기법.
-- [`[디자인 패턴 (GoF)]`](@/PE/4_software_engineering/1_sdlc/_index.md): 반복되는 구조적 문제를 해결하기 위한 선배 아키텍트들의 객체지향 족보.
-- [`[데브옵스 및 CI/CD]`](@/PE/15_devops_sre/_index.md): 공학적 개발 철학을 배포와 인프라 운영 영역까지 확장한 실천론.
-- [`[마이크로서비스 (MSA)]`](@/PE/4_software_engineering/_index.md): 클라우드 시대에 응집도를 높이고 결합도를 끊어낸 궁극의 아키텍처 패턴.
+- [`[애자일과 스크럼]`](@/studynote/4_software_engineering/1_sdlc/_index.md): 불확실성 속에서 소프트웨어를 점진적으로 개발하는 현대적 프레임워크.
+- [`[소프트웨어 테스트 (QA)]`](@/studynote/4_software_engineering/2_quality/_index.md): 버그를 찾고 시스템의 신뢰성을 증명하는 화이트박스/블랙박스 기법.
+- [`[디자인 패턴 (GoF)]`](@/studynote/4_software_engineering/1_sdlc/_index.md): 반복되는 구조적 문제를 해결하기 위한 선배 아키텍트들의 객체지향 족보.
+- [`[데브옵스 및 CI/CD]`](@/studynote/15_devops_sre/_index.md): 공학적 개발 철학을 배포와 인프라 운영 영역까지 확장한 실천론.
+- [`[마이크로서비스 (MSA)]`](@/studynote/4_software_engineering/_index.md): 클라우드 시대에 응집도를 높이고 결합도를 끊어낸 궁극의 아키텍처 패턴.

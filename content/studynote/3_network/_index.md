@@ -122,8 +122,8 @@ TCP는 네트워크의 붕괴(Congestion Collapse)를 막기 위해 송신자의
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- [`[OSI 7계층 및 TCP/IP]`](@/PE/3_network/1_fundamentals/_index.md): 네트워크의 모든 통신 과정을 설명하는 대원칙이자 아키텍처의 뼈대.
-- [`[TCP 혼잡 제어 및 UDP]`](@/PE/3_network/2_transport/_index.md): 시스템의 신뢰성과 속도를 결정짓는 4계층 프로토콜의 양대 산맥.
-- [`[IP 라우팅 (OSPF/BGP)]`](@/PE/3_network/3_network/_index.md): 최적의 경로를 동적으로 산출하는 네트워크 계층의 핵심 알고리즘.
-- [`[네트워크 보안 (IPSec/TLS)]`](@/PE/3_network/4_security/_index.md): 도청 및 위변조를 막기 위한 암호화 터널링 기술.
-- [`[SDN 및 클라우드 네이티브 망]`](@/PE/3_network/6_sdn_nfv/_index.md): 하드웨어 종속성을 파괴하고 네트워크를 코드로 제어하는 현대 인프라의 종착점.
+- [`[OSI 7계층 및 TCP/IP]`](@/studynote/3_network/1_fundamentals/_index.md): 네트워크의 모든 통신 과정을 설명하는 대원칙이자 아키텍처의 뼈대.
+- [`[TCP 혼잡 제어 및 UDP]`](@/studynote/3_network/2_transport/_index.md): 시스템의 신뢰성과 속도를 결정짓는 4계층 프로토콜의 양대 산맥.
+- [`[IP 라우팅 (OSPF/BGP)]`](@/studynote/3_network/3_network/_index.md): 최적의 경로를 동적으로 산출하는 네트워크 계층의 핵심 알고리즘.
+- [`[네트워크 보안 (IPSec/TLS)]`](@/studynote/3_network/4_security/_index.md): 도청 및 위변조를 막기 위한 암호화 터널링 기술.
+- [`[SDN 및 클라우드 네이티브 망]`](@/studynote/3_network/6_sdn_nfv/_index.md): 하드웨어 종속성을 파괴하고 네트워크를 코드로 제어하는 현대 인프라의 종착점.

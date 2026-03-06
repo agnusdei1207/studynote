@@ -131,8 +131,8 @@ public class Checkout {
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- [`[소프트웨어 공학과 SDLC]`](@/PE/4_software_engineering/_index.md): 디자인과 감리가 동작하는 거시적인 개발 생명주기 배경.
-- [`[데이터베이스 정규화 및 ERD]`](@/PE/5_database/1_relational/_index.md): 아키텍처 설계 감리 시 가장 치열하게 검증받는 데이터 계층의 무결성 설계.
-- [`[클라우드 마이크로서비스(MSA)]`](@/PE/13_cloud_architecture/_index.md): 현대 아키텍처 디자인의 꽃이자 높은 응집도를 강제하는 인프라/설계 융합 기술.
-- [`[보안 취약점 및 OWASP]`](@/PE/9_security/_index.md): 종료 감리에서 반드시 통과해야 하는 애플리케이션 시큐어 코딩 기준.
-- [`[IT 경영 및 거버넌스]`](@/PE/12_it_management/_index.md): 감리가 궁극적으로 수호하고자 하는 기업/국가 차원의 IT 투자 리스크 통제망.
+- [`[소프트웨어 공학과 SDLC]`](@/studynote/4_software_engineering/_index.md): 디자인과 감리가 동작하는 거시적인 개발 생명주기 배경.
+- [`[데이터베이스 정규화 및 ERD]`](@/studynote/5_database/1_relational/_index.md): 아키텍처 설계 감리 시 가장 치열하게 검증받는 데이터 계층의 무결성 설계.
+- [`[클라우드 마이크로서비스(MSA)]`](@/studynote/13_cloud_architecture/_index.md): 현대 아키텍처 디자인의 꽃이자 높은 응집도를 강제하는 인프라/설계 융합 기술.
+- [`[보안 취약점 및 OWASP]`](@/studynote/9_security/_index.md): 종료 감리에서 반드시 통과해야 하는 애플리케이션 시큐어 코딩 기준.
+- [`[IT 경영 및 거버넌스]`](@/studynote/12_it_management/_index.md): 감리가 궁극적으로 수호하고자 하는 기업/국가 차원의 IT 투자 리스크 통제망.

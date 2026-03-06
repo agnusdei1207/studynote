@@ -131,11 +131,11 @@ kids_analogy = "컴퓨터라는 아주 복잡하고 거대한 성을 짓는 '설
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- [`[명령어 세트 (ISA)]`](@/PE/1_computer_architecture/4_isa/_index.md): 아키텍처의 근간이자 SW/HW의 계약.
-- [`[가상 메모리 (Virtual Memory)]`](@/PE/2_operating_system/7_virtual_memory/_index.md): MMU와 OS가 결합하여 논리적 주소를 물리적 RAM으로 변환하는 구조.
-- [`[딥러닝 가속기 (NPU)]`](@/PE/1_computer_architecture/12_ai_hardware/_index.md): 현대 아키텍처가 AI 워크로드를 처리하기 위해 진화한 도메인 특화 구조(DSA).
-- [`[암달의 법칙 (Amdahl's Law)]`](@/PE/1_computer_architecture/3_performance/_index.md): 병렬화를 통한 성능 향상의 한계를 정의하는 핵심 수학 공식.
-- [`[해밍 코드 (Hamming Code)]`](@/PE/1_computer_architecture/2_arithmetic/101_excess3_code.md): 메모리의 신뢰성을 보장하기 위한 하드웨어 수준의 에러 정정(ECC) 알고리즘.
+- [`[명령어 세트 (ISA)]`](@/studynote/1_computer_architecture/4_isa/_index.md): 아키텍처의 근간이자 SW/HW의 계약.
+- [`[가상 메모리 (Virtual Memory)]`](@/studynote/2_operating_system/7_virtual_memory/_index.md): MMU와 OS가 결합하여 논리적 주소를 물리적 RAM으로 변환하는 구조.
+- [`[딥러닝 가속기 (NPU)]`](@/studynote/1_computer_architecture/12_ai_hardware/_index.md): 현대 아키텍처가 AI 워크로드를 처리하기 위해 진화한 도메인 특화 구조(DSA).
+- [`[암달의 법칙 (Amdahl's Law)]`](@/studynote/1_computer_architecture/3_performance/_index.md): 병렬화를 통한 성능 향상의 한계를 정의하는 핵심 수학 공식.
+- [`[해밍 코드 (Hamming Code)]`](@/studynote/1_computer_architecture/2_arithmetic/101_excess3_code.md): 메모리의 신뢰성을 보장하기 위한 하드웨어 수준의 에러 정정(ECC) 알고리즘.
 
 ---
 

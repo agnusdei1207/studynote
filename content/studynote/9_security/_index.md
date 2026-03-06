@@ -131,8 +131,8 @@ kids_analogy = "나쁜 도둑들이 성에 들어오지 못하게 아주 높고 
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- [`[암호학 기초와 해시 알고리즘]`](@/PE/9_security/2_crypto/_index.md): 보안 통신의 근간이 되는 수학적 암호 체계 및 키 교환 로직.
-- [`[네트워크 보안 장비와 방화벽]`](@/PE/9_security/3_network/_index.md): 외부의 악의적 패킷을 필터링하고 트래픽을 통제하는 물리적/논리적 관문.
-- [`[제로 트러스트 아키텍처]`](@/PE/9_security/1_policy/_index.md): 경계가 붕괴된 현대 클라우드 인프라의 새로운 보안 패러다임.
-- [`[웹 애플리케이션 보안 (OWASP)]`](@/PE/9_security/5_app/_index.md): 데이터베이스 탈취(SQLi) 등을 방어하기 위한 소프트웨어 계층의 시큐어 코딩.
-- [`[운영체제 전반 및 하드웨어 격리]`](@/PE/2_operating_system/_index.md): TEE(신뢰 실행 환경)와 컨테이너 격리를 통한 인프라 밑단의 보안.
+- [`[암호학 기초와 해시 알고리즘]`](@/studynote/9_security/2_crypto/_index.md): 보안 통신의 근간이 되는 수학적 암호 체계 및 키 교환 로직.
+- [`[네트워크 보안 장비와 방화벽]`](@/studynote/9_security/3_network/_index.md): 외부의 악의적 패킷을 필터링하고 트래픽을 통제하는 물리적/논리적 관문.
+- [`[제로 트러스트 아키텍처]`](@/studynote/9_security/1_policy/_index.md): 경계가 붕괴된 현대 클라우드 인프라의 새로운 보안 패러다임.
+- [`[웹 애플리케이션 보안 (OWASP)]`](@/studynote/9_security/5_app/_index.md): 데이터베이스 탈취(SQLi) 등을 방어하기 위한 소프트웨어 계층의 시큐어 코딩.
+- [`[운영체제 전반 및 하드웨어 격리]`](@/studynote/2_operating_system/_index.md): TEE(신뢰 실행 환경)와 컨테이너 격리를 통한 인프라 밑단의 보안.

@@ -121,8 +121,8 @@ kids_analogy = "세상 여기저기서 쏟아지는 '더러운 흙탕물(원시 
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- [`[빅데이터 분산 컴퓨팅(Hadoop/Spark)]`](@/PE/16_bigdata/_index.md): 데이터 엔지니어가 다루는 수백 테라바이트급 물리적 분산 처리 엔진의 코어.
-- [`[클라우드 데이터 웨어하우스(DW)]`](@/PE/5_database/_index.md): 구조화된 데이터를 비즈니스 분석가에게 서빙하는 최종 목적지(Target).
-- [`[인공지능과 머신러닝(MLOps)]`](@/PE/10_ai/_index.md): 파이프라인을 통해 정제된 피처(Feature) 데이터를 먹고 자라는 가장 중요한 컨슈머(Consumer).
-- [`[데브옵스(DevOps) 및 CI/CD]`](@/PE/15_devops_sre/_index.md): 데이터 파이프라인 코드(Airflow DAG, dbt)를 안전하게 배포하고 모니터링하는 인프라 철학.
-- [`[소프트웨어 아키텍처(MSA)]`](@/PE/4_software_engineering/_index.md): 데이터 메시(Data Mesh)와 본질적인 사상을 공유하는 도메인 주도 분산 설계 철학.
+- [`[빅데이터 분산 컴퓨팅(Hadoop/Spark)]`](@/studynote/16_bigdata/_index.md): 데이터 엔지니어가 다루는 수백 테라바이트급 물리적 분산 처리 엔진의 코어.
+- [`[클라우드 데이터 웨어하우스(DW)]`](@/studynote/5_database/_index.md): 구조화된 데이터를 비즈니스 분석가에게 서빙하는 최종 목적지(Target).
+- [`[인공지능과 머신러닝(MLOps)]`](@/studynote/10_ai/_index.md): 파이프라인을 통해 정제된 피처(Feature) 데이터를 먹고 자라는 가장 중요한 컨슈머(Consumer).
+- [`[데브옵스(DevOps) 및 CI/CD]`](@/studynote/15_devops_sre/_index.md): 데이터 파이프라인 코드(Airflow DAG, dbt)를 안전하게 배포하고 모니터링하는 인프라 철학.
+- [`[소프트웨어 아키텍처(MSA)]`](@/studynote/4_software_engineering/_index.md): 데이터 메시(Data Mesh)와 본질적인 사상을 공유하는 도메인 주도 분산 설계 철학.
