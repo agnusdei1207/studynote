@@ -129,11 +129,11 @@ kids_analogy = "컴퓨터 성 안에서 수많은 일꾼(프로그램)들이 서
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- [`[페이징과 세그멘테이션]`](@/studynote/2_operating_system/7_virtual_memory/_index.md): 프로세스 메모리를 조각내어 물리 메모리에 매핑하는 가상화의 핵심.
-- [`[동기화와 임계구역]`](@/studynote/2_operating_system/4_concurrency_sync/_index.md): 멀티스레드 환경에서 데이터 무결성을 보장하기 위한 Mutex/Semaphore 원리.
-- [`[CPU 스케줄링]`](@/studynote/2_operating_system/3_cpu_scheduling/_index.md): 시스템의 공정성과 응답성을 결정하는 CFS(Completely Fair Scheduler)의 흑마법.
-- [`[하이퍼바이저 및 가상화]`](@/studynote/2_operating_system/10_security_virtualization/_index.md): 클라우드 IaaS의 기반이 되는 하드웨어 레벨의 격리 기술.
-- [`[I/O 와 인터럽트]`](@/studynote/2_operating_system/8_io_system/_index.md): CPU와 느린 외부 장치 간의 속도 차이를 조율하는 폴링 및 DMA 매커니즘.
+- [`[페이징과 세그멘테이션]`](@/studynotes/2_operating_system/7_virtual_memory/_index.md): 프로세스 메모리를 조각내어 물리 메모리에 매핑하는 가상화의 핵심.
+- [`[동기화와 임계구역]`](@/studynotes/2_operating_system/4_concurrency_sync/_index.md): 멀티스레드 환경에서 데이터 무결성을 보장하기 위한 Mutex/Semaphore 원리.
+- [`[CPU 스케줄링]`](@/studynotes/2_operating_system/3_cpu_scheduling/_index.md): 시스템의 공정성과 응답성을 결정하는 CFS(Completely Fair Scheduler)의 흑마법.
+- [`[하이퍼바이저 및 가상화]`](@/studynotes/2_operating_system/10_security_virtualization/_index.md): 클라우드 IaaS의 기반이 되는 하드웨어 레벨의 격리 기술.
+- [`[I/O 와 인터럽트]`](@/studynotes/2_operating_system/8_io_system/_index.md): CPU와 느린 외부 장치 간의 속도 차이를 조율하는 폴링 및 DMA 매커니즘.
 
 ---
 

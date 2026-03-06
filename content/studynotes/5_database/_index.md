@@ -119,8 +119,8 @@ DBMS는 쿼리 파싱부터 디스크 I/O 최적화까지 운영체제에 버금
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- [`[자료구조와 B-Tree 탐색]`](@/studynote/8_algorithm_stats/_index.md): 데이터베이스 인덱싱의 가장 근본적인 $O(\log n)$ 탐색 알고리즘 원리.
-- [`[운영체제 메모리와 교착 상태]`](@/studynote/2_operating_system/_index.md): 버퍼 풀 캐시 교체 알고리즘(LRU) 및 DB 데드락 탐지의 이론적 기반.
-- [`[빅데이터 분산 저장소]`](@/studynote/16_bigdata/_index.md): 단일 DBMS의 한계를 넘어 수백 대의 노드에 데이터를 분산하는 하둡/스파크 아키텍처.
-- [`[마이크로서비스와 분산 트랜잭션]`](@/studynote/4_software_engineering/_index.md): 각 서비스가 독립된 DB를 가질 때 데이터 정합성을 맞추는 Saga 패턴 연계.
-- [`[보안과 SQL 인젝션]`](@/studynote/9_security/_index.md): DBMS를 노리는 가장 치명적인 애플리케이션 계층 공격 및 방어 기법.
+- [`[자료구조와 B-Tree 탐색]`](@/studynotes/8_algorithm_stats/_index.md): 데이터베이스 인덱싱의 가장 근본적인 $O(\log n)$ 탐색 알고리즘 원리.
+- [`[운영체제 메모리와 교착 상태]`](@/studynotes/2_operating_system/_index.md): 버퍼 풀 캐시 교체 알고리즘(LRU) 및 DB 데드락 탐지의 이론적 기반.
+- [`[빅데이터 분산 저장소]`](@/studynotes/16_bigdata/_index.md): 단일 DBMS의 한계를 넘어 수백 대의 노드에 데이터를 분산하는 하둡/스파크 아키텍처.
+- [`[마이크로서비스와 분산 트랜잭션]`](@/studynotes/4_software_engineering/_index.md): 각 서비스가 독립된 DB를 가질 때 데이터 정합성을 맞추는 Saga 패턴 연계.
+- [`[보안과 SQL 인젝션]`](@/studynotes/9_security/_index.md): DBMS를 노리는 가장 치명적인 애플리케이션 계층 공격 및 방어 기법.

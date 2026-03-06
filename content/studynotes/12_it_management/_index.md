@@ -120,8 +120,8 @@ IT 관리는 단순한 하드웨어 통제를 넘어, 클라우드 사용료를 
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- [`[클라우드 컴퓨팅과 FinOps]`](@/studynote/13_cloud_architecture/_index.md): IT 인프라 비용 모델을 CAPEX에서 OPEX로 완전히 뒤집은 혁신 기술.
-- [`[소프트웨어 공학과 애자일]`](@/studynote/4_software_engineering/_index.md): IT 서비스의 'Build(구축)' 단계를 통제하는 공학적 방법론.
-- [`[데브옵스 및 SRE]`](@/studynote/15_devops_sre/_index.md): ITIL의 낡고 무거운 변경 관리 프로세스를 코드로 자동화(IaC)하여 폭발적인 속도로 혁신한 실천론.
-- [`[정보 보안 및 ISMS]`](@/studynote/9_security/_index.md): 기업의 비즈니스 리스크를 통제하는 IT 거버넌스의 가장 크고 무거운 방패.
-- [`[엔터프라이즈 시스템 (EA)]`](@/studynote/7_enterprise_systems/_index.md): 기업의 전략과 IT 시스템 아키텍처를 일치시키는 거시적 청사진.
+- [`[클라우드 컴퓨팅과 FinOps]`](@/studynotes/13_cloud_architecture/_index.md): IT 인프라 비용 모델을 CAPEX에서 OPEX로 완전히 뒤집은 혁신 기술.
+- [`[소프트웨어 공학과 애자일]`](@/studynotes/4_software_engineering/_index.md): IT 서비스의 'Build(구축)' 단계를 통제하는 공학적 방법론.
+- [`[데브옵스 및 SRE]`](@/studynotes/15_devops_sre/_index.md): ITIL의 낡고 무거운 변경 관리 프로세스를 코드로 자동화(IaC)하여 폭발적인 속도로 혁신한 실천론.
+- [`[정보 보안 및 ISMS]`](@/studynotes/9_security/_index.md): 기업의 비즈니스 리스크를 통제하는 IT 거버넌스의 가장 크고 무거운 방패.
+- [`[엔터프라이즈 시스템 (EA)]`](@/studynotes/7_enterprise_systems/_index.md): 기업의 전략과 IT 시스템 아키텍처를 일치시키는 거시적 청사진.
