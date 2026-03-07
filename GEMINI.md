@@ -41,7 +41,7 @@ weight = [번호]
 
 ### ⚡ 다음 작업
 - **과목**: CA (컴퓨터구조) — `content/studynote/1_computer_architecture/`
-- **다음**: `5_control_pipelining/` **#216 (제어 메모리)**
+- **다음**: `5_control_pipelining/` **#234 (BTB)**
 - **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
 
 ---
