@@ -135,7 +135,7 @@ TLB 슛다운은 본질적으로 엄청나게 무거운 **'글로벌 배리어(G
 ## 📌 관련 개념 맵 (Knowledge Graph)
 - **[가상 메모리 (Virtual Memory)](../7_virtual_memory_os_integration/xx_virtual_memory.md)**: 프로세스마다 가짜(Virtual) 주소를 주고 물리 주소로 변환하는 기술. 이 변환표(페이지 테이블)가 바뀌기 때문에 슛다운이 필요하다.
 - **[TLB (Translation Lookaside Buffer)](../7_virtual_memory_os_integration/xx_tlb.md)**: 느린 메모리에 있는 페이지 테이블을 매번 읽지 않기 위해, 최근 변환된 주소만 CPU 코어 안에 저장해 두는 초고속 변환 캐시.
-- **[스핀락 (Spinlock)](../2_operating_system/4_concurrency_sync/xx_spinlock.md)**: 슛다운 시 개시 코어가 다른 코어들의 완료 응답(ACK)을 기다리며 무한 루프를 돌면서 멍하니 기다리는 커널 동기화 기법. 이 때문에 CPU 점유율은 높은데 실작업은 없는 현상이 발생한다.
+- **[스핀락 (Spinlock)](../2_operating_system/4_synchronization/xx_spinlock.md)**: 슛다운 시 개시 코어가 다른 코어들의 완료 응답(ACK)을 기다리며 무한 루프를 돌면서 멍하니 기다리는 커널 동기화 기법. 이 때문에 CPU 점유율은 높은데 실작업은 없는 현상이 발생한다.
 - **[캐시 일관성 (Cache Coherence)](./402_cache_coherence.md)**: 데이터 캐시의 일관성을 유지하는 기술. 슛다운은 이 일관성 문제의 '주소 변환(TLB)' 버전이다.
 
 ---

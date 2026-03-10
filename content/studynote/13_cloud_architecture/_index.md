@@ -129,7 +129,7 @@ MSA 환경에서 하나의 서비스 장애가 전체 시스템으로 전파(Cas
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
 - [`[마이크로서비스 아키텍처(MSA)]`](@/studynote/4_software_engineering/_index.md): 클라우드의 확장성을 100% 뽑아내기 위한 소프트웨어 공학적 설계 철학.
-- [`[가상 메모리와 하이퍼바이저]`](@/studynote/2_operating_system/10_security_virtualization/_index.md): 클라우드 IaaS를 가능하게 만든 하드웨어 위 OS 레벨의 격리 기술.
+- [`[가상 메모리와 하이퍼바이저]`](@/studynote/2_operating_system/10_security_performance_virtualization/_index.md): 클라우드 IaaS를 가능하게 만든 하드웨어 위 OS 레벨의 격리 기술.
 - [`[데브옵스(DevOps)와 CI/CD]`](@/studynote/15_devops_sre/_index.md): 클라우드에 하루 수백 번 코드를 배포하고 운영하기 위한 자동화된 문화와 파이프라인.
 - [`[분산 데이터베이스(NewSQL)]`](@/studynote/5_database/_index.md): 클라우드의 무한한 스케일아웃에 맞춰 트랜잭션을 분산 보장하는 차세대 저장소.
 - [`[제로 트러스트 아키텍처]`](@/studynote/9_security/_index.md): 방화벽이 사라진 클라우드 환경에서 엔드포인트와 API를 지키기 위한 보안 패러다임.

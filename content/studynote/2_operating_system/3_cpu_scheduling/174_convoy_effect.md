@@ -1,5 +1,5 @@
 +++
-title = "174. 호위 효과"
+title = "174. 호위 효과 (Convoy Effect) - FCFS의 단점"
 weight = 174
 +++
 
