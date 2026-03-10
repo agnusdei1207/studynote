@@ -7,6 +7,7 @@ insert_anchor_links = "right"
 [extra]
 category = "studynote-enterprise-systems"
 kids_analogy = "거대한 회사가 일을 잘할 수 있게 도와주는 '회사 전체의 뇌와 신경망'이에요. 물건 만들기, 직원 월급 주기, 손님 응대하기 등 수천 가지 일을 하나의 시스템 안에서 깔끔하게 처리한답니다!"
+weight = 7
 +++
 
 # 도메인 07: 엔터프라이즈 시스템 (Enterprise Systems)

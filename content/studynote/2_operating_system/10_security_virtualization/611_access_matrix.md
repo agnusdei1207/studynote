@@ -1,5 +1,3 @@
-# 접근 제어 행렬 (Access Matrix)
-
 +++
 title = "611. 접근 제어 행렬 (Access Matrix)"
 weight = 611

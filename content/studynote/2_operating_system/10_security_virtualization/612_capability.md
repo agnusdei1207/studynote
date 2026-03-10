@@ -1,5 +1,3 @@
-# 자격 증명 리스트 / 티켓 (Capability List)
-
 +++
 title = "612. 자격 증명 리스트 (Capability List)"
 weight = 612

@@ -7,6 +7,7 @@ insert_anchor_links = "right"
 [extra]
 category = "studynote-security"
 kids_analogy = "나쁜 도둑들이 성에 들어오지 못하게 아주 높고 튼튼한 '성벽'을 쌓고, 누구도 풀 수 없는 '비밀 암호'로 보물 상자를 잠그는 방법을 배우는 곳이에요!"
+weight = 9
 +++
 
 # 도메인 09: 정보 보안 (Security)

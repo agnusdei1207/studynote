@@ -7,6 +7,7 @@ insert_anchor_links = "right"
 [extra]
 category = "studynote-design-supervision"
 kids_analogy = "건축가가 집을 멋지고 튼튼하게 설계하는 '디자인'과, 공사 현장에 가서 설계도대로 철근이 잘 들어갔는지 꼼꼼하게 검사하는 '감리' 선생님의 역할을 배우는 곳이에요!"
+weight = 11
 +++
 
 # 도메인 11: IT 디자인 및 감리 (Design & Supervision)

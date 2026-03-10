@@ -1,5 +1,3 @@
-# 벨-라파둘라 모델 (Bell-LaPadula Model)
-
 +++
 title = "617. 벨-라파둘라 모델 (Bell-LaPadula Model)"
 weight = 617

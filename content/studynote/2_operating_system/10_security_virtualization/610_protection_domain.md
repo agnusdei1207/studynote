@@ -1,5 +1,3 @@
-# 보호 도메인 (Protection Domain)
-
 +++
 title = "610. 보호 도메인 (Protection Domain)"
 weight = 610

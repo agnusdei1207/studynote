@@ -41,8 +41,8 @@ weight = [번호]
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `10_security_virtualization/` **#645 (보안 부팅)**
-- **다음**: `11_performance_virtualization/` **#646 (성능 모니터링)**
+- **완료**: `11_performance_virtualization/` **#650 (프로파일링 Gprof)**
+- **다음**: `11_performance_virtualization/` **#651 (DTrace)**
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
@@ -52,8 +52,8 @@ weight = [번호]
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
 | CA | 551 | ~1,000 | 55.1% |
-| OS | 139 | ~800 | 17.4% |
+| OS | 143 | ~800 | 17.9% |
 | NW | 0 | ~1,200 | 0% |
 | SE | 0 | ~800 | 0% |
 | DB | 0 | ~800 | 0% |
-| **합계** | **690** | **~4,800** | **14.4%** |
+| **합계** | **694** | **~4,800** | **14.5%** |

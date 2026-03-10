@@ -1,5 +1,3 @@
-# SELinux (Security-Enhanced Linux)
-
 +++
 title = "620. SELinux (Security-Enhanced Linux)"
 weight = 620

@@ -3,6 +3,7 @@ title = "2: 운영체제 (Operating System)"
 render = true
 paginate_by = 10
 sort_by = "weight"
+weight = 2
 insert_anchor_links = "right"
 [extra]
 category = "studynote-operating-system"

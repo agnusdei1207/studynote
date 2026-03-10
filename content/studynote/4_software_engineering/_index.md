@@ -7,6 +7,7 @@ insert_anchor_links = "right"
 [extra]
 category = "studynote-software-engineering"
 kids_analogy = "건물을 지을 때 설계도를 그리고, 튼튼한지 검사하고, 사람들이 살기 좋게 인테리어를 하는 모든 과정을 말해요. 코딩만 하는 게 아니라, '고장 나지 않는 튼튼한 프로그램'을 체계적으로 만드는 방법을 배우는 곳이랍니다."
+weight = 4
 +++
 
 # 도메인 04: 소프트웨어 공학 (Software Engineering)

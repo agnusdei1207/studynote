@@ -7,6 +7,7 @@ insert_anchor_links = "right"
 [extra]
 category = "studynote-network"
 kids_analogy = "전 세계의 컴퓨터들이 서로 편지를 주고받는 아주 크고 복잡한 '우체국 시스템'이에요. 편지가 길을 잃지 않고, 나쁜 사람에게 뺏기지 않으면서 목적지까지 가장 빨리 도착하는 규칙을 배운답니다!"
+weight = 3
 +++
 
 # 도메인 03: 네트워크 (Network)

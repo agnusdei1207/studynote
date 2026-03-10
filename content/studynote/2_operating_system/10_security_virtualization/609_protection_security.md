@@ -1,5 +1,3 @@
-# 보호 (Protection) vs 보안 (Security)
-
 +++
 title = "609. 보호 vs 보안 (Protection vs Security)"
 weight = 609

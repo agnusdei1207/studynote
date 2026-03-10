@@ -7,6 +7,7 @@ insert_anchor_links = "right"
 [extra]
 category = "studynote-ai"
 kids_analogy = "컴퓨터에게 수많은 그림과 글을 보여주면서 '이건 고양이야', '이건 강아지야' 하고 스스로 규칙을 찾게 만드는 거예요. 나중에는 한 번도 본 적 없는 사진을 보고도 정답을 맞추거나 멋진 그림을 스스로 그려낸답니다!"
+weight = 10
 +++
 
 # 도메인 10: 인공지능 (Artificial Intelligence)

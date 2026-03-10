@@ -1,5 +1,3 @@
-# 비바 모델 (Biba Model)
-
 +++
 title = "618. 비바 모델 (Biba Model)"
 weight = 618

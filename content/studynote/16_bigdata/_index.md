@@ -7,6 +7,7 @@ insert_anchor_links = "right"
 [extra]
 category = "studynote-bigdata"
 kids_analogy = "모래사장에 있는 수십억 알의 모래 중에서 금가루만 쏙쏙 골라내는 아주 거대한 '슈퍼 채미망'이에요. 모래가 너무 많아도 수천 명의 친구들이 동시에 채미망을 흔들어서 1초 만에 금을 찾아낸답니다!"
+weight = 16
 +++
 
 # 도메인 16: 빅데이터 (Big Data)

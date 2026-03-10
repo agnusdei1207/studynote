@@ -1,5 +1,3 @@
-# 롤 기반 접근 제어 (RBAC, Role-Based Access Control)
-
 +++
 title = "614. 롤 기반 접근 제어 (RBAC, Role-Based Access Control)"
 weight = 614
