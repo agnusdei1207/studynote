@@ -40,10 +40,10 @@ weight = [번호]
 ## 📍 현재 위치
 
 ### ⚡ 다음 작업
-- **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `11_performance_virtualization/` **#669 (하드웨어 난수 생성기)**
-- **다음**: `11_performance_virtualization/` **#670 (소프트웨어 오류 주입)**
-- **참조**: `content/studynote/2_operating_system/_keyword_list.md`
+- **과목**: NW (네트워크) — `content/studynote/3_network/`
+- **완료**: `2_operating_system/11_exam_summary/` **#800 (결함 허용)**
+- **다음**: `1_datacomm_basics/` **#1 (데이터통신 시스템 구성요소)**
+- **참조**: `content/studynote/3_network/_keyword_list.md`
 
 ---
 
@@ -52,8 +52,8 @@ weight = [번호]
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
 | CA | 551 | ~1,000 | 55.1% |
-| OS | 162 | ~800 | 20.3% |
+| OS | 486 | ~800 | 60.8% |
 | NW | 0 | ~1,200 | 0% |
 | SE | 0 | ~800 | 0% |
 | DB | 0 | ~800 | 0% |
-| **합계** | **713** | **~4,800** | **14.9%** |
+| **합계** | **1,037** | **~4,800** | **21.6%** |
