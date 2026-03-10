@@ -41,7 +41,7 @@ weight = [번호]
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **다음**: `1_overview_architecture/` **#606 (가상화 (Virtualization) 및 하이퍼바이저 (Hypervisor))**
+- **다음**: `10_security_virtualization/` **#610 (접근 제어 행렬 (Access Matrix))**
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
@@ -51,8 +51,8 @@ weight = [번호]
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
 | CA | 551 | ~1,000 | 55.1% |
-| OS | 54 | ~800 | 6.8% |
+| OS | 58 | ~800 | 7.3% |
 | NW | 0 | ~1,200 | 0% |
 | SE | 0 | ~800 | 0% |
 | DB | 0 | ~800 | 0% |
-| **합계** | **605** | **~4,800** | **12.6%** |
+| **합계** | **609** | **~4,800** | **12.7%** |
