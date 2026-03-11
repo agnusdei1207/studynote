@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: CA (컴퓨터구조) — `content/studynote/1_computer_architecture/`
-- **완료**: `1_basic_electronics_logic/` **#64 (Johnson Counter)**
-- **다음**: `1_basic_electronics_logic/` **#65 (State Diagram)**
+- **완료**: `2_data_representation_arithmetic/` **#78 (Radix Conversion)**
+- **다음**: `2_data_representation_arithmetic/` **#81 (Unsigned Integer)** (79, 80 already exist)
 - **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
 
 ---
@@ -40,9 +40,9 @@
 
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
-| CA | 265 | ~1,000 | 26.5% |
-| OS | 90 | ~800 | 11.3% |
-| NW | 5 | ~1,200 | 0.4% |
-| SE | 5 | ~800 | 0.6% |
-| DB | 5 | ~800 | 0.6% |
-| **합계** | **370** | **~4,800** | **7.7%** |
+| CA | 266 | ~1,000 | 26.6% |
+| OS | 91 | ~800 | 11.4% |
+| NW | 6 | ~1,200 | 0.5% |
+| SE | 6 | ~800 | 0.8% |
+| DB | 6 | ~800 | 0.8% |
+| **합계** | **375** | **~4,800** | **7.8%** |
