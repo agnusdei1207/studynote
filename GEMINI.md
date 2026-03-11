@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: CA (컴퓨터구조) — `content/studynote/1_computer_architecture/`
-- **완료**: `15_advanced_topics/` **#627 (RPO, Recovery Point Objective)**
-- **다음**: `15_advanced_topics/` **#628 (RTO, Recovery Time Objective)**
+- **완료**: `1_basic_electronics_logic/` **#62 (Up/Down Counter)**
+- **다음**: `1_basic_electronics_logic/` **#63 (Ring Counter)**
 - **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
 
 ---
@@ -40,9 +40,9 @@
 
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
-| CA | 264 | ~1,000 | 26.4% |
-| OS | 87 | ~800 | 10.8% |
-| NW | 2 | ~1,200 | 0.1% |
-| SE | 2 | ~800 | 0.2% |
-| DB | 2 | ~800 | 0.2% |
-| **합계** | **357** | **~4,800** | **7.4%** |
+| CA | 265 | ~1,000 | 26.5% |
+| OS | 89 | ~800 | 11.1% |
+| NW | 4 | ~1,200 | 0.3% |
+| SE | 4 | ~800 | 0.5% |
+| DB | 4 | ~800 | 0.5% |
+| **합계** | **366** | **~4,800** | **7.6%** |
