@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: CA (컴퓨터구조) — `content/studynote/1_computer_architecture/`
-- **완료**: `2_data_representation_arithmetic/` **#91 (Half Precision)**
-- **다음**: `2_data_representation_arithmetic/` **#97 (NaN)** (92-96 already exist)
+- **완료**: `2_data_representation_arithmetic/` **#106 (UTF-16)**
+- **다음**: `2_data_representation_arithmetic/` **#107 (Floating Point Multiplication)**
 - **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
 
 ---
@@ -40,9 +40,9 @@
 
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
-| CA | 265 | ~1,000 | 26.5% |
-| OS | 98 | ~800 | 12.3% |
-| NW | 13 | ~1,200 | 1.1% |
-| SE | 13 | ~800 | 1.6% |
-| DB | 13 | ~800 | 1.6% |
-| **합계** | **402** | **~4,800** | **8.4%** |
+| CA | 267 | ~1,000 | 26.7% |
+| OS | 99 | ~800 | 12.3% |
+| NW | 14 | ~1,200 | 1.1% |
+| SE | 14 | ~800 | 1.7% |
+| DB | 14 | ~800 | 1.7% |
+| **합계** | **408** | **~4,800** | **8.5%** |
