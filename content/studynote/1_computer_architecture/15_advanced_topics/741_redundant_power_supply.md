@@ -1,9 +1,9 @@
 +++
-weight = 444
-title = "444. 이중화 전원 공급 (Redundant Power Supply)"
+weight = 741
+title = "741. 이중화 전원 공급 장치 (Redundant Power Supply)"
 +++
 
-# 444. 이중화 전원 공급 (Redundant Power Supply)
+# 741. 이중화 전원 공급 장치 (Redundant Power Supply)
 
 #### 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 여러 전원 공급 장치로 단일 실패 지점 제거

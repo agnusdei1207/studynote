@@ -1,9 +1,9 @@
 +++
-weight = 446
-title = "446. 와치독 타이머 (Watchdog Timer)"
+weight = 461
+title = "461. 워치독 타이머 (Watchdog Timer)"
 +++
 
-# 446. 와치독 타이머 (Watchdog Timer)
+# 461. 워치독 타이머 (Watchdog Timer)
 
 #### 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 시스템 정지를 감지하고 자동 복구하는 하드웨어 타이머

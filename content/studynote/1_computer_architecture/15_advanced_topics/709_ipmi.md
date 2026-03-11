@@ -1,9 +1,9 @@
 +++
-weight = 445
-title = "445. IPMI (Intelligent Platform Management Interface)"
+weight = 709
+title = "709. IPMI (Intelligent Platform Management Interface)"
 +++
 
-# 445. IPMI (Intelligent Platform Management Interface)
+# 709. IPMI (Intelligent Platform Management Interface)
 
 #### 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 서버 원격 관리를 위한 하드웨어 표준 인터페이스

@@ -1,9 +1,9 @@
 +++
-weight = 448
-title = "448. 락스텝 아키텍처 (Lockstep Architecture)"
+weight = 465
+title = "465. 락스텝 (Lockstep) 아키텍처"
 +++
 
-# 448. 락스텝 아키텍처 (Lockstep Architecture)
+# 465. 락스텝 (Lockstep) 아키텍처
 
 #### 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 여러 CPU가 동일한 명령을 동시에 실행하여 오류 감지

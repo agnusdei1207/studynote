@@ -1,9 +1,9 @@
 +++
-weight = 437
-title = "437. 전력 관리 (Power Management)"
+weight = 466
+title = "466. 전력 소모 (Power Consumption)"
 +++
 
-# 437. 전력 관리 (Power Management)
+# 466. 전력 소모 (Power Consumption)
 
 #### 핵심 인사이트 (3줄 요약)
 > 1. **본질**: CPU/시스템 전력 소모를 제어하고 성능과 효율 최적화

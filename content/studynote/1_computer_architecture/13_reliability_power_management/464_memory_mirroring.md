@@ -1,9 +1,9 @@
 +++
-weight = 447
-title = "447. 메모리 미러링 (Memory Mirroring)"
+weight = 464
+title = "464. 메모리 미러링 (Memory Mirroring)"
 +++
 
-# 447. 메모리 미러링 (Memory Mirroring)
+# 464. 메모리 미러링 (Memory Mirroring)
 
 #### 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 메모리 내용을 실시간 복제하여 오류 발생 시 복구

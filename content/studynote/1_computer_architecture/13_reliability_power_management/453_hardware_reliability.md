@@ -1,9 +1,9 @@
 +++
-weight = 443
-title = "443. 하드웨어 신뢰성 (Hardware Reliability)"
+weight = 453
+title = "453. 고장 허용 시스템 (Fault Tolerance)"
 +++
 
-# 443. 하드웨어 신뢰성 (Hardware Reliability)
+# 453. 고장 허용 시스템 (Fault Tolerance)
 
 #### 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 하드웨어의 무결한 작동과 수명을 보장하는 기술
