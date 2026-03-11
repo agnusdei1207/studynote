@@ -29,10 +29,10 @@
 ## 📍 현재 위치
 
 ### ⚡ 다음 작업
-- **과목**: CA (컴퓨터구조) — `content/studynote/1_computer_architecture/`
-- **완료**: `12_accelerators_ai_hardware/` **#384 (DPU (Data Processing Unit / SmartNIC))**
-- **다음**: `12_accelerators_ai_hardware/` **#385 (IPU (Intelligence Processing Unit))**
-- **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
+- **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
+- **완료**: `1_overview_architecture/` **#47 (DLM (Distributed Lock Manager))**
+- **다음**: `1_overview_architecture/` **#48 (스토리지 영역 네트워크 (SAN) 연동)**
+- **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
 
@@ -40,9 +40,9 @@
 
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
-| CA | 540 | ~1,000 | 54.0% |
-| OS | 107 | ~800 | 13.4% |
+| CA | 563 | ~851 | 66.2% |
+| OS | 47 | ~841 | 5.6% |
 | NW | 14 | ~1,200 | 1.1% |
 | SE | 14 | ~800 | 1.7% |
 | DB | 14 | ~800 | 1.7% |
-| **합계** | **563** | **~4,800** | **11.7%** |
+| **합계** | **652** | **~4,800** | **13.6%** |
