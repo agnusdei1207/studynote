@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: CA (컴퓨터구조) — `content/studynote/1_computer_architecture/`
-- **완료**: `4_instruction_set_architecture/` **#185 (PC 상대 주소 지정 (PC-Relative Addressing))**
-- **다음**: `4_instruction_set_architecture/` **#186 (데이터 전송 명령어 (Data Transfer Instructions))**
+- **완료**: `4_instruction_set_architecture/` **#189 (제어 흐름 명령어 (Control Flow Instructions))**
+- **다음**: `4_instruction_set_architecture/` **#190 (조건부 분기 (Conditional Branch))**
 - **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
 
 ---
@@ -40,7 +40,7 @@
 
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
-| CA | 341 | ~1,000 | 34.1% |
+| CA | 345 | ~1,000 | 34.5% |
 | OS | 107 | ~800 | 13.4% |
 | NW | 14 | ~1,200 | 1.1% |
 | SE | 14 | ~800 | 1.7% |
