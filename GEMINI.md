@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: CA (컴퓨터구조) — `content/studynote/1_computer_architecture/`
-- **완료**: `3_architecture_basics_performance/` **#161 (명령어 집합 구조 (ISA)의 정의)**
-- **다음**: `4_instruction_set_architecture/` **#162 (CISC)**
+- **완료**: `4_instruction_set_architecture/` **#166 (레지스터의 정의와 종류)**
+- **다음**: `4_instruction_set_architecture/` **#167 (상태 레지스터 (Status Register / Flags))**
 - **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
 
 ---
@@ -40,7 +40,7 @@
 
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
-| CA | 317 | ~1,000 | 31.7% |
+| CA | 322 | ~1,000 | 32.2% |
 | OS | 107 | ~800 | 13.4% |
 | NW | 14 | ~1,200 | 1.1% |
 | SE | 14 | ~800 | 1.7% |
