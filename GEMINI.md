@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: CA (컴퓨터구조) — `content/studynote/1_computer_architecture/`
-- **완료**: `1_basic_electronics_logic/` **#62 (Up/Down Counter)**
-- **다음**: `1_basic_electronics_logic/` **#63 (Ring Counter)**
+- **완료**: `1_basic_electronics_logic/` **#64 (Johnson Counter)**
+- **다음**: `1_basic_electronics_logic/` **#65 (State Diagram)**
 - **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
 
 ---
@@ -41,8 +41,8 @@
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
 | CA | 265 | ~1,000 | 26.5% |
-| OS | 89 | ~800 | 11.1% |
-| NW | 4 | ~1,200 | 0.3% |
-| SE | 4 | ~800 | 0.5% |
-| DB | 4 | ~800 | 0.5% |
-| **합계** | **366** | **~4,800** | **7.6%** |
+| OS | 90 | ~800 | 11.3% |
+| NW | 5 | ~1,200 | 0.4% |
+| SE | 5 | ~800 | 0.6% |
+| DB | 5 | ~800 | 0.6% |
+| **합계** | **370** | **~4,800** | **7.7%** |
