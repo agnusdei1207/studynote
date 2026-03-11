@@ -9,7 +9,7 @@
 
 | 파일 | 역할 |
 |:---|:---|
-| `PE_GUIDELINE.md` | 작성 규칙 (반드시 먼저 읽을 것) |
+| `PE_GUIDELINE.md` | 작성 규칙 (Abbreviation full names, Section-wise Analogies) |
 | `PE_EXAMPLE.md` | 이상적인 완성 예시 |
 
 ---
@@ -18,22 +18,11 @@
 
 1. **스타일**: 서술형 + ASCII 다이어그램 하이브리드
 2. **구조**: 핵심 인사이트 → Ⅰ~Ⅴ → 개념 맵 → 어린이 비유
-3. **넘버링**: 각 과목 `_keyword_list.md` 순서 엄수
-4. **커밋**: 3~5개마다 `git add -A && git commit -m "feat: [과목] #[범위] [주제]" && git push`
-5. **업데이트**: 작업 후 아래 "현재 위치"만 수정
-
----
-
-## 경로 & 파일명
-
-```
-content/studynote/[과목폴더]/[서브폴더]/[번호]_[영문_소문자].md
-
-+++
-title = "[번호]. [한글] ([영문])"
-weight = [번호]
-+++
-```
+3. **약어**: 반드시 전체 명칭과 병기 (`Abbreviation (Full Name)`)
+4. **비유**: 각 로마자 섹션(Ⅰ~Ⅴ) 끝에 `📢 섹션 요약 비유` 추가
+5. **넘버링**: 각 과목 `_keyword_list.md` 순서 엄수
+6. **커밋**: 3~5개마다 `git add -A && git commit -m "feat: [과목] #[범위] [주제]" && git push`
+7. **업데이트**: 작업 후 아래 "현재 위치"만 수정
 
 ---
 
@@ -41,8 +30,8 @@ weight = [번호]
 
 ### ⚡ 다음 작업
 - **과목**: NW (네트워크) — `content/studynote/3_network/`
-- **완료**: `3_network/1_datacomm_basics/` **#69 (네트워크 토폴로지)**
-- **다음**: `3_network/1_datacomm_basics/` **#70 (주파수 도약 확산 스펙트럼 FHSS)**
+- **완료**: `2_multiplexing/` **#86 (CP/GI)**
+- **다음**: `2_multiplexing/` **#87 (다중 접속 Multiple Access 개념)**
 - **참조**: `content/studynote/3_network/_keyword_list.md`
 
 ---
@@ -53,7 +42,7 @@ weight = [번호]
 |:---:|:---:|:---:|:---:|
 | CA | 551 | ~1,000 | 55.1% |
 | OS | 486 | ~800 | 60.8% |
-| NW | 69 | ~1,200 | 5.8% |
+| NW | 86 | ~1,200 | 7.2% |
 | SE | 0 | ~800 | 0% |
 | DB | 0 | ~800 | 0% |
-| **합계** | **1,106** | **~4,800** | **23.0%** |
+| **합계** | **1,123** | **~4,800** | **23.4%** |
