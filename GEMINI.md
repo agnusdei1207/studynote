@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `1_overview_architecture/` **#83 (BSS (Block Started by Symbol) 영역)**
-- **다음**: `1_overview_architecture/` **#84 (힙 (Heap) 영역 - 동적 할당 (malloc/free))**
+- **완료**: `1_overview_architecture/` **#89 (대기 큐 (Wait Queue / Device Queue))**
+- **다음**: `1_overview_architecture/` **#90 (프로세스 제어 블록 (PCB, Process Control Block) / 태스크 제어 블록 (TCB))**
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
