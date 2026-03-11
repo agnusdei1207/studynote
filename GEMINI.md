@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: CA (컴퓨터구조) — `content/studynote/1_computer_architecture/`
-- **완료**: `3_architecture_basics_performance/` **#151 (Dhrystone)**
-- **다음**: `3_architecture_basics_performance/` **#152 (Whetstone)**
+- **완료**: `3_architecture_basics_performance/` **#156 (Power-Performance Trade-off)**
+- **다음**: `3_architecture_basics_performance/` **#157 (Architecture and Performance)**
 - **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
 
 ---
@@ -40,7 +40,7 @@
 
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
-| CA | 307 | ~1,000 | 30.7% |
+| CA | 312 | ~1,000 | 31.2% |
 | OS | 107 | ~800 | 13.4% |
 | NW | 14 | ~1,200 | 1.1% |
 | SE | 14 | ~800 | 1.7% |
