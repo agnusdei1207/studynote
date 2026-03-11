@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `1_overview_architecture/` **#62 (컨트롤 그룹 (cgroups) - 자원 할당 제어)**
-- **다음**: `1_overview_architecture/` **#63 (도커 (Docker) 아키텍처)**
+- **완료**: `1_overview_architecture/` **#65 (시스템 콜 래퍼 (System Call Wrapper))**
+- **다음**: `1_overview_architecture/` **#66 (VFS (Virtual File System))**
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
