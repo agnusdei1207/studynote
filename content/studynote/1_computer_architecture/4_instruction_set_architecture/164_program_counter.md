@@ -1,6 +1,6 @@
 +++
 weight = 164
-title = "164. 프로그램 카운터 (PC, Program Counter)"
+title = "164. 프로그램 카운터 (PC)"
 date = "2026-03-12"
 [extra]
 categories = "studynote-computer-architecture"

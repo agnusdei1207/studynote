@@ -1,6 +1,6 @@
 +++
 weight = 166
-title = "166. 스택 포인터 (SP, Stack Pointer)"
+title = "166. 스택 포인터 (SP)"
 date = "2026-03-12"
 [extra]
 categories = "studynote-computer-architecture"

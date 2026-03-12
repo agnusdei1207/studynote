@@ -1,10 +1,10 @@
 +++
-title = "PCIe 루트 컴플렉스 (Root Complex)"
+title = "358. PCIe 루트 컴플렉스 (Root Complex)"
 description = "CPU와 PCIe 패브릭을 연결하는 핵심 인터페이스이자 I/O 계층의 최상위 제어 유닛"
 weight = 358
 +++
 
-# PCIe 루트 컴플렉스 (Root Complex)
+# 358. PCIe 루트 컴플렉스 (Root Complex)
 
 > 1. **본질**: PCIe 루트 컴플렉스 (Root Complex, RC)는 CPU (Central Processing Unit)와 메모리 서브시스템을 PCIe (Peripheral Component Interconnect Express) 패브릭 (Fabric)에 연결하는 I/O (Input/Output) 계층의 최상위 장치다.
 > 2. **가치**: CPU의 로컬 버스 트랜잭션을 PCIe 패킷으로 변환하고, 메모리 주소 매핑, 인터럽트 처리, 그리고 피어 투 피어 (Peer-to-Peer) 통신을 관리하여 전체 시스템의 데이터 흐름을 최적화한다.

@@ -1,6 +1,6 @@
 +++
 weight = 179
-title = "179. 변위 주소 지정 (Displacement Addressing)"
+title = "179. 변위 주소 지정 (Displacement)"
 date = "2026-03-12"
 [extra]
 categories = "studynote-computer-architecture"

@@ -1,10 +1,10 @@
 +++
-title = "PCIe 레인 (Lanes - x1, x4, x8, x16)"
+title = "357. PCIe 레인 (Lanes - x1, x4, x8, x16)"
 description = "PCIe (Peripheral Component Interconnect Express)의 물리적 전송 단위인 레인의 구조와 병렬화 메커니즘"
 weight = 357
 +++
 
-# PCIe 레인 (Lanes - x1, x4, x8, x16)
+# 357. PCIe 레인 (Lanes - x1, x4, x8, x16)
 
 > 1. **본질**: PCIe 레인 (Lane)은 PCIe (Peripheral Component Interconnect Express) 인터페이스에서 데이터를 송수신하기 위한 가장 기본적인 차동 신호 쌍 (Differential Pair) 기반의 점대점 (Point-to-Point) 물리 링크다.
 > 2. **가치**: x1, x4, x8, x16 등 레인 개수를 조합하여 대역폭을 선형적으로 확장할 수 있으며, 최신 Gen 5.0 x16 기준 64GB/s (양방향 128GB/s) 이상의 초고속 전송이 가능하다.

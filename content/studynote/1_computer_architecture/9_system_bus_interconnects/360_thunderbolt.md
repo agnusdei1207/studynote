@@ -1,10 +1,10 @@
 +++
-title = "Thunderbolt"
+title = "360. Thunderbolt"
 description = "PCIe와 DisplayPort를 통합하여 단일 인터페이스로 초고속 데이터 및 영상 전송을 지원하는 기술"
 weight = 360
 +++
 
-# Thunderbolt
+# 360. Thunderbolt
 
 > 1. **본질**: 썬더볼트 (Thunderbolt)는 인텔과 애플이 공동 개발한 **범용 패킷 터널링 (General Purpose Packet Tunneling)** 기반의 초고속 인터페이스 기술이다.
 > 2. **가치**: PCIe (Peripheral Component Interconnect Express)와 DisplayPort (DP) 신호를 하나의 케이블로 통합 전송하며, 최신 썬더볼트 4/5 규격은 최대 40~120Gbps의 대역폭과 데이지 체인 (Daisy Chain) 확장성을 제공한다.

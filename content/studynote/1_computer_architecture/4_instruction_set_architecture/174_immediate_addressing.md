@@ -1,6 +1,6 @@
 +++
 weight = 174
-title = "174. 즉시 주소 지정 (Immediate Addressing)"
+title = "174. 즉시 주소 지정 (Immediate)"
 date = "2026-03-12"
 [extra]
 categories = "studynote-computer-architecture"

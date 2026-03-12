@@ -1,10 +1,10 @@
 +++
-title = "인피니밴드 (InfiniBand)"
+title = "361. 인피니밴드 (InfiniBand)"
 description = "HPC와 데이터센터를 위한 초고속, 저지연 상호 연결 아키텍처 및 프로토콜"
 weight = 361
 +++
 
-# 인피니밴드 (InfiniBand)
+# 361. 인피니밴드 (InfiniBand)
 
 > 1. **본질**: 인피니밴드 (InfiniBand, IB)는 고성능 컴퓨팅 (HPC) 및 데이터센터 내부의 장치 간 통신을 위해 설계된 **스위치 패브릭 (Switched Fabric)** 기반의 점대점 (Point-to-Point) 상호 연결 아키텍처다.
 > 2. **가치**: RDMA (Remote Direct Memory Access)와 커널 바이패스 (Kernel Bypass) 기술을 통해 마이크로초 (µs) 단위의 극도로 낮은 레이턴시와 NDR (Next Data Rate) 기준 최대 400Gbps 이상의 초고대역폭을 제공한다.

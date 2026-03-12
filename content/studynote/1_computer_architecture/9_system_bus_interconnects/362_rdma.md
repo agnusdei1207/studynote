@@ -1,10 +1,10 @@
 +++
-title = "RDMA (Remote Direct Memory Access)"
+title = "362. RDMA (Remote Direct Memory Access)"
 description = "네트워크를 통해 다른 노드의 메모리에 직접 접근하여 CPU 부하를 최소화하는 고성능 통신 기술"
 weight = 362
 +++
 
-# RDMA (Remote Direct Memory Access)
+# 362. RDMA (Remote Direct Memory Access)
 
 > 1. **본질**: RDMA (Remote Direct Memory Access)는 OS 커널을 거치지 않고 (Kernel Bypass), CPU의 개입 없이 (Zero-copy) 네트워크 상에 있는 원격 노드의 메인 메모리에 직접 접근하여 데이터를 읽거나 쓰는 초고속 통신 기술이다.
 > 2. **가치**: 기존 TCP/IP 스택에서 발생하는 수차례의 데이터 복사와 인터럽트 부하를 제거함으로써, 마이크로초 (µs) 단위의 초저지연과 거의 0%에 가까운 CPU 점유율을 실현한다.

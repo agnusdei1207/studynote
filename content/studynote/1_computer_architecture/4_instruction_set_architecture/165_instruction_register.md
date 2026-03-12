@@ -1,6 +1,6 @@
 +++
 weight = 165
-title = "165. 명령어 레지스터 (IR, Instruction Register)"
+title = "165. 명령어 레지스터 (IR)"
 date = "2026-03-12"
 [extra]
 categories = "studynote-computer-architecture"
