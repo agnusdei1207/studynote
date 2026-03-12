@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `10_security_performance_virtualization/` **#640 (운영체제 설계의 트레이드오프와 최적화 결정 사례)**
-- **다음**: `11_exam_summary/` **#641 (운영체제 핵심 요약 - 프로세스 관리)**
+- **완료**: `11_exam_summary/` **#650 (실전 답안 작성을 위한 OS 기술 프레임워크 요약)**
+- **다음**: `11_exam_summary/` **#651 (OS 핵심 메커니즘 통합 다이어그램)**
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
