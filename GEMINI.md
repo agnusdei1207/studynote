@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `6_memory_management/` **#350 (비연속 메모리 할당 (Non-contiguous Memory Allocation))**
-- **다음**: `6_memory_management/` **#351 (페이징 (Paging))**
+- **완료**: `6_memory_management/` **#360 (ASID (Address-Space Identifier))**
+- **다음**: `6_memory_management/` **#361 (다단계 페이징 (Hierarchical Paging))**
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
