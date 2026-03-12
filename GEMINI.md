@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `8_io_storage_system/` **#450 (직접 메모리 접근 (DMA, Direct Memory Access))**
-- **다음**: `8_io_storage_system/` **#451 (사이클 스틸링 (Cycle Stealing))**
+- **완료**: `8_io_storage_system/` **#460 (논블로킹 I/O (Non-blocking I/O))**
+- **다음**: `8_io_storage_system/` **#461 (비동기 I/O (Asynchronous I/O, AIO))**
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
