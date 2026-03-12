@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `8_io_storage_system/` **#470 (SSTF (Shortest Seek Time First))**
-- **다음**: `8_io_storage_system/` **#471 (SCAN 스케줄링 (엘리베이터 알고리즘))**
+- **완료**: `8_io_storage_system/` **#480 (쓰기 증폭 (Write Amplification) 현상)**
+- **다음**: `8_io_storage_system/` **#481 (TRIM 명령어)**
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
