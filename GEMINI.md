@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `6_memory_management/` **#330 (한계 레지스터 (Limit Register))**
-- **다음**: `6_memory_management/` **#331 (동적 적재 (Dynamic Loading))**
+- **완료**: `6_memory_management/` **#340 (가변 분할 방식 (Variable Partition))**
+- **다음**: `6_memory_management/` **#341 (내부 단편화 (Internal Fragmentation))**
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
