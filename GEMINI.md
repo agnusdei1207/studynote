@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `6_memory_management/` **#340 (가변 분할 방식 (Variable Partition))**
-- **다음**: `6_memory_management/` **#341 (내부 단편화 (Internal Fragmentation))**
+- **완료**: `6_memory_management/` **#350 (비연속 메모리 할당 (Non-contiguous Memory Allocation))**
+- **다음**: `6_memory_management/` **#351 (페이징 (Paging))**
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
