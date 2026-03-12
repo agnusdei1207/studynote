@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `7_virtual_memory/` **#430 (수요 페이지 제로화 (Demand Zero Paging))**
-- **다음**: `7_virtual_memory/` **#431 (더티 페이지 쓰기 (Dirty Page Writeback) 메커니즘)**
+- **완료**: `7_virtual_memory/` **#440 (eBPF 기반 메모리 할당 트레이싱)**
+- **다음**: `8_io_storage_system/` **#441 (I/O 장치의 분류 - 블록 장치 vs 문자 장치)**
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
