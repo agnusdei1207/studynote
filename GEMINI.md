@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `11_exam_summary/` **#660 (운영체제 보안 및 안정성 확보를 위한 체크리스트)**
-- **다음**: `11_exam_summary/` **#661 (최신 운영체제 트렌드 요약 - 클라우드, AI, 보안)**
+- **완료**: `11_exam_summary/` **#670 (실전 OS 응용 문제 해결 전략)**
+- **다음**: `1_overview_architecture/` **#81 (프로그램 (Program) vs 프로세스 (Process))** — *Note: Check if re-audit of earlier sections is needed.*
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
@@ -41,8 +41,8 @@
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
 | CA | 568 | ~851 | 66.7% |
-| OS | 210 | ~841 | 25.0% |
+| OS | 450 | ~841 | 53.5% |
 | NW | 14 | ~1,200 | 1.1% |
 | SE | 14 | ~800 | 1.7% |
 | DB | 14 | ~800 | 1.7% |
-| **합계** | **820** | **~4,800** | **17.1%** |
+| **합계** | **1,060** | **~4,800** | **22.1%** |
