@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `9_file_system/` **#540 (그룹화 (Grouping) 및 계수 (Counting) 방식)**
-- **다음**: `9_file_system/` **#541 (디렉터리 구현 - 효율적인 탐색 기법)**
+- **완료**: `9_file_system/` **#550 (WAFL (Write Anywhere File Layout) 파일 시스템)**
+- **다음**: `9_file_system/` **#551 (EXT4 파일 시스템 구조)**
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
