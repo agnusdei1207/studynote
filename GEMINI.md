@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `9_file_system/` **#510 (디렉터리 (Directory) 논리적 구조)**
-- **다음**: `9_file_system/` **#511 (1단계 디렉터리 (Single-level Directory))**
+- **완료**: `9_file_system/` **#520 (NFS (Network File System))**
+- **다음**: `9_file_system/` **#521 (파일 시스템 구현 (File-System Implementation))**
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
