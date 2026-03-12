@@ -1,13 +1,13 @@
 +++
 weight = 163
-title = "163. 장기 스케줄러 (Long-term Scheduler) / 작업 스케줄러(Job Scheduler)"
+title = "163. 장기 스케줄러 (Long-term Scheduler) - 다중 프로그래밍 정도 조절"
 date = "2026-03-12"
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "장기 스케줄러", "작업 스케줄러", "Long-term Scheduler", "Job Scheduler", "다중 프로그래밍"]
 +++
 
-# 장기 스케줄러 (Long-term Scheduler) / 작업 스케줄러(Job Scheduler)
+# 장기 스케줄러 (Long-term Scheduler) - 다중 프로그래밍 정도 조절
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 장기 스케줄러 (Long-term Scheduler)는 디스크와 같은 보조기억장치에 저장된 작업(Job)들 중 어떤 것을 **메모리에 적재하여 프로세스로 만들지** 결정하는 시스템의 '관문' 역할을 수행한다.

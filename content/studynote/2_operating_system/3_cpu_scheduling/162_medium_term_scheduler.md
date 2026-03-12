@@ -1,13 +1,13 @@
 +++
 weight = 162
-title = "162. 중기 스케줄러 (Medium-term Scheduler) / 스와퍼(Swapper)"
+title = "162. 중기 스케줄러 (Medium-term Scheduler) - 스와핑 (Swapping)"
 date = "2026-03-12"
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "중기 스케줄러", "스와퍼", "Swapping", "메모리 관리", "다중 프로그래밍"]
 +++
 
-# 중기 스케줄러 (Medium-term Scheduler) / 스와퍼(Swapper)
+# 중기 스케줄러 (Medium-term Scheduler) - 스와핑 (Swapping)
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 중기 스케줄러 (Medium-term Scheduler)는 메모리에 너무 많은 프로세스가 올라와 여유 공간이 부족할 때, 일부 프로세스를 하드디스크의 스왑(Swap) 영역으로 내쫓는 **스와핑 (Swapping)**을 결정하는 모듈이다.
