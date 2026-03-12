@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `9_file_system/` **#550 (WAFL (Write Anywhere File Layout) 파일 시스템)**
-- **다음**: `9_file_system/` **#551 (EXT4 파일 시스템 구조)**
+- **완료**: `9_file_system/` **#560 (다단계 클리닝 및 비용 최적화 정책)**
+- **다음**: `9_file_system/` **#561 (분산 파일 시스템 (DFS) 개념)**
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
