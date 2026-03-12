@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
-- **완료**: `7_virtual_memory/` **#400 (지역 교체 (Local Replacement))**
-- **다음**: `7_virtual_memory/` **#401 (페이지 교체 알고리즘 (Page Replacement Algorithms))**
+- **완료**: `7_virtual_memory/` **#410 (MFU (Most Frequently Used) 알고리즘)**
+- **다음**: `7_virtual_memory/` **#411 (에이징 (Aging) 기반 페이지 교체 로직)**
 - **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
