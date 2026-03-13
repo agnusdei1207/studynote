@@ -29,10 +29,10 @@
 ## 📍 현재 위치
 
 ### ⚡ 다음 작업
-- **과목**: CA (컴퓨터구조) — `content/studynote/1_computer_architecture/`
-- **완료**: `15_advanced_topics/` **#745 (과전압 보호)**
-- **다음**: `15_advanced_topics/` **#746 (과전류 보호)**
-- **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
+- **과목**: OS (운영체제) — `content/studynote/2_operating_system/`
+- **완료**: CA **#802 (OpenTitan)** ✅ 100% 완료
+- **다음**: OS 키워드 계속 진행
+- **참조**: `content/studynote/2_operating_system/_keyword_list.md`
 
 ---
 
@@ -40,9 +40,9 @@
 
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
-| CA | 745 | ~802 | 92.9% |
+| CA | 802 | ~802 | 100% ✅ |
 | OS | 620 | ~800 | 77.5% |
 | NW | 14 | ~1,200 | 1.1% |
 | SE | 14 | ~800 | 1.7% |
 | DB | 14 | ~800 | 1.7% |
-| **합계** | **1,382** | **~4,402** | **31.4%** |
+| **합계** | **1,464** | **~4,402** | **33.3%** |
