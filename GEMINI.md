@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: CA (컴퓨터구조) — `content/studynote/1_computer_architecture/`
-- **완료**: `15_advanced_topics/` **#740 (섀시 팬 핫스왑)**
-- **다음**: `15_advanced_topics/` **#741 (이중화 전원 공급 장치)**
+- **완료**: `15_advanced_topics/` **#745 (과전압 보호)**
+- **다음**: `15_advanced_topics/` **#746 (과전류 보호)**
 - **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
 
 ---
@@ -40,7 +40,7 @@
 
 | 과목 | 완료 | 전체 | 비율 |
 |:---:|:---:|:---:|:---:|
-| CA | 740 | ~802 | 92.3% |
+| CA | 745 | ~802 | 92.9% |
 | OS | 620 | ~800 | 77.5% |
 | NW | 14 | ~1,200 | 1.1% |
 | SE | 14 | ~800 | 1.7% |
