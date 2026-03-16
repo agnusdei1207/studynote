@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: DB (데이터베이스) — `content/studynote/5_database/`
-- **완료**: DB **#200 (CAP 정리와 PACELC 정리 - 분산 데이터베이스의 근본적 한계와 트레이드오프)**
-- **다음**: DB **#201 (NoSQL 아키텍처 - 분산 데이터 모델과 샤딩)**
+- **완료**: DB **#201 (NoSQL 아키텍처 - 분산 데이터 모델과 샤딩)**
+- **다음**: DB **#202 (분산 병렬 처리와 합의 알고리즘 - MapReduce, Raft, Paxos)**
 - **참조**: `content/studynote/5_database/_keyword_list.md`
 
 ---
