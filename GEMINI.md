@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: 엔터프라이즈 시스템 (Enterprise Systems) — `content/studynote/7_enterprise_systems/`
-- **완료**: Enterprise **#1~#100** 작성 완료
-- **다음**: Enterprise **#101** (CPFR)
+- **완료**: Enterprise **#1~#102** 작성 완료
+- **다음**: Enterprise **#103** (4PL)
 - **참조**: `content/studynote/7_enterprise_systems/_keyword_list.md`
 
 ---
@@ -46,8 +46,8 @@
 | SE | 800 | ~800 | 100% ✅ |
 | DB | 600 | ~600 | 100% ✅ |
 | ICT | 300 | ~800 | 37.5% |
-| Enterprise | 100 | 482 | 20.7% |
-| **합계** | **4,668** | **~5,550** | **84.1%** |
+| Enterprise | 102 | 482 | 21.2% |
+| **합계** | **4,670** | **~5,550** | **84.1%** |
 
 
 
