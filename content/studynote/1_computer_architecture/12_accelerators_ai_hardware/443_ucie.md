@@ -1,124 +1,149 @@
 +++
-title = "443. UCIe (Universal Chiplet Interconnect Express)"
-date = "2026-03-17"
+title = "UCIe (Universal Chiplet Interconnect Express)"
+date = "2026-03-14"
 weight = 443
-[extra]
-subject = "1: 컴퓨터 구조 (Computer Architecture)"
-section = "차세대 가속기 및 AI 반도체 (Accelerators & AI Hardware)"
-keyword = "UCIe_Universal_Chiplet_Interconnect_Express"
 +++
 
 # UCIe (Universal Chiplet Interconnect Express)
 
 ## 핵심 인사이트 (3줄 요약)
-> 1. **본질**: UCIe (Universal Chiplet Interconnect Express)는 "UCIe (Universal Chiplet Interconnect Express)"라는 맥락에서 이해해야 하는 핵심 개념으로, 정의 자체보다 왜 필요한지와 어디에 쓰이는지를 함께 봐야 한다.
-> 2. **가치**: 기술사 관점에서는 구조, 성능, 운영성, 위험 통제라는 네 축으로 해석해야 실제 설계 판단에 도움이 된다.
-> 3. **융합**: 차세대 가속기 및 AI 반도체 (Accelerators & AI Hardware) 내부의 인접 개념들과 연결해서 보면 암기용 키워드가 아니라 설계 의사결정을 돕는 실전 지식으로 전환된다.
+> 1. **본질**: UCIe (Universal Chiplet Interconnect Express)는 서로 다른 제조사, 공정, 아키텍처를 가진 반도체 다이(Die)들을 패키지(Package) 내에서 유기적으로 연결하기 위한 **개방형 표준 인터커넥트(Open Standard Interconnect)** 규격이다.
+> 2. **가치**: 단일 Monolithic Die(단일 다이) 방식의 수율 저하(Yield Drop) 및 비용 상승 문제를 극복하여, '칩렛(Chiplet) 경제성'을 실현하고 설계 유연성을 극대화하며 시장 출시 기간(Time-to-Market)을 단축한다.
+> 3. **융합**: 고대역폭 메모리(HBM)와 같은 2.5D/3D 패키징 기술 및 CXL(Compute Express Link) 프로토콜과 융합하여 '시스템 온 패키지(System-on-Package, SoP)' 패러다임의 표준 인터페이스로 자리 잡는다.
 
-## Ⅰ. 개요 (Context & Background)
-UCIe (Universal Chiplet Interconnect Express)는 차세대 가속기 및 AI 반도체 (Accelerators & AI Hardware) 영역에서 반복적으로 출제되고 실무에서도 자주 맞닥뜨리는 기본 축이다. 단순 정의 암기에 머무르면 개념 간 경계가 흐려지므로, 먼저 이 개념이 해결하려는 문제와 도입 배경을 잡아야 한다. "UCIe (Universal Chiplet Interconnect Express)"라는 설명이 붙는 이유는 개념의 범위를 좁혀 오해를 줄이기 위해서이며, 기술사 답안에서는 정의, 등장 배경, 핵심 목적을 한 묶음으로 서술하는 편이 안정적이다.
+---
 
-실무에서는 이 개념이 단독으로 존재하지 않고 상위 아키텍처, 정책, 데이터 흐름, 성능 제약과 함께 작동한다. 따라서 개념 자체의 모양보다 입력, 처리, 출력, 예외 조건을 같이 보는 습관이 중요하다. 시험 답안에서도 "무엇인가"만 적지 말고 "왜 필요한가, 어떤 상황에서 선택하는가"를 연결해야 점수가 산다.
+### Ⅰ. 개요 (Context & Background)
 
-📢 섹션 요약 비유: UCIe (Universal Chiplet Interconnect Express)는 복잡한 현장에서 길을 잃지 않도록 붙여 둔 표지판과 같아서, 방향 자체보다 어디로 안내하는지가 더 중요하다.
+#### 1. 기술적 배경 및 정의
+반도체 미세 공정이 3nm, 2nm 수준으로 나아감에 따라 단일 실리콘 웨이퍼(Silicon Wafer) 내에 집적하는 트랜지스터의 수는 천억 개를 넘어섰다. 그러나 다이(Die) 면적이 레티클 한계(Reticle Limit, 약 800mm²)에 근접함에 따라, 단일 칩 제조 시 수율(Yield)이 기하급수적으로 하락하고 광학 노광 공정의 난이도가 상승하는 물리적·경제적 한계에 직면했다. 이를 해결하기 위해 하나의 큰 칩을 기능별로 분리하여 제작한 후 패키지 내에서 결합하는 '칩렛(Chiplet)' 기술이 대두되었으나, 업체별로 상이한 인터페이스로 인해 호환성이 보장되지 않았다. 이에 인텔(Intel), AMD, ARM, TSMC, 삼성전자 등 반도체 산업 생태계 전반이 참여하여 만든 표준이 바로 UCIe이다.
 
-## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
-UCIe (Universal Chiplet Interconnect Express)를 구조적으로 이해하려면 구성 요소, 처리 단계, 핵심 지표를 나눠서 보는 것이 좋다. 아래 표는 기술사 답안에서 바로 활용할 수 있는 최소 프레임이다.
+#### 2. 기술적 필요성
+- **비용 효율성**: 로직(Logic) 소자는 최신 미세 공정(예: 3nm)을 사용하고, 아날로그/RF/I/O 소자는 저비용의 성숙된 공정(예: 14nm/28nm)을 사용하여 공정별 최적화(Cost-Optimized)를 달성한다.
+- **설계 재사용**: 한 번 설계하고 검증된 칩렛을 다른 제품군에도 재사용(Reuse)하여 설계 비용(NRE: Non-Recurring Engineering)을 절감한다.
+- **성능 극복**: 온칩(On-chip) 버스에 준하는 초고대역폭과 초저지연(Low Latency) 통신을 패키지 수준에서 구현한다.
 
-| 구성 요소 | 역할 | 기술사 포인트 | 실무 관찰 포인트 | 비유 |
-|:---|:---|:---|:---|:---|
-| 입력 조건 | 개념이 작동하기 위한 전제 | 적용 범위와 제약 확인 | 데이터 품질, 선행 조건 | 출발선 |
-| 핵심 메커니즘 | 실제로 동작하는 내부 원리 | 왜 그런 결과가 나오는지 설명 | 병목, 복잡도, 예외 처리 | 엔진 |
-| 출력/효과 | 결과물과 기대 성과 | 정량/정성 효과 정리 | KPI, SLA, 정확도, 비용 | 도착 지점 |
-| 운영 통제 | 장애 및 리스크 완화 | 안티패턴과 보완책 | 모니터링, 롤백, 검증 | 안전 장치 |
-| 확장 요소 | 상위 기술과의 연결 | 융합 포인트 제시 | 자동화, 표준화, 최적화 | 확장 레일 |
+💡 **비유**: 레고 블록 조립과 같습니다. 서로 다른 모양과 색깔(기능과 공정)의 블록들을 끼워 맞춰 하나의 완성품을 만들려면, 모든 블록의 결합 돌기 인터페이스가 표준화되어 있어야 합니다. UCIe는 바로 그 '만능 연결 돌기' 역할을 합니다.
 
-UCIe (Universal Chiplet Interconnect Express)의 일반적인 동작 흐름을 ASCII로 정리하면 다음과 같다.
+#### 3. 진화 흐름 (ASCII Diagram)
+단일 칩 설계의 한계를 극복하기 위한 패키징 기술의 진화 과정은 다음과 같다.
 
-```text
-[요구사항/입력]
-      |
-      v
-[핵심 판단 규칙]
-      |
-      v
-[처리 메커니즘]
-      |
-      +--> [예외/제약 조건 점검]
-      |
-      v
-[결과 산출 및 운영 피드백]
+```
++----------------------+      +-----------------------+      +-----------------------+
+| [ SoC Era ]           |      | [ Multi-Chip Module ] |      | [ Chiplet Era (UCIe) ]|
+| Monolithic Die        |      | 2.5D Package          |      | Disaggregated Die     |
++----------------------+      +-----------------------+      +-----------------------+
+| +------------------+  |      | +----+  +----+        |      | +----+  +----+  +----+ |
+| | Logic / Mem / I/O|  |      | |Die1|->|Die2| (Prop.)|      | |CPU |->|Mem |->|I/O | |
+| | (Single Process) |  |      | +----+  +----+  Link  |      | |Std|  |Std|  |Std | |
+| +------------------+  |      | (Wide Bus / Limited) |      | +----+  +----+  +----+ |
+| * Reticle Limit    |  |      | * Silicon Interposer |      | * Standard Interface |
+| * Low Yield (Big)  |  |      | * High Cost          |      | * Eco System / Flex  |
++----------------------+      +-----------------------+      +-----------------------+
+```
+*Prop.: Proprietary (사설 규격), Std.: Standard (표준 규격)*
+
+**[다이어그램 해설]**
+기존 SoC(System on Chip) 방식은 하나의 다이에 모든 것을 통합하여 크기가 커질수록 수율이 급격히 떨어지는 문제가 있었다. 이를 해결하기 위해 2.5D 패키징이 등장했으나, 당시에는 각 제조사마다 독자적인 연결 방식을 사용하여 호환이 불가능했다. UCIe는 이러한 칩렛 간 연결을 USB와 같은 표준으로 정의하여, 누구나 만든 칩렛을 조립하여 사용할 수 있는 생태계를 구축한다.
+
+📢 **섹션 요약 비유**: 서로 다른 전자제품들을 USB 포트라는 표준으로 연결하여 PC를 확장하듯, 반도체 설계에도 '범용 연결 포트'를 도입하여 필요한 부품만 꽂아 사용하는 '반도체 모듈화 시대'를 여는 열쇠입니다.
+
+---
+
+### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
+
+UCIe 표준은 OSI 7계층 모델과 유사하게 계층적(Layered) 아키텍처를 따르며, 크게 **PHY (Physical Layer)**, **D2D (Die-to-Die Adapter)**, **Protocol Layer**의 세 계층과 이를 지원하는 부가 기능으로 구성된다.
+
+#### 1. 주요 구성 요소 상세 분석
+
+| 구성 요소 (Component) | 역할 (Role) | 내부 동작 및 특이사항 (Internal Operations) | 프로토콜/표준 | 비유 (Analogy) |
+|:---:|:---|:---|:---:|:---|
+| **PHY (Physical Layer)** | 물리적 신호 전송 및 수신 | - **전송 매체**: Standard(Standard Package)와 Advanced(Interposer/Bridge) 모드 지원<br>- **데이터 레이트**: 20~40 Gbps/lane 이상 지원<br>- **회로**: Lin(Linear) 드라이버와 고감도 수신기 사용 | UCIe PHY Spec | 전기 신호가 흐르는 구리선 |
+| **D2D Adapter** | Die 간 데이터 포맷 변환 및 흐름 제어 | - **프로토콜 변환**: Flit(Flow Control Unit) 단위 변환<br>- **CRC/ECC**: 데이터 무결성 검사 및 오류 정정<br>- **Link 파라미터 협상**: 폭, 속도, Lane 구성 협상 | UCIe D2D Spec | 통신 언어 변환기/번역기 |
+| **Protocol Layer** | 상위 계층 프로토콜 처리 | - **지원 프로토콜**: PCIe (Peripheral Component Interconnect Express), CXL (Compute Express Link), RAW(Streaming)<br>- **Flit 기반 전송**: 고정 길이 패킷 단위로 처리하여 헤더 오버헤드 최소화 | PCIe/CXL | 사용자가 보내는 데이터 패킷 |
+| **Sideband Signals** | 제어 및 상태 모니터링 | - **JTAG (Joint Test Action Group)** 기반 디버깅<br>- **전력 관리**: 상대방 Die의 전력 상태 확인 및 웨이크업 신호 | MIPI I3C | 데이터 옆에 있는 관리용 전화선 |
+| **Clocking** | 동기화 | - **가변 클럭**: Forwarded Clock 및 Common Clock 모드 지원을 통한 유연한 동기화 | IEEE 1596 | 모든 움직임을 맞추는 초침 |
+
+#### 2. UCIe 계층별 데이터 흐름 및 구조 (ASCII Diagram)
+UCIe는 기존 PCIe/CXL 프로토콜을 그대로 사용할 수 있도록 설계되어 있어, 소프트웨어 스택의 변경 없이 하드웨어 물리 계층만 교체하여 성능을 끌어올릴 수 있다.
+
+```
++--------------------------------------------------------------------------+
+| [ Die A : Complex SoC ]                                       [ Die B ]   |
+|                                                                          |
+| +---------------------------+        +---------------------+             |
+| |  Protocol Layer           |        | Protocol Layer     |             |
+| | (PCIe / CXL / Streaming)  | <----> | (PCIe / CXL / Raw) |             |
+| |  Transaction Layer (TLX)  |        |                     |             |
+| +---------------------------+        +---------------------+             |
+|          |  TLP/FLIT                         ^  |                         |
+|          v                                   |  v                         |
+| +---------------------------+        +---------------------+             |
+| |  D2D Adapter              |        | D2D Adapter        |             |
+| | (CRC, Retry, Credit Ctrl)| <----> | (Virtual Channel)  |             |
+| |  - Link Training          |        |  - Link Equalization|             |
+| +---------------------------+        +---------------------+             |
+|          |  Raw Data / Symbol             |  |                         |
+|          v                                |  v                         |
+| +---------------------------+        +---------------------+             |
+| |  PHY (Physical)           | <----> | PHY (Physical)      |             |
+| |  - Lane 0~N (Diff. Pair)  |        |  - Lane 0~N         |             |
+| |  - 128b/132b Encoding     |        |                     |             |
+| +---------------------------+        +---------------------+             |
+|          |________________[ Advanced Package Tech ]_________|            |
+|          (Organic Substrate or Silicon Interposer)                      |
++--------------------------------------------------------------------------+
 ```
 
-이 흐름의 핵심은 입력을 바로 결과로 연결하지 않고 중간에 판단 규칙과 통제 지점을 둔다는 점이다. 기술사는 여기서 "어떤 조건에서 성능이 악화되는가", "어떤 경우 결과가 왜곡되는가", "운영 중에는 무엇을 관찰해야 하는가"를 붙여 설명해야 한다. 필요한 경우 시간 복잡도, 비용 구조, 정확도, 일관성, 가용성 같은 지표를 함께 제시하면 답안의 밀도가 높아진다.
+**[다이어그램 해설]**
+1. **Protocol 계층**: 기존 x86 CPU나 GPU에서 사용하던 PCIe나 CXL 프로토콜 스택을 변경 없이 사용할 수 있어 호환성이 극대화된다. 이는 기존 소프트웨어 에코시스템을 그대로 계승할 수 있음을 의미한다.
+2. **D2D Adapter**: 다이 간의 신뢰성 있는 전송을 위해 64비트 또는 256비트 단위의 Flit으로 데이터를 쪼개고, CRC(Cyclic Redundancy Check) 오류 검출 코드를 붙인다. 또한, 크레딧(Credit) 기반 흐름 제어를 통해 수신측 버퍼 오버플로우를 방지한다.
+3. **PHY 계층**: 패키지의 종류에 따라 유기적 기판(Organic Substrate) 위에 직접 실장되는 Standard 모드와 실리콘 인터포저(Silicon Interposer)를 통하는 Advanced 모드로 나뉜다. Advanced 모드에서는 좁은 피치(Fine Pitch)의 미세 범프(Micro-bump)를 사용해 전송 속도와 대역폭을 비약적으로 높인다.
 
-```text
-의사코드:
-1. 요구사항과 전제 조건을 식별한다.
-2. UCIe (Universal Chiplet Interconnect Express)의 핵심 규칙으로 처리한다.
-3. 제약 조건과 예외를 점검한다.
-4. 결과를 검증하고 운영 지표로 환류한다.
+#### 3. 핵심 알고리즘 및 동작 메커니즘 (Credit-Based Flow Control)
+UCIe는 플릿(Flit) 기반의 크레딧 기반 흐름 제어(Credit-Based Flow Control)를 사용한다.
+
+```c
+// [Pseudo-code: Credit-Based Flow Control in D2D Adapter]
+// 송신측(Sender) 로직
+void send_flit(Flit* data) {
+    while (tx_credits[target_vc] == 0) {
+        wait_for_credit_update(); // 수신측 버퍼에 공간이 생길 때까지 대기
+    }
+    tx_credits[target_vc]--;      // 크레딧 소진
+    transmit_phy(data);           // 물리 계층으로 전송
+}
+
+// 수신측(Receiver) 로직
+void receive_flit(Flit* data) {
+    buffer_push(data);            // 버퍼에 저장
+    update_rx_credits();          // 송신측으로 Credit 반환 신호 전송
+}
 ```
+위 메커니즘을 통해 패키지 내부라 할지라도 네트워크 상의 패킷 손실이나 오버플로우 없는 **신뢰성 있는 전송(Reliable Transport)**을 보장한다. 또한, **Lane Reversal** 기능을 포함하여 칩을 거꾸로 실장하더라도 신호선을 자동으로 매핑하여 조립 불량을 방지한다.
 
-📢 섹션 요약 비유: UCIe (Universal Chiplet Interconnect Express)는 단순 버튼이 아니라 입력을 해석하고 결과를 조정하는 제어판에 가깝다.
+📢 **섹션 요약 비유**: 건물의 각 층(프로토콜)이 사용하는 언어가 다르더라도, 그 사이에 **동시통역기(D2D Adapter)**와 **고속 화물 엘리베이터(PHY)**가 설치되어 있어, 마치 한 건물 안에서 원활하게 업무가 처리되는 것과 같은 구조입니다.
 
-## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
-개념을 더 선명하게 만들려면 유사 개념과의 경계를 비교해야 한다. 특히 시험에서는 장점만 적기보다 적용 조건과 트레이드오프를 병행 서술하는 답안이 강하다.
+---
 
-| 비교 축 | UCIe (Universal Chiplet Interconnect Express) | 대안/인접 개념 | 판단 기준 |
-|:---|:---|:---|:---|
-| 목적 | 핵심 기능을 안정적으로 수행 | 비슷하지만 초점이 다름 | 문제 유형 적합성 |
-| 성능 | 상황에 따라 최적점이 달라짐 | 단순하지만 한계 존재 | 지연시간, 처리량, 비용 |
-| 운영성 | 통제 체계가 중요 | 구현은 쉬워도 유지보수 부담 가능 | 자동화, 가시성, 표준화 |
-| 위험 | 과신하면 오용 가능 | 보수적이지만 비효율 가능 | 보안, 장애, 복잡도 |
+### Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
-또한 UCIe (Universal Chiplet Interconnect Express)는 차세대 가속기 및 AI 반도체 (Accelerators & AI Hardware) 내부의 다른 개념들과 결합될 때 더 큰 가치를 낸다. 상위 아키텍처와 연결하면 설계 원리로 해석되고, 데이터나 보안 관점과 결합하면 운영 정책으로 해석된다. 즉 이 개념은 독립 지식이 아니라 연결 지점이다.
+UCIe는 기존의 칩 간 연결 기술인 PCIe, NVLink, SerDes 기술과 물리적 위치와 목적에서 명확히 구분된다.
 
-📢 섹션 요약 비유: UCIe (Universal Chiplet Interconnect Express)는 혼자 빛나는 공구라기보다 다른 도구와 함께 써야 제 성능이 나는 조립 키트와 같다.
+#### 1. 심층 기술 비교 분석표
 
-## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
-실무에서는 UCIe (Universal Chiplet Interconnect Express)를 무조건 도입하는 것이 아니라 조건에 맞춰 선택해야 한다. 대표적인 판단 포인트는 다음과 같다.
+| 비교 항목 | On-Chip Bus (내부 버스) | On-Board (PCIe Gen5/x16) | UCIe (Advanced Package) |
+|:---:|:---:|:---:|:---:|
+| **물리적 거리** | < 20 mm | ~ 10 cm | < 2 mm (Interposer) |
+| **대역폭 (Bandwidth)** | 1 ~ 10 TB/s | ~ 64 GB/s | 1 ~ 2 TB/s (초기) |
+| **전력 효율 (pJ/bit)** | 0.1 ~ 0.5 | 10 ~ 20 (High) | < 0.5 (Low) |
+| **지연 시간 (Latency)** | < 5 ns | 50 ~ 100 ns | 5 ~ 10 ns |
+| **연결 대상** | Cores on Same Die | GPU/CPU on Motherboard | Logic Die + Memory/AI Die |
+| **확장성** | 불가능 (Fixed) | 모듈 교체 가능 | 칩렛 교체 및 확장 용이 |
 
-1. 요구사항이 속도 우선인지, 정확성 우선인지 구분한다.
-2. 설계 복잡도 증가가 운영 효율 개선보다 큰지 비교한다.
-3. 장애 발생 시 우회 경로와 롤백 수단이 있는지 확인한다.
+#### 2. 과목 융합 관점 분석
+**[A. 반도체 공정 및 패키징 (Process & Packaging)]**
+UCIe는 TSMC의 **SoIC (System on Integrated Chips)**, 삼성의 **X-Cube**, 인텔의 **Foveros**와 같은 3D 적층 기술의 데이터 고속도로 역할을 한다. 하이브리드 본딩(Hybrid Bonding) 기술과 결합할 경우, 범프(Bump) 없이 구리(Cu) 대 구리 직접 접합을 통해 UCIe의 PHY 계층을 더욱 얇고 빠르게 구현할 수 있다.
 
-도입 체크리스트를 정리하면 아래와 같다.
-
-| 점검 항목 | 확인 질문 | 권장 판단 |
-|:---|:---|:---|
-| 기술 적합성 | 현재 문제를 실제로 줄이는가 | 과대 설계 방지 |
-| 운영 준비도 | 모니터링과 장애 대응 체계가 있는가 | 운영 자동화 우선 |
-| 데이터/입력 품질 | 전제 조건이 안정적인가 | 품질 검증 선행 |
-| 보안/통제 | 악용 또는 오작동 시 영향이 큰가 | 최소 권한과 검증 추가 |
-
-안티패턴도 분명하다. 개념의 명칭만 알고 세부 제약을 무시하면 구조는 그럴듯해 보여도 실제 운영에서 병목과 장애가 드러난다. 기술사 답안에서는 "도입 효과" 못지않게 "오용 시 문제"를 짚어야 설계형 답안으로 보인다.
-
-📢 섹션 요약 비유: UCIe (Universal Chiplet Interconnect Express)는 만능 열쇠가 아니라 맞는 문에만 써야 하는 정밀 키와 같다.
-
-## Ⅴ. 기대효과 및 결론 (Future & Standard)
-UCIe (Universal Chiplet Interconnect Express)를 올바르게 이해하면 개념 암기를 넘어 설계 판단의 기준점이 생긴다. 단기적으로는 용어 정의, 비교 문제, 사례형 답안 대응력이 높아지고, 장기적으로는 상위 주제와 연결되는 사고력이 생긴다. 특히 차세대 가속기 및 AI 반도체 (Accelerators & AI Hardware)처럼 범위가 넓은 영역일수록 개별 키워드를 구조와 정책의 언어로 재해석하는 힘이 중요하다.
-
-| 기대효과 | 설명 |
-|:---|:---|
-| 답안 품질 향상 | 정의-원리-비교-적용의 흐름을 안정적으로 구성 |
-| 실무 판단력 향상 | 기술 선택의 조건과 한계를 함께 이해 |
-| 확장성 확보 | 인접 개념과 연결해 응용 가능 |
-
-향후에는 자동화, AI 보조 설계, 클라우드 네이티브 운영, 규제 대응 같은 흐름과 결합해 UCIe (Universal Chiplet Interconnect Express)의 해석 범위가 더 넓어질 가능성이 크다. 따라서 최신 구현체나 표준 이름보다 원리와 판단 기준을 중심에 두고 학습하는 편이 오래 간다.
-
-📢 섹션 요약 비유: UCIe (Universal Chiplet Interconnect Express)는 시험 한 문제를 맞히기 위한 단답 카드가 아니라, 다양한 상황에 재사용되는 설계 사고의 템플릿이다.
-
-### 📌 관련 개념 맵
-| 관련 개념 | 관계 및 시너지 설명 |
-|:---|:---|
-| UCIe (Universal Chiplet Interconnect Express) | 현재 학습 대상인 핵심 개념 |
-| 차세대 가속기 및 AI 반도체 (Accelerators & AI Hardware) | 개념이 속한 상위 도메인 |
-| 입력 조건 | 개념의 적용 범위를 결정하는 전제 |
-| 운영 통제 | 실무 적용 시 실패 확률을 줄이는 장치 |
-| 비교 대상 | 장단점과 선택 기준을 분명히 해 주는 기준선 |
-
-### 👶 어린이를 위한 3줄 비유 설명
-1. UCIe (Universal Chiplet Interconnect Express)는 어려운 일을 쉽게 해 주는 규칙 상자라고 보면 된다.
-2. 그냥 이름만 아는 것보다 언제 쓰고 언제 쓰면 안 되는지를 아는 게 더 중요하다.
-3. 그래서 이 개념은 외워 두는 낱말이 아니라 문제를 풀 때 꺼내 쓰는 도구다.
+**[B. 시스템 아키텍처 및 메모리 (System Arch & Memory)]**
+CPU와 고대역폭 메모리(HBM) 사이의 병목을 해소한다. 기존에는 DRAM 컨트롤러가 CPU 다이 내부에 위치해야 했으나, UCIe를 통해 메모리 칩렛을 CPU 다이 옆에 붙이는 **메모리 디스아그리거이션(Memory Disaggregation)**이 가능해져

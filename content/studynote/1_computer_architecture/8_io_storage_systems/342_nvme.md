@@ -1,124 +1,170 @@
 +++
-title = "342. NVMe (Non-Volatile Memory Express)"
-date = "2026-03-17"
+title = "NVMe (Non-Volatile Memory Express)"
+date = "2026-03-14"
 weight = 342
-[extra]
-subject = "1: 컴퓨터 구조 (Computer Architecture)"
-section = "입출력 및 스토리지 시스템 (I/O & Storage Systems)"
-keyword = "NVMe_Non_Volatile_Memory_Express"
 +++
 
 # NVMe (Non-Volatile Memory Express)
 
 ## 핵심 인사이트 (3줄 요약)
-> 1. **본질**: NVMe (Non-Volatile Memory Express)는 "NVMe (Non-Volatile Memory Express)"라는 맥락에서 이해해야 하는 핵심 개념으로, 정의 자체보다 왜 필요한지와 어디에 쓰이는지를 함께 봐야 한다.
-> 2. **가치**: 기술사 관점에서는 구조, 성능, 운영성, 위험 통제라는 네 축으로 해석해야 실제 설계 판단에 도움이 된다.
-> 3. **융합**: 입출력 및 스토리지 시스템 (I/O & Storage Systems) 내부의 인접 개념들과 연결해서 보면 암기용 키워드가 아니라 설계 의사결정을 돕는 실전 지식으로 전환된다.
+> **1. 본질**: **NVMe (Non-Volatile Memory Express)**는 낸드 플래시(NAND Flash) 기반 스토리지의 고속 처리를 위해 **PCIe (Peripheral Component Interconnect Express)** 버스를 직접 제어하도록 설계된 호스트 컨트롤러 인터페이스 규격입니다.
+> **2. 가치**: 기존 **AHCI (Advanced Host Controller Interface)**의 병목을 제거하여 최대 64,000개의 큐(Queue)와 64,000개의 깊이를 통해 초저지연(Latency)과 초고속 IOPS(Input/Output Operations Per Second)를 실현합니다.
+> **3. 융합**: OS/네트워크 스택의 오버헤드를 획기적으로 줄여 클라우드, AI, 빅데이터 분산 처리 환경에서 스토리지 성능을 극대화하는 핵심 인프라 기술입니다.
+
+---
 
 ## Ⅰ. 개요 (Context & Background)
-NVMe (Non-Volatile Memory Express)는 입출력 및 스토리지 시스템 (I/O & Storage Systems) 영역에서 반복적으로 출제되고 실무에서도 자주 맞닥뜨리는 기본 축이다. 단순 정의 암기에 머무르면 개념 간 경계가 흐려지므로, 먼저 이 개념이 해결하려는 문제와 도입 배경을 잡아야 한다. "NVMe (Non-Volatile Memory Express)"라는 설명이 붙는 이유는 개념의 범위를 좁혀 오해를 줄이기 위해서이며, 기술사 답안에서는 정의, 등장 배경, 핵심 목적을 한 묶음으로 서술하는 편이 안정적이다.
 
-실무에서는 이 개념이 단독으로 존재하지 않고 상위 아키텍처, 정책, 데이터 흐름, 성능 제약과 함께 작동한다. 따라서 개념 자체의 모양보다 입력, 처리, 출력, 예외 조건을 같이 보는 습관이 중요하다. 시험 답안에서도 "무엇인가"만 적지 말고 "왜 필요한가, 어떤 상황에서 선택하는가"를 연결해야 점수가 산다.
+### 1. 기술적 정의와 철학
+**NVMe (Non-Volatile Memory Express)**는 SATA나 SAS 같은 레거시 버스 프로토콜 위에서 동작하던 스토리지 계층을 혁신하기 위해, 하드웨어 수준에서부터 완전히 재설계된 스토리지 프로토콜입니다.
+기존 하드 디스크(HDD)를 위해 설계된 회전형(Rotational) 매체의 제약에서 벗어나, 전기적으로만 데이터를 저장하는 **NVM (Non-Volatile Memory)**, 특히 **NAND Flash**의 병렬성(Parallelism)을 극한까지 끌어올리는 것을 설계 철학으로 합니다. **CPU (Central Processing Unit)**와 스토리지 간의 통신 경로를 단순화하여 명령어 당 사이클(Cycles per Command)을 최소화하는 데 중점을 두었습니다.
 
-📢 섹션 요약 비유: NVMe (Non-Volatile Memory Express)는 복잡한 현장에서 길을 잃지 않도록 붙여 둔 표지판과 같아서, 방향 자체보다 어디로 안내하는지가 더 중요하다.
+### 2. 등장 배경: SATA/AHCI의 한계와 PCIe의 등장
+2000년대 후반 이후 SSD 성능은 급격히 향상되었으나, 이를 제어하는 소프트웨어 인터페이스인 **AHCI (Advanced Host Controller Interface)**는 HDD 시절에 만들어진 구조에 머물러 있었습니다. AHCI는 단일 코어 프로세서와 느린 미디어를 전제로 설계되어 다음과 같은 치명적인 병목이 있었습니다.
+
+1.  **단일 큐(Single Queue) 구조**: 하나의 명령어 큐를 통해 모든 I/O를 직렬(Serial) 처리하여, 멀티 코어 CPU의 성능을 활용하지 못함.
+2.  **높은 레거시 오버헤드**: 불필요한 레지스터 쓰기 및 인터럽트 방식이 잦음.
+
+반면, **PCIe (Peripheral Component Interconnect Express)**는 고대역폭과 낮은 지연 시간을 제공하는 직렬 인터페이스로, CPU와의 직접 연결(DMA)이 가능합니다. NVMe는 이 PCIe의 물리적 특성을 100% 활용하기 위해 탄생했습니다.
+
+```ascii
++---------------------+          +----------------------+          +---------------------+
+|      Application    |          |      Legacy Stack    |          |      Modern Stack   |
++---------------------+          +----------------------+          +---------------------+
+|      File System    |          | File System (NTFS)   |          | File System (ext4) |
++---------------------+          +----------------------+          +---------------------+
+|      Block Layer    |          | AHCI Driver (High    |          | NVMe Driver (Opt.)  |
+| (I/O Scheduler)     |  <--->   | Overhead, 1 Queue)   |    <->    | (Multi-Queue, Low   |
++---------------------+          +----------------------+   CPU    |  Overhead)          |
+|      Driver         |          | SATA Controller (3   |   Direct |      PCIe Bus       |
++---------------------+          | Gbps Limit)          |  Access  +---------------------+
+            |                      +----------------------+          |      NVMe Ctrl     |
+            v                             |                         +---------------------+
+      +---------+                    +---------+                   +-------------------+
+      |   HDD   |                    |   SSD   |                   |      NVMe SSD     |
+      +---------+                    +---------+                   +-------------------+
+      (Slow Media)                (Fast Media,                   (Fast Media, Opt.
+                                 Bottlenecked Logic)             Logic)
+```
+*도해: AHCI 스택과 NVMe 스택의 구조적 차이. AHCI는 스택 내에서 병목이 발생하지만, NVMe는 CPU가 PCIe를 통해 NVMe 컨트롤러를 직접 제어합니다.*
+
+> 📢 **섹션 요약 비유:**
+> 기존 AHCI 방식은 'F1 레이싱카(SSD)'를 '시내버스 전용 차선(SATA/AHCI)'에 넣고 운전한 것과 같습니다. 아무차 차가 빨라도 차로가 좁고 신호 체계가 복잡하면 속도를 낼 수 없습니다. NVMe는 이 레이싱카를 위해 '고속도로(PCIe)'를 깔고, 운전자(CPU)가 핸들을 직접 조작할 수 있도록 설계한 '전용 서킷'과 같습니다.
+
+---
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
-NVMe (Non-Volatile Memory Express)를 구조적으로 이해하려면 구성 요소, 처리 단계, 핵심 지표를 나눠서 보는 것이 좋다. 아래 표는 기술사 답안에서 바로 활용할 수 있는 최소 프레임이다.
 
-| 구성 요소 | 역할 | 기술사 포인트 | 실무 관찰 포인트 | 비유 |
+### 1. 아키텍처 구성 요소
+NVMe 아키텍처는 크게 호스트(Host) 메모리에 존재하는 큐 시스템과 이를 제어하는 컨트롤러(Controller)로 나뉩니다.
+
+| 구성 요소 (Component) | 전체 명칭 (Full Name) | 역할 및 내부 동작 | 프로토콜/특징 | 비유 |
 |:---|:---|:---|:---|:---|
-| 입력 조건 | 개념이 작동하기 위한 전제 | 적용 범위와 제약 확인 | 데이터 품질, 선행 조건 | 출발선 |
-| 핵심 메커니즘 | 실제로 동작하는 내부 원리 | 왜 그런 결과가 나오는지 설명 | 병목, 복잡도, 예외 처리 | 엔진 |
-| 출력/효과 | 결과물과 기대 성과 | 정량/정성 효과 정리 | KPI, SLA, 정확도, 비용 | 도착 지점 |
-| 운영 통제 | 장애 및 리스크 완화 | 안티패턴과 보완책 | 모니터링, 롤백, 검증 | 안전 장치 |
-| 확장 요소 | 상위 기술과의 연결 | 융합 포인트 제시 | 자동화, 표준화, 최적화 | 확장 레일 |
+| **Submission Queue** | SQ (Submission Queue) | 호스트가 컨트롤러에게 명령어를 전달하는 링 버퍼(Ring Buffer) | Tail Pointer 업데이트 (Doorbell Register) | 주문서 적는 표 |
+| **Completion Queue** | CQ (Completion Queue) | 컨트롤러가 명령어 처리 결과를 호스트에게 알리는 링 버퍼 | Head Pointer 업데이트 (Interrupt) | 완성된 요리 나오는 표 |
+| **Admin Queue** | Admin Queue | 시스템 부트 시 컨트롤러 설정, 네임스페이스 생성 등 관리 작업 전용 | Queue ID 0번, 1쌍 고정 | 관리자 전용 채널 |
+| **Namespace** | NVMe Namespace | 논리적 볼륨. 하나의 물리적 NVMe 장치는 여러 개의 네임스페이스로 나뉠 수 있음 | LBA (Logical Block Address) 기반 | 파티션 |
+| **PRP / SGL** | PRP (Physical Region Page) / SGL (Scatter Gather List) | 데이터가 분산된 물리적 메모리 주소를 연결하여 연속적인 데이터처럼 전송 | DMA (Direct Memory Access) | 단색 조각 모자이크 |
 
-NVMe (Non-Volatile Memory Express)의 일반적인 동작 흐름을 ASCII로 정리하면 다음과 같다.
+### 2. 다중 큐(Multi-Queue) 동작 메커니즘
+NVMe의 성능 핵심은 **MSI-X (Message Signaled Interrupts Extended)** 기반의 멀티큐 구조입니다. 각 CPU 코어는 독립적인 SQ와 CQ 쌍을 가지며, 인터럽트 벡터를 분리(Split)하여 경합(Contention)을 제거합니다.
 
-```text
-[요구사항/입력]
-      |
-      v
-[핵심 판단 규칙]
-      |
-      v
-[처리 메커니즘]
-      |
-      +--> [예외/제약 조건 점검]
-      |
-      v
-[결과 산출 및 운영 피드백]
+**동작 과정 (Step-by-Step)**:
+1.  **명령어 발행**: App이 I/O 요청을 하면, 해당 프로세스가 실행 중인 CPU 코어의 전용 SQ(SQn)에 명령어(Command Entry)를写入합니다.
+2.  **도어벨(Doorbell) Ringing**: 호스트는 컨트롤러의 레지스터에 '새로운 명령이 있음'을 알리기 위해 킥킥(Kick)을 수행합니다. (MMIO 방식, 메모리 매핑된 I/O)
+3.  **DMA 전송**: NVMe 컨트롤러는 SQ를 확인하고, 명령어에 포함된 메모리 주소(PRP)를 참조하여 **DMA (Direct Memory Access)**를 통해 직접 데이터를 전송합니다. 이 과정에서 CPU 개입은 없습니다.
+4.  **완료 인터럽트**: 전송이 완료되면, 컨트롤러는 해당 코어의 전용 CQ(CQn)에 상태 정보를 기록하고, 특정 CPU 코어에만 인터럽트를 발생시킵니다.
+
+```ascii
+   [CPU Core 0]            [CPU Core 1]            [CPU Core N]
+        |                        |                        |
+   App Thread A             App Thread B             App Thread Z
+        |                        |                        |
+   +--------+ SQ0/CQ0       +--------+ SQ1/CQ1       +--------+ SQN/CQN
+   | Driver |  ^            | Driver |  ^            | Driver |  ^
+   +--------+  |            +--------+  |            +--------+  |
+      |        | MMIO           |        | MMIO          |        | MMIO
+      |        v                |        v               |        v
+   +-----------------------------------------------------------------------+
+   |                       System RAM (Host Memory)                        |
+   +-----------------------------------------------------------------------+
+              |                         |                        |
+              | PCIe Read/Write Req    | PCIe Read/Write Req  |
+              v                         v                        v
+   +-----------------------------------------------------------------------+
+   |                    NVMe Controller (Hardware)                         |
+   |  [Admin Queue Mgmt] [Arbiter] [DMA Engine] [Controller Core]          |
+   +-----------------------------------------------------------------------+
+              |                                 |
+              | Internal Bus (Toggle/ONFI)      |
+              v                                 v
+   +----------------+                +-------------------+
+   | NAND Package 0 | ... (Parallel) | NAND Package N    |
+   +----------------+                +-------------------+
+```
+*도해: 멀티 코어 환경에서의 NVMe 동작. 각 코어는 독립된 큐를 통해 병렬로 I/O 요청을 처리하며, 컨트롤러는 내부적으로 여러 NAND 다이를 동시에 액세스하여 병렬성을 극대화합니다.*
+
+### 3. 핵심 명령어 세트 및 오버헤드 감소
+NVMe는 AHCI의 복잡한 FIS(Frame Information Structure) 구조를 버리고, 64바이트 고정 크기의 명령어 셋을 사용합니다.
+*   **Get Log Page**: SMART, 건강 상태 정보 조회.
+*   **Identify**: 컨트롤러 및 네임스페이스 속성 확인.
+*   **Read/Write**: 데이터 입출력 (가장 빈번).
+
+```c
+// 구조적 비교 (개념 코드)
+struct NVMe_Command {
+    uint32_t CDW0;       // Opcode - 명령어 종류 (ex: 0x01 for Write)
+    uint32_t NSID;       // Namespace ID - 타겟 네임스페이스
+    uint64_t PRP1;       // Physical Region Page 1 - 데이터 주소 (상위)
+    uint64_t PRP2;       // Physical Region Page 2 - 데이터 주소 (하위/연속)
+    uint32_t Metadata;   // 메타데이터 포인터
+    uint64_t SLBA;       // Starting LBA - 시작 논리 블록 주소
+    uint32_t NLB;        // Number of Logical Blocks - 전송 블록 수 (0-based)
+    // ... 나머지 필드는 예약 또는 제어용으로 사용
+};
+// 메모리에 직접 쓰이는 구조로, 해석 오버헤드가 매우 낮음.
 ```
 
-이 흐름의 핵심은 입력을 바로 결과로 연결하지 않고 중간에 판단 규칙과 통제 지점을 둔다는 점이다. 기술사는 여기서 "어떤 조건에서 성능이 악화되는가", "어떤 경우 결과가 왜곡되는가", "운영 중에는 무엇을 관찰해야 하는가"를 붙여 설명해야 한다. 필요한 경우 시간 복잡도, 비용 구조, 정확도, 일관성, 가용성 같은 지표를 함께 제시하면 답안의 밀도가 높아진다.
+> 📢 **섹션 요약 비유:**
+> 마치 거대한 음식점 본관에 주방장(NVMe Controller)이 있고, 각 테이블(CPU Core)마다 직원(SQ/CQ)이 따로 상주하여 주문서를 전달하는 구조입니다. 기존 방식은 하나의 주문 접수 창구를 통해 모든 주문이 처리되어 혼잡했던 반면, NVMe는 모든 테이블이 동시에 직접 주방에 주문을 넣을 수 있어 대기 시간(Latency)이 사라집니다.
 
-```text
-의사코드:
-1. 요구사항과 전제 조건을 식별한다.
-2. NVMe (Non-Volatile Memory Express)의 핵심 규칙으로 처리한다.
-3. 제약 조건과 예외를 점검한다.
-4. 결과를 검증하고 운영 지표로 환류한다.
-```
-
-📢 섹션 요약 비유: NVMe (Non-Volatile Memory Express)는 단순 버튼이 아니라 입력을 해석하고 결과를 조정하는 제어판에 가깝다.
+---
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
-개념을 더 선명하게 만들려면 유사 개념과의 경계를 비교해야 한다. 특히 시험에서는 장점만 적기보다 적용 조건과 트레이드오프를 병행 서술하는 답안이 강하다.
 
-| 비교 축 | NVMe (Non-Volatile Memory Express) | 대안/인접 개념 | 판단 기준 |
+### 1. 심층 기술 비교: AHCI vs NVMe vs SCSI
+단순한 속도 차이를 넘어, 내부 처리 메커니즘의 정량적 차이를 분석합니다.
+
+| 비교 항목 | AHCI (SATA) | SCSI (SAS) | NVMe (PCIe) |
 |:---|:---|:---|:---|
-| 목적 | 핵심 기능을 안정적으로 수행 | 비슷하지만 초점이 다름 | 문제 유형 적합성 |
-| 성능 | 상황에 따라 최적점이 달라짐 | 단순하지만 한계 존재 | 지연시간, 처리량, 비용 |
-| 운영성 | 통제 체계가 중요 | 구현은 쉬워도 유지보수 부담 가능 | 자동화, 가시성, 표준화 |
-| 위험 | 과신하면 오용 가능 | 보수적이지만 비효율 가능 | 보안, 장애, 복잡도 |
+| **대상 매체** | 회전형 HDD (중심) | 엔터프라이즈 HDD/SSD | NAND Flash (전용) |
+| **명령어 큐** | 1개 (Single) | 256~32,768개 (Deep) | 64K개 (65,536) |
+| **큐 깊이 (Depth)** | 32개 | 254~수천 개 | 64K개 (65,536) |
+| **인터럽트 방식** | Legacy Pin-based | Pin-based / MSI | **MSI-X** (벡터당 독립) |
+| **최대 명령어 처리** | ~32,000 | 수십만 | ~42억 (이론적) |
+| **CPU 오버헤드** | High (레지스터 반복 엑세스) | Medium | **Low** (더블 버퍼링, 문맥 교환 최소화) |
+| **프로토콜 스택 오버헤드** | ~3.5 µs | ~2.5 µs | **<0.5 µs** (단순화) |
 
-또한 NVMe (Non-Volatile Memory Express)는 입출력 및 스토리지 시스템 (I/O & Storage Systems) 내부의 다른 개념들과 결합될 때 더 큰 가치를 낸다. 상위 아키텍처와 연결하면 설계 원리로 해석되고, 데이터나 보안 관점과 결합하면 운영 정책으로 해석된다. 즉 이 개념은 독립 지식이 아니라 연결 지점이다.
+### 2. 타 영역과의 융합 및 시너지 (OS & Network)
+NVMe는 단순한 하드웨어 속도 향상을 넘어 상위 시스템의 변화를 이끌고 있습니다.
 
-📢 섹션 요약 비유: NVMe (Non-Volatile Memory Express)는 혼자 빛나는 공구라기보다 다른 도구와 함께 써야 제 성능이 나는 조립 키트와 같다.
+*   **융합 1: OS Kernel I/O Scheduler 최적화 (블록 레이어)**
+    리눅스 커널은 NVMe의 등장으로 CFQ(Completely Fair Queuing)나 Deadline 스케줄러의 필요성이 줄어들었습니다. NVMe 장치 자체가 내부적으로 우선순위를 처리하고 매우 낮은 지연 시간을 제공하기 때문에, OS는 `noop` 또는 `kyber`와 같은 극히 단순한 스케줄러를 사용하거나 랜덤 I/O 최적화에 집중할 수 있게 되었습니다. 이는 **컨텍스트 스위칭(Context Switching)** 비용을 획기적으로 줄입니다.
 
-## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
-실무에서는 NVMe (Non-Volatile Memory Express)를 무조건 도입하는 것이 아니라 조건에 맞춰 선택해야 한다. 대표적인 판단 포인트는 다음과 같다.
+*   **융합 2: NVMe over Fabrics (NVMe-oF)와 네트워크**
+    NVMe-oF는 로컬 버스의 성능을 네트워크로 확장합니다. RDMA(Remote Direct Memory Access) 기술과 결합하여(TCP, RDMA over Converged Ethernet, Fibre Channel), 네트워크 스택의 커널 바이패스(Kernel Bypass)를 실현합니다. 이로 인해 데이터센터 내에서 스토리지 접근 지연이 로컬 SSD 수준으로 수렴하게 되어, **분산 파일 시스템(Distributed File System)**의 성능 병목을 해소했습니다.
 
-1. 요구사항이 속도 우선인지, 정확성 우선인지 구분한다.
-2. 설계 복잡도 증가가 운영 효율 개선보다 큰지 비교한다.
-3. 장애 발생 시 우회 경로와 롤백 수단이 있는지 확인한다.
-
-도입 체크리스트를 정리하면 아래와 같다.
-
-| 점검 항목 | 확인 질문 | 권장 판단 |
-|:---|:---|:---|
-| 기술 적합성 | 현재 문제를 실제로 줄이는가 | 과대 설계 방지 |
-| 운영 준비도 | 모니터링과 장애 대응 체계가 있는가 | 운영 자동화 우선 |
-| 데이터/입력 품질 | 전제 조건이 안정적인가 | 품질 검증 선행 |
-| 보안/통제 | 악용 또는 오작동 시 영향이 큰가 | 최소 권한과 검증 추가 |
-
-안티패턴도 분명하다. 개념의 명칭만 알고 세부 제약을 무시하면 구조는 그럴듯해 보여도 실제 운영에서 병목과 장애가 드러난다. 기술사 답안에서는 "도입 효과" 못지않게 "오용 시 문제"를 짚어야 설계형 답안으로 보인다.
-
-📢 섹션 요약 비유: NVMe (Non-Volatile Memory Express)는 만능 열쇠가 아니라 맞는 문에만 써야 하는 정밀 키와 같다.
-
-## Ⅴ. 기대효과 및 결론 (Future & Standard)
-NVMe (Non-Volatile Memory Express)를 올바르게 이해하면 개념 암기를 넘어 설계 판단의 기준점이 생긴다. 단기적으로는 용어 정의, 비교 문제, 사례형 답안 대응력이 높아지고, 장기적으로는 상위 주제와 연결되는 사고력이 생긴다. 특히 입출력 및 스토리지 시스템 (I/O & Storage Systems)처럼 범위가 넓은 영역일수록 개별 키워드를 구조와 정책의 언어로 재해석하는 힘이 중요하다.
-
-| 기대효과 | 설명 |
-|:---|:---|
-| 답안 품질 향상 | 정의-원리-비교-적용의 흐름을 안정적으로 구성 |
-| 실무 판단력 향상 | 기술 선택의 조건과 한계를 함께 이해 |
-| 확장성 확보 | 인접 개념과 연결해 응용 가능 |
-
-향후에는 자동화, AI 보조 설계, 클라우드 네이티브 운영, 규제 대응 같은 흐름과 결합해 NVMe (Non-Volatile Memory Express)의 해석 범위가 더 넓어질 가능성이 크다. 따라서 최신 구현체나 표준 이름보다 원리와 판단 기준을 중심에 두고 학습하는 편이 오래 간다.
-
-📢 섹션 요약 비유: NVMe (Non-Volatile Memory Express)는 시험 한 문제를 맞히기 위한 단답 카드가 아니라, 다양한 상황에 재사용되는 설계 사고의 템플릿이다.
-
-### 📌 관련 개념 맵
-| 관련 개념 | 관계 및 시너지 설명 |
-|:---|:---|
-| NVMe (Non-Volatile Memory Express) | 현재 학습 대상인 핵심 개념 |
-| 입출력 및 스토리지 시스템 (I/O & Storage Systems) | 개념이 속한 상위 도메인 |
-| 입력 조건 | 개념의 적용 범위를 결정하는 전제 |
-| 운영 통제 | 실무 적용 시 실패 확률을 줄이는 장치 |
-| 비교 대상 | 장단점과 선택 기준을 분명히 해 주는 기준선 |
-
-### 👶 어린이를 위한 3줄 비유 설명
-1. NVMe (Non-Volatile Memory Express)는 어려운 일을 쉽게 해 주는 규칙 상자라고 보면 된다.
-2. 그냥 이름만 아는 것보다 언제 쓰고 언제 쓰면 안 되는지를 아는 게 더 중요하다.
-3. 그래서 이 개념은 외워 두는 낱말이 아니라 문제를 풀 때 꺼내 쓰는 도구다.
+```ascii
+[CPU] -> [User Space App] -> [System Call] -> [Kernel Space]
+                                                 |
+                            +--------------------+---------------------+
+                            |                    |                     |
+                       [Block Layer]        [Network Stack]       [NVMe Driver]
+                       (I/O Scheduler)      (TCP/IP Overhead)     (Queue Mgmt)
+                            |                    |                     |
+                            v                    v                     v
++------------------+  +--------------+  +----------------+  +-------------------+
+| Local NVMe Drive |  | Remote NVMe-oF |   | Legacy iSCSI/SAN |  | Legacy DAS (SATA) |
++------------------+  +--------------+  +----------------+  +-------------------+
+      Low Latency         Low Latency        High Latency         Medium Latency
+      (PCIe Link)         (RDMA Link)        (TCP

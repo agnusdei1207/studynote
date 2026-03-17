@@ -1,124 +1,149 @@
 +++
-title = "444. NVLink"
-date = "2026-03-17"
+title = "NVLink / NVSwitch"
+date = "2026-03-14"
 weight = 444
-[extra]
-subject = "1: 컴퓨터 구조 (Computer Architecture)"
-section = "차세대 가속기 및 AI 반도체 (Accelerators & AI Hardware)"
-keyword = "NVLink_NVSwitch"
 +++
 
-# NVLink
+# NVLink / NVSwitch
 
 ## 핵심 인사이트 (3줄 요약)
-> 1. **본질**: NVLink는 "NVSwitch"라는 맥락에서 이해해야 하는 핵심 개념으로, 정의 자체보다 왜 필요한지와 어디에 쓰이는지를 함께 봐야 한다.
-> 2. **가치**: 기술사 관점에서는 구조, 성능, 운영성, 위험 통제라는 네 축으로 해석해야 실제 설계 판단에 도움이 된다.
-> 3. **융합**: 차세대 가속기 및 AI 반도체 (Accelerators & AI Hardware) 내부의 인접 개념들과 연결해서 보면 암기용 키워드가 아니라 설계 의사결정을 돕는 실전 지식으로 전환된다.
+> 1. **본질**: NVLink (NVIDIA High-Speed Interconnect)는 GPU 간 병목을 제거하기 위한 초고대역폭·저지연 상호 연결 기술이며, NVSwitch는 이를 망(Fabric) 형태로 확장하여 다수의 GPU를 완전 연결(Full-mesh) 토폴로지로 묶는 고성능 스위칭 아키텍처입니다.
+> 2. **가치**: 기존 PCIe (Peripheral Component Interconnect Express) Gen5 대비 최대 14배 이상의 대역폭을 제공하여, 대규모 AI 모델 학습 시 필수적인 집합 통신(Collective Communication) 성능을 극대화하고 시스템 전체의 MFU (Model FLOPS Utilization)를 획기적으로 개선합니다.
+> 3. **융합**: CPU 중심의 폰 노이만 구조를 넘어, GPU가 직접 메모리를 관리하고 통신하는 가속기 중심 아키텍처(Accelerator-Centric Architecture)의 핵심 기반이며, AI 데이터센터와 HPC (High-Performance Computing) 인프라의 표준으로 자리 잡았습니다.
 
-## Ⅰ. 개요 (Context & Background)
-NVLink는 차세대 가속기 및 AI 반도체 (Accelerators & AI Hardware) 영역에서 반복적으로 출제되고 실무에서도 자주 맞닥뜨리는 기본 축이다. 단순 정의 암기에 머무르면 개념 간 경계가 흐려지므로, 먼저 이 개념이 해결하려는 문제와 도입 배경을 잡아야 한다. "NVSwitch"라는 설명이 붙는 이유는 개념의 범위를 좁혀 오해를 줄이기 위해서이며, 기술사 답안에서는 정의, 등장 배경, 핵심 목적을 한 묶음으로 서술하는 편이 안정적이다.
+---
 
-실무에서는 이 개념이 단독으로 존재하지 않고 상위 아키텍처, 정책, 데이터 흐름, 성능 제약과 함께 작동한다. 따라서 개념 자체의 모양보다 입력, 처리, 출력, 예외 조건을 같이 보는 습관이 중요하다. 시험 답안에서도 "무엇인가"만 적지 말고 "왜 필요한가, 어떤 상황에서 선택하는가"를 연결해야 점수가 산다.
+### Ⅰ. 개요 (Context & Background) - [500자+]
 
-📢 섹션 요약 비유: NVLink는 복잡한 현장에서 길을 잃지 않도록 붙여 둔 표지판과 같아서, 방향 자체보다 어디로 안내하는지가 더 중요하다.
+**개념 및 정의**
+NVLink는 NVIDIA가 개발한 직렬 점대점(Serial Point-to-Point) 상호 연결 기술로, GPU(Graphics Processing Unit) 간, 또는 GPU와 CPU 간의 데이터 병목 현상을 해결하기 위해 설계되었습니다. 기존 범용 인터페이스인 PCIe가 호스트 시스템의 복잡한 계층 구조를 거쳐야 했던 것과 달리, NVLink는 GPU 간 직접적인 데이터 경로를 제공합니다. NVSwitch는 이러한 NVLink 링크들을 집약하여, 최대 18개(Blackwell 아키텍처 기준)의 GPU를 서로 완전 연결된 단일 논리 시스템으로 통합하는 고속 스위칭 패브릭입니다.
 
-## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
-NVLink를 구조적으로 이해하려면 구성 요소, 처리 단계, 핵심 지표를 나눠서 보는 것이 좋다. 아래 표는 기술사 답안에서 바로 활용할 수 있는 최소 프레임이다.
+**💡 기술적 비유**
+마치 도심의 좁은 골목길(PCIe)로 수백 대의 화물차가 오가며 병목을 일으키던 것을, 16차선 초고속 도로(NVLink)와 거대한 입체 교차로(NVSwitch)를 건설하여, 모든 화물차가 신호 대기 없이 직행으로 이동할 수 있게 만든 것과 같습니다.
 
-| 구성 요소 | 역할 | 기술사 포인트 | 실무 관찰 포인트 | 비유 |
+**등장 배경 및 기술적 필요성**
+1.  **PCIe 대역폭의 한계**: 딥러닝 연산량은 피코(FLOPs) 단위로 폭발하지만, 데이터를 이동시키는 인터커넥션 대역폭은 기하급수적으로 증가하지 못했습니다. AI 모델 학습의 90% 이상이 통신 대기 시간(Idle time)으로 소모되는 'Memory Wall' 문제가 심각했습니다.
+2.  **강결합(Fine-grained) 병렬화의 등장**: 거대 언어 모델(LLM)을 학습시키기 위해 텐서 병렬화(Tensor Parallelism)가 필수적이 되었습니다. 이는 연산 중 GPU 간 실시간 데이터 합산(All-Reduce)이 빈번하게 일어나며, PCIe의 수십 마이크로초(µs) 수준 지연 시간은 용납할 수 없는 수준이었습니다.
+3.  **Coherency 일관성**: 이기종 간 통신(CPU-GPU)뿐만 아니라 GPU 간 캐시 일관성(Cache Coherency)을 유지하기 위한 하드웨어적 지원이 필요했습니다.
+
+📢 **섹션 요약 비유**: 각자의 방에 고립되어 인터폰으로 대화하던(CPU 주변장치 방식) 팀원들을, 칸막이를 모두 헐어버린 통합 오픈플랜 사무실(NVLink Unified Memory)로 이주시켜, 말하지 않아도 서로의 화면을 실시간으로 확인하고 협업할 수 있게 한 것입니다.
+
+---
+
+### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive) - [1,000자+]
+
+NVLink와 NVSwitch의 아키텍처는 물리적 계층(Physical Layer)에서 프로토콜, 그상위의 토폴로지까지 고도로 최적화되어 있습니다.
+
+**[구성 요소 상세 분석]**
+| 요소명 | 역할 및 정의 | 내부 동작 메커니즘 | 핵심 프로토콜/지표 | 비유 |
 |:---|:---|:---|:---|:---|
-| 입력 조건 | 개념이 작동하기 위한 전제 | 적용 범위와 제약 확인 | 데이터 품질, 선행 조건 | 출발선 |
-| 핵심 메커니즘 | 실제로 동작하는 내부 원리 | 왜 그런 결과가 나오는지 설명 | 병목, 복잡도, 예외 처리 | 엔진 |
-| 출력/효과 | 결과물과 기대 성과 | 정량/정성 효과 정리 | KPI, SLA, 정확도, 비용 | 도착 지점 |
-| 운영 통제 | 장애 및 리스크 완화 | 안티패턴과 보완책 | 모니터링, 롤백, 검증 | 안전 장치 |
-| 확장 요소 | 상위 기술과의 연결 | 융합 포인트 제시 | 자동화, 표준화, 최적화 | 확장 레일 |
+| **NVLink Controller** | GPU 내부의 호스트 인터페이스 | 데이터 패킷을 송수신하며 Flow Control, CRC(Cyclic Redundancy Check) 오류 수정 수행 | 4th Gen: 50GB/s/lane (H100) | 송수신관제탑 |
+| **NVSwitch Chip** | 비차단(Non-blocking) 교환기 | 12.8Tbps/s 이상의 처리 용량을 가진 Crossbar 스위치로, 모든 포트가 동시에 전대역폭 사용 가능 | Cut-through Routing | 거대 환승 터미널 |
+| **SerDes (Serializer/Deserializer)** | 아날로그 신호 처리 | 병렬 데이터를 고속 직렬 신호로 변환하여 전송선로를 통해 전송 | PAM4 (Pulse Amplitude Modulation) | 고속 광케이블 변환기 |
+| **SMI (Stream Management Interface)** | NVIDIA 네트워크 제어 프로토콜 | In-band 통신을 통해 GPU의 전력, 온도, 성능 메트릭을 원격으로 모니터링 및 제어 | TCP/IP 기반 제어 | 원격 제어 시스템 |
+| **P2P (Peer-to-Peer) DMA** | GPU 간 직접 메모리 접근 | CPU 개입 없이 GPU A가 GPU B의 VRAM에 직접 데이터 쓰기 가능 | Atomic Operations 지원 | 택배사의 물류 허브 직송 |
 
-NVLink의 일반적인 동작 흐름을 ASCII로 정리하면 다음과 같다.
+**[NVLink/NVSwitch 아키텍처 데이터 흐름도]**
+아래 다이어그램은 NVSwitch를 통해 GPU들이 Full-mesh로 연결된 구조를 보여줍니다. 모든 GPU는 스위치를 통해 다른 모든 GPU에 대해 동등한 대역폭을 가집니다.
 
-```text
-[요구사항/입력]
-      |
-      v
-[핵심 판단 규칙]
-      |
-      v
-[처리 메커니즘]
-      |
-      +--> [예외/제약 조건 점검]
-      |
-      v
-[결과 산출 및 운영 피드백]
+```
+     +--------------------- Block 1 ---------------------+
+     |          (NVLink Fabric over NVSwitch)            |
+     |                                                    |
+     |   [GPU 0] <---> [GPU 1] <---> [GPU 2] <---> [GPU 3] |
+     |      |  ^   ^       |  ^   ^       |  ^   ^       |  |
+     |      v  |   |       v  |   |       v  |   |       |  |
+     |   +------------------------------------------------+ |
+     |   |           NVSwitch Complex (NVLink Switch)      | |
+     |   +------------------------------------------------+ |
+     |      ^  |   |       ^  |   |       ^  |   |       |  |
+     |      |  v   |       |  v   |       |  v   |       |  |
+     |   [GPU 4] <---> [GPU 5] <---> [GPU 6] <---> [GPU 7] |
+     |                                                    |
+     +------------------------------------------------------+
+     
+     < Legend >
+     <---> : NVLink Link (100GB/s+ per link, bidirectional)
+       ^|v : Connection points to Switch Fabric
 ```
 
-이 흐름의 핵심은 입력을 바로 결과로 연결하지 않고 중간에 판단 규칙과 통제 지점을 둔다는 점이다. 기술사는 여기서 "어떤 조건에서 성능이 악화되는가", "어떤 경우 결과가 왜곡되는가", "운영 중에는 무엇을 관찰해야 하는가"를 붙여 설명해야 한다. 필요한 경우 시간 복잡도, 비용 구조, 정확도, 일관성, 가용성 같은 지표를 함께 제시하면 답안의 밀도가 높아진다.
+**심층 동작 원리 및 기술**
+1.  **Lane Aggregation (레인 집적화)**:
+    NVLink는 기본적으로 높은 대역폭을 위해 여러 개의 랜(Lane)을 묶어서 사용합니다. 예를 들어, 4세대 NVLink(H100 기준)는 하나의 링크(Link)가 4개의 랜(Lane)으로 구성되며, 각 랜은 25GB/s(GT/s)의 속도를 내어 총 100GB/s의 전이중(Full-duplex) 대역폭을 제공합니다. 하나의 GPU는 보통 18~24개의 NVLink 포트를 가지며, 이를 통해 단일 GPU는 총 900GB/s~1.8TB/s의 탈중앙화된 I/O 성능을 확보합니다.
 
-```text
-의사코드:
-1. 요구사항과 전제 조건을 식별한다.
-2. NVLink의 핵심 규칙으로 처리한다.
-3. 제약 조건과 예외를 점검한다.
-4. 결과를 검증하고 운영 지표로 환류한다.
+2.  **Non-blocking Switching (비차단 스위칭)**:
+    NVSwitch 내부는 크로스바(Crossbar) 구조로 설계되어, 입력 포트가 다른 출력 포트를 사용할 때 경합이 발생하지 않습니다. 즉, GPU 0이 GPU 7에게 데이터를 보내는 동안, GPU 1과 GPU 4도 최대 대역폭으로 통신할 수 있습니다. 이는 `N x (대역폭)`의 총 시스템 대역폭을 보장합니다.
+
+3.  **SHARP (Scalable Hierarchical Aggregation and Reduction Protocol)**:
+    기존 네트워크에서는 데이터가 목적지에 도착해야 연산이 가능했습니다. 하지만 NVSwitch와 InfiniBand 네트워크 등에 탑재된 SHARP 기술은 스위치 내부에서 전송 중인 데이터를 가지고 연산(주로 Reduce, Sum 등)을 수행한 뒤 결과만 전달합니다. 이를 통해 통신 트래픽을 절반으로 줄이고 지연 시간을 획기적으로 단축합니다.
+
+```c
+/* Pseudo Code: NVLink Accelerated All-Reduce
+ * [기존 PCIe 방식] vs [NVLink/NVSwitch 방식 비교]
+ */
+
+// CASE 1: PCIe 방식 (CPU 메모리 거쳐감)
+// Latency: ~50µs (Host Memory Copy Overhead)
+cudaMemcpyAsync(&h_buf[0], &d_buf[0], size, D2H, stream0); // GPU -> CPU
+reduce_on_host(&h_result);                                // CPU Calc
+cudaMemcpyAsync(&d_final, &h_result, size, H2D, stream0); // CPU -> GPU
+
+// CASE 2: NVLink P2P (GPU Direct Access)
+// Latency: ~5µs (Kernel launch + Direct transfer)
+// PCIe 버스를 우회하고 NVLink를 통해 다른 GPU의 VRAM에 직접 접근
+cudaMemcpyPeerAsync(&d_dest[1], 1, &d_src[0], 0, size);   // GPU 0 -> GPU 1 Direct
+
+// CASE 3: SHARP/Collective Offload (스위치 내부 연산)
+// Latency: Minimal
+// 데이터 전송 과정에서 스위치가 알아서 덧셈을 완료하고 리턴
+// ncclAllReduce(...) // NCCL이 NVLink 토폴로지를 인식하여 SHARP 최적화 경로 선택
 ```
 
-📢 섹션 요약 비유: NVLink는 단순 버튼이 아니라 입력을 해석하고 결과를 조정하는 제어판에 가깝다.
+📢 **섹션 요약 비유**: 모든 시민이 서로 직통 전화선을 깐 것이 아니라, 거대한 전화 교환국(NVSwitch)을 설치하고, 가로수를 건드리지 않고 지하에 케이블을 묻어(NVLink) 트래픽 무료·무제한 통화망을 구축한 것입니다.
 
-## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
-개념을 더 선명하게 만들려면 유사 개념과의 경계를 비교해야 한다. 특히 시험에서는 장점만 적기보다 적용 조건과 트레이드오프를 병행 서술하는 답안이 강하다.
+---
 
-| 비교 축 | NVLink | 대안/인접 개념 | 판단 기준 |
+### Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy) - [비교표 2개+]
+
+NVLink 기술은 단순한 하드웨어 속도 향상을 넘어, 시스템 아키텍처와 알고리즘, 네트워크 프로토콜 전반에 영향을 미칩니다.
+
+**[상호 연결 기술 심층 비교]**
+
+| 구분 | PCIe Gen5 x16 | NVLink 4.0 (Hopper) | InfiniBand NDR400 |
 |:---|:---|:---|:---|
-| 목적 | 핵심 기능을 안정적으로 수행 | 비슷하지만 초점이 다름 | 문제 유형 적합성 |
-| 성능 | 상황에 따라 최적점이 달라짐 | 단순하지만 한계 존재 | 지연시간, 처리량, 비용 |
-| 운영성 | 통제 체계가 중요 | 구현은 쉬워도 유지보수 부담 가능 | 자동화, 가시성, 표준화 |
-| 위험 | 과신하면 오용 가능 | 보수적이지만 비효율 가능 | 보안, 장애, 복잡도 |
+| **Raw Bandwidth** | 64 GB/s (Uni-direction) | 450 GB/s (Bi-direction, per GPU) | 50 GB/s (per port, per direction) |
+| **Latency** | ~200 ns (PHY) + SW Overhead | ~25 ns (Extremely Low) | Network Stack dependent (~500ns+) |
+| **Topology** | Root Complex - Endpoint Tree | Full-Mesh / 2D Torus | Fat-Tree / Dragonfly |
+| **Memory Access** | DMA (Limited) | P2P Access + Atomic | RDMA (Remote DMA) |
+| **Primary Use** | Host (CPU) <-> Device (GPU) | Device <-> Device (Scale-up) | Node <-> Node (Scale-out) |
+| **Protocol Overhead**| Heavy (TCP/IP overhead if used) | Lightweight (Native) | Medium (IPoIB/RoCE) |
 
-또한 NVLink는 차세대 가속기 및 AI 반도체 (Accelerators & AI Hardware) 내부의 다른 개념들과 결합될 때 더 큰 가치를 낸다. 상위 아키텍처와 연결하면 설계 원리로 해석되고, 데이터나 보안 관점과 결합하면 운영 정책으로 해석된다. 즉 이 개념은 독립 지식이 아니라 연결 지점이다.
+**[과목 융합 관점 분석]**
+1.  **운영체제(OS) & 가상화**:
+    NVLink는 IOMMU (Input-Output Memory Management Unit) 수준에서 `P2P (Peer-to-Peer)` 접근을 지원합니다. 이를 통해 OS 커널은 서로 다른 GPU의 물리 메모리 주소 공간을 하나의 논리적 주소 공간으로 매핑(`CXL` 유사 개념)할 수 있습니다. 즉, `cudaMalloc()`을 할 때, GPU 0의 메모리가 부족하면 OS는 투명하게 GPU 1의 메모리를 할당하여 애플리케이션 장애 없는 메모리 확장(Overcommit)을 지원합니다.
 
-📢 섹션 요약 비유: NVLink는 혼자 빛나는 공구라기보다 다른 도구와 함께 써야 제 성능이 나는 조립 키트와 같다.
+2.  **알고리즘(Algorithm) & 소프트웨어 스택**:
+    NVLink의 존재는 `NCCL (NVIDIA Collective Communications Library)`의 알고리즘을 변화시켰습니다.
+    - **Ring All-Reduce (PCIe 시대)**: GPU가 원형으로 연결되어 데이터를 순차적으로 전달. 병목이 존재.
+    - **Tree/Sharp Reduce (NVLink 시대)**: Full-mesh 구조를 활용하여 트리 형태의 계층적 집합을 수행하거나, NVSwitch 내부에서 바로 연산을 완료하여 통신 비용을 $O(N)$이 아닌 $O(\log N)$ 수준으로 최적화합니다.
 
-## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
-실무에서는 NVLink를 무조건 도입하는 것이 아니라 조건에 맞춰 선택해야 한다. 대표적인 판단 포인트는 다음과 같다.
+**[도입 의사결정 매트릭스: 비용 대비 성능]**
+워크로드가 **CPU 연산이 많거나**, 데이터 전송이 **배치 단위로 드문드문 발생(Bulk Transfer)**한다면 PCIe만으로 충분합니다. 하지만 **거대 트랜스포머 모델(GPT, BERT 등)**의 학습처럼, 매 레이어마다 미니배치(Mini-batch)의 Gradient를 합산해야 하는 경우, NVLink는 선택이 아닌 필수 생존 전략이 됩니다.
 
-1. 요구사항이 속도 우선인지, 정확성 우선인지 구분한다.
-2. 설계 복잡도 증가가 운영 효율 개선보다 큰지 비교한다.
-3. 장애 발생 시 우회 경로와 롤백 수단이 있는지 확인한다.
+📢 **섹션 요약 비유**: 일반 국도(PCIe)는 화물 트럭이 느리더라도 많은 양을 운반하는 데 적합하지만, 긴급 팀즈원(KT-ATM)이나 대형 병원 간 장기 이송처럼 시간이 곧 돈인 경우에는 전용 헬기패드(NVLink)가 있어야만 생사가 결정됩니다.
 
-도입 체크리스트를 정리하면 아래와 같다.
+---
 
-| 점검 항목 | 확인 질문 | 권장 판단 |
-|:---|:---|:---|
-| 기술 적합성 | 현재 문제를 실제로 줄이는가 | 과대 설계 방지 |
-| 운영 준비도 | 모니터링과 장애 대응 체계가 있는가 | 운영 자동화 우선 |
-| 데이터/입력 품질 | 전제 조건이 안정적인가 | 품질 검증 선행 |
-| 보안/통제 | 악용 또는 오작동 시 영향이 큰가 | 최소 권한과 검증 추가 |
+### Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision) - [800자+]
 
-안티패턴도 분명하다. 개념의 명칭만 알고 세부 제약을 무시하면 구조는 그럴듯해 보여도 실제 운영에서 병목과 장애가 드러난다. 기술사 답안에서는 "도입 효과" 못지않게 "오용 시 문제"를 짚어야 설계형 답안으로 보인다.
+NVLink/NVSwitch 기술을 도입할 때는 단순한 성능 향상을 넘어 총소유비용(TCO)과 워크로드 특성을 분석한 전략적 의사결정이 필요합니다.
 
-📢 섹션 요약 비유: NVLink는 만능 열쇠가 아니라 맞는 문에만 써야 하는 정밀 키와 같다.
+**[실무 시나리오 및 의사결정 프로세스]**
 
-## Ⅴ. 기대효과 및 결론 (Future & Standard)
-NVLink를 올바르게 이해하면 개념 암기를 넘어 설계 판단의 기준점이 생긴다. 단기적으로는 용어 정의, 비교 문제, 사례형 답안 대응력이 높아지고, 장기적으로는 상위 주제와 연결되는 사고력이 생긴다. 특히 차세대 가속기 및 AI 반도체 (Accelerators & AI Hardware)처럼 범위가 넓은 영역일수록 개별 키워드를 구조와 정책의 언어로 재해석하는 힘이 중요하다.
+**1. 시나리오: 대규모 LLM 서비스 구축 (LLM Serving)**
+- **문제**: 수백억 개 파라미터 모델을 단일 GPU(80GB VRAM)에 담을 수 없음.
+- **의사결정**: NVLink를 통해 8개의 GPU를 하나의 논리적 유닛(MIG 없이)으로 묶는 `Tensor Parallelism` 전략 채택.
+- **결과**: 모델 무게 제약 해소, 추론 Latency 획기적 감소.
 
-| 기대효과 | 설명 |
-|:---|:---|
-| 답안 품질 향상 | 정의-원리-비교-적용의 흐름을 안정적으로 구성 |
-| 실무 판단력 향상 | 기술 선택의 조건과 한계를 함께 이해 |
-| 확장성 확보 | 인접 개념과 연결해 응용 가능 |
-
-향후에는 자동화, AI 보조 설계, 클라우드 네이티브 운영, 규제 대응 같은 흐름과 결합해 NVLink의 해석 범위가 더 넓어질 가능성이 크다. 따라서 최신 구현체나 표준 이름보다 원리와 판단 기준을 중심에 두고 학습하는 편이 오래 간다.
-
-📢 섹션 요약 비유: NVLink는 시험 한 문제를 맞히기 위한 단답 카드가 아니라, 다양한 상황에 재사용되는 설계 사고의 템플릿이다.
-
-### 📌 관련 개념 맵
-| 관련 개념 | 관계 및 시너지 설명 |
-|:---|:---|
-| NVLink | 현재 학습 대상인 핵심 개념 |
-| 차세대 가속기 및 AI 반도체 (Accelerators & AI Hardware) | 개념이 속한 상위 도메인 |
-| 입력 조건 | 개념의 적용 범위를 결정하는 전제 |
-| 운영 통제 | 실무 적용 시 실패 확률을 줄이는 장치 |
-| 비교 대상 | 장단점과 선택 기준을 분명히 해 주는 기준선 |
-
-### 👶 어린이를 위한 3줄 비유 설명
-1. NVLink는 어려운 일을 쉽게 해 주는 규칙 상자라고 보면 된다.
-2. 그냥 이름만 아는 것보다 언제 쓰고 언제 쓰면 안 되는지를 아는 게 더 중요하다.
-3. 그래서 이 개념은 외워 두는 낱말이 아니라 문제를 풀 때 꺼내 쓰는 도구다.
+**2. 시나리오: 과학 기술 시뮬레이션 (CFD)**
+- **문제**: 3차원 유체 역학 격자(Grid) 데이터의 경계(Boundary) 정보 교환이 매우 잦
