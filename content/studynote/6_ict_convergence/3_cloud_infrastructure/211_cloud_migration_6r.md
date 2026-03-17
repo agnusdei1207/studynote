@@ -1,10 +1,9 @@
----
-title: "[ICT] #211. 클라우드 마이그레이션 (Cloud Migration) 전략 (6R) 및 리팩토링"
-date: "2026-03-17"
++++
+title = "[ICT] #211. 클라우드 마이그레이션 (Cloud Migration) 전략 (6R) 및 리팩토링"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "CloudMigration_6R_Rehost_LiftAndShift_Replatform_Refactor_Retire_Retain"
----
+keyword = "CloudMigration_6R_Rehost_LiftAndShift_Replatform_Refactor_Retire_Retain"
++++
 
 # 클라우드 마이그레이션 (6R): 레거시 시스템을 클라우드로 이주시키는 가장 완벽한 전략
 
@@ -13,7 +12,7 @@ keyword: "CloudMigration_6R_Rehost_LiftAndShift_Replatform_Refactor_Retire_Retai
 > 2. **가치**: 마이그레이션은 단순한 '서버 이사'가 아니라 기업의 IT 체질을 바꾸는 작업이다. 비용과 시간 제약을 고려하여 빠르고 싸게 옮기는 '리호스트(Lift & Shift)'와, 클라우드의 진정한 가치를 뽑아내기 위해 구조를 갈아엎는 '리팩토링(Refactor)' 사이의 전략적 선택이 핵심이다.
 > 3. **융합**: 초기 이주 시점에는 IaaS 기반의 Rehost를 통해 빠르게 데이터센터를 닫고(Shut down), 이후 점진적으로 PaaS와 마이크로서비스(MSA)를 융합하여 Refactor로 진화시키는 '단계적 현대화(Phased Modernization)' 접근법이 실무의 바이블로 자리 잡았다.
 
----
++++
 
 ## Ⅰ. 클라우드 마이그레이션 및 6R 전략 개요
 
@@ -36,7 +35,7 @@ keyword: "CloudMigration_6R_Rehost_LiftAndShift_Replatform_Refactor_Retire_Retai
 
 📢 **섹션 요약 비유**: 이삿짐센터를 부르기 전에, 어떤 물건을 버리고 어떤 물건을 고쳐 쓸지 냉정하게 딱지를 붙이는(Triage) 가장 중요한 '이사 계획서'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -85,7 +84,7 @@ keyword: "CloudMigration_6R_Rehost_LiftAndShift_Replatform_Refactor_Retire_Retai
 
 📢 **섹션 요약 비유**: 낡은 자전거를 그대로 들고 고속도로에 올라갈 것인지(Rehost), 자전거를 버리고 포르쉐를 새로 조립해서 달릴 것인지(Refactor)를 결정하는 전략적 저울질입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -105,7 +104,7 @@ keyword: "CloudMigration_6R_Rehost_LiftAndShift_Replatform_Refactor_Retire_Retai
 
 📢 **섹션 요약 비유**: 리호스트가 '단순 이사'라면, 리팩토링은 '건물 재건축'입니다. 이사 날짜가 내일이면 일단 짐을 쑤셔 넣고(Rehost), 나중에 천천히 재건축(Refactor)을 하는 것이 현실적인 타협안입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -122,7 +121,7 @@ keyword: "CloudMigration_6R_Rehost_LiftAndShift_Replatform_Refactor_Retire_Retai
 
 📢 **섹션 요약 비유**: 급하다고 일단 새집 베란다에 짐(Rehost)을 다 던져놓고 안심하면 안 됩니다. 베란다 창고 임대료(클라우드 비용)가 엄청나게 비싸므로, 짐을 예쁘게 압축 포장(Refactor)해서 장롱에 넣는 2차 작업이 진짜 이사의 완성입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -136,13 +135,13 @@ keyword: "CloudMigration_6R_Rehost_LiftAndShift_Replatform_Refactor_Retire_Retai
 
 📢 **섹션 요약 비유**: 마이그레이션 6R 전략은 기업의 거대한 디지털 이삿짐을 가장 똑똑하고 경제적으로 나르는 기술이자, 다가올 4차 산업혁명 시대의 탑승권을 거머쥐기 위한 첫 번째 관문입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[클라우드 서비스 모델 (IaaS/PaaS/SaaS)](./182_iaas_paas_saas.md)**: 6R 전략 중 Rehost, Replatform, Repurchase의 목적지가 되는 서비스 모델들.
-- **[클라우드 네이티브](./199_cloud_native.md)**: Refactor(리팩토링) 전략이 궁극적으로 도달하고자 완벽한 소프트웨어 구조.
-- **[서버리스 (FaaS)](./187_faas_serverless.md)**: 리팩토링의 끝판왕이자, 인프라 관리를 완전히 포기하는 극단적 이주 형태.
-- **[쿠버네티스 (K8s)](./196_kubernetes.md)**: 벤더 종속(Lock-in)을 막으면서 리팩토링을 수행하기 위한 표준 컨테이너 운영체제.
+- **클라우드 서비스 모델 (IaaS/PaaS/SaaS)**: 6R 전략 중 Rehost, Replatform, Repurchase의 목적지가 되는 서비스 모델들.
+- **클라우드 네이티브**: Refactor(리팩토링) 전략이 궁극적으로 도달하고자 완벽한 소프트웨어 구조.
+- **서버리스 (FaaS)**: 리팩토링의 끝판왕이자, 인프라 관리를 완전히 포기하는 극단적 이주 형태.
+- **쿠버네티스 (K8s)**: 벤더 종속(Lock-in)을 막으면서 리팩토링을 수행하기 위한 표준 컨테이너 운영체제.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **그대로 이사 가기 (리호스트)**: 내 방에 있는 장난감 상자를 하나도 안 건드리고 그냥 새집으로 쓱 들고 가는 가장 빠르고 쉬운 이사 방법이에요.

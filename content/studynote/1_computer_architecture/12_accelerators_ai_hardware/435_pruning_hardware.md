@@ -1,5 +1,6 @@
 +++
 title = "가지치기 (Pruning) 지원 하드웨어"
+date = "2026-03-14"
 weight = 435
 +++
 
@@ -150,10 +151,10 @@ weight = 435
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[양자화 (Quantization)](./434_quantization.md)**: 데이터의 정밀도를 줄여 가속하는 기술. 가지치기와 병행 시 시너지 극대화.
-- **[텐서 코어 (Tensor Core)](./427_tensor_core.md)**: 2:4 구조적 희소성 가속 기능을 내장한 NVIDIA의 핵심 연산 유닛.
-- **[시스톨릭 어레이 (Systolic Array)](./426_systolic_array.md)**: 정형화된 데이터 흐름을 중시하는 구조로, 가지치기 적용 시 로드 밸런싱이 매우 중요한 과제가 됨.
-- **[NPU (Neural Processing Unit)](./424_npu.md)**: 가지치기 및 압축 기능을 하드웨어적으로 내장하여 전력 효율을 극대화한 가속기.
+- **양자화 (Quantization)**: 데이터의 정밀도를 줄여 가속하는 기술. 가지치기와 병행 시 시너지 극대화.
+- **텐서 코어 (Tensor Core)**: 2:4 구조적 희소성 가속 기능을 내장한 NVIDIA의 핵심 연산 유닛.
+- **시스톨릭 어레이 (Systolic Array)**: 정형화된 데이터 흐름을 중시하는 구조로, 가지치기 적용 시 로드 밸런싱이 매우 중요한 과제가 됨.
+- **NPU (Neural Processing Unit)**: 가지치기 및 압축 기능을 하드웨어적으로 내장하여 전력 효율을 극대화한 가속기.
 
 ---
 

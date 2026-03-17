@@ -1,5 +1,6 @@
 +++
 title = "라우터 (Router) - L3 라우팅"
+date = "2026-03-14"
 weight = 202
 +++
 
@@ -152,10 +153,10 @@ weight = 202
 ---
 
 ### 📌 관련 개념 링크**:
-- [스위치](./201_switch.md)
-- [라우팅 프로토콜](./203_routing_protocol.md)
-- [NAT](./204_nat.md)
-- [OSPF](./205_ospf.md)
+- 스위치
+- 라우팅 프로토콜
+- NAT
+- OSPF
 
 ---
 

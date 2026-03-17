@@ -1,5 +1,6 @@
 +++
 title = "페이지 교체 알고리즘 (Page Replacement)"
+date = "2026-03-14"
 weight = 300
 +++
 

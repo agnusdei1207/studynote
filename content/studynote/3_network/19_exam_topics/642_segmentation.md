@@ -1,5 +1,6 @@
 +++
 title = "Segmentation - 세그먼테이션"
+date = "2026-03-14"
 weight = 642
 +++
 
@@ -99,6 +100,6 @@ Segmentation은 메모리를 논리적 단위로 분할합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Paging](./640_paging.md)
-- [Virtual Memory](./639_virtual_memory.md)
-- [Memory Management](./638_memory_management.md)
+- Paging
+- Virtual Memory
+- Memory Management

@@ -1,7 +1,8 @@
----
-title: "428. VMA (Virtual Memory Area) 구조체"
-weight: 428
----
++++
+title = "428. VMA (Virtual Memory Area) 구조체"
+date = "2026-03-14"
+weight = 428
++++
 
 ## 💡 Insight
 - VMA(Virtual Memory Area)는 프로세스의 거대한 가상 주소 공간을 의미 있는 논리적 단위(Code, Data, Stack, Heap 등)로 나누어 관리하는 핵심 커널 구조체이다.
@@ -81,11 +82,11 @@ weight: 428
 ---
 
 ## 🌳 지식 그래프 (Knowledge Graph)
-- **부모**: [382. 가상 주소 공간](./382_가상_주소_공간_Virtual_Address_Space.md)
+- **부모**: 382. 가상 주소 공간
 - **자식**: [리눅스 mm_struct 상세 (추후 예정)]
 - **유사 개념**:
-  - [387. 페이지 부재 Page Fault](./387_페이지_부재_Page_Fault.md)
-  - [Red-Black Tree Algorithm](../../8_algorithm_stats/RB_Tree.md)
+  - 387. 페이지 부재 Page Fault
+  - Red-Black Tree Algorithm
 
 ## 👶 아이의 시각 (Child Analogy)
 > "도화지(메모리)에 그림을 그릴 때, 여긴 하늘(Code), 여긴 바다(Data), 여긴 모래사장(Stack)이라고 미리 선을 그어 영역을 나누는 거야. 만약 하늘 영역에 모래를 뿌리려고 하면 컴퓨터 아저씨가 '그건 안 돼!'라고 알려준단다. VMA는 바로 그 선을 그려놓은 지도란다!"

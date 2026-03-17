@@ -1,6 +1,7 @@
 +++
-weight = 405
 title = "405. LRU (Least Recently Used) 교체"
+date = "2026-03-14"
+weight = 405
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -117,4 +118,3 @@ graph TD
     TL -- Basis --> PA[Predicting Future by Past]
     LRU -- Benchmarked by --> OPT[Optimal]
     LRU -- Approximated by --> SCA[Second Chance]
-```

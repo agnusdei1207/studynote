@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Command Injection 🥉 Bronze"
-description = "LUXORA 플랫폼의 기본 OS Command Injection 취약점을 이용한 리눅스 쉘 장악 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Command Injection", "Bronze", "OS Command", "Write-up"]
@@ -149,4 +148,3 @@ const ipRegex = /^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(...생략...)$/;
 if (!ipRegex.test(req.body.ip)) {
     return res.status(400).send("Invalid IP Address");
 }
-```

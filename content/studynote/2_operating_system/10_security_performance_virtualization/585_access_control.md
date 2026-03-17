@@ -1,6 +1,7 @@
 +++
-weight = 585
 title = "585. 접근 제어 (Access Control) 모델 - DAC, MAC, RBAC"
+date = "2026-03-14"
+weight = 585
 +++
 
 # 585. 접근 제어 (Access Control) 모델 - DAC, MAC, RBAC

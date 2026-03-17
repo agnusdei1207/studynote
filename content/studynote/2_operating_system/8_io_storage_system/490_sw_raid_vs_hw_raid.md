@@ -1,6 +1,7 @@
 +++
-weight = 490
 title = "490. 소프트웨어 RAID vs 하드웨어 RAID"
+date = "2026-03-14"
+weight = 490
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -103,9 +104,9 @@ title = "490. 소프트웨어 RAID vs 하드웨어 RAID"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[RAID 컨트롤러](./xx_raid_controller.md)**: H/W RAID의 핵심 부품.
-- **[MDADM / ZFS](../../9_file_system/xx_linux_raid.md)**: 대표적인 리눅스 계열 S/W RAID 도구.
-- **[VROC (Virtual RAID on CPU)](./xx_vroc.md)**: HW와 SW의 장점을 결합한 인텔의 하이브리드 솔루션.
+- **RAID 컨트롤러**: H/W RAID의 핵심 부품.
+- **MDADM / ZFS**: 대표적인 리눅스 계열 S/W RAID 도구.
+- **VROC (Virtual RAID on CPU)**: HW와 SW의 장점을 결합한 인텔의 하이브리드 솔루션.
 
 ---
 

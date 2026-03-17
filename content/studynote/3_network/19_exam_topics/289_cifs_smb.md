@@ -1,5 +1,6 @@
 +++
 title = "CIFS/SMB - 윈도우 파일 공유"
+date = "2026-03-14"
 weight = 289
 +++
 
@@ -147,10 +148,10 @@ SMB(Server Message Block)/CIFS(Common Internet File System)는 윈도우 파일 
 ---
 
 ### 📌 관련 개념 링크**:
-- [NFS](./288_nfs.md)
-- [NAS](./285_san.md)
-- [Active Directory](./290_active_directory.md)
-- [Kerberos](./211_kerberos.md)
+- NFS
+- NAS
+- Active Directory
+- Kerberos
 
 ---
 

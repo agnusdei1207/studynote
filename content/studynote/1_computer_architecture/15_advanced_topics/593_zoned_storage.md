@@ -1,7 +1,8 @@
----
++++
 title = "593. 존 스토리지 (Zoned Storage)"
+date = "2026-03-14"
 weight = 593
----
++++
 
 # # 593. 존 스토리지 (Zoned Storage)
 

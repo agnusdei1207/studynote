@@ -1,7 +1,6 @@
 +++
 title = "193. 격리 수준 (Isolation Level) - 병행 제어의 정합성 단계"
 date = "2026-03-16"
-draft = false
 weight = 193
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["격리 수준", "Isolation Level", "Read Uncommitted", "Read Commit
 > 2. **상충 관계**: 격리 수준이 높을수록 데이터 정합성은 완벽해지지만 시스템의 동시 처리 성능(Concurrency)은 저하되며, 낮을수록 속도는 빨라지나 **Dirty Read, Non-Repeatable Read, Phantom Read**와 같은 이상 현상이 발생한다.
 > 3. **가치**: 비즈니스의 중요도(금융 정산 vs 단순 게시글 조회)에 따라 성능과 정합성 사이의 최적 균형점(Trade-off)을 선택할 수 있는 아키텍처적 유연성을 제공한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -51,7 +50,7 @@ keywords = ["격리 수준", "Isolation Level", "Read Uncommitted", "Read Commit
 
 - **📢 섹션 요약 비유**: 격리 수준은 '데이터 보안 등급'과 같아서, 등급이 올라갈수록 비밀(데이터 일관성)은 잘 지켜지지만 절차는 복잡해집니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -91,7 +90,7 @@ keywords = ["격리 수준", "Isolation Level", "Read Uncommitted", "Read Commit
 
 - **📢 섹션 요약 비유**: MVCC는 '타임머신'과 같아서, 현재 데이터가 바뀌고 있어도 나는 내가 일을 시작했을 때의 '과거 사진'을 보고 평화롭게 작업하는 것입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -110,7 +109,7 @@ keywords = ["격리 수준", "Isolation Level", "Read Uncommitted", "Read Commit
 
 - **📢 섹션 요약 비유**: 격리 수준 선택은 '방음 공사'와 같아서, 도서관(금융)은 완벽한 방음이 필요하고 광장(SNS)은 소음이 섞여도 상관없습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -129,7 +128,7 @@ keywords = ["격리 수준", "Isolation Level", "Read Uncommitted", "Read Commit
 
 - **📢 섹션 요약 비유**: 격리 수준을 무시하는 개발은 '옆 사람의 일기장을 훔쳐보며 내 일기를 쓰는 것'과 같아, 결국 남의 실수까지 내 기록에 남게 됩니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -147,15 +146,15 @@ keywords = ["격리 수준", "Isolation Level", "Read Uncommitted", "Read Commit
 
 - **📢 섹션 요약 비유**: 미래의 격리 수준은 우리가 벽을 쌓지 않아도, 데이터들이 스스로 서로의 영역을 존중하며 평화롭게 공존하는 '투명한 고립' 기술로 진화할 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[ACID 원칙](./192_transaction_acid_principles.md)**: 고립성(I)의 상위 목표.
-- **[병행 제어 (Concurrency Control)](./194_concurrency_control_locking.md)**: 격리를 구현하는 구체적 수단.
-- **[MVCC 기술](./192_transaction_acid_principles.md)**: 현대 DB 격리의 일등 공신.
-- **[Undo 세그먼트](./211_recovery_wal.md)**: 과거 데이터의 보관소.
+- **ACID 원칙**: 고립성(I)의 상위 목표.
+- **병행 제어 (Concurrency Control)**: 격리를 구현하는 구체적 수단.
+- **MVCC 기술**: 현대 DB 격리의 일등 공신.
+- **Undo 세그먼트**: 과거 데이터의 보관소.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **격리 수준**은 친구들과 한 교실에서 공부할 때, **"서로의 공부를 방해하지 않게 칸막이를 세우는 것"**과 같아요.

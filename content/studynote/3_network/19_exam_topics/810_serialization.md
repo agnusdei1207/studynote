@@ -1,5 +1,6 @@
 +++
 title = "Serialization - 직렬화"
+date = "2026-03-14"
 weight = 810
 +++
 
@@ -102,6 +103,6 @@ Serialization은 객체를 바이트 스트림으로 변환합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [API](./xxx_api.md)
-- [Protocol Buffers](./xxx_protobuf.md)
-- [Data Format](./xxx_data_format.md)
+- API
+- Protocol Buffers
+- Data Format

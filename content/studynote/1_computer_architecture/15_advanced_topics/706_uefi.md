@@ -1,5 +1,6 @@
 +++
 title = "uefi"
+date = "2026-03-14"
 weight = 706
 +++
 
@@ -296,10 +297,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [오픈소스 펌웨어](./705_opensource_firmware.md) - Coreboot/LinuxBoot
-- [ACPI](./707_acpi.md) - 전원 관리 인터페이스
-- [TPM](./tpm.md) - 신뢰형 플랫폼 모듈
-- [Secure Boot](./secure_boot.md) - 보안 부팅
+- 오픈소스 펌웨어 - Coreboot/LinuxBoot
+- ACPI - 전원 관리 인터페이스
+- TPM - 신뢰형 플랫폼 모듈
+- Secure Boot - 보안 부팅
 
 ---
 

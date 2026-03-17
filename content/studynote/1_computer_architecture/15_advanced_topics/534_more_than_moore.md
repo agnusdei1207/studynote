@@ -1,6 +1,7 @@
 +++
-weight = 534
 title = "534. 무어의 법칙 이후 (More than Moore)"
+date = "2026-03-14"
+weight = 534
 +++
 
 # 534. 무어의 법칙 이후 (More than Moore)
@@ -133,10 +134,10 @@ title = "534. 무어의 법칙 이후 (More than Moore)"
 ---
 
 ### 📌 관련 개념 맵
-- **[칩렛 (Chiplet)](./497_chiplet.md)**: More than Moore의 핵심 단위
-- **[3D 패키징 (TSV)](./496_tsv.md)**: 물리적 구현 기술
-- **[HBM (High Bandwidth Memory)](./495_hbm.md)**: 대표적인 More than Moore 성공 사례
-- **[GAA (Gate-All-Around)](./xx_gaa.md)**: More Moore(미세화)의 마지막 보루
+- **칩렛 (Chiplet)**: More than Moore의 핵심 단위
+- **3D 패키징 (TSV)**: 물리적 구현 기술
+- **HBM (High Bandwidth Memory)**: 대표적인 More than Moore 성공 사례
+- **GAA (Gate-All-Around)**: More Moore(미세화)의 마지막 보루
 
 ---
 

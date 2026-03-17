@@ -1,10 +1,9 @@
----
-title: "[ICT] #96. 모놀리식 블록체인 (Monolithic Blockchain)"
-date: "2026-03-17"
++++
+title = "[ICT] #96. 모놀리식 블록체인 (Monolithic Blockchain)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "MonolithicBlockchain_SingleLayer_AllInOne_VerticalScaling_Solana_Aptos_Sui"
----
+keyword = "MonolithicBlockchain_SingleLayer_AllInOne_VerticalScaling_Solana_Aptos_Sui"
++++
 
 # 모놀리식 블록체인 (Monolithic Blockchain): 통합의 힘으로 구현하는 고성능 아키텍처
 
@@ -13,7 +12,7 @@ keyword: "MonolithicBlockchain_SingleLayer_AllInOne_VerticalScaling_Solana_Aptos
 > 2. **가치**: 모듈러 방식의 복잡한 통신 오버헤드가 없으므로 트랜잭션 처리 지연(Latency)이 매우 낮으며, 하드웨어 성능을 극한으로 끌어올리는 수직적 확장(Vertical Scaling)을 통해 고성능을 달성한다.
 > 3. **융합**: 병렬 실행 엔진(Parallel Execution), 고성능 하드웨어 가속, 최적화된 로컬 상태 관리 기술과 결합되어 실시간 금융 결제나 대규모 게임 등 고속 처리가 필요한 영역의 핵심 인프라로 자리 잡고 있다.
 
----
++++
 
 ## Ⅰ. 모놀리식 블록체인 (Monolithic Blockchain) 개요
 
@@ -31,7 +30,7 @@ keyword: "MonolithicBlockchain_SingleLayer_AllInOne_VerticalScaling_Solana_Aptos
 
 📢 **섹션 요약 비유**: 여러 부품을 조립하는 대신, 하나의 통쇠를 깎아 만든 일체형 엔진처럼 유격 없이 강력한 힘을 내는 고성능 시스템입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -79,7 +78,7 @@ keyword: "MonolithicBlockchain_SingleLayer_AllInOne_VerticalScaling_Solana_Aptos
 
 📢 **섹션 요약 비유**: 모든 업무가 한 사무실 안에서 이루어지므로, 전화나 메일을 주고받을 필요 없이 옆 사람에게 바로 서류를 전달하는 것과 같은 극강의 효율을 보여줍니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -99,7 +98,7 @@ keyword: "MonolithicBlockchain_SingleLayer_AllInOne_VerticalScaling_Solana_Aptos
 
 📢 **섹션 요약 비유**: 모놀리식이 '엔진 성능을 끝까지 끌어올린 슈퍼카'라면, 모듈러는 '여러 대의 트럭을 연결한 화물 열차'와 같습니다. 속도는 슈퍼카가 빠르지만, 짐을 많이 싣기에는 열차가 유리합니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -115,7 +114,7 @@ keyword: "MonolithicBlockchain_SingleLayer_AllInOne_VerticalScaling_Solana_Aptos
 
 📢 **섹션 요약 비유**: 성능이 좋은 만큼 유지비(노드 사양)도 많이 들기 때문에, '성능'이라는 가치가 '비용'을 정당화할 수 있는 비즈니스 모델(예: 고빈도 매매, 게임)에 적합합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -128,13 +127,13 @@ keyword: "MonolithicBlockchain_SingleLayer_AllInOne_VerticalScaling_Solana_Aptos
 
 📢 **섹션 요약 비유**: 모놀리식 블록체인은 '단순함이 곧 강력함'이라는 진리를 증명하며, 블록체인의 대중화를 이끄는 고성능 엔진 역할을 지속할 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[확장성 트릴레마](./40_blockchain_trilemma.md)**: 모놀리식 체인이 극복하고자 하는 핵심 도전 과제.
-- **[병렬 실행 (Parallel Execution)](./xx_parallel_execution.md)**: 모놀리식 성능 향상의 핵심 알고리즘.
-- **[솔라나 (Solana)](./xx_solana.md)**: 대표적인 모놀리식 고성능 블록체인 프로젝트.
-- **[모듈러 블록체인](./94_modular_blockchain.md)**: 모놀리식의 대척점에 있는 대안적 아키텍처.
+- **확장성 트릴레마**: 모놀리식 체인이 극복하고자 하는 핵심 도전 과제.
+- **병렬 실행 (Parallel Execution)**: 모놀리식 성능 향상의 핵심 알고리즘.
+- **솔라나 (Solana)**: 대표적인 모놀리식 고성능 블록체인 프로젝트.
+- **모듈러 블록체인**: 모놀리식의 대척점에 있는 대안적 아키텍처.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **슈퍼맨 요리사**: 요리, 서빙, 계산을 혼자서 빛의 속도로 다 하는 엄청난 요리사가 운영하는 식당이에요.

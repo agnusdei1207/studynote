@@ -1,7 +1,7 @@
----
-title: "539. 이벤트 버스 및 스트림 프로세싱 (Kafka Streams, Flink)"
-date: 2026-03-15
----
++++
+title = "539. 이벤트 버스 및 스트림 프로세싱 (Kafka Streams, Flink)"
+date = "2026-03-15"
++++
 
 # 539. 이벤트 버스 및 스트림 프로세싱 (Kafka Streams, Flink)
 
@@ -160,10 +160,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[이벤트 기반 아키텍처 (EDA)](./538_eda_architecture.md)**: 이벤트 버스가 실체화되는 상위 아키텍처
-- **[Kafka / RabbitMQ](../3_network/xx_infra.md)**: 이벤트 버스를 구현하는 물리적 도구
-- **[상태 관리 (Stateful)](../13_cloud_architecture/xx_state.md)**: 스트림 프로세싱의 핵심 기술 원리
-- **[분산 추적 (Tracing)](./588_distributed_tracing.md)**: 복잡한 스트림 흐름을 감시하는 보완 기술
+- **이벤트 기반 아키텍처 (EDA)**: 이벤트 버스가 실체화되는 상위 아키텍처
+- **Kafka / RabbitMQ**: 이벤트 버스를 구현하는 물리적 도구
+- **상태 관리 (Stateful)**: 스트림 프로세싱의 핵심 기술 원리
+- **분산 추적 (Tracing)**: 복잡한 스트림 흐름을 감시하는 보완 기술
 
 ---
 

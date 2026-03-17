@@ -1,5 +1,6 @@
 +++
 title = "DHCP (Dynamic Host Configuration Protocol) - 자동 IP 할당"
+date = "2026-03-14"
 weight = 214
 +++
 
@@ -146,10 +147,10 @@ DHCP(Dynamic Host Configuration Protocol)는 네트워크 장비에 IP 주소와
 ---
 
 ### 📌 관련 개념 링크**:
-- [IP 주소](./102_ipv4.md)
-- [DNS](./215_dns.md)
-- [서브네팅](./205_subnetting.md)
-- [PXE](./230_pxe.md)
+- IP 주소
+- DNS
+- 서브네팅
+- PXE
 
 ---
 

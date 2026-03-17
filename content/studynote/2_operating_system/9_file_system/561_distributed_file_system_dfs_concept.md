@@ -1,7 +1,7 @@
-
 +++
-weight = 561
 title = "561. 분산 파일 시스템 (DFS, Distributed File System) 개념"
+date = "2026-03-14"
+weight = 561
 +++
 
 # # 561. 분산 파일 시스템 (DFS, Distributed File System)

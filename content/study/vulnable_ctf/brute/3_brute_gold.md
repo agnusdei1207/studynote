@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Brute Force 🥇 Gold"
-description = "LUXORA 플랫폼의 복합 인증 환경에서 2FA/OTP 우회를 결합한 브루트포스 공격 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Brute Force", "Gold", "2FA Bypass", "Logic Flaw", "Write-up"]

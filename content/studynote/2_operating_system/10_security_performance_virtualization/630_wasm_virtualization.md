@@ -1,6 +1,7 @@
 +++
-weight = 630
 title = "630. WebAssembly (WASM)를 이용한 시스템 독립적 실행 가상화"
+date = "2026-03-14"
+weight = 630
 +++
 
 # 630. WebAssembly (WASM)를 이용한 시스템 독립적 실행 가상화

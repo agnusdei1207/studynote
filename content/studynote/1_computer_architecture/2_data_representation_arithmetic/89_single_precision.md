@@ -1,6 +1,7 @@
 +++
-weight = 89
 title = "89. 단정밀도 (Single Precision, FP32)"
+date = "2026-03-14"
+weight = 89
 +++
 
 # 단정밀도 (Single Precision, FP32)

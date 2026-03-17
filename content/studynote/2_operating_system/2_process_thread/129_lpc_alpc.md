@@ -1,7 +1,7 @@
 +++
-weight = 129
 title = "129. 로컬 프로시저 호출 (LPC, Local Procedure Call) / ALPC (Windows)"
 date = "2026-03-12"
+weight = 129
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "LPC", "ALPC", "Local Procedure Call", "IPC", "Windows 커널", "메시지 전달", "포트"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "LPC", "ALPC", "Local Procedure Call", "IPC", "Windo
 > 2. **가치**: 클라이언트-서버 모델을 기반으로 하며, 메시지 크기에 따라 공유 메모리나 포트(Port) 방식을 유동적으로 선택하여 **통신 성능을 최적화**한다.
 > 3. **융합**: 현대 윈도우 비스타 이후부터는 비동기 성능을 대폭 강화한 **ALPC (Advanced LPC)**로 진화하였으며, 윈도우 서브시스템(Win32, RPC 등)의 핵심 통신 인프라로 작동한다.
 
----
++++
 
 ## Ⅰ. LPC의 정의 및 아키텍처
 
@@ -29,7 +29,7 @@ keywords = ["운영체제", "LPC", "ALPC", "Local Procedure Call", "IPC", "Windo
 - LPC는 **'한 건물(시스템) 안의 부서(프로세스)끼리만 사용하는 전용 인터폰'**과 같다.
 - 외부 전화망(RPC/Network)을 거치지 않고 내부 선로(커널)만 사용하여 옆 부서와 매우 빠르게 소통하는 시스템이다.
 
----
++++
 
 ## II. LPC의 세 가지 메시지 전달 방식 (Deep Dive)
 
@@ -47,7 +47,7 @@ keywords = ["운영체제", "LPC", "ALPC", "Local Procedure Call", "IPC", "Windo
 - **대상**: 서버가 클라이언트의 주소 공간에 직접 접근 가능한 경우.
 - **방식**: 데이터를 상대방의 메모리에 직접 쓴다.
 
----
++++
 
 ## Ⅲ. ALPC (Advanced LPC)의 등장
 
@@ -61,7 +61,7 @@ keywords = ["운영체제", "LPC", "ALPC", "Local Procedure Call", "IPC", "Windo
 
 - **📢 섹션 요약 비유**: 일반 인터폰(LPC)에서 영상 통화와 다자간 회의가 가능한 최첨단 스마트 협업 시스템(ALPC)으로 업그레이드된 것과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 아키텍처 인사이트 (Strategy)
 
@@ -74,7 +74,7 @@ keywords = ["운영체제", "LPC", "ALPC", "Local Procedure Call", "IPC", "Windo
 
 - **📢 섹션 요약 비조**: "부서 간 거리를 멀리 두어(격리) 안전을 챙기되, 그 사이를 고속 열차(LPC)로 연결하여 속도를 챙기는 영리한 도시 설계와 같습니다."
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -87,14 +87,14 @@ keywords = ["운영체제", "LPC", "ALPC", "Local Procedure Call", "IPC", "Windo
 
 - **📢 섹션 요약 비유**: 수만 개의 세포(프로세스)가 한 몸(OS)처럼 움직이게 돕는, 가장 빠르고 정확한 디지털 신경 전달 물질입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[프로세스 간 통신 (IPC)](./117_ipc.md)**: LPC가 속한 상위 카테고리.
-- **[원격 프로시저 호출 (RPC)](./126_rpc.md)**: LPC의 네트워크 확장 버전.
-- **[하이브리드 커널](../1_overview_architecture/25_hybrid_kernel.md)**: LPC가 탄생한 아키텍처 배경.
+- **프로세스 간 통신 (IPC)**: LPC가 속한 상위 카테고리.
+- **원격 프로시저 호출 (RPC)**: LPC의 네트워크 확장 버전.
+- **하이브리드 커널**: LPC가 탄생한 아키텍처 배경.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. LPC는 컴퓨터 안에 있는 **'우리 집 전용 비밀 인터폰'**이에요.

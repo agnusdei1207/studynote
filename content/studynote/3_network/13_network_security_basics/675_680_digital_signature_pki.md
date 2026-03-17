@@ -1,12 +1,10 @@
----
++++
 title = "675-680. 전자서명과 PKI (Public Key Infrastructure)"
-description = "데이터의 신뢰를 보장하는 전자서명의 원리와 인증서 발급/관리를 위한 PKI 체계 분석"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
-subject = "NW"
 category = "Network Security"
 id = 675
----
++++
 
 # 675-680. 전자서명과 PKI (Public Key Infrastructure)
 
@@ -16,7 +14,7 @@ id = 675
 > 2. **가치**: 비대면 환경에서 위조 불가능한 '디지털 신분증'을 제공하여 전자 상거래 및 금융 거래의 법적 효력(부인 방지)을 보장하고 비용 절감.
 > 3. **융합**: TLS/SSL(Transport Layer Security/Secure Sockets Layer) 핸드셰이크의 핵심이자, 블록체인의 트랜잭션 검증, 코드 사이닝(Code Signing) 등 현대 보안의 근간.
 
----
++++
 
 ### Ⅰ. 개요 (Context & Background)
 
@@ -33,7 +31,7 @@ id = 675
 **📢 섹션 요약 비유**
 > **마치 거대한 고속도로(인터넷)에서 운전을 할 때, 익명의 오토바이가 아니라 차량 번호와 소유자가 확인되는 '등록된 자동차(인증서)'를 몰고, 교통카드(전자서명)를 찍어 통행 기록을 남기는 것과 같습니다.**
 
----
++++
 
 ### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -139,7 +137,7 @@ def verify_signature(public_key, message, signature):
 > 2. **전자서명**: 고객이 그 영수증에 자필 서명(개인키)을 하는 것.
 > 3. **검증**: 배송 기사가 도착해서 서명이 진짜인지 확인하고, 물건 상태가 사진이랑 같은지 비교하는 과정입니다.
 
----
++++
 
 ### Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -164,7 +162,7 @@ def verify_signature(public_key, message, signature):
 **📢 섹션 요약 비유**
 > **CRL은 '범죄자 수배지'를 집에서 독자(브라우저)로 구독하여 확인하는 방식이고, OCSP는 경찰서(OCSP 서버)에 전화를 걸어 "이 사람 수배됐나요?"라고 물어보는 방식입니다.**
 
----
++++
 
 ### Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 

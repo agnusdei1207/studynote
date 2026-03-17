@@ -1,6 +1,7 @@
 +++
-weight = 446
 title = "446. 포트 (Port) / 버스 (Bus) - PCIe, USB, SATA, NVMe"
+date = "2026-03-14"
+weight = 446
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -140,10 +141,10 @@ title = "446. 포트 (Port) / 버스 (Bus) - PCIe, USB, SATA, NVMe"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[NVMe (Non-Volatile Memory Express)](./482_nvme.md)**: PCIe 버스 기반의 스토리지 최적화 프로토콜.
-- **[DMA (Direct Memory Access)](./450_dma.md)**: 버스를 통해 CPU 개입 없이 데이터를 전송하는 기술.
-- **[플러그 앤 플레이 (Plug and Play)](./xx_pnp.md)**: 포트 연결 시 자동 장치 인식 기술.
-- **[CXL (Compute Express Link)](./xx_cxl.md)**: 차세대 메모리/장치 통합 연결 버스.
+- **NVMe (Non-Volatile Memory Express)**: PCIe 버스 기반의 스토리지 최적화 프로토콜.
+- **DMA (Direct Memory Access)**: 버스를 통해 CPU 개입 없이 데이터를 전송하는 기술.
+- **플러그 앤 플레이 (Plug and Play)**: 포트 연결 시 자동 장치 인식 기술.
+- **CXL (Compute Express Link)**: 차세대 메모리/장치 통합 연결 버스.
 
 ---
 

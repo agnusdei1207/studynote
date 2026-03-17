@@ -1,5 +1,6 @@
 +++
 title = "잼 신호 / 백오프 알고리즘"
+date = "2026-03-14"
 weight = 107
 +++
 
@@ -154,10 +155,10 @@ weight = 107
 ---
 
 ### 📌 관련 개념 링크**:
-- [CSMA/CD 충돌 감지](./106_csma_cd.md)
-- [CSMA 반송파 감지](./104_csma.md)
-- [이더넷](./160_ethernet.md)
-- [충돌 도메인](./160_collision_domain.md)
+- CSMA/CD 충돌 감지
+- CSMA 반송파 감지
+- 이더넷
+- 충돌 도메인
 
 ---
 

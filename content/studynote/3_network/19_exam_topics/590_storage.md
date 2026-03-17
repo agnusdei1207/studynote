@@ -1,5 +1,6 @@
 +++
 title = "Storage - 스토리지"
+date = "2026-03-14"
 weight = 590
 +++
 
@@ -97,6 +98,6 @@ Storage는 데이터를 영구적으로 저장합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [RAID](./589_raid.md)
-- [NAS](./592_nas.md)
-- [SAN](./593_san.md)
+- RAID
+- NAS
+- SAN

@@ -1,6 +1,6 @@
 +++
 title = "하드웨어 가속기 (Hardware Accelerator)"
-description = "특정 컴퓨팅 작업을 범용 CPU보다 효율적으로 처리하기 위해 설계된 전용 하드웨어 아키텍처"
+date = "2026-03-14"
 weight = 417
 +++
 
@@ -161,11 +161,11 @@ weight = 417
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[GPU (Graphics Processing Unit)](./418_gpu.md)**: 가장 대중적이고 강력한 범용 가속기
-- **[NPU (Neural Processing Unit)](./424_npu.md)**: 인공지능 연산에 특화된 차세대 가속기
-- **[FPGA (Field Programmable Gate Array)](./xx_fpga.md)**: 회로 구성이 자유로운 프로그래머블 가속기
-- **[암달의 법칙 (Amdahl's Law)](../3_architecture_basics_performance/xx_amdahls_law.md)**: 가속기 도입 시 전체 시스템 성능 향상의 한계를 설명하는 법칙
-- **[이종 컴퓨팅 (Heterogeneous Computing)](./xx_heterogeneous.md)**: CPU와 다양한 가속기를 혼용하여 성능을 극대화하는 패러다임
+- **GPU (Graphics Processing Unit)**: 가장 대중적이고 강력한 범용 가속기
+- **NPU (Neural Processing Unit)**: 인공지능 연산에 특화된 차세대 가속기
+- **FPGA (Field Programmable Gate Array)**: 회로 구성이 자유로운 프로그래머블 가속기
+- **암달의 법칙 (Amdahl's Law)**: 가속기 도입 시 전체 시스템 성능 향상의 한계를 설명하는 법칙
+- **이종 컴퓨팅 (Heterogeneous Computing)**: CPU와 다양한 가속기를 혼용하여 성능을 극대화하는 패러다임
 
 ---
 

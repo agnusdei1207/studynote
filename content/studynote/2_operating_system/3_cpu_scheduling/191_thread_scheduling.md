@@ -1,11 +1,11 @@
----
++++
 title = "[OS] 191. 스레드 스케줄링 (Thread Scheduling)"
 date = "2026-03-04"
 [extra]
 categories = "studynote-operating-system"
 tags = ["Thread Scheduling", "PCS", "SCS", "Kernel Level Thread"]
 weight = 191
----
++++
 
 # [OS] 스레드 스케줄링 (Thread Scheduling)
 
@@ -14,7 +14,7 @@ weight = 191
 > 2. **가치**: 다중 코어 환경에서 **PCS (Process-Contention Scope)**와 **SCS (System-Contention Scope)**를 적절히 분리 및 통합 관리하여 애플리케이션의 응답 속도(Latency)와 처리량(Throughput)을 동시에 만족시킵니다.
 > 3. **융합**: 커널 레벨 스케줄링과 사용자 레벨 라이브러리의 상호작용을 통해 가상화 및 클라우드 환경의 리소스 분배 효율을 결정짓는 OS의 심장부입니다.
 
----
++++
 
 ### Ⅰ. 개요 (Context & Background)
 
@@ -33,7 +33,7 @@ weight = 191
 **📢 섹션 요약 비유**
 마치 관공서의 창구가 '부서(프로세스)' 단위에서 '담당자(스레드)' 단위로 업무 분장이 바뀌면서, 민원인이 기다리는 시간을 줄이고 창구의 가동률을 높이는 것과 같습니다.
 
----
++++
 
 ### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -128,7 +128,7 @@ void schedule_next_thread() {
 **📢 섹션 요약 비유**
 마치 대형 쇼핑몰(시스템)의 주차장(CPU)을 이용하는 것과 같습니다. PCS는 각 매장(프로세스) 내부에서 직원(스레드)들끼리 '골판지 박스 운반차(LWP)'를 누가 쓸지 싸우는 내부 경쟁이고, SCS는 모든 매장의 차량이 주차장 입구에서 누가 먼저 들어갈지 겪는 외부 경쟁입니다.
 
----
++++
 
 ### Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -150,7 +150,7 @@ void schedule_next_thread() {
 **📢 섹션 요약 비유**
 PCS는 '부서 내 업무 협조'라면, SCS는 '전사 간 차량 배정'입니다. PCS는 팀 내 유연함을, SCS는 회사 전체의 형평성과 안정성을 담당합니다.
 
----
++++
 
 ### Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 

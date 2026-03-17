@@ -1,5 +1,6 @@
 +++
 title = "OSPF (Open Shortest Path First) - 링크 상태 라우팅"
+date = "2026-03-14"
 weight = 208
 +++
 
@@ -146,10 +147,10 @@ OSPF(Open Shortest Path First)는 링크 상태 알고리즘을 사용하여 최
 ---
 
 ### 📌 관련 개념 링크**:
-- [라우팅 프로토콜](./203_routing_protocol.md)
-- [BGP](./209_bgp.md)
-- [라우터](./202_router.md)
-- [IS-IS](./210_isis.md)
+- 라우팅 프로토콜
+- BGP
+- 라우터
+- IS-IS
 
 ---
 

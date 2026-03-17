@@ -1,10 +1,9 @@
----
-title: "[ICT] #92. LMD GHOST (Latest Message Driven GHOST)"
-date: "2026-03-17"
++++
+title = "[ICT] #92. LMD GHOST (Latest Message Driven GHOST)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "LMDGHOST_ForkChoiceRule_Ethereum2.0_GHOST_Consensus_LatestMessage"
----
+keyword = "LMDGHOST_ForkChoiceRule_Ethereum2.0_GHOST_Consensus_LatestMessage"
++++
 
 # LMD GHOST: 가장 최신의 증언을 따라가는 똑똑한 체인 선택 규칙
 
@@ -13,7 +12,7 @@ keyword: "LMDGHOST_ForkChoiceRule_Ethereum2.0_GHOST_Consensus_LatestMessage"
 > 2. **가치**: 단순히 블록의 길이를 재는 대신, 각 노드의 투표 가중치를 합산하여 판단함으로써 **'체인 재조정(Reorg)'** 공격에 강하며, 네트워크 혼잡 상황에서도 안정적으로 단일한 진실을 유지한다.
 > 3. **융합**: 고전적인 GHOST 프로토콜에 '최신 메시지'라는 시간적 개념을 결합한 형태이며, 파이널리티(Finality)를 담당하는 Casper FFG와 함께 작동하여 이더리움 합의 엔진의 양대 축을 이룬다.
 
----
++++
 
 ## Ⅰ. LMD GHOST 개요
 
@@ -30,7 +29,7 @@ keyword: "LMDGHOST_ForkChoiceRule_Ethereum2.0_GHOST_Consensus_LatestMessage"
 
 📢 **섹션 요약 비유**: 낡은 지도를 보고 길을 찾는 것이 아니라, 지금 실시간으로 가장 많은 운전자가 달리고 있는 도로를 내비게이션이 골라주는 '실시간 지능형 경로 선택' 시스템입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 작동 원리 (Deep Dive)
 
@@ -80,7 +79,7 @@ keyword: "LMDGHOST_ForkChoiceRule_Ethereum2.0_GHOST_Consensus_LatestMessage"
 
 📢 **섹션 요약 비유**: 시합에서 누가 먼저 도착했느냐(길이)보다, 심판석에 앉은 위원들이 누구의 손을 더 많이 들어줬느냐(무게)를 보고 승자를 정하는 '합리적 심사 시스템'입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -99,7 +98,7 @@ keyword: "LMDGHOST_ForkChoiceRule_Ethereum2.0_GHOST_Consensus_LatestMessage"
 
 📢 **섹션 요약 비유**: 비트코인이 '달리기 시합'이라면, LMD GHOST는 '인기 투표'와 같아서 사람들이 가장 많이 모이는 곳으로 자연스럽게 질서가 형성되는 차이가 있습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -113,7 +112,7 @@ keyword: "LMDGHOST_ForkChoiceRule_Ethereum2.0_GHOST_Consensus_LatestMessage"
 
 📢 **섹션 요약 비유**: 내비게이션이 알려주는 실시간 빠른 길(LMD GHOST)로 가되, 중요한 갈림길에서는 경찰(Casper)의 수신호를 따라 절대 길을 잘못 들지 않게 이중으로 체크하는 영리한 설계입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -127,13 +126,13 @@ keyword: "LMDGHOST_ForkChoiceRule_Ethereum2.0_GHOST_Consensus_LatestMessage"
 
 📢 **섹션 요약 비유**: LMD GHOST는 블록체인이라는 거대한 함선이 험한 파도 속에서도 중심을 잃지 않고 **가장 올바른 항로**를 찾아가게 해주는 최첨단 자동 항법 장치입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[포크 선택 규칙 (Fork Choice Rule)](./13_pow.md)**: 체인이 갈라졌을 때 하나를 고르는 기본 원리.
-- **[Casper FFG](./65_finality.md)**: LMD GHOST와 상호보완적으로 작동하는 파이널리티 프로토콜.
-- **[이더리움 2.0 (The Merge)](./xx_merge.md)**: LMD GHOST가 본격 도입된 네트워크 버전.
-- **[아테스테이션 (Attestation)](./14_pos.md)**: LMD GHOST의 입력값이 되는 검증인들의 투표.
+- **포크 선택 규칙 (Fork Choice Rule)**: 체인이 갈라졌을 때 하나를 고르는 기본 원리.
+- **Casper FFG**: LMD GHOST와 상호보완적으로 작동하는 파이널리티 프로토콜.
+- **이더리움 2.0 (The Merge)**: LMD GHOST가 본격 도입된 네트워크 버전.
+- **아테스테이션 (Attestation)**: LMD GHOST의 입력값이 되는 검증인들의 투표.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **가장 많은 깃발 찾기**: 일기장이 두 갈래로 나뉘었을 때, "어느 게 진짜예요?"라고 묻는 친구들에게 "친구들이 가장 최근에 깃발을 꽂은 쪽을 따라가면 돼!"라고 알려주는 규칙이에요.

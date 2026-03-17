@@ -1,5 +1,6 @@
 +++
 title = "Policing vs Shaping - 트래픽 제어"
+date = "2026-03-14"
 weight = 238
 +++
 
@@ -142,10 +143,10 @@ Policing과 Shaping은 트래픽 속도를 제한하는 기술이지만, 동작 
 ---
 
 ### 📌 관련 개념 링크**:
-- [QoS](./230_qos.md)
-- [CBWFQ](./235_cbwfq.md)
-- [Token Bucket](./239_token_bucket.md)
-- [대역폭](./105_bandwidth.md)
+- QoS
+- CBWFQ
+- Token Bucket
+- 대역폭
 
 ---
 

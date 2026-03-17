@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Request Smuggling 🥈 Silver"
-description = "LUXORA 플랫폼의 Silver 난이도 HTTP Request Smuggling (TE.CL 방식) 공략 - Cache Poisoning 연계 공격 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Request Smuggling", "Silver", "TE.CL", "Cache Poisoning", "Write-up"]

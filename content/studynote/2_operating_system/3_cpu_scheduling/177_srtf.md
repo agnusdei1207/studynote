@@ -1,7 +1,7 @@
 +++
-weight = 177
 title = "177. SRTF (Shortest Remaining Time First) 스케줄링 - SJF의 선점형 버전"
 date = "2026-03-12"
+weight = 177
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "SRTF", "Shortest Remaining Time First", "최단 잔여 시간 우선", "선점형 SJF", "최적 알고리즘"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "SRTF", "Shortest Remaining Time First", "최단 잔
 > 2. **가치**: 비선점형 SJF보다 한 단계 더 나아가 평균 대기 시간을 극단적으로 줄이는 **가장 공격적인 최적화 알고리즘**이며, 새로운 작업이 들어올 때마다 실시간으로 최적의 판단을 내린다.
 > 3. **융합**: 시분할 시스템의 선점형 원리와 SJF의 실행 시간 예측 논리가 결합된 형태이며, 잦은 문맥 교환으로 인한 오버헤드와 기아 현상(Starvation)이라는 트레이드오프(Trade-off)를 가진다.
 
----
++++
 
 ## Ⅰ. SRTF 스케줄링의 개요
 
@@ -30,7 +30,7 @@ keywords = ["운영체제", "SRTF", "Shortest Remaining Time First", "최단 잔
 - SRTF는 **'의사가 환자를 진료하던 중, 방금 들어온 환자의 치료 시간이 지금 남은 진료 시간보다 짧다면 즉시 환자를 바꿔서 진료하는 응급실'**과 같다.
 - 찰나의 순간에도 가장 빨리 끝낼 수 있는 환자부터 처리하여 응급실 대기 인원을 최소로 유지하는 전략이다.
 
----
++++
 
 ## Ⅱ. SRTF의 성능 분석 (Deep Dive)
 
@@ -63,7 +63,7 @@ keywords = ["운영체제", "SRTF", "Shortest Remaining Time First", "최단 잔
 
 - **📢 섹션 요약 비유**: 달리기를 하고 있는데 뒤에서 나보다 더 빠른 선수가 나타나면 즉시 트랙을 비워주고 그 선수가 먼저 뛰게 하는 고강도의 효율 추구 레이스와 같습니다.
 
----
++++
 
 ## Ⅲ. SRTF vs SJF (비선점형)
 
@@ -76,7 +76,7 @@ keywords = ["운영체제", "SRTF", "Shortest Remaining Time First", "최단 잔
 
 - **📢 섹션 요약 비유**: 한 번 숟가락을 들면 다 먹을 때까지 기다리는 것(SJF)과, 옆 사람 음식이 더 빨리 먹을 수 있는 거면 숟가락을 뺏어서 주는 것(SRTF)의 차이입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 성능 튜닝 (Strategy)
 
@@ -89,7 +89,7 @@ keywords = ["운영체제", "SRTF", "Shortest Remaining Time First", "최단 잔
 
 - **📢 섹션 요약 비유**: 선수를 교체하는 시간(오버헤드)이 너무 길면, 차라리 원래 뛰던 선수가 계속 뛰는 게 결승점에 빨리 도착하는 비결일 수도 있습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -102,14 +102,14 @@ keywords = ["운영체제", "SRTF", "Shortest Remaining Time First", "최단 잔
 
 - **📢 섹션 요약 비유**: 1초의 낭비도 허용하지 않는, 운영체제의 가장 날카로운 효율의 칼날입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[SJF 스케줄링](./170_sjf.md)**: SRTF의 모태가 된 알고리즘.
-- **[문맥 교환 (Context Switch)](./34_context_switch.md)**: SRTF가 감수해야 할 비용.
-- **[에이징 (Aging)](./172_aging.md)**: SRTF의 기아 현상을 막는 보완 기술.
+- **SJF 스케줄링**: SRTF의 모태가 된 알고리즘.
+- **문맥 교환 (Context Switch)**: SRTF가 감수해야 할 비용.
+- **에이징 (Aging)**: SRTF의 기아 현상을 막는 보완 기술.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. SRTF는 숙제를 하다가 **'더 금방 끝낼 수 있는 새로운 숙제'**가 생기면 하던 걸 멈추고 새 숙제부터 하는 거예요.

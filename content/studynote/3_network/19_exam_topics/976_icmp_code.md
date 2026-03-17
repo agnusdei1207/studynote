@@ -1,5 +1,6 @@
 +++
 title = "ICMP Code - ICMP 코드"
+date = "2026-03-14"
 weight = 976
 +++
 
@@ -108,6 +109,6 @@ ICMP Code는 ICMP Type의 세부 원인을 나타냅니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [ICMP](./888_icmp.md)
-- [ICMP Type](./975_icmp_type.md)
-- [Ping](./889_ping.md)
+- ICMP
+- ICMP Type
+- Ping

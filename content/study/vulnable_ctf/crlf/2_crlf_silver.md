@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: CRLF Injection 🥈 Silver"
-description = "LUXORA 플랫폼의 Silver 난이도 CRLF 취약점을 이용한 HTTP Cache Poisoning 및 응답 변조 시나리오"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "CRLF Injection", "Silver", "Cache Poisoning", "Write-up"]

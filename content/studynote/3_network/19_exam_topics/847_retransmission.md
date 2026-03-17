@@ -1,5 +1,6 @@
 +++
 title = "Retransmission - 재전송"
+date = "2026-03-14"
 weight = 847
 +++
 
@@ -109,6 +110,6 @@ Retransmission은 손실된 패킷을 다시 보냅니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Timeout](./846_timeout.md)
-- [ACK](./839_ack.md)
-- [Packet Loss](./805_packet_loss.md)
+- Timeout
+- ACK
+- Packet Loss

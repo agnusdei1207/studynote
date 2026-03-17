@@ -1,7 +1,7 @@
----
-title: "545. 서비스 메시 (Service Mesh)"
-date: 2026-03-15
----
++++
+title = "545. 서비스 메시 (Service Mesh)"
+date = "2026-03-15"
++++
 
 # 545. 서비스 메시 (Service Mesh)
 
@@ -158,10 +158,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[MSA](./532_microservices_decomposition.md)**: 서비스 메시가 탄생하게 된 배경 아키텍처
-- **[API 게이트웨이](./542_api_gateway.md)**: 외부 트래픽을 담당하며 서비스 메시와 협력하는 기술
-- **[사이드카 패턴](./546_sidecar_pattern.md)**: 서비스 메시의 물리적 구현 방식
-- **[mTLS (Mutual TLS)](../3_network/xx_mtls.md)**: 서비스 메시가 제공하는 핵심 보안 메커니즘
+- **MSA**: 서비스 메시가 탄생하게 된 배경 아키텍처
+- **API 게이트웨이**: 외부 트래픽을 담당하며 서비스 메시와 협력하는 기술
+- **사이드카 패턴**: 서비스 메시의 물리적 구현 방식
+- **mTLS (Mutual TLS)**: 서비스 메시가 제공하는 핵심 보안 메커니즘
 
 ---
 

@@ -1,6 +1,7 @@
 +++
-weight = 14
 title = "14. API (Application Programming Interface), POSIX 표준"
+date = "2026-03-14"
+weight = 14
 +++
 
 # API (Application Programming Interface) 및 POSIX 표준
@@ -129,10 +130,10 @@ POSIX (Portable Operating System Interface)는 IEEE (Institute of Electrical and
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[시스템 호출 (System Call)](./13_system_call.md)**: API가 감싸고 있는 기저의 실제 커널 서비스 요청 인터페이스.
-- **[ABI (Application Binary Interface)](./15_abi.md)**: 소스 레벨의 API와 대비되는, 컴파일된 기계어 레벨의 호환성 규약.
-- **[glibc (GNU C Library)](./xx_glibc.md)**: 리눅스 시스템의 표준 POSIX API 구현체.
-- **[운영체제 이식성 (Portability)](./xx_portability.md)**: API 표준화를 통해 달성하고자 하는 궁극적인 기술 목표.
+- **시스템 호출 (System Call)**: API가 감싸고 있는 기저의 실제 커널 서비스 요청 인터페이스.
+- **ABI (Application Binary Interface)**: 소스 레벨의 API와 대비되는, 컴파일된 기계어 레벨의 호환성 규약.
+- **glibc (GNU C Library)**: 리눅스 시스템의 표준 POSIX API 구현체.
+- **운영체제 이식성 (Portability)**: API 표준화를 통해 달성하고자 하는 궁극적인 기술 목표.
 
 ---
 

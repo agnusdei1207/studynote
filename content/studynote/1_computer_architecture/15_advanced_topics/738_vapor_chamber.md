@@ -1,5 +1,6 @@
 +++
 title = "vapor chamber"
+date = "2026-03-14"
 weight = 738
 +++
 
@@ -307,10 +308,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [히트파이프](./739_heatpipe.md) - 1D 열전달
-- [서멀 페이스트](./737_thermal_paste.md) - TIM
-- [히트스프레더](./736_ihs.md) - IHS
-- [서버 섀시 팬 핫스왑](./740_chassis_fan_hotswap.md) - 쿨링
+- 히트파이프 - 1D 열전달
+- 서멀 페이스트 - TIM
+- 히트스프레더 - IHS
+- 서버 섀시 팬 핫스왑 - 쿨링
 
 ---
 

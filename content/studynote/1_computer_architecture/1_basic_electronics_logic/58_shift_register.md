@@ -1,6 +1,7 @@
 +++
-weight = 58
 title = "58. 시프트 레지스터 (Shift Register)"
+date = "2026-03-14"
+weight = 58
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -117,9 +118,9 @@ title = "58. 시프트 레지스터 (Shift Register)"
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[레지스터 (Register)](./57_register.md)**: 시프트 레지스터가 속한 상위 그룹.
-- **[플립플롭 (Flip-Flop)](./51_flip_flop.md)**: 시프트를 가능케 하는 기본 저장 단위.
-- **[산술 시프트 vs 논리 시프트](../2_data_representation/xx_shift.md)**: 시프트 레지스터의 연산적 활용.
+- **레지스터 (Register)**: 시프트 레지스터가 속한 상위 그룹.
+- **플립플롭 (Flip-Flop)**: 시프트를 가능케 하는 기본 저장 단위.
+- **산술 시프트 vs 논리 시프트**: 시프트 레지스터의 연산적 활용.
 
 ---
 

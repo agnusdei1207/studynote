@@ -1,5 +1,6 @@
 +++
 title = "확산 스펙트럼 (Spread Spectrum) - DSSS/FHSS"
+date = "2026-03-14"
 weight = 170
 +++
 
@@ -148,10 +149,10 @@ weight = 170
 ---
 
 ### 📌 관련 개념 링크**:
-- [CDMA](./113_cdma.md)
-- [GPS](./205_gps.md)
-- [블루투스](./215_bluetooth.md)
-- [LoRa](./216_lora.md)
+- CDMA
+- GPS
+- 블루투스
+- LoRa
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "Thread - 스레드"
+date = "2026-03-14"
 weight = 635
 +++
 
@@ -96,6 +97,6 @@ Thread는 프로세스 내의 실행 단위입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Concurrency](./634_concurrency.md)
-- [Process](./636_process.md)
-- [Lock](./632_lock.md)
+- Concurrency
+- Process
+- Lock

@@ -1,7 +1,7 @@
 +++
 title = "242. 우선순위 역전 (Priority Inversion)"
-weight = 242
 date = "2026-03-04"
+weight = 242
 [extra]
 categories = "studynote-operating-system"
 +++
@@ -13,7 +13,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 실시간 시스템(Real-time System)에서 마감 시간(Deadline)을 놓치게 만드는 치명적인 설계 결함으로, 1997년 화성 탐사선 패스파인더(Mars Pathfinder)의 잦은 리셋 원인으로 유명하다.
 > 3. **융합**: 스케줄링 정책과 동기화 메커니즘이 충돌하는 지점으로, 우선순위 상속(Inheritance)이나 우선순위 천장(Ceiling) 프로토콜을 통해 해결한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -23,7 +23,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 마치 구급차(H)가 길을 지나가야 하는데, 앞에 가는 소형차(L)가 교차로에서 신호를 기다리다 멈췄고, 그 옆으로 수많은 일반 승용차(M)들이 지나가느라 소형차가 움직이지 못해 결국 구급차도 꼼짝 못 하는 상황과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -55,7 +55,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 주방장(L)이 요리 도구(Lock)를 들고 있는데, 홀 직원(M)이 계속 주방장을 불러 심부름을 시키는 바람에, 도구를 기다리던 메인 셰프(H)가 요리를 시작도 못 하고 주방이 마비되는 것과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -70,7 +70,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 상속은 "급한 사람이 자기 권한을 빌려주는 것"이고, 천장은 "특수 장비를 잡는 순간 무조건 대장급 대우를 해주는 것"입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -84,7 +84,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 중요한 서류를 결재받아야 할 때, 말단 사원이 결재판을 들고 있다면 잠시 그 사원을 '부장 대우'로 승격시켜 아무도 방해 못 하게 보호하는 전략과 같습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 

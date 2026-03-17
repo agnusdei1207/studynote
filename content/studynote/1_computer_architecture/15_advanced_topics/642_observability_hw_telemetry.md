@@ -1,5 +1,6 @@
 +++
 title = "642. 옵저버빌리티 (Observability) HW 텔레메트리"
+date = "2026-03-14"
 weight = 642
 +++
 

@@ -1,7 +1,8 @@
----
-title: "424. ZRAM / 커널 스왑 압축 기술"
-weight: 424
----
++++
+title = "424. ZRAM / 커널 스왑 압축 기술"
+date = "2026-03-14"
+weight = 424
++++
 
 ## 💡 Insight
 - ZRAM은 물리 메모리의 일부를 가상 블록 장치로 사용하여, 데이터를 압축(Compression)한 상태로 RAM 내에 저장하는 기술이다.
@@ -78,11 +79,11 @@ weight: 424
 ---
 
 ## 🌳 지식 그래프 (Knowledge Graph)
-- **부모**: [390. 스왑 공간 Swap Space](./390_스왑_공간_Swap_Space_베이킹_스토어_Backing_Store.md)
+- **부모**: 390. 스왑 공간 Swap Space
 - **자식**: [압축 알고리즘 상세 (추후 예정)]
 - **유사 개념**:
-  - [Memory Management Unit (MMU)](../6_memory_hierarchy_cache/MMU_개념.md)
-  - [I/O Scheduling](../../8_io_storage_system/IO_Scheduling.md)
+  - Memory Management Unit (MMU)
+  - I/O Scheduling
 
 ## 👶 아이의 시각 (Child Analogy)
 > "내 방에 장난감이 너무 많아서 자리가 없으면, 보통은 베란다(Disk)로 치우잖아? 그런데 ZRAM은 장난감을 아주아주 작게 접을 수 있는 신비한 가방(압축)에 넣는 거야. 그럼 방 안에 장난감을 다 두고도 놀 수 있는 공간이 생기지! 필요할 땐 가방만 열면 금방 커지니까 베란다까지 안 가도 된단다."

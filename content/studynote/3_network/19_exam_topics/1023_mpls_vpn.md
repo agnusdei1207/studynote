@@ -1,5 +1,6 @@
 +++
 title = "MPLS VPN - MPLS 가상사설망"
+date = "2026-03-14"
 weight = 1023
 +++
 
@@ -104,6 +105,6 @@ MPLS VPN은 MPLS 기반의 가상사설망 서비스입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [MPLS](./1021_mpls.md)
-- [VRF](./1024_vrf.md)
-- [VPN](./711_vpn.md)
+- MPLS
+- VRF
+- VPN

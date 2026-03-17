@@ -1,5 +1,6 @@
 +++
 title = "Cilium - eBPF 기반 네트워킹"
+date = "2026-03-14"
 weight = 262
 +++
 
@@ -159,10 +160,10 @@ Cilium은 eBPF를 활용하여 Kubernetes 환경에서 네트워킹, 보안, 관
 ---
 
 ### 📌 관련 개념 링크**:
-- [eBPF](./259_ebpf.md)
-- [XDP](./260_xdp.md)
-- [Kubernetes](./263_kubernetes.md)
-- [Service Mesh](./264_service_mesh.md)
+- eBPF
+- XDP
+- Kubernetes
+- Service Mesh
 
 ---
 

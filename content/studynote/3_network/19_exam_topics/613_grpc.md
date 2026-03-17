@@ -1,5 +1,6 @@
 +++
 title = "gRPC (Google Remote Procedure Call) - 구글 RPC"
+date = "2026-03-14"
 weight = 613
 +++
 
@@ -96,6 +97,6 @@ gRPC는 Protocol Buffers와 HTTP/2를 사용합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [RPC](./614_rpc.md)
-- [HTTP/2](./615_http2.md)
-- [Protobuf](./616_protobuf.md)
+- RPC
+- HTTP/2
+- Protobuf

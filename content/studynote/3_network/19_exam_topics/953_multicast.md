@@ -1,5 +1,6 @@
 +++
 title = "Multicast - 멀티캐스트"
+date = "2026-03-14"
 weight = 953
 +++
 
@@ -114,6 +115,6 @@ Multicast는 하나의 송신자에서 그룹으로 전달합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Unicast](./951_unicast.md)
-- [Broadcast](./952_broadcast.md)
-- [IGMP](./xxx_igmp.md)
+- Unicast
+- Broadcast
+- IGMP

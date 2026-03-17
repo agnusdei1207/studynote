@@ -1,6 +1,7 @@
 +++
-weight = 533
 title = "533. 인덱스 블록 (Index Block)"
+date = "2026-03-14"
+weight = 533
 +++
 
 # [Index Block (인덱스 블록)]

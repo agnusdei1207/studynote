@@ -1,5 +1,6 @@
 +++
 title = "TCP Timers - TCP 타이머"
+date = "2026-03-14"
 weight = 506
 +++
 
@@ -96,6 +97,6 @@ TCP Timers는 연결 상태를 시간 기반으로 관리합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./332_tcp.md)
-- [RTO](./515_tcp_rto.md)
-- [TIME_WAIT](./511_time_wait.md)
+- TCP
+- RTO
+- TIME_WAIT

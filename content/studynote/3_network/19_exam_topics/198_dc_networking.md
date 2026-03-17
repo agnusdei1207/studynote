@@ -1,5 +1,6 @@
 +++
 title = "데이터센터 네트워킹 (DC Networking) - Spine-Leaf"
+date = "2026-03-14"
 weight = 198
 +++
 
@@ -147,10 +148,10 @@ weight = 198
 ---
 
 ### 📌 관련 개념 링크**:
-- [VXLAN](./202_vxlan.md)
-- [EVPN](./202_evpn.md)
-- [스위치](./201_switch.md)
-- [ECMP](./202_ecmp.md)
+- VXLAN
+- EVPN
+- 스위치
+- ECMP
 
 ---
 

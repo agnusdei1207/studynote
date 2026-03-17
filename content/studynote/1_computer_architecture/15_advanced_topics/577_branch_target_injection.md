@@ -1,5 +1,6 @@
 +++
 title = "분기 목표 주입 (Branch Target Injection)"
+date = "2026-03-14"
 weight = 577
 +++
 

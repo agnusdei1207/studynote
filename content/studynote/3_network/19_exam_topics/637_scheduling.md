@@ -1,5 +1,6 @@
 +++
 title = "Scheduling - 스케줄링"
+date = "2026-03-14"
 weight = 637
 +++
 
@@ -100,6 +101,6 @@ Scheduling은 CPU 시간을 프로세스에 분배합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Process](./636_process.md)
-- [Thread](./635_thread.md)
-- [OS Kernel](./639_os_kernel.md)
+- Process
+- Thread
+- OS Kernel

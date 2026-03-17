@@ -1,5 +1,6 @@
 +++
 title = "Loopback - 루프백"
+date = "2026-03-14"
 weight = 960
 +++
 
@@ -115,6 +116,6 @@ Loopback은 자신의 컴퓨터 내부 통신입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [IP Address](./xxx_ip_address.md)
-- [Localhost](./xxx_localhost.md)
-- [Network Interface](./xxx_network_interface.md)
+- IP Address
+- Localhost
+- Network Interface

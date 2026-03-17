@@ -1,5 +1,6 @@
 +++
 title = "HSRP - 핫 스탠바이 라우터 프로토콜"
+date = "2026-03-14"
 weight = 273
 +++
 
@@ -162,10 +163,10 @@ HSRP(Hot Standby Router Protocol)는 시스코 전용 게이트웨이 이중화 
 ---
 
 ### 📌 관련 개념 링크**:
-- [VRRP](./272_vrrp.md)
-- [GLBP](./274_glbp.md)
-- [FHRP](./275_fhrp.md)
-- [게이트웨이](./140_gateway.md)
+- VRRP
+- GLBP
+- FHRP
+- 게이트웨이
 
 ---
 

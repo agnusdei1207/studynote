@@ -1,5 +1,6 @@
 +++
 title = "비즈니스 연속성 (Business Continuity) - BC"
+date = "2026-03-14"
 weight = 279
 +++
 
@@ -157,10 +158,10 @@ weight = 279
 ---
 
 ### 📌 관련 개념 링크**:
-- [재해 복구](./278_disaster_recovery.md)
-- [RTO/RPO](./280_rto_rpo.md)
-- [고가용성](./276_high_availability.md)
-- [백업](./281_backup.md)
+- 재해 복구
+- RTO/RPO
+- 고가용성
+- 백업
 
 ---
 

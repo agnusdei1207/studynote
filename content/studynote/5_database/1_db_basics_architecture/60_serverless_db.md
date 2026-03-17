@@ -1,7 +1,6 @@
 +++
 title = "60. 서버리스 데이터베이스 (Serverless DB) - 자동 확장 아키텍처"
 date = "2026-03-16"
-draft = false
 weight = 60
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["Serverless Database", "서버리스 DB", "Amazon Aurora Serverless"
 > 2. **혁신적 구조**: 컴퓨팅 계층(SQL 처리)과 스토리지 계층(데이터 저장)을 완전히 분리하여, 사용하지 않을 때는 리소스를 0으로 낮추고 트래픽 급증 시 즉각적으로 대응하는 **고유연성 분산 아키텍처**를 가진다.
 > 3. **가치**: 인프라 운영 부담(NoOps)을 최소화하고 실제 사용한 만큼만 비용을 지불(Pay-as-you-go)함으로써, 가변적인 트래픽을 가진 서비스나 개발/테스트 환경에서 압도적인 비용 효율성과 민첩성을 제공한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -49,7 +48,7 @@ keywords = ["Serverless Database", "서버리스 DB", "Amazon Aurora Serverless"
 
 - **📢 섹션 요약 비유**: 서버리스 DB는 사용자의 발걸음에 맞춰 실시간으로 길을 깔아주는 '움직이는 도로'와 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -96,7 +95,7 @@ keywords = ["Serverless Database", "서버리스 DB", "Amazon Aurora Serverless"
 
 - **📢 섹션 요약 비유**: 분리 구조는 '숙소(스토리지)는 그대로 두고, 손님(컴퓨팅)만 들락날락하는 호텔'과 같아 객실 관리가 매우 효율적입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -116,7 +115,7 @@ keywords = ["Serverless Database", "서버리스 DB", "Amazon Aurora Serverless"
 
 - **📢 섹션 요약 비유**: 서버리스가 '필요할 때 부르는 우버(Uber)'라면, 프로비저닝은 '매달 리스료를 내는 개인 차량'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -135,7 +134,7 @@ keywords = ["Serverless Database", "서버리스 DB", "Amazon Aurora Serverless"
 
 - **📢 섹션 요약 비유**: 서버리스를 무조건 쓰는 것은 '매일 출퇴근하는 사람이 택시만 타는 것'과 같이 비효율적일 수 있습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -153,15 +152,15 @@ keywords = ["Serverless Database", "서버리스 DB", "Amazon Aurora Serverless"
 
 - **📢 섹션 요약 비유**: 미래의 데이터베이스는 우리가 숨 쉬는 '공기'처럼, 존재를 느끼지 못할 정도로 자연스럽게 우리 곁에 머물며 필요한 가치를 제공할 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[Auto-scaling](@/studynote/13_cloud_architecture/_index.md)**: 서버리스의 핵심 작동 원리.
-- **[분산 스토리지](./59_persistent_storage.md)**: 서버리스 구조를 뒷받침하는 저장소 기술.
-- **[마이크로서비스 아키텍처 (MSA)](@/studynote/4_software_engineering/_index.md)**: 서버리스 DB를 가장 필요로 하는 대상.
-- **[NoOps](@/studynote/15_devops_sre/_index.md)**: 서버리스가 지향하는 운영 철학.
+- **Auto-scaling**: 서버리스의 핵심 작동 원리.
+- **분산 스토리지**: 서버리스 구조를 뒷받침하는 저장소 기술.
+- **마이크로서비스 아키텍처 (MSA)**: 서버리스 DB를 가장 필요로 하는 대상.
+- **NoOps**: 서버리스가 지향하는 운영 철학.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **서버리스 DB**는 컴퓨터가 숙제를 할 때, **숙제가 많으면 로봇 친구들을 많이 부르고, 숙제가 적으면 로봇들을 돌려보내는 것**과 같아요.

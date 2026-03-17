@@ -1,6 +1,7 @@
 +++
-weight = 524
 title = "524. 파일 제어 블록 (FCB, File Control Block) / 아이노드 (inode)"
+date = "2026-03-14"
+weight = 524
 +++
 
 # 524. 파일 제어 블록 (FCB, File Control Block) / 아이노드 (inode)

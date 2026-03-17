@@ -1,5 +1,6 @@
 +++
 title = "Edge Computing - 엣지 컴퓨팅"
+date = "2026-03-14"
 weight = 607
 +++
 
@@ -100,6 +101,6 @@ Edge Computing은 데이터 생성지 근처에서 처리합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [IoT](./608_iot.md)
-- [5G](./609_5g.md)
-- [Cloud Computing](./610_cloud.md)
+- IoT
+- 5G
+- Cloud Computing

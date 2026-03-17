@@ -1,5 +1,6 @@
 +++
 title = "Geneve - 제네릭 네트워크 가상화 캡슐화"
+date = "2026-03-14"
 weight = 1000
 +++
 
@@ -111,6 +112,6 @@ Geneve (Generic Network Virtualization Encapsulation)는 확장 가능한 오버
 ---
 
 ### 📌 관련 개념 링크**:
-- [VXLAN](./998_vxlan.md)
-- [NVGRE](./999_nvgre.md)
-- [Network Overlay](./1001_network_overlay.md)
+- VXLAN
+- NVGRE
+- Network Overlay

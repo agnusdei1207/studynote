@@ -1,6 +1,7 @@
 +++
-weight = 3
 title = "3. 저항 (Resistance)"
+date = "2026-03-14"
+weight = 3
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -149,10 +150,10 @@ title = "3. 저항 (Resistance)"
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[전압 (Voltage)](./1_voltage.md)**: 저항에 전류가 흐를 때 강하가 일어나는 대상.
-- **[임피던스 (Impedance)](./4_impedance.md)**: 교류(AC) 환경에서의 저항 개념 확장 (커패시턴스, 인덕턴스 포함).
-- **[RC 지연 (RC Delay)](../3_architecture_performance/xx_rc_delay.md)**: 저항과 커패시턴스가 만드는 신호의 시간적 한계.
-- **[열 설계 전력 (TDP)](../13_reliability_power/xx_tdp.md)**: 저항에 의한 발열($I^2 R$)이 결정하는 시스템 전력 한계.
+- **전압 (Voltage)**: 저항에 전류가 흐를 때 강하가 일어나는 대상.
+- **임피던스 (Impedance)**: 교류(AC) 환경에서의 저항 개념 확장 (커패시턴스, 인덕턴스 포함).
+- **RC 지연 (RC Delay)**: 저항과 커패시턴스가 만드는 신호의 시간적 한계.
+- **열 설계 전력 (TDP)**: 저항에 의한 발열($I^2 R$)이 결정하는 시스템 전력 한계.
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "TCP Keepalive - TCP 연결 유지"
+date = "2026-03-14"
 weight = 509
 +++
 
@@ -92,6 +93,6 @@ TCP Keepalive는 연결이 살아있는지 주기적으로 확인합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./332_tcp.md)
-- [TCP Timers](./506_tcp_timers.md)
-- [Heartbeat](./510_heartbeat.md)
+- TCP
+- TCP Timers
+- Heartbeat

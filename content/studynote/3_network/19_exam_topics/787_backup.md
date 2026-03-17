@@ -1,5 +1,6 @@
 +++
 title = "Backup - 백업"
+date = "2026-03-14"
 weight = 787
 +++
 
@@ -102,6 +103,6 @@ Backup은 데이터 복사본을 보관합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Disaster Recovery](./786_disaster_recovery.md)
-- [Storage](./xxx_storage.md)
-- [RPO](./xxx_rpo.md)
+- Disaster Recovery
+- Storage
+- RPO

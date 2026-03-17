@@ -1,5 +1,6 @@
 +++
 title = "페이딩 (Fading) - 플랫/주파수 선택적"
+date = "2026-03-14"
 weight = 162
 +++
 
@@ -141,10 +142,10 @@ weight = 162
 ---
 
 ### 📌 관련 개념 링크**:
-- [다중경로](./163_multipath.md)
-- [등화](./164_equalization.md)
-- [다이버시티](./165_diversity.md)
-- [OFDM](./107_ofdm.md)
+- 다중경로
+- 등화
+- 다이버시티
+- OFDM
 
 ---
 

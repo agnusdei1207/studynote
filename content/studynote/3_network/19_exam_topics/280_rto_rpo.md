@@ -1,5 +1,6 @@
 +++
 title = "RTO/RPO - 복구 시간/시점 목표"
+date = "2026-03-14"
 weight = 280
 +++
 
@@ -143,10 +144,10 @@ RTO(Recovery Time Objective)는 복구 시간 목표, RPO(Recovery Point Objecti
 ---
 
 ### 📌 관련 개념 링크**:
-- [재해 복구](./278_disaster_recovery.md)
-- [비즈니스 연속성](./279_business_continuity.md)
-- [백업](./281_backup.md)
-- [고가용성](./276_high_availability.md)
+- 재해 복구
+- 비즈니스 연속성
+- 백업
+- 고가용성
 
 ---
 

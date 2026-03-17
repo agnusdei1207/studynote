@@ -1,5 +1,6 @@
 +++
 title = "zns ssd"
+date = "2026-03-14"
 weight = 703
 +++
 
@@ -350,10 +351,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [다중 스트림 쓰기](./702_nvme_multistream_write.md) - 쓰기 최적화
-- [NVMe 네임스페이스](./700_nvme_namespaces.md) - 논리 공간 분할
-- [NVMe 서브시스템](./701_nvme_subsystem.md) - NVMe 아키텍처
-- [SMR HDD](./smr_hdd.md) - 유사한 Zone 개념
+- 다중 스트림 쓰기 - 쓰기 최적화
+- NVMe 네임스페이스 - 논리 공간 분할
+- NVMe 서브시스템 - NVMe 아키텍처
+- SMR HDD - 유사한 Zone 개념
 
 ---
 

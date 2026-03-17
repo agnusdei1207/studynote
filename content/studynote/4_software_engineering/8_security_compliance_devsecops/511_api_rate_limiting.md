@@ -1,7 +1,7 @@
----
-title: "511. API Rate Limiting 및 Throttling"
-date: 2026-03-15
----
++++
+title = "511. API Rate Limiting 및 Throttling"
+date = "2026-03-15"
++++
 
 # 511. API Rate Limiting 및 Throttling
 
@@ -159,10 +159,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[API 게이트웨이](./510_api_security_jwt.md)**: 트래픽 제어가 실제로 수행되는 위치
-- **[DDoS 공격 방어](../xx_ddos.md)**: Rate Limiting의 가장 강력한 동기
-- **[서킷 브레이커](./569_resilience_patterns.md)**: 트래픽 제어와 함께 시스템을 지키는 협력 패턴
-- **[Redis](../5_database/xx_redis.md)**: 고속 트래픽 카운팅을 위한 기술
+- **API 게이트웨이**: 트래픽 제어가 실제로 수행되는 위치
+- **DDoS 공격 방어**: Rate Limiting의 가장 강력한 동기
+- **서킷 브레이커**: 트래픽 제어와 함께 시스템을 지키는 협력 패턴
+- **Redis**: 고속 트래픽 카운팅을 위한 기술
 
 ---
 

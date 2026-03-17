@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Account Takeover (ATO) 🥈 Silver"
-description = "LUXORA 플랫폼의 Silver 난이도 ATO 롸잇업 - 예측 가능한 패스워드 재설정 토큰을 이용한 계정 탈취"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "ATO", "Account Takeover", "Silver", "Predictable Token", "Write-up"]

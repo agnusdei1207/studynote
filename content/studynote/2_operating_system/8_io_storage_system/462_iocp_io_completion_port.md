@@ -1,6 +1,7 @@
 +++
-weight = 462
 title = "462. I/O 완료 포트 (IOCP, I/O Completion Port)"
+date = "2026-03-14"
+weight = 462
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -116,9 +117,9 @@ title = "462. I/O 완료 포트 (IOCP, I/O Completion Port)"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[비동기 I/O (Asynchronous I/O)](./461_async_io_aio.md)**: IOCP가 구현하는 상위 개념.
-- **[epoll / kqueue](./463_epoll_kqueue.md)**: 타 운영체제의 경쟁 모델.
-- **[컨텍스트 스위칭 (Context Switching)](./xx_context_switch.md)**: IOCP가 해결하고자 하는 주요 성능 병목.
+- **비동기 I/O (Asynchronous I/O)**: IOCP가 구현하는 상위 개념.
+- **epoll / kqueue**: 타 운영체제의 경쟁 모델.
+- **컨텍스트 스위칭 (Context Switching)**: IOCP가 해결하고자 하는 주요 성능 병목.
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "SASE (보안 액세스 서비스 엣지) - Secure Access Service Edge"
+date = "2026-03-14"
 weight = 445
 +++
 
@@ -141,10 +142,10 @@ SASE는 네트워크와 보안을 클라우드에서 통합 제공합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [SD-WAN](./442_sdwan.md)
-- [제로 트러스트](./415_zero_trust.md)
-- [CASB](./416_casb.md)
-- [클라우드 보안](./417_cloud_security.md)
+- SD-WAN
+- 제로 트러스트
+- CASB
+- 클라우드 보안
 
 ---
 

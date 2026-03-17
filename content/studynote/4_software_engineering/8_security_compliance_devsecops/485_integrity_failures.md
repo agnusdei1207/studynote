@@ -1,7 +1,7 @@
----
-title: "485. Software and Data Integrity Failures (소프트웨어 및 데이터 무결성 실패)"
-date: 2026-03-15
----
++++
+title = "485. Software and Data Integrity Failures (소프트웨어 및 데이터 무결성 실패)"
+date = "2026-03-15"
++++
 
 # 485. Software and Data Integrity Failures (소프트웨어 및 데이터 무결성 실패)
 
@@ -150,10 +150,10 @@ Google이 주도하는 소프트웨어 공급망 보안 프레임워크다.
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[OWASP Top 10 (A08)](./477_owasp_top_10.md)**: 무결성 실패가 포함된 표준 리포트
-- **[SCA (Software Composition Analysis)](./495_sca.md)**: 소프트웨어 구성 요소의 무결성을 체크하는 기술
-- **[코드 서명 (Code Signing)](./xx_code_signing.md)**: 바이너리 무결성 보장을 위한 핵심 수단
-- **[SLSA](./xx_slsa.md)**: 공급망 무결성 수준을 평가하는 프레임워크
+- **OWASP Top 10 (A08)**: 무결성 실패가 포함된 표준 리포트
+- **SCA (Software Composition Analysis)**: 소프트웨어 구성 요소의 무결성을 체크하는 기술
+- **코드 서명 (Code Signing)**: 바이너리 무결성 보장을 위한 핵심 수단
+- **SLSA**: 공급망 무결성 수준을 평가하는 프레임워크
 
 ---
 

@@ -1,6 +1,7 @@
 +++
-weight = 18
 title = "18. CMOS (Complementary MOS)"
+date = "2026-03-14"
+weight = 18
 +++
 
 # # [CMOS (Complementary Metal-Oxide-Semiconductor)]

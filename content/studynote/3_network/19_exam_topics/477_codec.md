@@ -1,5 +1,6 @@
 +++
 title = "멀티미디어 코덱 - Multimedia Codec"
+date = "2026-03-14"
 weight = 477
 +++
 
@@ -141,10 +142,10 @@ weight = 477
 ---
 
 ### 📌 관련 개념 링크**:
-- [VoLTE](./471_volte.md)
-- [WebRTC](./478_webrtc.md)
-- [RTP](./344_rtp.md)
-- [스트리밍](./479_streaming.md)
+- VoLTE
+- WebRTC
+- RTP
+- 스트리밍
 
 ---
 

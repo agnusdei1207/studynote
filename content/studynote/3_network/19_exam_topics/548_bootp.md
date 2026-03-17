@@ -1,5 +1,6 @@
 +++
 title = "BOOTP (Bootstrap Protocol) - 부트스트랩 프로토콜"
+date = "2026-03-14"
 weight = 548
 +++
 
@@ -96,6 +97,6 @@ BOOTP는 IP 할당과 부팅 정보를 제공합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [DHCP](./547_dhcp.md)
-- [RARP](./540_rarp.md)
-- [TFTP](./549_tftp.md)
+- DHCP
+- RARP
+- TFTP

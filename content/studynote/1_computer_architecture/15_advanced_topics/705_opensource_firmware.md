@@ -1,5 +1,6 @@
 +++
 title = "opensource firmware"
+date = "2026-03-14"
 weight = 705
 +++
 
@@ -346,10 +347,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [UEFI](./706_uefi.md) - UEFI 인터페이스
-- [ACPI](./707_acpi.md) - 전원 관리 인터페이스
-- [TPM (Trusted Platform Module)](./tpm.md) - 신뢰형 플랫폼 모듈
-- [Secure Boot](./secure_boot.md) - 보안 부팅
+- UEFI - UEFI 인터페이스
+- ACPI - 전원 관리 인터페이스
+- TPM (Trusted Platform Module) - 신뢰형 플랫폼 모듈
+- Secure Boot - 보안 부팅
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "서브네팅 (Subnetting) - FLSM/VLSM/CIDR"
+date = "2026-03-14"
 weight = 205
 +++
 
@@ -154,10 +155,10 @@ weight = 205
 ---
 
 ### 📌 관련 개념 링크**:
-- [IPv4](./102_ipv4.md)
-- [라우팅](./203_routing_protocol.md)
-- [VLAN](./203_vlan.md)
-- [CIDR](./202_cidr.md)
+- IPv4
+- 라우팅
+- VLAN
+- CIDR
 
 ---
 

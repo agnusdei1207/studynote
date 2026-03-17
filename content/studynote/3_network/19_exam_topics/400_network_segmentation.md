@@ -1,5 +1,6 @@
 +++
 title = "네트워크 분할 - Network Segmentation"
+date = "2026-03-14"
 weight = 400
 +++
 
@@ -145,10 +146,10 @@ weight = 400
 ---
 
 ### 📌 관련 개념 링크**:
-- [Zero Trust](./399_zero_trust.md)
-- [VLAN](./301_vlan.md)
-- [Firewall](./302_firewall.md)
-- [DMZ](./303_dmz.md)
+- Zero Trust
+- VLAN
+- Firewall
+- DMZ
 
 ---
 

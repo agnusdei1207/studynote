@@ -1,5 +1,6 @@
 +++
 title = "해시 함수 - Hash Function"
+date = "2026-03-14"
 weight = 395
 +++
 
@@ -143,10 +144,10 @@ weight = 395
 ---
 
 ### 📌 관련 개념 링크**:
-- [Digital Signature](./390_digital_signature.md)
-- [PKI](./387_pki.md)
-- [Blockchain](./16_bigdata/240_blockchain.md)
-- [MAC](./9_security/150_mac.md)
+- Digital Signature
+- PKI
+- Blockchain
+- MAC
 
 ---
 

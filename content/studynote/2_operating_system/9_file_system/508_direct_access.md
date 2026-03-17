@@ -1,7 +1,7 @@
----
 +++
-weight = 508
 title = "508. 직접 접근 (Direct Access / Relative Access)"
+date = "2026-03-14"
+weight = 508
 +++
 
 # [508] 직접 접근 (Direct Access / Relative Access)

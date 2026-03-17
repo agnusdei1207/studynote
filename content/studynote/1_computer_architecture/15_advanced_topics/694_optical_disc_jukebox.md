@@ -1,5 +1,6 @@
 +++
 title = "optical disc jukebox"
+date = "2026-03-14"
 weight = 694
 +++
 
@@ -400,11 +401,11 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [WORM 스토리지](./693_worm_storage.md) - 불변성 메커니즘
-- [테이프 라이브러리](./692_tape_library.md) - 순차 접근 아카이브
-- [MAID](./691_maid.md) - HDD 기반 아카이브
-- [계층형 스토리지 (HSM)](./hsm.md) - 자동 데이터 계층 이동
-- [PACS (Picture Archiving)](./pacs.md) - 의료 영상 아카이브
+- WORM 스토리지 - 불변성 메커니즘
+- 테이프 라이브러리 - 순차 접근 아카이브
+- MAID - HDD 기반 아카이브
+- 계층형 스토리지 (HSM) - 자동 데이터 계층 이동
+- PACS (Picture Archiving) - 의료 영상 아카이브
 
 ---
 

@@ -1,3 +1,8 @@
++++
+title = "100. 언팩드 BCD (Unpacked BCD)"
+date = "2026-03-14"
+[extra]
++++
 
 # 100. 언팩드 BCD (Unpacked BCD)
 

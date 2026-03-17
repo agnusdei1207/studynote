@@ -1,7 +1,7 @@
 +++
-weight = 656
 title = "656. 프로세스 동기화 프리미티브(Mutex, Semaphore, Spinlock) 비교표"
 date = "2024-05-23"
+weight = 656
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "Synchronization", "Mutex", "Semaphore", "Spinlock", "Race Condition"]
@@ -12,7 +12,7 @@ keywords = ["운영체제", "Synchronization", "Mutex", "Semaphore", "Spinlock",
 > 뮤텍스(Mutex), 세마포어(Semaphore), 스핀락(Spinlock)은 각기 다른 대기 방식과 자원 관리 메커니즘을 가지고 있으며, 이는 성능과 시스템 복잡도 사이의 균형을 결정한다.
 > 하드웨어의 원자적 명령어(Atomic Instruction) 지원을 기반으로 소프트웨어적 추상화가 이루어지며, 데드락(Deadlock) 방지를 위한 정교한 설계가 수반되어야 한다.
 
----
++++
 
 ### Ⅰ. 임계 구역(Critical Section)과 동기화의 필요성
 
@@ -25,7 +25,7 @@ keywords = ["운영체제", "Synchronization", "Mutex", "Semaphore", "Spinlock",
 
 📢 섹션 요약 비유: 임계 구역은 '화장실 한 칸'과 같아서, 동시에 여러 명이 들어가면 곤란해지므로 '잠금 장치'가 필요합니다.
 
----
++++
 
 ### Ⅱ. 주요 동기화 프리미티브 비교표
 
@@ -52,7 +52,7 @@ keywords = ["운영체제", "Synchronization", "Mutex", "Semaphore", "Spinlock",
 
 📢 섹션 요약 비유: 뮤텍스는 '하나뿐인 열쇠'이고, 세마포어는 '자리가 여러 개인 주차장 입구 전광판'이며, 스핀락은 '문이 열릴 때까지 문고리를 계속 돌려보는 것'과 같습니다.
 
----
++++
 
 ### Ⅲ. 세마포어(Semaphore)의 상세 동작 (P, V 연산)
 
@@ -65,7 +65,7 @@ keywords = ["운영체제", "Synchronization", "Mutex", "Semaphore", "Spinlock",
 
 📢 섹션 요약 비유: 주차장에 빈자리가 있으면 들어가고(P), 나갈 때 빈자리가 하나 늘었다고 알려주는(V) 관리원과 같습니다.
 
----
++++
 
 ### Ⅳ. 하드웨어 기반 동기화 및 소프트웨어 기법
 
@@ -79,7 +79,7 @@ keywords = ["운영체제", "Synchronization", "Mutex", "Semaphore", "Spinlock",
 
 📢 섹션 요약 비유: 번호표 기계(Atomic Instruction)가 있어서 한 번에 한 명만 번호표를 뽑는 것을 보장해주는 원리와 같습니다.
 
----
++++
 
 ### Ⅴ. 동기화 관련 고전적 문제 및 해결
 
@@ -92,7 +92,7 @@ keywords = ["운영체제", "Synchronization", "Mutex", "Semaphore", "Spinlock",
 
 📢 섹션 요약 비유: 식당에서 젓가락이 한 짝씩밖에 없을 때, 모두가 왼쪽 것만 들고 오른쪽 것을 기다리다가 굶어 죽지 않게 하는 규칙을 세우는 것과 같습니다.
 
----
++++
 
 ### 💡 지식 그래프(Knowledge Graph)
 - **부모 노드**: 프로세스 동기화(Process Synchronization)

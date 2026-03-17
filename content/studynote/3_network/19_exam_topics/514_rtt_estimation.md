@@ -1,5 +1,6 @@
 +++
 title = "RTT Estimation - RTT 추정"
+date = "2026-03-14"
 weight = 514
 +++
 
@@ -97,6 +98,6 @@ RTO = EstimatedRTT + 4 × DevRTT
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./332_tcp.md)
-- [RTO](./515_tcp_rto.md)
-- [Karn's Algorithm](./514_karn_algorithm.md)
+- TCP
+- RTO
+- Karn's Algorithm

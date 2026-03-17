@@ -1,5 +1,6 @@
 +++
 title = "Redundancy - 이중화"
+date = "2026-03-14"
 weight = 919
 +++
 
@@ -104,6 +105,6 @@ Redundancy는 장애 대비 예비 자원을 확보합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [HA](./918_high_availability.md)
-- [Failover](./917_failover.md)
-- [RAID](./xxx_raid.md)
+- HA
+- Failover
+- RAID

@@ -1,5 +1,6 @@
 +++
 title = "Nagios - 오픈소스 모니터링"
+date = "2026-03-14"
 weight = 319
 +++
 
@@ -147,10 +148,10 @@ Nagios는 오픈소스 기반 인프라 모니터링 플랫폼입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Zabbix](./320_zabbix.md)
-- [Prometheus](./15_devops_sre/222_prometheus.md)
-- [PRTG](./318_prtg.md)
-- [모니터링](./296_network_monitoring.md)
+- Zabbix
+- Prometheus
+- PRTG
+- 모니터링
 
 ---
 

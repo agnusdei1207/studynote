@@ -1,5 +1,6 @@
 +++
 title = "빔포밍 (Beamforming) - 디지털/아날로그/하이브리드"
+date = "2026-03-14"
 weight = 177
 +++
 
@@ -153,10 +154,10 @@ weight = 177
 ---
 
 ### 📌 관련 개념 링크**:
-- [안테나 배열](./176_array.md)
-- [MIMO](./178_mimo.md)
-- [5G NR](./211_5g_nr.md)
-- [mmWave](./156_mmwave.md)
+- 안테나 배열
+- MIMO
+- 5G NR
+- mmWave
 
 ---
 

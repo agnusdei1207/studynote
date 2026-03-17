@@ -1,10 +1,9 @@
----
-title: "[ICT] #155. 오픈 랜 (O-RAN) 및 C-RAN"
-date: "2026-03-17"
++++
+title = "[ICT] #155. 오픈 랜 (O-RAN) 및 C-RAN"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "O_RAN_OpenRAN_CRAN_CloudRAN_Whitebox_vRAN_5G"
----
+keyword = "O_RAN_OpenRAN_CRAN_CloudRAN_Whitebox_vRAN_5G"
++++
 
 # O-RAN 및 C-RAN: 통신망의 하드웨어 종속성을 부수고 클라우드로 진화하는 기지국 혁명
 
@@ -13,7 +12,7 @@ keyword: "O_RAN_OpenRAN_CRAN_CloudRAN_Whitebox_vRAN_5G"
 > 2. **가치**: 값비싼 전용 통신 장비 대신 일반적인 범용 서버(Whitebox)에 통신 소프트웨어를 깔아 쓸 수 있게 하여 구축 비용(CAPEX)을 파괴적으로 낮추고 통신망의 벤더 종속성(Lock-in)을 탈피한다.
 > 3. **융합**: 안테나(RU)를 제외한 기지국의 두뇌(DU/CU)를 중앙 클라우드로 모아 가상화하는 C-RAN(Cloud RAN) 및 vRAN 기술과 완벽히 결합하여, 5G 및 6G 인프라의 클라우드 네이티브화를 완성한다.
 
----
++++
 
 ## Ⅰ. O-RAN 및 C-RAN 개요
 
@@ -32,7 +31,7 @@ keyword: "O_RAN_OpenRAN_CRAN_CloudRAN_Whitebox_vRAN_5G"
 
 📢 **섹션 요약 비유**: 특정 건설사의 비싼 벽돌만 써야 했던 통신망 건축을, 누구나 찍어낼 수 있는 표준 레고 블록 조립식으로 바꾸어 비용을 반값으로 깎은 혁명입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -88,7 +87,7 @@ keyword: "O_RAN_OpenRAN_CRAN_CloudRAN_Whitebox_vRAN_5G"
 
 📢 **섹션 요약 비유**: 각자 자기네 말만 하던 각국의 공장장(장비)들을 한 사무실(C-RAN)에 모아놓고, '영어(eCPRI)'라는 공용어를 강제로 쓰게 만들어 완벽한 협동을 이끌어낸 것입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -108,7 +107,7 @@ keyword: "O_RAN_OpenRAN_CRAN_CloudRAN_Whitebox_vRAN_5G"
 
 📢 **섹션 요약 비유**: 피처폰 시대(기존 RAN)에서 제조사가 넣어준 계산기만 쓰다가, 스마트폰 시대(O-RAN)가 열려 앱스토어(RIC)에서 누구나 만든 최적화 앱(xApp)을 깔아 쓰는 패러다임 전환입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -126,7 +125,7 @@ keyword: "O_RAN_OpenRAN_CRAN_CloudRAN_Whitebox_vRAN_5G"
 
 📢 **섹션 요약 비유**: 조립식 컴퓨터가 가성비는 최고지만 블루스크린이 떴을 때 아무도 AS를 안 해주는 것처럼, O-RAN을 쓰려면 통신사 스스로가 최고의 컴퓨터 조립/수리 전문가(SI)가 되어야 합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -140,13 +139,13 @@ keyword: "O_RAN_OpenRAN_CRAN_CloudRAN_Whitebox_vRAN_5G"
 
 📢 **섹션 요약 비유**: O-RAN과 C-RAN은 폐쇄적인 성벽을 허물고 전 세계의 두뇌(S/W)를 빌려 쓰는 '집단 지성 네트워크'의 탄생입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[5G SA / SBA](./149_5g_sa_sba.md)**: O-RAN 기지국이 최종적으로 데이터를 올려보내는 클라우드 기반 코어망.
-- **[SDN / NFV](../../3_network/xx_sdn_nfv.md)**: 통신 장비를 소프트웨어로 분리(O-RAN)하고 클라우드화(C-RAN)하는 원천 기술.
-- **[오프로딩 (SmartNIC)](#)**: O-RAN의 성능 저하를 막기 위해 연산을 분산하는 칩셋 기술.
-- **[네트워크 슬라이싱](./147_5g_network_slicing.md)**: O-RAN의 RIC(AI 컨트롤러)가 정밀하게 제어할 맞춤형 망 분할 기술.
+- **5G SA / SBA**: O-RAN 기지국이 최종적으로 데이터를 올려보내는 클라우드 기반 코어망.
+- **SDN / NFV**: 통신 장비를 소프트웨어로 분리(O-RAN)하고 클라우드화(C-RAN)하는 원천 기술.
+- **오프로딩 (SmartNIC)**: O-RAN의 성능 저하를 막기 위해 연산을 분산하는 칩셋 기술.
+- **네트워크 슬라이싱**: O-RAN의 RIC(AI 컨트롤러)가 정밀하게 제어할 맞춤형 망 분할 기술.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **조립식 기지국 (O-RAN)**: 예전에는 비싼 브랜드 장난감 세트를 통째로 사야 했지만, 이제는 얼굴, 팔, 다리를 내가 원하는 싼 부품으로 마음대로 조립할 수 있는 로봇이에요.

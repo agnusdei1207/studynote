@@ -1,5 +1,6 @@
 +++
 title = "Throughput - 처리량"
+date = "2026-03-14"
 weight = 802
 +++
 
@@ -102,6 +103,6 @@ Throughput은 단위 시간당 처리 수입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Latency](./801_latency.md)
-- [Performance](./xxx_performance.md)
-- [Scalability](./xxx_scalability.md)
+- Latency
+- Performance
+- Scalability

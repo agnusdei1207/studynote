@@ -1,5 +1,6 @@
 +++
 title = "Bluetooth - 블루투스"
+date = "2026-03-14"
 weight = 903
 +++
 
@@ -108,6 +109,6 @@ Bluetooth는 단거리 무선 통신 기술입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [WPAN](./xxx_wpan.md)
-- [BLE](./xxx_ble.md)
-- [Zigbee](./906_zigbee.md)
+- WPAN
+- BLE
+- Zigbee

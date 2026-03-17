@@ -1,7 +1,7 @@
 +++
-weight = 644
 title = "644. Docker"
 date = "2026-03-16"
+weight = 644
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "Docker", "컨테이너", "이미지", "Dockerfile", "Docker Compose"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "Docker", "컨테이너", "이미지", "Dockerfile",
 > 2. **가치**: "Build once, run anywhere"를 실현하여 **개발/테스트/운영 환경 차이를 해소**하고, 마이크로서비스, CI/CD의 표준 인프라가 되었다.
 > 3. **융합**: Docker Engine, Docker Hub(레지스트리), Docker Compose, Docker Swarm 등 **생태계**를 형성하며, Kubernetes와 호환된다.
 
----
++++
 
 ## Ⅰ. Docker의 개요
 
@@ -33,7 +33,7 @@ keywords = ["운영체제", "Docker", "컨테이너", "이미지", "Dockerfile",
 
 - **📢 섹션 요약 비유**: 도시락(이미지)에 반찬(앱+의존성)을 담아두면, 어디서나 그대로 꺼내 먹을 수 있죠? Docker는 그 도시락을 만드는 도구입니다.
 
----
++++
 
 ## Ⅱ. Docker 아키텍처 (Deep Dive)
 
@@ -86,7 +86,7 @@ keywords = ["운영체제", "Docker", "컨테이너", "이미지", "Dockerfile",
 
 - **📢 섹션 요약 비유**: 이미지는 "설계도", 컨테이너는 "실제 건물"입니다. 설계도를 여러 번 사용하여 여러 건물을 지을 수 있죠.
 
----
++++
 
 ## Ⅲ. Dockerfile
 
@@ -143,7 +143,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 ```
 
----
++++
 
 ## Ⅳ. Docker 네트워크
 
@@ -186,7 +186,7 @@ docker run --network my-net --name web nginx
 docker exec web ping db
 ```
 
----
++++
 
 ## Ⅴ. Docker 저장소 (Volume)
 
@@ -205,7 +205,7 @@ docker run -v /host/path:/container/path ubuntu
 docker run --tmpfs /tmp:rw,size=100m ubuntu
 ```
 
----
++++
 
 ## Ⅵ. Docker Compose
 
@@ -254,7 +254,7 @@ docker-compose down
 docker-compose up -d --scale web=3
 ```
 
----
++++
 
 ## Ⅶ. 실무 적용 및 안티패턴
 
@@ -290,7 +290,7 @@ CMD ["node", "server.js"]
 - **"Root 실행"**: 보안 위험
 - **"Secrets in Image"**: 환경 변수에 비밀
 
----
++++
 
 ## Ⅷ. 기대효과 및 결론
 
@@ -303,15 +303,15 @@ CMD ["node", "server.js"]
 - **WebAssembly**: WASM 컨테이너
 - **Chainguard**: 보안 중심 이미지
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[컨테이너](./642_container.md)**: 기반 기술
-- **[Kubernetes](./645_kubernetes.md)**: 오케스트레이션
-- **[마이크로서비스](../16_distributed_systems/xxx_microservices.md)**: 주요 용도
-- **[CI/CD](../xx_cicd.md)**: DevOps 통합
+- **컨테이너**: 기반 기술
+- **Kubernetes**: 오케스트레이션
+- **마이크로서비스**: 주요 용도
+- **CI/CD**: DevOps 통합
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. Docker는 **"도시락을 만드는 기계"**예요.

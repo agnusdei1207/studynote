@@ -1,6 +1,7 @@
 +++
-weight = 535
 title = "535. UNIX 파일 시스템의 혼합 인덱스 (Direct, Single/Double/Triple Indirect)"
+date = "2026-03-14"
+weight = 535
 +++
 
 # 535. UNIX 파일 시스템의 혼합 인덱스 (Direct, Single/Double/Triple Indirect)

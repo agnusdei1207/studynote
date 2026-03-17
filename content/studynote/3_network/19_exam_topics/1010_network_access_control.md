@@ -1,5 +1,6 @@
 +++
 title = "Network Access Control - 네트워크 접근 제어"
+date = "2026-03-14"
 weight = 1010
 +++
 
@@ -109,6 +110,6 @@ NAC (Network Access Control)는 네트워크 접속 단말을 제어합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [802.1X](./1011_802_1x.md)
-- [RADIUS](./1012_radius.md)
-- [Zero Trust Network](./1009_zero_trust_network.md)
+- 802.1X
+- RADIUS
+- Zero Trust Network

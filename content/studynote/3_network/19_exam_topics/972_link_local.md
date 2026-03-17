@@ -1,5 +1,6 @@
 +++
 title = "Link Local - 링크 로컬"
+date = "2026-03-14"
 weight = 972
 +++
 
@@ -109,6 +110,6 @@ Link Local은 같은 네트워크 내 통신용 주소입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [DHCP](./886_dhcp.md)
-- [IPv4](./904_ipv4.md)
-- [IPv6](./905_ipv6.md)
+- DHCP
+- IPv4
+- IPv6

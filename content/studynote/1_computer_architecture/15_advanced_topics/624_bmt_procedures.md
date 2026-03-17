@@ -1,5 +1,6 @@
 +++
 title = "624. BMT (Bench Mark Test) 절차 및 평가 항목"
+date = "2026-03-14"
 weight = 624
 +++
 
@@ -149,10 +150,10 @@ BMT는 준비, 실행, 평가의 3단계로 이루어지며, 각 단계에서의
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[SLA (Service Level Agreement)](./625_sla_hardware_availability.md)**: BMT 결과는 추후 SLA 체결의 근거 데이터가 됨.
-- **[TCO (Total Cost of Ownership)](../12_it_management/xx_tco.md)**: BMT의 궁극적 목표 중 하나인 비용 대비 효율 분석의 핵심.
-- **[부하 테스트 (Load Testing)](../4_software_engineering/xx_load_testing.md)**: BMT 수행 시 사용하는 핵심 방법론.
-- **[PUE (Power Usage Effectiveness)](./623_datacenter_pue.md)**: 하드웨어 BMT 시 에너지 효율 측면에서 포함되는 평가 항목.
+- **SLA (Service Level Agreement)**: BMT 결과는 추후 SLA 체결의 근거 데이터가 됨.
+- **TCO (Total Cost of Ownership)**: BMT의 궁극적 목표 중 하나인 비용 대비 효율 분석의 핵심.
+- **부하 테스트 (Load Testing)**: BMT 수행 시 사용하는 핵심 방법론.
+- **PUE (Power Usage Effectiveness)**: 하드웨어 BMT 시 에너지 효율 측면에서 포함되는 평가 항목.
 
 ---
 

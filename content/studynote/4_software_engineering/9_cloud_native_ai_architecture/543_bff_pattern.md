@@ -1,7 +1,7 @@
----
-title: "543. BFF (Backend for Frontend) 패턴"
-date: 2026-03-15
----
++++
+title = "543. BFF (Backend for Frontend) 패턴"
+date = "2026-03-15"
++++
 
 # 543. BFF (Backend for Frontend) 패턴
 
@@ -156,10 +156,10 @@ BFF가 수행하는 고차원적인 데이터 가공 기술이다.
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[API 게이트웨이](./542_api_gateway.md)**: BFF가 진화해 나온 원형 기술
-- **[MSA](./532_microservices_decomposition.md)**: BFF가 가장 필요한 시스템 환경
-- **[GraphQL](../xx_graphql.md)**: BFF의 수동 관리를 자동화로 대체하는 기술
-- **[관심사 분리 (SoC)](./544_architecture_principles.md)**: BFF 설계의 근본 철학
+- **API 게이트웨이**: BFF가 진화해 나온 원형 기술
+- **MSA**: BFF가 가장 필요한 시스템 환경
+- **GraphQL**: BFF의 수동 관리를 자동화로 대체하는 기술
+- **관심사 분리 (SoC)**: BFF 설계의 근본 철학
 
 ---
 

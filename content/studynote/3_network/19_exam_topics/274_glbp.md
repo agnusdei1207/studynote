@@ -1,5 +1,6 @@
 +++
 title = "GLBP - 게이트웨이 로드밸런싱 프로토콜"
+date = "2026-03-14"
 weight = 274
 +++
 
@@ -157,10 +158,10 @@ GLBP(Gateway Load Balancing Protocol)는 시스코의 게이트웨이 이중화 
 ---
 
 ### 📌 관련 개념 링크**:
-- [HSRP](./273_hsrp.md)
-- [VRRP](./272_vrrp.md)
-- [FHRP](./275_fhrp.md)
-- [로드밸런서](./150_loadbalancer.md)
+- HSRP
+- VRRP
+- FHRP
+- 로드밸런서
 
 ---
 

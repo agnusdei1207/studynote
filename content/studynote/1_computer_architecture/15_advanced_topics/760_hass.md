@@ -1,5 +1,6 @@
 +++
 title = "hass"
+date = "2026-03-14"
 weight = 760
 +++
 
@@ -140,10 +141,10 @@ HASS(Highly Accelerated Stress Screen)는 생산 라인에서 HALT로 발견한 
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [HALT (Highly Accelerated Life Test)](./759_halt.md)
-- [번인 (Burn-in) 테스트](./758_burn_in.md)
-- [가속 수명 시험 ALT](./762_alt.md)
-- [배스터브 곡선](./756_bathtub_curve.md)
+- HALT (Highly Accelerated Life Test)
+- 번인 (Burn-in) 테스트
+- 가속 수명 시험 ALT
+- 배스터브 곡선
 
 ---
 

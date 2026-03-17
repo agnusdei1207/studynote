@@ -1,5 +1,6 @@
 +++
 title = "스냅샷 (Snapshot) - 시점 복사"
+date = "2026-03-14"
 weight = 283
 +++
 
@@ -149,10 +150,10 @@ weight = 283
 ---
 
 ### 📌 관련 개념 링크**:
-- [백업](./281_backup.md)
-- [스토리지 복제](./282_storage_replication.md)
-- [RAID](./284_raid.md)
-- [가상화](./257_virtualization.md)
+- 백업
+- 스토리지 복제
+- RAID
+- 가상화
 
 ---
 

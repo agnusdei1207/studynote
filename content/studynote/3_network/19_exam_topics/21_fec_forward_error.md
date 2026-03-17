@@ -1,5 +1,6 @@
 +++
 title = "FEC (순방향 오류 정정)"
+date = "2026-03-14"
 weight = 21
 +++
 
@@ -137,10 +138,10 @@ FEC(Forward Error Correction)는 송신측에서 미리 오류 정정 정보를 
 ---
 
 ### 📌 관련 개념 링크**:
-- [해밍 코드 Hamming Distance](./20_hamming_code.md)
-- [에러 제어 오류 검출 정정](./17_에러_제어_오류_검출_정정.md)
-- [ARQ 자동 재전송 요청](./21_arq_automatic_repeat.md)
-- [LDPC 저밀도 패리티 검사](./23_ldpc_low_density.md)
+- 해밍 코드 Hamming Distance
+- 에러 제어 오류 검출 정정
+- ARQ 자동 재전송 요청
+- LDPC 저밀도 패리티 검사
 
 ---
 

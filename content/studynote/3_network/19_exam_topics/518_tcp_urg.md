@@ -1,5 +1,6 @@
 +++
 title = "TCP URG (Urgent) - 어전트 플래그"
+date = "2026-03-14"
 weight = 518
 +++
 
@@ -93,6 +94,6 @@ URG 플래그는 긴급 데이터가 있음을 표시합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./332_tcp.md)
-- [TCP PSH](./517_tcp_psh.md)
-- [TCP Header](./519_tcp_header.md)
+- TCP
+- TCP PSH
+- TCP Header

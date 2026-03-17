@@ -1,5 +1,6 @@
 +++
 title = "633. SDN (Software Defined Network) 화이트박스 스위치"
+date = "2026-03-14"
 weight = 633
 +++
 

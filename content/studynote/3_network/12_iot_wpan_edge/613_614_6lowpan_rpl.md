@@ -1,10 +1,7 @@
----
 +++
 title = "613-614. IoT 네트워크의 IP 연동: 6LoWPAN 및 RPL"
-description = "저전력 무선망 장치를 IPv6 인터넷에 직접 연동하기 위한 헤더 압축(6LoWPAN)과 라우팅 토폴로지(RPL)의 심층 분석"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
-subject = "NW"
 category = "IoT & Edge"
 id = 613
 +++
@@ -16,7 +13,7 @@ id = 613
 > **2. 가치**: IPv6 헤더 압축을 통해 전송 효율을 약 90% 이상 개선하고, RPL의 **DODAG (Destination Oriented Directed Acyclic Graph)** 구조를 통해 배터리 수명을 극대화하여 대규모 IoT 네트워크 구현을 가능하게 함.
 > **3. 융합**: 네트워크 계층(IP)의 보편성과 무선 센서 네트워크(WSN)의 효율성을 통합하여, 사물인터넷(IoT)과 엣지 컴퓨팅(Edge Computing)의 기반 인프라를 제공함.
 
----
++++
 
 ### Ⅰ. 개요 (Context & Background)
 
@@ -66,7 +63,7 @@ id = 613
 
 > **📢 섹션 요약 비유**: 마치 거대한 컨테이너 선(IPv6)을 작은 시냇물(무선 센서망)에 띄우기 위해, 화물을 재포장하는 물류 센터(6LoWPAN)를 짓고, 물 흐르는 대로 가지 않고 배터리를 아껴주는 특별한 항로(RPL)를 그려놓은 것과 같습니다.
 
----
++++
 
 ### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 

@@ -1,7 +1,7 @@
 +++
 title = "251. 윈도우 동기화"
-weight = 251
 date = "2026-03-04"
+weight = 251
 [extra]
 categories = "studynote-operating-system"
 +++
@@ -13,7 +13,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 유저 모드 객체는 커널 진입 오버헤드를 줄여 고성능을 보장하며, 디스패처 객체는 뮤텍스, 세마포어, 이벤트 등 다양한 동기화 시나리오를 통일된 인터페이스(`WaitForSingleObject`)로 제어할 수 있게 한다.
 > 3. **융합**: 윈도우의 비동기 I/O 모델인 IOCP(Input/Output Completion Port)와 결합하여 수만 개의 동시 연결을 효율적으로 처리하는 서버 아키텍처의 기반이 된다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -23,7 +23,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 마치 사내 메신저(유저 모드)로 소통하는 것과 공식 공문(커널 모드)을 통해 부서 간 협조를 구하는 것의 효율성 차이와 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -56,7 +56,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 처음엔 문을 두드려보고(Spin), 응답이 없으면 의자에 앉아 편히 기다리는(Blocking) 효율적인 대기 전략과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -71,7 +71,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 크리티컬 섹션은 "가족 전용 열쇠"이고, 뮤텍스는 "마을 공용 창고의 마스터키"입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -85,7 +85,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 이름표(Named Object)를 붙여두면 중복을 막을 수 있듯, 윈도우의 명명된 객체는 시스템 전반의 질서를 유지합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 

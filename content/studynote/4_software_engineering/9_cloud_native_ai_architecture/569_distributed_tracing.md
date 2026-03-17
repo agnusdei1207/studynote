@@ -1,9 +1,7 @@
----
-title: "569. 분산 추적 (Distributed Tracing) 아키텍처"
-date: 2026-03-15
-type: "pe_exam"
-id: 569
----
++++
+title = "569. 분산 추적 (Distributed Tracing) 아키텍처"
+date = "2026-03-15"
++++
 
 # 569. 분산 추적 (Distributed Tracing) - 트랜잭션 경로 추적
 
@@ -138,10 +136,10 @@ id: 569
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[옵저버빌리티](./566_observability_architecture.md)**: 분산 추적이 포함된 상위 통합 체계.
-- **[Trace ID와 Span ID](./570_context_propagation.md)**: 분산 추적을 가능케 하는 데이터 식별자.
-- **[OpenTelemetry](./xx_otel.md)**: 추적 데이터를 수집하는 현대적 표준 기술.
-- **[서비스 메시 (Istio)](./545_service_mesh.md)**: 분산 추적을 인프라 레벨에서 자동화해주는 기술.
+- **옵저버빌리티**: 분산 추적이 포함된 상위 통합 체계.
+- **Trace ID와 Span ID**: 분산 추적을 가능케 하는 데이터 식별자.
+- **OpenTelemetry**: 추적 데이터를 수집하는 현대적 표준 기술.
+- **서비스 메시 (Istio)**: 분산 추적을 인프라 레벨에서 자동화해주는 기술.
 
 ---
 

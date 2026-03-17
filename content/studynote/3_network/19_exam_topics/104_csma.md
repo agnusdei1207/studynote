@@ -1,5 +1,6 @@
 +++
 title = "CSMA (반송파 감지 다중 접속)"
+date = "2026-03-14"
 weight = 104
 +++
 
@@ -144,10 +145,10 @@ CSMA(Carrier Sense Multiple Access)는 전송 전에 채널이 사용 중인지 
 ---
 
 ### 📌 관련 개념 링크**:
-- [CSMA/CD 충돌 감지](./106_csma_cd.md)
-- [CSMA/CA 충돌 회피](./108_csma_ca.md)
-- [백오프 알고리즘](./107_jam_backoff.md)
-- [ALOHA](./111_aloha.md)
+- CSMA/CD 충돌 감지
+- CSMA/CA 충돌 회피
+- 백오프 알고리즘
+- ALOHA
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "flush reload"
+date = "2026-03-14"
 weight = 776
 +++
 
@@ -132,10 +133,10 @@ Flush+Reload 기법은 공유 메모리 영역에서 특정 캐시 라인을 플
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [Prime+Probe 기법](./775_prime_probe.md)
-- [부채널 공격 - 캐시 타이밍](./774_cache_timing.md)
-- [스펙터 (Spectre)](./766_spectre.md)
-- [Evict+Time 기법](./777_evict_time.md)
+- Prime+Probe 기법
+- 부채널 공격 - 캐시 타이밍
+- 스펙터 (Spectre)
+- Evict+Time 기법
 
 ---
 

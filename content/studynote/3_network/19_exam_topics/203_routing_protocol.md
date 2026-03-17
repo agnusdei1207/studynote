@@ -1,5 +1,6 @@
 +++
 title = "라우팅 프로토콜 (Routing Protocols) - RIP/OSPF/EIGRP/BGP"
+date = "2026-03-14"
 weight = 203
 +++
 
@@ -148,10 +149,10 @@ weight = 203
 ---
 
 ### 📌 관련 개념 링크**:
-- [라우터](./202_router.md)
-- [OSPF](./205_ospf.md)
-- [BGP](./206_bgp.md)
-- [EIGRP](./207_eigrp.md)
+- 라우터
+- OSPF
+- BGP
+- EIGRP
 
 ---
 

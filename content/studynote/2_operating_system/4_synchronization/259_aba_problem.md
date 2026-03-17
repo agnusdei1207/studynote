@@ -1,7 +1,7 @@
 +++
 title = "259. ABA 문제"
-weight = 259
 date = "2026-03-04"
+weight = 259
 [extra]
 categories = "studynote-operating-system"
 +++
@@ -13,7 +13,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 단순히 "값의 일치"가 "상태의 불변"을 의미하지 않는다는 동시성 프로그래밍의 깊은 함정을 시사하며, 자료구조의 파손(특히 연결 리스트의 노드 재사용 시)을 초래하는 치명적 원인이다.
 > 3. **융합**: 메모리 재사용(Memory Reuse) 정책과 긴밀히 연결되어 있으며, 태그된 포인터(Tagged Pointers)나 가비지 컬렉션(GC) 환경 유무에 따라 해결 난이도가 달라진다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -23,7 +23,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 겉모습(값)이 같다고 해서 알맹이(상태)까지 같을 것이라고 믿었을 때 발생하는 락-프리 세계의 전형적인 사기 수법과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -54,7 +54,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 동일한 번호판을 달았다고 해서 어제 그 차라고 확신하고 시동을 걸었더니, 엔진이 통째로 바뀌어 있는 상황과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -69,7 +69,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 락은 "가방을 아예 금고에 넣고 가는 것"이고, 락-프리는 "가방에 몰래 카메라(Version)를 달아두는 것"입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -83,7 +83,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 서류에 사인만 보는 게 아니라, 서류 뒤에 찍힌 타임스탬프를 대조하여 위조 여부를 가리는 꼼꼼함이 필요합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 

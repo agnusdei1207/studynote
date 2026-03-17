@@ -1,7 +1,7 @@
 +++
-weight = 645
 title = "645. 운영체제 핵심 요약 - 가상 메모리 및 페이지 교체"
 date = "2024-05-23"
+weight = 645
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "가상 메모리", "Virtual Memory", "Page Replacement", "LRU", "Thrashing", "Demand Paging"]
@@ -12,7 +12,7 @@ keywords = ["운영체제", "가상 메모리", "Virtual Memory", "Page Replacem
 > 실제 필요한 부분만 메모리에 적재하는 요구 페이징(Demand Paging) 기법이 핵심이며, 한정된 프레임 자원을 효율적으로 순환시키기 위한 페이지 교체 알고리즘(Page Replacement Algorithm)의 최적화가 필수적이다.
 > 빈번한 페이지 부재(Page Fault)로 인해 CPU 이용률이 급격히 저하되는 스래싱(Thrashing) 현상을 방지하기 위해 워킹 셋(Working Set) 모델 등 정교한 프레임 할당 전략이 수반된다.
 
----
++++
 
 ### Ⅰ. 가상 메모리와 요구 페이징(Demand Paging)
 
@@ -27,7 +27,7 @@ keywords = ["운영체제", "가상 메모리", "Virtual Memory", "Page Replacem
 
 📢 섹션 요약 비유: 서재의 모든 책을 책상 위에 다 꺼내 놓는 것이 아니라, 지금 읽을 '페이지'만 한 장씩 꺼내서 보는 것과 같습니다.
 
----
++++
 
 ### Ⅱ. 페이지 교체 알고리즘(Page Replacement)
 
@@ -50,7 +50,7 @@ keywords = ["운영체제", "가상 메모리", "Virtual Memory", "Page Replacem
 
 📢 섹션 요약 비유: 책상이 꽉 찼을 때, '가장 오래전에 본 책(LRU)'을 선반으로 다시 보내고 새 책을 놓는 영리한 정리법입니다.
 
----
++++
 
 ### Ⅲ. 스래싱(Thrashing)과 원인 분석
 
@@ -61,7 +61,7 @@ keywords = ["운영체제", "가상 메모리", "Virtual Memory", "Page Replacem
 
 📢 섹션 요약 비유: 공부방이 너무 좁아서 책을 한 장 넘길 때마다 다른 책을 창고에서 가져와야 하는 바람에 정작 공부는 한 글자도 못 하고 책만 옮기다 끝나는 상황입니다.
 
----
++++
 
 ### Ⅳ. 스래싱 방지 및 프레임 할당 전략
 
@@ -75,7 +75,7 @@ keywords = ["운영체제", "가상 메모리", "Virtual Memory", "Page Replacem
 
 📢 섹션 요약 비유: 시험 기간에 꼭 필요한 '핵심 요약 노트들(Working Set)'만큼은 항상 책상 위에 있도록 자리를 보장해주는 정책입니다.
 
----
++++
 
 ### Ⅴ. 기타 가상 메모리 관리 기술
 
@@ -89,7 +89,7 @@ keywords = ["운영체제", "가상 메모리", "Virtual Memory", "Page Replacem
 
 📢 섹션 요약 비유: 원고지를 아주 잘게 나누면 빈칸이 적지만 관리가 힘들고, 크게 나누면 관리는 쉽지만 빈칸이 많이 생기는 고민과 같습니다.
 
----
++++
 
 ### 💡 지식 그래프(Knowledge Graph)
 - **부모 노드**: 메모리 관리(Memory Management)

@@ -1,7 +1,7 @@
 +++
 title = "205. 주기적 태스크 (Periodic Task)"
-weight = 205
 date = "2026-03-04"
+weight = 205
 [extra]
 categories = "studynote-operating-system"
 +++
@@ -13,7 +13,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 시스템의 예측 가능성을 수학적으로 모델링할 수 있게 하며, RMS(Rate Monotonic)나 EDF(Earliest Deadline First) 같은 실시간 스케줄링 알고리즘의 분석 토대를 제공한다.
 > 3. **융합**: 센서 데이터 수집, 제어 신호 출력, 화면 갱신 주율 등 하드웨어 루프와 운영체제 타이머 관리 기술이 결합된다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -23,7 +23,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 정해진 시간표에 맞춰 10분마다 도착하고, 다음 차가 오기 전에 승객을 태워 떠나야 하는 지하철 운행 시스템과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -55,7 +55,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 1시간 동안 처리해야 할 일들의 총 시간(이용률)이 1시간을 넘으면, 아무리 순서를 잘 짜도 결국 일을 다 못 끝내는 것과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -70,7 +70,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 주기적 태스크는 정기 간행물 잡지이고, 비주기적 태스크는 속보 뉴스입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -80,7 +80,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 10초마다 확인해야 하는 나침반과 1분마다 확인해도 되는 지도가 있다면, 당연히 나침반을 더 자주, 먼저 봐야 길을 잃지 않습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -89,12 +89,12 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 정교하게 맞물려 돌아가는 시계태엽처럼, 각자의 주기(p)를 지키는 태스크들이 모여 완벽한 시스템을 만듭니다.
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[RMS (Rate Monotonic Scheduling)](./206_rms.md)**: 주기에 반비례하여 우선순위를 주는 정적 알고리즘
-- **[EDF (Earliest Deadline First)](./207_edf.md)**: 마감 시간에 따라 우선순위를 주는 동적 알고리즘
-- **[최악 실행 시간 (WCET)](./172_turnaround_waiting_response_time.md)**: 주기적 태스크 모델의 't'를 결정하는 핵심 데이터
+- **RMS (Rate Monotonic Scheduling)**: 주기에 반비례하여 우선순위를 주는 정적 알고리즘
+- **EDF (Earliest Deadline First)**: 마감 시간에 따라 우선순위를 주는 동적 알고리즘
+- **최악 실행 시간 (WCET)**: 주기적 태스크 모델의 't'를 결정하는 핵심 데이터
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 학교 수업 시간표처럼, 정해진 시간마다 반복해서 해야 하는 일을 '주기적 태스크'라고 해요.

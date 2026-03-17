@@ -1,5 +1,6 @@
 +++
 title = "Pipeline - 파이프라인"
+date = "2026-03-14"
 weight = 664
 +++
 
@@ -101,6 +102,6 @@ Pipeline은 명령어 처리를 여러 단계로 나눕니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Superscalar](./665_superscalar.md)
-- [Branch Prediction](./666_branch_prediction.md)
-- [Hazard](./667_hazard.md)
+- Superscalar
+- Branch Prediction
+- Hazard

@@ -1,5 +1,6 @@
 +++
 title = "Network Telemetry - 네트워크 텔레메트리"
+date = "2026-03-14"
 weight = 1020
 +++
 
@@ -108,6 +109,6 @@ Network Telemetry는 네트워크 상태를 실시간으로 수집합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [SNMP](./1016_snmp.md)
-- [Network Monitoring](./1015_network_monitoring.md)
-- [sFlow](./1019_sflow.md)
+- SNMP
+- Network Monitoring
+- sFlow

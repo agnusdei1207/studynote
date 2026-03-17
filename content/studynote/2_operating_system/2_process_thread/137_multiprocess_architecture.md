@@ -1,6 +1,7 @@
 +++
-weight = 137
 title = "137. 멀티프로세스 아키텍처 (크롬 등)"
+date = "2026-03-14"
+weight = 137
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -135,10 +136,10 @@ title = "137. 멀티프로세스 아키텍처 (크롬 등)"
 ---
 
 ### 📌 관련 개념 맵
-- **[프로세스 격리 (Process Isolation)](./86_process_state.md)**: 멀티프로세스 아키텍처가 달성하려는 근본적 목적.
-- **[샌드박스 (Sandbox)](../9_security/xx_sandbox.md)**: 격리된 프로세스에 가하는 추가적인 보안 제약.
-- **[IPC (Inter-Process Communication)](./117_ipc_overview.md)**: 분리된 프로세스들을 이어주는 유일한 통로.
-- **[COW (Copy-On-Write)](./106_cow.md)**: 멀티프로세스 아키텍처의 메모리 낭비를 줄여주는 커널 기법.
+- **프로세스 격리 (Process Isolation)**: 멀티프로세스 아키텍처가 달성하려는 근본적 목적.
+- **샌드박스 (Sandbox)**: 격리된 프로세스에 가하는 추가적인 보안 제약.
+- **IPC (Inter-Process Communication)**: 분리된 프로세스들을 이어주는 유일한 통로.
+- **COW (Copy-On-Write)**: 멀티프로세스 아키텍처의 메모리 낭비를 줄여주는 커널 기법.
 
 ---
 

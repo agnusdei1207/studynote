@@ -1,5 +1,6 @@
 +++
 title = "GPGPU (General Purpose GPU) - GPGPU"
+date = "2026-03-14"
 weight = 678
 +++
 
@@ -100,6 +101,6 @@ GPGPU는 그래픽스 외 목적으로 GPU를 활용합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [GPU](./674_gpu.md)
-- [CUDA](./676_cuda.md)
-- [OpenCL](./677_opencl.md)
+- GPU
+- CUDA
+- OpenCL

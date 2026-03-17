@@ -1,6 +1,7 @@
 +++
-weight = 542
 title = "542. 파일 시스템 효율성 (Efficiency)과 성능 (Performance)"
+date = "2026-03-14"
+weight = 542
 +++
 
 # 542. 파일 시스템 효율성 (Efficiency)과 성능 (Performance)

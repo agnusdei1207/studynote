@@ -1,5 +1,6 @@
 +++
 title = "smbios"
+date = "2026-03-14"
 weight = 708
 +++
 
@@ -402,10 +403,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [UEFI](./706_uefi.md) - UEFI 펌웨어
-- [IPMI](./709_ipmi.md) - 원격 관리
-- [Redfish](./711_redfish.md) - RESTful 관리 API
-- [TPM](./tpm.md) - 신뢰형 플랫폼 모듈
+- UEFI - UEFI 펌웨어
+- IPMI - 원격 관리
+- Redfish - RESTful 관리 API
+- TPM - 신뢰형 플랫폼 모듈
 
 ---
 

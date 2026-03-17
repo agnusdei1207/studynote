@@ -1,10 +1,9 @@
----
-title: "[ICT] #180. 드론 스웜 (Drone Swarm) 및 군집 비행"
-date: "2026-03-17"
++++
+title = "[ICT] #180. 드론 스웜 (Drone Swarm) 및 군집 비행"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "DroneSwarm_SwarmIntelligence_Flocking_UAV_CollisionAvoidance_AdHocNetwork"
----
+keyword = "DroneSwarm_SwarmIntelligence_Flocking_UAV_CollisionAvoidance_AdHocNetwork"
++++
 
 # 드론 스웜 (Drone Swarm): 중앙 통제를 벗어나 집단 지성으로 군무하는 비행 로봇 군단
 
@@ -13,7 +12,7 @@ keyword: "DroneSwarm_SwarmIntelligence_Flocking_UAV_CollisionAvoidance_AdHocNetw
 > 2. **가치**: 한 대의 드론이 수행하기 벅찬 방대한 구역의 수색, 거대한 밤하늘의 3D 픽셀 아트(드론 쇼), 적의 방공망을 뚫고 들어가는 압도적 물량의 군사 작전을 가능케 하며, 일부 기체가 파괴되더라도 임무를 완수하는 극강의 생존성(Resilience)을 자랑한다.
 > 3. **융합**: 자연계의 집단 행동을 모방한 생체 모방 알고리즘(Swarm Intelligence)과, 기지국 없이 드론끼리 통신망을 형성하는 무선 애드혹 네트워크(FANET), 그리고 실시간 충돌 회피(Collision Avoidance) 비전 AI 기술이 총망라된 로보틱스의 결정체다.
 
----
++++
 
 ## Ⅰ. 드론 스웜 (Drone Swarm) 개요
 
@@ -31,7 +30,7 @@ keyword: "DroneSwarm_SwarmIntelligence_Flocking_UAV_CollisionAvoidance_AdHocNetw
 
 📢 **섹션 요약 비유**: 하나하나는 작고 약한 개미일 뿐이지만, 이들이 수만 마리 모여 소통하는 순간 강물을 건너고 큰 적을 무너뜨리는 '집단 지성 괴수'로 돌변하는 것입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -77,7 +76,7 @@ keyword: "DroneSwarm_SwarmIntelligence_Flocking_UAV_CollisionAvoidance_AdHocNetw
 
 📢 **섹션 요약 비유**: 수천 명의 병사들이 장군의 명령 없이도, 옆 전우의 어깨와 발걸음만 보고 거대한 학익진 진형을 오차 없이 펼쳐내는 놀라운 군사 훈련입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -97,7 +96,7 @@ keyword: "DroneSwarm_SwarmIntelligence_Flocking_UAV_CollisionAvoidance_AdHocNetw
 
 📢 **섹션 요약 비유**: 현재의 드론쇼가 악보를 외워서 틀어주는 '오르골(녹음기)'이라면, 진정한 드론 스웜은 상황에 맞춰 즉흥적으로 곡을 변주하는 '재즈 밴드의 잼(Jam) 연주'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -115,7 +114,7 @@ keyword: "DroneSwarm_SwarmIntelligence_Flocking_UAV_CollisionAvoidance_AdHocNetw
 
 📢 **섹션 요약 비유**: 수백 명의 소방대원이 연기 속에서 줄을 묶고 들어가듯, 보이지 않는 전파의 줄(FANET)로 서로를 단단히 묶고 힘든 자리는 교대해가며 거대한 산을 정복하는 전략입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -129,13 +128,13 @@ keyword: "DroneSwarm_SwarmIntelligence_Flocking_UAV_CollisionAvoidance_AdHocNetw
 
 📢 **섹션 요약 비유**: 드론 스웜은 하나의 거대하고 무거운 '골리앗'을 만드는 대신, 절대 죽지 않고 끊임없이 몰려드는 만 마리의 '벌 떼'를 조종하여 세상을 지배하는 새로운 권력입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[UAM (도심 항공 교통)](./144_uam_utm.md)**: 무거운 화물이나 사람을 실어 나르는 대형 비행체로, 스웜과 하늘길(UTM)을 공유함.
-- **[V2X (Vehicle to Everything)](./140_v2x_communication.md)**: 지상의 자동차가 군집 주행(플래투닝)을 할 때 쓰는 통신(하늘의 FANET과 유사).
-- **[SLAM](./130_slam_vslam.md)**: 드론이 스웜 비행 중 주변 나무나 다른 드론을 인식하고 회피하는 시각적 뇌.
-- **[엣지 컴퓨팅](./104_edge_fog_computing.md)**: 드론이 중앙 서버 없이 스스로 판단하기 위해 탑재되는 초소형 연산 칩.
+- **UAM (도심 항공 교통)**: 무거운 화물이나 사람을 실어 나르는 대형 비행체로, 스웜과 하늘길(UTM)을 공유함.
+- **V2X (Vehicle to Everything)**: 지상의 자동차가 군집 주행(플래투닝)을 할 때 쓰는 통신(하늘의 FANET과 유사).
+- **SLAM**: 드론이 스웜 비행 중 주변 나무나 다른 드론을 인식하고 회피하는 시각적 뇌.
+- **엣지 컴퓨팅**: 드론이 중앙 서버 없이 스스로 판단하기 위해 탑재되는 초소형 연산 칩.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **하늘의 새 떼**: 가을 하늘에 브이(V) 자 모양으로 날아가는 철새들처럼, 수천 대의 드론이 조종사 없이도 자기들끼리 규칙을 정해서 멋지게 날아가는 기술이에요.

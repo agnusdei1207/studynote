@@ -1,10 +1,9 @@
----
-title: "[ICT] #261. 파운데이션 모델 (Foundation Model)"
-date: "2026-03-17"
++++
+title = "[ICT] #261. 파운데이션 모델 (Foundation Model)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "FoundationModel_SelfSupervisedLearning_TransferLearning_LLM_AI_HAI"
----
+keyword = "FoundationModel_SelfSupervisedLearning_TransferLearning_LLM_AI_HAI"
++++
 
 # 파운데이션 모델 (Foundation Model): 수천 가지 작업을 수행하는 인공지능의 거대한 기초 공사
 
@@ -13,7 +12,7 @@ keyword: "FoundationModel_SelfSupervisedLearning_TransferLearning_LLM_AI_HAI"
 > 2. **가치**: 과거에는 번역용 AI, 요약용 AI를 각각 바닥부터 따로 만들어야 했지만, 이제는 똑똑한 파운데이션 모델 하나만 만들어두면 약간의 적응(Adaptation/Fine-tuning)만으로 번역, 코딩, 그림 그리기 등 수천 가지의 다운스트림 태스크(Downstream Task)를 모두 수행할 수 있는 극강의 효율성을 제공한다.
 > 3. **융합**: 트랜스포머(Transformer) 아키텍처와 분산 병렬 슈퍼컴퓨팅(HPC) 기술이 융합되어 모델의 크기(파라미터 수)가 커질수록 예상치 못한 추론 능력이 나타나는 '창발성(Emergent Abilities)'을 이끌어내며 생성형 AI 혁명의 근간이 되었다.
 
----
++++
 
 ## Ⅰ. 파운데이션 모델 개요
 
@@ -31,7 +30,7 @@ keyword: "FoundationModel_SelfSupervisedLearning_TransferLearning_LLM_AI_HAI"
 
 📢 **섹션 요약 비유**: 수백 층짜리 빌딩을 지을 때마다 땅을 새로 파는 것이 아니라, 전 세계 어디든 버틸 수 있는 '거대한 콘크리트 기초(Foundation)'를 튼튼하게 다져놓고 그 위에 호텔이든 아파트든 마음대로 쌓아 올리는 AI 건축 혁명입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -82,7 +81,7 @@ keyword: "FoundationModel_SelfSupervisedLearning_TransferLearning_LLM_AI_HAI"
 
 📢 **섹션 요약 비유**: 작은 찰흙 덩어리는 아무리 뭉쳐도 찰흙이지만, 이것을 수만 톤 모아 압력을 가하면 다이아몬드(창발성)로 변해 스스로 빛을 내기 시작하는 우주의 신비입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -101,7 +100,7 @@ keyword: "FoundationModel_SelfSupervisedLearning_TransferLearning_LLM_AI_HAI"
 
 📢 **섹션 요약 비유**: 사람이 일일이 먹여주는 밥(지도 학습)을 먹고 자라면 부모의 한계를 넘을 수 없지만, 도서관의 모든 책을 스스로 읽고 깨우친 아이(자기 지도 학습)는 부모가 상상하지 못한 천재(파운데이션 모델)가 됩니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -118,7 +117,7 @@ keyword: "FoundationModel_SelfSupervisedLearning_TransferLearning_LLM_AI_HAI"
 
 📢 **섹션 요약 비유**: 구글과 OpenAI가 거대한 '발전소(파운데이션 모델)'를 지어주었으니, 우리는 굳이 발전소를 새로 지을 필요 없이 멀티탭(API)을 꽂아 우리 집 전구(앱)만 밝히면 되는 혜택의 시대입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -132,13 +131,13 @@ keyword: "FoundationModel_SelfSupervisedLearning_TransferLearning_LLM_AI_HAI"
 
 📢 **섹션 요약 비유**: 파운데이션 모델은 인류가 발명한 단순한 도구가 아니라, 인간의 지식을 통째로 압축해 담아놓은 '현대판 알렉산드리아 도서관'이자 4차 산업혁명의 심장입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[LLM (대형 언어 모델)](./263_llm_large_language_model.md)**: 텍스트에 특화된 파운데이션 모델의 가장 대표적인 형태 (예: ChatGPT).
-- **[트랜스포머 (Transformer)](./262_transformer.md)**: 문장의 순서를 무시하고 단어의 관계를 병렬로 엮어 파운데이션 모델의 거대화를 가능하게 한 핵심 알고리즘.
-- **[RAG / 파인튜닝](./276_rag_architecture.md)**: 파운데이션 모델을 특정 회사의 똑똑한 직원으로 적응(Adapt)시키기 위한 필수 기술.
-- **[슈퍼컴퓨터 / GPU 클러스터](./226_hpc_supercomputing.md)**: 이 거대한 뇌를 훈련시키기 위해 필수적인 거대 하드웨어 인프라.
+- **LLM (대형 언어 모델)**: 텍스트에 특화된 파운데이션 모델의 가장 대표적인 형태 (예: ChatGPT).
+- **트랜스포머 (Transformer)**: 문장의 순서를 무시하고 단어의 관계를 병렬로 엮어 파운데이션 모델의 거대화를 가능하게 한 핵심 알고리즘.
+- **RAG / 파인튜닝**: 파운데이션 모델을 특정 회사의 똑똑한 직원으로 적응(Adapt)시키기 위한 필수 기술.
+- **슈퍼컴퓨터 / GPU 클러스터**: 이 거대한 뇌를 훈련시키기 위해 필수적인 거대 하드웨어 인프라.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **천재 찰흙 덩어리**: 이 마법의 찰흙(파운데이션 모델)은 세상의 모든 지식을 빨아들인 덩어리예요. 그래서 어떤 틀에 넣고 살짝만 주무르면 번역기, 그림 그리는 기계 등 뭐든 1초 만에 될 수 있어요.

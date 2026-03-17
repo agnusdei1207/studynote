@@ -1,5 +1,6 @@
 +++
 title = "Unicast - 유니캐스트"
+date = "2026-03-14"
 weight = 951
 +++
 
@@ -106,6 +107,6 @@ Unicast는 하나의 송신자에서 하나의 수신자로 전달합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Broadcast](./952_broadcast.md)
-- [Multicast](./953_multicast.md)
-- [IP Address](./xxx_ip_address.md)
+- Broadcast
+- Multicast
+- IP Address

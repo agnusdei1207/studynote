@@ -1,5 +1,6 @@
 +++
 title = "DMARC (Domain-based Message Authentication) - 도메인 기반 메시지 인증"
+date = "2026-03-14"
 weight = 555
 +++
 
@@ -94,6 +95,6 @@ DMARC는 SPF와 DKIM 검증 결과에 따른 정책을 정의합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [SPF](./553_spf.md)
-- [DKIM](./554_dkim.md)
-- [DNS](./550_dns.md)
+- SPF
+- DKIM
+- DNS

@@ -1,5 +1,6 @@
 +++
 title = "VoIP - 인터넷 전화"
+date = "2026-03-14"
 weight = 351
 +++
 
@@ -145,10 +146,10 @@ VoIP(Voice over IP)는 IP 네트워크로 음성 통신을 제공합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [SIP](./350_sip.md)
-- [RTP](./285_rtp.md)
-- [SRTP](./354_srtp.md)
-- [WebRTC](./342_webrtc.md)
+- SIP
+- RTP
+- SRTP
+- WebRTC
 
 ---
 

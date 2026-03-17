@@ -1,5 +1,6 @@
 +++
 title = "580. Retpoline (Return Trampoline)"
+date = "2026-03-14"
 weight = 580
 +++
 

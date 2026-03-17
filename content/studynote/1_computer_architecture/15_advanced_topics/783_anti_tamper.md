@@ -1,5 +1,6 @@
 +++
 title = "anti tamper"
+date = "2026-03-14"
 weight = 783
 +++
 
@@ -131,10 +132,10 @@ weight = 783
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [제로화 (Zeroization) 회로](./784_zeroization.md)
-- [보안 키 소거](./785_secure_key_erasure.md)
-- [하드웨어 보안 모듈 HSM](./781_hsm.md)
-- [TPM](./786_tpm.md)
+- 제로화 (Zeroization) 회로
+- 보안 키 소거
+- 하드웨어 보안 모듈 HSM
+- TPM
 
 ---
 

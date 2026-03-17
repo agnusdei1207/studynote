@@ -1,5 +1,6 @@
 +++
 title = "패치 안테나 (Patch/Microstrip Antenna)"
+date = "2026-03-14"
 weight = 175
 +++
 
@@ -154,10 +155,10 @@ weight = 175
 ---
 
 ### 📌 관련 개념 링크**:
-- [안테나](./171_antenna.md)
-- [MIMO](./213_mimo.md)
-- [5G NR](./211_5g_nr.md)
-- [WiFi](./214_wifi.md)
+- 안테나
+- MIMO
+- 5G NR
+- WiFi
 
 ---
 

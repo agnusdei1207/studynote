@@ -1,7 +1,7 @@
 +++
-weight = 573
 title = "573. 인증 및 권한 부여 (Authentication & Authorization)"
 date = "2026-03-16"
+weight = 573
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "인증", "권한 부여", "Authentication", "Authorization", "AAA", "MFA"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "인증", "권한 부여", "Authentication", "Author
 > 2. **가치**: 인증은 ID 도용 방지로 신원을 보장하고, 권한 부여는 최소 권한 원칙으로 무단 접근을 방지하며, **계정(Accounting)**과 함께 AAA 프레임워크를 형성한다.
 > 3. **융합**: 다중 인증(MFA), SSO(Single Sign-On), OAuth 2.0, Kerberos 등 현대 인증 시스템은 보안성과 사용성의 균형을 추구한다.
 
----
++++
 
 ## Ⅰ. 인증(Authentication)의 개요
 
@@ -32,7 +32,7 @@ keywords = ["운영체제", "인증", "권한 부여", "Authentication", "Author
 
 - **📢 섹션 요약 비유**: 문을 열기 전에 "당신 누구세요?"라고 묻는 출입문 인터폰입니다.
 
----
++++
 
 ## Ⅱ. 인증 요소 및 방식 (Deep Dive)
 
@@ -77,7 +77,7 @@ keywords = ["운영체제", "인증", "권한 부여", "Authentication", "Author
 
 - **📢 섹션 요약 비유**: 비밀번호는 집 열쇠, OTP는 일회용 입장권, 생체인식은 내 얼굴입니다. 이 중 2개를 합치면 보안이 훨씬 강해져요.
 
----
++++
 
 ## Ⅲ. 권한 부여(Authorization)의 개요
 
@@ -119,7 +119,7 @@ keywords = ["운영체제", "인증", "권한 부여", "Authentication", "Author
 
 - **📢 섹션 요약 비유**: 인증은 "회사 직원 확인(사원증)", 권한 부여는 "사무실 출입 권한(카드 등급)"입니다. 둘 다 있어야 출입이 가능합니다.
 
----
++++
 
 ## Ⅳ. 현대 인증 시스템
 
@@ -142,7 +142,7 @@ keywords = ["운영체제", "인증", "권한 부여", "Authentication", "Author
 - "신뢰하지 않고 항상 검증"
 - 네트워크 내부/외부 구분 없이 모든 접근을 인증/권한 검증
 
----
++++
 
 ## Ⅴ. 실무 적용 및 아키텍처적 판단 (Strategy)
 
@@ -157,7 +157,7 @@ keywords = ["운영체제", "인증", "권한 부여", "Authentication", "Author
 - **관리자 권한으로 일반 작업 수행**
 - **로그인 세션 무기한 유지**
 
----
++++
 
 ## Ⅵ. 기대효과 및 결론
 
@@ -169,15 +169,15 @@ keywords = ["운영체제", "인증", "권한 부여", "Authentication", "Author
 - **Passwordless**: 생체인식, 하드웨어 키 기반
 - **Decentralized Identity**: 블록체인 기반 자기 주권 신원
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[접근 제어](./572_access_control.md)**: 권한 부여의 구현
-- **[보호 vs 보안](./571_protection_vs_security.md)**: 상위 개념
-- **[암호화](./xx_encryption.md)**: 자격증명 보호
-- **[SELinux](./642_selinux.md)**: 강제적 접근 제어
+- **접근 제어**: 권한 부여의 구현
+- **보호 vs 보안**: 상위 개념
+- **암호화**: 자격증명 보호
+- **SELinux**: 강제적 접근 제어
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 인증은 **'학교에서 학생증을 보여주는 것'**과 같아요.

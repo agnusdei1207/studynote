@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: CORS Misconfiguration 🥉 Bronze"
-description = "LUXORA 플랫폼의 기본 CORS 설정 오류(Origin Wildcard)를 악용한 민감 정보 탈취 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "CORS", "Bronze", "Wildcard", "Write-up"]
@@ -149,4 +148,3 @@ const corsOptions = {
 };
 
 app.use(cors(corsOptions));
-```

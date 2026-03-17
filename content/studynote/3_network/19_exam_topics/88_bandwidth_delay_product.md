@@ -1,5 +1,6 @@
 +++
 title = "Bandwidth-Delay Product - 대역폭-지연 곱"
+date = "2026-03-14"
 weight = 828
 +++
 
@@ -108,6 +109,6 @@ Bandwidth-Delay Product는 링크에 채울 수 있는 데이터 양입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Bandwidth](./803_bandwidth.md)
-- [Latency](./801_latency.md)
-- [TCP](./552_tcp.md)
+- Bandwidth
+- Latency
+- TCP

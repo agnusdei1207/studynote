@@ -1,9 +1,7 @@
----
-title: "605. 싱글톤 패턴(Singleton Pattern) 메모리/쓰레드 세이프 설계"
-date: 2026-03-15
-type: "pe_exam"
-id: 605
----
++++
+title = "605. 싱글톤 패턴(Singleton Pattern) 메모리/쓰레드 세이프 설계"
+date = "2026-03-15"
++++
 
 # 605. 싱글톤 패턴(Singleton Pattern) 메모리/쓰레드 세이프 설계
 
@@ -280,11 +278,11 @@ Memory Barrier에 의해:
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[생성 패턴(Creational Patterns)](./564_creational_patterns.md)**: 싱글톤이 속한 상위 카테고리.
-- **[DIP(Dependency Inversion)](./601_solid_principles.md)**: 싱글톤의 결합도 문제를 완화하는 원칙.
-- **[Thread-Safety](./323_multicore_synchronization.md)**: 싱글톤의 멀티스레드 안전성 보장 기법.
-- **[DI 컨테이너](./337_dependency_injection.md)**: 싱글톤 관리를 위임하는 프레임워크.
-- **[전역 변수 문제](./xx_global_state.md)**: 싱글톤 남용의 부작용.
+- **생성 패턴(Creational Patterns)**: 싱글톤이 속한 상위 카테고리.
+- **DIP(Dependency Inversion)**: 싱글톤의 결합도 문제를 완화하는 원칙.
+- **Thread-Safety**: 싱글톤의 멀티스레드 안전성 보장 기법.
+- **DI 컨테이너**: 싱글톤 관리를 위임하는 프레임워크.
+- **전역 변수 문제**: 싱글톤 남용의 부작용.
 
 ---
 

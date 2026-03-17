@@ -1,8 +1,10 @@
 +++
-weight = 505
 title = "505. 캐시 라인 프리패치 (Cache Line Prefetch)"
+date = "2026-03-14"
+weight = 505
 [extra]
 category = "studynote-computer-architecture"
+date = "2026-03-14"
 +++
 
 # Cache Line Prefetch
@@ -11,7 +13,7 @@ category = "studynote-computer-architecture"
 > 2. **가치**: 메모리 접근 지연 시간(Memory Latency)을 연산 시간 뒤로 숨겨 CPU의 스톨(Stall)을 방지하며, 데이터 지역성(Locality)이 뚜렷한 워크로드에서 전체 실행 속도를 수배 이상 향상시킨다.
 > 3. **융합**: 하드웨어 스트림 프리패처 (Hardware Stream Prefetcher), 소프트웨어 프리패치 명령어, 그리고 분기 예측기와 융합되어 현대 프로세서의 '데이터 공급망'을 형성한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -26,7 +28,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 필요할 때 가져오는 '주문 제작' 방식이 아니라, 미리 준비해두는 '기성품 진열' 방식으로 속도를 높이는 기술입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -42,7 +44,7 @@ category = "studynote-computer-architecture"
 | **Prefetch Instruction** | 소프트웨어 명시적 지령 | 개발자가 코드에 직접 `PREFETCH` 명령 삽입 | ISA 확장 (SSE/AVX) | 사전에 주문 전화 넣기 |
 | **Distance Control** | 프리패치 거리 조절 | 현재 실행 지점보다 얼마나 앞서 데이터를 가져올지 결정 | Adaptive Prefetching | 몇 단계 앞을 내다볼지 결정 |
 
----
++++
 
 ### 하드웨어 스트림 프리패치 동작 흐름
 
@@ -77,7 +79,7 @@ category = "studynote-computer-architecture"
 
 **[다이어그램 해설]** CPU가 주소 100, 108, 116을 순차적으로 읽으면, 하드웨어 내부의 Stride Detector가 "주소가 8씩 늘어나는구나"라는 패턴을 즉시 파악한다. 패턴이 확정되면 CPU가 아직 요청하지 않은 미래의 주소(124, 132 등)를 생성하여 메모리 컨트롤러에 요청을 보낸다. 이 데이터들은 CPU가 실제로 124번 주소를 요청하기 전에 이미 캐시나 별도의 스트림 버퍼에 도착해 있게 된다. 이를 통해 실제 메모리 접근에 걸리는 200~300클럭의 지연 시간을 0으로 만들 수 있다. 만약 CPU가 갑자기 엉뚱한 주소를 읽으면 프리패처는 패턴이 깨진 것으로 간주하고 작업을 중단하여 메모리 대역폭 낭비를 막는다.
 
----
++++
 
 ### 심층 동작 원리: 프리패치 거리(Distance)와 적시성(Timeliness)
 
@@ -87,7 +89,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 요리 속도에 맞춰서 재료를 배달해야지, 너무 빨리 가져오면 상하고(캐시 오염), 너무 늦게 가져오면 요리사가 기다리게(지연) 됩니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -104,7 +106,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 서빙 직원이 알아서 물을 채워주는 것(HW)이 기본이고, 손님이 "곧 손님 더 올 테니 미리 세팅해주세요"라고 말하는 것(SW)이 보조 역할을 하는 것과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -119,7 +121,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 예습을 너무 많이 하느라 정작 지금 당장 풀어야 할 숙제(현재 연산)를 할 시간이나 공책(대역폭/캐시)이 부족해지지는 않았는지 확인해야 합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -136,15 +138,15 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 과거의 경험으로 짐작하는 수준을 넘어, 데이터들 사이의 보이지 않는 관계까지 읽어내어 완벽하게 앞길을 닦아놓는 '초능력 예습'의 시대로 가고 있습니다.
 
----
++++
 
 ## 📌 관련 개념 맵
-- **[데이터 지역성 (Data Locality)](./500_von_neumann_bottleneck_mitigation.md)**: 프리패치가 가능한 근본적인 이유.
-- **[캐시 미스 (Cache Miss)](./6_memory_hierarchy_cache/xx_cache_miss.md)**: 프리패치가 해결하고자 하는 핵심 문제.
-- **[MSHR (Miss Status Holding Register)](./xx_mshr.md)**: 여러 개의 프리패치 요청을 동시에 관리하는 하드웨어 구조.
-- **[루프 타일링 (Loop Tiling)](./xx_loop_tiling.md)**: 프리패치 효율을 높이기 위한 소프트웨어 최적화 기법.
+- **데이터 지역성 (Data Locality)**: 프리패치가 가능한 근본적인 이유.
+- **캐시 미스 (Cache Miss)**: 프리패치가 해결하고자 하는 핵심 문제.
+- **MSHR (Miss Status Holding Register)**: 여러 개의 프리패치 요청을 동시에 관리하는 하드웨어 구조.
+- **루프 타일링 (Loop Tiling)**: 프리패치 효율을 높이기 위한 소프트웨어 최적화 기법.
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 캐시 라인 프리패치는 **'내 마음을 읽는 미리 준비'**예요.

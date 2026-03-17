@@ -1,5 +1,6 @@
 +++
 title = "IPv4 vs IPv6 - 인터넷 프로토콜 비교"
+date = "2026-03-14"
 weight = 421
 +++
 
@@ -137,10 +138,10 @@ IPv4와 IPv6는 인터넷 프로토콜의 주요 버전입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [IPv6](./309_ipv6.md)
-- [NAT](./304_nat.md)
-- [SLAAC](./310_slaac.md)
-- [터널링](./307_tunneling.md)
+- IPv6
+- NAT
+- SLAAC
+- 터널링
 
 ---
 

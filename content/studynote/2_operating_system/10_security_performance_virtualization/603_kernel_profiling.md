@@ -1,6 +1,7 @@
 +++
-weight = 603
 title = "603. 커널 프로파일링 (Kernel Profiling) - perf, ftrace, strace"
+date = "2026-03-14"
+weight = 603
 +++
 
 # 603. 커널 프로파일링 (Kernel Profiling) - perf, ftrace, strace

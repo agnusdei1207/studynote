@@ -12,7 +12,7 @@ categories = "studynote-se"
 > 2. **가치**: 초기화 시간 최적화, Provisioned Concurrency, 웜업 전략 → 응답 시간 90% 개선, 비용 50% 절감
 > 3. **융합**: Lambda, Cloud Functions, Fn, Durable Tasks, Warmup Strategies와 연계
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background) - [500자+]
 
@@ -83,7 +83,7 @@ categories = "studynote-se"
 
 마치 **자동차의 시동**과 같습니다. 처음 시동할 때(콜드 스타트)는 엔진 예열, 연료 공급, 시스템 점검이 필요해서 시간이 걸리지만, 시동된 상태에서는(웜 스타트) 바로 출발할 수 있습니다. 자동차가 하이브리드처럼 시동 없이 바로 달릴 수는 없지만, 시동을 최적화하면 대기 시간을 줄일 수 있습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive) - [1,000자+]
 
@@ -554,7 +554,7 @@ exports.handler = async (event) => {
 
 마치 **식당의 런치타임**과 같습니다. 점심 시간(콜드 스타트)에는 직원들이 오고 준비를 해서 첫 손님을 맞이하는 데 시간이 걸리지만, 영업 중(웜 스타트)에는 바로 주문을 받을 수 있습니다. 식당이 인기가 많아지면(트래픽 증가), 미리 더 많은 직원을 고용하고(Provisioned Concurrency), 주방장을 미리 세팅해두면(SnapStart) 영업을 더 빨리 시작할 수 있습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy) - [비교표 2개+]
 
@@ -635,7 +635,7 @@ exports.handler = async (event) => {
 
 마치 **카페의 바리斯塔*와 같습니다. 카페가 문을 닫은 상태(콜드 스타트)에서는 첫 손님이 오면 기계를 예열하고 커피를 갈아야 해서 시간이 걸리지만, 영업 중(웜 스타트)에는 바로 커피를 내릴 수 있습니다. 인기가 많은 카페는 미리 기계를 켜두고(Provisioned Concurrency), 미리 커피를 갈아두면(SnapStart) 첫 손님을 더 빨리 맞이할 수 있습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision) - [800자+]
 
@@ -819,7 +819,7 @@ exports.handler = async (event) => {
 
 마치 **자동차 시동**과 같습니다. 첫 시동 시(콜드 스타트)는 엔진 예열, 연료 공급, 시스템 점검이 필요해서 시간이 걸리지만, 시동된 상태에서는(웜 스타트) 바로 출발할 수 있습니다. 자동차를 미리 주차해두면(Provisioned Concurrency), 시동을 최적화하면(SnapStart), 첫 출발 시간을 단축할 수 있습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard) - [400자+]
 
@@ -852,15 +852,15 @@ exports.handler = async (event) => {
 
 미래의 서버리스는 **그리스케핑(Greasing)**과 같이 발전할 것입니다. 콜드 스타트가 완전히 사라지고, **요청이 들어오는 즉시 컨테이너가 생성**되어 0ms에 응답합니다. 이는 **WebAssembly 기반의 경량화 런타임**과 **Optimistic Simulation** 기반의 사전 준비 기술로 실현될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
 
-- **[12-Factor App](./624_12factor_app.md)**: 서버리스 원칙
-- **[Docker](./k8s_container.md)**: 컨테이너 기반 실행
-- **[FaaS](./serverless_fundamental.md)**: 함수형 서비스
-- **[Auto Scaling](./auto_scaling.md)**: 자동 확장 전략
-- **[Cost Optimization](./finops.md)**: 비용 최적화
+- **12-Factor App**: 서버리스 원칙
+- **Docker**: 컨테이너 기반 실행
+- **FaaS**: 함수형 서비스
+- **Auto Scaling**: 자동 확장 전략
+- **Cost Optimization**: 비용 최적화
 
 ### 👶 어린이를 위한 3줄 비유 설명
 

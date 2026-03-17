@@ -1,5 +1,6 @@
 +++
 title = "재해 복구 (Disaster Recovery) - DR"
+date = "2026-03-14"
 weight = 278
 +++
 
@@ -146,10 +147,10 @@ weight = 278
 ---
 
 ### 📌 관련 개념 링크**:
-- [고가용성](./276_high_availability.md)
-- [RTO/RPO](./280_rto_rpo.md)
-- [백업](./281_backup.md)
-- [비즈니스 연속성](./279_business_continuity.md)
+- 고가용성
+- RTO/RPO
+- 백업
+- 비즈니스 연속성
 
 ---
 

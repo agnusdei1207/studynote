@@ -1,5 +1,6 @@
 +++
 title = "615. 스마트 컨트랙트 검증 보조 코프로세서"
+date = "2026-03-14"
 weight = 615
 +++
 
@@ -148,10 +149,10 @@ weight = 615
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[EVM (Ethereum Virtual Machine)](../7_enterprise_systems/xx_evm.md)**: 코프로세서가 가속하고 보호해야 할 핵심 가상 환경.
-- **[영지식 증명 (ZKP) 가속기](./616_zkp_accelerator.md)**: SCV-CoP와 함께 블록체인 노드 성능을 결정하는 쌍두마차 기술.
-- **[Keccak-256 해시 함수](../9_security/xx_keccak_256.md)**: 블록체인 무결성 확인의 핵심이며 하드웨어 가속의 주요 대상.
-- **[CXL (Compute Express Link)](./xx_cxl.md)**: 호스트와 코프로세서 간 메모리 공유를 위한 차세대 인터페이스.
+- **EVM (Ethereum Virtual Machine)**: 코프로세서가 가속하고 보호해야 할 핵심 가상 환경.
+- **영지식 증명 (ZKP) 가속기**: SCV-CoP와 함께 블록체인 노드 성능을 결정하는 쌍두마차 기술.
+- **Keccak-256 해시 함수**: 블록체인 무결성 확인의 핵심이며 하드웨어 가속의 주요 대상.
+- **CXL (Compute Express Link)**: 호스트와 코프로세서 간 메모리 공유를 위한 차세대 인터페이스.
 
 ---
 

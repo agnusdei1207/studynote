@@ -1,5 +1,6 @@
 +++
 title = "Microsegmentation - 마이크로 세그멘테이션"
+date = "2026-03-14"
 weight = 1008
 +++
 
@@ -107,6 +108,6 @@ Microsegmentation은 워크로드 단위로 네트워크를 분할합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Zero Trust Network](./1009_zero_trust_network.md)
-- [SDN](./995_sdn.md)
-- [Network Security](./xxx_network_security.md)
+- Zero Trust Network
+- SDN
+- Network Security

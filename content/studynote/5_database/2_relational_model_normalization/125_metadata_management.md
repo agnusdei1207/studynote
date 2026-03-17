@@ -1,7 +1,6 @@
 +++
 title = "125. 메타데이터 관리 시스템 (MMS / MDR) - 데이터의 의미와 계보 관리"
 date = "2026-03-16"
-draft = false
 weight = 125
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["MMS", "MDR", "메타데이터 관리", "Data Dictionary", "Metadata
 > 2. **기능적 요체**: 표준 용어 및 도메인 관리, 논리/물리 모델 자동 수집, 그리고 데이터의 탄생부터 소멸까지의 흐름을 추적하는 **데이터 계보(Lineage)** 기능을 통해 전사 데이터의 가시성을 제공한다.
 > 3. **가치**: 시스템 간 데이터 중복과 의미 왜곡을 방지하여 데이터의 **상호 운용성**을 높이고, 장애 발생 시 영향도 분석(Impact Analysis)을 즉각 수행하게 하는 데이터 아키텍처의 핵심 인프라다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -47,7 +46,7 @@ keywords = ["MMS", "MDR", "메타데이터 관리", "Data Dictionary", "Metadata
 
 - **📢 섹션 요약 비유**: MMS는 데이터라는 거대 미로를 빠져나가기 위한 '전체 지도'이자 '네비게이션'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -87,7 +86,7 @@ keywords = ["MMS", "MDR", "메타데이터 관리", "Data Dictionary", "Metadata
 
 - **📢 섹션 요약 비유**: 데이터 계보는 '강물의 시작(샘물)부터 끝(바다)까지 흐름을 따라가는 탐험 기록'과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -106,7 +105,7 @@ keywords = ["MMS", "MDR", "메타데이터 관리", "Data Dictionary", "Metadata
 
 - **📢 섹션 요약 비유**: MMS가 '사전(Dictionary)'이라면, MDM은 '베스트셀러(Best-seller)'입니다. 사전이 있어야 베스트셀러의 내용을 정확히 읽을 수 있습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -125,7 +124,7 @@ keywords = ["MMS", "MDR", "메타데이터 관리", "Data Dictionary", "Metadata
 
 - **📢 섹션 요약 비유**: 업데이트 안 된 메타데이터는 '내용이 바뀐 책의 옛날 목차'와 같아서, 읽는 사람을 더 큰 혼란에 빠뜨립니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -143,15 +142,15 @@ keywords = ["MMS", "MDR", "메타데이터 관리", "Data Dictionary", "Metadata
 
 - **📢 섹션 요약 비유**: 미래의 메타데이터 시스템은 단순한 저장소를 넘어, 데이터들끼리 서로를 알아보고 대화하게 해주는 '데이터 사회의 SNS'가 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[데이터 거버넌스](./124_data_governance.md)**: MMS 운영의 상위 정책.
-- **[데이터 계보 (Lineage)](@/studynote/14_data_engineering/_index.md)**: MMS의 핵심 킬러 기능.
-- **[시스템 카탈로그](./56_data_dictionary_cache.md)**: MMS의 정보 원천.
-- **[데이터 표준화](./126_data_standardization.md)**: MMS를 통해 달성하려는 목표.
+- **데이터 거버넌스**: MMS 운영의 상위 정책.
+- **데이터 계보 (Lineage)**: MMS의 핵심 킬러 기능.
+- **시스템 카탈로그**: MMS의 정보 원천.
+- **데이터 표준화**: MMS를 통해 달성하려는 목표.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **메타데이터 관리 시스템**은 우리 집 모든 서랍에 **"무엇이 들어있는지" 적어둔 커다란 게시판**과 같아요.

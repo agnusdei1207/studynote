@@ -1,8 +1,10 @@
 +++
-weight = 502
 title = "502. 비순차 실행 윈도우 (OoO Execution Window)"
+date = "2026-03-14"
+weight = 502
 [extra]
 category = "studynote-computer-architecture"
+date = "2026-03-14"
 +++
 
 # Out-of-Order Execution Window
@@ -11,7 +13,7 @@ category = "studynote-computer-architecture"
 > 2. **가치**: 윈도우 크기가 커질수록 더 먼 곳의 독립적인 명령어를 찾아내어 실행 유닛에 공급할 수 있으므로, 명령어 수준 병렬성 (ILP)을 비약적으로 높여 전체 시스템 성능을 향상시킨다.
 > 3. **융합**: 발급 큐 (Issue Queue), 리오더 버퍼 (ROB), 레지스터 리네이밍 공간, 그리고 로드-스토어 큐 (LSQ)의 집합적 크기가 이 윈도우의 실질적인 용량을 결정하며, 분기 예측 기술과 밀접하게 연동된다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -26,7 +28,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: CPU가 한 번에 훑어보고 처리할 수 있는 '일감의 시야 범위'가 바로 실행 윈도우입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -42,7 +44,7 @@ category = "studynote-computer-architecture"
 | **Load-Store Queue (LSQ)** | 메모리 접근 명령의 순서 관리 | 메모리 의존성을 풀 수 있는 메모리 명령의 범위 | 재료를 창고에서 가져오는 순서표 |
 | **Branch Predictor** | 미래 경로 명령어 공급 | 예측이 틀리면 윈도우 내의 모든 노력이 무효화됨 | 다음 시험 문제가 무엇일지 추측 |
 
----
++++
 
 ### 비순차 실행 윈도우의 동작 메커니즘
 
@@ -74,7 +76,7 @@ category = "studynote-computer-architecture"
 
 **[다이어그램 해설]** 그림에서 윈도우 크기는 4이다. Inst 1이 메모리에서 데이터를 가져오느라 멈춰있음에도 불구하고, CPU는 윈도우 내에 있는 Inst 2와 Inst 3을 먼저 실행 유닛(ALU)으로 보낸다. 이를 통해 '실행 유닛의 유휴 시간'을 줄인다. 하지만 윈도우 크기가 4로 제한되어 있으므로, 아무리 독립적인 명령어라도 Inst 5는 윈도우 안으로 들어오기 전까지는 실행될 수 없다. 따라서 윈도우가 크면 클수록 더 뒤에 있는 Inst 100, Inst 200번 문제 중 쉬운 것(독립적인 것)을 미리 풀 확률이 높아진다. 현대 고성능 CPU(예: Apple M-series, Intel Core)는 이 ROB/윈도우 크기를 수백 개에서 수천 개 수준으로 늘려 성능을 극대화하고 있다.
 
----
++++
 
 ### 심층 동작 원리: Data Flow 분석과 윈도우 확장
 
@@ -86,7 +88,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 윈도우가 아무리 커도 맨 앞줄 손님(가장 오래된 명령)이 계산대에서 안 비켜주면 뒷줄 손님들이 다 주문을 마쳤어도 대기실이 꽉 차서 새 손님을 못 받는 것과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -103,7 +105,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 시야를 넓히기 위해 망원경을 크게 만들수록, 렌즈를 깎는 비용과 망원경을 돌리는 힘(전력)이 엄청나게 많이 들어가는 것과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -118,7 +120,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 일감을 많이 가져올 시야(윈도우)를 확보했다면, 그 일감을 처리할 도구(레지스터)와 집중력(분기 예측)이 뒷받침되는지 확인해야 합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -135,15 +137,15 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 무작정 눈만 크게 뜨는 게 아니라, 꼭 봐야 할 곳만 골라보는 영리한 시선 처리가 미래 CPU 성능의 핵심이 될 것입니다.
 
----
++++
 
 ## 📌 관련 개념 맵
-- **[리오더 버퍼 (ROB)](./xx_rob.md)**: 윈도우의 논리적 경계를 정의하고 결과를 순차로 맞추는 장치.
-- **[발급 큐 (Issue Queue)](./501_superscalar_issue_queue.md)**: 윈도우 내에서 실제 실행 가능한 명령어를 골라내는 엔진.
-- **[분기 예측 (Branch Prediction)](./xx_branch_prediction.md)**: 윈도우를 미래 명령어로 채워주는 연료 공급원.
-- **[메모리 벽 (Memory Wall)](./500_von_neumann_bottleneck_mitigation.md)**: 윈도우가 커져야만 하는 근본적인 외부적 이유.
+- **리오더 버퍼 (ROB)**: 윈도우의 논리적 경계를 정의하고 결과를 순차로 맞추는 장치.
+- **발급 큐 (Issue Queue)**: 윈도우 내에서 실제 실행 가능한 명령어를 골라내는 엔진.
+- **분기 예측 (Branch Prediction)**: 윈도우를 미래 명령어로 채워주는 연료 공급원.
+- **메모리 벽 (Memory Wall)**: 윈도우가 커져야만 하는 근본적인 외부적 이유.
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 비순차 실행 윈도우는 CPU가 한꺼번에 쳐다볼 수 있는 **'공부 범위'**예요.

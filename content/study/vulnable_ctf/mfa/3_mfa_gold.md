@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: MFA Bypass 🥇 Gold"
-description = "LUXORA 플랫폼의 Gold 난이도 MFA Bypass 공략 - 백업 코드(Recovery Codes) 예측성을 악용한 계정 탈취 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "MFA Bypass", "Gold", "Recovery Codes", "PRNG", "Write-up"]

@@ -1,6 +1,7 @@
 +++
-weight = 528
 title = "528. 연속 할당의 문제점 - 외부 단편화 (External Fragmentation)"
+date = "2026-03-14"
+weight = 528
 +++
 
 # 528. 연속 할당의 문제점 - 외부 단편화 (External Fragmentation)

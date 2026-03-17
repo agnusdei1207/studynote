@@ -1,10 +1,9 @@
----
-title: "[ICT] #150. 5G SA (Standalone) 및 SBA (Service Based Architecture)"
-date: "2026-03-17"
++++
+title = "[ICT] #150. 5G SA (Standalone) 및 SBA (Service Based Architecture)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "5GSA_Standalone_SBA_ServiceBasedArchitecture_CloudNative_5GC_NSA"
----
+keyword = "5GSA_Standalone_SBA_ServiceBasedArchitecture_CloudNative_5GC_NSA"
++++
 
 # 5G SA & SBA: 클라우드 네이티브로 진화한 진정한 5G 코어망 아키텍처
 
@@ -13,7 +12,7 @@ keyword: "5GSA_Standalone_SBA_ServiceBasedArchitecture_CloudNative_5GC_NSA"
 > 2. **가치**: NSA(Non-Standalone) 방식이 갖던 코어망의 지연(Latency) 한계를 돌파하여 1ms 초저지연을 실현하고, 네트워크 슬라이싱(Network Slicing)과 엣지 컴퓨팅(MEC)을 완벽하게 지원하는 '진짜 5G'의 완성이다.
 > 3. **융합**: 통신 장비(하드웨어) 중심이었던 과거의 틀을 깨고, IT 업계의 클라우드 네이티브(Cloud-Native), 컨테이너(Container), RESTful API 기술을 통신망에 융합하여 네트워크 기능을 소프트웨어적으로 무한 확장하게 만든 기술 혁신이다.
 
----
++++
 
 ## Ⅰ. 5G SA 및 SBA 개요
 
@@ -31,7 +30,7 @@ keyword: "5GSA_Standalone_SBA_ServiceBasedArchitecture_CloudNative_5GC_NSA"
 
 📢 **섹션 요약 비유**: 껍데기만 5G였던 과거(NSA)를 버리고, 심장(Core)과 혈관(API)까지 모두 5G의 피가 흐르도록 환골탈태하는 완벽한 진화입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -85,7 +84,7 @@ keyword: "5GSA_Standalone_SBA_ServiceBasedArchitecture_CloudNative_5GC_NSA"
 
 📢 **섹션 요약 비유**: 사장님(Control Plane)은 서울 본사에 두고, 무거운 짐을 나르는 직원(User Plane)은 부산 현장에 마음대로 쪼개어 배치할 수 있게 된 완벽한 분업 구조입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -105,7 +104,7 @@ keyword: "5GSA_Standalone_SBA_ServiceBasedArchitecture_CloudNative_5GC_NSA"
 
 📢 **섹션 요약 비유**: 무거운 '철제 로봇(LTE 코어)'을 버리고, 레고 블록처럼 언제든 조립하고 교체할 수 있는 '소프트웨어 요정(SBA 기반 5GC)'으로 코어망을 바꾼 것입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -122,7 +121,7 @@ keyword: "5GSA_Standalone_SBA_ServiceBasedArchitecture_CloudNative_5GC_NSA"
 
 📢 **섹션 요약 비유**: 과거에는 성문을 닫아걸면(폐쇄망) 끝이었지만, 이제는 성 안에 수많은 상점(API)이 열렸으므로 상점마다 철저한 신분증 검사(API 보안)를 해야 합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -136,13 +135,13 @@ keyword: "5GSA_Standalone_SBA_ServiceBasedArchitecture_CloudNative_5GC_NSA"
 
 📢 **섹션 요약 비유**: 5G SA와 SBA는 통신 산업이 무거운 철조망을 벗어 던지고 가벼운 날개(소프트웨어)를 달아, IT 클라우드라는 거대한 하늘로 날아오른 역사적인 도약입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[네트워크 슬라이싱](./147_5g_network_slicing.md)**: 5G SA 환경에서 꽃을 피우는 망 분할 기술.
-- **[MEC (모바일 엣지 컴퓨팅)](./150_mec.md)**: 5G 코어망의 UPF가 전진 배치되는 물리적 위치.
-- **[마이크로서비스 아키텍처 (MSA)](../../4_software_engineering/xx_msa.md)**: SBA를 탄생시킨 소프트웨어 공학적 설계 사상.
-- **[이음 5G (Private 5G)](#)**: 5G SA 장비를 기업이 직접 구축하여 쓰는 사설망 기술.
+- **네트워크 슬라이싱**: 5G SA 환경에서 꽃을 피우는 망 분할 기술.
+- **MEC (모바일 엣지 컴퓨팅)**: 5G 코어망의 UPF가 전진 배치되는 물리적 위치.
+- **마이크로서비스 아키텍처 (MSA)**: SBA를 탄생시킨 소프트웨어 공학적 설계 사상.
+- **이음 5G (Private 5G)**: 5G SA 장비를 기업이 직접 구축하여 쓰는 사설망 기술.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **가짜 5G vs 진짜 5G**: 예전 5G는 길만 넓고 신호등 아저씨는 옛날 4G 아저씨라서 길이 자주 막혔지만, 진짜 5G(SA)는 신호등 아저씨도 5G 천재로 바뀌어서 절대 막히지 않아요.

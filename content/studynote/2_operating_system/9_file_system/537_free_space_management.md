@@ -1,6 +1,7 @@
 +++
-weight = 537
 title = "537. 빈 공간 관리 (Free-space Management)"
+date = "2026-03-14"
+weight = 537
 +++
 
 # # 537. 빈 공간 관리 (Free-space Management)

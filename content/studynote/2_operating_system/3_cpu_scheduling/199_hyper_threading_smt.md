@@ -1,7 +1,7 @@
 +++
 title = "199. 하이퍼스레딩 (Hyper-threading) / SMT"
-weight = 199
 date = "2026-03-04"
+weight = 199
 [extra]
 categories = "studynote-operating-system"
 +++
@@ -13,7 +13,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 명령어 수준의 병렬성 (ILP) 한계를 극복하고, 메모리 지연이나 분기 예측 실패 시에도 다른 스레드의 명령어를 즉시 실행하여 파이프라인 유휴 시간을 채움으로써 전체 처리량을 15~30% 향상시킨다.
 > 3. **융합**: 멀티코어 아키텍처, 슈퍼스칼라 (Superscalar) 실행 엔진, 그리고 보안 취약점 (L1 Terminal Fault 등) 대응을 위한 OS 레벨의 스케줄링 격리 전략과 밀접하게 연관된다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -23,7 +23,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 입은 하나지만 눈과 손을 두 세트씩 가진 전문가가 두 사람 몫의 서류를 한 번에 검토하고 처리하는 초능력과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -53,7 +53,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 한 개의 냄비에 국을 끓이면서 남는 화력으로 옆에 작은 냄비를 올려 소스를 조리는 것처럼, 공유 자원의 빈틈을 찾아내는 정밀한 제어 기술입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -68,7 +68,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 하이퍼스레딩은 1인용 책상에 의자를 두 개 놓는 것이고, 멀티코어는 책상 자체를 두 개 놓는 것입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -78,7 +78,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 한 방(물리 코어)을 가림막(하이퍼스레딩)으로 나눠 쓰다가 옆방 사람이 벽 너머로 훔쳐볼 위험이 있다면, 아예 한 방에 한 사람만 있게 하는 것과 같습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -87,12 +87,12 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 주방장은 한 명이지만 화구와 도구가 많아지면 더 많은 주문을 처리할 수 있듯, SMT는 프로세서의 '동시 응대력'을 상징합니다.
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[슈퍼스칼라 (Superscalar)](../1_computer_architecture/4_instruction_set_architecture/xx_superscalar.md)**: SMT의 기반이 되는 명령어 병렬 실행 기술
-- **[코어 스케줄링 (Core Scheduling)](./217_co_scheduling.md)**: SMT 환경에서의 보안 격리 스케줄링
-- **[사이드 채널 공격 (Side-channel Attack)](../9_security/668_side_channel_attack.md)**: SMT의 물리적 자원 공유로 인한 취약점
+- **슈퍼스칼라 (Superscalar)**: SMT의 기반이 되는 명령어 병렬 실행 기술
+- **코어 스케줄링 (Core Scheduling)**: SMT 환경에서의 보안 격리 스케줄링
+- **사이드 채널 공격 (Side-channel Attack)**: SMT의 물리적 자원 공유로 인한 취약점
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 컴퓨터 머리 하나가 사실은 두 개의 손을 가지고 있어서, 두 사람의 숙제를 동시에 도와줄 수 있는 기능이에요.

@@ -1,10 +1,9 @@
----
-title: "[ICT] #116. 매터 (Matter)"
-date: "2026-03-17"
++++
+title = "[ICT] #116. 매터 (Matter)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Matter_ProjectCHIP_CSA_ConnectivityStandardsAlliance_Interoperability_IPv6_SmartHomeStandard"
----
+keyword = "Matter_ProjectCHIP_CSA_ConnectivityStandardsAlliance_Interoperability_IPv6_SmartHomeStandard"
++++
 
 # 매터 (Matter): 스마트홈의 파편화를 끝낼 '만국 공통어' 표준 프로토콜
 
@@ -13,7 +12,7 @@ keyword: "Matter_ProjectCHIP_CSA_ConnectivityStandardsAlliance_Interoperability_
 > 2. **가치**: 소비자에게는 제품 선택의 자유(제조사 종속 탈피)를, 개발자에게는 한 번의 개발로 모든 플랫폼(HomeKit, Alexa, Google Home, SmartThings)에 대응할 수 있는 효율성을 제공하여 스마트홈 대중화의 기폭제가 된다.
 > 3. **융합**: Wi-Fi(고대역폭), Thread(저전력 메시), Ethernet(유선)을 전송 계층으로 활용하며, 블루투스(설정) 기술을 융합하여 '간편하고 안전한' 기기 등록 및 제어 환경을 구축한다.
 
----
++++
 
 ## Ⅰ. 매터 (Matter) 개요
 
@@ -32,7 +31,7 @@ keyword: "Matter_ProjectCHIP_CSA_ConnectivityStandardsAlliance_Interoperability_
 
 📢 **섹션 요약 비유**: 각기 다른 모양의 퍼즐 조각들을 하나의 규격으로 통일하여, 누구나 쉽게 거대한 스마트홈 그림을 완성할 수 있게 만든 '표준의 마법'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -85,7 +84,7 @@ keyword: "Matter_ProjectCHIP_CSA_ConnectivityStandardsAlliance_Interoperability_
 
 📢 **섹션 요약 비유**: 모든 통로(Network)를 개방하고, 공용어(Application)를 쓰되, 신분증(Security) 검사는 철저히 하여 자유롭고 안전한 '디지털 연합체'를 구축한 것입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -105,7 +104,7 @@ keyword: "Matter_ProjectCHIP_CSA_ConnectivityStandardsAlliance_Interoperability_
 
 📢 **섹션 요약 비유**: 파편화된 부족 사회(기존 표준)에서 문명화된 근대 국가(매터)로 전환되어, 법(보안)과 언어(프로토콜)가 통일된 것과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -123,7 +122,7 @@ keyword: "Matter_ProjectCHIP_CSA_ConnectivityStandardsAlliance_Interoperability_
 
 📢 **섹션 요약 비유**: 새 길(매터)을 닦는 것도 중요하지만, 옛 길(레거시)과 연결하는 교차로(Bridge)를 잘 설계해야 도시 전체(생태계)가 살아납니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -137,13 +136,13 @@ keyword: "Matter_ProjectCHIP_CSA_ConnectivityStandardsAlliance_Interoperability_
 
 📢 **섹션 요약 비유**: 매터는 스마트홈이라는 건물의 뼈대를 세우는 '철근'이자, 그 안을 흐르는 '전기'와 같은 존재로 미래 모든 사물의 기본 사양이 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[스레드 (Thread)](./114_thread.md)**: 매터의 저전력 메시 전송 파트너.
-- **[CSA (Connectivity Standards Alliance)](./xx_csa.md)**: 매터 표준을 만들고 관리하는 연합체.
-- **[6LoWPAN](./117_6lowpan.md)**: 매터가 IP 기반으로 동작하게 하는 핵심 기술.
-- **[제로 트러스트 (ZTA)](../../9_security/xx_zero_trust.md)**: 매터 보안의 철학적 배경.
+- **스레드 (Thread)**: 매터의 저전력 메시 전송 파트너.
+- **CSA (Connectivity Standards Alliance)**: 매터 표준을 만들고 관리하는 연합체.
+- **6LoWPAN**: 매터가 IP 기반으로 동작하게 하는 핵심 기술.
+- **제로 트러스트 (ZTA)**: 매터 보안의 철학적 배경.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **모두가 친구가 되는 법**: 예전에는 다른 회사 물건끼리 사이가 안 좋아서 같이 놀 수 없었지만, 이제 '매터'라는 규칙 덕분에 모두가 친한 친구가 되었어요.

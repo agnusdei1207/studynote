@@ -1,5 +1,6 @@
 +++
 title = "Hyper-threading - 하이퍼스레딩"
+date = "2026-03-14"
 weight = 663
 +++
 
@@ -97,6 +98,6 @@ Hyper-threading은 한 코어에서 두 스레드를 동시 실행합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Multi-core](./662_multicore.md)
-- [Thread](./635_thread.md)
-- [Pipeline](./664_pipeline.md)
+- Multi-core
+- Thread
+- Pipeline

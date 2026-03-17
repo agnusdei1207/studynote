@@ -1,6 +1,7 @@
 +++
-weight = 460
 title = "460. 논블로킹 I/O (Non-blocking I/O)"
+date = "2026-03-14"
+weight = 460
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -115,9 +116,9 @@ title = "460. 논블로킹 I/O (Non-blocking I/O)"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[블로킹 I/O (Blocking I/O)](./459_blocking_io.md)**: 논블로킹과 대조되는 전통적 방식.
-- **[I/O 멀티플렉싱 (I/O Multiplexing)](./xx_io_multiplexing.md)**: 다수의 논블로킹 소켓을 효율적으로 감시하는 기술.
-- **[이벤트 루프 (Event Loop)](./xx_event_loop.md)**: 논블로킹 I/O를 구동하는 핵심 엔진.
+- **블로킹 I/O (Blocking I/O)**: 논블로킹과 대조되는 전통적 방식.
+- **I/O 멀티플렉싱 (I/O Multiplexing)**: 다수의 논블로킹 소켓을 효율적으로 감시하는 기술.
+- **이벤트 루프 (Event Loop)**: 논블로킹 I/O를 구동하는 핵심 엔진.
 
 ---
 

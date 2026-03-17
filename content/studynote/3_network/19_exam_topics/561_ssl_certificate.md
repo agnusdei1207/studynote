@@ -1,5 +1,6 @@
 +++
 title = "SSL Certificate (Digital Certificate) - SSL 인증서"
+date = "2026-03-14"
 weight = 561
 +++
 
@@ -93,6 +94,6 @@ SSL 인증서는 공개키와 소유자 정보를 CA가 서명합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TLS](./560_tls.md)
-- [PKI](./562_pki.md)
-- [HTTPS](./557_https.md)
+- TLS
+- PKI
+- HTTPS

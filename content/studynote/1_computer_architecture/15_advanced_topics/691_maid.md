@@ -1,5 +1,6 @@
 +++
 title = "maid"
+date = "2026-03-14"
 weight = 691
 +++
 
@@ -402,11 +403,11 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [디스크 스핀다운](./690_disk_spin_down.md) - HDD 전력 관리 메커니즘
-- [계층형 스토리지 (Tiered Storage)](./tiered_storage.md) - Hot/Warm/Cold 계층화
-- [테이프 라이브러리](./692_tape_library.md) - 장기 보관 스토리지
-- [오브젝트 스토리지](./object_storage.md) - 분산 스토리지 아키텍처
-- [HSM (Hierarchical Storage Management)](./hsm.md) - 자동 데이터 계층 이동
+- 디스크 스핀다운 - HDD 전력 관리 메커니즘
+- 계층형 스토리지 (Tiered Storage) - Hot/Warm/Cold 계층화
+- 테이프 라이브러리 - 장기 보관 스토리지
+- 오브젝트 스토리지 - 분산 스토리지 아키텍처
+- HSM (Hierarchical Storage Management) - 자동 데이터 계층 이동
 
 ---
 

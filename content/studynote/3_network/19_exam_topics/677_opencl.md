@@ -1,5 +1,6 @@
 +++
 title = "OpenCL (Open Computing Language) - OpenCL"
+date = "2026-03-14"
 weight = 677
 +++
 
@@ -104,6 +105,6 @@ OpenCL은 다양한 플랫폼에서 병렬 컴퓨팅을 제공합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [CUDA](./676_cuda.md)
-- [GPU](./674_gpu.md)
-- [GPGPU](./678_gpgpu.md)
+- CUDA
+- GPU
+- GPGPU

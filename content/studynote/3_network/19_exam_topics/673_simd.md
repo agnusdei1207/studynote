@@ -1,5 +1,6 @@
 +++
 title = "SIMD - SIMD"
+date = "2026-03-14"
 weight = 673
 +++
 
@@ -97,6 +98,6 @@ SIMD는 하나의 명령으로 여러 데이터를 처리합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [DLP](./672_dlp.md)
-- [Vector Processor](./675_vector_processor.md)
-- [GPU](./674_gpu.md)
+- DLP
+- Vector Processor
+- GPU

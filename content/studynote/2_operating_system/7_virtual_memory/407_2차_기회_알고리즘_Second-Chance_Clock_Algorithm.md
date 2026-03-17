@@ -1,6 +1,7 @@
 +++
-weight = 407
 title = "407. 2차 기회 알고리즘 (Second-Chance / Clock Algorithm)"
+date = "2026-03-14"
+weight = 407
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -126,4 +127,3 @@ graph TD
     RB -- If 1 --> GC[Give Chance & Set 0]
     RB -- If 0 --> REP[Replace Page]
     CA -- Efficient for --> MOS[Modern Operating Systems]
-```

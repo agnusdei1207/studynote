@@ -1,6 +1,6 @@
 +++
 title = "16. 빅데이터 키워드 목록"
-date = 2026-03-04
+date = "2026-03-04"
 [extra]
 categories = "studynote-bigdata"
 +++
@@ -10,7 +10,7 @@ categories = "studynote-bigdata"
 정보통신기술사·컴퓨터응용시스템기술사 대비 빅데이터 전 영역 기술사 수준 핵심 키워드
 > ⚡ 빅데이터 기술사 문제: 단순 플랫폼 나열이 아닌 **아키텍처 선택 근거 + 법·제도 + 비즈니스 가치 + 미래 전망** 통합 서술 요구
 
----
++++
 
 ## 1. 빅데이터 개론 / 특성 — 22개
 
@@ -37,7 +37,7 @@ categories = "studynote-bigdata"
 21. 제타바이트 시대 — 2025년 전 세계 생성 데이터 ~175 ZB
 22. 데이터 자산 평가 — 재무적 가치화, ISO/IEC 22123
 
----
++++
 
 ## 2. Hadoop 에코시스템 심화 — 28개
 
@@ -70,7 +70,7 @@ categories = "studynote-bigdata"
 27. 데이터 직렬화 — Avro / Protocol Buffers / Thrift / Kryo
 28. Hadoop 보안 — Kerberos 인증, Ranger(권한)/Atlas(카탈로그)
 
----
++++
 
 ## 3. 분산 처리 / 스파크 심화 — 24개
 
@@ -99,7 +99,7 @@ categories = "studynote-bigdata"
 23. Photon Engine (Databricks) — 네이티브 벡터화 Spark 실행 엔진
 24. Apache Spark 3.5+ 개선 — ANSI SQL 확대, Python API 강화
 
----
++++
 
 ## 4. 스트리밍 / 실시간 처리 — 22개
 
@@ -126,7 +126,7 @@ categories = "studynote-bigdata"
 21. CEP (Complex Event Processing) — 패턴 이벤트 감지, Flink CEP
 22. 실시간 OLAP — Apache Druid / Apache Pinot / ClickHouse — ms 지연 쿼리
 
----
++++
 
 ## 5. 빅데이터 분석 기법 — 26개
 
@@ -157,7 +157,7 @@ categories = "studynote-bigdata"
 25. 처방적 분석 (Prescriptive Analytics) — 최적 의사결정 제안
 26. 인과 추론 (Causal Inference) — 상관≠인과, DoWhy, 반사실 분석
 
----
++++
 
 ## 6. NoSQL 데이터베이스 — 20개
 
@@ -182,7 +182,7 @@ categories = "studynote-bigdata"
 19. 멀티 마스터 복제 — CouchDB / DynamoDB Global Tables
 20. 스키마리스 설계 패턴 — 임베딩 vs 참조, 데이터 중복 허용 설계
 
----
++++
 
 ## 7. 데이터 레이크 / 레이크하우스 — 18개
 
@@ -205,7 +205,7 @@ categories = "studynote-bigdata"
 17. Snowflake on Data Lake — External Table, Iceberg 지원
 18. Microsoft Fabric — One Lake, Power BI + Synapse + Data Factory 통합
 
----
++++
 
 ## 8. 빅데이터 시각화 — 14개
 
@@ -224,7 +224,7 @@ categories = "studynote-bigdata"
 13. 지리공간 시각화 — Kepler.gl / Folium / Deck.gl — 지도 기반
 14. 빅데이터 시각화 도전 — 수십억 개 포인트, 집계/샘플링/렌더링 최적화
 
----
++++
 
 ## 9. 빅데이터 플랫폼 / 아키텍처 — 16개
 
@@ -245,7 +245,7 @@ categories = "studynote-bigdata"
 15. 데이터 이동 비용 — Egress 비용, 리전 내 데이터 로컬화
 16. 하이브리드 분석 — 온프레미스 + 클라우드 버스팅
 
----
++++
 
 ## 10. 빅데이터 거버넌스 / 품질 / 법규 — 18개
 
@@ -268,7 +268,7 @@ categories = "studynote-bigdata"
 17. 빅데이터 분쟁 — 데이터 소유권, 수집 동의, 목적 외 사용
 18. 데이터 감사 (Data Audit) — 접근 이력, 변경 이력, 보관 기간
 
----
++++
 
 ## 11. 빅데이터 산업 응용 — 16개
 
@@ -289,7 +289,7 @@ categories = "studynote-bigdata"
 15. 부동산 빅데이터 — 시세 예측 / 상권 분석 / 인구 이동 분석
 16. 국방 빅데이터 — 정보 분석 / 적 행동 예측 / 보안 위협 탐지
 
----
++++
 
 ## 12. 최신 빅데이터 동향 — 12개
 
@@ -306,6 +306,6 @@ categories = "studynote-bigdata"
 11. Databricks vs Snowflake — 레이크하우스 vs DW 진영 경쟁
 12. 데이터 옵저버빌리티 — Monte Carlo / Bigeye — 데이터 파이프라인 신뢰성
 
----
++++
 
 **총 키워드 수: 216개**

@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: MFA Bypass 🥉 Bronze"
-description = "LUXORA 플랫폼의 2FA/MFA 우회 공격(Parameter Manipulation) 기반 계정 탈취 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "MFA Bypass", "Bronze", "Parameter Manipulation", "Write-up"]

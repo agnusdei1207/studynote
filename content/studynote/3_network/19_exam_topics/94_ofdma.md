@@ -1,5 +1,6 @@
 +++
 title = "OFDMA (직교 주파수 분할 다중 접속)"
+date = "2026-03-14"
 weight = 94
 +++
 
@@ -154,10 +155,10 @@ OFDMA(Orthogonal Frequency Division Multiple Access)는 OFDM의 부반송파를 
 ---
 
 ### 📌 관련 개념 링크**:
-- [OFDM 직교 주파수 분할](./84_ofdm_orthogonal.md)
-- [부반송파 Subcarrier](./85_subcarrier.md)
-- [SC-FDMA](./205_scfdma.md)
-- [LTE](./210_lte.md)
+- OFDM 직교 주파수 분할
+- 부반송파 Subcarrier
+- SC-FDMA
+- LTE
 
 ---
 

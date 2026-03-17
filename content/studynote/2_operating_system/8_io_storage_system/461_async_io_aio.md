@@ -1,6 +1,7 @@
 +++
-weight = 461
 title = "461. 비동기 I/O (Asynchronous I/O, AIO)"
+date = "2026-03-14"
+weight = 461
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -116,9 +117,9 @@ title = "461. 비동기 I/O (Asynchronous I/O, AIO)"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[논블로킹 I/O (Non-blocking I/O)](./460_non_blocking_io.md)**: 즉시 반환하지만 완료 확인은 앱의 몫인 방식.
-- **[io_uring](./464_io_uring.md)**: 리눅스 차세대 고성능 비동기 I/O 프레임워크.
-- **[이벤트 루프 (Event Loop)](./xx_event_loop.md)**: 비동기 통지를 효율적으로 처리하는 디자인 패턴.
+- **논블로킹 I/O (Non-blocking I/O)**: 즉시 반환하지만 완료 확인은 앱의 몫인 방식.
+- **io_uring**: 리눅스 차세대 고성능 비동기 I/O 프레임워크.
+- **이벤트 루프 (Event Loop)**: 비동기 통지를 효율적으로 처리하는 디자인 패턴.
 
 ---
 

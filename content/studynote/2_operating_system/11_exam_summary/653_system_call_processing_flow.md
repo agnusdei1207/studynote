@@ -1,7 +1,7 @@
 +++
-weight = 653
 title = "653. 시스템 콜(System Call) 처리 흐름 상세 분석"
 date = "2024-05-23"
+weight = 653
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "System Call", "Trap", "IDT", "Kernel Space", "Software Interrupt"]
@@ -12,7 +12,7 @@ keywords = ["운영체제", "System Call", "Trap", "IDT", "Kernel Space", "Softw
 > 응용 프로그램이 파일 I/O, 네트워크 통신, 메모리 할당 등의 작업을 수행할 때 직접 하드웨어를 제어하는 대신, 커널에 요청을 전달함으로써 시스템의 일관성과 보안을 보장한다.
 > 시스템 콜 처리 흐름의 정교한 이해는 OS 내부 동작 메커니즘과 시스템 성능 최적화를 이해하는 핵심 열쇠가 된다.
 
----
++++
 
 ### Ⅰ. 시스템 콜(System Call)의 역할과 유형
 
@@ -27,7 +27,7 @@ keywords = ["운영체제", "System Call", "Trap", "IDT", "Kernel Space", "Softw
 
 📢 섹션 요약 비유: 시스템 콜은 '고급 요리를 주문하는 메뉴판'과 같아서, 손님은 재료를 몰라도 메뉴 이름만으로 원하는 서비스를 받을 수 있습니다.
 
----
++++
 
 ### Ⅱ. 시스템 콜 처리 프로세스 분석
 
@@ -67,7 +67,7 @@ keywords = ["운영체제", "System Call", "Trap", "IDT", "Kernel Space", "Softw
 
 📢 섹션 요약 비유: 주문서(System Call Number)를 작성하여 창구에 넣으면(Trap), 직원이 번호표를 보고 알맞은 주방팀(Kernel Routine)에게 전달하는 과정입니다.
 
----
++++
 
 ### Ⅲ. API와 시스템 콜의 관계 (Standard C Library)
 
@@ -80,7 +80,7 @@ keywords = ["운영체제", "System Call", "Trap", "IDT", "Kernel Space", "Softw
 
 📢 섹션 요약 비유: 메뉴판(API)에서 요리를 고르면, 웨이터(Library)가 주방장만 이해할 수 있는 전문 용어(System Call)로 바꿔서 주문을 넣어주는 것과 같습니다.
 
----
++++
 
 ### Ⅳ. 커널의 매개변수 검증 및 보안
 
@@ -93,7 +93,7 @@ keywords = ["운영체제", "System Call", "Trap", "IDT", "Kernel Space", "Softw
 
 📢 섹션 요약 비유: 직원이 주문서를 받았을 때, 손님이 지불 능력이 있는지 확인하고 주문서에 적힌 주소가 손님의 테이블 번호가 맞는지 검사하는 절차입니다.
 
----
++++
 
 ### Ⅴ. 시스템 콜 성능 최적화 기술
 
@@ -106,7 +106,7 @@ keywords = ["운영체제", "System Call", "Trap", "IDT", "Kernel Space", "Softw
 
 📢 섹션 요약 비유: 매번 창구에 가는 대신, 자주 확인하는 정보는 게시판(vDSO)에 붙여두어 손님이 직접 보게 하는 것과 같습니다.
 
----
++++
 
 ### 💡 지식 그래프(Knowledge Graph)
 - **부모 노드**: 운영체제 인터페이스(OS Interface)

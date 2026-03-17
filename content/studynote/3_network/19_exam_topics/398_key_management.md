@@ -1,5 +1,6 @@
 +++
 title = "키 관리 - Key Management"
+date = "2026-03-14"
 weight = 398
 +++
 
@@ -141,10 +142,10 @@ weight = 398
 ---
 
 ### 📌 관련 개념 링크**:
-- [HSM](./397_hsm.md)
-- [PKI](./387_pki.md)
-- [대칭키 암호](./391_symmetric.md)
-- [비대칭키 암호](./392_asymmetric.md)
+- HSM
+- PKI
+- 대칭키 암호
+- 비대칭키 암호
 
 ---
 

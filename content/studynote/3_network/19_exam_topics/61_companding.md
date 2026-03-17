@@ -1,5 +1,6 @@
 +++
 title = "컴팬딩 (Companding)"
+date = "2026-03-14"
 weight = 61
 +++
 
@@ -152,10 +153,10 @@ weight = 61
 ---
 
 ### 📌 관련 개념 링크**:
-- [양자화 Quantization](./59_quantization.md)
-- [양자화 잡음](./60_quantization_noise.md)
-- [PCM 펄스 부호 변조](./62_pcm_pulse.md)
-- [T1/E1 디지털 전송](./205_t1_e1.md)
+- 양자화 Quantization
+- 양자화 잡음
+- PCM 펄스 부호 변조
+- T1/E1 디지털 전송
 
 ---
 

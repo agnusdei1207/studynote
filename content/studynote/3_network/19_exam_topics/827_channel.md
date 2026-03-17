@@ -1,5 +1,6 @@
 +++
 title = "Channel - 채널"
+date = "2026-03-14"
 weight = 827
 +++
 
@@ -101,6 +102,6 @@ Channel은 정보가 흐르는 경로입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Bandwidth](./803_bandwidth.md)
-- [Multiplexing](./815_multiplexing.md)
-- [Transmission](./xxx_transmission.md)
+- Bandwidth
+- Multiplexing
+- Transmission

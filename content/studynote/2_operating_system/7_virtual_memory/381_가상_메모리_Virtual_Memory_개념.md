@@ -1,6 +1,7 @@
 +++
-weight = 381
 title = "381. 가상 메모리 (Virtual Memory) 개념"
+date = "2026-03-14"
+weight = 381
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -120,4 +121,3 @@ graph TD
     DP --> PF[Page Fault Handling]
     MMU --> PT[Page Table Lookup]
     SS --> BS[Backing Store]
-```

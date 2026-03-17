@@ -1,7 +1,7 @@
 +++
-weight = 257
 title = "257. NAND 플래시 (NAND Flash)"
 date = "2026-03-16"
+weight = 257
 [extra]
 categories = "studynote-computer-architecture"
 keywords = ["컴퓨터구조", "NAND 플래시", "NAND Flash", "SSD", "비휘발성 메모리", "블록 단위", "삭제"]
@@ -14,7 +14,7 @@ keywords = ["컴퓨터구조", "NAND 플래시", "NAND Flash", "SSD", "비휘발
 > 2. **가치**: NOR 플래시 대비 **면적 효율이 높고 비용이 낮아** SSD, USB, eMMC, 스마트폰 저장공간 등 대용량 스토리지의 핵심 소자로 자리 잡았다.
 > 3. **융합**: XOR-like 특성으로 인해 **쓰기 전 삭제(Erase Before Write)**가 필요하며, 마모 평준화(Wear Leveling), 가비지 컬렉션(GC), FTL 등의 소프트웨어 기술과 결합하여 신뢰성을 확보한다.
 
----
++++
 
 ## Ⅰ. NAND 플래시의 개요
 
@@ -32,7 +32,7 @@ keywords = ["컴퓨터구조", "NAND 플래시", "NAND Flash", "SSD", "비휘발
 
 - **📢 섹션 요약 비유**: 아파트에 비유하면, 방(페이지)마다 입주(쓰기)는 자유롭지만, 퇴실(삭제)은 한 층(블록) 전체를 비워야 하는 구조입니다.
 
----
++++
 
 ## Ⅱ. 구조 및 동작 원리 (Deep Dive)
 
@@ -78,7 +78,7 @@ keywords = ["컴퓨터구조", "NAND 플래시", "NAND Flash", "SSD", "비휘발
 
 - **📢 섹션 요약 비유**: 방 하나에 사람 1명만 들어가면 비싸지만 오래 쓰고(SLC), 4명씩 들어가면 싸지만 금방 닳는다(QLC)입니다.
 
----
++++
 
 ## Ⅲ. NAND 플래시 vs NOR 플래시 비교
 
@@ -91,7 +91,7 @@ keywords = ["컴퓨터구조", "NAND 플래시", "NAND Flash", "SSD", "비휘발
 | **XIP (Execute In Place)** | 불가능 | 가능 |
 | **주 용도** | SSD, USB, SD 카드 | BIOS, 펌웨어 저장 |
 
----
++++
 
 ## Ⅳ. 실무 적용 및 아키텍처적 판단 (Strategy)
 
@@ -104,7 +104,7 @@ keywords = ["컴퓨터구조", "NAND 플래시", "NAND Flash", "SSD", "비휘발
 - NAND는 순차 쓰기에 최적화되어 있다. 랜덤 쓰기는 가비지 컬렉션 부담 증가 → 성능 저하 → 수명 단축.
 - 로그 구조 파일 시스템(LFS), FTL의 로그 블록 방식으로 완화.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -116,15 +116,15 @@ keywords = ["컴퓨터구조", "NAND 플래시", "NAND Flash", "SSD", "비휘발
 - **3D NAND**: 셀을 수직으로 적층(128Layer, 232Layer...)하여 밀도 극대화.
 - **PLC (Penta Level Cell)**: 5비트/셀 연구 중 (밀도 ↑, 내구성 ↓).
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[NOR 플래시](./258_nor_flash.md)**: NAND와 비교되는 플래시 메모리.
-- **[SSD (Solid State Drive)](../8_io_storage_systems/327_ssd.md)**: NAND 플래시 기반 저장장치.
-- **[가비지 컬렉션 (Garbage Collection)](../8_io_storage_systems/328_garbage_collection.md)**: NAND 관리 기법.
-- **[FTL (Flash Translation Layer)](../8_io_storage_systems/330_ftl.md)**: NAND의 논리-물리 주소 변환.
+- **NOR 플래시**: NAND와 비교되는 플래시 메모리.
+- **SSD (Solid State Drive)**: NAND 플래시 기반 저장장치.
+- **가비지 컬렉션 (Garbage Collection)**: NAND 관리 기법.
+- **FTL (Flash Translation Layer)**: NAND의 논리-물리 주소 변환.
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. NAND 플래시은 **'촘촘하게 붙어있는 벌집'** 같아요.

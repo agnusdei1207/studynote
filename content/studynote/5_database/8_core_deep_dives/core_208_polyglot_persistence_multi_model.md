@@ -12,7 +12,7 @@ categories = "studynote-database"
 > 2. **가치**: 마이크로서비스 아키텍처(MSA)에서 각 서비스의 자율성을 보장하고 병목을 제거하여 전체 시스템의 성능과 확장성을 극대화한다. 이를 위해 데이터 동기화를 위한 이벤트 소싱(Event Sourcing) 및 CQRS, CDC 패턴이 필연적으로 동반된다.
 > 3. **융합**: 이기종 DB 관리의 복잡성을 해결하기 위해, 단일 스토리지 엔진 위에서 Document, Graph, KV, Relational 모델을 모두 지원하는 **다중 모델 데이터베이스 (Multi-model Database)**가 새로운 대안으로 급부상하고 있다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -27,7 +27,7 @@ categories = "studynote-database"
 
 - **📢 섹션 요약 비유**: 십자드라이버 하나로 모든 나사를 억지로 풀려다 마모시키는 대신, 나사 모양에 맞는 전용 공구 세트(Toolbox)를 갖추고 작업하는 전문가의 방식과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -61,7 +61,7 @@ categories = "studynote-database"
 
 **[다이어그램 해설]** 클라이언트의 요청 성격에 따라 가장 최적화된 DB가 응답을 담당한다. 장바구니와 세션은 마이크로초 단위 응답이 필요한 **Redis**, 자유로운 상품 스펙은 **MongoDB**, 결제 무결성은 **MySQL**, 구매자-상품 간의 연관 관계 탐색은 **Neo4j**가 처리한다. 이때 가장 중요한 것은 이기종 DB 간의 데이터 동기화다. 주로 MySQL(원본)에서 발생한 삽입/수정 이벤트를 CDC 툴(Debezium)이나 Kafka 메시지 큐를 통해 다른 DB들로 실시간 파생시켜 **결과적 일관성(Eventual Consistency)**을 유지한다.
 
----
++++
 
 ### 2. CQRS (Command and Query Responsibility Segregation) 패턴
 
@@ -71,7 +71,7 @@ categories = "studynote-database"
 - **Query (읽기)**: 조회 성능이 중요한 Elasticsearch나 MongoDB 등에 비정규화된 View 모델로 저장해두고 고속으로 응답.
 - **동기화**: 이벤트 소싱(Event Sourcing)이나 메시지 브로커를 통해 Command의 변경 이벤트를 Query 모델에 비동기 전달.
 
----
++++
 
 ### 3. 다중 모델 데이터베이스 (Multi-model Database)
 
@@ -82,7 +82,7 @@ categories = "studynote-database"
 
 - **📢 섹션 요약 비유**: 서로 다른 언어를 쓰는 전문가들을 고용해 매번 통역사(CDC)를 두는 방식(Polyglot)에서, 아예 혼자서 5개 국어를 완벽히 구사하는 초천재 직원을 고용하는 방식(Multi-model)으로 진화하는 과정입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -103,7 +103,7 @@ categories = "studynote-database"
 
 - **📢 섹션 요약 비유**: 전 세계 최고 성능의 부품만 사서 직접 조립한 '하이엔드 조립 PC'(폴리글랏)는 빠르지만 고장 시 직접 다 고쳐야 하고, 일체형으로 나온 '브랜드 워크스테이션'(멀티모델)은 조립 PC를 이길 순 없어도 관리가 편하고 쾌적한 것과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -125,7 +125,7 @@ categories = "studynote-database"
 
 - **📢 섹션 요약 비유**: 배가 아픈 환자에게 필요치도 않은 뇌 수술, 심장 수술 전문가까지 다 불러 모으면 비용만 엄청나게 깨지고 환자는 지치게 되듯, 오직 진짜 아픈 곳(병목)에만 해당 분야의 전문의(DB)를 투입해야 합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -143,15 +143,15 @@ categories = "studynote-database"
 
 - **📢 섹션 요약 비유**: 과거에는 여러 데이터베이스를 이어 붙이는 복잡한 파이프라인 배관공이 필수였다면, 미래에는 배관 자체가 보이지 않고 알아서 최적의 통로로 데이터를 흘려보내는 스마트한 투명 데이터 망으로 진화할 것입니다.
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[NoSQL 아키텍처 - 분산 데이터 모델](./201_nosql_architecture_sharding.md)**: 폴리글랏 퍼시스턴스의 재료가 되는 각종 NoSQL 데이터베이스 기초.
-- **[Elasticsearch와 역색인 구조](./207_elasticsearch_inverted_index.md)**: 폴리글랏 아키텍처에서 '조회(Query)' 최적화의 대명사로 쓰이는 엔진.
-- **[이벤트 소싱과 분산 트랜잭션 (Saga)](../4_transaction_concurrency_recovery/199_distributed_transactions.md)**: 분리된 이기종 DB 간의 데이터 동기화와 정합성을 지키기 위한 필수 MSA 아키텍처.
-- **[데이터 메시 (Data Mesh)](../6_dw_olap_trends/data_mesh.md)**: 폴리글랏 철학을 데이터 분석 및 거버넌스 조직 차원까지 확장한 분산 관리 체계.
+- **NoSQL 아키텍처 - 분산 데이터 모델**: 폴리글랏 퍼시스턴스의 재료가 되는 각종 NoSQL 데이터베이스 기초.
+- **Elasticsearch와 역색인 구조**: 폴리글랏 아키텍처에서 '조회(Query)' 최적화의 대명사로 쓰이는 엔진.
+- **이벤트 소싱과 분산 트랜잭션 (Saga)**: 분리된 이기종 DB 간의 데이터 동기화와 정합성을 지키기 위한 필수 MSA 아키텍처.
+- **데이터 메시 (Data Mesh)**: 폴리글랏 철학을 데이터 분석 및 거버넌스 조직 차원까지 확장한 분산 관리 체계.
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 한 명의 요리사가 한식, 중식, 일식을 다 만들려면 시간도 오래 걸리고 맛도 떨어지겠죠?

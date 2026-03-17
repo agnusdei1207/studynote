@@ -1,6 +1,7 @@
 +++
-weight = 10
 title = "10. 절연체 (Insulator)"
+date = "2026-03-14"
+weight = 10
 +++
 
 # # [절연체 (Insulator)]

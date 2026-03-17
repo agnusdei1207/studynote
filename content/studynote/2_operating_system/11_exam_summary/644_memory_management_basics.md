@@ -1,7 +1,7 @@
 +++
-weight = 644
 title = "644. 운영체제 핵심 요약 - 메모리 관리 기본"
 date = "2024-05-23"
+weight = 644
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "메모리 관리", "Memory Management", "Paging", "Segmentation", "Fragmentation"]
@@ -12,7 +12,7 @@ keywords = ["운영체제", "메모리 관리", "Memory Management", "Paging", "
 > 논리 주소(Logical Address)와 물리 주소(Physical Address)의 분리를 통해 프로그램의 유연성을 확보하고, MMU(Memory Management Unit)를 통한 고속 주소 변환이 시스템 성능의 관건이 된다.
 > 파편화(Fragmentation) 문제를 최소화하기 위해 고정 분할 방식에서 가변 분할, 나아가 페이징(Paging) 및 세그먼테이션(Segmentation)으로 발전해왔다.
 
----
++++
 
 ### Ⅰ. 메모리 관리의 배경과 주소 바인딩
 
@@ -29,7 +29,7 @@ keywords = ["운영체제", "메모리 관리", "Memory Management", "Paging", "
 
 📢 섹션 요약 비유: 도서관의 '청구기호(Logical)'와 실제 책이 꽂혀 있는 '서가 번호(Physical)'가 있고, 이를 연결해주는 '사서 선생님(MMU)'이 있는 것과 같습니다.
 
----
++++
 
 ### Ⅱ. 연속 메모리 할당과 파편화 문제
 
@@ -51,7 +51,7 @@ keywords = ["운영체제", "메모리 관리", "Memory Management", "Paging", "
 
 📢 섹션 요약 비유: 주차장에 큰 차 한 대가 들어와야 하는데, 작은 빈자리들만 띄엄띄엄 있어서 주차를 못 하는 상황과 같습니다.
 
----
++++
 
 ### Ⅲ. 페이징(Paging) 기법
 
@@ -66,7 +66,7 @@ keywords = ["운영체제", "메모리 관리", "Memory Management", "Paging", "
 
 📢 섹션 요약 비유: 원고지를 칸(Frame)에 맞춰 한 글자(Page)씩 순서대로 적는 것이 아니라, 빈칸 어디든 남는 곳에 채워 넣고 '목차(Page Table)'를 만드는 방식입니다.
 
----
++++
 
 ### Ⅳ. 세그먼테이션(Segmentation) 기법
 
@@ -80,7 +80,7 @@ keywords = ["운영체제", "메모리 관리", "Memory Management", "Paging", "
 
 📢 섹션 요약 비유: 책을 똑같은 크기의 '페이지'로 나누는 것이 아니라, '서론, 본론, 결론'처럼 내용의 길이에 따라 '장(Chapter)'으로 나누어 보관하는 것과 같습니다.
 
----
++++
 
 ### Ⅴ. 페이징과 세그먼테이션의 혼용 (Paged Segmentation)
 
@@ -93,7 +93,7 @@ keywords = ["운영체제", "메모리 관리", "Memory Management", "Paging", "
 
 📢 섹션 요약 비유: 책을 '장(Chapter)'별로 나누되, 각 장의 내용은 다시 '페이지' 단위로 인쇄하여 바인더에 꽂아 관리하는 정교한 방식입니다.
 
----
++++
 
 ### 💡 지식 그래프(Knowledge Graph)
 - **부모 노드**: 운영체제 자원 관리(Resource Management)

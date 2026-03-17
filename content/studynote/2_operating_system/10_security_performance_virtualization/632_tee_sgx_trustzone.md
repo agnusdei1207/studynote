@@ -1,6 +1,7 @@
 +++
-weight = 632
 title = "632. TEE (Trusted Execution Environment) - Intel SGX, ARM TrustZone"
+date = "2026-03-14"
+weight = 632
 +++
 
 # 632. TEE (Trusted Execution Environment) - Intel SGX, ARM TrustZone

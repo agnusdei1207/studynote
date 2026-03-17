@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Timing Attack 🥉 Bronze"
-description = "LUXORA 플랫폼의 기본 Timing Attack 취약점을 이용한 사용자 열거(User Enumeration) 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Timing Attack", "Bronze", "User Enumeration", "Write-up"]

@@ -1,5 +1,6 @@
 +++
 title = "Postmortem - 포스트모템"
+date = "2026-03-14"
 weight = 745
 +++
 
@@ -104,6 +105,6 @@ Postmortem은 장애 후 분석을 수행합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Incident Management](./742_incident_management.md)
-- [Blameless Culture](./746_blameless.md)
-- [Error Budget](./741_error_budget.md)
+- Incident Management
+- Blameless Culture
+- Error Budget

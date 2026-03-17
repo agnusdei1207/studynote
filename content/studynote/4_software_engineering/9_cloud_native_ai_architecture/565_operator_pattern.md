@@ -1,9 +1,7 @@
----
-title: "565. 오퍼레이터 (Operator) 패턴"
-date: 2026-03-15
-type: "pe_exam"
-id: 565
----
++++
+title = "565. 오퍼레이터 (Operator) 패턴"
+date = "2026-03-15"
++++
 
 # 565. 오퍼레이터 (Operator) 패턴 (Kubernetes Operator Pattern)
 
@@ -138,10 +136,10 @@ id: 565
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[헬름 (Helm)](./564_helm_charts.md)**: 패키징 단계의 협력 도구.
-- **[쿠버네티스 제어 평면](../13_cloud_architecture/xx_k8s_control_plane.md)**: 오퍼레이터가 확장하는 핵심 아키텍처.
-- **[CRD (Custom Resource Definition)](../xx_crd.md)**: 오퍼레이터의 데이터 모델 표준.
-- **[SRE (Site Reliability Engineering)](./589_sre_slo.md)**: 오퍼레이터 패턴이 지향하는 직무 철학.
+- **헬름 (Helm)**: 패키징 단계의 협력 도구.
+- **쿠버네티스 제어 평면**: 오퍼레이터가 확장하는 핵심 아키텍처.
+- **CRD (Custom Resource Definition)**: 오퍼레이터의 데이터 모델 표준.
+- **SRE (Site Reliability Engineering)**: 오퍼레이터 패턴이 지향하는 직무 철학.
 
 ---
 

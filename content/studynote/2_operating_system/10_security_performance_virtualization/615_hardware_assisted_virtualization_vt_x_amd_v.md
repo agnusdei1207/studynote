@@ -1,6 +1,7 @@
 +++
-weight = 615
 title = "615. 하드웨어 지원 가상화 (Intel VT-x, AMD-V)"
+date = "2026-03-14"
+weight = 615
 +++
 
 # 615. 하드웨어 지원 가상화 (Intel VT-x, AMD-V)

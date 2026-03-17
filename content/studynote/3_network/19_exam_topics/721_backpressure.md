@@ -1,5 +1,6 @@
 +++
 title = "Backpressure - 백프레셔"
+date = "2026-03-14"
 weight = 721
 +++
 
@@ -101,6 +102,6 @@ Backpressure는 소비자가 생산자에게 압력을 전달합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Stream Processing](./709_stream_processing.md)
-- [Throttling](./720_throttling.md)
-- [Flow Control](./xxx_flow_control.md)
+- Stream Processing
+- Throttling
+- Flow Control

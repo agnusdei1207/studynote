@@ -1,5 +1,6 @@
 +++
 title = "Elasticsearch - 일래스틱서치"
+date = "2026-03-14"
 weight = 776
 +++
 
@@ -101,6 +102,6 @@ Elasticsearch는 분산 검색 엔진입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Search Engine](./xxx_search.md)
-- [Log Analytics](./xxx_log_analytics.md)
-- [Kibana](./xxx_kibana.md)
+- Search Engine
+- Log Analytics
+- Kibana

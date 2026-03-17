@@ -1,6 +1,7 @@
 +++
-weight = 634
 title = "634. DVFS (Dynamic Voltage and Frequency Scaling)"
+date = "2026-03-14"
+weight = 634
 +++
 
 ### 💡 핵심 인사이트 (3줄 요약)

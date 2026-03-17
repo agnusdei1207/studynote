@@ -1,5 +1,6 @@
 +++
 title = "Fiber Optic - 광케이블"
+date = "2026-03-14"
 weight = 987
 +++
 
@@ -113,6 +114,6 @@ Fiber Optic은 빛을 이용해 데이터를 전송합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [WDM](./988_wdm.md)
-- [Ethernet](./901_ethernet.md)
-- [Transceiver](./xxx_transceiver.md)
+- WDM
+- Ethernet
+- Transceiver

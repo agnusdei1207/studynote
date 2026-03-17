@@ -1,5 +1,6 @@
 +++
 title = "Wi-Fi 오프로드 - Wi-Fi Offload"
+date = "2026-03-14"
 weight = 467
 +++
 
@@ -145,10 +146,10 @@ Wi-Fi 오프로드는 모바일 데이터를 Wi-Fi로 분산합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Wi-Fi 6](./460_wifi6.md)
-- [HetNet](./465_hetnet.md)
-- [VoWiFi](./468_vowifi.md)
-- [5G](./459_5g_networking.md)
+- Wi-Fi 6
+- HetNet
+- VoWiFi
+- 5G
 
 ---
 

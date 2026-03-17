@@ -1,10 +1,9 @@
----
-title: "[ICT] #126. 디지털 트윈 (Digital Twin) 개념 및 3요소"
-date: "2026-03-17"
++++
+title = "[ICT] #126. 디지털 트윈 (Digital Twin) 개념 및 3요소"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "DigitalTwin_Physical_Virtual_Connection_Simulation_CyberPhysicalSystem_CPS"
----
+keyword = "DigitalTwin_Physical_Virtual_Connection_Simulation_CyberPhysicalSystem_CPS"
++++
 
 # 디지털 트윈 (Digital Twin): 현실을 복제하여 미래를 예측하는 가상 거울
 
@@ -13,7 +12,7 @@ keyword: "DigitalTwin_Physical_Virtual_Connection_Simulation_CyberPhysicalSystem
 > 2. **가치**: 제품의 설계부터 제조, 운영, 폐기까지의 전체 수명 주기(Lifecycle)를 가상에서 먼저 검증함으로써, 물리적 시행착오 비용을 극단적으로 줄이고 최적의 의사결정을 지원한다.
 > 3. **융합**: 사물인터넷(IoT)이 데이터를 모으고, 5G가 이를 실시간으로 전송하며, 인공지능(AI)이 분석하여 가상 세계(AR/VR)에 표출하는 4차 산업혁명 핵심 기술들의 총체적 융합체(Cyber-Physical System)다.
 
----
++++
 
 ## Ⅰ. 디지털 트윈 (Digital Twin) 개요
 
@@ -31,7 +30,7 @@ keyword: "DigitalTwin_Physical_Virtual_Connection_Simulation_CyberPhysicalSystem
 
 📢 **섹션 요약 비유**: 현실의 거울을 소프트웨어로 만들어, 거울 속 아바타에게 먼저 위험한 짓(시뮬레이션)을 시켜보고 안전한 길만 현실에 적용하는 '마법의 예언 거울'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -81,7 +80,7 @@ keyword: "DigitalTwin_Physical_Virtual_Connection_Simulation_CyberPhysicalSystem
 
 📢 **섹션 요약 비유**: 영혼(가상 모델)과 육체(물리 객체)가 탯줄(네트워크)로 이어져 있어, 한쪽이 아프면 다른 쪽도 실시간으로 반응하는 생명공학적 연결 구조입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -100,7 +99,7 @@ keyword: "DigitalTwin_Physical_Virtual_Connection_Simulation_CyberPhysicalSystem
 
 📢 **섹션 요약 비유**: 기존 시뮬레이션이 '과거의 사진을 보고 병을 진단하는 것'이라면, 디지털 트윈은 '환자에게 실시간 심전도 기계를 달고 24시간 모니터링하며 처방하는 것'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -118,7 +117,7 @@ keyword: "DigitalTwin_Physical_Virtual_Connection_Simulation_CyberPhysicalSystem
 
 📢 **섹션 요약 비유**: 완벽한 쌍둥이를 만들기 위해 화장품(3D 그래픽)에 돈을 쓰기보다, 서로의 마음(데이터)이 얼마나 빨리 통하는지(초저지연)에 투자하는 것이 현명합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -132,13 +131,13 @@ keyword: "DigitalTwin_Physical_Virtual_Connection_Simulation_CyberPhysicalSystem
 
 📢 **섹션 요약 비유**: 디지털 트윈은 인류가 현실 세계를 조종하는 리모컨을 얻은 것과 같으며, 다가올 메타버스 시대의 완벽한 물리 엔진 역할을 수행할 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[메타버스 (Metaverse)](./133_metaverse.md)**: 디지털 트윈 공간이 경제/사회 활동으로 확장된 개념.
-- **[CPS (사이버 물리 시스템)](../../4_software_engineering/xx_cps.md)**: 디지털 트윈을 구동하는 핵심 아키텍처 사상.
-- **[사물인터넷 (IoT)](./100_iot_concept.md)**: 현실 데이터를 가상으로 실어 나르는 신경망.
-- **[예지 보전 (Predictive Maintenance)](#)**: 디지털 트윈의 가장 강력한 실무 활용 사례.
+- **메타버스 (Metaverse)**: 디지털 트윈 공간이 경제/사회 활동으로 확장된 개념.
+- **CPS (사이버 물리 시스템)**: 디지털 트윈을 구동하는 핵심 아키텍처 사상.
+- **사물인터넷 (IoT)**: 현실 데이터를 가상으로 실어 나르는 신경망.
+- **예지 보전 (Predictive Maintenance)**: 디지털 트윈의 가장 강력한 실무 활용 사례.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **마법의 쌍둥이**: 현실 세계에 있는 내 자전거랑 똑같이 생기고 똑같이 움직이는 '컴퓨터 속 쌍둥이 자전거'를 만드는 거예요.

@@ -1,5 +1,6 @@
 +++
 title = "MSK / GMSK (최소 편이 변조)"
+date = "2026-03-14"
 weight = 50
 +++
 
@@ -153,10 +154,10 @@ MSK(Minimum Shift Keying)는 변조 지수 h=0.5인 특수 FSK로, 위상 연속
 ---
 
 ### 📌 관련 개념 링크**:
-- [FSK 주파수 편이 변조](./46_fsk_frequency.md)
-- [PSK 위상 편이 변조](./47_psk_phase_shift.md)
-- [GSM 2G 통신](./200_gsm_2g.md)
-- [변조 Modulation 개요](./44_modulation_intro.md)
+- FSK 주파수 편이 변조
+- PSK 위상 편이 변조
+- GSM 2G 통신
+- 변조 Modulation 개요
 
 ---
 

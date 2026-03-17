@@ -1,5 +1,6 @@
 +++
 title = "BGP EVPN - BGP 이더넷 VPN"
+date = "2026-03-14"
 weight = 1006
 +++
 
@@ -108,6 +109,6 @@ BGP EVPN은 MP-BGP 확장을 이용한 EVPN 구현입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [EVPN](./1005_evpn.md)
-- [BGP](./732_bgp.md)
-- [VXLAN](./998_vxlan.md)
+- EVPN
+- BGP
+- VXLAN

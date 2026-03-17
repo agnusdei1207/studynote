@@ -1,5 +1,6 @@
 +++
 title = "614. 페이지 랭크 알고리즘 하드웨어 맵핑"
+date = "2026-03-14"
 weight = 614
 +++
 
@@ -150,10 +151,10 @@ PageRank 식에서 핵심 연산은 `PR_next[dest] += PR_current[src] / out_degr
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[그래프 탐색 전용 메모리 서브시스템](./613_graph_traversal_memory.md)**: 페이지 랭크 연산을 보조하여 메모리 병목을 해결하는 필수 짝꿍 기술.
-- **[HBM (High Bandwidth Memory)](./495_hbm.md)**: 거대 그래프 데이터를 병렬로 쏟아내기 위한 필수 메모리 인프라.
-- **[NoC (Network-on-Chip)](./xx_network_on_chip.md)**: 파티셔닝된 부분합 데이터를 PE 간에 충돌 없이 전달하는 온칩 통신망.
-- **[CSR (Compressed Sparse Row)](../5_database/xx_csr_format.md)**: 희소 행렬을 메모리에 압축 저장하는 대표적인 자료구조.
+- **그래프 탐색 전용 메모리 서브시스템**: 페이지 랭크 연산을 보조하여 메모리 병목을 해결하는 필수 짝꿍 기술.
+- **HBM (High Bandwidth Memory)**: 거대 그래프 데이터를 병렬로 쏟아내기 위한 필수 메모리 인프라.
+- **NoC (Network-on-Chip)**: 파티셔닝된 부분합 데이터를 PE 간에 충돌 없이 전달하는 온칩 통신망.
+- **CSR (Compressed Sparse Row)**: 희소 행렬을 메모리에 압축 저장하는 대표적인 자료구조.
 
 ---
 

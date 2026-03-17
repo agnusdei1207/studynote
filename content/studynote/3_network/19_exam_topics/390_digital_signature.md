@@ -1,5 +1,6 @@
 +++
 title = "Digital Signature - 디지털 서명"
+date = "2026-03-14"
 weight = 390
 +++
 
@@ -139,10 +140,10 @@ weight = 390
 ---
 
 ### 📌 관련 개념 링크**:
-- [PKI](./387_pki.md)
-- [X.509](./388_x509.md)
-- [CA](./389_ca.md)
-- [Hash Function](./9_security/148_hash.md)
+- PKI
+- X.509
+- CA
+- Hash Function
 
 ---
 

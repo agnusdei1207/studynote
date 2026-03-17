@@ -1,5 +1,6 @@
 +++
 title = "Flow Control - 흐름 제어"
+date = "2026-03-14"
 weight = 807
 +++
 
@@ -105,6 +106,6 @@ Flow Control은 송수신 속도를 조절합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./552_tcp.md)
-- [Congestion](./806_congestion.md)
-- [Backpressure](./721_backpressure.md)
+- TCP
+- Congestion
+- Backpressure

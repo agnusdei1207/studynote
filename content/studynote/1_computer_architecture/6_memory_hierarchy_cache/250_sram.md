@@ -1,7 +1,7 @@
 +++
-weight = 250
 title = "250. SRAM (Static RAM)"
 date = "2026-03-16"
+weight = 250
 [extra]
 categories = "studynote-computer-architecture"
 keywords = ["컴퓨터구조", "SRAM", "Static RAM", "캐시 메모리", "플립플롭", "정적 램"]
@@ -14,7 +14,7 @@ keywords = ["컴퓨터구조", "SRAM", "Static RAM", "캐시 메모리", "플립
 > 2. **가치**: DRAM 대비 **10~100배 빠른 접근 속도**(나노초 vs 마이크로초)를 제공하며, CPU 캐시(L1/L2/L3), 레지스터 파일, 고속 버퍼의 핵심 소자다.
 > 3. **융합**: 속도는 압도적이지만 셀당 6개의 트랜지스터를 사용하여 **면적과 비용이 DRAM 대비 4~6배** 높아, 용량보다는 속도가 중요한 계층에 제한적으로 사용된다.
 
----
++++
 
 ## Ⅰ. SRAM의 개요
 
@@ -31,7 +31,7 @@ keywords = ["컴퓨터구조", "SRAM", "Static RAM", "캐시 메모리", "플립
 
 - **📢 섹션 요약 비유**: 용량은 작지만 접근 속도가 빛보다 빠른 '비싼 VIP 전용 창고'입니다.
 
----
++++
 
 ## Ⅱ. 셀 구조 및 동작 원리 (Deep Dive)
 
@@ -83,7 +83,7 @@ keywords = ["컴퓨터구조", "SRAM", "Static RAM", "캐시 메모리", "플립
 
 - **📢 섹션 요약 비유**: 6명의 경비원이 24시간 교대로 지키는 VIP 방(SRAM) vs 1명의 경비원이 가끔씩 순찰하는 일반 창고(DRAM)입니다.
 
----
++++
 
 ## Ⅲ. SRAM의 성능 특성 (Trade-off)
 
@@ -101,7 +101,7 @@ keywords = ["컴퓨터구조", "SRAM", "Static RAM", "캐시 메모리", "플립
 - SRAM 셀이 노이즈 없이 데이터를 유지할 수 있는 여유도.
 - 공정 미세화(5nm 이하)로 SNM이 악화되어 설계 난이도 증가.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 아키텍처적 판단 (Strategy)
 
@@ -113,7 +113,7 @@ keywords = ["컴퓨터구조", "SRAM", "Static RAM", "캐시 메모리", "플립
 - SRAM은 너무 비싸고 면적을 많이 차지하여 대용량 메인 메모리로는 경제적이지 않음.
 - 특수 상황(우주선, 극한 환경)에서만 예외적으로 사용.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -125,15 +125,15 @@ keywords = ["컴퓨터구조", "SRAM", "Static RAM", "캐시 메모리", "플립
 - 3D 적층 SRAM, eSRAM(embedded SRAM) 기술로 밀도 개선 시도.
 - 그러나 물리적 한계(6T 구조)로 인해 DRAM 이상의 용량화는 어려움.
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[DRAM (Dynamic RAM)](./251_dram.md)**: SRAM과 비교되는 주요 메모리 기술.
-- **[캐시 메모리 (Cache Memory)](./259_cache_memory.md)**: SRAM으로 구현되는 CPU 캐시.
-- **[플립플롭 (Flip-Flop)](../1_basic_electronics_logic/51_flip_flop.md)**: SRAM 셀의 기본 저장 소자.
-- **[메모리 계층 구조](./245_memory_hierarchy.md)**: SRAM의 위치와 역할.
+- **DRAM (Dynamic RAM)**: SRAM과 비교되는 주요 메모리 기술.
+- **캐시 메모리 (Cache Memory)**: SRAM으로 구현되는 CPU 캐시.
+- **플립플롭 (Flip-Flop)**: SRAM 셀의 기본 저장 소자.
+- **메모리 계층 구조**: SRAM의 위치와 역할.
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. SRAM은 **'스스로 기억하는 비싼 메모장'**이에요.

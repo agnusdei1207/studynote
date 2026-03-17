@@ -1,5 +1,6 @@
 +++
 title = "Sequence Number - 순서 번호"
+date = "2026-03-14"
 weight = 841
 +++
 
@@ -106,6 +107,6 @@ Sequence Number는 각 바이트의 순서를 식별합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./552_tcp.md)
-- [ACK](./839_ack.md)
-- [Reliability](./xxx_reliability.md)
+- TCP
+- ACK
+- Reliability

@@ -1,5 +1,6 @@
 +++
 title = "Media Gateway - 미디어 게이트웨이"
+date = "2026-03-14"
 weight = 355
 +++
 
@@ -145,10 +146,10 @@ Media Gateway는 서로 다른 네트워크 간 미디어를 변환합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [VoIP](./351_voip.md)
-- [SBC](./356_sbc.md)
-- [SIP](./350_sip.md)
-- [PSTN](./357_pstn.md)
+- VoIP
+- SBC
+- SIP
+- PSTN
 
 ---
 

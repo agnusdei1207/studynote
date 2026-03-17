@@ -1,5 +1,6 @@
 +++
 title = "Ethernet - 이더넷"
+date = "2026-03-14"
 weight = 901
 +++
 
@@ -104,6 +105,6 @@ Ethernet은 가장 널리 사용되는 유선 LAN 기술입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [MAC Address](./xxx_mac_address.md)
-- [Switch](./900_switch.md)
-- [CSMA/CD](./xxx_csmacd.md)
+- MAC Address
+- Switch
+- CSMA/CD

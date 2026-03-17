@@ -1,6 +1,6 @@
----
 +++
 title = "645. 데이터 파이프라인 (Data Pipeline) 가속"
+date = "2026-03-14"
 weight = 645
 +++
 

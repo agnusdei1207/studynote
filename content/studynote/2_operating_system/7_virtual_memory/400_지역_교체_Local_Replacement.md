@@ -1,6 +1,7 @@
 +++
-weight = 400
 title = "400. 지역 교체 (Local Replacement)"
+date = "2026-03-14"
+weight = 400
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -122,4 +123,3 @@ graph TD
     LR -- Drawback --> LE[Lower Memory Efficiency]
     IS -- Suitable for --> RT[Real-time Systems]
     IS -- Suitable for --> MC[Mission Critical Apps]
-```

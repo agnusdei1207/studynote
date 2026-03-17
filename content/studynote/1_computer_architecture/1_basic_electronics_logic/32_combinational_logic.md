@@ -1,6 +1,7 @@
 +++
-weight = 32
 title = "32. 조합 논리회로 (Combinational Logic)"
+date = "2026-03-14"
+weight = 32
 +++
 
 # 32. 조합 논리회로 (Combinational Logic)

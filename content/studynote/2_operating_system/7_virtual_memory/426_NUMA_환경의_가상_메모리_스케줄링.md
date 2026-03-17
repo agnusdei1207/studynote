@@ -1,7 +1,8 @@
----
-title: "426. NUMA 환경의 가상 메모리 스케줄링"
-weight: 426
----
++++
+title = "426. NUMA 환경의 가상 메모리 스케줄링"
+date = "2026-03-14"
+weight = 426
++++
 
 ## 💡 Insight
 - NUMA(Non-Uniform Memory Access) 구조에서는 CPU가 어떤 메모리 뱅크에 접근하느냐에 따라 성능 차이(Latency)가 발생한다.
@@ -76,11 +77,11 @@ weight: 426
 ---
 
 ## 🌳 지식 그래프 (Knowledge Graph)
-- **부모**: [382. 가상 주소 공간](./382_가상_주소_공간_Virtual_Address_Space.md)
+- **부모**: 382. 가상 주소 공간
 - **자식**: [CPU 스케줄러 친화도 (추후 예정)]
 - **유사 개념**:
-  - [Memory Hierarchy](../6_memory_hierarchy_cache/Memory_Hierarchy_개념.md)
-  - [SMP (Symmetric Multi-Processing)](../../1_computer_architecture/10_parallel_processing_architecture/SMP_개념.md)
+  - Memory Hierarchy
+  - SMP (Symmetric Multi-Processing)
 
 ## 👶 아이의 시각 (Child Analogy)
 > "집이 엄청 커서 1층에도 냉장고(RAM)가 있고 2층에도 냉장고가 있어. 1층 거실(CPU)에서 놀고 있는 아이는 1층 냉장고에서 우유를 꺼내는 게 제일 빠르겠지? 만약 2층까지 갔다 오면 다리도 아프고 시간도 오래 걸려. 그래서 컴퓨터 아저씨는 아이가 노는 곳 바로 옆에 간식(메모리)을 놔주려고 노력한단다!"

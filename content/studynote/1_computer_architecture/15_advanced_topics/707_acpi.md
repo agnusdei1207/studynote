@@ -1,5 +1,6 @@
 +++
 title = "acpi"
+date = "2026-03-14"
 weight = 707
 +++
 
@@ -347,10 +348,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [UEFI](./706_uefi.md) - 펌웨어 인터페이스
-- [CPU C-state](./cpu_cstate.md) - CPU 절전 상태
-- [DVFS](./dvfs.md) - 동적 전압/주파수 조절
-- [노트북 전원 관리](./laptop_power.md) - 배터리 최적화
+- UEFI - 펌웨어 인터페이스
+- CPU C-state - CPU 절전 상태
+- DVFS - 동적 전압/주파수 조절
+- 노트북 전원 관리 - 배터리 최적화
 
 ---
 

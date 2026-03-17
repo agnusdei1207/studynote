@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Open Redirect 🥈 Silver"
-description = "LUXORA 플랫폼의 Silver 난이도 Open Redirect 공략 - 슬래시(/) 및 역슬래시(\\) 필터링 우회를 통한 리다이렉트 공격 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Open Redirect", "Silver", "Filter Bypass", "Write-up"]

@@ -1,10 +1,9 @@
----
-title: "[ICT] #128. 가상/증강/혼합/확장 현실 (VR / AR / MR / XR)"
-date: "2026-03-17"
++++
+title = "[ICT] #128. 가상/증강/혼합/확장 현실 (VR / AR / MR / XR)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "XR_VR_AR_MR_VirtualReality_AugmentedReality_MixedReality_eXtendedReality"
----
+keyword = "XR_VR_AR_MR_VirtualReality_AugmentedReality_MixedReality_eXtendedReality"
++++
 
 # XR (VR/AR/MR/XR): 현실과 가상의 경계를 허무는 실감형 디스플레이 기술
 
@@ -13,7 +12,7 @@ keyword: "XR_VR_AR_MR_VirtualReality_AugmentedReality_MixedReality_eXtendedReali
 > 2. **가치**: 시각적 한계를 벗어나 물리적 공간에 구애받지 않는 가상 훈련, 원격 협업, 3D 설계 검토 등을 가능케 하여 산업 전반의 생산성을 비약적으로 향상시킨다.
 > 3. **융합**: 초고속/초저지연 5G 통신과 공간 컴퓨팅(Spatial Computing), AI 객체 인식 기술과 융합되어 메타버스(Metaverse)를 대중화하는 가장 중요한 하드웨어적 접점(Interface) 역할을 한다.
 
----
++++
 
 ## Ⅰ. 가상/증강/혼합 현실 (VR/AR/MR/XR) 개요
 
@@ -34,7 +33,7 @@ keyword: "XR_VR_AR_MR_VirtualReality_AugmentedReality_MixedReality_eXtendedReali
 
 📢 **섹션 요약 비유**: 인간의 눈이라는 '가장 원초적인 입력 장치'를 해킹하여, 뇌가 현실과 가상을 구분하지 못하게 만드는 '디지털 감각 혁명'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -76,7 +75,7 @@ keyword: "XR_VR_AR_MR_VirtualReality_AugmentedReality_MixedReality_eXtendedReali
 
 📢 **섹션 요약 비유**: 뇌라는 까다로운 관객을 속이기 위해, 1초에 90장 이상의 그림을 0.02초 만에 그려내어 한 치의 어색함도 없게 만드는 초고속 마술쇼입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -96,7 +95,7 @@ keyword: "XR_VR_AR_MR_VirtualReality_AugmentedReality_MixedReality_eXtendedReali
 
 📢 **섹션 요약 비유**: VR이 '아예 다른 나라로 여행을 떠나는 것'이라면, AR은 '현실에서 스마트폰으로 번역기를 켜는 것', MR은 '외국인 친구가 우리 집 거실로 놀러 와 같이 차를 마시는 것'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -113,7 +112,7 @@ keyword: "XR_VR_AR_MR_VirtualReality_AugmentedReality_MixedReality_eXtendedReali
 
 📢 **섹션 요약 비유**: 영화 속 아이언맨 슈트의 헬멧(HUD)을 실제 산업 현장 작업자들에게 씌워주어, 누구나 슈퍼맨처럼 빠르고 정확하게 일하게 만드는 실전 기술입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -127,13 +126,13 @@ keyword: "XR_VR_AR_MR_VirtualReality_AugmentedReality_MixedReality_eXtendedReali
 
 📢 **섹션 요약 비유**: XR은 사각의 프레임(모니터, 스마트폰)에 갇혀 있던 디지털 정보를 우리 주변의 공기 중으로 풀어놓는 '해방의 기술'입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[공간 컴퓨팅 (Spatial Computing)](./128_spatial_computing.md)**: XR 기기를 통해 구현되는 새로운 컴퓨팅 패러다임.
-- **[디지털 트윈 (Digital Twin)](./125_digital_twin.md)**: XR을 통해 시각적으로 표출되는 현실의 데이터 복제본.
-- **[SLAM](./130_slam_vslam.md)**: 기기가 사용자의 머리와 손의 위치를 실시간으로 추적하는 핵심 위치 인식 기술.
-- **[메타버스 (Metaverse)](./133_metaverse.md)**: XR 하드웨어가 만들어낼 거대한 사회/경제적 3D 생태계.
+- **공간 컴퓨팅 (Spatial Computing)**: XR 기기를 통해 구현되는 새로운 컴퓨팅 패러다임.
+- **디지털 트윈 (Digital Twin)**: XR을 통해 시각적으로 표출되는 현실의 데이터 복제본.
+- **SLAM**: 기기가 사용자의 머리와 손의 위치를 실시간으로 추적하는 핵심 위치 인식 기술.
+- **메타버스 (Metaverse)**: XR 하드웨어가 만들어낼 거대한 사회/경제적 3D 생태계.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **마법 안경 VR**: 이 안경을 쓰면 내 방이 싹 사라지고 쥬라기 공원 한가운데로 텔레포트해서 진짜 공룡을 만날 수 있어요.

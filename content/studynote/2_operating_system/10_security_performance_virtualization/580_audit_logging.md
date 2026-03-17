@@ -1,7 +1,7 @@
 +++
-weight = 580
 title = "580. 감사 및 로깅 (Audit & Logging)"
 date = "2026-03-16"
+weight = 580
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "감사", "로깅", "Audit", "Logging", "SIEM", "감사 추적"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "감사", "로깅", "Audit", "Logging", "SIEM", "감
 > 2. **가치**: 보안 사고 발생 시 **원인 규명, 피해 범위 파악, 법적 증거 확보**가 가능하며, 사전에 비정상 행동을 탐지하는 **모니터링**의 기반이 된다.
 > 3. **융합**: Syslog, ELK Stack, Splunk, SIEM(Security Information and Event Management)과 결합하여 **실시간 모니터링 및 포렌식**을 실현한다.
 
----
++++
 
 ## Ⅰ. 감사 및 로깅의 개요
 
@@ -32,7 +32,7 @@ keywords = ["운영체제", "감사", "로깅", "Audit", "Logging", "SIEM", "감
 
 - **📢 섹션 요약 비유**: 매장의 CCTV(로깅)는 계속 녹화하고, 점장(감사)은 나중에 영상을 보고 도둑을 잡습니다. 둘 다 있어야 범죄를 예방하고 해결할 수 있어요.
 
----
++++
 
 ## Ⅱ. 로그의 구조 및 종류 (Deep Dive)
 
@@ -89,7 +89,7 @@ keywords = ["운영체제", "감사", "로깅", "Audit", "Logging", "SIEM", "감
 
 - **📢 섹션 요약 비유**: 병원에 차트(환자 기록), 경찰에 사건 일지, 학교에 출석부가 있듯이, 시스템에도 각각의 기록장(로그 파일)이 있습니다.
 
----
++++
 
 ## Ⅲ. 감사 시스템 (Audit System)
 
@@ -145,7 +145,7 @@ aureport --auth
 - **Tamper-evident**: 로그 변경 시 감지 가능
 - **Non-repudiation**: 행위자가 행동을 부인 못 함
 
----
++++
 
 ## Ⅳ. 로그 수집 및 분석
 
@@ -190,7 +190,7 @@ aureport --auth
 - **Rule Engine**: 특정 패턴 감지 시 알림
   - 예: "1분 내 5회 실패 로그인" → 계정 잠금
 
----
++++
 
 ## Ⅴ. 실무 적용 및 아키텍처적 판단 (Strategy)
 
@@ -217,7 +217,7 @@ aureport --auth
 | **GDPR** | 동의/거부 기록, 데이터 처리 로그 |
 | **SOX** | 재무 관련 시스템 감사 |
 
----
++++
 
 ## Ⅵ. 기대효과 및 결론
 
@@ -230,15 +230,15 @@ aureport --auth
 - **AI 기반 로그 분석**: 머신러닝으로 이상 탐지
 - **Observability**: 로그 + 메트릭 + 트레이싱 통합
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[보안 정책](./577_security_policies.md)**: 감사는 정책 준수 확인
-- **[접근 제어](./572_access_control.md)**: 접근 로그 기록
-- **[취약점 관리](./579_vulnerability.md)**: 취약점 패치 확인
-- **[Forensics](./xx_forensics.md)**: 로그 기반 수사
+- **보안 정책**: 감사는 정책 준수 확인
+- **접근 제어**: 접근 로그 기록
+- **취약점 관리**: 취약점 패치 확인
+- **Forensics**: 로그 기반 수사
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 감사와 로깅은 **'매장의 일기장'** 같아요.

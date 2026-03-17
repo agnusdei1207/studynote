@@ -1,5 +1,6 @@
 +++
 title = "Partitioning - 파티셔닝"
+date = "2026-03-14"
 weight = 692
 +++
 
@@ -100,6 +101,6 @@ Partitioning은 데이터를 논리적/물리적으로 분할합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Sharding](./691_sharding.md)
-- [Indexing](./693_indexing.md)
-- [Database](./694_database.md)
+- Sharding
+- Indexing
+- Database

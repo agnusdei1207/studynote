@@ -1,10 +1,9 @@
----
-title: "[ICT] #61. CBDC (Central Bank Digital Currency)"
-date: "2026-03-17"
++++
+title = "[ICT] #61. CBDC (Central Bank Digital Currency)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "CBDC_Central_Bank_Digital_Currency_Retail_Wholesale_DLT_Stablecoin"
----
+keyword = "CBDC_Central_Bank_Digital_Currency_Retail_Wholesale_DLT_Stablecoin"
++++
 
 # CBDC (Central Bank Digital Currency): 법정 화폐의 디지털 진화와 미래 금융 인프라
 
@@ -13,7 +12,7 @@ keyword: "CBDC_Central_Bank_Digital_Currency_Retail_Wholesale_DLT_Stablecoin"
 > 2. **가치**: 민간 가상자산의 변동성 리스크를 해소하면서도 블록체인의 효율성을 수용하며, 실시간 정산과 스마트 컨트랙트 기반의 **'프로그래밍 가능한 돈'**을 실현한다.
 > 3. **융합**: 분산 원장 기술(DLT)과 전통 중앙은행 전산망이 결합된 하이브리드 아키텍처를 지향하며, 소매형(Retail)과 도매형(Wholesale)으로 구분되어 국가 결제 시스템의 근간을 재설계한다.
 
----
++++
 
 ## Ⅰ. CBDC (Central Bank Digital Currency) 개요
 
@@ -31,7 +30,7 @@ keyword: "CBDC_Central_Bank_Digital_Currency_Retail_Wholesale_DLT_Stablecoin"
 
 📢 **섹션 요약 비유**: 지갑 속의 종이돈이 스마트폰 속의 '암호화된 디지털 코드'로 바뀌는 것이며, 국가가 직접 그 코드의 가치를 100% 보장하는 안전한 화폐입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 분류 체계 (Deep Dive)
 
@@ -85,7 +84,7 @@ keyword: "CBDC_Central_Bank_Digital_Currency_Retail_Wholesale_DLT_Stablecoin"
 
 📢 **섹션 요약 비유**: 돈에 '뇌'를 달아주는 것과 같아서, 돈이 스스로 규칙을 읽고 주인이 정한 조건이 맞을 때만 움직이는 '지능형 화폐' 시스템입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -105,7 +104,7 @@ keyword: "CBDC_Central_Bank_Digital_Currency_Retail_Wholesale_DLT_Stablecoin"
 
 📢 **섹션 요약 비유**: 스테이블코인이 '민간 수영장 이용권'이라면, CBDC는 국가가 운영하는 '공공 워터파크 자유이용권'처럼 안전과 재미(기능)를 모두 보장하는 차이가 있습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -119,7 +118,7 @@ keyword: "CBDC_Central_Bank_Digital_Currency_Retail_Wholesale_DLT_Stablecoin"
 
 📢 **섹션 요약 비유**: 물길(금융망)을 새로 뚫을 때 기존 논(시중은행)이 마르지 않도록 수문(보유 한도)을 정교하게 조절하는 '치수 관리 능력'이 시스템 설계의 핵심입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -133,13 +132,13 @@ keyword: "CBDC_Central_Bank_Digital_Currency_Retail_Wholesale_DLT_Stablecoin"
 
 📢 **섹션 요약 비유**: CBDC는 인류가 수천 년간 써온 '돈'이라는 도구를 **'소프트웨어'**로 완전히 업그레이드하는 사건이며, 미래 디지털 문명의 혈액이 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[분산 원장 기술 (DLT)](./4_blockchain_dlt.md)**: CBDC를 지탱하는 핵심 기술 후보군.
-- **[스테이블코인](./xx_stablecoin.md)**: 민간 차원의 디지털 화폐 경쟁자.
-- **[스마트 컨트랙트](./21_smart_contract.md)**: 돈에 지능을 부여하는 프로그래밍 도구.
-- **[영지식 증명 (ZKP)](./36_zero_knowledge_proof.md)**: 국가 감시로부터 프라이버시를 지키는 방패.
+- **분산 원장 기술 (DLT)**: CBDC를 지탱하는 핵심 기술 후보군.
+- **스테이블코인**: 민간 차원의 디지털 화폐 경쟁자.
+- **스마트 컨트랙트**: 돈에 지능을 부여하는 프로그래밍 도구.
+- **영지식 증명 (ZKP)**: 국가 감시로부터 프라이버시를 지키는 방패.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **나라에서 만든 전자 돈**: 지갑 속 종이돈 대신 스마트폰에 쏙 들어가는 진짜 돈이에요. 나라가 직접 만들어준 거라 어디서든 안심하고 쓸 수 있죠.

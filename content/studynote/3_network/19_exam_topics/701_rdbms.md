@@ -1,5 +1,6 @@
 +++
 title = "RDBMS (Relational Database Management System) - 관계형 데이터베이스"
+date = "2026-03-14"
 weight = 701
 +++
 
@@ -101,6 +102,6 @@ RDBMS는 테이블로 데이터를 관리합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [SQL](./700_sql.md)
-- [NoSQL](./686_nosql.md)
-- [ACID](./630_acid.md)
+- SQL
+- NoSQL
+- ACID

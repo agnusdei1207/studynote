@@ -1,5 +1,6 @@
 +++
 title = "로그 분석 - Log Analysis"
+date = "2026-03-14"
 weight = 439
 +++
 
@@ -152,10 +153,10 @@ weight = 439
 ---
 
 ### 📌 관련 개념 링크**:
-- [모니터링](./438_monitoring.md)
-- [SIEM](./410_siem.md)
-- [Syslog](./328_syslog.md)
-- [보안 분석](./411_security_analytics.md)
+- 모니터링
+- SIEM
+- Syslog
+- 보안 분석
 
 ---
 

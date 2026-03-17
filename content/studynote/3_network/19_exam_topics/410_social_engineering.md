@@ -1,5 +1,6 @@
 +++
 title = "사회공학 - Social Engineering"
+date = "2026-03-14"
 weight = 410
 +++
 
@@ -143,10 +144,10 @@ weight = 410
 ---
 
 ### 📌 관련 개념 링크**:
-- [Phishing](./409_phishing.md)
-- [Malware](./407_malware.md)
-- [Zero Trust](./399_zero_trust.md)
-- [Security Awareness](./9_security/158_awareness.md)
+- Phishing
+- Malware
+- Zero Trust
+- Security Awareness
 
 ---
 

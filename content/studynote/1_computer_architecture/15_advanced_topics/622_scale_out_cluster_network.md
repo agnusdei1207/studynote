@@ -1,5 +1,6 @@
 +++
 title = "622. 스케일 아웃 (Scale-Out) 클러스터 망"
+date = "2026-03-14"
 weight = 622
 +++
 
@@ -143,10 +144,10 @@ weight = 622
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[RDMA (Remote Direct Memory Access)](./510_rdma.md)**: 클러스터 망의 지연 시간을 최소화하는 핵심 통신 기법.
-- **[HBM (High Bandwidth Memory)](./495_hbm.md)**: 네트워크 대역폭과 균형을 맞춰야 할 서버 내부의 메모리 인프라.
-- **[스케일 업 (Scale-Up) 시스템 버스](./621_scale_up_system_bus.md)**: 단일 노드 내의 확장 기술로, 스케일 아웃과 상호 보완 관계.
-- **[SDN (Software Defined Networking)](../3_network/xx_sdn.md)**: 물리적 클러스터 망을 논리적으로 제어하는 기술.
+- **RDMA (Remote Direct Memory Access)**: 클러스터 망의 지연 시간을 최소화하는 핵심 통신 기법.
+- **HBM (High Bandwidth Memory)**: 네트워크 대역폭과 균형을 맞춰야 할 서버 내부의 메모리 인프라.
+- **스케일 업 (Scale-Up) 시스템 버스**: 단일 노드 내의 확장 기술로, 스케일 아웃과 상호 보완 관계.
+- **SDN (Software Defined Networking)**: 물리적 클러스터 망을 논리적으로 제어하는 기술.
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "OpenFlow - SDN 표준 프로토콜"
+date = "2026-03-14"
 weight = 443
 +++
 
@@ -148,10 +149,10 @@ OpenFlow는 SDN 스위치와 컨트롤러 간 통신 프로토콜입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [SDN](./440_sdn.md)
-- [NFV](./441_nfv.md)
-- [네트워크 프로그래밍](./446_network_programming.md)
-- [P4](./447_p4.md)
+- SDN
+- NFV
+- 네트워크 프로그래밍
+- P4
 
 ---
 

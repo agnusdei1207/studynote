@@ -1,11 +1,9 @@
 +++
 title = "Modulization Protocol"
-date = 2026-02-27
-
+date = "2026-02-27"
 [extra]
 categories = "user-prompt"
 +++
-
 
 # MODULIZATION PROTOCOL — 모듈화 작업 지시문
 
@@ -125,4 +123,3 @@ categories = "user-prompt"
   □ 변경 모듈 상위·하위 의존성 전수조사
   □ 작은 의존관계부터 마이크로 플로우까지 끝까지 — thoroughly
   □ 문제 없음 확인. 문제 발견 시 즉시 보고 후 수정.
-```

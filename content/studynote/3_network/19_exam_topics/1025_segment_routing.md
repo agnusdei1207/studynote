@@ -1,5 +1,6 @@
 +++
 title = "Segment Routing - 세그먼트 라우팅"
+date = "2026-03-14"
 weight = 1025
 +++
 
@@ -105,6 +106,6 @@ Segment Routing은 소스에서 경로를 지정하는 라우팅 기술입니다
 ---
 
 ### 📌 관련 개념 링크**:
-- [MPLS](./1021_mpls.md)
-- [SDN](./995_sdn.md)
-- [Traffic Engineering](./xxx_traffic_engineering.md)
+- MPLS
+- SDN
+- Traffic Engineering

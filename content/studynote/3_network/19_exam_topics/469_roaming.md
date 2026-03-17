@@ -1,5 +1,6 @@
 +++
 title = "로밍 - Roaming"
+date = "2026-03-14"
 weight = 469
 +++
 
@@ -144,10 +145,10 @@ weight = 469
 ---
 
 ### 📌 관련 개념 링크**:
-- [핸드오버](./466_handover.md)
-- [Mobile IP](./468_mobile_ip.md)
-- [5G](./459_5g_networking.md)
-- [MVNO](./470_mvno.md)
+- 핸드오버
+- Mobile IP
+- 5G
+- MVNO
 
 ---
 

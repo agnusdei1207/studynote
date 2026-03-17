@@ -1,6 +1,7 @@
 +++
-weight = 441
 title = "441. I/O 장치의 분류 - 블록 장치 (Block Device) vs 문자 장치 (Character Device)"
+date = "2026-03-14"
+weight = 441
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -152,10 +153,10 @@ crw-rw---- 1 root dialout 4, 64  Jan 1 12:00 /dev/ttyS0 # c: 문자 장치, Majo
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[파일 시스템 (File System)](./517_vfs.md)**: 블록 장치 위에 구축되는 논리적 데이터 관리 구조.
-- **[버퍼 캐시 (Buffer Cache)](./454_buffering.md)**: 블록 장치 성능 향상을 위한 커널 내 메모리 공간.
-- **[DMA (Direct Memory Access)](./450_dma.md)**: 블록 장치의 대량 데이터 전송을 위한 핵심 하드웨어 기술.
-- **[인터럽트 (Interrupt)](./449_interrupt_driven_io.md)**: 문자 장치의 이벤트를 즉각 알리기 위한 통지 메커니즘.
+- **파일 시스템 (File System)**: 블록 장치 위에 구축되는 논리적 데이터 관리 구조.
+- **버퍼 캐시 (Buffer Cache)**: 블록 장치 성능 향상을 위한 커널 내 메모리 공간.
+- **DMA (Direct Memory Access)**: 블록 장치의 대량 데이터 전송을 위한 핵심 하드웨어 기술.
+- **인터럽트 (Interrupt)**: 문자 장치의 이벤트를 즉각 알리기 위한 통지 메커니즘.
 
 ---
 

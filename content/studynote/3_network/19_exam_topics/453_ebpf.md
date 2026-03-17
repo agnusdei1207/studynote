@@ -1,5 +1,6 @@
 +++
 title = "eBPF (확장 버클리 패킷 필터) - Extended Berkeley Packet Filter"
+date = "2026-03-14"
 weight = 453
 +++
 
@@ -148,10 +149,10 @@ eBPF는 리눅스 커널에서 샌드박스 프로그램을 실행합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [XDP](./454_xdp.md)
-- [컨테이너 네트워킹](./444_container_networking.md)
-- [서비스 메시](./446_service_mesh.md)
-- [네트워크 성능 지표](./431_performance.md)
+- XDP
+- 컨테이너 네트워킹
+- 서비스 메시
+- 네트워크 성능 지표
 
 ---
 

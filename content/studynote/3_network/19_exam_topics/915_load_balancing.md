@@ -1,5 +1,6 @@
 +++
 title = "Load Balancing - 부하 분산"
+date = "2026-03-14"
 weight = 915
 +++
 
@@ -112,6 +113,6 @@ Load Balancing은 트래픽을 여러 서버로 분산합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Load Balancer](./832_load_balancer.md)
-- [Reverse Proxy](./913_reverse_proxy.md)
-- [HA](./xxx_ha.md)
+- Load Balancer
+- Reverse Proxy
+- HA

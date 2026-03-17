@@ -1,5 +1,6 @@
 +++
 title = "kvm over ip"
+date = "2026-03-14"
 weight = 713
 +++
 
@@ -435,10 +436,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [BMC](./710_bmc.md) - 베이스보드 관리 컨트롤러
-- [IPMI](./709_ipmi.md) - IPMI 프로토콜
-- [OOB Management](./712_oob_management.md) - 대역 외 관리
-- [가상 미디어](./714_virtual_media.md) - 원격 미디어 마운트
+- BMC - 베이스보드 관리 컨트롤러
+- IPMI - IPMI 프로토콜
+- OOB Management - 대역 외 관리
+- 가상 미디어 - 원격 미디어 마운트
 
 ---
 

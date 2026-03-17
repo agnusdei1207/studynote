@@ -1,6 +1,7 @@
 +++
-weight = 416
 title = "416. 워킹 셋 모델 (Working-Set Model)"
+date = "2026-03-14"
+weight = 416
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -119,4 +120,3 @@ graph TD
     WSM -- Goal --> PrevThrash[Prevent Thrashing]
     PrevThrash -- Means --> Admission[Admission Control]
     Admission -- If Overload --> SwapOut[Swap-out Process]
-```

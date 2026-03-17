@@ -1,5 +1,6 @@
 +++
 title = "Distributed Tracing - 분산 추적"
+date = "2026-03-14"
 weight = 725
 +++
 
@@ -97,6 +98,6 @@ Distributed Tracing은 분산 요청을 추적합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Observability](./736_observability.md)
-- [Jaeger](./739_jaeger.md)
-- [OpenTelemetry](./740_opentelemetry.md)
+- Observability
+- Jaeger
+- OpenTelemetry

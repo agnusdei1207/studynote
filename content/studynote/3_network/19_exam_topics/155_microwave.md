@@ -1,5 +1,6 @@
 +++
 title = "마이크로파 (Microwave) - 1GHz ~ 300GHz"
+date = "2026-03-14"
 weight = 155
 +++
 
@@ -149,10 +150,10 @@ weight = 155
 ---
 
 ### 📌 관련 개념 링크**:
-- [전파 분류](./154_radio_wave.md)
-- [위성 통신](./205_satellite.md)
-- [mmWave](./156_mmwave.md)
-- [안테나](./171_antenna.md)
+- 전파 분류
+- 위성 통신
+- mmWave
+- 안테나
 
 ---
 

@@ -1,6 +1,7 @@
 +++
-weight = 79
 title = "79. LSB (Least Significant Bit)"
+date = "2026-03-14"
+weight = 79
 +++
 
 # LSB (Least Significant Bit)

@@ -1,7 +1,7 @@
----
-title: "491. SAST (Static Application Security Testing)"
-date: 2026-03-15
----
++++
+title = "491. SAST (Static Application Security Testing)"
+date = "2026-03-15"
++++
 
 # 491. SAST (Static Application Security Testing)
 
@@ -153,10 +153,10 @@ SAST는 내가 짠 코드를 검사하고, SCA는 가져다 쓴 코드(오픈소
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[DAST (Dynamic Application Security Testing)](./492_dast.md)**: SAST와 상호 보완적인 동적 분석 기술
-- **[CWE (Common Weakness Enumeration)](./488_cwe.md)**: SAST가 찾아내는 약점들의 표준 사전
-- **[Secure Coding](./498_secure_coding.md)**: SAST를 통해 달성하고자 하는 궁극적인 코딩 목표
-- **[DevSecOps](./xx_devsecops.md)**: SAST가 자동화되어 통합되는 현대적 운영 체계
+- **DAST (Dynamic Application Security Testing)**: SAST와 상호 보완적인 동적 분석 기술
+- **CWE (Common Weakness Enumeration)**: SAST가 찾아내는 약점들의 표준 사전
+- **Secure Coding**: SAST를 통해 달성하고자 하는 궁극적인 코딩 목표
+- **DevSecOps**: SAST가 자동화되어 통합되는 현대적 운영 체계
 
 ---
 

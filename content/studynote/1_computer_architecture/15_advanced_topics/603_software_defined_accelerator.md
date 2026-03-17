@@ -1,5 +1,6 @@
 +++
 title = "603. 소프트웨어 정의 엑셀러레이터"
+date = "2026-03-14"
 weight = 603
 +++
 
@@ -141,10 +142,10 @@ SDA의 진정한 위력은 시스템 전원을 끄지 않고 작동 중(On-the-f
 ---
 
 ### 📌 관련 개념 맵
-- [고수준 합성 (HLS)](./605_high_level_synthesis.md): S/W 코드를 H/W 회로로 변환하는 핵심 컴파일러 기술
-- [FPGA 동적 재구성](./606_fpga_dynamic_reconfiguration.md): SDA를 물리적으로 구현하는 반도체 기법
-- [스마트닉 (SmartNIC)](./598_vm_migration_network_chip.md): SDA가 네트워크 분야에 적용된 대표적 사례
-- [도메인 특화 아키텍처 (DSA)](../1_computer_architecture/xx_dsa.md): 특정 목적에 최적화된 아키텍처의 상위 개념
+- 고수준 합성 (HLS): S/W 코드를 H/W 회로로 변환하는 핵심 컴파일러 기술
+- FPGA 동적 재구성: SDA를 물리적으로 구현하는 반도체 기법
+- 스마트닉 (SmartNIC): SDA가 네트워크 분야에 적용된 대표적 사례
+- 도메인 특화 아키텍처 (DSA): 특정 목적에 최적화된 아키텍처의 상위 개념
 
 ---
 

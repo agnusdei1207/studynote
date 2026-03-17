@@ -7,7 +7,6 @@ weight = 168
 categories = "studynote-database"
 keywords = ["B-Tree Index", "비트맵 인덱스", "Bitmap Index", "카디널리티", "OLTP", "OLAP", "SQL 튜닝"]
 +++
-
 # 168. B-Tree vs 비트맵 인덱스 - 구조와 용도별 최적화
 
 ## 핵심 인사이트 (3줄 요약)
@@ -15,7 +14,7 @@ keywords = ["B-Tree Index", "비트맵 인덱스", "Bitmap Index", "카디널리
 > 2. **기술적 대조**: **B-Tree**는 중복이 적고 변경이 빈번한 OLTP 환경에 적합하며, **비트맵**은 중복이 많고 대량 조회가 주를 이루는 OLAP(DW) 환경에서 비트 연산(AND, OR)을 통한 초고속 필터링을 제공한다.
 > 3. **가치**: 데이터의 카디널리티(Cardinality)와 업무 성격에 맞는 인덱스 아키텍처를 선택함으로써, 시스템의 응답 시간과 저장 효율이라는 두 마리 토끼를 동시에 잡을 수 있다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -49,7 +48,7 @@ keywords = ["B-Tree Index", "비트맵 인덱스", "Bitmap Index", "카디널리
 
 - **📢 섹션 요약 비유**: B-Tree는 '정밀한 작살'이고, 비트맵은 '촘촘한 그물'과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -92,7 +91,7 @@ keywords = ["B-Tree Index", "비트맵 인덱스", "Bitmap Index", "카디널리
 
 - **📢 섹션 요약 비유**: 비트맵 연산은 '여러 장의 투명 필름을 겹쳐서 겹치는 부분만 찾아내는 것'처럼 빛의 속도로 끝납니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -109,7 +108,7 @@ keywords = ["B-Tree Index", "비트맵 인덱스", "Bitmap Index", "카디널리
 
 - **📢 섹션 요약 비유**: B-Tree 가 '개별 주소지'를 관리한다면, 비트맵은 '구역 전체의 전력 공급망'을 관리하는 것과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -128,7 +127,7 @@ keywords = ["B-Tree Index", "비트맵 인덱스", "Bitmap Index", "카디널리
 
 - **📢 섹션 요약 비유**: 비트맵 인덱스를 운영 DB에 쓰는 것은 '공사 중인 아파트에 벽지를 바르는 것'과 같아, 벽지가 계속 찢어지고(Lock) 공사(Insert)를 방해하게 됩니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -146,7 +145,7 @@ keywords = ["B-Tree Index", "비트맵 인덱스", "Bitmap Index", "카디널리
 
 - **📢 섹션 요약 비유**: 미래의 인덱스는 우리가 고민하지 않아도, 데이터가 뜨거울 땐(OLTP) 나무(B-Tree)가 되고 차가워질 땐(OLAP) 보석(Bitmap)이 되는 마법 같은 기술로 진화할 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
 - **[B-Tree 인덱스](./51_index_structure_btree.md)**: 인덱스의 표준 물리 구조.
@@ -154,7 +153,7 @@ keywords = ["B-Tree Index", "비트맵 인덱스", "Bitmap Index", "카디널리
 - **[Lock 메커니즘](./194_concurrency_control_locking.md)**: 비트맵 사용 시 가장 주의할 점.
 - **[데이터 웨어하우스 (DW)](@/studynote/5_database/_index.md)**: 비트맵 인덱스의 주 서식지.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **B-Tree 인덱스**는 이름 순서대로 정리된 **"두꺼운 사전"**에서 단어를 찾는 것과 같아요.

@@ -1,7 +1,7 @@
 +++
 title = "253. 리눅스 동기화"
-weight = 253
 date = "2026-03-04"
+weight = 253
 [extra]
 categories = "studynote-operating-system"
 +++
@@ -13,7 +13,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 인터럽트 활성/비활성 제어와 결합된 락킹 메커니즘을 통해, 멀티코어 환경에서 커널 데이터 구조의 일관성을 유지하면서도 병렬 처리 성능을 극한으로 끌어올린다.
 > 3. **융합**: 고성능 동기화를 위한 RCU(Read-Copy-Update)와 같은 독창적인 기술을 탄생시켰으며, 이는 현대 운영체제 설계의 중요한 표준이 되었다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -23,7 +23,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 상황에 맞는 가장 날카로운 칼(도구)을 골라 쓰는 요리사처럼, 리눅스 커널은 컨텍스트에 따른 최적의 락을 선택하여 성능을 완성합니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -62,7 +62,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 수술 중에 환자가 깨어나면 안 되듯(인터럽트), 커널의 중요한 데이터를 건드릴 때는 주변의 방해 요소를 완전히 차단(Interrupt Disable)해야 합니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -77,7 +77,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 스핀락은 "초단기 퀵서비스"이고, 뮤텍스는 "정식 택배"입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -91,7 +91,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 응급실 업무를 최소화하고 나머지는 일반 병실로 넘기듯, 커널도 락 점유 시간을 최소화하기 위해 작업을 분할합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 

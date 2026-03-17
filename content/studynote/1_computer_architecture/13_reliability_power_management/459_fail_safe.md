@@ -1,5 +1,6 @@
 +++
 title = "페일 세이프 (Fail-Safe)"
+date = "2026-03-14"
 weight = 459
 +++
 

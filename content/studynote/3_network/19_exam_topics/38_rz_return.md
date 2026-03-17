@@ -1,5 +1,6 @@
 +++
 title = "RZ (Return to Zero)"
+date = "2026-03-14"
 weight = 38
 +++
 
@@ -151,10 +152,10 @@ RZ(Return to Zero)는 각 비트 전송 중간이나 끝에서 전압이 0으로
 ---
 
 ### 📌 관련 개념 링크**:
-- [NRZ 비복귀 부호화](./37_nrz_non_return.md)
-- [맨체스터 Manchester](./39_manchester.md)
-- [Line Coding 유형](./36_line_coding_types.md)
-- [부호화 Encoding](./35_encoding_line_coding.md)
+- NRZ 비복귀 부호화
+- 맨체스터 Manchester
+- Line Coding 유형
+- 부호화 Encoding
 
 ---
 

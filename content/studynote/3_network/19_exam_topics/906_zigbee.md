@@ -1,5 +1,6 @@
 +++
 title = "Zigbee - 지그비"
+date = "2026-03-14"
 weight = 906
 +++
 
@@ -107,6 +108,6 @@ Zigbee는 저전력 무선 통신 프로토콜입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Bluetooth](./903_bluetooth.md)
-- [IoT](./xxx_iot.md)
-- [Mesh Network](./xxx_mesh_network.md)
+- Bluetooth
+- IoT
+- Mesh Network

@@ -1,6 +1,7 @@
 +++
-weight = 560
 title = "560. 멀티코어 인터럽트 라우팅 (GIC, APIC)"
+date = "2026-03-14"
+weight = 560
 +++
 
 # 멀티코어 인터럽트 라우팅 (GIC, APIC)
@@ -155,10 +156,10 @@ GIC 내에서 인터럽트는 네 가지 상태를 거치며 철저히 관리된
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[MSI (Message Signaled Interrupts)](./561_msi.md)**: GIC/APIC에 전달되는 현대적인 인터럽트 전송 방식.
-- **[VIC, NVIC](./559_vic_nvic.md)**: 단일 코어 중심의 벡터 인터럽트 제어 기초 기술.
-- **[IPI (Inter-Processor Interrupt)](./xx_ipi.md)**: 멀티코어 라우팅 시스템을 이용한 코어 간 신호 전달.
-- **[RSS (Receive Side Scaling)](../3_network/xx_rss.md)**: 네트워크 인터럽트를 멀티코어로 분산하는 기술.
+- **MSI (Message Signaled Interrupts)**: GIC/APIC에 전달되는 현대적인 인터럽트 전송 방식.
+- **VIC, NVIC**: 단일 코어 중심의 벡터 인터럽트 제어 기초 기술.
+- **IPI (Inter-Processor Interrupt)**: 멀티코어 라우팅 시스템을 이용한 코어 간 신호 전달.
+- **RSS (Receive Side Scaling)**: 네트워크 인터럽트를 멀티코어로 분산하는 기술.
 
 ---
 

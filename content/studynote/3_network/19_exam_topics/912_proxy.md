@@ -1,5 +1,6 @@
 +++
 title = "Proxy - 프록시"
+date = "2026-03-14"
 weight = 912
 +++
 
@@ -105,6 +106,6 @@ Proxy는 클라이언트와 서버 사이의 중개 서버입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Firewall](./874_firewall.md)
-- [Load Balancer](./832_load_balancer.md)
-- [Reverse Proxy](./913_reverse_proxy.md)
+- Firewall
+- Load Balancer
+- Reverse Proxy

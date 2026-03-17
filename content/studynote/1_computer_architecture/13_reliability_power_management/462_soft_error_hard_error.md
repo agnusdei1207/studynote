@@ -1,5 +1,6 @@
 +++
 title = "소프트 에러 (Soft Error)와 하드 에러 (Hard Error)"
+date = "2026-03-14"
 weight = 462
 +++
 

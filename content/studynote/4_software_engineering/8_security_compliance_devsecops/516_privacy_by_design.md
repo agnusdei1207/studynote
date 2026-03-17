@@ -1,7 +1,7 @@
----
-title: "516. 개인정보 보호 중심 설계 (Privacy by Design, PbD) 7원칙"
-date: 2026-03-15
----
++++
+title = "516. 개인정보 보호 중심 설계 (Privacy by Design, PbD) 7원칙"
+date = "2026-03-15"
++++
 
 # 516. 개인정보 보호 중심 설계 (Privacy by Design, PbD) 7원칙
 
@@ -158,10 +158,10 @@ PbD 원칙을 구체적인 위협 모델링으로 연결한 프레임워크다.
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[데이터 3법 및 GDPR](./517_data_laws_gdpr.md)**: PbD를 법적 의무로 격상시킨 배경
-- **[가명 처리 및 비식별화](./518_deidentification.md)**: PbD 원칙을 구현하는 구체적 기술
-- **[데이터 보안 아키텍처](./540_data_security.md)**: PbD 설계의 기술적 토대
-- **[LINDDUN 방법론](./xx_linddun.md)**: PbD 위협 모델링 기법
+- **데이터 3법 및 GDPR**: PbD를 법적 의무로 격상시킨 배경
+- **가명 처리 및 비식별화**: PbD 원칙을 구현하는 구체적 기술
+- **데이터 보안 아키텍처**: PbD 설계의 기술적 토대
+- **LINDDUN 방법론**: PbD 위협 모델링 기법
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "memory encryption"
+date = "2026-03-14"
 weight = 796
 +++
 
@@ -150,10 +151,10 @@ weight = 796
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [동적 메모리 암호화](./797_dynamic_memory_encryption.md)
-- [ARM CCA](./799_arm_cca.md)
-- [기밀 컴퓨팅](./795_confidential_computing.md)
-- [AWS Nitro Enclaves](./794_aws_nitro.md)
+- 동적 메모리 암호화
+- ARM CCA
+- 기밀 컴퓨팅
+- AWS Nitro Enclaves
 
 ---
 

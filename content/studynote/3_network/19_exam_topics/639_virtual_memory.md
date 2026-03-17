@@ -1,5 +1,6 @@
 +++
 title = "Virtual Memory - 가상 메모리"
+date = "2026-03-14"
 weight = 639
 +++
 
@@ -99,6 +100,6 @@ Virtual Memory는 물리 메모리를 논리적으로 확장합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Paging](./640_paging.md)
-- [Memory Management](./638_memory_management.md)
-- [TLB](./641_tlb.md)
+- Paging
+- Memory Management
+- TLB

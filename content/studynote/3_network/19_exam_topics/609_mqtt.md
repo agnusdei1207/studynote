@@ -1,5 +1,6 @@
 +++
 title = "MQTT (Message Queuing Telemetry Transport) - 메시지 큐 텔레메트리 전송"
+date = "2026-03-14"
 weight = 609
 +++
 
@@ -101,6 +102,6 @@ MQTT는 경량 발행/구독 메시징 프로토콜입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [IoT](./608_iot.md)
-- [Pub/Sub](./610_pubsub.md)
-- [CoAP](./611_coap.md)
+- IoT
+- Pub/Sub
+- CoAP

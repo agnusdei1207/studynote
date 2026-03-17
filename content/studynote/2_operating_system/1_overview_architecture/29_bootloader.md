@@ -1,6 +1,7 @@
 +++
-weight = 29
 title = "29. 부트로더 (Bootloader) - OS 커널의 인도자"
+date = "2026-03-14"
+weight = 29
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -104,9 +105,9 @@ title = "29. 부트로더 (Bootloader) - OS 커널의 인도자"
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[부트스트랩 프로그램 (Bootstrap)](./28_bootstrap_program.md)**: 부트로더를 깨우는 전 단계 프로그램.
-- **[UEFI vs BIOS](./30_uefi_vs_bios.md)**: 부트로더가 상호작용하는 시스템 규격.
-- **[커널 (Kernel)](./22_kernel.md)**: 부트로더가 최종적으로 메모리에 올리는 주인공.
+- **부트스트랩 프로그램 (Bootstrap)**: 부트로더를 깨우는 전 단계 프로그램.
+- **UEFI vs BIOS**: 부트로더가 상호작용하는 시스템 규격.
+- **커널 (Kernel)**: 부트로더가 최종적으로 메모리에 올리는 주인공.
 
 ---
 

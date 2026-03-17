@@ -1,5 +1,6 @@
 +++
 title = "chaos engineering hw"
+date = "2026-03-14"
 weight = 751
 +++
 
@@ -128,10 +129,10 @@ weight = 751
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [결함 주입 테스트](./750_fault_injection.md)
-- [무정전 운영 아키텍처](./749_nonstop_operation.md)
-- [IPMI](./709_ipmi.md)
-- [하드웨어 건전성 모니터링](./715_hardware_health_monitoring.md)
+- 결함 주입 테스트
+- 무정전 운영 아키텍처
+- IPMI
+- 하드웨어 건전성 모니터링
 
 ---
 

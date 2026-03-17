@@ -1,5 +1,6 @@
 +++
 title = "278. 더티 비트 (Dirty Bit)"
+date = "2026-03-14"
 weight = 278
 +++
 

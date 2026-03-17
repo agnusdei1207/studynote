@@ -1,10 +1,9 @@
----
-title: "[ICT] #27. ICO / STO / IEO (Blockchain Fundraising)"
-date: "2026-03-17"
++++
+title = "[ICT] #27. ICO / STO / IEO (Blockchain Fundraising)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "ICO_STO_IEO_Fundraising_Security_Token_Howey_Test"
----
+keyword = "ICO_STO_IEO_Fundraising_Security_Token_Howey_Test"
++++
 
 # ICO, STO, IEO: 블록체인 기반 자본 조달의 진화와 규제 혁신
 
@@ -13,7 +12,7 @@ keyword: "ICO_STO_IEO_Fundraising_Security_Token_Howey_Test"
 > 2. **가치**: 중개 기관 없는 직접 조달(ICO), 거래소의 신뢰를 빌린 대행(IEO), 법적 권리를 보장하는 자산 토큰화(STO)로 분화되며, 자본 시장의 유동성과 접근성을 획기적으로 높인다.
 > 3. **융합**: 증권법(Securities Law)과 블록체인 기술이 결합된 STO는 실물 자산(부동산, 미술품 등)의 유동화를 가속화하며, **Howey Test**와 같은 규제 준수 여부가 비즈니스의 핵심 성공 요인이 된다.
 
----
++++
 
 ## Ⅰ. 블록체인 자금 조달 방식 개요
 
@@ -26,7 +25,7 @@ keyword: "ICO_STO_IEO_Fundraising_Security_Token_Howey_Test"
 - **IEO**는 유명한 대형 백화점(거래소) 매대에 입점하여 백화점의 보증하에 쿠폰을 파는 것과 같습니다. (백화점이 검증해주니 비교적 안전함)
 - **STO**는 단순히 빵 쿠폰이 아니라, 나중에 빵집이 돈을 벌면 수익을 나눠주는 '빵집 주식'을 정식 법률에 맞춰 발행하는 것과 같습니다. (법적으로 보호받는 확실한 권리)
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -75,7 +74,7 @@ keyword: "ICO_STO_IEO_Fundraising_Security_Token_Howey_Test"
   3. **수익의 기대** (Expectation of profits)
   4. **타인의 노력** (Efforts of others)
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -91,7 +90,7 @@ keyword: "ICO_STO_IEO_Fundraising_Security_Token_Howey_Test"
 
 📢 **섹션 요약 비유**: 유틸리티 토큰이 놀이공원을 마음껏 즐길 수 있는 '자유이용권'이라면, 증권형 토큰은 그 놀이공원이 번 돈을 나누어 가질 수 있는 '권리증'과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -105,7 +104,7 @@ keyword: "ICO_STO_IEO_Fundraising_Security_Token_Howey_Test"
 
 📢 **섹션 요약 비유**: 아무나 탈 수 있는 자전거(ICO) 시대에서, 번호판을 달고 보험에 가입해야 탈 수 있는 자동차(STO) 시대로 디지털 금융의 안전 규격이 강화되고 있습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -119,13 +118,13 @@ keyword: "ICO_STO_IEO_Fundraising_Security_Token_Howey_Test"
 
 📢 **섹션 요약 비유**: 과거의 주식 시장이 거대한 유조선이었다면, 블록체인 자금 조달은 수만 대의 보트가 연결되어 거대한 함대를 이루는 **'분산형 금융 대항해 시대'**를 열고 있습니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[토큰 이코노미](./25_token_economy.md)**: 자금 조달 후 토큰의 가치를 유지하는 운영 원리.
-- **[스마트 컨트랙트](./21_smart_contract.md)**: 토큰 발행 및 배분을 자동화하는 기술.
-- **[KYC / AML](../../9_security/xx_kyc_aml.md)**: 자금 조달 시 반드시 거쳐야 하는 규제 프로세스.
-- **[Howey Test](./xx_howey_test.md)**: 토큰의 증권성 여부를 가리는 판단 잣비.
+- **토큰 이코노미**: 자금 조달 후 토큰의 가치를 유지하는 운영 원리.
+- **스마트 컨트랙트**: 토큰 발행 및 배분을 자동화하는 기술.
+- **KYC / AML**: 자금 조달 시 반드시 거쳐야 하는 규제 프로세스.
+- **Howey Test**: 토큰의 증권성 여부를 가리는 판단 잣비.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **아이디어 응원하기**: 새로운 로봇을 만들고 싶은 형아들이 사람들에게 "나를 도와주면 나중에 특별한 코인을 줄게!"라고 약속하며 돈을 모으는 방법이에요.

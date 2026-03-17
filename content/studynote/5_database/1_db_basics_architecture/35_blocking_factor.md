@@ -1,7 +1,6 @@
 +++
 title = "35. 블로킹 팩터 (Blocking Factor)"
 date = "2026-03-16"
-draft = false
 weight = 35
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["블로킹 팩터", "Blocking Factor", "Bfr", "Block Size", "Record 
 > 2. **성능 직결**: 블로킹 팩터가 클수록 한 번의 I/O로 더 많은 데이터를 읽어 들일 수 있어 전체적인 시스템의 처리량(Throughput)이 향상되고 디스크 접근 횟수가 감소한다.
 > 3. **최적화**: 레코드 크기를 줄이거나 블록 크기를 워크로드에 맞게 조정하여 블로킹 팩터를 최적화하는 것은 대규모 데이터 검색 성능을 결정짓는 물리적 튜닝의 기초다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -45,7 +44,7 @@ keywords = ["블로킹 팩터", "Blocking Factor", "Bfr", "Block Size", "Record 
 
 - **📢 섹션 요약 비유**: 블로킹 팩터는 '한 번의 발걸음으로 옮길 수 있는 짐의 양'이며, 발걸음 수를 줄이는 것이 성능의 핵심입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -86,7 +85,7 @@ keywords = ["블로킹 팩터", "Blocking Factor", "Bfr", "Block Size", "Record 
 
 - **📢 섹션 요약 비유**: Unspanned는 '박스에 물건을 꽉 채우지 못해도 뚜껑을 닫는 것'이고, Spanned는 '물건을 분해해서 두 박스에 나눠 담는 것'입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -104,7 +103,7 @@ keywords = ["블로킹 팩터", "Blocking Factor", "Bfr", "Block Size", "Record 
 
 - **📢 섹션 요약 비유**: 블록 크기를 키우는 것은 '큰 트럭을 빌리는 것'이고, 레코드를 압축하는 것은 '짐을 진공 포장하는 것'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -123,7 +122,7 @@ keywords = ["블로킹 팩터", "Blocking Factor", "Bfr", "Block Size", "Record 
 
 - **📢 섹션 요약 비유**: 메가 레코드는 '박스 하나에 간신히 들어가는 거대한 소파'와 같습니다. 소파 하나 옮길 때마다 큰 박스가 필요하니 운반 효율이 최악입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -141,15 +140,15 @@ keywords = ["블로킹 팩터", "Blocking Factor", "Bfr", "Block Size", "Record 
 
 - **📢 섹션 요약 비유**: 기술이 발전해도 '한 번에 더 많이, 더 밀도 있게' 옮기려는 노력은 계속될 것이며, 블로킹 팩터는 그 효율을 측정하는 영원한 자대와 같습니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[물리적 데이터베이스 설계](./117_physical_design.md)**: $Bfr$을 결정하는 전체 프로세스.
-- **[B-Tree 인덱스](./36_btree_principles.md)**: 인덱스 엔트리의 $Bfr$이 검색 성능의 핵심.
-- **[버퍼 풀 관리자](./50_buffer_pool_manager.md)**: 블록 단위 데이터를 메모리에 캐싱하는 주체.
-- **[디스크 스케줄링](@/studynote/2_operating_system/_index.md)**: I/O 요청을 최적화하는 OS 알고리즘.
+- **물리적 데이터베이스 설계**: $Bfr$을 결정하는 전체 프로세스.
+- **B-Tree 인덱스**: 인덱스 엔트리의 $Bfr$이 검색 성능의 핵심.
+- **버퍼 풀 관리자**: 블록 단위 데이터를 메모리에 캐싱하는 주체.
+- **디스크 스케줄링**: I/O 요청을 최적화하는 OS 알고리즘.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **블로킹 팩터**는 커다란 박스 하나에 **장난감을 몇 개까지** 넣을 수 있는지 나타내는 숫자예요.

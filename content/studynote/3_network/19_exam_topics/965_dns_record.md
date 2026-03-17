@@ -1,5 +1,6 @@
 +++
 title = "DNS Record - DNS 레코드"
+date = "2026-03-14"
 weight = 965
 +++
 
@@ -110,6 +111,6 @@ DNS Record는 도메인 정보를 저장합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [DNS](./885_dns.md)
-- [Domain](./xxx_domain.md)
-- [Zone](./xxx_zone.md)
+- DNS
+- Domain
+- Zone

@@ -1,6 +1,6 @@
 +++
 title = "357. PCIe 레인 (Lanes - x1, x4, x8, x16)"
-description = "PCIe (Peripheral Component Interconnect Express)의 물리적 전송 단위인 레인의 구조와 병렬화 메커니즘"
+date = "2026-03-14"
 weight = 357
 +++
 
@@ -166,11 +166,11 @@ PCIe Gen 6.0 및 Gen 7.0에서는 광학 PCIe (Optical PCIe) 기술이 도입될
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[PCIe (PCI Express)](./351_pcie.md)**: 레인의 상위 개념인 전체 인터페이스 규격
-- **[NVMe (Non-Volatile Memory Express)](../8_io_storage/xx_nvme.md)**: PCIe 레인을 사용하는 고속 스토리지 프로토콜
-- **[SerDes (Serializer/Deserializer)](./xx_serdes.md)**: 물리적 레인 전송의 핵심 기술
-- **[CXL (Compute Express Link)](./xx_cxl.md)**: PCIe 5.0 물리 계층을 활용한 차세대 메모리 상호 연결 기술
-- **[MSI-X (Message Signaled Interrupts)](../7_virtual_memory_os/xx_msix.md)**: PCIe 장치의 효율적 인터럽트 처리 방식
+- **PCIe (PCI Express)**: 레인의 상위 개념인 전체 인터페이스 규격
+- **NVMe (Non-Volatile Memory Express)**: PCIe 레인을 사용하는 고속 스토리지 프로토콜
+- **SerDes (Serializer/Deserializer)**: 물리적 레인 전송의 핵심 기술
+- **CXL (Compute Express Link)**: PCIe 5.0 물리 계층을 활용한 차세대 메모리 상호 연결 기술
+- **MSI-X (Message Signaled Interrupts)**: PCIe 장치의 효율적 인터럽트 처리 방식
 
 ---
 

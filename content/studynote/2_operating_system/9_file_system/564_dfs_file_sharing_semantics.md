@@ -1,7 +1,7 @@
-
 +++
-weight = 564
 title = "564. DFS에서의 파일 공유 세맨틱 (Unix, Session, Immutable)"
+date = "2026-03-14"
+weight = 564
 +++
 
 # 564. DFS에서의 파일 공유 세맨틱 (Unix, Session, Immutable)

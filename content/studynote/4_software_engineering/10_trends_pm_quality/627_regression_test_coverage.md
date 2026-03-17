@@ -1,11 +1,11 @@
----
-title: "627. 회귀 테스트 커버리지 도구"
-date: 2026-03-15
-draft: false
-weight: 627
-categories: ["Software Engineering"]
-tags: ["Testing", "Regression Testing", "Code Coverage", "CI/CD", "Test Automation"]
----
++++
+title = "627. 회귀 테스트 커버리지 도구"
+date = "2026-03-15"
+weight = 627
+[extra]
+categories = ["Software Engineering"]
+tags = ["Testing", "Regression Testing", "Code Coverage", "CI/CD", "Test Automation"]
++++
 
 # 회귀 테스트 커버리지 도구
 
@@ -829,10 +829,10 @@ graph LR
 ```
 
 ### 연관 문서
-- [테스트 더블 Mock과 Stub](./625_test_double_mock_stub.md) - 단위 테스트 기법
-- [V-모델](./626_v_model_testing.md) - 테스트 매핑 구조
-- [TDD](./584_tdd.md) - 테스트 주도 개발
-- [CI/CD 파이프라인](./515_devsecops_pipeline.md) - 지속적 통합
+- 테스트 더블 Mock과 Stub - 단위 테스트 기법
+- V-모델 - 테스트 매핑 구조
+- TDD - 테스트 주도 개발
+- CI/CD 파이프라인 - 지속적 통합
 
 ---
 

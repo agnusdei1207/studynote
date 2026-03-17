@@ -1,5 +1,6 @@
 +++
 title = "네트워크 자동화 (Network Automation) - Ansible/Python"
+date = "2026-03-14"
 weight = 199
 +++
 
@@ -147,10 +148,10 @@ weight = 199
 ---
 
 ### 📌 관련 개념 링크**:
-- [SDN](./193_sdn.md)
-- [DevOps](./202_devops.md)
-- [IaC](./202_iac.md)
-- [NETCONF](./202_netconf.md)
+- SDN
+- DevOps
+- IaC
+- NETCONF
 
 ---
 

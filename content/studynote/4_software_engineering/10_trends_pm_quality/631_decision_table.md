@@ -1,11 +1,11 @@
----
-title: "631. 결정 테이블 테스트 설계"
-date: 2026-03-15
-draft: false
-weight: 631
-categories: ["Software Engineering"]
-tags: ["Testing", "Decision Table", "Black Box Testing", "Test Design", "Business Rules"]
----
++++
+title = "631. 결정 테이블 테스트 설계"
+date = "2026-03-15"
+weight = 631
+[extra]
+categories = ["Software Engineering"]
+tags = ["Testing", "Decision Table", "Black Box Testing", "Test Design", "Business Rules"]
++++
 
 # 결정 테이블 테스트 설계
 
@@ -802,10 +802,10 @@ graph LR
 ```
 
 ### 연관 문서
-- [동등 분할](./630_equivalence_partitioning.md) - 테스트 설계
-- [상태 전이 테스트]((#)) - 동적 시스템
-- [BDD](./585_bdd.md) - 행위 주도 개발
-- [규칙 엔진]((#)) - 비즈니스 규칙
+- 동등 분할 - 테스트 설계
+- 상태 전이 테스트) - 동적 시스템
+- BDD - 행위 주도 개발
+- 규칙 엔진) - 비즈니스 규칙
 
 ---
 

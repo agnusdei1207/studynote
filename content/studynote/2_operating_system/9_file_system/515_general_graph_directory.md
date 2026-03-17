@@ -1,6 +1,7 @@
 +++
-weight = 515
 title = "515. 일반 그래프 디렉터리 (General Graph Directory) - 순환(Cycle) 문제"
+date = "2026-03-14"
+weight = 515
 +++
 
 # 515. 일반 그래프 디렉터리 (General Graph Directory) - 순환(Cycle) 문제

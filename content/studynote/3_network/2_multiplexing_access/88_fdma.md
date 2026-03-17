@@ -1,7 +1,7 @@
 +++
-weight = 88
 title = "88. FDMA (Frequency Division Multiple Access)"
 date = "2026-03-11"
+weight = 88
 [extra]
 categories = "studynote-network"
 keywords = ["FDMA", "Frequency Division Multiple Access", "주파수 분할 다중 접속", "가드밴드"]
@@ -13,7 +13,7 @@ series = "네트워크 1200제"
 > 2. **가치**: 사용자 간 시간 동기화 부담이 낮고 지속적 전송에 유리하지만, 가드밴드와 유휴 채널 때문에 스펙트럼 효율은 상대적으로 낮다.
 > 3. **융합**: 초기 이동통신, 위성 통신, 일부 무선 백홀 구조에서 여전히 기본 개념으로 남아 있으며 OFDMA 이해의 출발점이 된다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -25,7 +25,7 @@ series = "네트워크 1200제"
   3. 디지털 스케줄링이 발전하기 전에는 고정 채널 방식이 운영과 관리에 유리했다.
 - **📢 섹션 요약 비유**: 친구마다 각자 전용 확성기 채널을 하나씩 주는 단순하지만 이해하기 쉬운 방식입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -68,7 +68,7 @@ series = "네트워크 1200제"
 
 - **📢 섹션 요약 비유**: 넓은 도로를 차선별로 나눠 차마다 한 차선씩 고정 배정하는 것과 같아서 단순하지만, 빈 차선이 생겨도 다른 차가 바로 활용하긴 어렵습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -90,7 +90,7 @@ series = "네트워크 1200제"
   2. **네트워크 관리**: 주파수 계획과 셀 재사용 전략이 용량을 좌우한다.
 - **📢 섹션 요약 비유**: 각자 자기 차선을 쓰는 방식은 단순하고 안전하지만, 붐비는 시간에는 더 영리한 교통 제어가 필요해집니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -110,7 +110,7 @@ series = "네트워크 1200제"
 - **안티패턴**: 데이터 트래픽이 시간에 따라 크게 변하는 환경에서 고정 FDMA 채널만 쓰면 빈 대역이 많아져 자원 낭비가 심해진다.
 - **📢 섹션 요약 비유**: 손님이 들쭉날쭉한 식당에 테이블을 손님별로 영구 예약해두면 자리가 비어도 다른 손님이 못 쓰는 것과 같습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -127,14 +127,14 @@ series = "네트워크 1200제"
 - **표준 연결**: AMPS, 일부 위성/무전 시스템, 주파수 계획 가이드.
 - **📢 섹션 요약 비유**: FDMA는 오래된 방식이지만, 오늘날의 복잡한 교통 시스템도 결국 차선을 나누는 기본 발상 위에 서 있습니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- [`[87_multiple_access.md](./87_multiple_access.md)`]: 다중 접속 전체 관점.
-- [`[89_tdma.md](./89_tdma.md)`]: 시간 축 기반 자원 분할 방식.
-- [`[84_ofdm.md](./84_ofdm.md)`]: OFDMA로 발전하는 직교 부반송파 기반 구조.
-- [`[94_ofdma.md](./94_ofdma.md)`]: FDMA 개념의 현대적 확장.
-- [`[/Users/pf/workspace/brainscience/content/studynote/3_network/11_wireless_mobile/_index.md](/Users/pf/workspace/brainscience/content/studynote/3_network/11_wireless_mobile/_index.md)`]: 이동통신 접속 방식 확장 주제.
+- `[87_multiple_access.md`]: 다중 접속 전체 관점.
+- `[89_tdma.md`]: 시간 축 기반 자원 분할 방식.
+- `[84_ofdm.md`]: OFDMA로 발전하는 직교 부반송파 기반 구조.
+- `[94_ofdma.md`]: FDMA 개념의 현대적 확장.
+- `[/Users/pf/workspace/brainscience/content/studynote/3_network/11_wireless_mobile/_index.md`]: 이동통신 접속 방식 확장 주제.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. FDMA는 친구마다 다른 라디오 채널을 하나씩 주는 거예요.

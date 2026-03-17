@@ -1,5 +1,6 @@
 +++
 title = "Runbook - 런북"
+date = "2026-03-14"
 weight = 744
 +++
 
@@ -104,6 +105,6 @@ Runbook은 운영 절차를 문서화합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Incident Management](./742_incident_management.md)
-- [On-call](./743_oncall.md)
-- [Automation](./xxx_automation.md)
+- Incident Management
+- On-call
+- Automation

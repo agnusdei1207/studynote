@@ -1,5 +1,6 @@
 +++
 title = "gRPC - 고성능 RPC"
+date = "2026-03-14"
 weight = 337
 +++
 
@@ -149,10 +150,10 @@ gRPC는 Google이 개발한 고성능 RPC 프레임워크입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [REST API](./338_rest_api.md)
-- [GraphQL](./336_graphql.md)
-- [Protocol Buffers](./339_protocol_buffers.md)
-- [마이크로서비스](./13_cloud_architecture/140_microservices.md)
+- REST API
+- GraphQL
+- Protocol Buffers
+- 마이크로서비스
 
 ---
 

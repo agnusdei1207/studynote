@@ -1,5 +1,6 @@
 +++
 title = "모바일 IP - Mobile IP"
+date = "2026-03-14"
 weight = 468
 +++
 
@@ -147,10 +148,10 @@ weight = 468
 ---
 
 ### 📌 관련 개념 링크**:
-- [핸드오버](./466_handover.md)
-- [Roaming](./469_roaming.md)
-- [5G](./459_5g_networking.md)
-- [IPv6](./311_ipv6.md)
+- 핸드오버
+- Roaming
+- 5G
+- IPv6
 
 ---
 

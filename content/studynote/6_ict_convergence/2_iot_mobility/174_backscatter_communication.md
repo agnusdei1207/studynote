@@ -1,10 +1,9 @@
----
-title: "[ICT] #175. 백스캐터 통신 (Ambient Backscatter Communication)"
-date: "2026-03-17"
++++
+title = "[ICT] #175. 백스캐터 통신 (Ambient Backscatter Communication)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "BackscatterCommunication_AmbientBackscatter_ZeroPowerIoT_EnergyHarvesting_RFID"
----
+keyword = "BackscatterCommunication_AmbientBackscatter_ZeroPowerIoT_EnergyHarvesting_RFID"
++++
 
 # 백스캐터 통신: 배터리 없는 '무전원' 사물인터넷을 실현하는 기적의 통신 기술
 
@@ -13,7 +12,7 @@ keyword: "BackscatterCommunication_AmbientBackscatter_ZeroPowerIoT_EnergyHarvest
 > 2. **가치**: 수십억 개의 IoT 센서에 들어가는 배터리 교체 비용과 환경 오염 문제를 원천적으로 해결하며, 먼지 크기의 초소형 '스마트 더스트(Smart Dust)'를 벽이나 몸속에 영구적으로 심어놓을 수 있게 만든다.
 > 3. **융합**: 기존의 RFID 기술이 전용 리더기(Reader)를 필요로 했다면, 이 기술은 이미 깔려있는 상용 Wi-Fi나 이동통신망을 재활용하는 에너지 하베스팅(Energy Harvesting) 기술과 융합되어 진정한 Zero-power IoT 생태계를 연다.
 
----
++++
 
 ## Ⅰ. 백스캐터 통신 (Ambient Backscatter) 개요
 
@@ -31,7 +30,7 @@ keyword: "BackscatterCommunication_AmbientBackscatter_ZeroPowerIoT_EnergyHarvest
 
 📢 **섹션 요약 비유**: 연료를 태워 달리는 자동차 대신, 공기 중에 부는 바람(전파)을 타고 영원히 날아다니는 돛단배(센서)를 만드는 기술입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -78,7 +77,7 @@ keyword: "BackscatterCommunication_AmbientBackscatter_ZeroPowerIoT_EnergyHarvest
 
 📢 **섹션 요약 비유**: 내 목소리를 낼 힘이 없어서, 옆 사람이 크게 떠드는 소리에 맞춰 탬버린을 찰칵찰칵 흔들어 내 의사를 전달하는 고도의 눈치 작전입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -97,7 +96,7 @@ keyword: "BackscatterCommunication_AmbientBackscatter_ZeroPowerIoT_EnergyHarvest
 
 📢 **섹션 요약 비유**: RFID가 지하철 단말기에 '가까이 대야만' 전기를 얻어 반응하는 수동적 거울이라면, 앰비언트 백스캐터는 동네에 떠다니는 와이파이 전파만으로 스스로 전기를 만들어 동네 사람들과 수다를 떠는 자립형 거울입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -115,7 +114,7 @@ keyword: "BackscatterCommunication_AmbientBackscatter_ZeroPowerIoT_EnergyHarvest
 
 📢 **섹션 요약 비유**: 공짜 바람으로 항해하는 돛단배는 연료비가 안 들지만, 바람이 멈추면 바다에 서 있어야 합니다. 따라서 반드시 오늘 도착해야 하는 응급 환자(자율주행 제어)는 태우면 안 됩니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -129,13 +128,13 @@ keyword: "BackscatterCommunication_AmbientBackscatter_ZeroPowerIoT_EnergyHarvest
 
 📢 **섹션 요약 비유**: 백스캐터 통신은 지구상의 모든 죽어있는 사물(종이, 벽돌, 옷)에게 영원히 꺼지지 않는 숨결(통신)을 불어넣어 무생물을 살려내는 창조의 기술입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[에너지 하베스팅](../13_reliability_power_management/xx_energy_harvesting.md)**: 빛, 열, 진동, 전파를 모아 전기를 만드는 백스캐터의 에너지원.
-- **[Wi-Fi 6 / 7](./156_wifi_evolution.md)**: 백스캐터 태그가 가장 많이 훔쳐 쓰고 반사하는 대기 중의 거대한 전파 바다.
-- **[초연결 사회](./106_hyperconnected_society.md)**: 무전원 센서 덕분에 수조 개의 사물이 마침내 인터넷에 연결되는 미래.
-- **[웨어러블 디바이스](./175_wearable_hmd_haptics.md)**: 배터리를 없애 옷감에 칩을 실로 짜 넣을 수 있게 만드는 응용 분야.
+- **에너지 하베스팅**: 빛, 열, 진동, 전파를 모아 전기를 만드는 백스캐터의 에너지원.
+- **Wi-Fi 6 / 7**: 백스캐터 태그가 가장 많이 훔쳐 쓰고 반사하는 대기 중의 거대한 전파 바다.
+- **초연결 사회**: 무전원 센서 덕분에 수조 개의 사물이 마침내 인터넷에 연결되는 미래.
+- **웨어러블 디바이스**: 배터리를 없애 옷감에 칩을 실로 짜 넣을 수 있게 만드는 응용 분야.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **마법의 거울 통신**: 밤에 건전지가 없어서 플래시를 못 켤 때, 남이 쏘는 불빛을 작은 거울로 반짝반짝 반사시켜서 내 마음을 전하는 똑똑한 방법이에요.

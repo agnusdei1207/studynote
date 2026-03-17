@@ -1,6 +1,7 @@
 +++
-weight = 401
 title = "401. 페이지 교체 알고리즘 (Page Replacement Algorithms)"
+date = "2026-03-14"
+weight = 401
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -119,4 +120,3 @@ graph TD
     PRA -- Methodology --> LRU[LRU]
     PRA -- Performance --> EAT[Effective Access Time]
     MFM -- Leads to --> SH[System High Performance]
-```

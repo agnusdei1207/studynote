@@ -1,5 +1,6 @@
 +++
 title = "Caching - 캐싱"
+date = "2026-03-14"
 weight = 620
 +++
 
@@ -98,6 +99,6 @@ Caching은 자주 쓰는 데이터를 빠른 저장소에 둡니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [CDN](./619_cdn.md)
-- [Redis](./621_redis.md)
-- [HTTP Cache](./622_http_cache.md)
+- CDN
+- Redis
+- HTTP Cache

@@ -1,8 +1,9 @@
----
-title: "우분투 스왑 메모리 설정"
-date: 2026-03-08
-tags: ["ubuntu", "swap", "linux"]
----
++++
+title = "우분투 스왑 메모리 설정"
+date = "2026-03-08"
+[extra]
+tags = ["ubuntu", "swap", "linux"]
++++
 
 # 우분투 스왑 메모리 설정
 
@@ -92,4 +93,3 @@ swapon --show
 
 # 메모리 전체 현황
 free -h
-```

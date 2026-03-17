@@ -1,6 +1,6 @@
 +++
 title = "08. 알고리즘/자료구조/통계 키워드 목록"
-date = 2026-03-03
+date = "2026-03-03"
 [extra]
 categories = "studynote-algorithm"
 +++
@@ -9,7 +9,7 @@ categories = "studynote-algorithm"
 
 정보통신기술사·컴퓨터응용시스템기술사 대비 알고리즘·자료구조·통계 전 영역 핵심 키워드
 
----
++++
 
 ## 1. 알고리즘 기초 — 14개
 
@@ -28,7 +28,7 @@ categories = "studynote-algorithm"
 13. 랜덤화 알고리즘 (Randomized Algorithm) — Las Vegas / Monte Carlo
 14. 재귀 (Recursion) — 기본 사례, 재귀 사례, 스택 오버플로우
 
----
++++
 
 ## 2. 정렬 알고리즘 — 18개
 
@@ -51,7 +51,7 @@ categories = "studynote-algorithm"
 17. 네트워크 정렬 (Sorting Network) — 병렬 정렬
 18. 이분 탐색 (Binary Search) — O(log n), 정렬된 배열 필수
 
----
++++
 
 ## 3. 탐색 / 그래프 알고리즘 — 24개
 
@@ -80,7 +80,7 @@ categories = "studynote-algorithm"
 23. 최장 공통 부분수열 (LCS) — DP, O(mn)
 24. 최장 증가 부분수열 (LIS) — DP / 이진 탐색
 
----
++++
 
 ## 4. 자료구조 — 28개
 
@@ -113,7 +113,7 @@ categories = "studynote-algorithm"
 27. 스파스 테이블 (Sparse Table) — O(1) 구간 최소값 (RMQ)
 28. 블룸 필터 (Bloom Filter) — 확률적 집합 멤버십, 공간 효율
 
----
++++
 
 ## 5. 문자열 알고리즘 — 12개
 
@@ -130,7 +130,7 @@ categories = "studynote-algorithm"
 11. 정규 표현식 (Regex) — NFA/DFA, 패턴 매칭
 12. 접미사 배열 + LCP 배열 — 문자열 분석
 
----
++++
 
 ## 6. NP 이론 / 계산 이론 — 14개
 
@@ -149,7 +149,7 @@ categories = "studynote-algorithm"
 13. 지수 시간 가설 (ETH) — 알고리즘 하한 도구
 14. 양자 복잡도 (Quantum Complexity) — BQP, 양자 우위
 
----
++++
 
 ## 7. 수치 알고리즘 — 10개
 
@@ -164,7 +164,7 @@ categories = "studynote-algorithm"
 9. 뉴턴-랩슨 (Newton-Raphson) — 수치 해법, 제곱근
 10. 몬테카를로 수치적분 — 확률적 근사
 
----
++++
 
 ## 8. 확률 / 통계 기초 — 20개
 
@@ -189,7 +189,7 @@ categories = "studynote-algorithm"
 19. t-검정 / F-검정 / ANOVA
 20. 회귀 분석 (Regression Analysis) — 단순/다중/로지스틱
 
----
++++
 
 ## 9. 정보이론 — 10개
 
@@ -204,7 +204,7 @@ categories = "studynote-algorithm"
 9. 오류 정정 부호 (Error Correcting Code) — 해밍/(터보)/LDPC/폴라
 10. 압축 (Compression) — 무손실/손실, 허프만/LZ/웨이블릿
 
----
++++
 
 ## 10. 선형대수 / 최적화 — 10개
 
@@ -219,6 +219,6 @@ categories = "studynote-algorithm"
 9. 정수 프로그래밍 (IP) — 분기 한정, MILP
 10. 진화 알고리즘 — 유전 알고리즘 (GA), 입자 군집 최적화 (PSO)
 
----
++++
 
 **총 키워드 수: 160개**

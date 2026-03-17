@@ -1,5 +1,6 @@
 +++
 title = "Window Scaling - 윈도우 스케일링"
+date = "2026-03-14"
 weight = 930
 +++
 
@@ -107,6 +108,6 @@ Window Scaling은 TCP 윈도우 크기를 확장합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Sliding Window](./929_sliding_window.md)
-- [TCP](./850_tcp.md)
-- [Flow Control](./928_flow_control.md)
+- Sliding Window
+- TCP
+- Flow Control

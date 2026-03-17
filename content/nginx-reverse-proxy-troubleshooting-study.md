@@ -1,3 +1,10 @@
++++
+title = "Nginx 리버스 프록시 충돌 트러블슈팅 스터디"
+date = "2026-03-17"
+[extra]
+keyword = "Nginx_ReverseProxy_Troubleshooting"
++++
+
 # Nginx 리버스 프록시 충돌 트러블슈팅 스터디
 
 ## 개요

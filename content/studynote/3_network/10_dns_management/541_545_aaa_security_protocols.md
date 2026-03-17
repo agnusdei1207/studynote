@@ -1,3 +1,9 @@
++++
+title = "541-545. 네트워크 보안 인증 (AAA, RADIUS, TACACS+, Kerberos)"
+date = "2026-03-14"
+[extra]
++++
+
 # 541-545. 네트워크 보안 인증 (AAA, RADIUS, TACACS+, Kerberos)
 
 > **1. 본질**: AAA (Authentication, Authorization, Accounting)는 네트워크 자원 접근에 대한 **보안 3요소(Identity, Permission, Audit)**를 체계화한 프레임워크입니다.

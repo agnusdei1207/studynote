@@ -1,5 +1,6 @@
 +++
 title = "Datadog - 클라우드 모니터링"
+date = "2026-03-14"
 weight = 323
 +++
 
@@ -149,10 +150,10 @@ Datadog은 클라우드 기반 통합 모니터링 SaaS 플랫폼입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Prometheus](./322_prometheus.md)
-- [Grafana](./321_grafana.md)
-- [APM](./15_devops_sre/210_apm.md)
-- [SIEM](./9_security/240_siem.md)
+- Prometheus
+- Grafana
+- APM
+- SIEM
 
 ---
 

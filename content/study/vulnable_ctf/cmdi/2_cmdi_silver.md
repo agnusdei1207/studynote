@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Command Injection 🥈 Silver"
-description = "LUXORA 플랫폼의 Command Injection Silver 난이도 공백/특수문자 필터링 우회 완벽 공략 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Command Injection", "Silver", "Bypass", "Write-up"]
@@ -117,4 +116,3 @@ const { execFile } = require('child_process');
 execFile('ping', ['-c', '4', req.body.ip], (err, stdout, stderr) => {
     // 결과 처리
 });
-```

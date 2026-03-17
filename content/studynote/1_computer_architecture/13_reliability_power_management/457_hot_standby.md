@@ -1,5 +1,6 @@
 +++
 title = "핫 스탠바이 (Hot Standby)"
+date = "2026-03-14"
 weight = 457
 +++
 

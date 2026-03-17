@@ -1,5 +1,6 @@
 +++
 title = "CSMA/CD - Carrier Sense Multiple Access with Collision Detection"
+date = "2026-03-14"
 weight = 429
 +++
 
@@ -141,10 +142,10 @@ CSMA/CD는 이더넷에서 매체 접근을 제어하고 충돌을 감지합니�
 ---
 
 ### 📌 관련 개념 링크**:
-- [Half-duplex vs Full-duplex](./428_duplex.md)
-- [이더넷](./300_ethernet.md)
-- [Collision Domain](./427_domains.md)
-- [CSMA/CA](./316_csma_ca.md)
+- Half-duplex vs Full-duplex
+- 이더넷
+- Collision Domain
+- CSMA/CA
 
 ---
 

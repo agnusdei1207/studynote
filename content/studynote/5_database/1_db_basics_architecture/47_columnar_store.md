@@ -1,7 +1,6 @@
 +++
 title = "47. 컬럼 기반 저장소 (Columnar Store)"
 date = "2026-03-16"
-draft = false
 weight = 47
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["Columnar Store", "Column-oriented", "OLAP", "압축률", "빅데이
 > 2. **효율성**: 동일한 데이터 타입이 연속적으로 배치되므로 **Run-Length Encoding (RLE)** 등 고효율 압축 알고리즘 적용이 용이하며, 필요한 컬럼만 선택적으로 읽어 들여 디스크 I/O를 획기적으로 줄인다.
 > 3. **가치**: 대용량 데이터 분석(OLAP) 및 비즈니스 인텔리전스(BI) 환경의 표준이며, 현대의 데이터 레이크하우스(Data Lakehouse) 기술인 Parquet, ORC 포맷의 근간이 된다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -48,7 +47,7 @@ keywords = ["Columnar Store", "Column-oriented", "OLAP", "압축률", "빅데이
 
 - **📢 섹션 요약 비유**: 컬럼 기반 저장소는 '필요한 재료만 모아둔 양념통'과 같아, 요리(분석) 속도를 비약적으로 높여줍니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -96,7 +95,7 @@ keywords = ["Columnar Store", "Column-oriented", "OLAP", "압축률", "빅데이
 
 - **📢 섹션 요약 비유**: 지연 구체화는 '음식을 미리 접시에 담지 않고, 손님이 먹기 직전에만 재료를 합쳐 내놓는 주방'과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -116,7 +115,7 @@ keywords = ["Columnar Store", "Column-oriented", "OLAP", "압축률", "빅데이
 
 - **📢 섹션 요약 비유**: 행 기반이 '편의점(소량 구매)'이라면, 컬럼 기반은 '대형 마트(박스 채 구매)'와 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -135,7 +134,7 @@ keywords = ["Columnar Store", "Column-oriented", "OLAP", "압축률", "빅데이
 
 - **📢 섹션 요약 비유**: 컬럼 기반 DB에 한 줄씩 데이터를 넣는 것은 '박스 포장된 마트 물건을 낱개로 하나씩 배달시키는 것'만큼 비효율적입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -153,15 +152,15 @@ keywords = ["Columnar Store", "Column-oriented", "OLAP", "압축률", "빅데이
 
 - **📢 섹션 요약 비유**: 미래의 저장소는 '형태가 변하는 점토'처럼, 우리가 읽을 때는 컬럼으로, 쓸 때는 행으로 자유롭게 변신하는 스마트한 공간이 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[로우 기반 저장소 (Row Store)](./48_row_store.md)**: 트랜잭션 최적화 대척점.
-- **[OLAP (Online Analytical Processing)](./14_oltp_vs_olap.md)**: 컬럼 저장소의 주 무대.
-- **[Apache Parquet](@/studynote/16_bigdata/_index.md)**: 대표적인 오픈 컬럼 저장 포맷.
-- **[인덱스 스킵 스캔 (Index Skip Scan)](./154_index_basics.md)**: 컬럼 기반 사상을 인덱스에 적용한 기술.
+- **로우 기반 저장소 (Row Store)**: 트랜잭션 최적화 대척점.
+- **OLAP (Online Analytical Processing)**: 컬럼 저장소의 주 무대.
+- **Apache Parquet**: 대표적인 오픈 컬럼 저장 포맷.
+- **인덱스 스킵 스캔 (Index Skip Scan)**: 컬럼 기반 사상을 인덱스에 적용한 기술.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **컬럼 기반 저장소**는 색종이를 정리할 때, 빨간색만 모아서 한 상자에 넣고 파란색만 모아서 다른 상자에 넣는 것과 같아요.

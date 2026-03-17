@@ -1,5 +1,6 @@
 +++
 title = "Failover - 페일오버"
+date = "2026-03-14"
 weight = 784
 +++
 
@@ -100,6 +101,6 @@ Failover는 장애 시 서비스를 이전합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Heartbeat](./783_heartbeat.md)
-- [High Availability](./xxx_ha.md)
-- [Replication](./xxx_replication.md)
+- Heartbeat
+- High Availability
+- Replication

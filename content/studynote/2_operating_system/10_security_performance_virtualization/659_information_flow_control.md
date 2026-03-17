@@ -1,7 +1,7 @@
 +++
-weight = 659
 title = "659. 정보 흐름 제어 (Information Flow Control)"
 date = "2026-03-16"
+weight = 659
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "정보 흐름 제어", "Information Flow Control", "보안 라벨링", "taint analysis"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "정보 흐름 제어", "Information Flow Control", 
 > 2. **가치**: 암호화된 채널을 우회하거나 **Trojan Horse**와 같은 **Covert Channel**을 통한 정보 유출을 기술적으로 차단하며, 시스템의 기밀성(Confidentiality) 무결성(Integrity)을 수학적으로 검증 가능한 수준으로 보장한다.
 > 3. **융합**: 컴파일러 이론(유형 시스템), OS 보안 커널(FLASK, SELinux), 그리고 현대 보안 분석인 **Taint Analysis**의 근간이 되는 핵심 아키텍처이다.
 
----
++++
 
 ### Ⅰ. 개요 (Context & Background)
 
@@ -30,7 +30,7 @@ keywords = ["운영체제", "정보 흐름 제어", "Information Flow Control", 
 
 > 📢 **섹션 요약 비유**: 마치 **화학 실험실에서 고독성 물질이 묻은 도구를 일반 쓰레기통에 버리지 못하도록 오염 경로를 추적하고 격리하는 것과 같습니다.**
 
----
++++
 
 ### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -120,7 +120,7 @@ def IF_CHECK(src_addr, dst_addr, is_explicit=True):
 
 > 📢 **섹션 요약 비유**: **식당 주방의 위생 규칙**과 같습니다. 날생선을 썰던 칼(비밀 라벨)을 씻지 않고 샐러드(공개 정보)를 자르는 데 사용하면, 샐러드는 '오염'되어 버려져야 합니다. IFC는 이 '칼이 무엇에 쓰였는지'를 기억했다가 샐러드에 닿는 순간 주방장을 제지하는 시스템입니다.
 
----
++++
 
 ### Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -157,7 +157,7 @@ def IF_CHECK(src_addr, dst_addr, is_explicit=True):
 
 > 📢 **섹션 요약 비유**: 접근 제어는 **'건물의 보안 카드 시스템'**이라면, 정보 흐름 제어는 **'건물 내부의 CCTV와 녹화 시스템'**입니다. 카드가 있어도 누가 방 안으로 무엇을 들고 들어갔는지, 그것이 밖으로 나오지 않았는지 끝까지 추적하는 것이 IFC의 역할입니다.
 
----
++++
 
 ### Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 

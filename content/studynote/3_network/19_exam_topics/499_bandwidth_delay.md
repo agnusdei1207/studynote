@@ -1,5 +1,6 @@
 +++
 title = "대역폭-지연 곱 - Bandwidth-Delay Product"
+date = "2026-03-14"
 weight = 499
 +++
 
@@ -91,5 +92,5 @@ BDP는 링크의 전송 중 데이터 양입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./332_tcp.md)
-- [슬라이딩 윈도우](./498_sliding_window.md)
+- TCP
+- 슬라이딩 윈도우

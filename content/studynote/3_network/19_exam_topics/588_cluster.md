@@ -1,5 +1,6 @@
 +++
 title = "Cluster - 클러스터"
+date = "2026-03-14"
 weight = 588
 +++
 
@@ -100,6 +101,6 @@ Cluster는 여러 서버를 하나처럼 동작하게 합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [HA](./586_high_availability.md)
-- [Failover](./587_failover.md)
-- [Load Balancer](./582_load_balancer.md)
+- HA
+- Failover
+- Load Balancer

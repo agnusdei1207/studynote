@@ -1,5 +1,6 @@
 +++
 title = "트랜시버 (Transceiver) / MAU"
+date = "2026-03-14"
 weight = 153
 +++
 
@@ -156,10 +157,10 @@ weight = 153
 ---
 
 ### 📌 관련 개념 링크**:
-- [이더넷 PHY](./137_ethernet_phy.md)
-- [광섬유](./128_optical_fiber.md)
-- [SFP/SFP+](./201_sfp.md)
-- [MDI](./142_mdi.md)
+- 이더넷 PHY
+- 광섬유
+- SFP/SFP+
+- MDI
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "Saga Pattern - 사가 패턴"
+date = "2026-03-14"
 weight = 627
 +++
 
@@ -98,6 +99,6 @@ Saga는 분산 트랜잭션을 보상 트랜잭션으로 관리합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Microservices](./617_microservices.md)
-- [Event Driven](./624_event_driven.md)
-- [2PC](./628_2pc.md)
+- Microservices
+- Event Driven
+- 2PC

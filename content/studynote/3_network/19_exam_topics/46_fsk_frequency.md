@@ -1,5 +1,6 @@
 +++
 title = "FSK (주파수 편이 변조)"
+date = "2026-03-14"
 weight = 46
 +++
 
@@ -143,10 +144,10 @@ s(t) = A·cos(2πf₂t)  (비트 1)
 ---
 
 ### 📌 관련 개념 링크**:
-- [ASK 진폭 편이 변조](./45_ask_amplitude.md)
-- [PSK 위상 편이 변조](./47_psk_phase_shift.md)
-- [MSK 최소 편이 변조](./50_msk_minimum.md)
-- [변조 Modulation 개요](./44_modulation_intro.md)
+- ASK 진폭 편이 변조
+- PSK 위상 편이 변조
+- MSK 최소 편이 변조
+- 변조 Modulation 개요
 
 ---
 

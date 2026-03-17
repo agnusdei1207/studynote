@@ -1,7 +1,7 @@
----
-title: "559. 콜드 스타트 (Cold Start) 및 서버리스 성능 최적화"
-date: 2026-03-15
----
++++
+title = "559. 콜드 스타트 (Cold Start) 및 서버리스 성능 최적화"
+date = "2026-03-15"
++++
 
 # 559. 콜드 스타트 (Cold Start) 및 서버리스 성능 최적화
 
@@ -163,10 +163,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[서버리스 아키텍처 (FaaS)](./558_serverless.md)**: 콜드 스타트가 발생하는 기술적 토양
-- **[12-Factor App (Disposability)](./592_12factor_app.md)**: 빠른 시작을 요구하는 설계 원칙
-- **[Go / Rust](./529_memory_safety_rust_go.md)**: 콜드 스타트에 가장 유리한 언어들
-- **[가상화 기술 (Micro-VM)](../2_operating_system/xx_virtualization.md)**: 콜드 스타트를 기술적으로 해결하는 하부 인프라
+- **서버리스 아키텍처 (FaaS)**: 콜드 스타트가 발생하는 기술적 토양
+- **12-Factor App (Disposability)**: 빠른 시작을 요구하는 설계 원칙
+- **Go / Rust**: 콜드 스타트에 가장 유리한 언어들
+- **가상화 기술 (Micro-VM)**: 콜드 스타트를 기술적으로 해결하는 하부 인프라
 
 ---
 

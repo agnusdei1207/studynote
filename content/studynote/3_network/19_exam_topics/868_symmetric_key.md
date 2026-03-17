@@ -1,5 +1,6 @@
 +++
 title = "Symmetric Key - 대칭키"
+date = "2026-03-14"
 weight = 868
 +++
 
@@ -111,6 +112,6 @@ Symmetric Key는 암호화와 복호화에 같은 키를 사용합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Encryption](./812_encryption.md)
-- [Asymmetric Key](./869_asymmetric_key.md)
-- [AES](./xxx_aes.md)
+- Encryption
+- Asymmetric Key
+- AES

@@ -1,5 +1,6 @@
 +++
 title = "다중경로 (Multipath) - 레일리/라이시안"
+date = "2026-03-14"
 weight = 163
 +++
 
@@ -148,10 +149,10 @@ weight = 163
 ---
 
 ### 📌 관련 개념 링크**:
-- [페이딩](./162_fading.md)
-- [RAKE 수신기](./202_rake.md)
-- [OFDM](./107_ofdm.md)
-- [MIMO](./213_mimo.md)
+- 페이딩
+- RAKE 수신기
+- OFDM
+- MIMO
 
 ---
 

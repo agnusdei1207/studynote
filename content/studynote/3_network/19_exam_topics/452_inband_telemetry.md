@@ -1,5 +1,6 @@
 +++
 title = "인밴드 텔레메트리 - In-band Telemetry"
+date = "2026-03-14"
 weight = 452
 +++
 
@@ -143,10 +144,10 @@ weight = 452
 ---
 
 ### 📌 관련 개념 링크**:
-- [P4](./450_p4.md)
-- [모니터링](./438_monitoring.md)
-- [NetFlow](./327_snmp.md)
-- [네트워크 성능 지표](./431_performance.md)
+- P4
+- 모니터링
+- NetFlow
+- 네트워크 성능 지표
 
 ---
 

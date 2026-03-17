@@ -1,6 +1,7 @@
 +++
-weight = 544
 title = "544. 통합 페이지 캐시 (Unified Page Cache)"
+date = "2026-03-14"
+weight = 544
 +++
 
 # # 544. 통합 페이지 캐시 (Unified Page Cache)

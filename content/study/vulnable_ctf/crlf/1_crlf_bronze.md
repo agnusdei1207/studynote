@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: CRLF Injection 🥉 Bronze"
-description = "LUXORA 플랫폼의 기본 CRLF 취약점을 이용한 HTTP 응답 분할(Response Splitting) 및 XSS 공격 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "CRLF Injection", "Bronze", "Response Splitting", "Write-up"]

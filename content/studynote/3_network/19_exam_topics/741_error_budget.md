@@ -1,5 +1,6 @@
 +++
 title = "Error Budget - 에러 예산"
+date = "2026-03-14"
 weight = 741
 +++
 
@@ -98,6 +99,6 @@ Error Budget은 허용 가능한 장애 시간입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [SLA/SLO/SLI](./740_sla_slo_sli.md)
-- [SRE](./748_sre.md)
-- [Postmortem](./745_postmortem.md)
+- SLA/SLO/SLI
+- SRE
+- Postmortem

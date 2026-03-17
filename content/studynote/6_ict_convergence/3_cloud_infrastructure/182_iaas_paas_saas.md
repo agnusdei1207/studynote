@@ -1,10 +1,9 @@
----
-title: "[ICT] #182. 클라우드 서비스 모델 (IaaS, PaaS, SaaS) 및 확장 모델"
-date: "2026-03-17"
++++
+title = "[ICT] #182. 클라우드 서비스 모델 (IaaS, PaaS, SaaS) 및 확장 모델"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "CloudServiceModels_IaaS_PaaS_SaaS_BaaS_FaaS_SharedResponsibilityModel"
----
+keyword = "CloudServiceModels_IaaS_PaaS_SaaS_BaaS_FaaS_SharedResponsibilityModel"
++++
 
 # 클라우드 서비스 모델 (IaaS, PaaS, SaaS): IT 자원 관리 책임의 점진적 위임
 
@@ -13,7 +12,7 @@ keyword: "CloudServiceModels_IaaS_PaaS_SaaS_BaaS_FaaS_SharedResponsibilityModel"
 > 2. **가치**: 사용자는 핵심 비즈니스 로직(Application) 개발에만 집중하고, 네트워크, 스토리지, 서버, 심지어 운영체제(OS)와 런타임 환경까지의 번거로운 유지보수를 클라우드 벤더에게 아웃소싱하여 개발 민첩성(Agility)을 극대화할 수 있다.
 > 3. **융합**: 전통적인 3대 모델을 넘어, 모바일/웹 앱의 백엔드를 통째로 제공하는 BaaS와 함수 단위로 실행되는 서버리스 기반의 FaaS로 진화하며, 기업의 마이크로서비스(MSA) 전환을 가속화하고 있다.
 
----
++++
 
 ## Ⅰ. 클라우드 서비스 모델 개요
 
@@ -33,7 +32,7 @@ keyword: "CloudServiceModels_IaaS_PaaS_SaaS_BaaS_FaaS_SharedResponsibilityModel"
 
 📢 **섹션 요약 비유**: IT라는 거대한 짐가방에서, 내가 들고 갈 핵심(코드)만 남기고 나머지 무거운 짐(인프라)을 남에게 돈을 주고 맡기는 '점진적 짐 덜어내기' 모델입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -90,7 +89,7 @@ keyword: "CloudServiceModels_IaaS_PaaS_SaaS_BaaS_FaaS_SharedResponsibilityModel"
 
 📢 **섹션 요약 비유**: 내가 요리사(개발자)라면, 재료를 직접 씻고 다듬는 것(IaaS)보다 씻겨진 밀키트(PaaS)를 쓰면 요리에만 집중할 수 있고, 손님(사용자) 입장에서는 그냥 식당(SaaS)에 가는 게 최고입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -109,7 +108,7 @@ keyword: "CloudServiceModels_IaaS_PaaS_SaaS_BaaS_FaaS_SharedResponsibilityModel"
 
 📢 **섹션 요약 비유**: 자유(IaaS)를 누리려면 그만큼의 책임(관리)을 져야 하고, 편안함(PaaS, SaaS)을 원한다면 규칙(벤더 종속)에 순응해야 하는 철저한 기브 앤 테이크입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -127,7 +126,7 @@ keyword: "CloudServiceModels_IaaS_PaaS_SaaS_BaaS_FaaS_SharedResponsibilityModel"
 
 📢 **섹션 요약 비유**: 클라우드 벤더가 제공하는 꿀(PaaS)을 너무 많이 먹으면 그들의 둥지에서 평생 벗어날 수 없는 꿀벌이 됩니다. 적절한 거리 두기(IaaS+컨테이너)가 장기적 생존 전략입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -141,13 +140,13 @@ keyword: "CloudServiceModels_IaaS_PaaS_SaaS_BaaS_FaaS_SharedResponsibilityModel"
 
 📢 **섹션 요약 비유**: 클라우드 서비스 모델은 복잡한 IT 기술을 전기나 수도처럼 벽에 꽂기만 하면 나오는 '보편적 유틸리티'로 탈바꿈시킨 21세기 최고의 비즈니스 발명품입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[서버리스 / FaaS](./187_faas_serverless.md)**: PaaS를 넘어 아예 서버의 존재 자체를 개발자로부터 숨겨버린 진화형 모델.
-- **[클라우드 5대 특징](./181_cloud_computing_characteristics.md)**: 이 모든 서비스 모델이 성립하기 위한 기본 전제 조건 (NIST 정의).
-- **[컨테이너 및 도커](./194_container_virtualization.md)**: IaaS 위에서 PaaS처럼 유연하게 앱을 굴릴 수 있게 해주는 마법의 상자.
-- **[마이크로서비스 (MSA)](../../4_software_engineering/xx_msa.md)**: 클라우드 환경(PaaS)의 장점을 100% 뽑아내기 위한 소프트웨어 아키텍처.
+- **서버리스 / FaaS**: PaaS를 넘어 아예 서버의 존재 자체를 개발자로부터 숨겨버린 진화형 모델.
+- **클라우드 5대 특징**: 이 모든 서비스 모델이 성립하기 위한 기본 전제 조건 (NIST 정의).
+- **컨테이너 및 도커**: IaaS 위에서 PaaS처럼 유연하게 앱을 굴릴 수 있게 해주는 마법의 상자.
+- **마이크로서비스 (MSA)**: 클라우드 환경(PaaS)의 장점을 100% 뽑아내기 위한 소프트웨어 아키텍처.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **내 맘대로 빈방 (IaaS)**: 텅 빈 튼튼한 방을 빌려주는 거예요. 벽지도 내가 바르고 가구도 직접 사 와야 하지만 내 맘대로 다 꾸밀 수 있어요.

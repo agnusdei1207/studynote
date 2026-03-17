@@ -1,5 +1,6 @@
 +++
 title = "Jitter - 지터"
+date = "2026-03-14"
 weight = 925
 +++
 
@@ -106,6 +107,6 @@ Jitter는 패킷 간 지연 시간의 변동을 의미합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Latency](./924_latency.md)
-- [QoS](./920_qos.md)
-- [VoIP](./xxx_voip.md)
+- Latency
+- QoS
+- VoIP

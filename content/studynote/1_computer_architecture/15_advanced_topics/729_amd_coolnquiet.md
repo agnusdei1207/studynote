@@ -1,5 +1,6 @@
 +++
 title = "amd coolnquiet"
+date = "2026-03-14"
 weight = 729
 +++
 
@@ -334,10 +335,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [인텔 스피드스텝](./728_intel_speedstep.md) - Intel 대응 기술
-- [AMD 프리시전 부스트](./731_amd_precision_boost.md) - AMD 터보 기술
-- [P-States](./723_pstates.md) - 성능 상태
-- [스마트 시프트](./732_smartshift.md) - AMD 전력 분배
+- 인텔 스피드스텝 - Intel 대응 기술
+- AMD 프리시전 부스트 - AMD 터보 기술
+- P-States - 성능 상태
+- 스마트 시프트 - AMD 전력 분배
 
 ---
 

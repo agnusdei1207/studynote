@@ -1,5 +1,6 @@
 +++
 title = "challenge response"
+date = "2026-03-14"
 weight = 789
 +++
 
@@ -143,10 +144,10 @@ weight = 789
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [SRAM PUF](./788_sram_puf.md)
-- [TRNG 엔트로피 소스](./786_trng_entropy.md)
-- [보안 엔클레이브](./790_secure_enclave.md)
-- [HSM](./781_hsm.md)
+- SRAM PUF
+- TRNG 엔트로피 소스
+- 보안 엔클레이브
+- HSM
 
 ---
 

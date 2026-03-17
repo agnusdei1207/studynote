@@ -1,6 +1,7 @@
 +++
-weight = 559
 title = "559. 벡터형 인터럽트 컨트롤러 (VIC, NVIC)"
+date = "2026-03-14"
+weight = 559
 +++
 
 # 벡터형 인터럽트 컨트롤러 (VIC, NVIC)
@@ -156,10 +157,10 @@ NVIC의 혁신적인 속도 비결 중 하나는 '테일 체이닝' 기술이다
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[NMI (Non-Maskable Interrupt)](./558_nmi.md)**: VIC/NVIC조차도 막을 수 없는 최우선 순위 인터럽트.
-- **[RTOS (Real-Time Operating System)](../4_software_engineering/xx_rtos.md)**: NVIC의 하드웨어 스케줄링 기능을 활용하는 소프트웨어 플랫폼.
-- **[문맥 전환 (Context Switch)](../2_operating_system/xx_context_switch.md)**: NVIC가 하드웨어적으로 자동 수행하는 핵심 작업.
-- **[GIC (Generic Interrupt Controller)](./560_gic_apic.md)**: 멀티코어 환경으로 확장된 인터럽트 컨트롤러.
+- **NMI (Non-Maskable Interrupt)**: VIC/NVIC조차도 막을 수 없는 최우선 순위 인터럽트.
+- **RTOS (Real-Time Operating System)**: NVIC의 하드웨어 스케줄링 기능을 활용하는 소프트웨어 플랫폼.
+- **문맥 전환 (Context Switch)**: NVIC가 하드웨어적으로 자동 수행하는 핵심 작업.
+- **GIC (Generic Interrupt Controller)**: 멀티코어 환경으로 확장된 인터럽트 컨트롤러.
 
 ---
 

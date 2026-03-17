@@ -1,5 +1,6 @@
 +++
 title = "OIDC (OpenID Connect) - 오픈아이디 커넥트"
+date = "2026-03-14"
 weight = 579
 +++
 
@@ -100,6 +101,6 @@ OIDC는 OAuth 2.0 위에 인증 계층을 추가합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [OAuth 2.0](./578_oauth.md)
-- [JWT](./575_jwt.md)
-- [SSO](./580_sso.md)
+- OAuth 2.0
+- JWT
+- SSO

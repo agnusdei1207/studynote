@@ -1,5 +1,6 @@
 +++
 title = "Latency - 지연 시간"
+date = "2026-03-14"
 weight = 801
 +++
 
@@ -103,6 +104,6 @@ Latency는 요청에서 응답까지의 시간입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Throughput](./802_throughput.md)
-- [Performance](./xxx_performance.md)
-- [Network](./xxx_network.md)
+- Throughput
+- Performance
+- Network

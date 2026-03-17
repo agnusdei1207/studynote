@@ -1,10 +1,9 @@
----
-title: "[ICT] #266. 자기 지도 학습 (Self-Supervised Learning) 및 다음 단어 예측"
-date: "2026-03-17"
++++
+title = "[ICT] #266. 자기 지도 학습 (Self-Supervised Learning) 및 다음 단어 예측"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "SelfSupervisedLearning_SSL_NextTokenPrediction_MaskedLanguageModel_PreTraining"
----
+keyword = "SelfSupervisedLearning_SSL_NextTokenPrediction_MaskedLanguageModel_PreTraining"
++++
 
 # 자기 지도 학습 (Self-Supervised Learning): 사람이 가르쳐주지 않아도 스스로 세상의 이치를 깨우치는 AI
 
@@ -13,7 +12,7 @@ keyword: "SelfSupervisedLearning_SSL_NextTokenPrediction_MaskedLanguageModel_Pre
 > 2. **가치**: 라벨링에 들어가는 천문학적인 인건비와 시간의 한계를 완전히 파괴하여, 인터넷에 널려 있는 수조 개의 날것(Raw) 텍스트와 이미지 빅데이터를 모두 AI의 훈련 데이터로 쓸 수 있게 만든 생성형 AI 혁명의 1등 공신이다.
 > 3. **융합**: 앞의 단어들을 보고 다음 단어를 맞추는 'Next Token Prediction (GPT 방식)'과 문장 중간에 구멍을 뚫어놓고 맞추는 'Masked Language Model (BERT 방식)'로 나뉘며, 파운데이션 모델의 1단계인 **'사전 학습(Pre-training)'**을 완성하는 절대적 원리다.
 
----
++++
 
 ## Ⅰ. 자기 지도 학습 (Self-Supervised Learning) 개요
 
@@ -31,7 +30,7 @@ keyword: "SelfSupervisedLearning_SSL_NextTokenPrediction_MaskedLanguageModel_Pre
 
 📢 **섹션 요약 비유**: 부모님이 떠먹여 주는 이유식(라벨링 데이터)을 끊고, 도서관에 틀어박혀 수만 권의 책을 스스로 읽으며 세상의 이치를 통달해 버린 '인공지능의 독립'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -80,7 +79,7 @@ keyword: "SelfSupervisedLearning_SSL_NextTokenPrediction_MaskedLanguageModel_Pre
 
 📢 **섹션 요약 비유**: 수만 조각의 레고 블록을 일부러 부서뜨려 놓고, 설명서 없이 원래 모양을 조립하게 훈련시키면 나중에는 어떤 블록을 던져줘도 무엇이든 조립할 수 있는 궁극의 설계자가 됩니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -99,7 +98,7 @@ keyword: "SelfSupervisedLearning_SSL_NextTokenPrediction_MaskedLanguageModel_Pre
 
 📢 **섹션 요약 비유**: 자기 지도 학습은 기초 체력을 기르는 '헬스장 근력 운동'입니다. 근력이 튼튼해야 나중에 농구(지도 학습)든 축구(강화 학습)든 어떤 기술을 배우더라도 세계 최고의 선수가 될 수 있습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -117,7 +116,7 @@ keyword: "SelfSupervisedLearning_SSL_NextTokenPrediction_MaskedLanguageModel_Pre
 
 📢 **섹션 요약 비유**: 쓰레기통(오염된 인터넷)에서 주워 온 퍼즐을 아무리 예쁘게 맞춰도 완성된 그림은 결국 쓰레기일 뿐입니다. 혼자 퍼즐을 맞추게 내버려 두더라도(SSL), 그 퍼즐의 퀄리티(데이터 클렌징)는 인간이 철저히 검수해야 합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -131,13 +130,13 @@ keyword: "SelfSupervisedLearning_SSL_NextTokenPrediction_MaskedLanguageModel_Pre
 
 📢 **섹션 요약 비유**: 자기 지도 학습은 신(인간)이 흙(데이터)을 빚어 숨을 불어넣은 것을 넘어, 흙 스스로가 어떻게 뭉쳐야 가장 단단한 바위가 되는지 스스로 깨우치게 만든 AI 진화의 가장 위대한 마법입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[파운데이션 모델 (Foundation Model)](./261_foundation_model.md)**: 자기 지도 학습의 결과물로 탄생하는 거대한 범용 뇌.
-- **[트랜스포머 (Transformer)](./262_transformer.md)**: 자기 지도 학습의 빈칸 채우기를 병렬로 미친 듯이 빠르게 수행할 수 있게 해준 수학적 아키텍처.
-- **[RLHF (인간 피드백 강화학습)](./268_rlhf_dpo.md)**: 자기 지도 학습으로 너무 많은 걸 알아버린 AI에게 예절과 도덕을 가르치는 후반부 훈련.
-- **[LLM (대형 언어 모델)](./263_llm_large_language_model.md)**: 넥스트 토큰 프리딕션(Next Token Prediction)의 원리로 동작하는 대화형 인공지능.
+- **파운데이션 모델 (Foundation Model)**: 자기 지도 학습의 결과물로 탄생하는 거대한 범용 뇌.
+- **트랜스포머 (Transformer)**: 자기 지도 학습의 빈칸 채우기를 병렬로 미친 듯이 빠르게 수행할 수 있게 해준 수학적 아키텍처.
+- **RLHF (인간 피드백 강화학습)**: 자기 지도 학습으로 너무 많은 걸 알아버린 AI에게 예절과 도덕을 가르치는 후반부 훈련.
+- **LLM (대형 언어 모델)**: 넥스트 토큰 프리딕션(Next Token Prediction)의 원리로 동작하는 대화형 인공지능.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **정답지 없는 공부**: 선생님이 빨간펜으로 채점해 주지 않아도, 인터넷에 있는 수억 권의 책을 혼자 읽으며 세상의 규칙을 스스로 깨우치는 똑똑한 공부 방법이에요.

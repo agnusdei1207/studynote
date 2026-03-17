@@ -1,5 +1,6 @@
 +++
 title = "thermal velocity boost"
+date = "2026-03-14"
 weight = 733
 +++
 
@@ -326,10 +327,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [인텔 터보부스트](./730_intel_turbo_boost.md) - 기본 가속
-- [PL1, PL2](./734_pl1_pl2.md) - 전력 제한
-- [TjMax](./735_tjmax.md) - 최대 온도
-- [PROCHOT#](./720_prochot.md) - 과열 보호
+- 인텔 터보부스트 - 기본 가속
+- PL1, PL2 - 전력 제한
+- TjMax - 최대 온도
+- PROCHOT# - 과열 보호
 
 ---
 

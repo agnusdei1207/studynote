@@ -14,7 +14,7 @@ tags = ["SE", "Architecture", "DDD", "Microservices"]
 > 2. **가치**: 인프라 교체 시 코어 로직 변경 없음, 단위 테스트 가능성 100%, 기술 부채 최소화
 > 3. **융합**: DDD, 클린 아키텍처, 마이크로서비스와 직접적 연관
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -138,7 +138,7 @@ tags = ["SE", "Architecture", "DDD", "Microservices"]
 
 헥사고날 아키텍처는 **만능 리모컨**의 설계 원칙과 같습니다. 리모컨(코어)은 표준 적외선 포트(포트)를 통해 다양한 기기(어댑터)를 제어합니다. TV를 교체해도 리모컨은 그대로 작동합니다. 기기가 바뀌면 새로운 어댑터만 연결하면 됩니다. 이는 코드의 재사용성과 유연성을 극대화합니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -179,7 +179,7 @@ tags = ["SE", "Architecture", "DDD", "Microservices"]
 │   │  │  │  }                                                      │   │  │      │
 │   │  │  │                                                       │   │  │      │
 │   │  │  │  interface IEmailService {                           │   │  │      │
-│   │  │  │    send(to: string, subject: string, body: string)    │   │  │      │
+│   │  │  │    send(to: string, subject = string, body: string)    │   │  │      │
 │   │  │  │  }                                                      │   │  │      │
 │   │  │  └───────────────────────────────────────────────────┘   │  │      │
 │   │  │                                                           │  │      │
@@ -491,7 +491,7 @@ export class SendGridEmailService implements IEmailService {
         await this.sendGridClient.send({
             to: customerEmail,
             from: 'noreply@example.com',
-            subject: 'Welcome!',
+            subject = 'Welcome!',
             text: `Hello ${customerName}, welcome to our service!`
         });
     }
@@ -499,17 +499,17 @@ export class SendGridEmailService implements IEmailService {
 
 // Secondary Adapter: Mock Email Service (Driven Adapter for Testing)
 export class MockEmailService implements IEmailService {
-    public sentEmails: Array<{to: string, subject: string, body: string}> = [];
+    public sentEmails: Array<{to: string, subject = string, body: string}> = [];
 
     async sendWelcomeEmail(customerEmail: string, customerName: string): Promise<void> {
         this.sentEmails.push({
             to: customerEmail,
-            subject: 'Welcome!',
+            subject = 'Welcome!',
             body: `Hello ${customerName}!`
         });
     }
 
-    getLastSentEmail(): {to: string, subject: string, body: string} | null {
+    getLastSentEmail(): {to: string, subject = string, body: string} | null {
         return this.sentEmails[this.sentEmails.length - 1] || null;
     }
 }
@@ -656,7 +656,7 @@ describe('CreateCustomerUseCase', () => {
 
 헥사고날 아키텍처의 포트와 어댑터는 **전기 콘센트와 플러그** 시스템과 같습니다. 콘센트(포트)는 표준화된 인터페이스를 정의하고, 플러그(어댑터)는 그 인터페이스를 구현합니다. 110V 가전제품을 220V 콘센트에 꽂으려면 변환 어댑터만 있으면 됩니다. 기기(코어)를 바꿀 필요가 없습니다. 이로써 시스템의 **교체 가능성(Swappability)**이 극대화됩니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -830,7 +830,7 @@ describe('CreateCustomerUseCase', () => {
 
 헥사고날 아키텍처는 **레스토랑 주방의 파트너 시스템**과 같습니다. 주방(코어)은 조리법(비즈니스 로직)에 집중합니다. 식자재 공급업체(Secondary Adapter)나 서빙 직원(Primary Adapter)가 바뀌어도 주방은 영향받지 않습니다. 새로운 공급업체를 추가하려면 계약(Port)만 맺으면 됩니다. 이로써 레스토랑은 품질 일관성을 유지하며 외부 변화에 유연하게 대응할 수 있습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -1042,7 +1042,7 @@ describe('CreateCustomerUseCase', () => {
 
 헥사고날 아키텍터의 도입은 **집안 리모델링**과 같습니다. 잘못된 접근은 벽을 허물고 나서 전기 배선과 수관을 섞어서 모든 것을 다시 해야 합니다. 올바른 접근은 계획(포트)을 먼저 세우고, 전기, 수도, 가구(어댑터)를 독립적으로 설치하는 것입니다. 이로써 나중에 주방을 바꾸거나 가구를 교체해도 다른 부분에 영향이 없습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -1108,23 +1108,23 @@ describe('CreateCustomerUseCase', () => {
 
 헥사고날 아키텍처는 **현대적인 자동차의 모듈형 설계**와 같습니다. 엔진(도메인)은 표준화된 인터페이스(포트)를 통해 변속기, 서스펜션, 전자장비(어댑터)와 연결됩니다. 부품을 교체하거나 업그레이드해도 엔진은 그대로입니다. 이로써 자동차는 지속적으로 발전하면서도 핵심 성능을 유지할 수 있습니다. 소프트웨어도 같은 원리로 진화할 수 있습니다.
 
----
++++
 
 ## 📌 관련 개념 맵
 
 ### 연관 개념 5개+
 
-1. **[클린 아키텍처](./611_clean_architecture.md)**: 헥사고날의 발전형 형태
+1. **클린 아키텍처**: 헥사고날의 발전형 형태
 
-2. **[DDD 도메인 주도 설계](./613_ddd_basics.md)**: 헥사고날과 완벽 조화
+2. **DDD 도메인 주도 설계**: 헥사고날과 완벽 조화
 
-3. **[마이크로서비스](./614_bounded_context.md)**: 각 서비스가 헥사고날 패턴 따름
+3. **마이크로서비스**: 각 서비스가 헥사고날 패턴 따름
 
-4. **[CQRS](./621_cqrs.md)**: 읽기/쓰기 포트 분리와 헥사고날 결합
+4. **CQRS**: 읽기/쓰기 포트 분리와 헥사고날 결합
 
-5. **[이벤트 소싱](./620_event_sourcing.md)**: 상태 저장 대신 이벤트 스트림
+5. **이벤트 소싱**: 상태 저장 대신 이벤트 스트림
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 

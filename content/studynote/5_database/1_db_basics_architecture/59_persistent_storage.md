@@ -1,7 +1,6 @@
 +++
 title = "59. 영구 저장소 (Persistent Storage) - 데이터 파일, 로그 파일, 제어 파일"
 date = "2026-03-16"
-draft = false
 weight = 59
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["Persistent Storage", "영구 저장소", "Data File", "Redo Log Fil
 > 2. **3대 핵심 파일**: 실제 데이터가 담긴 **데이터 파일(Data Files)**, 복구를 위한 변경 이력이 담긴 **로그 파일(Redo Log Files)**, 그리고 데이터베이스의 전체 구조 정보가 담긴 **제어 파일(Control Files)**로 구성된다.
 > 3. **가치**: 데이터베이스의 '실체'이자 '영혼'이며, 이들 파일의 무결성과 가용성을 확보하는 것이 DBMS 운영의 궁극적 목표이자 재난 복구(DR) 설계의 출발점이다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -44,7 +43,7 @@ keywords = ["Persistent Storage", "영구 저장소", "Data File", "Redo Log Fil
 
 - **📢 섹션 요약 비유**: 영구 저장소는 데이터베이스라는 성(Castle)을 지탱하는 '단단한 암반'과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -91,7 +90,7 @@ keywords = ["Persistent Storage", "영구 저장소", "Data File", "Redo Log Fil
 
 - **📢 섹션 요약 비유**: 제어 파일은 '가족 관계 증명서'와 같아서, 뿔뿔이 흩어진 파일들을 하나의 '데이터베이스 가족'으로 묶어주는 증거가 됩니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -110,7 +109,7 @@ keywords = ["Persistent Storage", "영구 저장소", "Data File", "Redo Log Fil
 
 - **📢 섹션 요약 비유**: 데이터 파일이 '완성된 결과물'이라면, 로그 파일은 '그 결과물을 만들기까지의 모든 기록'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -129,7 +128,7 @@ keywords = ["Persistent Storage", "영구 저장소", "Data File", "Redo Log Fil
 
 - **📢 섹션 요약 비유**: 제어 파일을 다중화하는 것은 '집 열쇠를 가족 모두가 하나씩 나누어 갖는 것'과 같습니다. 한 명이 잃어버려도 집에 들어갈 수 있습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -147,15 +146,15 @@ keywords = ["Persistent Storage", "영구 저장소", "Data File", "Redo Log Fil
 
 - **📢 섹션 요약 비유**: 미래의 저장소는 '절대 깨지지 않는 투명한 다이아몬드'처럼, 속도와 안전함을 동시에 완벽하게 갖춘 형태가 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[로그 매니저 (Log Manager)](./51_logging_engine.md)**: 로그 파일을 다루는 프로세스.
-- **[파일 매니저](./47_file_manager.md)**: 데이터 파일을 물리적으로 관리하는 모듈.
-- **[체크포인트 (Checkpoint)](./50_buffer_pool.md)**: 메모리와 저장소의 상태를 맞추는 이벤트.
-- **[RAID 기술](@/studynote/1_computer_architecture/_index.md)**: 저장소의 안정성을 높이는 하부 기술.
+- **로그 매니저 (Log Manager)**: 로그 파일을 다루는 프로세스.
+- **파일 매니저**: 데이터 파일을 물리적으로 관리하는 모듈.
+- **체크포인트 (Checkpoint)**: 메모리와 저장소의 상태를 맞추는 이벤트.
+- **RAID 기술**: 저장소의 안정성을 높이는 하부 기술.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **영구 저장소**는 컴퓨터가 꺼져도 우리들의 소중한 게임 데이터와 사진들을 **절대 잊어버리지 않게 디스크에 꽉 저장해두는 곳**이에요.

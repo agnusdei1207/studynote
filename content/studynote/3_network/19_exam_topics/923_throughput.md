@@ -1,5 +1,6 @@
 +++
 title = "Throughput - 처리량"
+date = "2026-03-14"
 weight = 923
 +++
 
@@ -106,6 +107,6 @@ Throughput은 실제로 전송되는 데이터 속도입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Bandwidth](./922_bandwidth.md)
-- [Latency](./924_latency.md)
-- [QoS](./920_qos.md)
+- Bandwidth
+- Latency
+- QoS

@@ -1,7 +1,7 @@
----
-title: "550. 사가 (Saga) 패턴 및 최종 일관성"
-date: 2026-03-15
----
++++
+title = "550. 사가 (Saga) 패턴 및 최종 일관성"
+date = "2026-03-15"
++++
 
 # 550. 사가 (Saga) 패턴 및 최종 일관성
 
@@ -161,10 +161,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[분산 트랜잭션 한계 (2PC)](./549_2pc_limitations.md)**: 사가 패턴이 탄생하게 된 배경 문제
-- **[최종 일관성 (Eventual Consistency)](../5_database/xx_consistency.md)**: 사가 패턴이 지향하는 데이터 모델
-- **[이벤트 기반 아키텍처 (EDA)](./538_eda_architecture.md)**: 사가 패턴을 구현하는 기술적 토양
-- **[멱등성 (Idempotency)](./xx_idempotency.md)**: 비동기 보상 로직의 안전장치
+- **분산 트랜잭션 한계 (2PC)**: 사가 패턴이 탄생하게 된 배경 문제
+- **최종 일관성 (Eventual Consistency)**: 사가 패턴이 지향하는 데이터 모델
+- **이벤트 기반 아키텍처 (EDA)**: 사가 패턴을 구현하는 기술적 토양
+- **멱등성 (Idempotency)**: 비동기 보상 로직의 안전장치
 
 ---
 

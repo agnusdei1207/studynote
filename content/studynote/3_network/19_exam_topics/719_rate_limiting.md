@@ -1,5 +1,6 @@
 +++
 title = "Rate Limiting - 속도 제한"
+date = "2026-03-14"
 weight = 719
 +++
 
@@ -99,6 +100,6 @@ Rate Limiting은 요청 빈도를 제한합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [API Gateway](./728_api_gateway.md)
-- [Throttling](./720_throttling.md)
-- [DDoS](./xxx_ddos.md)
+- API Gateway
+- Throttling
+- DDoS

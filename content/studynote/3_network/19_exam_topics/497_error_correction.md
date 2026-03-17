@@ -1,5 +1,6 @@
 +++
 title = "에러 정정 - Error Correction"
+date = "2026-03-14"
 weight = 497
 +++
 
@@ -90,5 +91,5 @@ weight = 497
 ---
 
 ### 📌 관련 개념 링크**:
-- [에러 검출](./496_error_detection.md)
-- [TCP](./332_tcp.md)
+- 에러 검출
+- TCP

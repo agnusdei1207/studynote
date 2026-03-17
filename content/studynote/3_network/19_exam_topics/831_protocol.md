@@ -1,5 +1,6 @@
 +++
 title = "Protocol - 프로토콜"
+date = "2026-03-14"
 weight = 831
 +++
 
@@ -106,6 +107,6 @@ Protocol은 통신을 위한 규칙과 형식입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [OSI Model](./xxx_osi_model.md)
-- [TCP](./552_tcp.md)
-- [HTTP](./xxx_http.md)
+- OSI Model
+- TCP
+- HTTP

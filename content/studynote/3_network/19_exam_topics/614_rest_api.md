@@ -1,5 +1,6 @@
 +++
 title = "REST API (Representational State Transfer) - REST API"
+date = "2026-03-14"
 weight = 614
 +++
 
@@ -96,6 +97,6 @@ REST는 리소스를 HTTP로 표현하는 아키텍처입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [HTTP](./556_http.md)
-- [HTTP Methods](./558_http_methods.md)
-- [JSON](./617_json.md)
+- HTTP
+- HTTP Methods
+- JSON

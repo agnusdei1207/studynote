@@ -1,5 +1,6 @@
 +++
 title = "VLAN - 가상 LAN"
+date = "2026-03-14"
 weight = 894
 +++
 
@@ -107,6 +108,6 @@ VLAN (Virtual LAN)은 물리적 배치와 무관하게 논리적으로 네트워
 ---
 
 ### 📌 관련 개념 링크**:
-- [Switching](./892_switching.md)
-- [Broadcast Domain](./xxx_broadcast_domain.md)
-- [Inter-VLAN Routing](./xxx_inter_vlan.md)
+- Switching
+- Broadcast Domain
+- Inter-VLAN Routing

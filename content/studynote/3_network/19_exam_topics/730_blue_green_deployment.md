@@ -1,5 +1,6 @@
 +++
 title = "Blue-Green Deployment - 블루-그린 배포"
+date = "2026-03-14"
 weight = 730
 +++
 
@@ -107,6 +108,6 @@ Blue-Green Deployment는 두 환경을 교체합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Canary Deployment](./732_canary_deployment.md)
-- [Rolling Deployment](./733_rolling_deployment.md)
-- [CI/CD](./xxx_cicd.md)
+- Canary Deployment
+- Rolling Deployment
+- CI/CD

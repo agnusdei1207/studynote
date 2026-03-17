@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: SSTI 🥇 Gold"
-description = "LUXORA 플랫폼의 Blind SSTI 환경에서 Out-of-Band(OOB) 통신을 이용한 데이터 탈취 상세 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "SSTI", "Gold", "Blind", "OOB", "Write-up"]

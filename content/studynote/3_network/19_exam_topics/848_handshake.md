@@ -1,5 +1,6 @@
 +++
 title = "Handshake - 핸드셰이크"
+date = "2026-03-14"
 weight = 848
 +++
 
@@ -107,6 +108,6 @@ Handshake는 통신 전 매개변수를 협상합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./552_tcp.md)
-- [Connection](./844_connection.md)
-- [TLS](./xxx_tls.md)
+- TCP
+- Connection
+- TLS

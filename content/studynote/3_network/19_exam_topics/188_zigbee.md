@@ -1,5 +1,6 @@
 +++
 title = "Zigbee / Z-Wave / Thread"
+date = "2026-03-14"
 weight = 188
 +++
 
@@ -132,10 +133,10 @@ Zigbee, Z-Wave, Thread는 스마트홈과 IoT를 위한 저전력 무선 메시 
 ---
 
 ### 📌 관련 개념 링크**:
-- [블루투스](./187_bluetooth.md)
-- [LoRa](./189_lora.md)
-- [IoT](./202_iot.md)
-- [메시 네트워크](./202_mesh.md)
+- 블루투스
+- LoRa
+- IoT
+- 메시 네트워크
 
 ---
 

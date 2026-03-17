@@ -1,5 +1,6 @@
 +++
 title = "Jaeger - 예거"
+date = "2026-03-14"
 weight = 738
 +++
 
@@ -104,6 +105,6 @@ Jaeger는 분산 추적을 제공합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Distributed Tracing](./725_distributed_tracing.md)
-- [OpenTelemetry](./740_opentelemetry.md)
-- [Microservices](./617_microservices.md)
+- Distributed Tracing
+- OpenTelemetry
+- Microservices

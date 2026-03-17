@@ -1,5 +1,6 @@
 +++
 title = "Zero Trust Network - 제로 트러스트 네트워크"
+date = "2026-03-14"
 weight = 1009
 +++
 
@@ -108,6 +109,6 @@ Zero Trust Network는 모든 접근을 검증하는 보안 모델입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Microsegmentation](./1008_microsegmentation.md)
-- [Network Access Control](./1010_network_access_control.md)
-- [Firewall](./801_firewall.md)
+- Microsegmentation
+- Network Access Control
+- Firewall

@@ -1,7 +1,7 @@
 +++
-weight = 577
 title = "577. 보안 정책 (Security Policies)"
 date = "2026-03-16"
+weight = 577
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "보안 정책", "Security Policy", "보안 모델", "참조 모니터", "TCB"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "보안 정책", "Security Policy", "보안 모델",
 > 2. **가치**: "무엇이 보안 동작인가?"에 대한 기준을 제공하여 **보안 메커니즘 설계, 구현, 검증**의 방향성을 제시하고 규정 준수의 기준이 된다.
 > 3. **융합**: 참조 모니터(Reference Monitor) 개념, TCB(Trusted Computing Base), 보안 커널 등 하드웨어/소프트웨어 계층에서 정책을 강제한다.
 
----
++++
 
 ## Ⅰ. 보안 정책의 개요
 
@@ -32,7 +32,7 @@ keywords = ["운영체제", "보안 정책", "Security Policy", "보안 모델",
 
 - **📢 섹션 요약 비유**: 건물을 지울 때 "어떤 자재를 쓰고, 어떤 설계를 따를지" 정하는 설계도와 같습니다.
 
----
++++
 
 ## Ⅱ. 보안 정책의 구성 요소 (Deep Dive)
 
@@ -72,7 +72,7 @@ keywords = ["운영체제", "보안 정책", "Security Policy", "보안 모델",
 | **기밀성 정책** | "기밀 문서는 암호화되어야 한다" |
 | **책임성 정책** | "모든 접근은 로그에 기록된다" |
 
----
++++
 
 ## Ⅲ. 대표적인 보안 모델
 
@@ -138,7 +138,7 @@ keywords = ["운영체제", "보안 정책", "Security Policy", "보안 모델",
 
 - **📢 섹션 요약 비유**: Bell-LaPadula는 "비밀 등급이 낮은 사람은 높은 문서 못 본다", Biba는 "신뢰 등급이 낮은 사람은 높은 문서 못 쓴다"는 규칙입니다.
 
----
++++
 
 ## Ⅳ. 참조 모니터 (Reference Monitor)
 
@@ -179,7 +179,7 @@ keywords = ["운영체제", "보안 정책", "Security Policy", "보안 모델",
 - 하드웨어(MMU, CPU Rings), 커널, 보안 소프트웨어 포함
 - **TCB가 작을수록 보안 검증이 쉽다** (Security Kernel)
 
----
++++
 
 ## Ⅴ. 실무 적용 및 아키텍처적 판단 (Strategy)
 
@@ -196,7 +196,7 @@ keywords = ["운영체제", "보안 정책", "Security Policy", "보안 모델",
 - **"너무 엄격해서 업무 불가"**
 - **"일관성 없는 정책"**
 
----
++++
 
 ## Ⅵ. 기대효과 및 결론
 
@@ -208,15 +208,15 @@ keywords = ["운영체제", "보안 정책", "Security Policy", "보안 모델",
 - **Policy as Code**: 정책을 코드로 관리 (OPA, Rego)
 - **Zero Trust**: "신뢰 없음, 항상 검증"
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[접근 제어](./572_access_control.md)**: 정책의 구현
-- **[보호 vs 보안](./571_protection_vs_security.md)**: 상위 개념
-- **[SELinux](./642_selinux.md)**: 강제적 접근 제어 구현
-- **[TCB](./xx_tcb.md)**: 신뢰 컴퓨팅 기반
+- **접근 제어**: 정책의 구현
+- **보호 vs 보안**: 상위 개념
+- **SELinux**: 강제적 접근 제어 구현
+- **TCB**: 신뢰 컴퓨팅 기반
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 보안 정책은 **'학교 교칙'**과 같아요.

@@ -1,6 +1,7 @@
 +++
-weight = 565
 title = "565. 메시지 패싱 하드웨어 큐 (Message Passing HW Queue)"
+date = "2026-03-14"
+weight = 565
 +++
 
 # 메시지 패싱 하드웨어 큐 (Message Passing HW Queue)
@@ -148,10 +149,10 @@ title = "565. 메시지 패싱 하드웨어 큐 (Message Passing HW Queue)"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[IPI (Inter-Processor Interrupt)](./xx_ipi.md)**: 메시지 도착을 알리는 물리적 수단.
-- **[FIFO (First-In First-Out)](./xx_fifo.md)**: 메시지 패싱 큐의 가장 기본적인 물리 구조.
-- **[캐시 일관성 (Cache Coherency)](../2_operating_system/xx_coherency.md)**: 메시지 패싱이 해결하고자 하는 공유 메모리의 고질적 문제.
-- **[NMI (Non-Maskable Interrupt)](./558_nmi.md)**: 아주 긴급한 메시지 전달 시 사용되는 인터럽트.
+- **IPI (Inter-Processor Interrupt)**: 메시지 도착을 알리는 물리적 수단.
+- **FIFO (First-In First-Out)**: 메시지 패싱 큐의 가장 기본적인 물리 구조.
+- **캐시 일관성 (Cache Coherency)**: 메시지 패싱이 해결하고자 하는 공유 메모리의 고질적 문제.
+- **NMI (Non-Maskable Interrupt)**: 아주 긴급한 메시지 전달 시 사용되는 인터럽트.
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "핸드오프 (Handoff / Handover)"
+date = "2026-03-14"
 weight = 180
 +++
 
@@ -149,10 +150,10 @@ weight = 180
 ---
 
 ### 📌 관련 개념 링크**:
-- [셀룰러](./179_cellular.md)
-- [이동성 관리](./202_mobility.md)
-- [CDMA](./113_cdma.md)
-- [LTE](./210_lte.md)
+- 셀룰러
+- 이동성 관리
+- CDMA
+- LTE
 
 ---
 

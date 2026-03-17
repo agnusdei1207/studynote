@@ -1,5 +1,6 @@
 +++
 title = "TFTP (Trivial FTP) - 단순 파일 전송 프로토콜"
+date = "2026-03-14"
 weight = 549
 +++
 
@@ -98,6 +99,6 @@ TFTP는 UDP로 간단한 파일 전송을 합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [FTP](./338_ftp.md)
-- [BOOTP](./548_bootp.md)
-- [DHCP](./547_dhcp.md)
+- FTP
+- BOOTP
+- DHCP

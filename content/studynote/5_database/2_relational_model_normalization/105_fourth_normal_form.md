@@ -1,7 +1,6 @@
 +++
 title = "105. 제4정규형 (4NF, Fourth Normal Form) - 다치 종속성 제거"
 date = "2026-03-16"
-draft = false
 weight = 105
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["4NF", "제4정규형", "다치 종속", "MVD", "Multi-valued Depend
 > 2. **작동 원리**: 하나의 결정자 $A$에 대해 서로 독립적인 두 개의 다중값 속성 $B, C$가 종속될 때($A \twoheadrightarrow B, A \twoheadrightarrow C$), 이들을 하나의 테이블에 두지 않고 각각 별도의 릴레이션으로 분리한다.
 > 3. **가치**: 특정 속성값의 조합을 억지로 유지하려다 발생하는 **폭발적인 데이터 증식**과 갱신 이상을 방지하며, 데이터 간의 논리적 독립성을 보장하는 고차 정규화 공정이다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -51,7 +50,7 @@ keywords = ["4NF", "제4정규형", "다치 종속", "MVD", "Multi-valued Depend
 
 - **📢 섹션 요약 비유**: 4NF는 '상관없는 두 가지 이야기'를 한 문장에 억지로 엮지 않고, 각각의 명확한 문장으로 나누는 일입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -103,7 +102,7 @@ keywords = ["4NF", "제4정규형", "다치 종속", "MVD", "Multi-valued Depend
 
 - **📢 섹션 요약 비유**: 다치 종속은 '내가 좋아하는 색깔(Y)을 말할 때마다 오늘 먹은 점심(Z)까지 세트로 말해야 하는 피곤함'과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -122,7 +121,7 @@ keywords = ["4NF", "제4정규형", "다치 종속", "MVD", "Multi-valued Depend
 
 - **📢 섹션 요약 비유**: BCNF가 '잘못된 권력(결정자)'을 잡는 것이라면, 4NF는 '잘못된 만남(무의미한 조합)'을 떼어놓는 것입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -141,7 +140,7 @@ keywords = ["4NF", "제4정규형", "다치 종속", "MVD", "Multi-valued Depend
 
 - **📢 섹션 요약 비유**: 4NF 위반은 '비빔밥에 먹지도 않는 재료들을 다 섞어놓은 것'과 같아, 나중에 특정 재료만 골라내기(수정)가 너무 힘듭니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -159,15 +158,15 @@ keywords = ["4NF", "제4정규형", "다치 종속", "MVD", "Multi-valued Depend
 
 - **📢 섹션 요약 비유**: 미래에는 기술이 발전해도 '상관없는 것은 섞지 않는다'는 4NF의 미니멀리즘 철학이 대규모 분산 데이터 관리의 표준이 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[다치 종속 (MVD)](./100_normalization_principles.md)**: 4NF를 결정짓는 핵심 개념.
-- **[BCNF](./104_boyce_codd_normal_form.md)**: 4NF의 전제 조건.
-- **[제5정규형 (5NF)](./106_fifth_normal_form.md)**: 4NF보다 더 미세한 조인 종속을 다루는 단계.
-- **[카티션 곱 (Cartesian Product)](./39_general_set_operators.md)**: 4NF가 해결하려는 물리적 현상.
+- **다치 종속 (MVD)**: 4NF를 결정짓는 핵심 개념.
+- **BCNF**: 4NF의 전제 조건.
+- **제5정규형 (5NF)**: 4NF보다 더 미세한 조인 종속을 다루는 단계.
+- **카티션 곱 (Cartesian Product)**: 4NF가 해결하려는 물리적 현상.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **제4정규형**은 내 가방 안에 **"서로 상관없는 물건들"**을 따로따로 주머니에 나눠 담는 거예요.

@@ -1,6 +1,7 @@
 +++
-weight = 472
 title = "472. C-SCAN (Circular SCAN)"
+date = "2026-03-14"
+weight = 472
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -109,9 +110,9 @@ title = "472. C-SCAN (Circular SCAN)"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[SCAN 스케줄링](./471_scan_scheduling.md)**: C-SCAN의 모태가 되는 알고리즘.
-- **[C-LOOK 스케줄링](./473_look_c_look.md)**: C-SCAN의 끝점 이동 비효율을 제거한 최적화 버전.
-- **[기아 현상 (Starvation)](./xx_starvation.md)**: C-SCAN이 완벽하게 방어하는 시스템 부작용.
+- **SCAN 스케줄링**: C-SCAN의 모태가 되는 알고리즘.
+- **C-LOOK 스케줄링**: C-SCAN의 끝점 이동 비효율을 제거한 최적화 버전.
+- **기아 현상 (Starvation)**: C-SCAN이 완벽하게 방어하는 시스템 부작용.
 
 ---
 

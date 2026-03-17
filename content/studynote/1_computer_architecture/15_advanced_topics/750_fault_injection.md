@@ -1,5 +1,6 @@
 +++
 title = "fault injection"
+date = "2026-03-14"
 weight = 750
 +++
 
@@ -134,10 +135,10 @@ weight = 750
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [무정전 운영 아키텍처](./749_nonstop_operation.md)
-- [카오스 엔지니어링 HW 모의](./751_chaos_engineering_hw.md)
-- [하드웨어 건전성 모니터링](./715_hardware_health_monitoring.md)
-- [IPMI](./709_ipmi.md)
+- 무정전 운영 아키텍처
+- 카오스 엔지니어링 HW 모의
+- 하드웨어 건전성 모니터링
+- IPMI
 
 ---
 

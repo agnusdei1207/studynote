@@ -1,6 +1,7 @@
 +++
-weight = 45
 title = "45. 클럭 (Clock)"
+date = "2026-03-14"
+weight = 45
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -115,9 +116,9 @@ title = "45. 클럭 (Clock)"
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[에지 트리거 (Edge Trigger)](./46_edge_trigger.md)**: 클럭의 변화를 감지하는 방식.
-- **[플립플롭 (Flip-Flop)](./51_flip_flop.md)**: 클럭에 맞춰 정보를 저장하는 소자.
-- **[클럭 게이팅 (Clock Gating)](../13_reliability_power/xx_gating.md)**: 저전력 설계 기법.
+- **에지 트리거 (Edge Trigger)**: 클럭의 변화를 감지하는 방식.
+- **플립플롭 (Flip-Flop)**: 클럭에 맞춰 정보를 저장하는 소자.
+- **클럭 게이팅 (Clock Gating)**: 저전력 설계 기법.
 
 ---
 

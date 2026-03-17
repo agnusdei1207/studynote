@@ -1,7 +1,8 @@
----
-title: "DVFS (동적 전압 및 주파수 스케일링)"
-weight: 469
----
++++
+title = "DVFS (동적 전압 및 주파수 스케일링)"
+date = "2026-03-14"
+weight = 469
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: DVFS (Dynamic Voltage and Frequency Scaling)는 프로세서의 작업 부하(Workload)에 맞춰 공급 전압과 클럭 주파수를 실시간으로 동시 조절함으로써, 성능 저하를 최소화하면서 전력 소모를 획기적으로 줄이는 전력 관리 기술이다.
@@ -133,9 +134,9 @@ DVFS를 과도하게 사용하면 작업 완료 시간(Execution Time)이 길어
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[Clock Gating](./470_clock_gating.md)**: 주파수를 0으로 만드는 특수한 형태의 스케일링.
-- **[Power Gating](./471_power_gating.md)**: 전압을 0으로 만드는 극단적인 전력 차단.
-- **[TDP (Thermal Design Power)](./472_tdp.md)**: DVFS가 지켜야 할 열 설계 한계선.
+- **Clock Gating**: 주파수를 0으로 만드는 특수한 형태의 스케일링.
+- **Power Gating**: 전압을 0으로 만드는 극단적인 전력 차단.
+- **TDP (Thermal Design Power)**: DVFS가 지켜야 할 열 설계 한계선.
 
 ---
 

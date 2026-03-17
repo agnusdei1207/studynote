@@ -1,7 +1,7 @@
 +++
-weight = 670
 title = "670. 컨테이너 보안 (Container Security)"
 date = "2026-03-16"
+weight = 670
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "컨테이너 보안", "Container Security", "Docker 보안", "Kubernetes 보안", "Rootless"]
@@ -16,7 +16,7 @@ keywords = ["운영체제", "컨테이너 보안", "Container Security", "Docker
 > 2. **가치**: **DevSecOps (Development, Security, and Operations)** 프로세스를 통해 이미지 빌드 단계의 취약점(Scan)을 사전에 제거하고, 런타임 시 **Rootless (Non-root User)** 모드와 **Immutable Infrastructure (불변 인프라)**를 구현함으로써, **Container Escape (컨테이너 탈출)** 공격으로 인한 호스트 침해 위험을 최소화합니다.
 > 3. **융합**: OS의 강제 접근 통제인 **SELinux (Security-Enhanced Linux)**/AppArmor를 컨테이너에 적용하거나, **Kubernetes (K8s)**의 **Pod Security Standards (PSS)**, **CIS Benchmark (Center for Internet Security Benchmark)**를 연동하여 선언적 보안 정책을 자동화하는 것이 핵심입니다.
 
----
++++
 
 ### Ⅰ. 개요 (Context & Background)
 
@@ -63,7 +63,7 @@ keywords = ["운영체제", "컨테이너 보안", "Container Security", "Docker
 #### 📢 섹션 요약 비유
 컨테이너 보안의 개요는 **"화재 경보기와 스프링클러가 없는 고층 빌딩에 수천 명을 입주시키는 것"**과 같습니다. 입주와 퇴주(배포/회수)가 자유롭고 효율적이지만(컨테이너의 장점), 한 층에서 불이 나면 순식간에 전체로 번질 수 있는 구조적 위험(커널 공유)을 인지하고, 이를 방지하기 위해 각 호수에 내화재질로 방을 만들고(Immutable), 출입을 통제하는(Non-root) 것이 필수적입니다.
 
----
++++
 
 ### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -176,7 +176,7 @@ spec:
 #### 📢 섹션 요약 비유
 컨테이너의 보안 아키텍처는 **"죄수를 수감하는 고도의 보안 교도소"**와 유사합니다. **Namespace**는 죄수가 다른 감옥을 볼 수 없게 하는 '차단 벽'이고, **Cgroup**은 죄수가 쓸 수 있는 '식량과 물의 양'을 제한하며, **Seccomp**는 죄수가 간수에게 요청할 수 있는 '행동 요청 목록'을 엄격히 검열하는 것과 같습니다. 마지막으로 **Rootless**는 교도소장조차도 절대적인 권한을 갖지 못하게 하는 '시민 통제 시스템'과 같습니다.
 
----
++++
 
 ### Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 

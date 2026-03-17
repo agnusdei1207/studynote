@@ -1,7 +1,7 @@
 +++
-weight = 646
 title = "646. 하이퍼바이저 (Hypervisor)"
 date = "2026-03-16"
+weight = 646
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "하이퍼바이저", "Hypervisor", "VMM", "Type1", "Type2", "가상화"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "하이퍼바이저", "Hypervisor", "VMM", "Type1", 
 > 2. **가치**: 하드웨어를 추상화하여 **하나의 물리 서버를 여러 논리 서버로 분리**하고, 리소스 격리, 마이그레이션, 리소스 공유를 가능하게 한다.
 > 3. **융합**: Type 1(Bare Metal)과 Type 2(Hosted)로 분류되며, Intel VT-x/AMD-V 같은 하드웨어 지원과 결합하여 성능을 극대화한다.
 
----
++++
 
 ## Ⅰ. 하이퍼바이저의 개요
 
@@ -31,7 +31,7 @@ keywords = ["운영체제", "하이퍼바이저", "Hypervisor", "VMM", "Type1", 
 
 - **📢 섹션 요약 비유**: 하나의 큰 부엌(물리 하드웨어)에 여러 요리사(VM)가 동시에 요리를 할 수 있게 조율하는 주방장님입니다.
 
----
++++
 
 ## Ⅱ. 하이퍼바이저 유형 (Deep Dive)
 
@@ -91,7 +91,7 @@ keywords = ["운영체제", "하이퍼바이저", "Hypervisor", "VMM", "Type1", 
 
 - **📢 섹션 요약 비유**: Type 1은 "전문 주방장이 직접 주방을 관리", Type 2는 "가정 주부가 부엌에서 요리하며 아이도 돌보는" 형태입니다.
 
----
++++
 
 ## Ⅲ. 하이퍼바이저의 핵심 기능
 
@@ -127,7 +127,7 @@ keywords = ["운영체제", "하이퍼바이저", "Hypervisor", "VMM", "Type1", 
 - **Paravirtualization**: Guest OS가 하이퍼바이저에 I/O 요청 (빠름)
 - **Passthrough**: 장치를 VM에 직접 할당 (가장 빠름)
 
----
++++
 
 ## Ⅳ. 주요 하이퍼바이저 제품
 
@@ -151,7 +151,7 @@ keywords = ["운영체제", "하이퍼바이저", "Hypervisor", "VMM", "Type1", 
 - 파라가상화 선구자
 - AWS, Citrix XenServer 사용
 
----
++++
 
 ## Ⅴ. 하이퍼바이저 vs 컨테이너
 
@@ -164,7 +164,7 @@ keywords = ["운영체제", "하이퍼바이저", "Hypervisor", "VMM", "Type1", 
 | **이식성** | 플랫폼 의존 | 플랫폼 독립 |
 | **용도** | 완전한 격리 | 마이크로서비스 |
 
----
++++
 
 ## Ⅵ. 실무 적용 및 결론
 
@@ -176,14 +176,14 @@ keywords = ["운영체제", "하이퍼바이저", "Hypervisor", "VMM", "Type1", 
 - **Hybrid**: VM + Container 병행
 - **Nested Virtualization**: VM 안에서 VM
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[가상화](./641_virtualization.md)**: 상위 개념
-- **[KVM](./643_kvm.md)**: Linux 하이퍼바이저
-- **[컨테이너](./642_container.md)**: 경량 대안
+- **가상화**: 상위 개념
+- **KVM**: Linux 하이퍼바이저
+- **컨테이너**: 경량 대안
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 하이퍼바이저는 **"한 집에 여러 세입자(VM)를 모시는 집주인"** 같아요.

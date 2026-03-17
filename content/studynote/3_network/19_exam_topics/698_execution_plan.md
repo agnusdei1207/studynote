@@ -1,5 +1,6 @@
 +++
 title = "Execution Plan - 실행 계획"
+date = "2026-03-14"
 weight = 698
 +++
 
@@ -101,6 +102,6 @@ Execution Plan은 쿼리 실행 전략입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Query Optimization](./697_query_optimization.md)
-- [Indexing](./693_indexing.md)
-- [Join](./699_join.md)
+- Query Optimization
+- Indexing
+- Join

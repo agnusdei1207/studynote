@@ -1,5 +1,6 @@
 +++
 title = "Broadcast Domain - 브로드캐스트 도메인"
+date = "2026-03-14"
 weight = 981
 +++
 
@@ -111,6 +112,6 @@ Broadcast Domain은 브로드캐스트가 전파되는 영역입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Collision Domain](./980_collision_domain.md)
-- [VLAN](./894_vlan.md)
-- [Router](./899_router.md)
+- Collision Domain
+- VLAN
+- Router

@@ -1,7 +1,7 @@
----
-title: "520. 소프트웨어 공급망 보안 (Supply Chain Security)"
-date: 2026-03-15
----
++++
+title = "520. 소프트웨어 공급망 보안 (Supply Chain Security)"
+date = "2026-03-15"
++++
 
 # 520. 소프트웨어 공급망 보안 (Supply Chain Security)
 
@@ -153,10 +153,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[SBOM (Software Bill of Materials)](./496_sbom.md)**: 공급망 보안의 핵심 명세서
-- **[SCA (Software Composition Analysis)](./495_sca.md)**: 공급망의 재료를 검사하는 도구
-- **[디지털 서명 (GPG)](../xx_gpg.md)**: 작성자와 결과물의 무결성을 보장하는 기술
-- **[DevSecOps](./515_devsecops_pipeline.md)**: 공급망 보안이 실제로 작동하는 무대
+- **SBOM (Software Bill of Materials)**: 공급망 보안의 핵심 명세서
+- **SCA (Software Composition Analysis)**: 공급망의 재료를 검사하는 도구
+- **디지털 서명 (GPG)**: 작성자와 결과물의 무결성을 보장하는 기술
+- **DevSecOps**: 공급망 보안이 실제로 작동하는 무대
 
 ---
 

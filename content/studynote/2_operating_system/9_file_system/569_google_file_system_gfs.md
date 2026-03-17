@@ -1,6 +1,7 @@
-+++  
-weight = 569  
-title = "569. 구글 파일 시스템 (GFS, Google File System)"  
++++
+title = "569. 구글 파일 시스템 (GFS, Google File System)"
+date = "2026-03-14"
+weight = 569
 +++
 
 # # [구글 파일 시스템 (GFS, Google File System)]

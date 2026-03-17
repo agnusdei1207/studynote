@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Admin Bypass 🥉 Bronze"
-description = "LUXORA 플랫폼의 Admin Bypass Bronze 난이도 - 클라이언트 측 상태(Cookie) 조작을 통한 인증 우회 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Admin Bypass", "Bronze", "Cookie Manipulation", "Write-up"]

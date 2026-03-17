@@ -9,7 +9,6 @@ insert_anchor_links = "right"
 category = "studynote-operating-system"
 kids_analogy = "컴퓨터 성 안에서 수많은 일꾼(프로그램)들이 서로 싸우지 않고 사이좋게 일할 수 있도록 도와주는 '성주'와 같아요. 누가 먼저 밥을 먹을지(CPU), 어떤 일꾼이 어느 방을 쓸지(Memory)를 공정하게 정해주어 성이 잘 돌아가게 한답니다!"
 +++
-
 # 도메인 02: 운영체제 (Operating System)
 
 ## ## 핵심 인사이트 (3줄 요약)
@@ -17,13 +16,13 @@ kids_analogy = "컴퓨터 성 안에서 수많은 일꾼(프로그램)들이 서
 > 2. **가치**: 시분할(Time-sharing) 기반의 스케줄링과 가상 메모리를 통한 '환상(Illusion)'을 제공하여, 자원 이용률(Utilization)과 처리량(Throughput)을 극한으로 끌어올림.
 > 3. **융합**: 보안을 위한 듀얼 모드(Dual Mode) 아키텍처부터 클라우드 네이티브를 지탱하는 컨테이너(cgroups, namespace) 격리 기술까지, 모든 IT 인프라의 지배적 오케스트레이터로 진화.
 
----
++++
 
 ### Ⅰ. 개요 (Context & Background)
 **운영체제(OS)**는 컴퓨터 자원을 지배하고 분배하는 절대 권력의 통제자(Arbitrator)다. 하드웨어의 복잡성은 인간이 직접 제어하기에 불가능한 영역(Entropy)에 도달했으나, OS는 이를 프로세스(Process), 주소 공간(Address Space), 파일(File)이라는 단순하고 우아한 논리적 객체로 치환하여 개발자에게 구원의 추상화를 제공한다.
 초기 일괄 처리 시스템(Batch System)의 치명적인 CPU 유휴 시간(I/O Bound 병목)을 타파하기 위해 '다중 프로그래밍(Multiprogramming)'이 탄생했으며, 인간의 실시간 개입을 요구하는 비즈니스 환경은 '시분할(Time-sharing)' 아키텍처를 강제했다. 오늘날의 운영체제는 단일 하드웨어를 넘어, 네트워크로 묶인 거대한 분산 자원을 단일 논리 노드로 관리하는 클라우드 하이퍼바이저(Hypervisor) 및 분산 OS 체계로 진화하며 컴퓨팅 역사의 패러다임을 견인하고 있다.
 
----
++++
 
 ### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -74,7 +73,7 @@ kids_analogy = "컴퓨터 성 안에서 수많은 일꾼(프로그램)들이 서
 ④ **Page Fault (Trap)**: Valid 비트가 0(메모리에 없음)일 경우 OS 커널로 트랩 발생.
 ⑤ **Swapping & Update**: OS는 디스크(Backing Store)에서 해당 페이지를 찾아 빈 프레임(Free Frame)에 로드 후 PTE 업데이트, 명령 재실행.
 
----
++++
 
 ### Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -94,7 +93,7 @@ kids_analogy = "컴퓨터 성 안에서 수많은 일꾼(프로그램)들이 서
 | **장애 격리성** | 드라이버 하나의 버그가 커널 패닉(전체 중단) 유발 | 유저 서버가 죽어도 재시작 가능 (초고가용성 보장) |
 | **현대적 적용** | Linux, Windows (대부분의 범용 OS) | QNX, L4 (자동차 자율주행, 항공, 국방 RTOS) |
 
----
++++
 
 ### Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -109,7 +108,7 @@ kids_analogy = "컴퓨터 성 안에서 수많은 일꾼(프로그램)들이 서
 **도입 시 고려사항 (안티패턴)**
 - **Thrashing 유발**: 무분별한 멀티태스킹(Degree of Multiprogramming 증가)은 CPU가 유효 연산 대신 페이지 교체(Page Swap)에만 시간을 낭비하는 스래싱을 유발한다. 기술사는 Working Set 기반의 메모리 프로비저닝을 통해 적정 로드 밸런스를 엄격히 유지해야 한다.
 
----
++++
 
 ### Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -127,7 +126,7 @@ kids_analogy = "컴퓨터 성 안에서 수많은 일꾼(프로그램)들이 서
 - POSIX (IEEE 1003): 유닉스/리눅스 계열 운영체제의 API 표준 규격.
 - C11 / ISO C: 시스템 콜 구현의 기반이 되는 언어 표준.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
 - [`[페이징과 세그멘테이션]`](@/studynote/2_operating_system/7_virtual_memory/_index.md): 프로세스 메모리를 조각내어 물리 메모리에 매핑하는 가상화의 핵심.
@@ -136,7 +135,7 @@ kids_analogy = "컴퓨터 성 안에서 수많은 일꾼(프로그램)들이 서
 - [`[하이퍼바이저 및 가상화]`](@/studynote/2_operating_system/10_security_performance_virtualization/_index.md): 클라우드 IaaS의 기반이 되는 하드웨어 레벨의 격리 기술.
 - [`[I/O 와 인터럽트]`](@/studynote/2_operating_system/8_io_storage_system/_index.md): CPU와 느린 외부 장치 간의 속도 차이를 조율하는 폴링 및 DMA 매커니즘.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 운영체제는 수만 명의 직원이 일하는 거대한 공장의 **'슈퍼 인공지능 공장장'**이에요.

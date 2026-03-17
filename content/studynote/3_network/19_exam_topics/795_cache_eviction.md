@@ -1,5 +1,6 @@
 +++
 title = "Cache Eviction - 캐시 제거"
+date = "2026-03-14"
 weight = 795
 +++
 
@@ -102,6 +103,6 @@ Cache Eviction은 캐시에서 항목을 제거합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Caching Strategies](./794_caching_strategies.md)
-- [Cache](./610_cache.md)
-- [Redis](./607_redis.md)
+- Caching Strategies
+- Cache
+- Redis

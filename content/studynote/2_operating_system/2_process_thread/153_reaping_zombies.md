@@ -1,6 +1,7 @@
 +++
-weight = 153
 title = "153. 좀비 사냥 (Reaping Zombies)"
+date = "2026-03-14"
+weight = 153
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -143,10 +144,10 @@ title = "153. 좀비 사냥 (Reaping Zombies)"
 ---
 
 ### 📌 관련 개념 맵
-- **[좀비 프로세스 (Zombie Process)](./109_zombie_process.md)**: 사냥의 대상이 되는 프로세스의 상태.
-- **[고아 프로세스 (Orphan Process)](./110_orphan_process.md)**: 부모를 잃고 입양되는 프로세스.
-- **[PID (Process ID)](./xx_pid.md)**: 좀비가 점유하여 고갈시키는 핵심 자원.
-- **[init 프로세스 (PID 1)](./xx_init_process.md)**: 최종적인 좀비 사냥꾼(Reaper).
+- **좀비 프로세스 (Zombie Process)**: 사냥의 대상이 되는 프로세스의 상태.
+- **고아 프로세스 (Orphan Process)**: 부모를 잃고 입양되는 프로세스.
+- **PID (Process ID)**: 좀비가 점유하여 고갈시키는 핵심 자원.
+- **init 프로세스 (PID 1)**: 최종적인 좀비 사냥꾼(Reaper).
 
 ---
 

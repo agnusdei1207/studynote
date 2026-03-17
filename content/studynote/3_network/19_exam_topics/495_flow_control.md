@@ -1,5 +1,6 @@
 +++
 title = "플로우 컨트롤 - Flow Control"
+date = "2026-03-14"
 weight = 495
 +++
 
@@ -91,5 +92,5 @@ weight = 495
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./332_tcp.md)
-- [혼잡 제어](./493_congestion_control.md)
+- TCP
+- 혼잡 제어

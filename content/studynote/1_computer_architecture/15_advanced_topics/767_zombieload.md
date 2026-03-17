@@ -1,5 +1,6 @@
 +++
 title = "zombieload"
+date = "2026-03-14"
 weight = 767
 +++
 
@@ -124,10 +125,10 @@ weight = 767
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [RIDL 공격](./765_ridl_attack.md)
-- [폴아웃 (Fallout) 공격](./766_fallout_attack.md)
-- [MDS 공격](./764_mds_attack.md)
-- [스펙터 (Spectre)](./766_spectre.md)
+- RIDL 공격
+- 폴아웃 (Fallout) 공격
+- MDS 공격
+- 스펙터 (Spectre)
 
 ---
 

@@ -1,6 +1,7 @@
 +++
-weight = 553
 title = "553. 초고속 SerDes (Serializer/Deserializer)"
+date = "2026-03-14"
+weight = 553
 +++
 
 # 초고속 SerDes (Serializer/Deserializer)
@@ -156,10 +157,10 @@ SerDes 아키텍처는 고속 동작을 위해 아날로그 회로와 디지털 
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[신호 무결성 (Signal Integrity)](./xx_si.md)**: SerDes 설계 시 가장 중요하게 고려되는 물리적 품질.
-- **[PCIe (Peripheral Component Interconnect Express)](./508_pci_express.md)**: SerDes 기술을 사용하는 대표적인 시스템 버스.
-- **[PLL (Phase Locked Loop)](./xx_pll.md)**: SerDes의 심장 역할을 하는 고속 클럭 생성 장치.
-- **[PAM4 변조](./xx_pam4.md)**: 데이터 전송 밀도를 높이는 핵심 변조 기술.
+- **신호 무결성 (Signal Integrity)**: SerDes 설계 시 가장 중요하게 고려되는 물리적 품질.
+- **PCIe (Peripheral Component Interconnect Express)**: SerDes 기술을 사용하는 대표적인 시스템 버스.
+- **PLL (Phase Locked Loop)**: SerDes의 심장 역할을 하는 고속 클럭 생성 장치.
+- **PAM4 변조**: 데이터 전송 밀도를 높이는 핵심 변조 기술.
 
 ---
 

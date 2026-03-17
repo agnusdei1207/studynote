@@ -1,5 +1,6 @@
 +++
 title = "Checksum - 체크섬"
+date = "2026-03-14"
 weight = 863
 +++
 
@@ -109,6 +110,6 @@ Checksum은 데이터 합계로 오류를 감지합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Error Detection](./808_error_detection.md)
-- [CRC](./xxx_crc.md)
-- [TCP](./552_tcp.md)
+- Error Detection
+- CRC
+- TCP

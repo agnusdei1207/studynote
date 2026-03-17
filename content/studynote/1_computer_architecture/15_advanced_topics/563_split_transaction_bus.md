@@ -1,6 +1,7 @@
 +++
-weight = 563
 title = "563. 분리 트랜잭션 버스 (Split Transaction)"
+date = "2026-03-14"
+weight = 563
 +++
 
 # 분리 트랜잭션 버스 (Split Transaction)
@@ -147,10 +148,10 @@ title = "563. 분리 트랜잭션 버스 (Split Transaction)"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[버스트 트랜잭션 (Burst Transaction)](./562_burst_bus_transaction.md)**: 한 번의 요청으로 많은 데이터를 가져오는 기술 (분리 트랜잭션과 결합 시 폭발적 시너지).
-- **[AMBA AXI 프로토콜](./xx_axi.md)**: 분리 트랜잭션 아키텍처를 채택한 대표적인 버스 표준.
-- **[비순차 실행 (Out-of-Order Execution)](../2_cpu_architecture/xx_ooo.md)**: 분리 트랜잭션으로 온 데이터를 효율적으로 처리하는 CPU 기술.
-- **[PCIe (PCI Express)](./508_pci_express.md)**: 칩 간 통신에서 분리 트랜잭션을 완벽히 구현한 인터페이스.
+- **버스트 트랜잭션 (Burst Transaction)**: 한 번의 요청으로 많은 데이터를 가져오는 기술 (분리 트랜잭션과 결합 시 폭발적 시너지).
+- **AMBA AXI 프로토콜**: 분리 트랜잭션 아키텍처를 채택한 대표적인 버스 표준.
+- **비순차 실행 (Out-of-Order Execution)**: 분리 트랜잭션으로 온 데이터를 효율적으로 처리하는 CPU 기술.
+- **PCIe (PCI Express)**: 칩 간 통신에서 분리 트랜잭션을 완벽히 구현한 인터페이스.
 
 ---
 

@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: XSS 🥇 Gold"
-description = "LUXORA 플랫폼의 Gold 난이도 DOM-based XSS 취약점 분석 및 클라이언트 사이드 자바스크립트 흐름 추적 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "XSS", "Gold", "DOM XSS", "Write-up"]
@@ -112,4 +111,3 @@ document.getElementById('greeting').textContent = userInput;
 ```javascript
 // DOMPurify를 이용한 안전한 삽입
 document.getElementById('greeting').innerHTML = DOMPurify.sanitize(userInput);
-```

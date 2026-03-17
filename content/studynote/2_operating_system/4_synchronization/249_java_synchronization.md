@@ -1,7 +1,7 @@
 +++
 title = "249. 자바 동기화"
-weight = 249
 date = "2026-03-04"
+weight = 249
 [extra]
 categories = "studynote-operating-system"
 +++
@@ -13,7 +13,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 별도의 외부 라이브러리 없이 언어 수준에서 스레드 안전성(Thread Safety)을 보장하며, `wait/notify`를 통해 생산자-소비자와 같은 정교한 협력 모델을 쉽게 구현할 수 있다.
 > 3. **융합**: 현대 자바 병행성 프레임워크(`java.util.concurrent`)의 기초가 되며, 성능 최적화를 위한 편향 락(Biased Lock), 경량 락(Lightweight Lock) 등 JVM 내부의 고도화된 기술이 집약되어 있다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -23,7 +23,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 마치 은행 창구에서 번호표를 뽑고 들어가 상담을 받는 동안, 다른 고객들은 번호표가 나올 때까지 대기석에서 기다리는 질서 있는 서비스 체계와 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -51,7 +51,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 진료실(Monitor) 안에서 검사 결과가 나올 때까지 잠시 밖에서 대기(wait)하다가, 간호사가 이름을 부르면(notify) 다시 진료실로 들어가 상담을 이어가는 과정과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -66,7 +66,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: `synchronized`는 건물의 '중앙 제어 시스템'이고, `ReentrantLock`은 사용자가 직접 세밀하게 조절하는 '스마트 홈 제어 앱'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -90,7 +90,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 락의 범위를 좁게 잡는 것은 건물 전체를 폐쇄하지 않고 문제의 방만 폐쇄하여 다른 사람들의 활동을 보장하는 지혜와 같습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 

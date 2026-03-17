@@ -1,5 +1,6 @@
 +++
 title = "OpenAPI - API 명세 표준"
+date = "2026-03-14"
 weight = 370
 +++
 
@@ -140,10 +141,10 @@ OpenAPI(구 Swagger)는 RESTful API를 명세하는 표준입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [REST API](./338_rest_api.md)
-- [WSDL](./369_wsdl.md)
-- [JSON Schema](./4_software_engineering/210_json_schema.md)
-- [Swagger](./4_software_engineering/211_swagger.md)
+- REST API
+- WSDL
+- JSON Schema
+- Swagger
 
 ---
 

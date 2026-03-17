@@ -1,5 +1,6 @@
 +++
 title = "성상도 (Constellation Diagram)"
+date = "2026-03-14"
 weight = 53
 +++
 
@@ -149,10 +150,10 @@ WiFi 6: EVM ≤ -35dB
 ---
 
 ### 📌 관련 개념 링크**:
-- [QAM 직교 진폭 변조](./51_qam_quadrature.md)
-- [PSK 위상 편이 변조](./47_psk_phase_shift.md)
-- [I/Q 변조](./205_iq_modulation.md)
-- [EVM 오차 벡터](./205_evm_error.md)
+- QAM 직교 진폭 변조
+- PSK 위상 편이 변조
+- I/Q 변조
+- EVM 오차 벡터
 
 ---
 

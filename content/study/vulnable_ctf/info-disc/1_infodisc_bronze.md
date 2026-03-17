@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Info Disclosure 🥉 Bronze"
-description = "LUXORA 플랫폼의 기본 Information Disclosure 취약점을 통한 백업 파일(.bak) 탈취 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Info Disclosure", "Bronze", "Backup Files", "Write-up"]

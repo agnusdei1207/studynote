@@ -1,5 +1,6 @@
 +++
 title = "동기 비동기 전송 Sync Async"
+date = "2026-03-14"
 weight = 13
 +++
 
@@ -132,10 +133,10 @@ weight = 13
 ---
 
 ### 📌 관련 개념 링크**:
-- [비트레이트 vs 보드레이트](./4_bitrate_baudrate.md)
-- [직렬 vs 병렬 전송](./9_serial_vs_parallel.md)
-- [동기식 멀티플렉싱](./76_synchronous_tdm.md)
-- [HDLC 프레임 구조](./201_hdlc_frame.md)
+- 비트레이트 vs 보드레이트
+- 직렬 vs 병렬 전송
+- 동기식 멀티플렉싱
+- HDLC 프레임 구조
 
 ---
 

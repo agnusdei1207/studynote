@@ -1,5 +1,6 @@
 +++
 title = "270. 캐시 미스의 원인 (3C: Compulsory, Capacity, Conflict)"
+date = "2026-03-14"
 weight = 270
 +++
 

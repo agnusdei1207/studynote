@@ -1,5 +1,6 @@
 +++
 title = "Atomic Operation - 원자적 연산"
+date = "2026-03-14"
 weight = 656
 +++
 
@@ -98,6 +99,6 @@ Atomic Operation은 중단 없이 완료되는 연산입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Race Condition](./655_race_condition.md)
-- [Lock-free](./657_lock_free.md)
-- [Memory Barrier](./658_memory_barrier.md)
+- Race Condition
+- Lock-free
+- Memory Barrier

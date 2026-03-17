@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Account Takeover (ATO) 🥉 Bronze"
-description = "LUXORA 플랫폼의 Account Takeover Bronze 난이도 - 취약한 토큰/파라미터 기반의 비밀번호 변경 우회 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "ATO", "Account Takeover", "Bronze", "Write-up"]
@@ -116,4 +115,3 @@ if (!isValid) return res.status(403).send("Invalid current password");
 
 // 2. 파라미터가 아닌 세션 ID를 기준으로 업데이트 수행
 await db.query("UPDATE users SET password = ? WHERE id = ?", [hashedNewPassword, currentUserId]);
-```

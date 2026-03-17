@@ -1,6 +1,7 @@
 +++
-weight = 600
 title = "600. 능력 기반 보안 (Capability-based Security)"
+date = "2026-03-14"
+weight = 600
 +++
 
 # 600. 능력 기반 보안 (Capability-based Security)

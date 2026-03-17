@@ -1,5 +1,6 @@
 +++
 title = "Retry Pattern - 재시도 패턴"
+date = "2026-03-14"
 weight = 714
 +++
 
@@ -98,6 +99,6 @@ Retry Pattern은 일시적 오류 시 재시도합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Circuit Breaker](./713_circuit_breaker.md)
-- [Timeout](./716_timeout.md)
-- [Resilience](./715_resilience.md)
+- Circuit Breaker
+- Timeout
+- Resilience

@@ -1,5 +1,6 @@
 +++
 title = "패킷 손실 - Packet Loss"
+date = "2026-03-14"
 weight = 435
 +++
 
@@ -145,10 +146,10 @@ weight = 435
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./332_tcp.md)
-- [UDP](./333_udp.md)
-- [QoS](./329_qos.md)
-- [FEC](./9_security/167_fec.md)
+- TCP
+- UDP
+- QoS
+- FEC
 
 ---
 

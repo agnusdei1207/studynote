@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: XSS 🥉 Bronze"
-description = "LUXORA 플랫폼의 Reflected XSS(크로스 사이트 스크립팅) Bronze 난이도 취약점 분석 및 플래그 획득 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "XSS", "Bronze", "Reflected XSS", "Write-up"]

@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: File Upload 🥉 Bronze"
-description = "LUXORA 플랫폼의 기본 File Upload 취약점을 통한 리버스 쉘(Reverse Shell) 획득 상세 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "File Upload", "Bronze", "Web Shell", "Write-up"]

@@ -1,5 +1,6 @@
 +++
 title = "SSD FTL Flash Translation Layer"
+date = "2026-03-14"
 weight = 731
 +++
 
@@ -172,10 +173,10 @@ FTL의 성능과 메모리 소모량은 매핑 단위(Granularity)에 의해 결
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[낸드 플래시 (NAND Flash)](../../1_computer_architecture/8_io_storage_systems/xx_nand_flash.md)**: FTL이 관리하는 물리적 대상.
-- **[가비지 컬렉션 (Garbage Collection)](./732_가비지_컬렉션_블록_지우기.md)**: FTL의 가장 바쁘고 힘든 청소 작업.
-- **[쓰기 증폭 (Write Amplification)](../../1_computer_architecture/8_io_storage_systems/xx_waf.md)**: FTL의 효율성을 측정하는 가장 잔인한 지표.
-- **[TRIM 명령어](../../1_computer_architecture/8_io_storage_systems/xx_trim.md)**: 호스트가 FTL에게 주는 최고의 선물(삭제 정보).
+- **낸드 플래시 (NAND Flash)**: FTL이 관리하는 물리적 대상.
+- **가비지 컬렉션 (Garbage Collection)**: FTL의 가장 바쁘고 힘든 청소 작업.
+- **쓰기 증폭 (Write Amplification)**: FTL의 효율성을 측정하는 가장 잔인한 지표.
+- **TRIM 명령어**: 호스트가 FTL에게 주는 최고의 선물(삭제 정보).
 
 ---
 

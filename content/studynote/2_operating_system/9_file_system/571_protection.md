@@ -1,6 +1,7 @@
 +++
-weight = 571
 title = "571. 보호 (Protection) vs 보안 (Security)의 개념 차이"
+date = "2026-03-14"
+weight = 571
 +++
 
 # # [571. 보호 (Protection) vs 보안 (Security)의 개념 차이]
@@ -139,4 +140,4 @@ title = "571. 보호 (Protection) vs 보안 (Security)의 개념 차이"
 |      │                                     v                          |
 |      │                          +----------------------+              |
 |      │                          |   do_sys_open()      |              |
-|      │                          |   (VFS Layer)        |             
+|      │                          |   (VFS Layer)        |

@@ -1,7 +1,7 @@
 +++
-weight = 328
 title = "328. 가비지 컬렉션 (SSD Garbage Collection)"
 date = "2026-03-16"
+weight = 328
 [extra]
 categories = "studynote-computer-architecture"
 keywords = ["컴퓨터구조", "가비지 컬렉션", "Garbage Collection", "SSD", "NAND 플래시", "FTL", "쓰기 증폭"]
@@ -14,7 +14,7 @@ keywords = ["컴퓨터구조", "가비지 컬렉션", "Garbage Collection", "SSD
 > 2. **가치**: 무효 데이터가 점유한 공간을 회수하지 않으면 SSD는 새 데이터를 쓸 수 없어 성능이 급락하므로, **지속적인 쓰기 성능과 수명 유지**에 필수적이다.
 > 3. **융합**: FTL(Flash Translation Layer)과 긴밀히 협력하며, **쓰기 증폭(Write Amplification)**, 마모 평준화(Wear Leveling), TRIM 명령과 연계하여 최적화된다.
 
----
++++
 
 ## Ⅰ. 가비지 컬렉션의 개요
 
@@ -32,7 +32,7 @@ keywords = ["컴퓨터구조", "가비지 컬렉션", "Garbage Collection", "SSD
 
 - **📢 섹션 요약 비유**: 쓰레기통이 없는 방에서 쓰레기를 치우려면, 쓰레기와 살림을 분리해서 살림은 옆방으로 옮기고 방 전체를 청소해야 합니다.
 
----
++++
 
 ## Ⅱ. 동작 원리 및 메커니즘 (Deep Dive)
 
@@ -86,7 +86,7 @@ keywords = ["컴퓨터구조", "가비지 컬렉션", "Garbage Collection", "SSD
 
 - **📢 섹션 요약 비유**: 1페이지 쓰레기를 버리려고 3페이지 분량의 일을 해야 하는 셈입니다.
 
----
++++
 
 ## Ⅲ. GC 유형 및 최적화 기법
 
@@ -102,7 +102,7 @@ keywords = ["컴퓨터구조", "가비지 컬렉션", "Garbage Collection", "SSD
 - **TRIM 명령**: OS가 삭제된 블록 정보를 SSD에 알려줌 → GC가 무효 데이터를 미리 파악.
 - **Dynamic/Static Wear Leveling**: 특정 블록 과다 사용 방지.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 아키텍처적 판단 (Strategy)
 
@@ -118,7 +118,7 @@ keywords = ["컴퓨터구조", "가비지 컬렉션", "Garbage Collection", "SSD
 - TRIM이 없으면 SSD는 어떤 데이터가 삭제되었는지 알 수 없다.
 - TRIM → FTL이 무효 페이지 표시 → GC가 효율적으로 블록 선정.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -130,15 +130,15 @@ keywords = ["컴퓨터구조", "가비지 컬렉션", "Garbage Collection", "SSD
 - **ZNS (Zoned Namespace) SSD**: 호스트가 쓰기 패턴을 관리하여 GC 오버헤드 최소화.
 - **컴퓨테이셔널 스토리지**: GC를 스마트하게 수행하는 온디 스토리지 컴퓨팅.
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[FTL (Flash Translation Layer)](./330_ftl.md)**: GC를 수행하는 주체.
-- **[마모 평준화 (Wear Leveling)](./329_wear_leveling.md)**: GC와 연계된 수명 관리 기법.
-- **[SSD (Solid State Drive)](./327_ssd.md)**: GC가 동작하는 저장장치.
-- **[TRIM 명령](./xx_trim.md)**: GC 효율 향상을 위한 OS-SSD 통신.
+- **FTL (Flash Translation Layer)**: GC를 수행하는 주체.
+- **마모 평준화 (Wear Leveling)**: GC와 연계된 수명 관리 기법.
+- **SSD (Solid State Drive)**: GC가 동작하는 저장장치.
+- **TRIM 명령**: GC 효율 향상을 위한 OS-SSD 통신.
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. SSD 가비지 컬렉션은 **'장난감 정리하는 로봇 청소기'**예요.

@@ -1,5 +1,6 @@
 +++
 title = "누화 (Crosstalk)"
+date = "2026-03-14"
 weight = 30
 +++
 
@@ -154,10 +155,10 @@ dB가 높을수록 누화 적음 (좋음)
 ---
 
 ### 📌 관련 개념 링크**:
-- [UTP 꼬임 쌍선](./124_utp_unshielded.md)
-- [에코 Echo](./31_echo.md)
-- [상호변조 잡음](./29_intermodulation_noise.md)
-- [이더넷 Ethernet](./150_ethernet.md)
+- UTP 꼬임 쌍선
+- 에코 Echo
+- 상호변조 잡음
+- 이더넷 Ethernet
 
 ---
 

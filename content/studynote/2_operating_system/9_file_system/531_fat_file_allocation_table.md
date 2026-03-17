@@ -1,6 +1,7 @@
 +++
-weight = 531
 title = "531. 파일 할당 테이블 (FAT, File Allocation Table)"
+date = "2026-03-14"
+weight = 531
 +++
 
 # 531. 파일 할당 테이블 (FAT, File Allocation Table)

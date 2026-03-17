@@ -1,5 +1,6 @@
 +++
 title = "Snapshot - 스냅샷"
+date = "2026-03-14"
 weight = 789
 +++
 
@@ -104,6 +105,6 @@ Snapshot은 특정 시점의 상태를 저장합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Backup](./787_backup.md)
-- [Restore](./788_restore.md)
-- [Virtual Machine](./xxx_vm.md)
+- Backup
+- Restore
+- Virtual Machine

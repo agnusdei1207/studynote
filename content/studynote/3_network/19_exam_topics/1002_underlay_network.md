@@ -1,5 +1,6 @@
 +++
 title = "Underlay Network - 언더레이 네트워크"
+date = "2026-03-14"
 weight = 1002
 +++
 
@@ -109,6 +110,6 @@ Underlay Network는 오버레이를 지원하는 물리적 네트워크입니다
 ---
 
 ### 📌 관련 개념 링크**:
-- [Network Overlay](./1001_network_overlay.md)
-- [Leaf-Spine](./1003_leaf_spine.md)
-- [ECMP](./xxx_ecmp.md)
+- Network Overlay
+- Leaf-Spine
+- ECMP

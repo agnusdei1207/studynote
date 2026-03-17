@@ -1,6 +1,7 @@
 +++
-weight = 33
 title = "33. 반가산기 (Half Adder)"
+date = "2026-03-14"
+weight = 33
 +++
 
 # # [33. 반가산기 (Half Adder)]

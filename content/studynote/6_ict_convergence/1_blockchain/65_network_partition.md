@@ -1,10 +1,9 @@
----
-title: "[ICT] #66. 네트워크 분할 (Network Partition)"
-date: "2026-03-17"
++++
+title = "[ICT] #66. 네트워크 분할 (Network Partition)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Network_Partition_Split_Brain_CAP_Theorem_Consistency_Availability"
----
+keyword = "Network_Partition_Split_Brain_CAP_Theorem_Consistency_Availability"
++++
 
 # 네트워크 분할 (Network Partition): 분산 시스템의 최대 위협과 CAP의 딜레마
 
@@ -13,7 +12,7 @@ keyword: "Network_Partition_Split_Brain_CAP_Theorem_Consistency_Availability"
 > 2. **가치**: 분산 시스템의 근간인 **CAP 정리(Consistency, Availability, Partition Tolerance)**에서 'P'에 해당하며, 분할 상황 발생 시 시스템이 일관성(C)과 가용성(A) 중 무엇을 우선시할지 결정하는 아키텍처적 분기점이 된다.
 > 3. **융합**: 블록체인에서는 **'스플릿 브레인(Split-brain)'** 현상을 유발하여 체인 분리(Fork)의 원인이 되며, 이를 해결하기 위한 합의 알고리즘의 정족수(Quorum) 설계가 시스템의 신뢰성을 결정한다.
 
----
++++
 
 ## Ⅰ. 네트워크 분할 (Network Partition) 개요
 
@@ -31,7 +30,7 @@ keyword: "Network_Partition_Split_Brain_CAP_Theorem_Consistency_Availability"
 
 📢 **섹션 요약 비유**: 친구들끼리 단체 톡방에서 대화하다가 인터넷이 끊겨서 서로의 메시지를 못 보게 된 상황이며, 이 상태에서 "점심 메뉴"를 정하려다 보니 서로 다른 메뉴를 고르게 되는 혼란입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 CAP 정리와의 관계 (Deep Dive)
 
@@ -80,7 +79,7 @@ keyword: "Network_Partition_Split_Brain_CAP_Theorem_Consistency_Availability"
 
 📢 **섹션 요약 비유**: 마을이 두 섬으로 나뉘었을 때, "주민의 절반이 넘는 섬에서 내린 결정만 진짜 법으로 인정한다"는 규칙을 정해두어 나중에 싸움이 나지 않게 방지하는 지혜입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -99,7 +98,7 @@ keyword: "Network_Partition_Split_Brain_CAP_Theorem_Consistency_Availability"
 
 📢 **섹션 요약 비유**: 비트코인이 "일단 장사하고 나중에 장부 맞추자"는 쿨한 사장님이라면, 하이퍼레저는 "확실하지 않으면 금고 문 열지 마"라고 하는 깐깐한 관리자와 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -115,7 +114,7 @@ keyword: "Network_Partition_Split_Brain_CAP_Theorem_Consistency_Availability"
 
 📢 **섹션 요약 비유**: 비행기 엔진이 고장 날 상황을 미리 대비하여, 고장이 나도 추락하지 않고 안전하게 착륙(Graceful Degradation)할 수 있는 매뉴얼을 만드는 것이 진정한 기술사의 역량입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -129,13 +128,13 @@ keyword: "Network_Partition_Split_Brain_CAP_Theorem_Consistency_Availability"
 
 📢 **섹션 요약 비유**: 네트워크 분할은 거대한 파도와 같아서 막을 수는 없지만, 배(시스템)를 튼튼하게 설계하고 항해 규칙(합의 알고리즘)을 잘 정해둔다면 어떤 풍랑 속에서도 침몰하지 않을 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[CAP 정리](../../5_database/xx_cap_theorem.md)**: 네트워크 분할 시의 선택 원칙.
-- **[스플릿 브레인 (Split-brain)](./xx_split_brain.md)**: 분할로 인해 발생하는 데이터 충돌 현상.
-- **[합의 알고리즘 (Consensus)](./10_consensus_algorithm.md)**: 분할을 견뎌내는 기술적 수단.
-- **[정족수 (Quorum)](./xx_quorum.md)**: 다수결을 통해 분할 상황을 해결하는 기준.
+- **CAP 정리**: 네트워크 분할 시의 선택 원칙.
+- **스플릿 브레인 (Split-brain)**: 분할로 인해 발생하는 데이터 충돌 현상.
+- **합의 알고리즘 (Consensus)**: 분할을 견뎌내는 기술적 수단.
+- **정족수 (Quorum)**: 다수결을 통해 분할 상황을 해결하는 기준.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **끊어진 전화선**: 친구들이랑 끝말잇기를 하는데, 갑자기 전화선이 끊겨서 3명은 거실에서, 2명은 방에서 자기들끼리 계속 게임을 하는 상황이에요.

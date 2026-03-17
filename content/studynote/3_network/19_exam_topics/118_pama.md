@@ -1,5 +1,6 @@
 +++
 title = "PAMA (Pre-Assigned Multiple Access)"
+date = "2026-03-14"
 weight = 118
 +++
 
@@ -149,10 +150,10 @@ PAMA(Pre-Assigned Multiple Access)는 통신 자원을 사전에 고정 할당�
 ---
 
 ### 📌 관련 개념 링크**:
-- [DAMA](./117_dama.md)
-- [PRMA](./116_prma.md)
-- [FDMA](./88_fdma.md)
-- [위성 통신](./205_satellite.md)
+- DAMA
+- PRMA
+- FDMA
+- 위성 통신
 
 ---
 

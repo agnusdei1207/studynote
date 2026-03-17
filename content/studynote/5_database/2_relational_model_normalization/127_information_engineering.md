@@ -1,7 +1,6 @@
 +++
 title = "127. 정보 공학 방법론 (Information Engineering) - 데이터 중심 개발 (James Martin)"
 date = "2026-03-16"
-draft = false
 weight = 127
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["정보 공학 방법론", "Information Engineering", "James Martin"
 > 2. **James Martin의 철학**: 프로세스는 수시로 변하지만 데이터의 본질적 구조는 변하지 않는다는 원칙 하에, **ISP(정보 전략 계획)**부터 시스템 구축까지 단계별로 데이터를 설계하고 관리한다.
 > 3. **가치**: 데이터 기반의 하향식(Top-down) 접근을 통해 시스템 간 중복을 방지하고 상호 운용성을 확보하며, 전사적 통합 정보 시스템 구축의 표준 가이드를 제공한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -46,7 +45,7 @@ keywords = ["정보 공학 방법론", "Information Engineering", "James Martin"
 
 - **📢 섹션 요약 비유**: 정보 공학 방법론은 '요리 순서'를 고민하기 전, '가장 좋은 식재료'를 미리 확보하고 관리하는 셰프의 지혜와 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -88,7 +87,7 @@ keywords = ["정보 공학 방법론", "Information Engineering", "James Martin"
 
 - **📢 섹션 요약 비유**: 하향식 설계는 '왕의 명령(목표)으로부터 백성들의 행동(데이터)까지 일관된 법도(구조)를 세우는 것'과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -107,7 +106,7 @@ keywords = ["정보 공학 방법론", "Information Engineering", "James Martin"
 
 - **📢 섹션 요약 비유**: 구조적 방법론이 '파이프 흐름'을 설계한다면, 정보 공학은 '저수지의 물 관리'를 설계하고, 객체 지향은 '스스로 헤엄치는 물고기'를 설계합니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -126,7 +125,7 @@ keywords = ["정보 공학 방법론", "Information Engineering", "James Martin"
 
 - **📢 섹션 요약 비유**: CRUD 매트릭스를 소홀히 하는 것은 '누가 요리를 하고 누가 서빙을 할지 안정하고 주방을 여는 것'과 같아 큰 혼란을 야기합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -144,15 +143,15 @@ keywords = ["정보 공학 방법론", "Information Engineering", "James Martin"
 
 - **📢 섹션 요약 비유**: 미래의 정보 공학은 굳어있는 법전이 아니라, 비즈니스의 변화를 실시간으로 학습하고 데이터의 뿌리를 스스로 뻗어 나가는 '지능형 유기체'가 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[데이터 아키텍처 (DA)](./121_data_architecture_framework.md)**: 정보 공학의 핵심 결과물.
-- **[데이터 거버넌스](./124_data_governance.md)**: 정보 공학을 지속시키는 조직 체계.
-- **[ER 모델 (ER Model)](./80_er_model.md)**: 정보 공학에서 데이터를 표현하는 도구.
-- **[BPR (Business Process Reengineering)](@/studynote/12_it_management/_index.md)**: 정보 공학의 비즈니스적 파트너.
+- **데이터 아키텍처 (DA)**: 정보 공학의 핵심 결과물.
+- **데이터 거버넌스**: 정보 공학을 지속시키는 조직 체계.
+- **ER 모델 (ER Model)**: 정보 공학에서 데이터를 표현하는 도구.
+- **BPR (Business Process Reengineering)**: 정보 공학의 비즈니스적 파트너.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **정보 공학 방법론**은 아주 커다란 레고 성을 지을 때, **"바닥에 박을 튼튼한 기둥"**부터 먼저 만드는 거예요.

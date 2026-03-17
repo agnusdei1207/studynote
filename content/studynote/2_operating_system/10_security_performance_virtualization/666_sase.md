@@ -1,7 +1,7 @@
 +++
-weight = 666
 title = "666. SASE (Secure Access Service Edge)"
 date = "2026-03-16"
+weight = 666
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "SASE", "Secure Access Service Edge", "네트워크 보안", "SD-WAN", "SSE"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "SASE", "Secure Access Service Edge", "네트워크 
 > 2. **가치**: 기존 하이브리드 웹(Hub-and-Spoke) 구조의 **MPLS (Multiprotocol Label Switching) 비용을 제거**하고, 애플리케이션 접속 지연(Latency)을 최소화하여 **사용자 경험(UX)과 보안 효율성을 동시에 확보**한다.
 > 3. **융합**: SD-WAN의 궤로 최적화 기능에 **SSE (Security Service Edge)**를 탑재하여, ZTNA(제로 트러스트), CASB, SWG 등의 보안 서비스를 **클로즈(Close) 프로시시(Closest Point of Presence)**에서 제공하는 네트워크·보안 융합 기술이다.
 
----
++++
 
 ### Ⅰ. 개요 (Context & Background)
 

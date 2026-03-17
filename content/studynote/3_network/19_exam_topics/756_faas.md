@@ -1,5 +1,6 @@
 +++
 title = "FaaS (Function as a Service) - 함수형 서비스"
+date = "2026-03-14"
 weight = 756
 +++
 
@@ -98,6 +99,6 @@ FaaS는 함수를 서비스로 제공합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Serverless](./755_serverless.md)
-- [Event-Driven](./722_event_driven.md)
-- [API Gateway](./728_api_gateway.md)
+- Serverless
+- Event-Driven
+- API Gateway

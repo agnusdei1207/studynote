@@ -1,6 +1,7 @@
 +++
-weight = 562
 title = "562. 버스트 버스 트랜잭션"
+date = "2026-03-14"
+weight = 562
 +++
 
 # 버스트 버스 트랜잭션
@@ -152,10 +153,10 @@ title = "562. 버스트 버스 트랜잭션"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[캐시 지역성 (Locality)](../3_architecture_basics_performance/xx_locality.md)**: 버스트 전송의 효율성을 뒷받침하는 데이터 사용 패턴.
-- **[DMA (Direct Memory Access)](../2_operating_system/xx_dma.md)**: 버스트 전송을 가장 활발하게 사용하는 하드웨어 장치.
-- **[분리 트랜잭션 (Split Transaction)](./563_split_transaction_bus.md)**: 버스트 전송 중 대기 시간을 활용하는 진보된 버스 기술.
-- **[AXI4 프로토콜](./xx_axi.md)**: 버스트 전송을 완벽하게 지원하는 현대 SoC 표준 버스.
+- **캐시 지역성 (Locality)**: 버스트 전송의 효율성을 뒷받침하는 데이터 사용 패턴.
+- **DMA (Direct Memory Access)**: 버스트 전송을 가장 활발하게 사용하는 하드웨어 장치.
+- **분리 트랜잭션 (Split Transaction)**: 버스트 전송 중 대기 시간을 활용하는 진보된 버스 기술.
+- **AXI4 프로토콜**: 버스트 전송을 완벽하게 지원하는 현대 SoC 표준 버스.
 
 ---
 

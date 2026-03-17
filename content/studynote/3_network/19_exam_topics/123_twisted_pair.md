@@ -1,5 +1,6 @@
 +++
 title = "꼬임 쌍선 케이블 (Twisted Pair Cable)"
+date = "2026-03-14"
 weight = 123
 +++
 
@@ -152,10 +153,10 @@ weight = 123
 ---
 
 ### 📌 관련 개념 링크**:
-- [UTP](./124_utp.md)
-- [STP](./125_stp.md)
-- [이더넷 PHY](./137_ethernet_phy.md)
-- [케이블 배선](./144_cable_wiring.md)
+- UTP
+- STP
+- 이더넷 PHY
+- 케이블 배선
 
 ---
 

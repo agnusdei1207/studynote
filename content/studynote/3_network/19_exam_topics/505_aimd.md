@@ -1,5 +1,6 @@
 +++
 title = "AIMD (가산 증가 승산 감소) - Additive Increase Multiplicative Decrease"
+date = "2026-03-14"
 weight = 505
 +++
 
@@ -91,6 +92,6 @@ AIMD는 선형 증가, 반감소 방식입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./332_tcp.md)
-- [Slow Start](./504_slow_start.md)
-- [혼잡 제어](./493_congestion_control.md)
+- TCP
+- Slow Start
+- 혼잡 제어

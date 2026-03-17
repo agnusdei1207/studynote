@@ -1,7 +1,8 @@
----
-title: "동적 전력 (Dynamic Power)"
-weight: 467
----
++++
+title = "동적 전력 (Dynamic Power)"
+date = "2026-03-14"
+weight = 467
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 동적 전력 (Dynamic Power)은 CMOS 회로의 트랜지스터가 0과 1 사이를 전환(Switching)할 때, 회로 내부의 커패시턴스를 충전하거나 방전하며 소비되는 전력이다.
@@ -125,9 +126,9 @@ weight: 467
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[DVFS](./469_dvfs.md)**: 동적 전력 관리를 위한 전압/주파수 제어.
-- **[Clock Gating](./470_clock_gating.md)**: $\alpha$를 줄이는 가장 효과적인 방법.
-- **[Energy Proportional Computing](./474_energy_proportional_computing.md)**: 일한 만큼만 전기를 쓰는 설계 철학.
+- **DVFS**: 동적 전력 관리를 위한 전압/주파수 제어.
+- **Clock Gating**: $\alpha$를 줄이는 가장 효과적인 방법.
+- **Energy Proportional Computing**: 일한 만큼만 전기를 쓰는 설계 철학.
 
 ---
 

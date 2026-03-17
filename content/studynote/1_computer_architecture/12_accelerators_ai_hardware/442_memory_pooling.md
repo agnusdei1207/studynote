@@ -1,8 +1,8 @@
----
-title: "메모리 풀링 (Memory Pooling)"
-description: "메모리 자원의 분리(Disaggregation)와 동적 할당을 통한 데이터 센터 효율 극대화 아키텍처"
-weight: 1
----
++++
+title = "메모리 풀링 (Memory Pooling)"
+date = "2026-03-14"
+weight = 1
++++
 
 # 메모리 풀링 (Memory Pooling)
 

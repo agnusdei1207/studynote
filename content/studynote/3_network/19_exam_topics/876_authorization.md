@@ -1,5 +1,6 @@
 +++
 title = "Authorization - 인가"
+date = "2026-03-14"
 weight = 876
 +++
 
@@ -108,6 +109,6 @@ Authorization은 사용자의 권한을 관리합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Authentication](./875_authentication.md)
-- [OAuth](./xxx_oauth.md)
-- [Access Control](./xxx_access_control.md)
+- Authentication
+- OAuth
+- Access Control

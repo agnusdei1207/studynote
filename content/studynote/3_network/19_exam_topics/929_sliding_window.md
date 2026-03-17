@@ -1,5 +1,6 @@
 +++
 title = "Sliding Window - 슬라이딩 윈도우"
+date = "2026-03-14"
 weight = 929
 +++
 
@@ -109,6 +110,6 @@ Sliding Window는 윈도우 범위 내 연속 전송을 허용합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Flow Control](./928_flow_control.md)
-- [TCP](./850_tcp.md)
-- [ARQ](./xxx_arq.md)
+- Flow Control
+- TCP
+- ARQ

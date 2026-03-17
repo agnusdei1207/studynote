@@ -1,6 +1,7 @@
 +++
-weight = 380
 title = "380. 가비지 컬렉션 (Garbage Collection) 기초"
+date = "2026-03-14"
+weight = 380
 +++
 
 # 380. 가비지 컬렉션 (Garbage Collection) 기초

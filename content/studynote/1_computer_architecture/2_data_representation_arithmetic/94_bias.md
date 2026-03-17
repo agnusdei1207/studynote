@@ -1,6 +1,7 @@
 +++
-weight = 94
 title = "94. 편향 지수 (Bias / Biased Exponent)"
+date = "2026-03-14"
+weight = 94
 +++
 
 # 편향 지수 (Bias / Biased Exponent)

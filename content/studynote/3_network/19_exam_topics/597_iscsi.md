@@ -1,5 +1,6 @@
 +++
 title = "iSCSI (Internet SCSI) - 인터넷 SCSI"
+date = "2026-03-14"
 weight = 597
 +++
 
@@ -100,6 +101,6 @@ iSCSI는 IP로 SCSI 명령을 전송합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [SAN](./593_san.md)
-- [Storage](./590_storage.md)
-- [FC](./599_fibre_channel.md)
+- SAN
+- Storage
+- FC

@@ -1,7 +1,8 @@
----
-title: "425. OOM Killer (Out-of-Memory) 작동 우선순위 점수 (oom_score) 매커니즘"
-weight: 425
----
++++
+title = "425. OOM Killer (Out-of-Memory) 작동 우선순위 점수 (oom_score) 매커니즘"
+date = "2026-03-14"
+weight = 425
++++
 
 ## 💡 Insight
 - OOM Killer는 시스템 메모리가 고갈되어 운영체제가 더 이상 작업을 수행할 수 없을 때, 시스템 전체의 붕괴를 막기 위해 특정 프로세스를 강제 종료하는 "최후의 심판자"이다.
@@ -79,11 +80,11 @@ P3 (User Script) -->  Usage: 5% (50)    -->  Score: 50
 ---
 
 ## 🌳 지식 그래프 (Knowledge Graph)
-- **부모**: [397. 프레임 할당 알고리즘](./397_프레임_할당_Frame_Allocation_알고리즘.md)
+- **부모**: 397. 프레임 할당 알고리즘
 - **자식**: [Overcommit 모드 상세 (추후 예정)]
 - **유사 개념**:
-  - [SIGKILL (Process Termination)](../2_process_thread/Signal_개념.md)
-  - [Swapping](../7_virtual_memory/390_스왑_공간_Swap_Space_베이킹_스토어_Backing_Store.md)
+  - SIGKILL (Process Termination)
+  - Swapping
 
 ## 👶 아이의 시각 (Child Analogy)
 > "풍선껌(메모리)을 너무 크게 불다가 터지려고 하면, 컴퓨터 아저씨가 바늘을 들고 와서 제일 뚱뚱한 풍선(프로세스) 하나를 톡! 터뜨려버려. 그래야 컴퓨터가 펑! 터지지 않고 계속 돌아갈 수 있거든. 아저씨는 '누구 풍선이 제일 큰가~' 하고 점수를 매겨서 고른단다."

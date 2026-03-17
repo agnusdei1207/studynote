@@ -1,6 +1,7 @@
 +++
-weight = 18
 title = "18. 소프트웨어 인터럽트 / 트랩 (Trap) / 예외 (Exception)"
+date = "2026-03-14"
+weight = 18
 +++
 
 # 소프트웨어 인터럽트 (Software Interrupt), 트랩 (Trap), 예외 (Exception)
@@ -122,10 +123,10 @@ title = "18. 소프트웨어 인터럽트 / 트랩 (Trap) / 예외 (Exception)"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[시스템 호출 (System Call)](./13_system_call.md)**: 트랩 (Trap) 메커니즘을 이용한 공식 서비스 요청.
-- **[페이지 부재 (Page Fault)](../7_virtual_memory/387_page_fault.md)**: 폴트 (Fault) 메커니즘을 이용한 가상 메모리 구현.
-- **[모드 비트 (Mode Bit)](./12_mode_bit.md)**: 소프트웨어 인터럽트 발생 시 하드웨어가 자동으로 변경하는 권한 상태.
-- **[인터럽트 벡터 (Interrupt Vector)](./19_interrupt_vector.md)**: 예외 종류별로 알맞은 핸들러를 찾아주는 매핑 테이블.
+- **시스템 호출 (System Call)**: 트랩 (Trap) 메커니즘을 이용한 공식 서비스 요청.
+- **페이지 부재 (Page Fault)**: 폴트 (Fault) 메커니즘을 이용한 가상 메모리 구현.
+- **모드 비트 (Mode Bit)**: 소프트웨어 인터럽트 발생 시 하드웨어가 자동으로 변경하는 권한 상태.
+- **인터럽트 벡터 (Interrupt Vector)**: 예외 종류별로 알맞은 핸들러를 찾아주는 매핑 테이블.
 
 ---
 

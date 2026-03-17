@@ -1,5 +1,6 @@
 +++
 title = "Microservices Architecture - 마이크로서비스 아키텍처"
+date = "2026-03-14"
 weight = 617
 +++
 
@@ -101,6 +102,6 @@ Microservices는 애플리케이션을 작은 서비스로 분리합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [API Gateway](./616_api_gateway.md)
-- [Service Mesh](./618_service_mesh.md)
-- [Container](./619_container.md)
+- API Gateway
+- Service Mesh
+- Container

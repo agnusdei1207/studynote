@@ -1,5 +1,6 @@
 +++
 title = "네트워크 문제 해결 - Troubleshooting"
+date = "2026-03-14"
 weight = 308
 +++
 
@@ -156,10 +157,10 @@ weight = 308
 ---
 
 ### 📌 관련 개념 링크**:
-- [패킷 캡처](./309_packet_capture.md)
-- [Wireshark](./310_wireshark.md)
-- [모니터링](./296_network_monitoring.md)
-- [로그](./299_syslog.md)
+- 패킷 캡처
+- Wireshark
+- 모니터링
+- 로그
 
 ---
 

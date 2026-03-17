@@ -1,5 +1,6 @@
 +++
 title = "TCP Header - TCP 헤더"
+date = "2026-03-14"
 weight = 519
 +++
 
@@ -106,6 +107,6 @@ TCP Header는 20바이트 기본 + 옵션 구조입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./332_tcp.md)
-- [TCP Options](./520_tcp_options.md)
-- [UDP Header](./524_udp_header.md)
+- TCP
+- TCP Options
+- UDP Header

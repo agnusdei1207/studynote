@@ -1,6 +1,6 @@
----
 +++
 title = "단일 장애점 (SPOF, Single Point of Failure)"
+date = "2026-03-14"
 weight = 454
 +++
 

@@ -1,9 +1,7 @@
----
-title: "603. 컴포넌트(Component) 및 독립 배포 단위"
-date: 2026-03-15
-type: "pe_exam"
-id: 603
----
++++
+title = "603. 컴포넌트(Component) 및 독립 배포 단위"
+date = "2026-03-15"
++++
 
 # 603. 컴포넌트(Component) 및 독립 배포 단위
 
@@ -232,11 +230,11 @@ KakaoPayGateway    NaverPayGateway
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[MSA(Microservices Architecture)](./556_msa.md)**: 컴포넌트 개념을 서비스 단위로 확장한 아키텍처.
-- **[서비스 메시(Service Mesh)](./557_service_mesh.md)**: 컴포넌트 간 통신을 관리하는 인프라 계층.
-- **[Docker & Kubernetes](./561_container_deployment_strategies.md)**: 컴포넌트의 배포 및 오케스트레이션 플랫폼.
-- **[Strangler Fig 패턴](./310_strangler_fig.md)**: 레거시를 컴포넌트로 점진적 분해하는 마이그레이션 전략.
-- **[API 게이트웨이(API Gateway)](./558_api_gateway.md)**: 컴포넌트 간 통신을 중계하는 엔드포인트.
+- **MSA(Microservices Architecture)**: 컴포넌트 개념을 서비스 단위로 확장한 아키텍처.
+- **서비스 메시(Service Mesh)**: 컴포넌트 간 통신을 관리하는 인프라 계층.
+- **Docker & Kubernetes**: 컴포넌트의 배포 및 오케스트레이션 플랫폼.
+- **Strangler Fig 패턴**: 레거시를 컴포넌트로 점진적 분해하는 마이그레이션 전략.
+- **API 게이트웨이(API Gateway)**: 컴포넌트 간 통신을 중계하는 엔드포인트.
 
 ---
 

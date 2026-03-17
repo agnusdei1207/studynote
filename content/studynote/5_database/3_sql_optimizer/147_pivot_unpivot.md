@@ -1,7 +1,6 @@
 +++
 title = "147. PIVOT / UNPIVOT - 행과 열의 회전 및 변환"
 date = "2026-03-16"
-draft = false
 weight = 147
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["PIVOT", "UNPIVOT", "데이터 회전", "교차 표", "Long to Wide"
 > 2. **변환 로직**: **PIVOT**은 특정 속성값을 새로운 컬럼 헤더로 삼아 집계 연산을 수행하여 교차 표(Crosstab)를 생성하며, **UNPIVOT**은 비정규화된 여러 속성을 하나의 속성으로 통합하여 정형화된 분석용 데이터를 만든다.
 > 3. **가치**: 보고서 작성을 위한 '가로형 보기'와 기계 학습/분석을 위한 '세로형 적재' 사이를 자유롭게 넘나들게 하며, 복잡한 CASE 문 없이도 간결하게 데이터 포맷을 최적화할 수 있다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -49,7 +48,7 @@ keywords = ["PIVOT", "UNPIVOT", "데이터 회전", "교차 표", "Long to Wide"
 
 - **📢 섹션 요약 비유**: PIVOT은 '전시회용 액자'를 만드는 것이고, UNPIVOT은 '보관용 박스'에 차곡차곡 담는 것입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -94,7 +93,7 @@ PIVOT (집계함수(컬럼) FOR 회전할_컬럼 IN (값1, 값2, ...));
 
 - **📢 섹션 요약 비유**: UNPIVOT은 '가로로 누워 자는 데이터들을 깨워서 세로로 줄 세우는 기상 나팔'과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -113,7 +112,7 @@ PIVOT (집계함수(컬럼) FOR 회전할_컬럼 IN (값1, 값2, ...));
 
 - **📢 섹션 요약 비유**: PIVOT이 '결과 보고서'라면, UNPIVOT은 '데이터 원천 회복'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -132,7 +131,7 @@ PIVOT (집계함수(컬럼) FOR 회전할_컬럼 IN (값1, 값2, ...));
 
 - **📢 섹션 요약 비유**: 무분별한 PIVOT은 '한 장의 종이에 전 세계 지도를 다 그리려는 것'과 같아, 종이가 찢어지거나(에러) 아무것도 안 보일 수(성능 저하) 있습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -150,15 +149,15 @@ PIVOT (집계함수(컬럼) FOR 회전할_컬럼 IN (값1, 값2, ...));
 
 - **📢 섹션 요약 비유**: 미래의 데이터 회전은 단순히 가로세로를 바꾸는 것을 넘어, 우리의 질문에 따라 데이터가 스스로 최적의 입체 구조(OLAP Cube)로 재배열되는 지능형 변신을 보여줄 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[OLAP (On-line Analytical Processing)](./14_oltp_vs_olap.md)**: 피벗이 가장 많이 쓰이는 분야.
-- **[데이터 모델링](./116_logical_design.md)**: Long vs Wide 포맷 결정의 기준.
-- **[CASE 문](./131_sql_standards.md)**: 피벗의 논리적 모태.
-- **[정규화 (Normalization)](./100_normalization_principles.md)**: UNPIVOT을 통해 도달하려는 목표.
+- **OLAP (On-line Analytical Processing)**: 피벗이 가장 많이 쓰이는 분야.
+- **데이터 모델링**: Long vs Wide 포맷 결정의 기준.
+- **CASE 문**: 피벗의 논리적 모태.
+- **정규화 (Normalization)**: UNPIVOT을 통해 도달하려는 목표.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **PIVOT**은 한 줄로 서 있던 친구들이 **"옆으로 나란히"** 서서 큰 그림을 만드는 거예요.

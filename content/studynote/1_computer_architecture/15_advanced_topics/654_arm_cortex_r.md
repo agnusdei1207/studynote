@@ -1,5 +1,6 @@
 +++
 title = "654. ARM Cortex-R 시리즈"
+date = "2026-03-14"
 weight = 654
 +++
 
@@ -157,4 +158,3 @@ Cortex-R은 단순한 하드웨어가 아닌 소프트웨어와 밀접하게 융
 **시나리오 B: 고성능 NVMe SSD 컨트롤러 개발**
 *   **문제 상황**: 100,000 IOPS 이상의 랜덤 쓰기 환경에서 Flash Translation Layer(FTL) 연산이 병목이 됨.
 *   **의사결정**:
-    

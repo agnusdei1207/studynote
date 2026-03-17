@@ -1,5 +1,6 @@
 +++
 title = "Fast Recovery - 빠른 복구"
+date = "2026-03-14"
 weight = 503
 +++
 
@@ -90,6 +91,6 @@ Fast Recovery는 Slow Start 없이 복구합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Fast Retransmit](./502_fast_retransmit.md)
-- [TCP](./332_tcp.md)
-- [Slow Start](./504_slow_start.md)
+- Fast Retransmit
+- TCP
+- Slow Start

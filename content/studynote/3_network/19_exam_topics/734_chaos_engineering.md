@@ -1,5 +1,6 @@
 +++
 title = "Chaos Engineering - 카오스 엔지니어링"
+date = "2026-03-14"
 weight = 734
 +++
 
@@ -104,6 +105,6 @@ Chaos Engineering은 고의로 장애를 유발합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Resilience](./715_resilience.md)
-- [SRE](./748_sre.md)
-- [Observability](./736_observability.md)
+- Resilience
+- SRE
+- Observability

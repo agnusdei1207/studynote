@@ -1,6 +1,6 @@
 +++
 title = "09. 정보보안 키워드 목록"
-date = 2026-03-03
+date = "2026-03-03"
 [extra]
 categories = "studynote-security"
 +++
@@ -10,7 +10,7 @@ categories = "studynote-security"
 정보통신기술사·컴퓨터응용시스템기술사 대비 보안 전 영역 기술사 수준 핵심 키워드
 > ⚡ 기술사 보안 문제는 단순 지식이 아닌 **위협 모델링 → 아키텍처 설계 → 법적·제도적 대응**까지 통합 서술을 요구함
 
----
++++
 
 ## 1. 정보보안 개론 / 원칙 — 24개
 
@@ -39,7 +39,7 @@ categories = "studynote-security"
 23. 내재적 보안 (Security by Design) vs 사후 보안 (Bolt-on Security)
 24. 개인정보 중심 설계 (Privacy by Design) — ISO 31700
 
----
++++
 
 ## 2. 암호학 심화 — 32개
 
@@ -76,7 +76,7 @@ categories = "studynote-security"
 31. CRYSTALS-Kyber — NIST PQC 선택 (KEM)
 32. CRYSTALS-Dilithium / FALCON / SPHINCS+ — NIST PQC 서명
 
----
++++
 
 ## 3. 네트워크 보안 심화 — 28개
 
@@ -109,7 +109,7 @@ categories = "studynote-security"
 27. 네트워크 가시성 — NetFlow / sFlow / IPFIX
 28. 딥 패킷 인스펙션 (DPI, Deep Packet Inspection) — 페이로드 분석
 
----
++++
 
 ## 4. 시스템 / 엔드포인트 보안 — 24개
 
@@ -138,7 +138,7 @@ categories = "studynote-security"
 23. 패치 관리 (Patch Management) — CVSS 점수 기반 우선순위
 24. 취약점 관리 프로세스 — 식별/우선순위/패치/검증/보고
 
----
++++
 
 ## 5. 웹 / 애플리케이션 보안 — 30개
 
@@ -173,7 +173,7 @@ categories = "studynote-security"
 29. 역직렬화 취약점 (Insecure Deserialization) — Java/Python/PHP 객체
 30. SSRF 심화 — 클라우드 메타데이터 서버 악용 (169.254.169.254)
 
----
++++
 
 ## 6. 클라우드 보안 — 22개
 
@@ -200,7 +200,7 @@ categories = "studynote-security"
 21. 데이터 손실 방지 (DLP) — 클라우드 파일 유출 차단
 22. 클라우드 컴플라이언스 — PCI DSS Level 1 / ISO 27017 / SOC 2
 
----
++++
 
 ## 7. 신원 관리 / 접근 제어 — 20개
 
@@ -225,7 +225,7 @@ categories = "studynote-security"
 19. JIT (Just-In-Time) 권한 — 필요 시점에만 권한 부여, PAM
 20. 행동 분석 (UEBA) — User/Entity Behavior Analytics, 이상 행동 탐지
 
----
++++
 
 ## 8. 보안 운영 (SecOps/SOC) — 22개
 
@@ -252,7 +252,7 @@ categories = "studynote-security"
 21. EPP (Endpoint Protection Platform) — AV + 행위 차단 + 인터넷 필터링
 22. 사이버 레질리언스 (Cyber Resilience) — 저항성+흡수력+복구력+적응력
 
----
++++
 
 ## 9. 악성코드 / 공격 기법 — 24개
 
@@ -281,7 +281,7 @@ categories = "studynote-security"
 23. 측면 이동 (Lateral Movement) — Pass-the-Hash, Pass-the-Ticket, Golden Ticket
 24. 지속성 (Persistence) 기법 — 레지스트리 런키, 예약 작업, 서비스 설치
 
----
++++
 
 ## 10. 암호 프로토콜 / PKI 심화 — 18개
 
@@ -304,7 +304,7 @@ categories = "studynote-security"
 17. 영지식 증명 (Zero-Knowledge Proof) — 암호 없이 지식 증명
 18. 동형 암호 (Homomorphic Encryption) — 암호화된 채로 연산
 
----
++++
 
 ## 11. 데이터·개인정보 보호 — 18개
 
@@ -327,7 +327,7 @@ categories = "studynote-security"
 17. 잊혀질 권리 (Right to Erasure) — GDPR Article 17
 18. 데이터 이동권 (Data Portability) — GDPR Article 20
 
----
++++
 
 ## 12. 보안 프레임워크 / 컴플라이언스 — 20개
 
@@ -352,7 +352,7 @@ categories = "studynote-security"
 19. 국가 사이버 안보 전략 — 관제체계, 정보공유, CERT/CSIRT
 20. SBOM (Software Bill of Materials) — 공급망 취약점 가시성, EO 14028
 
----
++++
 
 ## 13. IoT / OT / ICS 보안 — 14개
 
@@ -371,7 +371,7 @@ categories = "studynote-security"
 13. 스마트 그리드 보안 — AMI 보안, NERC CIP
 14. 위성 통신 보안 — 재밍/스푸핑 방지, 암호화
 
----
++++
 
 ## 14. AI 보안 / 신기술 보안 — 14개
 
@@ -390,6 +390,6 @@ categories = "studynote-security"
 13. 크립토 민첩성 (Crypto Agility) — 알고리즘 교체 능력
 14. 블록체인 보안 — 51% 공격, 스마트 컨트랙트 취약점, Reentrancy
 
----
++++
 
 **총 키워드 수: 270개**

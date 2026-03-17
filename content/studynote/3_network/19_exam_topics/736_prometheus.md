@@ -1,5 +1,6 @@
 +++
 title = "Prometheus - 프로메테우스"
+date = "2026-03-14"
 weight = 736
 +++
 
@@ -102,6 +103,6 @@ Prometheus는 메트릭을 수집하고 경고를 발생합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Grafana](./737_grafana.md)
-- [Observability](./735_observability.md)
-- [Kubernetes](./619_kubernetes.md)
+- Grafana
+- Observability
+- Kubernetes

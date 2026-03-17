@@ -1,5 +1,6 @@
 +++
 title = "서브넷팅 - Subnetting"
+date = "2026-03-14"
 weight = 423
 +++
 
@@ -140,10 +141,10 @@ weight = 423
 ---
 
 ### 📌 관련 개념 링크**:
-- [VLSM](./424_vlsm.md)
-- [CIDR](./422_cidr.md)
-- [VLAN](./301_vlan.md)
-- [라우팅](./311_routing.md)
+- VLSM
+- CIDR
+- VLAN
+- 라우팅
 
 ---
 

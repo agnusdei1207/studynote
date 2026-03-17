@@ -1,5 +1,6 @@
 +++
 title = "SNMP - Simple Network Management Protocol"
+date = "2026-03-14"
 weight = 297
 +++
 
@@ -147,10 +148,10 @@ SNMP(Simple Network Management Protocol)는 네트워크 장비를 관리하고 
 ---
 
 ### 📌 관련 개념 링크**:
-- [네트워크 모니터링](./296_network_monitoring.md)
-- [NMS](./300_nms.md)
-- [MIB](./301_mib.md)
-- [NETCONF](./302_netconf.md)
+- 네트워크 모니터링
+- NMS
+- MIB
+- NETCONF
 
 ---
 

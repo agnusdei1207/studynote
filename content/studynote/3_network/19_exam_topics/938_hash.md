@@ -1,5 +1,6 @@
 +++
 title = "Hash - 해시"
+date = "2026-03-14"
 weight = 938
 +++
 
@@ -109,6 +110,6 @@ Hash는 임의 길이 데이터를 고정 길이로 변환합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Digital Signature](./940_digital_signature.md)
-- [MAC](./939_mac.md)
-- [Password](./xxx_password.md)
+- Digital Signature
+- MAC
+- Password

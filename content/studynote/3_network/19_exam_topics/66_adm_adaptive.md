@@ -1,5 +1,6 @@
 +++
 title = "적응형 델타 변조 (ADM)"
+date = "2026-03-14"
 weight = 66
 +++
 
@@ -147,10 +148,10 @@ ADM(Adaptive Delta Modulation)은 신호의 변화율에 따라 스텝 크기를
 ---
 
 ### 📌 관련 개념 링크**:
-- [델타 변조 Delta Modulation](./65_delta_modulation.md)
-- [ADPCM 적응형 DPCM](./64_adpcm_adaptive.md)
-- [경사 과부하/과립러 잡음](./67_slope_granular.md)
-- [DPCM 차분 PCM](./63_dpcm_differential.md)
+- 델타 변조 Delta Modulation
+- ADPCM 적응형 DPCM
+- 경사 과부하/과립러 잡음
+- DPCM 차분 PCM
 
 ---
 

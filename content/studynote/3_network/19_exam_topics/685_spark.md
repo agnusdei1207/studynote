@@ -1,5 +1,6 @@
 +++
 title = "Spark - 스파크"
+date = "2026-03-14"
 weight = 685
 +++
 
@@ -106,6 +107,6 @@ Spark는 인메모리 기반 분산 처리 엔진입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Hadoop](./683_hadoop.md)
-- [MapReduce](./682_mapreduce.md)
-- [RDD](./686_rdd.md)
+- Hadoop
+- MapReduce
+- RDD

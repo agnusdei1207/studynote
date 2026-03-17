@@ -1,5 +1,6 @@
 +++
 title = "Window - 윈도우"
+date = "2026-03-14"
 weight = 838
 +++
 
@@ -106,6 +107,6 @@ Window는 ACK 없이 전송 가능한 데이터 양입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Flow Control](./807_flow_control.md)
-- [Congestion](./806_congestion.md)
-- [TCP](./552_tcp.md)
+- Flow Control
+- Congestion
+- TCP

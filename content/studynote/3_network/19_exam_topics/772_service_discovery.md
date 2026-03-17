@@ -1,5 +1,6 @@
 +++
 title = "Service Discovery - 서비스 디스커버리"
+date = "2026-03-14"
 weight = 772
 +++
 
@@ -101,6 +102,6 @@ Service Discovery는 서비스 위치를 자동으로 발견합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Microservices](./617_microservices.md)
-- [Load Balancer](./582_load_balancer.md)
-- [Kubernetes](./619_kubernetes.md)
+- Microservices
+- Load Balancer
+- Kubernetes

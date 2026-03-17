@@ -1,8 +1,10 @@
 +++
-weight = 506
 title = "506. 비순차 메모리 접근 (Out-of-Order Memory Access)"
+date = "2026-03-14"
+weight = 506
 [extra]
 category = "studynote-computer-architecture"
+date = "2026-03-14"
 +++
 
 # Out-of-Order Memory Access
@@ -11,7 +13,7 @@ category = "studynote-computer-architecture"
 > 2. **가치**: 수백 클럭에 달하는 느린 DRAM 접근 시간 동안 CPU가 멈춰있지 않고 다른 독립적인 메모리 작업을 병렬로 수행하게 함으로써, 메모리 시스템의 처리량(Throughput)을 극대화한다.
 > 3. **융합**: 로드-스토어 큐 (LSQ), 메모리 의존성 예측기, 캐시 계층 구조, 그리고 강한 메모리 일관성 모델(Memory Consistency Model)과 융합되어 동작한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -26,7 +28,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 순서에 얽매이지 않고 '빨리 할 수 있는 일'부터 메모리에서 처리하여 CPU의 기다림을 최소화하는 전략입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -42,7 +44,7 @@ category = "studynote-computer-architecture"
 | **Memory Disambiguation** | 주소 충돌 및 의존성 판별 | 선행 쓰기 명령과 후행 읽기 명령의 주소가 겹치는지 확인 | Alias Detection | 주소 중복 확인 |
 | **Store-to-Load Forwarding** | 쓰기 데이터 즉시 전달 | 메모리에 가기 전 SQ에 있는 데이터를 뒤의 Load에 바로 전달 | Bypass 로직 | 창고에서 바로 물건 주기 |
 
----
++++
 
 ### 비순차 메모리 접근과 의존성 해결 구조
 
@@ -77,7 +79,7 @@ category = "studynote-computer-architecture"
 
 **[다이어그램 해설]** 1번 명령어(Store A)의 주소나 데이터 계산이 늦어지더라도, 2번 명령어(Load B)는 주소가 A와 다르다는 것이 확인되면 1번을 '추월'하여 먼저 메모리로 떠날 수 있다. 하지만 3번 명령어(Load A)는 1번과 주소가 같으므로 1번이 완료되어야만 정확한 데이터를 읽을 수 있다. 이때 LSQ는 주소 매칭(Memory Disambiguation)을 통해 3번이 1번을 추월하지 못하게 막거나, 1번의 데이터가 준비되는 즉시 메모리에 가기도 전에 3번에게 전달(Forwarding)하여 속도를 높인다. 이처럼 주소가 서로 다른 메모리 요청들을 동시에 처리함으로써 메모리 시스템의 잠재력을 최대한 끌어낸다.
 
----
++++
 
 ### 심층 동작 원리: 메모리 일관성 위반 방지
 
@@ -89,7 +91,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 택배를 빨리 배송하려고 순서를 바꿨더라도, 장부(ROB)에는 원래 순서대로 배송된 것처럼 꼼꼼히 기록하고 문제가 생기면(의존성 위반) 즉시 사과하고 다시 배송하는 것과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -107,7 +109,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 한 줄로 서서 차례를 기다리는 은행 창구(순차)와, 번호표를 뽑고 업무 준비가 된 사람부터 부르는 스마트 창구(비순차)의 차이입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -122,7 +124,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 새치기를 허용하되(비순차), 절대 규칙을 어기지 않는지 감시하는 눈(LSQ)이 제대로 작동하는지 확인하는 것이 핵심입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -139,15 +141,15 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 이제는 단순히 눈앞의 순서를 바꾸는 것을 넘어, 미래에 어떤 물건이 필요할지 미리 내다보고 택배 동선을 짜는 초능력 기사님으로 진화하고 있습니다.
 
----
++++
 
 ## 📌 관련 개념 맵
-- **[로드-스토어 큐 (LSQ)](./508_load_store_queue.md)**: 비순차 메모리 접근을 관리하는 실제 하드웨어 버퍼.
-- **[메모리 의존성 예측기](./507_memory_dependence_predictor.md)**: 주소 충돌 여부를 미리 짐작하는 기술.
-- **[메모리 일관성 모델 (Consistency Model)](./xx_memory_consistency.md)**: 비순차 접근 시 지켜야 할 최소한의 규칙.
-- **[Store-to-Load Forwarding](./xx_store_forwarding.md)**: 쓰기 대기 중인 데이터를 읽기 요청에 즉시 넘겨주는 기술.
+- **로드-스토어 큐 (LSQ)**: 비순차 메모리 접근을 관리하는 실제 하드웨어 버퍼.
+- **메모리 의존성 예측기**: 주소 충돌 여부를 미리 짐작하는 기술.
+- **메모리 일관성 모델 (Consistency Model)**: 비순차 접근 시 지켜야 할 최소한의 규칙.
+- **Store-to-Load Forwarding**: 쓰기 대기 중인 데이터를 읽기 요청에 즉시 넘겨주는 기술.
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 비순차 메모리 접근은 **'심부름 순서 바꾸기'**예요.

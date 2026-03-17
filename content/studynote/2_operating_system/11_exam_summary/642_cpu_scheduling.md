@@ -1,7 +1,7 @@
 +++
-weight = 642
 title = "642. 운영체제 핵심 요약 - CPU 스케줄링"
 date = "2024-05-23"
+weight = 642
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "CPU 스케줄링", "CPU Scheduling", "Preemptive", "Non-preemptive", "SJF", "Round Robin"]
@@ -12,7 +12,7 @@ keywords = ["운영체제", "CPU 스케줄링", "CPU Scheduling", "Preemptive", 
 > 스케줄링 알고리즘의 선택은 시스템의 성격(Batch vs Interactive vs Real-time)에 따라 달라지며, 공정성(Fairness)과 효율성 사이의 트레이드오프(Trade-off)를 정밀하게 조율하는 것이 핵심이다.
 > 현대 OS는 다단계 큐(Multi-level Queue)와 피드백(Feedback) 메커니즘을 결합하여 동적인 워크로드 변화에 유연하게 대응하고 있다.
 
----
++++
 
 ### Ⅰ. 스케줄링의 목적과 단계
 
@@ -29,7 +29,7 @@ keywords = ["운영체제", "CPU 스케줄링", "CPU Scheduling", "Preemptive", 
 
 📢 섹션 요약 비유: 놀이공원 입구에서 입장객을 받는 것(장기), 너무 붐비면 잠시 휴게소로 보내는 것(중기), 그리고 실제 놀이기구에 태우는 순서를 정하는 것(단기)과 같습니다.
 
----
++++
 
 ### Ⅱ. 선점(Preemptive) vs 비선점(Non-preemptive) 스케줄링
 
@@ -54,7 +54,7 @@ keywords = ["운영체제", "CPU 스케줄링", "CPU Scheduling", "Preemptive", 
 
 📢 섹션 요약 비유: 비선점은 '은행 창구'에서 한 손님 업무가 끝날 때까지 기다리는 것이고, 선점은 '응급실'에서 더 급한 환자가 오면 먼저 처치하는 것과 같습니다.
 
----
++++
 
 ### Ⅲ. 주요 스케줄링 알고리즘 분석
 
@@ -71,7 +71,7 @@ keywords = ["운영체제", "CPU 스케줄링", "CPU Scheduling", "Preemptive", 
 
 📢 섹션 요약 비유: FCFS는 줄 서기, SJF는 빨리 끝날 사람 먼저 하기, RR은 뷔페에서 한 접시씩 돌아가며 담는 것과 같습니다.
 
----
++++
 
 ### Ⅳ. 다단계 큐(Multi-level Queue)와 피드백 큐(MLFQ)
 
@@ -83,7 +83,7 @@ keywords = ["운영체제", "CPU 스케줄링", "CPU Scheduling", "Preemptive", 
 
 📢 섹션 요약 비유: 공항에서 'VIP/비즈니스/이코노미' 줄을 따로 세우되, 상황에 따라 줄을 옮겨주며 최적의 탑승 순서를 찾는 고도화된 시스템입니다.
 
----
++++
 
 ### Ⅴ. 다중 프로세서 및 실시간 스케줄링
 
@@ -97,7 +97,7 @@ keywords = ["운영체제", "CPU 스케줄링", "CPU Scheduling", "Preemptive", 
 
 📢 섹션 요약 비유: 여러 개의 주방 화구를 동시에 관리하며, 특히 '주문 후 5분 내 서빙'이라는 엄격한 시간을 반드시 지켜야 하는 특수 요리 상황과 같습니다.
 
----
++++
 
 ### 💡 지식 그래프(Knowledge Graph)
 - **부모 노드**: 프로세스 관리(Process Management)

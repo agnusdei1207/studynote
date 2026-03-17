@@ -1,5 +1,6 @@
 +++
 title = "pcie aer"
+date = "2026-03-14"
 weight = 716
 +++
 
@@ -420,10 +421,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [EDAC](./718_edac.md) - Error Detection and Correction
-- [MCA](./717_mca.md) - Machine Check Architecture
-- [Hardware Health Monitoring](./715_hardware_health_monitoring.md) - 하드웨어 헬스
-- [NVMe](./700_nvme_namespaces.md) - NVMe 네임스페이스
+- EDAC - Error Detection and Correction
+- MCA - Machine Check Architecture
+- Hardware Health Monitoring - 하드웨어 헬스
+- NVMe - NVMe 네임스페이스
 
 ---
 

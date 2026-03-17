@@ -1,5 +1,6 @@
 +++
 title = "Codec - 코덱"
+date = "2026-03-14"
 weight = 353
 +++
 
@@ -147,10 +148,10 @@ Codec(Coder-Decoder)은 미디어를 압축하고 해제합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [VoIP](./351_voip.md)
-- [RTP](./285_rtp.md)
-- [스트리밍](./343_streaming.md)
-- [WebRTC](./342_webrtc.md)
+- VoIP
+- RTP
+- 스트리밍
+- WebRTC
 
 ---
 

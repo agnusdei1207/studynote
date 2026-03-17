@@ -1,7 +1,7 @@
-
 +++
-weight = 69
 title = "69. FPGA (Field Programmable Gate Array)"
+date = "2026-03-14"
+weight = 69
 +++
 
 # 69. FPGA (Field Programmable Gate Array)

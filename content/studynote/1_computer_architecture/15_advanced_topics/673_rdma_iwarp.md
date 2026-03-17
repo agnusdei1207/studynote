@@ -1,7 +1,8 @@
----
++++
 title = "RDMA iWARP 프로토콜"
+date = "2026-03-14"
 weight = 673
----
++++
 
 # 🧠 BrainScience PE 가이드라인: RDMA iWARP 프로토콜
 

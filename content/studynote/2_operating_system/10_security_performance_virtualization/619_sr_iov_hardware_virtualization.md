@@ -1,6 +1,7 @@
 +++
-weight = 619
 title = "619. SR-IOV (Single Root I/O Virtualization) 하드웨어 가상화"
+date = "2026-03-14"
+weight = 619
 +++
 
 # 619. SR-IOV (Single Root I/O Virtualization) 하드웨어 가상화

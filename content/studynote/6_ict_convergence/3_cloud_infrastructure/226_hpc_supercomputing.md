@@ -1,10 +1,9 @@
----
-title: "[ICT] #226. 슈퍼컴퓨팅 / HPC (High Performance Computing) 및 MPI"
-date: "2026-03-17"
++++
+title = "[ICT] #226. 슈퍼컴퓨팅 / HPC (High Performance Computing) 및 MPI"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "HPC_Supercomputing_MPI_MessagePassingInterface_ParallelComputing_InfiniBand_FLOPS"
----
+keyword = "HPC_Supercomputing_MPI_MessagePassingInterface_ParallelComputing_InfiniBand_FLOPS"
++++
 
 # 슈퍼컴퓨팅 / HPC 및 MPI: 수만 대의 컴퓨터를 하나로 묶어 거대한 연산을 쪼개어 푸는 기술
 
@@ -13,7 +12,7 @@ keyword: "HPC_Supercomputing_MPI_MessagePassingInterface_ParallelComputing_Infin
 > 2. **가치**: 기상 예측, 우주 우주항공 시뮬레이션, 유전체 분석 등 막대한 데이터와 변수가 얽힌 비선형적 문제를 페타플롭스(PFLOPS) 이상의 속도로 해결하여 국가와 기업의 기초 과학 경쟁력을 결정짓는다.
 > 3. **융합**: 수만 개의 CPU/GPU가 데이터를 주고받을 때 발생하는 네트워크 병목을 없애기 위해 **인피니밴드(InfiniBand)** 통신망과 **MPI(Message Passing Interface)** 표준 라이브러리가 융합되어 완벽한 분산 병렬 컴퓨팅을 완성한다.
 
----
++++
 
 ## Ⅰ. 슈퍼컴퓨팅 및 HPC 개요
 
@@ -31,7 +30,7 @@ keyword: "HPC_Supercomputing_MPI_MessagePassingInterface_ParallelComputing_Infin
 
 📢 **섹션 요약 비유**: 세상에서 가장 똑똑한 천재 한 명을 키우는 것을 포기하고, 평범하지만 똑똑한 일꾼 10만 명을 완벽한 규칙으로 통제하여 피라미드를 쌓아 올리는 '물량과 조직력의 승리'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -82,7 +81,7 @@ HPC 클러스터 내의 노드들은 **자신만의 독립된 메모리(Distribu
 
 📢 **섹션 요약 비유**: 우체부(네트워크)가 상대방 집의 대문(OS)을 두드리고 주인이 나올 때까지 기다리는 것이 아니라, 그냥 상대방 집 냉장고(메모리)를 바로 열고 음식을 꽂아두고 튀는 초광속 배달 시스템입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -102,7 +101,7 @@ HPC 클러스터 내의 노드들은 **자신만의 독립된 메모리(Distribu
 
 📢 **섹션 요약 비유**: 하둡이 '크고 무거운 돌을 옮기기 위해 여러 명의 인부를 쓰는 것'이라면, HPC(MPI)는 '수천 명의 시계 장인이 부품 하나하나를 현미경으로 보며 실시간으로 대화하며 조립하는 초정밀 공정'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -120,7 +119,7 @@ HPC 클러스터 내의 노드들은 **자신만의 독립된 메모리(Distribu
 
 📢 **섹션 요약 비유**: 임신 10달이 걸리는 일을, 여자 10명을 모은다고 1달 만에 낳을 수 없는 것(암달의 법칙)처럼, 분산 처리의 핵심은 하드웨어 물량이 아니라 '일을 얼마나 독립적으로 잘게 쪼갤 수 있는가(알고리즘)'에 달려있습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -134,13 +133,13 @@ HPC 클러스터 내의 노드들은 **자신만의 독립된 메모리(Distribu
 
 📢 **섹션 요약 비유**: 슈퍼컴퓨팅은 인류가 우주의 비밀을 풀고 생명의 설계도를 해독하기 위해 쌓아 올리고 있는 현대판 바벨탑이자, 가장 위대한 집단 지성의 기계적 발현입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[양자 컴퓨팅](./218_quantum_computing.md)**: 특정 분야에서 슈퍼컴퓨터의 엑사스케일 연산을 아득히 뛰어넘을 차세대 연산 패러다임.
-- **[DPU / SmartNIC](./228_dpu_smartnic_cxl.md)**: 노드 간 초고속 통신 시 CPU의 부하를 덜어주는 가속기.
-- **[GPU 및 텐서 코어](../../1_computer_architecture/12_accelerators_ai_hardware/xx_gpu_tensor.md)**: 현대 슈퍼컴퓨터의 90% 이상의 연산을 담당하는 핵심 병렬 처리 반도체.
-- **[오토스케일링 및 클라우드](./206_kubernetes_autoscaling.md)**: 클라우드 기반 HPC(HPCaaS)를 가능케 하는 탄력적 자원 할당 기술.
+- **양자 컴퓨팅**: 특정 분야에서 슈퍼컴퓨터의 엑사스케일 연산을 아득히 뛰어넘을 차세대 연산 패러다임.
+- **DPU / SmartNIC**: 노드 간 초고속 통신 시 CPU의 부하를 덜어주는 가속기.
+- **GPU 및 텐서 코어**: 현대 슈퍼컴퓨터의 90% 이상의 연산을 담당하는 핵심 병렬 처리 반도체.
+- **오토스케일링 및 클라우드**: 클라우드 기반 HPC(HPCaaS)를 가능케 하는 탄력적 자원 할당 기술.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **1만 명의 로봇 천재들**: 아무리 똑똑한 컴퓨터라도 혼자서 풀기 힘든 수학 문제를, 1만 대의 컴퓨터가 모여서 각자 한 문제씩 나눠서 푸는 기술이에요.

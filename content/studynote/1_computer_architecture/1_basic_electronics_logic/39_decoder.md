@@ -1,7 +1,7 @@
-Here is the rewritten content, strictly adhering to the PE (Professional Engineer) guideline format with enhanced technical depth, mandatory ASCII diagrams, and structural compliance.
-
-```markdown
 +++
+title = "# [39. 디코더 (Decoder)]"
+date = "2026-03-14"
+[extra]
 weight = 39
 title = "39. 디코더 (Decoder)"
 +++

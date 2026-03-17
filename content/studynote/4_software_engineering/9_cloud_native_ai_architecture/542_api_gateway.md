@@ -1,7 +1,7 @@
----
-title: "542. API 게이트웨이 (API Gateway)"
-date: 2026-03-15
----
++++
+title = "542. API 게이트웨이 (API Gateway)"
+date = "2026-03-15"
++++
 
 # 542. API 게이트웨이 (API Gateway)
 
@@ -156,10 +156,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[MSA](./532_microservices_decomposition.md)**: API 게이트웨이가 필요한 근본적인 배경
-- **[서비스 메시](./557_service_mesh.md)**: 내부 통신을 담당하며 게이트웨이와 상호 보완하는 기술
-- **[BFF 패턴](./xx_bff.md)**: 게이트웨이의 목적별 분화 설계 방식
-- **[Rate Limiting](./511_api_rate_limiting.md)**: 게이트웨이가 수행하는 핵심 트래픽 통제 기술
+- **MSA**: API 게이트웨이가 필요한 근본적인 배경
+- **서비스 메시**: 내부 통신을 담당하며 게이트웨이와 상호 보완하는 기술
+- **BFF 패턴**: 게이트웨이의 목적별 분화 설계 방식
+- **Rate Limiting**: 게이트웨이가 수행하는 핵심 트래픽 통제 기술
 
 ---
 

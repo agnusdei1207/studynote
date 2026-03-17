@@ -1,7 +1,7 @@
 +++
 title = "214. 동적 우선순위 승급 (Priority Boost)"
-weight = 214
 date = "2026-03-04"
+weight = 214
 [extra]
 categories = "studynote-operating-system"
 +++
@@ -13,7 +13,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 대화형(Interactive) 태스크가 CPU를 빠르게 점유하게 하여 사용자의 체감 지연 시간을 단축하며, 우선순위 역전(Priority Inversion)과 같은 스케줄링 모순 상황을 완화하는 안정 장치 역할을 한다.
 > 3. **융합**: 윈도우 커널의 스케줄링 전략, 리눅스의 휴리스틱 우선순위 계산, 그리고 실시간 시스템의 우선순위 상속(Priority Inheritance) 프로토콜의 기반 아이디어이다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -23,7 +23,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 평범한 시민(일반 태스크)이라도 긴급한 상황(이벤트)이 발생하면 일시적으로 경찰차처럼 사이렌(승급)을 달고 달릴 수 있게 허용하는 유연한 교통 법규와 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -56,7 +56,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 보너스 포인트(승급)를 받았더라도 물건을 살 때마다 포인트가 차감(감쇄)되어, 결국 다시 일반 회원으로 돌아오는 합리적인 포인트 제도와 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -71,7 +71,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 승급은 '성실한 사람에게 주는 보너스'이고, 상속은 '대장의 길을 막지 않게 쫄병을 빨리 밀어주는 조치'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -81,7 +81,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 모든 손님에게 VIP 대접을 해주면 진짜 VIP가 불편해지니, 조용히 자기 일만 하는 손님(백그라운드)에게는 일반 대접만 하도록 조정하는 기술입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -90,12 +90,12 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 정해진 규정(정적 순위)보다 상황의 긴급성(동적 승급)을 이해하는 유연함이 OS의 지능을 완성합니다.
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[윈도우 스케줄링](./213_windows_scheduling.md)**: 우선순위 승급이 가장 활발하게 쓰이는 운영체제
-- **[우선순위 역전 (Priority Inversion)](./242_priority_inversion.md)**: 승급 기술이 해결에 도움을 주는 대표적 결함
-- **[기아 상태 (Starvation)](./181_starvation.md)**: 승급 기술의 존재 이유 중 하나
+- **윈도우 스케줄링**: 우선순위 승급이 가장 활발하게 쓰이는 운영체제
+- **우선순위 역전 (Priority Inversion)**: 승급 기술이 해결에 도움을 주는 대표적 결함
+- **기아 상태 (Starvation)**: 승급 기술의 존재 이유 중 하나
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 컴퓨터가 여러 일을 할 때, 우리가 마우스를 클릭하면 "오! 주인님이 부르신다!"라며 그 일을 1등으로 올려주는 기능이에요.

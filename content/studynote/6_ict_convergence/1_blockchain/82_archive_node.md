@@ -1,10 +1,9 @@
----
-title: "[ICT] #83. 아카이브 노드 (Archive Node)"
-date: "2026-03-17"
++++
+title = "[ICT] #83. 아카이브 노드 (Archive Node)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "ArchiveNode_HistoricalData_FullStateHistory_BlockchainAnalytics_StorageExplosion"
----
+keyword = "ArchiveNode_HistoricalData_FullStateHistory_BlockchainAnalytics_StorageExplosion"
++++
 
 # 아카이브 노드 (Archive Node): 블록체인의 모든 과거를 기억하는 디지털 도서관
 
@@ -13,7 +12,7 @@ keyword: "ArchiveNode_HistoricalData_FullStateHistory_BlockchainAnalytics_Storag
 > 2. **가치**: 일반 풀 노드가 최신 상태만 빠르게 조회하는 데 최적화된 반면, 아카이브 노드는 "3년 전 특정 블록 시점에 A 계정의 잔액이 얼마였는가?"와 같은 **과거 데이터 쿼리**를 즉시 처리할 수 있게 한다.
 > 3. **융합**: 블록 익스플로러(Etherscan 등), 온체인 데이터 분석 플랫폼, 세무 및 감사 시스템의 핵심 백엔드로 활용되며, 수십 TB에 달하는 **스토리지 폭발(Storage Bloat)** 문제를 감당하기 위한 고도의 인프라 기술이 요구된다.
 
----
++++
 
 ## Ⅰ. 아카이브 노드 (Archive Node) 개요
 
@@ -30,7 +29,7 @@ keyword: "ArchiveNode_HistoricalData_FullStateHistory_BlockchainAnalytics_Storag
 
 📢 **섹션 요약 비유**: 현재의 결론만 아는 '뉴스'와 달리, 역사의 모든 장면을 슬로우 모션으로 돌려볼 수 있는 '디지털 기록 저장소'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 데이터 보관 원리 (Deep Dive)
 
@@ -82,7 +81,7 @@ keyword: "ArchiveNode_HistoricalData_FullStateHistory_BlockchainAnalytics_Storag
 
 📢 **섹션 요약 비유**: 수학 문제를 풀 때마다 계산 과정을 다 지우는 친구(풀 노드)와, 모든 연습장 노트를 버리지 않고 모아두어 언제든 예전 풀이를 찾아보는 친구(아카이브 노드)의 차이입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -100,7 +99,7 @@ keyword: "ArchiveNode_HistoricalData_FullStateHistory_BlockchainAnalytics_Storag
 
 📢 **섹션 요약 비유**: 아카이브 노드가 '전 세계 도서관의 모든 책을 보관하는 국립중앙도서관'이라면, 일반 노드는 '내게 필요한 책만 빌려보는 동네 도서관'과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -114,7 +113,7 @@ keyword: "ArchiveNode_HistoricalData_FullStateHistory_BlockchainAnalytics_Storag
 
 📢 **섹션 요약 비유**: 모든 기록을 다 보관하는 게 좋지만 창고 비용이 너무 비싸지므로, 마을 사람들이 기록을 나누어 보관하거나(분산 저장) 아주 오래된 기록은 마이크로필름으로 변환하는(상태 압축) 지혜가 필요합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -128,13 +127,13 @@ keyword: "ArchiveNode_HistoricalData_FullStateHistory_BlockchainAnalytics_Storag
 
 📢 **섹션 요약 비유**: 아카이브 노드는 블록체인 문명의 **'기록 유산 센터'**이며, 우리가 지나온 모든 길을 잊지 않게 해주는 가장 거대한 디지털 메모리입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[풀 노드 (Full Node)](./80_full_node.md)**: 아카이브 노드의 기본 토대가 되는 노드.
-- **[이더리움 3대 트리](./77_ethereum_tries.md)**: 아카이브 노드가 보관하는 상태 데이터의 구조.
-- **[프루닝 (Pruning)](./xx_pruning.md)**: 아카이브 노드가 거부하는 데이터 삭제 기술.
-- **[이더스캔 (Etherscan)](./xx_explorer.md)**: 아카이브 데이터를 사용자에게 보여주는 대표적 서비스.
+- **풀 노드 (Full Node)**: 아카이브 노드의 기본 토대가 되는 노드.
+- **이더리움 3대 트리**: 아카이브 노드가 보관하는 상태 데이터의 구조.
+- **프루닝 (Pruning)**: 아카이브 노드가 거부하는 데이터 삭제 기술.
+- **이더스캔 (Etherscan)**: 아카이브 데이터를 사용자에게 보여주는 대표적 서비스.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **모든 걸 기억하는 박사님**: 블록체인 나라에서 일어난 모든 일을 하나도 잊어버리지 않고 머릿속에 다 저장하고 있는 아주 똑똑한 박사님이에요.

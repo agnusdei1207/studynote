@@ -1,12 +1,17 @@
----
++++
+title = "329. 마모 평준화 (Wear Leveling)"
+date = "2026-03-14"
++++
+
 # 329. 마모 평준화 (Wear Leveling)
 
 #### 핵심 인사이트 (3줄 요약)
-> 1. **본질**: 플래시 메모리(Flash Memory)의 물리적 수명 한계를 극복하기 위해, 쓰기(Write) 및 지우기(Erase) 연산을 논리적 주소(LBA)가 아닌 물리적 블록(PBA) 전체에 균등 분배하는 FTL(Flash Translation Layer)의 핵심 알고리즘.
-> 2. **가치**: 특정 블록의 조기 파손을 방지하여 SSD(Solid State Drive)의 TBW(Terabytes Written)를 극대화하고, 데이터 무결성을 보장하여 저장 장치의 신뢰성을 획기적으로 향상시킴.
-> 3. **융합**: OS의 파일 시스템(File System)과 NAND Flash의 물리적 특성을 매핑하며, 최근에는 NVMe(Non-Volatile Memory express)의 ZNS(Zoned Namespace) 및 AI 기반 예지 관리와 결합하여 효율을 고도화하고 있음.
+> 1. **본질**= 플래시 메모리(Flash Memory)의 물리적 수명 한계를 극복하기 위해, 쓰기(Write) 및 지우기(Erase) 연산을 논리적 주소(LBA)가 아닌 물리적 블록(PBA) 전체에 균등 분배하는 FTL(Flash Translation Layer)의 핵심 알고리즘.
+> 2. **가치**= 특정 블록의 조기 파손을 방지하여 SSD(Solid State Drive)의 TBW(Terabytes Written)를 극대화하고, 데이터 무결성을 보장하여 저장 장치의 신뢰성을 획기적으로 향상시킴.
+> 3. **융합**= OS의 파일 시스템(File System)과 NAND Flash의 물리적 특성을 매핑하며, 최근에는 NVMe(Non-Volatile Memory express)의 ZNS(Zoned Namespace) 및 AI 기반 예지 관리와 결합하여 효율을 고도화하고 있음.
 
----
+
+
 
 ### Ⅰ. 개요 (Context & Background) - [개요 및 배경]
 

@@ -1,6 +1,7 @@
 +++
-weight = 538
 title = "538. 비트 벡터 (Bit Vector) / 비트맵 (Bitmap)"
+date = "2026-03-14"
+weight = 538
 +++
 
 # [Bit Vector / Bitmap]
@@ -148,4 +149,4 @@ int allocate_block(uint64_t* bitmap, int num_words) {
 
 - **시나리오 B: 초고속 방화벽 필터링 시스템**
     - **문제**: 수천만 개의 악성 IP를 차단해야 하며, 지연 시간(Latency)이 마이크로초 단위여야 한다. 해시 테이블은 캐시 미스(Cache Miss)가 발생하여 성능 저하가 우려된다.
-    - **의사결정**: **Bloom Filter (확률적 비트맵)**를 활용한다. 여러 해시 함수를 통해 비트맵의 특정 위치를 
+    - **의사결정**: **Bloom Filter (확률적 비트맵)**를 활용한다. 여러 해시 함수를 통해 비트맵의 특정 위치를

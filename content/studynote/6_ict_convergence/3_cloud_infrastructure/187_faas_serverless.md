@@ -1,10 +1,9 @@
----
-title: "[ICT] #187. FaaS (Function as a Service) 및 서버리스 (Serverless)"
-date: "2026-03-17"
++++
+title = "[ICT] #187. FaaS (Function as a Service) 및 서버리스 (Serverless)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "FaaS_Serverless_AWSLambda_ColdStart_EventDriven_Microservices"
----
+keyword = "FaaS_Serverless_AWSLambda_ColdStart_EventDriven_Microservices"
++++
 
 # FaaS 및 서버리스 (Serverless): 서버의 존재를 지우고 오직 비즈니스 로직에만 집중하는 클라우드의 진화
 
@@ -13,7 +12,7 @@ keyword: "FaaS_Serverless_AWSLambda_ColdStart_EventDriven_Microservices"
 > 2. **가치**: 서버를 24시간 띄워놓지 않으므로 트래픽이 0일 때는 요금이 0원이며, 트래픽이 폭증하면 클라우드 벤더가 1초 만에 함수를 수만 개로 복제(Scale-out)해 주어 극강의 비용 효율성과 오토스케일링을 제공한다.
 > 3. **융합**: 마이크로서비스 아키텍처(MSA), API 게이트웨이, 이벤트 주도 아키텍처(EDA)와 결합하여 현대적인 클라우드 네이티브 애플리케이션 구축의 핵심 동력으로 작용한다.
 
----
++++
 
 ## Ⅰ. FaaS (Function as a Service) 및 서버리스 개요
 
@@ -31,7 +30,7 @@ keyword: "FaaS_Serverless_AWSLambda_ColdStart_EventDriven_Microservices"
 
 📢 **섹션 요약 비유**: 복잡한 식당 주방(서버)을 운영하는 대신, 주문(이벤트)이 들어올 때만 마법처럼 요리사(함수)가 나타나 요리를 끝내고 사라지는 '마법의 주방'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -77,7 +76,7 @@ keyword: "FaaS_Serverless_AWSLambda_ColdStart_EventDriven_Microservices"
 
 📢 **섹션 요약 비유**: 평소에는 스위치를 끄고 자다가(비용 절감), 누군가 벨을 누르면(이벤트) 부스스 일어나 옷을 챙겨 입고 나가는 시간(콜드 스타트 지연)이 존재하는 구조입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -97,7 +96,7 @@ keyword: "FaaS_Serverless_AWSLambda_ColdStart_EventDriven_Microservices"
 
 📢 **섹션 요약 비유**: K8s(CaaS)가 '요리사 팀을 고용해 우리 주방에서 관리하는 것'이라면, FaaS는 '배달의 민족으로 음식만 주문하는 것'입니다. 
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -115,7 +114,7 @@ keyword: "FaaS_Serverless_AWSLambda_ColdStart_EventDriven_Microservices"
 
 📢 **섹션 요약 비유**: 서버리스는 완벽해 보이지만, '장거리 마라톤(오래 걸리는 작업)'을 시키면 중간에 쓰러지고(시간 초과), 벤더의 입맛(Lock-in)에 맞게 편식한다는 치명적 약점을 설계 시 반드시 고려해야 합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -129,13 +128,13 @@ keyword: "FaaS_Serverless_AWSLambda_ColdStart_EventDriven_Microservices"
 
 📢 **섹션 요약 비유**: 서버리스(FaaS)는 코딩의 귀찮은 잡일(인프라)을 구름 속으로 완전히 치워버리고, 개발자에게 오직 '순수한 창조(로직)'의 즐거움만 남겨준 클라우드 혁명의 클라이맥스입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[IaaS / PaaS / SaaS](./182_iaas_paas_saas.md)**: FaaS가 속해 있는 클라우드 서비스 모델의 거대한 계보.
-- **[클라우드 네이티브](./199_cloud_native.md)**: FaaS를 활용하여 100% 클라우드의 이점을 뽑아내는 개발 사상.
-- **[마이크로서비스 (MSA)](../../4_software_engineering/xx_msa.md)**: FaaS가 아주 작은 단위로 쪼개어 구현하고자 하는 아키텍처.
-- **[프로비저닝된 동시성 (Provisioned Concurrency)](#)**: FaaS의 가장 큰 약점인 콜드 스타트를 돈으로 해결하는 기능.
+- **IaaS / PaaS / SaaS**: FaaS가 속해 있는 클라우드 서비스 모델의 거대한 계보.
+- **클라우드 네이티브**: FaaS를 활용하여 100% 클라우드의 이점을 뽑아내는 개발 사상.
+- **마이크로서비스 (MSA)**: FaaS가 아주 작은 단위로 쪼개어 구현하고자 하는 아키텍처.
+- **프로비저닝된 동시성 (Provisioned Concurrency)**: FaaS의 가장 큰 약점인 콜드 스타트를 돈으로 해결하는 기능.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **서버가 사라졌어요**: 복잡한 컴퓨터(서버)를 내가 직접 관리할 필요 없이, 요리 레시피(코드)만 인터넷에 올려두면 끝나는 마법이에요.

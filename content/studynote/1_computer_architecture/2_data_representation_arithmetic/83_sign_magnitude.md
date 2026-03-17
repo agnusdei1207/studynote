@@ -1,8 +1,7 @@
-
-Here is the rewritten study note, strictly adhering to the PE (Professional Engineer) guideline format.
-
-```markdown
 +++
+title = "83. 부호와 절댓값 (Sign-Magnitude)"
+date = "2026-03-14"
+[extra]
 weight = 83
 title = "83. 부호와 절댓값 (Sign-Magnitude)"
 +++

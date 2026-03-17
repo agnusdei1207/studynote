@@ -1,6 +1,7 @@
 +++
-weight = 633
 title = "633. 운영체제 레벨의 전력 관리 (Power Management)"
+date = "2026-03-14"
+weight = 633
 +++
 
 # 633. 운영체제 레벨의 전력 관리 (Power Management)

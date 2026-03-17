@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: XSS 🥈 Silver"
-description = "LUXORA 플랫폼의 Silver 난이도 XSS 우회 기법 - 스크립트 태그 필터링 우회를 통한 Stored XSS 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "XSS", "Silver", "Stored XSS", "Filter Bypass", "Write-up"]

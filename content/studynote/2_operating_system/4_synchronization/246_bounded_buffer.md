@@ -1,7 +1,7 @@
 +++
 title = "246. 유한 버퍼 문제"
-weight = 246
 date = "2026-03-04"
+weight = 246
 [extra]
 categories = "studynote-operating-system"
 +++
@@ -13,7 +13,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 생산자는 버퍼가 가득 차면 멈춰야 하고(Overflow 방지), 소비자는 버퍼가 비어 있으면 멈춰야 함(Underflow 방지)을 보장하여 시스템 안정성을 유지한다.
 > 3. **융합**: 파이프라인(Pipeline) 처리, 메시지 큐(Message Queue), 로그 버퍼링, 네트워크 패킷 큐 등 데이터 스트리밍 아키텍처의 가장 기본적인 작동 모델이다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -23,7 +23,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 마치 공장의 컨베이어 벨트가 가득 차면 기계가 멈추고, 벨트가 비어 있으면 포장 직원이 대기하는 조화로운 공정 관리 시스템과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -52,7 +52,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 빈 접시가 있어야 요리를 하고, 요리가 있어야 서빙을 한다는 단순한 규칙이 식당 전체의 리듬을 만드는 것과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -69,7 +69,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 수동으로 밸브를 열고 닫는 것(세마포어)보다, 스마트 제어 시스템에 목표 수량을 입력하는 것(모니터)이 사고 위험이 적습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -83,7 +83,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 완충 지대(버퍼)가 너무 좁으면 충격을 흡수하지 못하고, 너무 넓으면 반응이 느려지는 트레이드오프와 같습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 

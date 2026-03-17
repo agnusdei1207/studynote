@@ -1,7 +1,7 @@
 +++
-weight = 361
 title = "361. 다단계 페이징 (Hierarchical Paging)"
 date = "2024-05-23"
+weight = 361
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "Hierarchical Paging", "Multi-level Paging", "Page Directory", "메모리 절약", "Sparse Address Space"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "Hierarchical Paging", "Multi-level Paging", "Page D
 > 2. **가치**: 프로세스가 실제로 사용하는 가상 주소 영역에 대해서만 페이지 테이블을 생성하므로, 거대한 논리 주소 공간을 지원하면서도 물리 메모리 낭비를 극적으로 줄여준다.
 > 3. **비용**: 주소 변환을 위해 메모리에 여러 번 접근해야 하므로(예: 2단계 시 3번 접근), TLB(Translation Look-aside Buffer)의 효율적인 활용이 성능의 핵심 전제 조건이 된다.
 
----
++++
 
 ## Ⅰ. 다단계 페이징 (Hierarchical Paging)의 정의 및 필요성
 
@@ -30,7 +30,7 @@ keywords = ["운영체제", "Hierarchical Paging", "Multi-level Paging", "Page D
 
 - **📢 섹션 요약 비유**: "백과사전 전체를 들고 다니는 대신, 'ㄱ~ㅎ' 색인집(페이지 디렉터리)만 들고 있다가 필요한 글자가 있는 권(페이지 테이블)만 서재에서 꺼내 쓰는 것과 같습니다."
 
----
++++
 
 ## Ⅱ. 2단계 페이징의 작동 메커니즘 및 ASCII 다이어그램
 
@@ -67,7 +67,7 @@ keywords = ["운영체제", "Hierarchical Paging", "Multi-level Paging", "Page D
 
 - **📢 섹션 요약 비유**: "아파트 단지 입구에서 동 번호(P1)를 확인하고, 해당 동에 들어가서 호수(P2)를 찾는 2단계 확인 과정입니다."
 
----
++++
 
 ## Ⅲ. 다단계 페이징의 기술적 특징 및 장단점
 
@@ -81,7 +81,7 @@ keywords = ["운영체제", "Hierarchical Paging", "Multi-level Paging", "Page D
 
 - **📢 섹션 요약 비유**: "방은 적게 차지하지만, 물건 하나를 찾으러 갈 때 여러 개의 문을 열고 들어가야 해서 시간이 더 걸리는 수납장과 같습니다."
 
----
++++
 
 ## Ⅳ. 현대 64비트 시스템에서의 계층 구조 (Strategy)
 
@@ -97,7 +97,7 @@ keywords = ["운영체제", "Hierarchical Paging", "Multi-level Paging", "Page D
 
 - **📢 섹션 요약 비유**: "전 세계 주소를 찾기 위해 [국가-도-시-구-동]으로 단계를 세분화하여, 내가 살지 않는 다른 나라의 세부 지도는 아예 가지고 있지 않는 전략입니다."
 
----
++++
 
 ## Ⅴ. 결론 및 요약
 
@@ -109,15 +109,15 @@ keywords = ["운영체제", "Hierarchical Paging", "Multi-level Paging", "Page D
 
 - **📢 섹션 요약 비유**: "결국 '필요한 것만 계층적으로 관리한다'는 원칙이 컴퓨터 메모리 관리에도 그대로 적용된 결과입니다."
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[페이지 테이블 (Page Table)](./353_page_table.md)**: 다단계로 쪼개지는 기본 단위.
-- **[TLB (Translation Look-aside Buffer)](./357_tlb.md)**: 다단계 페이징의 속도 저하를 보완하는 필수 하드웨어.
-- **[Sparse Address Space](./322_logical_address.md)**: 다단계 페이징이 존재해야 하는 근본적인 이유.
-- **[역 페이지 테이블 (Inverted Page Table)](./363_inverted_page_table.md)**: 계층 구조의 대안으로 제시되는 또 다른 방식.
+- **페이지 테이블 (Page Table)**: 다단계로 쪼개지는 기본 단위.
+- **TLB (Translation Look-aside Buffer)**: 다단계 페이징의 속도 저하를 보완하는 필수 하드웨어.
+- **Sparse Address Space**: 다단계 페이징이 존재해야 하는 근본적인 이유.
+- **역 페이지 테이블 (Inverted Page Table)**: 계층 구조의 대안으로 제시되는 또 다른 방식.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 아주 큰 백과사전에 내가 보고 싶은 페이지가 어디 있는지 적어둔 쪽지가 너무 많아서 쪽지함이 꽉 찼어요.

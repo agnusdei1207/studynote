@@ -1,5 +1,6 @@
 +++
 title = "STUN/TURN - NAT 통과 서버"
+date = "2026-03-14"
 weight = 347
 +++
 
@@ -146,10 +147,10 @@ STUN은 공인 주소를, TURN은 릴레이 서버를 제공합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [NAT Traversal](./346_nat_traversal.md)
-- [ICE](./348_ice.md)
-- [WebRTC](./342_webrtc.md)
-- [VoIP](./348_voip.md)
+- NAT Traversal
+- ICE
+- WebRTC
+- VoIP
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "RTO/RPO - 복구 시간/시점 목표"
+date = "2026-03-14"
 weight = 595
 +++
 
@@ -100,6 +101,6 @@ RTO/RPO는 복구 목표를 정의합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [DR](./594_dr.md)
-- [Backup](./591_backup.md)
-- [HA](./586_high_availability.md)
+- DR
+- Backup
+- HA

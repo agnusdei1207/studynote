@@ -1,7 +1,7 @@
----
-title: "551. 보상 트랜잭션 (Compensating Transaction) 및 TCC 패턴"
-date: 2026-03-15
----
++++
+title = "551. 보상 트랜잭션 (Compensating Transaction) 및 TCC 패턴"
+date = "2026-03-15"
++++
 
 # 551. 보상 트랜잭션 (Compensating Transaction) 및 TCC 패턴
 
@@ -161,10 +161,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[Saga 패턴](./550_saga_pattern.md)**: TCC를 포함하는 상위 비동기 트랜잭션 전략
-- **[2PC (2-Phase Commit)](./549_2pc_limitations.md)**: TCC가 극복하고자 하는 고전적 경쟁 기술
-- **[최종 일관성 (Eventual Consistency)](../5_database/xx_consistency.md)**: TCC가 추구하는 데이터 목표
-- **[MSA](./532_microservices_decomposition.md)**: TCC가 가장 활발히 쓰이는 아키텍처 환경
+- **Saga 패턴**: TCC를 포함하는 상위 비동기 트랜잭션 전략
+- **2PC (2-Phase Commit)**: TCC가 극복하고자 하는 고전적 경쟁 기술
+- **최종 일관성 (Eventual Consistency)**: TCC가 추구하는 데이터 목표
+- **MSA**: TCC가 가장 활발히 쓰이는 아키텍처 환경
 
 ---
 

@@ -1,10 +1,9 @@
----
-title: "[ICT] #58. 하이퍼레저 패브릭 (Hyperledger Fabric)"
-date: "2026-03-17"
++++
+title = "[ICT] #58. 하이퍼레저 패브릭 (Hyperledger Fabric)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Hyperledger_Fabric_Permissioned_Blockchain_Consensus_MSP_Orderer"
----
+keyword = "Hyperledger_Fabric_Permissioned_Blockchain_Consensus_MSP_Orderer"
++++
 
 # 하이퍼레저 패브릭: 기업용 블록체인의 표준과 모듈러 아키텍처
 
@@ -13,7 +12,7 @@ keyword: "Hyperledger_Fabric_Permissioned_Blockchain_Consensus_MSP_Orderer"
 > 2. **가치**: 기존의 Order-Execute 방식이 아닌 **Execute-Order-Validate(실행-정렬-검증)**라는 혁신적 아키텍처를 도입하여 병렬 처리 성능을 극대화하고, 채널(Channel)을 통한 강력한 데이터 기밀성을 보장한다.
 > 3. **융합**: 특정 암호화폐에 종속되지 않는 범용 원장 기술로서 모듈러 합의 알고리즘, 스마트 컨트랙트(Chaincode), 멤버십 서비스(MSP)가 결합되어 금융, 공급망, 공공 행정 등 전 산업 DX의 핵심 인프라로 기능한다.
 
----
++++
 
 ## Ⅰ. 하이퍼레저 패브릭 (Hyperledger Fabric) 개요
 
@@ -30,7 +29,7 @@ keyword: "Hyperledger_Fabric_Permissioned_Blockchain_Consensus_MSP_Orderer"
 
 📢 **섹션 요약 비유**: 불특정 다수가 모여 시끄럽게 떠드는 광장(퍼블릭) 대신, 전문가들이 모여 규정에 따라 정교하게 안건을 처리하는 '디지털 비즈니스 센터'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -79,7 +78,7 @@ keyword: "Hyperledger_Fabric_Permissioned_Blockchain_Consensus_MSP_Orderer"
 
 📢 **섹션 요약 비유**: 전체 단톡방(네트워크) 안에서 필요한 사람들끼리만 '비밀 단톡방(채널)'을 만들어 대화하는 것과 같아서, 보안이 생명인 비즈니스에 최적입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -100,7 +99,7 @@ keyword: "Hyperledger_Fabric_Permissioned_Blockchain_Consensus_MSP_Orderer"
 
 📢 **섹션 요약 비유**: 이더리움이 모두가 규칙을 지키는 '디지털 금광'이라면, 패브릭은 승인된 회원들만 거래하는 '디지털 비즈니스 클럽'과 같은 차이가 있습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -114,7 +113,7 @@ keyword: "Hyperledger_Fabric_Permissioned_Blockchain_Consensus_MSP_Orderer"
 
 📢 **섹션 요약 비유**: 엔진(합의)과 타이어(저장소)를 마음대로 바꿀 수 있는 '조립식 경주차'와 같아서, 어떤 험난한 비즈니스 환경(도로)에도 맞춤형으로 대응할 수 있는 강력한 유연성을 가집니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -128,13 +127,13 @@ keyword: "Hyperledger_Fabric_Permissioned_Blockchain_Consensus_MSP_Orderer"
 
 📢 **섹션 요약 비유**: 하이퍼레저 패브릭은 기업들이 디지털의 바다로 나아가기 위해 반드시 타야 하는 **'가장 거대하고 안전한 함선'**입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[프라이빗 블록체인](./19_private_blockchain.md)**: 하이퍼레저 패브릭의 기술적 분류.
-- **[스마트 컨트랙트](./21_smart_contract.md)**: 패브릭에서는 '체인코드'라 불리는 실행 로직.
-- **[PBFT](./13_pbft.md)**: 패브릭에서 선택 가능한 고급 합의 알고리즘 중 하나.
-- **[BaaS (서비스형 블록체인)](./71_baas.md)**: 패브릭을 쉽게 구축할 수 있는 클라우드 서비스 형태.
+- **프라이빗 블록체인**: 하이퍼레저 패브릭의 기술적 분류.
+- **스마트 컨트랙트**: 패브릭에서는 '체인코드'라 불리는 실행 로직.
+- **PBFT**: 패브릭에서 선택 가능한 고급 합의 알고리즘 중 하나.
+- **BaaS (서비스형 블록체인)**: 패브릭을 쉽게 구축할 수 있는 클라우드 서비스 형태.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **우리 반 비밀 일기장**: 아무나 볼 수 있는 일기장이 아니라, 우리 반 친구들만 볼 수 있고 선생님이 허락한 친구들만 글을 쓸 수 있는 특별한 일기장이에요.

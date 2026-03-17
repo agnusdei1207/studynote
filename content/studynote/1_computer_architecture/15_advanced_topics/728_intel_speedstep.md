@@ -1,5 +1,6 @@
 +++
 title = "intel speedstep"
+date = "2026-03-14"
 weight = 728
 +++
 
@@ -332,10 +333,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [P-States](./723_pstates.md) - 성능 상태
-- [AMD Cool'n'Quiet](./729_amd_coolnquiet.md) - AMD 대응 기술
-- [인텔 터보부스트](./730_intel_turbo_boost.md) - 오버클럭 기술
-- [CPU Downclocking](./719_cpu_downclocking.md) - 다운클럭킹
+- P-States - 성능 상태
+- AMD Cool'n'Quiet - AMD 대응 기술
+- 인텔 터보부스트 - 오버클럭 기술
+- CPU Downclocking - 다운클럭킹
 
 ---
 

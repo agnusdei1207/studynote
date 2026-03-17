@@ -1,5 +1,6 @@
 +++
 title = "Sidecar Pattern - 사이드카 패턴"
+date = "2026-03-14"
 weight = 729
 +++
 
@@ -102,6 +103,6 @@ Sidecar Pattern은 보조 컨테이너를 배치합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Service Mesh](./726_service_mesh.md)
-- [Kubernetes](./619_kubernetes.md)
-- [Envoy](./730_envoy.md)
+- Service Mesh
+- Kubernetes
+- Envoy

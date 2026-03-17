@@ -1,5 +1,6 @@
 +++
 title = "PRMA (Packet Reservation Multiple Access)"
+date = "2026-03-14"
 weight = 116
 +++
 
@@ -147,10 +148,10 @@ PRMA(Packet Reservation Multiple Access)는 음성과 데이터를 통합 전송
 ---
 
 ### 📌 관련 개념 링크**:
-- [Slotted ALOHA](./112_slotted_aloha.md)
-- [예약 방식](./113_reservation.md)
-- [DAMA](./117_dama.md)
-- [위성 통신](./205_satellite.md)
+- Slotted ALOHA
+- 예약 방식
+- DAMA
+- 위성 통신
 
 ---
 

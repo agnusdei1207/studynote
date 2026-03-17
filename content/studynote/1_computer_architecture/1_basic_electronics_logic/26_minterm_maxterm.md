@@ -1,6 +1,7 @@
 +++
-weight = 26
 title = "26. 최소항 (Minterm)과 최대항 (Maxterm)"
+date = "2026-03-14"
+weight = 26
 +++
 
 # # [26. 최소항 (Minterm)과 최대항 (Maxterm)]

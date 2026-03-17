@@ -1,5 +1,6 @@
 +++
 title = "Twisted Pair - 트위스티드 페어"
+date = "2026-03-14"
 weight = 986
 +++
 
@@ -112,6 +113,6 @@ Twisted Pair는 두 선을 꼬아 간섭을 줄입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Crosstalk](./985_crosstalk.md)
-- [Ethernet](./901_ethernet.md)
-- [EMI](./xxx_emi.md)
+- Crosstalk
+- Ethernet
+- EMI

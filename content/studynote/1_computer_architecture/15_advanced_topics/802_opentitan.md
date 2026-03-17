@@ -1,5 +1,6 @@
 +++
 title = "opentitan"
+date = "2026-03-14"
 weight = 802
 +++
 
@@ -155,10 +156,10 @@ OpenTitan은 Google이 주도하는 오픈소스 하드웨어 RoT(Root of Trust)
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [RISC-V PMP](./800_riscv_pmp.md)
-- [RISC-V ePMP](./801_riscv_epmp.md)
-- [TPM](./786_tpm.md)
-- [Google Titan](./792_google_titan.md)
+- RISC-V PMP
+- RISC-V ePMP
+- TPM
+- Google Titan
 
 ---
 

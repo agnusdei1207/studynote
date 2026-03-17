@@ -1,5 +1,6 @@
 +++
 title = "629. 베어메탈 클라우드 (Bare Metal Cloud)"
+date = "2026-03-14"
 weight = 629
 +++
 

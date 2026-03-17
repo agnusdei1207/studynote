@@ -1,5 +1,6 @@
 +++
 title = "microsoft pluton"
+date = "2026-03-14"
 weight = 793
 +++
 
@@ -137,10 +138,10 @@ Microsoft Pluton 보안 칩은 Microsoft가 AMD, Intel과 협력하여 개발한
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [Google Titan](./792_google_titan.md)
-- [애플 SEP](./791_apple_sep.md)
-- [TPM](./786_tpm.md)
-- [AWS Nitro Enclaves](./794_aws_nitro.md)
+- Google Titan
+- 애플 SEP
+- TPM
+- AWS Nitro Enclaves
 
 ---
 

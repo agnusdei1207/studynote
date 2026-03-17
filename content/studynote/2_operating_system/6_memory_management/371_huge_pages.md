@@ -1,7 +1,8 @@
----
-weight = 371
++++
 title = "371. 거대 페이지 (Huge Pages / Transparent Huge Pages)"
----
+date = "2026-03-14"
+weight = 371
++++
 
 # 371. 거대 페이지 (Huge Pages / Transparent Huge Pages)
 

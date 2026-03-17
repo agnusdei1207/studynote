@@ -1,5 +1,6 @@
 +++
 title = "Trunk - 트렁크 (VLAN Trunking)"
+date = "2026-03-14"
 weight = 543
 +++
 
@@ -96,6 +97,6 @@ Trunk는 여러 VLAN의 트래픽을 하나의 링크로 전송합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [VLAN](./542_vlan.md)
-- [Switch](./541_switch.md)
-- [Router](./331_router.md)
+- VLAN
+- Switch
+- Router

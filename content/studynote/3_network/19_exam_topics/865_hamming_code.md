@@ -1,5 +1,6 @@
 +++
 title = "Hamming Code - 해밍 코드"
+date = "2026-03-14"
 weight = 865
 +++
 
@@ -107,6 +108,6 @@ Hamming Code는 1비트 오류를 수정할 수 있습니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Error Correction](./809_error_correction.md)
-- [FEC](./861_fec.md)
-- [Parity](./862_parity.md)
+- Error Correction
+- FEC
+- Parity

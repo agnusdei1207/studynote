@@ -1,5 +1,6 @@
 +++
 title = "Synchronization - 동기화"
+date = "2026-03-14"
 weight = 819
 +++
 
@@ -103,6 +104,6 @@ Synchronization은 송수신 타이밍을 일치시킵니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Clock](./xxx_clock.md)
-- [NTP](./xxx_ntp.md)
-- [Timing](./xxx_timing.md)
+- Clock
+- NTP
+- Timing

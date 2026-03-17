@@ -1,6 +1,7 @@
 +++
-weight = 497
 title = "497. SR-IOV (Single Root I/O Virtualization)"
+date = "2026-03-14"
+weight = 497
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -102,9 +103,9 @@ title = "497. SR-IOV (Single Root I/O Virtualization)"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[IOMMU (VT-d / AMD-Vi)](../../1_computer_architecture/7_virtual_memory_os_integration/xx_iommu.md)**: SR-IOV의 하드웨어 보안 및 주소 변환 기반 기술.
-- **[Virtio](../../2_operating_system/10_security_performance_virtualization/xx_virtio.md)**: SR-IOV가 나오기 전 표준적이었던 소프트웨어 가상화 방식.
-- **[DPDK (Data Plane Development Kit)](../../3_network/xx_dpdk.md)**: SR-IOV와 함께 쓰여 커널을 거치지 않는 초고속 패킷 처리 기술.
+- **IOMMU (VT-d / AMD-Vi)**: SR-IOV의 하드웨어 보안 및 주소 변환 기반 기술.
+- **Virtio**: SR-IOV가 나오기 전 표준적이었던 소프트웨어 가상화 방식.
+- **DPDK (Data Plane Development Kit)**: SR-IOV와 함께 쓰여 커널을 거치지 않는 초고속 패킷 처리 기술.
 
 ---
 

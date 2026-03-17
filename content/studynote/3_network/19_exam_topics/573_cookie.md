@@ -1,5 +1,6 @@
 +++
 title = "Cookie - 쿠키"
+date = "2026-03-14"
 weight = 573
 +++
 
@@ -99,6 +100,6 @@ Cookie는 브라우저에 저장되는 작은 데이터입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [HTTP](./556_http.md)
-- [Session](./574_session.md)
-- [CSRF](./572_csrf.md)
+- HTTP
+- Session
+- CSRF

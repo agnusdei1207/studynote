@@ -1,5 +1,6 @@
 +++
 title = "Exception - 예외"
+date = "2026-03-14"
 weight = 645
 +++
 
@@ -102,6 +103,6 @@ Exception은 프로그램 실행 중 발생하는 특수 상황입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Interrupt](./643_interrupt.md)
-- [System Call](./646_system_call.md)
-- [Page Fault](./649_page_fault.md)
+- Interrupt
+- System Call
+- Page Fault

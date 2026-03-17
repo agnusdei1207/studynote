@@ -1,7 +1,7 @@
 +++
-weight = 654
 title = "654. 문맥 교환(Context Switch) 오버헤드 발생 지점 분석"
 date = "2024-05-23"
+weight = 654
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "Context Switching", "Overhead", "PCB", "Cache Cold", "TLB Flush"]
@@ -12,7 +12,7 @@ keywords = ["운영체제", "Context Switching", "Overhead", "PCB", "Cache Cold"
 > 오버헤드는 단순히 CPU 레지스터를 저장하고 복원하는 하드웨어적 시간을 넘어, 캐시(Cache)와 TLB(Translation Lookaside Buffer)의 무효화로 인한 성능 저하까지 포함한다.
 > 따라서 효율적인 운영체제 설계는 문맥 교환의 빈도를 최적화하고, 하드웨어 특성을 고려하여 전환 비용을 최소화하는 전략에 집중한다.
 
----
++++
 
 ### Ⅰ. 문맥 교환(Context Switch)의 정의와 필요성
 
@@ -25,7 +25,7 @@ keywords = ["운영체제", "Context Switching", "Overhead", "PCB", "Cache Cold"
 
 📢 섹션 요약 비유: 문맥 교환은 공부하던 책(Process A)을 덮고 다른 책(Process B)을 펴서 다시 읽기 시작하는 '준비 과정'과 같습니다.
 
----
++++
 
 ### Ⅱ. 오버헤드 발생 지점 상세 분석
 
@@ -52,7 +52,7 @@ keywords = ["운영체제", "Context Switching", "Overhead", "PCB", "Cache Cold"
 
 📢 섹션 요약 비유: 책을 바꿀 때 책상을 치우고(Cache Flush) 필요한 필기도구를 다시 꺼내는(State Load) 시간이 실제 공부 시간보다 길어질 수 있는 것과 같습니다.
 
----
++++
 
 ### Ⅲ. 프로세스 vs 스레드 문맥 교환의 차이
 
@@ -65,7 +65,7 @@ keywords = ["운영체제", "Context Switching", "Overhead", "PCB", "Cache Cold"
 
 📢 섹션 요약 비유: 다른 과목으로 공부를 바꾸는 것(Process Switch)보다 같은 과목의 다른 단원을 공부하는 것(Thread Switch)이 훨씬 덜 번거로운 것과 같습니다.
 
----
++++
 
 ### Ⅳ. 하드웨어적 최적화 기술
 
@@ -78,7 +78,7 @@ keywords = ["운영체제", "Context Switching", "Overhead", "PCB", "Cache Cold"
 
 📢 섹션 요약 비유: 책상 서랍 여러 개에 각 과목의 필기도구를 미리 넣어두고 서랍만 바꿔 열면(Register Set) 되는 아주 편리한 책상과 같습니다.
 
----
++++
 
 ### Ⅴ. 시스템 설계 시 고려사항
 
@@ -91,7 +91,7 @@ keywords = ["운영체제", "Context Switching", "Overhead", "PCB", "Cache Cold"
 
 📢 섹션 요약 비유: 책을 1분마다 바꾸면(Short Quantum) 책 바꾸느라 시간을 다 쓰고, 10시간 동안 한 권만 읽으면(Long Quantum) 다른 일을 전혀 못 하는 것과 같아서 '적당한 시간'이 중요합니다.
 
----
++++
 
 ### 💡 지식 그래프(Knowledge Graph)
 - **부모 노드**: CPU 스케줄링(CPU Scheduling)

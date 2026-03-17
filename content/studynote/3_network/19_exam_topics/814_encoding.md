@@ -1,5 +1,6 @@
 +++
 title = "Encoding - 인코딩"
+date = "2026-03-14"
 weight = 814
 +++
 
@@ -103,6 +104,6 @@ Encoding은 데이터를 다른 형식으로 변환합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Serialization](./810_serialization.md)
-- [Compression](./811_compression.md)
-- [Character Set](./xxx_charset.md)
+- Serialization
+- Compression
+- Character Set

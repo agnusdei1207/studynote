@@ -1,5 +1,6 @@
 +++
 title = "Feature Flags - 기능 플래그"
+date = "2026-03-14"
 weight = 733
 +++
 
@@ -100,6 +101,6 @@ Feature Flags는 런타임에 기능을 제어합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Canary Deployment](./731_canary_deployment.md)
-- [A/B Testing](./xxx_ab_testing.md)
-- [CI/CD](./xxx_cicd.md)
+- Canary Deployment
+- A/B Testing
+- CI/CD

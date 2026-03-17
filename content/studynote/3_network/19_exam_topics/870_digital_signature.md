@@ -1,5 +1,6 @@
 +++
 title = "Digital Signature - 디지털 서명"
+date = "2026-03-14"
 weight = 870
 +++
 
@@ -111,6 +112,6 @@ Digital Signature는 문서의 진위를 증명합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Asymmetric Key](./869_asymmetric_key.md)
-- [Hash](./813_hash.md)
-- [Certificate](./xxx_certificate.md)
+- Asymmetric Key
+- Hash
+- Certificate

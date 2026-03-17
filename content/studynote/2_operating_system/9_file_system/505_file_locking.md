@@ -1,6 +1,7 @@
 +++
-weight = 505
 title = "505. 파일 잠금 (File Locking) - 공유 락 vs 배타 락"
+date = "2026-03-14"
+weight = 505
 +++
 
 # # [505. 파일 잠금 (File Locking) - 공유 락 vs 배타 락]

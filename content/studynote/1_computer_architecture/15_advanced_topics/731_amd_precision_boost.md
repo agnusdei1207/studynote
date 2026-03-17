@@ -1,5 +1,6 @@
 +++
 title = "amd precision boost"
+date = "2026-03-14"
 weight = 731
 +++
 
@@ -347,10 +348,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [인텔 터보부스트](./730_intel_turbo_boost.md) - Intel 대응 기술
-- [스마트 시프트](./732_smartshift.md) - AMD 전력 분배
-- [AMD Cool'n'Quiet](./729_amd_coolnquiet.md) - AMD 절전 기술
-- [PL1, PL2](./734_pl1_pl2.md) - 전력 제한
+- 인텔 터보부스트 - Intel 대응 기술
+- 스마트 시프트 - AMD 전력 분배
+- AMD Cool'n'Quiet - AMD 절전 기술
+- PL1, PL2 - 전력 제한
 
 ---
 

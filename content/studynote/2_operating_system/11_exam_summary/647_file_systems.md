@@ -1,7 +1,7 @@
 +++
-weight = 647
 title = "647. 운영체제 핵심 요약 - 파일 시스템 및 분산 파일 시스템"
 date = "2024-05-23"
+weight = 647
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "파일 시스템", "File System", "Directory", "Allocation Methods", "DFS", "NFS"]
@@ -12,7 +12,7 @@ keywords = ["운영체제", "파일 시스템", "File System", "Directory", "All
 > 데이터의 효율적 할당(Allocation)과 빈 공간 관리(Free Space Management), 그리고 시스템 장애 시 데이터의 일관성을 보장하는 저널링(Journaling) 기법 등이 기술적 완성도의 핵심이다.
 > 현대의 컴퓨팅 환경은 단일 시스템을 넘어 네트워크상에서 자원을 공유하는 분산 파일 시스템(DFS)과 대규모 데이터 처리를 위한 클라우드 스토리지 형태로 진화하고 있다.
 
----
++++
 
 ### Ⅰ. 파일과 디렉토리의 논리적 구조
 
@@ -25,7 +25,7 @@ keywords = ["운영체제", "파일 시스템", "File System", "Directory", "All
 
 📢 섹션 요약 비유: 도서관에서 책(File)들을 장르별(Directory)로 서가에 정리해두어 찾기 편하게 만드는 시스템과 같습니다.
 
----
++++
 
 ### Ⅱ. 파일 할당 기법(File Allocation Methods)
 
@@ -48,7 +48,7 @@ keywords = ["운영체제", "파일 시스템", "File System", "Directory", "All
 
 📢 섹션 요약 비유: 서류를 한 뭉치로 묶어 두거나(연속), 각 페이지 뒤에 다음 페이지 번호를 적어 두거나(연결), 첫 페이지에 전체 페이지 번호를 다 적어 두는(인덱스) 방식들입니다.
 
----
++++
 
 ### Ⅲ. 빈 공간 관리와 저널링(Journaling)
 
@@ -60,7 +60,7 @@ keywords = ["운영체제", "파일 시스템", "File System", "Directory", "All
 
 📢 섹션 요약 비유: 일기를 먼저 쓰고 일을 처리하는 습관 덕분에, 중간에 무슨 일이 생겨도 어디까지 했는지 바로 알 수 있는 지혜로운 기록법입니다.
 
----
++++
 
 ### Ⅳ. 분산 파일 시스템(DFS, Distributed File System)
 
@@ -75,7 +75,7 @@ keywords = ["운영체제", "파일 시스템", "File System", "Directory", "All
 
 📢 섹션 요약 비유: 내 가방에 있는 책뿐만 아니라 친구 가방에 있는 책도 내 가방에 있는 것처럼 자연스럽게 꺼내서 볼 수 있게 해주는 마법 같은 기술입니다.
 
----
++++
 
 ### Ⅴ. 현대적 파일 시스템과 클라우드
 
@@ -88,7 +88,7 @@ keywords = ["운영체제", "파일 시스템", "File System", "Directory", "All
 
 📢 섹션 요약 비유: 집집마다 있는 작은 서재를 넘어, 전 세계 사람들이 함께 쓰는 거대한 디지털 도서관으로 확장된 오늘날의 모습입니다.
 
----
++++
 
 ### 💡 지식 그래프(Knowledge Graph)
 - **부모 노드**: 운영체제 서비스(OS Services)

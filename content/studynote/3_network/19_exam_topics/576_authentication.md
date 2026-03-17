@@ -1,5 +1,6 @@
 +++
 title = "Authentication - 인증"
+date = "2026-03-14"
 weight = 576
 +++
 
@@ -96,6 +97,6 @@ Authentication은 "누구인가"를 확인합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Authorization](./577_authorization.md)
-- [OAuth](./578_oauth.md)
-- [SSO](./579_sso.md)
+- Authorization
+- OAuth
+- SSO

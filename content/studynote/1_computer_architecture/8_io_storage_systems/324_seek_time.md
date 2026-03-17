@@ -1,11 +1,11 @@
----
-weight = 324
++++
 title = "324. 탐색 시간 (Seek Time)"
 date = "2026-03-11"
+weight = 324
 [extra]
 categories = "studynote-computer-architecture"
 keywords = ["컴퓨터구조", "HDD", "탐색 시간", "Seek Time"]
----
++++
 
 # 탐색 시간 (Seek Time)
 
@@ -14,7 +14,7 @@ keywords = ["컴퓨터구조", "HDD", "탐색 시간", "Seek Time"]
 > 2. **가치**: **SSD (Solid State Drive)** 대비 **HDD**의 **랜덤 액세스(Random Access)** 성능을 결정짓는 가장 큰 변수(약 3~10ms)로, 이를 최적화하는 것이 데이터베이스 및 파일 시스템 성능 튜닝의 핵심입니다.
 > 3. **융합**: **OS (Operating System)**의 **디스크 스케줄링(Disk Scheduling)** 알고리즘(Elevator Algorithm)과 **RAID (Redundant Array of Independent Disks)** 구성의 **스트라이핑(Striping)** 전략과 깊이 연관됩니다.
 
----
++++
 
 ### Ⅰ. 개요 (Context & Background)
 
@@ -29,7 +29,7 @@ keywords = ["컴퓨터구조", "HDD", "탐색 시간", "Seek Time"]
 
 **📢 섹션 요약 비유**: 마치 빠른 속도로 달리는 **레이싱 카(HDD 헤드)**가 코너링 구간(다른 트랙)을 돌기 위해 브레이크를 밟고 핸들을 꺾어 진입로에 진입하는 시간과 같습니다.
 
----
++++
 
 ### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -124,7 +124,7 @@ void optimize_seek_time(struct request_queue *q, int current_head_pos) {
 
 **📢 섹션 요약 비유**: 마치 복잡한 **고속도로 톨게이트**에서 하이패스 차선(고속 패스)을 별도로 운영하여, 차량(HDD 헤드)이 진입로에서 멈출 필요 없이 일정한 속도로 통과(데이터 읽기)할 수 있도록 진입 흐름을 제어하는 것과 같습니다.
 
----
++++
 
 ### Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -157,7 +157,7 @@ void optimize_seek_time(struct request_queue *q, int current_head_pos) {
 
 **📢 섹션 요약 비유**: 마치 배달원이 여기저기 흩어진 집을 방문하는 것보다, 네비게이션(OS 스케줄러)을 통해 **가장 가까운 순서대로 배달 경로를 최적화**하여 방문하면 이동 시간(탐색 시간)을 획기적으로 줄이는 것과 같습니다.
 
----
++++
 
 ### Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 

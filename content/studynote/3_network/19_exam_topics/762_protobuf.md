@@ -1,5 +1,6 @@
 +++
 title = "Protocol Buffers - 프로토콜 버퍼"
+date = "2026-03-14"
 weight = 762
 +++
 
@@ -103,6 +104,6 @@ Protocol Buffers는 구조화된 데이터를 직렬화합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [gRPC](./761_grpc.md)
-- [Serialization](./xxx_serialization.md)
-- [API Design](./711_api_design.md)
+- gRPC
+- Serialization
+- API Design

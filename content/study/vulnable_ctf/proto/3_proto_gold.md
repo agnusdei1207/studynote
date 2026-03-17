@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Prototype Pollution 🥇 Gold"
-description = "LUXORA 플랫폼의 Gold 난이도 Prototype Pollution 공략 - 클라이언트 사이드 오염을 통한 DOM XSS 연계 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Prototype Pollution", "Gold", "Client-Side", "DOM XSS", "Write-up"]
@@ -129,4 +128,3 @@ FLAG: FLAG{PROTO_🥇_CLIENT_XSS_CHAIN_G7H8I9}
    if (config.hasOwnProperty('scriptUrl')) {
        // 안전하게 실행
    }
-   ```

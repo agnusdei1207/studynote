@@ -1,5 +1,6 @@
 +++
 title = "Throughput Calculation - 처리량 계산"
+date = "2026-03-14"
 weight = 829
 +++
 
@@ -107,6 +108,6 @@ Throughput Calculation은 실제 데이터 전송률을 계산합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Throughput](./802_throughput.md)
-- [Bandwidth](./803_bandwidth.md)
-- [Latency](./801_latency.md)
+- Throughput
+- Bandwidth
+- Latency

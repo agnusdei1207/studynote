@@ -1,6 +1,7 @@
 +++
-weight = 498
 title = "498. 2.5D 및 3D 패키징 기술"
+date = "2026-03-14"
+weight = 498
 +++
 
 # 498. 2.5D 및 3D 패키징 기술
@@ -150,10 +151,10 @@ title = "498. 2.5D 및 3D 패키징 기술"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[칩렛 아키텍처 (Chiplet)](./497_chiplet.md)**: 모놀리식 칩을 여러 개로 쪼갠 설계 사상. 이 쪼개진 칩렛들을 다시 하나로 묶어주는 물리적 그릇이 바로 2.5D/3D 패키징이다.
-- **[HBM (High Bandwidth Memory)](./495_hbm.md)**: 3D TSV 적층 기술의 가장 대표적이고 성공적인 상용화 산물. 2.5D 인터포저 위에 GPU와 함께 올라간다.
-- **[TSV (Through-Silicon Via)](./496_tsv.md)**: 3D 패키징을 가능하게 하는 가장 핵심적인 미세 구멍 전극 뚫기 공정 기술.
-- **[무어의 법칙 (Moore's Law)](../3_architecture_basics_performance/146_moore_law.md)**: 트랜지스터 크기를 줄이는 'More Moore'에서 패키징 기술로 집적도를 높이는 'More than Moore'로 반도체 진화의 축이 넘어갔다.
+- **칩렛 아키텍처 (Chiplet)**: 모놀리식 칩을 여러 개로 쪼갠 설계 사상. 이 쪼개진 칩렛들을 다시 하나로 묶어주는 물리적 그릇이 바로 2.5D/3D 패키징이다.
+- **HBM (High Bandwidth Memory)**: 3D TSV 적층 기술의 가장 대표적이고 성공적인 상용화 산물. 2.5D 인터포저 위에 GPU와 함께 올라간다.
+- **TSV (Through-Silicon Via)**: 3D 패키징을 가능하게 하는 가장 핵심적인 미세 구멍 전극 뚫기 공정 기술.
+- **무어의 법칙 (Moore's Law)**: 트랜지스터 크기를 줄이는 'More Moore'에서 패키징 기술로 집적도를 높이는 'More than Moore'로 반도체 진화의 축이 넘어갔다.
 
 ---
 

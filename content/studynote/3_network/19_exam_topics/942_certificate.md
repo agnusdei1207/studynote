@@ -1,5 +1,6 @@
 +++
 title = "Certificate - 인증서"
+date = "2026-03-14"
 weight = 942
 +++
 
@@ -105,6 +106,6 @@ Certificate은 공개키와 소유자 정보를 바인딩합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [PKI](./941_pki.md)
-- [TLS](./882_tls.md)
-- [HTTPS](./884_https.md)
+- PKI
+- TLS
+- HTTPS

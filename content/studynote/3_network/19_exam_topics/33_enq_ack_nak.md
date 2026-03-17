@@ -1,5 +1,6 @@
 +++
 title = "엔트/애크/나크/EOT (ENQ/ACK/NAK/EOT)"
+date = "2026-03-14"
 weight = 33
 +++
 
@@ -157,10 +158,10 @@ weight = 33
 ---
 
 ### 📌 관련 개념 링크**:
-- [회선 제어 규약 Line Discipline](./32_line_discipline.md)
-- [동기 전송 Sync Transmission](./15_동기_전송_문자_동기_SYNC.md)
-- [ARQ 자동 재전송 요청](./22_arq_automatic_repeat.md)
-- [HDLC 프레임 구조](./201_hdlc_frame.md)
+- 회선 제어 규약 Line Discipline
+- 동기 전송 Sync Transmission
+- ARQ 자동 재전송 요청
+- HDLC 프레임 구조
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "동기식 시분할 다중화 (Synchronous TDM)"
+date = "2026-03-14"
 weight = 76
 +++
 
@@ -146,10 +147,10 @@ weight = 76
 ---
 
 ### 📌 관련 개념 링크**:
-- [TDM 시분할 다중화](./75_tdm_time.md)
-- [비동기식 TDM](./77_tdm_statistical.md)
-- [비트/워드 교차](./78_interleaving.md)
-- [TDMA 시분할 다중접속](./89_tdma.md)
+- TDM 시분할 다중화
+- 비동기식 TDM
+- 비트/워드 교차
+- TDMA 시분할 다중접속
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "부반송파 (Subcarrier)"
+date = "2026-03-14"
 weight = 85
 +++
 
@@ -147,10 +148,10 @@ weight = 85
 ---
 
 ### 📌 관련 개념 링크**:
-- [OFDM 직교 주파수 분할](./84_ofdm_orthogonal.md)
-- [직교성 Orthogonality](./83_orthogonality.md)
-- [CP/GI 가드 인터벌](./86_cp_gi.md)
-- [QAM 직교 진폭 변조](./54_qam.md)
+- OFDM 직교 주파수 분할
+- 직교성 Orthogonality
+- CP/GI 가드 인터벌
+- QAM 직교 진폭 변조
 
 ---
 

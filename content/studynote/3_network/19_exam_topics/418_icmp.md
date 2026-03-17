@@ -1,5 +1,6 @@
 +++
 title = "ICMP - Internet Control Message Protocol"
+date = "2026-03-14"
 weight = 418
 +++
 
@@ -137,10 +138,10 @@ ICMP는 IP 네트워크의 오류 보고와 진단을 담당합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Ping](./418_ping.md)
-- [Traceroute](./419_traceroute.md)
-- [IPv6](./309_ipv6.md)
-- [Path MTU](./320_path_mtu.md)
+- Ping
+- Traceroute
+- IPv6
+- Path MTU
 
 ---
 

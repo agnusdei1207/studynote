@@ -1,5 +1,6 @@
 +++
 title = "변조 (Modulation) - ASK/FSK/PSK/QAM"
+date = "2026-03-14"
 weight = 168
 +++
 
@@ -157,10 +158,10 @@ weight = 168
 ---
 
 ### 📌 관련 개념 링크**:
-- [다중 접속](./111_aloha.md)
-- [OFDM](./107_ofdm.md)
-- [SNR](./202_snr.md)
-- [BER](./202_ber.md)
+- 다중 접속
+- OFDM
+- SNR
+- BER
 
 ---
 

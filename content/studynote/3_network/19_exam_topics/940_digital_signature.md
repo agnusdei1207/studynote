@@ -1,5 +1,6 @@
 +++
 title = "Digital Signature - 디지털 서명"
+date = "2026-03-14"
 weight = 940
 +++
 
@@ -108,6 +109,6 @@ Digital Signature는 문서의 진위를 증명합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [PKI](./941_pki.md)
-- [Hash](./938_hash.md)
-- [Encryption](./937_encryption.md)
+- PKI
+- Hash
+- Encryption

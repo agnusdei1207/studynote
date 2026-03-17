@@ -1,6 +1,7 @@
 +++
-weight = 527
 title = "527. 가상화 오버헤드 감소 (하드웨어 보조)"
+date = "2026-03-14"
+weight = 527
 +++
 
 # 527. 가상화 오버헤드 감소 (하드웨어 보조)
@@ -134,10 +135,10 @@ title = "527. 가상화 오버헤드 감소 (하드웨어 보조)"
 ---
 
 ### 📌 관련 개념 맵
-- **[VMCS (VM Control Structure)](./529_vmcs.md)**: 상태 관리의 핵심 구조
-- **[SR-IOV (Single Root I/O Virtualization)](./528_sr_iov.md)**: I/O 가상화 가속 기술
-- **[하이퍼바이저 트랩](./530_hypervisor_trap.md)**: 가속이 필요한 원인 현상
-- **[IOMMU / VT-d](./xx_iommu.md)**: 메모리-I/O 보호 기술
+- **VMCS (VM Control Structure)**: 상태 관리의 핵심 구조
+- **SR-IOV (Single Root I/O Virtualization)**: I/O 가상화 가속 기술
+- **하이퍼바이저 트랩**: 가속이 필요한 원인 현상
+- **IOMMU / VT-d**: 메모리-I/O 보호 기술
 
 ---
 

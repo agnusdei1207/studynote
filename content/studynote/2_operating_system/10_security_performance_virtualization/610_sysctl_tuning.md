@@ -1,3 +1,9 @@
++++
+title = "610. 리눅스 커널 튜닝 (Sysctl) 파라미터 최적화"
+date = "2026-03-14"
+[extra]
++++
+
 # 610. 리눅스 커널 튜닝 (Sysctl) 파라미터 최적화
 
 +++
@@ -153,4 +159,3 @@ if (sk_max_ack_backlog > somaxconn)
     1.  **진단**: `vmstat` 및 `iostat` 확인 결과, 특정 시점에 디스크 쓰기(I/O)가 폭증하며 CPU가 I/O Wait 상태에 빠짐. OS가 메모리의 Dirty Page를 한꺼번에 디스크로 내려쓰고 있음.
     2.  **전략**: `vm.dirty_ratio`를 20(기본)에서 5로 낮추고, `vm.dirty_background_ratio`를 10에서 3으로 낮춤. 또한 `vm.swappiness`를 60에서 1로 변경하여 DB 버퍼풀이 디스크로 Swap되는 것을 원천 봉쇄.
     3.  **결과**: 디스크 쓰기 부하가 평탄해지고(Smoothed), Swap으로 인한 극심한 지연이 사라짐.
-

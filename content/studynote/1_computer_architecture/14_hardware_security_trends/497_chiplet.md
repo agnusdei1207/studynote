@@ -1,6 +1,7 @@
 +++
-weight = 497
 title = "497. 칩렛 (Chiplet) 아키텍처"
+date = "2026-03-14"
+weight = 497
 +++
 
 # 497. 칩렛 (Chiplet) 아키텍처
@@ -138,10 +139,10 @@ title = "497. 칩렛 (Chiplet) 아키텍처"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[무어의 법칙 (Moore's Law)](../3_architecture_basics_performance/146_moore_law.md)**: 칩렛 아키텍처는 트랜지스터를 더 작게 만드는 '무어의 법칙'이 경제성 벽에 부딪혔을 때, 이를 우회하여 트랜지스터 수를 늘리기 위해 등장한 구원투수다.
-- **[TSV (Through-Silicon Via)](./496_tsv.md)**: 칩렛들을 수직(3D)으로 쌓아 올릴 때 데이터를 위아래로 전달하는 관통 전극 미세 공정 기술.
-- **[HBM (High Bandwidth Memory)](./495_hbm.md)**: 칩렛과 가장 찰떡궁합을 이루는 3D 적층 메모리로, 인터포저 위에서 GPU 칩렛과 짝을 이룬다.
-- **[이기종 컴퓨팅 (Heterogeneous Computing)](../12_accelerators_ai_hardware/439_heterogeneous_computing.md)**: CPU, GPU, NPU 등 서로 다른 성격의 코어를 칩렛 형태로 나누어 조립함으로써 이기종 컴퓨팅을 하드웨어 레벨에서 가장 쉽고 강력하게 구현한다.
+- **무어의 법칙 (Moore's Law)**: 칩렛 아키텍처는 트랜지스터를 더 작게 만드는 '무어의 법칙'이 경제성 벽에 부딪혔을 때, 이를 우회하여 트랜지스터 수를 늘리기 위해 등장한 구원투수다.
+- **TSV (Through-Silicon Via)**: 칩렛들을 수직(3D)으로 쌓아 올릴 때 데이터를 위아래로 전달하는 관통 전극 미세 공정 기술.
+- **HBM (High Bandwidth Memory)**: 칩렛과 가장 찰떡궁합을 이루는 3D 적층 메모리로, 인터포저 위에서 GPU 칩렛과 짝을 이룬다.
+- **이기종 컴퓨팅 (Heterogeneous Computing)**: CPU, GPU, NPU 등 서로 다른 성격의 코어를 칩렛 형태로 나누어 조립함으로써 이기종 컴퓨팅을 하드웨어 레벨에서 가장 쉽고 강력하게 구현한다.
 
 ---
 

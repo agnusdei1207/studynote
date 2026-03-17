@@ -1,6 +1,7 @@
 +++
-weight = 12
 title = "12. 모드 비트 (Mode Bit)"
+date = "2026-03-14"
+weight = 12
 +++
 
 # 모드 비트 (Mode Bit)
@@ -127,11 +128,11 @@ title = "12. 모드 비트 (Mode Bit)"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[듀얼 모드 (Dual Mode)](./11_dual_mode.md)**: 모드 비트를 통해 구현되는 운영체제 보호 운영 체계.
-- **[시스템 호출 (System Call)](./13_system_call.md)**: 모드 비트를 안전하게 전환하여 커널 서비스를 요청하는 공식 창구.
-- **[특권 명령 (Privileged Instruction)](./xx_privileged_instruction.md)**: 모드 비트가 0일 때만 실행 가능한 위험한 명령어군.
-- **[인터럽트 (Interrupt)](./16_interrupt.md)**: 하드웨어 이벤트로 인해 모드 비트를 0으로 강제 전환시키는 트리거.
-- **[하이퍼바이저 (Hypervisor)](../13_cloud_architecture/xx_hypervisor.md)**: 모드 비트 구조를 확장하여 여러 운영체제를 격리 운영하는 기술.
+- **듀얼 모드 (Dual Mode)**: 모드 비트를 통해 구현되는 운영체제 보호 운영 체계.
+- **시스템 호출 (System Call)**: 모드 비트를 안전하게 전환하여 커널 서비스를 요청하는 공식 창구.
+- **특권 명령 (Privileged Instruction)**: 모드 비트가 0일 때만 실행 가능한 위험한 명령어군.
+- **인터럽트 (Interrupt)**: 하드웨어 이벤트로 인해 모드 비트를 0으로 강제 전환시키는 트리거.
+- **하이퍼바이저 (Hypervisor)**: 모드 비트 구조를 확장하여 여러 운영체제를 격리 운영하는 기술.
 
 ---
 

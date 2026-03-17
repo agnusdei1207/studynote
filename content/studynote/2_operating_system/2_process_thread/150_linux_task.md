@@ -1,6 +1,7 @@
 +++
-weight = 151
 title = "151. 네임스페이스 격리 프로세스 (Namespace Isolation Process)"
+date = "2026-03-14"
+weight = 151
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -145,10 +146,10 @@ title = "151. 네임스페이스 격리 프로세스 (Namespace Isolation Proces
 ---
 
 ### 📌 관련 개념 맵
-- **[cgroups (Control Groups)](../12_it_management/xx_cgroups.md)**: 네임스페이스가 '무엇을 보느냐'를 격리한다면, cgroups는 '얼마나 쓰느냐'를 제한함.
-- **[클론 시스템 콜 (clone)](./149_clone_syscall.md)**: 네임스페이스 격리를 시작하는 실제 도구.
-- **[도커 (Docker)](../13_cloud_architecture/xx_docker.md)**: 네임스페이스 기술을 대중화시킨 대표적 플랫폼.
-- **[Chroot](./xx_chroot.md)**: 네임스페이스 이전의 원시적인 파일 시스템 격리 기술.
+- **cgroups (Control Groups)**: 네임스페이스가 '무엇을 보느냐'를 격리한다면, cgroups는 '얼마나 쓰느냐'를 제한함.
+- **클론 시스템 콜 (clone)**: 네임스페이스 격리를 시작하는 실제 도구.
+- **도커 (Docker)**: 네임스페이스 기술을 대중화시킨 대표적 플랫폼.
+- **Chroot**: 네임스페이스 이전의 원시적인 파일 시스템 격리 기술.
 
 ---
 

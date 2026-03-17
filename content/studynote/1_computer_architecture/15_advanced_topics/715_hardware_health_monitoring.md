@@ -1,5 +1,6 @@
 +++
 title = "hardware health monitoring"
+date = "2026-03-14"
 weight = 715
 +++
 
@@ -477,10 +478,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [IPMI](./709_ipmi.md) - IPMI 프로토콜
-- [BMC](./710_bmc.md) - 베이스보드 관리 컨트롤러
-- [Redfish](./711_redfish.md) - RESTful 관리 API
-- [OOB Management](./712_oob_management.md) - 대역 외 관리
+- IPMI - IPMI 프로토콜
+- BMC - 베이스보드 관리 컨트롤러
+- Redfish - RESTful 관리 API
+- OOB Management - 대역 외 관리
 
 ---
 

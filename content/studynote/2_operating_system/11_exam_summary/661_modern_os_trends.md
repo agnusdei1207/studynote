@@ -1,7 +1,7 @@
 +++
-weight = 661
 title = "661. 최신 운영체제 트렌드 요약 - 클라우드, AI, 보안"
 date = "2024-05-23"
+weight = 661
 [extra]
 categories = "studynote-operating-system"
 keywords = ["Cloud Native OS", "AI-optimized Kernel", "Zero Trust", "Confidential Computing", "eBPF"]
@@ -12,7 +12,7 @@ keywords = ["Cloud Native OS", "AI-optimized Kernel", "Zero Trust", "Confidentia
 > 가상화와 컨테이너 기술을 넘어선 서버리스(Serverless) 아키텍처와 하드웨어 수준의 기밀 컴퓨팅(Confidential Computing)이 OS의 핵심 신뢰 경계를 재정의하고 있다.
 > 특히 AI 워크로드를 위한 이기종 컴퓨팅 자원의 효율적 스케줄링과 eBPF(Extended Berkeley Packet Filter) 기반의 가시성 확보가 미래 OS 경쟁력의 핵심이다.
 
----
++++
 
 ### Ⅰ. 클라우드 네이티브 OS(Cloud Native OS)와 마이크로서비스
 
@@ -25,7 +25,7 @@ keywords = ["Cloud Native OS", "AI-optimized Kernel", "Zero Trust", "Confidentia
 
 📢 섹션 요약 비유: 클라우드 OS는 거대한 성벽을 쌓는 대신, 필요한 도구만 챙겨서 어디든 빠르게 이동하며 기지를 건설하는 '특수 부대'의 기동성과 같습니다.
 
----
++++
 
 ### Ⅱ. AI 최적화 운영체제 및 이기종 컴퓨팅
 
@@ -54,7 +54,7 @@ keywords = ["Cloud Native OS", "AI-optimized Kernel", "Zero Trust", "Confidentia
 
 📢 섹션 요약 비유: AI 최적화 OS는 교통 신호등이 고정된 시간마다 바뀌는 게 아니라, 차량 흐름을 인공지능이 감지해서 실시간으로 신호를 조절하는 '스마트 교차로'와 같습니다.
 
----
++++
 
 ### Ⅲ. 제로 트러스트(Zero Trust) 기반 OS 보안 체계
 
@@ -67,7 +67,7 @@ keywords = ["Cloud Native OS", "AI-optimized Kernel", "Zero Trust", "Confidentia
 
 📢 섹션 요약 비유: 제로 트러스트 보안 OS는 성문만 지키는 게 아니라, 성 안의 모든 방마다 열쇠를 채우고 이동할 때마다 신분증을 확인하는 '철저한 보안 관리'와 같습니다.
 
----
++++
 
 ### Ⅳ. 가시성과 확장성을 위한 eBPF(Extended Berkeley Packet Filter)
 
@@ -80,7 +80,7 @@ keywords = ["Cloud Native OS", "AI-optimized Kernel", "Zero Trust", "Confidentia
 
 📢 섹션 요약 비유: eBPF는 자동차 엔진을 분해하지 않고도 센서를 곳곳에 부착해 실시간으로 성능을 점검하고 튜닝하는 '디지털 진단기'와 같습니다.
 
----
++++
 
 ### Ⅴ. 엣지 컴퓨팅(Edge Computing) 및 실시간성 강화
 
@@ -93,7 +93,7 @@ keywords = ["Cloud Native OS", "AI-optimized Kernel", "Zero Trust", "Confidentia
 
 📢 섹션 요약 비유: 엣지 OS는 본사의 지시를 기다리지 않고 현장의 상황을 판단해 즉각 대처하는 '현장 소장'의 신속한 판단력과 같습니다.
 
----
++++
 
 ### 💡 지식 그래프(Knowledge Graph)
 - **부모 노드**: 차세대 인프라 플랫폼(Next-Gen Infrastructure)

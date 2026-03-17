@@ -1,6 +1,7 @@
 +++
-weight = 73
 title = "73. 비트 (Bit)"
+date = "2026-03-14"
+weight = 73
 +++
 
 # 비트 (Bit)
@@ -138,10 +139,10 @@ title = "73. 비트 (Bit)"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[바이트 (Byte)](./74_byte.md)**: 8개의 비트가 모여 구성된 데이터 처리의 기본 단위. 시스템 메모리 주소 지정의 기준이 됨.
-- **[논리 게이트 (Logic Gates)](../1_basic_electronics_logic/27_logic_gates.md)**: 비트 스트림을 입력받아 부울 대수에 따라 새로운 비트를 출력하는 하드웨어 회로.
-- **[플립플롭 (Flip-Flop)](../1_basic_electronics_logic/46_flip_flop.md)**: 1비트의 데이터를 안정적으로 저장하고 유지하는 순차 논리 회로.
-- **[부울 대수 (Boolean Algebra)](../1_basic_electronics_logic/22_boolean_algebra.md)**: 비트 기반의 0과 1 논리를 수학적으로 다루는 대수학 체계.
+- **바이트 (Byte)**: 8개의 비트가 모여 구성된 데이터 처리의 기본 단위. 시스템 메모리 주소 지정의 기준이 됨.
+- **논리 게이트 (Logic Gates)**: 비트 스트림을 입력받아 부울 대수에 따라 새로운 비트를 출력하는 하드웨어 회로.
+- **플립플롭 (Flip-Flop)**: 1비트의 데이터를 안정적으로 저장하고 유지하는 순차 논리 회로.
+- **부울 대수 (Boolean Algebra)**: 비트 기반의 0과 1 논리를 수학적으로 다루는 대수학 체계.
 
 ---
 

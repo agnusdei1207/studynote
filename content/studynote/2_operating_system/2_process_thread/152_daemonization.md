@@ -1,6 +1,7 @@
 +++
-weight = 152
 title = "152. 데몬화 (Daemonization) 절차"
+date = "2026-03-14"
+weight = 152
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -139,10 +140,10 @@ title = "152. 데몬화 (Daemonization) 절차"
 ---
 
 ### 📌 관련 개념 맵
-- **[세션 (Session)](./160_session_controlling_terminal.md)**: 데몬화가 탈출하고자 하는 논리적 그룹.
-- **[프로세스 그룹 (Process Group)](./159_process_group.md)**: 신호 전달의 단위이자 데몬의 이전 소속.
-- **[init 프로세스 (PID 1)](./xx_init_process.md)**: 모든 데몬의 최종 부모이자 보호자.
-- **[좀비 프로세스 (Zombie Process)](./109_zombie_process.md)**: 데몬화 과정에서 부모 종료 시 주의해야 할 상태.
+- **세션 (Session)**: 데몬화가 탈출하고자 하는 논리적 그룹.
+- **프로세스 그룹 (Process Group)**: 신호 전달의 단위이자 데몬의 이전 소속.
+- **init 프로세스 (PID 1)**: 모든 데몬의 최종 부모이자 보호자.
+- **좀비 프로세스 (Zombie Process)**: 데몬화 과정에서 부모 종료 시 주의해야 할 상태.
 
 ---
 

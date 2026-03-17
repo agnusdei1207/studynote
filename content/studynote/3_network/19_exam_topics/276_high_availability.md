@@ -1,5 +1,6 @@
 +++
 title = "고가용성 (High Availability) - HA"
+date = "2026-03-14"
 weight = 276
 +++
 
@@ -147,10 +148,10 @@ weight = 276
 ---
 
 ### 📌 관련 개념 링크**:
-- [페일오버](./277_failover.md)
-- [재해 복구](./278_disaster_recovery.md)
-- [FHRP](./275_fhrp.md)
-- [클러스터링](./279_clustering.md)
+- 페일오버
+- 재해 복구
+- FHRP
+- 클러스터링
 
 ---
 

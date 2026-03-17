@@ -1,7 +1,8 @@
----
-weight = 548
++++
 title = "548. 저널링의 3단계 수준 - Journal, Ordered, Writeback"
----
+date = "2026-03-14"
+weight = 548
++++
 
 # 548. 저널링의 3단계 수준 - Journal, Ordered, Writeback
 

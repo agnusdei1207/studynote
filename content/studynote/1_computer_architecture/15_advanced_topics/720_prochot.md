@@ -1,5 +1,6 @@
 +++
 title = "prochot"
+date = "2026-03-14"
 weight = 720
 +++
 
@@ -395,10 +396,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [CPU Downclocking](./719_cpu_downclocking.md) - 클럭 다운클럭킹
-- [P-States](./723_pstates.md) - 성능 상태
-- [T-States](./724_tstates.md) - 스로틀 상태
-- [ACPI S-States](./725_acpi_sstates.md) - 절전 상태
+- CPU Downclocking - 클럭 다운클럭킹
+- P-States - 성능 상태
+- T-States - 스로틀 상태
+- ACPI S-States - 절전 상태
 
 ---
 

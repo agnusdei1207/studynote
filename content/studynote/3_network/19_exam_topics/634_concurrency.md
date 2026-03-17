@@ -1,5 +1,6 @@
 +++
 title = "Concurrency - 동시성"
+date = "2026-03-14"
 weight = 634
 +++
 
@@ -95,6 +96,6 @@ Concurrency는 여러 작업을 동시에 진행하는 능력입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Thread](./635_thread.md)
-- [Lock](./632_lock.md)
-- [Deadlock](./633_deadlock.md)
+- Thread
+- Lock
+- Deadlock

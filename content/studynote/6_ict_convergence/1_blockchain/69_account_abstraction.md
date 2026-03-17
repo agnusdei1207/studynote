@@ -1,10 +1,9 @@
----
-title: "[ICT] #70. 계정 추상화 (Account Abstraction, ERC-4337)"
-date: "2026-03-17"
++++
+title = "[ICT] #70. 계정 추상화 (Account Abstraction, ERC-4337)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Account_Abstraction_ERC4337_SmartContractWallet_UserOperation_Paymaster"
----
+keyword = "Account_Abstraction_ERC4337_SmartContractWallet_UserOperation_Paymaster"
++++
 
 # 계정 추상화 (Account Abstraction): 지갑의 한계를 넘어 사용자 경험의 혁신으로
 
@@ -13,7 +12,7 @@ keyword: "Account_Abstraction_ERC4337_SmartContractWallet_UserOperation_Paymaste
 > 2. **가치**: 이메일 로그인, 생체 인증 복구, 가스비 대납(Paymaster), 다중 서명 결합 등 기존 웹(Web 2.0)과 동등한 수준의 편리한 **사용자 경험(UX)**을 블록체인에 이식한다.
 > 3. **융합**: 이더리움의 **ERC-4337** 표준을 통해 프로토콜 변경 없이 구현되었으며, 지갑 보안과 실무적 편의성을 동시에 만족시켜 Web 3.0 대중화의 핵심 열쇠로 평가받는다.
 
----
++++
 
 ## Ⅰ. 계정 추상화 (Account Abstraction) 개요
 
@@ -31,7 +30,7 @@ keyword: "Account_Abstraction_ERC4337_SmartContractWallet_UserOperation_Paymaste
 
 📢 **섹션 요약 비유**: 수동으로 모든 톱니바퀴를 돌려야 했던 '기계식 시계'에서, 내 맘대로 기능을 추가하고 고칠 수 있는 '스마트 워치'로 지갑의 정체성이 바뀐 것입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -92,7 +91,7 @@ keyword: "Account_Abstraction_ERC4337_SmartContractWallet_UserOperation_Paymaste
 
 📢 **섹션 요약 비유**: 은행 창구에 본인이 직접 신분증 들고 가야 했던 일(EOA)을, 이제는 폰으로 지문만 찍거나 믿을 만한 비서(스마트 컨트랙트)에게 대리권을 주어 처리하는 방식입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -113,7 +112,7 @@ keyword: "Account_Abstraction_ERC4337_SmartContractWallet_UserOperation_Paymaste
 
 📢 **섹션 요약 비유**: 수동 카메라(EOA)로 초점과 노출을 직접 맞추던 시대에서, 인공지능이 알아서 예쁘게 찍어주는 스마트폰 카메라(AA) 시대로 넘어온 것입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -130,7 +129,7 @@ keyword: "Account_Abstraction_ERC4337_SmartContractWallet_UserOperation_Paymaste
 
 📢 **섹션 요약 비유**: 모든 차가 같은 규격의 도로(표준)를 달리게 되어 안전해졌지만, 내 차(개별 지갑)의 엔진이 고장 나지 않았는지 점검하는 것은 주인의 몫입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -144,13 +143,13 @@ keyword: "Account_Abstraction_ERC4337_SmartContractWallet_UserOperation_Paymaste
 
 📢 **섹션 요약 비유**: 계정 추상화는 블록체인이 '똑똑한 사람만 쓰는 난해한 도구'에서 '전 인류가 숨 쉬듯 쓰는 공기'와 같은 존재로 변하게 만드는 **최종 진화의 촉매제**입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[ERC-4337](./xx_erc4337.md)**: 계정 추상화의 이더리움 공식 표준 명칭.
-- **[스마트 컨트랙트 지갑](./29_cryptocurrency_wallet.md)**: AA 기술이 실제로 구현된 지갑 형태.
-- **[계정 추상화와 Web 2.5](./68_web_2_5.md)**: AA가 만드는 과도기적 비즈니스 모델.
-- **[영지식 증명 (ZKP)](./36_zero_knowledge_proof.md)**: AA 지갑의 프라이버시를 강화하는 결합 기술.
+- **ERC-4337**: 계정 추상화의 이더리움 공식 표준 명칭.
+- **스마트 컨트랙트 지갑**: AA 기술이 실제로 구현된 지갑 형태.
+- **계정 추상화와 Web 2.5**: AA가 만드는 과도기적 비즈니스 모델.
+- **영지식 증명 (ZKP)**: AA 지갑의 프라이버시를 강화하는 결합 기술.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **마법의 자동 도어락**: 옛날에는 무거운 쇳덩이 열쇠를 들고 다녀야 했지만, 이제는 내 지문만 톡 찍으면 보물 상자 문이 열려요.

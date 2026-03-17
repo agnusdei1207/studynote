@@ -1,5 +1,6 @@
 +++
 title = "crc cyclic redundancy"
+date = "2026-03-14"
 weight = 19
 +++
 
@@ -138,10 +139,10 @@ CRC-16 시프트 레지스터:
 ---
 
 ### 📌 관련 개념 링크**:
-- [패리티 Parity Check](./18_parity_check.md)
-- [에러 제어 오류 검출 정정](./17_에러_제어_오류_검출_정정.md)
-- [Ethernet 프레임 구조](./160_ethernet_frame.md)
-- [HDLC 프레임 구조](./201_hdlc_frame.md)
+- 패리티 Parity Check
+- 에러 제어 오류 검출 정정
+- Ethernet 프레임 구조
+- HDLC 프레임 구조
 
 ---
 

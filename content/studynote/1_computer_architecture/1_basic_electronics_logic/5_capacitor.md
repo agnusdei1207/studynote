@@ -1,6 +1,7 @@
 +++
-weight = 5
 title = "5. 커패시터 (Capacitor, 축전기)"
+date = "2026-03-14"
+weight = 5
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -160,10 +161,10 @@ $$C = \epsilon \cdot \frac{A}{d}$$
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[전압 (Voltage)](./1_voltage.md)**: 커패시터가 일정하게 유지하고자 하는 대상.
-- **[임피던스 (Impedance)](./4_impedance.md)**: 커패시터의 용량성 리액턴스($X_C$)와 기생 성분(ESR/ESL)이 결합된 총체적 특성.
-- **[정전용량 (Capacitance)](./6_capacitance.md)**: 커패시터의 전하 저장 능력을 나타내는 물리량.
-- **[전원 무결성 (Power Integrity)](../13_reliability_power/xx_pi.md)**: 커패시터를 통해 달성하려는 최종적인 전원 안정성 목표.
+- **전압 (Voltage)**: 커패시터가 일정하게 유지하고자 하는 대상.
+- **임피던스 (Impedance)**: 커패시터의 용량성 리액턴스($X_C$)와 기생 성분(ESR/ESL)이 결합된 총체적 특성.
+- **정전용량 (Capacitance)**: 커패시터의 전하 저장 능력을 나타내는 물리량.
+- **전원 무결성 (Power Integrity)**: 커패시터를 통해 달성하려는 최종적인 전원 안정성 목표.
 
 ---
 

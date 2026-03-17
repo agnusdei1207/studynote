@@ -1,5 +1,6 @@
 +++
 title = "Multiplexing - 멀티플렉싱"
+date = "2026-03-14"
 weight = 815
 +++
 
@@ -103,6 +104,6 @@ Multiplexing은 하나의 채널에 여러 신호를 전송합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Bandwidth](./803_bandwidth.md)
-- [HTTP/2](./xxx_http2.md)
-- [Channel](./xxx_channel.md)
+- Bandwidth
+- HTTP/2
+- Channel

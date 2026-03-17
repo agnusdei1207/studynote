@@ -1,6 +1,7 @@
 +++
-weight = 376
 title = "376. 캐시 인식 데이터 구조 (Cache-aware Data Structures)"
+date = "2026-03-14"
+weight = 376
 +++
 
 # 376. 캐시 인식 데이터 구조 (Cache-aware Data Structures)

@@ -1,5 +1,6 @@
 +++
 title = "NetFlow - 넷플로우"
+date = "2026-03-14"
 weight = 1018
 +++
 
@@ -111,6 +112,6 @@ NetFlow는 네트워크 트래픽 플로우를 수집하고 분석합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [sFlow](./1019_sflow.md)
-- [Network Monitoring](./1015_network_monitoring.md)
-- [Traffic Analysis](./xxx_traffic_analysis.md)
+- sFlow
+- Network Monitoring
+- Traffic Analysis

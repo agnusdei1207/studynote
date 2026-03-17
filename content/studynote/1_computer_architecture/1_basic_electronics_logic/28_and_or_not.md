@@ -1,6 +1,7 @@
 +++
-weight = 28
 title = "28. AND, OR, NOT 게이트"
+date = "2026-03-14"
+weight = 28
 +++
 
 # # [기본 논리 게이트 (Basic Logic Gates)]

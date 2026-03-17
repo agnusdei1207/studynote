@@ -1,6 +1,7 @@
 +++
-weight = 491
 title = "491. 핫 스페어 (Hot Spare) 디스크 자동 재구성"
+date = "2026-03-14"
+weight = 491
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -96,9 +97,9 @@ title = "491. 핫 스페어 (Hot Spare) 디스크 자동 재구성"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[RAID 5/6](./487_raid_5.md)**: 핫 스페어와 함께 쓰이는 대표적 중복성 기술.
-- **[MTTR (Mean Time To Repair)](../../3_architecture_basics_performance/xx_reliability.md)**: 핫 스페어가 단축시키고자 하는 핵심 지표.
-- **[SMART (S.M.A.R.T.)](./xx_smart_monitor.md)**: 장애를 예측하여 핫 스페어를 가동시키는 센서.
+- **RAID 5/6**: 핫 스페어와 함께 쓰이는 대표적 중복성 기술.
+- **MTTR (Mean Time To Repair)**: 핫 스페어가 단축시키고자 하는 핵심 지표.
+- **SMART (S.M.A.R.T.)**: 장애를 예측하여 핫 스페어를 가동시키는 센서.
 
 ---
 

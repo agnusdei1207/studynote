@@ -1,7 +1,7 @@
-Here is the rewritten study note, strictly complying with the PE (Professional Engineer) guideline format.
-
-```markdown
 +++
+title = "# [감산기 (Subtractor)]"
+date = "2026-03-14"
+[extra]
 weight = 37
 title = "37. 감산기 (Subtractor)"
 +++

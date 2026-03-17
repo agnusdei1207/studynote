@@ -1,6 +1,7 @@
 +++
-weight = 113
 title = "113. 스레드 로컬 저장소 (TLS, Thread-Local Storage)"
+date = "2026-03-14"
+weight = 113
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -141,9 +142,9 @@ title = "113. 스레드 로컬 저장소 (TLS, Thread-Local Storage)"
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[스레드 (Thread)](./92_thread.md)**: TLS의 주체.
-- **[문맥 교환 (Context Switch)](./13_context_switch.md)**: TLS 주소 포인터(FS/GS)가 교체되는 시점.
-- **[재진입성 (Reentrancy)](../4_software_engineering/xx_reentrancy.md)**: TLS가 보장해주고자 하는 함수의 특성.
+- **스레드 (Thread)**: TLS의 주체.
+- **문맥 교환 (Context Switch)**: TLS 주소 포인터(FS/GS)가 교체되는 시점.
+- **재진입성 (Reentrancy)**: TLS가 보장해주고자 하는 함수의 특성.
 
 ---
 

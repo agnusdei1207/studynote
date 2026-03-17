@@ -1,6 +1,7 @@
 +++
-weight = 411
 title = "411. 에이징 (Aging) 기반 페이지 교체 로직"
+date = "2026-03-14"
+weight = 411
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -122,4 +123,3 @@ graph TD
     Shift -- Weighted --> Recency[Prioritize Recent Access]
     ALRU -- Efficiency --> OH[Low Overhead]
     ALRU -- Comparison --> PLRU[Pure LRU]
-```

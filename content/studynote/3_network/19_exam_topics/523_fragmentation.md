@@ -1,5 +1,6 @@
 +++
 title = "IP Fragmentation - IP 단편화"
+date = "2026-03-14"
 weight = 523
 +++
 
@@ -98,6 +99,6 @@ IP Fragmentation은 큰 패킷을 작은 조각으로 나눕니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [MTU](./522_mtu.md)
-- [Path MTU](./524_path_mtu.md)
-- [IP Header](./525_ip_header.md)
+- MTU
+- Path MTU
+- IP Header

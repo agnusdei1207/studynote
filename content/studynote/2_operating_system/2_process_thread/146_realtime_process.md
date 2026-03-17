@@ -1,6 +1,7 @@
 +++
-weight = 146
 title = "146. 실시간 프로세스 (Real-time Process)"
+date = "2026-03-14"
+weight = 146
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -144,10 +145,10 @@ title = "146. 실시간 프로세스 (Real-time Process)"
 ---
 
 ### 📌 관련 개념 맵
-- **[우선순위 역전 (Priority Inversion)](./xx_priority_inversion.md)**: 실시간 시스템의 최대 적이자 해결 과제.
-- **[컨텍스트 스위칭 (Context Switching)](./87_process_transition.md)**: 실시간 응답을 위한 필수 오버헤드.
-- **[우선순위 상속 (Priority Inheritance)](./xx_priority_inheritance.md)**: 실시간성 유지를 위한 동기화 기법.
-- **[CPU 친화성 (CPU Affinity)](./144_cpu_affinity.md)**: 실시간 태스크의 간섭 제거를 위한 보조 기술.
+- **우선순위 역전 (Priority Inversion)**: 실시간 시스템의 최대 적이자 해결 과제.
+- **컨텍스트 스위칭 (Context Switching)**: 실시간 응답을 위한 필수 오버헤드.
+- **우선순위 상속 (Priority Inheritance)**: 실시간성 유지를 위한 동기화 기법.
+- **CPU 친화성 (CPU Affinity)**: 실시간 태스크의 간섭 제거를 위한 보조 기술.
 
 ---
 

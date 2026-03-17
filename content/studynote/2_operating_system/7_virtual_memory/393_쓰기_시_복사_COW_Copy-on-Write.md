@@ -1,6 +1,7 @@
 +++
-weight = 393
 title = "393. 쓰기 시 복사 (COW, Copy-on-Write)"
+date = "2026-03-14"
+weight = 393
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -117,4 +118,3 @@ graph TD
     FK -- Benefit --> PC[Fast Process Creation]
     FK -- Benefit --> MS[Memory Saving]
     PC -- Interaction --> EX[exec System Call]
-```

@@ -1,5 +1,6 @@
 +++
 title = "충격 잡음 (Impulse Noise)"
+date = "2026-03-14"
 weight = 28
 +++
 
@@ -142,10 +143,10 @@ FEC, 인터리빙으로 대응
 ---
 
 ### 📌 관련 개념 링크**:
-- [백색 잡음 White Noise](./27_white_noise.md)
-- [열 잡음 Thermal Noise](./27_thermal_noise.md)
-- [인터리빙 Interleaving](./35_interleaving.md)
-- [FEC 순방향 오류 정정](./21_fec_forward_error.md)
+- 백색 잡음 White Noise
+- 열 잡음 Thermal Noise
+- 인터리빙 Interleaving
+- FEC 순방향 오류 정정
 
 ---
 

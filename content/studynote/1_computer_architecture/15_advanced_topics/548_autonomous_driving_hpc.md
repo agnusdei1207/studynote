@@ -1,6 +1,7 @@
 +++
-weight = 548
 title = "548. 자율주행용 고성능 컴퓨터 (HPC, High Performance Computer)"
+date = "2026-03-14"
+weight = 548
 +++
 
 # 548. 자율주행용 고성능 컴퓨터 (HPC, High Performance Computer)

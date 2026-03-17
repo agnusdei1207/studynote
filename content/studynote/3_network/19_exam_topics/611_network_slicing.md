@@ -1,5 +1,6 @@
 +++
 title = "Network Slicing - 네트워크 슬라이싱"
+date = "2026-03-14"
 weight = 611
 +++
 
@@ -101,6 +102,6 @@ Network Slicing은 하나의 물리망을 여러 논리망으로 분리합니다
 ---
 
 ### 📌 관련 개념 링크**:
-- [5G](./610_5g.md)
-- [SDN](./603_sdn.md)
-- [NFV](./605_nfv.md)
+- 5G
+- SDN
+- NFV

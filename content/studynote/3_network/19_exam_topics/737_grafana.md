@@ -1,5 +1,6 @@
 +++
 title = "Grafana - 그라파나"
+date = "2026-03-14"
 weight = 737
 +++
 
@@ -113,6 +114,6 @@ Grafana는 메트릭을 시각화합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Prometheus](./736_prometheus.md)
-- [Observability](./735_observability.md)
-- [Loki](./xxx_loki.md)
+- Prometheus
+- Observability
+- Loki

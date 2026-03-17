@@ -1,7 +1,7 @@
----
-title: "477. OWASP Top 10 (2021 기준 주요 취약점)"
-date: 2026-03-15
----
++++
+title = "477. OWASP Top 10 (2021 기준 주요 취약점)"
+date = "2026-03-15"
++++
 
 # 477. OWASP Top 10 (2021 기준 주요 취약점)
 
@@ -159,10 +159,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[Broken Access Control (A01)](./478_broken_access_control.md)**: 2021년판 부동의 1위 취약점
-- **[Insecure Design (A04)](./481_insecure_design.md)**: 2021년 신설된 설계 중심 취약점
-- **[CWE (Common Weakness Enumeration)](./488_cwe.md)**: OWASP의 기술적 기초가 되는 약점 사전
-- **[SAST / DAST](./491_sast_dast.md)**: OWASP 취약점을 찾기 위한 핵심 테스팅 도구
+- **Broken Access Control (A01)**: 2021년판 부동의 1위 취약점
+- **Insecure Design (A04)**: 2021년 신설된 설계 중심 취약점
+- **CWE (Common Weakness Enumeration)**: OWASP의 기술적 기초가 되는 약점 사전
+- **SAST / DAST**: OWASP 취약점을 찾기 위한 핵심 테스팅 도구
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "sFlow - 샘플드 플로우"
+date = "2026-03-14"
 weight = 1019
 +++
 
@@ -113,6 +114,6 @@ sFlow (Sampled Flow)는 패킷 샘플링 기반 트래픽 분석입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [NetFlow](./1018_netflow.md)
-- [Network Monitoring](./1015_network_monitoring.md)
-- [Network Telemetry](./1020_network_telemetry.md)
+- NetFlow
+- Network Monitoring
+- Network Telemetry

@@ -1,6 +1,7 @@
 +++
-weight = 154
 title = "154. 스레드 스택 오버플로우 방지 (Guard Page)"
+date = "2026-03-14"
+weight = 154
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -142,10 +143,10 @@ title = "154. 스레드 스택 오버플로우 방지 (Guard Page)"
 ---
 
 ### 📌 관련 개념 맵
-- **[세그멘테이션 폴트 (Segmentation Fault)](./xx_segfault.md)**: 가드 페이지 침범 시 발생하는 결과.
-- **[가상 메모리 관리 (VMM)](./6_memory_management/xx_vmm.md)**: 가드 페이지를 물리적으로 구현하는 기반.
-- **[스레드 스택 (Thread Stack)](./94_thread_independent_resources.md)**: 보호의 대상이 되는 자원.
-- **[mprotect 시스템 콜](./xx_mprotect.md)**: 가드 페이지의 권한을 설정하는 도구.
+- **세그멘테이션 폴트 (Segmentation Fault)**: 가드 페이지 침범 시 발생하는 결과.
+- **가상 메모리 관리 (VMM)**: 가드 페이지를 물리적으로 구현하는 기반.
+- **스레드 스택 (Thread Stack)**: 보호의 대상이 되는 자원.
+- **mprotect 시스템 콜**: 가드 페이지의 권한을 설정하는 도구.
 
 ---
 

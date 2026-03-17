@@ -1,5 +1,6 @@
 +++
 title = "OpenID Connect - 오픈아이디 커넥트"
+date = "2026-03-14"
 weight = 767
 +++
 
@@ -103,6 +104,6 @@ OpenID Connect는 OAuth 2.0에 인증을 추가합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [OAuth 2.0](./766_oauth2.md)
-- [JWT](./768_jwt.md)
-- [SSO](./769_sso.md)
+- OAuth 2.0
+- JWT
+- SSO

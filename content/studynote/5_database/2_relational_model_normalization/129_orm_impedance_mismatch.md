@@ -1,7 +1,6 @@
 +++
 title = "129. ORM과 임피던스 불일치 (Impedance Mismatch) - 객체와 RDB의 간극"
 date = "2026-03-16"
-draft = false
 weight = 129
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["ORM", "Object-Relational Mapping", "임피던스 불일치", "Imped
 > 2. **차이의 근원**: 객체는 **상속, 참조, 캡슐화**를 중심으로 데이터를 구성하는 반면, RDB는 **외래 키와 조인**을 통한 평면적인 집합 논리를 따르므로, 두 세계를 연결하기 위해 복잡한 매핑 로직이 필연적으로 수반된다.
 > 3. **가치**: ORM은 개발자가 SQL이 아닌 객체 관점에서 비즈니스 로직에 집중하게 하여 생산성을 높여주지만, 내부적인 **N+1 문제**나 성능 최적화를 위해 두 모델의 차이를 깊이 이해하는 아키텍처적 안목이 요구된다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -47,7 +46,7 @@ keywords = ["ORM", "Object-Relational Mapping", "임피던스 불일치", "Imped
 
 - **📢 섹션 요약 비유**: 임피던스 불일치는 '입체적인 생각(객체)'을 '평면적인 종이(RDB)'에 기록하려 할 때 발생하는 어쩔 수 없는 정보의 뒤틀림입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -93,7 +92,7 @@ keywords = ["ORM", "Object-Relational Mapping", "임피던스 불일치", "Imped
 
 - **📢 섹션 요약 비유**: 영속성 컨텍스트는 'DB와의 거래를 기록해두는 장부'와 같아서, 마지막에 장부를 결산(Commit)할 때만 은행(DB)에 갑니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -113,7 +112,7 @@ keywords = ["ORM", "Object-Relational Mapping", "임피던스 불일치", "Imped
 
 - **📢 섹션 요약 비유**: SQL 매퍼가 '수동 기어'라면, ORM은 '자동 기어'입니다. 편하지만 차의 엔진 특성(임피던스)을 모르면 낭패를 볼 수 있습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -132,7 +131,7 @@ keywords = ["ORM", "Object-Relational Mapping", "임피던스 불일치", "Imped
 
 - **📢 섹션 요약 비유**: ORM을 쓴다고 DB 공부를 안 하는 것은 '네비게이션이 있다고 운전 연습을 안 하는 것'과 같이 위험한 일입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -150,15 +149,15 @@ keywords = ["ORM", "Object-Relational Mapping", "임피던스 불일치", "Imped
 
 - **📢 섹션 요약 비유**: 미래의 ORM은 보이지 않는 투명한 끈이 되어, 데이터가 어디에 저장되든 우리가 '물건(객체)'을 다루듯 자연스럽게 소통하게 해줄 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[관계형 데이터 모델](./61_relation_definition.md)**: ORM의 종착지.
-- **[데이터 무결성](./98_data_integrity_concept.md)**: ORM이 수호해야 할 가치.
-- **[N+1 문제](./499_orm_n_plus_one.md)**: ORM의 고질적인 성능 이슈.
-- **[도메인 주도 설계 (DDD)](@/studynote/4_software_engineering/_index.md)**: ORM의 사상적 배경.
+- **관계형 데이터 모델**: ORM의 종착지.
+- **데이터 무결성**: ORM이 수호해야 할 가치.
+- **N+1 문제**: ORM의 고질적인 성능 이슈.
+- **도메인 주도 설계 (DDD)**: ORM의 사상적 배경.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **임피던스 불일치**는 동화책 속 주인공(객체)을 **"표(RDB)"**에 억지로 가두려 할 때 생기는 헷갈리는 상황이에요.

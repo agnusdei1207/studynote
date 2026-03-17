@@ -1,5 +1,6 @@
 +++
 title = "CAP Theorem - CAP 이론"
+date = "2026-03-14"
 weight = 687
 +++
 
@@ -98,6 +99,6 @@ CAP는 분산 시스템의 세 가지 속성 중 두 가지만 보장됩니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [NoSQL](./686_nosql.md)
-- [ACID](./630_acid.md)
-- [BASE](./688_base.md)
+- NoSQL
+- ACID
+- BASE

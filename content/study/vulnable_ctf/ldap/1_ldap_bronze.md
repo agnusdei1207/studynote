@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: LDAP Injection 🥉 Bronze"
-description = "LUXORA 플랫폼의 기본 LDAP Injection을 이용한 내부 디렉터리 검색 로직 우회 및 정보 탈취 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "LDAP Injection", "Bronze", "Directory Service", "Write-up"]

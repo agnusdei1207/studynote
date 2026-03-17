@@ -1,5 +1,6 @@
 +++
 title = "Heartbeat - 하트비트"
+date = "2026-03-14"
 weight = 783
 +++
 
@@ -105,6 +106,6 @@ Heartbeat는 노드 생존을 확인합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Failover](./xxx_failover.md)
-- [High Availability](./xxx_ha.md)
-- [Keepalived](./xxx_keepalived.md)
+- Failover
+- High Availability
+- Keepalived

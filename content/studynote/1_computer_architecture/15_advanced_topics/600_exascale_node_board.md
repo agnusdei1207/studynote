@@ -1,5 +1,6 @@
 +++
 title = "600. 엑사스케일 컴퓨팅 노드 보드"
+date = "2026-03-14"
 weight = 600
 +++
 
@@ -149,11 +150,11 @@ weight = 600
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[HBM (High Bandwidth Memory)](../1_computer_architecture/495_hbm.md)**: 노드 보드의 데이터 대역폭을 책임지는 핵심 메모리.
-- **[액체 냉각 시스템 (Liquid Cooling)](./601_liquid_cooling.md)**: 고밀도 노드 보드의 열을 식히는 필수 인프라.
-- **[칩렛 (Chiplet)](../1_computer_architecture/497_chiplet.md)**: 차세대 고성능 프로세서 설계 방식.
-- **[RDMA (Remote Direct Memory Access)](../1_computer_architecture/510_rdma.md)**: 노드 보드 간 초고속 데이터 전송 기술.
-- **[와트당 성능 (Performance per Watt)](../1_computer_architecture/xx_perf_per_watt.md)**: 엑사스케일 설계의 핵심 평가지표.
+- **HBM (High Bandwidth Memory)**: 노드 보드의 데이터 대역폭을 책임지는 핵심 메모리.
+- **액체 냉각 시스템 (Liquid Cooling)**: 고밀도 노드 보드의 열을 식히는 필수 인프라.
+- **칩렛 (Chiplet)**: 차세대 고성능 프로세서 설계 방식.
+- **RDMA (Remote Direct Memory Access)**: 노드 보드 간 초고속 데이터 전송 기술.
+- **와트당 성능 (Performance per Watt)**: 엑사스케일 설계의 핵심 평가지표.
 
 ---
 

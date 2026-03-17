@@ -1,7 +1,7 @@
 +++
-weight = 652
 title = "652. AppArmor"
 date = "2026-03-16"
+weight = 652
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "AppArmor", "MAC", "프로필", "경로 기반", "SUSE"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "AppArmor", "MAC", "프로필", "경로 기반", "SU
 > 2. **가치**: SELinux보다 **설정이 간단하고 학습 곡선이 낮으며**, Ubuntu, SUSE에서 표준으로 사용되어 컨테이너 보안(Docker, Kubernetes)에 널리 활용된다.
 > 3. **융합**: 커널 모듈로 로드되며, `aa-complain`, `aa-enforce`, `aa-logprof` 등 도구로 프로필을 생성/관리한다.
 
----
++++
 
 ## Ⅰ. AppArmor의 개요
 
@@ -31,7 +31,7 @@ keywords = ["운영체제", "AppArmor", "MAC", "프로필", "경로 기반", "SU
 
 - **📢 섹션 요약 비유**: SELinux는 "복잡한 법률"이지만, AppArmor는 "프로그램별 수침"입니다. 더 쉽고 직관적이죠.
 
----
++++
 
 ## Ⅱ. AppArmor vs SELinux (Deep Dive)
 
@@ -76,7 +76,7 @@ keywords = ["운영체제", "AppArmor", "MAC", "프로필", "경로 기반", "SU
     └─────────────────────────────────────────────────────────────────┘
 ```
 
----
++++
 
 ## Ⅲ. AppArmor 프로필
 
@@ -121,7 +121,7 @@ profile nginx /usr/sbin/nginx {
 | `deny` | 명시적 거부 |
 | `owner` | 소유자 일치 시 |
 
----
++++
 
 ## Ⅳ. AppArmor 명령어
 
@@ -144,7 +144,7 @@ aa-logprof /usr/sbin/nginx
 aa-disable /usr/sbin/nginx
 ```
 
----
++++
 
 ## Ⅴ. 컨테이너와 AppArmor
 
@@ -157,7 +157,7 @@ docker run --security-opt apparmor=nginx-profile nginx
 docker inspect nginx | grep AppArmor
 ```
 
----
++++
 
 ## Ⅵ. 실무 적용
 
@@ -169,7 +169,7 @@ docker inspect nginx | grep AppArmor
 - **"프로필 없이 운영"**
 - **"Overly permissive"**
 
----
++++
 
 ## Ⅶ. 기대효과 및 결론
 
@@ -180,14 +180,14 @@ docker inspect nginx | grep AppArmor
 ### 2. 미래 전맹
 - **LSM(Linux Security Modules)과 통합**
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[SELinux](./651_selinux.md)**: 다른 MAC 구현
-- **[접근 제어](./572_access_control.md)**: 상위 개념
-- **[컨테이너 보안](./660_virtualization_security.md)**: 활용 사례
+- **SELinux**: 다른 MAC 구현
+- **접근 제어**: 상위 개념
+- **컨테이너 보안**: 활용 사례
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. AppArmor는 **"각 아이마다 다른 수칙을 정해주는 선생님"**이에요.

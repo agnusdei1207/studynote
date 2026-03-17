@@ -1,7 +1,6 @@
 +++
 title = "171. 옵티마이저 조인 기법 - NL, Hash, Sort Merge Join 비교"
 date = "2026-03-16"
-draft = false
 weight = 171
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["조인 기법", "Join Method", "Nested Loop Join", "Hash Join", "So
 > 2. **3대 기법**: 순차적 루프를 도는 **Nested Loop(NL)**, 메모리에 해시 테이블을 생성하는 **Hash**, 정렬 후 병합하는 **Sort Merge** 조인이 있으며, 각각 온라인 트랜잭션(OLTP)과 대량 분석(OLAP) 환경에서 차별화된 강점을 갖는다.
 > 3. **가치**: 조인 기법의 선택은 쿼리 성능의 임계치를 결정하는 가장 중요한 요소이며, 실행 계획 분석을 통해 부적절한 조인 방식을 식별하고 교정하는 것이 SQL 튜닝의 핵심 역량이다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -51,7 +50,7 @@ keywords = ["조인 기법", "Join Method", "Nested Loop Join", "Hash Join", "So
 
 - **📢 섹션 요약 비유**: 조인 기법은 '서로 다른 언어를 쓰는 두 집단을 대화시키는 통번역 알고리즘'과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -91,7 +90,7 @@ keywords = ["조인 기법", "Join Method", "Nested Loop Join", "Hash Join", "So
 
 - **📢 섹션 요약 비유**: NL Join은 '필요할 때마다 시장에 가는 것'이고, Hash Join은 '장을 몽땅 봐와서 냉장고를 채워두는 것'입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -109,7 +108,7 @@ keywords = ["조인 기법", "Join Method", "Nested Loop Join", "Hash Join", "So
 
 - **📢 섹션 요약 비유**: NL Join은 '근면 성실한 일꾼'이고, Hash Join은 '장비빨 세우는 기술자'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -128,7 +127,7 @@ keywords = ["조인 기법", "Join Method", "Nested Loop Join", "Hash Join", "So
 
 - **📢 섹션 요약 비유**: 망치로 못을 박아야지(NL), 포크레인(Hash)을 가져오면 벽(성능)이 무너집니다. 도구의 크기와 용도를 아는 것이 튜닝입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -146,15 +145,15 @@ keywords = ["조인 기법", "Join Method", "Nested Loop Join", "Hash Join", "So
 
 - **📢 섹션 요약 비유**: 미래의 조인 기법은 우리가 고민하지 않아도, 데이터의 흐름을 스스로 감지하여 '물(Hash)'처럼 흐를지 '바늘(NL)'처럼 찌를지 결정하는 지능형 유체가 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[옵티마이저 (Optimizer)](./163_optimizer.md)**: 조인 기법을 선택하는 주체.
-- **[중첩 루프 조인 (NL Join)](./172_nl_join.md)**: 1순위 전술.
-- **[해시 조인 (Hash Join)](./173_hash_join.md)**: 대량 데이터의 구원자.
-- **[실행 계획 (Execution Plan)](./164_execution_plan.md)**: 선택된 기법을 확인하는 창.
+- **옵티마이저 (Optimizer)**: 조인 기법을 선택하는 주체.
+- **중첩 루프 조인 (NL Join)**: 1순위 전술.
+- **해시 조인 (Hash Join)**: 대량 데이터의 구원자.
+- **실행 계획 (Execution Plan)**: 선택된 기법을 확인하는 창.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **조인 기법**은 흩어진 장난감 조각들을 합칠 때 쓰는 **"세 가지 마법"**이에요.

@@ -1,5 +1,6 @@
 +++
 title = "Paging - 페이징"
+date = "2026-03-14"
 weight = 640
 +++
 
@@ -99,6 +100,6 @@ Paging은 메모리를 고정 크기 블록으로 분할합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Virtual Memory](./639_virtual_memory.md)
-- [TLB](./641_tlb.md)
-- [Segmentation](./642_segmentation.md)
+- Virtual Memory
+- TLB
+- Segmentation

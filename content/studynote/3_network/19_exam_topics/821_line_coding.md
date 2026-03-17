@@ -1,5 +1,6 @@
 +++
 title = "Line Coding - 라인 코딩"
+date = "2026-03-14"
 weight = 821
 +++
 
@@ -105,6 +106,6 @@ Line Coding은 디지털 데이터를 전송 신호로 변환합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Clock Recovery](./820_clock_recovery.md)
-- [Modulation](./817_modulation.md)
-- [Physical Layer](./xxx_physical_layer.md)
+- Clock Recovery
+- Modulation
+- Physical Layer

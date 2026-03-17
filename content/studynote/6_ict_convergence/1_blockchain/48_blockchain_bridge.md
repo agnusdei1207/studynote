@@ -1,10 +1,9 @@
----
-title: "[ICT] #49. 블록체인 브리지 (Blockchain Bridge)"
-date: "2026-03-17"
++++
+title = "[ICT] #49. 블록체인 브리지 (Blockchain Bridge)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Crosschain_Bridge_Interoperability_LockAndMint_WrappedToken"
----
+keyword = "Crosschain_Bridge_Interoperability_LockAndMint_WrappedToken"
++++
 
 # 블록체인 브리지 (Bridge): 파편화된 체인을 잇는 가치와 정보의 통로
 
@@ -13,7 +12,7 @@ keyword: "Crosschain_Bridge_Interoperability_LockAndMint_WrappedToken"
 > 2. **가치**: 특정 체인에 갇혀있던 유동성을 해방하여 멀티체인 생태계를 활성화하며, **Lock-and-Mint(동결 후 발행)** 메커니즘을 통해 이종 체인 간의 가치 등가성을 유지한다.
 > 3. **융합**: '신뢰 기반(Trusted)'과 '무신뢰(Trustless)' 브리지로 구분되며, 최근에는 수조 원대 해킹의 표적이 되는 보안 취약점을 해결하기 위해 영지식 증명(ZKP) 및 MPC(다자간 연산) 기술이 적극 도입되고 있다.
 
----
++++
 
 ## Ⅰ. 블록체인 브리지 (Blockchain Bridge) 개요
 
@@ -30,7 +29,7 @@ keyword: "Crosschain_Bridge_Interoperability_LockAndMint_WrappedToken"
 
 📢 **섹션 요약 비유**: 섬과 섬 사이를 잇는 거대한 대교(Bridge)와 같아서, 차(자산)들이 막힘없이 바다를 건너 문명(생태계)을 교류하게 만드는 인프라입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -72,7 +71,7 @@ keyword: "Crosschain_Bridge_Interoperability_LockAndMint_WrappedToken"
 
 📢 **섹션 요약 비유**: 실제 보물(자산)은 안전한 금고(소스 체인)에 그대로 있고, 그 보물을 꺼낼 수 있는 권리증(래핑 토큰)만 옆 나라로 보내서 활동하게 하는 '권리 위임 시스템'입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -92,7 +91,7 @@ keyword: "Crosschain_Bridge_Interoperability_LockAndMint_WrappedToken"
 
 📢 **섹션 요약 비유**: Trusted가 '유명 택배사'에게 물건을 믿고 맡기는 것이라면, Trustless는 '첨단 무인 자율 주행 로봇'이 배달 경로를 매 순간 수학적으로 확인하며 가져다주는 차이입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -106,7 +105,7 @@ keyword: "Crosschain_Bridge_Interoperability_LockAndMint_WrappedToken"
 
 📢 **섹션 요약 비유**: 다리가 많아질수록 교류는 활발해지지만, 다리 하나가 무너졌을 때의 피해도 막심하므로 '견고한 교량 설계'와 '우회로 확보'가 가장 중요합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -120,13 +119,13 @@ keyword: "Crosschain_Bridge_Interoperability_LockAndMint_WrappedToken"
 
 📢 **섹션 요약 비유**: 블록체인 브리지는 파편화된 디지털 섬들을 하나로 묶어 거대한 **'디지털 대륙'**을 완성해가는 문명의 연결 고리입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[상호운용성 (Interoperability)](./84_interoperability.md)**: 브리지가 지향하는 최종 목표.
-- **[래핑된 토큰 (Wrapped Token)](./xx_wrapped_token.md)**: 브리지를 통해 탄생한 자산 형태.
-- **[LayerZero / IBC](./xx_omnichain.md)**: 브리지의 한계를 넘는 차세대 통신 프로토콜.
-- **[준비금 증명 (PoR)](./xx_proof_of_reserve.md)**: 브리지 자산의 안전을 검증하는 기술.
+- **상호운용성 (Interoperability)**: 브리지가 지향하는 최종 목표.
+- **래핑된 토큰 (Wrapped Token)**: 브리지를 통해 탄생한 자산 형태.
+- **LayerZero / IBC**: 브리지의 한계를 넘는 차세대 통신 프로토콜.
+- **준비금 증명 (PoR)**: 브리지 자산의 안전을 검증하는 기술.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **마법의 무지개 다리**: 금사과 마을(이더리움)과 은포도 마을(솔라나)을 잇는 마법 다리예요. 금사과를 들고 다리를 건너면 은포도 마을용 사탕으로 바꿔주죠.

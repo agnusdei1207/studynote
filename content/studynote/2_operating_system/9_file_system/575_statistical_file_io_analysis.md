@@ -1,6 +1,7 @@
 +++
-weight = 575
 title = "575. 오퍼레이팅 시스템의 통계적 파일 I/O 분석 (iostat, blktrace)"
+date = "2026-03-14"
+weight = 575
 +++
 
 ## 핵심 인사이트 (3줄 요약)

@@ -13,7 +13,7 @@ tags = ["Dispatch Latency", "Scheduling", "Context Switch", "Real-time"]
 > 2. **가치**: **RTOS (Real-Time Operating System)** 및 고성능 트랜잭션 시스템에서 **WCET (Worst-Case Execution Time)**을 보장하여 시스템의 결정성(Determinism)을 확보하고, **TPS (Transactions Per Second)**를 극대화하는 데 직접적인 영향을 미칩니다.
 > 3. **융합**: **커널 선점 (Kernel Preemption)** 기술, 하드웨어적 캐시 최적화, 그리고 **O(1) 스케줄러 (O(1) Scheduler)**와 같은 고급 알고리즘이 결합하여 마이크로초(µs) 단위의 지연을 최소화합니다.
 
----
++++
 
 ### Ⅰ. 개요 (Context & Background) - [500자+]
 
@@ -29,7 +29,7 @@ tags = ["Dispatch Latency", "Scheduling", "Context Switch", "Real-time"]
 **📢 섹션 요약 비유**
 마치 F1 레이싱의 피트 스탑과 같습니다. 차량이 들어와 멈춘 시점부터 타이어가 교체되고 다시 트랙으로 복귀하여 출발할 때까지의 모든 과정이 디스패치 지연에 해당합니다. 0.1초를 다투는 F1에서 피트 스프의 효율성이 승패를 가르듯, OS에서도 디스패치 지연 최소화가 시스템 성능의 승패를 가릅니다.
 
----
++++
 
 ### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive) - [1,000자+]
 
@@ -116,7 +116,7 @@ void timer_interrupt_handler() {
 **📢 섹션 요약 비유**
 마치 복잡한 고속도로 요금소에서 하이패스 차선(전용 차로)을 별도로 운영하여 병목을 해결하는 것과 같습니다. 비선점형 커널은 모든 차량이 정차하고 요금을 내며 수동 검사(커널 작업 완료 대기)를 받는 구조이지만, 선점형 커널과 최적화된 하드웨어는 통행료 징수(스케줄링)를 무중단으로 처리하고 차로를 즉시 변경(문맥 교환)하여, 마치 통과하는 것처럼(Zero-Latency) 부드러운 흐름을 보장합니다.
 
----
++++
 
 ### Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy) - [비교표 2개+]
 

@@ -1,6 +1,7 @@
 +++
-weight = 254
 title = "254. 메모리 인터리빙 (Memory Interleaving)"
+date = "2026-03-14"
+weight = 254
 +++
 
 # 254. 메모리 인터리빙 (Memory Interleaving)
@@ -150,11 +151,11 @@ title = "254. 메모리 인터리빙 (Memory Interleaving)"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[DDR SDRAM (Double Data Rate)](./253_ddr_sdram.md)**: 인터리빙 아키텍처와 2n-Prefetch 기술을 결합하여 메모리 외부 버스의 데이터 전송률을 극대화한 현대 표준 메모리.
-- **[캐시 미스 원인 (3C Model)](./270_cache_miss_3c.md)**: 뱅크 컨플릭트로 인한 지연은 캐시 미스와 함께 프로세서 파이프라인을 멈추게(Stall) 하는 주요 원인임.
-- **[RAID (Redundant Array of Independent Disks)](../8_io_storage_systems/331_raid.md)**: 인터리빙의 '하위 주소 체계'를 하드 디스크 레벨에 적용하여 파일 블록을 스트라이핑(Striping)하는 병렬 스토리지 기술.
-- **[NUMA (Non-Uniform Memory Access)](../10_parallel_processing_architecture/380_numa.md)**: 멀티 소켓 환경에서 메모리를 물리적으로 분산시켜, 로컬 접근은 빠르나 원격 인터리빙 시에는 일관성 트래픽이 증가하는 메모리 아키텍처.
-- **[메모리 컨트롤러 (Memory Controller)](./xx_memory_controller.md)**: CPU 내부에 위치하며, 가상 주소를 물리 주소로 변환한 후 채널, 랭크, 뱅크에 맞춰 인터리빙 매핑을 수행하는 두뇌 역할.
+- **DDR SDRAM (Double Data Rate)**: 인터리빙 아키텍처와 2n-Prefetch 기술을 결합하여 메모리 외부 버스의 데이터 전송률을 극대화한 현대 표준 메모리.
+- **캐시 미스 원인 (3C Model)**: 뱅크 컨플릭트로 인한 지연은 캐시 미스와 함께 프로세서 파이프라인을 멈추게(Stall) 하는 주요 원인임.
+- **RAID (Redundant Array of Independent Disks)**: 인터리빙의 '하위 주소 체계'를 하드 디스크 레벨에 적용하여 파일 블록을 스트라이핑(Striping)하는 병렬 스토리지 기술.
+- **NUMA (Non-Uniform Memory Access)**: 멀티 소켓 환경에서 메모리를 물리적으로 분산시켜, 로컬 접근은 빠르나 원격 인터리빙 시에는 일관성 트래픽이 증가하는 메모리 아키텍처.
+- **메모리 컨트롤러 (Memory Controller)**: CPU 내부에 위치하며, 가상 주소를 물리 주소로 변환한 후 채널, 랭크, 뱅크에 맞춰 인터리빙 매핑을 수행하는 두뇌 역할.
 
 ---
 

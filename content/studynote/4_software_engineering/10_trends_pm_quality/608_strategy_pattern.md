@@ -1,9 +1,7 @@
----
-title: "608. 전략 패턴(Strategy Pattern) 알고리즘 교체 용이성"
-date: "2026-03-15"
-type: "pe_exam"
-id: 608
----
++++
+title = "608. 전략 패턴(Strategy Pattern) 알고리즘 교체 용이성"
+date = "2026-03-15"
++++
 
 # 608. 전략 패턴(Strategy Pattern) 알고리즘 교체 용이성
 
@@ -287,11 +285,11 @@ Java의 `Collections.sort()`는 전략 패턴의 실무 적용 사례다.
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[행위 패턴(Behavioral Patterns)](./566_behavioral_patterns.md)**: 전략 패턴이 속한 상위 카테고리.
-- **[OCP(Open-Closed Principle)](./601_solid_principles.md)**: 전략 패턴이 준수하는 개방-폐쇄 원칙.
-- **[상태 패턴(State Pattern)](./272_state.md)**: 알고리즘 교체와 유사하지만 상태 전이에 특화된 패턴.
-- **[함수형 프로그래밍](./324_functional_programming.md)**: 전략 패턴의 함수형 대체재.
-- **[Comparator](./xx_comparator.md)**: Java에서의 전략 패턴 구현.
+- **행위 패턴(Behavioral Patterns)**: 전략 패턴이 속한 상위 카테고리.
+- **OCP(Open-Closed Principle)**: 전략 패턴이 준수하는 개방-폐쇄 원칙.
+- **상태 패턴(State Pattern)**: 알고리즘 교체와 유사하지만 상태 전이에 특화된 패턴.
+- **함수형 프로그래밍**: 전략 패턴의 함수형 대체재.
+- **Comparator**: Java에서의 전략 패턴 구현.
 
 ---
 

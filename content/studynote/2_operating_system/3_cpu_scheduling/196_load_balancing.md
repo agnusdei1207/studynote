@@ -1,7 +1,7 @@
 +++
 title = "196. 부하 균등화 (Load Balancing)"
-weight = 196
 date = "2026-03-04"
+weight = 196
 [extra]
 categories = "studynote-operating-system"
 +++
@@ -13,7 +13,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 전체 시스템의 처리량 (Throughput)을 최적화하고 응답 시간을 단축하며, 특정 하드웨어 자원의 편중된 사용으로 인한 발열 및 수명 저하를 방지한다.
 > 3. **융합**: 가상화 환경의 VM 마이그레이션, 클라우드 오케스트레이션의 스케줄링 정책, 그리고 NUMA 아키텍처의 메모리 접근 지연 최적화와 밀접하게 연계된다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -23,7 +23,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 마치 여러 개의 컵에 물(작업)을 따를 때, 한 컵만 넘치지 않게 모든 컵의 수위(부하)를 비슷하게 맞추는 평형 유지 작업과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -52,7 +52,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 요리사(CPU)가 옆 주방으로 이동할 때, 자기가 쓰던 도구와 재료(캐시)를 두고 가야 해서 처음에는 조금 서툴 수밖에 없는 것과 비슷합니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -67,7 +67,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: Push는 선생님이 학생들을 빈 자리로 배정하는 것이고, Pull은 빈 자리에 앉은 학생이 친구를 자기 옆으로 부르는 것과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -77,7 +77,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 옆 동네 가게(다른 노드)가 한가하다고 해서 배달원(프로세스)을 보냈더니, 물건(메모리)을 가지러 우리 동네까지 다시 오느라 시간이 더 걸리는 상황을 막아야 합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -86,12 +86,12 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 모든 바퀴가 골고루 힘을 받아야 자동차가 똑바로 빨리 가듯, 모든 코어가 제 몫을 다하게 만드는 것이 부하 균등화의 마침표입니다.
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[프로세서 친화성 (Processor Affinity)](./197_processor_affinity.md)**: 부하 균등화 시 파괴되는 성능 요소
-- **[NUMA 아키텍처](../6_memory_management/377_numa_memory_allocation.md)**: 부하 균등화의 물리적 제약 환경
-- **[멀티코어 스케줄링](./198_multicore_scheduling.md)**: 부하 균등화가 적용되는 상위 도메인
+- **프로세서 친화성 (Processor Affinity)**: 부하 균등화 시 파괴되는 성능 요소
+- **NUMA 아키텍처**: 부하 균등화의 물리적 제약 환경
+- **멀티코어 스케줄링**: 부하 균등화가 적용되는 상위 도메인
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 여러 명의 친구가 숙제를 할 때, 한 친구만 너무 많이 하고 다른 친구는 놀고 있으면 불공평하죠?

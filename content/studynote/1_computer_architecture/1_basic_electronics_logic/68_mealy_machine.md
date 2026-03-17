@@ -1,8 +1,7 @@
-
-```markdown
 +++
-weight = 68
 title = "68. 밀리 머신 (Mealy Machine)"
+date = "2026-03-14"
+weight = 68
 +++
 
 # 68. 밀리 머신 (Mealy Machine)

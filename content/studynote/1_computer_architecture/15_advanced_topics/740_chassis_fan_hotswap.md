@@ -1,5 +1,6 @@
 +++
 title = "chassis fan hotswap"
+date = "2026-03-14"
 weight = 740
 +++
 
@@ -330,10 +331,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [BMC](./710_bmc.md) - 베이스보드 관리 컨트롤러
-- [IPMI](./709_ipmi.md) - 지능형 플랫폼 관리 인터페이스
-- [Redfish](./711_redfish.md) - RESTful 관리 API
-- [하드웨어 건전성 모니터링](./715_hardware_health_monitoring.md) - 상태 모니터링
+- BMC - 베이스보드 관리 컨트롤러
+- IPMI - 지능형 플랫폼 관리 인터페이스
+- Redfish - RESTful 관리 API
+- 하드웨어 건전성 모니터링 - 상태 모니터링
 
 ---
 

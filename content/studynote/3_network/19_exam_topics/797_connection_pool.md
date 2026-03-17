@@ -1,5 +1,6 @@
 +++
 title = "Connection Pool - 커넥션 풀"
+date = "2026-03-14"
 weight = 797
 +++
 
@@ -100,6 +101,6 @@ Connection Pool은 연결을 재사용합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Thread Pool](./798_thread_pool.md)
-- [Database Connection](./xxx_db_connection.md)
-- [Resource Management](./xxx_resource.md)
+- Thread Pool
+- Database Connection
+- Resource Management

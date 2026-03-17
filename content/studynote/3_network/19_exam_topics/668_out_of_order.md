@@ -1,5 +1,6 @@
 +++
 title = "Out-of-order Execution - 비순차 실행"
+date = "2026-03-14"
 weight = 668
 +++
 
@@ -99,6 +100,6 @@ Out-of-order Execution은 의존성 없는 명령어를 먼저 실행합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Pipeline](./664_pipeline.md)
-- [Speculative Execution](./667_speculative_execution.md)
-- [ILP](./670_ilp.md)
+- Pipeline
+- Speculative Execution
+- ILP

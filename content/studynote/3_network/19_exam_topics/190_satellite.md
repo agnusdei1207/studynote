@@ -1,5 +1,6 @@
 +++
 title = "위성 통신 (Satellite) - GEO/MEO/LEO"
+date = "2026-03-14"
 weight = 190
 +++
 
@@ -139,10 +140,10 @@ weight = 190
 ---
 
 ### 📌 관련 개념 링크**:
-- [마이크로파](./155_microwave.md)
-- [파라볼라 안테나](./174_parabolic.md)
-- [GPS](./202_gps.md)
-- [5G NTN](./185_5g_nr.md)
+- 마이크로파
+- 파라볼라 안테나
+- GPS
+- 5G NTN
 
 ---
 

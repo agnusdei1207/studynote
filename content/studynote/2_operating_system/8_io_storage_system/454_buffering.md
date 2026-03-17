@@ -1,6 +1,7 @@
 +++
-weight = 454
 title = "454. 버퍼링 (Buffering)"
+date = "2026-03-14"
+weight = 454
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -109,9 +110,9 @@ title = "454. 버퍼링 (Buffering)"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[이중 버퍼링 (Double Buffering)](./455_double_buffering.md)**: 성능을 극대화한 버퍼링 심화 기술.
-- **[캐싱 (Caching)](./456_caching.md)**: 버퍼링과 유사하나 '재사용'에 방점을 둔 기술.
-- **[Zero-copy](./xx_zero_copy.md)**: 불필요한 버퍼 복사를 제거하는 최적화 기법.
+- **이중 버퍼링 (Double Buffering)**: 성능을 극대화한 버퍼링 심화 기술.
+- **캐싱 (Caching)**: 버퍼링과 유사하나 '재사용'에 방점을 둔 기술.
+- **Zero-copy**: 불필요한 버퍼 복사를 제거하는 최적화 기법.
 
 ---
 

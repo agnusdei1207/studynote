@@ -1,5 +1,6 @@
 +++
 title = "cgroups (Control Groups) 자원 할당"
+date = "2026-03-14"
 weight = 668
 +++
 

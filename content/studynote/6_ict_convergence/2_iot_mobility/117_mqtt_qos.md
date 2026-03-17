@@ -1,10 +1,9 @@
----
-title: "[ICT] #118. MQTT (Message Queuing Telemetry Transport) 및 QoS"
-date: "2026-03-17"
++++
+title = "[ICT] #118. MQTT (Message Queuing Telemetry Transport) 및 QoS"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "MQTT_PubSub_Broker_QoS_IoTProtocol_TCP_Lightweight"
----
+keyword = "MQTT_PubSub_Broker_QoS_IoTProtocol_TCP_Lightweight"
++++
 
 # MQTT: 초경량 Pub/Sub 구조로 만물을 잇는 사물인터넷 메시징 표준
 
@@ -13,7 +12,7 @@ keyword: "MQTT_PubSub_Broker_QoS_IoTProtocol_TCP_Lightweight"
 > 2. **가치**: 클라이언트 간의 직접 연결 없이 '브로커(Broker)'를 통해 메시지를 중계함으로써, 수만 개의 센서가 네트워크 상태와 무관하게 비동기적으로 데이터를 주고받을 수 있는 극강의 확장성(Scalability)을 제공한다.
 > 3. **융합**: 서비스 품질(QoS) 레벨 0, 1, 2를 지원하여 데이터의 중요도에 따라 전송 보장 수준을 선택할 수 있으며, 클라우드 플랫폼(AWS IoT, Azure IoT)의 기본 수집 프로토콜로 사용된다.
 
----
++++
 
 ## Ⅰ. MQTT (Message Queuing Telemetry Transport) 개요
 
@@ -31,7 +30,7 @@ keyword: "MQTT_PubSub_Broker_QoS_IoTProtocol_TCP_Lightweight"
 
 📢 **섹션 요약 비유**: 수만 명의 사람들이 얽혀있는 복잡한 밧줄을 끊어내고, 중앙의 교통순경(브로커)에게 모든 길 안내를 맡겨 도로(네트워크)의 정체를 뚫어낸 혁신입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -85,7 +84,7 @@ keyword: "MQTT_PubSub_Broker_QoS_IoTProtocol_TCP_Lightweight"
 
 📢 **섹션 요약 비유**: 전단지를 문 앞에 대충 던져두고 가기(QoS 0), 수령 사인을 받을 때까지 계속 찾아가기(QoS 1), 신분증을 확인하고 영수증까지 꼼꼼히 챙겨주기(QoS 2)의 차이입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -105,7 +104,7 @@ keyword: "MQTT_PubSub_Broker_QoS_IoTProtocol_TCP_Lightweight"
 
 📢 **섹션 요약 비유**: HTTP가 '주문할 때마다 매번 전화를 걸어 메뉴를 말하는 것'이라면, MQTT는 '전용 회선을 열어두고 언제든 짧게 신호만 보내는 무전기'와 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -123,7 +122,7 @@ keyword: "MQTT_PubSub_Broker_QoS_IoTProtocol_TCP_Lightweight"
 
 📢 **섹션 요약 비유**: 우체국(브로커)이 하나만 있으면 마비되므로 여러 우체국을 짓고 연결(클러스터링)하며, 중요한 편지는 금고(TLS)에 담아 보내는 철저한 설계가 필요합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -137,13 +136,13 @@ keyword: "MQTT_PubSub_Broker_QoS_IoTProtocol_TCP_Lightweight"
 
 📢 **섹션 요약 비유**: MQTT는 수억 개의 사물들이 동시에 말해도 절대 엉키지 않게 만들어주는 사물인터넷 세상의 '완벽한 교통망'입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[CoAP (Constrained Application Protocol)](./119_coap.md)**: MQTT의 영원한 라이벌인 UDP/REST 기반 경량 프로토콜.
-- **[TCP/IP](../../3_network/xx_tcp_ip.md)**: MQTT가 기반으로 하는 신뢰성 있는 전송 계층.
-- **[Kafka (Apache Kafka)](../../16_bigdata/xx_kafka.md)**: MQTT 브로커 뒤에서 대규모 데이터를 받아주는 분산 스트리밍 플랫폼.
-- **[퍼블리시/서브스크라이브 패턴](../../4_software_engineering/xx_pubsub_pattern.md)**: MQTT 아키텍처의 근본이 되는 소프트웨어 디자인 패턴.
+- **CoAP (Constrained Application Protocol)**: MQTT의 영원한 라이벌인 UDP/REST 기반 경량 프로토콜.
+- **TCP/IP**: MQTT가 기반으로 하는 신뢰성 있는 전송 계층.
+- **Kafka (Apache Kafka)**: MQTT 브로커 뒤에서 대규모 데이터를 받아주는 분산 스트리밍 플랫폼.
+- **퍼블리시/서브스크라이브 패턴**: MQTT 아키텍처의 근본이 되는 소프트웨어 디자인 패턴.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **우체국 사서함**: 내가 우체국에 내 이름이 적힌 상자를 만들어두고 "만화책이 오면 보내주세요~"라고 부탁해두는 기술이에요.

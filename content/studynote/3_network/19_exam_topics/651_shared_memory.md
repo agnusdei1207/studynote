@@ -1,5 +1,6 @@
 +++
 title = "Shared Memory - 공유 메모리"
+date = "2026-03-14"
 weight = 651
 +++
 
@@ -103,6 +104,6 @@ Shared Memory는 여러 프로세스가 메모리를 직접 공유합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [IPC](./650_ipc.md)
-- [Semaphore](./652_semaphore.md)
-- [mmap](./653_mmap.md)
+- IPC
+- Semaphore
+- mmap

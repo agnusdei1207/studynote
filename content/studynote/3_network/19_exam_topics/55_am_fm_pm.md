@@ -1,5 +1,6 @@
 +++
 title = "아날로그 연속파 변조 (AM, FM, PM)"
+date = "2026-03-14"
 weight = 55
 +++
 
@@ -160,10 +161,10 @@ weight = 55
 ---
 
 ### 📌 관련 개념 링크**:
-- [반송파 Carrier Wave](./54_carrier_wave.md)
-- [ASK 진폭 편이 변조](./45_ask_amplitude.md)
-- [FSK 주파수 편이 변조](./46_fsk_frequency.md)
-- [PSK 위상 편이 변조](./47_psk_phase_shift.md)
+- 반송파 Carrier Wave
+- ASK 진폭 편이 변조
+- FSK 주파수 편이 변조
+- PSK 위상 편이 변조
 
 ---
 

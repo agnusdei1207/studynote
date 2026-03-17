@@ -1,8 +1,8 @@
----
-title: "529. 연결 할당 (Linked Allocation)"
-description: "Operating System File Management Mechanism: Linked Allocation Strategy Analysis"
-weight: 529
----
++++
+title = "529. 연결 할당 (Linked Allocation)"
+date = "2026-03-14"
+weight = 529
++++
 
 # 529. 연결 할당 (Linked Allocation)
 

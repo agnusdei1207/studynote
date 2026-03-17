@@ -1,10 +1,9 @@
----
-title: "[ICT] #7. 머클 트리 (Merkle Tree / Hash Tree)"
-date: "2026-03-17"
++++
+title = "[ICT] #7. 머클 트리 (Merkle Tree / Hash Tree)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Merkle_Tree_Hash_Tree_Merkle_Path_SPV"
----
+keyword = "Merkle_Tree_Hash_Tree_Merkle_Path_SPV"
++++
 
 # 머클 트리 (Merkle Tree): 대규모 데이터 무결성의 효율적 증명
 
@@ -13,7 +12,7 @@ keyword: "Merkle_Tree_Hash_Tree_Merkle_Path_SPV"
 > 2. **가치**: 수천 개의 트랜잭션 중 특정 거래의 포함 여부를 확인하기 위해 전체 데이터를 다 확인할 필요 없이, $O(\log N)$의 복잡도로 매우 빠르게 검증(Merkle Proof)할 수 있게 한다.
 > 3. **융합**: 블록체인의 확장성을 해결하는 SPV(Simplified Payment Verification) 노드와 분산 파일 시스템(IPFS) 등의 무결성 검증 체계에서 중추적 역할을 수행한다.
 
----
++++
 
 ## Ⅰ. 머클 트리 (Merkle Tree) 개요
 
@@ -30,7 +29,7 @@ keyword: "Merkle_Tree_Hash_Tree_Merkle_Path_SPV"
 
 📢 **섹션 요약 비유**: 수만 조각의 퍼즐(데이터) 중에서 한 조각이 바뀌었는지 확인하기 위해 전체 퍼즐을 다시 맞추는 대신, 퍼즐 조각들을 묶음 단위로 검사하여 범위를 좁혀나가는 효율적인 검사 시스템입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -71,7 +70,7 @@ keyword: "Merkle_Tree_Hash_Tree_Merkle_Path_SPV"
 
 📢 **섹션 요약 비유**: 마치 토너먼트 대진표에서 부전승이 올라가는 것처럼, 짝이 맞지 않는 데이터는 스스로를 복제하여 상위 라운드(해시 레이어)로 올라가 최종 결승전(머클 루트)에 참여하게 됩니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -91,7 +90,7 @@ keyword: "Merkle_Tree_Hash_Tree_Merkle_Path_SPV"
 
 📢 **섹션 요약 비유**: 수백 명의 학생 명부를 확인할 때, 한 명씩 출석을 부르는 것(단순 리스트)보다 반장들이 확인하고 부장들이 보고하는 계층적 체계(머클 트리)가 훨씬 빠르고 효율적인 것과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -104,7 +103,7 @@ keyword: "Merkle_Tree_Hash_Tree_Merkle_Path_SPV"
 
 📢 **섹션 요약 비유**: 신분증 전체를 복사해서 주는 대신, 신분증의 특정 부분(머클 패스)만 보여줘도 본인임을 완벽히 증명할 수 있는 '영리한 신원 확인' 방식입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -118,13 +117,13 @@ keyword: "Merkle_Tree_Hash_Tree_Merkle_Path_SPV"
 
 📢 **섹션 요약 비유**: 머클 트리는 데이터의 바다에서 단 하나의 모래알(트랜잭션)이 진짜인지 가짜인지 찾아내는 **암호학적 고성능 돋보기**와 같습니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[머클 루트 (Merkle Root)](./8_merkle_root.md)**: 머클 트리의 최종 결과물.
-- **[SPV 노드 (Light Node)](./82_light_node.md)**: 머클 트리를 활용해 거래를 검증하는 경량 노드.
-- **[해시 함수 (Hash Function)](../../9_security/xx_hash_function.md)**: 머클 트리의 기본 구성 도구.
-- **[IPFS (분산 파일 시스템)](./55_ipfs.md)**: 콘텐츠 주소(CID) 생성 시 머클 트리 구조를 사용함.
+- **머클 루트 (Merkle Root)**: 머클 트리의 최종 결과물.
+- **SPV 노드 (Light Node)**: 머클 트리를 활용해 거래를 검증하는 경량 노드.
+- **해시 함수 (Hash Function)**: 머클 트리의 기본 구성 도구.
+- **IPFS (분산 파일 시스템)**: 콘텐츠 주소(CID) 생성 시 머클 트리 구조를 사용함.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **나뭇가지 도장**: 나뭇잎(데이터)들이 모여서 가지를 만들고, 가지들이 모여서 큰 줄기를 만들어요. 마지막엔 뿌리에 커다란 도장(머클 루트) 하나가 찍히죠.

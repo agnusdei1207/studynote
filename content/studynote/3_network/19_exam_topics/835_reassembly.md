@@ -1,5 +1,6 @@
 +++
 title = "Reassembly - 재조립"
+date = "2026-03-14"
 weight = 835
 +++
 
@@ -106,6 +107,6 @@ Reassembly는 분할된 단편을 원래대로 결합합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Fragmentation](./834_fragmentation.md)
-- [MTU](./xxx_mtu.md)
-- [ICMP](./xxx_icmp.md)
+- Fragmentation
+- MTU
+- ICMP

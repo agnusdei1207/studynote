@@ -1,7 +1,7 @@
 +++
-weight = 655
 title = "655. CPU 스케줄러 알고리즘 선택 가이드"
 date = "2024-05-23"
+weight = 655
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "CPU Scheduling", "Algorithm", "Selection Guide", "Throughput", "Response Time"]
@@ -12,7 +12,7 @@ keywords = ["운영체제", "CPU Scheduling", "Algorithm", "Selection Guide", "T
 > 알고리즘 선택은 처리량(Throughput), 대기 시간(Waiting Time), 응답 시간(Response Time), 자원 이용률(Utilization) 사이의 정교한 트레이드오프(Trade-off)를 수반한다.
 > 현대의 범용 운영체제는 대화형 사용자와 배경 처리 작업을 동시에 만족시키기 위해 다단계 피드백 큐(MLFQ, Multi-Level Feedback Queue)와 같은 복합형 알고리즘을 주로 채택한다.
 
----
++++
 
 ### Ⅰ. 스케줄링 알고리즘 선택 기준 (Criteria)
 
@@ -27,7 +27,7 @@ keywords = ["운영체제", "CPU Scheduling", "Algorithm", "Selection Guide", "T
 
 📢 섹션 요약 비유: 스케줄러 알고리즘 선택은 '빠른 서비스(Fast Food)'를 제공할지, '정성스런 코스 요리(Fine Dining)'를 제공할지 결정하는 경영 전략과 같습니다.
 
----
++++
 
 ### Ⅱ. 주요 알고리즘 비교 분석표
 
@@ -53,7 +53,7 @@ keywords = ["운영체제", "CPU Scheduling", "Algorithm", "Selection Guide", "T
 
 📢 섹션 요약 비유: 줄을 선 순서대로 처리할지(FCFS), 금방 끝날 사람부터 먼저 해줄지(SJF), 아니면 조금씩 돌아가며 처리할지(RR)를 정하는 규칙들입니다.
 
----
++++
 
 ### Ⅲ. 상황별 알고리즘 선택 가이드
 
@@ -68,7 +68,7 @@ keywords = ["운영체제", "CPU Scheduling", "Algorithm", "Selection Guide", "T
 
 📢 섹션 요약 비유: 공장 생산 라인(Batch)에는 효율이 최고지만, 손님이 있는 매장(Interactive)에는 친절한 응대(Response)가 우선인 것과 같습니다.
 
----
++++
 
 ### Ⅳ. Round Robin(RR) 타임 슬라이스(Quantum) 설정 가이드
 
@@ -81,7 +81,7 @@ keywords = ["운영체제", "CPU Scheduling", "Algorithm", "Selection Guide", "T
 
 📢 섹션 요약 비유: 손님에게 한 마디씩만 말할 기회를 주면(Too Small) 인사만 하다가 시간이 가고, 한 시간씩 주면(Too Large) 뒷사람이 도망가는 것과 같습니다.
 
----
++++
 
 ### Ⅴ. 현대 멀티코어 환경의 스케줄링 트렌드
 
@@ -94,7 +94,7 @@ keywords = ["운영체제", "CPU Scheduling", "Algorithm", "Selection Guide", "T
 
 📢 섹션 요약 비유: 능숙한 요리사에게 계속 같은 메뉴를 시키는 것(Affinity)이 효율적이며, 한 명만 바쁘면 다른 요리사에게 일을 나눠주는(Load Balancing) 전략입니다.
 
----
++++
 
 ### 💡 지식 그래프(Knowledge Graph)
 - **부모 노드**: 프로세스 관리(Process Management)

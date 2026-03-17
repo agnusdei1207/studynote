@@ -1,5 +1,6 @@
 +++
 title = "Observability - 관측성"
+date = "2026-03-14"
 weight = 735
 +++
 
@@ -96,6 +97,6 @@ Observability는 시스템 내부 상태를 파악합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Prometheus](./737_prometheus.md)
-- [Grafana](./738_grafana.md)
-- [Distributed Tracing](./725_distributed_tracing.md)
+- Prometheus
+- Grafana
+- Distributed Tracing

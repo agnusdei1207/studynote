@@ -1,5 +1,6 @@
 +++
 title = "Rate Limiting - 속도 제한"
+date = "2026-03-14"
 weight = 854
 +++
 
@@ -112,6 +113,6 @@ Rate Limiting은 요청 빈도를 제한합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Traffic Shaping](./853_traffic_shaping.md)
-- [QoS](./xxx_qos.md)
-- [API Gateway](./xxx_api_gateway.md)
+- Traffic Shaping
+- QoS
+- API Gateway

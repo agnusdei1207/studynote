@@ -1,5 +1,6 @@
 +++
 title = "Network Monitoring - 네트워크 모니터링"
+date = "2026-03-14"
 weight = 1015
 +++
 
@@ -112,6 +113,6 @@ Network Monitoring은 네트워크 상태를 지속적으로 관찰합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [SNMP](./1016_snmp.md)
-- [Syslog](./1017_syslog.md)
-- [NetFlow](./1018_netflow.md)
+- SNMP
+- Syslog
+- NetFlow

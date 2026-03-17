@@ -1,10 +1,9 @@
----
-title: "[ICT] #85. VASP 및 트래블 룰 (VASP & Travel Rule)"
-date: "2026-03-17"
++++
+title = "[ICT] #85. VASP 및 트래블 룰 (VASP & Travel Rule)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "VASP_TravelRule_FATF_AML_KYC_VirtualAsset_Compliance"
----
+keyword = "VASP_TravelRule_FATF_AML_KYC_VirtualAsset_Compliance"
++++
 
 # VASP 및 트래블 룰: 가상자산 제도권 편입을 위한 규제와 기술의 결합
 
@@ -13,7 +12,7 @@ keyword: "VASP_TravelRule_FATF_AML_KYC_VirtualAsset_Compliance"
 > 2. **가치**: 익명성을 기반으로 한 가상자산 범죄(자금 세탁, 테러 자금 조달)를 효과적으로 추적할 수 있게 하며, 블록체인 산업이 제도권 금융으로 인정받기 위한 필수적인 **준거성(Compliance)** 인프라를 제공한다.
 > 3. **융합**: 국제자금세탁방지기구(FATF)의 권고안을 바탕으로 하며, 서로 다른 거래소 간에 정보를 안전하게 전달하는 통신 프로토콜(CODE, VerifyVASP 등) 기술이 핵심으로 자리 잡았다.
 
----
++++
 
 ## Ⅰ. VASP 및 트래블 룰 개요
 
@@ -30,7 +29,7 @@ keyword: "VASP_TravelRule_FATF_AML_KYC_VirtualAsset_Compliance"
 
 📢 **섹션 요약 비유**: 복면을 쓰고 거래하던 시장(초기 가상자산 시장)에서, 이제는 서로의 얼굴(신원)을 확인하고 신분증을 보여준 뒤에야 물건을 바꿀 수 있는 '투명한 제도권 시장'으로 변하는 과정입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 작동 원리 (Deep Dive)
 
@@ -81,7 +80,7 @@ keyword: "VASP_TravelRule_FATF_AML_KYC_VirtualAsset_Compliance"
 
 📢 **섹션 요약 비유**: 돈은 지하 철도(블록체인)를 통해 보내고, 보내는 사람의 명함(신원 정보)은 팩스(솔루션)로 따로 보내서 양쪽 내용이 일치해야만 역 문을 열어주는 신중한 처리 방식입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -101,7 +100,7 @@ keyword: "VASP_TravelRule_FATF_AML_KYC_VirtualAsset_Compliance"
 
 📢 **섹션 요약 비유**: 전통 은행이 '전용 폐쇄망'을 통해 안전하게 쪽지를 주고받았다면, 가상자산 거래소들은 '인터넷이라는 열린 공간'에서 암호 도구(솔루션)를 써서 비밀스럽게 소통하는 법을 배우는 중입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -115,7 +114,7 @@ keyword: "VASP_TravelRule_FATF_AML_KYC_VirtualAsset_Compliance"
 
 📢 **섹션 요약 비유**: 자유롭게 뛰어놀던 아이들(가상자산)에게 갑자기 이름표를 달고 줄을 서라고 하면 불편하겠지만, 안전한 놀이공원(제도권) 전체를 이용하기 위해서는 꼭 거쳐야 하는 '안전 수칙' 확립 과정입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -129,13 +128,13 @@ keyword: "VASP_TravelRule_FATF_AML_KYC_VirtualAsset_Compliance"
 
 📢 **섹션 요약 비유**: 트래블 룰은 블록체인이 '무법천지의 거친 바다'에서 '질서 정연한 운하'로 바뀌는 결정적인 변화이며, 이를 통해 진정한 **디지털 금융 대항해 시대**가 열릴 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[KYC / AML](../../9_security/xx_kyc_aml.md)**: 트래블 룰이 목표로 하는 상위 금융 규제.
-- **[VASP (가상자산 사업자)](./xx_vasp.md)**: 규제를 지켜야 하는 주체.
-- **[FATF (자금세탁방지기구)](./xx_fatf.md)**: 글로벌 트래블 룰 표준을 만드는 곳.
-- **[DID (탈중앙화 신원증명)](./50_did.md)**: 유저가 직접 트래블 룰 정보를 관리할 수 있게 돕는 기술.
+- **KYC / AML**: 트래블 룰이 목표로 하는 상위 금융 규제.
+- **VASP (가상자산 사업자)**: 규제를 지켜야 하는 주체.
+- **FATF (자금세탁방지기구)**: 글로벌 트래블 룰 표준을 만드는 곳.
+- **DID (탈중앙화 신원증명)**: 유저가 직접 트래블 룰 정보를 관리할 수 있게 돕는 기술.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **명찰 달고 돈 보내기**: 예전에는 모르는 사람끼리 돈을 보냈지만, 이제는 "나는 누구고, 누구에게 보낸다"는 명찰을 꼭 붙여야 돈을 보낼 수 있어요.

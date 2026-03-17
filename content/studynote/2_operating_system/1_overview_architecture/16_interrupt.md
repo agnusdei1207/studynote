@@ -1,6 +1,7 @@
 +++
-weight = 16
 title = "16. 인터럽트 (Interrupt) 메커니즘"
+date = "2026-03-14"
+weight = 16
 +++
 
 # 인터럽트 (Interrupt) 메커니즘
@@ -121,10 +122,10 @@ title = "16. 인터럽트 (Interrupt) 메커니즘"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[인터럽트 서비스 루틴 (ISR)](./20_isr.md)**: 인터럽트 발생 시 실행되는 구체적인 처리 함수.
-- **[인터럽트 벡터 (Interrupt Vector)](./19_interrupt_vector.md)**: ISR 주소를 찾아가는 매핑 테이블.
-- **[문맥 교환 (Context Switch)](../2_process_thread/xx_context_switch.md)**: 인터럽트로 인해 발생하는 프로세스 상태 전환 과정.
-- **[NAPI (New API)](../3_network/xx_napi.md)**: 고속 네트워크 환경에서 인터럽트와 폴링을 혼합한 고성능 처리 기술.
+- **인터럽트 서비스 루틴 (ISR)**: 인터럽트 발생 시 실행되는 구체적인 처리 함수.
+- **인터럽트 벡터 (Interrupt Vector)**: ISR 주소를 찾아가는 매핑 테이블.
+- **문맥 교환 (Context Switch)**: 인터럽트로 인해 발생하는 프로세스 상태 전환 과정.
+- **NAPI (New API)**: 고속 네트워크 환경에서 인터럽트와 폴링을 혼합한 고성능 처리 기술.
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "Load Balancer - 로드 밸런서"
+date = "2026-03-14"
 weight = 582
 +++
 
@@ -98,6 +99,6 @@ Load Balancer는 트래픽을 여러 서버로 분산합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [HA](./586_high_availability.md)
-- [Reverse Proxy](./583_reverse_proxy.md)
-- [Health Check](./587_health_check.md)
+- HA
+- Reverse Proxy
+- Health Check

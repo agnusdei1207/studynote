@@ -1,5 +1,6 @@
 +++
 title = "fallout attack"
+date = "2026-03-14"
 weight = 766
 +++
 
@@ -127,10 +128,10 @@ weight = 766
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [RIDL 공격](./765_ridl_attack.md)
-- [좀비로드 (ZombieLoad)](./767_zombieload.md)
-- [MDS 공격](./764_mds_attack.md)
-- [멜트다운 (Meltdown)](./767_meltdown.md)
+- RIDL 공격
+- 좀비로드 (ZombieLoad)
+- MDS 공격
+- 멜트다운 (Meltdown)
 
 ---
 

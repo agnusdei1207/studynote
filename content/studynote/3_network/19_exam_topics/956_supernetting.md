@@ -1,5 +1,6 @@
 +++
 title = "Supernetting - 슈퍼네팅"
+date = "2026-03-14"
 weight = 956
 +++
 
@@ -110,6 +111,6 @@ Supernetting은 여러 네트워크를 하나로 결합합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Subnetting](./955_subnetting.md)
-- [CIDR](./897_cidr.md)
-- [Route Aggregation](./xxx_route_aggregation.md)
+- Subnetting
+- CIDR
+- Route Aggregation

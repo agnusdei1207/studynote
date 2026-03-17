@@ -1,5 +1,6 @@
 +++
 title = "ARP Table - ARP 테이블"
+date = "2026-03-14"
 weight = 963
 +++
 
@@ -108,6 +109,6 @@ ARP Table은 IP와 MAC 주소 매핑을 캐시합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [ARP](./887_arp.md)
-- [MAC Address](./961_mac_address.md)
-- [IP Address](./xxx_ip_address.md)
+- ARP
+- MAC Address
+- IP Address

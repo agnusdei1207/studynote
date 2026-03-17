@@ -1,5 +1,6 @@
 +++
 title = "heatpipe"
+date = "2026-03-14"
 weight = 739
 +++
 
@@ -307,10 +308,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [베이퍼 체임버](./738_vapor_chamber.md) - 2D 열전달
-- [서멀 페이스트](./737_thermal_paste.md) - TIM
-- [서버 섀시 팬 핫스왑](./740_chassis_fan_hotswap.md) - 쿨링
-- [히트스프레더](./736_ihs.md) - IHS
+- 베이퍼 체임버 - 2D 열전달
+- 서멀 페이스트 - TIM
+- 서버 섀시 팬 핫스왑 - 쿨링
+- 히트스프레더 - IHS
 
 ---
 

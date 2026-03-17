@@ -1,8 +1,10 @@
 +++
-weight = 490
 title = "490. 엣지 컴퓨팅 하드웨어 (Edge Computing HW)"
+date = "2026-03-14"
+weight = 490
 [extra]
 category = "studynote-computer-architecture"
+date = "2026-03-14"
 +++
 
 # Edge Computing HW (Edge Computing Hardware)
@@ -11,7 +13,7 @@ category = "studynote-computer-architecture"
 > 2. **가치**: 중앙 클라우드로의 데이터 전송 대역폭을 절감하고, 밀리초(ms) 단위의 초저지연 응답성을 제공하며, 민감한 데이터를 현장에서 처리함으로써 보안 및 프라이버시를 강화한다.
 > 3. **융합**: 초저전력 MCU(Microcontroller Unit), NPU(Neural Processing Unit) 가속기, 5G 통신 모듈, 그리고 하드웨어 기반 신뢰 루트(Root of Trust) 기술이 집약되어 지능형 사물인터넷(AIoT) 시대를 견인한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -26,7 +28,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 모든 쓰레기를 멀리 있는 소각장으로 보내는 대신, 집집마다 있는 음식물 처리기(엣지 하드웨어)로 즉시 처리하여 수거 비용을 아끼고 주변 환경을 쾌적하게 유지하는 것과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -40,7 +42,7 @@ category = "studynote-computer-architecture"
 | **Edge Gateway Interface** | 다양한 산업용 센서 연결 | CAN, Modbus, Zigbee 등 이기종 프로토콜 통합 | TSN (Time Sensitive Networking) | 외부 재료 입구 |
 | **Local Storage (NVMe/eMMC)** | 데이터 버퍼링 및 로그 저장 | 쓰기 내구성이 강화된 플래시 메모리 사용 | 3D NAND Flash | 주방의 냉장고 |
 
----
++++
 
 ### 엣지 하드웨어 계층 구조 및 데이터 흐름
 
@@ -69,7 +71,7 @@ category = "studynote-computer-architecture"
 
 **[다이어그램 해설]** 가장 하단의 Tiny Edge는 배터리나 에너지 하베스팅으로 동작하며, 단순한 이벤트 감지 및 필터링을 수행한다. Light Edge Device는 NPU가 탑재되어 얼굴 인식이나 객체 탐지 같은 복잡한 AI 추론을 수행한다. Heavy Edge는 여러 기기의 데이터를 취합하여 로컬 학습을 수행하거나 고해상도 영상을 실시간 분석한다. 이 과정에서 상위 계층으로 갈수록 데이터 양은 줄어들고(Data Compression), 가치는 높아지는(Value Extraction) 구조를 가진다. 하드웨어 설계자는 각 계층의 전력 예산(Power Budget)과 방열 성능에 맞춰 최적의 프로세서를 선택해야 한다.
 
----
++++
 
 ### 심층 동작 원리: 하드웨어 가속 기반 AI 추론 (Edge AI)
 
@@ -81,7 +83,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 두꺼운 백과사전(AI 모델)을 엣지 기기가 들고 다닐 수 있게 얇은 요약집(양자화/프루닝)으로 만들고, 이를 빠르게 읽을 수 있는 전용 안경(NPU)을 씌워주는 것과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -98,7 +100,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 엣지 하드웨어가 험로를 달리는 4륜 구동 SUV라면, 클라우드 하드웨어는 매끄러운 트랙을 초고속으로 달리는 대형 화물 열차와 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -113,7 +115,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 등산객(엣지 기기)이 산속에서도 잘 버틸 수 있는 체력(전력)과 옷(방열), 그리고 본부와의 무전기(OTA)를 갖췄는지 확인하는 것과 같습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -130,15 +132,15 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 각 가정마다 고성능 로봇 도우미가 생겨나, 굳이 외부 서비스에 연락하지 않아도 집안일(데이터 처리)을 완벽하게 처리하게 되는 시대가 올 것입니다.
 
----
++++
 
 ## 📌 관련 개념 맵
-- **[NPU (Neural Processing Unit)](./xx_npu.md)**: 엣지 기기에서 AI 연산을 담당하는 핵심 가속 하드웨어.
-- **[TinyML](../14_data_engineering/xx_tinyml.md)**: 극초저전력 환경에서 머신러닝을 구현하는 기술 트렌드.
-- **[TSN (Time Sensitive Networking)](../3_network/xx_tsn.md)**: 엣지 환경에서 실시간 데이터 전송을 보장하는 네트워크 표준.
-- **[Confidential Computing](./xx_confidential_computing.md)**: 엣지 기기의 데이터를 보호하기 위한 하드웨어 기반 격리 기술.
+- **NPU (Neural Processing Unit)**: 엣지 기기에서 AI 연산을 담당하는 핵심 가속 하드웨어.
+- **TinyML**: 극초저전력 환경에서 머신러닝을 구현하는 기술 트렌드.
+- **TSN (Time Sensitive Networking)**: 엣지 환경에서 실시간 데이터 전송을 보장하는 네트워크 표준.
+- **Confidential Computing**: 엣지 기기의 데이터를 보호하기 위한 하드웨어 기반 격리 기술.
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 엣지 컴퓨팅 하드웨어는 **'내 주머니 속의 작은 컴퓨터'**예요. 모든 걸 멀리 있는 큰 컴퓨터(클라우드)에 물어보지 않고 직접 생각해요.

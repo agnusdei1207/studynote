@@ -1,7 +1,6 @@
 +++
 title = "48. 로우 기반 저장소 (Row Store)"
 date = "2026-03-16"
-draft = false
 weight = 48
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["Row Store", "Row-oriented", "OLTP", "NSM", "트랜잭션", "Oracle"
 > 2. **특화 영역**: 단일 행에 대한 삽입, 수정, 삭제 및 특정 레코드의 전체 정보를 조회하는 **OLTP(온라인 트랜잭션 처리)** 워크로드에서 최상의 성능을 발휘한다.
 > 3. **가치**: 데이터의 무결성을 유지하며 빈번한 쓰기 작업을 안정적으로 처리할 수 있어, 뱅킹, 커머스, ERP 등 현대 비즈니스의 운영 시스템을 지탱하는 가장 보편적이고 핵심적인 저장 아키텍처다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -45,7 +44,7 @@ keywords = ["Row Store", "Row-oriented", "OLTP", "NSM", "트랜잭션", "Oracle"
 
 - **📢 섹션 요약 비유**: 로우 기반 저장소는 '한 사람의 모든 짐을 한 박스에 담아둔 이삿짐'과 같아, 특정인의 이사를 도울 때 가장 편리합니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -90,7 +89,7 @@ keywords = ["Row Store", "Row-oriented", "OLTP", "NSM", "트랜잭션", "Oracle"
 
 - **📢 섹션 요약 비유**: 로우 기반은 '한 사람의 머리부터 발끝까지를 한 장의 사진에 담는 것'과 같아, 인물 정보를 파악하기에 최적입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -110,7 +109,7 @@ keywords = ["Row Store", "Row-oriented", "OLTP", "NSM", "트랜잭션", "Oracle"
 
 - **📢 섹션 요약 비유**: 행 기반이 '개별 포장된 편의점 도시락'이라면, 컬럼 기반은 '급식소의 대형 솥'과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -129,7 +128,7 @@ keywords = ["Row Store", "Row-oriented", "OLTP", "NSM", "트랜잭션", "Oracle"
 
 - **📢 섹션 요약 비유**: '전체 조회'를 위해 행 기반 DB를 쓰는 것은 바늘구멍으로 운동장을 보려는 것과 같이 답답하고 힘든 일입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -147,15 +146,15 @@ keywords = ["Row Store", "Row-oriented", "OLTP", "NSM", "트랜잭션", "Oracle"
 
 - **📢 섹션 요약 비유**: 미래의 저장소는 '나노 기술'이 적용된 것처럼, 아주 작은 행 하나도 전 세계 어디서든 빛의 속도로 찾아낼 수 있게 발전할 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[컬럼 기반 저장소 (Column Store)](./47_columnar_store.md)**: 데이터 분석 특화 대척점.
-- **[OLTP (Online Transaction Processing)](./14_oltp_vs_olap.md)**: 로우 저장소의 주 활약 분야.
-- **[ACID 트랜잭션](./192_transaction_acid_principles.md)**: 로우 저장소가 지키고자 하는 가치.
-- **[B+Tree 인덱스](./37_bplus_tree.md)**: 로우 저장소의 검색 가속기.
+- **컬럼 기반 저장소 (Column Store)**: 데이터 분석 특화 대척점.
+- **OLTP (Online Transaction Processing)**: 로우 저장소의 주 활약 분야.
+- **ACID 트랜잭션**: 로우 저장소가 지키고자 하는 가치.
+- **B+Tree 인덱스**: 로우 저장소의 검색 가속기.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **행 기반 저장소**는 우리 반 친구들의 정보를 적을 때, **한 명씩 이름표**를 달아주고 그 옆에 키, 몸무게, 장래희망을 쭉 적어두는 거예요.

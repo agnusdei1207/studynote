@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Web Shell 🥈 Silver"
-description = "LUXORA 플랫폼의 Silver 난이도 Web Shell 공략 - 파일 시그니처 변조 및 확장자 우회를 통한 이미지 웹 쉘 업로드 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Web Shell", "Silver", "Magic Number", "Filter Bypass", "Write-up"]
@@ -117,4 +116,3 @@ FLAG{WEBSHELL_🥈_POLYGLOT_IMAGE_EXIF_E5F6G7}
    sharp(req.file.buffer)
      .jpeg({ quality: 90 }) // 메타데이터가 모조리 날아감
      .toFile('/uploads/' + safeRandomName + '.jpg');
-   ```

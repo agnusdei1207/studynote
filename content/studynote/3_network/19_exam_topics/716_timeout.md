@@ -1,5 +1,6 @@
 +++
 title = "Timeout - 타임아웃"
+date = "2026-03-14"
 weight = 716
 +++
 
@@ -98,6 +99,6 @@ Timeout은 대기 시간을 제한합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Retry Pattern](./714_retry_pattern.md)
-- [Circuit Breaker](./713_circuit_breaker.md)
-- [Resilience](./715_resilience.md)
+- Retry Pattern
+- Circuit Breaker
+- Resilience

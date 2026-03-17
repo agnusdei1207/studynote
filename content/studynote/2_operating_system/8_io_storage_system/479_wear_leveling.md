@@ -1,6 +1,7 @@
 +++
-weight = 479
 title = "479. 마모 평준화 (Wear Leveling)"
+date = "2026-03-14"
+weight = 479
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -109,9 +110,9 @@ title = "479. 마모 평준화 (Wear Leveling)"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[FTL (Flash Translation Layer)](./478_ftl.md)**: 웨어 레벨링이 탑재되는 소프트웨어 엔진.
-- **[P/E Cycle](./476_flash_memory_limitations.md)**: 웨어 레벨링이 관리하는 대상인 쓰기/삭제 횟수.
-- **[쓰기 증폭 (WAF)](./480_write_amplification.md)**: 웨어 레벨링 오버헤드로 인해 발생하는 부수 지표.
+- **FTL (Flash Translation Layer)**: 웨어 레벨링이 탑재되는 소프트웨어 엔진.
+- **P/E Cycle**: 웨어 레벨링이 관리하는 대상인 쓰기/삭제 횟수.
+- **쓰기 증폭 (WAF)**: 웨어 레벨링 오버헤드로 인해 발생하는 부수 지표.
 
 ---
 

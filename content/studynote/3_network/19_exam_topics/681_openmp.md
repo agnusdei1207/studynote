@@ -1,5 +1,6 @@
 +++
 title = "OpenMP (Open Multi-Processing) - OpenMP"
+date = "2026-03-14"
 weight = 681
 +++
 
@@ -105,6 +106,6 @@ OpenMP는 공유 메모리 병렬 프로그래밍 API입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [MPI](./680_mpi.md)
-- [Multi-core](./662_multicore.md)
-- [Thread](./635_thread.md)
+- MPI
+- Multi-core
+- Thread

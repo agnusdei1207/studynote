@@ -1,5 +1,6 @@
 +++
 title = "Branch Prediction - 분기 예측"
+date = "2026-03-14"
 weight = 666
 +++
 
@@ -103,6 +104,6 @@ Branch Prediction은 분기 결과를 예측합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Pipeline](./664_pipeline.md)
-- [Speculative Execution](./667_speculative_execution.md)
-- [Hazard](./667_hazard.md)
+- Pipeline
+- Speculative Execution
+- Hazard

@@ -1,7 +1,7 @@
 +++
-weight = 657
 title = "657. 사이드 채널 공격 (Side-Channel Attacks)"
 date = "2026-03-16"
+weight = 657
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "사이드 채널", "Side-Channel", "Spectre", "Meltdown", "타이밍 공격", "캐시 공격"]
@@ -16,7 +16,7 @@ keywords = ["운영체제", "사이드 채널", "Side-Channel", "Spectre", "Melt
 > 2. **가치**: **Spectre (Variant 1/2), Meltdown (Variant 3)**와 같은 HW 아키텍처 레벨의 취약점을 노출하며, 방어 시 성능 저하(Overhead)와 보안의 Trade-off를 강요하는 심각한 위협.
 > 3. **융합**: OS(메모리 격리), 컴퓨터 구조(CPU 파이프라인), 암호학(Const-time Algo)이 복합적으로 얽히는 분야로, **KPTI (Kernel Page Table Isolation)**나 **Constant-Time Programming** 등으로 대응.
 
----
++++
 
 ### Ⅰ. 개요 (Context & Background)
 
@@ -31,7 +31,7 @@ keywords = ["운영체제", "사이드 채널", "Side-Channel", "Spectre", "Melt
 **📢 섹션 요약 비유**
 사이드 채널 공격은 **"요리사가 만드는 요리의 맛(암호문)을 훔치는 게 아니라, 요리 과정에서 나는 소리와 냄새(부수 정보)를 맡고 비밀 레시피를 훔치는 행위"**와 같습니다. 아무리 맛을 안 주려고 해도 조리 과정(연산)에서 발생하는 소음(노이즈)은 완전히 차단하기 어렵습니다.
 
----
++++
 
 ### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -102,7 +102,7 @@ if (x < array1_size) {           // ① 분기 검사 (Bounds Check)
 **📢 섹션 요약 비유**
 추측 실행을 이용한 공격은 **"미리 질문을 써두고, 선생님이 '예'라고 할 것이라고 기대하며 답안지를 미리 작성해두는 행위"**와 같습니다. 나중에 질문이 무효화되어도 답안지에 남겨진 흔적(캐시 상태)을 통해 정보를 훔칠 수 있습니다.
 
----
++++
 
 ### Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -123,7 +123,7 @@ if (x < array1_size) {           // ① 분기 검사 (Bounds Check)
 **📢 섹션 요약 비유**
 Meltdown은 **"내 방(커널) 침입을 막기 위해 방문을 아예 콘크리트로 막아버리는 것(KPTI)"**이라 성능 비용이 듭니다. 반면 Spectre는 **"누군가 내 다음 행동을 예측하고 미로를 조작하는 것"**이라 미로 자체를 바꾸거나(CPU 재설계) 조심히 걷는 코드(소프트웨어 패치)가 필요합니다.
 
----
++++
 
 ### Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -166,7 +166,7 @@ int check_password_safe(char *input, char *secret) {
 **📢 섹션 요약 비유**
 사이드 채널 방어는 **"고속도로 톨게이트에서 차 종류와 관계없이 무조건 10초씩 통과시키는 것"**과 같습니다. 승용차는 빠르게 지나가게 해주면 편리하겠지만(성능 최적화), 그렇게 하면 트럭(비밀 키)인지 승용차인지 시차를 두고 알 수 있게 되므로(정보 유출), 모두에게 동일한 시간을 주어야 합니다.
 
----
++++
 
 ### Ⅴ. 기대효과 및 결론 (Future & Standard)
 

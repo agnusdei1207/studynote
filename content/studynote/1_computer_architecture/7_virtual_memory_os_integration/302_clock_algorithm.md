@@ -1,6 +1,6 @@
----
 +++
 title = "클럭 알고리즘 (Clock Algorithm)"
+date = "2026-03-14"
 weight = 302
 +++
 

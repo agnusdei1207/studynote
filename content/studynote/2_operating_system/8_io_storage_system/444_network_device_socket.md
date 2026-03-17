@@ -1,6 +1,7 @@
 +++
-weight = 444
 title = "444. 네트워크 장치 (소켓 인터페이스)"
+date = "2026-03-14"
+weight = 444
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -139,10 +140,10 @@ title = "444. 네트워크 장치 (소켓 인터페이스)"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[TCP/IP 프로토콜 스택](../3_network/xx_tcp_ip.md)**: 네트워크 장치가 처리하는 데이터의 논리적 구조.
-- **[DMA (Direct Memory Access)](./450_dma.md)**: 패킷을 메모리와 NIC 간에 빠르게 복사하는 하드웨어 기술.
-- **[eBPF / XDP](./615_ebpf_xdp.md)**: 커널 초입에서 패킷을 처리하는 고속 네트워크 기술.
-- **[DPDK (Data Plane Development Kit)](./xx_dpdk.md)**: 커널을 우회하는 유저 공간 패킷 처리 프레임워크.
+- **TCP/IP 프로토콜 스택**: 네트워크 장치가 처리하는 데이터의 논리적 구조.
+- **DMA (Direct Memory Access)**: 패킷을 메모리와 NIC 간에 빠르게 복사하는 하드웨어 기술.
+- **eBPF / XDP**: 커널 초입에서 패킷을 처리하는 고속 네트워크 기술.
+- **DPDK (Data Plane Development Kit)**: 커널을 우회하는 유저 공간 패킷 처리 프레임워크.
 
 ---
 

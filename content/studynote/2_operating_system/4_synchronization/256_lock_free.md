@@ -1,7 +1,7 @@
 +++
 title = "256. 락-프리 자료구조"
-weight = 256
 date = "2026-03-04"
+weight = 256
 [extra]
 categories = "studynote-operating-system"
 +++
@@ -13,7 +13,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 특정 스레드가 중단되어도 전체 시스템의 작업이 멈추지 않는 진행 보장(Progress Guarantee)을 제공하며, 락으로 인한 데드락, 우선순위 역전, 문맥 교환 오버헤드를 근본적으로 제거한다.
 > 3. **융합**: 고성능 서버, 실시간 금융 거래 시스템, 고성능 임베디드 커널 등 지연 시간(Latency)에 극도로 민감한 환경에서 핵심 엔진으로 사용된다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -23,7 +23,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 한 명씩 줄 서서 들어가는 회전문 대신, 누구나 동시에 들어갈 수 있지만 문 통과 순간에만 부딪히지 않게 조율하는 똑똑한 출입 시스템과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -53,7 +53,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 누군가 먼저 깃발을 꽂으면(CAS 성공), 뒤에 오던 사람은 깃발을 보고 경로를 수정(Retry)하여 계속 전진하는 원리와 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -69,7 +69,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 락은 "안전하지만 느린 기차"이고, 락-프리는 "빠르지만 사고 시 재주행이 필요한 슈퍼카"입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -83,7 +83,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 모든 스레드가 각자의 속도로 질주하되, 마지막 결승선에서만 부딪히지 않게 교통정리(CAS)를 해주는 지혜가 필요합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 

@@ -1,7 +1,7 @@
 +++
 title = "203. 경성 실시간 (Hard Real-time) 시스템"
-weight = 203
 date = "2026-03-04"
+weight = 203
 [extra]
 categories = "studynote-operating-system"
 +++
@@ -13,7 +13,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 어떤 최악의 상황 (Worst-case)에서도 예측 가능한 응답 시간 (Determinism)을 하드웨어와 소프트웨어 수준에서 100% 보장하여, 생명 유지 및 안전 필수 분야의 신뢰성을 담보한다.
 > 3. **융합**: RTOS (Real-Time OS), 정적 우선순위 스케줄링 (RMS), 동적 우선순위 스케줄링 (EDF), 그리고 하드웨어의 인터럽트 지연 시간 통제 기술이 집약된다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -23,7 +23,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 1초의 오차도 허용하지 않는 시한폭탄 해체 작업처럼, 정확한 타이밍이 곧 생존인 절박한 제어 환경과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -52,7 +52,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 모든 신호등이 구급차의 도착 시간에 맞춰 미리 초록불로 바뀌도록 설계된, 한 치의 오차도 없는 VIP 전용 이송 시스템과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -67,7 +67,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 경성 실시간은 '낙하산'이고, 연성 실시간은 '우편물'이며, 일반 시스템은 '인터넷 서핑'입니다. 낙하산은 안 펴지면 끝이지만, 편지는 늦게 와도 되고, 인터넷은 느려도 다시 시도하면 됩니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -77,7 +77,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 브레이크를 밟아야 하는 순간에 블랙박스 영상을 저장하느라 머뭇거리는 것은 자율주행차에게 허용되지 않는 치명적 결함입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -86,12 +86,12 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 세상이 아무리 복잡해져도 절대 변하지 말아야 할 '약속'을 하드웨어적으로 지켜내는 것이 경성 실시간의 가치입니다.
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[최악 실행 시간 (WCET)](./172_turnaround_waiting_response_time.md)**: 경성 실시간 설계의 기초 데이터
-- **[우선순위 상속 프로토콜 (PIP)](./243_priority_inheritance_protocol.md)**: 지연 시간을 예측 가능하게 만드는 동기화 기술
-- **[RTOS (Real-Time Operating System)](./623_embedded_rtos_summary.md)**: 경성 실시간 시스템을 위한 전용 OS
+- **최악 실행 시간 (WCET)**: 경성 실시간 설계의 기초 데이터
+- **우선순위 상속 프로토콜 (PIP)**: 지연 시간을 예측 가능하게 만드는 동기화 기술
+- **RTOS (Real-Time Operating System)**: 경성 실시간 시스템을 위한 전용 OS
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 자동차 에어백처럼, 아주 위험한 순간에 1초도 늦지 않고 "당장!" 작동해야 하는 시스템이에요.

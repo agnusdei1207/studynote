@@ -1,5 +1,6 @@
 +++
 title = "Event Sourcing - 이벤트 소싱"
+date = "2026-03-14"
 weight = 723
 +++
 
@@ -97,6 +98,6 @@ Event Sourcing은 상태 변경을 이벤트로 저장합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [CQRS](./625_cqrs.md)
-- [Event-Driven](./722_event_driven.md)
-- [Audit Log](./xxx_audit_log.md)
+- CQRS
+- Event-Driven
+- Audit Log

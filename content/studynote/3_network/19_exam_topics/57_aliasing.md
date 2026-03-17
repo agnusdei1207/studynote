@@ -1,5 +1,6 @@
 +++
 title = "에일리어싱 (Aliasing)"
+date = "2026-03-14"
 weight = 57
 +++
 
@@ -144,10 +145,10 @@ weight = 57
 ---
 
 ### 📌 관련 개념 링크**:
-- [표본화 Sampling](./56_sampling.md)
-- [폴딩 주파수 Folding](./58_folding_frequency.md)
-- [Nyquist 용량](./20_nyquist_capacity.md)
-- [저역 통과 필터 LPF](./205_lpf_low_pass.md)
+- 표본화 Sampling
+- 폴딩 주파수 Folding
+- Nyquist 용량
+- 저역 통과 필터 LPF
 
 ---
 

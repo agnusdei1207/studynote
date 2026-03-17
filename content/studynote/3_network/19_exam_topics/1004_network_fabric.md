@@ -1,5 +1,6 @@
 +++
 title = "Network Fabric - 네트워크 패브릭"
+date = "2026-03-14"
 weight = 1004
 +++
 
@@ -112,6 +113,6 @@ Network Fabric은 통합 관리되는 네트워크 인프라입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Leaf-Spine](./1003_leaf_spine.md)
-- [SDN](./995_sdn.md)
-- [VXLAN](./998_vxlan.md)
+- Leaf-Spine
+- SDN
+- VXLAN

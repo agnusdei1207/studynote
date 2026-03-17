@@ -1,5 +1,6 @@
 +++
 title = "NAT Traversal - NAT 통과"
+date = "2026-03-14"
 weight = 346
 +++
 
@@ -144,10 +145,10 @@ NAT Traversal은 NAT 뒤의 장비 간 연결을 가능하게 합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [NAT](./265_nat.md)
-- [STUN](./347_stun.md)
-- [WebRTC](./342_webrtc.md)
-- [VPN](./9_security/160_vpn.md)
+- NAT
+- STUN
+- WebRTC
+- VPN
 
 ---
 

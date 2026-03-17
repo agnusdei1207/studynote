@@ -1,6 +1,7 @@
 +++
-weight = 509
 title = "509. 인덱스 접근 (Indexed Access)"
+date = "2026-03-14"
+weight = 509
 +++
 
 # 509. 인덱스 접근 (Indexed Access)

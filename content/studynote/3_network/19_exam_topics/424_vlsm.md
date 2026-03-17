@@ -1,5 +1,6 @@
 +++
 title = "VLSM - Variable Length Subnet Mask"
+date = "2026-03-14"
 weight = 424
 +++
 
@@ -139,10 +140,10 @@ VLSM은 서브넷마다 다른 크기의 마스크를 사용합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [CIDR](./422_cidr.md)
-- [Subnetting](./423_subnetting.md)
-- [라우팅](./311_routing.md)
-- [Point-to-Point](./321_p2p.md)
+- CIDR
+- Subnetting
+- 라우팅
+- Point-to-Point
 
 ---
 

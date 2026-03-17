@@ -1,7 +1,7 @@
 +++
 title = "213. 윈도우 스케줄링"
-weight = 213
 date = "2026-03-04"
+weight = 213
 [extra]
 categories = "studynote-operating-system"
 +++
@@ -13,7 +13,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 32단계의 정교한 우선순위와 동적 우선순위 승급 (Priority Boost) 기능을 통해, GUI 기반 대화형 응용 프로그램의 사용자 반응성을 극대화하는 동시에 서버 작업의 효율성을 보장한다.
 > 3. **융합**: 디스패처 객체 (Dispatcher Object), 퀀텀 (Quantum) 관리 기술, 그리고 최신 버전의 하이브리드 코어(P-core/E-core) 최적화 전략이 통합되어 있다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -23,7 +23,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 철저한 계급 사회(우선순위)를 유지하면서도, 급한 사정이 생긴 사람에게는 일시적으로 높은 계급을 부여하여 사회 전체의 활력(반응성)을 유지하는 유연한 시스템입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -54,7 +54,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 무대 주인공(전경 창)에게는 마이크 사용 시간(퀀텀)을 넉넉히 주고, 너무 오래 기다린 보조 출연자(기아 스레드)에게는 가끔 단독 대사 기회를 주는 감독의 연출과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -69,7 +69,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 윈도우는 "중요한 놈을 확실히 밀어주자"는 주의이고, 리눅스는 "아무도 서운하지 않게 똑같이 나눠주자"는 주의에 가깝습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -79,7 +79,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 짧은 수다(데스크탑용 퀀텀)는 즐겁지만, 큰일을 하려면 깊은 몰입 시간(서버용 퀀텀)이 필요하므로 용도에 맞게 설정을 바꿔야 합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -88,12 +88,12 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 하드웨어라는 악기와 스케줄러라는 지휘자가 만나, 사용자 경험이라는 아름다운 교향곡을 연주하는 과정입니다.
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[MLFQ (Multi-Level Feedback Queue)](./185_mlfq.md)**: 윈도우 스케줄링 알고리즘의 근간이 되는 모델
-- **[우선순위 역전 (Priority Inversion)](./242_priority_inversion.md)**: 윈도우가 'Balance Set Manager'를 통해 해결하려는 문제
-- **[하이브리드 아키텍처 스케줄링](./200_hmp_scheduling.md)**: 최신 윈도우 커널의 주요 진화 방향
+- **MLFQ (Multi-Level Feedback Queue)**: 윈도우 스케줄링 알고리즘의 근간이 되는 모델
+- **우선순위 역전 (Priority Inversion)**: 윈도우가 'Balance Set Manager'를 통해 해결하려는 문제
+- **하이브리드 아키텍처 스케줄링**: 최신 윈도우 커널의 주요 진화 방향
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 컴퓨터가 할 일들을 0번부터 31번까지 '중요도 등급' 상자에 담아두고 관리해요.

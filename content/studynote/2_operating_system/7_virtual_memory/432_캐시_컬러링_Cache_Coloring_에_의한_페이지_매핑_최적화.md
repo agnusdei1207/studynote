@@ -1,6 +1,7 @@
 +++
-weight = 432
 title = "432. 캐시 컬러링 (Cache Coloring)에 의한 페이지 매핑 최적화"
+date = "2026-03-14"
+weight = 432
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -107,4 +108,3 @@ graph TD
     PhysFrame --> CacheIndex[Optimal Cache Indexing]
     CacheIndex --> MinConflict[Minimize Cache Conflict Miss]
     MinConflict --> MaxPerf[Maximize System Performance]
-```

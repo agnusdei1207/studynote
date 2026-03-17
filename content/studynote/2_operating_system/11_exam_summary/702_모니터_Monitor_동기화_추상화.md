@@ -1,5 +1,6 @@
 +++
 title = "모니터 Monitor 동기화 추상화"
+date = "2026-03-14"
 weight = 702
 +++
 

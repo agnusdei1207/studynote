@@ -1,6 +1,7 @@
 +++
-weight = 580
 title = "580. 파일 시스템 모니터링 및 eBPF 기반 관측성 (Observability)"
+date = "2026-03-14"
+weight = 580
 +++
 
 ## 핵심 인사이트 (3줄 요약)

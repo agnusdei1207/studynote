@@ -1,5 +1,6 @@
 +++
 title = "Signal - 신호"
+date = "2026-03-14"
 weight = 823
 +++
 
@@ -101,6 +102,6 @@ Signal은 정보를 운반하는 물리적 현상입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Modulation](./817_modulation.md)
-- [Bandwidth](./803_bandwidth.md)
-- [Signal Processing](./xxx_signal_processing.md)
+- Modulation
+- Bandwidth
+- Signal Processing

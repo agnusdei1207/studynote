@@ -1,5 +1,6 @@
 +++
 title = "tape library"
+date = "2026-03-14"
 weight = 692
 +++
 
@@ -388,11 +389,11 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [MAID (Massive Array of Idle Disks)](./691_maid.md) - HDD 기반 아카이브
-- [WORM 스토리지](./693_worm_storage.md) - Write Once Read Many
-- [계층형 스토리지](./tiered_storage.md) - Hot/Warm/Cold 계층화
-- [백업 및 복구](./backup_recovery.md) - 3-2-1 백업 원칙
-- [오브젝트 스토리지](./object_storage.md) - 클라우드 아카이브
+- MAID (Massive Array of Idle Disks) - HDD 기반 아카이브
+- WORM 스토리지 - Write Once Read Many
+- 계층형 스토리지 - Hot/Warm/Cold 계층화
+- 백업 및 복구 - 3-2-1 백업 원칙
+- 오브젝트 스토리지 - 클라우드 아카이브
 
 ---
 

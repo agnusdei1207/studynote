@@ -1,5 +1,6 @@
 +++
 title = "NoSQL - NoSQL 데이터베이스"
+date = "2026-03-14"
 weight = 686
 +++
 
@@ -99,6 +100,6 @@ NoSQL은 비관계형 데이터베이스입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [CAP Theorem](./687_cap_theorem.md)
-- [MongoDB](./688_mongodb.md)
-- [Redis](./621_redis.md)
+- CAP Theorem
+- MongoDB
+- Redis

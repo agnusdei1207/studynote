@@ -1,5 +1,6 @@
 +++
 title = "RSVP (자원 예약 프로토콜) - Resource Reservation Protocol"
+date = "2026-03-14"
 weight = 489
 +++
 
@@ -89,5 +90,5 @@ RSVP는 경로를 따라 자원을 예약합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [IntServ](./488_intserv.md)
-- [MPLS](./321_mpls.md)
+- IntServ
+- MPLS

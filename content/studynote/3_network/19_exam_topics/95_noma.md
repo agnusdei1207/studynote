@@ -1,5 +1,6 @@
 +++
 title = "NOMA (비직교 다중 접속)"
+date = "2026-03-14"
 weight = 95
 +++
 
@@ -152,10 +153,10 @@ NOMA(Non-Orthogonal Multiple Access)는 여러 사용자가 같은 시간-주파
 ---
 
 ### 📌 관련 개념 링크**:
-- [OFDMA 직교 접속](./94_ofdma.md)
-- [CDMA 코드 분할 접속](./90_cdma_code.md)
-- [SIC 연속 간섭 제거](./205_sic.md)
-- [5G NR](./210_5g_nr.md)
+- OFDMA 직교 접속
+- CDMA 코드 분할 접속
+- SIC 연속 간섭 제거
+- 5G NR
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "WebSocket - 웹소켓"
+date = "2026-03-14"
 weight = 763
 +++
 
@@ -103,6 +104,6 @@ WebSocket은 양방향 실시간 통신을 제공합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [HTTP](./551_http.md)
-- [Real-time Communication](./xxx_realtime.md)
-- [SSE](./764_sse.md)
+- HTTP
+- Real-time Communication
+- SSE

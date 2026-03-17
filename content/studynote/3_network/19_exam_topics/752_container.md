@@ -1,5 +1,6 @@
 +++
 title = "Container - 컨테이너"
+date = "2026-03-14"
 weight = 752
 +++
 
@@ -111,6 +112,6 @@ Container는 격리된 실행 환경을 제공합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Docker](./753_docker.md)
-- [Kubernetes](./619_kubernetes.md)
-- [Microservices](./617_microservices.md)
+- Docker
+- Kubernetes
+- Microservices

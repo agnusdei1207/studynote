@@ -1,5 +1,6 @@
 +++
 title = "지연 시간 vs 처리량 - Latency vs Throughput"
+date = "2026-03-14"
 weight = 432
 +++
 
@@ -136,10 +137,10 @@ Latency는 반응 속도, Throughput은 단위 시간 전송량입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Bandwidth vs Throughput](./433_bandwidth_throughput.md)
-- [Jitter](./434_jitter.md)
-- [QoS](./329_qos.md)
-- [CDN](./323_cdn.md)
+- Bandwidth vs Throughput
+- Jitter
+- QoS
+- CDN
 
 ---
 

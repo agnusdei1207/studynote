@@ -12,7 +12,7 @@ categories = "studynote-database"
 > 2. **가치**: 정보관리기술사, 컴퓨터응용시스템기술사 및 수석 엔지니어 면접에서 가장 빈번하게 다뤄지는 **동시성 제어(MVCC), 실행 계획(CBO), 트랜잭션 회복(ARIES), 분산 시스템(CAP/PACELC)** 등 10대 핵심 토픽을 완벽히 관통해야만 시스템의 한계를 설계할 수 있다.
 > 3. **융합**: 각 토픽은 개별적으로 존재하지 않고, "B+Tree의 한계가 파티셔닝을 낳고, 파티셔닝이 샤딩을 낳으며, 샤딩이 2PC와 Saga 패턴을 강제한다"는 식의 **필연적인 인과관계와 진화의 융합 트리**를 구성한다.
 
----
++++
 
 ## Ⅰ. 관계형 모델과 설계의 근본 (Foundation & Design)
 
@@ -25,7 +25,7 @@ categories = "studynote-database"
 - **핵심**: SQL이 겉으로는 '무엇을(What)'을 요구하는 선언적 언어지만, 그 밑바닥은 옵티마이저가 '어떻게(How)'를 수학적으로 계산하는 관계 대수 트리($\sigma$, $\pi$, $\bowtie$)로 번역됨을 이해하는 것.
 - **키워드**: 순수 관계 연산(Select, Project, Join, Division), 카티션 곱(Cartesian Product), 뷰(View) 머징.
 
----
++++
 
 ## Ⅱ. 트랜잭션과 무결성 보장 (Transaction & Concurrency)
 
@@ -39,7 +39,7 @@ categories = "studynote-database"
 - **키워드**: 2단계 락킹(2PL), 교착 상태(Deadlock), **MVCC(다중 버전 동시성 제어)**, Read Committed, Serializable, 팬텀 읽기(Phantom Read).
 - **실무/면접 포인트**: "락(Lock)을 걸면 시스템이 멈춘다. 읽기와 쓰기가 서로를 방해하지 않게 만들기 위해 Undo 영역(스냅샷)을 활용하는 MVCC의 혁명적 원리를 설명할 수 있는가?"
 
----
++++
 
 ## Ⅲ. 성능 최적화의 꽃 (Performance & Tuning)
 
@@ -53,7 +53,7 @@ categories = "studynote-database"
 - **키워드**: RBO(규칙 기반) vs **CBO(비용 기반)**, 딕셔너리 통계 정보, 하드 파싱(Hard Parsing) vs 소프트 파싱, 조건 푸시 다운(Pushdown), Nested Loop / Sort Merge / Hash Join.
 - **실무/면접 포인트**: "변수를 리터럴(1, 2)로 하드코딩했을 때 왜 SGA 공유 풀(Shared Pool) 래치 경합이 발생하여 DB가 죽는지(하드 파싱 오버헤드), 바인드 변수(`?`)의 중요성을 방어할 수 있는가?"
 
----
++++
 
 ## Ⅳ. 대용량 분산 시스템 아키텍처 (Distributed & NoSQL)
 
@@ -70,7 +70,7 @@ categories = "studynote-database"
 - **핵심**: 여러 대의 DB로 데이터가 쪼개졌을 때(MSA 환경), 양쪽 DB의 트랜잭션을 어떻게 묶어서(원자성) 처리할 것인가의 난제.
 - **키워드**: 2단계 커밋(2PC, 동기식 락킹 병목), **Saga 패턴 (비동기 이벤트 + 보상 트랜잭션)**, 스플릿 브레인(Split Brain), 쿼럼(Quorum) 합의.
 
----
++++
 
 ## Ⅴ. 현대적 데이터 생태계 (Modern Data Ecosystem)
 
@@ -79,7 +79,7 @@ categories = "studynote-database"
 - **키워드**: ETL vs ELT, 스키마 온 리드(Schema-on-read), 데이터 레이크하우스(Iceberg, ACID 보장 객체 스토리지), **데이터 메시(도메인 주도 분산 오너십)**, 데이터 패브릭(가상화).
 - **실무/면접 포인트**: "왜 중앙 데이터팀이 모든 파이프라인을 관리하는 것이 병목이 되었으며, 이를 조직적(Mesh) / 기술적(Fabric)으로 어떻게 풀어내고 있는가?"
 
----
++++
 
 ## 📌 마스터 맵 (Master Connection)
 데이터베이스의 학습은 이 10개의 꼭짓점을 서로 선으로 잇는 과정입니다.

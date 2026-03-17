@@ -1,5 +1,6 @@
 +++
 title = "양자화 (Quantization, INT8, INT4)"
+date = "2026-03-14"
 weight = 434
 +++
 
@@ -149,10 +150,10 @@ weight = 434
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[MAC 연산 (Multiply-Accumulate)](./428_mac.md)**: 양자화가 가장 직접적으로 가속하고자 하는 핵심 하드웨어 연산 단위.
-- **[NPU (Neural Processing Unit)](./424_npu.md)**: 저정밀도(INT8) 연산에 최적화된 하드웨어 아키텍처.
-- **[가지치기 (Pruning)](./435_pruning_hardware.md)**: 양자화와 함께 모델 경량화의 양대 산맥을 이루는 기술. (데이터 크기 vs 데이터 개수)
-- **[지식 증류 (Knowledge Distillation)](./xx_distillation.md)**: 양자화로 인한 정확도 손실을 보전하기 위해 큰 모델의 지식을 작은 모델에 전수하는 기술.
+- **MAC 연산 (Multiply-Accumulate)**: 양자화가 가장 직접적으로 가속하고자 하는 핵심 하드웨어 연산 단위.
+- **NPU (Neural Processing Unit)**: 저정밀도(INT8) 연산에 최적화된 하드웨어 아키텍처.
+- **가지치기 (Pruning)**: 양자화와 함께 모델 경량화의 양대 산맥을 이루는 기술. (데이터 크기 vs 데이터 개수)
+- **지식 증류 (Knowledge Distillation)**: 양자화로 인한 정확도 손실을 보전하기 위해 큰 모델의 지식을 작은 모델에 전수하는 기술.
 
 ---
 

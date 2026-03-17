@@ -1,7 +1,7 @@
 +++
 title = "215. 태스크 스케줄링의 캐시 일관성 (Cache Coherence)"
-weight = 215
 date = "2026-03-04"
+weight = 215
 [extra]
 categories = "studynote-operating-system"
 +++
@@ -13,7 +13,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 스케줄러가 태스크를 다른 코어로 이동시킬 때 발생하는 캐시 무효화(Invalidation) 오버헤드와 데이터 불일치 문제를 방지하여, 병렬 프로그래밍의 논리적 정확성과 성능 최적화를 동시에 달성한다.
 > 3. **융합**: MESI 프로토콜 등 하드웨어적 일관성 유지 기법과 운영체제의 프로세서 친화성 (Processor Affinity) 스케줄링 전략이 긴밀하게 협력하는 지점이다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -23,7 +23,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 각자의 요약 노트를 가진 팀원들이 정보가 바뀔 때마다 서로의 노트를 최신화해주어, 누구에게 물어봐도 똑같은 정답을 얻게 만드는 정보 동기화 시스템과 같습니다.
 
----
++++
 
 ## II. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -52,7 +52,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 비서들끼리 수첩을 고쳐주는 것도 다 일(오버헤드)이기 때문에, 웬만하면 한 비서가 전담해서 일정을 관리하게 하는 것이 효율적인 것과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -67,7 +67,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 일관성(Coherence)은 '정답이 하나인가'의 문제이고, 모델(Consistency)은 '사건의 순서가 맞는가'의 문제입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -77,7 +77,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 한 장의 종이에 두 명의 일기를 쓰게 했더니, 한 명이 지우개질을 할 때마다 종이가 흔들려 옆 사람도 글을 못 쓰게 되는 상황이니 종이를 따로 주어야 합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -86,12 +86,12 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 모두가 하나의 진실(Data)을 공유하게 만드는 정교한 기술이 멀티코어 시대를 지탱하는 보이지 않는 힘입니다.
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[MESI 프로토콜](../1_computer_architecture/6_memory_hierarchy_cache/xx_mesi.md)**: 캐시 일관성을 보장하는 가장 대표적인 하드웨어 약속
-- **[프로세서 친화성 (Affinity)](./197_processor_affinity.md)**: 캐시 효율을 위해 코어 이동을 제한하는 스케줄링 전략
-- **[메모리 장벽 (Memory Barrier)](./226_memory_barrier.md)**: 소프트웨어 레벨에서 일관성 순서를 강제하는 명령어
+- **MESI 프로토콜**: 캐시 일관성을 보장하는 가장 대표적인 하드웨어 약속
+- **프로세서 친화성 (Affinity)**: 캐시 효율을 위해 코어 이동을 제한하는 스케줄링 전략
+- **메모리 장벽 (Memory Barrier)**: 소프트웨어 레벨에서 일관성 순서를 강제하는 명령어
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 여러 명의 친구가 같은 그림을 같이 그릴 때, 한 친구가 사과를 빨갛게 칠했다면 다른 친구들도 그 사과가 빨갛다는 걸 바로 알아야 해요.

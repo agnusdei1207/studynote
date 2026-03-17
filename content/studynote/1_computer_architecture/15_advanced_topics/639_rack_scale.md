@@ -1,5 +1,6 @@
 +++
 title = "639. 랙 스케일 아키텍처 (Rack Scale Architecture)"
+date = "2026-03-14"
 weight = 639
 +++
 

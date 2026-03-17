@@ -1,6 +1,6 @@
----
 +++
 title = "XDP (eXpress Data Path)"
+date = "2026-03-14"
 weight = 670
 +++
 

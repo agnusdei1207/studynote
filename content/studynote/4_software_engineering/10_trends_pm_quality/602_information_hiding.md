@@ -1,9 +1,7 @@
----
-title: "602. 정보 은닉(Information Hiding) 및 캡슐화(Encapsulation)"
-date: 2026-03-15
-type: "pe_exam"
-id: 602
----
++++
+title = "602. 정보 은닉(Information Hiding) 및 캡슐화(Encapsulation)"
+date = "2026-03-15"
++++
 
 # 602. 정보 은닉(Information Hiding) 및 캡슐화(Encapsulation)
 
@@ -254,11 +252,11 @@ public class Student {
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[SOLID 원칙](./601_solid_principles.md)**: 정보 은닉과 캡슐화의 상위 설계 원칙.
-- **[도메인 주도 설계(DDD)](./219_domain_driven_design.md)**: 값 객체(Value Object)와 엔티티(Entity)의 캡슐화.
-- **[Law of Demeter](./xx_law_of_demeter.md)**: 최소 지식 원칙 - 정보 은닉의 보완적 원칙.
-- **[DTO 패턴](./xx_dto_pattern.md)**: 데이터 전송 객체를 통한 계층 간 정보 은닉.
-- **[불변 객체(Immutable Object)](./xx_immutable_object.md)**: 상태 변경을 원천 차단하는 강력한 캡슐화.
+- **SOLID 원칙**: 정보 은닉과 캡슐화의 상위 설계 원칙.
+- **도메인 주도 설계(DDD)**: 값 객체(Value Object)와 엔티티(Entity)의 캡슐화.
+- **Law of Demeter**: 최소 지식 원칙 - 정보 은닉의 보완적 원칙.
+- **DTO 패턴**: 데이터 전송 객체를 통한 계층 간 정보 은닉.
+- **불변 객체(Immutable Object)**: 상태 변경을 원천 차단하는 강력한 캡슐화.
 
 ---
 

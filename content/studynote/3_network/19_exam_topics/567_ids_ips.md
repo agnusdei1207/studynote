@@ -1,5 +1,6 @@
 +++
 title = "IDS/IPS (Intrusion Detection/Prevention System) - 침입 탐지/방지 시스템"
+date = "2026-03-14"
 weight = 567
 +++
 
@@ -95,6 +96,6 @@ IDS는 침입을 탐지하고, IPS는 탐지 후 차단까지 수행합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Firewall](./564_firewall.md)
-- [WAF](./566_waf.md)
-- [SIEM](./569_siem.md)
+- Firewall
+- WAF
+- SIEM

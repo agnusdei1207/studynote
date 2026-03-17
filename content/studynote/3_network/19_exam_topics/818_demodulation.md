@@ -1,5 +1,6 @@
 +++
 title = "Demodulation - 복조"
+date = "2026-03-14"
 weight = 818
 +++
 
@@ -103,6 +104,6 @@ Demodulation은 변조된 신호에서 원신호를 복원합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Modulation](./817_modulation.md)
-- [Signal Processing](./xxx_signal_processing.md)
-- [Receiver](./xxx_receiver.md)
+- Modulation
+- Signal Processing
+- Receiver

@@ -1,8 +1,8 @@
-
----
-weight = 629
++++
 title = "629. 유니커널 (Unikernel) - 경량 단일 목적 OS"
----
+date = "2026-03-14"
+weight = 629
++++
 
 # 629. 유니커널 (Unikernel) - 경량 단일 목적 OS
 

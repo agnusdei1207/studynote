@@ -1,11 +1,9 @@
 +++
 title = "Pre-Work Survey"
-date = 2026-02-27
-
+date = "2026-02-27"
 [extra]
 categories = "user-prompt"
 +++
-
 
 # PRE-WORK MANDATORY SURVEY — 작업 시작 전 필수 전수조사
 

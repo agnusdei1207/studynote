@@ -1,5 +1,6 @@
 +++
 title = "사고 대응 - Incident Response"
+date = "2026-03-14"
 weight = 405
 +++
 
@@ -137,10 +138,10 @@ weight = 405
 ---
 
 ### 📌 관련 개념 링크**:
-- [SOC](./403_soc.md)
-- [SIEM](./402_siem.md)
-- [Threat Intelligence](./404_threat_intelligence.md)
-- [CSIRT](./9_security/155_csirt.md)
+- SOC
+- SIEM
+- Threat Intelligence
+- CSIRT
 
 ---
 

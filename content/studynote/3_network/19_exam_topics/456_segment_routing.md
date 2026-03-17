@@ -1,5 +1,6 @@
 +++
 title = "세그먼트 라우팅 - Segment Routing"
+date = "2026-03-14"
 weight = 456
 +++
 
@@ -140,10 +141,10 @@ weight = 456
 ---
 
 ### 📌 관련 개념 링크**:
-- [SRv6](./457_srv6.md)
-- [MPLS](./321_mpls.md)
-- [트래픽 엔지니어링](./330_traffic_shaping.md)
-- [Fast Reroute](./355_frr.md)
+- SRv6
+- MPLS
+- 트래픽 엔지니어링
+- Fast Reroute
 
 ---
 

@@ -1,6 +1,7 @@
 +++
-weight = 526
 title = "526. 비휘발성 메모리 마모 평준화"
+date = "2026-03-14"
+weight = 526
 +++
 
 # 526. 비휘발성 메모리 마모 평준화
@@ -134,10 +135,10 @@ title = "526. 비휘발성 메모리 마모 평준화"
 ---
 
 ### 📌 관련 개념 맵
-- **[FTL (Flash Translation Layer)](./xx_ftl.md)**: 마모 평준화가 구현되는 계층
-- **[가비지 컬렉션 (Garbage Collection)](./xx_ssd_gc.md)**: 마모 평준화와 함께 작동하는 정리 기술
-- **[SCM (Storage Class Memory)](./524_scm_tiering.md)**: 마모 평준화가 필수인 차세대 메모리
-- **[TRIM 명령어](./xx_trim.md)**: OS와 메모리 컨트롤러 간의 협력 기술
+- **FTL (Flash Translation Layer)**: 마모 평준화가 구현되는 계층
+- **가비지 컬렉션 (Garbage Collection)**: 마모 평준화와 함께 작동하는 정리 기술
+- **SCM (Storage Class Memory)**: 마모 평준화가 필수인 차세대 메모리
+- **TRIM 명령어**: OS와 메모리 컨트롤러 간의 협력 기술
 
 ---
 

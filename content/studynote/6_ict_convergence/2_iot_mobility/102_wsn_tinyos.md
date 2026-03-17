@@ -1,10 +1,9 @@
----
-title: "[ICT] #103. 센서 네트워크 (WSN) 및 초소형 운영체제 (TinyOS 등)"
-date: "2026-03-17"
++++
+title = "[ICT] #103. 센서 네트워크 (WSN) 및 초소형 운영체제 (TinyOS 등)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "WSN_WirelessSensorNetwork_SinkNode_TinyOS_nesC_EventDriven_FreeRTOS"
----
+keyword = "WSN_WirelessSensorNetwork_SinkNode_TinyOS_nesC_EventDriven_FreeRTOS"
++++
 
 # 센서 네트워크 (WSN) 및 초소형 OS: 사물인터넷의 최말단 감각망 기술
 
@@ -13,7 +12,7 @@ keyword: "WSN_WirelessSensorNetwork_SinkNode_TinyOS_nesC_EventDriven_FreeRTOS"
 > 2. **가치**: 배터리로 구동되는 극도로 제한된 자원(Memory, Energy) 환경에서 수년 이상 동작해야 하므로, 이벤트 중심(Event-driven) 아키텍처와 에너지 효율적 통신 프로토콜이 기술의 핵심이다.
 > 3. **융합**: TinyOS, FreeRTOS와 같은 초소형 운영체제(OS) 및 nesC와 같은 전용 언어를 통해 하드웨어 제어 최적화를 달성하며, 스마트 농업, 환경 모니터링, 재난 감지 등 광범위한 현장 데이터 수집의 기반이 된다.
 
----
++++
 
 ## Ⅰ. 센서 네트워크 (WSN) 개요
 
@@ -31,7 +30,7 @@ keyword: "WSN_WirelessSensorNetwork_SinkNode_TinyOS_nesC_EventDriven_FreeRTOS"
 
 📢 **섹션 요약 비유**: 하나하나의 힘은 약하지만, 수만 개의 점이 모여 선과 면을 이루어 세상을 읽어내는 '디지털 모자이크' 기술입니다.
 
----
++++
 
 ## Ⅱ. WSN 아키텍처 및 센서 노드 구조 (Deep Dive)
 
@@ -74,7 +73,7 @@ keyword: "WSN_WirelessSensorNetwork_SinkNode_TinyOS_nesC_EventDriven_FreeRTOS"
 
 📢 **섹션 요약 비유**: 모든 노드가 한꺼번에 소리를 지르는 대신, 순서를 정해 아주 잠깐씩만 속삭이고 다시 잠드는 '동기화된 지혜'의 망입니다.
 
----
++++
 
 ## Ⅲ. 초소형 운영체제 (TinyOS & FreeRTOS) 분석
 
@@ -99,7 +98,7 @@ keyword: "WSN_WirelessSensorNetwork_SinkNode_TinyOS_nesC_EventDriven_FreeRTOS"
 
 📢 **섹션 요약 비유**: TinyOS가 '전화가 올 때만 반응하는 안내원'이라면, FreeRTOS는 '여러 일을 동시에 처리하며 급한 일부터 해결하는 전문 비서'와 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -117,7 +116,7 @@ keyword: "WSN_WirelessSensorNetwork_SinkNode_TinyOS_nesC_EventDriven_FreeRTOS"
 
 📢 **섹션 요약 비유**: 개별 보고서(데이터)를 다 읽는 대신, 팀장(중간 노드)이 요약해서 본부(싱크 노드)에 보고하게 하여 행정 효율을 높이는 시스템적 접근이 필요합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -131,13 +130,13 @@ keyword: "WSN_WirelessSensorNetwork_SinkNode_TinyOS_nesC_EventDriven_FreeRTOS"
 
 📢 **섹션 요약 비유**: WSN은 세상을 디지털로 감각하게 만드는 '피부'와 같으며, 초소형 OS는 그 피부가 최소한의 에너지로 예민하게 반응하게 만드는 '본능'과 같습니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[지그비 (ZigBee)](./112_zigbee.md)**: WSN에서 가장 널리 쓰이는 저전력 무선 표준.
-- **[6LoWPAN](./117_6lowpan.md)**: 센서 노드에 IPv6 주소를 부여하여 직접 인터넷에 연결하는 기술.
-- **[에너지 하베스팅](../13_reliability_power/xx_energy_harvesting.md)**: 주변 에너지를 수집하여 자가 발전하는 기술.
-- **[실시간 운영체제 (RTOS)](../../2_operating_system/xx_rtos.md)**: 실시간성을 보장하는 운영체제의 일반 원리.
+- **지그비 (ZigBee)**: WSN에서 가장 널리 쓰이는 저전력 무선 표준.
+- **6LoWPAN**: 센서 노드에 IPv6 주소를 부여하여 직접 인터넷에 연결하는 기술.
+- **에너지 하베스팅**: 주변 에너지를 수집하여 자가 발전하는 기술.
+- **실시간 운영체제 (RTOS)**: 실시간성을 보장하는 운영체제의 일반 원리.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **작은 탐험가들**: 아주 작은 컴퓨터 요정들이 숲이나 밭에 흩어져서, 비가 오는지 땅이 말랐는지 관찰해서 알려주는 기술이에요.

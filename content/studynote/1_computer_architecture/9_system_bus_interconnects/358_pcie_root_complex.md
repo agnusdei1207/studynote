@@ -1,6 +1,6 @@
 +++
 title = "358. PCIe 루트 컴플렉스 (Root Complex)"
-description = "CPU와 PCIe 패브릭을 연결하는 핵심 인터페이스이자 I/O 계층의 최상위 제어 유닛"
+date = "2026-03-14"
 weight = 358
 +++
 
@@ -161,11 +161,11 @@ weight = 358
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[PCIe (PCI Express)](./351_pcie.md)**: RC가 제어하는 하부 통신 표준
-- **[IOMMU (I/O Memory Management Unit)](../7_virtual_memory_os/xx_iommu.md)**: RC의 핵심 주소 변환 모듈
-- **[SR-IOV (Single Root I/O Virtualization)](../13_reliability_power/xx_sriov.md)**: RC가 제공하는 물리 장치 가상화 기술
-- **[CXL (Compute Express Link)](./xx_cxl.md)**: RC의 기능을 확장한 차세대 메모리/장치 인터페이스
-- **[MSI-X (Message Signaled Interrupts)](../7_virtual_memory_os/xx_msix.md)**: RC를 통해 처리되는 고성능 인터럽트 방식
+- **PCIe (PCI Express)**: RC가 제어하는 하부 통신 표준
+- **IOMMU (I/O Memory Management Unit)**: RC의 핵심 주소 변환 모듈
+- **SR-IOV (Single Root I/O Virtualization)**: RC가 제공하는 물리 장치 가상화 기술
+- **CXL (Compute Express Link)**: RC의 기능을 확장한 차세대 메모리/장치 인터페이스
+- **MSI-X (Message Signaled Interrupts)**: RC를 통해 처리되는 고성능 인터럽트 방식
 
 ---
 

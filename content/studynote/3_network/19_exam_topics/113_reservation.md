@@ -1,5 +1,6 @@
 +++
 title = "예약 방식 접속 (Reservation Access)"
+date = "2026-03-14"
 weight = 113
 +++
 
@@ -156,10 +157,10 @@ weight = 113
 ---
 
 ### 📌 관련 개념 링크**:
-- [ALOHA](./111_aloha.md)
-- [CSMA](./104_csma.md)
-- [폴링 Polling](./114_polling.md)
-- [LTE 스케줄링](./210_lte.md)
+- ALOHA
+- CSMA
+- 폴링 Polling
+- LTE 스케줄링
 
 ---
 

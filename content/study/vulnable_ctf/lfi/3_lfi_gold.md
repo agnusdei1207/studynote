@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: LFI 🥇 Gold"
-description = "LUXORA 플랫폼의 Gold 난이도 LFI 공략 - PHP 세션 파일(PHP Session) 포이즈닝을 통한 RCE(원격 코드 실행) 달성 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "LFI", "Gold", "Session Poisoning", "RCE", "Write-up"]

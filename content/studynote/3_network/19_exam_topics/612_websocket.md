@@ -1,5 +1,6 @@
 +++
 title = "WebSocket - 웹소켓"
+date = "2026-03-14"
 weight = 612
 +++
 
@@ -99,6 +100,6 @@ WebSocket은 단일 TCP로 양방향 통신을 합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [HTTP](./556_http.md)
-- [TCP](./332_tcp.md)
-- [Server-Sent Events](./613_sse.md)
+- HTTP
+- TCP
+- Server-Sent Events

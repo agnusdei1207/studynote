@@ -1,7 +1,7 @@
----
-title: "498. 입력 데이터 검증 및 표현 (Input Validation) 원칙"
-date: 2026-03-15
----
++++
+title = "498. 입력 데이터 검증 및 표현 (Input Validation) 원칙"
+date = "2026-03-15"
++++
 
 # 498. 입력 데이터 검증 및 표현 (Input Validation) 원칙
 
@@ -148,10 +148,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[OWASP Top 10 (A03)](./477_owasp_top_10.md)**: 입력 검증 미흡으로 발생하는 대표 취약점군
-- **[SQL Injection](./480_injection.md)**: 입력 검증 실패로 인한 가장 치명적인 공격
-- **[XSS (Cross-Site Scripting)](./500_xss.md)**: 입력 검증 및 출력 인코딩과 직결된 취약점
-- **[Safe SDLC](./471_secure_sdlc.md)**: 입력 검증이 설계 단계부터 고려되어야 하는 개발 생명주기
+- **OWASP Top 10 (A03)**: 입력 검증 미흡으로 발생하는 대표 취약점군
+- **SQL Injection**: 입력 검증 실패로 인한 가장 치명적인 공격
+- **XSS (Cross-Site Scripting)**: 입력 검증 및 출력 인코딩과 직결된 취약점
+- **Safe SDLC**: 입력 검증이 설계 단계부터 고려되어야 하는 개발 생명주기
 
 ---
 

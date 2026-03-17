@@ -1,5 +1,6 @@
 +++
 title = "핸드오버 - Handover"
+date = "2026-03-14"
 weight = 466
 +++
 
@@ -136,10 +137,10 @@ weight = 466
 ---
 
 ### 📌 관련 개념 링크**:
-- [5G](./459_5g_networking.md)
-- [LTE](./460_lte.md)
-- [Roaming](./469_roaming.md)
-- [Mobile IP](./468_mobile_ip.md)
+- 5G
+- LTE
+- Roaming
+- Mobile IP
 
 ---
 

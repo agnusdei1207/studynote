@@ -1,7 +1,7 @@
 +++
 title = "243. 우선순위 상속 (Priority Inheritance Protocol)"
-weight = 243
 date = "2026-03-04"
+weight = 243
 [extra]
 categories = "studynote-operating-system"
 +++
@@ -13,7 +13,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 중간 우선순위 스레드가 끼어들어 낮은 우선순위 스레드의 실행을 방해하는 것을 막음으로써, 결과적으로 높은 우선순위 스레드의 대기 시간을 최소화하고 우선순위 역전 현상을 해결한다.
 > 3. **융합**: 실시간 운영체제(RTOS)의 핵심 동기화 알고리즘이며, Java의 `ReentrantLock`이나 POSIX Pthreads 뮤텍스 등에서 옵션으로 제공되어 시스템의 결정론적(Deterministic) 동작을 돕는다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -23,7 +23,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 마치 긴급 환자를 수송하는 구급차 앞에 소형차가 길을 막고 있을 때, 경찰이 소형차에게 일시적으로 구급차와 같은 통행 우선권을 부여하여 빨리 길을 터주게 만드는 것과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -53,7 +53,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 마치 전기가 도선을 타고 끝까지 전달되듯, 높은 우선순위의 '압력'이 자원 점유 체인을 타고 마지막 점유자에게까지 전달되어 병목을 뚫는 원리와 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -68,7 +68,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: PIP는 "사고가 나면 보험 처리를 해주는 것"이고, PCP는 "사고가 안 나게 도로 규정 자체를 엄격하게 만드는 것"입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -89,7 +89,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 특권을 빌려주는 것은 임시 조치일 뿐, 애초에 줄을 잘 서는 규칙(Lock Order)을 지키는 것이 가장 중요합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 

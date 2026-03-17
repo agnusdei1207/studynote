@@ -1,7 +1,7 @@
 +++
-weight = 666
 title = "666. 임베디드 및 실시간 운영체제(RTOS) 요약"
 date = "2024-05-23"
+weight = 666
 [extra]
 categories = "studynote-operating-system"
 keywords = ["RTOS", "Embedded OS", "Deterministic", "Priority Inversion", "Hard Real-time"]
@@ -12,7 +12,7 @@ keywords = ["RTOS", "Embedded OS", "Deterministic", "Priority Inversion", "Hard 
 > 임베디드 환경의 제한된 자원(CPU, Memory, Power) 내에서 마감 시간(Deadline)을 엄격히 준수하기 위해 선점형 커널(Preemptive Kernel)과 고정 우선순위 스케줄링을 핵심 메커니즘으로 사용한다.
 > 특히 우선순위 역전(Priority Inversion)과 같은 고질적인 문제를 해결하기 위한 PIP(Priority Inheritance Protocol) 등 전문화된 동기화 기법이 시스템 신뢰성의 핵심이 된다.
 
----
++++
 
 ### Ⅰ. RTOS의 핵심 개념 및 실시간성 정의
 
@@ -26,7 +26,7 @@ keywords = ["RTOS", "Embedded OS", "Deterministic", "Priority Inversion", "Hard 
 
 📢 섹션 요약 비유: RTOS는 '정확히 정해진 시간에 도착해야 하는 셔틀버스'와 같아서, 조금이라도 늦으면 사고가 나는 아주 긴박한 상황을 관리하는 것과 같습니다.
 
----
++++
 
 ### Ⅱ. RTOS 아키텍처 및 스케줄링 메커니즘
 
@@ -54,7 +54,7 @@ keywords = ["RTOS", "Embedded OS", "Deterministic", "Priority Inversion", "Hard 
 
 📢 섹션 요약 비유: RTOS 스케줄러는 '응급실 접수처'와 같아서, 일반 환자가 진료를 받다가도 위급한 응급 환자가 들어오면 즉시 모든 순서를 뒤로 미루고 응급 환자부터 처치하는 시스템입니다.
 
----
++++
 
 ### Ⅲ. 실시간 동기화 이슈: 우선순위 역전(Priority Inversion)
 
@@ -67,7 +67,7 @@ keywords = ["RTOS", "Embedded OS", "Deterministic", "Priority Inversion", "Hard 
 
 📢 섹션 요약 비유: 우선순위 역전은 '회장님이 화장실에 가려는데 직원이 안에서 문을 잠그고 안 나오는 상황'이며, 우선순위 상속은 '직원을 회장님 비서로 잠시 승진시켜서 화장실 청소를 빨리 끝내게 하는 것'과 같습니다.
 
----
++++
 
 ### Ⅳ. 임베디드 OS의 자원 관리 기술
 
@@ -80,7 +80,7 @@ keywords = ["RTOS", "Embedded OS", "Deterministic", "Priority Inversion", "Hard 
 
 📢 섹션 요약 비유: 임베디드 자원 관리는 '한정된 용돈으로 한 달 살기'와 같아서, 돈(메모리)을 미리 나눠두고 쓸데없는 곳에 전기(돈)가 새나가지 않게 아껴 쓰는 지혜입니다.
 
----
++++
 
 ### Ⅴ. RTOS 산업 적용 사례 및 최신 동향
 
@@ -93,7 +93,7 @@ keywords = ["RTOS", "Embedded OS", "Deterministic", "Priority Inversion", "Hard 
 
 📢 섹션 요약 비유: 미래의 RTOS는 '한 치의 오차도 허용하지 않는 정밀 수술 로봇'과 같아서, 인간의 생명과 안전을 지키는 가장 기본적이고 강력한 도구가 될 것입니다.
 
----
++++
 
 ### 💡 지식 그래프(Knowledge Graph)
 - **부모 노드**: 운영체제 분류(OS Classification)

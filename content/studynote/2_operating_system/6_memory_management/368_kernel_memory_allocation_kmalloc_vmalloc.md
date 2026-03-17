@@ -1,7 +1,7 @@
 +++
-weight = 368
 title = "368. 커널 메모리 할당 방식 (kmalloc, vmalloc)"
 date = "2024-05-23"
+weight = 368
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "Kernel Memory", "kmalloc", "vmalloc", "Buddy System", "Slab Allocator", "연속 메모리"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "Kernel Memory", "kmalloc", "vmalloc", "Buddy System
 > 2. **kmalloc**: 물리 메모리와 가상 메모리 모두에서 '연속성'을 보장하며, 버디 시스템(Buddy System)과 슬랩 할당자(Slab Allocator)를 기반으로 매우 빠르게 작동한다.
 > 3. **vmalloc**: 가상 주소 공간에서는 연속적이지만 물리 메모리에서는 흩어져 있을 수 있으며, 큰 버퍼가 필요할 때 사용되지만 페이지 테이블 수정 오버헤드가 크다.
 
----
++++
 
 ## Ⅰ. 커널 메모리 할당의 특징 및 필요성
 
@@ -26,7 +26,7 @@ keywords = ["운영체제", "Kernel Memory", "kmalloc", "vmalloc", "Buddy System
 
 - **📢 섹션 요약 비유**: "손님(사용자)에게는 빈 의자를 아무 데나(흩어진 메모리) 줘도 되지만, 주방장(커널)에게는 재료를 한 번에 썰 수 있는 긴 도마(연속된 메모리)가 필요한 것과 같습니다."
 
----
++++
 
 ## Ⅱ. kmalloc vs vmalloc 비교 및 ASCII 다이어그램
 
@@ -54,7 +54,7 @@ kmalloc: V_Addr (Seq) -----> Physical Block (Seq)
 
 - **📢 섹션 요약 비유**: "kmalloc은 실제 땅과 지도가 모두 일직선인 도로이고, vmalloc은 지도는 일직선이지만 실제로는 구불구불한 여러 골목길을 이어 붙인 길과 같습니다."
 
----
++++
 
 ## Ⅲ. kmalloc의 심층 메커니즘: Buddy & Slab
 
@@ -66,7 +66,7 @@ kmalloc: V_Addr (Seq) -----> Physical Block (Seq)
 
 - **📢 섹션 요약 비유**: "큰 나무판자를 반으로 계속 쪼개서 딱 맞는 크기를 찾는 것이 버디 시스템이고, 자주 쓰는 나사나 못을 미리 통에 담아두고 바로 꺼내 쓰는 것이 슬랩 할당자입니다."
 
----
++++
 
 ## Ⅳ. vmalloc의 활용 및 한계 (Strategy)
 
@@ -78,7 +78,7 @@ kmalloc: V_Addr (Seq) -----> Physical Block (Seq)
 
 - **📢 섹션 요약 비유**: "여러 집의 작은 방들을 전세 내서 복도만 하나로 연결해 거대한 집처럼 쓰는 것이라, 관리비(오버헤드)가 많이 나오는 방식입니다."
 
----
++++
 
 ## Ⅴ. 결론 및 요약
 
@@ -90,15 +90,15 @@ kmalloc: V_Addr (Seq) -----> Physical Block (Seq)
 
 - **📢 섹션 요약 비유**: "결국 '상황에 맞는 도구 선택'이 시스템 전체의 안정성과 성능을 결정짓는 핵심 열쇠임을 보여줍니다."
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[버디 시스템 (Buddy System)](./348_buddy_system_allocator.md)**: kmalloc의 물리 메모리 관리 기반.
-- **[슬랩 할당자 (Slab Allocator)](./349_slab_allocator.md)**: kmalloc의 객체 캐싱 메커니즘.
-- **[DMA (Direct Memory Access)](./805_dma.md)**: kmalloc(물리적 연속성)이 반드시 필요한 대표적 사례.
-- **[가상 메모리 (Virtual Memory)](./322_logical_address.md)**: vmalloc이 활용하는 주소 변환의 기초.
+- **버디 시스템 (Buddy System)**: kmalloc의 물리 메모리 관리 기반.
+- **슬랩 할당자 (Slab Allocator)**: kmalloc의 객체 캐싱 메커니즘.
+- **DMA (Direct Memory Access)**: kmalloc(물리적 연속성)이 반드시 필요한 대표적 사례.
+- **가상 메모리 (Virtual Memory)**: vmalloc이 활용하는 주소 변환의 기초.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 주방장님이 요리를 할 때, 아주 긴 김밥은 중간에 끊어지면 안 되니까 한 번에 긴 도마(**kmalloc**) 위에서 만들어요.

@@ -1,6 +1,7 @@
 +++
-weight = 391
 title = "391. 익명 메모리 (Anonymous Memory)"
+date = "2026-03-14"
+weight = 391
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -114,4 +115,3 @@ graph TD
     AM -- Page Out --> SS[Swap Space]
     ZF -- Security --> IP[Isolation/Privacy]
     HP -- malloc --> DA[Dynamic Allocation]
-```

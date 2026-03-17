@@ -1,6 +1,7 @@
 +++
-weight = 38
 title = "38. init 프로세스 / systemd - 모든 프로세스의 조상"
+date = "2026-03-14"
+weight = 38
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -110,9 +111,9 @@ title = "38. init 프로세스 / systemd - 모든 프로세스의 조상"
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[부트 로더 (Bootloader)](./29_bootloader.md)**: 커널을 실행하고, 커널이 다시 `init`을 실행함.
-- **[시스템 데몬 (System Daemon)](./37_system_daemon.md)**: `systemd`에 의해 관리되는 하위 서비스들.
-- **[프로세스 상태 (Process State)](../2_process_thread/101_process_state.md)**: `init`이 관리하는 프로세스들의 생애 주기.
+- **부트 로더 (Bootloader)**: 커널을 실행하고, 커널이 다시 `init`을 실행함.
+- **시스템 데몬 (System Daemon)**: `systemd`에 의해 관리되는 하위 서비스들.
+- **프로세스 상태 (Process State)**: `init`이 관리하는 프로세스들의 생애 주기.
 
 ---
 

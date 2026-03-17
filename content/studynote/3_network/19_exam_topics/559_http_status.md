@@ -1,5 +1,6 @@
 +++
 title = "HTTP Status Codes - HTTP 상태 코드"
+date = "2026-03-14"
 weight = 559
 +++
 
@@ -98,6 +99,6 @@ HTTP Status Code는 3자리 숫자로 응답 결과를 분류합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [HTTP](./556_http.md)
-- [HTTP Methods](./558_http_methods.md)
-- [Error Handling](./560_error_handling.md)
+- HTTP
+- HTTP Methods
+- Error Handling

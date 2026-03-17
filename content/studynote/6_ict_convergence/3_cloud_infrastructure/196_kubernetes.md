@@ -1,10 +1,9 @@
----
-title: "[ICT] #196. 쿠버네티스 (Kubernetes, K8s) 아키텍처 및 Pod"
-date: "2026-03-17"
++++
+title = "[ICT] #196. 쿠버네티스 (Kubernetes, K8s) 아키텍처 및 Pod"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Kubernetes_K8s_ContainerOrchestration_Pod_MasterNode_WorkerNode_CloudNative"
----
+keyword = "Kubernetes_K8s_ContainerOrchestration_Pod_MasterNode_WorkerNode_CloudNative"
++++
 
 # 쿠버네티스 (Kubernetes): 수천 개의 컨테이너를 지휘하는 클라우드 네이티브의 총사령관
 
@@ -13,7 +12,7 @@ keyword: "Kubernetes_K8s_ContainerOrchestration_Pod_MasterNode_WorkerNode_CloudN
 > 2. **가치**: "원하는 상태(Desired State)"를 선언(YAML)해두면 시스템이 현재 상태를 모니터링하다가 죽은 컨테이너를 스스로 되살리는 **자동 복구(Self-healing)** 능력을 통해 무중단 서비스를 완벽하게 보장한다.
 > 3. **융합**: 컨테이너들을 묶어 배포하는 최소 단위인 포드(Pod), 전체를 통제하는 마스터 노드(Control Plane), 실제 앱이 구동되는 워커 노드로 구성되며, 오늘날 모든 퍼블릭/프라이빗 클라우드의 **'표준 운영체제(OS)'**로 융합/군림하고 있다.
 
----
++++
 
 ## Ⅰ. 쿠버네티스 (Kubernetes, K8s) 개요
 
@@ -31,7 +30,7 @@ keyword: "Kubernetes_K8s_ContainerOrchestration_Pod_MasterNode_WorkerNode_CloudN
 
 📢 **섹션 요약 비유**: 수백 명의 악기 연주자(컨테이너)가 제멋대로 소리를 내는 것을 막고, 하나의 완벽한 교향곡을 연주하도록 지휘봉을 휘두르는 '오케스트라 지휘자(Orchestrator)'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -94,7 +93,7 @@ keyword: "Kubernetes_K8s_ContainerOrchestration_Pod_MasterNode_WorkerNode_CloudN
 
 📢 **섹션 요약 비유**: 마스터 노드는 작전 지도를 그리는 '사령부'이고, 워커 노드는 총을 쏘는 '전방 부대'이며, Pod는 한 참호 속에서 생사고락을 함께하는 '최소 전투 분대'입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -113,7 +112,7 @@ keyword: "Kubernetes_K8s_ContainerOrchestration_Pod_MasterNode_WorkerNode_CloudN
 
 📢 **섹션 요약 비유**: "청소기 돌리고 설거지해!"라고 잔소리(명령형)하는 대신, "항상 깨끗한 집을 유지해!"라고 목표(선언적)만 주면 로봇이 알아서 치우는 자율형 집사 시스템입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -131,7 +130,7 @@ keyword: "Kubernetes_K8s_ContainerOrchestration_Pod_MasterNode_WorkerNode_CloudN
 
 📢 **섹션 요약 비유**: 최고의 F1 레이싱카(K8s)를 갖는 것도 좋지만, 동네 마트에 갈 때는 자전거(Docker Compose)를 타는 것이 현명하며, 정비는 내가 직접 하지 않고 전문 카센터(Managed K8s)에 맡기는 것이 안전합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -145,13 +144,13 @@ keyword: "Kubernetes_K8s_ContainerOrchestration_Pod_MasterNode_WorkerNode_CloudN
 
 📢 **섹션 요약 비유**: 쿠버네티스는 단순한 도구를 넘어, 전 세계 모든 클라우드 위에서 똑같이 동작하는 '현대 인터넷의 진정한 클라우드 운영체제(OS)'로 역사에 남을 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[도커 및 컨테이너 가상화](./194_container_virtualization.md)**: K8s가 조종하는 실제 병사(컨테이너)들을 만드는 기본 기술.
-- **[클라우드 네이티브](./199_cloud_native.md)**: K8s 아키텍처 철학이 궁극적으로 추구하는 소프트웨어 개발/운영 사상.
-- **[마이크로서비스 (MSA)](../../4_software_engineering/xx_msa.md)**: 수백 개의 작은 서비스들이 K8s 위에서 서로 통신하며 동작.
-- **[멀티 클라우드](./189_multi_cloud_strategy.md)**: K8s 덕분에 여러 클라우드를 이사 다니는 것이 가능해진 클라우드 전략.
+- **도커 및 컨테이너 가상화**: K8s가 조종하는 실제 병사(컨테이너)들을 만드는 기본 기술.
+- **클라우드 네이티브**: K8s 아키텍처 철학이 궁극적으로 추구하는 소프트웨어 개발/운영 사상.
+- **마이크로서비스 (MSA)**: 수백 개의 작은 서비스들이 K8s 위에서 서로 통신하며 동작.
+- **멀티 클라우드**: K8s 덕분에 여러 클라우드를 이사 다니는 것이 가능해진 클라우드 전략.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **마법의 공장장님**: 레고 블록(도커) 수천 개를 조립해야 할 때, 내가 일일이 지시하지 않아도 "성 1개, 로봇 3개 만들어!"라고 종이에 적어주면 알아서 다 만들어주는 천재 공장장님이에요.

@@ -1,5 +1,6 @@
 +++
 title = "델타 변조 (Delta Modulation)"
+date = "2026-03-14"
 weight = 65
 +++
 
@@ -152,10 +153,10 @@ weight = 65
 ---
 
 ### 📌 관련 개념 링크**:
-- [DPCM 차분 PCM](./63_dpcm_differential.md)
-- [ADPCM 적응형 DPCM](./64_adpcm_adaptive.md)
-- [PCM 펄스 부호 변조](./62_pcm_pulse.md)
-- [양자화 Quantization](./59_quantization.md)
+- DPCM 차분 PCM
+- ADPCM 적응형 DPCM
+- PCM 펄스 부호 변조
+- 양자화 Quantization
 
 ---
 

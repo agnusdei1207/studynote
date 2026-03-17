@@ -1,7 +1,7 @@
 +++
-weight = 667
 title = "667. SSD 보안 (SSD Security)"
 date = "2026-03-16"
+weight = 667
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "SSD 보안", "데이터 삭제", "암호화", "ATA Security", "Sanitize"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "SSD 보안", "데이터 삭제", "암호화", "ATA 
 > 2. **가치**: 디스크 재사용 및 폐기 시 민감 정보 유출을 방지하기 위해, 단순 Overwrite 방식의 한계를 넘어 컨트롤러 수준의 완전 소거(**ATA Sanitize**)와 암호화 키 폐기를 통한 즉각적인 무효화(**Crypto-Erase**)를 병행한 방어 체계가 필수적이다.
 > 3. **융합**: 운영체제의 파일 시스템 추상화 계층과 스토리지 펌웨어 간의 괴리를 이해하여, **TCG Opal (Trusted Computing Group Opal)**과 같은 하드웨어 암호화 표준과 **Zero Trust** 보안 모델을 통합한 관리 전략을 수립해야 한다.
 
----
++++
 
 ### Ⅰ. 개요 (Context & Background)
 
@@ -34,7 +34,7 @@ SSD의 데이터 삭제는 **"매직 펜으로 쓴 칠판의 내용을 지우개
 
 > **📢 섹션 요약 비유**: SSD 보안이 필요한 이유는 **"사용자는 책상 서랍(논리 주소)을 비웠다고 생각하지만, 정리하는 로봇(FTL)이 물건들을 창고 구석진 곳(물리적 플래시/OP 영역)으로 계속 옮겨두기 때문"**입니다. 그래서 서랍만 비우는 것으로는 비밀을 지킬 수 없습니다.
 
----
++++
 
 ### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -59,7 +59,7 @@ SSD의 데이터 보안 취약점은 **Host OS**와 **NAND Flash Memory** 사이
 |      Host OS     |           |     SSD Controller (FTL)     |           |    NAND Flash Physical    |
 +------------------+           +-----------------------------+           +--------------------------+
 |                  |           |                             |           | Block A (PBA 50)         |
-|  User Command:   |           |  Mapping Table Update:       |           | [Data] [Data] [DEL] [Data]|
+|  User Command:   |           |  Mapping Table Update =       |           | [Data] [Data] [DEL] [Data]|
 |  "Delete File"   | ------->  |  LBA 1000 -> Invalid         |           | (Still Charged!)         |
 |  (LBA 1000)      |           |                             |           |                          |
 +------------------+           +-----------------------------+           | Block B (OP Area)         |
@@ -88,7 +88,7 @@ SSD의 데이터 보안 취약점은 **Host OS**와 **NAND Flash Memory** 사이
 
 > **📢 섹션 요약 비유**: SSD의 데이터 삭제는 **"도서관에서 목록 카드만 찢어버리는 것"**과 같습니다. 책(데이터)은 여전히 책장(플래시 셀)에 꽂혀 있고, 정리하는 직원(FTL)이 바쁘면 책을 다른 비밀 창고(OP 영역)로 옮겨두기까지 합니다. 진짜 폐기는 창고 통째로 불태우거나(Sanitize), 그 책장을 여는 열쇠(Key)를 녹여버려야(Crypto-Erase) 가능합니다.
 
----
++++
 
 ### Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 

@@ -1,7 +1,7 @@
----
 +++
-weight = 535
 title = "535. 시스템 온 패키지 (SiP, System in Package)"
+date = "2026-03-14"
+weight = 535
 +++
 
 # 535. 시스템 온 패키지 (SiP, System in Package)

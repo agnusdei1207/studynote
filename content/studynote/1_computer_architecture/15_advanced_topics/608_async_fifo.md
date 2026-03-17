@@ -1,5 +1,6 @@
 +++
 title = "608. 비동기식 FIFO 버퍼 (Asynchronous FIFO Buffer)"
+date = "2026-03-14"
 weight = 608
 +++
 
@@ -153,11 +154,11 @@ weight = 608
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[클럭 도메인 교차 (CDC)](./607_cdc.md)**: 비동기 FIFO가 해결하고자 하는 상위 기술 과제.
-- **[그레이 코드 (Gray Code)](../1_computer_architecture/xx_gray_code.md)**: 포인터 전송의 안전성을 보장하는 핵심 인코딩.
-- **[메타스테빌리티 (Metastability)](./xx_metastability.md)**: FIFO 설계 시 반드시 방지해야 하는 물리적 현상.
-- **[Dual-Port RAM](../1_computer_architecture/xx_dual_port_ram.md)**: 비동기 FIFO의 물리적 저장 매체.
-- **[Back-pressure 제어](./xx_back_pressure.md)**: FIFO Full 상태일 때 송신 측을 멈추게 하는 프로토콜 기술.
+- **클럭 도메인 교차 (CDC)**: 비동기 FIFO가 해결하고자 하는 상위 기술 과제.
+- **그레이 코드 (Gray Code)**: 포인터 전송의 안전성을 보장하는 핵심 인코딩.
+- **메타스테빌리티 (Metastability)**: FIFO 설계 시 반드시 방지해야 하는 물리적 현상.
+- **Dual-Port RAM**: 비동기 FIFO의 물리적 저장 매체.
+- **Back-pressure 제어**: FIFO Full 상태일 때 송신 측을 멈추게 하는 프로토콜 기술.
 
 ---
 

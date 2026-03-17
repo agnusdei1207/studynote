@@ -1,5 +1,6 @@
 +++
 title = "parity check"
+date = "2026-03-14"
 weight = 18
 +++
 
@@ -139,10 +140,10 @@ Odd Parity: 1 (홀수로 만듦)
 ---
 
 ### 📌 관련 개념 링크**:
-- [에러 제어 오류 검출 정정](./17_에러_제어_오류_검출_정정.md)
-- [CRC 순환 중복 검사](./19_crc_cyclic_redundancy.md)
-- [해밍 코드 Hamming Distance](./20_hamming_code.md)
-- [비동기 전송 시작 정지 비트](./14_비동기_전송_시작_정지_비트.md)
+- 에러 제어 오류 검출 정정
+- CRC 순환 중복 검사
+- 해밍 코드 Hamming Distance
+- 비동기 전송 시작 정지 비트
 
 ---
 

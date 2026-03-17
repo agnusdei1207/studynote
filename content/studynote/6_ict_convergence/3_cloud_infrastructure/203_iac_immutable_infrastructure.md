@@ -1,10 +1,9 @@
----
-title: "[ICT] #203. 인프라스트럭처 애즈 코드 (IaC) 및 불변 인프라 (Immutable Infrastructure)"
-date: "2026-03-17"
++++
+title = "[ICT] #203. 인프라스트럭처 애즈 코드 (IaC) 및 불변 인프라 (Immutable Infrastructure)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "IaC_InfrastructureAsCode_Terraform_Ansible_ImmutableInfrastructure_ConfigurationDrift_DevOps"
----
+keyword = "IaC_InfrastructureAsCode_Terraform_Ansible_ImmutableInfrastructure_ConfigurationDrift_DevOps"
++++
 
 # IaC 및 불변 인프라 (Immutable Infrastructure): 코드로 찍어내고 절대 변하지 않는 클라우드의 뼈대
 
@@ -13,7 +12,7 @@ keyword: "IaC_InfrastructureAsCode_Terraform_Ansible_ImmutableInfrastructure_Con
 > 2. **가치**: 인프라를 코드로 관리하므로 Git과 같은 버전 관리 시스템을 통해 인프라의 변경 이력을 추적할 수 있으며, 클릭 실수로 인한 휴먼 에러(Human Error)를 0%로 만들고 수백 대의 서버를 단 1분 만에 똑같이 복제해 낸다.
 > 3. **융합**: IaC는 한 번 배포된 서버의 설정은 절대 수정하지 않고 업데이트 시 아예 서버를 새로 만들어 교체해 버리는 '불변 인프라(Immutable Infrastructure)' 사상과 융합되어, 좀비 서버를 없애고 완벽한 데브옵스(DevOps)를 실현한다.
 
----
++++
 
 ## Ⅰ. IaC 및 불변 인프라 개요
 
@@ -32,7 +31,7 @@ keyword: "IaC_InfrastructureAsCode_Terraform_Ansible_ImmutableInfrastructure_Con
 
 📢 **섹션 요약 비유**: 건물(인프라)을 짓기 위해 매번 벽돌공을 부르지 않고, 3D 프린터에 설계도(코드)만 넣으면 건물이 통째로 쏟아져 나오는 마법의 건축술입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -81,7 +80,7 @@ keyword: "IaC_InfrastructureAsCode_Terraform_Ansible_ImmutableInfrastructure_Con
 
 📢 **섹션 요약 비유**: 낡은 타이어에 펑크가 났을 때 본드로 때우지(가변) 않고, 아예 공장에서 새 타이어를 찍어내어 통째로 갈아 끼우는(불변) F1 레이싱카 피트 스탑 전략입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -101,7 +100,7 @@ keyword: "IaC_InfrastructureAsCode_Terraform_Ansible_ImmutableInfrastructure_Con
 
 📢 **섹션 요약 비유**: 테라폼이 허허벌판에 튼튼한 '건물 뼈대(인프라)'를 세워주는 도구라면, 앤서블은 지어진 건물 안에 들어가서 '가구(설정)를 예쁘게 배치'해 주는 도구입니다. 현대 클라우드는 뼈대를 세울 때 아예 가구까지 붙여서 통째로 굽는(테라폼 위주) 방식을 선호합니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -118,7 +117,7 @@ keyword: "IaC_InfrastructureAsCode_Terraform_Ansible_ImmutableInfrastructure_Con
 
 📢 **섹션 요약 비유**: 인프라 코드는 회사의 '절대 반지'와 같습니다. 절대 반지의 설명서(State)를 길거리에 흘리고 다니면 안 되며, 반지를 낄 수 있는 권한(ClickOps 금지)을 철저히 통제해야 왕국(클라우드)이 평화롭습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -132,13 +131,13 @@ keyword: "IaC_InfrastructureAsCode_Terraform_Ansible_ImmutableInfrastructure_Con
 
 📢 **섹션 요약 비유**: IaC와 불변 인프라는 '손재주 좋은 장인의 예술품' 취급을 받던 서버 관리를, 한 치의 오차도 없는 '공학적 대량 생산 시스템'으로 바꿔놓은 IT 산업 혁명입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[클라우드 서비스 모델 (IaaS)](./182_iaas_paas_saas.md)**: IaC가 가장 활발하게 조작하고 파괴하는 물리/가상 서버 환경.
-- **[컨테이너 가상화 (Docker)](./194_container_virtualization.md)**: 불변 인프라 철학을 소프트웨어 레벨에서 가장 완벽하게 구현한 기술.
-- **[CI/CD 파이프라인](../../4_software_engineering/xx_cicd.md)**: 작성된 인프라 코드를 클라우드에 자동으로 밀어 넣는 데브옵스 컨베이어 벨트.
-- **[클라우드 네이티브 (12-Factor)](./199_cloud_native.md)**: 하드코딩된 설정을 피하고 코드로 인프라를 분리하라는 사상적 배경.
+- **클라우드 서비스 모델 (IaaS)**: IaC가 가장 활발하게 조작하고 파괴하는 물리/가상 서버 환경.
+- **컨테이너 가상화 (Docker)**: 불변 인프라 철학을 소프트웨어 레벨에서 가장 완벽하게 구현한 기술.
+- **CI/CD 파이프라인**: 작성된 인프라 코드를 클라우드에 자동으로 밀어 넣는 데브옵스 컨베이어 벨트.
+- **클라우드 네이티브 (12-Factor)**: 하드코딩된 설정을 피하고 코드로 인프라를 분리하라는 사상적 배경.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **레고 조립 설명서 (IaC)**: 블록으로 성을 만들 때 매번 처음부터 고민하지 않고, 설명서(코드)만 있으면 똑같은 성을 1초 만에 100개 복사해 내는 마법이에요.

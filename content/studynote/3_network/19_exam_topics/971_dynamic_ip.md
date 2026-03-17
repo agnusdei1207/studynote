@@ -1,5 +1,6 @@
 +++
 title = "Dynamic IP - 동적 IP"
+date = "2026-03-14"
 weight = 971
 +++
 
@@ -108,6 +109,6 @@ Dynamic IP는 DHCP가 자동으로 할당하는 IP 주소입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Static IP](./970_static_ip.md)
-- [DHCP](./886_dhcp.md)
-- [DHCP Lease](./969_dhcp_lease.md)
+- Static IP
+- DHCP
+- DHCP Lease

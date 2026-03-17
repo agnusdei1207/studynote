@@ -1,5 +1,6 @@
 +++
 title = "ARP 스푸핑 - ARP Spoofing"
+date = "2026-03-14"
 weight = 419
 +++
 
@@ -132,10 +133,10 @@ ARP 스푸핑은 ARP 캐시를 조작해 트래픽을 가로챕니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [ARP](./305_arp.md)
-- [VLAN](./301_vlan.md)
-- [DHCP Snooping](./9_security/164_dhcp_snooping.md)
-- [Man-in-the-Middle](./9_security/165_mitm.md)
+- ARP
+- VLAN
+- DHCP Snooping
+- Man-in-the-Middle
 
 ---
 

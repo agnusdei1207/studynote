@@ -1,6 +1,7 @@
 +++
-weight = 502
 title = "502. 파일 속성 (File Attributes) - 생성 시간, 소유자 등"
+date = "2026-03-14"
+weight = 502
 +++
 
 # 502. 파일 속성 (File Attributes) - 생성 시간, 소유자 등

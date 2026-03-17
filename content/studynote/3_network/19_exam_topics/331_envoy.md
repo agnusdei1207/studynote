@@ -1,5 +1,6 @@
 +++
 title = "Envoy - 고성능 프록시"
+date = "2026-03-14"
 weight = 331
 +++
 
@@ -150,10 +151,10 @@ Envoy는 고성능 L7 프록시로 서비스 메시의 데이터 플레인입니
 ---
 
 ### 📌 관련 개념 링크**:
-- [Istio](./330_istio.md)
-- [Service Mesh](./329_service_mesh.md)
-- [API Gateway](./334_api_gateway.md)
-- [로드밸런서](./275_load_balancer.md)
+- Istio
+- Service Mesh
+- API Gateway
+- 로드밸런서
 
 ---
 

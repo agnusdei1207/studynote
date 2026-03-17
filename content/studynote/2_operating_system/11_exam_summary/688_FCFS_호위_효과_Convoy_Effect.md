@@ -1,5 +1,6 @@
 +++
 title = "FCFS 호위 효과 (Convoy Effect)"
+date = "2026-03-14"
 weight = 688
 +++
 

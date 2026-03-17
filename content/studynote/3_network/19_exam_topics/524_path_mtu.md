@@ -1,5 +1,6 @@
 +++
 title = "Path MTU Discovery (PMTUD) - 경로 MTU 탐색"
+date = "2026-03-14"
 weight = 524
 +++
 
@@ -91,6 +92,6 @@ PMTUD는 경로상 최소 MTU를 탐색합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [MTU](./522_mtu.md)
-- [Fragmentation](./523_fragmentation.md)
-- [ICMP](./534_icmp.md)
+- MTU
+- Fragmentation
+- ICMP

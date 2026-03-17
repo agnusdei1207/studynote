@@ -1,5 +1,6 @@
 +++
 title = "mil hdbk 217"
+date = "2026-03-14"
 weight = 761
 +++
 
@@ -134,10 +135,10 @@ MIL-HDBK-217은 군사 및 산업용 전자 장비의 부품별 고장률을 예
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [MTBF (Mean Time Between Failures)](./713_mtbf.md)
-- [가속 수명 시험 ALT](./762_alt.md)
-- [배스터브 곡선](./756_bathtub_curve.md)
-- [FMEA](./752_fmea.md)
+- MTBF (Mean Time Between Failures)
+- 가속 수명 시험 ALT
+- 배스터브 곡선
+- FMEA
 
 ---
 

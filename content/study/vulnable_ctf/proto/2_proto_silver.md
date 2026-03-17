@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Prototype Pollution 🥈 Silver"
-description = "LUXORA 플랫폼의 Silver 난이도 Prototype Pollution 공략 - 오염을 통한 서버 설정 변조 및 RCE 연계 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Prototype Pollution", "Silver", "RCE", "Node.js", "Write-up"]
@@ -109,4 +108,3 @@ JavaScript의 근간을 이루는 프로토타입 객체를 오염시켰을 때,
    const userPrefs = new Map();
    userPrefs.set(req.body.key, req.body.value); 
    // Map은 __proto__를 특수하게 취급하지 않음
-   ```

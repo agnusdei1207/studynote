@@ -1,5 +1,6 @@
 +++
 title = "Traffic Shaping - 트래픽 셰이핑"
+date = "2026-03-14"
 weight = 921
 +++
 
@@ -106,6 +107,6 @@ Traffic Shaping은 트래픽 전송 속도를 제어합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [QoS](./920_qos.md)
-- [Bandwidth](./xxx_bandwidth.md)
-- [Congestion Control](./xxx_congestion_control.md)
+- QoS
+- Bandwidth
+- Congestion Control

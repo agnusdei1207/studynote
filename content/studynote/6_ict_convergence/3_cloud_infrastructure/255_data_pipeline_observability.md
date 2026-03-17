@@ -1,10 +1,9 @@
----
-title: "[ICT] #255. 데이터 파이프라인 (Apache Airflow), Kafka, 오픈텔레메트리"
-date: "2026-03-17"
++++
+title = "[ICT] #255. 데이터 파이프라인 (Apache Airflow), Kafka, 오픈텔레메트리"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "DataPipeline_ApacheAirflow_ApacheKafka_Observability_OpenTelemetry"
----
+keyword = "DataPipeline_ApacheAirflow_ApacheKafka_Observability_OpenTelemetry"
++++
 
 # 데이터 파이프라인, 카프카, 옵저버빌리티: 거대한 데이터의 강물을 흐르게 하고 감시하는 인프라 동맥
 
@@ -13,7 +12,7 @@ keyword: "DataPipeline_ApacheAirflow_ApacheKafka_Observability_OpenTelemetry"
 > 2. **가치**: 마이크로서비스(MSA)로 인해 데이터베이스가 수백 개로 쪼개진 환경에서, 시스템 간의 강한 결합(Coupling)을 끊어내어 어느 한쪽 서버가 죽어도 데이터가 유실되지 않게 하는 궁극의 완충재(Buffer) 역할을 한다.
 > 3. **융합**: 이 복잡하게 얽힌 데이터의 흐름을 인간이 추적하기 위해, 로그(Log)와 메트릭(Metric), 트레이스(Trace)를 하나의 표준으로 묶어 시스템의 건강 상태를 꿰뚫어 보는 **옵저버빌리티(Observability)** 기술(OpenTelemetry)이 필연적으로 융합된다.
 
----
++++
 
 ## Ⅰ. 데이터 파이프라인 및 메시징 시스템 개요
 
@@ -33,7 +32,7 @@ keyword: "DataPipeline_ApacheAirflow_ApacheKafka_Observability_OpenTelemetry"
 
 📢 **섹션 요약 비유**: 수만 대의 자동차(데이터)가 교차로에서 엉켜 옴짝달싹 못 하던 것을, 고가도로(카프카)를 뚫고 완벽한 신호등(에어플로우)을 세워 흐름을 통제하는 교통 혁명입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -89,7 +88,7 @@ keyword: "DataPipeline_ApacheAirflow_ApacheKafka_Observability_OpenTelemetry"
 
 📢 **섹션 요약 비유**: 혈관(카프카)을 타고 도는 적혈구(데이터)들을 심장(에어플로우)이 규칙적으로 펌프질하고, MRI(오픈텔레메트리) 기계로 어디 혈관이 막혔는지 실시간으로 들여다보는 완벽한 인체 시스템입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -108,7 +107,7 @@ keyword: "DataPipeline_ApacheAirflow_ApacheKafka_Observability_OpenTelemetry"
 
 📢 **섹션 요약 비유**: 래빗MQ가 편지를 읽으면 바로 불태워버리는 '스파이용 우체통'이라면, 카프카는 모든 편지를 복사해서 1주일 동안 보관해 두어 언제든 다시 꺼내 읽을 수 있는 '거대한 도서관'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -126,7 +125,7 @@ keyword: "DataPipeline_ApacheAirflow_ApacheKafka_Observability_OpenTelemetry"
 
 📢 **섹션 요약 비유**: 도로(파티션)를 무작정 넓히면 톨게이트(서버)도 그만큼 많이 지어야 해서 파산합니다. 통행량에 딱 맞는 차선 설계가 진정한 고수(아키텍트)의 영역입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -140,13 +139,13 @@ keyword: "DataPipeline_ApacheAirflow_ApacheKafka_Observability_OpenTelemetry"
 
 📢 **섹션 요약 비유**: 이 세 가지 기술은 데이터라는 거대한 강물을 가둬두지 않고 끊임없이 흐르게 만들며(카프카, 에어플로우), 그 강물의 수질과 속도를 현미경으로 감시(옵저버빌리티)하는 현대 IT 인프라의 위대한 치수(治水) 공사입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[마이크로서비스 아키텍처 (MSA)](../../4_software_engineering/xx_msa.md)**: 데이터 파이프라인과 트레이싱이 반드시 필요해진 복잡성의 원흉.
-- **[AIOps](./251_aiops_dx_edge.md)**: 옵저버빌리티(OpenTelemetry)가 모아준 데이터를 먹고 자라는 인공지능 지휘관.
-- **[이벤트 소싱 / CQRS](./248_modern_app_architecture.md)**: 카프카 없이는 절대 구현할 수 없는 최상위 데이터 설계 패턴.
-- **[서버리스 (FaaS)](./187_faas_serverless.md)**: 카프카 메시지를 1초 만에 꺼내 먹고 사라지기 좋은 궁극의 컨슈머 환경.
+- **마이크로서비스 아키텍처 (MSA)**: 데이터 파이프라인과 트레이싱이 반드시 필요해진 복잡성의 원흉.
+- **AIOps**: 옵저버빌리티(OpenTelemetry)가 모아준 데이터를 먹고 자라는 인공지능 지휘관.
+- **이벤트 소싱 / CQRS**: 카프카 없이는 절대 구현할 수 없는 최상위 데이터 설계 패턴.
+- **서버리스 (FaaS)**: 카프카 메시지를 1초 만에 꺼내 먹고 사라지기 좋은 궁극의 컨슈머 환경.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **무적의 택배 상자 (카프카)**: 택배 아저씨가 자리를 비워도, 커다란 창고에 물건을 던져놓으면 절대로 잃어버리지 않고 나중에 아저씨가 다 찾아가는 마법의 창고예요.

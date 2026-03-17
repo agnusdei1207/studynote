@@ -1,5 +1,6 @@
 +++
 title = "CARP - 공통 주소 이중화 프로토콜"
+date = "2026-03-14"
 weight = 994
 +++
 
@@ -112,6 +113,6 @@ CARP (Common Address Redundancy Protocol)는 오픈소스 이중화 프로토콜
 ---
 
 ### 📌 관련 개념 링크**:
-- [VRRP](./991_vrrp.md)
-- [Virtual IP](./990_virtual_ip.md)
-- [Failover](./917_failover.md)
+- VRRP
+- Virtual IP
+- Failover

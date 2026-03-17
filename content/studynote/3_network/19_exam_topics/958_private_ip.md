@@ -1,5 +1,6 @@
 +++
 title = "Private IP - 사설 IP"
+date = "2026-03-14"
 weight = 958
 +++
 
@@ -107,6 +108,6 @@ Private IP는 내부 네트워크에서만 사용하는 IP 주소입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Public IP](./xxx_public_ip.md)
-- [NAT](./910_nat.md)
-- [IPv4](./904_ipv4.md)
+- Public IP
+- NAT
+- IPv4

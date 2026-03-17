@@ -1,5 +1,6 @@
 +++
 title = "Object Pool - 오브젝트 풀"
+date = "2026-03-14"
 weight = 799
 +++
 
@@ -107,6 +108,6 @@ Object Pool은 객체를 재사용합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Connection Pool](./797_connection_pool.md)
-- [Thread Pool](./798_thread_pool.md)
-- [Flyweight Pattern](./xxx_flyweight.md)
+- Connection Pool
+- Thread Pool
+- Flyweight Pattern

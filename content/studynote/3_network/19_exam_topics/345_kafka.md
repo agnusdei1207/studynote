@@ -1,5 +1,6 @@
 +++
 title = "Kafka - 분산 이벤트 스트리밍"
+date = "2026-03-14"
 weight = 345
 +++
 
@@ -150,10 +151,10 @@ Kafka는 분산 이벤트 스트리밍 플랫폼입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [AMQP](./344_amqp.md)
-- [MQTT](./343_mqtt.md)
-- [Flink](./14_data_engineering/180_flink.md)
-- [이벤트 소싱](./4_software_engineering/197_event_sourcing.md)
+- AMQP
+- MQTT
+- Flink
+- 이벤트 소싱
 
 ---
 

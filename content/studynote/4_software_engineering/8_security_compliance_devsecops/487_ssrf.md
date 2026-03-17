@@ -1,7 +1,7 @@
----
-title: "487. SSRF (Server-Side Request Forgery)"
-date: 2026-03-15
----
++++
+title = "487. SSRF (Server-Side Request Forgery)"
+date = "2026-03-15"
++++
 
 # 487. SSRF (Server-Side Request Forgery)
 
@@ -153,10 +153,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[OWASP Top 10 (A10)](./477_owasp_top_10.md)**: SSRF가 포함된 최신 표준 리포트
-- **[Cloud Metadata (IMDS)](./xx_imds.md)**: SSRF 공격의 주된 목표가 되는 클라우드 자원
-- **[DNS Rebinding](./xx_dns_rebinding.md)**: SSRF 필터링을 우회하는 정교한 공격 기법
-- **[Zero Trust Networking](./xx_zero_trust_nw.md)**: 내부망 신뢰를 제거하여 SSRF 피해를 막는 아키텍처
+- **OWASP Top 10 (A10)**: SSRF가 포함된 최신 표준 리포트
+- **Cloud Metadata (IMDS)**: SSRF 공격의 주된 목표가 되는 클라우드 자원
+- **DNS Rebinding**: SSRF 필터링을 우회하는 정교한 공격 기법
+- **Zero Trust Networking**: 내부망 신뢰를 제거하여 SSRF 피해를 막는 아키텍처
 
 ---
 

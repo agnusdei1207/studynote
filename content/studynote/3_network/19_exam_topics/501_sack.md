@@ -1,5 +1,6 @@
 +++
 title = "SACK (선택적 승인) - Selective Acknowledgment"
+date = "2026-03-14"
 weight = 501
 +++
 
@@ -92,5 +93,5 @@ SACK는 수신한 구간을 선택적으로 알립니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./332_tcp.md)
-- [Fast Retransmit](./502_fast_retransmit.md)
+- TCP
+- Fast Retransmit

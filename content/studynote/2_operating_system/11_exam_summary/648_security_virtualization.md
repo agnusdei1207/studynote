@@ -1,7 +1,7 @@
 +++
-weight = 648
 title = "648. 운영체제 핵심 요약 - 보안 및 가상화"
 date = "2024-05-23"
+weight = 648
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "보안", "Security", "Virtualization", "Hypervisor", "Container", "가상화"]
@@ -12,7 +12,7 @@ keywords = ["운영체제", "보안", "Security", "Virtualization", "Hypervisor"
 > 현대 OS는 다계층 방어 체계를 구축하며, 특히 하드웨어 자원을 논리적으로 격리하는 가상화(Virtualization) 기술은 보안성과 자원 효율성을 동시에 극대화하는 핵심 트렌드로 자리 잡았다.
 > 하이퍼바이저(Hypervisor) 기반의 전가상화/반가상화를 넘어, 최근에는 경량화된 격리를 제공하는 컨테이너(Container) 기술이 클라우드 네이티브 환경의 표준이 되고 있다.
 
----
++++
 
 ### Ⅰ. 운영체제 보안 모델과 메커니즘
 
@@ -29,7 +29,7 @@ keywords = ["운영체제", "보안", "Security", "Virtualization", "Hypervisor"
 
 📢 섹션 요약 비유: 집의 '대문 열쇠'는 DAC, '금고 비밀번호'는 MAC, '가족 역할'에 따른 심부름 권한은 RBAC과 같습니다.
 
----
++++
 
 ### Ⅱ. 시스템 가상화(System Virtualization) 기술
 
@@ -53,7 +53,7 @@ keywords = ["운영체제", "보안", "Security", "Virtualization", "Hypervisor"
 
 📢 섹션 요약 비유: 한 대의 컴퓨터 안에 여러 개의 가상 '컴퓨터 집'을 짓고, 하이퍼바이저라는 관리인이 각 집의 전기와 물(자원)을 배분해주는 것과 같습니다.
 
----
++++
 
 ### Ⅲ. 컨테이너(Container) 기술과 도커(Docker)
 
@@ -68,7 +68,7 @@ keywords = ["운영체제", "보안", "Security", "Virtualization", "Hypervisor"
 
 📢 섹션 요약 비유: 아예 집을 새로 짓는 VM과 달리, 한 지붕 아래에서 '자기 방'만 확실히 격리하여 가볍게 사용하는 원룸 시스템과 같습니다.
 
----
++++
 
 ### Ⅳ. 악성 코드와 시스템 취약점 방어
 
@@ -82,7 +82,7 @@ keywords = ["운영체제", "보안", "Security", "Virtualization", "Hypervisor"
 
 📢 섹션 요약 비유: 도둑(악성 코드)이 들지 않게 문단속을 철저히 하고, 도둑이 들어와도 길을 찾지 못하게 방 번호를 매번 바꾸는(ASLR) 지능형 보안 시스템입니다.
 
----
++++
 
 ### Ⅴ. 신뢰 컴퓨팅과 최신 트렌드
 
@@ -95,7 +95,7 @@ keywords = ["운영체제", "보안", "Security", "Virtualization", "Hypervisor"
 
 📢 섹션 요약 비유: 신분증이 있어도 건물 안 모든 방에 들어갈 때마다 다시 검사받고, 가장 중요한 보물은 '비밀의 방(TEE)'에 따로 보관하는 완벽주의 보안입니다.
 
----
++++
 
 ### 💡 지식 그래프(Knowledge Graph)
 - **부모 노드**: 운영체제 관리(OS Management)

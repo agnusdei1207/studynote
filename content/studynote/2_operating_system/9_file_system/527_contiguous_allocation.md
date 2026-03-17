@@ -1,14 +1,18 @@
 +++
-weight = 527
 title = "527. 할당 방법 (Allocation Methods) - 연속 할당 (Contiguous Allocation)"
-+++# 527. 할당 방법 (Allocation Methods) - 연속 할당 (Contiguous Allocation)
+date = "2026-03-14"
+weight = 527
++++
+
+# 527. 할당 방법 (Allocation Methods) - 연속 할당 (Contiguous Allocation)
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 연속 할당(Contiguous Allocation)은 파일 시스템(File System)에서 파일의 데이터 블록들이 디스크 상의 물리적으로 인접한 연속된 섹터(Sector)나 블록(Block)에 배치되는 가장 직관적인 할당 기법입니다. 이는 메모리 관리의 연속 할당 기법과 논리적으로 동일합니다.
 > 2. **가치**: **랜덤 액세스(Random Access)**가 가능하며, 순차 읽기(Sequential Read) 시 디스크 헤드(Head)의 이동인 **탐색 시간(Seek Time)**이 최소화되어 **전송률(Transfer Rate)**이 극대화됩니다. 매핑을 위한 메타데이터 오버헤드가 거의 없다는 것이 가장 큰 장점입니다.
 > 3. **융합**: 그러나 **외부 단편화(External Fragmentation)** 문제와 파일 크기의 동적 변경(Pre-allocation 필요) 이슈로 인해, 일반 범용 OS(Windows, Linux 등)의 주된 파일 시스템에서는 배제되었으나, ISO 9660(CD-ROM), SSD FTL(Flash Translation Layer)의 로그 구조, 혹은 고성능 데이터베이스의 고정 크기 테이블스페이스管理等 특수 목적으로 여전히 활용됩니다.
 
----
+
+
 
 ### Ⅰ. 개요 (Context & Background)
 

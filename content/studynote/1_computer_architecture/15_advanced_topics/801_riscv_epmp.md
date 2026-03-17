@@ -1,5 +1,6 @@
 +++
 title = "riscv epmp"
+date = "2026-03-14"
 weight = 801
 +++
 
@@ -153,10 +154,10 @@ RISC-V ePMP(Enhanced PMP)는 RISC-V PMP를 확장하여 M-mode 실행도 제어�
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [RISC-V PMP](./800_riscv_pmp.md)
-- [ARM CCA](./799_arm_cca.md)
-- [OpenTitan](./802_opentitan.md)
-- [보안 부팅](./781_hsm.md)
+- RISC-V PMP
+- ARM CCA
+- OpenTitan
+- 보안 부팅
 
 ---
 

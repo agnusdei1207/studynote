@@ -1,5 +1,6 @@
 +++
 title = "DHCP (Dynamic Host Configuration Protocol) - 동적 호스트 설정 프로토콜"
+date = "2026-03-14"
 weight = 547
 +++
 
@@ -100,6 +101,6 @@ DHCP는 IP 주소와 네트워크 설정을 자동 할당합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [IP Addressing](./527_ip_addressing.md)
-- [BOOTP](./548_bootp.md)
-- [DNS](./340_dns.md)
+- IP Addressing
+- BOOTP
+- DNS

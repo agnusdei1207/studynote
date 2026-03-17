@@ -1,7 +1,7 @@
----
-title: "509. 인가(Authorization) 모델: RBAC 및 ABAC"
-date: 2026-03-15
----
++++
+title = "509. 인가(Authorization) 모델: RBAC 및 ABAC"
+date = "2026-03-15"
++++
 
 # 509. 인가(Authorization) 모델: RBAC 및 ABAC
 
@@ -148,10 +148,10 @@ ABAC를 실제로 구현하기 위한 표준 기술들이다.
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[IAM (Identity and Access Management)](./514_iam.md)**: 인가 모델이 실체화되는 상위 관리 체계
-- **[제로 트러스트](./511_zero_trust.md)**: ABAC를 통해 구현하고자 하는 궁극적 보안 상태
-- **[OAuth 2.0 / OIDC](./507_oauth_2_0.md)**: 권한 위임 및 인증 정보를 전달하는 표준 수단
-- **[ACL (Access Control List)](../2_operating_system/xx_acl.md)**: RBAC/ABAC의 시조가 되는 고전적 기술
+- **IAM (Identity and Access Management)**: 인가 모델이 실체화되는 상위 관리 체계
+- **제로 트러스트**: ABAC를 통해 구현하고자 하는 궁극적 보안 상태
+- **OAuth 2.0 / OIDC**: 권한 위임 및 인증 정보를 전달하는 표준 수단
+- **ACL (Access Control List)**: RBAC/ABAC의 시조가 되는 고전적 기술
 
 ---
 

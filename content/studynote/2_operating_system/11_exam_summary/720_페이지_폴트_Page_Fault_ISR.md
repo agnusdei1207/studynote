@@ -1,5 +1,6 @@
 +++
 title = "페이지 폴트 Page Fault ISR"
+date = "2026-03-14"
 weight = 720
 +++
 
@@ -153,10 +154,10 @@ weight = 720
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [요구 페이징 Demand Paging](./719_요구_페이징_Demand_Paging.md)
-- [유효 무효 비트 Valid Invalid](./721_유효_무효_비트_Valid_Invalid.md)
-- [페이지 교체 LRU 원리](./722_페이지_교체_LRU_원리.md)
-- [FIFO 벨라디의 모순](./723_FIFO_벨라디의_모순.md)
+- 요구 페이징 Demand Paging
+- 유효 무효 비트 Valid Invalid
+- 페이지 교체 LRU 원리
+- FIFO 벨라디의 모순
 
 ---
 

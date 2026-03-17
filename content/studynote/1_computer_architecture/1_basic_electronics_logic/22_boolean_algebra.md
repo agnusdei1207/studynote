@@ -1,6 +1,7 @@
 +++
-weight = 22
 title = "22. 부울 대수 (Boolean Algebra)"
+date = "2026-03-14"
+weight = 22
 +++
 
 # # [부울 대수 (Boolean Algebra)]

@@ -1,5 +1,6 @@
 +++
 title = "mDNS - 멀티캐스트 DNS"
+date = "2026-03-14"
 weight = 974
 +++
 
@@ -114,6 +115,6 @@ mDNS는 DNS 서버 없이 로컬 이름을 해석합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [DNS](./885_dns.md)
-- [ZeroConf](./973_zeroconf.md)
-- [Multicast](./953_multicast.md)
+- DNS
+- ZeroConf
+- Multicast

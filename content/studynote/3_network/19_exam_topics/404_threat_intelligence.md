@@ -1,5 +1,6 @@
 +++
 title = "위협 인텔리전스 - Threat Intelligence"
+date = "2026-03-14"
 weight = 404
 +++
 
@@ -140,10 +141,10 @@ weight = 404
 ---
 
 ### 📌 관련 개념 링크**:
-- [SOC](./403_soc.md)
-- [SIEM](./402_siem.md)
-- [IDS/IPS](./401_ids_ips.md)
-- [Incident Response](./405_incident_response.md)
+- SOC
+- SIEM
+- IDS/IPS
+- Incident Response
 
 ---
 

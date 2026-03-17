@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: SQL Injection 🔱 Diamond"
-description = "LUXORA 플랫폼의 최고 난이도 SQL Injection 상세 공략 (Custom WAF 우회 및 복합 페이로드 체이닝)"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "SQL Injection", "Diamond", "WAF Bypass", "Write-up"]

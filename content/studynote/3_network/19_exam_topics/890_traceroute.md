@@ -1,5 +1,6 @@
 +++
 title = "Traceroute - 경로 추적"
+date = "2026-03-14"
 weight = 890
 +++
 
@@ -109,6 +110,6 @@ Traceroute는 패킷의 경로를 추적합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Ping](./889_ping.md)
-- [ICMP](./888_icmp.md)
-- [Routing](./xxx_routing.md)
+- Ping
+- ICMP
+- Routing

@@ -1,5 +1,6 @@
 +++
 title = "GlusterFS 분산 스토리지"
+date = "2026-03-14"
 weight = 679
 +++
 

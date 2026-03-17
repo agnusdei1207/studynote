@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Race Condition 🥉 Bronze"
-description = "LUXORA 플랫폼의 기본 Race Condition 취약점을 이용한 다중 쿠폰 적용(Coupon Double-Spending) 시나리오"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Race Condition", "Bronze", "Double Spending", "Write-up"]

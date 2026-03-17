@@ -1,6 +1,6 @@
 +++
 title = "스레드 블록 (Thread Block)과 워프 (Warp)"
-description = "GPU 병렬 컴퓨팅의 논리적 실행 단위인 스레드 블록과 물리적 실행 단위인 워프의 구조"
+date = "2026-03-14"
 weight = 422
 +++
 
@@ -158,11 +158,11 @@ weight = 422
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[스트리밍 멀티프로세서 (SM)](./421_sm.md)**: 스레드 블록이 물리적으로 거주하며 워프가 실행되는 장소
-- **[SIMT (Single Instruction Multiple Threads)](./423_simt.md)**: 워프 단위 실행의 근간이 되는 연산 모델
-- **[CUDA (Compute Unified Device Architecture)](./420_cuda.md)**: 블록과 워프를 제어하기 위한 소프트웨어 프레임워크
-- **[공유 메모리 (Shared Memory)](./420_cuda.md)**: 스레드 블록 단위로 제공되는 고속 데이터 저장소
-- **[점유율 (Occupancy)](./xx_occupancy.md)**: SM 내 활성 워프의 밀도를 나타내는 성능 지표
+- **스트리밍 멀티프로세서 (SM)**: 스레드 블록이 물리적으로 거주하며 워프가 실행되는 장소
+- **SIMT (Single Instruction Multiple Threads)**: 워프 단위 실행의 근간이 되는 연산 모델
+- **CUDA (Compute Unified Device Architecture)**: 블록과 워프를 제어하기 위한 소프트웨어 프레임워크
+- **공유 메모리 (Shared Memory)**: 스레드 블록 단위로 제공되는 고속 데이터 저장소
+- **점유율 (Occupancy)**: SM 내 활성 워프의 밀도를 나타내는 성능 지표
 
 ---
 

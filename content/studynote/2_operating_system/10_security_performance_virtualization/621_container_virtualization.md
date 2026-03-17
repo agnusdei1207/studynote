@@ -1,6 +1,7 @@
 +++
-weight = 621
 title = "621. 컨테이너 가상화 (Containerization) 개념"
+date = "2026-03-14"
+weight = 621
 +++
 
 # 621. 컨테이너 가상화 (Containerization) 개념

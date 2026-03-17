@@ -1,6 +1,7 @@
 +++
-weight = 143
 title = "143. 스레드 고정 (Thread Affinity/Pinning)"
+date = "2026-03-14"
+weight = 143
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -136,10 +137,10 @@ title = "143. 스레드 고정 (Thread Affinity/Pinning)"
 ---
 
 ### 📌 관련 개념 맵
-- **[CPU 친화성 (CPU Affinity)](./144_cpu_affinity.md)**: 프로세스 수준의 코어 바인딩 개념.
-- **[NUMA (Non-Uniform Memory Access)](./145_numa_aware_scheduling.md)**: 스레드 고정 시 반드시 고려해야 할 메모리 아키텍처.
-- **[컨텍스트 스위칭 (Context Switching)](./87_process_transition.md)**: 고정을 통해 최소화하려는 물리적 비용.
-- **[캐시 지역성 (Locality)](./6_memory_management/xx_locality.md)**: 스레드 고정의 성능 향상 근거가 되는 원리.
+- **CPU 친화성 (CPU Affinity)**: 프로세스 수준의 코어 바인딩 개념.
+- **NUMA (Non-Uniform Memory Access)**: 스레드 고정 시 반드시 고려해야 할 메모리 아키텍처.
+- **컨텍스트 스위칭 (Context Switching)**: 고정을 통해 최소화하려는 물리적 비용.
+- **캐시 지역성 (Locality)**: 스레드 고정의 성능 향상 근거가 되는 원리.
 
 ---
 

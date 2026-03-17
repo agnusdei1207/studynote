@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: CSRF 🥈 Silver"
-description = "LUXORA 플랫폼의 Silver 난이도 CSRF 공략 - 예측 가능한 CSRF Token을 우회하는 패턴 유추 공격 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "CSRF", "Silver", "Token Bypass", "Write-up"]

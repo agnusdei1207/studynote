@@ -1,6 +1,7 @@
 +++
-weight = 471
 title = "471. SCAN 스케줄링 (엘리베이터 알고리즘, Elevator Algorithm)"
+date = "2026-03-14"
+weight = 471
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -108,9 +109,9 @@ title = "471. SCAN 스케줄링 (엘리베이터 알고리즘, Elevator Algorith
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[SSTF 스케줄링](./470_sstf_scheduling.md)**: SCAN이 해결하고자 한 기아 현상의 원인.
-- **[LOOK 스케줄링](./473_look_c_look.md)**: SCAN의 불필요한 끝점 이동을 최적화한 버전.
-- **[C-SCAN 스케줄링](./472_c_scan.md)**: SCAN의 응답 시간 불균등을 해결한 버전.
+- **SSTF 스케줄링**: SCAN이 해결하고자 한 기아 현상의 원인.
+- **LOOK 스케줄링**: SCAN의 불필요한 끝점 이동을 최적화한 버전.
+- **C-SCAN 스케줄링**: SCAN의 응답 시간 불균등을 해결한 버전.
 
 ---
 

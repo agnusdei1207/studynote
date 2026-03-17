@@ -1,6 +1,7 @@
 +++
-weight = 442
 title = "442. 블록 장치 - 하드 디스크, SSD (랜덤 액세스)"
+date = "2026-03-14"
+weight = 442
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -145,10 +146,10 @@ title = "442. 블록 장치 - 하드 디스크, SSD (랜덤 액세스)"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[FTL (Flash Translation Layer)](./478_ftl.md)**: SSD 내부의 논리-물리 주소 변환 계층.
-- **[LBA (Logical Block Address)](./466_lba.md)**: 블록 장치의 표준 주소 지정 체계.
-- **[I/O 스케줄러 (I/O Scheduler)](./474_io_scheduler.md)**: 블록 요청을 최적화하는 커널 모듈.
-- **[RAID (Redundant Array of Independent Disks)](./483_raid.md)**: 여러 블록 장치를 묶어 성능과 신뢰성을 높이는 기술.
+- **FTL (Flash Translation Layer)**: SSD 내부의 논리-물리 주소 변환 계층.
+- **LBA (Logical Block Address)**: 블록 장치의 표준 주소 지정 체계.
+- **I/O 스케줄러 (I/O Scheduler)**: 블록 요청을 최적화하는 커널 모듈.
+- **RAID (Redundant Array of Independent Disks)**: 여러 블록 장치를 묶어 성능과 신뢰성을 높이는 기술.
 
 ---
 

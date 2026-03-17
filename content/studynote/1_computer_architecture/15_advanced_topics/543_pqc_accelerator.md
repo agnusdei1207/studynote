@@ -1,6 +1,7 @@
 +++
-weight = 543
 title = "543. 양자 내성 암호 가속기 (PQC Accelerator)"
+date = "2026-03-14"
+weight = 543
 +++
 
 # 543. 양자 내성 암호 가속기 (PQC Accelerator)

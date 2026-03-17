@@ -1,5 +1,6 @@
 +++
 title = "RAID (Redundant Array of Independent Disks) - 디스크 배열"
+date = "2026-03-14"
 weight = 589
 +++
 
@@ -100,6 +101,6 @@ RAID는 여러 디스크를 조합해 성능/신뢰성을 높입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Storage](./590_storage.md)
-- [HA](./586_high_availability.md)
-- [Backup](./591_backup.md)
+- Storage
+- HA
+- Backup

@@ -1,5 +1,6 @@
 +++
 title = "ARP Spoofing - ARP 스푸핑"
+date = "2026-03-14"
 weight = 964
 +++
 
@@ -108,6 +109,6 @@ ARP Spoofing은 ARP 테이블을 조작하는 공격입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [ARP](./887_arp.md)
-- [MITM](./xxx_mitm.md)
-- [Network Security](./xxx_network_security.md)
+- ARP
+- MITM
+- Network Security

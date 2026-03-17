@@ -1,6 +1,7 @@
 +++
-weight = 599
 title = "599. 암호화 기반 파일 시스템 보안 (Encrypted File System)"
+date = "2026-03-14"
+weight = 599
 +++
 
 # # 암호화 기반 파일 시스템 보안 (Encrypted File System)

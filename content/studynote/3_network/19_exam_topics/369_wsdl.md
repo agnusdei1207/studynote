@@ -1,5 +1,6 @@
 +++
 title = "WSDL - 웹 서비스 기술 언어"
+date = "2026-03-14"
 weight = 369
 +++
 
@@ -137,10 +138,10 @@ WSDL(Web Services Description Language)은 SOAP 서비스 인터페이스를 정
 ---
 
 ### 📌 관련 개념 링크**:
-- [SOAP](./368_soap.md)
-- [XML](./367_xml.md)
-- [OpenAPI](./370_openapi.md)
-- [XSD](./4_software_engineering/209_xsd.md)
+- SOAP
+- XML
+- OpenAPI
+- XSD
 
 ---
 

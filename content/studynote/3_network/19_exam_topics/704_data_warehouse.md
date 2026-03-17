@@ -1,5 +1,6 @@
 +++
 title = "Data Warehouse - 데이터 웨어하우스"
+date = "2026-03-14"
 weight = 704
 +++
 
@@ -107,6 +108,6 @@ Data Warehouse는 분석을 위한 중앙 저장소입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [ETL](./706_etl.md)
-- [OLAP](./705_olap.md)
-- [Data Lake](./707_data_lake.md)
+- ETL
+- OLAP
+- Data Lake

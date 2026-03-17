@@ -1,5 +1,6 @@
 +++
 title = "M진 PSK / QAM (8PSK, 16QAM, 64QAM)"
+date = "2026-03-14"
 weight = 49
 +++
 
@@ -150,10 +151,10 @@ M진 변조는 심볼당 log₂(M)비트를 전송하여 대역폭 효율을 높
 ---
 
 ### 📌 관련 개념 링크**:
-- [PSK 위상 편이 변조](./47_psk_phase_shift.md)
-- [QAM 직교 진폭 변조](./51_qam_quadrature.md)
-- [성상도 Constellation](./53_constellation.md)
-- [AMC 적응 변조](./205_amc_adaptive.md)
+- PSK 위상 편이 변조
+- QAM 직교 진폭 변조
+- 성상도 Constellation
+- AMC 적응 변조
 
 ---
 

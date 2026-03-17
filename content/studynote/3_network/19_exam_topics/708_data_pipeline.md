@@ -1,5 +1,6 @@
 +++
 title = "Data Pipeline - 데이터 파이프라인"
+date = "2026-03-14"
 weight = 708
 +++
 
@@ -102,6 +103,6 @@ Data Pipeline은 데이터를 자동으로 이동/처리합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [ETL](./706_etl.md)
-- [Stream Processing](./709_stream_processing.md)
-- [Airflow](./710_airflow.md)
+- ETL
+- Stream Processing
+- Airflow

@@ -1,5 +1,6 @@
 +++
 title = "네트워크 문제 해결 - Network Troubleshooting"
+date = "2026-03-14"
 weight = 437
 +++
 
@@ -145,10 +146,10 @@ weight = 437
 ---
 
 ### 📌 관련 개념 링크**:
-- [OSI 7계층](./301_osi.md)
-- [네트워크 진단 도구](./436_network_tools.md)
-- [모니터링](./438_monitoring.md)
-- [로그 분석](./439_log_analysis.md)
+- OSI 7계층
+- 네트워크 진단 도구
+- 모니터링
+- 로그 분석
 
 ---
 

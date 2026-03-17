@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: CSRF 🥉 Bronze"
-description = "LUXORA 플랫폼의 CSRF(Cross-Site Request Forgery) 취약점을 이용한 관리자 계정 이메일 강제 변경 시나리오"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "CSRF", "Bronze", "Account Takeover", "Write-up"]

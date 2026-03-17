@@ -1,7 +1,7 @@
----
 +++
-weight = 551
 title = "551. EXT4 파일 시스템 구조"
+date = "2026-03-14"
+weight = 551
 +++
 
 # 551. EXT4 파일 시스템 구조 (Architecture of EXT4 File System)

@@ -1,5 +1,6 @@
 +++
 title = "High Availability - 고가용성"
+date = "2026-03-14"
 weight = 785
 +++
 
@@ -98,6 +99,6 @@ High Availability는 서비스 중단을 최소화합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Failover](./784_failover.md)
-- [Load Balancer](./582_load_balancer.md)
-- [SLA/SLO/SLI](./740_sla_slo_sli.md)
+- Failover
+- Load Balancer
+- SLA/SLO/SLI

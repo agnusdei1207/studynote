@@ -1,7 +1,7 @@
----
-title: "524. 클라우드 보안 형상 관리 (CSPM) 및 개발 연동"
-date: 2026-03-15
----
++++
+title = "524. 클라우드 보안 형상 관리 (CSPM) 및 개발 연동"
+date = "2026-03-15"
++++
 
 # 524. 클라우드 보안 형상 관리 (CSPM) 및 개발 연동
 
@@ -150,10 +150,10 @@ CSPM은 다음의 4단계 순환 과정을 통해 보안 형상을 유지한다.
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[IaC (Infrastructure as Code)](./xx_iac.md)**: CSPM이 스캔하는 대상이자 수정이 이루어지는 원천
-- **[CWPP](./xx_cwpp.md)**: CSPM과 짝을 이루어 워크로드 내부를 보호하는 기술
-- **[CIS Benchmarks](./xx_cis.md)**: CSPM의 판단 근거가 되는 글로벌 표준
-- **[CNAPP](./xx_cnapp.md)**: 클라우드 보안 도구들이 통합된 차세대 플랫폼
+- **IaC (Infrastructure as Code)**: CSPM이 스캔하는 대상이자 수정이 이루어지는 원천
+- **CWPP**: CSPM과 짝을 이루어 워크로드 내부를 보호하는 기술
+- **CIS Benchmarks**: CSPM의 판단 근거가 되는 글로벌 표준
+- **CNAPP**: 클라우드 보안 도구들이 통합된 차세대 플랫폼
 
 ---
 

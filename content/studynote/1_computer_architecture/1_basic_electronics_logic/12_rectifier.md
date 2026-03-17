@@ -1,6 +1,7 @@
 +++
-weight = 12
 title = "12. 정류 회로 (Rectifier)"
+date = "2026-03-14"
+weight = 12
 +++
 
 # # 정류 회로 (Rectifier)

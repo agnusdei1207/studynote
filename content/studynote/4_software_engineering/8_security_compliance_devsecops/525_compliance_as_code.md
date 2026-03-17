@@ -1,7 +1,7 @@
----
-title: "525. 컴플라이언스 애즈 코드 (Compliance as Code) 자동화"
-date: 2026-03-15
----
++++
+title = "525. 컴플라이언스 애즈 코드 (Compliance as Code) 자동화"
+date = "2026-03-15"
++++
 
 # 525. 컴플라이언스 애즈 코드 (Compliance as Code) 자동화
 
@@ -158,10 +158,10 @@ CaC는 GitOps 운영 모델과 완벽하게 결합된다.
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[CSPM (Cloud Security Posture Management)](./524_cspm_dev_integration.md)**: CaC가 실질적으로 구동되는 플랫폼
-- **[IaC (Infrastructure as Code)](../xx_iac.md)**: CaC의 검사 대상이 되는 자원
-- **[Policy as Code (PaC)](../xx_pac.md)**: CaC를 실현하는 기술적 하위 개념
-- **[DevSecOps](./515_devsecops_pipeline.md)**: CaC가 통합되는 운영 환경
+- **CSPM (Cloud Security Posture Management)**: CaC가 실질적으로 구동되는 플랫폼
+- **IaC (Infrastructure as Code)**: CaC의 검사 대상이 되는 자원
+- **Policy as Code (PaC)**: CaC를 실현하는 기술적 하위 개념
+- **DevSecOps**: CaC가 통합되는 운영 환경
 
 ---
 

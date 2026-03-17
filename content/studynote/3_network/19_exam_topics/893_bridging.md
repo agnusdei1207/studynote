@@ -1,5 +1,6 @@
 +++
 title = "Bridging - 브리징"
+date = "2026-03-14"
 weight = 893
 +++
 
@@ -107,6 +108,6 @@ Bridging은 두 네트워크 세그먼트를 연결합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Switching](./892_switching.md)
-- [STP](./xxx_stp.md)
-- [Collision Domain](./xxx_collision_domain.md)
+- Switching
+- STP
+- Collision Domain

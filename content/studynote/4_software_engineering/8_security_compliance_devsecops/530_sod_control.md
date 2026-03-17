@@ -1,7 +1,7 @@
----
-title: "530. 보안 조직 분리 (SoD) 및 SW 통제 로직"
-date: 2026-03-15
----
++++
+title = "530. 보안 조직 분리 (SoD) 및 SW 통제 로직"
+date = "2026-03-15"
++++
 
 # 530. 보안 조직 분리 (SoD) 및 SW 통제 로직
 
@@ -160,10 +160,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[IAM (Identity and Access Management)](./514_iam.md)**: SoD가 구현되는 핵심 기반 시스템
-- **[RBAC / ABAC](./509_authorization_models.md)**: SoD 정책을 정의하는 기술 모델
-- **[보안 감사 트레일](./527_audit_trail.md)**: SoD 이행 여부를 확인하는 사후 증적
-- **[최소 권한 원칙](./511_zero_trust.md)**: SoD와 함께 제로 트러스트를 이루는 양대 산맥
+- **IAM (Identity and Access Management)**: SoD가 구현되는 핵심 기반 시스템
+- **RBAC / ABAC**: SoD 정책을 정의하는 기술 모델
+- **보안 감사 트레일**: SoD 이행 여부를 확인하는 사후 증적
+- **최소 권한 원칙**: SoD와 함께 제로 트러스트를 이루는 양대 산맥
 
 ---
 

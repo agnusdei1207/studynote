@@ -1,5 +1,6 @@
 +++
 title = "gRPC - 지알피씨"
+date = "2026-03-14"
 weight = 761
 +++
 
@@ -100,6 +101,6 @@ gRPC는 고성능 RPC 프레임워크입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Protocol Buffers](./762_protobuf.md)
-- [Microservices](./617_microservices.md)
-- [API Design](./711_api_design.md)
+- Protocol Buffers
+- Microservices
+- API Design

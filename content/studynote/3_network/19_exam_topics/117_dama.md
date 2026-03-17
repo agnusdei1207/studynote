@@ -1,5 +1,6 @@
 +++
 title = "DAMA (Demand Assignment Multiple Access)"
+date = "2026-03-14"
 weight = 117
 +++
 
@@ -153,10 +154,10 @@ DAMA(Demand Assignment Multiple Access)는 통신 수요가 있을 때만 채널
 ---
 
 ### 📌 관련 개념 링크**:
-- [PRMA](./116_prma.md)
-- [PAMA](./118_pama.md)
-- [위성 통신](./205_satellite.md)
-- [FDMA](./88_fdma.md)
+- PRMA
+- PAMA
+- 위성 통신
+- FDMA
 
 ---
 

@@ -1,6 +1,7 @@
 +++
-weight = 20
 title = "20. GAA (Gate-All-Around)"
+date = "2026-03-14"
+weight = 20
 +++
 
 # 20. GAA (Gate-All-Around)

@@ -1,5 +1,6 @@
 +++
 title = "Modulation - 변조"
+date = "2026-03-14"
 weight = 817
 +++
 
@@ -107,6 +108,6 @@ Modulation은 정보를 반송파에 실습니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Multiplexing](./815_multiplexing.md)
-- [Signal](./xxx_signal.md)
-- [Wireless](./xxx_wireless.md)
+- Multiplexing
+- Signal
+- Wireless

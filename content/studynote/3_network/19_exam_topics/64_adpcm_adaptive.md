@@ -1,5 +1,6 @@
 +++
 title = "ADPCM (적응형 차분 펄스 부호 변조)"
+date = "2026-03-14"
 weight = 64
 +++
 
@@ -151,10 +152,10 @@ ADPCM(Adaptive DPCM)은 신호의 변화율에 따라 양자화 스텝 크기를
 ---
 
 ### 📌 관련 개념 링크**:
-- [DPCM 차분 PCM](./63_dpcm_differential.md)
-- [PCM 펄스 부호 변조](./62_pcm_pulse.md)
-- [델타 변조 Delta Modulation](./65_delta_modulation.md)
-- [VoIP 음성 통신](./180_voip_voice.md)
+- DPCM 차분 PCM
+- PCM 펄스 부호 변조
+- 델타 변조 Delta Modulation
+- VoIP 음성 통신
 
 ---
 

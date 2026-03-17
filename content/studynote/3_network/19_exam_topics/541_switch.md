@@ -1,5 +1,6 @@
 +++
 title = "Switch (L2 Switch) - 스위치"
+date = "2026-03-14"
 weight = 541
 +++
 
@@ -96,6 +97,6 @@ L2 Switch는 MAC 주소로 프레임을 전달합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Ethernet](./329_ethernet.md)
-- [MAC Address](./539_mac_address.md)
-- [VLAN](./542_vlan.md)
+- Ethernet
+- MAC Address
+- VLAN

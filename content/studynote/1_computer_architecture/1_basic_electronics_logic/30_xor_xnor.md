@@ -1,7 +1,7 @@
-Here is the rewritten content, strictly adhering to the **BrainScience PE Guideline**.
-
-```markdown
 +++
+title = "30. XOR, XNOR 게이트"
+date = "2026-03-14"
+[extra]
 weight = 30
 title = "30. XOR, XNOR 게이트"
 +++

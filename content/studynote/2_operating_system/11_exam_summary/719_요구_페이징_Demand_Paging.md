@@ -1,5 +1,6 @@
 +++
 title = "요구 페이징 Demand Paging"
+date = "2026-03-14"
 weight = 719
 +++
 
@@ -149,10 +150,10 @@ weight = 719
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [페이지 폴트 Page Fault ISR](./720_페이지_폴트_Page_Fault_ISR.md)
-- [유효 무효 비트 Valid Invalid](./721_유효_무효_비트_Valid_Invalid.md)
-- [페이지 교체 LRU 원리](./722_페이지_교체_LRU_원리.md)
-- [세그멘테이션 외부 단편화 재발](./718_세그멘테이션_외부_단편화_재발.md)
+- 페이지 폴트 Page Fault ISR
+- 유효 무효 비트 Valid Invalid
+- 페이지 교체 LRU 원리
+- 세그멘테이션 외부 단편화 재발
 
 ---
 

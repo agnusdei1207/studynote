@@ -1,10 +1,9 @@
----
-title: "[ICT] #71. BaaS (Blockchain as a Service)"
-date: "2026-03-17"
++++
+title = "[ICT] #71. BaaS (Blockchain as a Service)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "BaaS_BlockchainAsAService_Cloud_ManagedBlockchain_RapidPrototyping"
----
+keyword = "BaaS_BlockchainAsAService_Cloud_ManagedBlockchain_RapidPrototyping"
++++
 
 # BaaS (Blockchain as a Service): 복잡한 인프라를 클라우드로 해결하는 블록체인 가속기
 
@@ -13,7 +12,7 @@ keyword: "BaaS_BlockchainAsAService_Cloud_ManagedBlockchain_RapidPrototyping"
 > 2. **가치**: 노드 설정, 보안 패치, API 연동 등 기술적 복잡성을 클라우드 뒤로 숨겨 기업들이 인프라 관리 부담 없이 **비즈니스 로직(스마트 컨트랙트) 개발**에만 집중할 수 있게 돕는다.
 > 3. **융합**: 클라우드 컴퓨팅(SaaS/PaaS)과 분산 원장 기술이 결합된 형태이며, 하이퍼레저 패브릭, 이더리움, 쿼럼 등 다양한 프로토콜을 클릭 몇 번으로 즉시 배포할 수 있는 유연성을 제공한다.
 
----
++++
 
 ## Ⅰ. BaaS (Blockchain as a Service) 개요
 
@@ -31,7 +30,7 @@ keyword: "BaaS_BlockchainAsAService_Cloud_ManagedBlockchain_RapidPrototyping"
 
 📢 **섹션 요약 비유**: 직접 발전소를 짓고 전기를 끌어쓰던 방식에서, 콘센트만 꽂으면 전기를 바로 쓰는 '구독형 인프라'로 블록체인이 대중화된 것입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -87,7 +86,7 @@ BaaS를 이용하면 복잡한 리눅스 명령어(CLI)를 입력하는 대신, 
 
 📢 **섹션 요약 비유**: 수천 대의 컴퓨터를 연결하는 복잡한 배선 공사를 대신해주고, 사용자는 그저 멀티탭(API)에 플러그만 꽂으면 되는 편리한 환경을 제공합니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -108,7 +107,7 @@ BaaS를 이용하면 복잡한 리눅스 명령어(CLI)를 입력하는 대신, 
 
 📢 **섹션 요약 비유**: 직접 집을 짓고 관리하는 '단독 주택'과, 모든 편의 시설이 갖춰진 '브랜드 아파트' 입주의 차이와 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -126,7 +125,7 @@ BaaS를 이용하면 복잡한 리눅스 명령어(CLI)를 입력하는 대신, 
 
 📢 **섹션 요약 비유**: 편리함(BaaS)을 위해 집 열쇠(인프라 통제권)를 관리소에 맡긴 셈이므로, 중요 자산은 본인의 주머니(자체 노드)에 따로 보관하는 영리함이 필요합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -140,13 +139,13 @@ BaaS를 이용하면 복잡한 리눅스 명령어(CLI)를 입력하는 대신, 
 
 📢 **섹션 요약 비유**: BaaS는 블록체인이라는 복잡한 퍼즐을 누구나 쉽게 맞출 수 있게 정돈된 **'디지털 플레이 세트'**이며, 기업의 상상을 현실로 바꾸는 가장 빠른 지름길입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[하이퍼레저 패브릭](./57_hyperledger_fabric.md)**: BaaS에서 가장 많이 제공하는 기업용 프레임워크.
-- **[클라우드 컴퓨팅](../../3_network/xx_cloud_computing.md)**: BaaS의 기반이 되는 기술적 토대.
-- **[SaaS / PaaS / IaaS](../../13_cloud_architecture/xx_cloud_service_models.md)**: BaaS가 속한 클라우드 서비스 분류 체계.
-- **[BaaS 기반 PoC](./xx_blockchain_poc.md)**: 실무에서 BaaS를 활용하는 가장 주된 목적.
+- **하이퍼레저 패브릭**: BaaS에서 가장 많이 제공하는 기업용 프레임워크.
+- **클라우드 컴퓨팅**: BaaS의 기반이 되는 기술적 토대.
+- **SaaS / PaaS / IaaS**: BaaS가 속한 클라우드 서비스 분류 체계.
+- **BaaS 기반 PoC**: 실무에서 BaaS를 활용하는 가장 주된 목적.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **블록체인 레고 상자**: 레고 블록(노드)을 하나하나 직접 깎아서 만들 필요 없이, 이미 다 만들어진 블록 상자를 클라우드 나라에서 빌려오는 거예요.

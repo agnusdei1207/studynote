@@ -1,5 +1,6 @@
 +++
 title = "스핀락 바쁜 대기 Busy Wait"
+date = "2026-03-14"
 weight = 700
 +++
 

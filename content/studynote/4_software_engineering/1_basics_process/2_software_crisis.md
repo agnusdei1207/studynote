@@ -1,7 +1,7 @@
 +++
-weight = 2
 title = "2. 소프트웨어 위기 (Software Crisis)"
 date = "2026-03-11"
+weight = 2
 [extra]
 categories = "studynote-se"
 keywords = ["소프트웨어 위기", "Software Crisis", "일정 지연", "품질 저하", "비용 초과"]
@@ -13,7 +13,7 @@ series = "소프트웨어공학 800제"
 > 2. **가치**: 이 개념은 왜 소프트웨어 공학이 필요한지를 설명하는 출발점이며, 현대 DevOps와 아키텍처 관리도 본질적으로 이 위기에 대한 대응이다.
 > 3. **융합**: 요구공학, 형상관리, 테스트 자동화, 프로젝트 관리, 품질 모델은 모두 소프트웨어 위기의 재발을 막기 위한 통제 장치다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -25,7 +25,7 @@ series = "소프트웨어공학 800제"
   3. 코드 재사용, 테스트, 형상관리 도구가 미성숙해 변경 비용이 폭증했다.
 - **📢 섹션 요약 비유**: 작은 집 짓는 방식으로 거대한 도시를 만들려다 곳곳이 무너진 것이 소프트웨어 위기입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -66,7 +66,7 @@ series = "소프트웨어공학 800제"
 
 - **📢 섹션 요약 비유**: 무너지는 공사 현장을 멈추려면 벽 하나만 보수하는 게 아니라 설계, 자재, 일정, 검사 체계를 함께 바로잡아야 합니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -88,7 +88,7 @@ series = "소프트웨어공학 800제"
   2. **테스팅**: 결함 발견 시점을 앞당길수록 위기 비용이 낮아진다.
 - **📢 섹션 요약 비유**: 소프트웨어 위기는 제품 하나의 불량이 아니라, 공장 전체 운영 방식이 흔들리는 문제와 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -108,7 +108,7 @@ series = "소프트웨어공학 800제"
 - **안티패턴**: 위기를 개인 역량 부족으로만 해석하면 구조적 문제는 계속 남는다.
 - **📢 섹션 요약 비유**: 길이 막힌 도시에서 운전자만 탓하면 도로 설계 문제는 영원히 해결되지 않습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -125,14 +125,14 @@ series = "소프트웨어공학 800제"
 - **표준 연결**: IEEE 소프트웨어 공학 지침, ISO/IEC 12207, CMMI.
 - **📢 섹션 요약 비유**: 위기를 이해하는 것은 실패를 기록하는 일이 아니라, 다음 도시를 무너지지 않게 짓는 첫 단계입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- [`[1_software_engineering.md](./1_software_engineering.md)`]: 위기에 대응하기 위해 등장한 공학적 프레임.
-- [`[3_sdlc.md](./3_sdlc.md)`]: 위기 완화를 위한 생명주기 관리 구조.
-- [`[4_waterfall_model.md](./4_waterfall_model.md)`]: 전통적 통제 모델의 대표 예시.
-- [`[/Users/pf/workspace/brainscience/content/studynote/11_design_supervision/_index.md](/Users/pf/workspace/brainscience/content/studynote/11_design_supervision/_index.md)`]: 품질 감사와 통제 관점.
-- [`[/Users/pf/workspace/brainscience/content/studynote/15_devops_sre/_index.md](/Users/pf/workspace/brainscience/content/studynote/15_devops_sre/_index.md)`]: 현대 운영 자동화 대응.
+- `[1_software_engineering.md`]: 위기에 대응하기 위해 등장한 공학적 프레임.
+- `[3_sdlc.md`]: 위기 완화를 위한 생명주기 관리 구조.
+- `[4_waterfall_model.md`]: 전통적 통제 모델의 대표 예시.
+- `[/Users/pf/workspace/brainscience/content/studynote/11_design_supervision/_index.md`]: 품질 감사와 통제 관점.
+- `[/Users/pf/workspace/brainscience/content/studynote/15_devops_sre/_index.md`]: 현대 운영 자동화 대응.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 프로그램이 커졌는데 옛날처럼 대충 만들면 자꾸 망가져요.

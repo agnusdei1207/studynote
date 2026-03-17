@@ -1,6 +1,7 @@
 +++
-weight = 451
 title = "451. 사이클 스틸링 (Cycle Stealing)"
+date = "2026-03-14"
+weight = 451
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -112,9 +113,9 @@ CPU와 DMA 컨트롤러 간의 버스 중재(Bus Arbitration)가 핵심이다.
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[DMA (Direct Memory Access)](./450_dma_direct_memory_access.md)**: 사이클 스틸링을 수행하는 주체.
-- **[버스 중재 (Bus Arbitration)](./xx_bus_arbitration.md)**: 버스 사용권을 누가 가질지 결정하는 메커니즘.
-- **[인터럽트 (Interrupt)](./449_interrupt_driven_io.md)**: 전송이 완료된 후 CPU에 알리는 방식.
+- **DMA (Direct Memory Access)**: 사이클 스틸링을 수행하는 주체.
+- **버스 중재 (Bus Arbitration)**: 버스 사용권을 누가 가질지 결정하는 메커니즘.
+- **인터럽트 (Interrupt)**: 전송이 완료된 후 CPU에 알리는 방식.
 
 ---
 

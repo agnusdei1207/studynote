@@ -1,5 +1,6 @@
 +++
 title = "Queue - 큐"
+date = "2026-03-14"
 weight = 851
 +++
 
@@ -104,6 +105,6 @@ Queue는 FIFO (First-In First-Out) 순서로 데이터를 처리합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Buffer](./850_buffer.md)
-- [QoS](./xxx_qos.md)
-- [Message Queue](./xxx_message_queue.md)
+- Buffer
+- QoS
+- Message Queue

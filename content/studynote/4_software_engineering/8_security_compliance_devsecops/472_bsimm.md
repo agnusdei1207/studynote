@@ -1,7 +1,7 @@
----
-title: "472. BSIMM (Building Security In Maturity Model)"
-date: 2026-03-15
----
++++
+title = "472. BSIMM (Building Security In Maturity Model)"
+date = "2026-03-15"
++++
 
 # 472. BSIMM (Building Security In Maturity Model)
 
@@ -150,10 +150,10 @@ BSIMM의 최신 버전은 클라우드 및 컨테이너 보안 활동을 대폭 
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[Secure SDLC](./471_secure_sdlc.md)**: BSIMM이 측정하고자 하는 대상 프로세스
-- **[OpenSAMM (SAMM)](./xx_opensamm.md)**: BSIMM과 대비되는 처방적 보안 성숙도 모델
-- **[DevSecOps](./xx_devsecops.md)**: 현대 BSIMM 데이터의 주요 수집처이자 지향점
-- **[STRIDE 모델](./475_stride.md)**: BSIMM의 '공격 모델링' 영역에서 주로 사용되는 기법
+- **Secure SDLC**: BSIMM이 측정하고자 하는 대상 프로세스
+- **OpenSAMM (SAMM)**: BSIMM과 대비되는 처방적 보안 성숙도 모델
+- **DevSecOps**: 현대 BSIMM 데이터의 주요 수집처이자 지향점
+- **STRIDE 모델**: BSIMM의 '공격 모델링' 영역에서 주로 사용되는 기법
 
 ---
 

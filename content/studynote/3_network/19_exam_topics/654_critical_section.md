@@ -1,5 +1,6 @@
 +++
 title = "Critical Section - 임계 영역"
+date = "2026-03-14"
 weight = 654
 +++
 
@@ -102,6 +103,6 @@ Critical Section은 공유 자원에 접근하는 코드 영역입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Mutex](./653_mutex.md)
-- [Semaphore](./652_semaphore.md)
-- [Race Condition](./655_race_condition.md)
+- Mutex
+- Semaphore
+- Race Condition

@@ -1,8 +1,7 @@
-
-```markdown
 +++
-weight = 614
 title = "614. 반가상화 (Para-virtualization) - 하이퍼콜 (Hypercall) 활용"
+date = "2026-03-14"
+weight = 614
 +++
 
 # # 614. 반가상화 (Para-virtualization) - 하이퍼콜 (Hypercall) 활용

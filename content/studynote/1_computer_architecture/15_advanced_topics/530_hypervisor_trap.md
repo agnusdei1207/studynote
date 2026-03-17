@@ -1,6 +1,7 @@
 +++
-weight = 530
 title = "530. 하이퍼바이저 트랩"
+date = "2026-03-14"
+weight = 530
 +++
 
 # 530. 하이퍼바이저 트랩
@@ -134,10 +135,10 @@ title = "530. 하이퍼바이저 트랩"
 ---
 
 ### 📌 관련 개념 맵
-- **[가상화 오버헤드 감소 (하드웨어 보조)](./527_hardware_assisted_virtualization.md)**: 트랩 효율화 기술
-- **[VMCS (VM Control Structure)](./529_vmcs.md)**: 트랩 정보를 담는 그릇
-- **[에뮬레이션 지연](./531_emulation_latency.md)**: 트랩 발생 후 뒤따르는 성능 저하
-- **[반가상화 (Paravirtualization)](../4_software_engineering/xx_paravirt.md)**: 트랩 횟수를 의도적으로 줄이는 설계
+- **가상화 오버헤드 감소 (하드웨어 보조)**: 트랩 효율화 기술
+- **VMCS (VM Control Structure)**: 트랩 정보를 담는 그릇
+- **에뮬레이션 지연**: 트랩 발생 후 뒤따르는 성능 저하
+- **반가상화 (Paravirtualization)**: 트랩 횟수를 의도적으로 줄이는 설계
 
 ---
 

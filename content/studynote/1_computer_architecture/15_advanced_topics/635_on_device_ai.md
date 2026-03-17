@@ -1,5 +1,6 @@
 +++
 title = "635. 온디바이스 AI (On-Device AI)"
+date = "2026-03-14"
 weight = 635
 +++
 

@@ -1,7 +1,7 @@
----
-title: "486. Security Logging and Monitoring Failures (보안 로깅 및 모니터링 실패)"
-date: 2026-03-15
----
++++
+title = "486. Security Logging and Monitoring Failures (보안 로깅 및 모니터링 실패)"
+date = "2026-03-15"
++++
 
 # 486. Security Logging and Monitoring Failures (보안 로깅 및 모니터링 실패)
 
@@ -158,10 +158,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[OWASP Top 10 (A09)](./477_owasp_top_10.md)**: 보안 로깅 실패가 포함된 표준 리포트
-- **[SIEM (Security Information and Event Management)](./xx_siem.md)**: 로그 통합 분석의 핵심 플랫폼
-- **[SOAR (Security Orchestration, Automation and Response)](./xx_soar.md)**: 모니터링 이후의 자동 대응 기술
-- **[디지털 포렌식 (Digital Forensics)](./xx_forensics.md)**: 보관된 로그를 분석하는 사후 수사 기술
+- **OWASP Top 10 (A09)**: 보안 로깅 실패가 포함된 표준 리포트
+- **SIEM (Security Information and Event Management)**: 로그 통합 분석의 핵심 플랫폼
+- **SOAR (Security Orchestration, Automation and Response)**: 모니터링 이후의 자동 대응 기술
+- **디지털 포렌식 (Digital Forensics)**: 보관된 로그를 분석하는 사후 수사 기술
 
 ---
 

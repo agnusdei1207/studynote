@@ -1,8 +1,10 @@
 +++
-weight = 501
 title = "501. 수퍼스칼라 발급 큐 (Issue Queue)"
+date = "2026-03-14"
+weight = 501
 [extra]
 category = "studynote-computer-architecture"
+date = "2026-03-14"
 +++
 
 # Superscalar Issue Queue
@@ -11,7 +13,7 @@ category = "studynote-computer-architecture"
 > 2. **가치**: 명령어 수준 병렬성 (ILP, Instruction Level Parallelism)을 극대화하여 클럭당 처리 속도(IPC)를 높이고, 비순차 실행 (OoO, Out-of-Order)을 가능케 함으로써 CPU 자원 낭비를 최소화한다.
 > 3. **융합**: 레지스터 리네이밍 (Register Renaming), 비순차 실행 윈도우, 점수판 (Scoreboard) 또는 토마술로 (Tomasulo) 알고리즘과 융합되어 현대 고성능 프로세서의 엔진 역할을 수행한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -26,7 +28,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 들어온 순서가 아니라 준비된 순서대로 일을 시키는 '스마트한 대기실 관리자'가 바로 발급 큐입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -40,7 +42,7 @@ category = "studynote-computer-architecture"
 | **Dispatch Port** | 해독 단계로부터 명령 유입 | 리네이밍된 명령어를 비어있는 큐 슬롯에 할당 | Allocation Logic | 입구의 안내 데스크 |
 | **Issue Port** | 실행 유닛으로 명령 송출 | 선정된 명령어를 ALU나 FPU 등으로 전달 | Execution Bypass | 주방으로 가는 통로 |
 
----
++++
 
 ### 발급 큐와 비순차 실행 흐름
 
@@ -71,7 +73,7 @@ category = "studynote-computer-architecture"
 
 **[다이어그램 해설]** 명령어가 해독(Decode)되어 발급 큐로 들어오면(Dispatch), 각 피연산자의 준비 상태(O/X)가 체크된다. Inst 2와 같이 모든 피연산자가 준비된(O) 명령어는 Select Logic에 의해 선정되어 실행 유닛으로 발급(Issue)된다. 반면 Inst 1은 피연산자 Src1이 준비되지 않아 대기한다. 이후 실행 유닛에서 어떤 작업이 완료되면, 그 결과의 태그(Tag)를 전체 큐에 방송(Wakeup)한다. Inst 1이 기다리던 태그와 일치하면 Src1 상태가 O로 바뀌며 '기상(Wakeup)'하여 발급 대기 상태가 된다. 이 과정을 통해 명령어들은 원래 프로그램 순서와 상관없이 데이터 의존성만 해결되면 즉시 실행된다.
 
----
++++
 
 ### 심층 동작 원리: Wakeup & Select 과정
 
@@ -80,7 +82,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: "3번 재료 준비됐어요!"라는 외침(Wakeup)을 듣고 대기하던 3번 요리 주문서가 손을 들면, 지배인(Select Logic)이 가장 오래 기다린 손님부터 주방으로 안내하는 것과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -98,7 +100,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 모든 손님이 하나의 큰 대기실에서 기다리는 것(중앙형)과, 한식/양식 코너 앞에 각각 따로 줄을 서는 것(분산형)의 차이입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -113,7 +115,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 대기실이 너무 좁지는 않은지, 대기표를 확인하는 직원이 너무 느려서 손님을 제때 주방으로 못 보내고 있지는 않은지 확인하는 과정입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -130,15 +132,15 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 요리사의 손이 빨라지는 것보다, 어떤 요리를 먼저 할지 머리를 잘 쓰는 지배인의 역할이 미래 컴퓨터 성능의 핵심이 될 것입니다.
 
----
++++
 
 ## 📌 관련 개념 맵
-- **[비순차 실행 (Out-of-Order Execution)](./502_ooo_execution_window.md)**: 발급 큐가 구현하고자 하는 핵심 동작 패러다임.
-- **[레지스터 리네이밍 (Register Renaming)](./xx_register_renaming.md)**: 발급 큐 이전 단계에서 가짜 의존성을 제거하는 기술.
-- **[토마술로 알고리즘 (Tomasulo Algorithm)](./xx_tomasulo.md)**: 발급 큐(RS)를 이용한 동적 스케줄링의 고전적 알고리즘.
-- **[리오더 버퍼 (ROB, Re-Order Buffer)](./xx_rob.md)**: 비순차 실행된 결과를 다시 순서대로 정렬하여 종료시키는 버퍼.
+- **비순차 실행 (Out-of-Order Execution)**: 발급 큐가 구현하고자 하는 핵심 동작 패러다임.
+- **레지스터 리네이밍 (Register Renaming)**: 발급 큐 이전 단계에서 가짜 의존성을 제거하는 기술.
+- **토마술로 알고리즘 (Tomasulo Algorithm)**: 발급 큐(RS)를 이용한 동적 스케줄링의 고전적 알고리즘.
+- **리오더 버퍼 (ROB, Re-Order Buffer)**: 비순차 실행된 결과를 다시 순서대로 정렬하여 종료시키는 버퍼.
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 발급 큐는 학교 식당의 **'스마트 대기판'**이에요. 1번 친구가 떡볶이를 주문했는데 아직 떡이 안 왔다면, 재료가 다 있는 2번 친구의 김밥부터 먼저 만드는 식이죠.

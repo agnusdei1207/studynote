@@ -1,5 +1,6 @@
 +++
 title = "GLBP - 게이트웨이 로드 밸런싱 프로토콜"
+date = "2026-03-14"
 weight = 993
 +++
 
@@ -108,6 +109,6 @@ GLBP (Gateway Load Balancing Protocol)는 게이트웨이 로드밸런싱을 제
 ---
 
 ### 📌 관련 개념 링크**:
-- [HSRP](./992_hsrp.md)
-- [VRRP](./991_vrrp.md)
-- [Load Balancer](./832_load_balancer.md)
+- HSRP
+- VRRP
+- Load Balancer

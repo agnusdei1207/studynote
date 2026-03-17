@@ -1,7 +1,7 @@
 +++
-weight = 657
 title = "657. 데드락(Deadlock) 탐지 및 회피 전략 체크리스트"
 date = "2024-05-23"
+weight = 657
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "Deadlock", "Banker's Algorithm", "Prevention", "Detection", "Recovery"]
@@ -12,7 +12,7 @@ keywords = ["운영체제", "Deadlock", "Banker's Algorithm", "Prevention", "Det
 > 이를 해결하기 위해 발생 조건을 사전에 차단하는 예방(Prevention), 자원 요청 시 안전 상태를 검증하는 회피(Avoidance), 그리고 발생 후 조치하는 탐지 및 복구(Detection & Recovery) 전략을 계층적으로 운용해야 한다.
 > 시스템의 효율성과 안전성 사이의 트레이드오프를 고려하여, 현대의 많은 OS는 오버헤드를 줄이기 위해 데드락이 발생하지 않는다고 가정하고 문제를 방치하는 '타조 알고리즘(Ostrich Algorithm)'을 응용 프로그램 수준의 해결에 맡기기도 한다.
 
----
++++
 
 ### Ⅰ. 데드락 발생의 4가지 필수 조건 (Coffman's Condition)
 
@@ -27,7 +27,7 @@ keywords = ["운영체제", "Deadlock", "Banker's Algorithm", "Prevention", "Det
 
 📢 섹션 요약 비유: 데드락은 네 명이 사거리에서 각자 앞차 때문에 꼼짝 못 하는 '교통 마비' 상황과 같습니다.
 
----
++++
 
 ### Ⅱ. 데드락 해결 전략 체크리스트
 
@@ -54,7 +54,7 @@ keywords = ["운영체제", "Deadlock", "Banker's Algorithm", "Prevention", "Det
 
 📢 섹션 요약 비유: 아예 사거리에 신호등을 설치하거나 일방통행으로 만들어 사고를 '예방'하는 규칙과 같습니다.
 
----
++++
 
 ### Ⅲ. Deadlock Avoidance와 은행원 알고리즘(Banker's Algorithm)
 
@@ -67,7 +67,7 @@ keywords = ["운영체제", "Deadlock", "Banker's Algorithm", "Prevention", "Det
 
 📢 섹션 요약 비유: 은행이 대출해줄 때, 이 돈을 빌려줘도 나중에 돈을 돌려받을 수 있는 '안전한 계획'이 있는지 미리 확인하는 것과 같습니다.
 
----
++++
 
 ### Ⅳ. 탐지 및 복구(Detection & Recovery) 전략
 
@@ -81,7 +81,7 @@ keywords = ["운영체제", "Deadlock", "Banker's Algorithm", "Prevention", "Det
 
 📢 섹션 요약 비유: 이미 차가 막혔을 때, 경찰이 와서 몇 대의 차를 뒤로 빼게(Rollback) 하거나 돌려보내서 길을 뚫는 것과 같습니다.
 
----
++++
 
 ### Ⅴ. 현대 운영체제의 데드락 대응 (Ostrich Algorithm)
 
@@ -94,7 +94,7 @@ keywords = ["운영체제", "Deadlock", "Banker's Algorithm", "Prevention", "Det
 
 📢 섹션 요약 비유: 아주 드물게 일어나는 사고를 대비해 엄청나게 비싼 보험을 드느니, 차라리 사고가 나면 그때 해결하는 게 경제적이라는 판단입니다.
 
----
++++
 
 ### 💡 지식 그래프(Knowledge Graph)
 - **부모 노드**: 프로세스 동기화(Process Synchronization)

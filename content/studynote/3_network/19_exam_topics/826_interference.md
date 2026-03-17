@@ -1,5 +1,6 @@
 +++
 title = "Interference - 간섭"
+date = "2026-03-14"
 weight = 826
 +++
 
@@ -107,6 +108,6 @@ Interference는 외부 신호의 영향입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Noise](./825_noise.md)
-- [Signal](./823_signal.md)
-- [Multipath](./xxx_multipath.md)
+- Noise
+- Signal
+- Multipath

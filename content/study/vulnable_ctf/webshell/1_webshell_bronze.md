@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Web Shell 🥉 Bronze"
-description = "LUXORA 플랫폼의 기본 Web Shell 취약점을 이용한 백도어 업로드 및 시스템 명령어 실행 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Web Shell", "Bronze", "File Upload", "Write-up"]

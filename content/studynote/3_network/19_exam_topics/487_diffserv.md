@@ -1,5 +1,6 @@
 +++
 title = "DiffServ (차등화 서비스) - Differentiated Services"
+date = "2026-03-14"
 weight = 487
 +++
 
@@ -91,5 +92,5 @@ DiffServ는 트래픽을 클래스별로 차등 처리합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [QoS](./486_qos.md)
-- [IntServ](./488_intserv.md)
+- QoS
+- IntServ

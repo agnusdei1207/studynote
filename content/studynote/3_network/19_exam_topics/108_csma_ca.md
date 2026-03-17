@@ -1,5 +1,6 @@
 +++
 title = "CSMA/CA (충돌 회피)"
+date = "2026-03-14"
 weight = 108
 +++
 
@@ -149,10 +150,10 @@ CSMA/CA(Carrier Sense Multiple Access with Collision Avoidance)는 무선 환경
 ---
 
 ### 📌 관련 개념 링크**:
-- [CSMA/CD 충돌 감지](./106_csma_cd.md)
-- [RTS/CTS](./109_rts_cts.md)
-- [숨은 노드](./109_hidden_node.md)
-- [WiFi](./200_wifi.md)
+- CSMA/CD 충돌 감지
+- RTS/CTS
+- 숨은 노드
+- WiFi
 
 ---
 

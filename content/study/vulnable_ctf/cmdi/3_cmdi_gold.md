@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Command Injection 🥇 Gold"
-description = "LUXORA 플랫폼의 Blind Command Injection 환경에서 DNS 기반 OOB(Out-of-Band) 데이터 추출 완벽 공략 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Command Injection", "Gold", "Blind", "OOB", "Write-up"]

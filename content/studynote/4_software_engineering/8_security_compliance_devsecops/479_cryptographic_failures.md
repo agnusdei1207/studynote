@@ -1,7 +1,7 @@
----
-title: "479. Cryptographic Failures (암호화 실패 / 민감 데이터 노출)"
-date: 2026-03-15
----
++++
+title = "479. Cryptographic Failures (암호화 실패 / 민감 데이터 노출)"
+date = "2026-03-15"
++++
 
 # 479. Cryptographic Failures (암호화 실패 / 민감 데이터 노출)
 
@@ -155,10 +155,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[OWASP Top 10 (A02)](./477_owasp_top_10.md)**: Cryptographic Failures가 포함된 표준 리포트
-- **[TLS (Transport Layer Security)](../3_network/xx_tls.md)**: 전송 구간 암호화의 핵심 프로토콜
-- **[KMS (Key Management Service)](./xx_kms.md)**: 중앙 집중식 키 관리 서비스
-- **[솔팅 및 스트레칭 (Salting & Stretching)](./xx_salting.md)**: 비밀번호 해시 보안 강화 기법
+- **OWASP Top 10 (A02)**: Cryptographic Failures가 포함된 표준 리포트
+- **TLS (Transport Layer Security)**: 전송 구간 암호화의 핵심 프로토콜
+- **KMS (Key Management Service)**: 중앙 집중식 키 관리 서비스
+- **솔팅 및 스트레칭 (Salting & Stretching)**: 비밀번호 해시 보안 강화 기법
 
 ---
 

@@ -1,7 +1,8 @@
----
-title: "Intel SGX"
-weight: 480
----
++++
+title = "Intel SGX"
+date = "2026-03-14"
+weight = 480
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: Intel SGX (Software Guard Extensions)는 애플리케이션의 특정 코드와 데이터를 메모리 상의 암호화된 격리 영역인 '엔클레이브(Enclave)' 내에서 실행하여 보호하는 보안 기술이다.
@@ -133,9 +134,9 @@ Intel SGX는 서버 급 CPU를 중심으로 **Confidential Computing**의 표준
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[TEE (Trusted Execution Environment)](./478_tee.md)**: SGX가 속한 기술 범주.
-- **[Confidential Computing](../12_it_management/1206_confidential_computing.md)**: SGX가 실현하는 비즈니스 모델.
-- **[Remote Attestation](./487_root_of_trust.md)**: 엔클레이브를 원격으로 믿기 위한 검증 절차.
+- **TEE (Trusted Execution Environment)**: SGX가 속한 기술 범주.
+- **Confidential Computing**: SGX가 실현하는 비즈니스 모델.
+- **Remote Attestation**: 엔클레이브를 원격으로 믿기 위한 검증 절차.
 
 ---
 

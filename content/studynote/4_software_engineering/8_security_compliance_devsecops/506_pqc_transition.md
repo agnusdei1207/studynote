@@ -1,7 +1,7 @@
----
-title: "506. 양자 내성 암호 (PQC) 전환 대비 SW 아키텍처 검토"
-date: 2026-03-15
----
++++
+title = "506. 양자 내성 암호 (PQC) 전환 대비 SW 아키텍처 검토"
+date = "2026-03-15"
++++
 
 # 506. 양자 내성 암호 (PQC) 전환 대비 SW 아키텍처 검토
 
@@ -160,10 +160,10 @@ PQC 전환의 가장 큰 걸림돌은 하드웨어 가속이다.
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[암호화 알고리즘 (비대칭키)](./504_cryptographic_algorithms.md)**: PQC가 대체하고자 하는 현재의 암호 체계
-- **[쇼어 알고리즘 (Shor's Algorithm)](./xx_shor.md)**: PQC 전환의 근본적인 위협 요인
-- **[암호 민첩성 (Crypto Agility)](./xx_crypto_agility.md)**: PQC 전환을 가능하게 하는 설계 원칙
-- **[KMS (Key Management Service)](./xx_kms.md)**: PQC 키를 관리해야 할 핵심 인프라
+- **암호화 알고리즘 (비대칭키)**: PQC가 대체하고자 하는 현재의 암호 체계
+- **쇼어 알고리즘 (Shor's Algorithm)**: PQC 전환의 근본적인 위협 요인
+- **암호 민첩성 (Crypto Agility)**: PQC 전환을 가능하게 하는 설계 원칙
+- **KMS (Key Management Service)**: PQC 키를 관리해야 할 핵심 인프라
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "에러 검출율 (Error Detection Rate)"
+date = "2026-03-14"
 weight = 34
 +++
 
@@ -143,10 +144,10 @@ CRC-32 검출 능력:
 ---
 
 ### 📌 관련 개념 링크**:
-- [패리티 Parity Check](./18_parity_check.md)
-- [CRC 순환 중복 검사](./19_crc_cyclic_redundancy.md)
-- [해밍 코드 Hamming Code](./20_hamming_code.md)
-- [에러 제어 Error Control](./17_에러_제어_오류_검출_정정.md)
+- 패리티 Parity Check
+- CRC 순환 중복 검사
+- 해밍 코드 Hamming Code
+- 에러 제어 Error Control
 
 ---
 

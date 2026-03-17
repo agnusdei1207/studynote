@@ -1,5 +1,6 @@
 +++
 title = "WiFi (802.11a/b/g/n/ac/ax/be)"
+date = "2026-03-14"
 weight = 186
 +++
 
@@ -130,10 +131,10 @@ WiFi는 IEEE 802.11 표준 기반의 무선 LAN 기술입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [무선 LAN](./201_wireless_lan.md)
-- [CSMA/CA](./106_csma_cd.md)
-- [MIMO](./178_mimo.md)
-- [WPA](./202_wpa.md)
+- 무선 LAN
+- CSMA/CA
+- MIMO
+- WPA
 
 ---
 

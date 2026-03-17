@@ -1,5 +1,6 @@
 +++
 title = "라우트 요약 - Route Summarization"
+date = "2026-03-14"
 weight = 425
 +++
 
@@ -137,10 +138,10 @@ weight = 425
 ---
 
 ### 📌 관련 개념 링크**:
-- [CIDR](./422_cidr.md)
-- [VLSM](./424_vlsm.md)
-- [OSPF](./313_ospf.md)
-- [계층 설계](./326_hierarchical_design.md)
+- CIDR
+- VLSM
+- OSPF
+- 계층 설계
 
 ---
 

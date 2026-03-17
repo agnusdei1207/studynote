@@ -1,5 +1,6 @@
 +++
 title = "IO 직접 메모리 접근 DMA"
+date = "2026-03-14"
 weight = 746
 +++
 
@@ -162,10 +163,10 @@ DMA 전송은 CPU와 컨트롤러 간의 정교한 핸드셰이킹(Handshaking) 
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[인터럽트 구동 입출력](./752_인터럽트_구동_입출력.md)**: DMA가 완료를 알리기 위해 사용하는 통신 수단.
-- **[시스템 클럭 타이머 틱](./745_시스템_클럭_타이머_틱.md)**: 사이클 스틸링이 일어나는 시간적 기준.
-- **[IOMMU](../10_security_performance_virtualization/xx_iommu.md)**: DMA의 보안과 가상 주소 변환을 담당하는 현대적 가디언.
-- **[버스 중재 (Bus Arbitration)](../../1_computer_architecture/9_system_bus_interconnects/xx_bus_arb.md)**: CPU와 DMA 중 누가 버스를 쓸지 결정하는 하드웨어 규칙.
+- **인터럽트 구동 입출력**: DMA가 완료를 알리기 위해 사용하는 통신 수단.
+- **시스템 클럭 타이머 틱**: 사이클 스틸링이 일어나는 시간적 기준.
+- **IOMMU**: DMA의 보안과 가상 주소 변환을 담당하는 현대적 가디언.
+- **버스 중재 (Bus Arbitration)**: CPU와 DMA 중 누가 버스를 쓸지 결정하는 하드웨어 규칙.
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "Context Switch - 문맥 교환"
+date = "2026-03-14"
 weight = 649
 +++
 
@@ -103,6 +104,6 @@ Context Switch는 CPU를 다른 프로세스/스레드로 전환합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Process](./636_process.md)
-- [Thread](./635_thread.md)
-- [Scheduling](./637_scheduling.md)
+- Process
+- Thread
+- Scheduling

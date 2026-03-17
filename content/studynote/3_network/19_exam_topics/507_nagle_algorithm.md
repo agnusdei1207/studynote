@@ -1,5 +1,6 @@
 +++
 title = "Nagle Algorithm - 네이글 알고리즘"
+date = "2026-03-14"
 weight = 507
 +++
 
@@ -92,6 +93,6 @@ Nagle Algorithm은 작은 패킷을 모아 전송합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./332_tcp.md)
-- [SWS](./508_silly_window.md)
-- [Delayed ACK](./516_delayed_ack.md)
+- TCP
+- SWS
+- Delayed ACK

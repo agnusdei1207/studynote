@@ -1,5 +1,6 @@
 +++
 title = "Slotted ALOHA (슬롯 알로하)"
+date = "2026-03-14"
 weight = 112
 +++
 
@@ -155,10 +156,10 @@ Slotted ALOHA는 시간을 고정된 슬롯으로 나누어 슬롯 시작 시점
 ---
 
 ### 📌 관련 개념 링크**:
-- [ALOHA 순수 알로하](./111_aloha.md)
-- [CSMA 반송파 감지](./104_csma.md)
-- [RFID](./205_rfid.md)
-- [위성 통신](./205_satellite.md)
+- ALOHA 순수 알로하
+- CSMA 반송파 감지
+- RFID
+- 위성 통신
 
 ---
 

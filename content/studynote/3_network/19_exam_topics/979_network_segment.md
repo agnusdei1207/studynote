@@ -1,5 +1,6 @@
 +++
 title = "Network Segment - 네트워크 세그먼트"
+date = "2026-03-14"
 weight = 979
 +++
 
@@ -106,6 +107,6 @@ Network Segment는 네트워크의 구분된 구역입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [VLAN](./894_vlan.md)
-- [Switch](./900_switch.md)
-- [Router](./899_router.md)
+- VLAN
+- Switch
+- Router

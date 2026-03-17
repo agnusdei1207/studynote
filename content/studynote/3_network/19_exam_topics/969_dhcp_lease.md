@@ -1,5 +1,6 @@
 +++
 title = "DHCP Lease - DHCP 임대"
+date = "2026-03-14"
 weight = 969
 +++
 
@@ -107,6 +108,6 @@ DHCP Lease는 IP 주소의 임대 기간입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [DHCP](./886_dhcp.md)
-- [DHCP DORA](./968_dhcp_dora.md)
-- [IP Address](./xxx_ip_address.md)
+- DHCP
+- DHCP DORA
+- IP Address

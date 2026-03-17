@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Deserialization 🥉 Bronze"
-description = "LUXORA 플랫폼의 Insecure Deserialization(안전하지 않은 역직렬화) Bronze 난이도 - PHP 객체 인젝션(Object Injection) 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Deserialization", "Bronze", "PHP Object Injection", "Write-up"]

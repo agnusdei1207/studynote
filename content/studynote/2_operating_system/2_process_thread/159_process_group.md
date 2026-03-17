@@ -1,6 +1,7 @@
 +++
-weight = 159
 title = "159. 프로세스 그룹 (Process Group)"
+date = "2026-03-14"
+weight = 159
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -137,10 +138,10 @@ title = "159. 프로세스 그룹 (Process Group)"
 ---
 
 ### 📌 관련 개념 맵
-- **[세션 (Session)](./160_session_controlling_terminal.md)**: 프로세스 그룹들이 모여 형성하는 상위 집합.
-- **[시그널 (Signal)](./130_signal.md)**: 프로세스 그룹 단위로 전달되는 실제 명령.
-- **[데몬화 (Daemonization)](./152_daemonization.md)**: 기존 그룹에서 탈퇴하여 새로운 세션을 꾸리는 과정.
-- **[작업 제어 (Job Control)](./xx_job_control.md)**: 프로세스 그룹을 활용한 쉘의 핵심 기능.
+- **세션 (Session)**: 프로세스 그룹들이 모여 형성하는 상위 집합.
+- **시그널 (Signal)**: 프로세스 그룹 단위로 전달되는 실제 명령.
+- **데몬화 (Daemonization)**: 기존 그룹에서 탈퇴하여 새로운 세션을 꾸리는 과정.
+- **작업 제어 (Job Control)**: 프로세스 그룹을 활용한 쉘의 핵심 기능.
 
 ---
 

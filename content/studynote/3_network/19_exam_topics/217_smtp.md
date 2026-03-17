@@ -1,5 +1,6 @@
 +++
 title = "SMTP (Simple Mail Transfer Protocol) - 메일 전송"
+date = "2026-03-14"
 weight = 217
 +++
 
@@ -138,10 +139,10 @@ SMTP(Simple Mail Transfer Protocol)는 이메일을 전송하는 표준 프로�
 ---
 
 ### 📌 관련 개념 링크**:
-- [DNS](./215_dns.md)
-- [POP3/IMAP](./218_pop3_imap.md)
-- [TLS/SSL](./310_tls.md)
-- [보안](./200_network_security.md)
+- DNS
+- POP3/IMAP
+- TLS/SSL
+- 보안
 
 ---
 

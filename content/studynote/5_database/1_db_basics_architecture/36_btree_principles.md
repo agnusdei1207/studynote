@@ -1,7 +1,6 @@
 +++
 title = "36. B-Tree (다진 탐색 트리) 원리 및 구조"
 date = "2026-03-16"
-draft = false
 weight = 36
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["B-Tree", "Balanced Tree", "다진 탐색 트리", "인덱스", "Roo
 > 2. **효율성**: 모든 리프 노드가 같은 깊이에 존재하도록 자가 균형(Self-balancing)을 유지하며, 노드 당 키 개수를 늘려 트리의 높이를 낮춤으로써 디스크 I/O 횟수를 극적으로 절감한다.
 > 3. **가치**: 삽입, 삭제, 검색 성능을 $O(\log n)$으로 일정하게 보장하여, 현대 RDBMS의 가장 보편적이고 핵심적인 **인덱스(Index) 표준 자료구조**로 활용된다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -45,7 +44,7 @@ keywords = ["B-Tree", "Balanced Tree", "다진 탐색 트리", "인덱스", "Roo
 
 - **📢 섹션 요약 비유**: B-Tree는 '최단 거리로 목적지에 도착하게 해주는 입체 교차로'와 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -89,7 +88,7 @@ keywords = ["B-Tree", "Balanced Tree", "다진 탐색 트리", "인덱스", "Roo
 
 - **📢 섹션 요약 비유**: 노드 분할은 '상자가 꽉 차면 더 큰 상자로 옮기거나 상자를 두 개로 나누는 정리법'과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -108,7 +107,7 @@ keywords = ["B-Tree", "Balanced Tree", "다진 탐색 트리", "인덱스", "Roo
 
 - **📢 섹션 요약 비유**: 이진 트리가 '한 번에 한 계단씩 오르는 사다리'라면, B-Tree는 '한 번에 한 층씩 오르는 엘리베이터'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -127,7 +126,7 @@ keywords = ["B-Tree", "Balanced Tree", "다진 탐색 트리", "인덱스", "Roo
 
 - **📢 섹션 요약 비유**: 인덱스 남발은 '모든 물건에 위치 추적기를 다는 것'과 같습니다. 배터리(시스템 자원)가 금방 방전되어 정작 물건을 쓸 수가 없습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -145,15 +144,15 @@ keywords = ["B-Tree", "Balanced Tree", "다진 탐색 트리", "인덱스", "Roo
 
 - **📢 섹션 요약 비유**: 기술의 형태는 변해도 '가장 적은 노력으로 가장 확실하게 찾는' B-Tree의 철학은 미래 저장 기술의 중심축으로 남을 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[B+Tree (개량형 B-Tree)](./37_bplus_tree.md)**: 리프 노드 간 연결 리스트가 추가된 형태.
-- **[인덱스 튜닝 (Index Tuning)](./117_physical_design.md)**: B-Tree를 효율적으로 쓰는 전략.
-- **[이진 탐색 트리 (BST)](@/studynote/8_algorithm_stats/_index.md)**: B-Tree의 모태가 되는 자료구조.
-- **[파일 저장 구조 (Indexed Sequential)](./33_file_storage_structures.md)**: B-Tree가 구현되는 물리적 배경.
+- **B+Tree (개량형 B-Tree)**: 리프 노드 간 연결 리스트가 추가된 형태.
+- **인덱스 튜닝 (Index Tuning)**: B-Tree를 효율적으로 쓰는 전략.
+- **이진 탐색 트리 (BST)**: B-Tree의 모태가 되는 자료구조.
+- **파일 저장 구조 (Indexed Sequential)**: B-Tree가 구현되는 물리적 배경.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **B-Tree**는 엄청나게 많은 장난감을 **아주 적은 수의 상자**에 나눠 담는 마법의 정리법이에요.

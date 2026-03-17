@@ -1,10 +1,9 @@
----
-title: "[ICT] #190. 가상화 (Virtualization) 및 하이퍼바이저 (Hypervisor) 아키텍처"
-date: "2026-03-17"
++++
+title = "[ICT] #190. 가상화 (Virtualization) 및 하이퍼바이저 (Hypervisor) 아키텍처"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Virtualization_Hypervisor_Type1_Type2_FullVirtualization_ParaVirtualization_IntelVTx"
----
+keyword = "Virtualization_Hypervisor_Type1_Type2_FullVirtualization_ParaVirtualization_IntelVTx"
++++
 
 # 가상화 및 하이퍼바이저: 물리적 한계를 허물고 클라우드의 시대를 연 핵심 소프트웨어 기술
 
@@ -13,7 +12,7 @@ keyword: "Virtualization_Hypervisor_Type1_Type2_FullVirtualization_ParaVirtualiz
 > 2. **가치**: 하이퍼바이저의 Type 1(베어메탈) 아키텍처와 하드웨어 보조 가상화(Intel VT-x) 기술의 융합을 통해, 가상 머신 구동 시 발생하는 성능 저하(Overhead)를 네이티브 성능의 95% 이상으로 끌어올림으로써 현대 클라우드 컴퓨팅(IaaS)의 경제적 기반을 완성했다.
 > 3. **융합**: 운영체제 전체를 가상화하는 무거운 방식에서 벗어나, OS를 수정하여 성능을 높이는 반가상화(Para-virtualization)를 거쳐, 현재는 애플리케이션 단위만 가볍게 격리하는 컨테이너(Docker) 기술로 진화하는 징검다리 역할을 한다.
 
----
++++
 
 ## Ⅰ. 가상화 (Virtualization) 및 하이퍼바이저 개요
 
@@ -31,7 +30,7 @@ keyword: "Virtualization_Hypervisor_Type1_Type2_FullVirtualization_ParaVirtualiz
 
 📢 **섹션 요약 비유**: 물리적인 철덩어리(서버)를 논리적인 찰흙(가상 머신)으로 바꾸어, 언제든 필요한 크기만큼 떼어내어 생명을 불어넣는 마법입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -82,7 +81,7 @@ keyword: "Virtualization_Hypervisor_Type1_Type2_FullVirtualization_ParaVirtualiz
 
 📢 **섹션 요약 비유**: 가짜 왕(Guest OS)이 진짜 왕인 줄 알고 신하들에게 명령을 내리면, 커튼 뒤에 숨은 실세(하이퍼바이저)가 그 명령을 몰래 가로채어 대신 처리해 주는 은밀한 권력 구조입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -101,7 +100,7 @@ keyword: "Virtualization_Hypervisor_Type1_Type2_FullVirtualization_ParaVirtualiz
 
 📢 **섹션 요약 비유**: 외국인(Guest OS)과 대화할 때 통역사(에뮬레이트)를 쓰면 느리지만(전가상화), 외국인에게 우리말을 가르쳐오게 하거나(반가상화), 아예 뇌 속에 자동 통역 칩(하드웨어 보조 가상화)을 심으면 대화가 끊기지 않습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -117,7 +116,7 @@ keyword: "Virtualization_Hypervisor_Type1_Type2_FullVirtualization_ParaVirtualiz
 
 📢 **섹션 요약 비유**: 아무리 가벼운 갑옷(하이퍼바이저)이라도 입고 뛰면 맨몸(베어메탈)보다 조금은 느릴 수밖에 없습니다. 무조건 가상화에 우겨넣기보다 짐의 무게(I/O)에 맞춰 맨몸 트럭을 배차하는 유연함이 필요합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -131,13 +130,13 @@ keyword: "Virtualization_Hypervisor_Type1_Type2_FullVirtualization_ParaVirtualiz
 
 📢 **섹션 요약 비유**: 가상화는 무겁고 차가운 철덩어리(하드웨어)에 갇혀있던 영혼(데이터와 프로그램)을 해방시켜, 어떤 몸(서버)으로든 순식간에 옮겨 갈 수 있게 만든 불멸의 기술입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[컨테이너 가상화 (Docker)](#)**: 하이퍼바이저와 Guest OS마저 없애버린 궁극의 경량 가상화 기술.
-- **[클라우드 5대 특징](./180_cloud_computing_characteristics.md)**: 가상화 기술 덕분에 가능해진 '자원 풀링'과 '신속한 탄력성'.
-- **[IaaS (인프라 서비스)](./182_iaas_paas_saas.md)**: 클라우드 벤더가 하이퍼바이저를 통해 고객에게 VM을 팔아먹는 비즈니스 모델.
-- **[SDN / NFV](../../3_network/xx_sdn_nfv.md)**: 서버 가상화를 넘어 네트워크 스위치와 라우터마저 가상화하는 기술.
+- **컨테이너 가상화 (Docker)**: 하이퍼바이저와 Guest OS마저 없애버린 궁극의 경량 가상화 기술.
+- **클라우드 5대 특징**: 가상화 기술 덕분에 가능해진 '자원 풀링'과 '신속한 탄력성'.
+- **IaaS (인프라 서비스)**: 클라우드 벤더가 하이퍼바이저를 통해 고객에게 VM을 팔아먹는 비즈니스 모델.
+- **SDN / NFV**: 서버 가상화를 넘어 네트워크 스위치와 라우터마저 가상화하는 기술.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **방 쪼개기 마법**: 커다란 방 하나를 두꺼운 벽으로 막아서, 10명의 친구가 서로 방해받지 않고 자기만의 작은 방(가상 머신)을 쓸 수 있게 해주는 마법이에요.

@@ -1,5 +1,6 @@
 +++
 title = "DKIM (DomainKeys Identified Mail) - 도메인키 식별 메일"
+date = "2026-03-14"
 weight = 554
 +++
 
@@ -94,6 +95,6 @@ DKIM은 발신 도메인이 서명한 이메일을 검증합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [SPF](./553_spf.md)
-- [DMARC](./555_dmarc.md)
-- [DNS](./550_dns.md)
+- SPF
+- DMARC
+- DNS

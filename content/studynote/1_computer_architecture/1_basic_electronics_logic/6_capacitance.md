@@ -1,6 +1,7 @@
 +++
-weight = 6
 title = "6. 정전용량 (Capacitance)"
+date = "2026-03-14"
+weight = 6
 +++
 
 # 6. 정전용량 (Capacitance)

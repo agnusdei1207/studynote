@@ -1,6 +1,7 @@
 +++
-weight = 607
 title = "607. 제로 카피 (Zero-copy) 기술 - sendfile, splice"
+date = "2026-03-14"
+weight = 607
 +++
 
 # 607. 제로 카피 (Zero-copy) 기술 - sendfile, splice

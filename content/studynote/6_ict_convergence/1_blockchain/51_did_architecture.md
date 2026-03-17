@@ -1,10 +1,9 @@
----
-title: "[ICT] #52. DID 아키텍처 (DID Architecture)"
-date: "2026-03-17"
++++
+title = "[ICT] #52. DID 아키텍처 (DID Architecture)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "DID_Architecture_VC_Verifiable_Credential_VP_Verifiable_Presentation_Registry"
----
+keyword = "DID_Architecture_VC_Verifiable_Credential_VP_Verifiable_Presentation_Registry"
++++
 
 # DID 아키텍처 (DID Architecture): 신뢰의 삼각형과 데이터 주권의 기술적 구현
 
@@ -13,7 +12,7 @@ keyword: "DID_Architecture_VC_Verifiable_Credential_VP_Verifiable_Presentation_R
 > 2. **가치**: 실제 신원 데이터(VC)는 블록체인이 아닌 사용자의 단말기에 보관하고, 블록체인에는 데이터의 진위와 상태(공개키, 폐기 여부)만 기록하여 **개인정보의 오남용을 원천 차단**한다.
 > 3. **융합**: W3C 표준인 DID Document와 암호학적 서명이 결합된 **VC(검증 가능한 자격증명)**, **VP(검증 가능한 프레젠테이션)** 기술을 통해 디지털 환경에서의 '선택적 노출'을 완벽히 구현한다.
 
----
++++
 
 ## Ⅰ. DID 아키텍처 (DID Architecture) 개요
 
@@ -31,7 +30,7 @@ keyword: "DID_Architecture_VC_Verifiable_Credential_VP_Verifiable_Presentation_R
 
 📢 **섹션 요약 비유**: 중앙 서버라는 '거대한 창고'에 모든 사람의 정보를 쌓아두는 방식에서, 각자가 자신의 정보를 담은 '보물 상자'를 들고 다니며 필요할 때만 열어 보여주는 분산형 신뢰 체계입니다.
 
----
++++
 
 ## Ⅱ. 핵심 구성 요소 및 작동 원리 (Deep Dive)
 
@@ -86,7 +85,7 @@ keyword: "DID_Architecture_VC_Verifiable_Credential_VP_Verifiable_Presentation_R
 
 📢 **섹션 요약 비유**: 면접장에서 이력서(VC)를 통째로 넘기는 게 아니라, 면접관이 질문하는 내용에 대해서만 내 도장이 찍힌 답변지(VP)를 건네주는 '철저한 정보 제어' 방식입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -106,7 +105,7 @@ keyword: "DID_Architecture_VC_Verifiable_Credential_VP_Verifiable_Presentation_R
 
 📢 **섹션 요약 비유**: 모든 열쇠가 호텔 관리실(중앙)에 있는 시스템에서, 손님마다 자기만 아는 '디지털 지문 인식기'를 들고 다니는 시스템으로 보안의 패러다임이 바뀐 것입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -120,7 +119,7 @@ keyword: "DID_Architecture_VC_Verifiable_Credential_VP_Verifiable_Presentation_R
 
 📢 **섹션 요약 비유**: 출입증 카드를 잃어버렸을 때 카드를 뺏으러 다니는 게 아니라, 건물 입구의 센서(블록체인)에 "저 카드는 이제 가짜다"라고 한 줄만 적어두면 끝나는 '중앙 제어형 분산 시스템'입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -134,13 +133,13 @@ keyword: "DID_Architecture_VC_Verifiable_Credential_VP_Verifiable_Presentation_R
 
 📢 **섹션 요약 비유**: DID 아키텍처는 디지털 세상의 모든 문을 여는 **'단 하나의 마스터 키'**이며, 그 키의 주인은 오직 나 자신이라는 점이 가장 위대한 혁신입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[DID (탈중앙 신원증명)](./50_did.md)**: 아키텍처의 상위 개념.
-- **[VC / VP](./xx_vc_vp.md)**: DID 시스템에서 오가는 핵심 데이터 꾸러미.
-- **[DID Document](./53_did_document.md)**: 블록체인에 등록되는 신원 기술 명세서.
-- **[자기 주권 신원 (SSI)](./xx_ssi.md)**: DID 아키텍처가 지향하는 최종 목적지.
+- **DID (탈중앙 신원증명)**: 아키텍처의 상위 개념.
+- **VC / VP**: DID 시스템에서 오가는 핵심 데이터 꾸러미.
+- **DID Document**: 블록체인에 등록되는 신원 기술 명세서.
+- **자기 주권 신원 (SSI)**: DID 아키텍처가 지향하는 최종 목적지.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **나만의 마법 주머니**: 학교나 시청에서 받은 소중한 카드(증명서)들을 내 스마트폰 마법 주머니에 쏙 넣어두는 거예요.

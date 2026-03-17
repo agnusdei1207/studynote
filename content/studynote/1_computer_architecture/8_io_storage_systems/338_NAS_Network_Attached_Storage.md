@@ -1,7 +1,8 @@
----
++++
 title = "338. NAS (Network Attached Storage)"
+date = "2026-03-14"
 weight = 338
----
++++
 
 # # 338. NAS (Network Attached Storage)
 

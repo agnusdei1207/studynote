@@ -1,5 +1,6 @@
 +++
 title = "지연 왜곡 (Delay Distortion)"
+date = "2026-03-14"
 weight = 26
 +++
 
@@ -147,10 +148,10 @@ weight = 26
 ---
 
 ### 📌 관련 개념 링크**:
-- [감쇠 Attenuation](./25_attenuation_db.md)
-- [ISI 심볼 간섭](./22_isi_inter_symbol.md)
-- [등화기 Equalizer](./45_equalization.md)
-- [OFDM 직교 주파수 분할](./84_ofdm_orthogonal.md)
+- 감쇠 Attenuation
+- ISI 심볼 간섭
+- 등화기 Equalizer
+- OFDM 직교 주파수 분할
 
 ---
 

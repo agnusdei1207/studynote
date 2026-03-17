@@ -1,5 +1,6 @@
 +++
 title = "스펙트럼 확산 (Spread Spectrum)"
+date = "2026-03-14"
 weight = 68
 +++
 
@@ -154,10 +155,10 @@ weight = 68
 ---
 
 ### 📌 관련 개념 링크**:
-- [DSSS 직접 수열 확산](./69_dsss_direct.md)
-- [FHSS 주파수 도약](./70_fhss_frequency.md)
-- [CDMA 코드 분할](./90_cdma_code.md)
-- [처리 이득 Processing Gain](./205_processing_gain.md)
+- DSSS 직접 수열 확산
+- FHSS 주파수 도약
+- CDMA 코드 분할
+- 처리 이득 Processing Gain
 
 ---
 

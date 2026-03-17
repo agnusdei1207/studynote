@@ -1,8 +1,8 @@
-
----
-weight = 80
++++
 title = "80. MSB (Most Significant Bit)"
----
+date = "2026-03-14"
+weight = 80
++++
 
 # MSB (Most Significant Bit)
 

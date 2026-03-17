@@ -1,6 +1,7 @@
 +++
-weight = 475
 title = "475. 솔리드 스테이트 드라이브 (SSD) 구조 - NAND 플래시, 페이지(Page), 블록(Block)"
+date = "2026-03-14"
+weight = 475
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -110,9 +111,9 @@ title = "475. 솔리드 스테이트 드라이브 (SSD) 구조 - NAND 플래시,
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[FTL (Flash Translation Layer)](./478_ftl.md)**: 논리 주소를 물리 페이지 주소로 번역해주는 핵심 SW.
-- **[가비지 컬렉션 (GC)](./477_ssd_garbage_collection.md)**: 블록 단위 삭제 제약을 극복하기 위한 정리 작업.
-- **[쓰기 증폭 현상 (WAF)](./480_write_amplification.md)**: 페이지/블록 구조 때문에 발생하는 실제 쓰기량 증가 현상.
+- **FTL (Flash Translation Layer)**: 논리 주소를 물리 페이지 주소로 번역해주는 핵심 SW.
+- **가비지 컬렉션 (GC)**: 블록 단위 삭제 제약을 극복하기 위한 정리 작업.
+- **쓰기 증폭 현상 (WAF)**: 페이지/블록 구조 때문에 발생하는 실제 쓰기량 증가 현상.
 
 ---
 

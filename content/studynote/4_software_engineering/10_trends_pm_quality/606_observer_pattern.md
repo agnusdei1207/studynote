@@ -1,9 +1,7 @@
----
-title: "606. 옵저버 패턴(Observer Pattern) Pub/Sub 연계"
-date: "2026-03-15"
-type: "pe_exam"
-id: 606
----
++++
+title = "606. 옵저버 패턴(Observer Pattern) Pub/Sub 연계"
+date = "2026-03-15"
++++
 
 # 606. 옵저버 패턴(Observer Pattern) Pub/Sub 연계
 
@@ -231,11 +229,11 @@ Push 모델은 Observer가 필요한 데이터를 정확히 알 때 적합하고
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[행위 패턴(Behavioral Patterns)](./566_behavioral_patterns.md)**: 옵저버가 속한 상위 카테고리.
-- **[MVC 패턴](./210_mvc_pattern.md)**: 옵저버의 대표적 응용 사례.
-- **[Kafka/PUB/SUB](./xx_messaging_queue.md)**: 옵저버의 분산 시스템 확장.
-- **[Reactive Programming](./327_reactive.md)**: 옵저버를 데이터 스트림으로 확장.
-- **[이벤트 버스(Event Bus)](./xx_event_bus.md)**: MSA 환경의 옵저버 구현.
+- **행위 패턴(Behavioral Patterns)**: 옵저버가 속한 상위 카테고리.
+- **MVC 패턴**: 옵저버의 대표적 응용 사례.
+- **Kafka/PUB/SUB**: 옵저버의 분산 시스템 확장.
+- **Reactive Programming**: 옵저버를 데이터 스트림으로 확장.
+- **이벤트 버스(Event Bus)**: MSA 환경의 옵저버 구현.
 
 ---
 

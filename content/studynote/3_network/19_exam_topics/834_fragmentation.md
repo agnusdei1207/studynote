@@ -1,5 +1,6 @@
 +++
 title = "Fragmentation - 단편화"
+date = "2026-03-14"
 weight = 834
 +++
 
@@ -110,6 +111,6 @@ Fragmentation은 큰 패킷을 작은 조각으로 나눕니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [MTU](./xxx_mtu.md)
-- [IP](./xxx_ip.md)
-- [Reassembly](./xxx_reassembly.md)
+- MTU
+- IP
+- Reassembly

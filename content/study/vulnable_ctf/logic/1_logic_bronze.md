@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Business Logic 🥉 Bronze"
-description = "LUXORA 플랫폼의 기본 Business Logic Flaw를 이용한 수량 음수 입력(Negative Quantity) 및 환불 버그 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Business Logic", "Bronze", "Negative Quantity", "Write-up"]
@@ -128,4 +127,3 @@ if (isNaN(qty) || qty <= 0) {
 if (cart.total <= 0) {
     return res.status(400).send("Checkout total cannot be zero or negative.");
 }
-```

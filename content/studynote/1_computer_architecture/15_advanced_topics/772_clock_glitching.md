@@ -1,5 +1,6 @@
 +++
 title = "clock glitching"
+date = "2026-03-14"
 weight = 772
 +++
 
@@ -140,10 +141,10 @@ weight = 772
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [볼티지 글리칭 (Voltage Glitching)](./771_voltage_glitching.md)
-- [EMFI (Electromagnetic Fault Injection)](./773_emfi.md)
-- [부채널 공격](./774_cache_timing.md)
-- [보안 부팅](./776_secure_boot.md)
+- 볼티지 글리칭 (Voltage Glitching)
+- EMFI (Electromagnetic Fault Injection)
+- 부채널 공격
+- 보안 부팅
 
 ---
 

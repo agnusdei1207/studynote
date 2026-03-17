@@ -1,7 +1,8 @@
----
-title: "가용성 (Availability)"
-weight: 452
----
++++
+title = "가용성 (Availability)"
+date = "2026-03-14"
+weight = 452
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 가용성 (Availability)은 시스템이 주어진 기간 동안 의도된 기능을 실제로 수행할 수 있는 상태에 있는 시간의 비율로, MTBF (평균 무고장 시간)와 MTTR (평균 수리 시간)의 상관관계로 결정되는 서비스 연속성 지표다.
@@ -151,10 +152,10 @@ $$Availability (A) = \frac{MTBF}{MTBF + MTTR} \times 100 (\%)$$
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[RAS (Reliability, Availability, Serviceability)](./449_ras.md)**: 가용성이 포함된 전체 품질 체계.
-- **[MTBF/MTTR](./450_mtbf.md)**: 가용성을 계산하는 기초 재료.
-- **[고장 허용 시스템 (Fault Tolerance)](./453_fault_tolerance.md)**: 고가용성을 실현하는 기술적 방법론.
-- **[Dual Redundancy](./456_dual_redundancy.md)**: 가용성 확보를 위한 대표적 설계 기법.
+- **RAS (Reliability, Availability, Serviceability)**: 가용성이 포함된 전체 품질 체계.
+- **MTBF/MTTR**: 가용성을 계산하는 기초 재료.
+- **고장 허용 시스템 (Fault Tolerance)**: 고가용성을 실현하는 기술적 방법론.
+- **Dual Redundancy**: 가용성 확보를 위한 대표적 설계 기법.
 
 ---
 

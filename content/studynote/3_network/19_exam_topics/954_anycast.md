@@ -1,5 +1,6 @@
 +++
 title = "Anycast - 애니캐스트"
+date = "2026-03-14"
 weight = 954
 +++
 
@@ -106,6 +107,6 @@ Anycast는 가장 가까운 서버로 전달합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Unicast](./951_unicast.md)
-- [BGP](./908_bgp.md)
-- [CDN](./xxx_cdn.md)
+- Unicast
+- BGP
+- CDN

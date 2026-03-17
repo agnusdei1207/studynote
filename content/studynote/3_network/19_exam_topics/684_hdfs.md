@@ -1,5 +1,6 @@
 +++
 title = "HDFS (Hadoop Distributed File System) - HDFS"
+date = "2026-03-14"
 weight = 684
 +++
 
@@ -103,6 +104,6 @@ HDFS는 대용량 파일을 분산 저장합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Hadoop](./683_hadoop.md)
-- [MapReduce](./682_mapreduce.md)
-- [Block Storage](./686_block_storage.md)
+- Hadoop
+- MapReduce
+- Block Storage

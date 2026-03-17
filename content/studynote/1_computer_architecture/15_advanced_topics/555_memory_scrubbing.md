@@ -1,6 +1,7 @@
 +++
-weight = 555
 title = "555. 메모리 스크러빙 (Memory Scrubbing)"
+date = "2026-03-14"
+weight = 555
 +++
 
 # 메모리 스크러빙 (Memory Scrubbing)
@@ -149,10 +150,10 @@ Patrol Scrubbing은 메모리 컨트롤러 내의 하드웨어 엔진에 의해 
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[오류 정정 부호 (ECC) 회로](./554_ecc_circuit.md)**: 스크러빙의 핵심 연산 엔진.
-- **[소프트 에러 (Soft Error)](./556_soft_error_recovery.md)**: 스크러빙이 제거하고자 하는 근본적인 적.
-- **[RAS (Reliability, Availability, Serviceability)](./xx_ras.md)**: 스크러빙이 속한 고신뢰성 컴퓨팅 기술 범주.
-- **[페이지 리타이어먼트 (Page Retirement)](./xx_page_retirement.md)**: 스크러빙 결과 오류가 너무 잦은 영역을 영구 격리하는 후속 조치.
+- **오류 정정 부호 (ECC) 회로**: 스크러빙의 핵심 연산 엔진.
+- **소프트 에러 (Soft Error)**: 스크러빙이 제거하고자 하는 근본적인 적.
+- **RAS (Reliability, Availability, Serviceability)**: 스크러빙이 속한 고신뢰성 컴퓨팅 기술 범주.
+- **페이지 리타이어먼트 (Page Retirement)**: 스크러빙 결과 오류가 너무 잦은 영역을 영구 격리하는 후속 조치.
 
 ---
 

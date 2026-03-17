@@ -1,5 +1,6 @@
 +++
 title = "스몰 셀 - Small Cell"
+date = "2026-03-14"
 weight = 463
 +++
 
@@ -139,10 +140,10 @@ weight = 463
 ---
 
 ### 📌 관련 개념 링크**:
-- [HetNet](./465_hetnet.md)
-- [DAS](./464_das.md)
-- [5G](./459_5g_networking.md)
-- [핸드오버](./466_handover.md)
+- HetNet
+- DAS
+- 5G
+- 핸드오버
 
 ---
 

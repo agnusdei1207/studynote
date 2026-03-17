@@ -1,5 +1,6 @@
 +++
 title = "빔포밍 - Beamforming"
+date = "2026-03-14"
 weight = 462
 +++
 
@@ -141,10 +142,10 @@ weight = 462
 ---
 
 ### 📌 관련 개념 링크**:
-- [MIMO](./461_mimo.md)
-- [Wi-Fi 6](./460_wifi6.md)
-- [5G](./459_5g_networking.md)
-- [안테나](./463_antenna.md)
+- MIMO
+- Wi-Fi 6
+- 5G
+- 안테나
 
 ---
 

@@ -11,7 +11,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 데드락 (Deadlock)은 시스템을 중단시키는 치명적인 결함이며, 락 순서화는 복잡한 상호작용이 발생하는 대규모 커널이나 서버 소프트웨어에서 동기화의 안전성을 보장하는 가장 확실하고 실용적인 설계 가이드라인을 제공한다.
 > 3. **융합**: 운영체제 커널의 락 검증 도구인 `lockdep` (Linux), 데이터베이스의 계층적 잠금 프로토콜, 그리고 세큐어 코딩 (Secure Coding)의 자원 관리 원칙과 깊이 통합된다.
 
----
++++
 
 ### Ⅰ. 개요 (Context & Background)
 
@@ -25,7 +25,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 마치 일방통행 도로를 만들어 마주 오는 차들이 서로 비켜주지 못해 꽉 막히는 상황(데드락)을 원천 차단하는 교통 규칙과 같습니다.
 
----
++++
 
 ### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -39,7 +39,7 @@ categories = "studynote-operating-system"
 | **역순 해제 (Release Order)** | 안정성 확보 | (권장) 획득한 순서의 반대로 해제하여 스택 구조 유지 | 내려올 때의 순서 |
 | **검증 도구 (Validator)** | 규칙 감시 | 런타임에 순서 위반을 감시하고 경고 발생 (ex: lockdep) | 교통경찰 |
 
----
++++
 
 ### 순환 대기 제거 및 데드락 방지 메커니즘
 
@@ -71,7 +71,7 @@ categories = "studynote-operating-system"
 
 **[다이어그램 해설]** 락 순서화를 적용하면 모든 스레드가 동일한 방향으로 자원을 요청하게 된다. Thread B가 2번 락을 필요로 하더라도, 규칙에 따라 1번 락을 먼저 시도해야 한다. 이때 1번은 Thread A가 이미 점유 중이므로 Thread B는 1번에서 대기하게 되고, 2번 락은 여전히 자유로운 상태로 남는다. 결국 Thread A는 2번을 획득하여 작업을 마치고 1번을 해제할 수 있으며, 이어서 Thread B가 진행된다.
 
----
++++
 
 ### 리눅스 커널의 `lockdep` 검증 원리
 
@@ -84,7 +84,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 도서관에서 책을 빌릴 때 반드시 "가나다" 순서로만 빌려야 한다고 정해두면, 서로 다른 사람이 책을 교차해서 들고 있어 생기는 갈등을 막을 수 있는 것과 같습니다.
 
----
++++
 
 ### Ⅲ. 융합 비교 및 다각도 분석
 
@@ -104,7 +104,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 범죄 예방을 위해 길목에 CCTV를 다는 것(계층 구조)이, 범죄가 일어난 후 범인을 잡으러 다니는 것(탐지 및 복구)보다 훨씬 효율적인 것과 같습니다.
 
----
++++
 
 ### Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -124,7 +124,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 군대에서 지휘 계통(계층)이 명확해야 혼선이 없는 것처럼, 소프트웨어에서도 락의 계급을 정해주어야 질서가 유지됩니다.
 
----
++++
 
 ### Ⅴ. 기대효과 및 결론
 
@@ -141,16 +141,16 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 아주 정교한 시계 태엽들이 서로 엉키지 않고 돌아가도록 설계 도면(계층 구조)을 미리 완벽하게 그리는 것과 같습니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[교착 상태 4가지 조건 (Deadlock Conditions)](./282_deadlock_4_conditions.md)**: 상호배제, 점유대기, 비선점, 순환대기.
-- **[순환 대기 (Circular Wait)](./286_circular_wait.md)**: 락 계층 구조가 직접적으로 파괴하는 타겟 조건.
-- **[은행원 알고리즘 (Banker's Algorithm)](./301_bankers_algorithm.md)**: 실행 시점의 데드락 회피 기술.
-- **[lockdep (Linux Kernel Tool)](./316_lock_ordering_tool_lockdep.md)**: 락 순서 위반을 실시간으로 감시하는 커널 모듈.
-- **[우선순위 역전 (Priority Inversion)](./242_priority_inversion.md)**: 락 순서와 무관하게 발생하는 스케줄링 장애.
+- **교착 상태 4가지 조건 (Deadlock Conditions)**: 상호배제, 점유대기, 비선점, 순환대기.
+- **순환 대기 (Circular Wait)**: 락 계층 구조가 직접적으로 파괴하는 타겟 조건.
+- **은행원 알고리즘 (Banker's Algorithm)**: 실행 시점의 데드락 회피 기술.
+- **lockdep (Linux Kernel Tool)**: 락 순서 위반을 실시간으로 감시하는 커널 모듈.
+- **우선순위 역전 (Priority Inversion)**: 락 순서와 무관하게 발생하는 스케줄링 장애.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 락 계층 구조는 장난감 여러 개를 가지고 놀 때, 무조건 **"1번 로봇 → 2번 자동차 → 3번 비행기"** 순서로만 집어야 한다는 규칙이에요.

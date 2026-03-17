@@ -1,7 +1,7 @@
 +++
-weight = 354
 title = "354. PTBR (Page-Table Base Register) / PTLR (Page-Table Length Register)"
 date = "2024-05-23"
+weight = 354
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "PTBR", "PTLR", "Page-Table Base Register", "Page-Table Length Register", "문맥 교환", "주소 변환"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "PTBR", "PTLR", "Page-Table Base Register", "Page-Ta
 > 2. **가치**: 프로세스마다 고유한 페이지 테이블을 메모리의 임의 위치에 보관할 수 있게 하며, 문맥 교환(Context Switch) 시 이 레지스터 값만 변경함으로써 주소 공간을 빠르게 전환한다.
 > 3. **안전성**: PTLR은 프로세스가 자신의 허용된 주소 범위를 벗어나 메모리에 접근하려 할 때 이를 차단하는 경계값 역할을 수행한다.
 
----
++++
 
 ## Ⅰ. PTBR 및 PTLR의 정의 및 개요
 
@@ -31,7 +31,7 @@ keywords = ["운영체제", "PTBR", "PTLR", "Page-Table Base Register", "Page-Ta
 
 - **📢 섹션 요약 비유**: "거대한 도서관(메모리)에서 지금 내가 읽고 있는 책의 '목차(페이지 테이블)'가 어디에 있는지 알려주는 '손가락(PTBR)'과 그 목차가 몇 페이지까지인지 알려주는 '표시선(PTLR)'입니다."
 
----
++++
 
 ## Ⅱ. 작동 메커니즘 및 ASCII 다이어그램
 
@@ -63,7 +63,7 @@ keywords = ["운영체제", "PTBR", "PTLR", "Page-Table Base Register", "Page-Ta
 
 - **📢 섹션 요약 비유**: "작업자가 바뀔 때마다 각자의 '작업 매뉴얼 주소'를 작업대 위의 전광판(레지스터)에 새로 띄우는 것과 같습니다."
 
----
++++
 
 ## Ⅲ. 기술적 특징 및 보안상 의의
 
@@ -78,7 +78,7 @@ keywords = ["운영체제", "PTBR", "PTLR", "Page-Table Base Register", "Page-Ta
 
 - **📢 섹션 요약 비유**: "자기 구역을 벗어나지 못하게 막는 '투명 울타리(PTLR)'와 언제든 내 짐을 찾을 수 있게 하는 '위치 추적기(PTBR)'의 조합입니다."
 
----
++++
 
 ## Ⅳ. 현대적 구현 및 대안 전략 (Strategy)
 
@@ -90,7 +90,7 @@ keywords = ["운영체제", "PTBR", "PTLR", "Page-Table Base Register", "Page-Ta
 
 - **📢 섹션 요약 비유**: "지도를 매번 펼쳐보기 힘들어서 자주 보는 길은 외워버리되(TLB), 기억이 안 날 때만 전광판(PTBR)이 가리키는 지도를 다시 펼쳐보는 방식입니다."
 
----
++++
 
 ## Ⅴ. 결론 및 요약
 
@@ -102,15 +102,15 @@ keywords = ["운영체제", "PTBR", "PTLR", "Page-Table Base Register", "Page-Ta
 
 - **📢 섹션 요약 비유**: "복잡한 도시의 지도를 다 들고 다닐 수는 없지만, 지도가 있는 위치와 그 지도의 크기만 알고 있으면 어디든 갈 수 있다는 효율의 극치입니다."
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[페이지 테이블 (Page Table)](./353_page_table.md)**: PTBR이 가리키는 실체.
-- **[문맥 교환 (Context Switch)](./112_context_switch.md)**: PTBR/PTLR 값이 바뀌는 시점.
-- **[TLB (Translation Look-aside Buffer)](./357_tlb.md)**: PTBR 참조 횟수를 줄여주는 하드웨어 가속기.
-- **[세그먼테이션 (Segmentation)](./352_segmentation.md)**: 유사하게 STBR/STLR 레지스터를 사용함.
+- **페이지 테이블 (Page Table)**: PTBR이 가리키는 실체.
+- **문맥 교환 (Context Switch)**: PTBR/PTLR 값이 바뀌는 시점.
+- **TLB (Translation Look-aside Buffer)**: PTBR 참조 횟수를 줄여주는 하드웨어 가속기.
+- **세그먼테이션 (Segmentation)**: 유사하게 STBR/STLR 레지스터를 사용함.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 학교에서 선생님이 "오늘 공부할 책은 3번 서랍에 있어"라고 알려주는 주소가 **PTBR**이에요.

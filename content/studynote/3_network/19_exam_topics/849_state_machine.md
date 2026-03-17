@@ -1,5 +1,6 @@
 +++
 title = "State Machine - 상태 머신"
+date = "2026-03-14"
 weight = 849
 +++
 
@@ -121,6 +122,6 @@ State Machine은 상태와 전이로 동작을 모델링합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./552_tcp.md)
-- [Connection](./844_connection.md)
-- [Protocol](./831_protocol.md)
+- TCP
+- Connection
+- Protocol

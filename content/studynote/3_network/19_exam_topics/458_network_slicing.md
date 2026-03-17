@@ -1,5 +1,6 @@
 +++
 title = "네트워크 슬라이싱 - Network Slicing"
+date = "2026-03-14"
 weight = 458
 +++
 
@@ -138,10 +139,10 @@ weight = 458
 ---
 
 ### 📌 관련 개념 링크**:
-- [5G 네트워킹](./459_5g_networking.md)
-- [SDN](./440_sdn.md)
-- [NFV](./441_nfv.md)
-- [QoS](./329_qos.md)
+- 5G 네트워킹
+- SDN
+- NFV
+- QoS
 
 ---
 

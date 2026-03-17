@@ -1,6 +1,7 @@
 +++
-weight = 387
 title = "387. 페이지 부재 (Page Fault)"
+date = "2026-03-14"
+weight = 387
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -118,4 +119,3 @@ graph TD
     TR --> OS[OS Page Fault Handler]
     OS --> IOR[I/O Request]
     IOR --> RE[Restart Instruction]
-```

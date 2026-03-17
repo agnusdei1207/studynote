@@ -1,5 +1,6 @@
 +++
 title = "Indexing - 인덱싱"
+date = "2026-03-14"
 weight = 793
 +++
 
@@ -104,6 +105,6 @@ Indexing은 빠른 검색을 위한 자료구조입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Database](./xxx_database.md)
-- [Query Optimization](./xxx_query_optimization.md)
-- [B-Tree](./xxx_btree.md)
+- Database
+- Query Optimization
+- B-Tree

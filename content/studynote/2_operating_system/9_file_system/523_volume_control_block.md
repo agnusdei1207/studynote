@@ -1,3 +1,9 @@
++++
+title = "523. 볼륨 제어 블록 (Volume Control Block) / 수퍼 블록"
+date = "2026-03-14"
+[extra]
++++
+
 # 523. 볼륨 제어 블록 (Volume Control Block) / 수퍼 블록
 
 ## 핵심 인사이트 (3줄 요약)

@@ -1,5 +1,6 @@
 +++
 title = "Istio - 이스티오"
+date = "2026-03-14"
 weight = 727
 +++
 
@@ -98,6 +99,6 @@ Istio는 서비스 메시 플랫폼입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Service Mesh](./726_service_mesh.md)
-- [Kubernetes](./619_kubernetes.md)
-- [Envoy](./728_envoy.md)
+- Service Mesh
+- Kubernetes
+- Envoy

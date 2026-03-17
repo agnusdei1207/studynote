@@ -1,5 +1,6 @@
 +++
 title = "Auto-MDIX (크로스 케이블 자동 인식)"
+date = "2026-03-14"
 weight = 143
 +++
 
@@ -151,10 +152,10 @@ Auto-MDIX(Automatic Medium Dependent Interface Crossover)는 연결된 케이블
 ---
 
 ### 📌 관련 개념 링크**:
-- [MDI/MDI-X](./142_mdi.md)
-- [케이블 배선](./144_cable_wiring.md)
-- [Auto-Negotiation](./137_ethernet_phy.md)
-- [1000BASE-T](./139_1000base.md)
+- MDI/MDI-X
+- 케이블 배선
+- Auto-Negotiation
+- 1000BASE-T
 
 ---
 

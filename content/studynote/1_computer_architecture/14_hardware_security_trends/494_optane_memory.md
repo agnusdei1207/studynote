@@ -1,7 +1,8 @@
----
-title: "옵테인 메모리 (3D XPoint)"
-weight: 494
----
++++
+title = "옵테인 메모리 (3D XPoint)"
+date = "2026-03-14"
+weight = 494
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 옵테인 메모리 (Optane Memory)는 인텔과 마이크론이 공동 개발한 '3D XPoint' 기술을 기반으로 한 차세대 비휘발성 메모리(SCM) 브랜드이다.
@@ -123,9 +124,9 @@ weight: 494
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[SCM (Storage Class Memory)](./493_scm.md)**: 옵테인이 속한 차세대 메모리 상위 개념.
-- **[CXL (Compute Express Link)](../9_system_bus_interconnects/905_cxl.md)**: 옵테인의 바통을 이어받은 차세대 인터페이스.
-- **[NAND Flash](../8_io_storage_systems/802_nand_flash.md)**: 옵테인이 대체하려 했던 기존 저장 기술.
+- **SCM (Storage Class Memory)**: 옵테인이 속한 차세대 메모리 상위 개념.
+- **CXL (Compute Express Link)**: 옵테인의 바통을 이어받은 차세대 인터페이스.
+- **NAND Flash**: 옵테인이 대체하려 했던 기존 저장 기술.
 
 ---
 

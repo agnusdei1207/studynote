@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Race Condition 🥈 Silver"
-description = "LUXORA 플랫폼의 Silver 난이도 Race Condition 공략 - Limit Exceeding (한도 초과) 이체 버그 상세 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Race Condition", "Silver", "Limit Bypass", "Write-up"]

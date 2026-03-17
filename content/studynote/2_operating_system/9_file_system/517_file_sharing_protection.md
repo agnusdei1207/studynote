@@ -1,7 +1,8 @@
----
-weight = 517
++++
 title = "517. 파일 공유 (File Sharing)와 보호"
----
+date = "2026-03-14"
+weight = 517
++++
 
 # 517. 파일 공유 (File Sharing)와 보호
 

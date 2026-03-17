@@ -1,7 +1,7 @@
 +++
-weight = 659
 title = "659. 파일 시스템(File System) 아키텍처 비교 요약"
 date = "2024-05-23"
+weight = 659
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "File System", "Inode", "FAT", "NTFS", "VFS"]
@@ -12,7 +12,7 @@ keywords = ["운영체제", "File System", "Inode", "FAT", "NTFS", "VFS"]
 > 각 파일 시스템 아키텍처는 공간 효율성, 접근 속도, 안정성(복구 성능) 측면에서 서로 다른 설계 철학을 가지고 발달해 왔다.
 > 현대 OS는 VFS(Virtual File System)를 통해 서로 다른 파일 시스템을 단일한 인터페이스로 통합 관리하며, 저널링(Journaling) 등의 기술을 통해 데이터 무결성을 보장한다.
 
----
++++
 
 ### Ⅰ. 파일 시스템의 계층적 구조와 추상화
 
@@ -25,7 +25,7 @@ keywords = ["운영체제", "File System", "Inode", "FAT", "NTFS", "VFS"]
 
 📢 섹션 요약 비유: VFS는 '어떤 종류의 식재료(File System)'든 똑같이 생긴 '칼과 도마(API)'로 손질할 수 있게 해주는 주방의 표준화된 작업 환경과 같습니다.
 
----
++++
 
 ### Ⅱ. 파일 할당 및 인덱싱 아키텍처
 
@@ -50,7 +50,7 @@ keywords = ["운영체제", "File System", "Inode", "FAT", "NTFS", "VFS"]
 
 📢 섹션 요약 비유: FAT는 책 맨 뒤의 '찾아보기 표'와 같고, Inode는 각 단원 첫 페이지에 있는 '세부 목차'와 같습니다.
 
----
++++
 
 ### Ⅲ. 주요 파일 시스템 비교 분석
 
@@ -72,7 +72,7 @@ keywords = ["운영체제", "File System", "Inode", "FAT", "NTFS", "VFS"]
 
 📢 섹션 요약 비유: FAT32는 누구나 쓸 수 있는 '종이 메모장'이고, NTFS는 비밀번호와 일기가 적힌 '전자 수첩'과 같습니다.
 
----
++++
 
 ### Ⅳ. 디스크 공간 관리 및 무결성 보장
 
@@ -85,7 +85,7 @@ keywords = ["운영체제", "File System", "Inode", "FAT", "NTFS", "VFS"]
 
 📢 섹션 요약 비유: 요리하기 전에 '오늘 할 일 목록(Journal)'을 미리 적어두면, 갑자기 정전이 되어도 어디까지 했는지 바로 알 수 있는 것과 같습니다.
 
----
++++
 
 ### Ⅴ. 파일 시스템 성능 최적화 기술
 
@@ -98,7 +98,7 @@ keywords = ["운영체제", "File System", "Inode", "FAT", "NTFS", "VFS"]
 
 📢 섹션 요약 비유: 자주 쓰는 양념을 조리대 위에 꺼내두는 것(Cache)이 창고에 매번 가는 것보다 훨씬 빠른 것과 같습니다.
 
----
++++
 
 ### 💡 지식 그래프(Knowledge Graph)
 - **부모 노드**: 운영체제 입출력 시스템(OS I/O System)

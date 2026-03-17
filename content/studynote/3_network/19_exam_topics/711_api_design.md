@@ -1,5 +1,6 @@
 +++
 title = "API Design - API 설계"
+date = "2026-03-14"
 weight = 711
 +++
 
@@ -98,6 +99,6 @@ API Design은 API 인터페이스를 설계합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [REST API](./614_rest_api.md)
-- [GraphQL](./615_graphql.md)
-- [gRPC](./613_grpc.md)
+- REST API
+- GraphQL
+- gRPC

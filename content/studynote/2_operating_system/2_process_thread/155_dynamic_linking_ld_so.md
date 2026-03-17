@@ -1,6 +1,7 @@
 +++
-weight = 155
 title = "155. 동적 링킹 프로세스 (ld.so)"
+date = "2026-03-14"
+weight = 155
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -140,10 +141,10 @@ title = "155. 동적 링킹 프로세스 (ld.so)"
 ---
 
 ### 📌 관련 개념 맵
-- **[ELF 파일 형식 (ELF Format)](./xx_elf_format.md)**: 동적 링킹 정보를 담는 그릇.
-- **[가상 메모리 공유 (Shared Memory)](./118_shared_memory.md)**: 동적 링킹의 물리적 성능 근거.
-- **[ASLR (Address Space Layout Randomization)](../9_security/xx_aslr.md)**: 동적 링킹을 이용한 보안 강화 기술.
-- **[환경 변수 (LD_LIBRARY_PATH)](./156_environment_variable_inheritance.md)**: 동적 링커의 행동을 제어하는 설정.
+- **ELF 파일 형식 (ELF Format)**: 동적 링킹 정보를 담는 그릇.
+- **가상 메모리 공유 (Shared Memory)**: 동적 링킹의 물리적 성능 근거.
+- **ASLR (Address Space Layout Randomization)**: 동적 링킹을 이용한 보안 강화 기술.
+- **환경 변수 (LD_LIBRARY_PATH)**: 동적 링커의 행동을 제어하는 설정.
 
 ---
 

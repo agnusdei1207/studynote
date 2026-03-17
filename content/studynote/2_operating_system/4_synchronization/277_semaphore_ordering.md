@@ -11,7 +11,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 병렬 시스템에서 데이터 일관성을 유지하기 위해 실행 순서(Serialization)는 필수적이며, 세마포어 기반 순서 제어는 복잡한 이벤트 의존성 관계를 단순한 카운팅 변수로 해결할 수 있는 신뢰성 높은 매커니즘을 제공한다.
 > 3. **융합**: 파이프라인 아키텍처, 생산자-소비자 모델, 분산 시스템의 배리어 (Barrier) 동기화, 그리고 하드웨어 인터럽트 처리의 상반부/하반부 동기화와 깊이 연관된다.
 
----
++++
 
 ### Ⅰ. 개요 (Context & Background)
 
@@ -25,7 +25,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 마치 요리사가 재료 손질을 끝내고 종을 울리면, 대기하던 보조 요리사가 비로소 불을 켜는 주방의 협업 규칙과 같습니다.
 
----
++++
 
 ### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -40,7 +40,7 @@ categories = "studynote-operating-system"
 | **3. 완료/신호** | 작업 완료 후 `signal(S)` | (대기 중) | S = 1 (B를 깨움) |
 | **4. 후행 시작** | (다음 작업 진행) | `wait(S)` 통과 후 작업 시작 | S = 0 (B 진행) |
 
----
++++
 
 ### 프로세스 간 순서 제어 다이어그램
 
@@ -69,7 +69,7 @@ categories = "studynote-operating-system"
 
 **[다이어그램 해설]** $P_1$은 작업을 마친 후 `signal(synch)`를 통해 세마포어 값을 1로 올린다. 만약 $P_2$가 이미 `wait(synch)`에서 잠들어 있었다면 커널에 의해 깨어나게 되고, 아직 도달하지 않았다면 나중에 도착했을 때 기다림 없이 즉시 통과하게 된다. 이 매커니즘은 두 프로세스의 상대적인 실행 속도와 무관하게 항상 $S_1 \rightarrow S_2$의 순서를 보장한다.
 
----
++++
 
 ### 다중 프로세스 순차 제어 (Rendezvous)
 
@@ -98,7 +98,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 두 친구가 각자 집에서 출발하여(Work), 약속 장소에 도착했다는 전화(Signal)를 하고, 상대방의 전화(Wait)를 받아야만 같이 영화관(Critical)으로 들어가는 것과 같습니다.
 
----
++++
 
 ### Ⅲ. 융합 비교 및 다각도 분석
 
@@ -119,7 +119,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 열쇠를 돌려 문을 잠그는 것(상호 배제)과 앞 사람이 문을 열어줄 때까지 밖에서 기다리는 것(순서 제어)의 차이와 같습니다.
 
----
++++
 
 ### Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -139,7 +139,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 기차가 출발하기 전에 반드시 선로 점검(선행 작업)이 끝났다는 신호(Signal)를 받아야 사고(오동작)가 나지 않는 것과 같습니다.
 
----
++++
 
 ### Ⅴ. 기대효과 및 결론
 
@@ -156,16 +156,16 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 복잡한 오케스트라가 지휘자의 손짓(Signal)에 맞춰 각자의 악기를 연주하며 아름다운 화음(시스템 결과물)을 만들어내는 것과 같습니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[세마포어 (Semaphore)](./234_semaphore.md)**: 기본 정의와 P, V 연산 원리.
-- **[이진 세마포어 (Binary Semaphore)](./235_binary_semaphore.md)**: 값이 0과 1만 가지는 특수 케이스.
-- **[조건 변수 (Condition Variable)](./239_condition_variable.md)**: 세마포어보다 정교한 이벤트 대기 매커니즘.
-- **[생산자-소비자 문제 (Producer-Consumer)](./246_bounded_buffer.md)**: 순서 제어가 가장 활발히 쓰이는 고전적 문제.
-- **[배리어 동기화 (Barrier Synchronization)](./261_barrier_synchronization.md)**: 다수 프로세스의 동시 순서 맞춤 기술.
+- **세마포어 (Semaphore)**: 기본 정의와 P, V 연산 원리.
+- **이진 세마포어 (Binary Semaphore)**: 값이 0과 1만 가지는 특수 케이스.
+- **조건 변수 (Condition Variable)**: 세마포어보다 정교한 이벤트 대기 매커니즘.
+- **생산자-소비자 문제 (Producer-Consumer)**: 순서 제어가 가장 활발히 쓰이는 고전적 문제.
+- **배리어 동기화 (Barrier Synchronization)**: 다수 프로세스의 동시 순서 맞춤 기술.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 세마포어 순서 제어는 엄마가 **"동생이 밥 다 먹으면(선행 작업) 그때 간식 줄게(후행 작업)"**라고 약속하는 것과 같아요.

@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Header Injection 🥈 Silver"
-description = "LUXORA 플랫폼의 Silver 난이도 Header Injection을 이용한 인증 우회 및 IP Spoofing 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Header Injection", "Silver", "IP Spoofing", "Write-up"]

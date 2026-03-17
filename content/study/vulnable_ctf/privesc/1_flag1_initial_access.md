@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Initial Access (Flag 1)"
-description = "LUXORA 플랫폼의 파일 업로드 취약점을 이용한 초기 쉘 획득(Initial Access) 상세 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "File Upload", "Initial Access", "Reverse Shell", "Write-up"]

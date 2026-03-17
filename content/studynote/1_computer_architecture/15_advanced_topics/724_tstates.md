@@ -1,5 +1,6 @@
 +++
 title = "tstates"
+date = "2026-03-14"
 weight = 724
 +++
 
@@ -367,10 +368,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [P-States](./723_pstates.md) - 성능 상태
-- [PROCHOT#](./720_prochot.md) - 프로세서 핫 신호
-- [CPU Downclocking](./719_cpu_downclocking.md) - 다운클럭킹
-- [ACPI S-States](./725_acpi_sstates.md) - 시스템 절전
+- P-States - 성능 상태
+- PROCHOT# - 프로세서 핫 신호
+- CPU Downclocking - 다운클럭킹
+- ACPI S-States - 시스템 절전
 
 ---
 

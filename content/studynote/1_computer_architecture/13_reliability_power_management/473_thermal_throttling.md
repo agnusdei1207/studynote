@@ -1,6 +1,7 @@
 +++
-weight = 473
 title = "473. 서멀 스로틀링 (Thermal Throttling)"
+date = "2026-03-14"
+weight = 473
 +++
 
 # 473. 서멀 스로틀링 (Thermal Throttling)

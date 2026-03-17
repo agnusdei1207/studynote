@@ -1,7 +1,6 @@
 +++
 title = "132. 조인 연산의 종류 - Inner, Outer, Cross, Self Join"
 date = "2026-03-16"
-draft = false
 weight = 132
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["Join", "조인", "Inner Join", "Outer Join", "Cross Join", "Self Jo
 > 2. **다양성**: 교집합 데이터만 추출하는 **Inner Join**, 한쪽이나 양쪽의 데이터를 보존하는 **Outer Join**, 모든 조합을 생성하는 **Cross Join**, 그리고 계층 구조 표현을 위한 **Self Join** 등으로 세분화된다.
 > 3. **가치**: 데이터 정규화로 분리된 정보들을 비즈니스 관점에서 다시 조립하여 가치 있는 지식으로 변환하며, 쿼리 성능 최적화(Optimizer)의 가장 중요한 핵심 대상이 된다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -47,7 +46,7 @@ keywords = ["Join", "조인", "Inner Join", "Outer Join", "Cross Join", "Self Jo
 
 - **📢 섹션 요약 비유**: 조인은 데이터베이스라는 대륙을 이어주는 '거대한 교량 건설 사업'과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -89,7 +88,7 @@ keywords = ["Join", "조인", "Inner Join", "Outer Join", "Cross Join", "Self Jo
 
 - **📢 섹션 요약 비유**: 조인 조건은 '두 사람을 이어주는 중매 조건'과 같아서, 조건이 까다로울수록(PK-FK) 결과는 정확해집니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -108,7 +107,7 @@ keywords = ["Join", "조인", "Inner Join", "Outer Join", "Cross Join", "Self Jo
 
 - **📢 섹션 요약 비유**: Inner Join이 '찐팬들의 모임'이라면, Outer Join은 '모든 팬을 일단 모으되 응원봉이 없는 사람도 끼워주는 축제'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -127,7 +126,7 @@ keywords = ["Join", "조인", "Inner Join", "Outer Join", "Cross Join", "Self Jo
 
 - **📢 섹션 요약 비유**: 조건 없는 조인은 '눈 가리고 퍼즐 맞추기'와 같아, 아무 조각이나 억지로 끼워 맞춰 전체 그림(데이터 가치)을 망치게 됩니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -145,15 +144,15 @@ keywords = ["Join", "조인", "Inner Join", "Outer Join", "Cross Join", "Self Jo
 
 - **📢 섹션 요약 비유**: 미래에는 수조 개의 데이터들이 실시간으로 서로의 짝을 찾아 연결되는 '자율 주행 조인' 시스템이 모든 지능형 서비스의 엔진이 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[관계형 데이터 모델](./61_relation_definition.md)**: 조인이 탄생한 이론적 배경.
-- **[내부 조인 (Inner Join)](./133_inner_join.md)**: 가장 기본이 되는 조인.
-- **[외부 조인 (Outer Join)](./136_outer_join.md)**: 정보의 손실을 막는 조인.
-- **[조인 기법 (NL, Hash, Merge)](./171_optimizer_join_techniques.md)**: 조인의 물리적 실체.
+- **관계형 데이터 모델**: 조인이 탄생한 이론적 배경.
+- **내부 조인 (Inner Join)**: 가장 기본이 되는 조인.
+- **외부 조인 (Outer Join)**: 정보의 손실을 막는 조인.
+- **조인 기법 (NL, Hash, Merge)**: 조인의 물리적 실체.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **조인**은 따로 떨어져 있던 **"두 장난감 세트를 하나로 합쳐서 노는 것"**과 같아요.

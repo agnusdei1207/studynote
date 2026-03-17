@@ -1,7 +1,7 @@
----
-title: "499. SQL 인젝션 방어 - Prepared Statement, ORM 프레임워크 사용"
-date: 2026-03-15
----
++++
+title = "499. SQL 인젝션 방어 - Prepared Statement, ORM 프레임워크 사용"
+date = "2026-03-15"
++++
 
 # 499. SQL 인젝션 방어 - Prepared Statement, ORM 프레임워크 사용
 
@@ -153,10 +153,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[SQL Injection](./480_injection.md)**: 방어해야 할 대상이 되는 치명적 취약점
-- **[MyBatis #{ } vs ${ }](./xx_mybatis_binding.md)**: 실무에서 가장 흔히 마주치는 바인딩 차이
-- **[ORM (Object-Relational Mapping)](./xx_orm.md)**: 보안을 내재화한 현대적 DB 접근 기술
-- **[Input Validation](./498_input_validation.md)**: 인젝션 방어를 위한 1차적 보조 수단
+- **SQL Injection**: 방어해야 할 대상이 되는 치명적 취약점
+- **MyBatis #{ } vs ${ }**: 실무에서 가장 흔히 마주치는 바인딩 차이
+- **ORM (Object-Relational Mapping)**: 보안을 내재화한 현대적 DB 접근 기술
+- **Input Validation**: 인젝션 방어를 위한 1차적 보조 수단
 
 ---
 

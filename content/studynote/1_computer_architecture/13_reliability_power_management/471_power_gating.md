@@ -1,6 +1,7 @@
 +++
-weight = 471
 title = "471. 전력 게이팅 (Power Gating)"
+date = "2026-03-14"
+weight = 471
 +++
 
 # 471. 전력 게이팅 (Power Gating)

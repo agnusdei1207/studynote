@@ -1,5 +1,6 @@
 +++
 title = "Zero Trust - 제로 트러스트"
+date = "2026-03-14"
 weight = 771
 +++
 
@@ -103,6 +104,6 @@ Zero Trust는 모든 접근을 검증합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [MFA](./770_mfa.md)
-- [Network Security](./xxx_network_security.md)
-- [Access Control](./xxx_access_control.md)
+- MFA
+- Network Security
+- Access Control

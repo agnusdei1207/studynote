@@ -1,7 +1,7 @@
 +++
-weight = 80
 title = "80. 시스템 호출 차단 (Seccomp)"
 date = "2026-03-12"
+weight = 80
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "Seccomp", "시스템 콜 차단", "커널 보안", "샌드박스", "공격 표면 축소"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "Seccomp", "시스템 콜 차단", "커널 보안", 
 > 2. **가치**: 웹 브라우저나 컨테이너와 같이 불신할 수 있는 코드를 실행해야 하는 환경에서, **제로데이(Zero-day) 커널 취약점**이 악용되더라도 시스템 호출 차단을 통해 호스트 시스템의 파급 방지(RCE, Remote Code Execution 방지) 및 권한 상승을 원천 봉쇄한다.
 > 3. **융합**: BPF (Berkeley Packet Filter) 기반의 유연한 필터링(Seccomp-BPF)을 통해 cgroups(Control Groups), 네임스페이스(Namespaces)와 결합하여 **컨테이너 보안의 핵심 방화벽** 역할을 수행하며, LSM (Linux Security Modules)과 연동하여 심층 방어(Defense in Depth)를 구현한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -55,7 +55,7 @@ keywords = ["운영체제", "Seccomp", "시스템 콜 차단", "커널 보안", 
 ### 5. 📢 섹션 요약 비유
 > **"복잡한 관공서의 모든 민원실을 열어두는 대신, 오직 '민원서류 접수' 창구 하나만 개방하고 나머지는 모두 철문으로 용접해 버리는 것과 같습니다. 직원(해커)이 아무리 다른 업무를 시도해도 문 자체가 없어 실행할 수 없습니다."**
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -162,7 +162,7 @@ void apply_seccomp_filter(void) {
 ### 5. 📢 섹션 요약 비유
 > **"고속도로 톨게이트에 스마트 요금소(Seccomp Filter)를 설치하여, 차량 번호(System Call)와 적재货物(Arguments)를 스캔합니다. 허용 목록에 없거나 위험 물질을 싣고 있는 차량은 진입 즉시 차량을 압수(Kill)하고 목록에 있는 차량만 통과(Allow)시키는 강력한 출입 통제 시스템입니다."**
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 

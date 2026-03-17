@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: NoSQL Injection 🥇 Gold"
-description = "LUXORA 플랫폼의 Server-Side JavaScript(SSJS) Injection을 이용한 NoSQL 데이터 탈취 상세 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "NoSQL Injection", "Gold", "SSJS", "Write-up"]

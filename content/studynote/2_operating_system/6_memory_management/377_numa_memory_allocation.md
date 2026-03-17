@@ -1,3 +1,8 @@
++++
+title = "Title"
+date = "2026-03-14"
+[extra]
++++
 
 ### Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -25,11 +30,11 @@ NUMA 아키텍처의 최적화된 적용은 시스템의 처리량과 응답 속
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
--   **[CPU Affinity](../OS/CPU_Affinity.md)**: 프로세스를 특정 코어에 묶는 기술로, NUMA 노드 고정의 선결 조건임.
--   **[Huge Page (HugeTLB)](../Kernel/HugePage.md)**: 대용량 메모리 페이지를 사용하여 **TLB (Translation Lookaside Buffer)** Miss를 줄이며, NUMA 노드 간의 페이지 이동 오버헤드를 감소시킴.
--   **[RDMA (Remote Direct Memory Access)](../Network/RDMA.md)**: 네트워크를 통해 원격 메모리에 직접 접근하는 기술로, NUMA의 개념을 네트워크 단위로 확장한 기술임.
--   **[Non-Uniform Memory Access (NUMA)](./NUMA_Architecture.md)**: (현재 문서)
--   **[Cache Coherence](../HW/Cache_Coherence.md)**: 다중 프로세서가 캐시 일관성을 유지하는 메커니즘(MESI 프로토콜 등)으로, NUMA 인터커넥트의 기반이 됨.
+-   **CPU Affinity**: 프로세스를 특정 코어에 묶는 기술로, NUMA 노드 고정의 선결 조건임.
+-   **Huge Page (HugeTLB)**: 대용량 메모리 페이지를 사용하여 **TLB (Translation Lookaside Buffer)** Miss를 줄이며, NUMA 노드 간의 페이지 이동 오버헤드를 감소시킴.
+-   **RDMA (Remote Direct Memory Access)**: 네트워크를 통해 원격 메모리에 직접 접근하는 기술로, NUMA의 개념을 네트워크 단위로 확장한 기술임.
+-   **Non-Uniform Memory Access (NUMA)**: (현재 문서)
+-   **Cache Coherence**: 다중 프로세서가 캐시 일관성을 유지하는 메커니즘(MESI 프로토콜 등)으로, NUMA 인터커넥트의 기반이 됨.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1.  **내 방 책상(Local Memory)**: 학교에서 내 책상에 있는 물건은 바로 꺼내 쓸 수 있는 것처럼, 컴퓨터도 자신이 가장 가까이에 있는 메모리를 제일 빨리 사용합니다.

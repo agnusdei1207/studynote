@@ -1,6 +1,6 @@
 +++
 title = "텐서 코어 (Tensor Core)"
-description = "NVIDIA GPU 내부에서 딥러닝 행렬 연산을 비약적으로 가속하기 위해 설계된 전용 연산 유닛"
+date = "2026-03-14"
 weight = 427
 +++
 
@@ -156,11 +156,11 @@ weight = 427
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[스트리밍 멀티프로세서 (SM)](./421_sm.md)**: 텐서 코어가 물리적으로 위치하는 상위 하드웨어 블록
-- **[CUDA (Compute Unified Device Architecture)](./420_cuda.md)**: 텐서 코어를 제어하는 프로그래밍 플랫폼
-- **[양자화 (Quantization)](./xx_quantization.md)**: 텐서 코어의 효율을 극대화하는 알고리즘 기술
-- **[HBM (High Bandwidth Memory)](../6_memory_hierarchy_cache/xx_hbm.md)**: 텐서 코어의 연산 속도를 뒷받침하는 고속 메모리
-- **[TF32 / bfloat16](./425_tpu.md)**: 텐서 코어가 지원하는 주요 AI 특화 수치 형식
+- **스트리밍 멀티프로세서 (SM)**: 텐서 코어가 물리적으로 위치하는 상위 하드웨어 블록
+- **CUDA (Compute Unified Device Architecture)**: 텐서 코어를 제어하는 프로그래밍 플랫폼
+- **양자화 (Quantization)**: 텐서 코어의 효율을 극대화하는 알고리즘 기술
+- **HBM (High Bandwidth Memory)**: 텐서 코어의 연산 속도를 뒷받침하는 고속 메모리
+- **TF32 / bfloat16**: 텐서 코어가 지원하는 주요 AI 특화 수치 형식
 
 ---
 

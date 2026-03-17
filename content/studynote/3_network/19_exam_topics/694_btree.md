@@ -1,5 +1,6 @@
 +++
 title = "B-Tree - B-트리"
+date = "2026-03-14"
 weight = 694
 +++
 
@@ -97,6 +98,6 @@ B-Tree는 자식이 여러 개인 균형 트리입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Indexing](./693_indexing.md)
-- [B+Tree](./695_bplustree.md)
-- [Database](./694_database.md)
+- Indexing
+- B+Tree
+- Database

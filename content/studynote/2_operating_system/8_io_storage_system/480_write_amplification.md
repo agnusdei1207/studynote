@@ -1,6 +1,7 @@
 +++
-weight = 480
 title = "480. 쓰기 증폭 (Write Amplification) 현상"
+date = "2026-03-14"
+weight = 480
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -110,9 +111,9 @@ title = "480. 쓰기 증폭 (Write Amplification) 현상"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[가비지 컬렉션 (GC)](./477_ssd_garbage_collection.md)**: 쓰기 증폭을 일으키는 가장 직접적인 원인 행위.
-- **[TRIM 명령어](./xx_trim.md)**: 무효 데이터를 제거하여 WAF를 낮추는 가장 효과적인 도구.
-- **[오버 프로비저닝 (OP)](./xx_over_provisioning.md)**: WAF 억제를 위해 미리 확보해둔 예비 공간.
+- **가비지 컬렉션 (GC)**: 쓰기 증폭을 일으키는 가장 직접적인 원인 행위.
+- **TRIM 명령어**: 무효 데이터를 제거하여 WAF를 낮추는 가장 효과적인 도구.
+- **오버 프로비저닝 (OP)**: WAF 억제를 위해 미리 확보해둔 예비 공간.
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "Bulkhead - 벌크헤드"
+date = "2026-03-14"
 weight = 718
 +++
 
@@ -97,6 +98,6 @@ Bulkhead는 자원을 격리합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Circuit Breaker](./713_circuit_breaker.md)
-- [Thread Pool](./718_thread_pool.md)
-- [Resilience](./715_resilience.md)
+- Circuit Breaker
+- Thread Pool
+- Resilience

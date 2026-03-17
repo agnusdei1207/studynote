@@ -1,9 +1,10 @@
 +++
 title = "GitHub Pages + Pagefind 정적 사이트 검색 구현"
-date = 2026-02-28
+date = "2026-02-28"
 [extra]
 categories = "devops"
 +++
+
 # GitHub Pages + Pagefind 정적 사이트 검색 구현
 
 ## 핵심 인사이트 (3줄 요약)
@@ -380,6 +381,6 @@ Pagefind는 **"도서관에 색인 카드를 미리 만들어두는 사람"**이
 
 ## 참고
 
-- [Pagefind 공식 문서](https://pagefind.app)
-- [ruby/setup-ruby GitHub Action](https://github.com/ruby/setup-ruby)
-- [actions/deploy-pages](https://github.com/actions/deploy-pages)
+- Pagefind 공식 문서
+- ruby/setup-ruby GitHub Action
+- actions/deploy-pages

@@ -1,5 +1,6 @@
 +++
 title = "MAC Address - MAC 주소"
+date = "2026-03-14"
 weight = 961
 +++
 
@@ -107,6 +108,6 @@ MAC Address는 네트워크 인터페이스의 물리적 주소입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Ethernet](./901_ethernet.md)
-- [Switch](./900_switch.md)
-- [ARP](./887_arp.md)
+- Ethernet
+- Switch
+- ARP

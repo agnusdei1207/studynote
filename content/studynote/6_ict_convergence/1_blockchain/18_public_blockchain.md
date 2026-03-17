@@ -1,10 +1,9 @@
----
-title: "[ICT] #19. 퍼블릭 블록체인 (Public Blockchain)"
-date: "2026-03-17"
++++
+title = "[ICT] #19. 퍼블릭 블록체인 (Public Blockchain)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Public_Blockchain_Permissionless_Decentralization_Open_Network"
----
+keyword = "Public_Blockchain_Permissionless_Decentralization_Open_Network"
++++
 
 # 퍼블릭 블록체인 (Public Blockchain): 국경과 신뢰를 넘는 개방형 가치 네트워크
 
@@ -13,7 +12,7 @@ keyword: "Public_Blockchain_Permissionless_Decentralization_Open_Network"
 > 2. **가치**: 특정 중앙 기관의 승인 없이도 전 세계적인 신뢰를 구축하며, **검열 저항성(Censorship Resistance)**과 투명성을 바탕으로 개인의 데이터 및 자산 주권을 보장한다.
 > 3. **융합**: 비트코인, 이더리움 등이 대표적이며, 암호 경제학(Cryptoeconomics)적 인센티브 설계를 통해 보안을 유지하고 DeFi, NFT 등 Web 3.0 생태계의 근간 인프라로 기능한다.
 
----
++++
 
 ## Ⅰ. 퍼블릭 블록체인 (Public Blockchain) 개요
 
@@ -30,7 +29,7 @@ keyword: "Public_Blockchain_Permissionless_Decentralization_Open_Network"
 
 📢 **섹션 요약 비유**: 회원권이 있어야 들어가는 사설 도서관(프라이빗)과 달리, 전 세계 누구에게나 문이 열려있고 모두가 사서(검증인)가 될 수 있는 '글로벌 시민 도서관'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -74,7 +73,7 @@ keyword: "Public_Blockchain_Permissionless_Decentralization_Open_Network"
 
 📢 **섹션 요약 비유**: 서로 모르는 사람들이 모여 게임을 할 때, 심판의 양심에 맡기는 게 아니라 '절대 고칠 수 없는 게임기 엔진(코드)'에 모든 룰을 맡겨버리는 방식입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -95,7 +94,7 @@ keyword: "Public_Blockchain_Permissionless_Decentralization_Open_Network"
 
 📢 **섹션 요약 비유**: 퍼블릭이 누구나 쓸 수 있는 '공용 도로'라면, 프라이빗은 회사 내의 '사내 전용 통로', 컨소시엄은 통행증이 있는 트럭들만 다니는 '기업 전용 고속도로'와 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -109,7 +108,7 @@ keyword: "Public_Blockchain_Permissionless_Decentralization_Open_Network"
 
 📢 **섹션 요약 비유**: 누구나 들어올 수 있는 큰 시장(퍼블릭)은 활기차고 속일 수 없지만, 사람이 너무 많아 줄이 길어지는(확장성) 문제를 해결하기 위해 '빠른 계산대(L2)'를 도입하는 것과 같습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -123,13 +122,13 @@ keyword: "Public_Blockchain_Permissionless_Decentralization_Open_Network"
 
 📢 **섹션 요약 비유**: 퍼블릭 블록체인은 특정 국가나 기업의 소유가 아닌, 전 인류가 함께 사용하는 **'디지털 공기'**이자 **'가치의 바다'**로 진화하고 있습니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[탈중앙화 (Decentralization)](./9_decentralization.md)**: 퍼블릭 블록체인이 추구하는 최상위 가치.
-- **[비트코인 (Bitcoin)](./3_blockchain_dlt.md)**: 최초의 성공적인 퍼블릭 블록체인 사례.
-- **[이더리움 (Ethereum)](./23_evm.md)**: 스마트 컨트랙트를 도입한 2세대 퍼블릭 블록체인.
-- **[무허가형 (Permissionless)](./76_permissionless.md)**: 참여에 제약이 없는 네트워크의 특성.
+- **탈중앙화 (Decentralization)**: 퍼블릭 블록체인이 추구하는 최상위 가치.
+- **비트코인 (Bitcoin)**: 최초의 성공적인 퍼블릭 블록체인 사례.
+- **이더리움 (Ethereum)**: 스마트 컨트랙트를 도입한 2세대 퍼블릭 블록체인.
+- **무허가형 (Permissionless)**: 참여에 제약이 없는 네트워크의 특성.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **모두의 놀이터**: 이 놀이터는 주인 아저씨가 없어서 전 세계 누구나 들어와서 놀 수 있고, 친구들이랑 장난감을 자유롭게 교환할 수 있어요.

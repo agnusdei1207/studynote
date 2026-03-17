@@ -1,5 +1,6 @@
 +++
 title = "595. 스마트 SSD (Smart SSD)"
+date = "2026-03-14"
 weight = 595
 +++
 
@@ -145,10 +146,10 @@ weight = 595
 ---
 
 ### 📌 관련 개념 맵
-- [컴퓨테이셔널 스토리지 (Computational Storage)](./596_computational_storage.md): 스마트 SSD를 포함하는 상위 개념
-- [NVMe (Non-Volatile Memory Express)](../2_operating_system/9_file_system/xx_nvme.md): 스마트 SSD의 물리적 인터페이스 표준
-- [FPGA (Field Programmable Gate Array)](./606_fpga_dynamic_reconfiguration.md): 스마트 SSD 내부 연산을 담당하는 핵심 가소성 칩
-- [CXL (Compute Express Link)](../1_computer_architecture/9_system_bus_interconnects/xx_cxl.md): 차세대 스토리지-컴퓨팅 연결 기술
+- 컴퓨테이셔널 스토리지 (Computational Storage): 스마트 SSD를 포함하는 상위 개념
+- NVMe (Non-Volatile Memory Express): 스마트 SSD의 물리적 인터페이스 표준
+- FPGA (Field Programmable Gate Array): 스마트 SSD 내부 연산을 담당하는 핵심 가소성 칩
+- CXL (Compute Express Link): 차세대 스토리지-컴퓨팅 연결 기술
 
 ---
 

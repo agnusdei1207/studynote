@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: SQL Injection 💎 Platinum"
-description = "LUXORA 플랫폼의 Time-based Blind SQLi 롸잇업 (화면 변화조차 없는 환경에서의 플래그 탈취 기법)"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "SQL Injection", "Platinum", "Time-based", "Write-up"]

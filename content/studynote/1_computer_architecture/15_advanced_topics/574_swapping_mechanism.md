@@ -1,5 +1,6 @@
 +++
 title = "스와핑 (Swapping) 메커니즘"
+date = "2026-03-14"
 weight = 574
 +++
 

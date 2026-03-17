@@ -1,6 +1,7 @@
 +++
-weight = 494
 title = "494. 오브젝트 스토리지 (Object Storage)"
+date = "2026-03-14"
+weight = 494
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -109,9 +110,9 @@ title = "494. 오브젝트 스토리지 (Object Storage)"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[RESTful API](../../3_network/xx_rest_api.md)**: 오브젝트 스토리지와 통신하는 웹 표준 언어.
-- **[분산 파일 시스템](../../16_bigdata/2_hadoop.md)**: HDFS 등 대규모 분산 저장 기술의 기반.
-- **[메타데이터 (Metadata)](../../5_database/xx_metadata.md)**: 오브젝트 스토리지를 똑똑하게 만드는 핵심 요소.
+- **RESTful API**: 오브젝트 스토리지와 통신하는 웹 표준 언어.
+- **분산 파일 시스템**: HDFS 등 대규모 분산 저장 기술의 기반.
+- **메타데이터 (Metadata)**: 오브젝트 스토리지를 똑똑하게 만드는 핵심 요소.
 
 ---
 

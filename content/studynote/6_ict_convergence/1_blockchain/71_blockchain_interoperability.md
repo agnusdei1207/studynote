@@ -1,10 +1,9 @@
----
-title: "[ICT] #72. 블록체인 상호운용성 (Interoperability)"
-date: "2026-03-17"
++++
+title = "[ICT] #72. 블록체인 상호운용성 (Interoperability)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Interoperability_Crosschain_Bridge_IBC_Polkadot_Cosmos_AtomicSwap"
----
+keyword = "Interoperability_Crosschain_Bridge_IBC_Polkadot_Cosmos_AtomicSwap"
++++
 
 # 블록체인 상호운용성: 파편화된 디지털 섬들을 잇는 데이터와 가치의 네트워크
 
@@ -13,7 +12,7 @@ keyword: "Interoperability_Crosschain_Bridge_IBC_Polkadot_Cosmos_AtomicSwap"
 > 2. **가치**: 특정 체인에 갇혀있던 유동성을 해방하여 멀티체인 생태계를 통합하며, 개별 체인의 한계를 넘어 **'인터넷 오브 블록체인(Internet of Blockchains)'** 환경을 구축하는 핵심 기술이다.
 > 3. **융합**: 공증인(Notary), 해시 잠금(Hash Locking), 릴레이(Relay) 등의 암호학적 기법과 코스모스의 IBC, 폴카닷의 XCMP 등 표준 통신 프로토콜이 결합되어 실무적 상호운용성을 실현한다.
 
----
++++
 
 ## Ⅰ. 블록체인 상호운용성 (Interoperability) 개요
 
@@ -30,7 +29,7 @@ keyword: "Interoperability_Crosschain_Bridge_IBC_Polkadot_Cosmos_AtomicSwap"
 
 📢 **섹션 요약 비유**: 서로 다른 언어를 쓰는 나라들이 공통의 외교 규약(프로토콜)을 만들어, 자유롭게 무역(자산 이동)을 하고 정보를 나누는 '디지털 지구촌'을 만드는 기술입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 구현 메커니즘 (Deep Dive)
 
@@ -79,7 +78,7 @@ keyword: "Interoperability_Crosschain_Bridge_IBC_Polkadot_Cosmos_AtomicSwap"
 
 📢 **섹션 요약 비유**: 물건을 주고 돈을 못 받을까 봐 걱정될 때, 양쪽이 동시에 버튼을 눌러야만 금고가 열리게 만드는 '디지털 안전 거래 장치'와 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -99,7 +98,7 @@ keyword: "Interoperability_Crosschain_Bridge_IBC_Polkadot_Cosmos_AtomicSwap"
 
 📢 **섹션 요약 비유**: 코스모스가 각자 나라의 법을 지키며 무역하는 '자유무역협정(FTA)'이라면, 폴카닷은 하나의 헌법 아래 뭉친 '연방 정부'와 같은 차이가 있습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -113,7 +112,7 @@ keyword: "Interoperability_Crosschain_Bridge_IBC_Polkadot_Cosmos_AtomicSwap"
 
 📢 **섹션 요약 비유**: 서로 다른 기차 선로(체인)를 잇는 환승역을 만들 때, 한쪽 기차가 연착되거나 취소되면 전체 일정이 꼬이지 않도록 '완충 시스템'을 잘 짜는 것이 핵심입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -127,13 +126,13 @@ keyword: "Interoperability_Crosschain_Bridge_IBC_Polkadot_Cosmos_AtomicSwap"
 
 📢 **섹션 요약 비유**: 상호운용성은 블록체인이 '하나의 기술'에서 '전 세계가 공유하는 하나의 거대한 컴퓨터'로 진화하게 만드는 **최종 진화의 촉매제**입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[블록체인 브리지](./49_bridge.md)**: 상호운용성을 실현하는 물리적 통로.
-- **[코스모스 IBC](./xx_ibc.md)**: 가장 널리 쓰이는 상호운용성 표준 통신 규격.
-- **[폴카닷 파라체인](./xx_polkadot.md)**: 보안을 공유하며 상호운용성을 확보한 구조.
-- **[LayerZero](./xx_layerzero.md)**: 옴니체인(Omnichain) 통신을 지향하는 차세대 솔루션.
+- **블록체인 브리지**: 상호운용성을 실현하는 물리적 통로.
+- **코스모스 IBC**: 가장 널리 쓰이는 상호운용성 표준 통신 규격.
+- **폴카닷 파라체인**: 보안을 공유하며 상호운용성을 확보한 구조.
+- **LayerZero**: 옴니체인(Omnichain) 통신을 지향하는 차세대 솔루션.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **친구네 집 놀러 가기**: 우리 집 마당(이더리움)에서만 놀다가, 옆집 친구 마당(솔라나)으로 내 장난감을 들고 자유롭게 놀러 갈 수 있게 해주는 마법이에요.

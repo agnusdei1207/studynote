@@ -1,5 +1,6 @@
 +++
 title = "On-call - 온콜"
+date = "2026-03-14"
 weight = 743
 +++
 
@@ -101,6 +102,6 @@ On-call은 대기 근무를 의미합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Incident Management](./742_incident_management.md)
-- [Alerting](./xxx_alerting.md)
-- [SRE](./748_sre.md)
+- Incident Management
+- Alerting
+- SRE

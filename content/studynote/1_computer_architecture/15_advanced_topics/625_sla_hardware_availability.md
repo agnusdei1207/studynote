@@ -1,5 +1,6 @@
 +++
 title = "625. SLA (Service Level Agreement) 하드웨어 가용성"
+date = "2026-03-14"
 weight = 625
 +++
 
@@ -149,10 +150,10 @@ SLA는 단순한 목표가 아니라 위반 시 페널티가 발생하는 경제
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[고가용성 (High Availability)](./511_qos.md)**: SLA가 목표로 하는 기술적 상태.
-- **[BMT (Bench Mark Test)](./624_bmt_procedures.md)**: SLA 체결 전 하드웨어의 실제 성능 한계를 검증하는 과정.
-- **[RTO/RPO](../12_it_management/xx_rto_rpo.md)**: 비즈니스 연속성 관점에서 SLA와 상호 보완되는 핵심 복구 지표.
-- **[데이터센터 등급 (Tier Ⅰ~Ⅳ)](../13_cloud_architecture/xx_dc_tier.md)**: 하드웨어 가용성 수준을 규정하는 물리적 인프라 표준.
+- **고가용성 (High Availability)**: SLA가 목표로 하는 기술적 상태.
+- **BMT (Bench Mark Test)**: SLA 체결 전 하드웨어의 실제 성능 한계를 검증하는 과정.
+- **RTO/RPO**: 비즈니스 연속성 관점에서 SLA와 상호 보완되는 핵심 복구 지표.
+- **데이터센터 등급 (Tier Ⅰ~Ⅳ)**: 하드웨어 가용성 수준을 규정하는 물리적 인프라 표준.
 
 ---
 

@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Host Header Injection 🥉 Bronze"
-description = "LUXORA 플랫폼의 기본 Host Header Injection 취약점을 이용한 패스워드 리셋 링크 오염 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Host Header", "Bronze", "Password Reset Poisoning", "Write-up"]

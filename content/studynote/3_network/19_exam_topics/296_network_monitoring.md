@@ -1,5 +1,6 @@
 +++
 title = "네트워크 모니터링 (Network Monitoring)"
+date = "2026-03-14"
 weight = 296
 +++
 
@@ -151,10 +152,10 @@ weight = 296
 ---
 
 ### 📌 관련 개념 링크**:
-- [SNMP](./297_snmp.md)
-- [NetFlow](./298_netflow.md)
-- [syslog](./299_syslog.md)
-- [NMS](./300_nms.md)
+- SNMP
+- NetFlow
+- syslog
+- NMS
 
 ---
 

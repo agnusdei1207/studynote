@@ -1,7 +1,7 @@
 +++
-weight = 664
 title = "664. 유닉스(UNIX) 및 리눅스(Linux) 계열 비교 요약"
 date = "2024-05-23"
+weight = 664
 [extra]
 categories = "studynote-operating-system"
 keywords = ["UNIX", "Linux", "POSIX", "Kernel Comparison", "Open Source"]
@@ -12,7 +12,7 @@ keywords = ["UNIX", "Linux", "POSIX", "Kernel Comparison", "Open Source"]
 > 두 계열 모두 POSIX(Portable Operating System Interface) 표준을 준수하여 높은 호환성을 가지나, 커널 아키텍처, 라이선스 모델, 지원 하드웨어 범위 등에서 뚜렷한 차이를 보인다.
 > 리눅스는 커뮤니티 중심의 빠른 기술 도입과 비용 효율성을 무기로 서버 시장을 장악한 반면, 유닉스는 고성능 메인프레임과 특수 목적의 고신뢰성 환경에서 여전히 중요한 입지를 차지하고 있다.
 
----
++++
 
 ### Ⅰ. 유닉스와 리눅스의 역사적 기원과 철학
 
@@ -25,7 +25,7 @@ keywords = ["UNIX", "Linux", "POSIX", "Kernel Comparison", "Open Source"]
 
 📢 섹션 요약 비유: 유닉스는 명문가에서 태어나 엄격하게 교육받은 '엘리트 귀족'과 같고, 리눅스는 전 세계 사람들이 함께 키운 '천재 소년'과 같습니다.
 
----
++++
 
 ### Ⅱ. 커널 및 아키텍처 비교(Comparison Map)
 
@@ -50,7 +50,7 @@ keywords = ["UNIX", "Linux", "POSIX", "Kernel Comparison", "Open Source"]
 
 📢 섹션 요약 비유: 유닉스는 '주문 제작된 고가의 양복'처럼 특정 체형(하드웨어)에 딱 맞게 제작된 것이고, 리눅스는 '기성복'처럼 누구나 쉽게 구해서 입을 수 있고 필요하면 수선도 가능한 옷과 같습니다.
 
----
++++
 
 ### Ⅲ. 파일 시스템 및 관리 체계
 
@@ -62,7 +62,7 @@ keywords = ["UNIX", "Linux", "POSIX", "Kernel Comparison", "Open Source"]
 
 📢 섹션 요약 비유: 유닉스는 '브랜드 전용 서비스 센터'에서만 수리할 수 있는 외제차와 같고, 리눅스는 '동네 카센터' 어디서든 고칠 수 있는 대중적인 자동차와 같습니다.
 
----
++++
 
 ### Ⅳ. 시장 위치 및 사용 사례
 
@@ -75,7 +75,7 @@ keywords = ["UNIX", "Linux", "POSIX", "Kernel Comparison", "Open Source"]
 
 📢 섹션 요약 비유: 유닉스는 '대형 은행의 금고'를 지키는 베테랑 경비원과 같고, 리눅스는 '도시의 모든 곳'을 지키는 수많은 경찰관과 같습니다.
 
----
++++
 
 ### Ⅴ. POSIX 표준과 호환성 전략
 
@@ -88,7 +88,7 @@ keywords = ["UNIX", "Linux", "POSIX", "Kernel Comparison", "Open Source"]
 
 📢 섹션 요약 비유: POSIX는 '국제 표준 플러그'와 같아서, 유닉스 가전제품이든 리눅스 가전제품이든 같은 콘센트에 꽂아서 쓸 수 있게 해줍니다.
 
----
++++
 
 ### 💡 지식 그래프(Knowledge Graph)
 - **부모 노드**: 운영체제 분류(OS Classification)

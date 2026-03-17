@@ -1,5 +1,6 @@
 +++
 title = "TCP Close - TCP 연결 종료"
+date = "2026-03-14"
 weight = 512
 +++
 
@@ -92,6 +93,6 @@ TCP Close는 4-way Handshake로 연결을 종료합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./332_tcp.md)
-- [TIME_WAIT](./511_time_wait.md)
-- [TCP State](./513_tcp_state.md)
+- TCP
+- TIME_WAIT
+- TCP State

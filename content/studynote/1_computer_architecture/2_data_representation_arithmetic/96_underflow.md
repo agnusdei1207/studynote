@@ -1,6 +1,7 @@
 +++
-weight = 96
 title = "96. 언더플로우 (Underflow)"
+date = "2026-03-14"
+weight = 96
 +++
 
 # 96. 언더플로우 (Underflow)

@@ -1,6 +1,7 @@
 +++
-weight = 514
 title = "514. 비순환 그래프 디렉터리 (Acyclic-graph Directory) - 별칭(Aliasing) 및 하드 링크"
+date = "2026-03-14"
+weight = 514
 +++
 
 # [비순환 그래프 디렉터리 (Acyclic-graph Directory)]

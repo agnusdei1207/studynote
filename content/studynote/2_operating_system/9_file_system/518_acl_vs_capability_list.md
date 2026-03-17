@@ -1,6 +1,7 @@
 +++
-weight = 518
 title = "518. 파일 보호 메커니즘 - 접근 제어 리스트 (ACL) vs 능력 리스트 (Capability List)"
+date = "2026-03-14"
+weight = 518
 +++
 
 # 518. 파일 보호 메커니즘 - 접근 제어 리스트 (ACL) vs 능력 리스트 (Capability List)

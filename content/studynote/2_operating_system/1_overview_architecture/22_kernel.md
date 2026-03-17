@@ -1,6 +1,7 @@
 +++
-weight = 22
 title = "22. 커널 (Kernel)의 역할"
+date = "2026-03-14"
+weight = 22
 +++
 
 # 커널 (Kernel)의 역할
@@ -122,10 +123,10 @@ title = "22. 커널 (Kernel)의 역할"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[모놀리식 커널 (Monolithic Kernel)](./23_monolithic_kernel.md)**: 커널의 모든 기능을 하나로 뭉친 고성능 아키텍처.
-- **[마이크로 커널 (Microkernel)](./24_microkernel.md)**: 커널 기능을 최소화하여 안정성을 극대화한 아키텍처.
-- **[시스템 호출 (System Call)](./13_system_call.md)**: 커널의 역할을 활용하기 위한 사용자 프로그램의 진입점.
-- **[커널 패닉 (Kernel Panic)](./xx_kernel_panic.md)**: 커널이 회복 불가능한 오류를 만났을 때 중단되는 현상.
+- **모놀리식 커널 (Monolithic Kernel)**: 커널의 모든 기능을 하나로 뭉친 고성능 아키텍처.
+- **마이크로 커널 (Microkernel)**: 커널 기능을 최소화하여 안정성을 극대화한 아키텍처.
+- **시스템 호출 (System Call)**: 커널의 역할을 활용하기 위한 사용자 프로그램의 진입점.
+- **커널 패닉 (Kernel Panic)**: 커널이 회복 불가능한 오류를 만났을 때 중단되는 현상.
 
 ---
 

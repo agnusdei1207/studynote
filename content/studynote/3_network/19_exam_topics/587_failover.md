@@ -1,5 +1,6 @@
 +++
 title = "Failover - 페일오버"
+date = "2026-03-14"
 weight = 587
 +++
 
@@ -94,6 +95,6 @@ Failover는 장애 발생 시 대체 시스템으로 전환합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [HA](./586_high_availability.md)
-- [Heartbeat](./509_tcp_keepalive.md)
-- [Cluster](./588_cluster.md)
+- HA
+- Heartbeat
+- Cluster

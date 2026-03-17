@@ -1,7 +1,7 @@
----
-title: "554. CQRS (Command Query Responsibility Segregation)"
-date: 2026-03-15
----
++++
+title = "554. CQRS (Command Query Responsibility Segregation)"
+date = "2026-03-15"
++++
 
 # 554. CQRS (Command Query Responsibility Segregation)
 
@@ -154,10 +154,10 @@ CQRS의 단짝 친구인 이벤트 소싱과의 시너지다.
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[이벤트 소싱 (Event Sourcing)](./555_event_sourcing.md)**: CQRS와 찰떡궁합인 데이터 저장 패턴
-- **[최종 일관성 (Eventual Consistency)](../5_database/xx_consistency.md)**: CQRS가 지향하는 데이터 모델
-- **[Saga 패턴](./550_saga_pattern.md)**: 쓰기 모델 간의 정합성을 맞추는 기술
-- **[정규화 vs 역정규화](./597_normalization.md)**: CQRS의 두 세계가 각각 취하는 전략
+- **이벤트 소싱 (Event Sourcing)**: CQRS와 찰떡궁합인 데이터 저장 패턴
+- **최종 일관성 (Eventual Consistency)**: CQRS가 지향하는 데이터 모델
+- **Saga 패턴**: 쓰기 모델 간의 정합성을 맞추는 기술
+- **정규화 vs 역정규화**: CQRS의 두 세계가 각각 취하는 전략
 
 ---
 

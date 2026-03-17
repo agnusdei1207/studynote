@@ -1,7 +1,7 @@
 +++
-weight = 649
 title = "649. 기술사 기출 키워드 맵 - 운영체제 편"
 date = "2024-05-23"
+weight = 649
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "기출 키워드", "Keyword Map", "기술사 시험", "Exam Summary"]
@@ -12,7 +12,7 @@ keywords = ["운영체제", "기출 키워드", "Keyword Map", "기술사 시험
 > 단순 개념 나열을 넘어 각 기술의 등장 배경, 장단점, 트레이드오프 관계를 명확히 기술하는 것이 고득점의 비결이며, 특히 최신 IT 트렌드인 클라우드, 가상화와의 연계가 필수적이다.
 > 본 키워드 맵은 빈출 토픽을 5대 영역으로 구조화하여 실전 시험 직전 핵심 개념을 빠르게 리마인드할 수 있도록 설계되었다.
 
----
++++
 
 ### Ⅰ. 프로세스 및 스레드 관리 (Core Layer)
 
@@ -25,7 +25,7 @@ keywords = ["운영체제", "기출 키워드", "Keyword Map", "기술사 시험
 
 📢 섹션 요약 비유: 컴퓨터라는 도시의 '인구(Process)'와 그들이 '이동하는 수단(Context Switching/IPC)'을 관리하는 기본 규칙들입니다.
 
----
++++
 
 ### Ⅱ. CPU 스케줄링 및 동기화 (Decision Layer)
 
@@ -45,7 +45,7 @@ keywords = ["운영체제", "기출 키워드", "Keyword Map", "기술사 시험
 
 📢 섹션 요약 비유: 도시의 '교통 신호 체계(Scheduling)'와 좁은 길에서의 '양보 규칙(Synchronization)'을 정의하는 의사결정 체계입니다.
 
----
++++
 
 ### Ⅲ. 메모리 및 저장 장치 관리 (Resource Layer)
 
@@ -57,7 +57,7 @@ keywords = ["운영체제", "기출 키워드", "Keyword Map", "기술사 시험
 
 📢 섹션 요약 비유: 도시의 '토지 구획 정리(Memory)'와 거대한 '물류 창고(Storage)'를 효율적으로 운영하는 자원 관리 전략입니다.
 
----
++++
 
 ### Ⅳ. 파일 시스템 및 운영체제 보호 (Infrastructure Layer)
 
@@ -69,7 +69,7 @@ keywords = ["운영체제", "기출 키워드", "Keyword Map", "기술사 시험
 
 📢 섹션 요약 비유: 도시의 '기록 보관소(File System)'를 지키는 '경찰과 성벽(Security)' 그리고 '미니어처 도시(Virtualization)'를 만드는 기반 기술입니다.
 
----
++++
 
 ### Ⅴ. 차세대 OS 기술 및 융합 트렌드 (Trend Layer)
 
@@ -82,7 +82,7 @@ keywords = ["운영체제", "기출 키워드", "Keyword Map", "기술사 시험
 
 📢 섹션 요약 비유: 미래 도시를 향한 '스마트 시티(Cloud/AI)' 계획과 새로운 '에너지원(NVM)'에 대응하는 진화된 운영 규칙들입니다.
 
----
++++
 
 ### 💡 지식 그래프(Knowledge Graph)
 - **부모 노드**: 운영체제 총론(Operating System General)

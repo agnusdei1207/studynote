@@ -1,10 +1,9 @@
----
-title: "[ICT] #91. 인액티비티 리크 (Inactivity Leak)"
-date: "2026-03-17"
++++
+title = "[ICT] #91. 인액티비티 리크 (Inactivity Leak)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "InactivityLeak_PoS_Liveness_Finality_Ethereum_Consensus_SelfHealing"
----
+keyword = "InactivityLeak_PoS_Liveness_Finality_Ethereum_Consensus_SelfHealing"
++++
 
 # 인액티비티 리크 (Inactivity Leak): 네트워크 마비를 막는 자동 복구와 경제적 퇴출 매커니즘
 
@@ -13,7 +12,7 @@ keyword: "InactivityLeak_PoS_Liveness_Finality_Ethereum_Consensus_SelfHealing"
 > 2. **가치**: 대규모 네트워크 장애나 국가적 차원의 차단 상황에서도 시스템이 영구히 멈추지 않고, 시간이 지남에 따라 **합의 임계치(2/3)**를 자동으로 회복하여 다시 거래를 확정(Finalize)할 수 있게 한다.
 > 3. **융합**: 암호 경제학적 징벌과 가용성(Liveness) 보장 로직이 결합된 기술이며, 단순한 '실수'에 대한 처벌을 넘어 시스템의 **생존성**을 담보하는 최후의 방어선으로 기능한다.
 
----
++++
 
 ## Ⅰ. 인액티비티 리크 (Inactivity Leak) 개요
 
@@ -30,7 +29,7 @@ keyword: "InactivityLeak_PoS_Liveness_Finality_Ethereum_Consensus_SelfHealing"
 
 📢 **섹션 요약 비유**: 멈춰버린 시계 바늘을 억지로 돌리는 것이 아니라, 시계 바늘을 가로막는 장애물(비활성 노드)을 조금씩 깎아내어 시계가 다시 돌아가게 만드는 '자동 복구 엔진'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 작동 원리 (Deep Dive)
 
@@ -80,7 +79,7 @@ keyword: "InactivityLeak_PoS_Liveness_Finality_Ethereum_Consensus_SelfHealing"
 
 📢 **섹션 요약 비유**: 처음엔 가벼운 경고장이지만, 시간이 갈수록 눈덩이처럼 불어나는 연체료와 같아서 결국 버티지 못하고 권한을 포기하게 만드는 '경제적 강제 집행'입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -100,7 +99,7 @@ keyword: "InactivityLeak_PoS_Liveness_Finality_Ethereum_Consensus_SelfHealing"
 
 📢 **섹션 요약 비유**: 슬래싱이 나쁜 짓을 한 범죄자를 감옥에 보내는 '형벌'이라면, 인액티비티 리크는 아픈 선수를 교체하고 경기를 이어가는 '선수 교체'와 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -114,7 +113,7 @@ keyword: "InactivityLeak_PoS_Liveness_Finality_Ethereum_Consensus_SelfHealing"
 
 📢 **섹션 요약 비유**: 태풍(장애)이 불 때 모든 배가 한 항구에 묶여 있으면 다 같이 침몰하므로, 배들을 전 세계 바다에 흩어 놓아야 일부가 파손되어도 전체 함대(네트워크)는 유지될 수 있습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -128,13 +127,13 @@ keyword: "InactivityLeak_PoS_Liveness_Finality_Ethereum_Consensus_SelfHealing"
 
 📢 **섹션 요약 비유**: 인액티비티 리크는 블록체인이라는 유기체가 상처를 입었을 때 스스로 죽은 세포를 떼어내고 새살을 돋게 하는 **'암호학적 면역 체계'**입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[지분 증명 (PoS)](./14_pos.md)**: 리크가 발생하는 환경적 토대.
-- **[완결성 (Finality)](./65_finality.md)**: 리크를 통해 지키고자 하는 핵심 목표.
-- **[슬래싱 (Slashing)](./89_slashing.md)**: 리크와 혼동하기 쉬운 적극적 처벌 기법.
-- **[이더리움 비콘 체인](./xx_beacon_chain.md)**: 실제 이 기능을 구현하여 운영 중인 네트워크.
+- **지분 증명 (PoS)**: 리크가 발생하는 환경적 토대.
+- **완결성 (Finality)**: 리크를 통해 지키고자 하는 핵심 목표.
+- **슬래싱 (Slashing)**: 리크와 혼동하기 쉬운 적극적 처벌 기법.
+- **이더리움 비콘 체인**: 실제 이 기능을 구현하여 운영 중인 네트워크.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **잠자는 친구 깨우기**: 블록체인 나라에서 다 같이 일기를 써야 하는데, 몇몇 친구가 잠을 자느라 일기를 안 쓰면 나라가 멈춰버려요.

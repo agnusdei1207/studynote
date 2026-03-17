@@ -1,5 +1,6 @@
 +++
 title = "PRTG - 네트워크 모니터링"
+date = "2026-03-14"
 weight = 318
 +++
 
@@ -148,10 +149,10 @@ PRTG(Paessler Router Traffic Grapher)는 통합 인프라 모니터링 도구입
 ---
 
 ### 📌 관련 개념 링크**:
-- [SNMP](./297_snmp.md)
-- [NetFlow](./298_netflow.md)
-- [Nagios](./319_nagios.md)
-- [Zabbix](./320_zabbix.md)
+- SNMP
+- NetFlow
+- Nagios
+- Zabbix
 
 ---
 

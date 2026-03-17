@@ -1,6 +1,7 @@
 +++
-weight = 386
 title = "386. 유효-무효 비트 (Valid-Invalid Bit) - 요구 페이징 관점"
+date = "2026-03-14"
+weight = 386
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -127,4 +128,3 @@ graph LR
     OS --> DI[Disk I/O]
     DI --> UV[Update Bit to v]
     UV --> RA
-```

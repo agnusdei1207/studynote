@@ -12,7 +12,7 @@ categories = "studynote-database"
 > 2. **가치**: 구글 스패너 (Google Spanner)의 **트루타임 (TrueTime)** 기술과 래프트 (Raft) 알고리즘 기반의 합의 구조를 통해 전 지구적 규모의 강력한 일관성 (External Consistency)을 실현하며, 서비스 중단 없는 탄력적 확장을 보장한다.
 > 3. **융합**: 최신 NewSQL은 **HTAP (Hybrid Transactional/Analytical Processing)** 기술을 통해 실시간 트랜잭션 (OLTP)과 대규모 분석 (OLAP)을 단일 플랫폼에서 동시에 처리함으로써, 데이터 복제 지연을 제거하고 비즈니스 의사결정 속도를 극대화한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -27,7 +27,7 @@ categories = "studynote-database"
 
 - **📢 섹션 요약 비유**: 마치 강력한 규율(SQL)을 유지하면서도 무한히 대열을 늘릴 수 있는(NoSQL 확장성) 로마 군단과 같은 조직력을 데이터베이스 세계에 구현한 것과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -40,7 +40,7 @@ categories = "studynote-database"
 | **자동 샤딩 (Auto Sharding)** | 부하에 따른 데이터 자동 분산 | 레인지(Range) 기반 데이터 분할 및 자동 리밸런싱 | Google Spanner | 도서관 책장 자동 정리 |
 | **HTAP 엔진** | 트랜잭션과 분석 동시 처리 | 로우(Row) 스토리지와 컬럼(Column) 스토리의 하이브리드 | TiDB (TiFlash) | 판매와 재고 분석 동시 수행 |
 
----
++++
 
 ### 2. 구글 스패너 (Google Spanner)와 트루타임 (TrueTime)
 
@@ -68,7 +68,7 @@ categories = "studynote-database"
 
 **[다이어그램 해설]** 분산 시스템의 고질적 문제인 '클럭 스큐 (Clock Skew)'를 해결하기 위해 구글은 데이터센터마다 GPS 수신기와 원자시계 (Atomic Clock)를 배치했다. TrueTime API는 현재 시간의 '불확실성 구간'을 포함한 시간 범위 `[earliest, latest]`를 반환한다. 스패너는 트랜잭션 커밋 시 이 불확실성 구간이 지날 때까지 의도적으로 대기 (Commit Wait)함으로써, 전 세계 어디에서 발생한 사건이든 절대적인 시간 순서를 확정 지을 수 있다. 이를 통해 분산 환경에서도 단일 머신과 같은 강력한 일관성 (External Consistency)을 전 지구적 규모로 실현한다.
 
----
++++
 
 ### 3. HTAP (Hybrid Transactional/Analytical Processing) 아키텍처
 
@@ -95,7 +95,7 @@ categories = "studynote-database"
 
 **[다이어그램 해설]** TiDB와 같은 현대적 NewSQL은 Raft 알고리즘을 사용하여 **TiKV (행 기반)**에 기록된 데이터를 실시간으로 **TiFlash (열 기반)**에 복제한다. 사용자는 단일 SQL 인터페이스를 통해 쿼리를 던지면, 최적화 도구 (Optimizer)가 쿼리의 성격을 판단하여 트랜잭션은 TiKV로, 대규모 집계 분석은 TiFlash로 분산 처리한다. 이를 통해 ETL (Extract, Transform, Load) 과정 없이 최신 데이터를 즉시 분석할 수 있는 **실시간 비즈니스 인텔리전스** 구현이 가능해진다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -117,7 +117,7 @@ categories = "studynote-database"
 
 - **📢 섹션 요약 비유**: RDBMS가 정통 클래식 음악이고 NoSQL이 자유로운 재즈라면, NewSQL은 클래식의 엄격한 형식미와 재즈의 유연한 즉흥 연주 능력을 동시에 갖춘 현대 퓨전 음악과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -138,7 +138,7 @@ categories = "studynote-database"
 
 - **📢 섹션 요약 비유**: 동네 편의점의 재고 관리를 위해 전 지구적 물류 추적 시스템을 도입하는 과잉 설계 (Over-engineering)를 경계해야 합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -157,15 +157,15 @@ categories = "studynote-database"
 
 - **📢 섹션 요약 비유**: 마치 스마트 시티의 모든 신호등이 중앙 통제 없이도 실시간 교통량에 따라 스스로 동기화되는 것처럼, 미래의 데이터베이스는 전 세계 어디서나 하나의 거대한 지능형 유기체처럼 동작할 것입니다.
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[NoSQL 아키텍처 - 분산 데이터 모델과 샤딩](./201_nosql_architecture_sharding.md)**: NewSQL이 수용한 수평 확장 기술의 모태.
-- **[분산 데이터 처리와 합의 알고리즘 - Raft, Paxos](./202_distributed_consensus_processing.md)**: NewSQL의 일관성을 보장하는 핵심 내부 알고리즘.
-- **[CAP 정리와 PACELC 정리](../4_transaction_concurrency_recovery/200_cap_theorem_and_pacelc.md)**: NewSQL이 도전하고 있는 분산 시스템의 이론적 한계.
-- **[2단계 커밋 (2PC)](../4_transaction_concurrency_recovery/199_distributed_transactions.md)**: NewSQL 내부에서 분산 트랜잭션을 구현하기 위해 개선된 프로토콜.
+- **NoSQL 아키텍처 - 분산 데이터 모델과 샤딩**: NewSQL이 수용한 수평 확장 기술의 모태.
+- **분산 데이터 처리와 합의 알고리즘 - Raft, Paxos**: NewSQL의 일관성을 보장하는 핵심 내부 알고리즘.
+- **CAP 정리와 PACELC 정리**: NewSQL이 도전하고 있는 분산 시스템의 이론적 한계.
+- **2단계 커밋 (2PC)**: NewSQL 내부에서 분산 트랜잭션을 구현하기 위해 개선된 프로토콜.
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. **NewSQL**은 똑똑한 거인과 같아요. 힘이 엄청 세서 아주 많은 일(데이터)을 한꺼번에 할 수 있으면서도, 아주 작은 약속(일관성) 하나까지도 절대 잊지 않고 꼼꼼하게 챙긴답니다.

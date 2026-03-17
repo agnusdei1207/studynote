@@ -1,5 +1,6 @@
 +++
 title = "HTTP (HyperText Transfer Protocol) - 하이퍼텍스트 전송 프로토콜"
+date = "2026-03-14"
 weight = 556
 +++
 
@@ -97,6 +98,6 @@ HTTP는 클라이언트-서버 간 데이터 전송 프로토콜입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [HTTPS](./557_https.md)
-- [HTTP Methods](./558_http_methods.md)
-- [HTTP Status Codes](./559_http_status.md)
+- HTTPS
+- HTTP Methods
+- HTTP Status Codes

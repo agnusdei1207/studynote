@@ -1,6 +1,6 @@
 +++
 title = "361. 인피니밴드 (InfiniBand)"
-description = "HPC와 데이터센터를 위한 초고속, 저지연 상호 연결 아키텍처 및 프로토콜"
+date = "2026-03-14"
 weight = 361
 +++
 
@@ -159,11 +159,11 @@ weight = 361
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[RDMA (Remote Direct Memory Access)](./362_rdma.md)**: 인피니밴드 성능의 핵심인 메모리 직접 접근 기술
-- **[RoCE (RDMA over Converged Ethernet)](./363_roce.md)**: 인피니밴드 기술을 이더넷에 이식한 표준
-- **[MPI (Message Passing Interface)](../4_software_engineering/xx_mpi.md)**: HPC 병렬 프로그래밍을 위한 핵심 라이브러리
-- **[Fat Tree Topology](./xx_fat_tree.md)**: 대규모 인피니밴드 클러스터 구축의 표준 네트워크 구조
-- **[Kernel Bypass](../2_operating_system/xx_kernel_bypass.md)**: OS 오버헤드를 없애는 초고속 통신의 기본 원리
+- **RDMA (Remote Direct Memory Access)**: 인피니밴드 성능의 핵심인 메모리 직접 접근 기술
+- **RoCE (RDMA over Converged Ethernet)**: 인피니밴드 기술을 이더넷에 이식한 표준
+- **MPI (Message Passing Interface)**: HPC 병렬 프로그래밍을 위한 핵심 라이브러리
+- **Fat Tree Topology**: 대규모 인피니밴드 클러스터 구축의 표준 네트워크 구조
+- **Kernel Bypass**: OS 오버헤드를 없애는 초고속 통신의 기본 원리
 
 ---
 

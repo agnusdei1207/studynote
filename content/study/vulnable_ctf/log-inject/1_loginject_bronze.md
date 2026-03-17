@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Log Injection 🥉 Bronze"
-description = "LUXORA 플랫폼의 기본 Log Injection(CRLF) 취약점을 이용한 관리자 로그 위조 시나리오"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Log Injection", "Bronze", "CRLF", "Write-up"]

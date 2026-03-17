@@ -1,6 +1,7 @@
 +++
-weight = 481
 title = "481. TRIM 명령어"
+date = "2026-03-14"
+weight = 481
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -109,9 +110,9 @@ title = "481. TRIM 명령어"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[쓰기 증폭 (WAF)](./480_write_amplification.md)**: TRIM이 해결하고자 하는 핵심적인 부작용.
-- **[가비지 컬렉션 (GC)](./477_ssd_garbage_collection.md)**: TRIM 정보가 실제로 활용되는 SSD 내부 프로세스.
-- **[FTL (Flash Translation Layer)](./478_ftl.md)**: TRIM 명령어를 수신하여 매핑 정보를 관리하는 계층.
+- **쓰기 증폭 (WAF)**: TRIM이 해결하고자 하는 핵심적인 부작용.
+- **가비지 컬렉션 (GC)**: TRIM 정보가 실제로 활용되는 SSD 내부 프로세스.
+- **FTL (Flash Translation Layer)**: TRIM 명령어를 수신하여 매핑 정보를 관리하는 계층.
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "SAML - Security Assertion Markup Language"
+date = "2026-03-14"
 weight = 380
 +++
 
@@ -143,10 +144,10 @@ SAML은 XML 기반의 인증 및 인가 프레임워크입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [SSO](./378_sso.md)
-- [OAuth](./375_oauth.md)
-- [OIDC](./379_oidc.md)
-- [XML](./367_xml.md)
+- SSO
+- OAuth
+- OIDC
+- XML
 
 ---
 

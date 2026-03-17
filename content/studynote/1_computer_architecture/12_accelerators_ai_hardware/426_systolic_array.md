@@ -1,6 +1,6 @@
 +++
 title = "시스톨릭 어레이 (Systolic Array)"
-description = "데이터가 심장 박동처럼 연산 유닛 사이를 흐르며 행렬 연산을 처리하는 병렬 아키텍처"
+date = "2026-03-14"
 weight = 426
 +++
 
@@ -152,11 +152,11 @@ weight = 426
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[TPU (Tensor Processing Unit)](./425_tpu.md)**: 시스톨릭 어레이를 상용화한 대표적 하드웨어
-- **[MAC 연산 (Multiply-Accumulate)](./428_mac_operation.md)**: 시스톨릭 PE 내부에서 일어나는 기본 연산
-- **[NPU (Neural Processing Unit)](./424_npu.md)**: 시스톨릭 구조를 포함하는 광범위한 AI 가속기 범주
-- **[폰 노이만 병목](../3_architecture_basics_performance/xx_von_neumann.md)**: 시스톨릭 어레이가 해결하고자 하는 근본적 하드웨어 제약
-- **[데이터 재사용 (Data Reuse)](./xx_data_reuse.md)**: 시스톨릭 어레이의 성능 효율을 극대화하는 핵심 원리
+- **TPU (Tensor Processing Unit)**: 시스톨릭 어레이를 상용화한 대표적 하드웨어
+- **MAC 연산 (Multiply-Accumulate)**: 시스톨릭 PE 내부에서 일어나는 기본 연산
+- **NPU (Neural Processing Unit)**: 시스톨릭 구조를 포함하는 광범위한 AI 가속기 범주
+- **폰 노이만 병목**: 시스톨릭 어레이가 해결하고자 하는 근본적 하드웨어 제약
+- **데이터 재사용 (Data Reuse)**: 시스톨릭 어레이의 성능 효율을 극대화하는 핵심 원리
 
 ---
 

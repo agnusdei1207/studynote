@@ -1,6 +1,7 @@
 +++
-weight = 622
 title = "622. 리눅스 네임스페이스 (Namespaces) - 격리 기술"
+date = "2026-03-14"
+weight = 622
 +++
 
 ### 💡 핵심 인사이트 (Insight)

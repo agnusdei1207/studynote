@@ -1,5 +1,6 @@
 +++
 title = "dynamic memory encryption"
+date = "2026-03-14"
 weight = 797
 +++
 
@@ -143,10 +144,10 @@ weight = 797
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [메모리 암호화 (Intel MKTME, AMD SME/SEV)](./796_memory_encryption.md)
-- [ARM CCA](./799_arm_cca.md)
-- [RISC-V PMP](./800_riscv_pmp.md)
-- [보안 키 소거](./785_secure_key_erasure.md)
+- 메모리 암호화 (Intel MKTME, AMD SME/SEV)
+- ARM CCA
+- RISC-V PMP
+- 보안 키 소거
 
 ---
 

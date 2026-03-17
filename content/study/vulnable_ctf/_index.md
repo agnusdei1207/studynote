@@ -4,7 +4,6 @@ description = "모의해킹 교육용 벤치마크 플랫폼 LUXORA의 취약점
 template = "section.html"
 sort_by = "weight"
 +++
-
 # VulnABLE CTF [LUXORA] Write-ups
 
 본 문서 모음은 **LUXORA 벤치마크 플랫폼**의 10개 취약점 카테고리와 5개 난이도(Bronze 🥉 ~ Diamond 🔱)에 대한 상세한 모의해킹 보고서입니다.

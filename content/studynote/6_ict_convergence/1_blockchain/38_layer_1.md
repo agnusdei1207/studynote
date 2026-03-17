@@ -1,10 +1,9 @@
----
-title: "[ICT] #39. 레이어 1 (Layer 1)"
-date: "2026-03-17"
++++
+title = "[ICT] #39. 레이어 1 (Layer 1)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Layer1_Mainnet_Consensus_Security_Scalability_Trilemma"
----
+keyword = "Layer1_Mainnet_Consensus_Security_Scalability_Trilemma"
++++
 
 # 레이어 1 (Layer 1): 블록체인 생태계의 토대이자 신뢰의 근원
 
@@ -13,7 +12,7 @@ keyword: "Layer1_Mainnet_Consensus_Security_Scalability_Trilemma"
 > 2. **가치**: 전체 생태계의 보안 표준을 정의하며, 하위 레이어(L2)나 애플리케이션(DApp)들이 믿고 거래를 확정 지을 수 있는 **'최종 결제 계층(Settlement Layer)'**의 역할을 수행한다.
 > 3. **융합**: 확장성 한계(Trilemma)를 해결하기 위해 샤딩(Sharding)과 같은 자체 구조 개선이나, 모듈러 블록체인(Modular Blockchain) 아키텍처로의 전환을 통해 생태계 중심축으로서 진화하고 있다.
 
----
++++
 
 ## Ⅰ. 레이어 1 (Layer 1) 개요
 
@@ -30,7 +29,7 @@ keyword: "Layer1_Mainnet_Consensus_Security_Scalability_Trilemma"
 
 📢 **섹션 요약 비유**: 건물을 지을 때 가장 밑바닥에 다지는 **'지반과 기초 공사'**와 같아서, 이것이 튼튼해야 그 위에 수십 층의 고층 빌딩(생태계)을 세울 수 있습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -80,7 +79,7 @@ keyword: "Layer1_Mainnet_Consensus_Security_Scalability_Trilemma"
 
 📢 **섹션 요약 비유**: 수천 명의 서기가 똑같은 내용을 똑같은 시간에 적어서, 세상에 단 하나뿐인 '절대 고칠 수 없는 역사서'를 실시간으로 집필하는 과정입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -100,7 +99,7 @@ keyword: "Layer1_Mainnet_Consensus_Security_Scalability_Trilemma"
 
 📢 **섹션 요약 비유**: 비트코인이 튼튼하지만 느린 '황금 거북이'라면, 이더리움은 무엇이든 실어 나르는 '만능 트럭'이고, 솔라나는 눈 깜짝할 새 지나가는 'F1 경주차'와 같은 개성을 가집니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -114,7 +113,7 @@ keyword: "Layer1_Mainnet_Consensus_Security_Scalability_Trilemma"
 
 📢 **섹션 요약 비유**: 동네 편의점(L1)이 모든 손님을 직접 응대하다가, 이제는 거대한 물류 센터(L1)가 되어 수많은 배달 앱(L2)들에게 물건(보안)만 공급해주는 효율적인 시스템으로 바뀌고 있습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -128,13 +127,13 @@ keyword: "Layer1_Mainnet_Consensus_Security_Scalability_Trilemma"
 
 📢 **섹션 요약 비유**: 레이어 1은 디지털 문명을 지탱하는 **'새로운 대륙'**입니다. 이 대륙이 넓어지고 단단해질수록 우리는 더 풍요로운 디지털 삶을 누리게 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[블록체인 트릴레마](./40_trilemma.md)**: 레이어 1이 해결해야 할 숙명적 난제.
-- **[레이어 2 (Layer 2)](./41_layer_2.md)**: 레이어 1의 확장성을 돕는 보조 계층.
-- **[샤딩 (Sharding)](./46_sharding.md)**: 레이어 1 자체의 성능을 높이는 기술.
-- **[모듈러 블록체인](./95_modular_blockchain.md)**: 레이어 1의 기능을 쪼개어 최적화하는 아키텍처.
+- **블록체인 트릴레마**: 레이어 1이 해결해야 할 숙명적 난제.
+- **레이어 2 (Layer 2)**: 레이어 1의 확장성을 돕는 보조 계층.
+- **샤딩 (Sharding)**: 레이어 1 자체의 성능을 높이는 기술.
+- **모듈러 블록체인**: 레이어 1의 기능을 쪼개어 최적화하는 아키텍처.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **가장 튼튼한 뿌리**: 나무가 높이 자라려면 뿌리가 깊고 튼튼해야 하죠? 레이어 1은 블록체인이라는 나무의 가장 밑바닥에 있는 튼튼한 뿌리예요.

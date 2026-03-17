@@ -1,5 +1,6 @@
 +++
 title = "601. 액체 냉각 시스템 (Liquid Cooling)"
+date = "2026-03-14"
 weight = 601
 +++
 
@@ -144,10 +145,10 @@ weight = 601
 ---
 
 ### 📌 관련 개념 맵
-- [이머전 쿨링 (Immersion Cooling)](./602_immersion_cooling.md): 액체 냉각의 궁극적 발전 형태
-- [엑사스케일 컴퓨팅 노드 (Exascale Node)](./600_exascale_computing_node_board.md): DLC가 필수적으로 적용되는 최상위 하드웨어
-- [PUE (Power Usage Effectiveness)](../12_it_management/6_cloud_ai_data/xx_pue.md): 데이터센터의 전력 효율을 나타내는 핵심 지표
-- [칩렛 (Chiplet)](../1_computer_architecture/15_advanced_topics/xx_chiplet.md): 국소 발열(Hot Spot)을 심화시켜 DLC를 요구하게 만든 패키징 기술
+- 이머전 쿨링 (Immersion Cooling): 액체 냉각의 궁극적 발전 형태
+- 엑사스케일 컴퓨팅 노드 (Exascale Node): DLC가 필수적으로 적용되는 최상위 하드웨어
+- PUE (Power Usage Effectiveness): 데이터센터의 전력 효율을 나타내는 핵심 지표
+- 칩렛 (Chiplet): 국소 발열(Hot Spot)을 심화시켜 DLC를 요구하게 만든 패키징 기술
 
 ---
 

@@ -1,10 +1,9 @@
----
-title: "[ICT] #205. 컨테이너 이미지 레이어 (Image Layer) 및 OCI 표준 규격"
-date: "2026-03-17"
++++
+title = "[ICT] #205. 컨테이너 이미지 레이어 (Image Layer) 및 OCI 표준 규격"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "ContainerImage_ImageLayer_OCI_OpenContainerInitiative_UFS_UnionFileSystem_Docker"
----
+keyword = "ContainerImage_ImageLayer_OCI_OpenContainerInitiative_UFS_UnionFileSystem_Docker"
++++
 
 # 컨테이너 이미지 레이어 및 OCI: 한 치의 오차 없이 소프트웨어를 복제하는 구름 위의 탁본
 
@@ -13,7 +12,7 @@ keyword: "ContainerImage_ImageLayer_OCI_OpenContainerInitiative_UFS_UnionFileSys
 > 2. **가치**: 유니온 파일 시스템(UFS)을 이용하여 변경된 레이어만 다운로드하고 재사용(캐싱)함으로써, 기가바이트(GB) 단위의 이미지 전송 및 빌드 시간을 수 초 단위로 단축하여 극강의 CI/CD 속도를 제공한다.
 > 3. **융합**: 도커(Docker)의 독점을 막고 특정 벤더에 종속되지 않기 위해 제정된 OCI(Open Container Initiative) 국제 표준과 융합되어, 어떤 컨테이너 런타임(containerd, CRI-O)을 쓰든 100% 똑같이 구동되는 클라우드 네이티브의 범용성을 확립했다.
 
----
++++
 
 ## Ⅰ. 컨테이너 이미지 및 OCI 개요
 
@@ -31,7 +30,7 @@ keyword: "ContainerImage_ImageLayer_OCI_OpenContainerInitiative_UFS_UnionFileSys
 
 📢 **섹션 요약 비유**: 도커라는 한 회사가 쥐고 흔들던 '독점 레시피'를 전 세계 요리사들이 모여 '공통 오픈 레시피(OCI)'로 표준화하여, 어떤 주방(런타임)에서든 똑같은 맛(앱)을 내게 만든 것입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -86,7 +85,7 @@ keyword: "ContainerImage_ImageLayer_OCI_OpenContainerInitiative_UFS_UnionFileSys
 
 📢 **섹션 요약 비유**: OCI는 국제 택배 규격입니다. 상자(이미지)를 OCI 규격대로 네모 반듯하게만 포장하면, 우체국 택배(도커)든 한진 택배(containerd)든 상관없이 전 세계 어디로든 정확히 배송해 줍니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -105,7 +104,7 @@ keyword: "ContainerImage_ImageLayer_OCI_OpenContainerInitiative_UFS_UnionFileSys
 
 📢 **섹션 요약 비유**: K8s에서 도커가 퇴출당했다는 뉴스는 도커가 망했다는 뜻이 아니라, "이제부터 도커라는 무거운 종합 세트 대신, OCI라는 가벼운 표준 알맹이만 골라서 쓴다"는 시스템 다이어트의 성공 선언입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -123,7 +122,7 @@ keyword: "ContainerImage_ImageLayer_OCI_OpenContainerInitiative_UFS_UnionFileSys
 
 📢 **섹션 요약 비유**: 이삿짐을 쌀 때 가장 무겁고 안 쓰는 짐(베이스 OS)을 맨 아래에 깔고, 매일 꺼내 쓰는 칫솔(소스 코드)을 맨 위에 두어야 이사가 편해지는 것과 같은 절대적인 수납의 법칙입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -137,13 +136,13 @@ keyword: "ContainerImage_ImageLayer_OCI_OpenContainerInitiative_UFS_UnionFileSys
 
 📢 **섹션 요약 비유**: 컨테이너 이미지 레이어는 소프트웨어의 DNA를 투명한 필름에 얇게 복제하여, 인류가 언제 어디서든 클릭 한 번으로 똑같은 생명체(앱)를 무한히 탄생시킬 수 있게 한 클라우드의 연금술입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[쿠버네티스 (K8s)](./196_kubernetes.md)**: OCI 규격에 맞춰 만들어진 이미지를 수천 개씩 띄우고 지휘하는 오케스트레이션 도구.
-- **[컨테이너 가상화](./194_container_virtualization.md)**: 이미지 레이어가 실제로 구동되기 위해 사용하는 리눅스 커널 기술(Namespace, Cgroup).
-- **[불변 인프라 (Immutable Infrastructure)](./203_iac_immutable_infrastructure.md)**: 컨테이너 이미지가 한 번 만들어지면 절대 수정되지 않아야 한다는 사상.
-- **[CI/CD 및 데브옵스](../../4_software_engineering/xx_cicd.md)**: 코드를 이미지로 굽고 레지스트리에 푸시하는 과정을 자동화하는 파이프라인.
+- **쿠버네티스 (K8s)**: OCI 규격에 맞춰 만들어진 이미지를 수천 개씩 띄우고 지휘하는 오케스트레이션 도구.
+- **컨테이너 가상화**: 이미지 레이어가 실제로 구동되기 위해 사용하는 리눅스 커널 기술(Namespace, Cgroup).
+- **불변 인프라 (Immutable Infrastructure)**: 컨테이너 이미지가 한 번 만들어지면 절대 수정되지 않아야 한다는 사상.
+- **CI/CD 및 데브옵스**: 코드를 이미지로 굽고 레지스트리에 푸시하는 과정을 자동화하는 파이프라인.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **투명 셀로판지 마법**: 햄버거 그림을 그릴 때 매번 새로 그리지 않고, 빵이 그려진 투명 종이 위에 패티 종이를 겹치고, 토마토 종이를 겹쳐서 순식간에 완성하는 마법이에요.

@@ -1,5 +1,6 @@
 +++
 title = "스토리지 티어링 (Storage Tiering)"
+date = "2026-03-14"
 weight = 674
 +++
 

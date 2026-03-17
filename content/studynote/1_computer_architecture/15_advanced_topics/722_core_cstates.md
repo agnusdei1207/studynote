@@ -1,5 +1,6 @@
 +++
 title = "core cstates"
+date = "2026-03-14"
 weight = 722
 +++
 
@@ -397,10 +398,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [Package C-States](./721_package_cstates.md) - 패키지 절전 상태
-- [P-States](./723_pstates.md) - 성능 상태
-- [T-States](./724_tstates.md) - 스로틀 상태
-- [ACPI S-States](./725_acpi_sstates.md) - 시스템 절전
+- Package C-States - 패키지 절전 상태
+- P-States - 성능 상태
+- T-States - 스로틀 상태
+- ACPI S-States - 시스템 절전
 
 ---
 

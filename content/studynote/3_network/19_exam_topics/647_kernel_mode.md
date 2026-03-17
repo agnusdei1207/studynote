@@ -1,5 +1,6 @@
 +++
 title = "Kernel Mode - 커널 모드"
+date = "2026-03-14"
 weight = 647
 +++
 
@@ -104,6 +105,6 @@ Kernel Mode는 모든 하드웨어에 접근 가능한 특권 모드입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [System Call](./646_system_call.md)
-- [User Mode](./648_user_mode.md)
-- [Protection Ring](./649_protection_ring.md)
+- System Call
+- User Mode
+- Protection Ring

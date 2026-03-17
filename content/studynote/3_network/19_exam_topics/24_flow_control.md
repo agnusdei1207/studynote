@@ -1,5 +1,6 @@
 +++
 title = "흐름 제어 (Flow Control)"
+date = "2026-03-14"
 weight = 24
 +++
 
@@ -151,10 +152,10 @@ ACK 수신 시: 윈도우 슬라이드
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP 흐름 제어 윈도우](./120_tcp_flow_control.md)
-- [혼잡 제어 Congestion Avoidance](./125_tcp_congestion_control.md)
-- [ARQ 자동 재전송 요청](./22_arq_automatic_repeat.md)
-- [HDLC 프레임 구조](./201_hdlc_frame.md)
+- TCP 흐름 제어 윈도우
+- 혼잡 제어 Congestion Avoidance
+- ARQ 자동 재전송 요청
+- HDLC 프레임 구조
 
 ---
 

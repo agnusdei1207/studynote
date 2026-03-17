@@ -9,7 +9,7 @@ categories = "studynote-devops-sre"
 
 정보관리기술사, 컴퓨터응용시스템기술사 및 클라우드/플랫폼 엔지니어를 위한 데브옵스, SRE, CI/CD, GitOps, 컨테이너 보안(DevSecOps) 및 옵저버빌리티(Observability) 전 영역 800대 핵심 키워드입니다.
 
----
++++
 
 ## 1. DevOps 문화 및 개발 방법론 (60개)
 1. 데브옵스 (DevOps) 사상 - 개발(Dev)과 운영(Ops) 간의 소통, 협업, 통합을 강조하여 소프트웨어 배포 속도와 안정성을 극대화하는 문화적/기술적 패러다임
@@ -396,6 +396,6 @@ categories = "studynote-devops-sre"
 ... (아키텍처 확장 패턴 지속)
 400. 클라우드/DevOps/데이터/보안 차세대 통합 플랫폼 엔지니어링 최종 마스터 맵.
 
----
++++
 **총정리 DevOps / SRE 키워드 : 총 800+ 심화 요약 수록 (하위 파생 1,000+ 규모)**
 (애자일/DevOps 방법론, CI/CD, GitOps(ArgoCD)부터 컨테이너 쿠버네티스 오케스트레이션, MSA 설계 패턴(Saga/CQRS), SRE 옵저버빌리티 인프라 및 최신 DevSecOps 공급망 보안까지 전 영역 기술사/전문가 수준의 키워드를 집대성했습니다.)

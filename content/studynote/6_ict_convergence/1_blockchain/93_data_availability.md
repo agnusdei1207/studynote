@@ -1,10 +1,9 @@
----
-title: "[ICT] #94. 데이터 가용성 (Data Availability, DA)"
-date: "2026-03-17"
++++
+title = "[ICT] #94. 데이터 가용성 (Data Availability, DA)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "DataAvailability_DA_DAS_ErasureCoding_Rollup_Scalability_Celestia"
----
+keyword = "DataAvailability_DA_DAS_ErasureCoding_Rollup_Scalability_Celestia"
++++
 
 # 데이터 가용성 (DA): 블록체인 무결성을 보장하는 최후의 데이터 신뢰 레이어
 
@@ -13,7 +12,7 @@ keyword: "DataAvailability_DA_DAS_ErasureCoding_Rollup_Scalability_Celestia"
 > 2. **가치**: 데이터가 숨겨지면(Data Withholding) 아무리 훌륭한 합의 알고리즘이라도 거래의 정당성을 판별할 수 없으므로, 레이어 2(롤업)와 모듈러 블록체인의 **보안과 탈중앙화**를 지탱하는 핵심 전제 조건이 된다.
 > 3. **융합**: **에라져 코딩(Erasure Coding)**과 **데이터 가용성 샘플링(DAS)** 기술이 결합되어, 노드가 전체 데이터를 다 받지 않고도 데이터가 가용한지 통계적으로 증명하는 차세대 아키텍처로 진화하고 있다.
 
----
++++
 
 ## Ⅰ. 데이터 가용성 (DA) 개요
 
@@ -30,7 +29,7 @@ keyword: "DataAvailability_DA_DAS_ErasureCoding_Rollup_Scalability_Celestia"
 
 📢 **섹션 요약 비유**: 비밀 일기장이 아닌 '모두가 볼 수 있는 게시판'에 글을 적어, 나중에 딴소리하지 못하게 만드는 '디지털 공개 증명' 기술입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 기술 원리 (Deep Dive)
 
@@ -79,7 +78,7 @@ keyword: "DataAvailability_DA_DAS_ErasureCoding_Rollup_Scalability_Celestia"
 
 📢 **섹션 요약 비유**: 거대한 모자이크 그림(블록)에서 무작위로 몇 군데만 확인해봐도 그림 전체가 완성되어 있는지, 아니면 중요한 부분이 비어 있는지 금방 알 수 있는 통계적 마법입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -99,7 +98,7 @@ keyword: "DataAvailability_DA_DAS_ErasureCoding_Rollup_Scalability_Celestia"
 
 📢 **섹션 요약 비유**: 저장이 '박물관에 책을 보관하는 것'이라면, 가용성은 '오늘 발행된 신문을 편의점 가판대에 까는 것'과 같습니다. 신문이 깔려야 기사의 진위(거래 검증)를 따질 수 있기 때문입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -116,7 +115,7 @@ keyword: "DataAvailability_DA_DAS_ErasureCoding_Rollup_Scalability_Celestia"
 
 📢 **섹션 요약 비유**: 비싼 백화점 게시판(이더리움) 대신 동네 게시판(셀레스티아)을 쓰면 돈은 아끼겠지만, 나중에 게시판이 철거될 위험(데이터 유실)에 대비한 백업 플랜이 반드시 필요합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -130,13 +129,13 @@ keyword: "DataAvailability_DA_DAS_ErasureCoding_Rollup_Scalability_Celestia"
 
 📢 **섹션 요약 비유**: 데이터 가용성은 블록체인이라는 거대한 기계가 멈추지 않고 영원히 진실만을 말하게 만드는 **'디지털 산소'**와 같은 존재입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[EIP-4844](./87_eip4844.md)**: 이더리움이 구현한 초기 단계의 DA 공간.
-- **[셀레스티아 (Celestia)](./xx_celestia.md)**: 세계 최초의 전용 DA 모듈러 블록체인.
-- **[에라져 코딩 (Erasure Coding)](./xx_erasure_coding.md)**: 데이터 가용성을 지탱하는 수학적 뼈대.
-- **[데이터 가용성 샘플링 (DAS)](./xx_das.md)**: 가용성을 검증하는 혁신적 기법.
+- **EIP-4844**: 이더리움이 구현한 초기 단계의 DA 공간.
+- **셀레스티아 (Celestia)**: 세계 최초의 전용 DA 모듈러 블록체인.
+- **에라져 코딩 (Erasure Coding)**: 데이터 가용성을 지탱하는 수학적 뼈대.
+- **데이터 가용성 샘플링 (DAS)**: 가용성을 검증하는 혁신적 기법.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **투명한 게시판**: 블록체인 나라에서 일어난 일을 비밀 일기장에 적지 않고, 전 세계 사람들이 다 볼 수 있는 커다란 유리 게시판에 적어두는 거예요.

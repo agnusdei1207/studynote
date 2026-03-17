@@ -1,5 +1,6 @@
 +++
 title = "케이블 배선: 다이렉트 vs 크로스오버"
+date = "2026-03-14"
 weight = 144
 +++
 
@@ -150,10 +151,10 @@ weight = 144
 ---
 
 ### 📌 관련 개념 링크**:
-- [MDI/MDI-X](./142_mdi.md)
-- [Auto-MDIX](./143_auto_mdix.md)
-- [UTP](./124_utp.md)
-- [이더넷 PHY](./137_ethernet_phy.md)
+- MDI/MDI-X
+- Auto-MDIX
+- UTP
+- 이더넷 PHY
 
 ---
 

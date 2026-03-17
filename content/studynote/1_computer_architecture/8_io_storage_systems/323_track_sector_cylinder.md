@@ -1,7 +1,7 @@
 +++
-weight = 323
 title = "323. 트랙, 섹터, 실린더"
 date = "2026-03-11"
+weight = 323
 [extra]
 categories = "studynote-computer-architecture"
 keywords = ["컴퓨터구조", "HDD", "트랙", "섹터", "실린더", "CHS"]
@@ -14,7 +14,7 @@ keywords = ["컴퓨터구조", "HDD", "트랙", "섹터", "실린더", "CHS"]
 > 2. **가치**: ZBR (Zone Bit Recording) 등의 기술로 외곽 트랙의 용량을 확대하여 저장 밀도를 극대화하며, 이는 �차적 읽기 성능에 직접적인 영향을 미친다.
 > 3. **융합**: 파일 시스템의 **Cluster (Allocation Unit)** 크기 설정 근간이 되며, OS의 **LBA (Logical Block Addressing)** 방식으로 추상화되어 SSD와의 호환성을 유지한다.
 
----
++++
 
 ### Ⅰ. 개요 (Context & Background)
 
@@ -31,7 +31,7 @@ HDD의 데이터 저장 원리는 데이터를 0과 1의 전기 신호가 아닌
 **📢 섹션 요약 비유**
 "마치 거대한 원형 경기장에 좌석 번호를 붙이기 위해, 먼저 동심원으로 구역(트랙)을 나누고, 다시 그 구역을 특정 칸(섹터)으로 나누어 정확한 위치를 찾아가는 것과 같습니다."
 
----
++++
 
 ### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -98,7 +98,7 @@ unsigned long long chs_to_lba(int cylinder, int head, int sector,
 **📢 섹션 요약 비유**
 "마치 빌딩의 주소체계가 '동, 호, 층(실린더)'에서 '우편번호 일련 번호(LBA)'로 바뀌는 것과 같습니다. 내부적으로는 여전히 물리적 위치(동, 호, 층)를 기준으로 찾아가지만, 사용자는 그저 편리한 번호로만 찾는 것입니다."
 
----
++++
 
 ### Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -121,7 +121,7 @@ unsigned long long chs_to_lba(int cylinder, int head, int sector,
 **📢 섹션 요약 비유**
 "물류 시스템에서 물건은 상자 단위(섹터)로 담기지만, 트럭에는 박스들을 팔레트(클러스터)에 묶어서 싣고, 운전자는 그냥 목적지 주소(LBA)만 입력하는 것과 같습니다. 각 계층마다 관리하는 단위와 목적이 다르지만, 최종목표는 물건을 안전하게 운송하는 것입니다."
 
----
++++
 
 ### Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -142,7 +142,7 @@ unsigned long long chs_to_lba(int cylinder, int head, int sector,
 **📢 섹션 요약 비유**
 "도로 교통체증을 해결하기 위해 차선 수를 늘리는 것만큼 중요한 것이, 차량들이 헛걸음(Seek)을 줄이고 연속해서 달리게 하는 것입니다. 데이터를 디스크의 끝에서 끝으로 찾아 헤매게 만드는 것이 최악의 주소 배치입니다."
 
----
++++
 
 ### Ⅴ. 기대효과 및 결론 (Future & Standard)
 

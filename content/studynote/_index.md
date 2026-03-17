@@ -6,7 +6,6 @@ description = "PE 16과목 핵심 정리 — 정보통신기술사·컴퓨터응
 sort_by = "weight"
 insert_anchor_links = "right"
 +++
-
 # 🏆 Study Note
 
 ## 📌 기술사 시험 체계 및 핵심 키워드 마스터

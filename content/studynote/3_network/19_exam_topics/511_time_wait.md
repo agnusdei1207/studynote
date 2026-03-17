@@ -1,5 +1,6 @@
 +++
 title = "TIME_WAIT - 타임 웨이트"
+date = "2026-03-14"
 weight = 511
 +++
 
@@ -96,6 +97,6 @@ TIME_WAIT는 연결 종료 후 2MSL 동안 대기합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./332_tcp.md)
-- [TCP Close](./512_tcp_close.md)
-- [TCP State Machine](./513_tcp_state.md)
+- TCP
+- TCP Close
+- TCP State Machine

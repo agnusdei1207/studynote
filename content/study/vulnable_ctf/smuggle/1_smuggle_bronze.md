@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Request Smuggling 🥉 Bronze"
-description = "LUXORA 플랫폼의 기본 HTTP Request Smuggling (CL.TE 방식) 취약점을 이용한 백엔드 라우팅 우회 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Request Smuggling", "Bronze", "CL.TE", "Write-up"]

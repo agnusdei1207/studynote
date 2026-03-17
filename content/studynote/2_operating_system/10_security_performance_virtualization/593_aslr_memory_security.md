@@ -1,6 +1,7 @@
 +++
-weight = 593
 title = "593. 주소 공간 무작위 배치 (ASLR (Address Space Layout Randomization)) - 메모리 보안"
+date = "2026-03-14"
+weight = 593
 +++
 
 # 593. 주소 공간 무작위 배치 (ASLR (Address Space Layout Randomization)) - 메모리 보안

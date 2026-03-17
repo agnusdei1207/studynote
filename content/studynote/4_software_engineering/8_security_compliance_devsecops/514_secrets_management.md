@@ -1,7 +1,7 @@
----
-title: "514. 시크릿(Secret) 관리 도구 및 보안 전략"
-date: 2026-03-15
----
++++
+title = "514. 시크릿(Secret) 관리 도구 및 보안 전략"
+date = "2026-03-15"
++++
 
 # 514. 시크릿(Secret) 관리 도구 및 보안 전략
 
@@ -153,10 +153,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[API 보안 관리](./510_api_security_jwt.md)**: 시크릿 관리 도구가 보호하는 대상 데이터
-- **[IAM (Identity and Access Management)](./514_iam.md)**: 시크릿 접근 권한을 결정하는 상위 체계
-- **[KMS (Key Management Service)](../xx_kms.md)**: 시크릿 관리 도구 내부의 암호화 키를 관리하는 원천 기술
-- **[컨테이너 보안](./513_container_security.md)**: 시크릿이 주입되는 실제 실행 환경
+- **API 보안 관리**: 시크릿 관리 도구가 보호하는 대상 데이터
+- **IAM (Identity and Access Management)**: 시크릿 접근 권한을 결정하는 상위 체계
+- **KMS (Key Management Service)**: 시크릿 관리 도구 내부의 암호화 키를 관리하는 원천 기술
+- **컨테이너 보안**: 시크릿이 주입되는 실제 실행 환경
 
 ---
 

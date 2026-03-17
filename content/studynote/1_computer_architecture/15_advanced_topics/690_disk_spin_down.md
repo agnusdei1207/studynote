@@ -1,5 +1,6 @@
 +++
 title = "disk spin down"
+date = "2026-03-14"
 weight = 690
 +++
 
@@ -433,11 +434,11 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [ACPI 전원 관리](./acpi_power_management.md) - OS 레벨 전원 제어
-- [MAID (Massive Array of Idle Disks)](./maid_storage.md) - 대규모 유휴 디스크 배열
-- [계층형 스토리지 (Tiered Storage)](./tiered_storage.md) - Hot/Warm/Cold 계층화
-- [HDD 아키텍처](./hdd_architecture.md) - 하드디스크 내부 구조
-- [SSD 전력 관리](./ssd_power_management.md) - SSD DevSleep/Slumber
+- ACPI 전원 관리 - OS 레벨 전원 제어
+- MAID (Massive Array of Idle Disks) - 대규모 유휴 디스크 배열
+- 계층형 스토리지 (Tiered Storage) - Hot/Warm/Cold 계층화
+- HDD 아키텍처 - 하드디스크 내부 구조
+- SSD 전력 관리 - SSD DevSleep/Slumber
 
 ---
 

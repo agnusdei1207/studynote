@@ -1,5 +1,6 @@
 +++
 title = "etcd - 이티시디"
+date = "2026-03-14"
 weight = 779
 +++
 
@@ -103,6 +104,6 @@ etcd는 분산 키-값 저장소입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Kubernetes](./619_kubernetes.md)
-- [Raft](./778_raft.md)
-- [Consensus](./xxx_consensus.md)
+- Kubernetes
+- Raft
+- Consensus

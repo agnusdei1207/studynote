@@ -1,7 +1,7 @@
 +++
-weight = 662
 title = "662. 리눅스 커널 구조 및 서브시스템 통합 맵"
 date = "2024-05-23"
+weight = 662
 [extra]
 categories = "studynote-operating-system"
 keywords = ["Linux Kernel", "Monolithic Kernel", "Process Scheduler", "VFS", "Memory Management"]
@@ -12,7 +12,7 @@ keywords = ["Linux Kernel", "Monolithic Kernel", "Process Scheduler", "VFS", "Me
 > 각 서브시스템은 독립적으로 작동하면서도 상호 긴밀하게 연결되어 있으며, 특히 VFS(Virtual File System)를 통한 추상화와 효율적인 메모리 관리 메커니즘이 시스템 전체의 성능과 안정성을 지탱한다.
 > 현대 리눅스는 LKM(Loadable Kernel Module)을 통해 실행 중 커널 기능을 확장하고, 최신 하드웨어 변화에 기민하게 대응하는 진화적 아키텍처를 보여준다.
 
----
++++
 
 ### Ⅰ. 리눅스 커널의 기본 설계 철학
 
@@ -25,7 +25,7 @@ keywords = ["Linux Kernel", "Monolithic Kernel", "Process Scheduler", "VFS", "Me
 
 📢 섹션 요약 비유: 리눅스 커널은 '만능 맥가이버 칼'과 같아서, 핵심 도구가 하나로 뭉쳐 있어 빠르고 강력하면서도 필요한 부품을 끼웠다 뺐다 할 수 있는 유연함이 특징입니다.
 
----
++++
 
 ### Ⅱ. 리눅스 커널 서브시스템 통합 맵(Architecture Map)
 
@@ -63,7 +63,7 @@ keywords = ["Linux Kernel", "Monolithic Kernel", "Process Scheduler", "VFS", "Me
 
 📢 섹션 요약 비유: 커널 서브시스템은 '오케스트라'와 같아서, 지휘자(스케줄러)가 리듬을 맞추고 각 악기 연주자(서브시스템)들이 서로의 소리를 들으며 완벽한 하모니를 만들어내는 것과 같습니다.
 
----
++++
 
 ### Ⅲ. 프로세스 및 CPU 스케줄링(Process Management)
 
@@ -76,7 +76,7 @@ keywords = ["Linux Kernel", "Monolithic Kernel", "Process Scheduler", "VFS", "Me
 
 📢 섹션 요약 비유: 프로세스 스케줄러는 '공정한 초등학교 선생님'과 같아서, 모든 아이가 놀이터 기구를 골고루 탈 수 있게 시간을 나눠주고 기록하는 역할을 합니다.
 
----
++++
 
 ### Ⅳ. 가상 파일 시스템(VFS, Virtual File System)과 I/O
 
@@ -89,7 +89,7 @@ keywords = ["Linux Kernel", "Monolithic Kernel", "Process Scheduler", "VFS", "Me
 
 📢 섹션 요약 비유: VFS는 '다국어 번역기'와 같아서, 손님이 어떤 언어(파일 시스템)를 쓰든 웨이터(OS)가 다 알아듣고 서비스를 제공할 수 있게 해줍니다.
 
----
++++
 
 ### Ⅴ. 메모리 관리 서브시스템(Memory Management)
 
@@ -102,7 +102,7 @@ keywords = ["Linux Kernel", "Monolithic Kernel", "Process Scheduler", "VFS", "Me
 
 📢 섹션 요약 비유: 메모리 관리는 '유능한 호텔 총지배인'과 같아서, 손님들에게 방(메모리)을 배정하고 방이 모자라면 안 쓰는 방을 정리하거나 손님을 내보내는 결단을 내립니다.
 
----
++++
 
 ### 💡 지식 그래프(Knowledge Graph)
 - **부모 노드**: 오픈소스 운영체제(Open Source OS)

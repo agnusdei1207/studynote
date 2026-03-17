@@ -1,5 +1,6 @@
 +++
 title = "노출 노드 문제 (Exposed Node Problem)"
+date = "2026-03-14"
 weight = 110
 +++
 
@@ -149,10 +150,10 @@ weight = 110
 ---
 
 ### 📌 관련 개념 링크**:
-- [RTS/CTS](./109_rts_cts.md)
-- [숨은 노드 문제](./109_hidden_node.md)
-- [CSMA/CA 충돌 회피](./108_csma_ca.md)
-- [WiFi](./200_wifi.md)
+- RTS/CTS
+- 숨은 노드 문제
+- CSMA/CA 충돌 회피
+- WiFi
 
 ---
 

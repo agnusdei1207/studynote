@@ -1,7 +1,7 @@
 +++
-weight = 229
 title = "229. Compare-and-Swap (CAS) 명령어"
 date = "2026-03-12"
+weight = 229
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "Compare-and-Swap", "CAS", "원자적 명령어", "Lock-free", "낙관적 동기화", "데이터 가시성"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "Compare-and-Swap", "CAS", "원자적 명령어", "L
 > 2. **가치**: 락(Lock)을 사용하지 않고도 데이터의 일관성을 유지할 수 있게 하여(Lock-free), 데드락과 우선순위 역전 문제를 근본적으로 회피하고 높은 병렬성을 제공한다.
 > 3. **융합**: 자바의 `AtomicInteger`, C++의 `std::atomic`, 그리고 현대 운영체제의 고성능 큐와 스택 등 비차단(Non-blocking) 자료구조의 심장 역할을 한다.
 
----
++++
 
 ## Ⅰ. CAS 명령어의 개요
 
@@ -43,7 +43,7 @@ int compare_and_swap(int *value, int expected, int new_value) {
 
 - **📢 섹션 요약 비유**: "내가 알던 그 값이 맞을 때만 바꾼다"는 신중한 확인 절차가 포함된 지능형 교체 기술입니다.
 
----
++++
 
 ## Ⅱ. CAS 기반 낙관적 동기화 (Deep Dive)
 
@@ -79,7 +79,7 @@ void atomic_increment(int *addr) {
 
 - **📢 섹션 요약 비유**: 실패하면 다시 시도하는 끈기 있는 노력가이지만, 가끔은 내용물이 바뀌었는데 겉모습만 보고 오해하는(ABA) 실수를 하기도 합니다.
 
----
++++
 
 ## Ⅲ. CAS vs 전통적인 Lock 비교
 
@@ -92,7 +92,7 @@ void atomic_increment(int *addr) {
 
 - **📢 섹션 요약 비유**: 문을 아예 잠그고 일하는 폐쇄적 사무실(Lock)과, 탁 트인 공간에서 서로 확인하며 일하는 개방형 사무실(CAS)의 차이입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 프로그래밍 인사이트 (Strategy)
 
@@ -106,7 +106,7 @@ void atomic_increment(int *addr) {
 
 - **📢 섹션 요약 비유**: 도구가 아무리 좋아도 쓰는 사람의 숙련도와 환경에 따라 명검이 될 수도, 평범한 칼이 될 수도 있습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -119,14 +119,14 @@ void atomic_increment(int *addr) {
 
 - **📢 섹션 요약 비유**: 신뢰와 확인을 바탕으로 멈춤 없는 흐름을 만드는, 현대 고성능 소프트웨어의 보이지 않는 심장입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[Test-and-Set 명령어](./228_test_and_set.md)**: CAS의 단순화된 초기 형태.
-- **[원자적 변수 (Atomic Variable)](./230_atomic_variable.md)**: CAS를 사용하여 구현된 실제 데이터 타입.
-- **[데드락 (Deadlock)](../6_deadlock/251_deadlock.md)**: CAS를 통해 근본적으로 피할 수 있는 문제.
+- **Test-and-Set 명령어**: CAS의 단순화된 초기 형태.
+- **원자적 변수 (Atomic Variable)**: CAS를 사용하여 구현된 실제 데이터 타입.
+- **데드락 (Deadlock)**: CAS를 통해 근본적으로 피할 수 있는 문제.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. CAS는 **'숨은그림찾기'**를 하면서 물건을 바꾸는 게임과 같아요.

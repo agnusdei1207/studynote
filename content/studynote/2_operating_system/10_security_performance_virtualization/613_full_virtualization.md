@@ -1,6 +1,7 @@
 +++
-weight = 613
 title = "613. 전가상화 (Full Virtualization) - 이진 변조 및 하드웨어 지원"
+date = "2026-03-14"
+weight = 613
 +++
 
 # # 613. 전가상화 (Full Virtualization) - 이진 변조 및 하드웨어 지원

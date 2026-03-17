@@ -1,5 +1,6 @@
 +++
 title = "소프트스위치 - Softswitch"
+date = "2026-03-14"
 weight = 480
 +++
 
@@ -143,10 +144,10 @@ weight = 480
 ---
 
 ### 📌 관련 개념 링크**:
-- [VoIP](./342_voip.md)
-- [SIP](./472_sip.md)
-- [PBX](./481_pbx.md)
-- [UC](./479_uc.md)
+- VoIP
+- SIP
+- PBX
+- UC
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "Terraform - 테라폼"
+date = "2026-03-14"
 weight = 759
 +++
 
@@ -103,6 +104,6 @@ Terraform은 인프라를 코드로 정의합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Infrastructure as Code](./750_iac.md)
-- [GitOps](./751_gitops.md)
-- [Cloud Providers](./xxx_cloud.md)
+- Infrastructure as Code
+- GitOps
+- Cloud Providers

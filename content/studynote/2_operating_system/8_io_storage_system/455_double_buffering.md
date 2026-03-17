@@ -1,6 +1,7 @@
 +++
-weight = 455
 title = "455. 이중 버퍼링 (Double Buffering)"
+date = "2026-03-14"
+weight = 455
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -111,9 +112,9 @@ title = "455. 이중 버퍼링 (Double Buffering)"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[버퍼링 (Buffering)](./454_buffering.md)**: 이중 버퍼링의 기초가 되는 개념.
-- **[Page Flipping](./xx_page_flipping.md)**: 그래픽에서 버퍼를 교체하는 물리적 행위.
-- **[생산자-소비자 문제](./xx_producer_consumer.md)**: 버퍼링 구현 시 발생하는 고전적인 동기화 문제.
+- **버퍼링 (Buffering)**: 이중 버퍼링의 기초가 되는 개념.
+- **Page Flipping**: 그래픽에서 버퍼를 교체하는 물리적 행위.
+- **생산자-소비자 문제**: 버퍼링 구현 시 발생하는 고전적인 동기화 문제.
 
 ---
 

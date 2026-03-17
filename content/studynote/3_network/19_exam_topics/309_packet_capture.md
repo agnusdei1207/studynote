@@ -1,5 +1,6 @@
 +++
 title = "패킷 캡처 - Packet Capture"
+date = "2026-03-14"
 weight = 309
 +++
 
@@ -147,10 +148,10 @@ weight = 309
 ---
 
 ### 📌 관련 개념 링크**:
-- [Wireshark](./310_wireshark.md)
-- [트러블슈팅](./308_troubleshooting.md)
-- [SPAN](./311_span.md)
-- [TAP](./312_tap.md)
+- Wireshark
+- 트러블슈팅
+- SPAN
+- TAP
 
 ---
 

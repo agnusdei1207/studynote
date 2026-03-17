@@ -1,7 +1,7 @@
 +++
 title = "260. ABA 문제 해결책"
-weight = 260
 date = "2026-03-04"
+weight = 260
 [extra]
 categories = "studynote-operating-system"
 +++
@@ -13,7 +13,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 포인터의 재사용으로 인한 논리적 파손을 수학적으로 방지하며, 락-프리 자료구조의 안정성을 락 기반 수준으로 끌어올리면서 성능상의 이점은 유지한다.
 > 3. **융합**: Hazard Pointers, RCU(Read-Copy-Update), Epoch-based Reclamation 등 현대적인 메모리 관리 기법들과 상호 보완적으로 작동하여 완벽한 동기화 환경을 구축한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -23,7 +23,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 이름은 같지만 생년월일이 다른 사람을 구분해 내듯, 데이터에 시간의 낙인(Version)을 찍어 변조를 가려내는 정교한 검문 시스템과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -60,7 +60,7 @@ bool CAS128(uint128_t* target, uint128_t expected, uint128_t new_val) {
 
 - **📢 섹션 요약 비유**: 물건에 '사용 중'이라는 꼬리표(Hazard Pointer)를 붙여두거나, 아예 물건을 버리지 않고 보관(GC)하여 헷갈릴 일을 없애는 관리법과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -75,7 +75,7 @@ bool CAS128(uint128_t* target, uint128_t expected, uint128_t new_val) {
 
 - **📢 섹션 요약 비유**: Tagged Pointer는 "개인 보안", Hazard Pointer는 "공동 약속", GC는 "국가 복지" 시스템에 비유할 수 있습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -91,7 +91,7 @@ bool CAS128(uint128_t* target, uint128_t expected, uint128_t new_val) {
 
 - **📢 섹션 요약 비유**: 단순히 문을 잠그는 것보다, 누가 언제 들어왔는지 기록하는 '출입 명부'를 병행하는 것이 가장 확실한 보안 대책입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 

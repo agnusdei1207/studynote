@@ -1,10 +1,9 @@
----
-title: "[ICT] #82. 라이트 노드 (Light Node / SPV Node)"
-date: "2026-03-17"
++++
+title = "[ICT] #82. 라이트 노드 (Light Node / SPV Node)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "LightNode_SPV_SimplifiedPaymentVerification_MerkleProof_MobileWallet"
----
+keyword = "LightNode_SPV_SimplifiedPaymentVerification_MerkleProof_MobileWallet"
++++
 
 # 라이트 노드 (Light Node): 모바일 시대를 위한 경량화된 블록체인 검증 기술
 
@@ -13,7 +12,7 @@ keyword: "LightNode_SPV_SimplifiedPaymentVerification_MerkleProof_MobileWallet"
 > 2. **가치**: **SPV (Simplified Payment Verification)** 기술을 통해 수백 GB의 용량 대신 수십 MB의 데이터만으로도 안전하게 거래를 확인할 수 있어, 스마트폰 지갑이나 IoT 기기 등 저사양 환경에 최적화되어 있다.
 > 3. **융합**: 풀 노드에게 **머클 증명(Merkle Proof)**을 요청하여 특정 거래의 포함 여부를 수학적으로 입증받으며, 보안성과 저장 공간 사이의 트레이드오프를 해결하는 모바일 블록체인 생태계의 핵심 인터페이스다.
 
----
++++
 
 ## Ⅰ. 라이트 노드 (Light Node) 개요
 
@@ -30,7 +29,7 @@ keyword: "LightNode_SPV_SimplifiedPaymentVerification_MerkleProof_MobileWallet"
 
 📢 **섹션 요약 비유**: 무거운 백과사전 전집(Full Node)을 들고 다니는 대신, 스마트폰으로 필요한 단어만 검색(Light Node)하여 지식을 확인하는 효율적인 정보 활용 방식입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 SPV 작동 원리 (Deep Dive)
 
@@ -81,7 +80,7 @@ keyword: "LightNode_SPV_SimplifiedPaymentVerification_MerkleProof_MobileWallet"
 
 📢 **섹션 요약 비유**: 범인의 몽타주(블룸 필터)만 보여주고 "이 사람과 비슷한 사람들을 다 데려와 봐"라고 한 뒤, 데려온 사람들 중에서 내가 진짜 범인(내 거래)을 직접 골라내는 정교한 탐색 과정입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -102,7 +101,7 @@ keyword: "LightNode_SPV_SimplifiedPaymentVerification_MerkleProof_MobileWallet"
 
 📢 **섹션 요약 비유**: 풀 노드가 전력을 공급하는 '발전소'라면, 라이트 노드는 집집마다 설치된 '콘센트'와 같이 블록체인의 혜택을 실생활로 연결하는 접점입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -121,7 +120,7 @@ keyword: "LightNode_SPV_SimplifiedPaymentVerification_MerkleProof_MobileWallet"
 
 📢 **섹션 요약 비유**: 성능을 위해 짐을 가볍게 줄이되(라이트 노드), 가짜 정보에 속지 않도록 '검증용 돋보기(머클 증명)'를 항상 챙기는 것이 실무 설계의 정석입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -135,13 +134,13 @@ keyword: "LightNode_SPV_SimplifiedPaymentVerification_MerkleProof_MobileWallet"
 
 📢 **섹션 요약 비유**: 라이트 노드는 블록체인을 '전문가들의 전유물'에서 '모두의 일상'으로 바꾸어 놓은 **가장 친절한 기술적 배려**입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[풀 노드 (Full Node)](./80_full_node.md)**: 라이트 노드가 의존하는 신뢰의 원천.
-- **[머클 트리 (Merkle Tree)](./6_merkle_tree.md)**: 라이트 노드가 거래를 검증하는 수학적 근거.
-- **[SPV (간편 결제 검증)](./xx_spv.md)**: 라이트 노드가 작동하는 핵심 알고리즘.
-- **[비트코인 백서](./xx_bitcoin_whitepaper.md)**: 라이트 노드 개념이 처음 제안된 문서.
+- **풀 노드 (Full Node)**: 라이트 노드가 의존하는 신뢰의 원천.
+- **머클 트리 (Merkle Tree)**: 라이트 노드가 거래를 검증하는 수학적 근거.
+- **SPV (간편 결제 검증)**: 라이트 노드가 작동하는 핵심 알고리즘.
+- **비트코인 백서**: 라이트 노드 개념이 처음 제안된 문서.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **가벼운 일기 요약본**: 전교생의 두꺼운 일기장을 다 들고 다니기 힘들어서, 일기 제목만 적힌 얇은 수첩을 들고 다니는 거예요.

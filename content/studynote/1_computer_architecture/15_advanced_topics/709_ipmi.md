@@ -1,5 +1,6 @@
 +++
 title = "ipmi"
+date = "2026-03-14"
 weight = 709
 +++
 
@@ -390,10 +391,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [BMC](./710_bmc.md) - 베이스보드 관리 컨트롤러
-- [Redfish](./711_redfish.md) - RESTful 관리 API
-- [KVM over IP](./713_kvm_over_ip.md) - 원격 콘솔
-- [OOB Management](./712_oob_management.md) - 대역 외 관리
+- BMC - 베이스보드 관리 컨트롤러
+- Redfish - RESTful 관리 API
+- KVM over IP - 원격 콘솔
+- OOB Management - 대역 외 관리
 
 ---
 

@@ -1,6 +1,7 @@
 +++
-weight = 256
 title = "256. 플래시 메모리 (Flash Memory)"
+date = "2026-03-14"
+weight = 256
 +++
 
 # 256. 플래시 메모리 (Flash Memory)
@@ -147,4 +148,4 @@ $$ N_{life} \approx f(V_{pp}, T) $$
 ### 2. 과목 융합 관점 (OS & DB & Network)
 
 *   **운영체제(OS)와의 융합**:
-    *   
+    *

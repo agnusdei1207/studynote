@@ -1,5 +1,6 @@
 +++
 title = "Cache Coherence - 캐시 일관성"
+date = "2026-03-14"
 weight = 659
 +++
 
@@ -102,6 +103,6 @@ Cache Coherence는 멀티코어 간 캐시 일관성을 유지합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Memory Barrier](./658_memory_barrier.md)
-- [NUMA](./660_numa.md)
-- [CPU Cache](./661_cpu_cache.md)
+- Memory Barrier
+- NUMA
+- CPU Cache

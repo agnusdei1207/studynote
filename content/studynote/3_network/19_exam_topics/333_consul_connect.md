@@ -1,5 +1,6 @@
 +++
 title = "Consul Connect - 서비스 메시"
+date = "2026-03-14"
 weight = 333
 +++
 
@@ -149,10 +150,10 @@ Consul Connect는 서비스 디스커버리와 서비스 메시를 제공하는 
 ---
 
 ### 📌 관련 개념 링크**:
-- [Istio](./330_istio.md)
-- [Service Mesh](./329_service_mesh.md)
-- [Nomad](./15_devops_sre/160_nomad.md)
-- [서비스 디스커버리](./13_cloud_architecture/145_service_discovery.md)
+- Istio
+- Service Mesh
+- Nomad
+- 서비스 디스커버리
 
 ---
 

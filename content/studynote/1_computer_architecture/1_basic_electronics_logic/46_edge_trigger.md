@@ -1,6 +1,7 @@
 +++
-weight = 46
 title = "46. 에지 트리거 (Edge Trigger)"
+date = "2026-03-14"
+weight = 46
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -115,9 +116,9 @@ title = "46. 에지 트리거 (Edge Trigger)"
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[레벨 트리거 (Level Trigger)](./47_level_trigger.md)**: 에지 트리거와 대비되는 방식.
-- **[플립플롭 (Flip-Flop)](./51_flip_flop.md)**: 에지 트리거를 사용하는 대표적 소자.
-- **[셋업/홀드 타임](../xx_timing/xx_setup_hold.md)**: 에지 트리거 동작의 물리적 한계.
+- **레벨 트리거 (Level Trigger)**: 에지 트리거와 대비되는 방식.
+- **플립플롭 (Flip-Flop)**: 에지 트리거를 사용하는 대표적 소자.
+- **셋업/홀드 타임**: 에지 트리거 동작의 물리적 한계.
 
 ---
 

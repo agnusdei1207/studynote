@@ -1,7 +1,6 @@
 +++
 title = "162. 정규 표현식 (Regular Expression) - SQL에서의 고급 패턴 매칭"
 date = "2026-03-16"
-draft = false
 weight = 162
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["정규 표현식", "Regular Expression", "Regexp", "REGEXP_LIKE", "
 > 2. **표준 기능**: 이메일 형식 검증, 전화번호 패턴 추출, 불필요한 특수문자 일괄 제거 등 비정형 텍스트 데이터에 대한 **정교한 필터링**을 SQL 문장 내에서 직접 수행할 수 있게 한다.
 > 3. **가치**: 애플리케이션의 복잡한 문자열 처리 로직을 데이터베이스 레벨로 이관하여 개발 생산성을 높이고, 데이터 품질 검수(Data Profiling) 단계에서의 정확도를 획기적으로 개선한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -48,7 +47,7 @@ keywords = ["정규 표현식", "Regular Expression", "Regexp", "REGEXP_LIKE", "
 
 - **📢 섹션 요약 비유**: 정규 표현식은 '데이터라는 모래사장에서 바늘(패턴)을 찾아내는 강력한 자석'과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -94,7 +93,7 @@ keywords = ["정규 표현식", "Regular Expression", "Regexp", "REGEXP_LIKE", "
 
 - **📢 섹션 요약 비유**: 메타 문자는 '패턴 설계도'이며, 엔진은 이 설계도를 들고 데이터 현장을 누비는 '검사관'입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -113,7 +112,7 @@ keywords = ["정규 표현식", "Regular Expression", "Regexp", "REGEXP_LIKE", "
 
 - **📢 섹션 요약 비유**: LIKE가 '신분증 앞자리만 보는 경비원'이라면, REGEXP는 '지문과 홍채까지 대조하는 정밀 보안 검색대'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -132,7 +131,7 @@ keywords = ["정규 표현식", "Regular Expression", "Regexp", "REGEXP_LIKE", "
 
 - **📢 섹션 요약 비유**: 정규 표현식을 남발하는 것은 '모든 방 문을 열 때마다 복잡한 퍼즐을 푸는 것'과 같아, 전체적인 이동 속도(시스템 성능)를 크게 떨어뜨립니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -150,15 +149,15 @@ keywords = ["정규 표현식", "Regular Expression", "Regexp", "REGEXP_LIKE", "
 
 - **📢 섹션 요약 비유**: 미래의 정규 표현식은 우리가 기호를 외우지 않아도, 우리가 '찾고 싶은 느낌'을 말하면 데이터들 사이에서 정답만을 쏙쏙 골라주는 지능형 탐지기가 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[데이터 정제 (Cleaning)](@/studynote/16_bigdata/_index.md)**: 정규식의 가장 큰 활용처.
-- **[SQL Injection](./131_sql_standards.md)**: 정규식으로 방어해야 할 대상.
-- **[문자열 함수](./157_string_math_functions.md)**: 정규식의 기초가 되는 도구들.
-- **[컴파일러 아키텍처](@/studynote/1_computer_architecture/_index.md)**: 정규식 엔진의 내부 원리.
+- **데이터 정제 (Cleaning)**: 정규식의 가장 큰 활용처.
+- **SQL Injection**: 정규식으로 방어해야 할 대상.
+- **문자열 함수**: 정규식의 기초가 되는 도구들.
+- **컴파일러 아키텍처**: 정규식 엔진의 내부 원리.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **정규 표현식**은 복잡하게 섞인 퍼즐 조각들 중에서 **"동그란 구멍이 있고 파란색인 조각"**만 콕 찝어내는 마법 손가락 같아요.

@@ -1,5 +1,6 @@
 +++
 title = "Fencing - 펜싱"
+date = "2026-03-14"
 weight = 782
 +++
 
@@ -99,6 +100,6 @@ Fencing은 문제 노드를 격리합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Split-Brain](./781_split_brain.md)
-- [Quorum](./780_quorum.md)
-- [High Availability](./xxx_ha.md)
+- Split-Brain
+- Quorum
+- High Availability

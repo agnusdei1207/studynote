@@ -1,5 +1,6 @@
 +++
 title = "QAM (직교 진폭 변조)"
+date = "2026-03-14"
 weight = 51
 +++
 
@@ -147,10 +148,10 @@ QAM(Quadrature Amplitude Modulation)은 두 개의 직교 반송파(I, Q)에 진
 ---
 
 ### 📌 관련 개념 링크**:
-- [ASK 진폭 편이 변조](./45_ask_amplitude.md)
-- [PSK 위상 편이 변조](./47_psk_phase_shift.md)
-- [성상도 Constellation](./53_constellation.md)
-- [I/Q 변조](./205_iq_modulation.md)
+- ASK 진폭 편이 변조
+- PSK 위상 편이 변조
+- 성상도 Constellation
+- I/Q 변조
 
 ---
 

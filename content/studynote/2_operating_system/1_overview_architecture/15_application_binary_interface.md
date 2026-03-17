@@ -1,6 +1,7 @@
 +++
-weight = 15
 title = "15. ABI (Application Binary Interface)"
+date = "2026-03-14"
+weight = 15
 +++
 
 # ABI (Application Binary Interface)
@@ -122,10 +123,10 @@ API (Application Programming Interface)는 개발자가 코드를 '작성'하는
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[API (Application Programming Interface)](./14_api.md)**: 소스 레벨의 인터페이스. ABI와 상호 보완적 관계.
-- **[시스템 호출 (System Call)](./13_system_call.md)**: ABI에서 정의하는 가장 핵심적인 커널-사용자 소통 인터페이스.
-- **[링커와 로더 (Linker & Loader)](../xx_linker_loader.md)**: ABI 규격에 맞춰 바이너리를 메모리에 배치하고 결합하는 도구.
-- **[엔디언 (Endianness)](../../1_computer_architecture/xx_endianness.md)**: ABI에서 규정하는 바이트 저장 순서 (Little/Big Endian).
+- **API (Application Programming Interface)**: 소스 레벨의 인터페이스. ABI와 상호 보완적 관계.
+- **시스템 호출 (System Call)**: ABI에서 정의하는 가장 핵심적인 커널-사용자 소통 인터페이스.
+- **링커와 로더 (Linker & Loader)**: ABI 규격에 맞춰 바이너리를 메모리에 배치하고 결합하는 도구.
+- **엔디언 (Endianness)**: ABI에서 규정하는 바이트 저장 순서 (Little/Big Endian).
 
 ---
 

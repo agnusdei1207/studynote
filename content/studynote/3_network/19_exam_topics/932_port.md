@@ -1,5 +1,6 @@
 +++
 title = "Port - 포트"
+date = "2026-03-14"
 weight = 932
 +++
 
@@ -108,6 +109,6 @@ Port는 호스트 내 프로세스를 식별하는 번호입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Socket](./931_socket.md)
-- [TCP](./850_tcp.md)
-- [Transport Layer](./xxx_transport_layer.md)
+- Socket
+- TCP
+- Transport Layer

@@ -1,7 +1,6 @@
 +++
 title = "90. 기본 엔티티와 스냅샷 엔티티 (Base vs Snapshot Entity)"
 date = "2026-03-16"
-draft = false
 weight = 90
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["Base Entity", "Snapshot Entity", "기본 엔티티", "스냅샷 엔
 > 2. **상호 보완**: 기본 엔티티는 실시간 트랜잭션의 정확성을 책임지며, 스냅샷 엔티티는 과거 시점의 데이터를 재현하거나 통계 분석 시 데이터의 변동 가능성을 차단하여 **일관된 분석 결과**를 보장한다.
 > 3. **가치**: 데이터의 이력(History) 관리와 대규모 통계 쿼리의 성능 최적화를 동시에 달성하며, 특히 금융이나 물류 시스템에서 과거 특정일의 정산 데이터를 복원하는 데 필수적인 아키텍처다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -47,7 +46,7 @@ keywords = ["Base Entity", "Snapshot Entity", "기본 엔티티", "스냅샷 엔
 
 - **📢 섹션 요약 비유**: 기본 엔티티는 '현재 진행형'이고, 스냅샷 엔티티는 '과거 완료형'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -91,7 +90,7 @@ keywords = ["Base Entity", "Snapshot Entity", "기본 엔티티", "스냅샷 엔
 
 - **📢 섹션 요약 비유**: 스냅샷은 '영화의 매 프레임을 다 저장하는 대신, 1초마다 한 장씩 사진을 남겨두는 것'과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -110,7 +109,7 @@ keywords = ["Base Entity", "Snapshot Entity", "기본 엔티티", "스냅샷 엔
 
 - **📢 섹션 요약 비유**: 스냅샷이 '중간 점수'라면, 로그는 '점수를 얻기까지의 모든 플레이 기록'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -129,7 +128,7 @@ keywords = ["Base Entity", "Snapshot Entity", "기본 엔티티", "스냅샷 엔
 
 - **📢 섹션 요약 비유**: 무분별한 스냅샷은 '매초 사진을 찍어서 사진첩이 터져나가는 것'과 같아 정작 원하는 사진을 찾기 힘들게 만듭니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -147,15 +146,15 @@ keywords = ["Base Entity", "Snapshot Entity", "기본 엔티티", "스냅샷 엔
 
 - **📢 섹션 요약 비유**: 미래의 데이터베이스는 시간을 자유자재로 넘나드는 '타임머신' 기능을 내장하여, 과거의 진실을 언제든 현재로 소환하는 지능형 저장소가 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[핵심 엔티티 (Core Entity)](./89_entity_classification.md)**: 스냅샷의 원천이 되는 데이터.
-- **[이력 관리 (History Management)](./117_physical_design.md)**: 시간을 관리하는 모델링 기법.
-- **[Materialized View](./151_view.md)**: 기술적으로 구현된 스냅샷의 일종.
-- **[CDC (Change Data Capture)](@/studynote/14_data_engineering/_index.md)**: 스냅샷을 생성하는 원재료 공급원.
+- **핵심 엔티티 (Core Entity)**: 스냅샷의 원천이 되는 데이터.
+- **이력 관리 (History Management)**: 시간을 관리하는 모델링 기법.
+- **Materialized View**: 기술적으로 구현된 스냅샷의 일종.
+- **CDC (Change Data Capture)**: 스냅샷을 생성하는 원재료 공급원.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **기본 엔티티**는 지금 내 키가 얼마인지 보여주는 **"키재기 판"**과 같아요. 내가 크면 판의 숫자도 바뀌죠.

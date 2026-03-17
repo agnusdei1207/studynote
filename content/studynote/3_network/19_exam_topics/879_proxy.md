@@ -1,5 +1,6 @@
 +++
 title = "Proxy - 프록시"
+date = "2026-03-14"
 weight = 879
 +++
 
@@ -111,6 +112,6 @@ Proxy는 클라이언트를 대신해 서버와 통신합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Load Balancer](./xxx_load_balancer.md)
-- [Cache](./xxx_cache.md)
-- [Firewall](./877_firewall.md)
+- Load Balancer
+- Cache
+- Firewall

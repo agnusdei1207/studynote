@@ -1,5 +1,6 @@
 +++
 title = "Lock-free - 락 프리"
+date = "2026-03-14"
 weight = 657
 +++
 
@@ -97,6 +98,6 @@ Lock-free는 락 없이 동시성을 달성합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Atomic Operation](./656_atomic_operation.md)
-- [Mutex](./653_mutex.md)
-- [Concurrent Data Structure](./658_concurrent_ds.md)
+- Atomic Operation
+- Mutex
+- Concurrent Data Structure

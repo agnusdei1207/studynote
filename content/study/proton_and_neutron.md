@@ -1,7 +1,6 @@
 +++
 title = "양성자와 중성자의 역할과 차이 (Proton vs. Neutron)"
-date = 2026-03-08
-
+date = "2026-03-08"
 [extra]
 categories = "physics"
 +++

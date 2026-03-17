@@ -1,6 +1,7 @@
 +++
-weight = 4
 title = "4. 임피던스 (Impedance)"
+date = "2026-03-14"
+weight = 4
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -159,10 +160,10 @@ $$Z_{target} = \frac{\text{Voltage Ripple Tolerance}}{\text{Maximum Transient Cu
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[저항 (Resistance)](./3_resistance.md)**: 임피던스의 실수 성분.
-- **[커패시터 (Capacitor)](./5_capacitor.md)**: 용량성 리액턴스($X_C$)를 제공하는 소자.
-- **[인덕터 (Inductor)](./7_inductor.md)**: 유도성 리액턴스($X_L$)를 제공하는 소자.
-- **[신호 무결성 (Signal Integrity)](../3_architecture_performance/xx_si.md)**: 임피던스 제어를 통해 달성하려는 목표.
+- **저항 (Resistance)**: 임피던스의 실수 성분.
+- **커패시터 (Capacitor)**: 용량성 리액턴스($X_C$)를 제공하는 소자.
+- **인덕터 (Inductor)**: 유도성 리액턴스($X_L$)를 제공하는 소자.
+- **신호 무결성 (Signal Integrity)**: 임피던스 제어를 통해 달성하려는 목표.
 
 ---
 

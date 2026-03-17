@@ -1,5 +1,6 @@
 +++
 title = "랜섬웨어 - Ransomware"
+date = "2026-03-14"
 weight = 408
 +++
 
@@ -142,10 +143,10 @@ weight = 408
 ---
 
 ### 📌 관련 개념 링크**:
-- [Malware](./407_malware.md)
-- [Phishing](./409_phishing.md)
-- [EDR](./9_security/154_edr.md)
-- [Backup](./15_devops_sre/102_backup.md)
+- Malware
+- Phishing
+- EDR
+- Backup
 
 ---
 

@@ -1,6 +1,7 @@
 +++
-weight = 382
 title = "382. 가상 주소 공간 (Virtual Address Space)"
+date = "2026-03-14"
+weight = 382
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -126,4 +127,3 @@ graph LR
     VAS --> Data[Data: Global Vars]
     VAS --> Code[Text: Binary Instruction]
     VAS -.-> MMU[Address Translation]
-```

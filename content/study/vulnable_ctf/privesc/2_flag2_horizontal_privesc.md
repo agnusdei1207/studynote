@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Horizontal Privilege Escalation (Flag 2)"
-description = "LUXORA 플랫폼의 웹 서버 설정 파일 분석 및 비밀번호 재사용 공격을 통한 일반 유저 권한 획득 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Privilege Escalation", "Information Gathering", "SSH", "Write-up"]

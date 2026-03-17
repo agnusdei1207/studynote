@@ -12,7 +12,7 @@ categories = "studynote-se"
 > 2. **가치** 언어/데이터베이스 독립, 상태 비저장, 프로세스 기반 실행 → **DevOps 자동화 90%**, **배포 시간 95% 단축**
 > 3. **융합**: 클라우드 네이티브, 컨테이너화, 마이크로서비스, CI/CD와 연계
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background) - [500자+]
 
@@ -66,7 +66,7 @@ categories = "studynote-se"
 
 마치 **레스토랑 체인**와 같습니다. 레스토랑 체인은 **표준화된 주방(Factors)**을 통해 어떤 레스토랑이든(클우드 제공사) 동일한 퀄리티를 제공합니다. 주방장이 바껴어도 동일한 주방장서(Factors)에 따라 요리하면, 고객은 어디서나 같은 음식을 누릴 수 있습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive) - [1,000자+]
 
@@ -422,7 +422,7 @@ spec:
           preStop:
             exec:
               command: ["/bin/sh", "-c", "sleep 10 && curl -X POST http://localhost:8080/shutdown"]
----
++++
 apiVersion: v1
 kind: Service
 metadata:
@@ -435,7 +435,7 @@ spec:
   - port: 80
     targetPort: 8080
   type: LoadBalancer
----
++++
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -443,7 +443,7 @@ metadata:
 data:
   database-url: "postgres://user:pass@db:5432/myapp"
   redis-host: "redis"
----
++++
 
 # ============ 애�리케이션 코드 (포트 바인딩) ============
 
@@ -607,7 +607,7 @@ if (process.argv[2] === 'migrate') {
 
 마치 **식당의 표준화된 주방 설비**와 같습니다. 12가지 원칙(Factors)은 어떤 주방에서든 동일한 퀄리티를 보장합니다. 주방장(Factors)을 준수하면, 어떤 레스토랑(클라우드)에서도 동일한 음식을 제공할 수 있습니다. 이는 **식당 체인화(Franchise)**과 유사하며, 표준화된 프로세스는 **확장성(Scalability)**과 **품질 일관성**을 보장합니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy) - [비교표 2개+]
 
@@ -694,7 +694,7 @@ if (process.argv[2] === 'migrate') {
 
 마치 **컨테이너 선박**과 같습니다. 12-Factor App는 **표준화된 컨테이너 이미지**로 패키징되어 있어, 어느 레스토랑(Docker Compose, Kubernetes)에서든 동일하게 실행됩니다. 이는 **"배달 음식(Meal kit)"**과 같아서, 재료(코드)만 있으면 어디서나 동일한 요리를 할 수 있습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision) - [800자+]
 
@@ -853,7 +853,7 @@ const db = mysql.createConnection({
 
 마치 **카레 레스테랑**와 같습니다. 12-Factor App는 **표준화된 조리 프로세스**를 통해 어떤 레스토랑에서든 동일한 카레이스터리를 제공합니다. 조리법(Factors)을 준수하면, 재료(코드)만 있으면 어디서나 동일한 요리를 할 수 있습니다. 이는 **프랜차이즈 확장**과 **품질 일관성**을 보장합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard) - [400자+]
 
@@ -886,15 +886,15 @@ const db = mysql.createConnection({
 
 미래의 12-Factor App는 **"자율 주행 컨테이너(Autonomous Container)"**와 결합할 것입니다. 각 앱(컨테이너)는 **스스스스템템트(Smart)**하게 자가 최적화를 수행하고, **서비스 메시(Service Mesh)**를 통해 다른 앱과 협력하며, **GitOps**로 **자동 배포**를 수행합니다. 이는 **"Self-Driving Restaurant"**처럼, 사람 개입 없이 스스로 운영되는 **완전 자동화된 시스템**으로 진화할 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
 
-- **[클라우드 네이티브](./591_cloud_native.md)**: 클라우드 네이티브 전체 개요
-- **[Docker](./k8s_container.md)**: 컨테이너 기반
-- **[Kubernetes](./k8s_basics.md)**: 컨테이너 오케스트레이션
-- **[CI/CD](./650_ci_cd_pipeline.md)**: 지속적 통합/배포
-- **[DevOps](./652_devops.md)**: 개발/운영 통합
+- **클라우드 네이티브**: 클라우드 네이티브 전체 개요
+- **Docker**: 컨테이너 기반
+- **Kubernetes**: 컨테이너 오케스트레이션
+- **CI/CD**: 지속적 통합/배포
+- **DevOps**: 개발/운영 통합
 
 ### 👶 어린이를 위한 3줄 비유 설명
 

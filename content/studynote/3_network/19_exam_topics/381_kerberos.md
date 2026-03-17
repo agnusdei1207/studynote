@@ -1,5 +1,6 @@
 +++
 title = "Kerberos - 네트워크 인증 프로토콜"
+date = "2026-03-14"
 weight = 381
 +++
 
@@ -143,10 +144,10 @@ Kerberos는 티켓을 사용하여 안전한 인증을 제공합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [SSO](./378_sso.md)
-- [Active Directory](./9_security/174_active_directory.md)
-- [RADIUS](./382_radius.md)
-- [LDAP](./384_ldap.md)
+- SSO
+- Active Directory
+- RADIUS
+- LDAP
 
 ---
 

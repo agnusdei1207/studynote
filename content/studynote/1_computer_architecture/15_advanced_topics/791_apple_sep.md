@@ -1,5 +1,6 @@
 +++
 title = "apple sep"
+date = "2026-03-14"
 weight = 791
 +++
 
@@ -129,10 +130,10 @@ weight = 791
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [Google Titan 보안 칩](./792_google_titan.md)
-- [보안 엔클레이브](./790_secure_enclave.md)
-- [TPM](./786_tpm.md)
-- [안티 탬퍼](./783_anti_tamper.md)
+- Google Titan 보안 칩
+- 보안 엔클레이브
+- TPM
+- 안티 탬퍼
 
 ---
 

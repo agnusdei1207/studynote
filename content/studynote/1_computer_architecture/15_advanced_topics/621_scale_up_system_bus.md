@@ -1,5 +1,6 @@
 +++
 title = "621. 스케일 업 (Scale-Up) 시스템 버스"
+date = "2026-03-14"
 weight = 621
 +++
 
@@ -144,10 +145,10 @@ weight = 621
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[NUMA (Non-Uniform Memory Access)](./xx_numa.md)**: 시스템 버스 구조로 인해 발생하는 메모리 접근 지연의 물리적 현상.
-- **[CXL (Compute Express Link)](./xx_cxl.md)**: 시스템 버스를 외부 장치 및 메모리 확장으로 넓히는 차세대 표준.
-- **[캐시 일관성 (Cache Coherency)](./512_mesi_protocol_state_transition.md)**: 시스템 버스가 하드웨어적으로 보장해야 할 가장 중요한 소프트웨어적 약속.
-- **[NVLink](./xx_nvlink.md)**: GPU 간의 스케일 업 연결을 위해 고안된 고대역폭 버스 기술.
+- **NUMA (Non-Uniform Memory Access)**: 시스템 버스 구조로 인해 발생하는 메모리 접근 지연의 물리적 현상.
+- **CXL (Compute Express Link)**: 시스템 버스를 외부 장치 및 메모리 확장으로 넓히는 차세대 표준.
+- **캐시 일관성 (Cache Coherency)**: 시스템 버스가 하드웨어적으로 보장해야 할 가장 중요한 소프트웨어적 약속.
+- **NVLink**: GPU 간의 스케일 업 연결을 위해 고안된 고대역폭 버스 기술.
 
 ---
 

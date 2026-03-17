@@ -1,10 +1,9 @@
----
-title: "[ICT] #22. 스마트 컨트랙트 (Smart Contract)"
-date: "2026-03-17"
++++
+title = "[ICT] #22. 스마트 컨트랙트 (Smart Contract)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Smart_Contract_Nick_Szabo_Automation_Self_Executing"
----
+keyword = "Smart_Contract_Nick_Szabo_Automation_Self_Executing"
++++
 
 # 스마트 컨트랙트 (Smart Contract): 중개자 없는 신뢰 자동화와 프로그래밍 가능한 경제
 
@@ -13,7 +12,7 @@ keyword: "Smart_Contract_Nick_Szabo_Automation_Self_Executing"
 > 2. **가치**: 계약의 강제 이행성을 코드로 보장함으로써 중개인(은행, 변호사 등) 비용을 획기적으로 줄이고, **투명성**과 **비가역성**을 통해 계약 분쟁의 소지를 원천 차단한다.
 > 3. **융합**: 이더리움(Ethereum)의 EVM을 통해 대중화되었으며, 단순 송금을 넘어 DeFi(탈중앙 금융), NFT, DAO 등 복잡한 비즈니스 로직을 블록체인 상에서 구현하는 '프로토콜 경제'의 핵심 엔진이다.
 
----
++++
 
 ## Ⅰ. 스마트 컨트랙트 (Smart Contract) 개요
 
@@ -31,7 +30,7 @@ keyword: "Smart_Contract_Nick_Szabo_Automation_Self_Executing"
 
 📢 **섹션 요약 비유**: 종이 계약서와 공증인의 도장 대신, 누구나 확인 가능하고 절대 고칠 수 없는 '디지털 톱니바퀴'에 계약 내용을 맡겨 자동으로 돌아가게 만드는 시스템입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -81,7 +80,7 @@ keyword: "Smart_Contract_Nick_Szabo_Automation_Self_Executing"
 
 📢 **섹션 요약 비유**: 수천 대의 계산기가 똑같은 수식(코드)을 동시에 계산하여, 모두가 똑같은 정답(합의 결과)을 내놓아야만 다음 페이지로 넘어가는 '엄격한 디지털 수학 시간'과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -102,7 +101,7 @@ keyword: "Smart_Contract_Nick_Szabo_Automation_Self_Executing"
 
 📢 **섹션 요약 비유**: 종이 계약서가 상황에 따라 유들유들하게 조절할 수 있는 '고무줄'이라면, 스마트 컨트랙트는 빈틈없이 딱딱 맞물려 돌아가는 '강철 톱니바퀴'와 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -116,7 +115,7 @@ keyword: "Smart_Contract_Nick_Szabo_Automation_Self_Executing"
 
 📢 **섹션 요약 비유**: 로봇 팔이 물건을 정확히 옮기려면 센서(오라클)가 정확해야 하듯, 스마트 컨트랙트도 현실의 데이터와 연결될 때 가장 세심한 주의가 필요합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -130,13 +129,13 @@ keyword: "Smart_Contract_Nick_Szabo_Automation_Self_Executing"
 
 📢 **섹션 요약 비유**: 스마트 컨트랙트는 블록체인이라는 단단한 대지 위에 세워진 **'디지털 법전'**이자, 스스로 움직이는 **'경제의 자율주행 엔진'**입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[닉 자보 (Nick Szabo)](./xx_nick_szabo.md)**: 스마트 컨트랙트 개념의 창시자.
-- **[EVM (이더리움 가상머신)](./23_evm.md)**: 스마트 컨트랙트가 실제로 실행되는 환경.
-- **[솔리디티 (Solidity)](./57_solidity.md)**: 스마트 컨트랙트 작성을 위한 전용 언어.
-- **[블록체인 오라클 (Oracle)](./36_oracle.md)**: 외부 데이터를 컨트랙트에 주입하는 기술.
+- **닉 자보 (Nick Szabo)**: 스마트 컨트랙트 개념의 창시자.
+- **EVM (이더리움 가상머신)**: 스마트 컨트랙트가 실제로 실행되는 환경.
+- **솔리디티 (Solidity)**: 스마트 컨트랙트 작성을 위한 전용 언어.
+- **블록체인 오라클 (Oracle)**: 외부 데이터를 컨트랙트에 주입하는 기술.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **말 잘 듣는 로봇 계약서**: 종이에 쓰는 계약서가 아니라, 컴퓨터 속에 들어있는 똑똑한 로봇이에요. "사과를 주면 100원을 준다"라고 적어두면 로봇이 알아서 돈을 보내줘요.

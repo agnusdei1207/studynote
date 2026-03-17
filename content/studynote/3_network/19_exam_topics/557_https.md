@@ -1,5 +1,6 @@
 +++
 title = "HTTPS (HTTP Secure) - 보안 HTTP"
+date = "2026-03-14"
 weight = 557
 +++
 
@@ -100,6 +101,6 @@ HTTPS는 TLS로 암호화된 HTTP입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [HTTP](./556_http.md)
-- [TLS](./560_tls.md)
-- [SSL Certificate](./561_ssl_certificate.md)
+- HTTP
+- TLS
+- SSL Certificate

@@ -1,10 +1,9 @@
----
-title: "[ICT] #41. 레이어 2 (Layer 2) 솔루션"
-date: "2026-03-17"
++++
+title = "[ICT] #41. 레이어 2 (Layer 2) 솔루션"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Layer2_Scalability_Offchain_Rollup_StateChannel_Sidechain"
----
+keyword = "Layer2_Scalability_Offchain_Rollup_StateChannel_Sidechain"
++++
 
 # 레이어 2 (Layer 2): 블록체인 확장성 한계를 넘는 고속 연산 계층
 
@@ -13,7 +12,7 @@ keyword: "Layer2_Scalability_Offchain_Rollup_StateChannel_Sidechain"
 > 2. **가치**: 수천 건의 거래를 묶어서 처리하거나 별도의 채널을 통해 수행함으로써 메인넷의 병목 현상을 해소하며, **초당 수만 건(TPS)**의 빠른 처리가 필요한 상용 서비스(DApp)를 가능케 한다.
 > 3. **융합**: 롤업(Rollup), 스테이트 채널(State Channel), 사이드체인(Sidechain) 등 다양한 기술적 접근이 있으며, 최근에는 보안성과 데이터 가용성이 뛰어난 **롤업 중심 아키텍처**가 대세로 자리 잡았다.
 
----
++++
 
 ## Ⅰ. 레이어 2 (Layer 2) 개요
 
@@ -30,7 +29,7 @@ keyword: "Layer2_Scalability_Offchain_Rollup_StateChannel_Sidechain"
 
 📢 **섹션 요약 비유**: 메인 도로는 막히지만 옆에 고속도로(L2)를 새로 뚫어서, 차들이 쌩쌩 달리게 만든 뒤 톨게이트(L1)에서 최종 정산만 하는 효율적인 교통 시스템입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -80,7 +79,7 @@ keyword: "Layer2_Scalability_Offchain_Rollup_StateChannel_Sidechain"
 
 📢 **섹션 요약 비유**: 수첩에 매일매일 적는 가계부(L2)가 진짜임을 보장받기 위해, 일주일 치 요약본과 영수증 사진(증명)을 관공서 게시판(L1)에 붙여두는 것과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -100,7 +99,7 @@ keyword: "Layer2_Scalability_Offchain_Rollup_StateChannel_Sidechain"
 
 📢 **섹션 요약 비유**: 대청소를 할 때 혼자 거실 바닥을 닦는 게 L1이라면, 친구들에게 방 하나씩 맡기고 나는 다 닦았는지 확인만 하는 게 L2의 효율적인 분업 방식입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -114,7 +113,7 @@ keyword: "Layer2_Scalability_Offchain_Rollup_StateChannel_Sidechain"
 
 📢 **섹션 요약 비유**: 수많은 지선(L2)이 생겨서 편리해졌지만, 지선 간 환승이 불편하면 승객들이 고생하므로 '환승 시스템(상호운용성)'을 잘 짜는 것이 실무의 핵심입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -128,13 +127,13 @@ keyword: "Layer2_Scalability_Offchain_Rollup_StateChannel_Sidechain"
 
 📢 **섹션 요약 비유**: 레이어 2는 블록체인이라는 원석을 깎고 다듬어 누구나 일상에서 쓸 수 있게 만드는 **'디지털 세공 기술'**이며, 진정한 블록체인 상용화의 문을 여는 열쇠입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[롤업 (Rollup)](./42_rollup.md)**: 가장 강력하고 유망한 L2 기술.
-- **[사이드체인 (Sidechain)](./45_sidechain.md)**: 유연성이 뛰어난 인접 블록체인.
-- **[블록체인 트릴레마](./40_trilemma.md)**: L2가 탄생하게 된 근본 원인.
-- **[EIP-4844 (Proto-Danksharding)](./xx_danksharding.md)**: L2 수수료를 획기적으로 낮추기 위한 L1의 개선안.
+- **롤업 (Rollup)**: 가장 강력하고 유망한 L2 기술.
+- **사이드체인 (Sidechain)**: 유연성이 뛰어난 인접 블록체인.
+- **블록체인 트릴레마**: L2가 탄생하게 된 근본 원인.
+- **EIP-4844 (Proto-Danksharding)**: L2 수수료를 획기적으로 낮추기 위한 L1의 개선안.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **보조 선생님 등장**: 담임 선생님(L1) 혼자서 100명의 일기장을 다 검사하기 힘들어서, 보조 선생님(L2)들이 모둠별로 일기장을 미리 검사해주는 거예요.

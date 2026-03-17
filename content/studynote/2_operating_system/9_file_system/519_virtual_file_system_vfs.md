@@ -1,6 +1,7 @@
 +++
-weight = 519
 title = "519. 가상 파일 시스템 (VFS, Virtual File System) 계층"
+date = "2026-03-14"
+weight = 519
 +++
 
 # 519. 가상 파일 시스템 (VFS, Virtual File System) 계층

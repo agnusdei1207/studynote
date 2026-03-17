@@ -1,5 +1,6 @@
 +++
 title = "반송파 (Carrier Wave)"
+date = "2026-03-14"
 weight = 54
 +++
 
@@ -150,10 +151,10 @@ weight = 54
 ---
 
 ### 📌 관련 개념 링크**:
-- [변조 Modulation 개요](./44_modulation_intro.md)
-- [AM/FM/PM 아날로그 변조](./55_am_fm_pm.md)
-- [주파수 대역](./205_frequency_band.md)
-- [안테나 Antenna](./140_antenna.md)
+- 변조 Modulation 개요
+- AM/FM/PM 아날로그 변조
+- 주파수 대역
+- 안테나 Antenna
 
 ---
 

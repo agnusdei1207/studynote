@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Vertical Privilege Escalation (Root Flag)"
-description = "LUXORA 플랫폼의 SUID 환경변수 조작(PATH Injection)을 통한 최고 관리자(Root) 권한 탈취 상세 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Privilege Escalation", "SUID", "PATH Injection", "Root", "Write-up"]

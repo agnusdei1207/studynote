@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Prototype Pollution 🥉 Bronze"
-description = "LUXORA 플랫폼의 기본 Prototype Pollution 취약점을 이용한 전역 객체 오염 및 권한 우회 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Prototype Pollution", "Bronze", "Node.js", "Write-up"]

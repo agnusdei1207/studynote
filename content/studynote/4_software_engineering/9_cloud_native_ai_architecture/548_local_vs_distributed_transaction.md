@@ -1,7 +1,7 @@
----
-title: "548. 로컬 트랜잭션 vs 분산 트랜잭션 (Distributed Transaction)"
-date: 2026-03-15
----
++++
+title = "548. 로컬 트랜잭션 vs 분산 트랜잭션 (Distributed Transaction)"
+date = "2026-03-15"
++++
 
 # 548. 로컬 트랜잭션 vs 분산 트랜잭션 (Distributed Transaction)
 
@@ -161,10 +161,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[MSA](./556_msa.md)**: 분산 트랜잭션이 발생하는 주된 배경
-- **[Saga 패턴](./550_saga_pattern.md)**: 분산 트랜잭션의 현대적 해결책
-- **[2PC (2-Phase Commit)](./549_2pc_limitations.md)**: 고전적 분산 트랜잭션 기법
-- **[CAP 이론](../5_database/xx_cap_theorem.md)**: 트랜잭션 설계 시 반드시 고려해야 할 이론적 한계
+- **MSA**: 분산 트랜잭션이 발생하는 주된 배경
+- **Saga 패턴**: 분산 트랜잭션의 현대적 해결책
+- **2PC (2-Phase Commit)**: 고전적 분산 트랜잭션 기법
+- **CAP 이론**: 트랜잭션 설계 시 반드시 고려해야 할 이론적 한계
 
 ---
 

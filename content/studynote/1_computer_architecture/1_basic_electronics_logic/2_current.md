@@ -1,6 +1,7 @@
 +++
-weight = 2
 title = "2. 전류 (Current)"
+date = "2026-03-14"
+weight = 2
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -164,10 +165,10 @@ title = "2. 전류 (Current)"
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[전압 (Voltage)](./1_voltage.md)**: 전류를 흐르게 하는 원동력.
-- **[저항 (Resistance)](./3_resistance.md)**: 전류의 흐름을 방해하는 요소.
-- **[일렉트로마이그레이션 (Electromigration)](../13_reliability_power/xx_em.md)**: 고전류 밀도로 인한 배선 파괴 현상.
-- **[파워 게이팅 (Power Gating)](../13_reliability_power/xx_power_gating.md)**: 누설 전류 차단을 위한 전원 관리 기법.
+- **전압 (Voltage)**: 전류를 흐르게 하는 원동력.
+- **저항 (Resistance)**: 전류의 흐름을 방해하는 요소.
+- **일렉트로마이그레이션 (Electromigration)**: 고전류 밀도로 인한 배선 파괴 현상.
+- **파워 게이팅 (Power Gating)**: 누설 전류 차단을 위한 전원 관리 기법.
 
 ---
 

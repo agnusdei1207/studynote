@@ -1,6 +1,7 @@
 +++
-weight = 544
 title = "544. 안전한 컨텍스트 스위칭 (Secure Context Switching)"
+date = "2026-03-14"
+weight = 544
 +++
 
 # 544. 안전한 컨텍스트 스위칭 (Secure Context Switching)

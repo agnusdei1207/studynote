@@ -1,5 +1,6 @@
 +++
 title = "Scrambling - 스크램블링"
+date = "2026-03-14"
 weight = 822
 +++
 
@@ -107,6 +108,6 @@ Scrambling은 데이터를 의사 난수로 변환합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Line Coding](./821_line_coding.md)
-- [LFSR](./xxx_lfsr.md)
-- [PRBS](./xxx_prbs.md)
+- Line Coding
+- LFSR
+- PRBS

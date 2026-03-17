@@ -1,6 +1,7 @@
 +++
-weight = 525
 title = "525. 디렉터리 구현 - 선형 리스트 (Linear List)"
+date = "2026-03-14"
+weight = 525
 +++
 
 # [디렉터리 구현 - 선형 리스트 (Linear List)]

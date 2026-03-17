@@ -1,5 +1,6 @@
 +++
 title = "OpenFlow - 오픈플로우"
+date = "2026-03-14"
 weight = 997
 +++
 
@@ -108,6 +109,6 @@ OpenFlow는 SDN 컨트롤러와 스위치 간 통신 프로토콜입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [SDN](./995_sdn.md)
-- [NFV](./996_nfv.md)
-- [Flow Table](./xxx_flow_table.md)
+- SDN
+- NFV
+- Flow Table

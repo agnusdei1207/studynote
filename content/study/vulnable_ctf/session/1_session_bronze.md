@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Session Attacks 🥉 Bronze"
-description = "LUXORA 플랫폼의 Session Fixation 취약점을 이용한 세션 고정 공격 및 관리자 권한 탈취 상세 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Session Attack", "Bronze", "Session Fixation", "Write-up"]

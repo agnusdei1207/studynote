@@ -1,6 +1,7 @@
 +++
-weight = 547
 title = "547. 실시간 시스템 타이머 (Real-Time System Timer)"
+date = "2026-03-14"
+weight = 547
 +++
 
 # 547. 실시간 시스템 타이머 (Real-Time System Timer)

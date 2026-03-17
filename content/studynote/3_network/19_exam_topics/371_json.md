@@ -1,5 +1,6 @@
 +++
 title = "JSON - 데이터 교환 형식"
+date = "2026-03-14"
 weight = 371
 +++
 
@@ -140,10 +141,10 @@ JSON(JavaScript Object Notation)은 경량 데이터 교환 형식입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [XML](./367_xml.md)
-- [REST API](./338_rest_api.md)
-- [JSON Schema](./4_software_engineering/210_json_schema.md)
-- [NoSQL](./5_database/110_nosql.md)
+- XML
+- REST API
+- JSON Schema
+- NoSQL
 
 ---
 

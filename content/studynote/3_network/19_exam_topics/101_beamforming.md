@@ -1,5 +1,6 @@
 +++
 title = "빔포밍 (Beamforming)"
+date = "2026-03-14"
 weight = 101
 +++
 
@@ -153,10 +154,10 @@ weight = 101
 ---
 
 ### 📌 관련 개념 링크**:
-- [MIMO 다중 안테나](./97_mimo.md)
-- [Massive MIMO](./99_massive_mimo.md)
-- [SDMA 공간 분할](./96_sdma.md)
-- [5G NR](./210_5g_nr.md)
+- MIMO 다중 안테나
+- Massive MIMO
+- SDMA 공간 분할
+- 5G NR
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "저밀도 파장 분할 다중화 (CWDM)"
+date = "2026-03-14"
 weight = 80
 +++
 
@@ -154,10 +155,10 @@ CWDM(Coarse Wavelength Division Multiplexing)은 20nm 간격으로 파장을 분
 ---
 
 ### 📌 관련 개념 링크**:
-- [WDM 파장 분할](./79_wdm_wavelength.md)
-- [DWDM 고밀도](./81_dwdm.md)
-- [FTTH 광 접속](./200_ftth.md)
-- [PON 수동 광망](./205_pon.md)
+- WDM 파장 분할
+- DWDM 고밀도
+- FTTH 광 접속
+- PON 수동 광망
 
 ---
 

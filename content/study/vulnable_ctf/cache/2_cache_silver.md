@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Cache Poisoning 🥈 Silver"
-description = "LUXORA 플랫폼의 Silver 난이도 Cache Poisoning 공략 - Keyed Parameter 무력화 및 파라미터 은닉(Cloaking) 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Cache Poisoning", "Silver", "Parameter Cloaking", "Write-up"]
@@ -134,4 +133,3 @@ FLAG: FLAG{CACHE_🥈_PARAM_CLOAKING_F1A2B3}
    // Node.js Express 환경에서의 파라미터 오염 방지
    const hpp = require('hpp');
    app.use(hpp()); // 동일한 파라미터가 오면 마지막 값 하나만 남기지 않고 배열로 처리하거나 차단
-   ```

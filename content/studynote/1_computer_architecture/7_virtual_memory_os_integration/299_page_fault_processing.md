@@ -1,12 +1,17 @@
----
-# 페이징(Paging) 시스템의 핵심 메커니즘: 페이지 폴트 처리 과정 심화 분석
++++
+title = "페이징(Paging) 시스템의 핵심 메커니즘= 페이지 폴트 처리 과정 심화 분석"
+date = "2026-03-14"
++++
+
+# 페이징(Paging) 시스템의 핵심 메커니즘= 페이지 폴트 처리 과정 심화 분석
 
 ## 핵심 인사이트 (3줄 요약)
-> 1. **본질**: 페이지 폴트(Page Fault)는 가상 메모리(Virtual Memory) 관리의 핵심 인터럽트로, 논리적 주소 공간의 페이지가 물리적 프레임에 없을 때 발생하여 OS(Operating System)가 이를 동적으로 해결하는 과정이다.
-> 2. **가치**: 메모리 낭비를 최소화하는 요구 페이징(Demand Paging)을 실현하며, 프로세스에게 물리 메모리 크기의 제약을 넘어선 연속적인 주소 공간을 제공하여 다중 프로그래밍 정도(Multiprogramming Level)를 극대화한다.
-> 3. **융합**: TLB(Translation Lookaside Buffer) 미스, 디스크 I/O 스케줄링, 프로세스 스케줄링(Context Switching)과 연결되는 시스템 성능의 병목 지점이며, 최신 하드웨어에서는 MMU(Memory Management Unit)와 OS 커널의 협력으로 마이크로초(µs) 단위의 지연을 최적화한다.
+> 1. **본질**= 페이지 폴트(Page Fault)는 가상 메모리(Virtual Memory) 관리의 핵심 인터럽트로, 논리적 주소 공간의 페이지가 물리적 프레임에 없을 때 발생하여 OS(Operating System)가 이를 동적으로 해결하는 과정이다.
+> 2. **가치**= 메모리 낭비를 최소화하는 요구 페이징(Demand Paging)을 실현하며, 프로세스에게 물리 메모리 크기의 제약을 넘어선 연속적인 주소 공간을 제공하여 다중 프로그래밍 정도(Multiprogramming Level)를 극대화한다.
+> 3. **융합**= TLB(Translation Lookaside Buffer) 미스, 디스크 I/O 스케줄링, 프로세스 스케줄링(Context Switching)과 연결되는 시스템 성능의 병목 지점이며, 최신 하드웨어에서는 MMU(Memory Management Unit)와 OS 커널의 협력으로 마이크로초(µs) 단위의 지연을 최적화한다.
 
----
+
+
 
 ## Ⅰ. 개요 (Context & Background)
 

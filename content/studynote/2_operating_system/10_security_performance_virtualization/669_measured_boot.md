@@ -1,7 +1,7 @@
 +++
-weight = 669
 title = "669. Measured Boot (측정 부팅)"
 date = "2026-03-16"
+weight = 669
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "Measured Boot", "PCR", "TPM", "부팅 무결성", "Remote Attestation"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "Measured Boot", "PCR", "TPM", "부팅 무결성", "
 > 2. **가치**: 단순히 악성 코드 실행을 막는 것을 넘어, "이 시스템이 **언제, 어떤 상태로 부팅되었는가**"라는 이력을 변경 불가능한 **신뢰 루트(RoT)** 저장소에 증명함으로써, **부팅 단계의 은닉 행위(Rootkit 등)**를 근본적으로 차단하고 포렌식을 가능하게 한다.
 > 3. **융합**: **Secure Boot (인증 부팅)**와 결합하여 방어 계층을 강화하며, **Remote Attestation (원격 증명)** 프로토콜과 연동하여 클라우드 컴퓨팅, **Zero Trust 네트워크**, 무인 관제 서버의 **신뢰성 검증(Attestation)** 핵심 인프라로 활용된다.
 
----
++++
 
 ### Ⅰ. 개요 (Context & Background)
 
@@ -43,7 +43,7 @@ Measured Boot는 고도의 보안이 필요한 금고에 들어가는 모든 사
 #### 📢 섹션 요약 비유
 > 마치 고속도로 진입 요금소에서 단순히 통행권을 확인하는 것(Secure Boot)을 넘어, 모든 차량의 번호, 적재 화물, 진입 시간을 블록체인 원장에 기록하여, 나중에 의심스러운 차량이나 밀반입 사건이 발생했을 때 그 원인과 경로를 정확히 추적할 수 있는 **'블랙박스 및 영상 저장 시스템'**과 같습니다.
 
----
++++
 
 ### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 

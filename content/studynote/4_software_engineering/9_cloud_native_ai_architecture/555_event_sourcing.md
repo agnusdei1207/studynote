@@ -1,7 +1,7 @@
----
-title: "555. 이벤트 소싱 (Event Sourcing)"
-date: 2026-03-15
----
++++
+title = "555. 이벤트 소싱 (Event Sourcing)"
+date = "2026-03-15"
++++
 
 # 555. 이벤트 소싱 (Event Sourcing)
 
@@ -161,10 +161,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[CQRS](./554_cqrs.md)**: 이벤트 소싱의 성능 문제를 해결하는 단짝 패턴
-- **[Saga 패턴](./550_saga_pattern.md)**: 이벤트 소싱을 통해 분산 트랜잭션을 구현하는 기술
-- **[Kafka / Event Store](../xx_infra.md)**: 이벤트를 보관하는 물리적 장소
-- **[최종 일관성](../5_database/xx_consistency.md)**: 이벤트 소싱이 지향하는 정합성 모델
+- **CQRS**: 이벤트 소싱의 성능 문제를 해결하는 단짝 패턴
+- **Saga 패턴**: 이벤트 소싱을 통해 분산 트랜잭션을 구현하는 기술
+- **Kafka / Event Store**: 이벤트를 보관하는 물리적 장소
+- **최종 일관성**: 이벤트 소싱이 지향하는 정합성 모델
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "HSRP - 핫 스탠바이 라우터 프로토콜"
+date = "2026-03-14"
 weight = 992
 +++
 
@@ -110,6 +111,6 @@ HSRP (Hot Standby Router Protocol)는 Cisco 전용 라우터 이중화 프로토
 ---
 
 ### 📌 관련 개념 링크**:
-- [VRRP](./991_vrrp.md)
-- [GLBP](./993_glbp.md)
-- [Virtual IP](./990_virtual_ip.md)
+- VRRP
+- GLBP
+- Virtual IP

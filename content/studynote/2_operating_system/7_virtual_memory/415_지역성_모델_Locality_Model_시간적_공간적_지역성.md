@@ -1,6 +1,7 @@
 +++
-weight = 415
 title = "415. 지역성 모델 (Locality Model) - 시간적, 공간적 지역성"
+date = "2026-03-14"
+weight = 415
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -117,4 +118,3 @@ graph TD
     Locality -- Foundation --> VM[Virtual Memory]
     Locality -- Foundation --> Cache[Cache Design]
     VM -- Managed by --> WS[Working Set]
-```

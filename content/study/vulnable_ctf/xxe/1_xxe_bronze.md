@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: XXE 🥉 Bronze"
-description = "LUXORA 플랫폼의 기본 XML External Entity (XXE) 취약점을 이용한 로컬 파일 읽기 시나리오"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "XXE", "Bronze", "XML", "Write-up"]

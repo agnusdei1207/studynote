@@ -1,5 +1,6 @@
 +++
 title = "RSTP (Rapid STP) - 고속 스패닝 트리"
+date = "2026-03-14"
 weight = 545
 +++
 
@@ -93,6 +94,6 @@ RSTP는 STP의 수렴 시간을 대폭 단축합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [STP](./544_stp.md)
-- [Switch](./541_switch.md)
-- [MSTP](./546_mstp.md)
+- STP
+- Switch
+- MSTP

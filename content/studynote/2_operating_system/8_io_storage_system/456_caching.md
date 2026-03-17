@@ -1,6 +1,7 @@
 +++
-weight = 456
 title = "456. 캐싱 (Caching) - I/O 성능 향상 관점"
+date = "2026-03-14"
+weight = 456
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -111,9 +112,9 @@ title = "456. 캐싱 (Caching) - I/O 성능 향상 관점"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[LRU 알고리즘](./xx_lru.md)**: 가장 오랫동안 사용되지 않은 것을 교체하는 기법.
-- **[페이지 캐시 (Page Cache)](./xx_page_cache.md)**: OS가 파일 I/O 성능을 위해 사용하는 캐시.
-- **[CDN (Content Delivery Network)](./xx_cdn.md)**: 전 세계 거점에 데이터를 캐싱하는 네트워크 기술.
+- **LRU 알고리즘**: 가장 오랫동안 사용되지 않은 것을 교체하는 기법.
+- **페이지 캐시 (Page Cache)**: OS가 파일 I/O 성능을 위해 사용하는 캐시.
+- **CDN (Content Delivery Network)**: 전 세계 거점에 데이터를 캐싱하는 네트워크 기술.
 
 ---
 

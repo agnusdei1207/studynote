@@ -1,6 +1,7 @@
 +++
-weight = 397
 title = "397. 프레임 할당 (Frame Allocation) 알고리즘"
+date = "2026-03-14"
+weight = 397
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -117,4 +118,3 @@ graph TD
     FA -- Prevents --> TH[Thrashing]
     PA -- Based on --> PS[Process Size]
     PRA -- Based on --> PP[Process Priority]
-```

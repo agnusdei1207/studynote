@@ -1,7 +1,7 @@
----
-title: "507. 세션 관리 (Session Management) 보완"
-date: 2026-03-15
----
++++
+title = "507. 세션 관리 (Session Management) 보완"
+date = "2026-03-15"
++++
 
 # 507. 세션 관리 (Session Management) 보완
 
@@ -150,10 +150,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[인증 트렌드 (MFA/FIDO)](./508_authentication_trends.md)**: 세션 시작 전의 관문
-- **[JWT (JSON Web Token)](./510_api_security_jwt.md)**: 세션 관리를 대체하거나 보완하는 기술
-- **[XSS (Cross-Site Scripting)](./500_xss_defense.md)**: 세션 탈취를 위해 공격자가 가장 많이 쓰는 기술
-- **[Redis](../5_database/xx_redis.md)**: 고성능 세션 저장소로 주로 활용되는 기술
+- **인증 트렌드 (MFA/FIDO)**: 세션 시작 전의 관문
+- **JWT (JSON Web Token)**: 세션 관리를 대체하거나 보완하는 기술
+- **XSS (Cross-Site Scripting)**: 세션 탈취를 위해 공격자가 가장 많이 쓰는 기술
+- **Redis**: 고성능 세션 저장소로 주로 활용되는 기술
 
 ---
 

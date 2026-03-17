@@ -1,7 +1,7 @@
 +++
-weight = 262
 title = "262. L3 캐시"
 date = "2026-03-11"
+weight = 262
 [extra]
 categories = "studynote-computer-architecture"
 keywords = ["컴퓨터구조", "L3 캐시", "LLC", "공유 캐시", "3D V-Cache"]
@@ -14,7 +14,7 @@ keywords = ["컴퓨터구조", "L3 캐시", "LLC", "공유 캐시", "3D V-Cache"
 > 2. **역할**: 코어 간의 데이터 통신(Shared Data)을 가속하며, 멀티코어 간 일관성을 유지하는 핵심 플랫폼 역할을 수행한다.
 > 3. **성능**: 최근 AMD의 3D V-Cache처럼 수직 적층 기술을 통해 용량을 극대화하여 게임 및 연산 성능을 비약적으로 끌어올리는 "캐시 용량의 깡패"가 되고 있다.
 
----
++++
 
 ## Ⅰ. L3 캐시의 특성
 - **위치**: CPU 다이 내부, 모든 코어의 집합 근처.

@@ -1,5 +1,6 @@
 +++
 title = "SD-Access (Software-Defined Access)"
+date = "2026-03-14"
 weight = 197
 +++
 
@@ -152,10 +153,10 @@ SD-Access는 기업 LAN에 SDN 개념을 적용하여 자동화와 분리(Segmen
 ---
 
 ### 📌 관련 개념 링크**:
-- [SDN](./193_sdn.md)
-- [VXLAN](./202_vxlan.md)
-- [802.1X](./202_8021x.md)
-- [Zero Trust](./202_zero_trust.md)
+- SDN
+- VXLAN
+- 802.1X
+- Zero Trust
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "Blameless Culture - 비난 없는 문화"
+date = "2026-03-14"
 weight = 746
 +++
 
@@ -101,6 +102,6 @@ Blameless Culture는 개인이 아닌 시스템을 개선합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Postmortem](./745_postmortem.md)
-- [SRE](./748_sre.md)
-- [Incident Management](./742_incident_management.md)
+- Postmortem
+- SRE
+- Incident Management

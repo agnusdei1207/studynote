@@ -1,6 +1,7 @@
 +++
-weight = 409
 title = "409. LFU (Least Frequently Used) 알고리즘"
+date = "2026-03-14"
+weight = 409
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -119,4 +120,3 @@ graph TD
     PV -- Solution --> AG[Aging Mechanism]
     FRQ -- Measured by --> CNT[Hardware/Software Counters]
     AG -- Concept --> DR[Decaying Recent Counts]
-```

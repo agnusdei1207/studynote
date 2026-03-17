@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: SQL Injection 🥇 Gold"
-description = "LUXORA 플랫폼의 Boolean-based Blind SQL Injection 상세 공략 롸잇업 (스무고개 방식과 sqlmap 활용)"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "SQL Injection", "Gold", "Blind SQLi", "sqlmap", "Write-up"]

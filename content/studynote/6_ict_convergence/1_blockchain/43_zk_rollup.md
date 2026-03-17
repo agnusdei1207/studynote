@@ -1,10 +1,9 @@
----
-title: "[ICT] #44. ZK 롤업 (Zero-Knowledge Rollup)"
-date: "2026-03-17"
++++
+title = "[ICT] #44. ZK 롤업 (Zero-Knowledge Rollup)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "ZKRollup_Zero_Knowledge_Validity_Proof_Scalability_zkEVM"
----
+keyword = "ZKRollup_Zero_Knowledge_Validity_Proof_Scalability_zkEVM"
++++
 
 # ZK 롤업 (ZK Rollup): 수학적 증명을 통한 완벽한 확장과 즉각적 신뢰
 
@@ -13,7 +12,7 @@ keyword: "ZKRollup_Zero_Knowledge_Validity_Proof_Scalability_zkEVM"
 > 2. **가치**: 낙관적 롤업과 달리 별도의 분쟁 기간(7일)이 필요 없어 **즉각적인 자금 인출과 거래 확정성(Finality)**을 제공하며, 메인넷에 올리는 데이터량을 극단적으로 줄여 확장성을 극대화한다.
 > 3. **융합**: 고난도의 암호학 기술인 zk-SNARKs/STARKs와 스마트 컨트랙트 실행 환경인 **zkEVM**이 결합되어, 이더리움 메인넷의 보안성을 유지하면서도 인터넷 수준의 속도를 구현하는 블록체인 최종 단계의 확장 솔루션이다.
 
----
++++
 
 ## Ⅰ. ZK 롤업 (ZK Rollup) 개요
 
@@ -30,7 +29,7 @@ keyword: "ZKRollup_Zero_Knowledge_Validity_Proof_Scalability_zkEVM"
 
 📢 **섹션 요약 비유**: "믿고 기다리는 것(Optimistic)"보다 "즉석에서 완벽히 증명하는 것(ZK)"이 훨씬 빠르고 확실하다는 철학에서 탄생한 기술입니다.
 
----
++++
 
 ## II. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -82,7 +81,7 @@ keyword: "ZKRollup_Zero_Knowledge_Validity_Proof_Scalability_zkEVM"
 
 📢 **섹션 요약 비유**: 단순한 덧셈 뺄셈만 하던 계산기가 이제는 복잡한 게임과 금융 로직까지 완벽하게 증명해내는 '슈퍼 컴퓨터'로 진화한 것과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -103,7 +102,7 @@ keyword: "ZKRollup_Zero_Knowledge_Validity_Proof_Scalability_zkEVM"
 
 📢 **섹션 요약 비유**: 옵티미스틱이 '자율 준수 시스템'이라면, ZK는 '첨단 기술이 감시하는 24시간 보안 시스템'과 같은 철학적 우위에 있습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -117,7 +116,7 @@ keyword: "ZKRollup_Zero_Knowledge_Validity_Proof_Scalability_zkEVM"
 
 📢 **섹션 요약 비유**: 지금은 만들기 어렵고 비싸지만(ZK), 한 번 구축해두면 평생 가장 빠르고 안전하게 쓸 수 있는 '미래형 초고속 열차'를 도입하는 의사결정과 같습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -131,13 +130,13 @@ keyword: "ZKRollup_Zero_Knowledge_Validity_Proof_Scalability_zkEVM"
 
 📢 **섹션 요약 비유**: ZK 롤업은 블록체인이라는 원석을 '빛의 속도로 움직이는 보석'으로 연마해낸 **암호학적 마스터피스**입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[롤업 (Rollup)](./41_rollup.md)**: ZK 롤업이 속한 상위 기술 범주.
-- **[영지식 증명 (ZKP)](./36_zero_knowledge_proof.md)**: ZK 롤업을 가능케 하는 핵심 수학 원리.
-- **[zkEVM](./74_zkevm.md)**: ZK 롤업 상에서 스마트 컨트랙트를 돌리기 위한 호환 계층.
-- **[데이터 가용성 (DA)](./94_data_availability.md)**: 증명과 함께 게시되어야 할 기초 데이터의 중요성.
+- **롤업 (Rollup)**: ZK 롤업이 속한 상위 기술 범주.
+- **영지식 증명 (ZKP)**: ZK 롤업을 가능케 하는 핵심 수학 원리.
+- **zkEVM**: ZK 롤업 상에서 스마트 컨트랙트를 돌리기 위한 호환 계층.
+- **데이터 가용성 (DA)**: 증명과 함께 게시되어야 할 기초 데이터의 중요성.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **마법의 요약 도장**: 일기장을 선생님께 가져갈 때, "이 일기장은 100% 진짜예요!"라고 수학 요정이 찍어준 마법 도장 하나만 보여주면 끝나요.

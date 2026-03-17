@@ -1,5 +1,6 @@
 +++
 title = "API Gateway - API 게이트웨이"
+date = "2026-03-14"
 weight = 728
 +++
 
@@ -110,6 +111,6 @@ API Gateway는 API의 단일 진입점입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Microservices](./617_microservices.md)
-- [Load Balancer](./582_load_balancer.md)
-- [Authentication](./xxx_authentication.md)
+- Microservices
+- Load Balancer
+- Authentication

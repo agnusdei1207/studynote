@@ -1,7 +1,7 @@
 +++
 title = "239. 조건 변수 (Condition Variable)"
-weight = 239
 date = "2026-03-04"
+weight = 239
 [extra]
 categories = "studynote-operating-system"
 +++
@@ -13,7 +13,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 락(Lock)만으로는 해결할 수 없는 '실행 순서'의 문제를 해결하며, 조건이 맞지 않을 때 락을 쥐고 기다리는 것이 아니라 락을 반납하고 잠들게 하여 시스템 교착을 방지한다.
 > 3. **융합**: Pthreads의 `pthread_cond_t`, Java의 `wait/notify`, Python의 `threading.Condition` 등 거의 모든 현대적 병행성 라이브러리의 핵심 요소다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -23,7 +23,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 마치 택배 기사님이 벨을 누르기 전까지는 집 안에서 편하게 자기 일을 하다가, 벨 소리를 듣고서야 문을 열어 물건을 받는 효율적인 대기 방식과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -56,7 +56,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 자리가 날 때까지 가게 앞에서 무작정 기다리는 것이 아니라, 번호표를 받고 락을 반납한 뒤 용무를 보다가 호출을 받으면 다시 줄을 서는 합리적인 시스템과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -73,7 +73,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 세마포어가 기록이 남는 '포스트잇'이라면, 조건 변수는 그 순간에만 들리는 '확성기 소리'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -87,7 +87,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 잠에서 깼다고 바로 나가는 것이 아니라, 비가 그쳤는지 다시 한번 창밖을 확인(while)하고 나가는 신중함이 필요합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 

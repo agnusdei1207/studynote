@@ -1,6 +1,7 @@
 +++
-weight = 499
 title = "499. NVMe over Fabrics (NVMe-oF)"
+date = "2026-03-14"
+weight = 499
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -101,9 +102,9 @@ title = "499. NVMe over Fabrics (NVMe-oF)"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[NVMe (Non-Volatile Memory Express)](./482_nvme.md)**: 로컬에서의 기반 기술.
-- **[RDMA (Remote Direct Memory Access)](../../3_network/xx_rdma.md)**: NVMe-oF를 빛나게 하는 무혈관 전송 기술.
-- **[iSCSI](../../3_network/xx_iscsi.md)**: NVMe-oF가 대체하고자 하는 고전 규격.
+- **NVMe (Non-Volatile Memory Express)**: 로컬에서의 기반 기술.
+- **RDMA (Remote Direct Memory Access)**: NVMe-oF를 빛나게 하는 무혈관 전송 기술.
+- **iSCSI**: NVMe-oF가 대체하고자 하는 고전 규격.
 
 ---
 

@@ -1,6 +1,7 @@
 +++
-weight = 420
 title = "420. 메모리 맵 I/O (Memory-Mapped I/O) - 디바이스 레지스터 매핑"
+date = "2026-03-14"
+weight = 420
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -123,4 +124,3 @@ graph TD
     Decode -- To --> HW
     MMIO -- Requires --> NonCache[Non-cacheable Attributes]
     MMIO -- Complementary --> DMA[Direct Memory Access]
-```

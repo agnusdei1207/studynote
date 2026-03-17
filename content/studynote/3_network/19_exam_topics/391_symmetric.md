@@ -1,5 +1,6 @@
 +++
 title = "대칭키 암호 - Symmetric Encryption"
+date = "2026-03-14"
 weight = 391
 +++
 
@@ -141,10 +142,10 @@ weight = 391
 ---
 
 ### 📌 관련 개념 링크**:
-- [AES](./393_aes.md)
-- [비대칭키 암호](./392_asymmetric.md)
-- [TLS/SSL](./9_security/144_tls_ssl.md)
-- [VPN](./306_vpn.md)
+- AES
+- 비대칭키 암호
+- TLS/SSL
+- VPN
 
 ---
 

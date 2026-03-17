@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Reversing Chain 🥈 Silver"
-description = "LUXORA 플랫폼의 Silver 난이도 Reversing Chain 공략 - 동적 디버깅(GDB)과 레지스터 변조를 통한 인증 우회 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Reverse Engineering", "Silver", "Dynamic Debugging", "GDB", "Write-up"]

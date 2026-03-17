@@ -1,5 +1,6 @@
 +++
 title = "굴절률 / 전반사 (Refractive Index / Total Internal Reflection)"
+date = "2026-03-14"
 weight = 129
 +++
 
@@ -148,10 +149,10 @@ weight = 129
 ---
 
 ### 📌 관련 개념 링크**:
-- [광섬유](./128_optical_fiber.md)
-- [멀티모드](./130_mm_step.md)
-- [단일모드](./132_smf_mmf.md)
-- [분산](./133_dispersion.md)
+- 광섬유
+- 멀티모드
+- 단일모드
+- 분산
 
 ---
 

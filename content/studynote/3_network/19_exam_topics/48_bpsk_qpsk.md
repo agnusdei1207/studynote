@@ -1,5 +1,6 @@
 +++
 title = "BPSK / QPSK / OQPSK"
+date = "2026-03-14"
 weight = 48
 +++
 
@@ -165,10 +166,10 @@ BPSK, QPSK, OQPSK는 위상 편이 변조(PSK)의 대표적인 형태로, 각각
 ---
 
 ### 📌 관련 개념 링크**:
-- [PSK 위상 편이 변조](./47_psk_phase_shift.md)
-- [QAM 직교 진폭 변조](./51_qam_quadrature.md)
-- [성상도 Constellation](./53_constellation.md)
-- [8PSK M진 변조](./50_8psk_mary.md)
+- PSK 위상 편이 변조
+- QAM 직교 진폭 변조
+- 성상도 Constellation
+- 8PSK M진 변조
 
 ---
 

@@ -1,12 +1,17 @@
----
++++
+title = "308. 메모리 맵 파일 (Memory-Mapped File)"
+date = "2026-03-14"
++++
+
 # 308. 메모리 맵 파일 (Memory-Mapped File)
 
 #### 핵심 인사이트 (3줄 요약)
-> 1. **본질**: 운영체제의 가상 메모리(Virtual Memory) 관리자를 활용하여 디스크 파일을 프로세스의 주소 공간에 직접 매핑함으로써, 별도의 시스템 콜(System Call) 없이 메모리 포인터로 파일을 조작하는 Zero-Copy I/O 기법이다.
-> 2. **가치**: `read()`/`write()` 호출에 따른 컨텍스트 스위칭(Context Switching)과 버퍼 간 데이터 복사(Data Copying) 오버헤드를 제거하여, 대용량 데이터베이스 및 IPC(Inter-Process Communication) 환경에서 획기적인 성능(TPS 향상, 지연 시간 감소)을 제공한다.
-> 3. **융합**: 가상 메모리 시스템, 파일 시스템, 페이지 폴트(Page Fault) 처리 기구가 밀접하게 결합된 고급 시스템 프로그래밍 기술로, 효율적인 메모리 관리를 넘어 분산 시스템 및 고성능 컴퓨팅(HPC)의 기반이 된다.
+> 1. **본질**= 운영체제의 가상 메모리(Virtual Memory) 관리자를 활용하여 디스크 파일을 프로세스의 주소 공간에 직접 매핑함으로써, 별도의 시스템 콜(System Call) 없이 메모리 포인터로 파일을 조작하는 Zero-Copy I/O 기법이다.
+> 2. **가치**= `read()`/`write()` 호출에 따른 컨텍스트 스위칭(Context Switching)과 버퍼 간 데이터 복사(Data Copying) 오버헤드를 제거하여, 대용량 데이터베이스 및 IPC(Inter-Process Communication) 환경에서 획기적인 성능(TPS 향상, 지연 시간 감소)을 제공한다.
+> 3. **융합**= 가상 메모리 시스템, 파일 시스템, 페이지 폴트(Page Fault) 처리 기구가 밀접하게 결합된 고급 시스템 프로그래밍 기술로, 효율적인 메모리 관리를 넘어 분산 시스템 및 고성능 컴퓨팅(HPC)의 기반이 된다.
 
----
+
+
 
 ### Ⅰ. 개요 (Context & Background)
 

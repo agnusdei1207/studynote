@@ -1,5 +1,6 @@
 +++
 title = "GraphQL - 그래프QL"
+date = "2026-03-14"
 weight = 615
 +++
 
@@ -111,6 +112,6 @@ GraphQL은 클라이언트가 필요한 데이터를 지정합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [REST API](./614_rest_api.md)
-- [API Gateway](./618_api_gateway.md)
-- [Schema](./619_schema.md)
+- REST API
+- API Gateway
+- Schema

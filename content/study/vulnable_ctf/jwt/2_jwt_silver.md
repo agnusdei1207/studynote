@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: JWT Attacks 🥈 Silver"
-description = "LUXORA 플랫폼의 취약한 JWT 비밀키를 오프라인 브루트포싱으로 크랙하여 토큰을 위조하는 상세 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "JWT", "Silver", "Brute Force", "Hashcat", "Write-up"]

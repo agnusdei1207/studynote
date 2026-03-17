@@ -1,10 +1,9 @@
----
-title: "[ICT] #56. 스마트 컨트랙트 보안 취약점"
-date: "2026-03-17"
++++
+title = "[ICT] #56. 스마트 컨트랙트 보안 취약점"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Smart_Contract_Security_Reentrancy_Overflow_FrontRunning_FlashLoanAttack"
----
+keyword = "Smart_Contract_Security_Reentrancy_Overflow_FrontRunning_FlashLoanAttack"
++++
 
 # 스마트 컨트랙트 보안 취약점: "코드가 곧 법"인 세상의 치명적 빈틈
 
@@ -13,7 +12,7 @@ keyword: "Smart_Contract_Security_Reentrancy_Overflow_FrontRunning_FlashLoanAtta
 > 2. **가치**: 한 번 배포되면 수정이 불가능한 블록체인의 특성상 작은 버그가 **수천억 원의 자산 손실**로 직결되므로, 개발 단계에서의 보안 코딩과 배포 전 **정형 검증(Formal Verification)** 및 감사가 필수적이다.
 > 3. **융합**: 고전적인 SW 보안(Overflow)부터 블록체인 특화 공격(Re-entrancy, MEV)까지 결합되어 있으며, 최근에는 플래시 론을 이용한 복합적 오라클 조작 공격으로 진화하고 있다.
 
----
++++
 
 ## Ⅰ. 스마트 컨트랙트 보안 취약점 개요
 
@@ -31,7 +30,7 @@ keyword: "Smart_Contract_Security_Reentrancy_Overflow_FrontRunning_FlashLoanAtta
 
 📢 **섹션 요약 비유**: 단 한 줄의 오타가 거대 전함(프로젝트)을 침몰시킬 수 있는 어뢰가 되는, 극도로 정밀한 '디지털 설계 전쟁'입니다.
 
----
++++
 
 ## Ⅱ. 핵심 취약점 유형 및 방어 기제 (Deep Dive)
 
@@ -83,7 +82,7 @@ keyword: "Smart_Contract_Security_Reentrancy_Overflow_FrontRunning_FlashLoanAtta
 
 📢 **섹션 요약 비유**: 은행원이 돈을 건네준 뒤 통장에 장부를 적는 짧은 틈(재진입)을 노려, 다른 창구로 가서 "나 돈 안 받았는데요?"라고 계속 우기는 지능형 사기 수법과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -103,7 +102,7 @@ keyword: "Smart_Contract_Security_Reentrancy_Overflow_FrontRunning_FlashLoanAtta
 
 📢 **섹션 요약 비유**: 웹 보안이 도둑이 들면 알람이 울리고 경찰이 오는 시스템이라면, 스마트 컨트랙트 보안은 도둑이 칼을 대는 순간 칼이 부러지게 설계된 '물리적 불가능성'을 추구합니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -121,7 +120,7 @@ keyword: "Smart_Contract_Security_Reentrancy_Overflow_FrontRunning_FlashLoanAtta
 
 📢 **섹션 요약 비유**: 우주선을 쏠 때 부품 하나라도 어긋나면 폭발하듯, 스마트 컨트랙트 배포는 '단 한 번의 실수도 허용되지 않는 발사'와 같은 신중함이 필요합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -135,13 +134,13 @@ keyword: "Smart_Contract_Security_Reentrancy_Overflow_FrontRunning_FlashLoanAtta
 
 📢 **섹션 요약 비유**: 스마트 컨트랙트 보안은 블록체인이라는 대지 위에 신뢰의 성벽을 쌓는 일이며, 이 성벽이 높고 견고할수록 진정한 **디지털 금융 제국**이 건설될 수 있습니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[스마트 컨트랙트](./21_smart_contract.md)**: 보안의 대상이 되는 핵심 로직.
-- **[The DAO 사태](./47_hard_fork.md)**: 재진입 취약점으로 인해 발생한 역사적 사건.
-- **[정형 검증 (Formal Verification)](./93_formal_verification.md)**: 수학적 보안 증명 기술.
-- **[플래시 론 공격](./34_flash_loan.md)**: 현대적인 복합 보안 위협 사례.
+- **스마트 컨트랙트**: 보안의 대상이 되는 핵심 로직.
+- **The DAO 사태**: 재진입 취약점으로 인해 발생한 역사적 사건.
+- **정형 검증 (Formal Verification)**: 수학적 보안 증명 기술.
+- **플래시 론 공격**: 현대적인 복합 보안 위협 사례.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **마법 주문의 빈틈**: 로봇에게 심부름을 시키는 마법 주문(코드)을 잘못 외우면, 나쁜 마법사가 그 틈을 노려 로봇에게 돈을 뺏어갈 수 있어요.

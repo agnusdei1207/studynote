@@ -1,5 +1,6 @@
 +++
 title = "혼잡 제어 (Congestion Control)"
+date = "2026-03-14"
 weight = 25
 +++
 
@@ -152,10 +153,10 @@ weight = 25
 ---
 
 ### 📌 관련 개념 링크**:
-- [흐름 제어 Flow Control](./24_flow_control.md)
-- [TCP 흐름 제어 윈도우](./120_tcp_flow_control.md)
-- [ECN 명시적 혼잡 통지](./126_ecn_explicit_congestion.md)
-- [BBR Google 혼잡 제어](./127_bbr_bottleneck.md)
+- 흐름 제어 Flow Control
+- TCP 흐름 제어 윈도우
+- ECN 명시적 혼잡 통지
+- BBR Google 혼잡 제어
 
 ---
 

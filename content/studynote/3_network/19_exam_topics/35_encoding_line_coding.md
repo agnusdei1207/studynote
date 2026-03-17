@@ -1,5 +1,6 @@
 +++
 title = "부호화 (Encoding - Line Coding, Block Coding)"
+date = "2026-03-14"
 weight = 35
 +++
 
@@ -155,10 +156,10 @@ AMI:    ─┐       ┌───┐       ┌───
 ---
 
 ### 📌 관련 개념 링크**:
-- [NRZ 비복귀 부호화](./37_nrz_non_return.md)
-- [맨체스터 Manchester](./39_manchester.md)
-- [AMI 교대 표시 반전](./40_ami_alternate.md)
-- [4B/5B Block Coding](./42_4b5b_block.md)
+- NRZ 비복귀 부호화
+- 맨체스터 Manchester
+- AMI 교대 표시 반전
+- 4B/5B Block Coding
 
 ---
 

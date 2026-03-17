@@ -1,7 +1,7 @@
----
 +++
-weight = 587
 title = "587. 최소 권한 원칙 (Principle of Least Privilege)"
+date = "2026-03-14"
+weight = 587
 +++
 
 # # [최소 권한 원칙 (Principle of Least Privilege, PoLP)]

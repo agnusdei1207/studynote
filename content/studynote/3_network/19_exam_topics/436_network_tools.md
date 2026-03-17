@@ -1,5 +1,6 @@
 +++
 title = "네트워크 진단 도구 - Network Diagnostic Tools"
+date = "2026-03-14"
 weight = 436
 +++
 
@@ -149,10 +150,10 @@ weight = 436
 ---
 
 ### 📌 관련 개념 링크**:
-- [ICMP](./325_icmp.md)
-- [네트워크 성능 지표](./431_performance.md)
-- [Troubleshooting](./437_troubleshooting.md)
-- [모니터링](./438_monitoring.md)
+- ICMP
+- 네트워크 성능 지표
+- Troubleshooting
+- 모니터링
 
 ---
 

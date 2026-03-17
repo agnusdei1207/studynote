@@ -1,5 +1,6 @@
 +++
 title = "MIME - 인터넷 미디어 타입"
+date = "2026-03-14"
 weight = 365
 +++
 
@@ -134,10 +135,10 @@ MIME(Multipurpose Internet Mail Extensions)는 미디어 콘텐츠 형식을 정
 ---
 
 ### 📌 관련 개념 링크**:
-- [Email Protocol](./364_email_protocol.md)
-- [HTTP](./253_http.md)
-- [Base64](./4_software_engineering/204_base64.md)
-- [API](./338_rest_api.md)
+- Email Protocol
+- HTTP
+- Base64
+- API
 
 ---
 

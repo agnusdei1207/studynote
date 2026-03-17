@@ -1,5 +1,6 @@
 +++
 title = "Fallback - 폴백"
+date = "2026-03-14"
 weight = 717
 +++
 
@@ -98,6 +99,6 @@ Fallback은 실패 시 대체 동작을 수행합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Circuit Breaker](./713_circuit_breaker.md)
-- [Retry Pattern](./714_retry_pattern.md)
-- [Cache](./610_cache.md)
+- Circuit Breaker
+- Retry Pattern
+- Cache

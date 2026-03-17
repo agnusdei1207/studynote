@@ -1,6 +1,7 @@
 +++
-weight = 383
 title = "383. 요구 페이징 (Demand Paging)"
+date = "2026-03-14"
+weight = 383
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -127,4 +128,3 @@ graph TD
     PF --> IO[Disk I/O]
     PF --> PT[Page Table Update]
     LL --> ME[Memory Efficiency]
-```

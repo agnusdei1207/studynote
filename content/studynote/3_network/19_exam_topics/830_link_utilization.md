@@ -1,5 +1,6 @@
 +++
 title = "Link Utilization - 링크 활용률"
+date = "2026-03-14"
 weight = 830
 +++
 
@@ -108,6 +109,6 @@ Link Utilization은 링크 대역폭 활용 정도입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Throughput](./802_throughput.md)
-- [Congestion](./806_congestion.md)
-- [QoS](./xxx_qos.md)
+- Throughput
+- Congestion
+- QoS

@@ -1,5 +1,6 @@
 +++
 title = "HA (High Availability) - 고가용성"
+date = "2026-03-14"
 weight = 586
 +++
 
@@ -97,6 +98,6 @@ HA는 시스템 중단 없이 지속적 서비스를 제공합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Failover](./587_failover.md)
-- [Load Balancer](./582_load_balancer.md)
-- [Cluster](./588_cluster.md)
+- Failover
+- Load Balancer
+- Cluster

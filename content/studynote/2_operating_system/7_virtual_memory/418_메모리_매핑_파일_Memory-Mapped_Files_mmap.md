@@ -1,6 +1,7 @@
 +++
-weight = 418
 title = "418. 메모리 매핑 파일 (Memory-Mapped Files, mmap)"
+date = "2026-03-14"
+weight = 418
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -117,4 +118,3 @@ graph TD
     mmap -- Foundation for --> SharedMem[Shared Memory IPC]
     ZeroCopy -- Utilizes --> PageCache[OS Page Cache]
     DiskFile -- Loaded via --> PageFault[Demand Paging / Page Fault]
-```

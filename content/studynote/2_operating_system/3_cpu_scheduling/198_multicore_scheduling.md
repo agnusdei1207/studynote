@@ -1,7 +1,7 @@
 +++
 title = "198. 멀티코어 스케줄링 (Multicore Scheduling)"
-weight = 198
 date = "2026-03-04"
+weight = 198
 [extra]
 categories = "studynote-operating-system"
 +++
@@ -13,7 +13,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: CPU 연산 속도와 메모리 접근 속도 간의 격차(Memory Wall) 문제를 하드웨어적 다중 스레딩 (Multithreading)으로 보완하여, 프로세서 유휴 시간을 줄이고 처리량 (Throughput)을 향상시킨다.
 > 3. **융합**: 하이퍼스레딩 (Hyper-threading), SMT (Simultaneous Multithreading), 그리고 공유 캐시 구조에서의 데이터 간섭 최소화 전략과 밀접하게 연계된다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -23,7 +23,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 기차(데이터)가 오기를 기다리는 동안 역무원(코어)이 다른 서류 업무를 처리하여 시간을 1분 1초도 낭비하지 않게 만드는 지능적인 시간 관리와 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -51,7 +51,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: Coarse-grained는 요리가 완성될 때까지 다른 일을 하는 것이고, Fine-grained는 양파 썰고 고기 볶는 것을 아주 빠르게 번갈아 가며 하는 것과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -66,7 +66,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 멀티코어는 한 주방 안의 여러 요리사이고, 멀티프로세서는 서로 다른 층에 있는 여러 주방의 요리사들입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -76,7 +76,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 덩치가 큰 사람 둘(메모리 집약 스레드)을 좁은 벤치(공유 캐시)에 앉히면 서로 밀려나기 쉬우니, 따로 앉히는 것이 상책입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -85,12 +85,12 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 빈 틈 없이 꽉 찬 시간표가 우등생을 만들듯, 빈 틈 없는 스케줄링이 고성능 컴퓨터를 만듭니다.
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[하이퍼스레딩 (Hyper-threading)](./199_hyper_threading_smt.md)**: 멀티코어 스케줄링의 대표적 구현 기술
-- **[캐시 일관성 (Cache Coherence)](./215_cache_coherence_scheduling.md)**: 멀티코어 환경에서 스케줄링이 해결해야 할 숙제
-- **[메모리 벽 (Memory Wall)](../6_memory_management/321_memory_hierarchy.md)**: 멀티코어 스케줄링이 등장하게 된 근본 배경
+- **하이퍼스레딩 (Hyper-threading)**: 멀티코어 스케줄링의 대표적 구현 기술
+- **캐시 일관성 (Cache Coherence)**: 멀티코어 환경에서 스케줄링이 해결해야 할 숙제
+- **메모리 벽 (Memory Wall)**: 멀티코어 스케줄링이 등장하게 된 근본 배경
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 컴퓨터 머리(CPU)가 아주 빨라졌지만, 정보를 가져오는 길(메모리)은 아직 조금 느려요.

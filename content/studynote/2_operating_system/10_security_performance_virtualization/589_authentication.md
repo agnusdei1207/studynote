@@ -1,7 +1,7 @@
----
 +++
-weight = 589
 title = "589. 사용자 인증 (Authentication) - 패스워드, 생체 인식, 토큰"
+date = "2026-03-14"
+weight = 589
 +++
 
 # # [589. 사용자 인증 (Authentication) - 패스워드, 생체 인식, 토큰]

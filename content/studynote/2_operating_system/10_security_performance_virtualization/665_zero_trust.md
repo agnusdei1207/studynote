@@ -1,12 +1,17 @@
----
++++
+title = "665. 제로 트러스트 (Zero Trust)"
+date = "2026-03-14"
++++
+
 # 665. 제로 트러스트 (Zero Trust)
 
 ## 핵심 인사이트 (3줄 요약)
-> 1. **본질**: "신뢰는 증명되어야 한다(Verify, Then Trust)"는 철학을 바탕으로, 네트워크 경계(Perimeter) 내부라도 **기본 신뢰(Default Trust)**를 배제하고 **모든 접근 요청을 실시간 검증**하는 보안 아키텍처입니다.
-> 2. **가치**: 랜섬웨어와 같은 **내부자 위협(Insider Threat)** 및 **횡적 이동(Lateral Movement)**을 차단하여, 침해 발생 시 피해 범위를 최소화하고 **MTTD(Mean Time To Detect, 평균 탐지 시간)** 및 **MTTR(Mean Time To Resolve, 평균 대응 시간)**을 획기적으로 단축시킵니다.
-> 3. **융합**: **IAM (Identity and Access Management)**, **NAC (Network Access Control)**, **SDP (Software Defined Perimeter)** 기술이 융합되며, 단순한 네트워크 보안을 넘어 **클라우드(ZTNA)** 및 **엔드포인트(XDR)** 보안으로 확장되는 **SASE (Secure Access Service Edge)**의 핵심 축을 이룹니다.
+> 1. **본질**= "신뢰는 증명되어야 한다(Verify, Then Trust)"는 철학을 바탕으로, 네트워크 경계(Perimeter) 내부라도 **기본 신뢰(Default Trust)**를 배제하고 **모든 접근 요청을 실시간 검증**하는 보안 아키텍처입니다.
+> 2. **가치**= 랜섬웨어와 같은 **내부자 위협(Insider Threat)** 및 **횡적 이동(Lateral Movement)**을 차단하여, 침해 발생 시 피해 범위를 최소화하고 **MTTD(Mean Time To Detect, 평균 탐지 시간)** 및 **MTTR(Mean Time To Resolve, 평균 대응 시간)**을 획기적으로 단축시킵니다.
+> 3. **융합**= **IAM (Identity and Access Management)**, **NAC (Network Access Control)**, **SDP (Software Defined Perimeter)** 기술이 융합되며, 단순한 네트워크 보안을 넘어 **클라우드(ZTNA)** 및 **엔드포인트(XDR)** 보안으로 확장되는 **SASE (Secure Access Service Edge)**의 핵심 축을 이룹니다.
 
----
+
+
 
 ### Ⅰ. 개요 (Context & Background)
 

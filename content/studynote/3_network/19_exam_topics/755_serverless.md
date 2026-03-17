@@ -1,5 +1,6 @@
 +++
 title = "Serverless - 서버리스"
+date = "2026-03-14"
 weight = 755
 +++
 
@@ -109,6 +110,6 @@ Serverless는 서버 관리 없이 코드를 실행합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Function as a Service](./756_faas.md)
-- [Event-Driven](./722_event_driven.md)
-- [Microservices](./617_microservices.md)
+- Function as a Service
+- Event-Driven
+- Microservices

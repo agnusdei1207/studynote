@@ -1,6 +1,7 @@
 +++
-weight = 506
 title = "506. 파일 타입 (File Types) - 확장자와 매직 넘버 (Magic Number)"
+date = "2026-03-14"
+weight = 506
 +++
 
 # # [506. 파일 타입 (File Types) - 확장자와 매직 넘버 (Magic Number)]

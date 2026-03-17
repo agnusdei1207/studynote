@@ -1,7 +1,7 @@
 +++
-weight = 642
 title = "642. 컨테이너 (Container)"
 date = "2026-03-16"
+weight = 642
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "컨테이너", "Container", "Docker", "Kubernetes", "이미지", "오케스트레이션"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "컨테이너", "Container", "Docker", "Kubernetes",
 > 2. **가치**: VM보다 가볍고 빠르며 **"Build once, run anywhere"**를 실현하여 DevOps, CI/CD, 마이크로서비스의 핵심 인프라가 되었다.
 > 3. **융합**: Linux Namespace(pid, net, mount...), Cgroups, Union FS 등 커널 기술을 조합하며, Docker, Kubernetes 등 생태계가 발전했다.
 
----
++++
 
 ## Ⅰ. 컨테이너의 개요
 
@@ -32,7 +32,7 @@ keywords = ["운영체제", "컨테이너", "Container", "Docker", "Kubernetes",
 
 - **📢 섹션 요약 비유**: 이사할 때 짐을 박스에 포장해두면, 어디서든 꺼내서 바로 쓸 수 있죠? 컨테이너는 소프트웨어를 박스에 포장하는 기술입니다.
 
----
++++
 
 ## Ⅱ. 컨테이너 기술 기반 (Deep Dive)
 
@@ -94,7 +94,7 @@ echo "1G > memory.max"             # 메모리 1GB 제한
 
 - **📢 섹션 요약 비유**: Namespace는 "각자의 방", Cgroups는 "방마다 전기/수도 사용량 제한", Union FS는 "공용 주방 + 각자 냉장고"와 같습니다.
 
----
++++
 
 ## Ⅲ. Docker
 
@@ -146,7 +146,7 @@ docker exec -it web bash
 docker push myrepo/myapp:1.0
 ```
 
----
++++
 
 ## Ⅳ. 컨테이너 오케스트레이션
 
@@ -188,7 +188,7 @@ docker push myrepo/myapp:1.0
 | **기능** | 풍부 (Auto-scaling, RBAC...) | 기본적 |
 | **시장 점유율** | 표준 (CNCF) | 감소 |
 
----
++++
 
 ## Ⅴ. 컨테이너 vs VM
 
@@ -201,7 +201,7 @@ docker push myrepo/myapp:1.0
 | **이식성** | 플랫폼 의존적 | 플랫폼 독립적 |
 | **용도** | 완전한 격리 필요 시 | 앱 배포, 마이크로서비스 |
 
----
++++
 
 ## Ⅵ. 실무 적용 및 아키텍처적 판단 (Strategy)
 
@@ -223,7 +223,7 @@ docker push myrepo/myapp:1.0
 - **Rootless Containers**: rootless 컨테이너 실행
 - **Runtime Security**: Falco로 런타임 보안
 
----
++++
 
 ## Ⅶ. 기대효과 및 결론
 
@@ -237,15 +237,15 @@ docker push myrepo/myapp:1.0
 - **Serverless Containers**: AWS Fargate, GCP Run
 - **eBPF**: 커널 수준 관찰 가능성과 보안
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[가상화](./641_virtualization.md)**: 상위 개념
-- **[마이크로서비스](../16_distributed_systems/xxx_microservices.md)**: 컨테이너 주요 용도
-- **[Docker](./644_docker.md)**: 컨테이너 플랫폼
-- **[Kubernetes](./645_kubernetes.md)**: 오케스트레이션
+- **가상화**: 상위 개념
+- **마이크로서비스**: 컨테이너 주요 용도
+- **Docker**: 컨테이너 플랫폼
+- **Kubernetes**: 오케스트레이션
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 컨테이너는 **'도시락 반찬 통'** 같아요.

@@ -1,6 +1,7 @@
 +++
-weight = 60
 title = "60. 동기식 카운터 (Synchronous Counter) - Modulo-n"
+date = "2026-03-14"
+weight = 60
 +++
 
 # # [동기식 모듈로-N 카운터 (Synchronous Modulo-N Counter)]

@@ -1,5 +1,6 @@
 +++
 title = "Throttling - 스로틀링"
+date = "2026-03-14"
 weight = 720
 +++
 
@@ -98,6 +99,6 @@ Throttling은 처리 속도를 조절합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Rate Limiting](./719_rate_limiting.md)
-- [Backpressure](./721_backpressure.md)
-- [Flow Control](./xxx_flow_control.md)
+- Rate Limiting
+- Backpressure
+- Flow Control

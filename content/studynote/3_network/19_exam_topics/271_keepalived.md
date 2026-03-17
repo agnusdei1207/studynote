@@ -1,5 +1,6 @@
 +++
 title = "Keepalived - VRRP 기반 고가용성"
+date = "2026-03-14"
 weight = 271
 +++
 
@@ -154,10 +155,10 @@ Keepalived는 VRRP 프로토콜을 사용하여 IP 주소 페일오버를 제공
 ---
 
 ### 📌 관련 개념 링크**:
-- [VRRP](./272_vrrp.md)
-- [HAProxy](./270_haproxy.md)
-- [FHRP](./275_fhrp.md)
-- [고가용성](./276_high_availability.md)
+- VRRP
+- HAProxy
+- FHRP
+- 고가용성
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "IPv6 Transition - IPv6 전환 기술"
+date = "2026-03-14"
 weight = 534
 +++
 
@@ -94,6 +95,6 @@ IPv6 전환 기술은 IPv4와 IPv6 공존을 지원합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [IPv6](./532_ipv6.md)
-- [IPv4](./330_ip.md)
-- [NAT](./530_nat.md)
+- IPv6
+- IPv4
+- NAT

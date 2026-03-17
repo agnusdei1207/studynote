@@ -1,7 +1,8 @@
----
-weight = 555
++++
 title = "555. NTFS (New Technology FS) - 윈도우 표준"
----
+date = "2026-03-14"
+weight = 555
++++
 
 # # [NTFS (New Technology File System)]
 

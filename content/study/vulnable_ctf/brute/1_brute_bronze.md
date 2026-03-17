@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Brute Force 🥉 Bronze"
-description = "LUXORA 플랫폼의 Rate Limiting 부재를 악용한 브루트포스 로그인 공격 롸잇업 (FFuF 활용)"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Brute Force", "Bronze", "Authentication", "ffuf", "Write-up"]

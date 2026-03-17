@@ -1,5 +1,6 @@
 +++
 title = "FHSS (주파수 도약 확산 스펙트럼)"
+date = "2026-03-14"
 weight = 70
 +++
 
@@ -151,10 +152,10 @@ FHSS(Frequency Hopping Spread Spectrum)는 carrier 주파수를 의사난수 패
 ---
 
 ### 📌 관련 개념 링크**:
-- [스펙트럼 확산 Spread Spectrum](./68_spread_spectrum.md)
-- [DSSS 직접 수열 확산](./69_dsss_direct.md)
-- [블루투스 Bluetooth](./220_bluetooth.md)
-- [CDMA 코드 분할](./90_cdma_code.md)
+- 스펙트럼 확산 Spread Spectrum
+- DSSS 직접 수열 확산
+- 블루투스 Bluetooth
+- CDMA 코드 분할
 
 ---
 

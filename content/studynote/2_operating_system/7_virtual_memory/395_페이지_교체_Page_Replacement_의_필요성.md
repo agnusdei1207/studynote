@@ -1,6 +1,7 @@
 +++
-weight = 395
 title = "395. 페이지 교체 (Page Replacement)의 필요성"
+date = "2026-03-14"
+weight = 395
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -116,4 +117,3 @@ graph TD
     VF -- Decision --> AL[Replacement Algorithms]
     AL -- Goal --> MP[Minimize Page Faults]
     PR -- Danger --> TH[Thrashing]
-```

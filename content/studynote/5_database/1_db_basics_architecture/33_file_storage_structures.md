@@ -1,7 +1,6 @@
 +++
 title = "33. 파일 저장 구조 (Heap, Sequential, Hash, Indexed)"
 date = "2026-03-16"
-draft = false
 weight = 33
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["파일 저장 구조", "Heap File", "Sequential File", "Hash File",
 > 2. **다양성**: 빠른 삽입이 장점인 **Heap**, 순차 처리에 특화된 **Sequential**, 특정 값 검색에 최적화된 **Hash**, 그리고 인덱스를 통해 성능과 유연성을 모두 잡은 **Indexed** 구조로 분류된다.
 > 3. **가치**: 데이터의 성격(조회 위주 vs 갱신 위주)에 맞는 최적의 저장 구조를 선택함으로써 디스크 I/O를 최소화하고 질의 응답 속도를 비약적으로 향상시킨다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -44,7 +43,7 @@ keywords = ["파일 저장 구조", "Heap File", "Sequential File", "Hash File",
 
 - **📢 섹션 요약 비유**: 저장 구조는 '데이터가 잠드는 침대'를 설계하는 일이며, 숙면(성능)을 위해 체형(워크로드)에 딱 맞는 설계가 필요합니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -92,7 +91,7 @@ keywords = ["파일 저장 구조", "Heap File", "Sequential File", "Hash File",
 
 - **📢 섹션 요약 비유**: 해시 구조는 '내 전용 우편함'을 갖는 것이고, 인덱스 구조는 '도서관 입구의 검색 컴퓨터'를 활용하는 것입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -111,7 +110,7 @@ keywords = ["파일 저장 구조", "Heap File", "Sequential File", "Hash File",
 
 - **📢 섹션 요약 비유**: 저장 구조를 고르는 것은 '가장 빠른 길을 찾는 지도'를 만드는 법을 결정하는 것과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -130,7 +129,7 @@ keywords = ["파일 저장 구조", "Heap File", "Sequential File", "Hash File",
 
 - **📢 섹션 요약 비유**: 잘못된 인덱스 선택은 고속도로 입구에 과속 방지턱(해시 충돌/정렬 오버헤드)을 설치하는 것과 같습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -148,15 +147,15 @@ keywords = ["파일 저장 구조", "Heap File", "Sequential File", "Hash File",
 
 - **📢 섹션 요약 비유**: 미래의 침대는 사용자의 몸 상태에 따라 형태가 변하듯(Autonomous), 저장 구조도 워크로드에 따라 스스로 재구성되는 방향으로 진화할 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[B+Tree 인덱스](./156_btree_index.md)**: Indexed File의 가장 강력한 구현체.
-- **[물리적 데이터베이스 설계](./117_physical_design.md)**: 저장 구조를 결정하는 공정.
-- **[해시 함수 (Hash Function)](@/studynote/8_algorithm_stats/_index.md)**: Hash File의 핵심 엔진.
-- **[컬럼 기반 저장소 (Columnar Store)](./47_columnar_store.md)**: 차세대 대규모 분석 저장 구조.
+- **B+Tree 인덱스**: Indexed File의 가장 강력한 구현체.
+- **물리적 데이터베이스 설계**: 저장 구조를 결정하는 공정.
+- **해시 함수 (Hash Function)**: Hash File의 핵심 엔진.
+- **컬럼 기반 저장소 (Columnar Store)**: 차세대 대규모 분석 저장 구조.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **파일 저장 구조**는 우리 집 물건들을 어디에 둘지 결정하는 **'정리 규칙'**이에요.

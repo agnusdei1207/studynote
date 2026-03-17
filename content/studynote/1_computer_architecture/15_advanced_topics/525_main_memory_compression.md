@@ -1,6 +1,7 @@
 +++
-weight = 525
 title = "525. 메인 메모리 압축 기술"
+date = "2026-03-14"
+weight = 525
 +++
 
 # 525. 메인 메모리 압축 기술
@@ -133,10 +134,10 @@ title = "525. 메인 메모리 압축 기술"
 ---
 
 ### 📌 관련 개념 맵
-- **[가상 메모리](../7_virtual_memory_os_integration/xx_virtual_memory.md)**: 메모리 압축의 동작 토대
-- **[페이지 교체 알고리즘](../7_virtual_memory_os_integration/xx_page_replacement.md)**: 압축 대상을 선정하는 기준
-- **[CXL (Compute Express Link)](./519_cxl_memory_pooling.md)**: 확장 메모리 지연 시간 극복을 위한 압축 융합
-- **[SSD 수명 관리 (Wear Leveling)](./526_nvm_wear_leveling.md)**: 압축을 통한 쓰기 절감 효과와 연관
+- **가상 메모리**: 메모리 압축의 동작 토대
+- **페이지 교체 알고리즘**: 압축 대상을 선정하는 기준
+- **CXL (Compute Express Link)**: 확장 메모리 지연 시간 극복을 위한 압축 융합
+- **SSD 수명 관리 (Wear Leveling)**: 압축을 통한 쓰기 절감 효과와 연관
 
 ---
 

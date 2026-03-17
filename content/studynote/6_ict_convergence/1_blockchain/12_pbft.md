@@ -1,10 +1,9 @@
----
-title: "[ICT] #13. PBFT (Practical Byzantine Fault Tolerance)"
-date: "2026-03-17"
++++
+title = "[ICT] #13. PBFT (Practical Byzantine Fault Tolerance)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "PBFT_Practical_Byzantine_Fault_Tolerance_Consensus_3Phase"
----
+keyword = "PBFT_Practical_Byzantine_Fault_Tolerance_Consensus_3Phase"
++++
 
 # PBFT (Practical BFT): 비동기 네트워크를 위한 실무적 비잔틴 합의
 
@@ -13,7 +12,7 @@ keyword: "PBFT_Practical_Byzantine_Fault_Tolerance_Consensus_3Phase"
 > 2. **가치**: 거래가 합의되는 즉시 확정되는 **'즉각적 완결성(Immediate Finality)'**을 제공하며, 분산 노드 중 1/3 미만의 비잔틴 장애(배신/오작동)가 발생해도 시스템의 전체 신뢰성을 보장한다.
 > 3. **융합**: 하이퍼레저 패브릭(Hyperledger Fabric), R3 Corda 등 허가형(Permissioned) 엔터프라이즈 블록체인의 표준 합의 모델로 자리 잡았으며, 텐더민트(Tendermint) 등 현대적 BFT 알고리즘의 모태가 되었다.
 
----
++++
 
 ## Ⅰ. PBFT (Practical BFT) 개요
 
@@ -31,7 +30,7 @@ keyword: "PBFT_Practical_Byzantine_Fault_Tolerance_Consensus_3Phase"
 
 📢 **섹션 요약 비유**: 서로를 100% 믿지 못하는 파트너들이 모여 사업을 할 때, 모든 계약서에 대해 서로가 서로의 사인을 일일이 확인하여 누구도 몰래 내용을 고치지 못하게 하는 '철저한 교차 검증 체계'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -78,7 +77,7 @@ keyword: "PBFT_Practical_Byzantine_Fault_Tolerance_Consensus_3Phase"
 
 📢 **섹션 요약 비유**: 회의 주관자가 딴소리를 하거나 자리를 비우면, 참석자들이 서로 눈빛을 교환하여 주관자를 즉시 교체하고 회의를 이어가는 '자동 비상대책 시스템'과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -97,7 +96,7 @@ keyword: "PBFT_Practical_Byzantine_Fault_Tolerance_Consensus_3Phase"
 
 📢 **섹션 요약 비유**: PoW가 "누가 더 힘이 센가"를 겨루는 씨름 시합이라면, PBFT는 "누가 더 많은 찬성표를 얻었나"를 따지는 의회 투표와 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -111,7 +110,7 @@ keyword: "PBFT_Practical_Byzantine_Fault_Tolerance_Consensus_3Phase"
 
 📢 **섹션 요약 비유**: 모든 국민이 모여 투표하는 건 불가능하지만, 각 도의 대표자 20명이 모여 결정하는 건 매우 빠르고 확실한 것과 같은 '엘리트 합의 모델'입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -125,13 +124,13 @@ keyword: "PBFT_Practical_Byzantine_Fault_Tolerance_Consensus_3Phase"
 
 📢 **섹션 요약 비유**: PBFT는 디지털 세상에서 **'완벽하게 굳은 콘크리트'**와 같아서, 한 번 합의된 결과는 절대로 흔들리지 않는 튼튼한 기초가 됩니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[비잔틴 장애 허용 (BFT)](./11_bft.md)**: PBFT가 구현하고자 하는 이론적 목표.
-- **[텐더민트 (Tendermint)](./xx_tendermint.md)**: PBFT를 개량한 현대적 합의 엔진.
-- **[하이퍼레저 패브릭](./58_hyperledger.md)**: PBFT를 주요 합의 방식으로 사용하는 기업용 프레임워크.
-- **[즉각적 완결성 (Finality)](./65_finality.md)**: PBFT의 가장 큰 기술적 장점.
+- **비잔틴 장애 허용 (BFT)**: PBFT가 구현하고자 하는 이론적 목표.
+- **텐더민트 (Tendermint)**: PBFT를 개량한 현대적 합의 엔진.
+- **하이퍼레저 패브릭**: PBFT를 주요 합의 방식으로 사용하는 기업용 프레임워크.
+- **즉각적 완결성 (Finality)**: PBFT의 가장 큰 기술적 장점.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **서로 확인하는 친구들**: 친구들이 모여서 놀이를 할 때, 한 친구가 룰을 말하면 다른 모든 친구가 서로 "너도 그 룰 들었어?"라고 두 번이나 물어보고 확인하는 방법이에요.

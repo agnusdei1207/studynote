@@ -1,7 +1,8 @@
----
-title: "락스텝 (Lockstep) 아키텍처"
-weight: 465
----
++++
+title = "락스텝 (Lockstep) 아키텍처"
+date = "2026-03-14"
+weight = 465
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 락스텝 (Lockstep) 아키텍처는 두 개 이상의 동일한 프로세서(CPU)가 동일한 명령어를 동시에 실행하고 그 결과를 매 클럭마다 비교하여, 미세한 하드웨어 오류까지도 즉각 감지해내는 고신뢰성 연산 기술이다.
@@ -141,9 +142,9 @@ weight: 465
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[Fault Tolerance](./453_fault_tolerance.md)**: 락스텝을 포함하는 상위 고장 감내 기술.
-- **[TMR (Triple Modular Redundancy)](./455_tmr.md)**: 3중화를 통한 오류 정정 기술.
-- **[ISO 26262](../13_reliability_power_management/1301_iso26262.md)**: 락스텝 적용의 주된 이유인 자동차 안전 규격.
+- **Fault Tolerance**: 락스텝을 포함하는 상위 고장 감내 기술.
+- **TMR (Triple Modular Redundancy)**: 3중화를 통한 오류 정정 기술.
+- **ISO 26262**: 락스텝 적용의 주된 이유인 자동차 안전 규격.
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "Reverse Proxy - 리버스 프록시"
+date = "2026-03-14"
 weight = 583
 +++
 
@@ -96,6 +97,6 @@ Reverse Proxy는 클라이언트 요청을 서버에 대신 전달합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Load Balancer](./582_load_balancer.md)
-- [Proxy](./584_proxy.md)
-- [SSL Termination](./585_ssl_termination.md)
+- Load Balancer
+- Proxy
+- SSL Termination

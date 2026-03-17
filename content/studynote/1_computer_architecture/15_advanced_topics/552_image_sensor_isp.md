@@ -1,6 +1,7 @@
 +++
-weight = 552
 title = "552. 이미지 센서 ISP (Image Signal Processor)"
+date = "2026-03-14"
+weight = 552
 +++
 
 # 이미지 센서 ISP (Image Signal Processor)
@@ -154,10 +155,10 @@ ISP의 지능은 3A라 불리는 자동 제어 알고리즘에서 나온다.
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[CMOS 이미지 센서 (CIS)](./xx_cis.md)**: 빛을 전기 신호로 바꾸는 ISP의 입력 데이터 소스.
-- **[NPU (Neural Processing Unit)](./515_npu.md)**: 최근 AI-ISP 구현을 위해 협력하는 연산 장치.
-- **[MIPI CSI-2](./xx_mipi.md)**: 모바일 카메라 데이터 전송 표준 프로토콜.
-- **[영상 압축 코덱 (H.265/AV1)](./551_video_codec_acceleration.md)**: ISP 출력 데이터를 저장/전송하기 위해 압축하는 후속 공정.
+- **CMOS 이미지 센서 (CIS)**: 빛을 전기 신호로 바꾸는 ISP의 입력 데이터 소스.
+- **NPU (Neural Processing Unit)**: 최근 AI-ISP 구현을 위해 협력하는 연산 장치.
+- **MIPI CSI-2**: 모바일 카메라 데이터 전송 표준 프로토콜.
+- **영상 압축 코덱 (H.265/AV1)**: ISP 출력 데이터를 저장/전송하기 위해 압축하는 후속 공정.
 
 ---
 

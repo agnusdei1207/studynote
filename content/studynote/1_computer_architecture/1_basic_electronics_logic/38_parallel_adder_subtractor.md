@@ -1,6 +1,7 @@
 +++
-weight = 38
 title = "38. 병렬 가감산기"
+date = "2026-03-14"
+weight = 38
 +++
 
 # # [38. 병렬 가감산기 (Parallel Adder-Subtractor)]

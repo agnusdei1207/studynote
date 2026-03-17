@@ -1,5 +1,6 @@
 +++
 title = "Service Discovery - 서비스 디스커버리"
+date = "2026-03-14"
 weight = 715
 +++
 
@@ -100,6 +101,6 @@ Service Discovery는 서비스 인스턴스를 찾습니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Microservices](./617_microservices.md)
-- [Load Balancer](./582_load_balancer.md)
-- [DNS](./550_dns.md)
+- Microservices
+- Load Balancer
+- DNS

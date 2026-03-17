@@ -1,5 +1,6 @@
 +++
 title = "ACID - ACID 속성"
+date = "2026-03-14"
 weight = 630
 +++
 
@@ -100,6 +101,6 @@ ACID는 트랜잭션이 갖춰야 할 4가지 속성입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Transaction](./629_transaction.md)
-- [BASE](./632_base.md)
-- [CAP Theorem](./633_cap_theorem.md)
+- Transaction
+- BASE
+- CAP Theorem

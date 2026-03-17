@@ -1,5 +1,6 @@
 +++
 title = "Congestion - 혼잡"
+date = "2026-03-14"
 weight = 806
 +++
 
@@ -103,6 +104,6 @@ Congestion은 네트워크 과부하 상태입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./552_tcp.md)
-- [Packet Loss](./805_packet_loss.md)
-- [Flow Control](./xxx_flow_control.md)
+- TCP
+- Packet Loss
+- Flow Control

@@ -1,6 +1,6 @@
 +++
 title = "360. Thunderbolt"
-description = "PCIe와 DisplayPort를 통합하여 단일 인터페이스로 초고속 데이터 및 영상 전송을 지원하는 기술"
+date = "2026-03-14"
 weight = 360
 +++
 
@@ -160,11 +160,11 @@ weight = 360
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[USB4 (Universal Serial Bus 4)](./359_usb.md)**: 썬더볼트 3 기술을 흡수하여 표준화된 인터페이스
-- **[PCIe (PCI Express)](./351_pcie.md)**: 썬더볼트 내부 데이터 전송의 근간 프로토콜
-- **[DisplayPort (DP)](./xx_displayport.md)**: 썬더볼트를 통해 전송되는 핵심 영상 프로토콜
-- **[IOMMU (I/O Memory Management Unit)](../7_virtual_memory_os/xx_iommu.md)**: 썬더볼트의 보안(DMA 보호)을 책임지는 하드웨어 모듈
-- **[USB-C (Type-C)](./xx_usb_c.md)**: 썬더볼트가 사용하는 물리적 커넥터 표준
+- **USB4 (Universal Serial Bus 4)**: 썬더볼트 3 기술을 흡수하여 표준화된 인터페이스
+- **PCIe (PCI Express)**: 썬더볼트 내부 데이터 전송의 근간 프로토콜
+- **DisplayPort (DP)**: 썬더볼트를 통해 전송되는 핵심 영상 프로토콜
+- **IOMMU (I/O Memory Management Unit)**: 썬더볼트의 보안(DMA 보호)을 책임지는 하드웨어 모듈
+- **USB-C (Type-C)**: 썬더볼트가 사용하는 물리적 커넥터 표준
 
 ---
 

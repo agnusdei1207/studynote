@@ -1,5 +1,6 @@
 +++
 title = "Eventual Consistency - 결과적 일관성"
+date = "2026-03-14"
 weight = 689
 +++
 
@@ -101,6 +102,6 @@ Eventual Consistency는 시간이 지나면 모든 노드가 일치합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [BASE](./688_base.md)
-- [CAP Theorem](./687_cap_theorem.md)
-- [Replication](./690_replication.md)
+- BASE
+- CAP Theorem
+- Replication

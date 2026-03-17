@@ -1,7 +1,6 @@
 +++
 title = "39. 일반 집합 연산자 - Union, Intersection, Difference, Cartesian Product"
 date = "2026-03-16"
-draft = false
 weight = 39
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["일반 집합 연산자", "Union", "Intersection", "Difference", "C
 > 2. **제약 조건**: 합집합, 교집합, 차집합을 수행하기 위해서는 두 릴레이션의 차수(Degree)가 같고 대응하는 속성의 도메인이 동일한 **합병 가능(Union Compatibility)** 상태여야 한다.
 > 3. **가치**: 서로 다른 출처의 데이터를 통합하거나 제외하는 논리적 수단을 제공하며, 특히 카티션 곱은 모든 가능한 조합을 생성하여 조인(Join) 연산의 기초적인 토대가 된다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -45,7 +44,7 @@ keywords = ["일반 집합 연산자", "Union", "Intersection", "Difference", "C
 
 - **📢 섹션 요약 비유**: 일반 집합 연산자는 데이터를 섞고, 겹치는 것을 찾고, 빼는 '데이터의 산수'와 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -90,7 +89,7 @@ Cartesian Product의 폭발적인 데이터 증가를 시각화한다.
 
 - **📢 섹션 요약 비유**: 합병 가능 조건은 '퍼즐 조각의 모양이 맞아야 끼워 맞출 수 있는 것'과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -105,7 +104,7 @@ Cartesian Product의 폭발적인 데이터 증가를 시각화한다.
 
 - **📢 섹션 요약 비유**: 교집합은 차집합을 두 번 수행하는 '이중 부정'의 원리와 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -124,7 +123,7 @@ Cartesian Product의 폭발적인 데이터 증가를 시각화한다.
 
 - **📢 섹션 요약 비유**: `UNION ALL`은 그냥 서류를 겹쳐 놓는 것이고, `UNION`은 겹치는 서류가 있는지 일일이 검사하며 정리하는 것입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -142,15 +141,15 @@ Cartesian Product의 폭발적인 데이터 증가를 시각화한다.
 
 - **📢 섹션 요약 비유**: 미래의 데이터 집합 연산은 단순히 값을 합치는 것을 넘어, 데이터의 '의미'를 합치고 시너지를 찾는 방향으로 진화할 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[관계 대수 (Relational Algebra)](./38_relational_algebra.md)**: 집합 연산자를 포함하는 상위 체계.
-- **[순수 관계 연산자](./40_pure_relational_operators.md)**: 관계형 모델 특화 연산자.
-- **[Join (카티션 곱의 개량형)](./43_join_operations.md)**: 실무에서 가장 많이 쓰이는 결합 연산.
-- **[합병 가능 (Union Compatibility)](./39_general_set_operators.md)**: 집합 연산의 대전제.
+- **관계 대수 (Relational Algebra)**: 집합 연산자를 포함하는 상위 체계.
+- **순수 관계 연산자**: 관계형 모델 특화 연산자.
+- **Join (카티션 곱의 개량형)**: 실무에서 가장 많이 쓰이는 결합 연산.
+- **합병 가능 (Union Compatibility)**: 집합 연산의 대전제.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **합집합**은 "우리 반 친구들과 옆 반 친구들을 한 줄로 모으는 것"이에요. 똑같은 친구가 양쪽 반에 다 있다면 한 번만 세기로 하죠.

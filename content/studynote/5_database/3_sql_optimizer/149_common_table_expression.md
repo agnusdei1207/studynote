@@ -1,7 +1,6 @@
 +++
 title = "149. CTE (Common Table Expression) - 공통 테이블 식과 가독성 향상"
 date = "2026-03-16"
-draft = false
 weight = 149
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["CTE", "Common Table Expression", "WITH 절", "임시 결과 집합"
 > 2. **구조적 이점**: 중첩된 인라인 뷰(Inline View)를 하향식(Top-down)의 평면적인 구조로 리팩토링하여 쿼리의 가독성을 획기적으로 높이며, 동일한 CTE를 한 쿼리 내에서 여러 번 참조할 수 있어 코드 중복을 제거한다.
 > 3. **가치**: 일반적인 정적 CTE 외에도 자기 자신을 참조하는 **재귀적(Recursive) CTE**를 통해 계층형 데이터를 탐색할 수 있게 하며, 복잡한 비즈니스 로직을 모듈화하여 유지보수 비용을 절감한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -49,7 +48,7 @@ keywords = ["CTE", "Common Table Expression", "WITH 절", "임시 결과 집합"
 
 - **📢 섹션 요약 비유**: CTE는 쿼리라는 요리 레시피에서 '미리 만들어 둔 만능 양념장'과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -100,7 +99,7 @@ SELECT * FROM CTE_Name; -- 메인쿼리에서 참조
 
 - **📢 섹션 요약 비유**: 재귀적 CTE는 '거울 두 개를 마주 보게 하여 끝없는 복도를 만드는 마법'과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -119,7 +118,7 @@ SELECT * FROM CTE_Name; -- 메인쿼리에서 참조
 
 - **📢 섹션 요약 비유**: CTE가 '한 번 쓰고 버리는 일회용 컵'이라면, 임시 테이블은 '파티 내내 들고 다니는 개인용 텀블러'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -138,7 +137,7 @@ SELECT * FROM CTE_Name; -- 메인쿼리에서 참조
 
 - **📢 섹션 요약 비유**: 너무 긴 CTE 명칭은 '주객전도'가 되어 쿼리를 더 어지럽게 만들 수 있으니, 이름은 짧고 명확하게(Step1, Step2 등) 짓는 미덕이 필요합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -156,15 +155,15 @@ SELECT * FROM CTE_Name; -- 메인쿼리에서 참조
 
 - **📢 섹션 요약 비유**: 미래의 CTE는 단순한 문법을 넘어, 우리가 생각하는 논리의 흐름을 컴퓨터가 실시간으로 지도(Graph)로 그려주는 인터랙티브한 설계 도구가 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[서브쿼리 개념](./140_subquery.md)**: CTE가 해결하려는 가독성의 근원.
-- **[계층형 질의](./146_hierarchical_queries.md)**: Recursive CTE의 주요 타겟.
-- **[뷰 (View)](./151_view.md)**: CTE의 영구 저장 버전.
-- **[실행 계획 (Explain Plan)](./164_execution_plan.md)**: CTE의 구체화 여부를 확인하는 창.
+- **서브쿼리 개념**: CTE가 해결하려는 가독성의 근원.
+- **계층형 질의**: Recursive CTE의 주요 타겟.
+- **뷰 (View)**: CTE의 영구 저장 버전.
+- **실행 계획 (Explain Plan)**: CTE의 구체화 여부를 확인하는 창.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **CTE**는 아주 긴 편지를 쓸 때, 자주 나오는 긴 이름 대신 **"별명"**을 정해두는 것과 같아요.

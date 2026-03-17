@@ -1,7 +1,6 @@
 +++
 title = "79. NULL 무결성 (Null Integrity) - 필수 데이터의 부재 방지"
 date = "2026-03-16"
-draft = false
 weight = 79
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["NULL 무결성", "Null Integrity", "NOT NULL", "데이터 부재", 
 > 2. **제약 수단**: SQL의 **`NOT NULL`** 제약 조건을 통해 구현되며, 비즈니스 로직상 반드시 존재해야 하는 핵심 정보(예: 이름, 연락처, 주문일자 등)의 정합성을 확보하는 최소한의 장치다.
 > 3. **가치**: 정보의 불완전성으로 인한 쿼리 연산 오류(3치 논리 문제)와 집계 결과의 왜곡을 방지하며, 데이터베이스가 비즈니스의 실질적인 상태를 완벽하게 반영하도록 강제한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -48,7 +47,7 @@ keywords = ["NULL 무결성", "Null Integrity", "NOT NULL", "데이터 부재", 
 
 - **📢 섹션 요약 비유**: NULL 무결성은 '앙꼬 없는 찐빵'이 만들어지지 않게 감시하는 요리사의 원칙과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -94,7 +93,7 @@ keywords = ["NULL 무결성", "Null Integrity", "NOT NULL", "데이터 부재", 
 
 - **📢 섹션 요약 비유**: NULL 무결성은 '길을 찾을 때 표지판이 없는 구간이 없도록' 미리 모든 곳에 이정표를 세워두는 것입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -113,7 +112,7 @@ keywords = ["NULL 무결성", "Null Integrity", "NOT NULL", "데이터 부재", 
 
 - **📢 섹션 요약 비유**: NOT NULL이 '입장을 거절하는 깐깐한 경비원'이라면, DEFAULT는 '빈손으로 온 손님에게 입장권을 쥐여주는 안내원'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -132,7 +131,7 @@ keywords = ["NULL 무결성", "Null Integrity", "NOT NULL", "데이터 부재", 
 
 - **📢 섹션 요약 비유**: 구멍 난 양말(NULL 데이터)을 신고 달리면(쿼리 수행), 언젠가는 발이 아프거나 넘어지게(시스템 장애) 됩니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -150,15 +149,15 @@ keywords = ["NULL 무결성", "Null Integrity", "NOT NULL", "데이터 부재", 
 
 - **📢 섹션 요약 비유**: 미래의 데이터 관리에서도 '명확하지 않은 정보는 정보가 아니다'라는 NULL 무결성의 원칙은 더욱 엄격해질 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[NULL 값 (NULL Value)](./66_null_value.md)**: 무결성이 제어하려는 대상.
-- **[도메인 무결성](./76_domain_integrity.md)**: NULL 무결성을 포함하는 상위 체계.
-- **[3치 논리 (3VL)](@/studynote/8_algorithm_stats/_index.md)**: NULL로 인해 발생하는 논리 체계.
-- **[COALESCE 함수](./131_sql_standards.md)**: NULL 무결성을 보완하는 SQL 함수.
+- **NULL 값 (NULL Value)**: 무결성이 제어하려는 대상.
+- **도메인 무결성**: NULL 무결성을 포함하는 상위 체계.
+- **3치 논리 (3VL)**: NULL로 인해 발생하는 논리 체계.
+- **COALESCE 함수**: NULL 무결성을 보완하는 SQL 함수.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **NULL 무결성**은 학교 숙제장에 이름 적는 칸을 **절대 비워두지 말라고 약속**하는 거예요.

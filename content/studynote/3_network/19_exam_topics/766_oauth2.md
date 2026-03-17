@@ -1,5 +1,6 @@
 +++
 title = "OAuth 2.0 - 오픈 인증 2.0"
+date = "2026-03-14"
 weight = 766
 +++
 
@@ -105,6 +106,6 @@ OAuth 2.0은 권한을 위임합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [OpenID Connect](./767_oidc.md)
-- [JWT](./768_jwt.md)
-- [API Security](./xxx_api_security.md)
+- OpenID Connect
+- JWT
+- API Security

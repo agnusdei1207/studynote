@@ -1,5 +1,6 @@
 +++
 title = "nvme queue pairs"
+date = "2026-03-14"
 weight = 699
 +++
 
@@ -364,10 +365,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [NVMe Namespaces](./700_nvme_namespaces.md) - 논리 스토리지 분할
-- [NVMe Subsystem](./701_nvme_subsystem.md) - NVMe 서브시스템
-- [NVMe Multistream Write](./702_nvme_multistream_write.md) - 다중 스트림
-- [ZNS SSD](./703_zns_ssd.md) - Zoned Namespace SSD
+- NVMe Namespaces - 논리 스토리지 분할
+- NVMe Subsystem - NVMe 서브시스템
+- NVMe Multistream Write - 다중 스트림
+- ZNS SSD - Zoned Namespace SSD
 
 ---
 

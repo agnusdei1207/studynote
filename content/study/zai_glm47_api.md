@@ -1,7 +1,6 @@
 +++
 title = "Z.AI API 사용법 (GLM-4.7) — CURL 완전 가이드"
-date = 2026-02-28
-
+date = "2026-02-28"
 [extra]
 categories = "devops"
 +++
@@ -276,6 +275,6 @@ print(message.content[0].text)
 
 ## 참고
 
-- [Z.AI 공식 문서](https://docs.z.ai)
-- [API Key 발급](https://console.z.ai)
-- [Anthropic Messages API 스펙](https://docs.anthropic.com/en/api/messages)
+- Z.AI 공식 문서
+- API Key 발급
+- Anthropic Messages API 스펙

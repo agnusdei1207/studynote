@@ -1,5 +1,6 @@
 +++
 title = "RARP (Reverse ARP) - 역순 주소 결정 프로토콜"
+date = "2026-03-14"
 weight = 540
 +++
 
@@ -94,6 +95,6 @@ RARP는 MAC 주소로 IP 주소를 찾습니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [ARP](./538_arp.md)
-- [DHCP](./542_dhcp.md)
-- [MAC Address](./539_mac_address.md)
+- ARP
+- DHCP
+- MAC Address

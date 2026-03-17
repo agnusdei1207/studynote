@@ -1,5 +1,6 @@
 +++
 title = "부하 균등화 Load Balancing"
+date = "2026-03-14"
 weight = 779
 +++
 
@@ -166,10 +167,10 @@ weight = 779
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[오토 스케일링 (Auto-scaling)](../../13_cloud_architecture/xx_autoscaling.md)**: 로드 밸런싱의 빈자리를 실시간으로 채워주는 클라우드의 팔과 다리.
-- **[세션 클러스터링](../../5_database/xx_session_clustering.md)**: 로드 밸런싱 환경에서 사용자의 상태를 유지하기 위한 데이터 기술.
-- **[GSLB (Global Server LB)](../../3_network/xx_gslb.md)**: 전 지구적 규모로 부하를 분산하는 상위 개념.
-- **[헬스 체크 (Health Check)](../../3_network/xx_healthcheck.md)**: 밸런서가 똑똑한 결정을 내리기 위해 반드시 필요한 정보 수집 행위.
+- **오토 스케일링 (Auto-scaling)**: 로드 밸런싱의 빈자리를 실시간으로 채워주는 클라우드의 팔과 다리.
+- **세션 클러스터링**: 로드 밸런싱 환경에서 사용자의 상태를 유지하기 위한 데이터 기술.
+- **GSLB (Global Server LB)**: 전 지구적 규모로 부하를 분산하는 상위 개념.
+- **헬스 체크 (Health Check)**: 밸런서가 똑똑한 결정을 내리기 위해 반드시 필요한 정보 수집 행위.
 
 ---
 

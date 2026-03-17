@@ -1,7 +1,7 @@
 +++
-weight = 326
 title = "326. 전송 시간 (Transfer Time)"
 date = "2026-03-11"
+weight = 326
 [extra]
 categories = "studynote-computer-architecture"
 keywords = ["컴퓨터구조", "HDD", "전송 시간", "Transfer Time"]
@@ -14,7 +14,7 @@ keywords = ["컴퓨터구조", "HDD", "전송 시간", "Transfer Time"]
 > 2. **가치**: 전송 시간은 데이터의 양에 비례하여 증가하지만, 최신 인터페이스(NVMe, SATA 등)의 대역폭 발달로 인해 탐색 시간(Seek Time)이나 회전 지연(Rotational Latency)에 비해 그 비중이 현저히 낮다.
 > 3. **융합**: 순차 I/O(Sequential I/O) 환경에서 대역폭을 최대로 활용하여 전송 시간의 효율을 극대화하는 것이 DB 백업 및 스트리밍 서비스 성능 최적화의 핵심이다.
 
----
++++
 
 ### Ⅰ. 개요 (Context & Background)
 
@@ -29,7 +29,7 @@ keywords = ["컴퓨터구조", "HDD", "전송 시간", "Transfer Time"]
 **📢 섹션 요약 비유**:
 > 마치 고속도로 톨게이트를 통과한 후, 목적지까지 가는 동안 **도로의 차선 수(대역폭)에 따라 달리는 속도가 결정되는 것**과 같습니다. 톨게이트 통과(탐색/회전 지연)가 빨라도 도로가 막히면 전송은 느려집니다.
 
----
++++
 
 ### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -123,7 +123,7 @@ void Measure_Transfer_Time(Block_Device* device, size_t data_size_bytes) {
 **📢 섹션 요약 비유**:
 > 마치 초고속 열차가 1분에 한 번씩 도착하는 역입니다. 열차가 서 있는 시간(전송 시간)은 짧지만, 그 짧은 시간 동안 수천 명의 승객(데이터)이 내리게 되므로, 승객들이 얼마나 빨리 내리느냐(전송률)이 전체 혼잡도를 결정합니다.
 
----
++++
 
 ### Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -157,7 +157,7 @@ void Measure_Transfer_Time(Block_Device* device, size_t data_size_bytes) {
 **📢 섹션 요약 비유**:
 > 마치 **도로 위 자전거와 비행기**의 비교와 같습니다. 자전거(HDD)는 페달을 밟는 속도(RPM)가 느려 이동(전송)에 오래 걸리지만, 비행기(SSD)는 엔진 출력(대역폭)이 강해 순식간에 목적지에 도착합니다.
 
----
++++
 
 ### Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 

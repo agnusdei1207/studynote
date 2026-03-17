@@ -1,5 +1,6 @@
 +++
 title = "Attenuation - 감쇠"
+date = "2026-03-14"
 weight = 824
 +++
 
@@ -105,6 +106,6 @@ Attenuation은 전송 중 신호 세기 감소입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Signal](./823_signal.md)
-- [Amplifier](./xxx_amplifier.md)
-- [Transmission](./xxx_transmission.md)
+- Signal
+- Amplifier
+- Transmission

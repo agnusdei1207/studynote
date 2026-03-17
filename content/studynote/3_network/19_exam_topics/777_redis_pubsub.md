@@ -1,5 +1,6 @@
 +++
 title = "Redis Pub/Sub - 레디스 펍섭"
+date = "2026-03-14"
 weight = 777
 +++
 
@@ -105,6 +106,6 @@ Redis Pub/Sub은 인메모리 메시징을 제공합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Redis](./607_redis.md)
-- [Message Queue](./609_message_queue.md)
-- [Pub/Sub Pattern](./xxx_pubsub.md)
+- Redis
+- Message Queue
+- Pub/Sub Pattern

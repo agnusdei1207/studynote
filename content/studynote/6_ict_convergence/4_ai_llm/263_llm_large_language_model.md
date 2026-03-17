@@ -1,10 +1,9 @@
----
-title: "[ICT] #263. LLM (대형 언어 모델) 및 sLLM (경량화 언어 모델)"
-date: "2026-03-17"
++++
+title = "[ICT] #263. LLM (대형 언어 모델) 및 sLLM (경량화 언어 모델)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "LLM_LargeLanguageModel_sLLM_SLM_ChatGPT_Llama_OnDeviceAI"
----
+keyword = "LLM_LargeLanguageModel_sLLM_SLM_ChatGPT_Llama_OnDeviceAI"
++++
 
 # LLM 및 sLLM: 인류의 지식을 압축한 거대한 뇌와 내 손안의 작은 천재
 
@@ -13,7 +12,7 @@ keyword: "LLM_LargeLanguageModel_sLLM_SLM_ChatGPT_Llama_OnDeviceAI"
 > 2. **가치**: LLM(예: GPT-4)은 범용적인 추론 능력과 문맥 이해력을 통해 코딩, 번역, 기획 등 거의 모든 지식 노동을 자동화하는 혁명을 일으켰으나, 그 이면에는 천문학적인 클라우드 운영 비용(추론 비용)과 데이터 프라이버시 침해라는 치명적 한계가 존재한다.
 > 3. **융합**: 이 한계를 돌파하기 위해 파라미터 수를 70억 개(7B) 이하로 줄이면서도 특정 도메인에서는 거대 모델에 버금가는 성능을 내도록 고도로 정제된 데이터를 먹인 **sLLM(Small LLM)** 기술이, 스마트폰 NPU와 결합하는 **온디바이스 AI(On-device AI)** 생태계로 융합 발전하고 있다.
 
----
++++
 
 ## Ⅰ. LLM 및 sLLM 개요
 
@@ -31,7 +30,7 @@ keyword: "LLM_LargeLanguageModel_sLLM_SLM_ChatGPT_Llama_OnDeviceAI"
 
 📢 **섹션 요약 비유**: 수천억 원짜리 거대한 '메인프레임 컴퓨터(LLM)'의 시대를 지나, 누구나 자기 책상에 하나씩 올려놓고 쓰는 '개인용 PC(sLLM)'의 시대로 진입하는 인공지능의 다운사이징(Downsizing) 역사입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -82,7 +81,7 @@ keyword: "LLM_LargeLanguageModel_sLLM_SLM_ChatGPT_Llama_OnDeviceAI"
 
 📢 **섹션 요약 비유**: 수만 권의 만화책과 잡동사니를 다 읽어 머리가 터질 듯한 아이(기존 LLM)보다, 서울대 교수님이 집필한 핵심 요약본 10권만 달달 외운 똑똑한 아이(sLLM)가 수능 점수는 훨씬 잘 나오는 원리입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -102,7 +101,7 @@ keyword: "LLM_LargeLanguageModel_sLLM_SLM_ChatGPT_Llama_OnDeviceAI"
 
 📢 **섹션 요약 비유**: 코끼리(LLM)를 냉장고(스마트폰)에 넣으려면 불가능하지만, 코끼리의 핵심 DNA만 뽑아내어 작고 빠른 쥐(sLLM)로 유전자 조작을 하면 냉장고 안에서도 자유롭게 뛰어놀 수 있습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -120,7 +119,7 @@ keyword: "LLM_LargeLanguageModel_sLLM_SLM_ChatGPT_Llama_OnDeviceAI"
 
 📢 **섹션 요약 비유**: 동네 변호사(sLLM)에게 간단한 계약서 검토를 맡기면 싸고 훌륭하지만, 수천억 원이 걸린 국제 대법원 소송(고도 추론)은 비싼 수임료를 주고라도 김앤장 대표 변호사(GPT-4)에게 맡겨야 이길 수 있습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -134,13 +133,13 @@ keyword: "LLM_LargeLanguageModel_sLLM_SLM_ChatGPT_Llama_OnDeviceAI"
 
 📢 **섹션 요약 비유**: LLM과 sLLM은 거대한 중앙 집중식 공룡과 날렵한 포유류의 진화 경쟁입니다. 결국 두 생명체는 각자의 영역을 나누어 지배하며, 우리의 삶 구석구석에 스며드는 공존의 생태계를 이룰 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[파운데이션 모델](./261_foundation_model.md)**: LLM과 sLLM을 만들어내는 기초적인 인공지능 그릇.
-- **[트랜스포머 (Transformer)](./262_transformer.md)**: 문맥을 파악하고 다음 단어를 생성해 내는 LLM/sLLM의 핵심 두뇌 구조.
-- **[파인튜닝 (Instruction Tuning)](./267_instruction_tuning.md)**: 바보 같은 원시 모델을 똑똑한 챗봇 비서로 길들이는 훈련 기법.
-- **[엣지 AI (Edge AI)](./173_edge_ai.md)**: sLLM이 클라우드를 떠나 로컬 스마트폰이나 자동차에서 쌩쌩 돌아가는 컴퓨팅 환경.
+- **파운데이션 모델**: LLM과 sLLM을 만들어내는 기초적인 인공지능 그릇.
+- **트랜스포머 (Transformer)**: 문맥을 파악하고 다음 단어를 생성해 내는 LLM/sLLM의 핵심 두뇌 구조.
+- **파인튜닝 (Instruction Tuning)**: 바보 같은 원시 모델을 똑똑한 챗봇 비서로 길들이는 훈련 기법.
+- **엣지 AI (Edge AI)**: sLLM이 클라우드를 떠나 로컬 스마트폰이나 자동차에서 쌩쌩 돌아가는 컴퓨팅 환경.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **만물박사 할아버지 (LLM)**: 세상 모든 백과사전을 통째로 외운 할아버지예요. 뭐든지 물어보면 다 대답해 주시지만, 멀리 도서관(클라우드)에 계셔서 전화비가 엄청 많이 들어요.

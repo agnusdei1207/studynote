@@ -1,5 +1,6 @@
 +++
 title = "공간 다중화 (Spatial Multiplexing)"
+date = "2026-03-14"
 weight = 100
 +++
 
@@ -149,10 +150,10 @@ weight = 100
 ---
 
 ### 📌 관련 개념 링크**:
-- [MIMO 다중 안테나](./97_mimo.md)
-- [Massive MIMO](./99_massive_mimo.md)
-- [다이버시티 Diversity](./205_diversity.md)
-- [프리코딩 Precoding](./205_precoding.md)
+- MIMO 다중 안테나
+- Massive MIMO
+- 다이버시티 Diversity
+- 프리코딩 Precoding
 
 ---
 

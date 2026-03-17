@@ -1,5 +1,6 @@
 +++
 title = "Syslog - 시스템 로그"
+date = "2026-03-14"
 weight = 1017
 +++
 
@@ -115,6 +116,6 @@ Syslog는 시스템 로그를 중앙 서버로 전송합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Network Monitoring](./1015_network_monitoring.md)
-- [SNMP](./1016_snmp.md)
-- [Log Analysis](./xxx_log_analysis.md)
+- Network Monitoring
+- SNMP
+- Log Analysis

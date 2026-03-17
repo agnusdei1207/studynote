@@ -1,7 +1,6 @@
 +++
 title = "165. 인덱스 스캔 방식 - Unique, Range, Full, Fast Full Scan"
 date = "2026-03-16"
-draft = false
 weight = 165
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["인덱스 스캔", "Index Scan", "Unique Scan", "Range Scan", "Full
 > 2. **유형별 특성**: 정확한 1건을 찾는 **Unique Scan**, 범위를 탐색하는 **Range Scan**, 정렬 순서를 활용하는 **Full Scan**, 그리고 멀티 블록 I/O로 인덱스 전체를 훑는 **Fast Full Scan** 등으로 분화된다.
 > 3. **가치**: 테이블 전체를 읽는 무거운 연산을 최소한의 리프 블록 탐색으로 대체하여 응답 속도를 획기적으로 개선하며, 효율적인 스캔 방식의 선택이 SQL 튜닝의 성패를 좌우한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -51,7 +50,7 @@ keywords = ["인덱스 스캔", "Index Scan", "Unique Scan", "Range Scan", "Full
 
 - **📢 섹션 요약 비유**: 인덱스 스캔은 '데이터 바다에서 보물을 찾는 잠수부의 기술'과 같아, 상황에 맞는 장비(스캔 방식)를 골라야 합니다.
 
----
++++
 
 ## II. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -94,7 +93,7 @@ keywords = ["인덱스 스캔", "Index Scan", "Unique Scan", "Range Scan", "Full
 
 - **📢 섹션 요약 비유**: Skip Scan은 '아는 길은 건너뛰고 모르는 길(필요한 데이터)만 골라 가는 징검다리 건너기'와 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -113,7 +112,7 @@ keywords = ["인덱스 스캔", "Index Scan", "Unique Scan", "Range Scan", "Full
 
 - **📢 섹션 요약 비유**: Full Scan이 '계단을 하나씩 오르는 것'이라면, Fast Full Scan은 '엘리베이터로 층마다 짐을 한꺼번에 싣는 것'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -132,7 +131,7 @@ keywords = ["인덱스 스캔", "Index Scan", "Unique Scan", "Range Scan", "Full
 
 - **📢 섹션 요약 비유**: 스캔 방식을 오해하는 것은 '서울 가는데 부산행 기차를 타는 것'과 같아, 노력(I/O)은 많이 해도 목적지(결과)에 늦게 도착하게 됩니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -150,15 +149,15 @@ keywords = ["인덱스 스캔", "Index Scan", "Unique Scan", "Range Scan", "Full
 
 - **📢 섹션 요약 비유**: 미래의 인덱스 스캔은 우리가 길을 묻지 않아도, 데이터들이 스스로 정렬하여 우리의 손바닥 위로 뛰어 올라오는 '자율 주행 데이터' 시스템이 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[B-Tree 인덱스](./51_index_structure_btree.md)**: 스캔이 일어나는 물리적 무대.
-- **[실행 계획](./164_execution_plan.md)**: 선택된 스캔 방식을 확인하는 도구.
-- **[카디널리티 (Cardinality)](./56_data_dictionary_cache.md)**: 스캔 방식 결정의 핵심 변수.
-- **[인덱스 설계 원칙](./167_index_selection_criteria.md)**: 효율적인 스캔을 위한 밑거름.
+- **B-Tree 인덱스**: 스캔이 일어나는 물리적 무대.
+- **실행 계획**: 선택된 스캔 방식을 확인하는 도구.
+- **카디널리티 (Cardinality)**: 스캔 방식 결정의 핵심 변수.
+- **인덱스 설계 원칙**: 효율적인 스캔을 위한 밑거름.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **인덱스 스캔**은 수천 권의 책 중에서 내가 읽고 싶은 **"딱 한 권의 책"**을 목차에서 찾아보는 비법이에요.

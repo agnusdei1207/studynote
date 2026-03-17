@@ -1,5 +1,6 @@
 +++
 title = "DSU / CSU (Digital/Channel Service Unit)"
+date = "2026-03-14"
 weight = 145
 +++
 
@@ -149,10 +150,10 @@ DSU(Digital Service Unit)와 CSU(Channel Service Unit)는 디지털 전용선에
 ---
 
 ### 📌 관련 개념 링크**:
-- [모뎀](./146_modem.md)
-- [TDM](./75_tdm.md)
-- [전용선](./201_leased_line.md)
-- [프레임 릴레이](./202_frame_relay.md)
+- 모뎀
+- TDM
+- 전용선
+- 프레임 릴레이
 
 ---
 

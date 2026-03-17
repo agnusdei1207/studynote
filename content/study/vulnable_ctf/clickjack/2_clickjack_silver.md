@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Clickjacking 🥈 Silver"
-description = "LUXORA 플랫폼의 Silver 난이도 Clickjacking 공략 - X-Frame-Options 우회 및 다중 프레임 연계 시나리오"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Clickjacking", "Silver", "Filter Bypass", "Write-up"]

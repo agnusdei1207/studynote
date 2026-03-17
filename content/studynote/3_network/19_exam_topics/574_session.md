@@ -1,5 +1,6 @@
 +++
 title = "Session - 세션"
+date = "2026-03-14"
 weight = 574
 +++
 
@@ -93,6 +94,6 @@ Session은 서버에 사용자 상태를 저장합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Cookie](./573_cookie.md)
-- [JWT](./575_jwt.md)
-- [Authentication](./576_authentication.md)
+- Cookie
+- JWT
+- Authentication

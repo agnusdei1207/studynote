@@ -1,5 +1,6 @@
 +++
 title = "Speculative Execution - 추측 실행"
+date = "2026-03-14"
 weight = 667
 +++
 
@@ -103,6 +104,6 @@ Speculative Execution은 예측에 기반해 실행합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Branch Prediction](./666_branch_prediction.md)
-- [Out-of-order](./668_out_of_order.md)
-- [Spectre](./669_spectre.md)
+- Branch Prediction
+- Out-of-order
+- Spectre

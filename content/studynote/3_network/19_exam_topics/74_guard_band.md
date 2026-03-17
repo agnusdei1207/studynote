@@ -1,5 +1,6 @@
 +++
 title = "보호 대역 (Guard Band)"
+date = "2026-03-14"
 weight = 74
 +++
 
@@ -150,10 +151,10 @@ weight = 74
 ---
 
 ### 📌 관련 개념 링크**:
-- [FDM 주파수 분할](./73_fdm_frequency.md)
-- [TDM 시분할](./75_tdm_time.md)
-- [CP/GI 가드 인터벌](./86_cp_gi.md)
-- [OFDM 직교 주파수 분할](./84_ofdm_orthogonal.md)
+- FDM 주파수 분할
+- TDM 시분할
+- CP/GI 가드 인터벌
+- OFDM 직교 주파수 분할
 
 ---
 

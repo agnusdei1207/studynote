@@ -1,6 +1,7 @@
 +++
-weight = 627
 title = "627. 오케스트레이션 (Orchestration) - 쿠버네티스(Kubernetes) 아키텍처"
+date = "2026-03-14"
+weight = 627
 +++
 
 # 627. 오케스트레이션 (Orchestration) - 쿠버네티스(Kubernetes) 아키텍처

@@ -1,8 +1,10 @@
 +++
-weight = 512
 title = "512. 메시 프로토콜 상태 전이도 (Mesh Protocol State Transition)"
+date = "2026-03-14"
+weight = 512
 [extra]
 category = "studynote-computer-architecture"
+date = "2026-03-14"
 +++
 
 # Mesh Protocol State Transition (MESI on Mesh Interconnect)
@@ -11,7 +13,7 @@ category = "studynote-computer-architecture"
 > 2. **가치**: 중앙 집중식 버스 중재가 없는 분산 환경에서 메시지 전송 지연 및 비순차 도착 가능성을 고려한 안정적인 데이터 동기화를 보장하며, 현대 멀티코어 프로세서의 확장성을 결정짓는 핵심 설계도이다.
 > 3. **융합**: NoC (Network-on-Chip) 아키텍처, 디렉터리 기반 일관성 모델, 그리고 라우팅 알고리즘과 융합되어 매니코어(Many-core) 시스템의 데이터 무결성을 유지한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -26,7 +28,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 넓은 그물망 네트워크에서 데이터들이 서로 엉키지 않게 각자의 '신분증(상태)'을 엄격하게 갱신하며 소통하는 질서 유지 시스템입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -40,7 +42,7 @@ category = "studynote-computer-architecture"
 | **Control Messages** | 상태 전이 유발 신호 | Read-Req, Invalidate, Ack, Write-back 등의 패킷 | Protocol Data Unit | 업무 지시 공문 |
 | **Wait State (Transient)** | 중간 전이 상태 관리 | 응답이 오기 전까지의 과도기적 상태(Pending) 처리 | Split-transaction | "확인 중" 푯말 |
 
----
++++
 
 ### 메시 환경에서의 상태 전이 메커니즘
 
@@ -70,7 +72,7 @@ category = "studynote-computer-architecture"
 
 **[다이어그램 해설]** 기본 MESI(Modified, Exclusive, Shared, Invalid) 전이와 유사하지만, 메시 네트워크에서는 메시지 전송 지연이 발생하므로 `S_pending`과 같은 '기다림 상태'가 매우 중요하다. 예를 들어, Core 1이 Shared(S) 상태의 데이터를 Modified(M)로 바꾸려 할 때, 네트워크의 다른 코어들에게 무효화 메시지를 보내고 그들로부터 "지웠다"는 응답(Ack)을 모두 받을 때까지 `M_pending` 상태에 머물러야 한다. 만약 이 기다림 없이 바로 쓰기를 수행하면, 아직 메시지를 못 받은 다른 코어가 옛날 값을 읽어가는 일관성 붕괴가 발생할 수 있다. 따라서 메시 프로토콜 전이도는 물리적 거리(Hop count)에 따른 시간차를 완벽하게 극복하도록 설계된다.
 
----
++++
 
 ### 심층 동작 원리: 메시지 종류와 상태 변화
 
@@ -81,7 +83,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 물건을 빌려올 때(GETS), 내 것으로 만들 때(GETM), 반납할 때(PUTM)의 절차와 그사이에 서류 승인을 기다리는 과정(Pending)을 엄격히 정의한 절차서와 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -99,7 +101,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 한 명씩 말하는 회의실(버스)과 전국 각지에서 편지를 주고받는 우편 시스템(메시)의 소통 규칙 차이입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -114,7 +116,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 메시지가 길을 잃거나 늦게 와도 전체 업무(연산)가 꼬이지 않는지, 비상시 대응 매뉴얼(타임아웃)이 있는지 확인하는 것이 필수적입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -131,15 +133,15 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 도시의 교통 체계가 갈수록 정교해지듯, 컴퓨터 내부의 데이터 소통 규칙도 한 치의 오차도 허용하지 않는 완벽한 지능형 시스템으로 발전하고 있습니다.
 
----
++++
 
 ## 📌 관련 개념 맵
-- **[MESI 프로토콜](./xx_mesi_protocol.md)**: 메시 인터커넥트 상에서 돌아가는 기본 일관성 규약.
-- **[NoC (Network-on-Chip)](../3_network/xx_noc.md)**: 메시 프로토콜의 물리적 무대인 칩 내부 네트워크.
-- **[디렉터리 캐시 (Directory Cache)](./511_directory_cache.md)**: 메시지 전송의 방향을 결정하는 정보 저장소.
-- **[데드락 (Deadlock)](../2_operating_system/5_deadlock/xx_deadlock.md)**: 메시지 전송 시 반드시 피해야 할 설계 오류.
+- **MESI 프로토콜**: 메시 인터커넥트 상에서 돌아가는 기본 일관성 규약.
+- **NoC (Network-on-Chip)**: 메시 프로토콜의 물리적 무대인 칩 내부 네트워크.
+- **디렉터리 캐시 (Directory Cache)**: 메시지 전송의 방향을 결정하는 정보 저장소.
+- **데드락 (Deadlock)**: 메시지 전송 시 반드시 피해야 할 설계 오류.
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 메시 프로토콜 상태 전이도는 **'그물망 도시의 교통 법규'**와 같아요.

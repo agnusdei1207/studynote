@@ -1,6 +1,7 @@
 +++
-weight = 495
 title = "495. 장치 드라이버 (Device Driver) 커널 인터페이스"
+date = "2026-03-14"
+weight = 495
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -108,9 +109,9 @@ title = "495. 장치 드라이버 (Device Driver) 커널 인터페이스"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[시스템 콜 (System Call)](../../2_operating_system/1_overview_architecture/xx_syscall.md)**: 응용 프로그램이 드라이버를 부르는 입구.
-- **[LKM (Linux Kernel Module)](./xx_lkm.md)**: 리눅스의 동적 드라이버 로딩 방식.
-- **[인터럽트 (Interrupt)](./449_interrupt_driven_io.md)**: 하드웨어가 드라이버에게 말을 거는 방식.
+- **시스템 콜 (System Call)**: 응용 프로그램이 드라이버를 부르는 입구.
+- **LKM (Linux Kernel Module)**: 리눅스의 동적 드라이버 로딩 방식.
+- **인터럽트 (Interrupt)**: 하드웨어가 드라이버에게 말을 거는 방식.
 
 ---
 

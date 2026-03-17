@@ -1,5 +1,6 @@
 +++
 title = "651. 서버 랙 PDU (Power Distribution Unit)"
+date = "2026-03-14"
 weight = 651
 +++
 

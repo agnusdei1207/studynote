@@ -1,5 +1,6 @@
 +++
 title = "Routing - 라우팅"
+date = "2026-03-14"
 weight = 891
 +++
 
@@ -107,6 +108,6 @@ Routing은 패킷의 최적 경로를 결정합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Router](./xxx_router.md)
-- [Routing Table](./xxx_routing_table.md)
-- [OSPF](./xxx_ospf.md)
+- Router
+- Routing Table
+- OSPF

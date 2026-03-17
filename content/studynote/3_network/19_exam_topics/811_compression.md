@@ -1,5 +1,6 @@
 +++
 title = "Compression - 압축"
+date = "2026-03-14"
 weight = 811
 +++
 
@@ -99,6 +100,6 @@ Compression은 데이터 크기를 줄입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Bandwidth](./803_bandwidth.md)
-- [Encoding](./xxx_encoding.md)
-- [Storage](./xxx_storage.md)
+- Bandwidth
+- Encoding
+- Storage

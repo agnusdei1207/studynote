@@ -1,7 +1,7 @@
----
-title: "492. DAST (Dynamic Application Security Testing)"
-date: 2026-03-15
----
++++
+title = "492. DAST (Dynamic Application Security Testing)"
+date = "2026-03-15"
++++
 
 # 492. DAST (Dynamic Application Security Testing)
 
@@ -156,10 +156,10 @@ DAST가 취약점을 확신하는 핵심 논리다.
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[SAST (Static Application Security Testing)](./491_sast.md)**: DAST의 단점을 보완하는 정적 분석 기술
-- **[IAST (Interactive Application Security Testing)](./493_iast.md)**: SAST와 DAST의 장점을 결합한 기술
-- **[모의 해킹 (Penetration Testing)](./455_pentesting.md)**: DAST의 개념을 수동 전문가 영역으로 확장한 활동
-- **[OWASP Top 10 (2021)](./477_owasp_top_10.md)**: DAST로 주로 점검하는 핵심 취약점 목록
+- **SAST (Static Application Security Testing)**: DAST의 단점을 보완하는 정적 분석 기술
+- **IAST (Interactive Application Security Testing)**: SAST와 DAST의 장점을 결합한 기술
+- **모의 해킹 (Penetration Testing)**: DAST의 개념을 수동 전문가 영역으로 확장한 활동
+- **OWASP Top 10 (2021)**: DAST로 주로 점검하는 핵심 취약점 목록
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "HTTP Cache - HTTP 캐시"
+date = "2026-03-14"
 weight = 622
 +++
 
@@ -99,6 +100,6 @@ HTTP Cache는 HTTP 프로토콜 기반 캐싱을 제공합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Caching](./620_caching.md)
-- [CDN](./619_cdn.md)
-- [HTTP](./546_http.md)
+- Caching
+- CDN
+- HTTP

@@ -1,10 +1,9 @@
----
-title: "[ICT] #36. 블록체인 오라클 (Blockchain Oracle)"
-date: "2026-03-17"
++++
+title = "[ICT] #36. 블록체인 오라클 (Blockchain Oracle)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Oracle_Problem_DON_Decentralized_Oracle_Network_Chainlink_Offchain_Data"
----
+keyword = "Oracle_Problem_DON_Decentralized_Oracle_Network_Chainlink_Offchain_Data"
++++
 
 # 블록체인 오라클 (Oracle): 외부 세계와 블록체인을 잇는 데이터의 가교
 
@@ -13,7 +12,7 @@ keyword: "Oracle_Problem_DON_Decentralized_Oracle_Network_Chainlink_Offchain_Dat
 > 2. **가치**: 현실 세계의 복잡한 사건들을 블록체인 실행의 트리거(Trigger)로 활용 가능하게 하여 스마트 컨트랙트의 범용성을 극대화하며, **오라클 문제(Oracle Problem)** 해결이 시스템의 무결성을 결정한다.
 > 3. **융합**: 탈중앙화 오라클 네트워크(**DON**, Decentralized Oracle Network)와 하드웨어 보안 모듈(TEE), 그리고 암호학적 증명 기술이 결합되어 실물 경제와 디지털 원장을 동기화하는 핵심 인프라로 기능한다.
 
----
++++
 
 ## Ⅰ. 블록체인 오라클 (Oracle) 개요
 
@@ -29,7 +28,7 @@ keyword: "Oracle_Problem_DON_Decentralized_Oracle_Network_Chainlink_Offchain_Dat
 
 📢 **섹션 요약 비유**: 아무리 머리 좋은 천재(스마트 컨트랙트)라도 외부 세상의 소식(데이터)을 듣지 못하면 아무것도 결정할 수 없으며, 그 소식을 전하는 통로가 거짓말을 하지 않게 만드는 것이 오라클의 핵심입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -82,7 +81,7 @@ keyword: "Oracle_Problem_DON_Decentralized_Oracle_Network_Chainlink_Offchain_Dat
 
 📢 **섹션 요약 비유**: 법정에서 한 명의 증인(중앙화)에게 묻지 않고, 서로 모르는 여러 명의 증인(탈중앙화)들에게 물어본 뒤 가장 많은 대답을 정답으로 채택하는 '교차 검증 재판'과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -102,7 +101,7 @@ keyword: "Oracle_Problem_DON_Decentralized_Oracle_Network_Chainlink_Offchain_Dat
 
 📢 **섹션 요약 비유**: 개인의 일기장(중앙화)은 혼자 고칠 수 있지만, 온 마을 신문에 실린 기사(탈중앙화)는 모든 신문사를 해킹하지 않는 한 고치기 힘든 것과 같은 차이입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -116,7 +115,7 @@ keyword: "Oracle_Problem_DON_Decentralized_Oracle_Network_Chainlink_Offchain_Dat
 
 📢 **섹션 요약 비유**: 온도가 중요한 냉동 창고에 온도계(오라클) 하나만 두면 고장 시 음식이 다 상하므로, 여러 개의 온도계를 두고 평균값을 보는 '다중 센서 설계'가 핵심입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -130,13 +129,13 @@ keyword: "Oracle_Problem_DON_Decentralized_Oracle_Network_Chainlink_Offchain_Dat
 
 📢 **섹션 요약 비유**: 오라클은 블록체인이라는 섬과 현실 대륙을 연결하는 **'정보의 대교'**이며, 이 다리가 튼튼할수록 우리는 더 넓은 디지털 경제 영토를 가질 수 있습니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[오라클 문제 (Oracle Problem)](./xx_oracle_problem.md)**: 데이터 주입 시 발생하는 신뢰의 딜레마.
-- **[체인링크 (Chainlink)](./xx_chainlink.md)**: 가장 널리 쓰이는 탈중앙화 오라클 솔루션.
-- **[스마트 컨트랙트](./21_smart_contract.md)**: 오라클 데이터를 소모하여 로직을 수행하는 주체.
-- **[플래시 론 공격](./34_flash_loan.md)**: 오라클 시세 왜곡을 노리는 대표적인 공격 기법.
+- **오라클 문제 (Oracle Problem)**: 데이터 주입 시 발생하는 신뢰의 딜레마.
+- **체인링크 (Chainlink)**: 가장 널리 쓰이는 탈중앙화 오라클 솔루션.
+- **스마트 컨트랙트**: 오라클 데이터를 소모하여 로직을 수행하는 주체.
+- **플래시 론 공격**: 오라클 시세 왜곡을 노리는 대표적인 공격 기법.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **인터넷 세상의 비둘기**: 블록체인 나라는 성벽으로 꽁꽁 싸여 있어서 바깥 소식을 몰라요. 오라클은 성 밖에서 소식을 물어다 주는 똑똑한 비둘기 같은 친구예요.

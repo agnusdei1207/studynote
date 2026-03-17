@@ -1,5 +1,6 @@
 +++
 title = "NATS - 네이츠"
+date = "2026-03-14"
 weight = 774
 +++
 
@@ -99,6 +100,6 @@ NATS는 경량 메시징 시스템입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Message Queue](./609_message_queue.md)
-- [Kafka](./710_kafka.md)
-- [Pub/Sub](./xxx_pubsub.md)
+- Message Queue
+- Kafka
+- Pub/Sub

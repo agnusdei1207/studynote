@@ -1,5 +1,6 @@
 +++
 title = "Network Interface - 네트워크 인터페이스"
+date = "2026-03-14"
 weight = 989
 +++
 
@@ -116,6 +117,6 @@ Network Interface는 네트워크 연결의 지점입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [NIC](./xxx_nic.md)
-- [MAC Address](./961_mac_address.md)
-- [Socket](./931_socket.md)
+- NIC
+- MAC Address
+- Socket

@@ -1,9 +1,7 @@
----
-title: "570. Trace ID와 Span ID의 전파 (Context Propagation)"
-date: 2026-03-15
-type: "pe_exam"
-id: 570
----
++++
+title = "570. Trace ID와 Span ID의 전파 (Context Propagation)"
+date = "2026-03-15"
++++
 
 # 570. Trace ID와 Span ID의 전파 (Context Propagation)
 
@@ -129,10 +127,10 @@ id: 570
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[분산 추적 (Tracing)](./569_distributed_tracing.md)**: 문맥 전파를 통해 완성되는 결과물.
-- **[OpenTelemetry](./xx_otel.md)**: 문맥 전파를 구현하는 표준 SDK 라이브러리.
-- **[W3C Trace Context](../3_network/xx_w3c_trace.md)**: 문맥 전파의 국제 표준 규격.
-- **[Baggage](./xx_baggage.md)**: 전 구간에 걸쳐 데이터를 운반하는 특수 메커니즘.
+- **분산 추적 (Tracing)**: 문맥 전파를 통해 완성되는 결과물.
+- **OpenTelemetry**: 문맥 전파를 구현하는 표준 SDK 라이브러리.
+- **W3C Trace Context**: 문맥 전파의 국제 표준 규격.
+- **Baggage**: 전 구간에 걸쳐 데이터를 운반하는 특수 메커니즘.
 
 ---
 

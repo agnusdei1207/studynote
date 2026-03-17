@@ -1,6 +1,7 @@
 +++
-weight = 545
 title = "545. 프리패칭 (Prefetching) 및 읽기 전행 (Read-ahead)"
+date = "2026-03-14"
+weight = 545
 +++
 
 # # 545. 프리패칭 (Prefetching) 및 읽기 전행 (Read-ahead)

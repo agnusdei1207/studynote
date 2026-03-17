@@ -1,5 +1,6 @@
 +++
 title = "네트워크 자동화 - Network Automation"
+date = "2026-03-14"
 weight = 449
 +++
 
@@ -148,10 +149,10 @@ weight = 449
 ---
 
 ### 📌 관련 개념 링크**:
-- [네트워크 프로그래밍](./448_network_programming.md)
-- [SDN](./440_sdn.md)
-- [DevOps](../4_software_engineering/11_exam_summary/xxx.md)
-- [Infrastructure as Code](../4_software_engineering/11_exam_summary/xxx.md)
+- 네트워크 프로그래밍
+- SDN
+- DevOps
+- Infrastructure as Code
 
 ---
 

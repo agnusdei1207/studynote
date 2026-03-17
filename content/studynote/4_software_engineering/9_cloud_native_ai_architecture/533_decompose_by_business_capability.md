@@ -1,7 +1,7 @@
----
-title: "533. 비즈니스 능력에 따른 분해 (Decompose by Business Capability)"
-date: 2026-03-15
----
++++
+title = "533. 비즈니스 능력에 따른 분해 (Decompose by Business Capability)"
+date = "2026-03-15"
++++
 
 # 533. 비즈니스 능력에 따른 분해 (Decompose by Business Capability)
 
@@ -155,10 +155,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[마이크로서비스 분해 패턴](./532_microservices_decomposition.md)**: 비즈니스 능력 분해가 속한 상위 주제
-- **[하위 도메인별 분해 (DDD)](./534_decompose_by_subdomain.md)**: 보완적으로 사용되는 정밀 분해 기법
-- **[콘웨이의 법칙](../xx_conway.md)**: 조직과 아키텍처 일치의 이론적 근거
-- **[전사 아키텍처 (EA)](../12_it_management/xx_ea.md)**: 비즈니스 능력을 식별하는 거시적 틀
+- **마이크로서비스 분해 패턴**: 비즈니스 능력 분해가 속한 상위 주제
+- **하위 도메인별 분해 (DDD)**: 보완적으로 사용되는 정밀 분해 기법
+- **콘웨이의 법칙**: 조직과 아키텍처 일치의 이론적 근거
+- **전사 아키텍처 (EA)**: 비즈니스 능력을 식별하는 거시적 틀
 
 ---
 

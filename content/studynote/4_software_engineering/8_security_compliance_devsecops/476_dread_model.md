@@ -1,7 +1,7 @@
----
-title: "476. DREAD 모델"
-date: 2026-03-15
----
++++
+title = "476. DREAD 모델"
+date = "2026-03-15"
++++
 
 # 476. DREAD 모델
 
@@ -157,10 +157,10 @@ DREAD의 5가지 지표에 일일이 점수를 매기는 것이 번거롭다는 
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[위협 모델링 (Threat Modeling)](./474_threat_modeling.md)**: DREAD 분석의 전 단계 활동
-- **[STRIDE 모델](./475_stride.md)**: DREAD로 평가할 위협들을 식별하는 체계
-- **[CVSS (Common Vulnerability Scoring System)](./490_cvss.md)**: 운영 단계에서 주로 쓰이는 표준 위험 점수 체계
-- **[PASTA 방법론](./xx_pasta.md)**: 비즈니스 중심의 더 포괄적인 위협 평가 프레임워크
+- **위협 모델링 (Threat Modeling)**: DREAD 분석의 전 단계 활동
+- **STRIDE 모델**: DREAD로 평가할 위협들을 식별하는 체계
+- **CVSS (Common Vulnerability Scoring System)**: 운영 단계에서 주로 쓰이는 표준 위험 점수 체계
+- **PASTA 방법론**: 비즈니스 중심의 더 포괄적인 위협 평가 프레임워크
 
 ---
 

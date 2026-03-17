@@ -1,7 +1,7 @@
 +++
-weight = 667
 title = "667. 분산 운영체제(Distributed OS) 및 가상화 핵심 기술 요약"
 date = "2024-05-23"
+weight = 667
 [extra]
 categories = "studynote-operating-system"
 keywords = ["Distributed OS", "Virtualization", "Hypervisor", "Container", "Transparency"]
@@ -12,7 +12,7 @@ keywords = ["Distributed OS", "Virtualization", "Hypervisor", "Container", "Tran
 > 가상화 기술은 하드웨어 자원을 논리적으로 분리하여 자원 활용도를 극대화하고, 하이퍼바이저(Hypervisor)와 컨테이너(Container)를 통해 격리된 실행 환경을 구축함으로써 클라우드 컴퓨팅의 기반을 형성한다.
 > 현대 시스템은 분산 구조의 확장성과 가상화의 유연성을 결합하여 대규모 데이터 처리와 서비스의 가용성(Availability)을 동시에 확보하는 방향으로 진화하고 있다.
 
----
++++
 
 ### Ⅰ. 분산 운영체제의 핵심 원칙과 투명성(Transparency)
 
@@ -25,7 +25,7 @@ keywords = ["Distributed OS", "Virtualization", "Hypervisor", "Container", "Tran
 
 📢 섹션 요약 비유: 분산 OS는 '여러 명의 요리사가 하나의 거대한 주방에서 일하는 것'과 같아서, 손님은 누가 요리를 했는지 모르지만 음식이 아주 빨리 나오는 마법과 같습니다.
 
----
++++
 
 ### Ⅱ. 서버 가상화(Server Virtualization) 기술
 
@@ -54,7 +54,7 @@ keywords = ["Distributed OS", "Virtualization", "Hypervisor", "Container", "Tran
 
 📢 섹션 요약 비유: 가상화는 '한 채의 집을 칸막이로 나눠서 여러 가구가 살게 하는 것'과 같아서, 실제 집(하드웨어)은 하나지만 각 가구는 자기만의 집(VM)이 있다고 느끼는 기술입니다.
 
----
++++
 
 ### Ⅲ. 컨테이너(Container) 기술과 OS 수준 가상화
 
@@ -68,7 +68,7 @@ keywords = ["Distributed OS", "Virtualization", "Hypervisor", "Container", "Tran
 
 📢 섹션 요약 비유: 하이퍼바이저가 '개별 주택'을 짓는 것이라면, 컨테이너는 '고시원'과 같아서 공용 시설(커널)은 같이 쓰되 방(컨테이너)만 따로 쓰는 효율적인 구조입니다.
 
----
++++
 
 ### Ⅳ. 분산 파일 시스템(DFS)과 데이터 일관성
 
@@ -81,7 +81,7 @@ keywords = ["Distributed OS", "Virtualization", "Hypervisor", "Container", "Tran
 
 📢 섹션 요약 비유: 분산 파일 시스템은 '마을 공동 창고'와 같아서, 물건을 여러 곳에 나눠 보관해도 내가 필요할 때 어디서든 꺼내 쓸 수 있게 관리해주는 시스템입니다.
 
----
++++
 
 ### Ⅴ. 클라우드 오케스트레이션 및 미래 전망
 
@@ -94,7 +94,7 @@ keywords = ["Distributed OS", "Virtualization", "Hypervisor", "Container", "Tran
 
 📢 섹션 요약 비유: 오케스트레이션은 '거대한 오케스트라의 지휘자'와 같아서, 수천 명의 연주자(컨테이너)가 제시간에 맞춰 정확한 소리를 내도록 조율하는 역할을 합니다.
 
----
++++
 
 ### 💡 지식 그래프(Knowledge Graph)
 - **부모 노드**: 현대 인프라 기술(Modern Infrastructure)

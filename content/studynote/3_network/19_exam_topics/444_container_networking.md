@@ -1,5 +1,6 @@
 +++
 title = "컨테이너 네트워킹 - Container Networking"
+date = "2026-03-14"
 weight = 444
 +++
 
@@ -148,10 +149,10 @@ weight = 444
 ---
 
 ### 📌 관련 개념 링크**:
-- [가상화](./322_virtualization.md)
-- [쿠버네티스](./445_kubernetes_networking.md)
-- [Service Mesh](./446_service_mesh.md)
-- [Overlay 네트워크](./447_overlay_network.md)
+- 가상화
+- 쿠버네티스
+- Service Mesh
+- Overlay 네트워크
 
 ---
 

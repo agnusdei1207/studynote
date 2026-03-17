@@ -1,5 +1,6 @@
 +++
 title = "Slow Start - 느린 시작"
+date = "2026-03-14"
 weight = 504
 +++
 
@@ -90,6 +91,6 @@ Slow Start는 윈도우를 지수적으로 증가시킵니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./332_tcp.md)
-- [Fast Recovery](./503_fast_recovery.md)
-- [AIMD](./505_aimd.md)
+- TCP
+- Fast Recovery
+- AIMD

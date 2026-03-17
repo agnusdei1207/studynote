@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Business Logic 🥇 Gold"
-description = "LUXORA 플랫폼의 Gold 난이도 Business Logic Flaw 공략 - Race Condition과 결합된 Race to the Bottom (Coupon Stacking) 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Business Logic", "Gold", "Coupon Stacking", "Race Condition", "Write-up"]

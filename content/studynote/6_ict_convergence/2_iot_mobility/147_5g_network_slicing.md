@@ -1,10 +1,9 @@
----
-title: "[ICT] #148. 5G 통신망의 3대 특성 및 네트워크 슬라이싱"
-date: "2026-03-17"
++++
+title = "[ICT] #148. 5G 통신망의 3대 특성 및 네트워크 슬라이싱"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "5G_eMBB_uRLLC_mMTC_NetworkSlicing_NFV_SDN_QualityOfService"
----
+keyword = "5G_eMBB_uRLLC_mMTC_NetworkSlicing_NFV_SDN_QualityOfService"
++++
 
 # 5G 및 네트워크 슬라이싱: 하나의 물리망을 수백 개의 맞춤형 가상망으로 쪼개는 마법
 
@@ -13,7 +12,7 @@ keyword: "5G_eMBB_uRLLC_mMTC_NetworkSlicing_NFV_SDN_QualityOfService"
 > 2. **가치**: 네트워크 슬라이싱은 하나의 거대한 물리적 통신망을 SDN/NFV 기술을 이용해 여러 개의 독립적인 '가상 네트워크(Slice)'로 분할하여, 자율주행차에는 지연 없는 망을, 스마트 팩토리에는 고속의 망을 맞춤형으로 임대해 준다.
 > 3. **융합**: 단순한 통신 속도 향상을 넘어, 통신 인프라를 클라우드처럼 잘라 파는 B2B 비즈니스 모델(Network as a Service)을 창출하고 4차 산업혁명의 모든 기기를 연결하는 대동맥 역할을 한다.
 
----
++++
 
 ## Ⅰ. 5G 통신망과 네트워크 슬라이싱 개요
 
@@ -34,7 +33,7 @@ keyword: "5G_eMBB_uRLLC_mMTC_NetworkSlicing_NFV_SDN_QualityOfService"
 
 📢 **섹션 요약 비유**: 손님마다 원하는 요리가 다를 때 주방을 3개 짓는 대신, 하나의 큰 주방에서 조리대를 완벽히 분리해(Slicing) 3가지 요리를 동시에 막힘없이 빼내는 뷔페식 인프라입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -81,7 +80,7 @@ keyword: "5G_eMBB_uRLLC_mMTC_NetworkSlicing_NFV_SDN_QualityOfService"
 
 📢 **섹션 요약 비유**: 물리적인 피자 한 판(통신망)을 구워, 치즈만 원하는 사람, 페퍼로니만 원하는 사람에게 완벽하게 칼집을 내어 각자의 취향에 맞게 나눠주는 마법의 칼(NFV/SDN)입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -100,7 +99,7 @@ keyword: "5G_eMBB_uRLLC_mMTC_NetworkSlicing_NFV_SDN_QualityOfService"
 
 📢 **섹션 요약 비유**: 기성복(4G)만 팔던 옷가게가 3D 프린터(5G 슬라이싱)를 도입하여, 손님의 키, 몸무게, 직업에 딱 맞춘 맞춤 정장(가상망)을 5분 만에 찍어내어 파는 비즈니스 혁명입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -117,7 +116,7 @@ keyword: "5G_eMBB_uRLLC_mMTC_NetworkSlicing_NFV_SDN_QualityOfService"
 
 📢 **섹션 요약 비유**: 페라리(5G 폰)를 샀어도 비포장도로(LTE 코어망)를 달리면 속도를 낼 수 없습니다. 완벽한 자율주행과 스마트 공장을 위해서는 5G 전용 고속도로(5G SA) 포장 공사가 선행되어야 합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -131,13 +130,13 @@ keyword: "5G_eMBB_uRLLC_mMTC_NetworkSlicing_NFV_SDN_QualityOfService"
 
 📢 **섹션 요약 비유**: 네트워크 슬라이싱은 통신사가 '단순한 파이프(Dumb Pipe) 제공자'에서 벗어나, 4차 산업혁명의 모든 혈관을 통제하는 '디지털 조물주'로 거듭나는 핵심 무기입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[5G SA (Standalone) / SBA](./149_5g_sa_sba.md)**: 네트워크 슬라이싱을 완벽하게 구현하기 위한 필수 전제 조건 아키텍처.
-- **[SDN / NFV](../../3_network/xx_sdn_nfv.md)**: 물리적 망을 소프트웨어로 분리하고 제어하는 근간 기술.
-- **[자율주행 레벨 4/5](./134_autonomous_vehicle_levels.md)**: uRLLC 슬라이스를 가장 절실하게 요구하는 킬러 서비스.
-- **[MEC (Mobile Edge Computing)](./150_mec.md)**: 초저지연을 위해 슬라이싱과 세트로 구축되는 엣지 클라우드.
+- **5G SA (Standalone) / SBA**: 네트워크 슬라이싱을 완벽하게 구현하기 위한 필수 전제 조건 아키텍처.
+- **SDN / NFV**: 물리적 망을 소프트웨어로 분리하고 제어하는 근간 기술.
+- **자율주행 레벨 4/5**: uRLLC 슬라이스를 가장 절실하게 요구하는 킬러 서비스.
+- **MEC (Mobile Edge Computing)**: 초저지연을 위해 슬라이싱과 세트로 구축되는 엣지 클라우드.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **마법의 3차선 도로**: 5G 고속도로는 1차선은 '슈퍼 빠른 차(영화)', 2차선은 '절대 막히면 안 되는 차(자율주행)', 3차선은 '아주 많은 오토바이(사물인터넷)' 전용으로 차선을 완벽하게 그어 놨어요.

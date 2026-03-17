@@ -1,5 +1,6 @@
 +++
 title = "B+Tree - B+트리"
+date = "2026-03-14"
 weight = 695
 +++
 
@@ -97,6 +98,6 @@ B+Tree는 리프에만 데이터를 저장합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [B-Tree](./694_btree.md)
-- [Indexing](./693_indexing.md)
-- [Range Query](./696_range_query.md)
+- B-Tree
+- Indexing
+- Range Query

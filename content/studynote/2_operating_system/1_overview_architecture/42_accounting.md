@@ -1,7 +1,7 @@
 +++
-weight = 42
 title = "42. 회계 및 로깅 (Accounting & Logging)"
 date = "2026-03-11"
+weight = 42
 [extra]
 categories = "studynote-operating-system"
 keywords = ["회계", "Accounting", "로깅", "Logging", "감사추적", "Audit Trail", "시스템 모니터링", "사용량 통계"]
@@ -14,7 +14,7 @@ keywords = ["회계", "Accounting", "로깅", "Logging", "감사추적", "Audit 
 > 2. **가치**: 정확한 회계 데이터는 **비용 최적화**와 **과금 모델**의 기반이 되며, 체계적인 로깅은 **MTTR(평균 복구 시간) 단축**과 **규정 준수(Compliance)**를 보장한다.
 > 3. **융합**: 클라우드 FinOps, SIEM(Security Information and Event Management), APM(Application Performance Monitoring)은 회계와 로깅 기술의 현대적 진화 형태다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -44,7 +44,7 @@ keywords = ["회계", "Accounting", "로깅", "Logging", "감사추적", "Audit 
 
 - **📢 섹션 요약 비유**: 회계는 은행 거래 내역처럼 '얼마나'를 추적하고, 로깅은 블랙박스처럼 '무슨 일이' 일어났는지를 기록합니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -182,7 +182,7 @@ keywords = ["회계", "Accounting", "로깅", "Logging", "감사추적", "Audit 
 
 - **📢 섹션 요약 비유**: 회계 데이터는 영수증처럼 '무엇을 얼마나 샀는지'를 증명하고, 로그는 일기처럼 '무슨 일이 있었는지'를 서술합니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -218,7 +218,7 @@ keywords = ["회계", "Accounting", "로깅", "Logging", "감사추적", "Audit 
 
 - **📢 섹션 요약 비유**: 회계는 나라의 세금 징수 기록관처럼 자원 사용을 측정하고, 로깅은 역사가처럼 시스템의 모든 사건을 기록하여 미래를 위한 교훈을 남깁니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -314,7 +314,7 @@ keywords = ["회계", "Accounting", "로깅", "Logging", "감사추적", "Audit 
 
 - **📢 섹션 요약 비유**: 로깅은 보험 증서처럼 문제 발생 시 증거가 되고, 회계는 가계부처럼 지출을 가시화하여 낭비를 막습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -339,15 +339,15 @@ keywords = ["회계", "Accounting", "로깅", "Logging", "감사추적", "Audit 
 
 - **📢 섹션 요약 비유**: 회계와 로깅은 의료 기록처럼, 시스템의 건강 상태와 치료 이력을 완벽하게 보존하여 언제든 진단과 치료가 가능하게 합니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[시스템 데몬 (Daemon)](./37_system_daemon.md)**: 백그라운드 로깅 서비스
-- **[오류 탐지 (Error Detection)](./40_error_detection.md)**: 로깅의 주요 이벤트 소스
-- **[보호 및 보안](./43_protection_security.md)**: 감사 로그의 보안 활용
-- **[클러스터 시스템](./45_cluster_system.md)**: 분산 로깅 아키텍처
+- **시스템 데몬 (Daemon)**: 백그라운드 로깅 서비스
+- **오류 탐지 (Error Detection)**: 로깅의 주요 이벤트 소스
+- **보호 및 보안**: 감사 로그의 보안 활용
+- **클러스터 시스템**: 분산 로깅 아키텍처
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 회계는 **'용돈 기입장'**과 같아요. 언제 어디서 돈(자원)을 썼는지 적어두는 거죠.

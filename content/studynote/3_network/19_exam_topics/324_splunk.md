@@ -1,5 +1,6 @@
 +++
 title = "Splunk - 로그 분석 플랫폼"
+date = "2026-03-14"
 weight = 324
 +++
 
@@ -154,10 +155,10 @@ Splunk는 머신 데이터를 수집, 분석, 시각화하는 플랫폼입니다
 ---
 
 ### 📌 관련 개념 링크**:
-- [ELK Stack](./325_elk_stack.md)
-- [SIEM](./9_security/240_siem.md)
-- [로그 관리](./15_devops_sre/225_log_management.md)
-- [보안 모니터링](./9_security/250_security_monitoring.md)
+- ELK Stack
+- SIEM
+- 로그 관리
+- 보안 모니터링
 
 ---
 

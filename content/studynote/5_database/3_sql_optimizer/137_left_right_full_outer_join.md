@@ -1,7 +1,6 @@
 +++
 title = "137. Left / Right / Full Outer Join - 조인 방향과 합집합"
 date = "2026-03-16"
-draft = false
 weight = 137
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["Left Join", "Right Join", "Full Join", "외부 조인", "데이터 
 > 2. **기능적 분화**: **Left Join**은 왼쪽 테이블을, **Right Join**은 오른쪽 테이블을 전수 출력하며, **Full Join**은 양쪽의 모든 데이터를 포함하는 합집합 연산을 수행하여 매칭되지 않은 데이터에 NULL을 할당한다.
 > 3. **가치**: 데이터 간의 주종 관계(Master-Slave)를 명확히 표현하고, 특히 **Full Outer Join**을 통해 서로 다른 데이터 소스 간의 전체적인 정합성 차이(Data Discrepancy)를 분석하는 데 결정적인 역할을 한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -47,7 +46,7 @@ keywords = ["Left Join", "Right Join", "Full Join", "외부 조인", "데이터 
 
 - **📢 섹션 요약 비유**: 조인의 방향은 '사진의 초점'과 같아서, 내가 주인공으로 삼고 싶은 쪽(Left/Right)을 선명하게 부각해 줍니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -89,7 +88,7 @@ keywords = ["Left Join", "Right Join", "Full Join", "외부 조인", "데이터 
 
 - **📢 섹션 요약 비유**: Full Join은 '두 장의 투명 필름을 겹쳐놓고, 겹치지 않는 부분까지 몽땅 종이에 옮겨 그리는 것'과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -107,7 +106,7 @@ keywords = ["Left Join", "Right Join", "Full Join", "외부 조인", "데이터 
 
 - **📢 섹션 요약 비유**: Left Join이 '내가 가진 목록 확인'이라면, Full Join은 '우리 둘 사이의 모든 차이점 확인'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -126,7 +125,7 @@ keywords = ["Left Join", "Right Join", "Full Join", "외부 조인", "데이터 
 
 - **📢 섹션 요약 비유**: Right Join을 고집하는 것은 '거꾸로 읽는 책'과 같아, 억지로 읽을 순 있지만 머리(가독성)가 아파집니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -144,15 +143,15 @@ keywords = ["Left Join", "Right Join", "Full Join", "외부 조인", "데이터 
 
 - **📢 섹션 요약 비유**: 미래의 조인 방향은 우리가 고민하지 않아도, 데이터들 스스로가 '가장 소중한 쪽'을 향해 몸을 트는 지능형 정렬 시스템이 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[외부 조인 (Outer Join)](./136_outer_join.md)**: 조인 방향의 상위 개념.
-- **[NULL 값 처리](./66_null_value.md)**: 방향성 조인의 필연적 결과물.
-- **[집합 연산 (UNION)](./150_set_operators.md)**: Full Join의 논리적 대안.
-- **[조인 순서 최적화](./176_join_order_optimization.md)**: 옵티마이저가 방향을 결정하는 원리.
+- **외부 조인 (Outer Join)**: 조인 방향의 상위 개념.
+- **NULL 값 처리**: 방향성 조인의 필연적 결과물.
+- **집합 연산 (UNION)**: Full Join의 논리적 대안.
+- **조인 순서 최적화**: 옵티마이저가 방향을 결정하는 원리.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **Left / Right Join**은 친구랑 짝꿍을 맺을 때, **"내 짝꿍이 없어도 나는 운동장에 남을래(Left)"** 혹은 **"네 짝꿍이 없어도 너는 남으렴(Right)"**이라고 정하는 거예요.

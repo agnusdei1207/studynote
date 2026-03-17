@@ -1,5 +1,6 @@
 +++
 title = "Helm - 헬름"
+date = "2026-03-14"
 weight = 760
 +++
 
@@ -100,6 +101,6 @@ Helm은 Kubernetes 패키지를 관리합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Kubernetes](./619_kubernetes.md)
-- [GitOps](./751_gitops.md)
-- [Package Management](./xxx_package.md)
+- Kubernetes
+- GitOps
+- Package Management

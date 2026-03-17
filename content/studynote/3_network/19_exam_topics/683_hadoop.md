@@ -1,5 +1,6 @@
 +++
 title = "Hadoop - 하둡"
+date = "2026-03-14"
 weight = 683
 +++
 
@@ -103,6 +104,6 @@ Hadoop은 대용량 분산 데이터 처리 프레임워크입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [HDFS](./684_hdfs.md)
-- [MapReduce](./682_mapreduce.md)
-- [Spark](./685_spark.md)
+- HDFS
+- MapReduce
+- Spark

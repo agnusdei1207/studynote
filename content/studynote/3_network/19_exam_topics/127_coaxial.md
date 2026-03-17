@@ -1,5 +1,6 @@
 +++
 title = "동축 케이블 (Coaxial Cable)"
+date = "2026-03-14"
 weight = 127
 +++
 
@@ -144,10 +145,10 @@ weight = 127
 ---
 
 ### 📌 관련 개념 링크**:
-- [꼬임 쌍선](./123_twisted_pair.md)
-- [광섬유](./128_optical_fiber.md)
-- [BNC 커넥터](./142_mdi.md)
-- [CATV](./147_cable_modem.md)
+- 꼬임 쌍선
+- 광섬유
+- BNC 커넥터
+- CATV
 
 ---
 

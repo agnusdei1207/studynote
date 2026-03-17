@@ -1,11 +1,11 @@
----
-title: "626. V-모델 개발-테스트 매핑 구조"
-date: 2026-03-15
-draft: false
-weight: 626
-categories: ["Software Engineering"]
-tags: ["Testing", "V-Model", "Verification", "Validation", "SDLC", "Waterfall"]
----
++++
+title = "626. V-모델 개발-테스트 매핑 구조"
+date = "2026-03-15"
+weight = 626
+[extra]
+categories = ["Software Engineering"]
+tags = ["Testing", "V-Model", "Verification", "Validation", "SDLC", "Waterfall"]
++++
 
 # V-모델 개발-테스트 매핑 구조
 
@@ -1007,11 +1007,11 @@ graph LR
 ```
 
 ### 연관 문서
-- [TDD (Test-Driven Development)](./584_tdd.md) - 단위 테스트 기반 개발
-- [화이트 박스 테스트](./580_whitebox_mccabe.md) - 구조적 테스트 설계
-- [블랙 박스 테스트](./581_blackbox_testing.md) - 동등 분할, 경계값 분석
-- [CI/CD 파이프라인](./515_devsecops_pipeline.md) - 지속적 통합 테스트
-- [테스트 더블](./625_test_double_mock_stub.md) - Mock, Stub 활용
+- TDD (Test-Driven Development) - 단위 테스트 기반 개발
+- 화이트 박스 테스트 - 구조적 테스트 설계
+- 블랙 박스 테스트 - 동등 분할, 경계값 분석
+- CI/CD 파이프라인 - 지속적 통합 테스트
+- 테스트 더블 - Mock, Stub 활용
 
 ---
 

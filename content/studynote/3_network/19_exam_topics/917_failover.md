@@ -1,5 +1,6 @@
 +++
 title = "Failover - 장애 조치"
+date = "2026-03-14"
 weight = 917
 +++
 
@@ -104,6 +105,6 @@ Failover는 장애 발생 시 자동으로 대체 서버로 전환합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Clustering](./916_clustering.md)
-- [HA](./xxx_ha.md)
-- [Load Balancing](./915_load_balancing.md)
+- Clustering
+- HA
+- Load Balancing

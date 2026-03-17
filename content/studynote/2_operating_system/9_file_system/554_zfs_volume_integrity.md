@@ -1,7 +1,8 @@
----
-weight = 554
++++
 title = "554. ZFS (Zettabyte FS) - 통합 볼륨 관리 및 데이터 무결성"
----
+date = "2026-03-14"
+weight = 554
++++
 
 # # 554. ZFS (Zettabyte File System) - 통합 볼륨 관리 및 데이터 무결성
 

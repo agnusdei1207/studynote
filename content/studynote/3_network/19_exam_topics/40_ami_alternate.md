@@ -1,5 +1,6 @@
 +++
 title = "AMI (Alternate Mark Inversion)"
+date = "2026-03-14"
 weight = 40
 +++
 
@@ -147,10 +148,10 @@ AMI(Alternate Mark Inversion)는 1(Mark)을 +V와 -V로 교대로 표현하는 �
 ---
 
 ### 📌 관련 개념 링크**:
-- [Line Coding 유형](./36_line_coding_types.md)
-- [B8ZS 0 대체](./43_b8zs_hdb3.md)
-- [T1/E1 디지털 전송](./205_t1_e1.md)
-- [NRZ 비복귀 부호화](./37_nrz_non_return.md)
+- Line Coding 유형
+- B8ZS 0 대체
+- T1/E1 디지털 전송
+- NRZ 비복귀 부호화
 
 ---
 

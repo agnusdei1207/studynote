@@ -1,6 +1,7 @@
 +++
-weight = 8
 title = "8. 도체 (Conductor)"
+date = "2026-03-14"
+weight = 8
 +++
 
 # 8. 도체 (Conductor)

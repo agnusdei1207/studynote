@@ -1,7 +1,6 @@
 +++
 title = "89. 엔티티 분류 (Core, Action Entity) - 핵심 엔티티와 행위 엔티티"
 date = "2026-03-16"
-draft = false
 weight = 89
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["Entity Classification", "엔티티 분류", "Core Entity", "Action 
 > 2. **구조적 위계**: 핵심 엔티티는 독립적으로 존재하며 부모 역할을 수행하는 반면, 행위 엔티티는 핵심 엔티티 간의 상호작용 결과로 발생하여 부모를 참조하는 자식 역할을 수행한다.
 > 3. **가치**: 엔티티의 성격을 명확히 분류함으로써 데이터 모델의 가독성을 높이고, 데이터 정규화 및 라이프사이클 관리(Archiving 등) 전략을 수립하는 데 결정적인 기준을 제공한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -47,7 +46,7 @@ keywords = ["Entity Classification", "엔티티 분류", "Core Entity", "Action 
 
 - **📢 섹션 요약 비유**: 핵심 엔티티는 '주어'이고, 행위 엔티티는 그 주어가 만들어낸 '목적어와 동사의 흔적'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -85,7 +84,7 @@ keywords = ["Entity Classification", "엔티티 분류", "Core Entity", "Action 
 
 - **📢 섹션 요약 비유**: 핵심 엔티티는 '무대 장치'이고, 행위 엔티티는 무대 위에서 벌어지는 '연극 내용'입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -104,7 +103,7 @@ keywords = ["Entity Classification", "엔티티 분류", "Core Entity", "Action 
 
 - **📢 섹션 요약 비유**: 핵심 엔티티가 '사전의 단어'라면, 행위 엔티티는 그 단어들로 만들어진 '매일매일의 일기'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -123,7 +122,7 @@ keywords = ["Entity Classification", "엔티티 분류", "Core Entity", "Action 
 
 - **📢 섹션 요약 비유**: 분류 없는 모델링은 '박물관 유물(핵심)과 오늘 들어온 택배 박스(행위)를 한 방에 섞어두는 것'과 같이 관리를 불가능하게 만듭니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -141,15 +140,15 @@ keywords = ["Entity Classification", "엔티티 분류", "Core Entity", "Action 
 
 - **📢 섹션 요약 비유**: 미래의 엔티티 시스템은 정지된 기록이 아니라, 핵심이라는 뼈대 위에서 행위라는 근육이 실시간으로 움직이는 '살아있는 생명체'가 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[개체 (Entity)](./81_entity_definition.md)**: 분류의 기본 단위.
-- **[데이터 라이프사이클](@/studynote/12_it_management/_index.md)**: 분류에 따른 보존 전략.
-- **[Dimension & Fact](./47_columnar_store.md)**: 분석 관점에서의 분류.
-- **[파티셔닝 (Partitioning)](./179_partitioning.md)**: 행위 엔티티의 물리적 해결사.
+- **개체 (Entity)**: 분류의 기본 단위.
+- **데이터 라이프사이클**: 분류에 따른 보존 전략.
+- **Dimension & Fact**: 분석 관점에서의 분류.
+- **파티셔닝 (Partitioning)**: 행위 엔티티의 물리적 해결사.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **핵심 엔티티**는 우리 집에 원래부터 있는 **"가구"**와 같아요. 침대, 책상처럼 자리를 지키고 있죠.

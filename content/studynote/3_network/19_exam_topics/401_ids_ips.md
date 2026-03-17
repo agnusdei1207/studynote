@@ -1,5 +1,6 @@
 +++
 title = "IDS/IPS - 침입 탐지/방지 시스템"
+date = "2026-03-14"
 weight = 401
 +++
 
@@ -140,10 +141,10 @@ IDS는 침입을 탐지하고, IPS는 탐지 후 차단합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [SIEM](./402_siem.md)
-- [Firewall](./302_firewall.md)
-- [SOC](./403_soc.md)
-- [Threat Intelligence](./404_threat_intelligence.md)
+- SIEM
+- Firewall
+- SOC
+- Threat Intelligence
 
 ---
 

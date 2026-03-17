@@ -1,6 +1,7 @@
 +++
-weight = 474
 title = "474. 리눅스 I/O 스케줄러 - NOOP, CFQ, Deadline, BFQ"
+date = "2026-03-14"
+weight = 474
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -114,9 +115,9 @@ title = "474. 리눅스 I/O 스케줄러 - NOOP, CFQ, Deadline, BFQ"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[SSTF/SCAN](./471_scan_scheduling.md)**: 리눅스 스케줄러 내부에서 재정렬 시 사용하는 알고리즘들.
-- **[SSD 구조](./475_ssd_structure.md)**: 스케줄러가 `noop`으로 단순화되는 원인을 제공한 하드웨어.
-- **[I/O Subsystem](./453_io_subsystem_kernel_services.md)**: 스케줄러가 포함된 커널의 전체 구조.
+- **SSTF/SCAN**: 리눅스 스케줄러 내부에서 재정렬 시 사용하는 알고리즘들.
+- **SSD 구조**: 스케줄러가 `noop`으로 단순화되는 원인을 제공한 하드웨어.
+- **I/O Subsystem**: 스케줄러가 포함된 커널의 전체 구조.
 
 ---
 

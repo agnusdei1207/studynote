@@ -1,6 +1,7 @@
 +++
-weight = 403
 title = "403. 벨라디의 모순 (Belady's Anomaly)"
+date = "2026-03-14"
+weight = 403
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -119,4 +120,3 @@ graph TD
     BA -- Contrast --> SA[Stack Algorithms: LRU, OPT]
     SA -- Property --> NFA[No Anomaly Guarantee]
     FIFO -- Disadvantage --> PB[Unpredictable Performance]
-```

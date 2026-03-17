@@ -1,5 +1,6 @@
 +++
 title = "POP3/IMAP - 메일 수신"
+date = "2026-03-14"
 weight = 218
 +++
 
@@ -140,10 +141,10 @@ POP3(Post Office Protocol 3)와 IMAP(Internet Message Access Protocol)은 이메
 ---
 
 ### 📌 관련 개념 링크**:
-- [SMTP](./217_smtp.md)
-- [TLS/SSL](./310_tls.md)
-- [인증](./220_authentication.md)
-- [이메일 보안](./221_email_security.md)
+- SMTP
+- TLS/SSL
+- 인증
+- 이메일 보안
 
 ---
 

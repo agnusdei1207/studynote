@@ -1,5 +1,6 @@
 +++
 title = "WiFi - 와이파이"
+date = "2026-03-14"
 weight = 902
 +++
 
@@ -111,6 +112,6 @@ WiFi는 무선 근거리 통신망 기술입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [WLAN](./xxx_wlan.md)
-- [WPA](./xxx_wpa.md)
-- [Access Point](./xxx_access_point.md)
+- WLAN
+- WPA
+- Access Point

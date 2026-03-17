@@ -1,7 +1,6 @@
 +++
 title = "146. 계층형 질의 (Hierarchical Query) - 트리 구조 탐색과 CONNECT BY"
 date = "2026-03-16"
-draft = false
 weight = 146
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["계층형 질의", "Hierarchical Query", "CONNECT BY", "START WITH"
 > 2. **메커니즘**: 시작 지점을 정하는 **`START WITH`**와 부모-자식 연결 규칙을 정의하는 **`CONNECT BY`** 절을 사용하며, `LEVEL` 가상 컬럼을 통해 데이터의 깊이를 파악하고 시각화할 수 있다.
 > 3. **가치**: 조직도, 부품 구성표(BOM), 게시판 댓글 구조 등 현실의 복잡한 계층 데이터를 조인(Join)의 한계를 넘어 무한한 깊이까지 효율적으로 처리하는 **순환적 사고의 정수**다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -46,7 +45,7 @@ keywords = ["계층형 질의", "Hierarchical Query", "CONNECT BY", "START WITH"
 
 - **📢 섹션 요약 비유**: 계층형 질의는 '실타래의 끝'을 잡고 쭉 당겨서 전체 엉킴(관계)을 풀어내는 것과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -90,7 +89,7 @@ CONNECT BY PRIOR EID = Mgr_ID;      -- (2) 연결 방식 (부모PK = 자식FK)
 
 - **📢 섹션 요약 비유**: PRIOR 키워드는 '부모님의 손'을 잡는 것과 같아서, 손을 놓지 않고 끝까지 계층을 따라가게 해줍니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -109,7 +108,7 @@ CONNECT BY PRIOR EID = Mgr_ID;      -- (2) 연결 방식 (부모PK = 자식FK)
 
 - **📢 섹션 요약 비유**: CONNECT BY가 '자동 응답기'라면, CTE는 '직접 회로를 설계하는 무전기'와 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -128,7 +127,7 @@ CONNECT BY PRIOR EID = Mgr_ID;      -- (2) 연결 방식 (부모PK = 자식FK)
 
 - **📢 섹션 요약 비유**: 계층형 쿼리 최적화는 '미로 찾기'와 같아서, 지도가 좋아도(인덱스) 길을 잘못 들면(무한 루프) 영영 빠져나오지 못할 수 있습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -146,15 +145,15 @@ CONNECT BY PRIOR EID = Mgr_ID;      -- (2) 연결 방식 (부모PK = 자식FK)
 
 - **📢 섹션 요약 비유**: 미래의 계층형 질의는 단순한 나무(Tree)를 넘어, 전 세계 데이터가 거대한 뿌리로 연결된 '디지털 숲'을 탐험하는 지도가 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[순환 관계 (Recursive)](./86_recursive_relationship.md)**: 계층형 질의가 필요한 모델적 이유.
-- **[셀프 조인 (Self Join)](./139_self_join.md)**: 계층형 질의의 1단계 버전.
-- **[BOM (Bill of Materials)](@/studynote/7_enterprise_systems/_index.md)**: 가장 대표적인 계층형 질의 활용 분야.
-- **[DFS / BFS](@/studynote/8_algorithm_stats/_index.md)**: 계층형 질의의 내부 탐색 알고리즘.
+- **순환 관계 (Recursive)**: 계층형 질의가 필요한 모델적 이유.
+- **셀프 조인 (Self Join)**: 계층형 질의의 1단계 버전.
+- **BOM (Bill of Materials)**: 가장 대표적인 계층형 질의 활용 분야.
+- **DFS / BFS**: 계층형 질의의 내부 탐색 알고리즘.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **계층형 질의**는 우리 집 **"뿌리 깊은 가계도"**를 그리는 마법 펜과 같아요.

@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: IDOR 🥈 Silver"
-description = "LUXORA 플랫폼의 IDOR Silver 난이도 공략 - 인코딩 및 해시화된 파라미터 조작을 통한 인증 우회 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "IDOR", "Silver", "Access Control", "Encoding", "Write-up"]

@@ -1,10 +1,9 @@
----
-title: "[ICT] #8. 머클 루트 (Merkle Root)"
-date: "2026-03-17"
++++
+title = "[ICT] #8. 머클 루트 (Merkle Root)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Merkle_Root_Block_Header_Immutability_Binding"
----
+keyword = "Merkle_Root_Block_Header_Immutability_Binding"
++++
 
 # 머클 루트 (Merkle Root): 블록체인 무결성을 결정짓는 최종 요약 해시
 
@@ -13,7 +12,7 @@ keyword: "Merkle_Root_Block_Header_Immutability_Binding"
 > 2. **가치**: 단 32바이트의 데이터로 수천 개의 거래 내역 전체를 대표하며, 바디의 트랜잭션이 단 1비트라도 수정되면 머클 루트가 변하게 되어 블록 전체를 무효화하는 **암호학적 봉인** 역할을 한다.
 > 3. **융합**: 블록 헤더와 바디를 강하게 결합(Binding)함으로써, 헤더만 사용하는 경량 노드가 바디의 특정 거래를 신뢰할 수 있게 하는 **앵커(Anchor)** 기능을 수행한다.
 
----
++++
 
 ## Ⅰ. 머클 루트 (Merkle Root) 개요
 
@@ -30,7 +29,7 @@ keyword: "Merkle_Root_Block_Header_Immutability_Binding"
 
 📢 **섹션 요약 비유**: 수만 개의 화물이 실린 컨테이너의 문을 닫고 채우는 **단 하나의 고유한 봉인 번호**와 같아서, 번호가 일치하면 내부 화물이 안전함을 보증합니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -84,7 +83,7 @@ keyword: "Merkle_Root_Block_Header_Immutability_Binding"
 
 📢 **섹션 요약 비유**: 여러 명의 합창단원이 노래할 때, 단 한 명의 화음만 틀려도 전체 화음의 결과(머클 루트)가 일그러져 지휘자(검증 노드)가 즉시 알아채는 것과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -103,7 +102,7 @@ keyword: "Merkle_Root_Block_Header_Immutability_Binding"
 
 📢 **섹션 요약 비유**: 머클 루트가 상자 안 물건들의 총 무게(무결성 요약)라면, 블록 해시는 상자 전체에 붙인 고유 일련번호(식별자)와 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -117,7 +116,7 @@ keyword: "Merkle_Root_Block_Header_Immutability_Binding"
 
 📢 **섹션 요약 비유**: 복잡한 암호를 외우는 대신, 암호의 일부분과 힌트(머클 패스)만 가지고도 전체 정답(머클 루트)을 맞히는 퀴즈 시스템과 같습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -131,13 +130,13 @@ keyword: "Merkle_Root_Block_Header_Immutability_Binding"
 
 📢 **섹션 요약 비유**: 머클 루트는 방대한 데이터의 숲을 단 하나의 씨앗으로 압축한 **디지털 결정체**이며, 블록체인 신뢰의 마지막 방어선입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[머클 트리 (Merkle Tree)](./6_merkle_tree.md)**: 머클 루트를 만들어내는 자료구조.
-- **[블록 헤더 (Block Header)](./5_block_structure.md)**: 머클 루트가 저장되는 물리적 장소.
-- **[해시 포인터 (Hash Pointer)](./9_hash_pointer.md)**: 머클 루트를 포함한 헤더 해시를 통해 다음 블록을 가리키는 기술.
-- **[SPV (경량 노드)](./82_light_node.md)**: 머클 루트를 이용해 효율적으로 거래를 검증하는 주체.
+- **머클 트리 (Merkle Tree)**: 머클 루트를 만들어내는 자료구조.
+- **블록 헤더 (Block Header)**: 머클 루트가 저장되는 물리적 장소.
+- **해시 포인터 (Hash Pointer)**: 머클 루트를 포함한 헤더 해시를 통해 다음 블록을 가리키는 기술.
+- **SPV (경량 노드)**: 머클 루트를 이용해 효율적으로 거래를 검증하는 주체.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **마법의 요약 도장**: 수천 장의 거래 장부 내용을 단 한 글자로 줄인 마법의 도장이에요. 장부의 글자 하나만 틀려도 도장 모양이 확 바뀌어버리죠.

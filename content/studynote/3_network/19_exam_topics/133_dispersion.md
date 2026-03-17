@@ -1,5 +1,6 @@
 +++
 title = "분산 (Dispersion) - 모드 분산, 파장 분산"
+date = "2026-03-14"
 weight = 133
 +++
 
@@ -144,10 +145,10 @@ weight = 133
 ---
 
 ### 📌 관련 개념 링크**:
-- [광섬유](./128_optical_fiber.md)
-- [SMF/MMF](./132_smf_mmf.md)
-- [WDM](./79_wdm.md)
-- [광증폭기](./134_edfa.md)
+- 광섬유
+- SMF/MMF
+- WDM
+- 광증폭기
 
 ---
 

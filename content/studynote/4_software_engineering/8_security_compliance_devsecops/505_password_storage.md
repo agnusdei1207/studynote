@@ -1,7 +1,7 @@
----
-title: "505. 비밀번호 저장 방식 - KDF(PBKDF2, bcrypt, scrypt, Argon2) 및 Salt"
-date: 2026-03-15
----
++++
+title = "505. 비밀번호 저장 방식 - KDF(PBKDF2, bcrypt, scrypt, Argon2) 및 Salt"
+date = "2026-03-15"
++++
 
 # 505. 비밀번호 저장 방식 - KDF(PBKDF2, bcrypt, scrypt, Argon2) 및 Salt
 
@@ -163,10 +163,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[암호화 알고리즘 (SHA)](./504_cryptographic_algorithms.md)**: KDF의 기본 재료가 되는 해시 함수
-- **[Credential Stuffing](./xx_credential_stuffing.md)**: 부적절한 비밀번호 저장이 유발하는 2차 공격
-- **[Argon2](./xx_argon2.md)**: PHC 우승작이자 현대 비밀번호 해싱의 종착역
-- **[KMS (Key Management Service)](./xx_kms.md)**: Pepper를 안전하게 보관하기 위한 인프라
+- **암호화 알고리즘 (SHA)**: KDF의 기본 재료가 되는 해시 함수
+- **Credential Stuffing**: 부적절한 비밀번호 저장이 유발하는 2차 공격
+- **Argon2**: PHC 우승작이자 현대 비밀번호 해싱의 종착역
+- **KMS (Key Management Service)**: Pepper를 안전하게 보관하기 위한 인프라
 
 ---
 

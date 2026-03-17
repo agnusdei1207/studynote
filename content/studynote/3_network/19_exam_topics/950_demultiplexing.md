@@ -1,5 +1,6 @@
 +++
 title = "Demultiplexing - 디멀티플렉싱"
+date = "2026-03-14"
 weight = 950
 +++
 
@@ -109,6 +110,6 @@ Demultiplexing은 결합된 신호를 분리합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Multiplexing](./949_multiplexing.md)
-- [Port](./932_port.md)
-- [Socket](./931_socket.md)
+- Multiplexing
+- Port
+- Socket

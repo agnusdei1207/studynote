@@ -1,6 +1,7 @@
 +++
-weight = 1
 title = "1. 전압 (Voltage)"
+date = "2026-03-14"
+weight = 1
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -169,10 +170,10 @@ $$P_{dynamic} = \alpha \cdot C \cdot V_{dd}^2 \cdot f$$
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[전류 (Current)](./2_current.md)**: 전압에 의해 흐르는 전하의 양. 전압과 함께 전력을 구성함.
-- **[DVFS (Dynamic Voltage Frequency Scaling)](../13_reliability_power/469_dvfs.md)**: 전압을 동적으로 조절하여 전력을 관리하는 핵심 소프트웨어 기술.
-- **[임계 전압 (Threshold Voltage)](./xx_vth.md)**: 트랜지스터의 물리적 켜짐 기준.
-- **[전력 관리 IC (PMIC)](../8_io_storage/xx_pmic.md)**: 시스템 각부에 필요한 정밀 전압을 생성하고 분배하는 장치.
+- **전류 (Current)**: 전압에 의해 흐르는 전하의 양. 전압과 함께 전력을 구성함.
+- **DVFS (Dynamic Voltage Frequency Scaling)**: 전압을 동적으로 조절하여 전력을 관리하는 핵심 소프트웨어 기술.
+- **임계 전압 (Threshold Voltage)**: 트랜지스터의 물리적 켜짐 기준.
+- **전력 관리 IC (PMIC)**: 시스템 각부에 필요한 정밀 전압을 생성하고 분배하는 장치.
 
 ---
 

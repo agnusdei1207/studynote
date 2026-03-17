@@ -1,7 +1,7 @@
 +++
-weight = 649
 title = "649. 전력 관리 (Power Management)"
 date = "2026-03-16"
+weight = 649
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "전력 관리", "Power Management", "ACPI", "CPU Frequency Scaling", "절전 모드"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "전력 관리", "Power Management", "ACPI", "CPU Fr
 > 2. **가치**: 모바일 기기에서는 배터리 수명이, 데이터센터에서는 **전력 비용과 발열 관리**가 핵심이며, ACPI, C-State, P-State, DVFS가 핵심 메커니즘이다.
 > 3. **융합**:: OS의 전력 관리 계층, 하드웨어의 절전 모드, 애플리케이션의 배터리 인식형 설계가 결합하여 **그린 컴퓨팅**을 실현한다.
 
----
++++
 
 ## Ⅰ. 전력 관리의 개요
 
@@ -31,7 +31,7 @@ keywords = ["운영체제", "전력 관리", "Power Management", "ACPI", "CPU Fr
 
 - **📢 섹션 요약 비유**: 방 안에 있을 때는 불을 밝히고, 나갈 때는 끄는 것처럼, 컴퓨터도 일하지 않을 때는 전력을 줄입니다.
 
----
++++
 
 ## Ⅱ. ACPI (Advanced Configuration and Power Interface)
 
@@ -84,7 +84,7 @@ cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
 upower -i /org/freedesktop/UPower/devices/battery_BAT0
 ```
 
----
++++
 
 ## Ⅲ. CPU Frequency Scaling (DVFS)
 
@@ -125,7 +125,7 @@ cpupower frequency-set -g powersave
 cpupower frequency-set -d 800MHz -u 3GHz
 ```
 
----
++++
 
 ## Ⅳ. 장치별 전력 관리
 
@@ -148,7 +148,7 @@ ethtool -s eth0 wol d
 - **밝기 제어**: 낮출수록 전력 절약
 - **DPMS (Display Power Management Signaling)**: 대기 시 화면 끔
 
----
++++
 
 ## Ⅴ. 데이터센터 전력 관리
 
@@ -162,7 +162,7 @@ ethtool -s eth0 wol d
 - 서버의 최대 전력 소비 제한
 - RAPL (Running Average Power Limit)
 
----
++++
 
 ## Ⅵ. 실무 적용
 
@@ -174,7 +174,7 @@ ethtool -s eth0 wol d
 - **"절전 모드 과도 사용"**: 성능 저하
 - **"절전 기능 끄기"**: 배터리 급격 소모
 
----
++++
 
 ## Ⅶ. 기대효과 및 결론
 
@@ -186,14 +186,14 @@ ethtool -s eth0 wol d
 - **ARM 서버**: 저전력 데이터센터
 - **에너지 하베스팅**: 낭비 에너지 회수
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[CPU 스케줄링](./213_cpu_scheduling.md)**: 전력 인식 스케줄링
-- **[노트북/모바일](./xx_mobile.md)**: 전력 관리 중요 기기
-- **[데이터센터](../16_distributed_systems/xxx_datacenter.md)**: 전력 효율
+- **CPU 스케줄링**: 전력 인식 스케줄링
+- **노트북/모바일**: 전력 관리 중요 기기
+- **데이터센터**: 전력 효율
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 전력 관리는 **"불 밝기를 조절하는 것"** 같아요.

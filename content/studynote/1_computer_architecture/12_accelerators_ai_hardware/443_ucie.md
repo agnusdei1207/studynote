@@ -1,5 +1,6 @@
 +++
 title = "UCIe (Universal Chiplet Interconnect Express)"
+date = "2026-03-14"
 weight = 443
 +++
 

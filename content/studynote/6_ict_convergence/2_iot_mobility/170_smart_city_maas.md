@@ -1,10 +1,9 @@
----
-title: "[ICT] #171. 스마트 시티 (Smart City) 및 MaaS, C-ITS"
-date: "2026-03-17"
++++
+title = "[ICT] #171. 스마트 시티 (Smart City) 및 MaaS, C-ITS"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "SmartCity_MaaS_MobilityAsAService_CITS_DigitalTwin_UrbanPlatform"
----
+keyword = "SmartCity_MaaS_MobilityAsAService_CITS_DigitalTwin_UrbanPlatform"
++++
 
 # 스마트 시티 & 모빌리티 (MaaS, C-ITS): 도시 전체가 인공지능으로 숨 쉬는 미래 거주 공간
 
@@ -13,7 +12,7 @@ keyword: "SmartCity_MaaS_MobilityAsAService_CITS_DigitalTwin_UrbanPlatform"
 > 2. **가치**: 대중교통부터 킥보드까지 모든 이동 수단을 하나의 앱으로 통합 결제/예약하는 **MaaS(Mobility as a Service)**와, 도로 인프라가 차량과 대화하며 사고를 막는 **C-ITS(차세대 지능형 교통 체계)**를 통해 도시의 가장 큰 골칫거리인 '교통 체증'과 '환경 오염'을 극적으로 해결한다.
 > 3. **융합**: 스마트 시티는 단일 기술이 아닌 디지털 트윈, 5G 프라이빗 망, 스마트 그리드, 자율주행 등 지금까지 배운 **모든 ICT 신기술이 하나의 캔버스 위에 집대성되는 최종 아키텍처**다.
 
----
++++
 
 ## Ⅰ. 스마트 시티 인프라 및 모빌리티 개요
 
@@ -32,7 +31,7 @@ keyword: "SmartCity_MaaS_MobilityAsAService_CITS_DigitalTwin_UrbanPlatform"
 
 📢 **섹션 요약 비유**: 콘크리트와 철근으로만 지어진 차가운 도시에, '데이터'라는 피를 돌게 하고 'AI'라는 두뇌를 심어 살아 숨 쉬는 유기체로 진화시키는 작업입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -77,7 +76,7 @@ keyword: "SmartCity_MaaS_MobilityAsAService_CITS_DigitalTwin_UrbanPlatform"
 
 📢 **섹션 요약 비유**: 앱 하나로 모든 탈것을 부르고(MaaS), 그 탈것들이 신호등과 텔레파시를 나누며(C-ITS), 도시의 뇌(데이터 허브)가 하늘에서 모든 것을 내려다보며 길을 터주는 완벽한 교통 오케스트라입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -97,7 +96,7 @@ keyword: "SmartCity_MaaS_MobilityAsAService_CITS_DigitalTwin_UrbanPlatform"
 
 📢 **섹션 요약 비유**: 도로 위 전광판을 보며 수동적으로 엑셀을 밟던 시대(ITS)에서, 앞차가 브레이크를 밟으면 내 차도 알아서 멈추는 상호 협력의 시대(C-ITS)로의 진화입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -115,7 +114,7 @@ keyword: "SmartCity_MaaS_MobilityAsAService_CITS_DigitalTwin_UrbanPlatform"
 
 📢 **섹션 요약 비유**: 낡은 아파트(구도심)에 엘리베이터를 새로 뚫는 것은 너무 비싸고 힘드니, 드론 배달(무선 IoT)을 도입하여 삶의 질을 높이는 똑똑한 리모델링 전략이 필요합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -129,13 +128,13 @@ keyword: "SmartCity_MaaS_MobilityAsAService_CITS_DigitalTwin_UrbanPlatform"
 
 📢 **섹션 요약 비유**: 스마트 시티는 더 이상 콘크리트 덩어리가 아니라, 시민들의 불편함을 스스로 감지하고 치유하는 '지능을 가진 거대한 생명체'로 다시 태어나고 있습니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[디지털 트윈 (Digital Twin)](./125_digital_twin.md)**: 스마트 시티를 모니터링하고 미리 실험해 보는 가상의 복제 도시.
-- **[V2X / 자율주행](./140_v2x_communication.md)**: C-ITS와 MaaS를 완성하기 위한 가장 중요한 혈관과 백혈구.
-- **[스마트 그리드](./160_smart_grid_v2g.md)**: 도시의 핏줄인 에너지를 낭비 없이 돌게 만드는 지능형 전력망.
-- **[프라이빗 5G (특화망)](./169_private_5g.md)**: 도시 곳곳의 수백만 개 센서를 지연 없이 관제 센터와 연결하는 무선 통신망.
+- **디지털 트윈 (Digital Twin)**: 스마트 시티를 모니터링하고 미리 실험해 보는 가상의 복제 도시.
+- **V2X / 자율주행**: C-ITS와 MaaS를 완성하기 위한 가장 중요한 혈관과 백혈구.
+- **스마트 그리드**: 도시의 핏줄인 에너지를 낭비 없이 돌게 만드는 지능형 전력망.
+- **프라이빗 5G (특화망)**: 도시 곳곳의 수백만 개 센서를 지연 없이 관제 센터와 연결하는 무선 통신망.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **도시의 만능 리모컨 (MaaS)**: 기차표 사고, 택시 부르고, 킥보드 결제하는 걸 따로따로 할 필요 없이, 스마트폰 버튼 하나로 한 번에 다 해주는 마법의 앱이에요.

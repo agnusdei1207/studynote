@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: NoSQL Injection 🥈 Silver"
-description = "LUXORA 플랫폼의 정규표현식(Regex)을 이용한 NoSQL Blind Data Extraction 상세 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "NoSQL Injection", "Silver", "Blind", "Regex", "Write-up"]

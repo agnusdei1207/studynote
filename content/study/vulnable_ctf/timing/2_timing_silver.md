@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Timing Attack 🥈 Silver"
-description = "LUXORA 플랫폼의 Silver 난이도 Timing Attack 공략 - HMAC 검증 우회를 위한 Byte-at-a-time (한 바이트씩) 타이밍 공격 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Timing Attack", "Silver", "HMAC", "Byte-at-a-time", "Write-up"]

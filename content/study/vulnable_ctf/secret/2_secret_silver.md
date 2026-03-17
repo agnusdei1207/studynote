@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Secret Leakage 🥈 Silver"
-description = "LUXORA 플랫폼의 Silver 난이도 Secret Leakage 공략 - 소스 맵(Source Map) 파일 복원을 통한 백엔드 구조 및 비밀 정보 탈취 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Secret Leakage", "Silver", "Source Map", "Webpack", "Write-up"]

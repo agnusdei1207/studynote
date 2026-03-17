@@ -1,7 +1,7 @@
 +++
 title = "219. 실시간 리눅스 (PREEMPT_RT)"
-weight = 219
 date = "2026-03-04"
+weight = 219
 [extra]
 categories = "studynote-operating-system"
 +++
@@ -13,7 +13,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 인터럽트 지연 시간(Interrupt Latency)의 상한선을 보장(Determinism)하기 위해 스핀락을 뮤텍스로 변환하고, 인터럽트 핸들러를 스레드화하여 우선순위 제어가 가능하게 만든다.
 > 3. **융합**: 산업용 로봇 제어, 의료 기기, 고성능 오디오 처리 등 범용 OS의 편의성과 실시간 OS(RTOS)의 결정성이 동시에 필요한 분야의 핵심 표준이다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -23,7 +23,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 철저한 계급 사회를 만들어, 왕(실시간 작업)이 나타나면 하던 일을 멈추고 길을 비키지 않는 자(비선점 구간)를 처단하는 가장 단호한 커널 개조 계획입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -55,7 +55,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: ISR이라는 무소불위의 권력자를 '스레드'라는 계급으로 강등시켜 관리하고, '선점 불가'라는 성역을 허물어 평등하게 경쟁하게 만든 혁명적인 구조입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -70,7 +70,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 일반 리눅스가 '만능 맥가이버 칼'이라면, RTOS는 '정밀한 수술용 메스'이고, PREEMPT_RT는 '정밀도가 비약적으로 향상된 맥가이버 칼'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -80,7 +80,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 익숙한 스마트폰(리눅스)을 그대로 쓰면서도, 비상시에는 0.001초의 오차도 없이 작동하는 '슈퍼 모드'를 장착하는 전략입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -89,12 +89,12 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 비주류의 외로운 투쟁(패치)이 마침내 주류 역사의 정통(메인라인)으로 인정받으며 실시간 컴퓨팅의 새 지평을 열었습니다.
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[경성 실시간 시스템](./203_hard_realtime_system.md)**: PREEMPT_RT가 목표로 하는 시스템 등급
-- **[우선순위 상속 (Priority Inheritance)](./243_priority_inheritance_protocol.md)**: RT 패치의 핵심 동기화 기술
-- **[지연 시간 (Latency)](./204_scheduling_latency.md)**: RT 패치를 통해 획기적으로 줄어드는 핵심 지표
+- **경성 실시간 시스템**: PREEMPT_RT가 목표로 하는 시스템 등급
+- **우선순위 상속 (Priority Inheritance)**: RT 패치의 핵심 동기화 기술
+- **지연 시간 (Latency)**: RT 패치를 통해 획기적으로 줄어드는 핵심 지표
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 컴퓨터가 중요한 일을 하다가도 "더 급한 일이 생겼어!"라고 하면 0.1초 만에 하던 일을 멈추고 도와주는 기능이에요.

@@ -1,5 +1,6 @@
 +++
 title = "ICMP - 인터넷 제어 메시지 프로토콜"
+date = "2026-03-14"
 weight = 888
 +++
 
@@ -106,6 +107,6 @@ ICMP (Internet Control Message Protocol)는 오류와 진단 정보를 전달합
 ---
 
 ### 📌 관련 개념 링크**:
-- [Ping](./xxx_ping.md)
-- [Traceroute](./xxx_traceroute.md)
-- [IP](./xxx_ip.md)
+- Ping
+- Traceroute
+- IP

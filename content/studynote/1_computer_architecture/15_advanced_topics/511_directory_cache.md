@@ -1,8 +1,10 @@
 +++
-weight = 511
 title = "511. 디렉터리 캐시 (Directory Cache)"
+date = "2026-03-14"
+weight = 511
 [extra]
 category = "studynote-computer-architecture"
+date = "2026-03-14"
 +++
 
 # Directory Cache (Directory-based Coherence)
@@ -11,7 +13,7 @@ category = "studynote-computer-architecture"
 > 2. **가치**: 스누핑(Snooping) 방식의 한계인 버스 병목 현상을 해결하여 수백 개 이상의 코어를 가진 대규모 서버 시스템(Scalable Shared Memory)에서 효율적인 데이터 동기화를 가능케 한다.
 > 3. **융합**: NUMA (Non-Uniform Memory Access) 아키텍처, 메시 인터커넥트, 그리고 MESI/MOESI 프로토콜과 융합되어 고성능 데이터센터 인프라의 근간을 형성한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -26,7 +28,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 시끄러운 시장통 소통(스누핑) 대신, 체계적인 장부 관리와 개별 연락(디렉터리)을 통해 대규모 조직의 질서를 유지하는 기술입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -40,7 +42,7 @@ category = "studynote-computer-architecture"
 | **Home Node** | 특정 주소의 관리 주체 | 각 메모리 주소마다 관리 책임을 맡은 특정 코어/노드 | Hashing / Interleaving | 구역 담당 사서 |
 | **Coherence Controller** | 요청 처리 및 메시지 발송 | 읽기/쓰기 요청에 따라 디렉터리 참조 및 메시지 제어 | Protocol Engine | 도서관 관리 시스템 |
 
----
++++
 
 ### 디렉터리 기반 일관성 유지 프로세스
 
@@ -71,7 +73,7 @@ category = "studynote-computer-architecture"
 
 **[다이어그램 해설]** 스누핑 방식이었다면 Core A가 쓰기를 시도할 때 시스템의 모든 코어(B, C, D, E, F...)에 무효화 신호를 보냈겠지만, 디렉터리 방식은 장부를 먼저 확인한다. 장부에는 Core B와 C만 데이터를 가지고 있다고 적혀 있으므로, 디렉터리는 오직 B와 C에게만 "데이터를 지우라"는 메시지를 보낸다. 이를 통해 관련 없는 Core D, E, F 등은 불필요한 통신 부하에서 자유로워진다. 코어 수가 1,000개일 때, 단 2개에게만 메시지를 보내는 것은 전체 네트워크 대역폭을 획기적으로 아끼는 결과를 낳는다. 이것이 디렉터리 방식이 대규모 시스템의 표준이 된 이유다.
 
----
++++
 
 ### 심층 동작 원리: 디렉터리 저장 방식의 최적화
 
@@ -84,7 +86,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 전교생 이름을 다 적기 힘들면 반별로 대표만 적거나(Coarse), 자주 빌려 가는 학생 명단만 따로 관리(Caching)하는 효율화 전략과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -100,7 +102,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 확성기로 방송하기(스누핑)는 빠르지만 시끄럽고, 우편으로 연락하기(디렉터리)는 조금 느려도 훨씬 정숙하고 체계적인 것과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -115,7 +117,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 장부를 보관할 공간이 충분한지, 우편배달부(네트워크)가 다니는 길이 너무 꼬여있지는 않은지 확인하는 것이 중요합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -132,15 +134,15 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 아날로그 장부에서 디지털 통합 관리 시스템으로 발전하듯, 컴퓨터의 기억 공유 방식도 더 지능적이고 거대한 네트워크 형태로 진화하고 있습니다.
 
----
++++
 
 ## 📌 관련 개념 맵
-- **[캐시 일관성 (Cache Coherency)](./xx_cache_coherency.md)**: 디렉터리가 해결하려는 근본적인 문제.
-- **[NUMA (Non-Uniform Memory Access)](./xx_numa.md)**: 디렉터리 방식이 주로 적용되는 하드웨어 구조.
-- **[MESI 프로토콜](./xx_mesi_protocol.md)**: 디렉터리 내부에서 관리하는 개별 데이터의 상태.
-- **[메시 인터커넥트 (Mesh Interconnect)](./512_mesi_protocol_state_transition.md)**: 디렉터리 메시지가 이동하는 물리적 고속도로.
+- **캐시 일관성 (Cache Coherency)**: 디렉터리가 해결하려는 근본적인 문제.
+- **NUMA (Non-Uniform Memory Access)**: 디렉터리 방식이 주로 적용되는 하드웨어 구조.
+- **MESI 프로토콜**: 디렉터리 내부에서 관리하는 개별 데이터의 상태.
+- **메시 인터커넥트 (Mesh Interconnect)**: 디렉터리 메시지가 이동하는 물리적 고속도로.
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 디렉터리 캐시는 **'학교 도서관의 대출 장부'**와 같아요.

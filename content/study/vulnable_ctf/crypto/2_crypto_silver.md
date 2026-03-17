@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Weak Crypto 🥈 Silver"
-description = "LUXORA 플랫폼의 Silver 난이도 Weak Crypto 공략 - 고정된 IV(Initialization Vector)와 ECB/CBC 모드를 악용한 암호문 조작 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Crypto", "Silver", "ECB Mode", "Block Cipher", "Write-up"]
@@ -146,4 +145,3 @@ encrypted += cipher.final('hex');
 const authTag = cipher.getAuthTag().toString('hex'); // 무결성 서명표
 
 // 복호화할 때는 IV와 authTag를 함께 보내어 데이터가 1비트라도 조작되었는지 검증함
-```

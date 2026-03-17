@@ -1,6 +1,7 @@
 +++
-weight = 72
 title = "72. 하드웨어 기술 언어 (VHDL, Verilog)"
+date = "2026-03-14"
+weight = 72
 +++
 
 # [72. 하드웨어 기술 언어 (VHDL, Verilog)]

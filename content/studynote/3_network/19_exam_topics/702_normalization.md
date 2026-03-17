@@ -1,5 +1,6 @@
 +++
 title = "Normalization - 정규화"
+date = "2026-03-14"
 weight = 702
 +++
 
@@ -98,6 +99,6 @@ Normalization은 데이터 중복을 최소화합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [RDBMS](./701_rdbms.md)
-- [Denormalization](./703_denormalization.md)
-- [Database Design](./704_db_design.md)
+- RDBMS
+- Denormalization
+- Database Design

@@ -1,5 +1,6 @@
 +++
 title = "SmartNIC (스마트 네트워크 인터페이스 카드) - Smart Network Interface Card"
+date = "2026-03-14"
 weight = 451
 +++
 
@@ -150,10 +151,10 @@ SmartNIC는 네트워크 처리를 가속화하는 프로그래밍 가능 NIC입
 ---
 
 ### 📌 관련 개념 링크**:
-- [DPU](./455_dpu.md)
-- [P4](./450_p4.md)
-- [RDMA](./324_rdma.md)
-- [OVS](./444_container_networking.md)
+- DPU
+- P4
+- RDMA
+- OVS
 
 ---
 

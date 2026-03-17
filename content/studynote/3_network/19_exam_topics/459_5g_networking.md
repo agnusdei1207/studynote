@@ -1,5 +1,6 @@
 +++
 title = "5G 네트워킹 - 5G Networking"
+date = "2026-03-14"
 weight = 459
 +++
 
@@ -140,10 +141,10 @@ weight = 459
 ---
 
 ### 📌 관련 개념 링크**:
-- [네트워크 슬라이싱](./458_network_slicing.md)
-- [Edge Computing](./460_edge_computing.md)
-- [LTE/4G](./460_lte.md)
-- [IoT](./460_iot.md)
+- 네트워크 슬라이싱
+- Edge Computing
+- LTE/4G
+- IoT
 
 ---
 

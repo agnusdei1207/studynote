@@ -1,7 +1,8 @@
----
-title: "MTTR (평균 수리 시간)"
-weight: 451
----
++++
+title = "MTTR (평균 수리 시간)"
+date = "2026-03-14"
+weight = 451
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: MTTR (Mean Time To Repair, 평균 수리 시간)은 고장 발생 시점부터 시스템이 정상 가동 상태로 복구되기까지 소요되는 평균 시간으로, 시스템의 유지보수성 (Serviceability)과 복구 능력을 측정하는 핵심 지표다.
@@ -143,10 +144,10 @@ IT 운영 팀장은 다음과 같은 전략으로 MTTR을 관리해야 한다.
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[RAS (Reliability, Availability, Serviceability)](./449_ras.md)**: MTTR이 핵심인 유지보수성 체계.
-- **[MTBF (평균 무고장 시간)](./450_mtbf.md)**: MTTR과 함께 가용성을 결정하는 파트너 지표.
-- **[가용성 (Availability)](./452_availability.md)**: MTTR 단축의 최종 목적지.
-- **[핫 스왑 (Hot Swap)](./xx_hot_swap.md)**: 하드웨어 MTTR을 획기적으로 줄이는 기술.
+- **RAS (Reliability, Availability, Serviceability)**: MTTR이 핵심인 유지보수성 체계.
+- **MTBF (평균 무고장 시간)**: MTTR과 함께 가용성을 결정하는 파트너 지표.
+- **가용성 (Availability)**: MTTR 단축의 최종 목적지.
+- **핫 스왑 (Hot Swap)**: 하드웨어 MTTR을 획기적으로 줄이는 기술.
 
 ---
 

@@ -1,6 +1,7 @@
 +++
-weight = 539
 title = "539. 연결 리스트 기반 빈 공간 관리"
+date = "2026-03-14"
+weight = 539
 +++
 
 # 539. 연결 리스트 기반 빈 공간 관리 (Linked List Free-Space Management)

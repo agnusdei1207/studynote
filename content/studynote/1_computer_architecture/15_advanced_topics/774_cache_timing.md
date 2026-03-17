@@ -1,5 +1,6 @@
 +++
 title = "cache timing"
+date = "2026-03-14"
 weight = 774
 +++
 
@@ -137,10 +138,10 @@ weight = 774
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [Prime+Probe 기법](./775_prime_probe.md)
-- [스펙터 (Spectre)](./766_spectre.md)
-- [MDS 공격](./764_mds_attack.md)
-- [TEMPEST](./777_tempest.md)
+- Prime+Probe 기법
+- 스펙터 (Spectre)
+- MDS 공격
+- TEMPEST
 
 ---
 

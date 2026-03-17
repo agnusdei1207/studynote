@@ -1,5 +1,6 @@
 +++
 title = "피싱 - Phishing"
+date = "2026-03-14"
 weight = 409
 +++
 
@@ -143,10 +144,10 @@ weight = 409
 ---
 
 ### 📌 관련 개념 링크**:
-- [Social Engineering](./410_social_engineering.md)
-- [MFA](./9_security/152_mfa.md)
-- [Malware](./407_malware.md)
-- [Email Security](./9_security/157_email_security.md)
+- Social Engineering
+- MFA
+- Malware
+- Email Security
 
 ---
 

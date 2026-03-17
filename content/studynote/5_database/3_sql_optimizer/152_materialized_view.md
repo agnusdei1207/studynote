@@ -1,7 +1,6 @@
 +++
 title = "152. 구체화된 뷰 (Materialized View) - 물리적 저장과 성능 최적화"
 date = "2026-03-16"
-draft = false
 weight = 152
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["Materialized View", "MView", "구체화된 뷰", "데이터 복제"
 > 2. **작동 메커니즘**: 원본 테이블 데이터 변경 시 이를 MView에 동기화하는 **Refresh(Fast/Complete)** 프로세스를 가지며, 사용자가 원본 테이블을 조회하더라도 옵티마이저가 자동으로 MView를 대신 읽게 하는 **쿼리 재작성(Query Rewrite)** 기능을 제공한다.
 > 3. **가치**: 데이터 웨어하우스(DW)나 대용량 분석(OLAP) 환경에서 반복되는 고비용 연산의 응답 속도를 밀리초(ms) 단위로 단축시키며, 네트워크 부하가 큰 분산 DB 환경에서 데이터 복제 수단으로도 활용된다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -48,7 +47,7 @@ keywords = ["Materialized View", "MView", "구체화된 뷰", "데이터 복제"
 
 - **📢 섹션 요약 비유**: MView는 '시험 공부를 미리 다 해놓고 시험지(쿼리)를 받자마자 답을 적어내는 우등생'과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -90,7 +89,7 @@ keywords = ["Materialized View", "MView", "구체화된 뷰", "데이터 복제"
 
 - **📢 섹션 요약 비유**: 쿼리 재작성은 '백화점에 물건 사러 갔는데, 집 앞 편의점에 똑같은 게 미리 배달되어 있어 발길을 돌리는 것'과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -110,7 +109,7 @@ keywords = ["Materialized View", "MView", "구체화된 뷰", "데이터 복제"
 
 - **📢 섹션 요약 비유**: 일반 뷰가 '생방송'이라면, MView는 '다시보기(VOD)'입니다. 생방송은 언제나 정확하지만, 다시보기는 끊김 없이 감상할 수 있습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -129,7 +128,7 @@ keywords = ["Materialized View", "MView", "구체화된 뷰", "데이터 복제"
 
 - **📢 섹션 요약 비유**: MView 동기화는 '뉴스 기사 업데이트'와 같아서, 너무 자주 하면 기자가 지쳐 쓰러지고(부하), 너무 안 하면 독자가 옛날 정보(Stale)를 보게 됩니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -147,15 +146,15 @@ keywords = ["Materialized View", "MView", "구체화된 뷰", "데이터 복제"
 
 - **📢 섹션 요약 비유**: 미래의 MView는 고정된 사진이 아니라, 원본의 변화를 실시간으로 따라가면서도 속도는 빛처럼 빠른 '마법의 복제본'이 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[뷰 (View)](./151_view.md)**: MView의 논리적 모태.
-- **[쿼리 재작성 (Query Rewrite)](./176_join_order_optimization.md)**: MView 활용의 핵심 지능.
-- **[OLAP](./14_oltp_vs_olap.md)**: MView가 가장 빛나는 도메인.
-- **[복제 (Replication)](@/studynote/5_database/_index.md)**: MView의 또 다른 이름.
+- **뷰 (View)**: MView의 논리적 모태.
+- **쿼리 재작성 (Query Rewrite)**: MView 활용의 핵심 지능.
+- **OLAP**: MView가 가장 빛나는 도메인.
+- **복제 (Replication)**: MView의 또 다른 이름.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **구체화된 뷰**는 어려운 수학 숙제를 학교 가기 전날 밤에 **"미리 다 풀어서 공책에 적어두는 것"**과 같아요.

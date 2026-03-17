@@ -1,7 +1,7 @@
----
-title: "501. XSS 유형 - Reflected, Stored, DOM-based XSS"
-date: 2026-03-15
----
++++
+title = "501. XSS 유형 - Reflected, Stored, DOM-based XSS"
+date = "2026-03-15"
++++
 
 # 501. XSS 유형 - Reflected, Stored, DOM-based XSS
 
@@ -163,10 +163,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[XSS 방어 (Encoding, CSP)](./500_xss_defense.md)**: 유형별 XSS를 막는 구체적인 기술적 수단
-- **[CSRF](./502_csrf.md)**: XSS와 함께 웹 2대 취약점으로 불리는 위조 요청 공격
-- **[Input Validation](./498_input_validation.md)**: XSS의 입구 컷 방어막
-- **[DOM (Document Object Model)](./xx_dom.md)**: DOM-based XSS가 발생하는 브라우저 내부 구조
+- **XSS 방어 (Encoding, CSP)**: 유형별 XSS를 막는 구체적인 기술적 수단
+- **CSRF**: XSS와 함께 웹 2대 취약점으로 불리는 위조 요청 공격
+- **Input Validation**: XSS의 입구 컷 방어막
+- **DOM (Document Object Model)**: DOM-based XSS가 발생하는 브라우저 내부 구조
 
 ---
 

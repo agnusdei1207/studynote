@@ -1,6 +1,7 @@
 +++
-weight = 160
 title = "160. 세션 (Session) 및 제어 터미널"
+date = "2026-03-14"
+weight = 160
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -144,10 +145,10 @@ title = "160. 세션 (Session) 및 제어 터미널"
 ---
 
 ### 📌 관련 개념 맵
-- **[데몬화 (Daemonization)](./152_daemonization.md)**: 세션과 터미널로부터 독립하는 과정.
-- **[프로세스 그룹 (Process Group)](./159_process_group.md)**: 세션을 구성하는 바로 아래 단계의 집합.
-- **[SIGHUP 신호](./130_signal.md)**: 터미널 종료 시 세션 전체에 전달되는 신호.
-- **[LWP (Lightweight Process)](./xx_lwp.md)**: 세션 내에서 실행되는 실제 일꾼들.
+- **데몬화 (Daemonization)**: 세션과 터미널로부터 독립하는 과정.
+- **프로세스 그룹 (Process Group)**: 세션을 구성하는 바로 아래 단계의 집합.
+- **SIGHUP 신호**: 터미널 종료 시 세션 전체에 전달되는 신호.
+- **LWP (Lightweight Process)**: 세션 내에서 실행되는 실제 일꾼들.
 
 ---
 

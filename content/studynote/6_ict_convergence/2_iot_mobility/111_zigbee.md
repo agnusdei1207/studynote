@@ -1,10 +1,9 @@
----
-title: "[ICT] #112. 지그비 (ZigBee)"
-date: "2026-03-17"
++++
+title = "[ICT] #112. 지그비 (ZigBee)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "ZigBee_IEEE802.15.4_MeshNetwork_WPAN_LowPower_ZCL_ZDO"
----
+keyword = "ZigBee_IEEE802.15.4_MeshNetwork_WPAN_LowPower_ZCL_ZDO"
++++
 
 # 지그비 (ZigBee): 저전력·저비용·고신뢰의 표준 메시 네트워크 기술
 
@@ -13,7 +12,7 @@ keyword: "ZigBee_IEEE802.15.4_MeshNetwork_WPAN_LowPower_ZCL_ZDO"
 > 2. **가치**: 배터리 하나로 수년 이상 동작 가능한 극저전력 특성과 스스로 경로를 최적화하는 자가 치유(Self-healing) 능력을 통해 스마트 홈 및 산업용 센서 네트워크의 표준으로 자리 잡았다.
 > 3. **융합**: 상위 계층의 공통 언어인 도트닷(Dotdot)이나 매터(Matter)와의 연동을 통해 이기종 기기 간 상호 운용성을 확보하며, 스마트 그리드 및 지능형 빌딩 제어의 핵심 인프라로 활용된다.
 
----
++++
 
 ## Ⅰ. 지그비 (ZigBee) 개요
 
@@ -30,7 +29,7 @@ keyword: "ZigBee_IEEE802.15.4_MeshNetwork_WPAN_LowPower_ZCL_ZDO"
 
 📢 **섹션 요약 비유**: 하나하나의 목소리는 작지만, 서로 손을 맞잡아 거대한 정보의 파도를 만드는 '협력형 무선망' 기술입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -74,7 +73,7 @@ keyword: "ZigBee_IEEE802.15.4_MeshNetwork_WPAN_LowPower_ZCL_ZDO"
 
 📢 **섹션 요약 비유**: 철저한 위계질서(ZC-ZR-ZED)와 유연한 협력(Mesh)을 통해, 에너지는 아끼고 정보는 끝까지 전달하는 '디지털 군집' 시스템입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -94,7 +93,7 @@ keyword: "ZigBee_IEEE802.15.4_MeshNetwork_WPAN_LowPower_ZCL_ZDO"
 
 📢 **섹션 요약 비유**: 블루투스가 '일대일의 긴밀한 대화'라면, 지그비는 '수천 명이 참여하는 대규모 마을 회의'와 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -112,7 +111,7 @@ keyword: "ZigBee_IEEE802.15.4_MeshNetwork_WPAN_LowPower_ZCL_ZDO"
 
 📢 **섹션 요약 비유**: 길을 잘 아는 가이드(라우터)를 많이 배치할수록 목적지까지 안전하게 도달하듯, 노드 배치의 밀도와 채널 설계가 성능의 핵심입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -126,13 +125,13 @@ keyword: "ZigBee_IEEE802.15.4_MeshNetwork_WPAN_LowPower_ZCL_ZDO"
 
 📢 **섹션 요약 비유**: 지그비는 화려한 주인공은 아니지만, 보이지 않는 곳에서 만물을 연결하는 '가장 신뢰받는 일꾼'으로 남을 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[IEEE 802.15.4](../../3_network/xx_ieee802154.md)**: 지그비의 물리/MAC 계층 표준.
-- **[6LoWPAN](./117_6lowpan.md)**: 지그비 하드웨어 위에서 IPv6를 구현하는 기술.
-- **[Z-Wave](./112_zwave.md)**: 지그비의 강력한 경쟁 기술(홈 네트워크 특화).
-- **[매터 (Matter)](./115_matter.md)**: 지그비를 포함한 모든 표준을 통합하려는 시도.
+- **IEEE 802.15.4**: 지그비의 물리/MAC 계층 표준.
+- **6LoWPAN**: 지그비 하드웨어 위에서 IPv6를 구현하는 기술.
+- **Z-Wave**: 지그비의 강력한 경쟁 기술(홈 네트워크 특화).
+- **매터 (Matter)**: 지그비를 포함한 모든 표준을 통합하려는 시도.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **작은 목소리 큰 힘**: 건전지 하나로 아주 오래 살 수 있는 작은 무선 로봇들이에요.

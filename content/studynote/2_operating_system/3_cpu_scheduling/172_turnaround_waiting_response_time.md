@@ -1,10 +1,10 @@
----
++++
 title = "[OS] 172. 반환/대기/응답 시간 (Turnaround, Waiting, Response Time)"
 date = "2026-03-04"
 [extra]
 categories = "studynote-operating-system"
 tags = ["Turnaround Time", "Waiting Time", "Response Time", "Scheduling Criteria"]
----
++++
 
 # [OS] 172. 반환/대기/응답 시간 (Turnaround, Waiting, Response Time)
 
@@ -13,7 +13,7 @@ tags = ["Turnaround Time", "Waiting Time", "Response Time", "Scheduling Criteria
 > 2. **가치**: `반환 시간(Turnaround Time)`은 시스템 효율성을, `대기 시간(Waiting Time)`은 자원 할당의 공정성을, `응답 시간(Response Time)`은 인터랙티브 시스템의 반응성을 각각 대변하며, 이 지표들의 상충 관계(Trade-off)를 이해하는 것이 시스템 튜닝의 핵심이다.
 > 3. **융합**: 단순 OS 이론을 넘어, 웹 서버의 대기열 길이 제어, 클라우드의 SLA (Service Level Agreement) 준수, 실시간 시스템의 Latency 최적화 등 현대 IT 인프라의 성능 분석 기초가 된다.
 
----
++++
 
 ### Ⅰ. 개요 (Context & Background)
 
@@ -48,7 +48,7 @@ System Focus            User Focus
 **📢 섹션 요약 비유**
 이는 식당 주방(CPU)과 손님(프로세스)의 관계와 같습니다. **반환 시간**은 주문한 음식이 나와서 다 먹을 때까지의 시간, **대기 시간**은 조리되기 위해 줄을 서서 기다린 시간, **응답 시간**은 주문 후 "네, 주문 받았습니다"라는 첫 반응이 돌아오기까지의 시간에 비유할 수 있습니다.
 
----
++++
 
 ### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -104,7 +104,7 @@ class ProcessMetrics:
 **📢 섹션 요약 비유**
 비행기 여행을 준비하는 과정과 같습니다. **반환 시간**은 집을 나서서 목적지에 도착하는 총 시간이고, **대기 시간**은 공항 보안 검색대와 게이트에서 대기하는 시간, **응답 시간**은 탑승 수속을 시작하여 "비행기에 탑승했습니다"라는 안전벨트 신호를 받을 때까지의 시간입니다. 비행기(자원)가 부족할수록 대기 시간은 길어집니다.
 
----
++++
 
 ### Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -146,7 +146,7 @@ class ProcessMetrics:
 **📢 섹션 요약 비유**
 고속도로 톨게이트와 같습니다. **FCFS**는 한 차선만 열어 두면 줄이 길어지는(대기 시간 증가) 것과 같고, **SJF**는 요금(서비스 시간)이 적은 차량을 먼저 통과시켜 전체 대기 시간을 줄이는 대신, 요금이 비싼 트럭은 영원히 기다리게 하는 것입니다. **RR**은 모든 차선에 하이패스 차례를 돌아가며 배정해 주물러도 끊김 없이 응답하게 하는 방식입니다.
 
----
++++
 
 ### Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -171,7 +171,7 @@ class ProcessMetrics:
 **📢 섹션 요약 비유**
 피자 가게의 주방 관리와 같습니다. 배달 최적화(TT 최소화)가 목표라면 조리 시간이 짜장면과 볶음밥을 먼저 만들지만, 매장 손님(RT 중요)의 만족도가 중요하다면, 완성되는 대로 바로 제공해야 합니다. 피자 구워지는 시간(Time Quantum)을 너무 쪼개어 자주 확인하면 오히려 피자가 타거나(오버헤드) 늦어집니다.
 
----
++++
 
 ### Ⅴ. 기대효과 및 결론 (Future & Standard)
 

@@ -1,6 +1,7 @@
 +++
-weight = 417
 title = "417. 페이지 부재 빈도 (PFF, Page-Fault Frequency) 모델"
+date = "2026-03-14"
+weight = 417
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -116,4 +117,3 @@ graph TD
     PFF -- Advantage --> Simple[Low Overhead]
     PFF -- Comparison --> WS[Working-Set Model]
     Simple -- Event Driven --> PFE[Page Fault Event]
-```

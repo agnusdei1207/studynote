@@ -1,5 +1,6 @@
 +++
 title = "Thread Pool - 스레드 풀"
+date = "2026-03-14"
 weight = 798
 +++
 
@@ -101,6 +102,6 @@ Thread Pool은 스레드를 재사용합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Connection Pool](./797_connection_pool.md)
-- [Concurrency](./xxx_concurrency.md)
-- [Async Processing](./xxx_async.md)
+- Connection Pool
+- Concurrency
+- Async Processing

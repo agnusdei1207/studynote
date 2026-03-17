@@ -1,5 +1,6 @@
 +++
 title = "MQTT - 경량 메시징 프로토콜"
+date = "2026-03-14"
 weight = 343
 +++
 
@@ -146,10 +147,10 @@ MQTT는 IoT를 위한 경량 발행-구독 메시징 프로토콜입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [AMQP](./344_amqp.md)
-- [Kafka](./345_kafka.md)
-- [IoT](./6_ict_convergence/150_iot.md)
-- [발행-구독](./4_software_engineering/195_pub_sub.md)
+- AMQP
+- Kafka
+- IoT
+- 발행-구독
 
 ---
 

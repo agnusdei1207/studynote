@@ -1,6 +1,7 @@
 +++
-weight = 637
 title = "637. 운영체제 성능 병목 지점 실전 튜닝 사례"
+date = "2026-03-14"
+weight = 637
 +++
 
 # # 637. 운영체제 성능 병목 지점 실전 튜닝 사례
@@ -150,4 +151,4 @@ sudo offcputime -p $(pidof java) > offcpu_output.txt
     *   `vm.dirty_background_ratio = 5` (기본 10 → 5로 감소): 백그라운드 플러셔(Flusher) 스레드가 더 자주, 조금씩 디스크에 쓰게 함으로써 **I/O Spike** 제거.
     *   `deadline` I/O 스케줤러로 변경: 읽기 지연을 보장하는 알고리즘 사용.
 
-*   **결과**: `iowait`가 
+*   **결과**: `iowait`가

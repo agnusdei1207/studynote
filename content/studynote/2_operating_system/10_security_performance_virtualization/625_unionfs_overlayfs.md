@@ -1,6 +1,7 @@
 +++
-weight = 625
 title = "625. 계층형 파일 시스템 (UnionFS / OverlayFS)"
+date = "2026-03-14"
+weight = 625
 +++
 
 # 625. 계층형 파일 시스템 (UnionFS / OverlayFS)

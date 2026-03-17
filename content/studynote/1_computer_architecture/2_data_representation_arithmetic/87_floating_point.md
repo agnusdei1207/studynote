@@ -1,6 +1,7 @@
 +++
-weight = 87
 title = "87. 부동소수점 (Floating Point)"
+date = "2026-03-14"
+weight = 87
 +++
 
 # 87. 부동소수점 (Floating Point)

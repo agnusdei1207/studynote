@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: MFA Bypass 🥈 Silver"
-description = "LUXORA 플랫폼의 Time-of-Check to Time-of-Use (TOCTOU) 취약점 및 Rate Limit 회피를 이용한 2FA 브루트포스 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "MFA Bypass", "Silver", "Race Condition", "TOCTOU", "Write-up"]

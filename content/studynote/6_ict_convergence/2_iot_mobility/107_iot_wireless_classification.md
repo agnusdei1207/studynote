@@ -1,10 +1,9 @@
----
-title: "[ICT] #108. IoT 무선 통신 기술 분류 (WPAN, WLAN, LPWAN)"
-date: "2026-03-17"
++++
+title = "[ICT] #108. IoT 무선 통신 기술 분류 (WPAN, WLAN, LPWAN)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "WirelessCommunication_WPAN_WLAN_LPWAN_ZigBee_WiFi_LoRa_NBIoT"
----
+keyword = "WirelessCommunication_WPAN_WLAN_LPWAN_ZigBee_WiFi_LoRa_NBIoT"
++++
 
 # IoT 무선 통신 분류: 거리와 전력, 속도에 따른 맞춤형 연결 최적화
 
@@ -13,7 +12,7 @@ keyword: "WirelessCommunication_WPAN_WLAN_LPWAN_ZigBee_WiFi_LoRa_NBIoT"
 > 2. **가치**: 모든 환경에 완벽한 단일 통신 기술은 없으므로(No Silver Bullet), 기술사는 각 통신 방식의 트레이드오프(Trade-off) 관계를 분석하여 최적의 비즈니스 인프라를 설계해야 한다.
 > 3. **융합**: 단거리(WPAN/WLAN)와 광역(LPWAN/Cellular) 기술이 게이트웨이를 통해 상호 보완적으로 연결되는 하이브리드 토폴로지가 스마트 시티 및 산업 현장의 표준 아키텍처로 정착하고 있다.
 
----
++++
 
 ## Ⅰ. IoT 무선 통신 기술 분류 체계 개요
 
@@ -29,7 +28,7 @@ keyword: "WirelessCommunication_WPAN_WLAN_LPWAN_ZigBee_WiFi_LoRa_NBIoT"
 
 📢 **섹션 요약 비유**: 상황에 따라 속삭임(WPAN), 대화(WLAN), 외침(LPWAN) 중 가장 적절한 목소리 크기를 선택하여 소통의 효율을 극대화하는 전략적 분류입니다.
 
----
++++
 
 ## Ⅱ. 통신 기술별 상세 분석 (Deep Dive)
 
@@ -76,7 +75,7 @@ keyword: "WirelessCommunication_WPAN_WLAN_LPWAN_ZigBee_WiFi_LoRa_NBIoT"
 
 📢 **섹션 요약 비유**: 데이터라는 짐을 나르기 위해 오토바이(WPAN), 트럭(WLAN), 그리고 아주 먼 길을 천천히 걷는 낙타(LPWAN) 중 최적의 운송 수단을 배치하는 지혜입니다.
 
----
++++
 
 ## Ⅲ. 기술 융합 및 계층적 아키텍처
 
@@ -91,7 +90,7 @@ keyword: "WirelessCommunication_WPAN_WLAN_LPWAN_ZigBee_WiFi_LoRa_NBIoT"
 
 📢 **섹션 요약 비유**: 모세혈관(WPAN)에서 피를 모아 대정맥(WLAN/LPWAN)을 거쳐 심장(클라우드)으로 보내는 우리 몸의 혈액 순환 구조와 완벽히 일치합니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -108,7 +107,7 @@ keyword: "WirelessCommunication_WPAN_WLAN_LPWAN_ZigBee_WiFi_LoRa_NBIoT"
 
 📢 **섹션 요약 비유**: 집안일은 직접(WPAN) 하고, 동네 심부름은 자전거(WLAN)로, 먼 타지는 기차(LPWAN)를 타고 가듯 서비스의 '거리'와 '무게'에 맞춘 경제적 선택이 핵심입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -122,13 +121,13 @@ keyword: "WirelessCommunication_WPAN_WLAN_LPWAN_ZigBee_WiFi_LoRa_NBIoT"
 
 📢 **섹션 요약 비유**: 무선 통신 분류 기술은 보이지 않는 전파의 길을 닦아, 만물이 대화하는 '지구촌 대화 합창'을 완성하는 오케스트라 지휘와 같습니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[지그비 (ZigBee)](./112_zigbee.md)**: 대표적인 WPAN 기술.
-- **[와이파이 (Wi-Fi)](./157_wifi_6.md)**: 대표적인 WLAN 기술.
-- **[LoRa vs NB-IoT](./110_lora_nbiot.md)**: 대표적인 LPWAN 기술 간의 진검 승부.
-- **[UWB](./160_uwb.md)**: 정밀 위치 측정에 특화된 차세대 WPAN.
+- **지그비 (ZigBee)**: 대표적인 WPAN 기술.
+- **와이파이 (Wi-Fi)**: 대표적인 WLAN 기술.
+- **LoRa vs NB-IoT**: 대표적인 LPWAN 기술 간의 진검 승부.
+- **UWB**: 정밀 위치 측정에 특화된 차세대 WPAN.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **가까운 대화**: 내 스마트폰이랑 무선 이어폰이 속삭이는 것처럼, 아주 가까운 곳끼리만 연결되는 '미니 무선'이 있어요.

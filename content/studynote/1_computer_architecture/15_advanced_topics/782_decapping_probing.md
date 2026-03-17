@@ -1,5 +1,6 @@
 +++
 title = "decapping probing"
+date = "2026-03-14"
 weight = 782
 +++
 
@@ -144,10 +145,10 @@ weight = 782
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [FIB (Focused Ion Beam)](./781_fib.md)
-- [물리적 분해 분석](./780_reverse_engineering.md)
-- [안티 탬퍼](./783_anti_tamper.md)
-- [DPA](./778_dpa.md)
+- FIB (Focused Ion Beam)
+- 물리적 분해 분석
+- 안티 탬퍼
+- DPA
 
 ---
 

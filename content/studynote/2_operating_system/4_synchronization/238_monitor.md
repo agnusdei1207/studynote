@@ -1,7 +1,7 @@
 +++
 title = "238. 모니터 (Monitor)"
-weight = 238
 date = "2026-03-04"
+weight = 238
 [extra]
 categories = "studynote-operating-system"
 +++
@@ -13,7 +13,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 개발자가 직접 `wait()`나 `signal()`을 호출하며 실수할 위험(세마포어의 한계)을 제거하며, 객체 지향 프로그래밍의 캡슐화 원칙을 동기화에 적용하여 코드 안전성을 높인다.
 > 3. **융합**: Java의 `synchronized` 키워드와 `Object` 클래스의 `wait/notify` 메커니즘의 직접적인 모태가 되었으며, 현대 병행성 프로그래밍의 표준 모델이다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -23,7 +23,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 마치 법정에서 판사의 허락을 받은 증인석의 한 사람만이 발언권을 얻고, 다른 사람들은 발언이 끝날 때까지 밖에서 기다려야 하는 질서 정연한 규칙과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -62,7 +62,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 마치 자동문 시스템이 장착된 보안 구역처럼, 사람이 직접 문을 잠그지 않아도 시스템이 알아서 한 명씩만 입장시키는 것과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -78,7 +78,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 세마포어가 숙련된 기술자가 다루는 '수동 변속기'라면, 모니터는 누구나 운전하기 편한 '자동 변속기'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -92,7 +92,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 정해진 메뉴얼대로만 작동하는 키오스크 덕분에 주문 오류가 줄어들듯, 모니터는 정해진 절차를 강제하여 동기화 오류를 방지합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 

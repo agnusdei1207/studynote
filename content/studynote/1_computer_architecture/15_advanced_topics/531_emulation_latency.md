@@ -1,6 +1,7 @@
 +++
-weight = 531
 title = "531. 에뮬레이션 지연"
+date = "2026-03-14"
+weight = 531
 +++
 
 # 531. 에뮬레이션 지연
@@ -137,10 +138,10 @@ title = "531. 에뮬레이션 지연"
 ---
 
 ### 📌 관련 개념 맵
-- **[하이퍼바이저 트랩](./530_hypervisor_trap.md)**: 에뮬레이션 지연의 시작점
-- **[SR-IOV (Single Root I/O Virtualization)](./528_sr_iov.md)**: 에뮬레이션을 제거하는 하드웨어 기술
-- **[DPDK (Data Plane Development Kit)](./518_dpdk.md)**: I/O 에뮬레이션 오버헤드 최소화 기법
-- **[QEMU](./xx_qemu.md)**: 대표적인 오픈소스 에뮬레이터 소프트웨어
+- **하이퍼바이저 트랩**: 에뮬레이션 지연의 시작점
+- **SR-IOV (Single Root I/O Virtualization)**: 에뮬레이션을 제거하는 하드웨어 기술
+- **DPDK (Data Plane Development Kit)**: I/O 에뮬레이션 오버헤드 최소화 기법
+- **QEMU**: 대표적인 오픈소스 에뮬레이터 소프트웨어
 
 ---
 

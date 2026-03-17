@@ -1,10 +1,9 @@
----
-title: "[ICT] #130. 6자유도 (6DoF) 트래킹"
-date: "2026-03-17"
++++
+title = "[ICT] #130. 6자유도 (6DoF) 트래킹"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "6DoF_Tracking_DegreesOfFreedom_VR_AR_SpatialTracking_IMU"
----
+keyword = "6DoF_Tracking_DegreesOfFreedom_VR_AR_SpatialTracking_IMU"
++++
 
 # 6자유도 (6DoF) 트래킹: 가상 공간에서 완벽한 자유를 허락하는 위치 인식 기술
 
@@ -13,7 +12,7 @@ keyword: "6DoF_Tracking_DegreesOfFreedom_VR_AR_SpatialTracking_IMU"
 > 2. **가치**: 3DoF(회전만 인식) 기기가 제자리에 서서 고개만 돌릴 수 있었던 것과 달리, 6DoF는 사용자가 가상 공간 안을 직접 걸어 다니고, 숙이고, 물건에 다가가는 완벽한 몰입감(Immersion)을 제공한다.
 > 3. **융합**: 가속도계/자이로스코프 같은 관성 센서(IMU)와 카메라(비전 센서), LiDAR 등을 융합한 SLAM 기술을 통해 외부 추적 장치 없이도 기기 스스로 위치를 파악하는 '인사이드-아웃(Inside-out)' 트래킹으로 발전했다.
 
----
++++
 
 ## Ⅰ. 6자유도 (6DoF) 트래킹 개요
 
@@ -31,7 +30,7 @@ keyword: "6DoF_Tracking_DegreesOfFreedom_VR_AR_SpatialTracking_IMU"
 
 📢 **섹션 요약 비유**: 가짜 세상(가상 현실)에서 진짜 세상처럼 자연스럽게 걷고 숙일 수 있게 만들어주는 '디지털 중력과 위치의 법칙'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -84,7 +83,7 @@ keyword: "6DoF_Tracking_DegreesOfFreedom_VR_AR_SpatialTracking_IMU"
 
 📢 **섹션 요약 비유**: 눈(카메라)으로 주변을 보고, 달팽이관(IMU 센서)으로 몸의 기울기를 느껴 내 위치를 정확히 파악하는 인간의 생물학적 균형 감각을 기계로 완벽히 재현한 것입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -104,7 +103,7 @@ keyword: "6DoF_Tracking_DegreesOfFreedom_VR_AR_SpatialTracking_IMU"
 
 📢 **섹션 요약 비유**: 3DoF가 '고정된 망원경으로 풍경을 보는 것'이라면, 6DoF는 '내가 직접 드론이 되어 풍경 속을 날아다니는 것'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -121,7 +120,7 @@ keyword: "6DoF_Tracking_DegreesOfFreedom_VR_AR_SpatialTracking_IMU"
 
 📢 **섹션 요약 비유**: 아무리 뛰어난 내비게이션도 터널(어둠)에 들어가면 GPS(카메라)를 잃습니다. 이때 자동차 바퀴의 회전수(IMU)로 위치를 추측하는 '대비책(Sensor Fusion)'이 시스템의 품질을 결정합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -135,13 +134,13 @@ keyword: "6DoF_Tracking_DegreesOfFreedom_VR_AR_SpatialTracking_IMU"
 
 📢 **섹션 요약 비유**: 6자유도 트래킹은 현실 세계라는 우리 집을 떠나 가상 세계라는 새로운 우주로 이주하기 위해 반드시 입어야 하는 '완벽한 맞춤형 우주복'입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[XR (가상/증강/혼합 현실)](./127_xr_vr_ar_mr.md)**: 6DoF 트래킹이 적용되는 최종 하드웨어 디스플레이.
-- **[공간 컴퓨팅 (Spatial Computing)](./128_spatial_computing.md)**: 6DoF를 기반으로 공간 전체를 UI로 쓰는 개념.
-- **[SLAM (Simultaneous Localization and Mapping)](./130_slam_vslam.md)**: 인사이드-아웃 방식 6DoF를 가능하게 하는 핵심 맵핑 기술.
-- **[디지털 트윈](./125_digital_twin.md)**: 6DoF를 활용해 탐험하게 될 가상의 복제 공간.
+- **XR (가상/증강/혼합 현실)**: 6DoF 트래킹이 적용되는 최종 하드웨어 디스플레이.
+- **공간 컴퓨팅 (Spatial Computing)**: 6DoF를 기반으로 공간 전체를 UI로 쓰는 개념.
+- **SLAM (Simultaneous Localization and Mapping)**: 인사이드-아웃 방식 6DoF를 가능하게 하는 핵심 맵핑 기술.
+- **디지털 트윈**: 6DoF를 활용해 탐험하게 될 가상의 복제 공간.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **고개만 돌리기 vs 걸어 다니기**: 예전 VR 안경은 의자에 앉아서 고개만 돌려야 했지만, 6DoF 안경을 쓰면 내가 직접 가짜 세상 속을 마음대로 걸어 다닐 수 있어요.

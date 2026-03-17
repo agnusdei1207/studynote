@@ -1,10 +1,9 @@
----
-title: "[ICT] #4. Blockchain (Distributed Ledger Technology, DLT)"
-date: "2026-03-17"
++++
+title = "[ICT] #4. Blockchain (Distributed Ledger Technology, DLT)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Blockchain_DLT_Core"
----
+keyword = "Blockchain_DLT_Core"
++++
 
 # Blockchain: The Foundation of Digital Trust
 
@@ -13,7 +12,7 @@ keyword: "Blockchain_DLT_Core"
 2. **비가역성(Immutability)**: 한 번 기록된 데이터는 해시 체인(Hash Chain)과 다수결 합의를 통해 수정이나 삭제가 사실상 불가능한 구조를 가진다.
 3. **가치 인터넷의 기반**: 정보의 복제가 아닌 '가치의 전이(Transfer of Value)'를 가능하게 하여 금융, 물류, 행정 등 사회 전반의 인프라를 혁신한다.
 
----
++++
 
 ## Ⅰ. 블록체인(Distributed Ledger Technology)의 개념
 
@@ -30,7 +29,7 @@ keyword: "Blockchain_DLT_Core"
 📢 **섹션 요약 비유**: 
 - 예전에는 은행(중앙 서버)이 혼자서 장부를 관리했다면, 블록체인은 마을 사람들(네트워크 노드) 모두가 똑같은 장부를 한 권씩 나누어 가지고, 새로운 거래가 생길 때마다 다 같이 확인하고 동시에 적어넣는 방식입니다.
 
----
++++
 
 ## Ⅱ. 블록체인의 동작 원리 및 기술 요소
 
@@ -48,7 +47,7 @@ keyword: "Blockchain_DLT_Core"
 | **보안** | **Public Key Crypto** | 전자 서명을 통한 거래 주체 인증 및 부인 방지 |
 | **신뢰** | **Consensus Algorithm** | PoW, PoS 등 분산 노드 간의 상태 일치 매커니즘 |
 
----
++++
 
 ## Ⅲ. 블록체인의 유형 분류 (Public vs Private)
 
@@ -61,7 +60,7 @@ keyword: "Blockchain_DLT_Core"
 | **익명성** | 높음 | 낮음 | 중간 |
 | **대표 사례** | 비트코인, 이더리움 | 하이퍼레저, R3 Corda | 금융권 공동망 |
 
----
++++
 
 ## Ⅳ. 블록체인 트릴레마 (The Blockchain Trilemma)
 
@@ -74,7 +73,7 @@ keyword: "Blockchain_DLT_Core"
 - **On-chain**: 샤딩(Sharding) - 메인 체인을 분할 처리.
 - **Off-chain**: 롤업(Rollup), 사이드체인 - 외부에서 연산 후 결과만 기록.
 
----
++++
 
 ## Ⅴ. 기술사 시험 대비 전략 (핵심 키워드 및 결론)
 
@@ -88,7 +87,7 @@ keyword: "Blockchain_DLT_Core"
 - **가용성** 측면에서 기존 중앙 집중 시스템의 **SPOF(Single Point of Failure)** 문제를 어떻게 해결하는지 논리적으로 기술할 것.
 - 최근 추세인 **'엔터프라이즈 블록체인'**과 **'Web 3.0'**의 연결고리를 언급하여 실무적 감각을 어필할 것.
 
----
++++
 
 ### 📌 관련 개념 맵
 ```mermaid

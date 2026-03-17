@@ -11,7 +11,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 락 경합은 CPU 코어 수가 증가할수록 성능이 오히려 하락하는 역설적 현상의 주범이며, 전문 도구를 통한 가시성 확보는 응답 시간 단축과 처리량 극대화를 위한 데이터 기반 의사결정의 핵심 근거가 된다.
 > 3. **융합**: 리눅스 커널의 `perf`, `ebpf` 기반 추적 시스템, Java 가상 머신의 `JFR (JDK Flight Recorder)`, 그리고 하드웨어 수준의 성능 모니터링 유닛 (PMU) 기술과 긴밀하게 통합되어 작동한다.
 
----
++++
 
 ### Ⅰ. 개요 (Context & Background)
 
@@ -25,7 +25,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 마치 병원에서 청진기나 MRI를 통해 몸속 장기의 흐름이 막힌 곳(경합 지점)을 정밀하게 진단하는 것과 같습니다.
 
----
++++
 
 ### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -39,7 +39,7 @@ categories = "studynote-operating-system"
 | **JFR / JVisualVM** | Java / JVM | Runtime | 스레드 덤프와 연동하여 락 점유 상태 시각화 | 은행 대기표 시스템 |
 | **Intel VTune** | x86 Hardware | HW PMU | 하드웨어 이벤트를 통한 캐시 경합 및 락 부하 분석 | 미시적 현미경 |
 
----
++++
 
 ### 락 경합 발생 및 계측 메커니즘
 
@@ -68,7 +68,7 @@ categories = "studynote-operating-system"
 
 **[다이어그램 해설]** Thread B가 락을 요청했을 때 이미 Thread A가 소유하고 있다면 '경합 이벤트'가 발생한다. 도구는 Thread B가 실제로 락을 손에 넣을 때까지의 시간(Wait Time)을 정밀하게 측정한다. 단순히 횟수만 세는 것이 아니라, "특정 락이 전체 실행 시간 중 몇 % 동안 경합 상태였는가"를 분석하여 시스템의 확장성을 저해하는 치명적 락을 식별한다.
 
----
++++
 
 ### 리눅스 `perf lock` 출력 구조 예시
 
@@ -88,7 +88,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 대형 쇼핑몰에서 가장 줄이 긴 매장(Contended Lock)을 파악하여 점원을 추가 배치(최적화)하는 관리 전략과 같습니다.
 
----
++++
 
 ### Ⅲ. 융합 비교 및 다각도 분석
 
@@ -109,7 +109,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: CCTV를 돌려보는 방식(샘플링)과 입구에 센서를 달아 모든 출입을 기록하는 방식(인스트루멘테이션)의 차이와 같습니다.
 
----
++++
 
 ### Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -130,7 +130,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 교통 흐름을 측정하겠다고 도로 한복판에 검문소(오버헤드)를 세우면, 측정 행위 때문에 정체가 발생하는 것과 같으므로 조심해야 합니다.
 
----
++++
 
 ### Ⅴ. 기대효과 및 결론
 
@@ -147,16 +147,16 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 자율주행차가 실시간 교통 정보를 받아 최적의 경로를 찾는 것처럼, 컴퓨터도 락 정보를 스스로 분석해 가장 빠른 길을 찾아가게 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[perf (Linux Profiling Tool)](../10_security_performance/613_kernel_profiling.md)**: 리눅스의 표준 성능 분석 프레임워크.
-- **[eBPF (Extended BPF)](../1_overview/69_ebpf.md)**: 커널 수정을 최소화하며 고성능 트레이싱을 가능케 하는 기술.
-- **[Lock-free 아키텍처](./256_lock_free.md)**: 락 경합을 원천적으로 제거하는 설계 방식.
-- **[메타스테이블 (Metastable)](../1_architecture_basics/xx_metastable.md)**: 하드웨어 수준에서 락 경합 시 발생할 수 있는 신호 불안정 현상.
-- **[성능 모니터링 유닛 (PMU)](../3_cpu_scheduling/xx_pmu.md)**: CPU 내부의 하드웨어 이벤트 계측 장치.
+- **perf (Linux Profiling Tool)**: 리눅스의 표준 성능 분석 프레임워크.
+- **eBPF (Extended BPF)**: 커널 수정을 최소화하며 고성능 트레이싱을 가능케 하는 기술.
+- **Lock-free 아키텍처**: 락 경합을 원천적으로 제거하는 설계 방식.
+- **메타스테이블 (Metastable)**: 하드웨어 수준에서 락 경합 시 발생할 수 있는 신호 불안정 현상.
+- **성능 모니터링 유닛 (PMU)**: CPU 내부의 하드웨어 이벤트 계측 장치.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 락 경합 모니터링 도구는 장난감을 서로 가지고 놀려고 줄을 서 있는 친구들이 얼마나 많은지 알려주는 **친절한 선생님**이에요.

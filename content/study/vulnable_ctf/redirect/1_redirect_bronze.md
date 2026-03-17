@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Open Redirect 🥉 Bronze"
-description = "LUXORA 플랫폼의 기본 Open Redirect 취약점을 악용한 사용자 피싱 및 파라미터 조작 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Open Redirect", "Bronze", "Phishing", "Write-up"]

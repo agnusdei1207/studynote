@@ -1,5 +1,6 @@
 +++
 title = "페일오버 (Failover) - 자동 전환"
+date = "2026-03-14"
 weight = 277
 +++
 
@@ -148,10 +149,10 @@ weight = 277
 ---
 
 ### 📌 관련 개념 링크**:
-- [고가용성](./276_high_availability.md)
-- [RTO/RPO](./280_rto_rpo.md)
-- [재해 복구](./278_disaster_recovery.md)
-- [클러스터링](./279_clustering.md)
+- 고가용성
+- RTO/RPO
+- 재해 복구
+- 클러스터링
 
 ---
 

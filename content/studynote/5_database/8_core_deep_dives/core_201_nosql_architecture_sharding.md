@@ -12,7 +12,7 @@ categories = "studynote-database"
 > 2. **가치**: 데이터 모델의 유연성 (Schemaless)과 샤딩 (Sharding) 기술을 통해 페타바이트 (Petabyte)급 데이터와 수백만 TPS (Transactions Per Second)를 수용하며, CAP 정리 (Consistency, Availability, Partition Tolerance)의 제약을 비즈니스 요구에 맞춰 트레이드오프 (Trade-off) 한다.
 > 3. **융합**: 현대의 NoSQL은 단순 저장소를 넘어 서버리스 (Serverless) DB, NewSQL과의 하이브리드 진화, 그리고 AI 임베딩 (Embedding) 검색을 위한 벡터 데이터베이스 (Vector DB) 기술로 융합되어 클라우드 네이티브 (Cloud Native) 인프라의 중추 역할을 수행한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -27,7 +27,7 @@ categories = "studynote-database"
 
 - **📢 섹션 요약 비유**: 마치 정해진 규격의 컨테이너만 실을 수 있는 전용 항구에서, 어떤 형태의 화물이라도 즉시 수용하고 선단을 자유롭게 늘릴 수 있는 스마트 항구 시스템으로 진화한 것과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -40,7 +40,7 @@ categories = "studynote-database"
 | **Wide-Column Store** | 행마다 다른 열(Column) 보유 | LSM-Tree (Log-Structured Merge-Tree) 기반 쓰기 최적화 | HBase, Cassandra | 가변 길이의 파일 색인 폴더 |
 | **Graph Store** | 관계 중심의 그래프 구조 | 인접 리스트 (Adjacency List) 기반 포인터 탐색 | Neo4j, Neptune | 복잡하게 얽힌 소셜 인맥 지도 |
 
----
++++
 
 ### 분산 아키텍처의 핵심: 샤딩 (Sharding)
 
@@ -73,7 +73,7 @@ categories = "studynote-database"
 
 **[다이어그램 해설]** 클라이언트의 요청이 들어오면 라우터 (Router) 또는 설정 서버 (Config Server)가 요청에 포함된 **샤드 키 (Shard Key)**를 분석한다. 예를 들어 `User_ID`가 123이라면, 해당 범위 (101~200)를 관리하는 `Shard B`로 쿼리를 전달한다. 각 샤드는 물리적으로 독립된 서버 (Node)에 위치하며, 자원을 공유하지 않는 **공유 아무것도 없음 (Shared Nothing)** 구조를 가진다. 이를 통해 특정 노드에 부하가 집중되는 것을 방지하고, 성능이 부족할 경우 새로운 노드를 추가하여 무한히 확장할 수 있는 토대를 마련한다.
 
----
++++
 
 ### 일관된 해싱 (Consistent Hashing) 알고리즘
 
@@ -102,7 +102,7 @@ categories = "studynote-database"
 
 **[다이어그램 해설]** 데이터(Object)와 서버(Node)를 모두 동일한 해시 값 범위 (0 ~ 2^32-1)의 원형 링 위에 배치한다. 데이터는 시계 방향으로 가장 가까운 곳에 위치한 서버에 저장된다. 만약 `Node 2`가 제거되면, 해당 노드에 할당되었던 `Data B`와 `Data C`만 시계 방향의 다음 노드인 `Node 3`로 이동하면 된다. 기존의 단순 해싱 방식이 노드 수 변경 시 모든 데이터를 재배치해야 했던 것과 비교하면, 시스템의 가용성과 안정성을 비약적으로 높여주는 핵심 기술이다. 가상 노드 (Virtual Nodes) 개념을 추가하여 데이터의 불균형 (Hotspot) 문제도 해결 가능하다.
 
----
++++
 
 ### 심층 동작 원리: LSM-Tree (Log-Structured Merge-Tree)
 
@@ -115,7 +115,7 @@ categories = "studynote-database"
 
 - **📢 섹션 요약 비유**: 마치 포스트잇에 할 일을 적어두었다가(MemTable), 퇴근할 때 이를 정리해서 일기장(SSTable)에 붙이고, 나중에 중복된 내용을 지우고 한 권으로 묶는(Compaction) 효율적인 업무 관리법과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -137,7 +137,7 @@ categories = "studynote-database"
 
 - **📢 섹션 요약 비유**: RDBMS가 법규를 엄격히 준수하는 관료 조직이라면, NoSQL은 법규보다는 현장의 빠른 대응과 확장을 우선하는 특수 작전 부대와 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -159,7 +159,7 @@ categories = "studynote-database"
 
 - **📢 섹션 요약 비유**: 샤드 키를 잘못 고르는 것은 마치 고속도로의 특정 차선에만 모든 차를 몰아넣어 거대한 정체를 만드는 것과 같으므로, 통행량을 고루 나누는 스마트한 분산 설계가 필수적입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -178,16 +178,16 @@ categories = "studynote-database"
 
 - **📢 섹션 요약 비유**: 마치 상황에 따라 자유자재로 모양을 바꾸는 트랜스포머 로봇처럼, 미래의 데이터베이스는 어떤 데이터와 부하 상황에서도 스스로 최적화되는 지능형 플랫폼으로 진화할 것입니다.
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[CAP 정리와 PACELC 정리](../4_transaction_concurrency_recovery/200_cap_theorem_and_pacelc.md)**: NoSQL 설계의 근간이 되는 분산 시스템 트레이드오프 이론.
-- **[MVCC (Multi-Version Concurrency Control)](../4_transaction_concurrency_recovery/196_mvcc_multi_version_concurrency_control.md)**: NoSQL의 낙관적 동시성 제어 및 스냅샷 격리를 가능케 하는 기술.
-- **[2단계 커밋 (2PC)](../4_transaction_concurrency_recovery/199_distributed_transactions.md)**: NoSQL이 지양하는 분산 트랜잭션의 성능 병목 프로토콜.
-- **[Saga 패턴](../4_transaction_concurrency_recovery/199_distributed_transactions.md)**: NoSQL 환경에서 분산 트랜잭션을 보상 트랜잭션으로 관리하는 MSA 패턴.
-- **[벡터 데이터베이스 (Vector DB)](../6_dw_olap_trends/vector_db.md)**: NoSQL의 확장성을 AI 임베딩 검색에 특화시킨 최신 진화 형태.
+- **CAP 정리와 PACELC 정리**: NoSQL 설계의 근간이 되는 분산 시스템 트레이드오프 이론.
+- **MVCC (Multi-Version Concurrency Control)**: NoSQL의 낙관적 동시성 제어 및 스냅샷 격리를 가능케 하는 기술.
+- **2단계 커밋 (2PC)**: NoSQL이 지양하는 분산 트랜잭션의 성능 병목 프로토콜.
+- **Saga 패턴**: NoSQL 환경에서 분산 트랜잭션을 보상 트랜잭션으로 관리하는 MSA 패턴.
+- **벡터 데이터베이스 (Vector DB)**: NoSQL의 확장성을 AI 임베딩 검색에 특화시킨 최신 진화 형태.
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. NoSQL은 거대한 레고 박스 같아요. 정해진 틀 없이 내가 만들고 싶은 모양대로 조각을 마음껏 담고, 상자가 꽉 차면 옆에 새 상자를 계속 붙여서 늘릴 수 있어요.

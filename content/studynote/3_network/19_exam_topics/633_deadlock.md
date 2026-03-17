@@ -1,5 +1,6 @@
 +++
 title = "Deadlock - 교착 상태"
+date = "2026-03-14"
 weight = 633
 +++
 
@@ -99,6 +100,6 @@ Deadlock은 두 프로세스가 서로의 자원을 기다리는 상태입니다
 ---
 
 ### 📌 관련 개념 링크**:
-- [Lock](./632_lock.md)
-- [Transaction](./629_transaction.md)
-- [Concurrency](./634_concurrency.md)
+- Lock
+- Transaction
+- Concurrency

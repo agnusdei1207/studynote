@@ -1,6 +1,7 @@
 +++
-weight = 477
 title = "477. 가비지 컬렉션 (Garbage Collection in SSD)"
+date = "2026-03-14"
+weight = 477
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -109,9 +110,9 @@ title = "477. 가비지 컬렉션 (Garbage Collection in SSD)"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[TRIM 명령어](./xx_trim.md)**: GC의 효율을 돕는 OS와 SSD 간의 통신 기술.
-- **[쓰기 증폭 (WAF)](./480_write_amplification.md)**: GC로 인해 발생하는 물리적 쓰기량 증가의 척도.
-- **[FTL (Flash Translation Layer)](./478_ftl.md)**: GC 과정에서 주소 매핑을 담당하는 관리자.
+- **TRIM 명령어**: GC의 효율을 돕는 OS와 SSD 간의 통신 기술.
+- **쓰기 증폭 (WAF)**: GC로 인해 발생하는 물리적 쓰기량 증가의 척도.
+- **FTL (Flash Translation Layer)**: GC 과정에서 주소 매핑을 담당하는 관리자.
 
 ---
 

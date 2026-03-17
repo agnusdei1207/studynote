@@ -1,7 +1,7 @@
 +++
-weight = 652
 title = "652. 사용자 모드(User Mode)와 커널 모드(Kernel Mode)의 전환 과정 요약"
 date = "2024-05-23"
+weight = 652
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "User Mode", "Kernel Mode", "Privilege Level", "Mode Bit", "Trap"]
@@ -12,7 +12,7 @@ keywords = ["운영체제", "User Mode", "Kernel Mode", "Privilege Level", "Mode
 > 응용 프로그램의 오동작이나 악의적인 접근이 하드웨어 및 운영체제 전반에 치명적인 영향을 미치지 않도록 접근 권한을 엄격히 격리한다.
 > 모드 전환(Mode Transition)은 반드시 정해진 통로(Trap, Interrupt)를 통해서만 이루어지며, 이 과정의 효율성이 전체 시스템 성능의 중요한 척도가 된다.
 
----
++++
 
 ### Ⅰ. 이중 모드 실행(Dual-mode Operation)의 원리
 
@@ -26,7 +26,7 @@ keywords = ["운영체제", "User Mode", "Kernel Mode", "Privilege Level", "Mode
 
 📢 섹션 요약 비유: 이중 모드는 일반 구역(User Mode)과 출입 제한 구역(Kernel Mode)이 나누어진 '은행'과 같습니다.
 
----
++++
 
 ### Ⅱ. 모드 전환 과정(Mode Transition Flow)
 
@@ -66,7 +66,7 @@ keywords = ["운영체제", "User Mode", "Kernel Mode", "Privilege Level", "Mode
 
 📢 섹션 요약 비유: 일반 손님이 금고를 열어야 할 때, 직접 열지 못하고 '직원에게 요청(System Call)'하면 직원이 '열쇠로 모드를 변경(Mode Bit=0)'하여 처리해주는 과정입니다.
 
----
++++
 
 ### Ⅲ. 특권 명령(Privileged Instructions)과 보호
 
@@ -79,7 +79,7 @@ keywords = ["운영체제", "User Mode", "Kernel Mode", "Privilege Level", "Mode
 
 📢 섹션 요약 비유: 은행 손님이 허가 없이 카운터 안쪽 기계를 조작하려 하면 '경보(Trap)'가 울리고 보안 요원(Kernel)이 출동하는 것과 같습니다.
 
----
++++
 
 ### Ⅳ. 모드 전환과 성능 오버헤드
 
@@ -92,7 +92,7 @@ keywords = ["운영체제", "User Mode", "Kernel Mode", "Privilege Level", "Mode
 
 📢 섹션 요약 비유: 창구 직원에게 물건을 하나씩 전달하며 묻는 것보다, 한꺼번에 모아서 물어보는 것이 훨씬 빠른 것과 같습니다.
 
----
++++
 
 ### Ⅴ. 현대 아키텍처에서의 확장 (Ring Levels)
 
@@ -105,7 +105,7 @@ keywords = ["운영체제", "User Mode", "Kernel Mode", "Privilege Level", "Mode
 
 📢 섹션 요약 비유: 단순히 안과 밖이 아니라, 보안 등급에 따라 여러 겹의 성벽(Ring)을 쌓아 핵심 요소를 보호하는 요새와 같습니다.
 
----
++++
 
 ### 💡 지식 그래프(Knowledge Graph)
 - **부모 노드**: 운영체제 보호(Operating System Protection)

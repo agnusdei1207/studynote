@@ -12,7 +12,7 @@ categories = "studynote-database"
 > 2. **가치**: 시스템 장애나 데이터 오염 발생 시 언제든 이벤트를 처음부터 재재생(Replay)하여 특정 시점의 완벽한 상태 복원이 가능하며, 모든 비즈니스 행위가 원천 기록되므로 완벽한 감사(Audit) 추적을 보장한다.
 > 3. **융합**: 이벤트 소싱은 필연적으로 쿼리의 복잡성을 낳으므로, 쓰기(Command) 모델과 읽기(Query) 모델을 물리적으로 분리하는 **CQRS (Command and Query Responsibility Segregation)** 패턴과 완벽하게 융합되어 마이크로서비스(MSA) 아키텍처의 트래픽 병목을 해소한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -29,7 +29,7 @@ categories = "studynote-database"
 
 - **📢 섹션 요약 비유**: 사고가 났을 때 현재 망가진 자동차의 상태(CRUD)만 보는 것보다, 사고 나기 직전까지의 블랙박스 영상(이벤트 소싱)을 보는 것이 원인을 가장 완벽하게 찾아내는 방법입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -60,7 +60,7 @@ categories = "studynote-database"
 
 **[다이어그램 해설]** 이벤트 소싱은 상태 자체를 저장하지 않는다. 오직 일어난 '사건(Event)'을 과거형 동사(`ItemAdded`)로 기록한다. 이 이벤트들은 변경이 불가능(Immutable)하므로 DB 락(Lock) 경합이 발생하지 않아 쓰기 속도가 극한으로 빠르다. 하지만 현재 장바구니에 뭐가 들었는지 조회(Query)하려면 매번 수천 개의 이벤트를 처음부터 다시 계산(Replay)해야 하는 치명적인 단점이 있다. 이를 해결하기 위해 정기적으로 현재 상태를 찍어두는 **스냅샷(Snapshot)** 기법이 필수적이다.
 
----
++++
 
 ### 2. CQRS (Command and Query Responsibility Segregation) 아키텍처
 
@@ -93,7 +93,7 @@ categories = "studynote-database"
 
 **[다이어그램 해설]** 클라이언트가 상태를 변경하는 명령(Command)을 내리면, 이는 이벤트 스토어(RDBMS나 Cassandra)에 이벤트 형태로 순차 기록된다. 이 이벤트는 즉시 메시지 큐(Kafka)를 타고 이벤트 핸들러(Event Handler)로 전달된다. 핸들러는 이벤트를 해석하여 현재 상태를 미리 계산(Projection)한 뒤, 읽기 전용 DB(Read Model - 주로 Redis나 Elasticsearch)에 저장해 둔다. 클라이언트가 조회를 요청(Query)하면 무거운 이벤트 스토어를 뒤질 필요 없이, 이미 완성된 Read Model에서 1ms 이내에 데이터를 꺼내간다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -114,7 +114,7 @@ categories = "studynote-database"
 
 - **📢 섹션 요약 비유**: CQRS는 '주방(Command)'과 '진열장(Query)'을 완벽히 분리한 빵집입니다. 주방에서는 빵을 만들기만 하고, 만들어진 빵은 컨베이어 벨트를 타고 즉시 진열장으로 이동합니다. 손님들은 진열장만 보고 빵을 순식간에 골라갈 수 있습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -136,7 +136,7 @@ categories = "studynote-database"
 
 - **📢 섹션 요약 비유**: 동네 떡볶이집(단순 로직)에서 주문을 받을 때 무전기(메시지 큐)를 쓰고 주방(Command)과 홀(Query)을 멀리 분리해 놓으면, 떡볶이 하나 나가는 데 직원들만 고생하고 손님은 떠나갑니다. 이 기술은 수백 명이 동시에 주문하는 대형 공장에 어울립니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -154,14 +154,14 @@ categories = "studynote-database"
 
 - **📢 섹션 요약 비유**: 이벤트 소싱과 CQRS는 시스템에 '타임머신(완벽한 과거 기록)'과 '순간이동(초고속 조회)' 능력을 동시에 부여하여, 예측 불가능한 미래의 트래픽 앞에서도 기업을 가장 안전하게 지켜주는 방패입니다.
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[데이터옵스와 실시간 처리 (CDC)](../6_dw_olap_trends/215_dataops_cdc_stream_processing.md)**: 데이터베이스의 로그(Binlog)를 추출하는 CDC 방식이 이벤트 소싱 아키텍처의 사상과 맞닿아 있음.
-- **[데이터베이스 교착 상태 (Deadlock)](../4_transaction_concurrency_recovery/198_database_deadlock_handling.md)**: 기존 CRUD의 락 기반 동시성 제어가 야기하는 치명적 한계(이벤트 소싱이 극복하려는 문제).
-- **[다중 모델과 폴리글랏 퍼시스턴스](../5_distributed_nosql_newsql/208_polyglot_persistence_multi_model.md)**: CQRS의 Read Model(읽기 뷰)을 구성하기 위해 다양한 이기종 DB를 조합하는 기반 설계 사상.
+- **데이터옵스와 실시간 처리 (CDC)**: 데이터베이스의 로그(Binlog)를 추출하는 CDC 방식이 이벤트 소싱 아키텍처의 사상과 맞닿아 있음.
+- **데이터베이스 교착 상태 (Deadlock)**: 기존 CRUD의 락 기반 동시성 제어가 야기하는 치명적 한계(이벤트 소싱이 극복하려는 문제).
+- **다중 모델과 폴리글랏 퍼시스턴스**: CQRS의 Read Model(읽기 뷰)을 구성하기 위해 다양한 이기종 DB를 조합하는 기반 설계 사상.
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 일반 데이터베이스는 칠판에 적힌 점수판 같아요. 점수가 오르면 옛날 숫자를 쓱쓱 지우고 새 숫자를 덮어써 버리죠. 그래서 1시간 전에 몇 점이었는지는 아무도 몰라요. (CRUD)

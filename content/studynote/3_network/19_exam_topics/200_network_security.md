@@ -1,5 +1,6 @@
 +++
 title = "네트워크 보안 (Network Security) - 방화벽/IDS/IPS"
+date = "2026-03-14"
 weight = 200
 +++
 
@@ -151,10 +152,10 @@ weight = 200
 ---
 
 ### 📌 관련 개념 링크**:
-- [Zero Trust](./202_zero_trust.md)
-- [VPN](./202_vpn.md)
-- [암호화](./202_encryption.md)
-- [NAC](./202_nac.md)
+- Zero Trust
+- VPN
+- 암호화
+- NAC
 
 ---
 

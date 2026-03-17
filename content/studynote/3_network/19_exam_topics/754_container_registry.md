@@ -1,5 +1,6 @@
 +++
 title = "Container Registry - 컨테이너 레지스트리"
+date = "2026-03-14"
 weight = 754
 +++
 
@@ -98,6 +99,6 @@ Container Registry는 컨테이너 이미지를 저장합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Docker](./753_docker.md)
-- [Kubernetes](./619_kubernetes.md)
-- [CI/CD](./xxx_cicd.md)
+- Docker
+- Kubernetes
+- CI/CD

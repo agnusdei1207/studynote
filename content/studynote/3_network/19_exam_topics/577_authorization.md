@@ -1,5 +1,6 @@
 +++
 title = "Authorization - 인가"
+date = "2026-03-14"
 weight = 577
 +++
 
@@ -94,6 +95,6 @@ Authorization은 "무엇을 할 수 있는가"를 결정합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Authentication](./576_authentication.md)
-- [ACL](./565_acl.md)
-- [IAM](./580_iam.md)
+- Authentication
+- ACL
+- IAM

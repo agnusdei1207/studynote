@@ -1,5 +1,6 @@
 +++
 title = "nvram logging"
+date = "2026-03-14"
 weight = 689
 +++
 
@@ -422,11 +423,11 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [Write-Ahead Logging (WAL)](./wal.md) - DB 트랜잭션 로깅
-- [저널링 파일시스템](./journaling_filesystem.md) - ext4/XFS 저널 구조
-- [배터리 백업 캐시 (BBU)](./688_battery_backup_cache.md) - DRAM 비휘발화
-- [스토리지 컨트롤러 캐시 미러링](./687_storage_controller_cache_mirroring.md) - 캐시 이중화
-- [RAID 컨트롤러 아키텍처](./raid_controller.md) - 하드웨어 RAID 구조
+- Write-Ahead Logging (WAL) - DB 트랜잭션 로깅
+- 저널링 파일시스템 - ext4/XFS 저널 구조
+- 배터리 백업 캐시 (BBU) - DRAM 비휘발화
+- 스토리지 컨트롤러 캐시 미러링 - 캐시 이중화
+- RAID 컨트롤러 아키텍처 - 하드웨어 RAID 구조
 
 ---
 

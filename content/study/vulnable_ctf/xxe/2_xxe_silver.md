@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: XXE 🥈 Silver"
-description = "LUXORA 플랫폼의 Silver 난이도 XXE 공략 - SSRF(Server-Side Request Forgery) 연계를 통한 내부망 스캐닝 및 데이터 탈취 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "XXE", "Silver", "SSRF", "Write-up"]

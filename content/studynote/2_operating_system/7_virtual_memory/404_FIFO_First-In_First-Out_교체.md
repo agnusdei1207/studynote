@@ -1,6 +1,7 @@
 +++
-weight = 404
 title = "404. FIFO (First-In, First-Out) 교체"
+date = "2026-03-14"
+weight = 404
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -115,4 +116,3 @@ graph TD
     FIFO -- Limitation --> PF[High Page Fault Rate]
     Q -- Advantage --> LC[Low Complexity]
     BA -- Leads to --> SCA[Second Chance Algorithm]
-```

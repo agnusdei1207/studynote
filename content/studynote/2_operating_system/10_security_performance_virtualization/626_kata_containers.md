@@ -1,6 +1,7 @@
 +++
-weight = 626
 title = "626. 하이퍼바이저 기반 컨테이너 (Kata Containers)"
+date = "2026-03-14"
+weight = 626
 +++
 
 # 626. 하이퍼바이저 기반 컨테이너 (Kata Containers)

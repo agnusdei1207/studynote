@@ -1,9 +1,7 @@
----
-title: "566. 옵저버빌리티 (Observability) 아키텍처"
-date: 2026-03-15
-type: "pe_exam"
-id: 566
----
++++
+title = "566. 옵저버빌리티 (Observability) 아키텍처"
+date = "2026-03-15"
++++
 
 # 566. 옵저버빌리티 (Observability / 가시성) 아키텍처
 
@@ -132,10 +130,10 @@ id: 566
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[분산 추적 (Tracing)](./569_distributed_tracing.md)**: 옵저버빌리티의 가장 강력한 추적 기술.
-- **[메트릭 (Metrics)](./567_metrics_collection.md)**: 시스템 건강 지표 수집 기술.
-- **[로그 (Logs)](./568_logging_centralized.md)**: 상세 사건 기록 수집 기술.
-- **[SRE (Site Reliability Engineering)](./589_sre_slo.md)**: 옵저버빌리티를 활용하는 운영 철학.
+- **분산 추적 (Tracing)**: 옵저버빌리티의 가장 강력한 추적 기술.
+- **메트릭 (Metrics)**: 시스템 건강 지표 수집 기술.
+- **로그 (Logs)**: 상세 사건 기록 수집 기술.
+- **SRE (Site Reliability Engineering)**: 옵저버빌리티를 활용하는 운영 철학.
 
 ---
 

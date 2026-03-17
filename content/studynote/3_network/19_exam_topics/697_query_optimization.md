@@ -1,5 +1,6 @@
 +++
 title = "Query Optimization - 쿼리 최적화"
+date = "2026-03-14"
 weight = 697
 +++
 
@@ -109,6 +110,6 @@ Query Optimization은 최적의 실행 계획을 선택합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Indexing](./693_indexing.md)
-- [Execution Plan](./698_execution_plan.md)
-- [Statistics](./699_statistics.md)
+- Indexing
+- Execution Plan
+- Statistics

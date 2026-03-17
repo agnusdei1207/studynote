@@ -1,8 +1,7 @@
-
-thought>
-Here is the rewritten content, strictly following the PE guidelines with expanded depth, rigorous technical terminology, hybrid style, and structured metaphors.
-
 +++
+title = "# [504. 열린 파일 테이블 (Open-file Table) 및 파일 포인터]"
+date = "2026-03-14"
+[extra]
 weight = 504
 title = "504. 열린 파일 테이블 (Open-file Table) 및 파일 포인터"
 +++

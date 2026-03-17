@@ -1,5 +1,6 @@
 +++
 title = "Sharding - 샤딩"
+date = "2026-03-14"
 weight = 791
 +++
 
@@ -102,6 +103,6 @@ Sharding은 데이터를 수평으로 분할합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Partitioning](./792_partitioning.md)
-- [Scaling](./xxx_scaling.md)
-- [Distributed Database](./xxx_distributed_db.md)
+- Partitioning
+- Scaling
+- Distributed Database

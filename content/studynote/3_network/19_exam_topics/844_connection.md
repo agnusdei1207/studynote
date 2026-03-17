@@ -1,5 +1,6 @@
 +++
 title = "Connection - 연결"
+date = "2026-03-14"
 weight = 844
 +++
 
@@ -107,6 +108,6 @@ Connection은 두 호스트 간 통신 경로를 설정합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./552_tcp.md)
-- [Socket](./843_socket.md)
-- [Handshake](./xxx_handshake.md)
+- TCP
+- Socket
+- Handshake

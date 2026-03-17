@@ -1,5 +1,6 @@
 +++
 title = "TCP Options - TCP 옵션"
+date = "2026-03-14"
 weight = 520
 +++
 
@@ -93,6 +94,6 @@ TCP Options는 SYN 단계에서 협상됩니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./332_tcp.md)
-- [TCP Header](./519_tcp_header.md)
-- [MSS](./521_mss.md)
+- TCP
+- TCP Header
+- MSS

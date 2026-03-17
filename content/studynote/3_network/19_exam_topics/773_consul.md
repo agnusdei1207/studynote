@@ -1,5 +1,6 @@
 +++
 title = "Consul - 컨설"
+date = "2026-03-14"
 weight = 773
 +++
 
@@ -105,6 +106,6 @@ Consul은 서비스 디스커버리와 설정을 제공합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Service Discovery](./772_service_discovery.md)
-- [Service Mesh](./726_service_mesh.md)
-- [Microservices](./617_microservices.md)
+- Service Discovery
+- Service Mesh
+- Microservices

@@ -1,5 +1,6 @@
 +++
 title = "CIDR - 사이더"
+date = "2026-03-14"
 weight = 897
 +++
 
@@ -112,6 +113,6 @@ CIDR (Classless Inter-Domain Routing)은 클래스 없는 IP 주소 할당입니
 ---
 
 ### 📌 관련 개념 링크**:
-- [Subnet](./895_subnet.md)
-- [Subnet Mask](./896_subnet_mask.md)
-- [VLSM](./xxx_vlsm.md)
+- Subnet
+- Subnet Mask
+- VLSM

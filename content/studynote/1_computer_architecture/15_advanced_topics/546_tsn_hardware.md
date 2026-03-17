@@ -1,6 +1,7 @@
 +++
-weight = 546
 title = "546. 결정론적 이더넷 (TSN, Time-Sensitive Networking) 하드웨어"
+date = "2026-03-14"
+weight = 546
 +++
 
 # 546. 결정론적 이더넷 (TSN, Time-Sensitive Networking) 하드웨어

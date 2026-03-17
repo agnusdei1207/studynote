@@ -1,5 +1,6 @@
 +++
 title = "pstates"
+date = "2026-03-14"
 weight = 723
 +++
 
@@ -367,10 +368,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [Core C-States](./722_core_cstates.md) - 코어 절전 상태
-- [T-States](./724_tstates.md) - 스로틀 상태
-- [ACPI S-States](./725_acpi_sstates.md) - 시스템 절전
-- [CPU Downclocking](./719_cpu_downclocking.md) - 다운클럭킹
+- Core C-States - 코어 절전 상태
+- T-States - 스로틀 상태
+- ACPI S-States - 시스템 절전
+- CPU Downclocking - 다운클럭킹
 
 ---
 

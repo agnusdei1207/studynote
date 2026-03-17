@@ -1,7 +1,7 @@
----
-title: "557. 모듈 페더레이션 (Module Federation)"
-date: 2026-03-15
----
++++
+title = "557. 모듈 페더레이션 (Module Federation)"
+date = "2026-03-15"
++++
 
 # 557. 모듈 페더레이션 (Module Federation)
 
@@ -155,10 +155,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[마이크로 프론트엔드](./556_micro_frontends.md)**: 모듈 페더레이션이 지향하는 상위 아키텍처
-- **[Webpack 5](../xx_webpack.md)**: 모듈 페더레이션을 탄생시킨 빌드 도구
-- **[코드 스플리팅 (Code Splitting)](../xx_code_splitting.md)**: 런타임 로딩을 가능케 하는 기초 기술
-- **[의존성 관리](./545_modularization.md)**: 런타임 공유 시 가장 주의해야 할 공학적 지점
+- **마이크로 프론트엔드**: 모듈 페더레이션이 지향하는 상위 아키텍처
+- **Webpack 5**: 모듈 페더레이션을 탄생시킨 빌드 도구
+- **코드 스플리팅 (Code Splitting)**: 런타임 로딩을 가능케 하는 기초 기술
+- **의존성 관리**: 런타임 공유 시 가장 주의해야 할 공학적 지점
 
 ---
 

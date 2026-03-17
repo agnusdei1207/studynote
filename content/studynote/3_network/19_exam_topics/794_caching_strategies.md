@@ -1,5 +1,6 @@
 +++
 title = "Caching Strategies - 캐싱 전략"
+date = "2026-03-14"
 weight = 794
 +++
 
@@ -100,6 +101,6 @@ Caching Strategies는 캐시 사용 방식을 정의합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Cache](./610_cache.md)
-- [Redis](./607_redis.md)
-- [Database](./xxx_database.md)
+- Cache
+- Redis
+- Database

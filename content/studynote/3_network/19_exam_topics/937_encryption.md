@@ -1,5 +1,6 @@
 +++
 title = "Encryption - 암호화"
+date = "2026-03-14"
 weight = 937
 +++
 
@@ -109,6 +110,6 @@ Encryption은 데이터를 읽기 어려운 형태로 변환합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Symmetric Key](./xxx_symmetric_key.md)
-- [Public Key](./xxx_public_key.md)
-- [TLS](./882_tls.md)
+- Symmetric Key
+- Public Key
+- TLS

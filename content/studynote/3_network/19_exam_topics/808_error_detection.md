@@ -1,5 +1,6 @@
 +++
 title = "Error Detection - 오류 감지"
+date = "2026-03-14"
 weight = 808
 +++
 
@@ -105,6 +106,6 @@ Error Detection은 전송 오류를 감지합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Error Correction](./809_error_correction.md)
-- [CRC](./xxx_crc.md)
-- [Data Integrity](./xxx_integrity.md)
+- Error Correction
+- CRC
+- Data Integrity

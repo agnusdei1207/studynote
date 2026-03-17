@@ -1,7 +1,6 @@
 +++
 title = "49. 스토리지 엔진 (Storage Engine) 구조"
 date = "2026-03-16"
-draft = false
 weight = 49
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["Storage Engine", "스토리지 엔진", "InnoDB", "MyISAM", "핸들
 > 2. **유연성**: MySQL과 같은 멀티 엔진 아키텍처에서는 사용자의 목적(트랜잭션 중심, 분석 중심 등)에 따라 **InnoDB, MyISAM, RocksDB** 등 서로 다른 물리적 구조를 가진 엔진을 선택적으로 장착할 수 있다.
 > 3. **가치**: 인덱싱, 트랜잭션 잠금(Locking), 버퍼 관리, 데이터 회복(Recovery) 등 DB의 물리적 성능과 신뢰성을 결정짓는 핵심 로직이 집약된 **DBMS의 심장부** 역할을 수행한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -45,7 +44,7 @@ keywords = ["Storage Engine", "스토리지 엔진", "InnoDB", "MyISAM", "핸들
 
 - **📢 섹션 요약 비유**: 스토리지 엔진은 '데이터가 물리적으로 숨 쉬고 살아가는 공간'을 정의하는 규격입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -98,7 +97,7 @@ keywords = ["Storage Engine", "스토리지 엔진", "InnoDB", "MyISAM", "핸들
 
 - **📢 섹션 요약 비유**: 핸들러 API는 '만국 공용어'와 같아서, SQL 레이어는 상대가 누구든(어떤 엔진이든) 똑같은 방식으로 대화할 수 있습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -117,7 +116,7 @@ keywords = ["Storage Engine", "스토리지 엔진", "InnoDB", "MyISAM", "핸들
 
 - **📢 섹션 요약 비유**: 엔진을 고르는 것은 '집을 지을 때 철근 콘크리트(InnoDB)로 할지, 가벼운 목조(MyISAM)로 할지'를 정하는 설계의 첫 단계입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -136,7 +135,7 @@ keywords = ["Storage Engine", "스토리지 엔진", "InnoDB", "MyISAM", "핸들
 
 - **📢 섹션 요약 비유**: '엔진 설정'을 안 하는 것은 '스포츠카를 사놓고 1단 기어로만 달리는 것'과 같이 안타까운 일입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -154,15 +153,15 @@ keywords = ["Storage Engine", "스토리지 엔진", "InnoDB", "MyISAM", "핸들
 
 - **📢 섹션 요약 비유**: 미래의 엔진은 하드웨어의 종류(SSD, NVM, Cloud)에 따라 스스로를 최적화하는 '자율 주행 엔진'으로 진화할 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[InnoDB 엔진](./154_index_basics.md)**: 가장 강력한 RDB 스토리지 엔진.
-- **[LSM-Tree 엔진](@/studynote/16_bigdata/_index.md)**: 쓰기 최적화 엔진의 심장.
-- **[MVCC (다중 버전 병행 제어)](./224_mvcc.md)**: 엔진의 동시성 제어 기술.
-- **[Buffer Pool](./50_buffer_pool.md)**: 엔진이 데이터를 품고 있는 공간.
+- **InnoDB 엔진**: 가장 강력한 RDB 스토리지 엔진.
+- **LSM-Tree 엔진**: 쓰기 최적화 엔진의 심장.
+- **MVCC (다중 버전 병행 제어)**: 엔진의 동시성 제어 기술.
+- **Buffer Pool**: 엔진이 데이터를 품고 있는 공간.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **스토리지 엔진**은 컴퓨터 도서관에서 **실제로 책을 꽂고 꺼내오는 팔**과 같아요.

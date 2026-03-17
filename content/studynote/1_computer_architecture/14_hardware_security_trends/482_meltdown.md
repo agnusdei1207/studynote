@@ -1,7 +1,8 @@
----
-title: "멜트다운 (Meltdown)"
-weight: 482
----
++++
+title = "멜트다운 (Meltdown)"
+date = "2026-03-14"
+weight = 482
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 멜트다운 (Meltdown)은 CPU의 '비순차적 실행(Out-of-Order Execution)' 특성을 악용하여, 사용자 프로세스가 권한이 없는 커널 메모리 영역을 읽을 수 있게 만드는 치명적인 하드웨어 취약점이다.
@@ -122,9 +123,9 @@ weight: 482
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[Out-of-Order Execution](../3_architecture_basics_performance/304_ooo_execution.md)**: 멜트다운이 악용한 CPU 성능 향상 기술.
-- **[Spectre](./483_spectre.md)**: 멜트다운과 쌍을 이루는 투기적 실행 공격.
-- **[Side-channel Attack](./481_side_channel_attack.md)**: 멜트다운이 최종적으로 정보를 추출하는 방식.
+- **Out-of-Order Execution**: 멜트다운이 악용한 CPU 성능 향상 기술.
+- **Spectre**: 멜트다운과 쌍을 이루는 투기적 실행 공격.
+- **Side-channel Attack**: 멜트다운이 최종적으로 정보를 추출하는 방식.
 
 ---
 

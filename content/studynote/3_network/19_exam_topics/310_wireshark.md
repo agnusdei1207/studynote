@@ -1,5 +1,6 @@
 +++
 title = "Wireshark - 패킷 분석기"
+date = "2026-03-14"
 weight = 310
 +++
 
@@ -154,10 +155,10 @@ Wireshark는 오픈소스 GUI 기반 패킷 분석 도구입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [패킷 캡처](./309_packet_capture.md)
-- [트러블슈팅](./308_troubleshooting.md)
-- [TCP](./103_tcp.md)
-- [HTTP](./108_http.md)
+- 패킷 캡처
+- 트러블슈팅
+- TCP
+- HTTP
 
 ---
 

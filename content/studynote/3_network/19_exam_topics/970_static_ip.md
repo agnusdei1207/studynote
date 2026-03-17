@@ -1,5 +1,6 @@
 +++
 title = "Static IP - 고정 IP"
+date = "2026-03-14"
 weight = 970
 +++
 
@@ -105,6 +106,6 @@ Static IP는 수동으로 설정하는 고정 IP 주소입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Dynamic IP](./xxx_dynamic_ip.md)
-- [DHCP](./886_dhcp.md)
-- [IP Address](./xxx_ip_address.md)
+- Dynamic IP
+- DHCP
+- IP Address

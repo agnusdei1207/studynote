@@ -1,5 +1,6 @@
 +++
 title = "multiphase vrm"
+date = "2026-03-14"
 weight = 743
 +++
 
@@ -319,10 +320,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [VRM](./742_vrm.md) - 전압 조정기 모듈
-- [LLC](./744_llc.md) - Load Line Calibration
-- [과전압 보호 OVP](./745_ovp.md) - 보호 회로
-- [P-States](./723_pstates.md) - 전압 제어
+- VRM - 전압 조정기 모듈
+- LLC - Load Line Calibration
+- 과전압 보호 OVP - 보호 회로
+- P-States - 전압 제어
 
 ---
 

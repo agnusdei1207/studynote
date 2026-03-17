@@ -1,5 +1,6 @@
 +++
 title = "Superscalar - 슈퍼스칼라"
+date = "2026-03-14"
 weight = 665
 +++
 
@@ -101,6 +102,6 @@ Superscalar는 한 사이클에 여러 명령어를 실행합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Pipeline](./664_pipeline.md)
-- [Out-of-order](./668_out_of_order.md)
-- [ILP](./669_ilp.md)
+- Pipeline
+- Out-of-order
+- ILP

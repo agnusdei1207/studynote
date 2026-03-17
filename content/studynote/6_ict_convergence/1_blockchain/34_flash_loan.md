@@ -1,10 +1,9 @@
----
-title: "[ICT] #35. 플래시 론 (Flash Loan)"
-date: "2026-03-17"
++++
+title = "[ICT] #35. 플래시 론 (Flash Loan)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Flash_Loan_Atomicity_Uncollateralized_Arbitrage_Attack"
----
+keyword = "Flash_Loan_Atomicity_Uncollateralized_Arbitrage_Attack"
++++
 
 # 플래시 론 (Flash Loan): 단일 트랜잭션 내의 무담보 대출 혁신
 
@@ -13,7 +12,7 @@ keyword: "Flash_Loan_Atomicity_Uncollateralized_Arbitrage_Attack"
 > 2. **가치**: 담보물이나 신용 등급 없이도 누구나 수천억 원 규모의 자본을 즉시 활용할 수 있게 하여 **차익거래(Arbitrage)**나 담보 교체 등의 자본 효율성을 극대화한다.
 > 3. **융합**: 스마트 컨트랙트의 '실행 후 검증' 메커니즘이 결합된 DeFi 특유의 금융 상품이며, 오라클 조작을 통한 해킹 공격에 악용될 수 있어 고도의 보안 설계가 요구된다.
 
----
++++
 
 ## Ⅰ. 플래시 론 (Flash Loan) 개요
 
@@ -30,7 +29,7 @@ keyword: "Flash_Loan_Atomicity_Uncollateralized_Arbitrage_Attack"
 
 📢 **섹션 요약 비유**: 담보 서류를 검토하느라 시간을 보내는 대신, '돈을 안 갚으면 과거를 삭제한다'는 강력한 규칙 하나로 신뢰를 대신하는 '디지털 속도전 금융'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -83,7 +82,7 @@ keyword: "Flash_Loan_Atomicity_Uncollateralized_Arbitrage_Attack"
 
 📢 **섹션 요약 비유**: 비디오 테이프를 빌려 간 뒤 끝까지 다 보고 제자리에 돌려놓지 않으면, 테이프가 스스로 처음으로 감기면서 내가 비디오를 본 기억까지 삭제해버리는 '완벽한 회수 시스템'과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -103,7 +102,7 @@ keyword: "Flash_Loan_Atomicity_Uncollateralized_Arbitrage_Attack"
 
 📢 **섹션 요약 비유**: 느릿느릿한 '우편 배달(전통 대출)'과 언제든 찾아가는 '편의점 택배(담보 대출)'를 지나, 텔레포트로 물건을 주고받는 '순간 이동 배송(플래시 론)'의 시대가 온 것입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -117,7 +116,7 @@ keyword: "Flash_Loan_Atomicity_Uncollateralized_Arbitrage_Attack"
 
 📢 **섹션 요약 비유**: 총을 든 강도(공격자)에게 거액의 실탄(자금)을 아무런 검사 없이 빌려주는 꼴이 될 수 있으므로, 방어막(오라클 보안)을 얼마나 튼튼히 치느냐가 관건입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -131,13 +130,13 @@ keyword: "Flash_Loan_Atomicity_Uncollateralized_Arbitrage_Attack"
 
 📢 **섹션 요약 비유**: 플래시 론은 디지털 금융 세상에서 만날 수 있는 **'가장 강력하고 날카로운 도구'**이며, 이를 다루는 기술이 미래 금융 엔지니어의 핵심 역량이 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[트랜잭션 원자성 (Atomicity)](../../5_database/xx_transaction_acid.md)**: 플래시 론이 가능하게 하는 데이터베이스적 기초.
-- **[차익거래 (Arbitrage)](./34_uniswap_amm.md)**: 플래시 론의 가장 흔한 사용 사례.
-- **[블록체인 오라클 (Oracle)](./36_oracle.md)**: 플래시 론 공격의 주요 타겟이자 방어선.
-- **[Aave / Uniswap](./32_defi.md)**: 플래시 론 서비스를 제공하거나 활용하는 대표적 플랫폼.
+- **트랜잭션 원자성 (Atomicity)**: 플래시 론이 가능하게 하는 데이터베이스적 기초.
+- **차익거래 (Arbitrage)**: 플래시 론의 가장 흔한 사용 사례.
+- **블록체인 오라클 (Oracle)**: 플래시 론 공격의 주요 타겟이자 방어선.
+- **Aave / Uniswap**: 플래시 론 서비스를 제공하거나 활용하는 대표적 플랫폼.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **눈 깜빡할 새 빌리기**: 아주 큰 돈을 빌리는데, "눈을 딱 한 번 깜빡할 동안만 쓰고 다시 돌려줄게!"라고 약속하는 거예요.

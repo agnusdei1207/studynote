@@ -1,5 +1,6 @@
 +++
 title = "Session - 세션"
+date = "2026-03-14"
 weight = 845
 +++
 
@@ -105,6 +106,6 @@ Session은 지속적인 통신 상태입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Connection](./844_connection.md)
-- [Cookie](./xxx_cookie.md)
-- [Stateful](./xxx_stateful.md)
+- Connection
+- Cookie
+- Stateful

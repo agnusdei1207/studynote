@@ -1,6 +1,7 @@
 +++
-weight = 92
 title = "92. bfloat16 (Brain Floating Point)"
+date = "2026-03-14"
+weight = 92
 +++
 
 # bfloat16 (Brain Floating Point)

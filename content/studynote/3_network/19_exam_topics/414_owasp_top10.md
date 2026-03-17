@@ -1,5 +1,6 @@
 +++
 title = "OWASP Top 10 - 웹 보안 취약점"
+date = "2026-03-14"
 weight = 414
 +++
 
@@ -139,10 +140,10 @@ OWASP Top 10은 웹 앱 보안의 가장 중요한 10가지 취약점입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [XSS](./411_xss.md)
-- [SQL Injection](./412_sql_injection.md)
-- [CSRF](./413_csrf.md)
-- [Vulnerability Assessment](./415_vulnerability_assessment.md)
+- XSS
+- SQL Injection
+- CSRF
+- Vulnerability Assessment
 
 ---
 

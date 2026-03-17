@@ -1,5 +1,6 @@
 +++
 title = "비대칭키 암호 - Asymmetric Encryption"
+date = "2026-03-14"
 weight = 392
 +++
 
@@ -141,10 +142,10 @@ weight = 392
 ---
 
 ### 📌 관련 개념 링크**:
-- [대칭키 암호](./391_symmetric.md)
-- [RSA](./394_rsa.md)
-- [AES](./393_aes.md)
-- [TLS/SSL](./9_security/144_tls_ssl.md)
+- 대칭키 암호
+- RSA
+- AES
+- TLS/SSL
 
 ---
 

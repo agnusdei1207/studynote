@@ -1,5 +1,6 @@
 +++
 title = "Firewall - 방화벽"
+date = "2026-03-14"
 weight = 877
 +++
 
@@ -108,6 +109,6 @@ Firewall은 네트워크 트래픽을 제어합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [ACL](./xxx_acl.md)
-- [IDS/IPS](./xxx_ids.md)
-- [Security](./xxx_security.md)
+- ACL
+- IDS/IPS
+- Security

@@ -1,5 +1,6 @@
 +++
 title = "Memory Management - 메모리 관리"
+date = "2026-03-14"
 weight = 638
 +++
 
@@ -98,6 +99,6 @@ Memory Management는 메모리 자원을 관리합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Virtual Memory](./639_virtual_memory.md)
-- [Paging](./640_paging.md)
-- [Process](./636_process.md)
+- Virtual Memory
+- Paging
+- Process

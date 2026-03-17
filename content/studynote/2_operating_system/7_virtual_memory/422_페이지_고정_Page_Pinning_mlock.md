@@ -1,7 +1,8 @@
----
-title: "422. 페이지 고정 (Page Pinning / Locking) - mlock"
-weight: 422
----
++++
+title = "422. 페이지 고정 (Page Pinning / Locking) - mlock"
+date = "2026-03-14"
+weight = 422
++++
 
 ## 💡 Insight
 - 페이지 고정은 특정 메모리 페이지가 스왑(Swap) 장치로 쫓겨나지 않도록 물리 메모리(RAM)에 강제로 상주시추는 기법이다.
@@ -77,11 +78,11 @@ weight: 422
 ---
 
 ## 🌳 지식 그래프 (Knowledge Graph)
-- **부모**: [387. 페이지 부재 Page Fault](./387_페이지_부재_Page_Fault.md)
+- **부모**: 387. 페이지 부재 Page Fault
 - **자식**: [보안 메모리 할당 기법 (추후 예정)]
 - **유사 개념**:
-  - [390. 스왑 공간 Swap Space](./390_스왑_공간_Swap_Space_베이킹_스토어_Backing_Store.md)
-  - [405. LRU 교체 알고리즘](./405_LRU_Least_Recently_Used_교체.md)
+  - 390. 스왑 공간 Swap Space
+  - 405. LRU 교체 알고리즘
 
 ## 👶 아이의 시각 (Child Analogy)
 > "장난감 상자(RAM)가 꽉 차면 엄마가 안 쓰는 인형은 창고(Disk)로 치우시잖아? 근데 내가 제일 아끼는 곰인형(mlock)에 '절대 치우지 마세요!'라고 스티커를 붙여놓는 거야. 그럼 엄마가 상자를 정리할 때도 그 인형만은 꼭 자리에 놔두시는 거지!"

@@ -1,5 +1,6 @@
 +++
 title = "Authentication - 인증"
+date = "2026-03-14"
 weight = 935
 +++
 
@@ -106,6 +107,6 @@ Authentication은 사용자 신원을 확인합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Authorization](./936_authorization.md)
-- [OAuth](./xxx_oauth.md)
-- [JWT](./xxx_jwt.md)
+- Authorization
+- OAuth
+- JWT

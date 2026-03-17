@@ -1,5 +1,6 @@
 +++
 title = "GraphQL - 그래프큐엘"
+date = "2026-03-14"
 weight = 765
 +++
 
@@ -108,6 +109,6 @@ GraphQL은 데이터 쿼리 언어입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [API Design](./711_api_design.md)
-- [REST API](./614_rest_api.md)
-- [Schema](./xxx_schema.md)
+- API Design
+- REST API
+- Schema

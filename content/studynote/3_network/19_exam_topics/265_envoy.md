@@ -1,5 +1,6 @@
 +++
 title = "Envoy - 고성능 프록시"
+date = "2026-03-14"
 weight = 265
 +++
 
@@ -162,10 +163,10 @@ Envoy는 Lyft에서 개발한 고성능 L3/L4/L7 프록시입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Istio](./264_istio.md)
-- [Service Mesh](./263_service_mesh.md)
-- [로드밸런서](./150_loadbalancer.md)
-- [HTTP/3](./120_http3.md)
+- Istio
+- Service Mesh
+- 로드밸런서
+- HTTP/3
 
 ---
 

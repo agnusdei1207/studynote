@@ -1,5 +1,6 @@
 +++
 title = "599. 데이터 방향성 패브릭 (Data-centric Fabric)"
+date = "2026-03-14"
 weight = 599
 +++
 
@@ -136,10 +137,10 @@ weight = 599
 ---
 
 ### 📌 관련 개념 맵
-- [CXL (Compute Express Link)](../1_computer_architecture/9_system_bus_interconnects/xx_cxl.md): 데이터 패브릭의 핵심 프로토콜
-- [조합형 인프라 (Composable Infrastructure)](../12_it_management/6_cloud_ai_data/xx_composable.md): 데이터 패브릭 기반의 인프라 관리 모델
-- [비결합형 아키텍처 (Disaggregated Architecture)](../1_computer_architecture/xx_disaggregated.md): 자원을 물리적으로 분리하는 설계 방식
-- [SCM (Storage Class Memory)](../1_computer_architecture/6_memory_hierarchy_cache/xx_scm.md): 패브릭에 연결되는 차세대 고속 메모리
+- CXL (Compute Express Link): 데이터 패브릭의 핵심 프로토콜
+- 조합형 인프라 (Composable Infrastructure): 데이터 패브릭 기반의 인프라 관리 모델
+- 비결합형 아키텍처 (Disaggregated Architecture): 자원을 물리적으로 분리하는 설계 방식
+- SCM (Storage Class Memory): 패브릭에 연결되는 차세대 고속 메모리
 
 ---
 

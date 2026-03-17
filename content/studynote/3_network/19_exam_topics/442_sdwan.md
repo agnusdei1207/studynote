@@ -1,5 +1,6 @@
 +++
 title = "SD-WAN (소프트웨어 정의 WAN) - Software-Defined WAN"
+date = "2026-03-14"
 weight = 442
 +++
 
@@ -143,10 +144,10 @@ SD-WAN은 WAN 연결을 소프트웨어로 관리합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [SDN](./440_sdn.md)
-- [MPLS](./321_mpls.md)
-- [WAN](./316_wan.md)
-- [SASE](./445_sase.md)
+- SDN
+- MPLS
+- WAN
+- SASE
 
 ---
 

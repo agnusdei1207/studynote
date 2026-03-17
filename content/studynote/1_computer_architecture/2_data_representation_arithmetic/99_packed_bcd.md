@@ -1,6 +1,7 @@
 +++
-weight = 99
 title = "99. 팩드 BCD (Packed BCD)"
+date = "2026-03-14"
+weight = 99
 +++
 
 # 팩드 BCD (Packed BCD)

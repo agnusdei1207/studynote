@@ -1,6 +1,7 @@
 +++
-weight = 507
 title = "507. 파일 접근 방법 (Access Methods) - 순차 접근 (Sequential Access)"
+date = "2026-03-14"
+weight = 507
 +++
 
 # # [순차 접근 (Sequential Access)]

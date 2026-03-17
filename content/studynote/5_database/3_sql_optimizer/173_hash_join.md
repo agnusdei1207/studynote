@@ -1,7 +1,6 @@
 +++
 title = "173. 해시 조인 (Hash Join) - 메모리 해시 테이블을 활용한 대량 집합 결합"
 date = "2026-03-16"
-draft = false
 weight = 173
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["Hash Join", "해시 조인", "Build Input", "Probe Input", "PGA", "
 > 2. **작동 특성**: 인덱스 유무와 상관없이 대량의 데이터를 $O(N+M)$ 수준의 선형 시간으로 처리하며, 랜덤 액세스(Random Access) 대신 순차 I/O를 활용하여 디스크 부하를 최소화한다.
 > 3. **가치**: 인덱스가 없는 환경이나 대규모 데이터 분석(OLAP)에서 압도적인 성능을 발휘하며, 메모리(PGA) 공간 확보 여부가 전체 연산 속도와 시스템 안정성을 결정하는 핵심 변수가 된다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -50,7 +49,7 @@ keywords = ["Hash Join", "해시 조인", "Build Input", "Probe Input", "PGA", "
 
 - **📢 섹션 요약 비유**: 해시 조인은 '준비 과정(Build)은 힘들지만, 실전(Probe)은 누구보다 빠른 고수'와 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -88,7 +87,7 @@ keywords = ["Hash Join", "해시 조인", "Build Input", "Probe Input", "PGA", "
 
 - **📢 섹션 요약 비유**: 해시 조인은 '번호표를 미리 나눠주고 자기 번호가 불릴 때만 나오는 것'과 같아 동점자(Equality) 처리에만 능합니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -107,7 +106,7 @@ keywords = ["Hash Join", "해시 조인", "Build Input", "Probe Input", "PGA", "
 
 - **📢 섹션 요약 비유**: NL 이 '발로 뛰는 영업'이라면, Hash 는 '시스템으로 돌리는 마케팅'입니다. 인프라(메모리)가 좋을수록 Hash 의 위력은 커집니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -126,7 +125,7 @@ keywords = ["Hash Join", "해시 조인", "Build Input", "Probe Input", "PGA", "
 
 - **📢 섹션 요약 비유**: 해시 조인은 '힘 좋은 운동선수'와 같아서, 잘 먹여야(메모리) 제 실력을 발휘하고 배가 고프면(디스크 스왑) 금방 지쳐버립니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -144,15 +143,15 @@ keywords = ["Hash Join", "해시 조인", "Build Input", "Probe Input", "PGA", "
 
 - **📢 섹션 요약 비유**: 미래의 해시 조인은 우리가 테이블 크기를 따지지 않아도, 빛의 속도로 데이터를 분해하고 조립하는 '나노 로봇 군단'과 같은 역할을 할 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[조인 기법 기초](./171_optimizer_join_techniques.md)**: 해시 조인의 배경.
-- **[PGA (Private Global Area)](@/studynote/5_database/_index.md)**: 해시 테이블이 거주하는 방.
-- **[Full Table Scan](./166_full_scan_vs_index_scan.md)**: 해시 조인이 선호하는 읽기 방식.
-- **[데이터 웨어하우스 (DW)](./14_oltp_vs_olap.md)**: 해시 조인의 주 무대.
+- **조인 기법 기초**: 해시 조인의 배경.
+- **PGA (Private Global Area)**: 해시 테이블이 거주하는 방.
+- **Full Table Scan**: 해시 조인이 선호하는 읽기 방식.
+- **데이터 웨어하우스 (DW)**: 해시 조인의 주 무대.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **해시 조인**은 흩어진 구슬들을 합칠 때, 미리 **"색깔별로 구멍이 뚫린 상자"**를 준비하는 것과 같아요.

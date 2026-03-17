@@ -1,7 +1,7 @@
 +++
-weight = 641
 title = "641. 운영체제 핵심 요약 - 프로세스 관리"
 date = "2024-05-23"
+weight = 641
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "프로세스 관리", "Process Management", "PCB", "Context Switching", "IPC"]
@@ -12,7 +12,7 @@ keywords = ["운영체제", "프로세스 관리", "Process Management", "PCB", 
 > 효율적인 프로세스 관리는 시스템의 멀티태스킹(Multitasking) 성능과 안정성을 결정짓는 결정적 요인이며, PCB(Process Control Block)를 통한 상태 추적과 컨텍스트 스위칭(Context Switching)의 오버헤드 최소화가 기술적 완성도의 척도가 된다.
 > 현대 OS에서는 프로세스 간 격리와 보호를 보장하면서도 IPC(Inter-Process Communication)를 통한 효율적인 협업 구조를 설계하는 것이 필수적이다.
 
----
++++
 
 ### Ⅰ. 프로세스의 본질과 생명주기 관리
 
@@ -27,7 +27,7 @@ keywords = ["운영체제", "프로세스 관리", "Process Management", "PCB", 
 
 📢 섹션 요약 비유: 프로세스는 '요리법(Program)'에 따라 실제로 주방에서 '요리를 하고 있는 상태(Process)'이며, 재료가 떨어지면 '대기'하고 화구가 비기를 '준비'하는 과정과 같습니다.
 
----
++++
 
 ### Ⅱ. PCB(Process Control Block)와 컨텍스트 스위칭
 
@@ -58,7 +58,7 @@ keywords = ["운영체제", "프로세스 관리", "Process Management", "PCB", 
 
 📢 섹션 요약 비유: PCB는 요리사의 '메모장'과 같아서, 다른 요리를 하러 갈 때 어디까지 했는지 기록해두고 돌아와서 다시 이어갈 수 있게 해주는 장치입니다.
 
----
++++
 
 ### Ⅲ. 프로세스 생성과 계층 구조
 
@@ -71,7 +71,7 @@ keywords = ["운영체제", "프로세스 관리", "Process Management", "PCB", 
 
 📢 섹션 요약 비유: 부모 요리사가 보조 요리사를 '복제(fork)'한 뒤, 보조 요리사에게 '새로운 레시피(exec)'를 주어 다른 요리를 시키는 구조와 같습니다.
 
----
++++
 
 ### Ⅳ. IPC(Inter-Process Communication) 메커니즘
 
@@ -84,7 +84,7 @@ keywords = ["운영체제", "프로세스 관리", "Process Management", "PCB", 
 
 📢 섹션 요약 비유: 공유 메모리는 '공용 식탁'에 음식을 두는 것이고, 메시지 패싱은 '웨이터(Kernel)'를 통해 주문서를 전달하는 것과 같습니다.
 
----
++++
 
 ### Ⅴ. 스레드(Thread)로의 확장과 멀티태스킹
 
@@ -97,7 +97,7 @@ keywords = ["운영체제", "프로세스 관리", "Process Management", "PCB", 
 
 📢 섹션 요약 비유: 한 주방(Process)에서 여러 명의 요리사(Thread)가 도구와 재료를 공유하며 각자 맡은 파트의 요리를 동시에 완성하는 효율적 협업 방식입니다.
 
----
++++
 
 ### 💡 지식 그래프(Knowledge Graph)
 - **부모 노드**: 운영체제 자원 관리(Resource Management)

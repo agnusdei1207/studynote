@@ -1,5 +1,6 @@
 +++
 title = "다중화 (Multiplexing)"
+date = "2026-03-14"
 weight = 71
 +++
 
@@ -144,10 +145,10 @@ weight = 71
 ---
 
 ### 📌 관련 개념 링크**:
-- [주파수 분할 FDM](./73_fdm_frequency.md)
-- [시분할 TDM](./75_tdm_time.md)
-- [파장 분할 WDM](./79_wdm_wavelength.md)
-- [다중 접속 Multiple Access](./87_multiple_access.md)
+- 주파수 분할 FDM
+- 시분할 TDM
+- 파장 분할 WDM
+- 다중 접속 Multiple Access
 
 ---
 

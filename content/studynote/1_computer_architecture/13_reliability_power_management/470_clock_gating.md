@@ -1,7 +1,8 @@
----
-title: "클럭 게이팅 (Clock Gating)"
-weight: 470
----
++++
+title = "클럭 게이팅 (Clock Gating)"
+date = "2026-03-14"
+weight = 470
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 클럭 게이팅 (Clock Gating)은 논리 회로 중 현재 연산에 참여하지 않는 부분에 공급되는 클럭 신호를 일시적으로 차단하여, 불필요한 트랜지스터 스위칭에 의한 동적 전력 소모를 방지하는 기술이다.
@@ -124,9 +125,9 @@ weight: 470
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[Power Gating](./471_power_gating.md)**: 클럭이 아닌 전원을 차단하는 보완 기술.
-- **[DVFS](./469_dvfs.md)**: 클럭의 존재 유무가 아닌 속도를 조절하는 기술.
-- **[Activity Factor ($\alpha$)](./467_dynamic_power.md)**: 클럭 게이팅이 직접적으로 공략하는 변수.
+- **Power Gating**: 클럭이 아닌 전원을 차단하는 보완 기술.
+- **DVFS**: 클럭의 존재 유무가 아닌 속도를 조절하는 기술.
+- **Activity Factor ($\alpha$)**: 클럭 게이팅이 직접적으로 공략하는 변수.
 
 ---
 

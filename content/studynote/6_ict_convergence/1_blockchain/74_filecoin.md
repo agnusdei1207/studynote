@@ -1,10 +1,9 @@
----
-title: "[ICT] #75. 파일코인 (Filecoin)"
-date: "2026-03-17"
++++
+title = "[ICT] #75. 파일코인 (Filecoin)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Filecoin_IPFS_DecentralizedStorage_PoRep_PoSt_IncentiveLayer"
----
+keyword = "Filecoin_IPFS_DecentralizedStorage_PoRep_PoSt_IncentiveLayer"
++++
 
 # 파일코인 (Filecoin): 데이터 저장의 민주화와 탈중앙화 인프라의 경제학
 
@@ -13,7 +12,7 @@ keyword: "Filecoin_IPFS_DecentralizedStorage_PoRep_PoSt_IncentiveLayer"
 > 2. **가치**: **복제 증명(PoRep)**과 **시공간 증명(PoSt)**이라는 고도의 암호학적 기법을 통해, 중앙 관리자 없이도 데이터가 약속된 기간 동안 안전하게 보관되고 있음을 수학적으로 입증한다.
 > 3. **융합**: 클라우드 컴퓨팅과 암호 경제학이 결합된 '공유 경제' 모델이며, AWS S3나 Google Cloud와 같은 중앙화 저장소의 독점과 데이터 검열 문제를 해결할 수 있는 Web 3.0 핵심 인프라다.
 
----
++++
 
 ## Ⅰ. 파일코인 (Filecoin) 개요
 
@@ -31,7 +30,7 @@ keyword: "Filecoin_IPFS_DecentralizedStorage_PoRep_PoSt_IncentiveLayer"
 
 📢 **섹션 요약 비유**: 건물(서버)을 직접 짓는 대신, 전 세계 이웃들의 남는 창고 칸을 빌려 쓰는 '지구촌 공동 창고' 서비스입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 합의 메커니즘 (Deep Dive)
 
@@ -80,7 +79,7 @@ keyword: "Filecoin_IPFS_DecentralizedStorage_PoRep_PoSt_IncentiveLayer"
 
 📢 **섹션 요약 비유**: 물건을 보관할 때 그냥 선반에 올리는 게 아니라, 그 창고에서만 열 수 있는 특수 포장지(Sealing)로 꽁꽁 싸매서 나중에 딴소리 못 하게 만드는 '철저한 수탁 시스템'입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -100,7 +99,7 @@ keyword: "Filecoin_IPFS_DecentralizedStorage_PoRep_PoSt_IncentiveLayer"
 
 📢 **섹션 요약 비유**: S3가 '거대 호텔의 유료 보관소'라면, 파일코인은 '전 세계 사람들이 각자 자기 집 남는 서랍을 빌려주는 거대한 동네 장터'와 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -114,7 +113,7 @@ keyword: "Filecoin_IPFS_DecentralizedStorage_PoRep_PoSt_IncentiveLayer"
 
 📢 **섹션 요약 비유**: 냉장고에 바로 먹을 음식을 두고(IPFS), 지하 창고에 오래 보관할 식량을 두는(Filecoin) 지혜로운 살림법(계층형 저장)이 필요합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -128,13 +127,13 @@ keyword: "Filecoin_IPFS_DecentralizedStorage_PoRep_PoSt_IncentiveLayer"
 
 📢 **섹션 요약 비유**: 파일코인은 인류의 지식이라는 거대한 바다를 담는 **'디지털 그릇'**이며, 이 그릇이 단단해질수록 우리는 더 자유롭고 풍요로운 정보의 시대를 살게 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[IPFS](./54_ipfs.md)**: 파일코인이 데이터를 전송하고 주소를 찾는 기반 기술.
-- **[복제 증명 (PoRep)](./xx_porep.md)**: 파일코인의 독창적인 저장 인증 기술.
-- **[Web 3.0 인프라](./1_web_1_2_3.md)**: 파일코인이 지향하는 탈중앙화 웹 생태계.
-- **[DePIN (탈중앙 물리 인프라)](./135_depin.md)**: 파일코인이 속한 거대 기술 트렌드.
+- **IPFS**: 파일코인이 데이터를 전송하고 주소를 찾는 기반 기술.
+- **복제 증명 (PoRep)**: 파일코인의 독창적인 저장 인증 기술.
+- **Web 3.0 인프라**: 파일코인이 지향하는 탈중앙화 웹 생태계.
+- **DePIN (탈중앙 물리 인프라)**: 파일코인이 속한 거대 기술 트렌드.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **지구촌 큰 서랍장**: 내 방에 남는 빈 서랍장을 전 세계 친구들에게 빌려주고 용돈(코인)을 받는 거예요.

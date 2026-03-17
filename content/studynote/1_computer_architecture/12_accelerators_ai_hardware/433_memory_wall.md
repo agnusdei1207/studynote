@@ -1,5 +1,6 @@
 +++
 title = "메모리 월 (Memory Wall)"
+date = "2026-03-14"
 weight = 433
 +++
 
@@ -152,10 +153,10 @@ weight = 433
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[HBM (High Bandwidth Memory)](./xx_hbm.md)**: 메모리 월을 수직 적층 대역폭 확장으로 정면 돌파하는 기술.
-- **[PIM (Processing-In-Memory)](./430_pim.md)**: 메모리 월이라는 벽 자체에 연산 기능을 심어 벽을 없애는 기술.
-- **[CXL (Compute Express Link)](./441_cxl.md)**: 메모리 월을 공유와 풀링이라는 유연한 인터커넥트로 우회하는 기술.
-- **[루프라인 모델 (Roofline Model)](./xx_roofline.md)**: 메모리 월로 인한 성능 병목 지점을 시각화하여 분석하는 도구.
+- **HBM (High Bandwidth Memory)**: 메모리 월을 수직 적층 대역폭 확장으로 정면 돌파하는 기술.
+- **PIM (Processing-In-Memory)**: 메모리 월이라는 벽 자체에 연산 기능을 심어 벽을 없애는 기술.
+- **CXL (Compute Express Link)**: 메모리 월을 공유와 풀링이라는 유연한 인터커넥트로 우회하는 기술.
+- **루프라인 모델 (Roofline Model)**: 메모리 월로 인한 성능 병목 지점을 시각화하여 분석하는 도구.
 
 ---
 

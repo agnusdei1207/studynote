@@ -1,8 +1,10 @@
 +++
-weight = 509
 title = "509. 레지스터 파일 포트 (Register File Port)"
+date = "2026-03-14"
+weight = 509
 [extra]
 category = "studynote-computer-architecture"
+date = "2026-03-14"
 +++
 
 # Register File Port
@@ -11,7 +13,7 @@ category = "studynote-computer-architecture"
 > 2. **가치**: 포트 수가 많을수록 여러 명령어의 피연산자를 동시에 읽고 결과를 쓸 수 있어 명령어 수준 병렬성(ILP)을 높이지만, 포트 수의 증가는 레지스터 파일의 면적과 전력 소모를 기하급수적으로 증가시키는 설계의 주요 트레이드오프 요인이다.
 > 3. **융합**: 멀티포트 SRAM 설계, 레지스터 리네이밍, 발급 큐(Issue Queue), 그리고 클러스터드 아키텍처(Clustered Architecture) 기술과 밀접하게 연관된다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -26,7 +28,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 동시에 데이터를 주고받을 수 있는 '통로의 개수'가 곧 CPU의 동시 처리 능력을 결정합니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -42,7 +44,7 @@ category = "studynote-computer-architecture"
 | **Bitline (BL)** | 데이터 전송 선로 | 포트마다 독립적인 비트라인 쌍을 배치하여 간섭 방지 | Differential Sensing | 개별 전송 벨트 |
 | **Port Arbiter** | 동일 레지스터 동시 접근 제어 | 여러 포트가 같은 주소에 쓸 때 우선순위 결정 | Collision Detection | 창구 순서 조절기 |
 
----
++++
 
 ### 멀티포트 레지스터 파일 아키텍처
 
@@ -73,7 +75,7 @@ category = "studynote-computer-architecture"
 
 **[다이어그램 해설]** 하나의 레지스터 셀(Cell) 주위에 수많은 읽기/쓰기 선로가 얽혀 있는 구조이다. 4개의 명령어를 동시에 실행 유닛으로 보내려면(Issue), 각 명령어의 두 피연산자를 읽기 위해 총 8개의 Read Port가 필요하다. 연산이 끝난 후 결과를 저장하기 위해서는 4개의 Write Port가 필요하다. 이렇게 총 12개의 포트를 가진 레지스터 파일은 포트가 2개인 경우보다 면적이 수십 배 커진다. 이는 단순히 공간만 차지하는 것이 아니라, 전송 선로가 길어져 데이터가 전달되는 시간(Latency)도 늘어나는 부작용을 낳는다. 따라서 현대 CPU 설계의 핵심은 '필요한 포트 수를 최소화하면서도 병렬성을 유지하는 것'이다.
 
----
++++
 
 ### 심층 동작 원리: 포트 수 제약을 극복하는 기술
 
@@ -83,7 +85,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 창구가 너무 붐비면 은행 지점을 여러 개 만들거나(Replication), 업무 종류별로 창구를 나누어(Clustering) 혼잡을 피하는 것과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -99,7 +101,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 작은 가게는 관리가 쉽고 빠르지만(적은 포트), 대형 마트는 물건은 많아도 길 찾기가 복잡하고 전기도 많이 쓰는(많은 포트) 것과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -114,7 +116,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 창구를 무작정 늘리기보다, 창구 안 거치고 옆 사람에게 바로 서류를 넘기는 방법(Bypass)이 효율적인지 따져보는 것이 고수의 설계입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -131,15 +133,15 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 창구 직원을 늘리는 대신 키오스크(자동화)를 도입하거나 창구로 가는 길을 초고속으로 만드는 등, 데이터 고속도로의 입구를 혁신하는 노력이 계속될 것입니다.
 
----
++++
 
 ## 📌 관련 개념 맵
-- **[레지스터 리네이밍 (Register Renaming)](./xx_register_renaming.md)**: 논리 레지스터를 수많은 물리 레지스터 포트에 매핑하는 기술.
-- **[수퍼스칼라 (Superscalar)](./xx_superscalar.md)**: 멀티포트 레지스터 파일이 필요한 근본적인 아키텍처 환경.
-- **[데이터 포워딩 (Bypassing)](./xx_bypassing.md)**: 레지스터 포트 접근 없이 데이터를 전달하는 보완 기술.
-- **[SRAM (Static RAM)](./6_memory_hierarchy_cache/xx_sram.md)**: 레지스터 파일을 구성하는 물리적 소자 기술.
+- **레지스터 리네이밍 (Register Renaming)**: 논리 레지스터를 수많은 물리 레지스터 포트에 매핑하는 기술.
+- **수퍼스칼라 (Superscalar)**: 멀티포트 레지스터 파일이 필요한 근본적인 아키텍처 환경.
+- **데이터 포워딩 (Bypassing)**: 레지스터 포트 접근 없이 데이터를 전달하는 보완 기술.
+- **SRAM (Static RAM)**: 레지스터 파일을 구성하는 물리적 소자 기술.
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 레지스터 파일 포트는 **'은행의 창구 개수'**와 같아요.

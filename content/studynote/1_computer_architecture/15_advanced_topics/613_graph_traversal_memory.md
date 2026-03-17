@@ -1,5 +1,6 @@
 +++
 title = "613. 그래프 탐색 (BFS/DFS) 전용 메모리 서브시스템"
+date = "2026-03-14"
 weight = 613
 +++
 
@@ -154,10 +155,10 @@ weight = 613
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[BFS/DFS 알고리즘](../8_algorithm_stats/xx_bfs_dfs.md)**: 메모리 서브시스템이 가속하고자 하는 핵심 대상.
-- **[HBM (High Bandwidth Memory)](./495_hbm.md)**: 그래프 연산의 데이터 대역폭 요구사항을 충족하는 물리적 기반.
-- **[PIM (Processor In Memory)](./500_von_neumann_bottleneck_mitigation.md)**: 그래프 연산 지연을 줄이기 위한 차세대 아키텍처.
-- **[Bloom Filter](../9_security/xx_bloom_filter.md)**: 중복 방문 여부를 효율적으로 체크하는 확률적 자료구조.
+- **BFS/DFS 알고리즘**: 메모리 서브시스템이 가속하고자 하는 핵심 대상.
+- **HBM (High Bandwidth Memory)**: 그래프 연산의 데이터 대역폭 요구사항을 충족하는 물리적 기반.
+- **PIM (Processor In Memory)**: 그래프 연산 지연을 줄이기 위한 차세대 아키텍처.
+- **Bloom Filter**: 중복 방문 여부를 효율적으로 체크하는 확률적 자료구조.
 
 ---
 

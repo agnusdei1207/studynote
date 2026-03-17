@@ -1,6 +1,7 @@
 +++
-weight = 567
 title = "567. 네임노드 (NameNode)와 데이터노드 (DataNode)"
+date = "2026-03-14"
+weight = 567
 +++
 
 # 567. 네임노드 (NameNode)와 데이터노드 (DataNode)

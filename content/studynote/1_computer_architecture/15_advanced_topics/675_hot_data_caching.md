@@ -1,12 +1,17 @@
----
++++
+title = "[핫 데이터 (Hot Data) 캐싱]"
+date = "2026-03-14"
++++
+
 # [핫 데이터 (Hot Data) 캐싱]
 
 #### 핵심 인사이트 (3줄 요약)
-> 1. **본질**: 전체 데이터의 20%가 차지하는 핫 데이터(Hot Data)를 인메모리(In-Memory) 계층으로 이중화하여, 디스크 I/O 병목을 제거하고 마이크로초(µs) 단위의 응답 속도를 확보하는 아키텍처 패턴.
-> 2. **가치**: DB 부하를 90% 이상 절감하여 TPS(Transactions Per Second)를 폭발적으로 증가시키며, **Cache Stampede(캐시 스탬피드)** 방지 전략이 시스템 안정성의 핵심 지표가 됨.
-> 3. **융합**: OS의 페이지 교체 알고리즘(LRU/LFU)과 네트워크의 **CDN (Content Delivery Network)** 기술이 결합되며, AI 기반의 **Predictive Prefetching(예측적 프리페칭)**으로 진화 중.
+> 1. **본질**= 전체 데이터의 20%가 차지하는 핫 데이터(Hot Data)를 인메모리(In-Memory) 계층으로 이중화하여, 디스크 I/O 병목을 제거하고 마이크로초(µs) 단위의 응답 속도를 확보하는 아키텍처 패턴.
+> 2. **가치**= DB 부하를 90% 이상 절감하여 TPS(Transactions Per Second)를 폭발적으로 증가시키며, **Cache Stampede(캐시 스탬피드)** 방지 전략이 시스템 안정성의 핵심 지표가 됨.
+> 3. **융합**= OS의 페이지 교체 알고리즘(LRU/LFU)과 네트워크의 **CDN (Content Delivery Network)** 기술이 결합되며, AI 기반의 **Predictive Prefetching(예측적 프리페칭)**으로 진화 중.
 
----
+
+
 
 ### Ⅰ. 개요 (Context & Background)
 

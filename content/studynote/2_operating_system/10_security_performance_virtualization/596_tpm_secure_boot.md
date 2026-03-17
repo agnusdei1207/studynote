@@ -1,6 +1,7 @@
 +++
-weight = 596
 title = "596. 신뢰할 수 있는 플랫폼 모듈 (TPM (Trusted Platform Module)) 및 보안 부트 (Secure Boot)"
+date = "2026-03-14"
+weight = 596
 +++
 
 ### 💡 핵심 인사이트 (Insight)

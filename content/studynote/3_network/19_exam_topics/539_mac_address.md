@@ -1,5 +1,6 @@
 +++
 title = "MAC Address - MAC 주소 (물리 주소)"
+date = "2026-03-14"
 weight = 539
 +++
 
@@ -97,6 +98,6 @@ MAC 주소는 48비트 하드웨어 주소입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Ethernet](./329_ethernet.md)
-- [ARP](./538_arp.md)
-- [Switch](./541_switch.md)
+- Ethernet
+- ARP
+- Switch

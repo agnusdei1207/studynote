@@ -1,5 +1,6 @@
 +++
 title = "Jitter - 지터"
+date = "2026-03-14"
 weight = 804
 +++
 
@@ -105,6 +106,6 @@ Jitter는 지연 시간의 변동성입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Latency](./801_latency.md)
-- [QoS](./xxx_qos.md)
-- [VoIP](./xxx_voip.md)
+- Latency
+- QoS
+- VoIP

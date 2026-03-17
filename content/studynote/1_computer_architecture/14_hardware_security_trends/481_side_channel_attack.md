@@ -1,7 +1,8 @@
----
-title: "사이드 채널 공격 (Side-channel Attack)"
-weight: 481
----
++++
+title = "사이드 채널 공격 (Side-channel Attack)"
+date = "2026-03-14"
+weight = 481
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 사이드 채널 공격 (Side-channel Attack)은 암호화 알고리즘의 논리적 허점이 아닌, 하드웨어 연산 과정에서 발생하는 물리적 정보(전력 소모, 전자기파, 실행 시간, 소리 등)를 분석하여 비밀 정보를 탈취하는 공격 기법이다.
@@ -134,9 +135,9 @@ weight: 481
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[Meltdown & Spectre](./482_meltdown.md)**: CPU의 예측 실행을 이용한 현대적 사이드 채널 공격.
-- **[Differential Power Analysis (DPA)](../9_security/902_dpa.md)**: 대표적인 전력 기반 분석 기법.
-- **[Tamper Resistance](../9_security/903_tamper_resistance.md)**: 물리적 공격을 방어하기 위한 하드웨어 기술.
+- **Meltdown & Spectre**: CPU의 예측 실행을 이용한 현대적 사이드 채널 공격.
+- **Differential Power Analysis (DPA)**: 대표적인 전력 기반 분석 기법.
+- **Tamper Resistance**: 물리적 공격을 방어하기 위한 하드웨어 기술.
 
 ---
 

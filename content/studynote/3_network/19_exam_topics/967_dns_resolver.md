@@ -1,5 +1,6 @@
 +++
 title = "DNS Resolver - DNS 리졸버"
+date = "2026-03-14"
 weight = 967
 +++
 
@@ -105,6 +106,6 @@ DNS Resolver는 DNS 질의를 수행합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [DNS](./885_dns.md)
-- [DNS Caching](./966_dns_caching.md)
-- [DNS Record](./965_dns_record.md)
+- DNS
+- DNS Caching
+- DNS Record

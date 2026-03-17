@@ -1,5 +1,6 @@
 +++
 title = "Memory Pool - 메모리 풀"
+date = "2026-03-14"
 weight = 800
 +++
 
@@ -106,6 +107,6 @@ Memory Pool은 메모리를 사전 할당합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Object Pool](./799_object_pool.md)
-- [Memory Management](./xxx_memory.md)
-- [Garbage Collection](./xxx_gc.md)
+- Object Pool
+- Memory Management
+- Garbage Collection

@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: CORS Misconfiguration 🥈 Silver"
-description = "LUXORA 플랫폼의 Silver 난이도 CORS Misconfiguration 공략 - 정규표현식 기반 Origin 검증 우회 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "CORS", "Silver", "Regex Bypass", "Write-up"]
@@ -142,4 +141,3 @@ Access-Control-Allow-Credentials: true
    if (originRegex.test(req.headers.origin)) {
        // ...
    }
-   ```

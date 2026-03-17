@@ -1,7 +1,6 @@
 +++
 title = "37. B+Tree - 리프 노드 간 연결 리스트 (인덱스 기본 구조)"
 date = "2026-03-16"
-draft = false
 weight = 37
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["B+Tree", "Index", "Leaf Node", "Linked List", "Range Query", "Seque
 > 2. **혁신**: 리프 노드들을 **연결 리스트(Linked List)**로 결합하여 **범위 검색(Range Query)**과 전체 스캔 성능을 극대화했으며, 이로 인해 현대 거의 모든 관계형 데이터베이스(RDBMS)의 기본 인덱스 구조로 채택되었다.
 > 3. **가치**: B-Tree 대비 더 높은 **블로킹 팩터**를 가져 트리의 높이를 더욱 낮출 수 있으며, 순차적 데이터 접근이 잦은 OLTP와 OLAP 환경 모두에서 최적의 성능 균형을 제공한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -45,7 +44,7 @@ keywords = ["B+Tree", "Index", "Leaf Node", "Linked List", "Range Query", "Seque
 
 - **📢 섹션 요약 비유**: B+Tree는 '목적지(데이터)를 한곳에 모으고 길(인덱스)을 시원하게 뚫어놓은 고속도로'와 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -90,7 +89,7 @@ B+Tree에서는 내부 노드에 있는 키가 리프 노드에도 중복해서 
 
 - **📢 섹션 요약 비유**: B+Tree는 '책의 목차(Index Set)가 책 뒷부분의 실제 내용(Sequence Set)을 아주 상세하게 가리키고 있는 백과사전'과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -110,7 +109,7 @@ B+Tree에서는 내부 노드에 있는 키가 리프 노드에도 중복해서 
 
 - **📢 섹션 요약 비유**: B-Tree가 '보물 찾기 지도를 따라가며 중간중간 작은 보물을 줍는 것'이라면, B+Tree는 '지도를 따라 끝까지 가서 커다란 보물 창고를 여는 것'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -129,7 +128,7 @@ B+Tree에서는 내부 노드에 있는 키가 리프 노드에도 중복해서 
 
 - **📢 섹션 요약 비유**: 너무 긴 인덱스 키를 쓰는 것은 '안내판에 너무 많은 글자를 적어 정작 화살표(포인터)를 넣을 자리가 없는 것'과 같습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -147,15 +146,15 @@ B+Tree에서는 내부 노드에 있는 키가 리프 노드에도 중복해서 
 
 - **📢 섹션 요약 비유**: 기술의 유행은 변해도 '정렬된 데이터와 효율적인 이정표'라는 B+Tree의 유산은 모든 저장 기술의 고전이자 미래가 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[B-Tree (B+Tree의 모태)](./36_btree_principles.md)**: 기본 균형 트리 원리.
-- **[클러스터드 인덱스 (Clustered Index)](./159_clustered_index.md)**: B+Tree 리프 노드에 실제 데이터 행을 저장하는 방식.
-- **[인덱스 스캔 (Index Scan)](./117_physical_design.md)**: B+Tree 리프 연결 리스트를 따라가는 동작.
-- **[Random I/O vs Sequential I/O](@/studynote/1_computer_architecture/_index.md)**: B+Tree가 해결하고자 하는 물리적 과제.
+- **B-Tree (B+Tree의 모태)**: 기본 균형 트리 원리.
+- **클러스터드 인덱스 (Clustered Index)**: B+Tree 리프 노드에 실제 데이터 행을 저장하는 방식.
+- **인덱스 스캔 (Index Scan)**: B+Tree 리프 연결 리스트를 따라가는 동작.
+- **Random I/O vs Sequential I/O**: B+Tree가 해결하고자 하는 물리적 과제.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **B+Tree**는 학교 도서관 책꽂이들이 **옆 칸과 긴 줄로 연결**된 것과 같아요.

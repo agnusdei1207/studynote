@@ -1,5 +1,6 @@
 +++
 title = "acpi sstates"
+date = "2026-03-14"
 weight = 725
 +++
 
@@ -425,10 +426,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [Package C-States](./721_package_cstates.md) - 패키지 절전
-- [Core C-States](./722_core_cstates.md) - 코어 절전
-- [P-States](./723_pstates.md) - 성능 상태
-- [UEFI](./706_uefi.md) - UEFI 펌웨어
+- Package C-States - 패키지 절전
+- Core C-States - 코어 절전
+- P-States - 성능 상태
+- UEFI - UEFI 펌웨어
 
 ---
 

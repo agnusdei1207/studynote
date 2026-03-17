@@ -1,7 +1,7 @@
 +++
-weight = 662
 title = "662. 침입 탐지/방지 시스템 (IDS/IPS)"
 date = "2026-03-16"
+weight = 662
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "IDS", "IPS", "침입 탐지", "침입 방지", "Snort", "Suricata"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "IDS", "IPS", "침입 탐지", "침입 방지", "Sno
 > 2. **가치**: 기존 방화벽(Firewall)이 L3/L4(포트/프로토콜) 수준의 접근 제어에 불과한 반면, IDS/IPS는 **L7(계층) 페이로드 분석**을 통해 SQL Injection, XSS(Cross-Site Scripting)와 같은 애플리케이션 레벨 공격 패턴을 식별하여 방어선의 깊이(Depth in Defense)를 획기적으로 확보합니다.
 > 3. **융합**: 단순한 패턴 매칭(Signature-based)을 넘어 AI 기반의 행위 분석(Anomaly-based)과 결합하고, OS(Operating System)의 시스템 콜 감사(Auditing) 및 네트워크 패킷 캡처(Libpcap) 기술이 융합된 **SOC (Security Operation Center, 보안 관제 센터)**의 핵심 척추 역할을 합니다.
 
----
++++
 
 ### Ⅰ. 개요 (Context & Background)
 
@@ -53,7 +53,7 @@ IDS/IPS는 배치 위치에 따라 **NIDS (Network IDS/IPS)**와 **HIDS (Host ID
 **📢 섹션 요약 비유**
 > "IDS는 경찰서에 신고하는 CCTV 감시센터이고, IPS는 현장에서 범인을 직접 제압하는 체포술이 훈련된 현장 경찰관과 같습니다."
 
----
++++
 
 ### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -140,7 +140,7 @@ def process_packet(packet):
 **📢 섹션 요약 비유**
 > "공항 보검(X-Ray)기가 테러리스트의 흉기 패턴을 찾아내는 것처럼, IPS는 수많은 네트워크 패킷(짐)이라는 데이터를 압축 해제하고 정렬하여, 그 안에 숨겨진 해킹 코드라는 흉기를 찾아냅니다."
 
----
++++
 
 ### Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -195,7 +195,7 @@ def process_packet(packet):
 **📢 섹션 요약 비유**
 > "시그니처 탐지는 '수배자 명단'을 가지고 범인을 찾는 것이고, 이상 탐지는 '평소 행동이 이상한 사람'을 관찰하여 범죄를 예측하는 프로파일링과 같습니다. 현대 보안은 이 두 가지를 조합하여 마련한 방어망입니다."
 
----
++++
 
 ### Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 

@@ -1,6 +1,7 @@
 +++
-weight = 412
 title = "412. 스래싱 (Thrashing)"
+date = "2026-03-14"
+weight = 412
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -122,4 +123,3 @@ graph TD
     AddProc -- Leads to --> Thrashing
     Thrashing -- Solution --> WS[Working-Set Model]
     Thrashing -- Solution --> PFF[Page-Fault Frequency]
-```

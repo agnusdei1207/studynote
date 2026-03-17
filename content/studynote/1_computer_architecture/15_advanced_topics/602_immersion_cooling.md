@@ -1,5 +1,6 @@
 +++
 title = "602. 이머전 쿨링 (Immersion Cooling)"
+date = "2026-03-14"
 weight = 602
 +++
 
@@ -142,10 +143,10 @@ weight = 602
 ---
 
 ### 📌 관련 개념 맵
-- [액체 냉각 시스템 (Liquid Cooling)](./601_liquid_cooling.md): 이머전 쿨링과 비교되는 DLC 등 쿨링 기술 전반
-- [엑사스케일 컴퓨팅 노드 (Exascale Node)](./600_exascale_computing_node_board.md): 극단적 쿨링을 요구하는 슈퍼컴퓨터 유닛
-- [PUE (Power Usage Effectiveness)](../12_it_management/6_cloud_ai_data/xx_pue.md): 1.05 달성의 핵심 지표
-- [그린 IT (Green IT)](../12_it_management/1_governance_strategy/xx_green_it.md): 탄소 중립 및 ESG 달성을 위한 IT 전략
+- 액체 냉각 시스템 (Liquid Cooling): 이머전 쿨링과 비교되는 DLC 등 쿨링 기술 전반
+- 엑사스케일 컴퓨팅 노드 (Exascale Node): 극단적 쿨링을 요구하는 슈퍼컴퓨터 유닛
+- PUE (Power Usage Effectiveness): 1.05 달성의 핵심 지표
+- 그린 IT (Green IT): 탄소 중립 및 ESG 달성을 위한 IT 전략
 
 ---
 

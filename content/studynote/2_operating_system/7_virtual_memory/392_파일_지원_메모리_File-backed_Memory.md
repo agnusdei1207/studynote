@@ -1,6 +1,7 @@
 +++
-weight = 392
 title = "392. 파일 지원 메모리 (File-backed Memory)"
+date = "2026-03-14"
+weight = 392
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -114,4 +115,3 @@ graph TD
     PC -- Sync --> DF[Disk File]
     MM -- Efficiency --> ZC[Zero Copy I/O]
     SL -- Sharing --> MS[Memory Saving]
-```

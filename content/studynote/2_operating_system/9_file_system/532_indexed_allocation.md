@@ -1,7 +1,7 @@
----
 +++
-weight = 532
 title = "532. 인덱스 할당 (Indexed Allocation)"
+date = "2026-03-14"
+weight = 532
 +++
 
 # [532. 인덱스 할당 (Indexed Allocation)]

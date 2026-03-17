@@ -1,5 +1,6 @@
 +++
 title = "DNS Record Types - DNS 레코드 타입"
+date = "2026-03-14"
 weight = 551
 +++
 
@@ -100,6 +101,6 @@ DNS 레코드는 도메인 정보를 저장합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [DNS](./550_dns.md)
-- [Reverse DNS](./552_reverse_dns.md)
-- [SPF](./553_spf.md)
+- DNS
+- Reverse DNS
+- SPF

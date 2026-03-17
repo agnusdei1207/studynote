@@ -1,7 +1,7 @@
----
-title: "474. 위협 모델링 (Threat Modeling)"
-date: 2026-03-15
----
++++
+title = "474. 위협 모델링 (Threat Modeling)"
+date = "2026-03-15"
++++
 
 # 474. 위협 모델링 (Threat Modeling)
 
@@ -160,10 +160,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[STRIDE 모델](./475_stride.md)**: 위협 모델링에서 가장 널리 쓰이는 위협 식별 체계
-- **[DREAD 모델](./476_dread.md)**: 식별된 위협의 위험도를 점수화하는 기법
-- **[Secure SDLC](./471_secure_sdlc.md)**: 위협 모델링이 포함된 전체 보안 생명주기
-- **[공격 트리 (Attack Tree)](./xx_attack_tree.md)**: 위협을 실현하기 위한 구체적 경로 분석 기법
+- **STRIDE 모델**: 위협 모델링에서 가장 널리 쓰이는 위협 식별 체계
+- **DREAD 모델**: 식별된 위협의 위험도를 점수화하는 기법
+- **Secure SDLC**: 위협 모델링이 포함된 전체 보안 생명주기
+- **공격 트리 (Attack Tree)**: 위협을 실현하기 위한 구체적 경로 분석 기법
 
 ---
 

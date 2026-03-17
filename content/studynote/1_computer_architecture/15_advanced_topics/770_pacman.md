@@ -1,5 +1,6 @@
 +++
 title = "pacman"
+date = "2026-03-14"
 weight = 770
 +++
 
@@ -135,10 +136,10 @@ PACMAN 공격은 ARM PAC(Pointer Authentication Code) 보안 기능을 사이드
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [스펙터 (Spectre)](./766_spectre.md)
-- [MDS 공격](./764_mds_attack.md)
-- [사이드 채널 공격](./768_side_channel.md)
-- [ARM 아키텍처](./771_arm_architecture.md)
+- 스펙터 (Spectre)
+- MDS 공격
+- 사이드 채널 공격
+- ARM 아키텍처
 
 ---
 

@@ -1,6 +1,7 @@
 +++
-weight = 452
 title = "452. DMA 산란-수집 (Scatter-Gather)"
+date = "2026-03-14"
+weight = 452
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -120,9 +121,9 @@ DMA 컨트롤러는 각 엔트리가 끝나면 자동으로 다음 엔트리의 
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[Zero-copy](./xx_zero_copy.md)**: 데이터 복사를 최소화하는 기술 (Scatter-Gather가 기반).
-- **[Paging](./xx_paging.md)**: 메모리를 비연속적인 페이지로 관리하는 기법.
-- **[NVMe (Non-Volatile Memory express)](./475_ssd.md)**: 고성능 SGL 전송을 지원하는 저장장치 표준.
+- **Zero-copy**: 데이터 복사를 최소화하는 기술 (Scatter-Gather가 기반).
+- **Paging**: 메모리를 비연속적인 페이지로 관리하는 기법.
+- **NVMe (Non-Volatile Memory express)**: 고성능 SGL 전송을 지원하는 저장장치 표준.
 
 ---
 

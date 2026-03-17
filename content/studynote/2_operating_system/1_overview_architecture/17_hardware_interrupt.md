@@ -1,6 +1,7 @@
 +++
-weight = 17
 title = "17. 하드웨어 인터럽트 (비동기적)"
+date = "2026-03-14"
+weight = 17
 +++
 
 # 하드웨어 인터럽트 (Hardware Interrupt)
@@ -121,10 +122,10 @@ title = "17. 하드웨어 인터럽트 (비동기적)"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[인터럽트 서비스 루틴 (ISR)](./20_isr.md)**: 인터럽트 발생 시 실행되는 실제 처리 코드.
-- **[APIC (Advanced Programmable Interrupt Controller)](./xx_apic.md)**: 멀티코어 환경의 인터럽트 중재 하드웨어.
-- **[인터럽트 친화성 (Interrupt Affinity)](./xx_affinity.md)**: 특정 CPU (Central Processing Unit) 코어에 인터럽트 (Interrupt)를 할당하는 최적화 기법.
-- **[타이머 인터럽트 (Timer Interrupt)](./xx_timer.md)**: OS (Operating System) 스케줄링의 근간이 되는 비동기 인터럽트 (Interrupt).
+- **인터럽트 서비스 루틴 (ISR)**: 인터럽트 발생 시 실행되는 실제 처리 코드.
+- **APIC (Advanced Programmable Interrupt Controller)**: 멀티코어 환경의 인터럽트 중재 하드웨어.
+- **인터럽트 친화성 (Interrupt Affinity)**: 특정 CPU (Central Processing Unit) 코어에 인터럽트 (Interrupt)를 할당하는 최적화 기법.
+- **타이머 인터럽트 (Timer Interrupt)**: OS (Operating System) 스케줄링의 근간이 되는 비동기 인터럽트 (Interrupt).
 
 ---
 

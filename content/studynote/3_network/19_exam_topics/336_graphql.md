@@ -1,5 +1,6 @@
 +++
 title = "GraphQL - 쿼리 언어"
+date = "2026-03-14"
 weight = 336
 +++
 
@@ -145,10 +146,10 @@ GraphQL은 API를 위한 쿼리 언어이자 런타임입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [REST API](./338_rest_api.md)
-- [gRPC](./337_grpc.md)
-- [API Gateway](./334_api_gateway.md)
-- [Apollo](./4_software_engineering/185_apollo.md)
+- REST API
+- gRPC
+- API Gateway
+- Apollo
 
 ---
 

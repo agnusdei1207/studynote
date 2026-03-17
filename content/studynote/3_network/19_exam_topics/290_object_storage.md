@@ -1,5 +1,6 @@
 +++
 title = "오브젝트 스토리지 (Object Storage)"
+date = "2026-03-14"
 weight = 290
 +++
 
@@ -149,10 +150,10 @@ weight = 290
 ---
 
 ### 📌 관련 개념 링크**:
-- [SAN/NAS](./285_san.md)
-- [백업](./281_backup.md)
-- [클라우드 스토리지](./13_cloud_architecture/250_cloud_storage.md)
-- [S3](./13_cloud_architecture/251_s3.md)
+- SAN/NAS
+- 백업
+- 클라우드 스토리지
+- S3
 
 ---
 

@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Container Escape 🥉 Bronze"
-description = "LUXORA 플랫폼의 기본 Container Escape 취약점을 이용한 호스트 파일 시스템 접근 및 읽기 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Container Escape", "Bronze", "Docker", "Mount", "Write-up"]

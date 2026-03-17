@@ -1,5 +1,6 @@
 +++
 title = "secure key erasure"
+date = "2026-03-14"
 weight = 785
 +++
 
@@ -136,10 +137,10 @@ weight = 785
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [제로화 (Zeroization) 회로](./784_zeroization.md)
-- [안티 탬퍼 메시/쉴드](./783_anti_tamper.md)
-- [HSM (Hardware Security Module)](./781_hsm.md)
-- [TPM](./786_tpm.md)
+- 제로화 (Zeroization) 회로
+- 안티 탬퍼 메시/쉴드
+- HSM (Hardware Security Module)
+- TPM
 
 ---
 

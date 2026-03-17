@@ -1,5 +1,6 @@
 +++
 title = "근거리-원거리 문제 (Near-Far Problem)"
+date = "2026-03-14"
 weight = 92
 +++
 
@@ -156,10 +157,10 @@ weight = 92
 ---
 
 ### 📌 관련 개념 링크**:
-- [CDMA 코드 분할 접속](./90_cdma_code.md)
-- [셀 호흡 Cell Breathing](./93_cell_breathing.md)
-- [동기식/비동기식 CDMA](./91_cdma_sync_async.md)
-- [WCDMA](./205_wcdma.md)
+- CDMA 코드 분할 접속
+- 셀 호흡 Cell Breathing
+- 동기식/비동기식 CDMA
+- WCDMA
 
 ---
 

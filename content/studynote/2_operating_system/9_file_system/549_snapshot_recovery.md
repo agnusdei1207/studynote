@@ -1,6 +1,7 @@
 +++
-weight = 549
 title = "549. 스냅샷 (Snapshot) 및 복구 기술"
+date = "2026-03-14"
+weight = 549
 +++
 
 # # [스냅샷 (Snapshot) 및 복구 기술]

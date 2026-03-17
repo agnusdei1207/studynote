@@ -1,5 +1,6 @@
 +++
 title = "케이블 모뎀 (Cable Modem) / DOCSIS"
+date = "2026-03-14"
 weight = 147
 +++
 
@@ -144,10 +145,10 @@ weight = 147
 ---
 
 ### 📌 관련 개념 링크**:
-- [모뎀](./146_modem.md)
-- [ADSL/VDSL](./148_xdsl.md)
-- [동축 케이블](./127_coaxial.md)
-- [FTTH](./198_xpon.md)
+- 모뎀
+- ADSL/VDSL
+- 동축 케이블
+- FTTH
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "SPAN/RSPAN - 포트 미러링"
+date = "2026-03-14"
 weight = 314
 +++
 
@@ -147,10 +148,10 @@ SPAN(Switched Port Analyzer)는 스위치에서 포트 트래픽을 미러링합
 ---
 
 ### 📌 관련 개념 링크**:
-- [TAP](./313_network_tap.md)
-- [IDS](./9_security/220_ids.md)
-- [패킷 캡처](./309_packet_capture.md)
-- [모니터링](./296_network_monitoring.md)
+- TAP
+- IDS
+- 패킷 캡처
+- 모니터링
 
 ---
 

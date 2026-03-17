@@ -1,10 +1,9 @@
----
-title: "[ICT] #48. 소프트 포크 (Soft Fork)"
-date: "2026-03-17"
++++
+title = "[ICT] #48. 소프트 포크 (Soft Fork)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Soft_Fork_Backwards_Compatible_SegWit_Rule_Tightening"
----
+keyword = "Soft_Fork_Backwards_Compatible_SegWit_Rule_Tightening"
++++
 
 # 소프트 포크 (Soft Fork): 하위 호환성을 유지하는 온건한 프로토콜 진화
 
@@ -13,7 +12,7 @@ keyword: "Soft_Fork_Backwards_Compatible_SegWit_Rule_Tightening"
 > 2. **가치**: 네트워크의 분리(Chain Split) 없이 부드러운 전환이 가능하며, 참여자들의 업그레이드 강제성이 낮아 생태계의 연속성을 유지하면서 기능을 개선하는 데 최적화되어 있다.
 > 3. **융합**: 비트코인의 **세그윗(SegWit)**이나 탭루트(Taproot)처럼 기존 데이터 구조를 유지하면서 성능을 높이는 고도의 암호학적 트릭이 결합된 기술로, 커뮤니티의 통합을 중시하는 안정적 업데이트 모델이다.
 
----
++++
 
 ## Ⅰ. 소프트 포크 (Soft Fork) 개요
 
@@ -30,7 +29,7 @@ keyword: "Soft_Fork_Backwards_Compatible_SegWit_Rule_Tightening"
 
 📢 **섹션 요약 비유**: 한 권의 역사서를 쓰던 중, 글씨를 더 정갈하게 쓰자는 새로운 규칙을 도입하여 이전과 똑같은 종이(체인)에 계속해서 이야기를 이어 나가는 '부드러운 개정'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -75,7 +74,7 @@ keyword: "Soft_Fork_Backwards_Compatible_SegWit_Rule_Tightening"
 
 📢 **섹션 요약 비유**: 도로의 차선을 좁혔을 때(규칙 강화), 차선을 지키는 차들(신버전)은 넓은 길을 가던 경찰(구버전 노드)이 봐도 문제없지만, 차선을 넘나드는 차(업그레이드 안 한 채굴자)는 결국 딱지를 떼이게 되어 차선을 지키게 되는 원리입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -96,7 +95,7 @@ keyword: "Soft_Fork_Backwards_Compatible_SegWit_Rule_Tightening"
 
 📢 **섹션 요약 비유**: 하드 포크가 "새 나라를 세우자"는 혁명이라면, 소프트 포크는 "법 조항을 좀 더 깐깐하게 고치자"는 개혁과 같은 성격의 차이가 있습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -110,7 +109,7 @@ keyword: "Soft_Fork_Backwards_Compatible_SegWit_Rule_Tightening"
 
 📢 **섹션 요약 비유**: 살고 있는 집의 기둥을 바꾸려면 다 나가야 하지만(하드), 전등을 LED로 바꾸는 것(소프트)은 살면서도 충분히 할 수 있는 것과 같은 판단의 영역입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -124,13 +123,13 @@ keyword: "Soft_Fork_Backwards_Compatible_SegWit_Rule_Tightening"
 
 📢 **섹션 요약 비유**: 소프트 포크는 블록체인이라는 유기체가 상처 입지 않고 스스로를 치료하며 진화하게 만드는 **'디지털 면역 체계'**입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[하드 포크 (Hard Fork)](./47_hard_fork.md)**: 소프트 포크와 대비되는 중대 업데이트 방식.
-- **[세그윗 (SegWit)](./xx_segwit.md)**: 소프트 포크의 가장 성공적인 실무 적용 사례.
-- **[P2SH (Pay-to-Script-Hash)](./xx_p2sh.md)**: 비트코인 초기 소프트 포크의 예시.
-- **[하위 호환성 (Backward Compatibility)](../../4_software_engineering/xx_compatibility.md)**: 소프트 포크가 지향하는 공학적 목표.
+- **하드 포크 (Hard Fork)**: 소프트 포크와 대비되는 중대 업데이트 방식.
+- **세그윗 (SegWit)**: 소프트 포크의 가장 성공적인 실무 적용 사례.
+- **P2SH (Pay-to-Script-Hash)**: 비트코인 초기 소프트 포크의 예시.
+- **하위 호환성 (Backward Compatibility)**: 소프트 포크가 지향하는 공학적 목표.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **착한 친구들끼리의 약속**: 우리 반 친구들끼리 "이제부터 숙제는 파란색 볼펜으로만 쓰자"라고 더 엄격한 약속을 정하는 거예요.

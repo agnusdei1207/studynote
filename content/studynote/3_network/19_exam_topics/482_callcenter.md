@@ -1,5 +1,6 @@
 +++
 title = "콜센터 - Call Center"
+date = "2026-03-14"
 weight = 482
 +++
 
@@ -144,10 +145,10 @@ weight = 482
 ---
 
 ### 📌 관련 개념 링크**:
-- [IVR](./483_ivr.md)
-- [ACD](./484_acd.md)
-- [CTI](./485_cti.md)
-- [PBX](./481_pbx.md)
+- IVR
+- ACD
+- CTI
+- PBX
 
 ---
 

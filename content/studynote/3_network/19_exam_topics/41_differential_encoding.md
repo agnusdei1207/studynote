@@ -1,5 +1,6 @@
 +++
 title = "차분 부호화 (Differential Encoding)"
+date = "2026-03-14"
 weight = 41
 +++
 
@@ -147,10 +148,10 @@ XOR 연산 기반
 ---
 
 ### 📌 관련 개념 링크**:
-- [NRZ-I 비복귀 반전](./37_nrz_non_return.md)
-- [차분 맨체스터 Manchester](./39_manchester.md)
-- [PSK 위상 편이 변조](./47_psk_phase_shift.md)
-- [DPSK 차등 위상 변조](./49_dpsk_differential.md)
+- NRZ-I 비복귀 반전
+- 차분 맨체스터 Manchester
+- PSK 위상 편이 변조
+- DPSK 차등 위상 변조
 
 ---
 

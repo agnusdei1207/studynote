@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: PostMessage Abuse 🥈 Silver"
-description = "LUXORA 플랫폼의 Silver 난이도 PostMessage Abuse - 느슨한 정규표현식을 우회하는 Origin 검증 우회 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "PostMessage", "Silver", "Regex Bypass", "DOM XSS", "Write-up"]
@@ -144,4 +143,3 @@ FLAG: FLAG{POSTMSG_🥈_REGEX_BYPASS_D4E5F6}
    if (!allowedOrigins.includes(event.origin)) {
        return; // 차단
    }
-   ```

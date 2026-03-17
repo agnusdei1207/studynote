@@ -1,5 +1,6 @@
 +++
 title = "Handshake - 핸드셰이크"
+date = "2026-03-14"
 weight = 948
 +++
 
@@ -105,6 +106,6 @@ Handshake는 통신 전 연결을 설정하는 절차입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./850_tcp.md)
-- [Connection](./xxx_connection.md)
-- [TLS Handshake](./882_tls.md)
+- TCP
+- Connection
+- TLS Handshake

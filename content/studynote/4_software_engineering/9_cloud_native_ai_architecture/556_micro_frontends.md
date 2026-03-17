@@ -1,7 +1,7 @@
----
-title: "556. 마이크로 프론트엔드 (Micro Frontends)"
-date: 2026-03-15
----
++++
+title = "556. 마이크로 프론트엔드 (Micro Frontends)"
+date = "2026-03-15"
++++
 
 # 556. 마이크로 프론트엔드 (Micro Frontends)
 
@@ -160,10 +160,10 @@ Webpack 5에서 도입된 마이크로 프론트엔드의 게임 체인저다.
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[MSA (Microservices Architecture)](./556_msa.md)**: 프론트엔드 분산의 근본 동기
-- **[모듈 페더레이션](./557_module_federation.md)**: 런타임 통합을 가능케 하는 핵심 기술
-- **[관심사 분리 (SoC)](./544_architecture_principles.md)**: 아키텍처 설계의 기본 원칙
-- **[웹 컴포넌트](../xx_web_components.md)**: 표준 기반의 격리 기술
+- **MSA (Microservices Architecture)**: 프론트엔드 분산의 근본 동기
+- **모듈 페더레이션**: 런타임 통합을 가능케 하는 핵심 기술
+- **관심사 분리 (SoC)**: 아키텍처 설계의 기본 원칙
+- **웹 컴포넌트**: 표준 기반의 격리 기술
 
 ---
 

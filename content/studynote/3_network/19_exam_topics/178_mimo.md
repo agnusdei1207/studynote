@@ -1,5 +1,6 @@
 +++
 title = "MIMO (Multiple Input Multiple Output)"
+date = "2026-03-14"
 weight = 178
 +++
 
@@ -152,10 +153,10 @@ MIMO는 송수신 양단에 다중 안테나를 사용하여 공간 다중화와
 ---
 
 ### 📌 관련 개념 링크**:
-- [빔포밍](./177_beamforming.md)
-- [안테나 배열](./176_array.md)
-- [다이버시티](./166_diversity.md)
-- [5G NR](./211_5g_nr.md)
+- 빔포밍
+- 안테나 배열
+- 다이버시티
+- 5G NR
 
 ---
 

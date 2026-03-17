@@ -1,7 +1,6 @@
 +++
 title = "57. 공유 풀 (Shared Pool) - Oracle 인스턴스 구조"
 date = "2026-03-16"
-draft = false
 weight = 57
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["Shared Pool", "공유 풀", "Library Cache", "Data Dictionary Cache
 > 2. **구성 및 역할**: SQL 실행 계획을 담는 **라이브러리 캐시(Library Cache)**와 스키마 정의를 담는 **데이터 딕셔너리 캐시(Row Cache)**로 구성되며, 동일한 쿼리를 재실행할 때 분석 과정을 생략하는 **소프트 파싱(Soft Parsing)**을 가능케 한다.
 > 3. **가치**: 불필요한 CPU 연산(Hard Parsing)과 디스크 I/O를 최소화하여 수만 명의 동시 사용자가 지연 없이 시스템을 이용할 수 있도록 보장하는 현대 대규모 RDBMS 성능의 핵심 엔진이다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -47,7 +46,7 @@ keywords = ["Shared Pool", "공유 풀", "Library Cache", "Data Dictionary Cache
 
 - **📢 섹션 요약 비유**: 공유 풀은 데이터베이스의 '지혜와 지식'을 모아둔 집단 지성의 보고입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -95,7 +94,7 @@ keywords = ["Shared Pool", "공유 풀", "Library Cache", "Data Dictionary Cache
 
 - **📢 섹션 요약 비유**: 해싱은 '지문 인식'과 같아서, 아무리 긴 쿼리라도 지문 한 번으로 똑같은 게 있는지 즉시 찾아냅니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -114,7 +113,7 @@ keywords = ["Shared Pool", "공유 풀", "Library Cache", "Data Dictionary Cache
 
 - **📢 섹션 요약 비유**: 소프트 파싱은 '아는 길을 내비게이션 없이 가는 것'이고, 하드 파싱은 '매번 지도를 새로 그리며 가는 것'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -133,7 +132,7 @@ keywords = ["Shared Pool", "공유 풀", "Library Cache", "Data Dictionary Cache
 
 - **📢 섹션 요약 비유**: 공유 풀 단편화는 '책장은 넓은데 낱장 종이들이 가득 차서 정작 두꺼운 책 한 권을 꽂을 자리가 없는 상태'와 같습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -151,15 +150,15 @@ keywords = ["Shared Pool", "공유 풀", "Library Cache", "Data Dictionary Cache
 
 - **📢 섹션 요약 비유**: 미래의 공유 풀은 단순한 캐시를 넘어, 전 세계 쿼리 데이터를 학습한 '슈퍼 브레인'으로 진화할 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[SGA (System Global Area)](./58_database_instance.md)**: 공유 풀이 속한 전체 메모리 영역.
-- **[라이브러리 캐시 (Library Cache)](./53_parser.md)**: SQL 공유의 핵심 장소.
-- **[데이터 딕셔너리 캐시](./56_data_dictionary_cache.md)**: 메타데이터 공유의 핵심 장소.
-- **[바인드 변수 (Bind Variable)](./131_sql_standards.md)**: 공유 풀의 효율을 극대화하는 기법.
+- **SGA (System Global Area)**: 공유 풀이 속한 전체 메모리 영역.
+- **라이브러리 캐시 (Library Cache)**: SQL 공유의 핵심 장소.
+- **데이터 딕셔너리 캐시**: 메타데이터 공유의 핵심 장소.
+- **바인드 변수 (Bind Variable)**: 공유 풀의 효율을 극대화하는 기법.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **공유 풀**은 컴퓨터 선생님이 **한 번 풀어본 수학 문제의 정답과 풀이 과정을 기억해두는 뇌**와 같아요.

@@ -1,6 +1,7 @@
 +++
-weight = 594
 title = "594. 실행 방지 비트 (NX bit (No-Execute bit) / DEP (Data Execution Prevention))"
+date = "2026-03-14"
+weight = 594
 +++
 
 # 594. 실행 방지 비트 (NX bit (No-Execute bit) / DEP (Data Execution Prevention))

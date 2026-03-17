@@ -1,5 +1,6 @@
 +++
 title = "High Availability - 고가용성"
+date = "2026-03-14"
 weight = 918
 +++
 
@@ -104,6 +105,6 @@ HA (High Availability)는 서비스 중단을 최소화합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Failover](./917_failover.md)
-- [Clustering](./916_clustering.md)
-- [SLA](./xxx_sla.md)
+- Failover
+- Clustering
+- SLA

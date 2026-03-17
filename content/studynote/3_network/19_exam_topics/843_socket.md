@@ -1,5 +1,6 @@
 +++
 title = "Socket - 소켓"
+date = "2026-03-14"
 weight = 843
 +++
 
@@ -105,6 +106,6 @@ Socket은 네트워크 통신의 종단점입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Port](./842_port.md)
-- [TCP](./552_tcp.md)
-- [UDP](./553_udp.md)
+- Port
+- TCP
+- UDP

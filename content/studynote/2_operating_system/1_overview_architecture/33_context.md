@@ -1,6 +1,7 @@
 +++
-weight = 33
 title = "33. 문맥 (Context) - 실행 상태의 총체"
+date = "2026-03-14"
+weight = 33
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -104,9 +105,9 @@ title = "33. 문맥 (Context) - 실행 상태의 총체"
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[PCB (Process Control Block)](../2_process_thread/PCB.md)**: 문맥 정보가 저장되는 실제 데이터 구조.
-- **[문맥 교환 (Context Switch)](./34_context_switch.md)**: 문맥을 바꾸는 작업 그 자체와 오버헤드.
-- **[스케줄링 (Scheduling)](../3_cpu_scheduling/60_scheduling.md)**: 어떤 문맥을 다음에 실행할지 결정하는 알고리즘.
+- **PCB (Process Control Block)**: 문맥 정보가 저장되는 실제 데이터 구조.
+- **문맥 교환 (Context Switch)**: 문맥을 바꾸는 작업 그 자체와 오버헤드.
+- **스케줄링 (Scheduling)**: 어떤 문맥을 다음에 실행할지 결정하는 알고리즘.
 
 ---
 

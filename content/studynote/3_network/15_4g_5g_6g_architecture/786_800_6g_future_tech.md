@@ -1,10 +1,7 @@
----
 +++
 title = "786-800. 6G 비전과 미래 통신 기술 (RIS, NTN, AI-Native)"
-description = "지상과 위성을 아우르는 6G 입체 통신망과 지능형 반사 표면(RIS), AI 내재화 기술 분석"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
-subject = "NW"
 category = "Mobile Architecture"
 id = 786
 +++
@@ -16,7 +13,7 @@ id = 786
 > 2. **가치**: THz (Terahertz) 대역의 물리적 한계를 RIS (Reconfigurable Intelligent Surface)로 극복하여 신뢰성을 99.99999% 수준으로 끌어올리고, AI-Native 아키텍처를 통해 운영 비용(OPEX)을 획기적으로 절감한다.
 > 3. **융합**: NTN (Non-Terrestrial Network)을 통해 전 세계 어디서나 서비스 갭(Gap)을 해소하며, 분산 컴퓨팅(Edge AI)과 결합하여 사이버-물리 시스템(CPS)을 완성한다.
 
----
++++
 
 ### Ⅰ. 개요 (Context & Background)
 
@@ -33,7 +30,7 @@ id = 786
 
 📢 **섹션 요약 비유**: 6G 개요는 **'마천루(고층 빌딩) 숲 사이에 길을 내는 공사'**와 같습니다. 땅(지상 네트워크)은 이미 포화상태라 이제 빌딩 옥상과 하늘(위성)을 연결하여 사방팔방 통행이 가능한 3차원 도시를 계획하는 단계입니다.
 
----
++++
 
 ### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -119,7 +116,7 @@ def select_mcs_ai(snr_measurement, latency_requirement):
 
 📢 **섹션 요약 비유**: 6G 아키텍처는 **'빛을 다루는 프리즘 조명 시스템'**과 같습니다. RIS는 전파라는 빛을 원하는 곳(사용자)으로 정확히 향하게 조정하는 프리즘이자 거울이며, AI는 방의 분위기(통신 환경)에 따라 조명의 밝기와 색(변조 방식)을 가장 적절하게 자동 조절하는 스마트 컨트롤러 역할을 합니다.
 
----
++++
 
 ### Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 

@@ -1,5 +1,6 @@
 +++
 title = "Join - 조인"
+date = "2026-03-14"
 weight = 699
 +++
 
@@ -100,6 +101,6 @@ Join은 두 테이블을 결합합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [SQL](./700_sql.md)
-- [Normalization](./701_normalization.md)
-- [Query Optimization](./697_query_optimization.md)
+- SQL
+- Normalization
+- Query Optimization

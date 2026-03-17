@@ -1,7 +1,7 @@
----
-title: "510. API 보안 관리: OAuth 2.0, OIDC, JWT"
-date: 2026-03-15
----
++++
+title = "510. API 보안 관리: OAuth 2.0, OIDC, JWT"
+date = "2026-03-15"
++++
 
 # 510. API 보안 관리: OAuth 2.0, OIDC, JWT
 
@@ -167,10 +167,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[API 보안 일반](./519_api_security.md)**: OAuth/OIDC가 해결하고자 하는 전체 도메인
-- **[인가 (Authorization) 모델](./509_authorization_models.md)**: 토큰 내부의 권한 정보를 정의하는 기반
-- **[암호화 알고리즘 (RSA/SHA)](./504_cryptographic_algorithms.md)**: JWT 서명을 지탱하는 수학적 기술
-- **[세션 관리](./507_session_management.md)**: 토큰 인증으로 대체하거나 보완하는 전통적 방식
+- **API 보안 일반**: OAuth/OIDC가 해결하고자 하는 전체 도메인
+- **인가 (Authorization) 모델**: 토큰 내부의 권한 정보를 정의하는 기반
+- **암호화 알고리즘 (RSA/SHA)**: JWT 서명을 지탱하는 수학적 기술
+- **세션 관리**: 토큰 인증으로 대체하거나 보완하는 전통적 방식
 
 ---
 

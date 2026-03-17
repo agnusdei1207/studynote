@@ -1,7 +1,7 @@
----
-title: "562. 도커 이미지 최적화: Multi-stage Build, Distroless"
-date: 2026-03-15
----
++++
+title = "562. 도커 이미지 최적화: Multi-stage Build, Distroless"
+date = "2026-03-15"
++++
 
 # 562. 도커 이미지 최적화: Multi-stage Build, Distroless
 
@@ -152,10 +152,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[컨테이너 보안](./513_container_security.md)**: 이미지 최적화가 추구하는 궁극적인 목표
-- **[CI/CD 파이프라인](./515_devsecops_pipeline.md)**: 최적화된 이미지가 유통되는 무대
-- **[쿠버네티스 보안](./515_kubernetes_security.md)**: 최적화된 이미지를 운영하는 상위 플랫폼
-- **[CVE / SCA](./495_sca.md)**: 이미지 최적화의 효과를 측정하는 지표
+- **컨테이너 보안**: 이미지 최적화가 추구하는 궁극적인 목표
+- **CI/CD 파이프라인**: 최적화된 이미지가 유통되는 무대
+- **쿠버네티스 보안**: 최적화된 이미지를 운영하는 상위 플랫폼
+- **CVE / SCA**: 이미지 최적화의 효과를 측정하는 지표
 
 ---
 

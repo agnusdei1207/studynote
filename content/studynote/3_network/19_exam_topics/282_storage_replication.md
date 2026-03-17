@@ -1,5 +1,6 @@
 +++
 title = "스토리지 복제 (Storage Replication)"
+date = "2026-03-14"
 weight = 282
 +++
 
@@ -151,10 +152,10 @@ weight = 282
 ---
 
 ### 📌 관련 개념 링크**:
-- [백업](./281_backup.md)
-- [스냅샷](./283_snapshot.md)
-- [재해 복구](./278_disaster_recovery.md)
-- [SAN](./285_san.md)
+- 백업
+- 스냅샷
+- 재해 복구
+- SAN
 
 ---
 

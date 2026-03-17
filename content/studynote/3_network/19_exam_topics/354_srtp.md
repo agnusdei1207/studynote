@@ -1,5 +1,6 @@
 +++
 title = "SRTP - 보안 RTP"
+date = "2026-03-14"
 weight = 354
 +++
 
@@ -153,10 +154,10 @@ SRTP(Secure RTP)는 RTP 미디어를 암호화합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [RTP](./285_rtp.md)
-- [VoIP](./351_voip.md)
-- [WebRTC](./342_webrtc.md)
-- [DTLS](./9_security/165_dtls.md)
+- RTP
+- VoIP
+- WebRTC
+- DTLS
 
 ---
 

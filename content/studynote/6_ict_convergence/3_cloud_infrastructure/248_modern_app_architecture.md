@@ -1,10 +1,9 @@
----
-title: "[ICT] #248. 현대적 앱 아키텍처: 마이크로 프론트엔드, 이벤트 소싱, CQRS"
-date: "2026-03-17"
++++
+title = "[ICT] #248. 현대적 앱 아키텍처: 마이크로 프론트엔드, 이벤트 소싱, CQRS"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "MicroFrontends_EventSourcing_CQRS_Microservices_MSA_ModernApp"
----
+keyword = "MicroFrontends_EventSourcing_CQRS_Microservices_MSA_ModernApp"
++++
 
 # 마이크로 프론트엔드, 이벤트 소싱, CQRS: 마이크로서비스의 복잡성을 통제하는 현대적 설계 패턴
 
@@ -13,7 +12,7 @@ keyword: "MicroFrontends_EventSourcing_CQRS_Microservices_MSA_ModernApp"
 > 2. **가치**: 이 패턴들은 수백 명의 개발자가 각자의 파트(결제, 장바구니, 리뷰)를 동시에 개발하고 배포해도 시스템이 엉키지 않게 만들며, 수백만 건의 읽기(Read)와 쓰기(Write) 요청을 분리해 극강의 성능 확장을 가능케 한다.
 > 3. **융합**: 단일 기술로는 구현이 불가능하며, 메시지 큐(Apache Kafka)를 통한 비동기 통신망과 브라우저 레벨의 컴포넌트 융합(웹팩 모듈 페더레이션)이 유기적으로 결합되어 완성되는 최상위 아키텍처 디자인이다.
 
----
++++
 
 ## Ⅰ. 현대적 앱 아키텍처 설계 패턴 개요
 
@@ -33,7 +32,7 @@ keyword: "MicroFrontends_EventSourcing_CQRS_Microservices_MSA_ModernApp"
 
 📢 **섹션 요약 비유**: 이 3가지 패턴은 거대한 코끼리(모놀리식 앱)를 여러 마리의 날쌘 치타(MSA)로 조각낼 때, 치타들이 서로 싸우지 않고 하나의 무리처럼 똑똑하게 사냥하도록 만드는 완벽한 '전술 교본'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -102,7 +101,7 @@ keyword: "MicroFrontends_EventSourcing_CQRS_Microservices_MSA_ModernApp"
 
 📢 **섹션 요약 비유**: 글을 쓰는 작가(Command)와 책을 읽어주는 성우(Query)를 완전히 다른 사람으로 고용하여, 작가가 글을 쓰는 동안 성우가 쉴 새 없이 책을 읽어줄 수 있게 만든 분업의 극치입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -121,7 +120,7 @@ keyword: "MicroFrontends_EventSourcing_CQRS_Microservices_MSA_ModernApp"
 
 📢 **섹션 요약 비유**: CRUD가 '연필로 썼다 지우개를 쓰는 장부'라면, 이벤트 소싱은 '만년필로 한 줄 한 줄 이어서 쓰는 일기장'입니다. 지저분하고 길어지지만, 내 과거를 완벽하게 증명해 줍니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -139,7 +138,7 @@ keyword: "MicroFrontends_EventSourcing_CQRS_Microservices_MSA_ModernApp"
 
 📢 **섹션 요약 비유**: 명검(CQRS)은 용(수백만 트래픽)을 잡을 때만 뽑아야 합니다. 파리(사내 시스템)를 잡겠다고 명검을 마구 휘두르면 내 손목(개발팀)만 날아갈 뿐입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -153,13 +152,13 @@ keyword: "MicroFrontends_EventSourcing_CQRS_Microservices_MSA_ModernApp"
 
 📢 **섹션 요약 비유**: 이 3가지 패턴은 소프트웨어라는 레고 성을 지을 때, 무작정 통째로 본드를 칠하지 않고 언제든 층을 나누고 부품을 갈아 끼울 수 있게 만든 '현대 건축 공학의 마스터피스'입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[마이크로서비스 아키텍처 (MSA)](../../4_software_engineering/xx_msa.md)**: 이 모든 쪼개기 철학이 파생된 근본 사상.
-- **[카프카 (Apache Kafka)](./256_apache_kafka.md)**: 이벤트 소싱에서 발생한 수만 개의 로그를 잃어버리지 않고 전달해 주는 거대한 우체통.
-- **[서버리스 (FaaS)](./187_faas_serverless.md)**: 쪼개진 이벤트들을 실시간으로 처리하기 가장 좋은 비용 최적화 인프라.
-- **[최종 일관성 (Eventual Consistency)](#)**: CQRS의 부작용으로, 데이터가 동기화되기 전의 찰나의 불일치를 허용하는 개념.
+- **마이크로서비스 아키텍처 (MSA)**: 이 모든 쪼개기 철학이 파생된 근본 사상.
+- **카프카 (Apache Kafka)**: 이벤트 소싱에서 발생한 수만 개의 로그를 잃어버리지 않고 전달해 주는 거대한 우체통.
+- **서버리스 (FaaS)**: 쪼개진 이벤트들을 실시간으로 처리하기 가장 좋은 비용 최적화 인프라.
+- **최종 일관성 (Eventual Consistency)**: CQRS의 부작용으로, 데이터가 동기화되기 전의 찰나의 불일치를 허용하는 개념.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **각자 그리는 모자이크 (마이크로 프론트엔드)**: 커다란 도화지에 한 명이 다 그리지 않고, 철수는 나무, 영희는 구름을 따로 그려서 나중에 스티커처럼 딱 붙여 완성하는 그림이에요.

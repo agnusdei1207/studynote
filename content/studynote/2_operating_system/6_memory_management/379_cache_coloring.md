@@ -1,6 +1,7 @@
 +++
-weight = 379
 title = "379. 캐시 컬러링 (Cache Coloring) / 페이지 컬러링"
+date = "2026-03-14"
+weight = 379
 +++
 
 # 379. 캐시 컬러링 (Cache Coloring) / 페이지 컬러링

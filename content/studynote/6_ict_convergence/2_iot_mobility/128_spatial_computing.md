@@ -1,10 +1,9 @@
----
-title: "[ICT] #129. 공간 컴퓨팅 (Spatial Computing)"
-date: "2026-03-17"
++++
+title = "[ICT] #129. 공간 컴퓨팅 (Spatial Computing)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "SpatialComputing_3DInteraction_AppleVisionPro_XR_SpatialMapping_UIUX"
----
+keyword = "SpatialComputing_3DInteraction_AppleVisionPro_XR_SpatialMapping_UIUX"
++++
 
 # 공간 컴퓨팅 (Spatial Computing): 모니터를 벗어나 세상을 캔버스로 쓰는 컴퓨팅 패러다임
 
@@ -13,7 +12,7 @@ keyword: "SpatialComputing_3DInteraction_AppleVisionPro_XR_SpatialMapping_UIUX"
 > 2. **가치**: 현실의 객체와 가상의 디지털 정보를 끊김 없이 융합(Seamless Blending)하여, 인간이 세상을 인지하는 방식(자연스러운 시선, 손짓, 목소리) 그대로 기계와 소통할 수 있게 함으로써 궁극의 직관적 UX를 제공한다.
 > 3. **융합**: 애플(Apple)의 Vision Pro 발표로 본격화되었으며, 고정밀 라이다(LiDAR), 심도 카메라(Depth Camera), 공간 오디오(Spatial Audio), 실시간 AI 렌더링 칩셋이 총망라된 하드웨어·소프트웨어의 융합 결정체다.
 
----
++++
 
 ## Ⅰ. 공간 컴퓨팅 (Spatial Computing) 개요
 
@@ -31,7 +30,7 @@ keyword: "SpatialComputing_3DInteraction_AppleVisionPro_XR_SpatialMapping_UIUX"
 
 📢 **섹션 요약 비유**: 책상 위 작은 모니터에 갇혀있던 디지털 요정들이 모니터를 깨고 나와 우리 집 거실을 자유롭게 날아다니게 만든 '디지털 해방 선언'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -81,7 +80,7 @@ keyword: "SpatialComputing_3DInteraction_AppleVisionPro_XR_SpatialMapping_UIUX"
 
 📢 **섹션 요약 비유**: 진짜 방과 가짜 물건이 한 공간에 있을 때, 그림자와 가려짐까지 완벽하게 계산해 내어 '뇌가 진짜라고 착각하게 만드는 속임수'의 극치입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -101,7 +100,7 @@ keyword: "SpatialComputing_3DInteraction_AppleVisionPro_XR_SpatialMapping_UIUX"
 
 📢 **섹션 요약 비유**: 모니터 속 2차원 '종이 세상'에서 살던 프로그램들을 꺼내어, 우리와 같은 3차원 '입체 세상'의 방을 배정해 주고 관리하는 새로운 법(OS)입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -119,7 +118,7 @@ keyword: "SpatialComputing_3DInteraction_AppleVisionPro_XR_SpatialMapping_UIUX"
 
 📢 **섹션 요약 비유**: 이사를 갈 때 무거운 가구를 들고 갈 필요 없이, 내가 어느 방에 들어가든 마법처럼 '나만의 맞춤형 사무실'이 허공에 펼쳐지는 미래의 업무 방식입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -133,13 +132,13 @@ keyword: "SpatialComputing_3DInteraction_AppleVisionPro_XR_SpatialMapping_UIUX"
 
 📢 **섹션 요약 비유**: 공간 컴퓨팅은 인류가 40년 동안 붙잡고 있던 '마우스와 키보드'라는 목발을 버리고, 마침내 디지털 세계 속으로 직접 걸어 들어가게 만드는 '최후의 문'입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[XR (가상/증강/혼합 현실)](./127_xr_vr_ar_mr.md)**: 공간 컴퓨팅을 시각적으로 구현하는 하드웨어 및 디스플레이 기술.
-- **[SLAM](./130_slam_vslam.md)**: 공간 컴퓨팅 기기가 주변 공간을 인식하고 지도를 그리는 원천 기술.
-- **[디지털 트윈](./125_digital_twin.md)**: 공간 컴퓨팅을 통해 실감 나게 상호작용할 수 있는 현실의 복제본.
-- **[메타버스 (Metaverse)](./133_metaverse.md)**: 공간 컴퓨팅 기기를 쓰고 접속하게 될 차세대 3D 인터넷 세상.
+- **XR (가상/증강/혼합 현실)**: 공간 컴퓨팅을 시각적으로 구현하는 하드웨어 및 디스플레이 기술.
+- **SLAM**: 공간 컴퓨팅 기기가 주변 공간을 인식하고 지도를 그리는 원천 기술.
+- **디지털 트윈**: 공간 컴퓨팅을 통해 실감 나게 상호작용할 수 있는 현실의 복제본.
+- **메타버스 (Metaverse)**: 공간 컴퓨팅 기기를 쓰고 접속하게 될 차세대 3D 인터넷 세상.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **허공이 스케치북**: 책상 위의 모니터를 없애버리고, 내 방 벽이나 텅 빈 허공에 영화를 띄워놓고 보는 마법 안경이에요.

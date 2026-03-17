@@ -1,10 +1,9 @@
----
-title: "[ICT] #268. 인간 피드백 강화학습 (RLHF) 및 RLAIF, DPO"
-date: "2026-03-17"
++++
+title = "[ICT] #268. 인간 피드백 강화학습 (RLHF) 및 RLAIF, DPO"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "RLHF_ReinforcementLearningFromHumanFeedback_DPO_DirectPreferenceOptimization_RLAIF_Alignment"
----
+keyword = "RLHF_ReinforcementLearningFromHumanFeedback_DPO_DirectPreferenceOptimization_RLAIF_Alignment"
++++
 
 # RLHF 및 DPO: 인간의 가치관과 도덕을 AI의 영혼에 새겨넣는 정렬(Alignment) 기술
 
@@ -13,7 +12,7 @@ keyword: "RLHF_ReinforcementLearningFromHumanFeedback_DPO_DirectPreferenceOptimi
 > 2. **가치**: 아무리 똑똑한 AI라도 해킹 방법이나 인종 차별적 발언을 뱉어내면 상용화할 수 없다. RLHF는 AI의 답변 방향을 인간의 도덕, 윤리, 유용성에 맞추는 **정렬(Alignment)**을 통해 ChatGPT와 같은 거대한 B2C 서비스를 대중 앞에 안전하게 내놓을 수 있게 만든 결정적 기술이다.
 > 3. **융합**: 인간 라벨러의 비싼 인건비를 줄이기 위해 다른 AI(GPT-4 등)가 대신 채점하는 RLAIF, 그리고 복잡한 강화학습 과정을 아예 생략하고 선호도 데이터만으로 직접 모델을 교정하는 최신 **DPO(직접 선호도 최적화)** 기술로 융합 발전하며 AI 훈련의 패러다임을 혁신하고 있다.
 
----
++++
 
 ## Ⅰ. RLHF 및 정렬(Alignment) 개요
 
@@ -33,7 +32,7 @@ keyword: "RLHF_ReinforcementLearningFromHumanFeedback_DPO_DirectPreferenceOptimi
 
 📢 **섹션 요약 비유**: 야생마(Base)에게 안장을 얹는 것(SFT)을 넘어, 기수의 미세한 고갯짓(인간의 가치관)만으로도 멈추고 달리는 '완벽한 교감(Alignment)'을 이루어내는 마술입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -93,7 +92,7 @@ keyword: "RLHF_ReinforcementLearningFromHumanFeedback_DPO_DirectPreferenceOptimi
 
 📢 **섹션 요약 비유**: 수만 장의 시험지를 인간 선생님(RLHF)이 채점하다 쓰러질 것 같으니, 전교 1등 학생(RLAIF)에게 채점 알바를 맡기는 고도의 자동화 프로세스입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -112,7 +111,7 @@ keyword: "RLHF_ReinforcementLearningFromHumanFeedback_DPO_DirectPreferenceOptimi
 
 📢 **섹션 요약 비유**: 무거운 갑옷과 칼(RLHF)로 무장했던 군대가, 가볍고 치명적인 권총(DPO) 하나로 똑같은 파괴력을 내며 게릴라전(오픈소스 생태계)을 펼치게 된 무기 체계의 혁명입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -130,7 +129,7 @@ keyword: "RLHF_ReinforcementLearningFromHumanFeedback_DPO_DirectPreferenceOptimi
 
 📢 **섹션 요약 비유**: 아이(AI)에게 너무 엄격한 도덕(Alignment)만 강요하면 소심해져서 아무 말도 못 하게 됩니다(Alignment Tax). 적당히 선을 지키면서도 상상력을 발휘하게 하는 '줄타기 교육'이 최고의 AI 엔지니어링입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -144,13 +143,13 @@ keyword: "RLHF_ReinforcementLearningFromHumanFeedback_DPO_DirectPreferenceOptimi
 
 📢 **섹션 요약 비유**: RLHF와 DPO는 고철 덩어리(AI)에 불과하던 기계에게 '선과 악', '친절과 불친절'을 구별할 줄 아는 따뜻한 '인간의 영혼'을 불어넣은 디지털 프로메테우스의 불꽃입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[파운데이션 모델](./261_foundation_model.md)**: 제일 처음 지식을 욱여넣은 순백의 도화지.
-- **[인스트럭션 튜닝 (SFT)](./267_instruction_tuning.md)**: RLHF를 시작하기 전 반드시 거쳐야 하는 1차 예절 교육.
-- **[프롬프트 엔지니어링](./271_prompt_engineering.md)**: 정렬이 끝난 AI를 실전에서 가장 잘 다루기 위해 질문을 예쁘게 포장하는 기술.
-- **[환각 (Hallucination)](./275_hallucination.md)**: Alignment가 제대로 되지 않았을 때 AI가 내뱉는 치명적인 거짓말.
+- **파운데이션 모델**: 제일 처음 지식을 욱여넣은 순백의 도화지.
+- **인스트럭션 튜닝 (SFT)**: RLHF를 시작하기 전 반드시 거쳐야 하는 1차 예절 교육.
+- **프롬프트 엔지니어링**: 정렬이 끝난 AI를 실전에서 가장 잘 다루기 위해 질문을 예쁘게 포장하는 기술.
+- **환각 (Hallucination)**: Alignment가 제대로 되지 않았을 때 AI가 내뱉는 치명적인 거짓말.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **착한 아이 칭찬 스티커 (RLHF)**: 챗봇이 나쁜 말을 하면 벌점을 주고, 착하고 예쁜 말을 하면 칭찬 스티커(보상)를 줘서 "아, 이렇게 말해야 사람들이 좋아하는구나!"를 깨닫게 하는 훈련이에요.

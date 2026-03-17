@@ -1,5 +1,6 @@
 +++
 title = "상호변조 잡음 (Intermodulation Noise)"
+date = "2026-03-14"
 weight = 29
 +++
 
@@ -145,10 +146,10 @@ weight = 29
 ---
 
 ### 📌 관련 개념 링크**:
-- [백색 잡음 White Noise](./27_white_noise.md)
-- [증폭기 Amplifier](./140_amplifier.md)
-- [혼선 Crosstalk](./30_crosstalk.md)
-- [주파수 할당 Frequency Allocation](./85_frequency_allocation.md)
+- 백색 잡음 White Noise
+- 증폭기 Amplifier
+- 혼선 Crosstalk
+- 주파수 할당 Frequency Allocation
 
 ---
 

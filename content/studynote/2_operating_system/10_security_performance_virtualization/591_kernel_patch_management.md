@@ -1,6 +1,7 @@
 +++
-weight = 591
 title = "591. 커널 보안 패치 및 취약점 관리 (Kernel Security Patch and Vulnerability Management)"
+date = "2026-03-14"
+weight = 591
 +++
 
 # # [커널 보안 패치 및 취약점 관리 (Kernel Security Patch and Vulnerability Management)]

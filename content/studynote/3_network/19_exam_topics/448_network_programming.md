@@ -1,5 +1,6 @@
 +++
 title = "네트워크 프로그래밍 - Network Programming"
+date = "2026-03-14"
 weight = 448
 +++
 
@@ -146,10 +147,10 @@ weight = 448
 ---
 
 ### 📌 관련 개념 링크**:
-- [네트워크 자동화](./449_network_automation.md)
-- [SDN](./440_sdn.md)
-- [SNMP](./327_snmp.md)
-- [DevOps](../4_software_engineering/11_exam_summary/xxx.md)
+- 네트워크 자동화
+- SDN
+- SNMP
+- DevOps
 
 ---
 

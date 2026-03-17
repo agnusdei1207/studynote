@@ -1,5 +1,6 @@
 +++
 title = "Service Mesh - 서비스 메시"
+date = "2026-03-14"
 weight = 726
 +++
 
@@ -101,6 +102,6 @@ Service Mesh는 서비스 간 통신을 관리합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Microservices](./617_microservices.md)
-- [Sidecar Pattern](./729_sidecar_pattern.md)
-- [Istio](./727_istio.md)
+- Microservices
+- Sidecar Pattern
+- Istio

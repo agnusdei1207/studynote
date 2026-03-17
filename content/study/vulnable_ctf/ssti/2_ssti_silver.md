@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: SSTI 🥈 Silver"
-description = "LUXORA 플랫폼의 SSTI 괄호 필터링(Parentheses Filtering) 우회 및 환경변수 탈취 상세 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "SSTI", "Silver", "Bypass", "Write-up"]

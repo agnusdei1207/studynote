@@ -1,7 +1,7 @@
----
 +++
-weight = 540
 title = "540. 그룹화 (Grouping) 및 계수 (Counting) 방식"
+date = "2026-03-14"
+weight = 540
 +++
 
 # 540. 그룹화 (Grouping) 및 계수 (Counting) 방식

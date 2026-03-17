@@ -1,6 +1,7 @@
 +++
-weight = 542
 title = "542. 포인터 인증 (Pointer Authentication, ARM PAC)"
+date = "2026-03-14"
+weight = 542
 +++
 
 # 542. 포인터 인증 (Pointer Authentication, ARM PAC)

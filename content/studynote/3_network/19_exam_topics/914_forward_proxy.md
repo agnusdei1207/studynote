@@ -1,5 +1,6 @@
 +++
 title = "Forward Proxy - 포워드 프록시"
+date = "2026-03-14"
 weight = 914
 +++
 
@@ -105,6 +106,6 @@ Forward Proxy는 클라이언트를 대신하여 요청을 전송합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Proxy](./912_proxy.md)
-- [Reverse Proxy](./913_reverse_proxy.md)
-- [Firewall](./874_firewall.md)
+- Proxy
+- Reverse Proxy
+- Firewall

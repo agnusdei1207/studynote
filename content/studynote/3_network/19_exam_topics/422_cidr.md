@@ -1,5 +1,6 @@
 +++
 title = "CIDR - Classless Inter-Domain Routing"
+date = "2026-03-14"
 weight = 422
 +++
 
@@ -139,10 +140,10 @@ CIDR은 클래스 경계 없이 IP 주소를 할당합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [VLSM](./424_vlsm.md)
-- [Subnetting](./423_subnetting.md)
-- [라우팅](./311_routing.md)
-- [NAT](./304_nat.md)
+- VLSM
+- Subnetting
+- 라우팅
+- NAT
 
 ---
 

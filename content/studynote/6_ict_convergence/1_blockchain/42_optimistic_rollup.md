@@ -1,10 +1,9 @@
----
-title: "[ICT] #43. 옵티미스틱 롤업 (Optimistic Rollup)"
-date: "2026-03-17"
++++
+title = "[ICT] #43. 옵티미스틱 롤업 (Optimistic Rollup)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Optimistic_Rollup_Fraud_Proof_Dispute_Period_Arbitrum_Optimism"
----
+keyword = "Optimistic_Rollup_Fraud_Proof_Dispute_Period_Arbitrum_Optimism"
++++
 
 # 옵티미스틱 롤업 (Optimistic Rollup): 신뢰를 전제로 한 효율적 확장과 사기 증명
 
@@ -13,7 +12,7 @@ keyword: "Optimistic_Rollup_Fraud_Proof_Dispute_Period_Arbitrum_Optimism"
 > 2. **가치**: EVM(이더리움 가상머신)과 거의 완벽한 호환성을 제공하여 기존 DApp들을 코드 수정 없이 이식할 수 있으며, 연산 집약적인 영지식 증명 없이도 즉각적인 처리 성능을 확보한다.
 > 3. **융합**: 잘못된 상태 전이 발견 시 증거를 제출하는 **사기 증명(Fraud Proof)** 메커니즘과 경제적 페널티(슬래싱)가 결합되어, '정직한 참여자가 최소 한 명만 있어도 안전함'을 보장하는 게임 이론적 보안 모델을 가진다.
 
----
++++
 
 ## Ⅰ. 옵티미스틱 롤업 (Optimistic Rollup) 개요
 
@@ -30,7 +29,7 @@ keyword: "Optimistic_Rollup_Fraud_Proof_Dispute_Period_Arbitrum_Optimism"
 
 📢 **섹션 요약 비유**: 복잡한 공항 검색대를 매번 통과하는 대신, 일단 통과시키고 짐 속에 위험물이 발견되면 강력하게 처벌하는 '자율 통관 시스템'과 같은 효율성을 추구합니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -80,7 +79,7 @@ keyword: "Optimistic_Rollup_Fraud_Proof_Dispute_Period_Arbitrum_Optimism"
 
 📢 **섹션 요약 비유**: 수만 페이지의 책에서 오타를 찾을 때, 책 전체를 검사하는 게 아니라 "몇 페이지 몇째 줄이 틀렸어!"라고 지목하면 그 부분만 확인하는 '핀포인트 검증' 방식입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -100,7 +99,7 @@ keyword: "Optimistic_Rollup_Fraud_Proof_Dispute_Period_Arbitrum_Optimism"
 
 📢 **섹션 요약 비유**: 옵티미스틱이 사후 약방문(하지만 처벌이 매우 강력한)이라면, ZK는 사전 예방 접종과 같은 성격의 차이가 있습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -114,7 +113,7 @@ keyword: "Optimistic_Rollup_Fraud_Proof_Dispute_Period_Arbitrum_Optimism"
 
 📢 **섹션 요약 비유**: 새 길(L2)을 뚫었지만 집(L1)으로 돌아오는 문은 일주일 뒤에 열리는 구조이므로, 미리 길을 아는 안내원(패스트 브리지)에게 수수료를 내고 빨리 돌아오는 우회로를 설계해야 합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -128,13 +127,13 @@ keyword: "Optimistic_Rollup_Fraud_Proof_Dispute_Period_Arbitrum_Optimism"
 
 📢 **섹션 요약 비유**: 옵티미스틱 롤업은 블록체인 상용화라는 거대한 산을 넘기 위해 가장 먼저 만들어진 **'가장 튼튼하고 넓은 도로'**입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[롤업 (Rollup)](./41_rollup.md)**: 옵티미스틱 롤업의 상위 개념.
-- **[ZK 롤업](./44_zk_rollup.md)**: 옵티미스틱의 강력한 경쟁 기술.
-- **[사기 증명 (Fraud Proof)](./xx_fraud_proof.md)**: 보안을 지탱하는 핵심 기술 도구.
-- **[EVM 호환성](./22_evm.md)**: 옵티미스틱 롤업의 가장 큰 강점.
+- **롤업 (Rollup)**: 옵티미스틱 롤업의 상위 개념.
+- **ZK 롤업**: 옵티미스틱의 강력한 경쟁 기술.
+- **사기 증명 (Fraud Proof)**: 보안을 지탱하는 핵심 기술 도구.
+- **EVM 호환성**: 옵티미스틱 롤업의 가장 큰 강점.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **일단 믿어주기**: 친구들이 쓴 일기장을 선생님이 일일이 다 안 보고 "정직한 친구들이니까 다 잘 썼겠지?"라고 일단 믿어주는 규칙이에요.

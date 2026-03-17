@@ -1,5 +1,6 @@
 +++
 title = "Firewall - 방화벽"
+date = "2026-03-14"
 weight = 564
 +++
 
@@ -95,6 +96,6 @@ Firewall은 네트워크 경계에서 트래픽을 필터링합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [ACL](./565_acl.md)
-- [WAF](./566_waf.md)
-- [IDS/IPS](./567_ids_ips.md)
+- ACL
+- WAF
+- IDS/IPS

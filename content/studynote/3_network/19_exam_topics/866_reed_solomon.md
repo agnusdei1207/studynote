@@ -1,5 +1,6 @@
 +++
 title = "Reed-Solomon - 리드-솔로몬"
+date = "2026-03-14"
 weight = 866
 +++
 
@@ -111,6 +112,6 @@ Reed-Solomon은 블록 단위로 오류를 수정합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [FEC](./861_fec.md)
-- [Error Correction](./809_error_correction.md)
-- [Erasure Coding](./xxx_erasure.md)
+- FEC
+- Error Correction
+- Erasure Coding

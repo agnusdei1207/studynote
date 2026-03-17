@@ -1,6 +1,7 @@
 +++
-weight = 32
 title = "32. 펌웨어 (Firmware) - 하드웨어 제어 핵심 소프트웨어"
+date = "2026-03-14"
+weight = 32
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -110,9 +111,9 @@ title = "32. 펌웨어 (Firmware) - 하드웨어 제어 핵심 소프트웨어"
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[UEFI vs BIOS](./30_uefi_vs_bios.md)**: 가장 대표적인 시스템 펌웨어의 규격.
-- **[장치 드라이버 (Device Driver)](./14_device_driver.md)**: 펌웨어와 짝을 이루어 동작하는 OS 소프트웨어.
-- **[임베디드 시스템 (Embedded System)](./10_embedded_system.md)**: 펌웨어가 OS 역할을 수행하는 특수 환경.
+- **UEFI vs BIOS**: 가장 대표적인 시스템 펌웨어의 규격.
+- **장치 드라이버 (Device Driver)**: 펌웨어와 짝을 이루어 동작하는 OS 소프트웨어.
+- **임베디드 시스템 (Embedded System)**: 펌웨어가 OS 역할을 수행하는 특수 환경.
 
 ---
 

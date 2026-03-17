@@ -1,10 +1,9 @@
----
-title: "[ICT] #38. zk-SNARKs (Zero-Knowledge Succinct Non-Interactive Argument of Knowledge)"
-date: "2026-03-17"
++++
+title = "[ICT] #38. zk-SNARKs (Zero-Knowledge Succinct Non-Interactive Argument of Knowledge)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "zkSNARKs_Zero_Knowledge_Succinct_Non_Interactive_Trusted_Setup"
----
+keyword = "zkSNARKs_Zero_Knowledge_Succinct_Non_Interactive_Trusted_Setup"
++++
 
 # zk-SNARKs: 간결하고 강력한 비대화형 영지식 증명의 핵심
 
@@ -13,7 +12,7 @@ keyword: "zkSNARKs_Zero_Knowledge_Succinct_Non_Interactive_Trusted_Setup"
 > 2. **가치**: 증명값의 크기가 매우 작고(Succinct) 검증 속도가 밀리초(ms) 단위로 빨라, 대량의 트랜잭션을 압축하여 메인넷에 기록하는 **ZK-Rollup**의 핵심 동력으로 작용한다.
 > 3. **융합**: 고도의 이산 대수 문제와 다항식 연산을 기반으로 하며, 신규 시스템 가동 시 초기 보안 파라미터를 생성하는 **신뢰 설정(Trusted Setup)** 절차의 무결성 관리가 실무적 성공의 관건이다.
 
----
++++
 
 ## Ⅰ. zk-SNARKs 개요
 
@@ -31,7 +30,7 @@ keyword: "zkSNARKs_Zero_Knowledge_Succinct_Non_Interactive_Trusted_Setup"
 
 📢 **섹션 요약 비유**: 수백 명의 출석 여부를 확인하기 위해 한 명씩 이름을 부르는 대신, 모두가 찍힌 단 한 장의 사진(증명)만 보고 1초 만에 확인을 끝내는 '초고속 인증 기술'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -79,7 +78,7 @@ keyword: "zkSNARKs_Zero_Knowledge_Succinct_Non_Interactive_Trusted_Setup"
 
 📢 **섹션 요약 비유**: 복잡한 수식을 일일이 푸는 대신, 정답지의 홀로그램(증명값)만 대조해보고 "이건 가짜가 아니야"라고 확신하는 '수학적 위변조 방지 시스템'입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -100,7 +99,7 @@ keyword: "zkSNARKs_Zero_Knowledge_Succinct_Non_Interactive_Trusted_Setup"
 
 📢 **섹션 요약 비유**: SNARKs가 작고 빠른 '경주용 드론'이라면, STARKs는 크고 묵직하지만 어디든 갈 수 있는 '전천후 장갑차'와 같은 차이가 있습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -114,7 +113,7 @@ keyword: "zkSNARKs_Zero_Knowledge_Succinct_Non_Interactive_Trusted_Setup"
 
 📢 **섹션 요약 비유**: 비밀번호를 만드는 과정에서 스파이가 숨어들지 못하게 전 세계 친구들이 돌아가며 감시하는 '엄격한 보안 의식'이 기술보다 더 중요할 수 있습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -128,13 +127,13 @@ keyword: "zkSNARKs_Zero_Knowledge_Succinct_Non_Interactive_Trusted_Setup"
 
 📢 **섹션 요약 비유**: zk-SNARKs는 블록체인이라는 방대한 도서관의 모든 책 내용을 단 한 줄의 '진실 마크'로 요약해내는 **암호학적 마법**입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[영지식 증명 (ZKP)](./36_zero_knowledge_proof.md)**: zk-SNARKs의 상위 개념 및 기초 이론.
-- **[ZK-Rollup](./44_zk_rollup.md)**: zk-SNARKs를 이용한 대표적 확장성 솔루션.
-- **[Trusted Setup](./xx_trusted_setup.md)**: zk-SNARKs 가동을 위한 초기 보안 절차.
-- **[zkEVM](./74_zkevm.md)**: 스마트 컨트랙트 실행을 ZK 증명으로 변환하는 가상머신.
+- **영지식 증명 (ZKP)**: zk-SNARKs의 상위 개념 및 기초 이론.
+- **ZK-Rollup**: zk-SNARKs를 이용한 대표적 확장성 솔루션.
+- **Trusted Setup**: zk-SNARKs 가동을 위한 초기 보안 절차.
+- **zkEVM**: 스마트 컨트랙트 실행을 ZK 증명으로 변환하는 가상머신.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **비밀 정답지**: 수학 시험을 보는데, 정답을 보여주지 않고도 "나 정답 다 알아요!"라고 적힌 특별한 도장 하나만 보여주면 백점을 인정받는 거예요.

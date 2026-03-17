@@ -1,5 +1,6 @@
 +++
 title = "Canary Deployment - 카나리 배포"
+date = "2026-03-14"
 weight = 731
 +++
 
@@ -99,6 +100,6 @@ Canary Deployment는 점진적으로 트래픽을 이동합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Blue-Green Deployment](./730_blue_green_deployment.md)
-- [Rolling Deployment](./733_rolling_deployment.md)
-- [Feature Flags](./734_feature_flags.md)
+- Blue-Green Deployment
+- Rolling Deployment
+- Feature Flags

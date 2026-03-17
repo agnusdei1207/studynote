@@ -1,5 +1,6 @@
 +++
 title = "Redis - 레디스"
+date = "2026-03-14"
 weight = 621
 +++
 
@@ -96,6 +97,6 @@ Redis는 메모리 기반의 키-값 데이터 저장소입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Caching](./620_caching.md)
-- [Database](./622_database_basics.md)
-- [Message Queue](./623_message_queue.md)
+- Caching
+- Database
+- Message Queue

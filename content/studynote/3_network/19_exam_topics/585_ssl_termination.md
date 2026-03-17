@@ -1,5 +1,6 @@
 +++
 title = "SSL Termination - SSL 종료"
+date = "2026-03-14"
 weight = 585
 +++
 
@@ -97,6 +98,6 @@ SSL Termination은 프록시에서 암호화를 해제합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TLS](./560_tls.md)
-- [Reverse Proxy](./583_reverse_proxy.md)
-- [Load Balancer](./582_load_balancer.md)
+- TLS
+- Reverse Proxy
+- Load Balancer

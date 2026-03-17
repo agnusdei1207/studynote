@@ -1,5 +1,6 @@
 +++
 title = "Subnetting - 서브네팅"
+date = "2026-03-14"
 weight = 528
 +++
 
@@ -95,6 +96,6 @@ Subnetting은 네트워크를 더 작은 단위로 분할합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [IP Addressing](./527_ip_addressing.md)
-- [CIDR](./529_cidr.md)
-- [VLSM](./529_vlsm.md)
+- IP Addressing
+- CIDR
+- VLSM

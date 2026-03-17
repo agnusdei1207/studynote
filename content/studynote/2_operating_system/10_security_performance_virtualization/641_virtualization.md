@@ -1,7 +1,7 @@
 +++
-weight = 641
 title = "641. 가상화 (Virtualization)"
 date = "2026-03-16"
+weight = 641
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "가상화", "Virtualization", "하이퍼바이저", "VM", "가상머신", "Type1/Type2"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "가상화", "Virtualization", "하이퍼바이저",
 > 2. **가치**: 하드웨어 활용도 극대화, **리소스 격리**, **신속한 프로비저닝**, **마이그레이션** 용이성을 제공하여 클라우드 컴퓨팅의 기반이 되었다.
 > 3. **융합**: Type 1(Bare Metal), Type 2(Hosted) 하이퍼바이저, 컨테이너(Docker), 파라가상화, 전가상화 등 다양한 기법이 하드웨어 지원(Intel VT-x, AMD-V)과 결합한다.
 
----
++++
 
 ## Ⅰ. 가상화의 개요
 
@@ -33,7 +33,7 @@ keywords = ["운영체제", "가상화", "Virtualization", "하이퍼바이저",
 
 - **📢 섹션 요약 비유**: 하나의 큰 부엌(물리 서버)을 칸막이로 나누어 여러 사람이 각자 요리(VM 실행)할 수 있게 하는 것입니다.
 
----
++++
 
 ## Ⅱ. 하이퍼바이저 유형 (Deep Dive)
 
@@ -87,7 +87,7 @@ keywords = ["운영체제", "가상화", "Virtualization", "하이퍼바이저",
 | **Type 2** | VirtualBox | 무료, 크로스플랫폼 | 개발/테스트 |
 | **Type 2** | Parallels | macOS 최적화 | Mac 사용자 |
 
----
++++
 
 ## Ⅲ. 가상화 기법
 
@@ -150,7 +150,7 @@ keywords = ["운영체제", "가상화", "Virtualization", "하이퍼바이저",
 
 - **📢 섹션 요약 비유**: 전가상화는 "번역기 통해 대화", 파라가상화는 "직접 알아듣는 말로 대화", HVM은 "모국어로 대화"하는 차이입니다.
 
----
++++
 
 ## Ⅳ. 메모리 및 CPU 가상화
 
@@ -186,7 +186,7 @@ keywords = ["운영체제", "가상화", "Virtualization", "하이퍼바이저",
 - **Ballooning**: Guest OS 내부 드라이버가 여유 메모리 반납
 - **Swapping**: 메모리 부족 시 디스크 스왑
 
----
++++
 
 ## Ⅴ. 가상화의 응용 및 이점
 
@@ -228,7 +228,7 @@ keywords = ["운영체제", "가상화", "Virtualization", "하이퍼바이저",
 - **"Over-allocation"**: 실제 필요 이상의 리소스 할당
 - **"Type 2를 프로덕션에 사용"**
 
----
++++
 
 ## Ⅵ. 기대효과 및 결론
 
@@ -242,15 +242,15 @@ keywords = ["운영체제", "가상화", "Virtualization", "하이퍼바이저",
 - **NFV**: 네트워크 기능 가상화 (5G)
 - **Edge Computing**: 엣지에서 가상화
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[컨테이너](./642_container.md)**: 경량 가상화
-- **[클라우드 컴퓨팅](../16_distributed_systems/xxx_cloud.md)**: 가상화 기반 서비스
-- **[KVM](./643_kvm.md)**: Linux 가상화
-- **[Docker](./644_docker.md)**: 컨테이너 엔진
+- **컨테이너**: 경량 가상화
+- **클라우드 컴퓨팅**: 가상화 기반 서비스
+- **KVM**: Linux 가상화
+- **Docker**: 컨테이너 엔진
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 가상화는 **'마법처럼 여러 개가 되는 상자'** 같아요.

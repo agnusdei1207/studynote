@@ -1,6 +1,7 @@
 +++
-weight = 612
 title = "612. 하이퍼바이저 (Hypervisor) - Type 1 (Bare-metal) vs Type 2 (Hosted)"
+date = "2026-03-14"
+weight = 612
 +++
 
 # 612. 하이퍼바이저 (Hypervisor) - Type 1 (Bare-metal) vs Type 2 (Hosted)

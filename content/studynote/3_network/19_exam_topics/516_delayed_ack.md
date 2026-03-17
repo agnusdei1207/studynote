@@ -1,5 +1,6 @@
 +++
 title = "Delayed ACK - 지연 승인"
+date = "2026-03-14"
 weight = 516
 +++
 
@@ -93,6 +94,6 @@ Delayed ACK는 ACK 전송을 잠시 지연합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./332_tcp.md)
-- [Nagle](./507_nagle_algorithm.md)
-- [SWS](./508_silly_window.md)
+- TCP
+- Nagle
+- SWS

@@ -1,5 +1,6 @@
 +++
 title = "경사 과부하 / 과립러 잡음 (Slope Overload / Granular Noise)"
+date = "2026-03-14"
 weight = 67
 +++
 
@@ -168,10 +169,10 @@ weight = 67
 ---
 
 ### 📌 관련 개념 링크**:
-- [델타 변조 Delta Modulation](./65_delta_modulation.md)
-- [ADM 적응형 DM](./66_adm_adaptive.md)
-- [양자화 잡음](./60_quantization_noise.md)
-- [DPCM 차분 PCM](./63_dpcm_differential.md)
+- 델타 변조 Delta Modulation
+- ADM 적응형 DM
+- 양자화 잡음
+- DPCM 차분 PCM
 
 ---
 

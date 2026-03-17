@@ -1,6 +1,6 @@
----
 +++
 title = "340. SCSI 및 SAS (Serial Attached SCSI)"
+date = "2026-03-14"
 weight = 340
 +++
 

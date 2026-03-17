@@ -1,6 +1,7 @@
 +++
-weight = 24
 title = "24. 마이크로 커널 (Microkernel) - 최소 기능 및 높은 신뢰성 아키텍처"
+date = "2026-03-14"
+weight = 24
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -110,9 +111,9 @@ title = "24. 마이크로 커널 (Microkernel) - 최소 기능 및 높은 신뢰
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[모놀리식 커널 (Monolithic Kernel)](./23_monolithic_kernel.md)**: 모든 기능을 커널에 담은 통합 아키텍처.
-- **[하이브리드 커널 (Hybrid Kernel)](./25_hybrid_kernel.md)**: 모놀리식과 마이크로의 장점을 섞은 구조.
-- **[메시지 전달 (Message Passing)](../2_process_thread/119_message_passing.md)**: 마이크로 커널의 핵심 통신 기법.
+- **모놀리식 커널 (Monolithic Kernel)**: 모든 기능을 커널에 담은 통합 아키텍처.
+- **하이브리드 커널 (Hybrid Kernel)**: 모놀리식과 마이크로의 장점을 섞은 구조.
+- **메시지 전달 (Message Passing)**: 마이크로 커널의 핵심 통신 기법.
 
 ---
 

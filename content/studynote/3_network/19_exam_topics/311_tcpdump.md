@@ -1,5 +1,6 @@
 +++
 title = "tcpdump - CLI 패킷 캡처"
+date = "2026-03-14"
 weight = 311
 +++
 
@@ -147,10 +148,10 @@ tcpdump는 명령줄 기반 패킷 캡처 도구입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Wireshark](./310_wireshark.md)
-- [패킷 캡처](./309_packet_capture.md)
-- [BPF](./259_ebpf.md)
-- [필터링](./312_filtering.md)
+- Wireshark
+- 패킷 캡처
+- BPF
+- 필터링
 
 ---
 

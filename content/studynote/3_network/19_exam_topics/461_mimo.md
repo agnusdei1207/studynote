@@ -1,5 +1,6 @@
 +++
 title = "MIMO (다중 입력 다중 출력) - Multiple Input Multiple Output"
+date = "2026-03-14"
 weight = 461
 +++
 
@@ -139,10 +140,10 @@ MIMO는 여러 안테나로 데이터를 동시에 송수신합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Beamforming](./462_beamforming.md)
-- [Wi-Fi 6](./460_wifi6.md)
-- [5G](./459_5g_networking.md)
-- [무선 LAN](./343_wlan.md)
+- Beamforming
+- Wi-Fi 6
+- 5G
+- 무선 LAN
 
 ---
 

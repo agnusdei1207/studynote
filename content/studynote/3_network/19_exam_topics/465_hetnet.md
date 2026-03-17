@@ -1,5 +1,6 @@
 +++
 title = "HetNet (이종 네트워크) - Heterogeneous Network"
+date = "2026-03-14"
 weight = 465
 +++
 
@@ -148,10 +149,10 @@ HetNet은 다양한 규모의 셀을 계층적으로 구성합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Small Cell](./463_small_cell.md)
-- [DAS](./464_das.md)
-- [5G](./459_5g_networking.md)
-- [Wi-Fi 오프로드](./467_wifi_offload.md)
+- Small Cell
+- DAS
+- 5G
+- Wi-Fi 오프로드
 
 ---
 

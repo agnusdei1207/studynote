@@ -1,5 +1,6 @@
 +++
 title = "Docker - 도커"
+date = "2026-03-14"
 weight = 753
 +++
 
@@ -104,6 +105,6 @@ Docker는 컨테이너를 빌드, 실행, 배포합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Container](./752_container.md)
-- [Kubernetes](./619_kubernetes.md)
-- [CI/CD](./xxx_cicd.md)
+- Container
+- Kubernetes
+- CI/CD

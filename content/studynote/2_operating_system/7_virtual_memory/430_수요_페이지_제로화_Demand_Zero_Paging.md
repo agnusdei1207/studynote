@@ -1,7 +1,8 @@
----
-title: "430. 수요 페이지 제로화 (Demand Zero Paging)"
-weight: 430
----
++++
+title = "430. 수요 페이지 제로화 (Demand Zero Paging)"
+date = "2026-03-14"
+weight = 430
++++
 
 ## 💡 Insight
 - 수요 페이지 제로화는 프로세스가 새로운 메모리(힙, 스택)를 요청할 때, 보안과 정합성을 위해 0으로 초기화된 페이지를 제공하는 가상 메모리 관리 기법이다.
@@ -76,11 +77,11 @@ Page B (New)    ------> [ Demand Zero ] ---|   [ Zero-Fill Frame ]
 ---
 
 ## 🌳 지식 그래프 (Knowledge Graph)
-- **부모**: [383. 요구 페이징 Demand Paging](./383_요구_페이징_Demand_Paging.md)
-- **자식**: [Copy-on-Write 상세](./393_쓰기_시_복사_COW_Copy-on-Write.md)
+- **부모**: 383. 요구 페이징 Demand Paging
+- **자식**: Copy-on-Write 상세
 - **유사 개념**:
-  - [391. 익명 메모리 Anonymous Memory](./391_익명_메모리_Anonymous_Memory.md)
-  - [Memory Management Unit (MMU)](../6_memory_hierarchy_cache/MMU_개념.md)
+  - 391. 익명 메모리 Anonymous Memory
+  - Memory Management Unit (MMU)
 
 ## 👶 아이의 시각 (Child Analogy)
 > "내가 새 스케치북(메모리)을 샀는데, 거기에 누가 낙서를 해놨으면 기분이 나쁘겠지? 그래서 컴퓨터 아저씨는 내가 종이를 한 장 넘길 때마다 요술 지우개로 슥슥 지워서 아주 깨끗한 하얀 종이(Zero Paging)만 나오게 해준단다. 그럼 내가 그린 그림이랑 옛날 사람 그림이 섞일 걱정이 없겠지?"

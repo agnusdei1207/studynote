@@ -13,7 +13,7 @@ tags = ["Multi-level Queue", "Inter-queue Scheduling", "Fixed Priority", "Time S
 > 2. **가치**: 시스템 응답성(Response Time)과 처리량(Throughput)의 균형을 최적화하며, 우선순위 기반 서비스 제공 시 발생하는 **기아 현상(Starvation)**을 방지하는 정교한 자원 분배 전략을 구현합니다.
 > 3. **융합**: 실시간 시스템의 **Hard/Soft Real-time** 요구사항과 범용 **OS (Operating System)**의 공정성을 동시에 충족시키기 위해 **우선순위 역전(Priority Inversion)** 방지 및 **Aging** 기법과 결합하여 고도화됩니다.
 
----
++++
 
 ### Ⅰ. 개요 (Context & Background)
 
@@ -32,7 +32,7 @@ tags = ["Multi-level Queue", "Inter-queue Scheduling", "Fixed Priority", "Time S
 **📢 섹션 요약 비유**
 > 마치 고속도로 톨게이트에 **하이패스 차선(시스템/우선순위 큐)**과 **현금 결제 차선(일반/배치 큐)**을 따로 설치해두되, 하이패스 차선이 너무 병목되지 않도록 입구를 통제하는 교통 정책과 같습니다.
 
----
++++
 
 ### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -149,7 +149,7 @@ void inter_queue_scheduler() {
 **📢 섹션 요약 비유**
 > 마치 기업 내에서 이사회(시스템 큐)의 긴급 결재가 들어오면 말단 직원(배치 큐)의 단순 작업이 아무리 중요해도 즉시 중단(선점)되고 보고를 올려야 하지만, 공장 관리자(대화형 큐)가 생산 라인을 점검하는 시간에는 사장님도 방해하지 않는 것과 같습니다.
 
----
++++
 
 ### Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 

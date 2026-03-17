@@ -1,5 +1,6 @@
 +++
 title = "620. 서버리스 컴퓨팅 컨테이너 분리 하드웨어 기술"
+date = "2026-03-14"
 weight = 620
 +++
 
@@ -150,10 +151,10 @@ weight = 620
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[MicroVM (Firecracker)](./xx_firecracker.md)**: 서버리스 하드웨어 격리의 실질적인 구현체.
-- **[Intel VT-x / AMD-V](./527_hardware_assisted_virtualization.md)**: 하드웨어 격리를 가능케 하는 CPU 핵심 명령어.
-- **[기밀 컴퓨팅 (Confidential Computing)](./xx_confidential_computing.md)**: 하드웨어 격리를 넘어 데이터 보호까지 확장된 개념.
-- **[Nitro System](./xx_aws_nitro.md)**: I/O와 가상화를 하드웨어로 처리하는 통합 가속 아키텍처.
+- **MicroVM (Firecracker)**: 서버리스 하드웨어 격리의 실질적인 구현체.
+- **Intel VT-x / AMD-V**: 하드웨어 격리를 가능케 하는 CPU 핵심 명령어.
+- **기밀 컴퓨팅 (Confidential Computing)**: 하드웨어 격리를 넘어 데이터 보호까지 확장된 개념.
+- **Nitro System**: I/O와 가상화를 하드웨어로 처리하는 통합 가속 아키텍처.
 
 ---
 

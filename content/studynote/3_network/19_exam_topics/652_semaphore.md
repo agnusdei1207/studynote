@@ -1,5 +1,6 @@
 +++
 title = "Semaphore - 세마포어"
+date = "2026-03-14"
 weight = 652
 +++
 
@@ -98,6 +99,6 @@ Semaphore는 자원 접근을 제어하는 동기화 기법입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Mutex](./653_mutex.md)
-- [Critical Section](./654_critical_section.md)
-- [IPC](./650_ipc.md)
+- Mutex
+- Critical Section
+- IPC

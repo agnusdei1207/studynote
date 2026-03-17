@@ -1,5 +1,6 @@
 +++
 title = "IS-IS (Intermediate System to Intermediate System) - ISP 라우팅"
+date = "2026-03-14"
 weight = 211
 +++
 
@@ -145,10 +146,10 @@ IS-IS(Intermediate System to Intermediate System)는 OSI 참조 모델의 링크
 ---
 
 ### 📌 관련 개념 링크**:
-- [라우팅 프로토콜](./203_routing_protocol.md)
-- [OSPF](./208_ospf.md)
-- [BGP](./209_bgp.md)
-- [MPLS](./180_mpls.md)
+- 라우팅 프로토콜
+- OSPF
+- BGP
+- MPLS
 
 ---
 

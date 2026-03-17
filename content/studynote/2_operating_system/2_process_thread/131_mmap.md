@@ -1,6 +1,7 @@
 +++
-weight = 131
 title = "131. 메모리 맵 파일 (Memory-Mapped File, mmap)"
+date = "2026-03-14"
+weight = 131
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -140,10 +141,10 @@ NVMe-oF(NVMe over Fabrics)와 같은 초고속 스토리지 기술과 PMEM(Persi
 ---
 
 ### 📌 관련 개념 맵
-- **[가상 메모리 (Virtual Memory)](./6_memory_management/xx_virtual_memory.md)**: mmap이 구현되는 논리적 기반.
-- **[페이지 폴트 (Page Fault)](./7_virtual_memory/xx_page_fault.md)**: mmap의 Lazy Loading을 수행하는 핵심 트리거.
-- **[Zero-copy](../8_io_storage_system/xx_zero_copy.md)**: mmap이 달성하고자 하는 궁극적인 성능 목표.
-- **[페이지 캐시 (Page Cache)](./9_file_system/xx_page_cache.md)**: 커널이 파일 데이터를 관리하는 물리적 장소.
+- **가상 메모리 (Virtual Memory)**: mmap이 구현되는 논리적 기반.
+- **페이지 폴트 (Page Fault)**: mmap의 Lazy Loading을 수행하는 핵심 트리거.
+- **Zero-copy**: mmap이 달성하고자 하는 궁극적인 성능 목표.
+- **페이지 캐시 (Page Cache)**: 커널이 파일 데이터를 관리하는 물리적 장소.
 
 ---
 

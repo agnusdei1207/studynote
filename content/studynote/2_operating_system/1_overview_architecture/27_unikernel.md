@@ -1,6 +1,7 @@
 +++
-weight = 27
 title = "27. 유니커널 (Unikernel) - 클라우드 최적화 단일 실행 이미지"
+date = "2026-03-14"
+weight = 27
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -104,9 +105,9 @@ title = "27. 유니커널 (Unikernel) - 클라우드 최적화 단일 실행 이
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[엑소 커널 (Exokernel)](./26_exokernel.md)**: 유니커널의 이론적 모태가 된 라이브러리 OS 구조.
-- **[하이퍼바이저 (Hypervisor)](../10_security_performance_virtualization/490_hypervisor.md)**: 유니커널이 실행되는 기반 하드웨어 추상화 계층.
-- **[서버리스 컴퓨팅 (Serverless)](../13_cloud_architecture/550_serverless.md)**: 유니커널의 가장 강력한 실무 적용 분야.
+- **엑소 커널 (Exokernel)**: 유니커널의 이론적 모태가 된 라이브러리 OS 구조.
+- **하이퍼바이저 (Hypervisor)**: 유니커널이 실행되는 기반 하드웨어 추상화 계층.
+- **서버리스 컴퓨팅 (Serverless)**: 유니커널의 가장 강력한 실무 적용 분야.
 
 ---
 

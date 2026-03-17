@@ -1,5 +1,6 @@
 +++
 title = "Multiplexing - 멀티플렉싱"
+date = "2026-03-14"
 weight = 949
 +++
 
@@ -111,6 +112,6 @@ Multiplexing은 하나의 매체로 여러 신호를 전송합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Port](./932_port.md)
-- [HTTP/2](./xxx_http2.md)
-- [MIMO](./xxx_mimo.md)
+- Port
+- HTTP/2
+- MIMO

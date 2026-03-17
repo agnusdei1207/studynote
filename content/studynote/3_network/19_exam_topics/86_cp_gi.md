@@ -1,5 +1,6 @@
 +++
 title = "CP (순환 접두) / GI (보호 구간)"
+date = "2026-03-14"
 weight = 86
 +++
 
@@ -153,10 +154,10 @@ CP(Cyclic Prefix)는 OFDM 심볼의 끝 부분을 앞에 복사하여 붙인 것
 ---
 
 ### 📌 관련 개념 링크**:
-- [OFDM 직교 주파수 분할](./84_ofdm_orthogonal.md)
-- [부반송파 Subcarrier](./85_subcarrier.md)
-- [다중 경로 페이딩](./205_multipath.md)
-- [ISI 심볼 간 간섭](./205_isi.md)
+- OFDM 직교 주파수 분할
+- 부반송파 Subcarrier
+- 다중 경로 페이딩
+- ISI 심볼 간 간섭
 
 ---
 

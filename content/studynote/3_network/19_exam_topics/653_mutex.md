@@ -1,5 +1,6 @@
 +++
 title = "Mutex - 뮤텍스"
+date = "2026-03-14"
 weight = 653
 +++
 
@@ -103,6 +104,6 @@ Mutex는 한 번에 하나의 스레드만 접근을 허용합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Semaphore](./652_semaphore.md)
-- [Critical Section](./654_critical_section.md)
-- [Lock](./632_lock.md)
+- Semaphore
+- Critical Section
+- Lock

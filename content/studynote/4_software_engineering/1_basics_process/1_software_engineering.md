@@ -1,7 +1,7 @@
 +++
-weight = 1
 title = "1. 소프트웨어 공학 (Software Engineering)의 정의 및 목표"
 date = "2026-03-11"
+weight = 1
 [extra]
 categories = "studynote-se"
 keywords = ["소프트웨어 공학", "Software Engineering", "신뢰성", "유지보수성", "생산성", "품질"]
@@ -13,7 +13,7 @@ series = "소프트웨어공학 800제"
 > 2. **가치**: 복잡도가 높은 시스템을 예측 가능한 비용과 일정 안에서 제공하고, 변경에 강한 구조를 만들어 품질·생산성·신뢰성을 동시에 확보한다.
 > 3. **융합**: 프로젝트 관리, 아키텍처, 테스트, 보안, DevOps (Development and Operations)가 모두 소프트웨어 공학의 실행 층을 구성한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -25,7 +25,7 @@ series = "소프트웨어공학 800제"
   3. 다인 개발, 분산 시스템, 클라우드 운영 환경으로 인해 체계 없는 개발은 즉시 장애와 비용 낭비로 이어지게 됐다.
 - **📢 섹션 요약 비유**: 한 명의 천재 기술자가 아니라, 누구나 같은 설계도와 공법으로 안전하게 도시를 짓게 만드는 규칙이 소프트웨어 공학입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -72,7 +72,7 @@ series = "소프트웨어공학 800제"
 
 - **📢 섹션 요약 비유**: 설계도, 자재 목록, 시공 규칙, 안전 검사표를 모두 갖춘 공사만이 큰 건물을 무너지지 않게 세울 수 있는 것과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -95,7 +95,7 @@ series = "소프트웨어공학 800제"
   2. **보안/운영**: DevSecOps는 설계와 운영을 분리하지 않고 보안 요구를 수명주기 전반에 주입한다.
 - **📢 섹션 요약 비유**: 좋은 학교가 성적만 보는 것이 아니라 출결, 체력, 생활 태도까지 함께 보는 것처럼, 좋은 소프트웨어도 한 가지만 잘해서는 안 됩니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -119,7 +119,7 @@ series = "소프트웨어공학 800제"
 - **안티패턴**: "일단 빨리 만들고 나중에 고친다"는 접근은 규모가 커질수록 누적 부채가 폭발해 결국 더 늦고 더 비싸진다.
 - **📢 섹션 요약 비유**: 기초 공사를 빼고 건물을 빨리 올리면 처음엔 빨라 보여도, 층수가 높아질수록 무너질 위험이 커집니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -136,14 +136,14 @@ series = "소프트웨어공학 800제"
 - **표준 연결**: ISO/IEC 12207, ISO/IEC 25010, CMMI, IEEE 830/29148.
 - **📢 섹션 요약 비유**: 미래의 소프트웨어 공학은 더 빨리 코드를 쓰는 기술이 아니라, 더 복잡한 도시를 안전하게 계속 확장하는 운영 체계가 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- [`[2_software_crisis.md](./2_software_crisis.md)`]: 소프트웨어 공학이 등장한 직접적 배경.
-- [`[3_sdlc.md](./3_sdlc.md)`]: 공학적 수명주기 관리의 기본 골격.
-- [`[4_waterfall_model.md](./4_waterfall_model.md)`]: 대표적인 전통적 프로세스 모델.
-- [`[7_spiral_model.md](./7_spiral_model.md)`]: 위험 기반 반복 개발 관점.
-- [`[/Users/pf/workspace/brainscience/content/studynote/15_devops_sre/_index.md](/Users/pf/workspace/brainscience/content/studynote/15_devops_sre/_index.md)`]: 운영 자동화와 지속적 개선 관점의 연결.
+- `[2_software_crisis.md`]: 소프트웨어 공학이 등장한 직접적 배경.
+- `[3_sdlc.md`]: 공학적 수명주기 관리의 기본 골격.
+- `[4_waterfall_model.md`]: 대표적인 전통적 프로세스 모델.
+- `[7_spiral_model.md`]: 위험 기반 반복 개발 관점.
+- `[/Users/pf/workspace/brainscience/content/studynote/15_devops_sre/_index.md`]: 운영 자동화와 지속적 개선 관점의 연결.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 소프트웨어 공학은 게임을 만드는 규칙 책이에요.

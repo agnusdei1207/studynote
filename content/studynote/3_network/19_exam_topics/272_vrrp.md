@@ -1,5 +1,6 @@
 +++
 title = "VRRP - 가상 라우터 이중화"
+date = "2026-03-14"
 weight = 272
 +++
 
@@ -156,10 +157,10 @@ VRRP(Virtual Router Redundancy Protocol)는 여러 라우터를 하나의 가상
 ---
 
 ### 📌 관련 개념 링크**:
-- [HSRP](./273_hsrp.md)
-- [GLBP](./274_glbp.md)
-- [FHRP](./275_fhrp.md)
-- [Keepalived](./271_keepalived.md)
+- HSRP
+- GLBP
+- FHRP
+- Keepalived
 
 ---
 

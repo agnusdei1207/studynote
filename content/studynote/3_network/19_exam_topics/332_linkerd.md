@@ -1,5 +1,6 @@
 +++
 title = "Linkerd - 경량 서비스 메시"
+date = "2026-03-14"
 weight = 332
 +++
 
@@ -149,10 +150,10 @@ Linkerd는 CNCF의 경량 서비스 메시 플랫폼입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Istio](./330_istio.md)
-- [Service Mesh](./329_service_mesh.md)
-- [Envoy](./331_envoy.md)
-- [쿠버네티스](./13_cloud_architecture/150_kubernetes.md)
+- Istio
+- Service Mesh
+- Envoy
+- 쿠버네티스
 
 ---
 

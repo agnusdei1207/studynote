@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: XXE 🥇 Gold"
-description = "LUXORA 플랫폼의 Gold 난이도 XXE 공략 - Blind XXE 환경에서 OOB(Out-of-Band) 통신을 이용한 파일 추출 상세 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "XXE", "Gold", "Blind", "OOB", "Write-up"]

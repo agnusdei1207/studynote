@@ -1,5 +1,6 @@
 +++
 title = "비트 교차 / 워드 교차 (Bit/Word Interleaving)"
+date = "2026-03-14"
 weight = 78
 +++
 
@@ -156,10 +157,10 @@ weight = 78
 ---
 
 ### 📌 관련 개념 링크**:
-- [TDM 시분할 다중화](./75_tdm_time.md)
-- [동기식 TDM](./76_tdm_synchronous.md)
-- [SDH/SONET](./180_sdh_sonet.md)
-- [ATM 비동기 전송 모드](./185_atm.md)
+- TDM 시분할 다중화
+- 동기식 TDM
+- SDH/SONET
+- ATM 비동기 전송 모드
 
 ---
 

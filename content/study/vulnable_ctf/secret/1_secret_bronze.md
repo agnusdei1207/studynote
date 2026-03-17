@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Secret Leakage 🥉 Bronze"
-description = "LUXORA 플랫폼의 기본 Secret Leakage 취약점을 이용한 하드코딩된 API 키 탈취 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Secret Leakage", "Bronze", "Hardcoded Credentials", "Write-up"]

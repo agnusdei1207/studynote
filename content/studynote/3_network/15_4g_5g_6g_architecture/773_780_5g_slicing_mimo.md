@@ -1,9 +1,7 @@
 +++
 title = "773-780. 5G 슬라이싱과 무선 혁신 (Massive MIMO)"
-description = "네트워크 자원을 논리적으로 분할하는 슬라이싱 기술과 안테나 성능을 극대화하는 Massive MIMO 분석"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
-subject = "NW"
 category = "Mobile Architecture"
 id = 773
 +++
@@ -15,7 +13,7 @@ id = 773
 > 2. **가치**: **Massive MIMO (Massive Multiple Input Multiple Output, 대규모 다중 안테나)** 기술을 통해 주파수 효율(Spectral Efficiency)을 비약적으로 높여, 동일 대역폭에서 최대 10배 이상의 용량 증대와 EE (Energy Efficiency, 에너지 효율) 개선을 달성한다.
 > 3. **융합**: 슬라이싱은 컴퓨팅 자원의 **NFV (Network Function Virtualization, 네트워크 기능 가상화)**와 결합하여 코어망의 유연성을 확보하고, Massive MIMO는 무선구간에서 **Beamforming (빔포밍)**과 **Hybrid Beamforming (하이브리드 빔포밍)** 기술과 융합하여 공간 분리 다중(SDM)을 실현한다.
 
----
++++
 
 ### Ⅰ. 개요 (Context & Background)
 
@@ -56,7 +54,7 @@ id = 773
 
 📢 **섹션 요약 비유**: 5G 슬라이싱과 Massive MIMO의 도입 배경은 마치 복잡한 항만 시스템을 개편하는 것과 같습니다. 원래는 모든 배가 한 부두에 섞여 있어 효율이 낮았지만(기존 망), 이제는 컨테이너선(고속 데이터), 유조선(대량 센서), 긴급 구조선(자율주행)을 위한 전용 부두(슬라이스)를 따로 만들고, 각 선박에 정밀한 레이더 유도(Massive MIMO)를 제공하여 항만 혼잡을 해소한 것과 같습니다.
 
----
++++
 
 ### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 

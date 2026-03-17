@@ -1,5 +1,6 @@
 +++
 title = "Private IP - 사설 IP 주소"
+date = "2026-03-14"
 weight = 531
 +++
 
@@ -93,6 +94,6 @@ Private IP는 인터넷에서 라우팅되지 않는 주소입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [NAT](./530_nat.md)
-- [IP Addressing](./527_ip_addressing.md)
-- [VPC](./572_vpc.md)
+- NAT
+- IP Addressing
+- VPC

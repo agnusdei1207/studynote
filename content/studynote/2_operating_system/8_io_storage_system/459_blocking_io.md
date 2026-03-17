@@ -1,6 +1,7 @@
 +++
-weight = 459
 title = "459. 블로킹 I/O (Blocking I/O)"
+date = "2026-03-14"
+weight = 459
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -116,9 +117,9 @@ title = "459. 블로킹 I/O (Blocking I/O)"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[논블로킹 I/O (Non-blocking I/O)](./460_non_blocking_io.md)**: 블로킹의 성능적 한계를 극복한 기술.
-- **[컨텍스트 스위칭 (Context Switching)](./xx_context_switch.md)**: 블로킹 발생 시 수반되는 오버헤드.
-- **[I/O 멀티플렉싱 (I/O Multiplexing)](./xx_io_multiplexing.md)**: 여러 블로킹 요청을 한 번에 관리하는 기법.
+- **논블로킹 I/O (Non-blocking I/O)**: 블로킹의 성능적 한계를 극복한 기술.
+- **컨텍스트 스위칭 (Context Switching)**: 블로킹 발생 시 수반되는 오버헤드.
+- **I/O 멀티플렉싱 (I/O Multiplexing)**: 여러 블로킹 요청을 한 번에 관리하는 기법.
 
 ---
 

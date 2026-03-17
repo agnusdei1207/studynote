@@ -1,11 +1,11 @@
----
-title: "632. 상태 전이 테스트"
-date: 2026-03-15
-draft: false
-weight: 632
-categories: ["Software Engineering"]
-tags: ["Testing", "State Transition", "State Machine", "Black Box Testing", "Finite State Machine"]
----
++++
+title = "632. 상태 전이 테스트"
+date = "2026-03-15"
+weight = 632
+[extra]
+categories = ["Software Engineering"]
+tags = ["Testing", "State Transition", "State Machine", "Black Box Testing", "Finite State Machine"]
++++
 
 # 상태 전이 테스트
 
@@ -899,10 +899,10 @@ graph LR
 ```
 
 ### 연관 문서
-- [결정 테이블](./631_decision_table.md) - 규칙 기반 테스트
-- [동등 분할](./630_equivalence_partitioning.md) - 입력 기반 테스트
-- [디자인 패턴]((#)) - State Pattern
-- [Spring StateMachine]((#)) - 구현 기술
+- 결정 테이블 - 규칙 기반 테스트
+- 동등 분할 - 입력 기반 테스트
+- 디자인 패턴) - State Pattern
+- Spring StateMachine) - 구현 기술
 
 ---
 

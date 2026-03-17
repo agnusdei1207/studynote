@@ -13,7 +13,7 @@ tags = ["Namespace", "Isolation", "Container", "Linux Kernel", "Security"]
 > 2. **가치**: 하이퍼바이저(Hypervisor) 기반의 VM(Virtual Machine) 대비 오버헤드를 획기적으로 줄여(**ms→ms 이하**), MSA(Microservices Architecture) 환경에서의 **API 응답 속도 향상** 및 **리소스 효율성**을 극대화한다.
 > 3. **융합**: cgroup(Control Group)의 자원 제어와 결합하여 컨테이너를 완성하며, 최근에는 eBPF(Extended Berkeley Packet Filter)와 연계하여 보안 가시성을 강화하는 방향으로 진화 중이다.
 
----
++++
 
 ### Ⅰ. 개요 (Context & Background) - [500자+]
 
@@ -45,7 +45,7 @@ Namespace Isolation(네임스페이스 격리)은 리눅스 커널의 핵심 기
 **📢 섹션 요약 비유**
 마치 거대한 창고(Host) 안에 칸막이를 쳐서, 각 입주자가 자신의 공간만을 바라보도록 만드는 '가상의 독립 사무실' 구획 기술입니다.
 
----
++++
 
 ### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive) - [1,000자+]
 
@@ -130,7 +130,7 @@ long sys_clone(unsigned long flags, ...) {
 **📢 섹션 요약 비유**
 마치 건물 입구에서 경비원(Syscall)이 출입증(ID)을 확인하고, 해당 사무실(Namespace)만의 열쇠를 건네주어, 복도를 통해서는 다른 사무실에 들어갈 수 없도록 잠그는 보안 프로세스와 같습니다.
 
----
++++
 
 ### Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy) - [비교표 2개+]
 
@@ -174,7 +174,7 @@ long sys_clone(unsigned long flags, ...) {
 **📢 섹션 요약 비유**
 단지 주소(네임스페이스)를 다르게 하는 것만으로는 충분치 않으며, 마치 아파트 단지(네트워크) 내에 전용 회선(veth)을 깔고 각 호수(컨테이너)로 연결해 주는 공사(OS 네트워킹 스택)가 병행되어야 실제 서비스가 가능합니다.
 
----
++++
 
 ### Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision) - [800자+]
 

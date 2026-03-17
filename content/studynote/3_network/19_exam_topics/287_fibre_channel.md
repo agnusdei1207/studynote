@@ -1,5 +1,6 @@
 +++
 title = "Fibre Channel - FC 스토리지"
+date = "2026-03-14"
 weight = 287
 +++
 
@@ -145,10 +146,10 @@ Fibre Channel(FC)은 고속 스토리지 네트워크를 위한 전용 프로토
 ---
 
 ### 📌 관련 개념 링크**:
-- [SAN](./285_san.md)
-- [iSCSI](./286_iscsi.md)
-- [FCoE](./288_fcoe.md)
-- [스토리지 복제](./282_storage_replication.md)
+- SAN
+- iSCSI
+- FCoE
+- 스토리지 복제
 
 ---
 

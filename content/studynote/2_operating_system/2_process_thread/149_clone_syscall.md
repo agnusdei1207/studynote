@@ -1,6 +1,7 @@
 +++
-weight = 149
 title = "149. 클론 (clone) 시스템 콜"
+date = "2026-03-14"
+weight = 149
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -142,10 +143,10 @@ title = "149. 클론 (clone) 시스템 콜"
 ---
 
 ### 📌 관련 개념 맵
-- **[프로세스 생성 (Process Creation)](./104_process_creation.md)**: `clone()`이 사용되는 고전적 맥락.
-- **[LWP (Lightweight Process)](./xx_lwp.md)**: 리눅스가 `clone()`을 통해 스레드를 구현하는 방식.
-- **[네임스페이스 (Namespace)](./151_namespace_isolation.md)**: `clone()` 플래그로 달성하는 격리의 실체.
-- **[Copy-on-Write (COW)](./106_cow.md)**: `clone()`에서 자원을 복사할 때 사용하는 성능 최적화 기법.
+- **프로세스 생성 (Process Creation)**: `clone()`이 사용되는 고전적 맥락.
+- **LWP (Lightweight Process)**: 리눅스가 `clone()`을 통해 스레드를 구현하는 방식.
+- **네임스페이스 (Namespace)**: `clone()` 플래그로 달성하는 격리의 실체.
+- **Copy-on-Write (COW)**: `clone()`에서 자원을 복사할 때 사용하는 성능 최적화 기법.
 
 ---
 

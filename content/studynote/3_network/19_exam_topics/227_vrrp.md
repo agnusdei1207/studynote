@@ -1,5 +1,6 @@
 +++
 title = "VRRP (Virtual Router Redundancy Protocol) - 라우터 이중화"
+date = "2026-03-14"
 weight = 227
 +++
 
@@ -145,10 +146,10 @@ VRRP(Virtual Router Redundancy Protocol)는 여러 라우터를 하나의 가상
 ---
 
 ### 📌 관련 개념 링크**:
-- [라우터](./202_router.md)
-- [HSRP](./228_hsrp.md)
-- [GLBP](./229_glbp.md)
-- [고가용성](./230_high_availability.md)
+- 라우터
+- HSRP
+- GLBP
+- 고가용성
 
 ---
 

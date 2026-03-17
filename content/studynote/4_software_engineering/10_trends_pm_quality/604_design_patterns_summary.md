@@ -1,9 +1,7 @@
----
-title: "604. 디자인 패턴(Design Patterns) 23가지 구조적 분류"
-date: 2026-03-15
-type: "pe_exam"
-id: 604
----
++++
+title = "604. 디자인 패턴(Design Patterns) 23가지 구조적 분류"
+date = "2026-03-15"
++++
 
 # 604. 디자인 패턴(Design Patterns) 23가지 구조적 분류
 
@@ -348,11 +346,11 @@ GoF 23가지 패턴은 **목적(Purpose)**과 **범위(Scope)**에 따라 분류
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[SOLID 원칙](./601_solid_principles.md)**: 패턴의 상위 설계 원칙.
-- **[UML 다이어그램](./671_uml_diagrams.md)**: 패턴을 시각화하는 표기법.
-- **[리팩토링(Refactoring)](./78_refactoring.md)**: 패턴 미적용 코드를 패턴 기반으로 개선.
-- **[MVC 패턴](./210_mvc_pattern.md)**: 아키텍처 레벨의 복합 패턴.
-- **[PUB/SUB 패턴](./xx_pubsub.md)**: 옵저버 패턴의 분산 시스템 확장.
+- **SOLID 원칙**: 패턴의 상위 설계 원칙.
+- **UML 다이어그램**: 패턴을 시각화하는 표기법.
+- **리팩토링(Refactoring)**: 패턴 미적용 코드를 패턴 기반으로 개선.
+- **MVC 패턴**: 아키텍처 레벨의 복합 패턴.
+- **PUB/SUB 패턴**: 옵저버 패턴의 분산 시스템 확장.
 
 ---
 

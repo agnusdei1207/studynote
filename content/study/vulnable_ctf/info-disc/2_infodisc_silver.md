@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Info Disclosure 🥈 Silver"
-description = "LUXORA 플랫폼의 Silver 난이도 Information Disclosure 공략 - Git 레포지토리 유출(.git) 복원 및 소스코드 분석 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Info Disclosure", "Silver", ".git Leak", "Git-dumper", "Write-up"]

@@ -1,5 +1,6 @@
 +++
 title = "Stream Processing - 스트림 처리"
+date = "2026-03-14"
 weight = 709
 +++
 
@@ -100,6 +101,6 @@ Stream Processing은 데이터를 실시간으로 처리합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Kafka](./710_kafka.md)
-- [Flink](./711_flink.md)
-- [Batch Processing](./712_batch_processing.md)
+- Kafka
+- Flink
+- Batch Processing

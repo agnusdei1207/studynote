@@ -1,5 +1,6 @@
 +++
 title = "이더채널 (EtherChannel) - 링크 집합"
+date = "2026-03-14"
 weight = 213
 +++
 
@@ -154,10 +155,10 @@ weight = 213
 ---
 
 ### 📌 관련 개념 링크**:
-- [스위치](./201_switch.md)
-- [STP](./207_stp.md)
-- [VLAN](./206_vlan.md)
-- [링크 집합](./214_link_aggregation.md)
+- 스위치
+- STP
+- VLAN
+- 링크 집합
 
 ---
 

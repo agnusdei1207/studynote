@@ -1,7 +1,7 @@
----
-title: "473. Microsoft SDL (Security Development Lifecycle)"
-date: 2026-03-15
----
++++
+title = "473. Microsoft SDL (Security Development Lifecycle)"
+date = "2026-03-15"
++++
 
 # 473. Microsoft SDL (Security Development Lifecycle)
 
@@ -154,10 +154,10 @@ FSR은 SDL 프로세스의 가장 독특하고 강력한 단계다.
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[Secure SDLC](./471_secure_sdlc.md)**: Microsoft SDL이 속한 상위 개념
-- **[STRIDE 모델](./475_stride.md)**: SDL 설계 단계의 핵심 위협 모델링 기법
-- **[BSIMM](./472_bsimm.md)**: SDL과 대비되는 통계 기반 성숙도 모델
-- **[DevSecOps](./xx_devsecops.md)**: SDL의 원칙을 자동화로 구현한 현대적 패러다임
+- **Secure SDLC**: Microsoft SDL이 속한 상위 개념
+- **STRIDE 모델**: SDL 설계 단계의 핵심 위협 모델링 기법
+- **BSIMM**: SDL과 대비되는 통계 기반 성숙도 모델
+- **DevSecOps**: SDL의 원칙을 자동화로 구현한 현대적 패러다임
 
 ---
 

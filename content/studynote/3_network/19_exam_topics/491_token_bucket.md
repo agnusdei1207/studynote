@@ -1,5 +1,6 @@
 +++
 title = "토큰 버킷 - Token Bucket"
+date = "2026-03-14"
 weight = 491
 +++
 
@@ -96,5 +97,5 @@ weight = 491
 ---
 
 ### 📌 관련 개념 링크**:
-- [트래픽 폴리싱](./490_traffic_policing.md)
-- [트래픽 쉐이핑](./330_traffic_shaping.md)
+- 트래픽 폴리싱
+- 트래픽 쉐이핑

@@ -1,7 +1,7 @@
 +++
-weight = 4
 title = "4. 다중 처리 시스템 (Multiprocessing System)"
 date = "2026-03-11"
+weight = 4
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "다중 처리", "Multiprocessing", "SMP", "ASMP", "병렬 처리", "고가용성"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "다중 처리", "Multiprocessing", "SMP", "ASMP", "
 > 2. **가치**: 단일 프로세서의 물리적 한계를 극복하여 **처리량(Throughput)을 획기적으로 증대**시키며, 특정 CPU 고장 시에도 다른 CPU가 업무를 대행하는 **신뢰성(Reliability)**과 결함 허용(Fault Tolerance) 능력을 제공한다.
 > 3. **융합**: 현대의 멀티코어 프로세서 아키텍처의 모태가 되었으며, 이를 위해 프로세서 간의 작업 배분(Load Balancing)과 공유 메모리에 대한 동기화 제어가 운영체제의 핵심 난제로 부각되었다.
 
----
++++
 
 ## Ⅰ. 다중 처리 시스템 (Multiprocessing System)의 개요
 
@@ -31,7 +31,7 @@ keywords = ["운영체제", "다중 처리", "Multiprocessing", "SMP", "ASMP", "
 
 - **📢 섹션 요약 비유**: 한 명의 천재보다 두 명의 수재가 모여 더 큰 일을 더 안정적으로 해내는 협업의 힘과 같습니다.
 
----
++++
 
 ## Ⅱ. 다중 처리 시스템의 분류 및 구조 (ASCII)
 
@@ -62,7 +62,7 @@ keywords = ["운영체제", "다중 처리", "Multiprocessing", "SMP", "ASMP", "
 
 - **📢 섹션 요약 비유**: 모든 팀원이 알아서 일을 찾아서 하는 '민주적인 팀'과 팀장님이 일감을 나눠주는 '수직적인 팀'의 구조적 차이와 같습니다.
 
----
++++
 
 ## Ⅲ. SMP vs ASMP 비교 분석
 
@@ -76,7 +76,7 @@ keywords = ["운영체제", "다중 처리", "Multiprocessing", "SMP", "ASMP", "
 
 - **📢 섹션 요약 비유**: 모든 팀원이 알아서 일을 찾아서 하는 '민주적인 팀'이 SMP라면, 팀장님이 일감을 나눠주는 '수직적인 팀'이 ASMP입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy)
 
@@ -91,7 +91,7 @@ keywords = ["운영체제", "다중 처리", "Multiprocessing", "SMP", "ASMP", "
 
 - **📢 섹션 요약 비유**: 여러 명의 작업자가 한 공구를 같이 쓸 때 다치지 않도록 안전 수칙(동기화)을 철저히 지키는 고도의 관리 전략과 같습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -104,14 +104,14 @@ keywords = ["운영체제", "다중 처리", "Multiprocessing", "SMP", "ASMP", "
 
 - **📢 섹션 요약 비유**: 머리가 두 개 달린 거인이 더 빨리 생각하고, 한쪽 눈을 다쳐도 다른 쪽 눈으로 세상을 볼 수 있는 것과 같은 강력한 진화입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[병렬 처리 (Parallel Processing)](../xxx_parallel.md)**: 다중 처리의 목적이 되는 처리 방식.
-- **[멀티코어 (Multi-core)](../../1_computer_architecture/xxx_multicore.md)**: 현대 다중 처리의 하드웨어적 구현체.
-- **[캐시 일관성 (Cache Coherency)](../../1_computer_architecture/xxx_cache_coherency.md)**: 다중 처리에서 반드시 해결해야 할 기술적 난제.
+- **병렬 처리 (Parallel Processing)**: 다중 처리의 목적이 되는 처리 방식.
+- **멀티코어 (Multi-core)**: 현대 다중 처리의 하드웨어적 구현체.
+- **캐시 일관성 (Cache Coherency)**: 다중 처리에서 반드시 해결해야 할 기술적 난제.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 다중 처리 시스템은 **'머리가 여러 개 달린 로봇'**과 같아요.

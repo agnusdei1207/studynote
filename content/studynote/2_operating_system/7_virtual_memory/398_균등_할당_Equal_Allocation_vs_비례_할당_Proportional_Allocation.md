@@ -1,6 +1,7 @@
 +++
-weight = 398
 title = "398. 균등 할당 (Equal Allocation) vs 비례 할당 (Proportional Allocation)"
+date = "2026-03-14"
+weight = 398
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -114,4 +115,3 @@ graph TD
     PA -- Method --> RD[Relative Division si/S]
     RD -- Benefit --> BU[Balanced Resource Usage]
     FD -- Benefit --> SI[Implementation Simplicity]
-```

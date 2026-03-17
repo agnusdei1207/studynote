@@ -1,5 +1,6 @@
 +++
 title = "Packet Loss - 패킷 손실"
+date = "2026-03-14"
 weight = 805
 +++
 
@@ -103,6 +104,6 @@ Packet Loss는 패킷이 손실되는 현상입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./552_tcp.md)
-- [UDP](./553_udp.md)
-- [QoS](./xxx_qos.md)
+- TCP
+- UDP
+- QoS

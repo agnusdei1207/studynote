@@ -1,5 +1,6 @@
 +++
 title = "Switching - 스위칭"
+date = "2026-03-14"
 weight = 892
 +++
 
@@ -105,6 +106,6 @@ Switching은 MAC 주소 기반 프레임 전달입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Ethernet](./xxx_ethernet.md)
-- [MAC Address](./xxx_mac_address.md)
-- [VLAN](./xxx_vlan.md)
+- Ethernet
+- MAC Address
+- VLAN

@@ -1,7 +1,7 @@
----
-title: "534. 하위 도메인에 따른 분해 (Decompose by Subdomain)"
-date: 2026-03-15
----
++++
+title = "534. 하위 도메인에 따른 분해 (Decompose by Subdomain)"
+date = "2026-03-15"
++++
 
 # 534. 하위 도메인에 따른 분해 (Decompose by Subdomain)
 
@@ -156,10 +156,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[마이크로서비스 분해 패턴](./532_microservices_decomposition.md)**: 하위 도메인 분해를 포함하는 상위 분류
-- **[비즈니스 능력별 분해](./533_decompose_by_business_capability.md)**: 상향식 vs 하향식의 대척점
-- **[Saga 패턴](./550_saga_pattern.md)**: 쪼개진 도메인 간의 일관성을 맞추는 기술
-- **[컨텍스트 매핑](../xx_context_map.md)**: 서비스 간의 관계를 설계하는 도구
+- **마이크로서비스 분해 패턴**: 하위 도메인 분해를 포함하는 상위 분류
+- **비즈니스 능력별 분해**: 상향식 vs 하향식의 대척점
+- **Saga 패턴**: 쪼개진 도메인 간의 일관성을 맞추는 기술
+- **컨텍스트 매핑**: 서비스 간의 관계를 설계하는 도구
 
 ---
 

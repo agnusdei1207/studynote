@@ -1,5 +1,6 @@
 +++
 title = "iscsi"
+date = "2026-03-14"
 weight = 698
 +++
 
@@ -329,10 +330,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [Fibre Channel Protocol](./696_fibre_channel_protocol.md) - FC 프로토콜 스택
-- [FCoE](./697_fcoe.md) - Fibre Channel over Ethernet
-- [NVMe over Fabrics](./nvme_of.md) - NVMe 네트워크 프로토콜
-- [Storage Network Topology](./695_storage_network_topology.md) - SAN 토폴로지
+- Fibre Channel Protocol - FC 프로토콜 스택
+- FCoE - Fibre Channel over Ethernet
+- NVMe over Fabrics - NVMe 네트워크 프로토콜
+- Storage Network Topology - SAN 토폴로지
 
 ---
 

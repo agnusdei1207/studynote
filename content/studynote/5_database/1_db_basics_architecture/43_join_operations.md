@@ -1,7 +1,6 @@
 +++
 title = "43. 조인 (Join) - 릴레이션 간 결합"
 date = "2026-03-16"
-draft = false
 weight = 43
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["조인", "Join", "Theta Join", "Equi Join", "Natural Join", "Outer 
 > 2. **유형적 다양성**: 조건에 따른 **Theta Join**, 동등 비교 중심의 **Equi Join**, 중복 속성을 제거한 **Natural Join**, 그리고 일치하지 않는 데이터까지 보존하는 **Outer Join**으로 진화하며 데이터 결합의 유연성을 제공한다.
 > 3. **가치**: 데이터 정규화(Normalization)로 인해 여러 테이블로 분산된 정보를 비즈니스 관점에서 다시 통합하는 핵심 도구이며, RDBMS 성능 최적화(Tuning)의 가장 중요한 격전지다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -45,7 +44,7 @@ keywords = ["조인", "Join", "Theta Join", "Equi Join", "Natural Join", "Outer 
 
 - **📢 섹션 요약 비유**: 조인은 '분산된 정보의 실타래를 하나로 엮는 바느질'과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -95,7 +94,7 @@ Natural Join을 통해 속성이 통합되는 과정을 시각화한다.
 
 - **📢 섹션 요약 비유**: Natural Join은 '결혼 후 성(Last Name)이 같으니 한 번만 쓰기로 합의한 부부'와 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -113,7 +112,7 @@ Natural Join을 통해 속성이 통합되는 과정을 시각화한다.
 
 - **📢 섹션 요약 비유**: Equi Join이 '서로 다른 두 집안의 족보를 나란히 둔 것'이라면, Natural Join은 '두 집안을 합쳐 새로운 가계도를 만든 것'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -132,7 +131,7 @@ Natural Join을 통해 속성이 통합되는 과정을 시각화한다.
 
 - **📢 섹션 요약 비유**: 다중 조인은 '여러 명의 발을 묶고 달리는 2인 3각 경기'와 같습니다. 한 명이라도 속도가 안 맞으면 전체가 넘어집니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -150,15 +149,15 @@ Natural Join을 통해 속성이 통합되는 과정을 시각화한다.
 
 - **📢 섹션 요약 비유**: 기술의 형태가 변해도 '서로 다른 정보를 연결하여 새로운 지식을 만드는' 조인의 본질은 정보 공학의 영원한 테마가 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[카티션 곱 (Cartesian Product)](./39_general_set_operators.md)**: 조인의 모태가 되는 연산.
-- **[정규화 (Normalization)](./100_normalization.md)**: 조인을 유발하는 구조적 원인.
-- **[조인 알고리즘 (Nested Loop, Hash, Merge)](./117_physical_design.md)**: 조인의 물리적 구현.
-- **[실행 계획 (Execution Plan)](./163_optimizer.md)**: 조인 순서를 결정하는 설계도.
+- **카티션 곱 (Cartesian Product)**: 조인의 모태가 되는 연산.
+- **정규화 (Normalization)**: 조인을 유발하는 구조적 원인.
+- **조인 알고리즘 (Nested Loop, Hash, Merge)**: 조인의 물리적 구현.
+- **실행 계획 (Execution Plan)**: 조인 순서를 결정하는 설계도.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **조인**은 두 종류의 장난감 세트를 **자석처럼 하나로 합치는** 거예요.

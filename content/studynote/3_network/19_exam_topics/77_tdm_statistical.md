@@ -1,5 +1,6 @@
 +++
 title = "비동기식/통계적 시분할 다중화 (Statistical TDM)"
+date = "2026-03-14"
 weight = 77
 +++
 
@@ -155,10 +156,10 @@ weight = 77
 ---
 
 ### 📌 관련 개념 링크**:
-- [TDM 시분할 다중화](./75_tdm_time.md)
-- [동기식 TDM](./76_tdm_synchronous.md)
-- [TDMA 시분할 다중접속](./89_tdma.md)
-- [패킷 스위칭](./150_packet_switching.md)
+- TDM 시분할 다중화
+- 동기식 TDM
+- TDMA 시분할 다중접속
+- 패킷 스위칭
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "burn in"
+date = "2026-03-14"
 weight = 758
 +++
 
@@ -136,10 +137,10 @@ weight = 758
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [배스터브 곡선 (Bathtub Curve)](./756_bathtub_curve.md)
-- [초기 고장기, 우발 고장기, 마모 고장기](./757_failure_periods.md)
-- [HALT (Highly Accelerated Life Test)](./759_halt.md)
-- [HASS (Highly Accelerated Stress Screen)](./760_hass.md)
+- 배스터브 곡선 (Bathtub Curve)
+- 초기 고장기, 우발 고장기, 마모 고장기
+- HALT (Highly Accelerated Life Test)
+- HASS (Highly Accelerated Stress Screen)
 
 ---
 

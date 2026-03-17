@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: LFI 🥉 Bronze"
-description = "LUXORA 플랫폼의 기본 Local File Inclusion (LFI) 취약점을 이용한 /etc/passwd 파일 탈취 시나리오"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "LFI", "Path Traversal", "Bronze", "Write-up"]

@@ -1,5 +1,6 @@
 +++
 title = "Quorum - 쿼럼"
+date = "2026-03-14"
 weight = 780
 +++
 
@@ -100,6 +101,6 @@ Quorum은 합의에 필요한 최소 노드 수입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Raft](./778_raft.md)
-- [Distributed System](./xxx_distributed.md)
-- [CAP Theorem](./xxx_cap.md)
+- Raft
+- Distributed System
+- CAP Theorem

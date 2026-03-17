@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Multi-Stage Attack 🥉 Bronze"
-description = "LUXORA 플랫폼의 Bronze 난이도 Multi-Stage Attack 공략 - XSS, IDOR, 그리고 File Upload를 연결한 연쇄 공격 시나리오"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Multi-Stage", "Bronze", "Attack Chain", "XSS", "IDOR", "Write-up"]

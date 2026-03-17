@@ -1,5 +1,6 @@
 +++
 title = "WebRTC (웹 실시간 통신) - Web Real-Time Communication"
+date = "2026-03-14"
 weight = 478
 +++
 
@@ -141,10 +142,10 @@ WebRTC는 브라우저에서 실시간 통신을 제공합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [SIP](./472_sip.md)
-- [RTP](./344_rtp.md)
-- [코덱](./477_codec.md)
-- [NAT](./319_nat.md)
+- SIP
+- RTP
+- 코덱
+- NAT
 
 ---
 

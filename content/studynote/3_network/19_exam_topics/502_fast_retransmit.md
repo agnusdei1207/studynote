@@ -1,5 +1,6 @@
 +++
 title = "Fast Retransmit - 빠른 재전송"
+date = "2026-03-14"
 weight = 502
 +++
 
@@ -92,6 +93,6 @@ Fast Retransmit는 중복 ACK로 손실을 탐지합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./332_tcp.md)
-- [SACK](./501_sack.md)
-- [Fast Recovery](./503_fast_recovery.md)
+- TCP
+- SACK
+- Fast Recovery

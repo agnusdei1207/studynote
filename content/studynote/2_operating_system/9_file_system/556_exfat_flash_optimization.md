@@ -1,6 +1,7 @@
 +++
-weight = 556
 title = "556. exFAT (Extended File Allocation Table) - 플래시 메모리 및 크로스 플랫폼 최적화"
+date = "2026-03-14"
+weight = 556
 +++
 
 # # [exFAT (Extended File Allocation Table)]

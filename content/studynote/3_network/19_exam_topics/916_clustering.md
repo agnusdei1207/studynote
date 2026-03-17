@@ -1,5 +1,6 @@
 +++
 title = "Clustering - 클러스터링"
+date = "2026-03-14"
 weight = 916
 +++
 
@@ -107,6 +108,6 @@ Clustering은 여러 서버를 논리적으로 그룹화합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Load Balancing](./915_load_balancing.md)
-- [Failover](./xxx_failover.md)
-- [HA](./xxx_ha.md)
+- Load Balancing
+- Failover
+- HA

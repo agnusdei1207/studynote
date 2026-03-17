@@ -1,5 +1,6 @@
 +++
 title = "WebRTC - 실시간 통신"
+date = "2026-03-14"
 weight = 342
 +++
 
@@ -150,10 +151,10 @@ WebRTC는 브라우저 간 P2P 실시간 통신을 제공합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [WebSocket](./340_websocket.md)
-- [HLS](./343_hls.md)
-- [NAT](./265_nat.md)
-- [화상회의](./4_software_engineering/194_video_conferencing.md)
+- WebSocket
+- HLS
+- NAT
+- 화상회의
 
 ---
 

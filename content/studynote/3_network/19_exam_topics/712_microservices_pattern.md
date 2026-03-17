@@ -1,5 +1,6 @@
 +++
 title = "Microservices Pattern - 마이크로서비스 패턴"
+date = "2026-03-14"
 weight = 712
 +++
 
@@ -101,6 +102,6 @@ Microservices Pattern은 분산 시스템 설계 패턴입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Microservices](./617_microservices.md)
-- [CQRS](./625_cqrs.md)
-- [Service Mesh](./618_service_mesh.md)
+- Microservices
+- CQRS
+- Service Mesh

@@ -1,10 +1,9 @@
----
-title: "[ICT] #59. 체인코드 (Chaincode)"
-date: "2026-03-17"
++++
+title = "[ICT] #59. 체인코드 (Chaincode)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Chaincode_Hyperledger_Fabric_Smart_Contract_Shim_API_Endorsement"
----
+keyword = "Chaincode_Hyperledger_Fabric_Smart_Contract_Shim_API_Endorsement"
++++
 
 # 체인코드 (Chaincode): 하이퍼레저 패브릭의 비즈니스 로직 엔진
 
@@ -13,7 +12,7 @@ keyword: "Chaincode_Hyperledger_Fabric_Smart_Contract_Shim_API_Endorsement"
 > 2. **가치**: 특정 전용 언어(Solidity 등)에 국한되지 않고 **Go, Java, Node.js** 등 범용 프로그래밍 언어를 사용하여 개발할 수 있으며, 도커(Docker) 컨테이너 내에서 격리되어 실행됨으로써 보안성과 이식성을 확보한다.
 > 3. **융합**: 트랜잭션의 정당성을 판단하는 **보증 정책(Endorsement Policy)**과 결합되어, 기업 간 복잡한 계약 조건과 규제 준수 사항을 자동화된 코드로 집행하는 엔터프라이즈 자동화의 핵심이다.
 
----
++++
 
 ## Ⅰ. 체인코드 (Chaincode) 개요
 
@@ -31,7 +30,7 @@ keyword: "Chaincode_Hyperledger_Fabric_Smart_Contract_Shim_API_Endorsement"
 
 📢 **섹션 요약 비유**: 누구나 읽을 수 있는 매뉴얼(코드)대로만 움직이며, 절대 실수를 하거나 뇌물을 받지 않는 '디지털 행정 요원'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -80,7 +79,7 @@ keyword: "Chaincode_Hyperledger_Fabric_Smart_Contract_Shim_API_Endorsement"
 
 📢 **섹션 요약 비유**: 서류를 처리할 때 반드시 '과장님 도장'이나 '부장님 서명'이 있어야만 최종 승인이 나는 '기업용 결재 시스템'을 코드로 구현한 것입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -100,7 +99,7 @@ keyword: "Chaincode_Hyperledger_Fabric_Smart_Contract_Shim_API_Endorsement"
 
 📢 **섹션 요약 비유**: 이더리움이 전용 문법으로 쓴 '짧은 명령문'이라면, 체인코드는 평소 쓰던 언어로 작성된 '정교한 매뉴얼'과 같은 차이가 있습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -114,7 +113,7 @@ keyword: "Chaincode_Hyperledger_Fabric_Smart_Contract_Shim_API_Endorsement"
 
 📢 **섹션 요약 비유**: 모든 계산기에서 1+1이 항상 2가 나와야 하듯이, 체인코드도 환경에 상관없이 언제나 '똑같은 정답'을 내놓도록 설계하는 것이 개발의 핵심입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -128,13 +127,13 @@ keyword: "Chaincode_Hyperledger_Fabric_Smart_Contract_Shim_API_Endorsement"
 
 📢 **섹션 요약 비유**: 체인코드는 기업의 낡은 종이 계약서를 대신하여, 디지털 세상을 쉼 없이 돌아가게 만드는 **'스마트한 비즈니스 심장'**입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[하이퍼레저 패브릭](./57_hyperledger_fabric.md)**: 체인코드가 실행되는 플랫폼.
-- **[스마트 컨트랙트](./21_smart_contract.md)**: 체인코드의 상위 범주 개념.
-- **[보증 정책 (Endorsement)](./60_hyperledger_architecture.md)**: 체인코드 실행의 적법성을 따지는 규칙.
-- **[MVCC (다중 버전 동시성 제어)](../../5_database/xx_mvcc.md)**: 체인코드 실행 결과 반영 시 충돌을 막는 DB 기술.
+- **하이퍼레저 패브릭**: 체인코드가 실행되는 플랫폼.
+- **스마트 컨트랙트**: 체인코드의 상위 범주 개념.
+- **보증 정책 (Endorsement)**: 체인코드 실행의 적법성을 따지는 규칙.
+- **MVCC (다중 버전 동시성 제어)**: 체인코드 실행 결과 반영 시 충돌을 막는 DB 기술.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **일 잘하는 로봇 일꾼**: 블록체인 나라에는 시키는 대로 척척 일을 해내는 로봇들이 있는데, 이 로봇들에게 내린 '일 가이드'가 바로 체인코드예요.

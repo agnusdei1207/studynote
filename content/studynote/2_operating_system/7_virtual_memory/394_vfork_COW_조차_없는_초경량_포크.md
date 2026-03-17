@@ -1,6 +1,7 @@
 +++
-weight = 394
 title = "394. vfork() - COW 조차 없는 초경량 포크"
+date = "2026-03-14"
+weight = 394
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -115,4 +116,3 @@ graph TD
     AS -- Risks --> MC[Memory Corruption]
     VF -- Pair with --> EX[exec/exit]
     EX -- Triggers --> PR[Parent Resume]
-```

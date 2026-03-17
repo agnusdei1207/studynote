@@ -1,5 +1,6 @@
 +++
 title = "Tunneling - 터널링"
+date = "2026-03-14"
 weight = 601
 +++
 
@@ -98,6 +99,6 @@ Tunneling은 한 프로토콜을 다른 프로토콜로 캡슐화합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [VPN](./599_vpn.md)
-- [IPsec](./600_ipsec.md)
-- [VXLAN](./602_vxlan.md)
+- VPN
+- IPsec
+- VXLAN

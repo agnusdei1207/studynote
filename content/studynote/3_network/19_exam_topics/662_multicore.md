@@ -1,5 +1,6 @@
 +++
 title = "Multi-core - 멀티코어"
+date = "2026-03-14"
 weight = 662
 +++
 
@@ -101,6 +102,6 @@ Multi-core는 하나의 칩에 여러 코어를 통합합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [SMP](./661_smp.md)
-- [Hyper-threading](./663_hyperthreading.md)
-- [Cache](./620_caching.md)
+- SMP
+- Hyper-threading
+- Cache

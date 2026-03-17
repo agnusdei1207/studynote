@@ -1,5 +1,6 @@
 +++
 title = "Crosstalk - 누화"
+date = "2026-03-14"
 weight = 985
 +++
 
@@ -112,6 +113,6 @@ Crosstalk는 인접 회선 간 신호 간섭입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Twisted Pair](./986_twisted_pair.md)
-- [Attenuation](./xxx_attenuation.md)
-- [EMI](./xxx_emi.md)
+- Twisted Pair
+- Attenuation
+- EMI

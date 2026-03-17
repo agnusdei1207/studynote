@@ -1,7 +1,7 @@
----
-title: "503. 보안 기능 (Security Features)의 설계"
-date: 2026-03-15
----
++++
+title = "503. 보안 기능 (Security Features)의 설계"
+date = "2026-03-15"
++++
 
 # 503. 보안 기능 (Security Features)의 설계
 
@@ -154,10 +154,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[Secure SDLC](./471_secure_sdlc.md)**: 보안 기능 설계가 포함된 전체 프로세스
-- **[제로 트러스트 (Zero Trust)](./xx_zero_trust.md)**: 현대 보안 설계의 근본 철학
-- **[RBAC / ABAC](./xx_rbac_abac.md)**: 인가 기능을 구현하는 핵심 모델
-- **[KMS / HSM](./xx_kms_hsm.md)**: 암호화 기능을 지탱하는 인프라
+- **Secure SDLC**: 보안 기능 설계가 포함된 전체 프로세스
+- **제로 트러스트 (Zero Trust)**: 현대 보안 설계의 근본 철학
+- **RBAC / ABAC**: 인가 기능을 구현하는 핵심 모델
+- **KMS / HSM**: 암호화 기능을 지탱하는 인프라
 
 ---
 

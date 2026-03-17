@@ -1,7 +1,7 @@
 +++
 title = "220. 무중단 라이브 마이그레이션 스케줄링"
-weight = 220
 date = "2026-03-04"
+weight = 220
 [extra]
 categories = "studynote-operating-system"
 +++
@@ -13,7 +13,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 데이터센터의 부하 균등화, 하드웨어 점검, 에너지 절감을 위한 서버 통합 시 사용자에게 끊김 없는 경험(Zero-downtime)을 제공하며 비즈니스 연속성을 보장한다.
 > 3. **융합**: 가상화 하이퍼바이저 (KVM, Xen), 네트워크 터널링 기술, 그리고 더티 페이지 (Dirty Page) 추적 및 메모리 압축 기술이 집약된 클라우드 운영의 정점이다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -23,7 +23,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 이삿짐을 다 옮기고 나서 집을 옮기는 게 아니라, 살고 있는 상태에서 벽과 가구(메모리)를 하나씩 옮기다가 마지막 순간에 몸만 휙 건너가는 초고속 이사 작전과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -56,7 +56,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: Pre-copy는 짐을 거의 다 옮기고 사람을 부르는 것이고, Post-copy는 사람을 먼저 보내고 필요한 옷을 택배로 보내주는 것입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -71,7 +71,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 돌다리도 두드려보고 건너는 건 Pre-copy, 일단 뛰고 보는 건 Post-copy입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -81,7 +81,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 물을 퍼내는 속도보다 비가 들이치는 속도가 빠르면 배가 가라앉으니, 천막(Throttling)을 치거나 펌프(Network)를 늘려야 하는 것과 같습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -90,12 +90,12 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 물리적 한계를 넘어 데이터센터 전체를 하나의 유기적인 거대 컴퓨터로 만드는 기술의 꽃입니다.
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[하이퍼바이저 (Hypervisor)](./54_hypervisor.md)**: 마이그레이션을 조율하는 감독관
-- **[더티 비트 (Dirty Bit)](../7_virtual_memory/396_modify_bit_dirty_bit.md)**: 메모리가 수정되었는지 알려주는 신호기
-- **[CRIU (Checkpoint/Restore In Userspace)](./648_processes_checkpoint_restore_criu.md)**: 컨테이너 마이그레이션의 핵심 기술
+- **하이퍼바이저 (Hypervisor)**: 마이그레이션을 조율하는 감독관
+- **더티 비트 (Dirty Bit)**: 메모리가 수정되었는지 알려주는 신호기
+- **CRIU (Checkpoint/Restore In Userspace)**: 컨테이너 마이그레이션의 핵심 기술
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 컴퓨터 안의 게임기(VM)를 끄지 않고 통째로 옆집 친구네 컴퓨터로 옮기는 마법 같은 일이에요.

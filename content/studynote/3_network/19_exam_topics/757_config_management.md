@@ -1,5 +1,6 @@
 +++
 title = "Config Management - 설정 관리"
+date = "2026-03-14"
 weight = 757
 +++
 
@@ -101,6 +102,6 @@ Config Management는 시스템 구성을 관리합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Infrastructure as Code](./750_iac.md)
-- [Ansible](./758_ansible.md)
-- [Automation](./xxx_automation.md)
+- Infrastructure as Code
+- Ansible
+- Automation

@@ -1,11 +1,11 @@
----
-title: "628. 살충제 패러독스 테스트 갱신"
-date: 2026-03-15
-draft: false
-weight: 628
-categories: ["Software Engineering"]
-tags: ["Testing", "Pesticide Paradox", "Test Maintenance", "Test Case Update", "Quality Assurance"]
----
++++
+title = "628. 살충제 패러독스 테스트 갱신"
+date = "2026-03-15"
+weight = 628
+[extra]
+categories = ["Software Engineering"]
+tags = ["Testing", "Pesticide Paradox", "Test Maintenance", "Test Case Update", "Quality Assurance"]
++++
 
 # 살충제 패러독스 테스트 갱신
 
@@ -809,10 +809,10 @@ graph LR
 ```
 
 ### 연관 문서
-- [회귀 테스트 커버리지](./627_regression_test_coverage.md) - 커버리지 측정
-- [테스트 더블](./625_test_double_mock_stub.md) - 테스트 기법
-- [동등 분할 경계값](./630_equivalence_partitioning.md) - 테스트 케이스 설계
-- [애자일 테스트]((#)) - 스프린트 테스트
+- 회귀 테스트 커버리지 - 커버리지 측정
+- 테스트 더블 - 테스트 기법
+- 동등 분할 경계값 - 테스트 케이스 설계
+- 애자일 테스트) - 스프린트 테스트
 
 ---
 

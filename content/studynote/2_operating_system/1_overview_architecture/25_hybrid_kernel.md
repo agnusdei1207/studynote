@@ -1,6 +1,7 @@
 +++
-weight = 25
 title = "25. 하이브리드 커널 (Hybrid Kernel) - 성능과 모듈성의 실용적 타협"
+date = "2026-03-14"
+weight = 25
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -112,9 +113,9 @@ title = "25. 하이브리드 커널 (Hybrid Kernel) - 성능과 모듈성의 실
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[모놀리식 커널 (Monolithic Kernel)](./23_monolithic_kernel.md)**: 성능의 근간이 된 아키텍처.
-- **[마이크로 커널 (Microkernel)](./24_microkernel.md)**: 설계의 근간이 된 아키텍처.
-- **[HAL (Hardware Abstraction Layer)](../1_computer_architecture/75_hal.md)**: 하이브리드 구조의 핵심 이식 계층.
+- **모놀리식 커널 (Monolithic Kernel)**: 성능의 근간이 된 아키텍처.
+- **마이크로 커널 (Microkernel)**: 설계의 근간이 된 아키텍처.
+- **HAL (Hardware Abstraction Layer)**: 하이브리드 구조의 핵심 이식 계층.
 
 ---
 

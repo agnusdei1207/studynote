@@ -12,7 +12,7 @@ categories = "studynote-se"
 > 2. **가치**: 빠른 실패(Fail Fast), 자원 보존, 자동 복구 → 가용성 99.9% 유지, 리소스 고갈 방지
 > 3. **융합**: Resilience4j, Hystrix, Istio, Retry, Timeout, Fallback Pattern과 연계
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background) - [500자+]
 
@@ -75,7 +75,7 @@ categories = "studynote-se"
 
 마치 **교통 통제**와 같습니다. 사고가 발생한 도로(서비스)를 미리 막아서(Open), 다른 차량들이 줄을 서서 기다리지 않게 합니다. 대체 경로(Fallback)를 안내하거나, 일정 시간 후에 도로가 복구되었는지 확인(Half-Open)합니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive) - [1,000자+]
 
@@ -428,7 +428,7 @@ async function processPayment(request: PaymentRequest): Promise<PaymentResponse>
 
 마치 **물탱크의 플로트 밸브(Float Valve)**와 같습니다. 물이 계속 흘러들면(장애 누적), 플로트가 떠올라 자동으로 물을 차단합니다(Open). 수위가 내려가면 다시 물을 받아들이기 시작합니다(Half-Open → Closed). 이로 인해 물탱크가 넘쳐흐르는 것(시스템 붕괴)을 방지합니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy) - [비교표 2개+]
 
@@ -526,7 +526,7 @@ TCP는 네트워크 패킷 손실을 복구하고, 서킷 브레이커는 애플
 
 마치 **교통 정체 관제 시스템**과 같습니다. 고속도로에 사고가 발생하면, 진입 전 단계에서 진입을 막아서(Open) 정체를 확산 방지합니다. 사고가 정리되면, 소량의 차량을 통과시켜(Half-Open) 도로가 정상인지 확인한 후, 전면 개방(Closed)합니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision) - [800자+]
 
@@ -661,7 +661,7 @@ private Response fallback(Exception e) {
 
 마치 **비상 발사대**와 같습니다. 정상 상황(Closed)에서는 정상 근무하지만, 비상 상황(Open)이 되면 즉시 대기 태세로 전환합니다. 상황이 안정되면(Half-Open), 소규모 정찰대를 보내 확인 후 정상 근무를 재개합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard) - [400자+]
 
@@ -694,15 +694,15 @@ private Response fallback(Exception e) {
 
 미래의 서킷 브레이커는 **자율 주행 자동차의 충돌 방지 시스템**과 같이 발전할 것입니다. 단순히 장애를 감지하는 것을 넘어, **예측 모델을 통해 장애를 미리 예방**하고, **자가 치유(Self-healing)**를 통해 인간 개입 없이 시스템을 복구할 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
 
-- **[마이크로서비스 아키텍처](./556_msa.md)**: MSA 전체 패턴
-- **[서비스 디스커버리](./617_service_discovery.md)**: Eureka와 연계
-- **[재시도 패턴](./retry_pattern.md)**: 재시도 전략
-- **[벌크헤드 패턴](./bulkhead_pattern.md)**: 자원 격리
-- **[Fallback 패턴](./fallback_pattern.md)**: 대체 로직 설계
+- **마이크로서비스 아키텍처**: MSA 전체 패턴
+- **서비스 디스커버리**: Eureka와 연계
+- **재시도 패턴**: 재시도 전략
+- **벌크헤드 패턴**: 자원 격리
+- **Fallback 패턴**: 대체 로직 설계
 
 ### 👶 어린이를 위한 3줄 비유 설명
 

@@ -1,7 +1,7 @@
----
-title: "502. 크로스 사이트 요청 위조 (CSRF) 방어 - 토큰 및 SameSite"
-date: 2026-03-15
----
++++
+title = "502. 크로스 사이트 요청 위조 (CSRF) 방어 - 토큰 및 SameSite"
+date = "2026-03-15"
++++
 
 # 502. 크로스 사이트 요청 위조 (CSRF) 방어 - 토큰 및 SameSite
 
@@ -154,10 +154,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[CSRF 공격 원리](./xx_csrf_attack.md)**: 방어해야 할 대상이 되는 위조 요청 공격
-- **[XSS (Cross-Site Scripting)](./500_xss_defense.md)**: CSRF와 흔히 연계되어 방어 체계를 무력화하는 공격
-- **[SameSite Cookie](./xx_samesite.md)**: 브라우저 레벨의 핵심 방어 속성
-- **[SOP (Same-Origin Policy)](./xx_sop.md)**: CSRF 토큰을 도용하지 못하게 막는 브라우저의 근본 보안 정책
+- **CSRF 공격 원리**: 방어해야 할 대상이 되는 위조 요청 공격
+- **XSS (Cross-Site Scripting)**: CSRF와 흔히 연계되어 방어 체계를 무력화하는 공격
+- **SameSite Cookie**: 브라우저 레벨의 핵심 방어 속성
+- **SOP (Same-Origin Policy)**: CSRF 토큰을 도용하지 못하게 막는 브라우저의 근본 보안 정책
 
 ---
 

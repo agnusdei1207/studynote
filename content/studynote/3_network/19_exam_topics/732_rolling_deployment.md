@@ -1,5 +1,6 @@
 +++
 title = "Rolling Deployment - 롤링 배포"
+date = "2026-03-14"
 weight = 732
 +++
 
@@ -102,6 +103,6 @@ Rolling Deployment는 인스턴스를 순차적으로 교체합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Blue-Green Deployment](./730_blue_green_deployment.md)
-- [Canary Deployment](./731_canary_deployment.md)
-- [Kubernetes](./619_kubernetes.md)
+- Blue-Green Deployment
+- Canary Deployment
+- Kubernetes

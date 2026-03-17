@@ -1,5 +1,6 @@
 +++
 title = "Flow Control - 흐름 제어"
+date = "2026-03-14"
 weight = 928
 +++
 
@@ -104,6 +105,6 @@ Flow Control은 송신자가 수신자를 압도하지 않도록 합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./850_tcp.md)
-- [Congestion Control](./927_congestion_control.md)
-- [Sliding Window](./929_sliding_window.md)
+- TCP
+- Congestion Control
+- Sliding Window

@@ -1,5 +1,6 @@
 +++
 title = "스래싱 Thrashing CPU 이용률 저하"
+date = "2026-03-14"
 weight = 725
 +++
 
@@ -174,10 +175,10 @@ weight = 725
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[워킹 셋 모델 Working Set Model](./726_워킹_셋_Working_Set_메모리.md)**: 스래싱을 방지하기 위한 이론적 토대.
-- **[다중 프로그래밍 정도](../1_overview_architecture/2_다중_프로그래밍_Multiprogramming.md)**: 스래싱을 유발하는 직접적인 통제 변수.
-- **[페이지 폴트 Page Fault ISR](./720_페이지_폴트_Page_Fault_ISR.md)**: 스래싱의 가장 기초적인 단위 사건.
-- **[OOM Killer](../10_security_performance_virtualization/425_OOM_Killer_작동_및_oom_score_매커니즘.md)**: 스래싱으로 인한 시스템 전체 붕괴를 막는 최후의 사형 집행자.
+- **워킹 셋 모델 Working Set Model**: 스래싱을 방지하기 위한 이론적 토대.
+- **다중 프로그래밍 정도**: 스래싱을 유발하는 직접적인 통제 변수.
+- **페이지 폴트 Page Fault ISR**: 스래싱의 가장 기초적인 단위 사건.
+- **OOM Killer**: 스래싱으로 인한 시스템 전체 붕괴를 막는 최후의 사형 집행자.
 
 ---
 

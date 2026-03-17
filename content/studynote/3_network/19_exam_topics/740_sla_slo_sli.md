@@ -1,5 +1,6 @@
 +++
 title = "SLA/SLO/SLI - 서비스 수준 지표"
+date = "2026-03-14"
 weight = 740
 +++
 
@@ -99,6 +100,6 @@ SLA/SLO/SLI는 서비스 수준을 정의합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [SRE](./748_sre.md)
-- [Error Budget](./741_error_budget.md)
-- [Observability](./735_observability.md)
+- SRE
+- Error Budget
+- Observability

@@ -1,5 +1,6 @@
 +++
 title = "638. 자원 풀링 (Resource Pooling, CXL 기반)"
+date = "2026-03-14"
 weight = 638
 +++
 

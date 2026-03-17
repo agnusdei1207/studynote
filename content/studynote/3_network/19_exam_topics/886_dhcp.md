@@ -1,5 +1,6 @@
 +++
 title = "DHCP - 동적 호스트 구성 프로토콜"
+date = "2026-03-14"
 weight = 886
 +++
 
@@ -112,6 +113,6 @@ DHCP (Dynamic Host Configuration Protocol)는 IP를 자동 할당합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [IP Address](./xxx_ip_address.md)
-- [Subnet](./xxx_subnet.md)
-- [Gateway](./xxx_gateway.md)
+- IP Address
+- Subnet
+- Gateway

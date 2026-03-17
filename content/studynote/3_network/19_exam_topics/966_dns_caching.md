@@ -1,5 +1,6 @@
 +++
 title = "DNS Caching - DNS 캐싱"
+date = "2026-03-14"
 weight = 966
 +++
 
@@ -110,6 +111,6 @@ DNS Caching은 DNS 응답을 로컬에 저장합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [DNS](./885_dns.md)
-- [TTL](./945_ttl.md)
-- [DNS Record](./965_dns_record.md)
+- DNS
+- TTL
+- DNS Record

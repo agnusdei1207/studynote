@@ -1,6 +1,7 @@
 +++
-weight = 82
 title = "82. 부호 있는 정수 (Signed Integer)"
+date = "2026-03-14"
+weight = 82
 +++
 
 # 부호 있는 정수 (Signed Integer)

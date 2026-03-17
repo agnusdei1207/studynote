@@ -1,5 +1,6 @@
 +++
 title = "User Mode - 사용자 모드"
+date = "2026-03-14"
 weight = 648
 +++
 
@@ -105,6 +106,6 @@ User Mode는 제한된 권한으로 실행되는 모드입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Kernel Mode](./647_kernel_mode.md)
-- [System Call](./646_system_call.md)
-- [API](./649_api.md)
+- Kernel Mode
+- System Call
+- API

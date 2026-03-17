@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Brute Force 🥈 Silver"
-description = "LUXORA 플랫폼의 IP 로테이션 기반 Rate Limiting 우회 브루트포스 공격 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Brute Force", "Silver", "IP Rotation", "Write-up"]

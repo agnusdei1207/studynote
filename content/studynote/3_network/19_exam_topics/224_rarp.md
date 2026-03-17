@@ -1,5 +1,6 @@
 +++
 title = "RARP (Reverse ARP) - 역방향 주소 해석"
+date = "2026-03-14"
 weight = 224
 +++
 
@@ -141,10 +142,10 @@ RARP(Reverse Address Resolution Protocol)는 MAC 주소를 IP 주소로 변환�
 ---
 
 ### 📌 관련 개념 링크**:
-- [ARP](./223_arp.md)
-- [DHCP](./214_dhcp.md)
-- [BOOTP](./225_bootp.md)
-- [MAC 주소](./101_mac.md)
+- ARP
+- DHCP
+- BOOTP
+- MAC 주소
 
 ---
 

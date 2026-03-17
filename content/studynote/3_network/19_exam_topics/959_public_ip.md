@@ -1,5 +1,6 @@
 +++
 title = "Public IP - 공인 IP"
+date = "2026-03-14"
 weight = 959
 +++
 
@@ -114,6 +115,6 @@ Public IP는 인터넷에서 고유한 주소입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Private IP](./958_private_ip.md)
-- [NAT](./910_nat.md)
-- [ISP](./xxx_isp.md)
+- Private IP
+- NAT
+- ISP

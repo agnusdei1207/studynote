@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: JWT Attacks 🥇 Gold"
-description = "LUXORA 플랫폼의 JWT 알고리즘 혼동(Algorithm Confusion) 취약점을 악용한 관리자 권한 탈취 상세 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "JWT", "Gold", "Algorithm Confusion", "Public Key", "Write-up"]

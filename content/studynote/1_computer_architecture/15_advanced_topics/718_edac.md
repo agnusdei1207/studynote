@@ -1,5 +1,6 @@
 +++
 title = "edac"
+date = "2026-03-14"
 weight = 718
 +++
 
@@ -440,10 +441,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [MCA](./717_mca.md) - Machine Check Architecture
-- [PCIe AER](./716_pcie_aer.md) - PCIe 오류 보고
-- [Hardware Health Monitoring](./715_hardware_health_monitoring.md) - 하드웨어 헬스
-- [NVMe](./700_nvme_namespaces.md) - NVMe 네임스페이스
+- MCA - Machine Check Architecture
+- PCIe AER - PCIe 오류 보고
+- Hardware Health Monitoring - 하드웨어 헬스
+- NVMe - NVMe 네임스페이스
 
 ---
 

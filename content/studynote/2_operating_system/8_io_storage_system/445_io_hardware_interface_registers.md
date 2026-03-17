@@ -1,6 +1,7 @@
 +++
-weight = 445
 title = "445. I/O 하드웨어 인터페이스 요소 - 데이터, 상태, 제어 레지스터"
+date = "2026-03-14"
+weight = 445
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -145,10 +146,10 @@ byte data = inb(0x4000);    // 데이터 레지스터에서 읽기
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[MMIO (Memory-Mapped I/O)](./447_memory_mapped_vs_isolated_io.md)**: 레지스터를 메모리 주소처럼 다루는 기술.
-- **[인터럽트 (Interrupt)](./449_interrupt_driven_io.md)**: 상태 레지스터 확인을 자동화하는 알림 기법.
-- **[폴링 (Polling)](./448_polling_programmed_io.md)**: 상태 레지스터를 직접 반복해서 읽는 기법.
-- **[장치 드라이버 (Device Driver)](./495_device_driver.md)**: 레지스터를 조작하는 OS 모듈.
+- **MMIO (Memory-Mapped I/O)**: 레지스터를 메모리 주소처럼 다루는 기술.
+- **인터럽트 (Interrupt)**: 상태 레지스터 확인을 자동화하는 알림 기법.
+- **폴링 (Polling)**: 상태 레지스터를 직접 반복해서 읽는 기법.
+- **장치 드라이버 (Device Driver)**: 레지스터를 조작하는 OS 모듈.
 
 ---
 

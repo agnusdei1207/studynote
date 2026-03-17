@@ -1,7 +1,7 @@
-
 +++
-weight = 620
 title = "620. 라이브 마이그레이션 (Live Migration) 메커니즘"
+date = "2026-03-14"
+weight = 620
 +++
 
 # 620. 라이브 마이그레이션 (Live Migration) 메커니즘

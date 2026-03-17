@@ -1,6 +1,7 @@
 +++
-weight = 101
 title = "101. 두 수준 (Two-level) 모델"
+date = "2026-03-14"
+weight = 101
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -136,9 +137,9 @@ title = "101. 두 수준 (Two-level) 모델"
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[다대다 모델 (Many-to-Many Model)](./100_many_to_many_model.md)**: 두 수준 모델의 기본 베이스.
-- **[일대일 모델 (One-to-One Model)](./99_one_to_one_model.md)**: 두 수준 모델이 중요 스레드를 위해 차용하는 방식.
-- **[LWP (Lightweight Process)](../xx_lwp.md)**: 사용자 스레드와 커널 스레드를 잇는 핵심 인터페이스.
+- **다대다 모델 (Many-to-Many Model)**: 두 수준 모델의 기본 베이스.
+- **일대일 모델 (One-to-One Model)**: 두 수준 모델이 중요 스레드를 위해 차용하는 방식.
+- **LWP (Lightweight Process)**: 사용자 스레드와 커널 스레드를 잇는 핵심 인터페이스.
 
 ---
 

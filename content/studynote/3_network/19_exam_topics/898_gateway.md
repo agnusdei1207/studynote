@@ -1,5 +1,6 @@
 +++
 title = "Gateway - 게이트웨이"
+date = "2026-03-14"
 weight = 898
 +++
 
@@ -108,6 +109,6 @@ Gateway는 서로 다른 네트워크를 연결합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Router](./xxx_router.md)
-- [Routing](./891_routing.md)
-- [API Gateway](./xxx_api_gateway.md)
+- Router
+- Routing
+- API Gateway

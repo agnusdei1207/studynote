@@ -1,6 +1,7 @@
 +++
-weight = 476
 title = "476. 플래시 메모리 한계 - Erase-before-write, Wear-out"
+date = "2026-03-14"
+weight = 476
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -110,9 +111,9 @@ title = "476. 플래시 메모리 한계 - Erase-before-write, Wear-out"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[FTL (Flash Translation Layer)](./478_ftl.md)**: 플래시의 물리적 한계를 추상화해주는 관리 계층.
-- **[마모 평준화 (Wear Leveling)](./479_wear_leveling.md)**: 특정 셀만 마모되는 것을 방지하는 기술.
-- **[쓰기 증폭 (WAF)](./480_write_amplification.md)**: 한계점들로 인해 발생하는 부작용 지표.
+- **FTL (Flash Translation Layer)**: 플래시의 물리적 한계를 추상화해주는 관리 계층.
+- **마모 평준화 (Wear Leveling)**: 특정 셀만 마모되는 것을 방지하는 기술.
+- **쓰기 증폭 (WAF)**: 한계점들로 인해 발생하는 부작용 지표.
 
 ---
 

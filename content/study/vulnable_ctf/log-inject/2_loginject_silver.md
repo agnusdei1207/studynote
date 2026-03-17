@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Log Injection 🥈 Silver"
-description = "LUXORA 플랫폼의 Silver 난이도 Log Injection (XSS 연계) 롸잇업 - 로그 뷰어를 통한 악성 스크립트 실행"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Log Injection", "Silver", "XSS", "Stored XSS", "Write-up"]

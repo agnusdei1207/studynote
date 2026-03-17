@@ -1,10 +1,9 @@
----
-title: "[ICT] #64. BFT 합의 3단계 (BFT 3-Phase Protocol)"
-date: "2026-03-17"
++++
+title = "[ICT] #64. BFT 합의 3단계 (BFT 3-Phase Protocol)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "BFT_3Phase_PrePrepare_Prepare_Commit_PBFT_Consensus"
----
+keyword = "BFT_3Phase_PrePrepare_Prepare_Commit_PBFT_Consensus"
++++
 
 # BFT 합의 3단계: 배신자를 걸러내는 세 번의 약속과 검증
 
@@ -13,7 +12,7 @@ keyword: "BFT_3Phase_PrePrepare_Prepare_Commit_PBFT_Consensus"
 > 2. **가치**: 리더 노드가 거짓말을 하거나 일부 노드가 배신하더라도, 노드 간의 **교차 검증(All-to-All)**을 통해 전체의 2/3 이상이 동의한 정당한 거래만 원장에 기록함을 보장한다.
 > 3. **융합**: 분산 상태 기계 복제(SMR) 이론의 핵심이며, 하이퍼레저 패브릭이나 텐더민트 등 엔터프라이즈 블록체인의 **즉각적 완결성(Finality)**을 구현하는 기술적 토대가 된다.
 
----
++++
 
 ## Ⅰ. BFT 합의 3단계 개요
 
@@ -34,7 +33,7 @@ keyword: "BFT_3Phase_PrePrepare_Prepare_Commit_PBFT_Consensus"
 
 📢 **섹션 요약 비유**: 한 명의 지휘관 말만 믿고 돌격하는 게 아니라, 모든 병사가 서로 옆 사람의 명령지를 세 번 대조해보고 움직이는 '극강의 신중함'입니다.
 
----
++++
 
 ## Ⅱ. 단계별 상세 동작 원리 (Deep Dive)
 
@@ -83,7 +82,7 @@ keyword: "BFT_3Phase_PrePrepare_Prepare_Commit_PBFT_Consensus"
 
 📢 **섹션 요약 비유**: 투표함에 내 표를 넣기 전에, 다른 친구들의 투표용지를 미리 훑어보고 "아, 다들 나랑 같은 생각이구나"라는 확신(증명)을 얻어야만 최종 도장을 찍는 것과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -103,7 +102,7 @@ keyword: "BFT_3Phase_PrePrepare_Prepare_Commit_PBFT_Consensus"
 
 📢 **섹션 요약 비유**: Raft가 "아픈 친구는 빼고 다수결하자"는 효율 중심이라면, BFT는 "거짓말쟁이가 있을지 모르니 세 번씩 꼬치꼬치 캐묻자"는 보안 중심의 차이가 있습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -117,7 +116,7 @@ keyword: "BFT_3Phase_PrePrepare_Prepare_Commit_PBFT_Consensus"
 
 📢 **섹션 요약 비유**: 모든 사원이 결재 서류를 돌려보는 건 비효율적이므로, 신뢰받는 '운영위원회'를 뽑아 그들끼리 빠르게 3심제를 진행하게 하는 것이 실무의 지혜입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -131,13 +130,13 @@ keyword: "BFT_3Phase_PrePrepare_Prepare_Commit_PBFT_Consensus"
 
 📢 **섹션 요약 비유**: BFT 3단계는 디지털 세상에서 **'누구도 부정할 수 없는 진실'**을 만들어내는 가장 정교하고 튼튼한 거푸집입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[PBFT](./13_pbft.md)**: 3단계 합의를 실무적으로 구현한 최초의 알고리즘.
-- **[비잔틴 장애 허용 (BFT)](./11_bft.md)**: 3단계 합의가 해결하려는 상위 이론.
-- **[즉각적 완결성 (Finality)](./65_finality.md)**: 3단계 합의를 통해 얻는 기술적 이득.
-- **[View Change](./xx_view_change.md)**: 리더 장애 시 대처하는 비상 매커니즘.
+- **PBFT**: 3단계 합의를 실무적으로 구현한 최초의 알고리즘.
+- **비잔틴 장애 허용 (BFT)**: 3단계 합의가 해결하려는 상위 이론.
+- **즉각적 완결성 (Finality)**: 3단계 합의를 통해 얻는 기술적 이득.
+- **View Change**: 리더 장애 시 대처하는 비상 매커니즘.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **친구들의 세 번 확인**: 술래잡기 규칙을 정할 때, 한 친구가 말하면 다들 "나도 들었어!"라고 대답하고, 마지막으로 "진짜 이대로 하는 거다!"라고 손가락 걸고 약속하는 3단계 과정이에요.

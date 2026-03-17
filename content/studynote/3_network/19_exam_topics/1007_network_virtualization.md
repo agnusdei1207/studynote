@@ -1,5 +1,6 @@
 +++
 title = "Network Virtualization - 네트워크 가상화"
+date = "2026-03-14"
 weight = 1007
 +++
 
@@ -111,6 +112,6 @@ Network Virtualization은 물리 네트워크를 논리적으로 분리합니다
 ---
 
 ### 📌 관련 개념 링크**:
-- [SDN](./995_sdn.md)
-- [NFV](./996_nfv.md)
-- [Network Overlay](./1001_network_overlay.md)
+- SDN
+- NFV
+- Network Overlay

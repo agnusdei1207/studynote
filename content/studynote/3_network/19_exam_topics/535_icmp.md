@@ -1,5 +1,6 @@
 +++
 title = "ICMP (Internet Control Message Protocol) - 인터넷 제어 메시지 프로토콜"
+date = "2026-03-14"
 weight = 535
 +++
 
@@ -92,6 +93,6 @@ ICMP는 IP 계층의 제어 메시지 프로토콜입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [IP](./330_ip.md)
-- [ping](./536_ping.md)
-- [traceroute](./537_traceroute.md)
+- IP
+- ping
+- traceroute

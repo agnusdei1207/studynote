@@ -1,6 +1,7 @@
 +++
-weight = 75
 title = "75. 워드 (Word)"
+date = "2026-03-14"
+weight = 75
 +++
 
 # 워드 (Word)
@@ -151,10 +152,10 @@ title = "75. 워드 (Word)"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[바이트 (Byte)](./74_byte.md)**: 워드를 구성하는 하위 단위 (통상 1 Word = 4 or 8 Bytes).
-- **[레지스터 (Register)](../1_basic_electronics_logic/47_register.md)**: CPU 내부의 초고속 기억 장치로, 그 크기가 시스템의 워드 크기와 동일함.
-- **[주소 지정 방식 (Addressing Modes)](../4_isa/173_addressing_modes.md)**: 워드 크기의 주소 버스를 활용해 메모리 특정 위치의 데이터를 효과적으로 가져오는 CPU의 기법.
-- **[캐시 라인 (Cache Line)](../6_memory_cache/259_cache_memory.md)**: 현대 CPU는 워드 단위가 아니라 여러 워드를 묶은 캐시 라인(예: 64바이트) 단위로 메모리를 읽어옴.
+- **바이트 (Byte)**: 워드를 구성하는 하위 단위 (통상 1 Word = 4 or 8 Bytes).
+- **레지스터 (Register)**: CPU 내부의 초고속 기억 장치로, 그 크기가 시스템의 워드 크기와 동일함.
+- **주소 지정 방식 (Addressing Modes)**: 워드 크기의 주소 버스를 활용해 메모리 특정 위치의 데이터를 효과적으로 가져오는 CPU의 기법.
+- **캐시 라인 (Cache Line)**: 현대 CPU는 워드 단위가 아니라 여러 워드를 묶은 캐시 라인(예: 64바이트) 단위로 메모리를 읽어옴.
 
 ---
 

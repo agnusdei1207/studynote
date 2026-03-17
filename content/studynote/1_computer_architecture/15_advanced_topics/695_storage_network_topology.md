@@ -1,5 +1,6 @@
 +++
 title = "storage network topology"
+date = "2026-03-14"
 weight = 695
 +++
 
@@ -449,12 +450,12 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [파이버 채널 (Fibre Channel)](./fibre_channel.md) - FC 프로토콜 상세
-- [SAN (Storage Area Network)](./san.md) - 스토리지 네트워크 개요
-- [멀티패스 I/O](./686_multipath_io.md) - 다중 경로 이중화
-- [LUN 마스킹](./685_lun_masking.md) - 스토리지 접근 제어
-- [iSCSI](./iscsi.md) - IP 기반 스토리지 프로토콜
-- [NVMe-oF](./nvme_over_fabrics.md) - 차세대 스토리지 전송
+- 파이버 채널 (Fibre Channel) - FC 프로토콜 상세
+- SAN (Storage Area Network) - 스토리지 네트워크 개요
+- 멀티패스 I/O - 다중 경로 이중화
+- LUN 마스킹 - 스토리지 접근 제어
+- iSCSI - IP 기반 스토리지 프로토콜
+- NVMe-oF - 차세대 스토리지 전송
 
 ---
 

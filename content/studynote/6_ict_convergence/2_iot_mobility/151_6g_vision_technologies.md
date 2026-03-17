@@ -1,10 +1,9 @@
----
-title: "[ICT] #152. 6G 통신망 비전 및 핵심 기술 (RIS, NTN)"
-date: "2026-03-17"
++++
+title = "[ICT] #152. 6G 통신망 비전 및 핵심 기술 (RIS, NTN)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "6G_Terahertz_AI_Native_RIS_ReconfigurableIntelligentSurface_NTN_NonTerrestrialNetwork"
----
+keyword = "6G_Terahertz_AI_Native_RIS_ReconfigurableIntelligentSurface_NTN_NonTerrestrialNetwork"
++++
 
 # 6G 통신망 비전 및 핵심 기술: 공간의 한계를 넘어 지능형으로 진화하는 초공간 네트워크
 
@@ -13,7 +12,7 @@ keyword: "6G_Terahertz_AI_Native_RIS_ReconfigurableIntelligentSurface_NTN_NonTer
 > 2. **가치**: 인공지능이 망의 설계부터 운영까지 개입하는 AI-Native 아키텍처를 통해 홀로포테이션(Holoportation)과 완벽한 디지털 트윈 등 인간의 오감을 가상화하는 서비스를 상용화한다.
 > 3. **융합**: 고주파의 짧은 도달 거리를 극복하기 위한 '지능형 반사 표면(RIS)'과 저궤도 위성을 활용하여 전 지구적 통신을 제공하는 '비지상 네트워크(NTN)' 기술이 융합되어 공간적 한계를 소멸시킨다.
 
----
++++
 
 ## Ⅰ. 6G 통신망 비전 개요
 
@@ -31,7 +30,7 @@ keyword: "6G_Terahertz_AI_Native_RIS_ReconfigurableIntelligentSurface_NTN_NonTer
 
 📢 **섹션 요약 비유**: 6G는 인터넷의 영토를 우리가 발 딛고 있는 땅(2D)에서, 하늘과 바다를 포함한 지구 전체(3D)로 확장하는 영토 확장 프로젝트입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -76,7 +75,7 @@ keyword: "6G_Terahertz_AI_Native_RIS_ReconfigurableIntelligentSurface_NTN_NonTer
 
 📢 **섹션 요약 비유**: 건물에 막힌 빛(전파)을 거울(RIS)로 꺾어 골목길을 밝히고, 우주에 거대한 가로등(NTN)을 달아 밤바다까지 대낮처럼 비추는 기술입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -96,7 +95,7 @@ keyword: "6G_Terahertz_AI_Native_RIS_ReconfigurableIntelligentSurface_NTN_NonTer
 
 📢 **섹션 요약 비유**: 5G가 '빠른 스포츠카'라면, 6G는 눈 깜짝할 사이에 반대편으로 이동하는 '순간이동 장치(텔레포트)'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -113,7 +112,7 @@ keyword: "6G_Terahertz_AI_Native_RIS_ReconfigurableIntelligentSurface_NTN_NonTer
 
 📢 **섹션 요약 비유**: 비싼 조명(기지국)을 계속 사는 대신, 값싸고 영구적인 반사경(RIS)을 곳곳에 붙여 도시 전체를 눈부시게 밝히는 경제적 엔지니어링입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -127,13 +126,13 @@ keyword: "6G_Terahertz_AI_Native_RIS_ReconfigurableIntelligentSurface_NTN_NonTer
 
 📢 **섹션 요약 비유**: 6G는 우리가 한 번도 가보지 못한 하늘과 우주, 그리고 상상 속의 메타버스를 우리 눈앞의 현실로 배달해 주는 궁극의 '디지털 실크로드'입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[메타버스 (Metaverse)](./133_metaverse.md)**: 6G가 실현시킬 궁극의 데이터 소비 공간.
-- **[UAM (도심 항공 교통)](./144_uam_utm.md)**: 6G 3D 네트워크(NTN)의 가장 큰 수혜를 받는 킬러 애플리케이션.
-- **[디지털 트윈](./125_digital_twin.md)**: 1Tbps의 속도로 현실과 완벽히 동기화될 가상 공간.
-- **[오픈 랜 (O-RAN)](#)**: 6G 기지국의 유연성을 뒷받침할 하드웨어/소프트웨어 분리 기술.
+- **메타버스 (Metaverse)**: 6G가 실현시킬 궁극의 데이터 소비 공간.
+- **UAM (도심 항공 교통)**: 6G 3D 네트워크(NTN)의 가장 큰 수혜를 받는 킬러 애플리케이션.
+- **디지털 트윈**: 1Tbps의 속도로 현실과 완벽히 동기화될 가상 공간.
+- **오픈 랜 (O-RAN)**: 6G 기지국의 유연성을 뒷받침할 하드웨어/소프트웨어 분리 기술.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **슈퍼 인터넷**: 지금보다 무려 50배나 더 빨라서, 엄청나게 큰 영화 수십 편을 눈 한 번 깜빡할 사이에 다 받을 수 있는 6세대 인터넷이에요.

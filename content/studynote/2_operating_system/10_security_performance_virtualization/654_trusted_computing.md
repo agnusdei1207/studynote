@@ -1,7 +1,7 @@
 +++
-weight = 654
 title = "654. 신뢰 컴퓨팅 (Trusted Computing)"
 date = "2026-03-16"
+weight = 654
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "신뢰 컴퓨팅", "Trusted Computing", "TPM", "원격 증명", "부팅 무결성"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "신뢰 컴퓨팅", "Trusted Computing", "TPM", "원
 > 2. **가치**: TPM(Trusted Platform Module) 칩으로 **디스크 암호화, 안전한 키 저장, 부팅 무결성**을 제공하며, 도난 방지, 데이터 보호에 활용된다.
 > 3. **융합**: TCG(Trusted Computing Group) 표준, TPM 2.0, Secure Boot, Intel TXT, AMD SVM와 결합하여 **플랫폼 보안 체인**을 구축한다.
 
----
++++
 
 ## Ⅰ. 신뢰 컴퓨팅의 개요
 
@@ -31,7 +31,7 @@ keywords = ["운영체제", "신뢰 컴퓨팅", "Trusted Computing", "TPM", "원
 
 - **📢 섹션 요약 비유**: 부동산 계약 때 공증인증을 받는 것처럼, 컴퓨터도 부팅할 때마다 "내가 진짜야"라고 증명하는 시스템입니다.
 
----
++++
 
 ## Ⅱ. TPM (Trusted Platform Module) (Deep Dive)
 
@@ -68,7 +68,7 @@ PCR[1] = SHA256(PCR[1] || Bootloader_Hash)
 ...
 ```
 
----
++++
 
 ## Ⅲ. 신뢰 부팅 체인
 
@@ -94,7 +94,7 @@ PCR[1] = SHA256(PCR[1] || Bootloader_Hash)
 - **서명된 부트로더만 실행 허용**
 - 무단 수정된 부트로더 실행 방지
 
----
++++
 
 ## Ⅳ. 원격 증명 (Remote Attestation)
 
@@ -126,7 +126,7 @@ PCR[1] = SHA256(PCR[1] || Bootloader_Hash)
     └─────────────────────────────────────────────────────────────────┘
 ```
 
----
++++
 
 ## Ⅴ. TPM 활용
 
@@ -140,7 +140,7 @@ PCR[1] = SHA256(PCR[1] || Bootloader_Hash)
 ssh-keygen -t ecdsa-sk
 ```
 
----
++++
 
 ## Ⅵ. 실무 적용
 
@@ -152,7 +152,7 @@ ssh-keygen -t ecdsa-sk
 ### 2. 안티패턴
 - **"TPM 비활성화"**
 
----
++++
 
 ## Ⅶ. 기대효과 및 결론
 
@@ -163,14 +163,14 @@ ssh-keygen -t ecdsa-sk
 ### 2. 미래 전맹
 - **TPM 3.0**: 더 강력한 암호화
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[암호화](./574_encryption.md)**: 키 관리
-- **[시스템 무결성](./xx_integrity.md)**: PCR
-- **[보안 부팅](./xx_secure_boot.md)**: Secure Boot
+- **암호화**: 키 관리
+- **시스템 무결성**: PCR
+- **보안 부팅**: Secure Boot
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 신뢰 컴퓨팅은 **"문단속 지키는 인장"**과 같아요.

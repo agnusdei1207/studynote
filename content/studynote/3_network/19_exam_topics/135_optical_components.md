@@ -1,5 +1,6 @@
 +++
 title = "광전송 용어 - 광원 / 수광소자"
+date = "2026-03-14"
 weight = 135
 +++
 
@@ -149,10 +150,10 @@ weight = 135
 ---
 
 ### 📌 관련 개념 링크**:
-- [광섬유](./128_optical_fiber.md)
-- [SMF/MMF](./132_smf_mmf.md)
-- [이더넷 PHY](./137_ethernet_phy.md)
-- [WDM](./79_wdm.md)
+- 광섬유
+- SMF/MMF
+- 이더넷 PHY
+- WDM
 
 ---
 

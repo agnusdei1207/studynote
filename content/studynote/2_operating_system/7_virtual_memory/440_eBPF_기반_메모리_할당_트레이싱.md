@@ -1,6 +1,7 @@
 +++
-weight = 440
 title = "440. eBPF 기반 메모리 할당 트레이싱"
+date = "2026-03-14"
+weight = 440
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -116,4 +117,3 @@ graph TD
     Program --> Store[Update BPF Map: PID, Size, Stack]
     Store --> Read[User Tool Reads Map]
     Read --> Report[Memory Leak/Usage Report]
-```

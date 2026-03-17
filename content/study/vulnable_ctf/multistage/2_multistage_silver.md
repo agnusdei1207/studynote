@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Multi-Stage Attack 🥈 Silver"
-description = "LUXORA 플랫폼의 Silver 난이도 Multi-Stage Attack 공략 - SQLi, Password Cracking, SSH 접속을 연계한 시스템 장악 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Multi-Stage", "Silver", "Attack Chain", "SQLi", "Hash Cracking", "SSH", "Write-up"]

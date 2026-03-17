@@ -12,7 +12,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 복잡한 반복 연산(Iterative Method)이나 다단계 파이프라인 작업에서 데이터 의존성(Data Dependency) 문제를 해결하고, 단계 간 실행 순서의 일관성을 확보하여 레이스 컨디션 (Race Condition)을 원천 차단한다.
 > 3. **융합**: 병렬 프로그래밍 표준인 OpenMP, Pthreads, MPI (Message Passing Interface) 등에서 핵심 동시성 제어 도구로 활용되며, 현대의 GPU (Graphics Processing Unit) 기반 GPGPU 연산 및 맵리듀스 (MapReduce) 모델의 셔플링(Shuffling) 단계 정렬의 논리적 기반이 된다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -27,7 +27,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 마치 이어달리기에서 모든 주자가 바통 터치 구역에 들어와야만 다음 구간의 경기가 재개되는 규칙과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -41,7 +41,7 @@ categories = "studynote-operating-system"
 | **뮤텍스 (Mutex)** | 카운터 변수 보호 | 카운터 수정 시 상호 배제 보장 | pthread_mutex_lock | 출석부 관리자 전용 펜 |
 | **브로드캐스트 (Broadcast)** | 대기 중인 모든 스레드 깨움 | 마지막 스레드가 도착 시 알림 전송 | pthread_cond_broadcast | 출발 신호 총성 |
 
----
++++
 
 ### 장벽 동기화의 동작 시퀀스
 
@@ -72,7 +72,7 @@ categories = "studynote-operating-system"
 
 **[다이어그램 해설]** 위 도식에서 Thread 3은 가장 빨리 작업을 마쳤음에도 불구하고 Thread 2가 올 때까지 장벽 지점에서 대기한다. 내부적으로는 `count` 변수를 1 감소시킨 후, `count > 0` 이면 조건 변수에서 잠들고, `count == 0`이 되는 마지막 스레드가 `pthread_cond_broadcast()`를 호출하여 잠들어 있던 모든 스레드를 준비(Ready) 상태로 전환한다. 이 과정을 통해 Task A와 Task B 사이에는 명확한 선후 관계가 형성된다.
 
----
++++
 
 ### 재사용 가능한 장벽 (Sense Reversal Barrier)
 
@@ -98,7 +98,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 마치 모래시계를 다 쓴 후 뒤집어서 다시 사용하는 것처럼, 상태를 반전시킴으로써 매번 새로운 장벽을 세우는 것과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -118,7 +118,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 뮤텍스가 화장실 문을 잠그는 개인적인 방어라면, 장벽은 전 부대원이 집결지에 모여야 작전을 개시하는 집합적인 통제와 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -137,7 +137,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 마치 낙오자가 있는 부대가 목적지에서 영원히 기다리는 위험이 있으므로, 모든 대원이 반드시 도착하도록 경로(코드)를 설계하는 것이 필수적입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -155,16 +155,16 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 미래의 장벽은 단순히 멈춰 서서 기다리는 벽이 아니라, 서로의 상태를 실시간으로 확인하며 유연하게 흐름을 조절하는 스마트 게이트로 진화하고 있습니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[뮤텍스 (Mutex)](./231_mutex_lock.md)**: 상호 배제를 위한 기초 동기화 도구.
-- **[조건 변수 (Condition Variable)](./239_condition_variable.md)**: 장벽 내부 구현의 핵심 요소.
-- **[랑데부 (Rendezvous)](./262_two_way_rendezvous.md)**: 두 스레드 간의 1:1 장벽 동기화 특수 사례.
-- **[데드락 (Deadlock)](../5_deadlock/281_deadlock.md)**: 장벽 인원 설정 오류 시 발생하는 대표적 결함.
-- **[로드 밸런싱 (Load Balancing)](../3_cpu_scheduling/196_load_balancing.md)**: 장벽 대기 시간을 최소화하기 위한 필수 전략.
+- **뮤텍스 (Mutex)**: 상호 배제를 위한 기초 동기화 도구.
+- **조건 변수 (Condition Variable)**: 장벽 내부 구현의 핵심 요소.
+- **랑데부 (Rendezvous)**: 두 스레드 간의 1:1 장벽 동기화 특수 사례.
+- **데드락 (Deadlock)**: 장벽 인원 설정 오류 시 발생하는 대표적 결함.
+- **로드 밸런싱 (Load Balancing)**: 장벽 대기 시간을 최소화하기 위한 필수 전략.
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 장벽은 놀이공원에서 친구들을 만날 때 정하는 **"매점 앞 집결지"**와 같아요.

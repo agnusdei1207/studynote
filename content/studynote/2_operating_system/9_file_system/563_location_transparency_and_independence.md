@@ -1,6 +1,7 @@
 +++
-weight = 563
 title = "563. 위치 투명성 (Location Transparency) 및 독립성"
+date = "2026-03-14"
+weight = 563
 +++
 
 # 563. 위치 투명성 (Location Transparency) 및 독립성

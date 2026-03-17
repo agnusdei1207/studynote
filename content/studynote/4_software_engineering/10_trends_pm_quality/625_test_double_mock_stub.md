@@ -1,11 +1,11 @@
----
-title: "625. 테스트 더블 Mock과 Stub의 차이"
-date: 2026-03-15
-draft: false
-weight: 625
-categories: ["Software Engineering"]
-tags: ["Testing", "Test Double", "Mock", "Stub", "TDD", "Unit Testing"]
----
++++
+title = "625. 테스트 더블 Mock과 Stub의 차이"
+date = "2026-03-15"
+weight = 625
+[extra]
+categories = ["Software Engineering"]
+tags = ["Testing", "Test Double", "Mock", "Stub", "TDD", "Unit Testing"]
++++
 
 # 테스트 더블 Mock과 Stub의 차이
 
@@ -777,11 +777,11 @@ graph LR
 ```
 
 ### 연관 문서
-- [TDD (Test-Driven Development)](./584_tdd.md) - 테스트 주도 개발 방법론
-- [단위 테스트 전략](./580_whitebox_mccabe.md) - 화이트 박스 테스트 설계
-- [CI/CD 파이프라인](./515_devsecops_pipeline.md) - 테스트 자동화 통합
-- [MSA 통신 패턴]((#)) - 분산 시스템 테스트
-- [계약 테스트]((#)) - Consumer-Driven Contracts
+- TDD (Test-Driven Development) - 테스트 주도 개발 방법론
+- 단위 테스트 전략 - 화이트 박스 테스트 설계
+- CI/CD 파이프라인 - 테스트 자동화 통합
+- MSA 통신 패턴) - 분산 시스템 테스트
+- 계약 테스트) - Consumer-Driven Contracts
 
 ---
 

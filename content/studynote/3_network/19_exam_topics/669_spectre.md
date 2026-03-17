@@ -1,5 +1,6 @@
 +++
 title = "Spectre/Meltdown - 스펙터/멜트다운"
+date = "2026-03-14"
 weight = 669
 +++
 
@@ -99,6 +100,6 @@ Spectre/Meltdown은 추측 실행을 악용한 공격입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Speculative Execution](./667_speculative_execution.md)
-- [Branch Prediction](./666_branch_prediction.md)
-- [CPU Cache](./661_cpu_cache.md)
+- Speculative Execution
+- Branch Prediction
+- CPU Cache

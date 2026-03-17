@@ -1,6 +1,7 @@
 +++
-weight = 516
 title = "516. 파일 시스템 마운팅 (Mounting)"
+date = "2026-03-14"
+weight = 516
 +++
 
 # 516. 파일 시스템 마운팅 (Mounting)

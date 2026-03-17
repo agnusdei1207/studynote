@@ -1,6 +1,7 @@
 +++
-weight = 535
 title = "535. 시스템 온 패키지 (SiP)"
+date = "2026-03-14"
+weight = 535
 +++
 
 # 535. 시스템 온 패키지 (SiP)
@@ -134,10 +135,10 @@ title = "535. 시스템 온 패키지 (SiP)"
 ---
 
 ### 📌 관련 개념 맵
-- **[More than Moore (무어의 법칙 이후)](./534_more_than_moore.md)**: SiP의 철학적 배경
-- **[칩렛 (Chiplet)](./497_chiplet.md)**: SiP를 구성하는 핵심 단위
-- **[TSV / 3D 패키징](./496_tsv.md)**: SiP의 수직 확장 기술
-- **[HBM (High Bandwidth Memory)](./495_hbm.md)**: 가장 성공적인 SiP 상용화 사례
+- **More than Moore (무어의 법칙 이후)**: SiP의 철학적 배경
+- **칩렛 (Chiplet)**: SiP를 구성하는 핵심 단위
+- **TSV / 3D 패키징**: SiP의 수직 확장 기술
+- **HBM (High Bandwidth Memory)**: 가장 성공적인 SiP 상용화 사례
 
 ---
 

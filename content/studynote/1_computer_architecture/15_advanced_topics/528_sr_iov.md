@@ -1,6 +1,7 @@
 +++
-weight = 528
 title = "528. SR-IOV (Single Root I/O Virtualization)"
+date = "2026-03-14"
+weight = 528
 +++
 
 # 528. SR-IOV (Single Root I/O Virtualization)
@@ -133,10 +134,10 @@ title = "528. SR-IOV (Single Root I/O Virtualization)"
 ---
 
 ### 📌 관련 개념 맵
-- **[IOMMU / VT-d](./xx_iommu.md)**: SR-IOV 작동의 필수 보안 기술
-- **[DPDK (Data Plane Development Kit)](./518_dpdk.md)**: 소프트웨어 측면의 I/O 가속 경쟁/보완 기술
-- **[NFV (Network Function Virtualization)](./xx_nfv.md)**: SR-IOV의 주요 활용 분야
-- **[PCIe (PCI Express)](./508_pci_express.md)**: SR-IOV의 물리적 인터페이스 기반
+- **IOMMU / VT-d**: SR-IOV 작동의 필수 보안 기술
+- **DPDK (Data Plane Development Kit)**: 소프트웨어 측면의 I/O 가속 경쟁/보완 기술
+- **NFV (Network Function Virtualization)**: SR-IOV의 주요 활용 분야
+- **PCIe (PCI Express)**: SR-IOV의 물리적 인터페이스 기반
 
 ---
 

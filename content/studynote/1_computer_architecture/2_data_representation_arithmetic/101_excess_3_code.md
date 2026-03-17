@@ -1,6 +1,7 @@
 +++
-weight = 101
 title = "101. 3초과 코드 (Excess-3 Code)"
+date = "2026-03-14"
+weight = 101
 +++
 
 # 101. 3초과 코드 (Excess-3 Code)

@@ -1,7 +1,8 @@
----
-title: "스펙터 (Spectre)"
-weight: 483
----
++++
+title = "스펙터 (Spectre)"
+date = "2026-03-14"
+weight = 483
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 스펙터 (Spectre)는 CPU의 '분기 예측(Branch Prediction)'과 '투기적 실행(Speculative Execution)' 기능을 악용하여, 프로세스 내 혹은 프로세스 간의 메모리 격리를 우회하고 비밀 정보를 탈취하는 하드웨어 취약점이다.
@@ -122,9 +123,9 @@ weight: 483
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[Branch Prediction](../5_control_unit_pipelining/502_branch_prediction.md)**: 스펙터가 악용한 CPU의 경로 예측 기술.
-- **[Meltdown](./482_meltdown.md)**: 스펙터와 함께 발표된 형제 격 취약점.
-- **[Cache Side-channel](./481_side_channel_attack.md)**: 최종적으로 정보를 빼내는 기술적 수단.
+- **Branch Prediction**: 스펙터가 악용한 CPU의 경로 예측 기술.
+- **Meltdown**: 스펙터와 함께 발표된 형제 격 취약점.
+- **Cache Side-channel**: 최종적으로 정보를 빼내는 기술적 수단.
 
 ---
 

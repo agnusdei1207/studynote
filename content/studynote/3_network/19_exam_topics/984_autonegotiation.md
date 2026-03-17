@@ -1,5 +1,6 @@
 +++
 title = "Auto Negotiation - 자동 협상"
+date = "2026-03-14"
 weight = 984
 +++
 
@@ -109,6 +110,6 @@ Auto Negotiation은 링크 속도와 이중화를 자동으로 설정합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Full Duplex](./983_full_duplex.md)
-- [Half Duplex](./982_half_duplex.md)
-- [Ethernet](./901_ethernet.md)
+- Full Duplex
+- Half Duplex
+- Ethernet

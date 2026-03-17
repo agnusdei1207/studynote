@@ -1,5 +1,6 @@
 +++
 title = "서비스 메시 - Service Mesh"
+date = "2026-03-14"
 weight = 446
 +++
 
@@ -139,10 +140,10 @@ weight = 446
 ---
 
 ### 📌 관련 개념 링크**:
-- [컨테이너 네트워킹](./444_container_networking.md)
-- [마이크로서비스](../4_software_engineering/11_exam_summary/xxx.md)
-- [mTLS](./396_mtls.md)
-- [로드밸런싱](./337_loadbalancing.md)
+- 컨테이너 네트워킹
+- 마이크로서비스
+- mTLS
+- 로드밸런싱
 
 ---
 

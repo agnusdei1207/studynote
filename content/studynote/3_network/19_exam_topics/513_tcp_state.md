@@ -1,5 +1,6 @@
 +++
 title = "TCP State Machine - TCP 상태 머신"
+date = "2026-03-14"
 weight = 513
 +++
 
@@ -98,6 +99,6 @@ TCP State Machine은 연결의 상태 전이를 정의합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./332_tcp.md)
-- [TCP Handshake](./333_tcp_handshake.md)
-- [TCP Close](./512_tcp_close.md)
+- TCP
+- TCP Handshake
+- TCP Close

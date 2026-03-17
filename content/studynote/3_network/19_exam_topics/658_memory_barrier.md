@@ -1,5 +1,6 @@
 +++
 title = "Memory Barrier - 메모리 장벽"
+date = "2026-03-14"
 weight = 658
 +++
 
@@ -97,6 +98,6 @@ Memory Barrier는 메모리 연산 순서를 제어합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Atomic Operation](./656_atomic_operation.md)
-- [Cache Coherence](./659_cache_coherence.md)
-- [Lock-free](./657_lock_free.md)
+- Atomic Operation
+- Cache Coherence
+- Lock-free

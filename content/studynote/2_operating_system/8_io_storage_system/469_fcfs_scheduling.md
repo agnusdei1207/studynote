@@ -1,6 +1,7 @@
 +++
-weight = 469
 title = "469. FCFS (First-Come, First-Served) 스케줄링"
+date = "2026-03-14"
+weight = 469
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -110,9 +111,9 @@ title = "469. FCFS (First-Come, First-Served) 스케줄링"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[디스크 스케줄링 목적](./468_disk_scheduling_purpose.md)**: FCFS가 달성하지 못한 성능적 목표.
-- **[SSTF 스케줄링](./470_sstf_scheduling.md)**: FCFS의 성능적 대안.
-- **[기아 현상 (Starvation)](./xx_starvation.md)**: FCFS를 쓰면 절대 겪지 않는 부작용.
+- **디스크 스케줄링 목적**: FCFS가 달성하지 못한 성능적 목표.
+- **SSTF 스케줄링**: FCFS의 성능적 대안.
+- **기아 현상 (Starvation)**: FCFS를 쓰면 절대 겪지 않는 부작용.
 
 ---
 

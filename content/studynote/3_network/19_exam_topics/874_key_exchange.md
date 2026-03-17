@@ -1,5 +1,6 @@
 +++
 title = "Key Exchange - 키 교환"
+date = "2026-03-14"
 weight = 874
 +++
 
@@ -106,6 +107,6 @@ Key Exchange는 안전하게 키를 공유합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Encryption](./812_encryption.md)
-- [TLS](./xxx_tls.md)
-- [Asymmetric Key](./869_asymmetric_key.md)
+- Encryption
+- TLS
+- Asymmetric Key

@@ -1,5 +1,6 @@
 +++
 title = "traceroute - 트레이스라우트"
+date = "2026-03-14"
 weight = 537
 +++
 
@@ -92,6 +93,6 @@ traceroute는 패킷이 거치는 경로를 추적합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [ICMP](./535_icmp.md)
-- [TTL](./526_ttl.md)
-- [ping](./536_ping.md)
+- ICMP
+- TTL
+- ping

@@ -1,10 +1,9 @@
----
-title: "[ICT] #89. 밸리디움 (Validium)"
-date: "2026-03-17"
++++
+title = "[ICT] #89. 밸리디움 (Validium)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Validium_ZeroKnowledgeProof_OffchainData_Scalability_DAC_RollupComparison"
----
+keyword = "Validium_ZeroKnowledgeProof_OffchainData_Scalability_DAC_RollupComparison"
++++
 
 # 밸리디움 (Validium): 오프체인 데이터와 영지식 증명의 결합을 통한 초고속 확장
 
@@ -13,7 +12,7 @@ keyword: "Validium_ZeroKnowledgeProof_OffchainData_Scalability_DAC_RollupCompari
 > 2. **가치**: 거래 데이터를 레이어 1(L1)에 모두 기록하는 롤업(Rollup)보다 훨씬 저렴한 수수료와 수만 TPS 이상의 압도적 처리 성능을 제공하며, 기업이나 게임 서비스처럼 프라이버시와 속도가 중요한 분야에 최적화되어 있다.
 > 3. **융합**: 암호학적 증명 기술과 **데이터 가용성 위원회(DAC)** 시스템이 결합된 형태이며, 데이터가 오프체인에 있어 L1 보안을 100% 상속받지는 못하는 '보안-성능' 간의 전략적 타협 모델이다.
 
----
++++
 
 ## Ⅰ. 밸리디움 (Validium) 개요
 
@@ -31,7 +30,7 @@ keyword: "Validium_ZeroKnowledgeProof_OffchainData_Scalability_DAC_RollupCompari
 
 📢 **섹션 요약 비유**: 모든 영수증을 관공서 게시판(L1)에 다 붙이는 대신, "회계 검사 완료!"라는 마법 도장(ZK 증명) 하나만 찍어 보내고 영수증 뭉치는 회사 금고(오프체인)에 따로 보관하는 극강의 효율 추구 기술입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -86,7 +85,7 @@ keyword: "Validium_ZeroKnowledgeProof_OffchainData_Scalability_DAC_RollupCompari
 
 📢 **섹션 요약 비유**: 마법 도장(ZK 증명) 덕분에 도둑질은 못 하지만, 금고 문(데이터)을 잠그고 안 열어주는 '인질극'의 위험은 여전히 존재하는 구조입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -107,7 +106,7 @@ keyword: "Validium_ZeroKnowledgeProof_OffchainData_Scalability_DAC_RollupCompari
 
 📢 **섹션 요약 비유**: ZK 롤업이 '모든 데이터를 국가 기록원에 영구 보관하는 방식'이라면, 밸리디움은 '전문 보안 업체 창고에 맡기는 방식'의 차이가 있습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -124,7 +123,7 @@ keyword: "Validium_ZeroKnowledgeProof_OffchainData_Scalability_DAC_RollupCompari
 
 📢 **섹션 요약 비유**: 집을 지을 때 거실은 통유리(롤업)로 해서 튼튼하게 지키고, 창고는 보이지 않는 벽(밸리디움)으로 만들어 비용을 아끼는 '스마트한 건축 설계'가 필요합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -138,13 +137,13 @@ keyword: "Validium_ZeroKnowledgeProof_OffchainData_Scalability_DAC_RollupCompari
 
 📢 **섹션 요약 비유**: 밸리디움은 블록체인이라는 고속도로에 깔린 '데이터 전용 터널'이며, 이 터널을 통해 우리는 세상의 모든 정보를 가장 빠르고 안전하게 운반하게 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[ZK 롤업](./44_zk_rollup.md)**: 밸리디움의 형제 기술이자 비교 대상.
-- **[영지식 증명 (ZKP)](./36_zero_knowledge_proof.md)**: 밸리디움 무결성을 보장하는 뿌리 기술.
-- **[데이터 가용성 (DA)](./94_data_availability.md)**: 밸리디움이 오프체인으로 뺀 핵심 요소.
-- **[StarkEx](./xx_starkex.md)**: 밸리디움 기술을 실전에 적용한 대표적 엔진.
+- **ZK 롤업**: 밸리디움의 형제 기술이자 비교 대상.
+- **영지식 증명 (ZKP)**: 밸리디움 무결성을 보장하는 뿌리 기술.
+- **데이터 가용성 (DA)**: 밸리디움이 오프체인으로 뺀 핵심 요소.
+- **StarkEx**: 밸리디움 기술을 실전에 적용한 대표적 엔진.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **비밀 일기장과 확인 도장**: 친구들에게 일기 내용을 보여주긴 싫지만, 일기를 잘 썼다는 건 인정받고 싶을 때 "참 잘했어요!"라는 마법 도장만 찍어 보여주는 방법이에요.

@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: NoSQL Injection 🥉 Bronze"
-description = "LUXORA 플랫폼의 NoSQL 기반 시스템에서 연산자 주입(Operator Injection)을 통한 인증 우회 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "NoSQL Injection", "Bronze", "Auth Bypass", "Write-up"]

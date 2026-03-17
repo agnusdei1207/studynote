@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: SQL Injection 🥉 Bronze"
-description = "LUXORA 플랫폼의 SQL Injection Bronze 난이도 완벽 공략 롸잇업 (기초부터 익스플로잇까지 상세 분석)"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "SQL Injection", "Bronze", "Write-up"]

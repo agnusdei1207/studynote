@@ -1,5 +1,6 @@
 +++
 title = "Clock Recovery - 클럭 복구"
+date = "2026-03-14"
 weight = 820
 +++
 
@@ -110,6 +111,6 @@ Clock Recovery는 수신 신호에서 클럭을 추출합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Synchronization](./819_synchronization.md)
-- [PLL](./xxx_pll.md)
-- [Jitter](./804_jitter.md)
+- Synchronization
+- PLL
+- Jitter

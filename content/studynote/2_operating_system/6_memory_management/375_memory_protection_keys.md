@@ -1,6 +1,7 @@
 +++
-weight = 375
 title = "375. 메모리 보호 키 (Memory Protection Keys)"
+date = "2026-03-14"
+weight = 375
 +++
 
 # 375. 메모리 보호 키 (Memory Protection Keys)

@@ -1,7 +1,6 @@
 +++
 title = "Claude Code + Z.AI GLM 설정 가이드 (Mac / Linux)"
-date = 2026-02-28
-
+date = "2026-02-28"
 [extra]
 categories = "devops"
 +++
@@ -197,7 +196,7 @@ claude
 
 ## 참고
 
-- [Z.AI 공식 문서](https://docs.z.ai)
-- [Z.AI API Key 발급](https://console.z.ai)
-- [Homebrew Claude Code Cask](https://formulae.brew.sh/cask/claude-code)
-- [Anthropic Claude Code 공식](https://docs.anthropic.com/claude-code)
+- Z.AI 공식 문서
+- Z.AI API Key 발급
+- Homebrew Claude Code Cask
+- Anthropic Claude Code 공식

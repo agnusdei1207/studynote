@@ -1,10 +1,9 @@
----
-title: "[ICT] #206. 쿠버네티스 오토스케일링 (HPA, VPA, Cluster Autoscaler)"
-date: "2026-03-17"
++++
+title = "[ICT] #206. 쿠버네티스 오토스케일링 (HPA, VPA, Cluster Autoscaler)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Kubernetes_Autoscaling_HPA_VPA_ClusterAutoscaler_KEDA_CloudNative"
----
+keyword = "Kubernetes_Autoscaling_HPA_VPA_ClusterAutoscaler_KEDA_CloudNative"
++++
 
 # 쿠버네티스 오토스케일링: 트래픽 파도에 스스로 호흡하는 클라우드 인프라의 마법
 
@@ -13,7 +12,7 @@ keyword: "Kubernetes_Autoscaling_HPA_VPA_ClusterAutoscaler_KEDA_CloudNative"
 > 2. **가치**: 예상치 못한 트래픽 폭주(Spike) 시 서비스 다운을 방지하여 가용성(Availability)을 극대화하고, 트래픽이 줄어들면 잉여 자원을 즉시 회수하여 클라우드 비용(FinOps)을 최소화하는 핵심 자동화 기술이다.
 > 3. **융합**: 컨테이너 단위의 확장을 담당하는 **HPA/VPA**와, 물리적 서버 대수를 조절하는 **Cluster Autoscaler (CA)**가 상호 융합하여 완벽한 상하/수평 입체 확장을 이루며, 최근에는 KEDA를 통해 외부 이벤트(메시지 큐 등)와 연동되는 구조로 발전하고 있다.
 
----
++++
 
 ## Ⅰ. 쿠버네티스 오토스케일링 개요
 
@@ -32,7 +31,7 @@ keyword: "Kubernetes_Autoscaling_HPA_VPA_ClusterAutoscaler_KEDA_CloudNative"
 
 📢 **섹션 요약 비유**: 클라우드 네이티브라는 자동차가 달릴 때, 오르막길에서는 기름을 많이 먹고 내리막길에서는 엔진을 끄는 완벽한 '자율 연비 조절 시스템'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -84,7 +83,7 @@ HPA가 "CPU가 80%가 넘었네?"라고 알 수 있는 이유는, K8s 내부에 
 
 📢 **섹션 요약 비유**: HPA가 식당에 "의자 더 놔!"라고 외치면, CA가 "의자 놓을 자리가 없으니 옆 건물을 헐어서 식당을 넓혀!"라며 인프라를 창조해 내는 환상의 복식조입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -104,7 +103,7 @@ HPA가 "CPU가 80%가 넘었네?"라고 알 수 있는 이유는, K8s 내부에 
 
 📢 **섹션 요약 비유**: 일거리가 많아질 때 알바생을 더 뽑는 것(HPA)이 기본이지만, 무거운 돌을 들어야 할 때는 알바생 10명보다 힘센 장미란 선수 1명(VPA)을 부르는 것이 맞습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -122,7 +121,7 @@ HPA가 "CPU가 80%가 넘었네?"라고 알 수 있는 이유는, K8s 내부에 
 
 📢 **섹션 요약 비유**: 냄비에 물이 넘칠 것 같으면 불을 바로 줄여야 하지만(Scale-out 즉각 반응), 다시 끓일 때 시간이 걸리므로 불을 완전히 끄는 것(Scale-in)은 5분 정도 고민해 보고 꺼야 하는 요리의 지혜입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -136,13 +135,13 @@ HPA가 "CPU가 80%가 넘었네?"라고 알 수 있는 이유는, K8s 내부에 
 
 📢 **섹션 요약 비유**: 쿠버네티스 오토스케일링은 구름(클라우드)의 모양을 억지로 고정하지 않고, 바람(트래픽)이 부는 대로 자연스럽게 흩어지고 뭉치게 만드는 '완벽한 자연의 법칙'을 코드로 구현한 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[쿠버네티스 (K8s)](./196_kubernetes.md)**: HPA, VPA, CA를 구동시키는 뼈대이자 운영체제.
-- **[마이크로서비스 아키텍처 (MSA)](../../4_software_engineering/xx_msa.md)**: HPA의 혜택을 극대화하기 위해 앱을 잘게 쪼개는 아키텍처.
-- **[서버리스 (FaaS)](./187_faas_serverless.md)**: 0개로 축소(Scale to Zero)한다는 점에서 KEDA와 철학을 공유하는 서비스 모델.
-- **[스팟 인스턴스 (Spot Instance)](./209_spot_instance.md)**: Cluster Autoscaler가 서버를 생성할 때 비용을 줄이기 위해 조합하는 값싼 잉여 자원.
+- **쿠버네티스 (K8s)**: HPA, VPA, CA를 구동시키는 뼈대이자 운영체제.
+- **마이크로서비스 아키텍처 (MSA)**: HPA의 혜택을 극대화하기 위해 앱을 잘게 쪼개는 아키텍처.
+- **서버리스 (FaaS)**: 0개로 축소(Scale to Zero)한다는 점에서 KEDA와 철학을 공유하는 서비스 모델.
+- **스팟 인스턴스 (Spot Instance)**: Cluster Autoscaler가 서버를 생성할 때 비용을 줄이기 위해 조합하는 값싼 잉여 자원.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **분신술 (HPA)**: 손님이 너무 많이 와서 혼자서 피자 서빙을 못 할 때, 1초 만에 똑같이 생긴 서빙 요정 10명으로 분신술을 쓰는 마법이에요.

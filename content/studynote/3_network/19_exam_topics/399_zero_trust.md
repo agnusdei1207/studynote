@@ -1,5 +1,6 @@
 +++
 title = "Zero Trust - 제로 트러스트"
+date = "2026-03-14"
 weight = 399
 +++
 
@@ -142,10 +143,10 @@ Zero Trust는 모든 접근을 신뢰하지 않고 검증하는 보안 모델입
 ---
 
 ### 📌 관련 개념 링크**:
-- [MFA](./9_security/152_mfa.md)
-- [네트워크 분할](./400_network_segmentation.md)
-- [SASE](./13_cloud_architecture/151_sase.md)
-- [VPN](./306_vpn.md)
+- MFA
+- 네트워크 분할
+- SASE
+- VPN
 
 ---
 

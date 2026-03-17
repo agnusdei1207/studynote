@@ -1,5 +1,6 @@
 +++
 title = "블루투스 (Bluetooth) - BR/EDR/LE"
+date = "2026-03-14"
 weight = 187
 +++
 
@@ -138,10 +139,10 @@ weight = 187
 ---
 
 ### 📌 관련 개념 링크**:
-- [Zigbee](./188_zigbee.md)
-- [IoT](./202_iot.md)
-- [WPAN](./202_wpan.md)
-- [FHSS](./170_spread_spectrum.md)
+- Zigbee
+- IoT
+- WPAN
+- FHSS
 
 ---
 

@@ -1,6 +1,7 @@
 +++
-weight = 436
 title = "436. 커널 페이지 테이블 격리 (KPTI) - Meltdown 취약점 대응"
+date = "2026-03-14"
+weight = 436
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -109,4 +110,3 @@ graph TD
     KPT -- Return --> UPT
     KPTI --> PerfImpact[Performance Overhead]
     PerfImpact --> PCID[Mitigated by PCID Hardware]
-```

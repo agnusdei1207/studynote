@@ -1,3 +1,9 @@
++++
+title = "🧠 BrainScience PE 가이드라인"
+date = "2026-03-14"
+[extra]
++++
+
 # 🧠 BrainScience PE 가이드라인
 
 ```markdown

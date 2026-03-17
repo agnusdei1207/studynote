@@ -1,5 +1,6 @@
 +++
 title = "Sharding - 샤딩"
+date = "2026-03-14"
 weight = 691
 +++
 
@@ -100,6 +101,6 @@ Sharding은 데이터를 여러 서버에 분할 저장합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Replication](./690_replication.md)
-- [Partitioning](./692_partitioning.md)
-- [Scale-out](./693_scale_out.md)
+- Replication
+- Partitioning
+- Scale-out

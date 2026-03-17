@@ -1,5 +1,6 @@
 +++
 title = "Collision Domain - 충돌 도메인"
+date = "2026-03-14"
 weight = 980
 +++
 
@@ -109,6 +110,6 @@ Collision Domain은 프레임 충돌이 발생할 수 있는 영역입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Broadcast Domain](./981_broadcast_domain.md)
-- [Network Segment](./979_network_segment.md)
-- [Switch](./900_switch.md)
+- Broadcast Domain
+- Network Segment
+- Switch

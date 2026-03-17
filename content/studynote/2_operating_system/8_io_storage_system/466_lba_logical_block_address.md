@@ -1,6 +1,7 @@
 +++
-weight = 466
 title = "466. 논리적 블록 주소 (LBA, Logical Block Address)"
+date = "2026-03-14"
+weight = 466
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -111,9 +112,9 @@ title = "466. 논리적 블록 주소 (LBA, Logical Block Address)"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[HDD 구조](./465_hdd_structure.md)**: LBA가 숨겨주는 물리적 실체.
-- **[파일 시스템 (File System)](./xx_file_system.md)**: LBA 주소를 기반으로 파일을 관리하는 소프트웨어.
-- **[웨어 레벨링 (Wear Leveling)](./xx_wear_leveling.md)**: SSD에서 LBA 매핑을 활용하는 핵심 기술.
+- **HDD 구조**: LBA가 숨겨주는 물리적 실체.
+- **파일 시스템 (File System)**: LBA 주소를 기반으로 파일을 관리하는 소프트웨어.
+- **웨어 레벨링 (Wear Leveling)**: SSD에서 LBA 매핑을 활용하는 핵심 기술.
 
 ---
 

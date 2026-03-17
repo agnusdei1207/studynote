@@ -1,5 +1,6 @@
 +++
 title = "주파수 분할 다중화 (FDM)"
+date = "2026-03-14"
 weight = 73
 +++
 
@@ -148,10 +149,10 @@ FDM(Frequency Division Multiplexing)은 사용 가능한 대역폭을 여러 주
 ---
 
 ### 📌 관련 개념 링크**:
-- [다중화 Multiplexing](./71_multiplexing.md)
-- [보호 대역 Guard Band](./74_guard_band.md)
-- [TDM 시분할](./75_tdm_time.md)
-- [OFDM 직교 주파수 분할](./84_ofdm_orthogonal.md)
+- 다중화 Multiplexing
+- 보호 대역 Guard Band
+- TDM 시분할
+- OFDM 직교 주파수 분할
 
 ---
 

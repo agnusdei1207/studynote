@@ -1,7 +1,7 @@
 +++
-weight = 658
 title = "658. 메모리 할당 및 가상 메모리 관리 핵심 요약"
 date = "2024-05-23"
+weight = 658
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "Memory Management", "Virtual Memory", "Paging", "Segmentation", "MMU"]
@@ -12,7 +12,7 @@ keywords = ["운영체제", "Memory Management", "Virtual Memory", "Paging", "Se
 > 가상 메모리(Virtual Memory)는 프로세스에게 실제 물리 메모리보다 큰 주소 공간을 제공하는 동시에, 프로세스 간 격리와 보호를 완벽히 실현하는 현대 OS의 필수 기술이다.
 > 페이징(Paging)과 세그멘테이션(Segmentation) 아키텍처는 외부 단편화(External Fragmentation) 문제를 해결하고, 메모리 할당의 유연성을 극대화하는 근간이 된다.
 
----
++++
 
 ### Ⅰ. 메모리 관리의 기본 원칙과 단편화
 
@@ -25,7 +25,7 @@ keywords = ["운영체제", "Memory Management", "Virtual Memory", "Paging", "Se
 
 📢 섹션 요약 비유: 메모리 관리는 '이사 가려는 짐들을 창고에 빈틈없이 쌓는 기술'과 같습니다.
 
----
++++
 
 ### Ⅱ. 가상 메모리(Virtual Memory)와 주소 변환 아키텍처
 
@@ -58,7 +58,7 @@ keywords = ["운영체제", "Memory Management", "Virtual Memory", "Paging", "Se
 
 📢 섹션 요약 비유: 가상 메모리는 '책상(RAM)'과 '책꽂이(Disk)' 시스템과 같아서, 지금 보는 페이지만 책상에 두고 나머지는 책꽂이에 넣어두는 것과 같습니다.
 
----
++++
 
 ### Ⅲ. 페이징(Paging) 및 세그멘테이션(Segmentation)
 
@@ -71,7 +71,7 @@ keywords = ["운영체제", "Memory Management", "Virtual Memory", "Paging", "Se
 
 📢 섹션 요약 비유: 페이징은 책의 모든 페이지를 '똑같은 크기'로 자르는 것이고, 세그멘테이션은 '단원별'로 두께가 다르게 자르는 것과 같습니다.
 
----
++++
 
 ### Ⅳ. 페이지 교체 알고리즘(Page Replacement)
 
@@ -85,7 +85,7 @@ keywords = ["운영체제", "Memory Management", "Virtual Memory", "Paging", "Se
 
 📢 섹션 요약 비유: 책상에 자리가 없으면 '가장 오래전에 본 책'을 책꽂이로 돌려보내는 것과 같습니다.
 
----
++++
 
 ### Ⅴ. 스래싱(Thrashing)과 성능 최적화
 
@@ -99,7 +99,7 @@ keywords = ["운영체제", "Memory Management", "Virtual Memory", "Paging", "Se
 
 📢 섹션 요약 비유: 너무 많은 과목을 동시에 공부하려다 보면 책을 바꾸느라 실제 공부를 하나도 못 하는 '멘붕' 상태와 같습니다.
 
----
++++
 
 ### 💡 지식 그래프(Knowledge Graph)
 - **부모 노드**: 운영체제 자원 관리(Resource Management)

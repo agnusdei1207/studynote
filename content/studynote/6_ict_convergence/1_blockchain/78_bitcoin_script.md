@@ -1,10 +1,9 @@
----
-title: "[ICT] #79. 비트코인 스크립트 (Bitcoin Script)"
-date: "2026-03-17"
++++
+title = "[ICT] #79. 비트코인 스크립트 (Bitcoin Script)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Bitcoin_Script_StackBased_NonTuringComplete_P2PKH_P2SH_LockingScript"
----
+keyword = "Bitcoin_Script_StackBased_NonTuringComplete_P2PKH_P2SH_LockingScript"
++++
 
 # 비트코인 스크립트: 단순하지만 견고한 비트코인의 조건부 결제 언어
 
@@ -13,7 +12,7 @@ keyword: "Bitcoin_Script_StackBased_NonTuringComplete_P2PKH_P2SH_LockingScript"
 > 2. **가치**: 보안을 위해 루프(Loop) 기능을 배제한 **비튜링 완전(Non-Turing Complete)** 구조를 택하여 무한 루프 공격을 원천 차단하며, 스마트 컨트랙트의 원형으로서 단순 송금을 넘어선 조건부 결제를 가능케 한다.
 > 3. **융합**: 암호학적 서명(ECDSA) 검증 로직과 스택 자료구조가 결합되어 있으며, P2PKH, P2SH 등 다양한 잠금/해제 패턴을 통해 비트코인 네트워크의 프로그래밍 가능성을 제공한다.
 
----
++++
 
 ## Ⅰ. 비트코인 스크립트 (Bitcoin Script) 개요
 
@@ -31,7 +30,7 @@ keyword: "Bitcoin_Script_StackBased_NonTuringComplete_P2PKH_P2SH_LockingScript"
 
 📢 **섹션 요약 비유**: 복잡한 게임을 만드는 '게임 엔진'이 아니라, "열쇠가 맞으면 문을 열어라"라는 명령만 수행하는 '똑똑한 도어락 시스템'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 작동 원리 (Deep Dive)
 
@@ -83,7 +82,7 @@ keyword: "Bitcoin_Script_StackBased_NonTuringComplete_P2PKH_P2SH_LockingScript"
 
 📢 **섹션 요약 비유**: 미로를 헤매다가 길을 잃을 위험이 없도록, 무조건 직진만 하거나 정해진 갈림길(IF)만 선택할 수 있는 '안전한 일방통행로'를 만든 것입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -104,7 +103,7 @@ keyword: "Bitcoin_Script_StackBased_NonTuringComplete_P2PKH_P2SH_LockingScript"
 
 📢 **섹션 요약 비유**: 비트코인 스크립트가 "열쇠가 맞으면 열어라"는 '단순 열쇠'라면, 솔리디티는 "누가 들어왔는지 기억하고 상황에 따라 말도 거는" '인공지능 경비원'과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -118,7 +117,7 @@ keyword: "Bitcoin_Script_StackBased_NonTuringComplete_P2PKH_P2SH_LockingScript"
 
 📢 **섹션 요약 비유**: 복잡한 시험 문제를 일일이 금고 문에 써두는 대신, 문제의 요약본(해시)만 붙여두고 정답을 아는 사람만 문제를 풀게 하는 '경제적이고 프라이빗한 시험지' 방식입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -132,13 +131,13 @@ keyword: "Bitcoin_Script_StackBased_NonTuringComplete_P2PKH_P2SH_LockingScript"
 
 📢 **섹션 요약 비유**: 비트코인 스크립트는 화려하진 않지만, 전 세계 수조 달러의 자산을 한 치의 오차 없이 지켜내는 **'세상에서 가장 신뢰받는 디지털 자물쇠'**입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[UTXO 모델](./xx_utxo.md)**: 스크립트가 실제로 작동하는 데이터 대상.
-- **[P2PKH / P2SH](./xx_p2sh.md)**: 스크립트를 활용한 표준 결제 방식들.
-- **[라이트닝 네트워크](./41_layer_2.md)**: 스크립트의 시간 제한 기능을 활용한 서비스.
-- **[비튜링 완전성](./24_turing_completeness.md)**: 스크립트 언어의 설계 철학적 특징.
+- **UTXO 모델**: 스크립트가 실제로 작동하는 데이터 대상.
+- **P2PKH / P2SH**: 스크립트를 활용한 표준 결제 방식들.
+- **라이트닝 네트워크**: 스크립트의 시간 제한 기능을 활용한 서비스.
+- **비튜링 완전성**: 스크립트 언어의 설계 철학적 특징.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **마법의 문제지**: 비트코인 코인 상자에는 "이 문제를 푸는 사람만 가져가!"라고 적힌 마법의 문제지가 붙어 있어요.

@@ -1,5 +1,6 @@
 +++
 title = "Email Protocol - 이메일 프로토콜"
+date = "2026-03-14"
 weight = 364
 +++
 
@@ -147,10 +148,10 @@ weight = 364
 ---
 
 ### 📌 관련 개념 링크**:
-- [SMTP](./4_software_engineering/203_smtp.md)
-- [DNS](./254_dns.md)
-- [TLS](./9_security/145_tls.md)
-- [스팸 필터](./9_security/245_spam_filter.md)
+- SMTP
+- DNS
+- TLS
+- 스팸 필터
 
 ---
 

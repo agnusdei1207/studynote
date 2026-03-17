@@ -1,6 +1,7 @@
 +++
-weight = 37
 title = "37. 시스템 데몬 (System Daemon) - 보이지 않는 관리자"
+date = "2026-03-14"
+weight = 37
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -108,9 +109,9 @@ title = "37. 시스템 데몬 (System Daemon) - 보이지 않는 관리자"
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[init 프로세스 / systemd](./38_init_systemd.md)**: 모든 데몬의 생성자이자 관리자.
-- **[백그라운드 프로세스](../2_process_thread/105_background_process.md)**: 데몬이 동작하는 기본적인 방식.
-- **[시그널 (Signals)](../2_process_thread/120_signals.md)**: 데몬을 제어(시작/종료/재설정)하는 통신 수단.
+- **init 프로세스 / systemd**: 모든 데몬의 생성자이자 관리자.
+- **백그라운드 프로세스**: 데몬이 동작하는 기본적인 방식.
+- **시그널 (Signals)**: 데몬을 제어(시작/종료/재설정)하는 통신 수단.
 
 ---
 

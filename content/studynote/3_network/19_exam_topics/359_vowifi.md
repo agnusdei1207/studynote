@@ -1,5 +1,6 @@
 +++
 title = "VoWiFi - WiFi 음성"
+date = "2026-03-14"
 weight = 359
 +++
 
@@ -150,10 +151,10 @@ VoWiFi(Voice over WiFi)는 WiFi 네트워크로 음성 통화를 제공합니다
 ---
 
 ### 📌 관련 개념 링크**:
-- [VoLTE](./358_volte.md)
-- [IMS](./357_ims.md)
-- [WiFi](./230_wifi.md)
-- [IPsec](./9_security/155_ipsec.md)
+- VoLTE
+- IMS
+- WiFi
+- IPsec
 
 ---
 

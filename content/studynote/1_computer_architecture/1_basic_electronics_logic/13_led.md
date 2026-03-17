@@ -1,6 +1,7 @@
 +++
-weight = 13
 title = "13. 발광 다이오드 (LED)"
+date = "2026-03-14"
+weight = 13
 +++
 
 # [13. 발광 다이오드 (LED)]
@@ -139,4 +140,4 @@ void set_led_brightness(uint8_t brightness) {
 
 **융합 관점 분석 (Computer Science & Electronics)**
 1.  **디지털 시스템과의 융합**: LED의 **나노초(ns) 단위 응답 속도**는 단순히 눈으로 보는 조명을 넘어, 광통신에서 데이터를 '0'과 '1'의 디지털 신호로 변조(Modulation)할 수 있게 합니다. 이는 **VLC (Visible Light Communication)** 기술의 근간이 됩니다.
-2.  **열 설계(Thermal Engineering)와의 연관**: LED는 열을 많이 내지 않지만(발열이 적은 것이 아니라 효율이 좋은 것임), 칩 자체의 **접합 온도(Junction Temperature, $T_j$)**가 100℃를 
+2.  **열 설계(Thermal Engineering)와의 연관**: LED는 열을 많이 내지 않지만(발열이 적은 것이 아니라 효율이 좋은 것임), 칩 자체의 **접합 온도(Junction Temperature, $T_j$)**가 100℃를

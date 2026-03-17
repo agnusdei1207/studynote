@@ -1,5 +1,6 @@
 +++
 title = "Race Condition - 경쟁 상태"
+date = "2026-03-14"
 weight = 655
 +++
 
@@ -96,6 +97,6 @@ Race Condition은 동시 접근 시 결과가 순서에 따라 달라집니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Critical Section](./654_critical_section.md)
-- [Mutex](./653_mutex.md)
-- [Atomic Operation](./656_atomic_operation.md)
+- Critical Section
+- Mutex
+- Atomic Operation

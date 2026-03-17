@@ -1,5 +1,6 @@
 +++
 title = "623. 데이터센터 PUE (Power Usage Effectiveness)"
+date = "2026-03-14"
 weight = 623
 +++
 
@@ -152,10 +153,10 @@ $$PUE = \frac{Total\ Facility\ Power}{IT\ Equipment\ Power}$$
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[액침 냉각 (Immersion Cooling)](./602_immersion_cooling.md)**: PUE를 1.1 이하로 낮추기 위한 차세대 냉각 기술.
-- **[HVDC (High Voltage Direct Current)](../xx_hvdc.md)**: 전력 변환 손실을 줄여 PUE 분자를 감소시키는 기술.
-- **[RE100 (Renewable Energy 100)](../12_it_management/xx_re100.md)**: PUE 개선이 궁극적으로 지향하는 환경 목표.
-- **[UPS (Uninterruptible Power Supply)](../1_computer_architecture/xx_ups.md)**: 전력 가용성과 효율성(PUE) 사이에서 트레이드오프가 발생하는 지점.
+- **액침 냉각 (Immersion Cooling)**: PUE를 1.1 이하로 낮추기 위한 차세대 냉각 기술.
+- **HVDC (High Voltage Direct Current)**: 전력 변환 손실을 줄여 PUE 분자를 감소시키는 기술.
+- **RE100 (Renewable Energy 100)**: PUE 개선이 궁극적으로 지향하는 환경 목표.
+- **UPS (Uninterruptible Power Supply)**: 전력 가용성과 효율성(PUE) 사이에서 트레이드오프가 발생하는 지점.
 
 ---
 

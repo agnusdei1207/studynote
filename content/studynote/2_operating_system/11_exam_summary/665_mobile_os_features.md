@@ -1,7 +1,7 @@
 +++
-weight = 665
 title = "665. 모바일 운영체제(Android, iOS) 특징 요약"
 date = "2024-05-23"
+weight = 665
 [extra]
 categories = "studynote-operating-system"
 keywords = ["Mobile OS", "Android", "iOS", "Dalvik/ART", "Sandboxing", "Energy Efficiency"]
@@ -12,7 +12,7 @@ keywords = ["Mobile OS", "Android", "iOS", "Dalvik/ART", "Sandboxing", "Energy E
 > 안드로이드(Android)는 리눅스 커널 기반의 개방성과 앱 샌드박싱(App Sandboxing)을 통한 확장성을 지향하는 반면, iOS는 폐쇄적 생태계와 하드웨어-소프트웨어 통합 최적화를 통해 독보적인 성능과 보안을 유지한다.
 > 두 플랫폼 모두 저전력 스케줄링(Low-Power Scheduling), 빠른 응답성(Responsiveness), 강력한 권한 관리(Permission Management)가 OS 아키텍처의 핵심을 이룬다.
 
----
++++
 
 ### Ⅰ. 모바일 OS의 하드웨어 제약과 설계 특이성
 
@@ -25,7 +25,7 @@ keywords = ["Mobile OS", "Android", "iOS", "Dalvik/ART", "Sandboxing", "Energy E
 
 📢 섹션 요약 비유: 모바일 OS는 '작은 집에서 효율적으로 살기'와 같아서, 전기를 아끼고 짐(메모리)을 최소한으로 유지하면서도 생활은 편리하게 만들어주는 역할을 합니다.
 
----
++++
 
 ### Ⅱ. 안드로이드(Android) 아키텍처 요약
 
@@ -56,7 +56,7 @@ keywords = ["Mobile OS", "Android", "iOS", "Dalvik/ART", "Sandboxing", "Energy E
 
 📢 섹션 요약 비유: 안드로이드는 '레고 블록'과 같아서, 리눅스라는 튼튼한 판 위에 다양한 모양의 블록(앱)을 자유롭게 끼워 넣을 수 있는 개방적인 구조를 가집니다.
 
----
++++
 
 ### Ⅲ. iOS 아키텍처 및 특징 요약
 
@@ -69,7 +69,7 @@ keywords = ["Mobile OS", "Android", "iOS", "Dalvik/ART", "Sandboxing", "Energy E
 
 📢 섹션 요약 비유: iOS는 '명품 자동차'와 같아서, 차체(하드웨어)와 엔진(소프트웨어)이 처음부터 한 몸으로 설계되어 아주 부드럽고 강력하게 달리는 것과 같습니다.
 
----
++++
 
 ### Ⅳ. 모바일 앱 격리 및 보안 메커니즘
 
@@ -82,7 +82,7 @@ keywords = ["Mobile OS", "Android", "iOS", "Dalvik/ART", "Sandboxing", "Energy E
 
 📢 섹션 요약 비유: 앱 보안은 '아파트의 개별 호실'과 같아서, 각 앱은 자기 집(샌드박스) 안에서만 놀 수 있고 다른 집을 보려면 주인의 허락(권한)을 받아야 하는 구조입니다.
 
----
++++
 
 ### Ⅴ. 차세대 모바일 OS 및 크로스 플랫폼 트렌드
 
@@ -95,7 +95,7 @@ keywords = ["Mobile OS", "Android", "iOS", "Dalvik/ART", "Sandboxing", "Energy E
 
 📢 섹션 요약 비유: 미래 모바일 OS는 '통합 번역기'와 같아서, 어떤 언어로 쓰인 앱이든 똑같이 잘 실행되게 도와주고 똑똑한 AI 친구를 내장하고 있는 것과 같습니다.
 
----
++++
 
 ### 💡 지식 그래프(Knowledge Graph)
 - **부모 노드**: 운영체제 분류(OS Classification)

@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Weak Crypto 🥉 Bronze"
-description = "LUXORA 플랫폼의 기본 Weak Crypto 취약점을 이용한 Base64 인코딩 해독 및 권한 우회 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Crypto", "Bronze", "Base64", "Encoding", "Write-up"]

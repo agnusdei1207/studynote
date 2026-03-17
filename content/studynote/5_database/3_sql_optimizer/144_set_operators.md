@@ -1,7 +1,6 @@
 +++
 title = "144. 집합 연산자 - UNION, INTERSECT, EXCEPT"
 date = "2026-03-16"
-draft = false
 weight = 144
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["집합 연산자", "UNION", "UNION ALL", "INTERSECT", "EXCEPT", "MI
 > 2. **제약 및 특성**: 결합하려는 모든 질의는 **컬럼의 수와 데이터 타입이 상호 호환(Compatible)**되어야 하며, `UNION`, `INTERSECT`, `EXCEPT`는 결과에서 중복 행을 자동 제거하는 정렬 연산이 수반된다.
 > 3. **가치**: 서로 다른 테이블에 흩어진 유사 성격의 데이터를 통합하여 일관된 뷰를 생성하며, 특히 `UNION ALL`을 통해 중복 제거 오버헤드 없이 대량의 데이터를 고속으로 병합할 수 있다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -46,7 +45,7 @@ keywords = ["집합 연산자", "UNION", "UNION ALL", "INTERSECT", "EXCEPT", "MI
 
 - **📢 섹션 요약 비유**: 집합 연산자는 '서로 다른 통에 든 구슬들을 규칙에 따라 하나의 통에 쏟아붓는 것'과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -89,7 +88,7 @@ keywords = ["집합 연산자", "UNION", "UNION ALL", "INTERSECT", "EXCEPT", "MI
 
 - **📢 섹션 요약 비유**: UNION ALL은 '그냥 쏟아붓기'이고, UNION은 '쏟아부으면서 같은 게 있는지 눈으로 일일이 확인하기'입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -108,7 +107,7 @@ keywords = ["집합 연산자", "UNION", "UNION ALL", "INTERSECT", "EXCEPT", "MI
 
 - **📢 섹션 요약 비유**: 조인이 '결혼해서 한 등본에 나오는 것'이라면, 집합 연산은 '같은 아파트 단지에 입주해서 이웃이 되는 것'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -127,7 +126,7 @@ keywords = ["집합 연산자", "UNION", "UNION ALL", "INTERSECT", "EXCEPT", "MI
 
 - **📢 섹션 요약 비유**: 무분별한 UNION 사용은 '다 아는 내용을 확인하느라 책장을 계속 넘기는 수험생'과 같아, 진도(성능)를 나가지 못하게 합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -145,15 +144,15 @@ keywords = ["집합 연산자", "UNION", "UNION ALL", "INTERSECT", "EXCEPT", "MI
 
 - **📢 섹션 요약 비유**: 미래의 집합 연산은 우리가 일일이 통을 붓지 않아도, 데이터들 스스로가 비슷한 친구를 찾아 뭉치고 흩어지는 '액체형 데이터 클러스터'가 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[관계 대수 (Relational Algebra)](./38_relational_algebra.md)**: 집합 연산의 수학적 뿌리.
-- **[SQL 표준](./131_sql_standards.md)**: 연산자가 정의된 문법 규격.
-- **[조인 연산 (Join)](./132_join_operations.md)**: 집합 연산의 보완재.
-- **[정렬 기법 (Sort/Hash)](./171_optimizer_join_techniques.md)**: 집합 연산의 물리적 구현 원리.
+- **관계 대수 (Relational Algebra)**: 집합 연산의 수학적 뿌리.
+- **SQL 표준**: 연산자가 정의된 문법 규격.
+- **조인 연산 (Join)**: 집합 연산의 보완재.
+- **정렬 기법 (Sort/Hash)**: 집합 연산의 물리적 구현 원리.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **집합 연산자**는 여러 상자에 든 장난감들을 **"하나의 커다란 상자에 쏟아붓는 것"**과 같아요.

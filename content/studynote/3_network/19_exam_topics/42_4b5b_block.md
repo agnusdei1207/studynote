@@ -1,5 +1,6 @@
 +++
 title = "4B/5B, 8B/10B 부호화 (Block Coding)"
+date = "2026-03-14"
 weight = 42
 +++
 
@@ -153,10 +154,10 @@ Block Coding은 m비트 데이터 블록을 n비트(n>m) 코드 블록으로 변
 ---
 
 ### 📌 관련 개념 링크**:
-- [NRZ 비복귀 부호화](./37_nrz_non_return.md)
-- [부호화 Encoding](./35_encoding_line_coding.md)
-- [100BASE-TX](./152_100base_tx.md)
-- [기가비트 이더넷](./153_gigabit_ethernet.md)
+- NRZ 비복귀 부호화
+- 부호화 Encoding
+- 100BASE-TX
+- 기가비트 이더넷
 
 ---
 

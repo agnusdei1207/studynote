@@ -1,5 +1,6 @@
 +++
 title = "341. SATA (Serial ATA)"
+date = "2026-03-14"
 weight = 341
 +++
 

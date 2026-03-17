@@ -1,10 +1,9 @@
----
-title: "[ICT] #78. 이더리움 3대 트리 (State, Receipt, Transaction Trie)"
-date: "2026-03-17"
++++
+title = "[ICT] #78. 이더리움 3대 트리 (State, Receipt, Transaction Trie)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Ethereum_Tries_StateTrie_ReceiptTrie_TransactionTrie_MPT_WorldState"
----
+keyword = "Ethereum_Tries_StateTrie_ReceiptTrie_TransactionTrie_MPT_WorldState"
++++
 
 # 이더리움 3대 트리: 블록체인 상태와 이력을 관리하는 암호학적 금고
 
@@ -13,7 +12,7 @@ keyword: "Ethereum_Tries_StateTrie_ReceiptTrie_TransactionTrie_MPT_WorldState"
 > 2. **가치**: 전체 네트워크의 잔액 정보를 담는 **State Trie**는 모든 블록이 공유하며 업데이트되는 반면, 나머지 두 트리는 해당 블록 내의 거래와 실행 결과(로그)만을 고정하여 보관함으로써 데이터의 영속성과 검증성을 확보한다.
 > 3. **융합**: 고도의 트리 압축 기술과 해시 함수가 결합되어 있으며, 경량 노드가 수백 GB의 데이터를 다 받지 않고도 특정 거래나 잔액을 즉시 검증할 수 있는 **머클 증명(Merkle Proof)**의 기술적 토대가 된다.
 
----
++++
 
 ## Ⅰ. 이더리움 3대 트리 개요
 
@@ -28,7 +27,7 @@ keyword: "Ethereum_Tries_StateTrie_ReceiptTrie_TransactionTrie_MPT_WorldState"
 
 📢 **섹션 요약 비유**: 현재 누가 얼마를 가졌는지(상태), 오늘 누가 누구에게 보냈는지(거래), 그 결과가 어떠했는지(영수증)를 각각 다른 서랍에 나누어 보관하는 체계적인 문서 관리 시스템입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -70,7 +69,7 @@ keyword: "Ethereum_Tries_StateTrie_ReceiptTrie_TransactionTrie_MPT_WorldState"
 
 📢 **섹션 요약 비유**: 백과사전의 'ㄱ', 'ㄴ', 'ㄷ' 색인(패트리시아)을 따라가며 단어를 찾는 것과, 책 전체를 훑는 것(일반 트리)의 효율성 차이를 블록체인에 구현한 것입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -88,7 +87,7 @@ keyword: "Ethereum_Tries_StateTrie_ReceiptTrie_TransactionTrie_MPT_WorldState"
 
 📢 **섹션 요약 비유**: 전체 CCTV 영상(전체 데이터)을 다 볼 필요 없이, 의심스러운 장면의 스크린샷과 타임스탬프(루트값 및 패스)만 확인해서 범인을 잡는 효율적인 보안 시스템입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -102,7 +101,7 @@ keyword: "Ethereum_Tries_StateTrie_ReceiptTrie_TransactionTrie_MPT_WorldState"
 
 📢 **섹션 요약 비유**: 장부가 너무 두꺼워져서 책장이 모자랄 지경(상태 폭발)이므로, 중요한 요약본만 남기고 나머지는 창고로 보내는 '데이터 다이어트' 전략이 미래 설계의 핵심입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -116,13 +115,13 @@ keyword: "Ethereum_Tries_StateTrie_ReceiptTrie_TransactionTrie_MPT_WorldState"
 
 📢 **섹션 요약 비유**: 이더리움 3대 트리는 블록체인이라는 거대한 기계가 **'과거를 기억하고 현재를 판단하며 미래를 약속하는'** 세 가지 뇌 영역과 같습니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[MPT (Modified Patricia Trie)](./xx_mpt.md)**: 3대 트리를 구현하는 기본 알고리즘.
-- **[이더리움 헤더](./5_block_structure.md)**: 3대 트리의 루트값이 저장되는 위치.
-- **[머클 증명 (Merkle Proof)](./6_merkle_tree.md)**: 트리를 이용해 데이터를 효율적으로 입증하는 방법.
-- **[스테이트리스 클라이언트](./xx_stateless.md)**: 트리 구조를 개선하여 달성하고자 하는 미래 목표.
+- **MPT (Modified Patricia Trie)**: 3대 트리를 구현하는 기본 알고리즘.
+- **이더리움 헤더**: 3대 트리의 루트값이 저장되는 위치.
+- **머클 증명 (Merkle Proof)**: 트리를 이용해 데이터를 효율적으로 입증하는 방법.
+- **스테이트리스 클라이언트**: 트리 구조를 개선하여 달성하고자 하는 미래 목표.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **세 권의 일기장**: 블록체인 나라에는 "누가 사탕 몇 개 있나", "오늘 누가 누구에게 줬나", "그 일이 잘 끝났나"를 적는 세 권의 일기장이 있어요.

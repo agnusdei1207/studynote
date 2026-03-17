@@ -1,5 +1,6 @@
 +++
 title = "백업 (Backup) - 데이터 보호"
+date = "2026-03-14"
 weight = 281
 +++
 
@@ -142,10 +143,10 @@ weight = 281
 ---
 
 ### 📌 관련 개념 링크**:
-- [스냅샷](./283_snapshot.md)
-- [재해 복구](./278_disaster_recovery.md)
-- [RAID](./284_raid.md)
-- [RTO/RPO](./280_rto_rpo.md)
+- 스냅샷
+- 재해 복구
+- RAID
+- RTO/RPO
 
 ---
 

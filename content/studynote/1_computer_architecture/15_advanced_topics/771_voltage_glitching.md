@@ -1,5 +1,6 @@
 +++
 title = "voltage glitching"
+date = "2026-03-14"
 weight = 771
 +++
 
@@ -139,10 +140,10 @@ weight = 771
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [클럭 글리칭 (Clock Glitching)](./772_clock_glitching.md)
-- [EMFI (Electromagnetic Fault Injection)](./773_emfi.md)
-- [플런더버그 (Plundervolt)](./769_plundervolt.md)
-- [부채널 공격](./774_cache_timing.md)
+- 클럭 글리칭 (Clock Glitching)
+- EMFI (Electromagnetic Fault Injection)
+- 플런더버그 (Plundervolt)
+- 부채널 공격
 
 ---
 

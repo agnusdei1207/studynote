@@ -1,5 +1,6 @@
 +++
 title = "Basic Auth - 기본 인증"
+date = "2026-03-14"
 weight = 377
 +++
 
@@ -140,10 +141,10 @@ Basic Auth는 사용자명과 비밀번호를 Base64로 인코딩합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [API Key](./376_api_key.md)
-- [OAuth](./375_oauth.md)
-- [Base64](./366_base64.md)
-- [HTTPS](./9_security/143_https.md)
+- API Key
+- OAuth
+- Base64
+- HTTPS
 
 ---
 

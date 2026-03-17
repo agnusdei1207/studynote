@@ -1,5 +1,6 @@
 +++
 title = "Backup - 백업"
+date = "2026-03-14"
 weight = 591
 +++
 
@@ -99,6 +100,6 @@ Backup은 데이터를 복구 가능한 상태로 보관합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Disaster Recovery](./594_dr.md)
-- [RAID](./589_raid.md)
-- [RTO/RPO](./595_rto_rpo.md)
+- Disaster Recovery
+- RAID
+- RTO/RPO

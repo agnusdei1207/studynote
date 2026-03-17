@@ -1,5 +1,6 @@
 +++
 title = "598. 가상 머신 마이그레이션 네트워크 칩"
+date = "2026-03-14"
 weight = 598
 +++
 
@@ -146,11 +147,11 @@ weight = 598
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[라이브 마이그레이션 (Live Migration)](../2_operating_system/xx_live_migration.md)**: 가속 칩이 해결하고자 하는 핵심 소프트웨어 프로세스.
-- **[RDMA (Remote Direct Memory Access)](../1_computer_architecture/510_rdma.md)**: CPU를 거치지 않는 핵심 데이터 전송 기술.
-- **[스마트 NIC / DPU (Data Processing Unit)](../1_computer_architecture/xx_dpu.md)**: 마이그레이션 가속 기능이 탑재되는 하드웨어 플랫폼.
-- **[하이퍼바이저 (Hypervisor)](../2_operating_system/xx_hypervisor.md)**: 가속 칩과 통신하며 VM의 생명주기를 관리하는 소프트웨어.
-- **[Dirty Page](./xx_dirty_page.md)**: 마이그레이션 중 추적해야 할 수정된 메모리 영역.
+- **라이브 마이그레이션 (Live Migration)**: 가속 칩이 해결하고자 하는 핵심 소프트웨어 프로세스.
+- **RDMA (Remote Direct Memory Access)**: CPU를 거치지 않는 핵심 데이터 전송 기술.
+- **스마트 NIC / DPU (Data Processing Unit)**: 마이그레이션 가속 기능이 탑재되는 하드웨어 플랫폼.
+- **하이퍼바이저 (Hypervisor)**: 가속 칩과 통신하며 VM의 생명주기를 관리하는 소프트웨어.
+- **Dirty Page**: 마이그레이션 중 추적해야 할 수정된 메모리 영역.
 
 ---
 

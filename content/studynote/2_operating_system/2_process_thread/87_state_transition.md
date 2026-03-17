@@ -1,7 +1,7 @@
 +++
-weight = 87
 title = "87. 프로세스 상태 전이 모델"
 date = "2026-03-12"
+weight = 87
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "상태 전이", "Process State Transition", "Dispatch", "Timeout", "Wakeup"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "상태 전이", "Process State Transition", "Dispat
 > 2. **가치**: 상태 전이의 각 경로(Dispatch, Timeout, Block, Wakeup)를 명확히 함으로써, 운영체제는 CPU 유휴 시간을 최소화하고 여러 프로세스 간의 자원 경합을 질서 있게 조율할 수 있다.
 > 3. **융합**: 하드웨어 타이머와 I/O 장치의 신호가 커널 스케줄러와 연동되는 지점이며, 다중 프로그래밍 환경에서 시스템 성능을 결정짓는 핵심 메커니즘이다.
 
----
++++
 
 ## Ⅰ. 프로세스 상태 전이의 주요 경로 (Deep Dive)
 
@@ -46,7 +46,7 @@ keywords = ["운영체제", "상태 전이", "Process State Transition", "Dispat
 - **Timeout**: 한 번 더 타고 싶지만 뒤에 사람이 많아 기구에서 내려 다시 줄 끝으로 가는 것.
 - **Wait ──▶ Ready**: 중간에 신발 끈이 풀려 줄 밖으로 나갔다가(Waiting), 다 묶고 다시 줄을 서는 것.
 
----
++++
 
 ## Ⅱ. 상태 전이 모델의 기술적 구조
 
@@ -72,7 +72,7 @@ keywords = ["운영체제", "상태 전이", "Process State Transition", "Dispat
 
 - **📢 섹션 요약 비유**: 복잡한 교차로(커널)에서 신호등(스케줄러)과 교통 표지판(상태 전이 규칙)에 따라 차들(프로세스)이 멈추고 가기를 반복하며 흐름을 만들어내는 과정입니다.
 
----
++++
 
 ## Ⅲ. 상태 전이 모델의 확장: 7-상태 모델
 
@@ -85,7 +85,7 @@ keywords = ["운영체제", "상태 전이", "Process State Transition", "Dispat
 
 - **📢 섹션 요약 비유**: 은행 대기실이 너무 붐비면 "서류 다 쓰면 밖에서 기다리세요"라고 밖으로 내보내는(Suspended) 고육지책과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 스케줄링 인사이트 (Strategy)
 
@@ -98,7 +98,7 @@ keywords = ["운영체제", "상태 전이", "Process State Transition", "Dispat
 
 - **📢 섹션 요약 비유**: 신호등이 너무 자주 바뀌면(잦은 상태 전이) 오히려 교통 흐름이 방해되듯이, 적절한 시간 동안 차들을 보내주는(타임 슬라이스 조절) 정책이 중요합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -111,14 +111,14 @@ keywords = ["운영체제", "상태 전이", "Process State Transition", "Dispat
 
 - **📢 섹션 요약 비유**: 태어나서 죽을 때까지의 인생 행로(상태 전이)를 가장 보람차고(효율적) 안전하게(안정적) 관리해 주는 운영체제의 지혜입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[프로세스 상태](./86_process_state.md)**: 전이 모델의 구성 요소들.
-- **[준비 큐 (Ready Queue)](./88_ready_queue.md)**: Ready 상태 프로세스들이 머무는 곳.
-- **[문맥 교환 (Context Switch)](./34_context_switch.md)**: Dispatch 시점에 일어나는 핵심 작업.
+- **프로세스 상태**: 전이 모델의 구성 요소들.
+- **준비 큐 (Ready Queue)**: Ready 상태 프로세스들이 머무는 곳.
+- **문맥 교환 (Context Switch)**: Dispatch 시점에 일어나는 핵심 작업.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 상태 전이 모델은 컴퓨터 친구들이 **'어디로 이동할지 정해진 지도'**와 같아요.

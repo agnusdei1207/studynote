@@ -1,5 +1,6 @@
 +++
 title = "nvme subsystem"
+date = "2026-03-14"
 weight = 701
 +++
 
@@ -382,10 +383,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [NVMe Namespaces](./700_nvme_namespaces.md) - 논리 스토리지 분할
-- [NVMe Queue Pairs](./699_nvme_queue_pairs.md) - 명령 큐
-- [NVMe over Fabrics](./nvme_of.md) - 네트워크 NVMe
-- [FCoE](./697_fcoe.md) - Fibre Channel over Ethernet
+- NVMe Namespaces - 논리 스토리지 분할
+- NVMe Queue Pairs - 명령 큐
+- NVMe over Fabrics - 네트워크 NVMe
+- FCoE - Fibre Channel over Ethernet
 
 ---
 

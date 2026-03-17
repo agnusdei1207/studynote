@@ -1,7 +1,6 @@
 +++
 title = "전자와 전하의 차이 (Electron vs. Charge)"
-date = 2026-03-08
-
+date = "2026-03-08"
 [extra]
 categories = "physics"
 +++

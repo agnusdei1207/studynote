@@ -1,6 +1,7 @@
 +++
-weight = 28
 title = "28. 부트스트랩 프로그램 (Bootstrap Program) - 초기 로더"
+date = "2026-03-14"
+weight = 28
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -108,9 +109,9 @@ title = "28. 부트스트랩 프로그램 (Bootstrap Program) - 초기 로더"
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[부트로더 (Bootloader)](./29_bootloader.md)**: 부트스트랩 프로그램이 호출하는 다음 단계 실행기.
-- **[UEFI vs BIOS](./30_uefi_vs_bios.md)**: 부트스트랩 프로그램이 담기는 펌웨어 규격의 차이.
-- **[펌웨어 (Firmware)](./32_firmware.md)**: 부트스트랩 프로그램을 포함하는 포괄적 개념.
+- **부트로더 (Bootloader)**: 부트스트랩 프로그램이 호출하는 다음 단계 실행기.
+- **UEFI vs BIOS**: 부트스트랩 프로그램이 담기는 펌웨어 규격의 차이.
+- **펌웨어 (Firmware)**: 부트스트랩 프로그램을 포함하는 포괄적 개념.
 
 ---
 

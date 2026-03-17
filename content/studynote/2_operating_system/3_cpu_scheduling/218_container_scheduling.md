@@ -1,7 +1,7 @@
 +++
 title = "218. 컨테이너 스케줄링 (cgroups)"
-weight = 218
 date = "2026-03-04"
+weight = 218
 [extra]
 categories = "studynote-operating-system"
 +++
@@ -13,7 +13,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 특정 컨테이너가 CPU 자원을 독점하여 다른 서비스에 영향을 주는 '시끄러운 이웃 (Noisy Neighbor)' 문제를 방지하고, 약속된 서비스 품질 (QoS)을 하드웨어 수준에서 강제한다.
 > 3. **융합**: 도커(Docker), 쿠버네티스(Kubernetes)의 리소스 제한 설정, 리눅스 CFS의 대역폭 제어(Bandwidth Control) 메커니즘이 통합된 클라우드 네이티브의 핵심 기술이다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -23,7 +23,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 하나의 거대한 케이크(CPU 자원)를 여러 조각으로 미리 나누고, 각자 자기 접시에 담긴 몫(cgroups 제약)만 먹게 하는 공정한 배급 시스템과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -56,7 +56,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: Shares는 '형님이 동생보다 2배 더 먹어라'는 권고이고, Quota는 '너는 딱 한 공기만 먹고 숟가락 내려놔라'는 엄격한 통제입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -71,7 +71,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: Shares는 '여유 있으면 더 타도 되는 자유 이용권'이고, Quota는 '딱 10분만 타야 하는 시간 제한 입장권'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -81,7 +81,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 한 달 용돈(Quota)을 하루 만에 다 써버려서 남은 한 달을 굶고 있는 상황이니, 하루 일당을 정해주거나 용돈 주기를 바꿔야 합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -90,12 +90,12 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 보이지 않는 울타리(cgroups)가 빽빽한 아파트(클라우드) 생활을 평화롭게 만드는 마법의 규칙입니다.
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[cgroups (Control Groups)](./786_cgroups_제어_그룹_리소스_제한.md)**: 자원 격리의 근간이 되는 커널 서브시스템
-- **[CFS 스케줄러](./211_linux_cfs_scheduler.md)**: cgroups의 제약을 실제로 집행하는 실행 엔진
-- **[쿠버네티스 QoS 클래스](../13_cloud_architecture/xx_kubernetes_qos.md)**: cgroups 설정을 기반으로 결정되는 서비스 품질 등급
+- **cgroups (Control Groups)**: 자원 격리의 근간이 되는 커널 서브시스템
+- **CFS 스케줄러**: cgroups의 제약을 실제로 집행하는 실행 엔진
+- **쿠버네티스 QoS 클래스**: cgroups 설정을 기반으로 결정되는 서비스 품질 등급
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 컴퓨터라는 큰 피자 한 판을 여러 명의 아이(컨테이너)가 나눠 먹는 규칙이에요.

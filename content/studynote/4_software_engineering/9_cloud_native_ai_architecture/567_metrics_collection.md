@@ -1,9 +1,7 @@
----
-title: "567. 메트릭 (Metrics): 시계열 데이터 수집"
-date: 2026-03-15
-type: "pe_exam"
-id: 567
----
++++
+title = "567. 메트릭 (Metrics): 시계열 데이터 수집"
+date = "2026-03-15"
++++
 
 # 567. 메트릭 (Metrics) - 시계열 데이터 수집 (Prometheus, Grafana)
 
@@ -134,10 +132,10 @@ id: 567
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[옵저버빌리티 (Observability)](./566_observability_architecture.md)**: 메트릭이 포함된 상위 통합 체계.
-- **[로그 (Logs)](./568_logging_centralized.md)**: 메트릭과 상호 보완되는 상세 기록 기술.
-- **[분산 추적 (Tracing)](./569_distributed_tracing.md)**: 요청 단위의 성능 지표를 제공하는 기술.
-- **[SRE (Site Reliability Engineering)](./589_sre_slo.md)**: 메트릭을 기반으로 SLO를 관리하는 철학.
+- **옵저버빌리티 (Observability)**: 메트릭이 포함된 상위 통합 체계.
+- **로그 (Logs)**: 메트릭과 상호 보완되는 상세 기록 기술.
+- **분산 추적 (Tracing)**: 요청 단위의 성능 지표를 제공하는 기술.
+- **SRE (Site Reliability Engineering)**: 메트릭을 기반으로 SLO를 관리하는 철학.
 
 ---
 

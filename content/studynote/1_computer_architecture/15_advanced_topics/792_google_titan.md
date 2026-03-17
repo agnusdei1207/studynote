@@ -1,5 +1,6 @@
 +++
 title = "google titan"
+date = "2026-03-14"
 weight = 792
 +++
 
@@ -137,10 +138,10 @@ Google Titan 보안 칩은 Google이 개발한 하드웨어 보안 칩으로 Pix
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [애플 SEP](./791_apple_sep.md)
-- [Microsoft Pluton](./793_microsoft_pluton.md)
-- [AWS Nitro Enclaves](./794_aws_nitro.md)
-- [보안 엔클레이브](./790_secure_enclave.md)
+- 애플 SEP
+- Microsoft Pluton
+- AWS Nitro Enclaves
+- 보안 엔클레이브
 
 ---
 

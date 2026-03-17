@@ -1,9 +1,11 @@
----
-title: "664. 디지털 포렌식 (Digital Forensics)"
-description: "사이버 범죄 증거를 과학적으로 수집, 분석, 제시하는 절차와 기술 아키텍처 심층 분석"
-tags: ["Security", "OS", "Network", "Forensics", "Investigation"]
-weight: 664
----
++++
+title = "664. 디지털 포렌식 (Digital Forensics)"
+date = "2026-03-14"
+[extra]
+tags = ["Security", "OS", "Network", "Forensics", "Investigation"]
+weight = 664
+date = "2026-03-14"
++++
 
 # 664. 디지털 포렌식 (Digital Forensics)
 

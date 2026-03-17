@@ -1,5 +1,6 @@
 +++
 title = "표본화 (Sampling)"
+date = "2026-03-14"
 weight = 56
 +++
 
@@ -142,10 +143,10 @@ weight = 56
 ---
 
 ### 📌 관련 개념 링크**:
-- [에일리어싱 Aliasing](./57_aliasing.md)
-- [양자화 Quantization](./59_quantization.md)
-- [PCM 펄스 부호 변조](./62_pcm_pulse.md)
-- [Nyquist 채널 용량](./20_nyquist_capacity.md)
+- 에일리어싱 Aliasing
+- 양자화 Quantization
+- PCM 펄스 부호 변조
+- Nyquist 채널 용량
 
 ---
 

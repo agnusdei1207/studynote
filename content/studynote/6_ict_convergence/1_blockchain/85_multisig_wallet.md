@@ -1,10 +1,9 @@
----
-title: "[ICT] #86. 지갑 멀티시그 (Multi-Sig, Multi-Signature)"
-date: "2026-03-17"
++++
+title = "[ICT] #86. 지갑 멀티시그 (Multi-Sig, Multi-Signature)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "MultiSig_MultiSignature_M-of-N_SharedGovernance_KeyManagement_Security"
----
+keyword = "MultiSig_MultiSignature_M-of-N_SharedGovernance_KeyManagement_Security"
++++
 
 # 지갑 멀티시그 (Multi-Sig): 집단 지성과 분산 서명을 통한 철통 보안 아키텍처
 
@@ -13,7 +12,7 @@ keyword: "MultiSig_MultiSignature_M-of-N_SharedGovernance_KeyManagement_Security
 > 2. **가치**: 개인키 한 개가 유출되거나 분실되어도 자산을 안전하게 보호할 수 있어 **단일 장애점(SPOF)**을 제거하며, 다수 참여자 간의 상호 감시와 합의가 필요한 기업용 자산 관리에 필수적이다.
 > 3. **융합**: 비트코인의 `OP_CHECKMULTISIG` 스크립트와 이더리움의 스마트 컨트랙트 로직이 결합된 기술이며, 최근에는 MPC(다자간 연산) 및 계정 추상화(AA)와 융합되어 더욱 고도화된 자산 보호 수단으로 진화하고 있다.
 
----
++++
 
 ## Ⅰ. 지갑 멀티시그 (Multi-Sig) 개요
 
@@ -31,7 +30,7 @@ keyword: "MultiSig_MultiSignature_M-of-N_SharedGovernance_KeyManagement_Security
 
 📢 **섹션 요약 비유**: 혼자서 모든 결정을 내리는 '독단적 행동'을 막고, 모두가 동의해야 문이 열리는 '디지털 합의 금고'를 만드는 기술입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 작동 원리 (Deep Dive)
 
@@ -85,7 +84,7 @@ keyword: "MultiSig_MultiSignature_M-of-N_SharedGovernance_KeyManagement_Security
 
 📢 **섹션 요약 비유**: 서류 봉투에 여러 명의 도장이 찍혀야만 우체국에서 편지를 보내주는 것과 같으며, 도장 하나가 가짜라도 나머지가 진짜라면 우체국은 신중히 판단합니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -105,7 +104,7 @@ keyword: "MultiSig_MultiSignature_M-of-N_SharedGovernance_KeyManagement_Security
 
 📢 **섹션 요약 비유**: 싱글 시그가 '현금'이라면, 멀티 시그는 '공동 명의 통장'이고, MPC는 '비밀번호를 나눠서 외우는 가족'과 같은 성격의 차이가 있습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -123,7 +122,7 @@ keyword: "MultiSig_MultiSignature_M-of-N_SharedGovernance_KeyManagement_Security
 
 📢 **섹션 요약 비유**: 아무리 좋은 디지털 도어락(멀티시그)을 달아도, 비밀번호를 포스트잇에 붙여두거나(보안 불감증) 가족끼리 싸우면 소용없듯이 '사람의 운영 규칙'이 핵심입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -137,13 +136,13 @@ keyword: "MultiSig_MultiSignature_M-of-N_SharedGovernance_KeyManagement_Security
 
 📢 **섹션 요약 비유**: 멀티시그는 블록체인이라는 거친 바다에서 소중한 자산을 지켜주는 **'가장 튼튼한 금고 칸막이'**이며, 집단 신뢰를 기술로 구현한 걸작입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[암호화폐 지갑](./29_cryptocurrency_wallet.md)**: 멀티시그가 적용되는 주체.
-- **[계정 추상화 (AA)](./87_account_abstraction.md)**: 멀티시그를 더 편리하게 구현하는 차세대 기술.
-- **[MPC (다자간 연산)](./xx_mpc.md)**: 멀티시그의 보안 대안 기술.
-- **[DAO](./54_dao.md)**: 멀티시그가 조직 운영의 도구로 쓰이는 사례.
+- **암호화폐 지갑**: 멀티시그가 적용되는 주체.
+- **계정 추상화 (AA)**: 멀티시그를 더 편리하게 구현하는 차세대 기술.
+- **MPC (다자간 연산)**: 멀티시그의 보안 대안 기술.
+- **DAO**: 멀티시그가 조직 운영의 도구로 쓰이는 사례.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **함께 여는 보물 상자**: 보물 상자에 자물쇠가 3개나 달려 있어서, 친구 3명이 각자 가진 열쇠를 모아와야만 상자를 열 수 있는 거예요.

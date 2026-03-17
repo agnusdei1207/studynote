@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: RBAC Bypass 🥉 Bronze"
-description = "LUXORA 플랫폼의 RBAC(Role-Based Access Control) 인가 누락을 이용한 API 엔드포인트 우회 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "RBAC", "Bronze", "Access Control", "API", "Write-up"]

@@ -1,5 +1,6 @@
 +++
 title = "Platform Engineering - 플랫폼 엔지니어링"
+date = "2026-03-14"
 weight = 749
 +++
 
@@ -106,6 +107,6 @@ Platform Engineering은 내부 플랫폼을 구축합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [DevOps](./748_devops.md)
-- [Infrastructure as Code](./750_iac.md)
-- [Kubernetes](./619_kubernetes.md)
+- DevOps
+- Infrastructure as Code
+- Kubernetes

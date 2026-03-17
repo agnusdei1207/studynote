@@ -12,7 +12,7 @@ categories = "studynote-database"
 > 2. **가치**: 스토리지와 컴퓨팅 자원의 완전한 분리(Separation of Compute and Storage), 트랜잭션(OLTP)과 분석(OLAP)의 경계를 허문 **HTAP(Hybrid Transactional/Analytical Processing)**의 등장은 기업이 데이터를 실시간으로 수익화하는 데 걸리는 시간(Time-to-Value)을 0으로 단축시켰다.
 > 3. **융합**: 미래의 데이터베이스는 단순한 정보의 '저장소'를 넘어, 거대 언어 모델(LLM)과 지식 그래프(Knowledge Graph)가 내재된 **AI-Native 자율 주행 신경망(Neural DB)**으로 진화하며 클라우드 컴퓨팅 생태계의 절대적인 '전지전능한 뇌(God's Brain)'로 군림하게 될 것이다.
 
----
++++
 
 ## Ⅰ. 데이터베이스 진화의 거대한 궤적 (Evolution of DB)
 
@@ -32,7 +32,7 @@ categories = "studynote-database"
 
 - **📢 에필로그 비유**: 데이터를 담는 그릇은 '작고 튼튼한 금고(RDBMS)'에서 시작해, '크지만 물이 조금 새는 거대한 댐(NoSQL)'을 거쳐, 이제는 '어디서 퍼내든 항상 깨끗한 물이 무한정 나오는 스마트 상수도망(NewSQL/Cloud DB)'으로 완벽하게 진화했습니다.
 
----
++++
 
 ## Ⅱ. 현대 아키텍처를 지배하는 3대 융합 패러다임
 
@@ -50,7 +50,7 @@ categories = "studynote-database"
 아무리 중앙 데이터 레이크하우스를 잘 지어놔도, 중앙 IT 팀이 병목이 되어 전사의 요구를 쳐내지 못하는 조직적 한계에 봉착했다.
 - **파괴적 혁신**: 마이크로서비스(MSA)가 코드를 찢어놓았듯, 데이터 메시는 '데이터의 소유권'을 각 영업팀, 마케팅팀에게 찢어주었다. 각 팀은 스스로 '데이터 프로덕트'를 생산하고, 이를 **데이터 패브릭(Data Fabric)**이라는 가상망을 통해 전사에 API로 판매(공유)한다.
 
----
++++
 
 ## Ⅲ. 미래 전망: AI와 블록체인이 그리는 넥스트 스텝
 
@@ -61,7 +61,7 @@ categories = "studynote-database"
 ### 2. Zero-Trust와 영지식 증명(ZKP) 데이터베이스
 블록체인의 분산 원장 기술은 비트코인을 넘어 엔터프라이즈(Hyperledger)로 흡수되었다. 향후 데이터를 공유할 때 원본 데이터를 까서 보여주는 원시적인 짓은 금기시될 것이다. 상대방에게 내 고객 명부를 보내지 않고도 **동형 암호(Homomorphic Encryption)** 상태 그대로 AI를 학습시키고, **영지식 증명(ZKP)**을 통해 신뢰를 담보하는 완벽한 '프라이버시 보존형 데이터 클린 룸(Data Clean Room)' 생태계가 세상의 표준이 될 것이다.
 
----
++++
 
 ## Ⅳ. 총결론 (Grand Conclusion)
 

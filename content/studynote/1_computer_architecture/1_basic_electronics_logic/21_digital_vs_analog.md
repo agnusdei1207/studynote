@@ -1,3 +1,9 @@
++++
+title = "🧠 BrainScience PE 가이드라인"
+date = "2026-03-14"
+[extra]
++++
+
 # 🧠 BrainScience PE 가이드라인
 
 # [21. 디지털 시스템 vs 아날로그 시스템]

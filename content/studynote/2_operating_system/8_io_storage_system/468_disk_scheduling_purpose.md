@@ -1,6 +1,7 @@
 +++
-weight = 468
 title = "468. 디스크 스케줄링 (Disk Scheduling) 목적"
+date = "2026-03-14"
+weight = 468
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -114,9 +115,9 @@ title = "468. 디스크 스케줄링 (Disk Scheduling) 목적"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[탐색 시간 (Seek Time)](./467_disk_access_time.md)**: 스케줄링이 줄이고자 하는 핵심 타겟.
-- **[SSTF 스케줄링](./470_sstf_scheduling.md)**: 목적 충실도가 높은 대표적 알고리즘.
-- **[기아 현상 (Starvation)](./xx_starvation.md)**: 성능만 쫓을 때 발생하는 부작용.
+- **탐색 시간 (Seek Time)**: 스케줄링이 줄이고자 하는 핵심 타겟.
+- **SSTF 스케줄링**: 목적 충실도가 높은 대표적 알고리즘.
+- **기아 현상 (Starvation)**: 성능만 쫓을 때 발생하는 부작용.
 
 ---
 

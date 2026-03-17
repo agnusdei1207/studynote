@@ -1,6 +1,7 @@
 +++
-weight = 406
 title = "406. LRU 근사 알고리즘 (LRU Approximation)"
+date = "2026-03-14"
+weight = 406
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -118,4 +119,3 @@ graph TD
     RB -- Set by --> HW[Hardware on Access]
     RB -- Cleared by --> OS[OS Periodically]
     LO -- Enables --> HS[High System Throughput]
-```

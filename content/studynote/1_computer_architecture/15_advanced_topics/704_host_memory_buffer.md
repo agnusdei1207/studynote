@@ -1,5 +1,6 @@
 +++
 title = "host memory buffer"
+date = "2026-03-14"
 weight = 704
 +++
 
@@ -364,10 +365,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [NVMe 네임스페이스](./700_nvme_namespaces.md) - 논리 공간 분할
-- [다중 스트림 쓰기](./702_nvme_multistream_write.md) - 쓰기 최적화
-- [FTL (Flash Translation Layer)](./ftl.md) - 플래시 변환 계층
-- [SSD 캐시](./ssd_cache.md) - SSD 캐싱 메커니즘
+- NVMe 네임스페이스 - 논리 공간 분할
+- 다중 스트림 쓰기 - 쓰기 최적화
+- FTL (Flash Translation Layer) - 플래시 변환 계층
+- SSD 캐시 - SSD 캐싱 메커니즘
 
 ---
 

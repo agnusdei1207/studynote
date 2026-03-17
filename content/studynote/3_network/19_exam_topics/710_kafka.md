@@ -1,5 +1,6 @@
 +++
 title = "Kafka - 카프카"
+date = "2026-03-14"
 weight = 710
 +++
 
@@ -102,6 +103,6 @@ Kafka는 분산 이벤트 스트리밍 플랫폼입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Message Queue](./623_message_queue.md)
-- [Stream Processing](./709_stream_processing.md)
-- [Event Sourcing](./626_event_sourcing.md)
+- Message Queue
+- Stream Processing
+- Event Sourcing

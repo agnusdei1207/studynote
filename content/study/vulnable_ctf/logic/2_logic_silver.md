@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Business Logic 🥈 Silver"
-description = "LUXORA 플랫폼의 Silver 난이도 Business Logic Flaw 공략 - Rounding Error(반올림/정밀도) 오류를 이용한 결제 우회 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Business Logic", "Silver", "Rounding Error", "Write-up"]
@@ -123,4 +122,3 @@ HTTP/1.1 200 OK
 3. **최소 결제 금액 강제**: 어떤 연산 결과를 거치든, 청구되는 금액은 시스템이 허용하는 최소 결제 금액(예: `$1.00`) 이상이어야 한다는 방어 로직을 넣어야 합니다.
    ```javascript
    if (firstPayment <= 0) return res.status(400).send("Payment amount too low.");
-   ```

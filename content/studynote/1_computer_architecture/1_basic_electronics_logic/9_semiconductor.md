@@ -1,6 +1,7 @@
 +++
-weight = 9
 title = "9. 반도체 (Semiconductor)"
+date = "2026-03-14"
+weight = 9
 +++
 
 # 9. 반도체 (Semiconductor)

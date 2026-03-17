@@ -1,7 +1,7 @@
 +++
-weight = 648
 title = "648. 성능 튜닝 (Performance Tuning)"
 date = "2026-03-16"
+weight = 648
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "성능 튜닝", "Performance Tuning", "최적화", "병목", "프로파일링"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "성능 튜닝", "Performance Tuning", "최적화", 
 > 2. **가치**: "80/20 법칙"에 따라 **20%의 병목을 제거하면 80%의 성능 개선** 효과를 얻을 수 있으며, 하드웨어 업그레이드 없이 소프트웨어만으로 성능을 높일 수 있다.
 > 3. **융합**: 프로파일링 → 병목 식별 → 튜닝 → 검증의 **반복적 사이클**이며, CPU, 메모리, I/O, 네트워크 각 계층에서 다른 접근이 필요하다.
 
----
++++
 
 ## Ⅰ. 성능 튜닝의 개요
 
@@ -30,7 +30,7 @@ keywords = ["운영체제", "성능 튜닝", "Performance Tuning", "최적화", 
 
 - **📢 섹션 요약 비유**: 수도관에서 물이 잘 안 나올 때, 어느 구간이 막혔는지 찾아내고 뚫어주는 작업입니다. 가장 좁은 곳(병목)을 찾는 게 핵심이죠.
 
----
++++
 
 ## Ⅱ. 튜닝 접근법 (Deep Dive)
 
@@ -70,7 +70,7 @@ keywords = ["운영체제", "성능 튜닝", "Performance Tuning", "최적화", 
 | **Network Bound** | 대역폭 포화, 지연 | 네트워크 업그레이드, 압축 |
 | **Lock Contention** | 대기 시간, 스레드 경쟁 | 락 프리, 세분화 |
 
----
++++
 
 ## Ⅲ. CPU 튜닝
 
@@ -94,7 +94,7 @@ perf top
 
 - **📢 섹션 요약 비유**: 셰프(CPU)가 일을 빨리 처리하려면, 레시피(알고리즘)를 개선하고, 조리사(쓰레드)를 늘리고, 재료를 미리 준비(캐시)해야 합니다.
 
----
++++
 
 ## Ⅳ. 메모리 튜닝
 
@@ -121,7 +121,7 @@ vmstat 1
 sysctl vm.swappiness=10
 ```
 
----
++++
 
 ## Ⅴ. I/O 튜닝
 
@@ -142,7 +142,7 @@ df -h
 - **I/O 스케줄러**: CFQ, deadline, noop
 - **비동기 I/O**: Blocking 없는 I/O
 
----
++++
 
 ## Ⅵ. 네트워크 튜닝
 
@@ -164,7 +164,7 @@ ping -c 10 example.com
 - **HTTP/2**: Multiplexing
 - **CDN**: 콘텐츠 캐싱
 
----
++++
 
 ## Ⅶ. 애플리케이션 튜닝
 
@@ -182,7 +182,7 @@ EXPLAIN ANALYZE SELECT * FROM users WHERE email = 'test@example.com';
 - **Cache Aside**: 코드에서 캐시 관리
 - **Write-Through**: 캐시에 먼저 쓰기
 
----
++++
 
 ## Ⅷ. 실무 적용
 
@@ -196,7 +196,7 @@ EXPLAIN ANALYZE SELECT * FROM users WHERE email = 'test@example.com';
 - **Load Testing**: JMeter, Locust, k6
 - **Benchmarking**: sysbench, fio
 
----
++++
 
 ## Ⅸ. 기대효과 및 결론
 
@@ -209,14 +209,14 @@ EXPLAIN ANALYZE SELECT * FROM users WHERE email = 'test@example.com';
 - **AI 기반 자동 튜닝**
 - **Auto-scaling**
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[성능 모니터링](./647_performance_monitoring.md)**: 튜닝의 전제
-- **[프로파일링](./xx_profiling.md)**: 병목 식별 도구
-- **[캐시](./226_cache.md)**: 성능 향상 기법
+- **성능 모니터링**: 튜닝의 전제
+- **프로파일링**: 병목 식별 도구
+- **캐시**: 성능 향상 기법
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 성능 튜닝은 **"자전거 속도 높이기"** 같아요.

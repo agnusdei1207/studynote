@@ -1,7 +1,6 @@
 +++
 title = "189. 결과 캐시 (Result Cache) - 쿼리 결과의 메모리 저장과 재활용"
 date = "2026-03-16"
-draft = false
 weight = 189
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["결과 캐시", "Result Cache", "Server Result Cache", "Client Resu
 > 2. **무효화 메커니즘**: 캐시된 결과의 기반이 되는 원천 테이블에 단 하나의 행이라도 변경(DML)이 발생하면, 정합성을 위해 해당 캐시를 즉시 **무효화(Invalidation)** 처리하는 엄격한 동기화 원칙을 따른다.
 > 3. **가치**: 읽기 비중이 압도적으로 높고 데이터 변경이 드문 기준 정보 조회나 복잡한 통계 연산의 응답 속도를 0에 가깝게 단축시키며, DB 서버의 CPU 및 블록 I/O 부하를 획기적으로 경감한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -50,7 +49,7 @@ keywords = ["결과 캐시", "Result Cache", "Server Result Cache", "Client Resu
 
 - **📢 섹션 요약 비유**: 결과 캐시는 '과정'이 아닌 '결과'를 사랑하는 데이터베이스의 지름길입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -91,7 +90,7 @@ keywords = ["결과 캐시", "Result Cache", "Server Result Cache", "Client Resu
 
 - **📢 섹션 요약 비유**: 결과 캐시는 '유통기한이 엄격한 우유'와 같아서, 원천 데이터가 바뀌는 순간 바로 상해버려(무효화) 버려야 합니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -110,7 +109,7 @@ keywords = ["결과 캐시", "Result Cache", "Server Result Cache", "Client Resu
 
 - **📢 섹션 요약 비유**: 라이브러리 캐시가 '공식 암기'라면, 결과 캐시는 '정답 암기'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -129,7 +128,7 @@ keywords = ["결과 캐시", "Result Cache", "Server Result Cache", "Client Resu
 
 - **📢 섹션 요약 비유**: 결과 캐시를 잘못 쓰는 것은 '매초 내용이 바뀌는 뉴스 전광판을 사진 찍어 보여주는 것'과 같아, 내용도 틀리고 사진 찍느라 바빠 정작 뉴스를 못 보게 만듭니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -147,15 +146,15 @@ keywords = ["결과 캐시", "Result Cache", "Server Result Cache", "Client Resu
 
 - **📢 섹션 요약 비유**: 미래의 결과 캐시는 단순한 보관함을 넘어, 우리가 무엇을 물어보든 과거의 수많은 정답을 조합해 즉석에서 새 정답을 만들어내는 '데이터 연금술'이 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[SGA (Shared Global Area)](./52_storage_block_io.md)**: 결과 캐시가 점유하는 메모리 공간.
-- **[라이브러리 캐시](./184_library_cache.md)**: 결과 캐시의 영원한 파트너.
-- **[옵티마이저 힌트](./190_hints.md)**: 결과 캐시를 수동으로 제어하는 키워드.
-- **[데이터 정합성](./98_data_integrity_concept.md)**: 결과 캐시가 가장 무서워하는 가치.
+- **SGA (Shared Global Area)**: 결과 캐시가 점유하는 메모리 공간.
+- **라이브러리 캐시**: 결과 캐시의 영원한 파트너.
+- **옵티마이저 힌트**: 결과 캐시를 수동으로 제어하는 키워드.
+- **데이터 정합성**: 결과 캐시가 가장 무서워하는 가치.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **결과 캐시**는 어려운 수학 문제를 풀 때, 계산 과정을 다 건너뛰고 **"정답만 미리 외워두는 비법"**과 같아요.

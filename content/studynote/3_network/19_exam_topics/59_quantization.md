@@ -1,5 +1,6 @@
 +++
 title = "양자화 (Quantization)"
+date = "2026-03-14"
 weight = 59
 +++
 
@@ -152,10 +153,10 @@ weight = 59
 ---
 
 ### 📌 관련 개념 링크**:
-- [표본화 Sampling](./56_sampling.md)
-- [양자화 잡음](./60_quantization_noise.md)
-- [컴팬딩 Companding](./61_companding.md)
-- [PCM 펄스 부호 변조](./62_pcm_pulse.md)
+- 표본화 Sampling
+- 양자화 잡음
+- 컴팬딩 Companding
+- PCM 펄스 부호 변조
 
 ---
 

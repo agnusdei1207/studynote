@@ -1,5 +1,6 @@
 +++
 title = "Cipher - 암호"
+date = "2026-03-14"
 weight = 867
 +++
 
@@ -109,6 +110,6 @@ Cipher는 데이터를 암호화하는 알고리즘입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Encryption](./812_encryption.md)
-- [AES](./xxx_aes.md)
-- [TLS](./xxx_tls.md)
+- Encryption
+- AES
+- TLS

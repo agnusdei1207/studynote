@@ -1,6 +1,7 @@
 +++
-weight = 385
 title = "385. 선행 페이징 (Prepaging)"
+date = "2026-03-14"
+weight = 385
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -114,4 +115,3 @@ graph TD
     PPD --> PFR[Page Fault Reduction]
     RA --> SE[Sequential Efficiency]
     OA --> MW[Memory/IO Waste]
-```

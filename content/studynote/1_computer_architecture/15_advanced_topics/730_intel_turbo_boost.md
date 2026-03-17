@@ -1,5 +1,6 @@
 +++
 title = "intel turbo boost"
+date = "2026-03-14"
 weight = 730
 +++
 
@@ -334,10 +335,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [AMD 프리시전 부스트](./731_amd_precision_boost.md) - AMD 대응 기술
-- [PL1, PL2](./734_pl1_pl2.md) - 전력 제한
-- [TjMax](./735_tjmax.md) - 최대 온도
-- [인텔 스피드스텝](./728_intel_speedstep.md) - P-State 기술
+- AMD 프리시전 부스트 - AMD 대응 기술
+- PL1, PL2 - 전력 제한
+- TjMax - 최대 온도
+- 인텔 스피드스텝 - P-State 기술
 
 ---
 

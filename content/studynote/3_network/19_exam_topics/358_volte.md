@@ -1,5 +1,6 @@
 +++
 title = "VoLTE - LTE 음성"
+date = "2026-03-14"
 weight = 358
 +++
 
@@ -148,10 +149,10 @@ VoLTE(Voice over LTE)는 LTE 네트워크로 HD 음성 통화를 제공합니다
 ---
 
 ### 📌 관련 개념 링크**:
-- [IMS](./357_ims.md)
-- [LTE](./219_lte.md)
-- [VoWiFi](./359_vowifi.md)
-- [SIP](./350_sip.md)
+- IMS
+- LTE
+- VoWiFi
+- SIP
 
 ---
 

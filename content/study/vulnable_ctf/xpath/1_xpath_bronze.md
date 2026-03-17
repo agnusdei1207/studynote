@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: XPath Injection 🥉 Bronze"
-description = "LUXORA 플랫폼의 XPath Injection 취약점을 이용한 기본 인증 우회 상세 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "XPath Injection", "Bronze", "Auth Bypass", "Write-up"]

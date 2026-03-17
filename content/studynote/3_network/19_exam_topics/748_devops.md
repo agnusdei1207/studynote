@@ -1,5 +1,6 @@
 +++
 title = "DevOps - 데브옵스"
+date = "2026-03-14"
 weight = 748
 +++
 
@@ -102,6 +103,6 @@ DevOps는 개발과 운영을 통합합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [CI/CD](./xxx_cicd.md)
-- [SRE](./747_sre.md)
-- [Infrastructure as Code](./750_iac.md)
+- CI/CD
+- SRE
+- Infrastructure as Code

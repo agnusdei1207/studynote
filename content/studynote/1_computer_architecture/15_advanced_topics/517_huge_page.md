@@ -1,8 +1,10 @@
 +++
-weight = 517
 title = "517. 거대 페이지 (Huge Page)"
+date = "2026-03-14"
+weight = 517
 [extra]
 category = "studynote-computer-architecture"
+date = "2026-03-14"
 +++
 
 # Huge Page (Large Page)
@@ -11,7 +13,7 @@ category = "studynote-computer-architecture"
 > 2. **가치**: 수십 GB 이상의 거대 데이터를 다루는 데이터베이스(DB), 인메모리 컴퓨팅, 가상화 환경에서 메모리 주소 변환에 드는 CPU 사이클을 10~20% 이상 절감하여 애플리케이션의 실질 성능을 가속한다.
 > 3. **융합**: TLB 아키텍처, 가상 메모리 시스템, THP (Transparent Huge Pages), 그리고 대용량 워크로드 최적화 기법과 융합되어 현대 서버 인프라의 필수 튜닝 요소로 자리 잡고 있다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -26,7 +28,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 장부의 페이지 수를 줄이기 위해 한 페이지에 더 많은 내용을 꽉 채워 넣는 '메모리 관리의 규모화' 전략입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -42,7 +44,7 @@ category = "studynote-computer-architecture"
 | **THP (Transparent Huge Pages)** | 자동 거대 페이지 관리 | OS가 런타임에 작은 페이지들을 합쳐 거대 페이지로 변환 | Background Defragmentation | 자동 포장 기계 |
 | **Memory Fragmentation** | 파편화 관리 | 연속된 물리 메모리 공간 확보를 위해 압축(Compaction) 수행 | Buddy System | 빈자리 메우기 |
 
----
++++
 
 ### 거대 페이지의 주소 변환 구조 (4KB vs 2MB)
 
@@ -76,7 +78,7 @@ category = "studynote-computer-architecture"
 
 **[다이어그램 해설]** 가상 주소에서 물리 주소를 찾아갈 때, 4KB 페이지는 총 4단계(x86_64 기준)의 장부를 거쳐야 한다. 하지만 2MB 거대 페이지를 쓰면 마지막 단계인 PTE(Page Table Entry)를 거치지 않고 PMD(Page Directory) 수준에서 바로 물리 주소의 '대형 블록'을 가리킬 수 있다. 이렇게 되면 CPU가 주소를 찾기 위해 메모리를 뒤지는 횟수(Memory Reference)가 줄어들어 속도가 빨라진다. 더 중요한 것은 TLB이다. TLB 엔트리가 100개라면, 4KB 페이지는 400KB만 커버하지만 2MB 페이지는 200MB라는 어마어마한 범위를 커버한다. 이를 통해 'TLB 미스'를 획기적으로 줄여 CPU가 주소 변환을 기다리느라 멈춰있는 시간을 최소화한다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -92,7 +94,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 포장지가 얇고 꼼꼼한 작은 택배(4KB)와, 포장지는 아깝지만 한 번에 많이 나르는 컨테이너(2MB)의 효율성 차이입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -107,7 +109,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 컨테이너 트럭(Huge Page)을 들여오기 전에, 우리 집 마당(Memory)이 그 트럭이 들어올 만큼 넓은지 먼저 확인하는 과정입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -124,15 +126,15 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 이제는 고정된 크기의 상자를 넘어, 물건의 크기에 맞춰 상자 크기가 자동으로 변하는 '카멜레온 포장 시스템'으로 진화하고 있습니다.
 
----
++++
 
 ## 📌 관련 개념 맵
-- **[TLB (Translation Lookaside Buffer)](./6_memory_hierarchy_cache/xx_tlb.md)**: 거대 페이지의 가장 큰 수혜를 입는 하드웨어 캐시.
-- **[IOMMU (Input-Output MMU)](./519_iommu_performance_overhead.md)**: 장치 측면에서 거대 페이지 주소 변환을 지원하는 장치.
-- **[가상화 하드웨어 지원 (EPT/NPT)](./527_hardware_assisted_virtualization.md)**: 이중 주소 변환 오버헤드를 줄이기 위해 거대 페이지를 필수적으로 사용하는 기술.
-- **[메모리 파편화 (Memory Fragmentation)](../2_operating_system/6_memory_management/xx_fragmentation.md)**: 거대 페이지 도입 시 반드시 해결해야 할 부작용.
+- **TLB (Translation Lookaside Buffer)**: 거대 페이지의 가장 큰 수혜를 입는 하드웨어 캐시.
+- **IOMMU (Input-Output MMU)**: 장치 측면에서 거대 페이지 주소 변환을 지원하는 장치.
+- **가상화 하드웨어 지원 (EPT/NPT)**: 이중 주소 변환 오버헤드를 줄이기 위해 거대 페이지를 필수적으로 사용하는 기술.
+- **메모리 파편화 (Memory Fragmentation)**: 거대 페이지 도입 시 반드시 해결해야 할 부작용.
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 거대 페이지는 **'아주 커다란 메모리 상자'**예요.

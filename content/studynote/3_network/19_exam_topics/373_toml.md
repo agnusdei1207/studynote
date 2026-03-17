@@ -1,5 +1,6 @@
 +++
 title = "TOML - 설정 형식"
+date = "2026-03-14"
 weight = 373
 +++
 
@@ -138,10 +139,10 @@ TOML(Tom's Obvious Minimal Language)은 명확한 설정 형식입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [YAML](./372_yaml.md)
-- [JSON](./371_json.md)
-- [Rust](./4_software_engineering/212_rust.md)
-- [Python](./4_software_engineering/213_python.md)
+- YAML
+- JSON
+- Rust
+- Python
 
 ---
 

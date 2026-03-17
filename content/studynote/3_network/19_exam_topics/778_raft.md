@@ -1,5 +1,6 @@
 +++
 title = "Raft - 래프트"
+date = "2026-03-14"
 weight = 778
 +++
 
@@ -105,6 +106,6 @@ Raft는 분산 시스템에서 합의를 이룹니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Consensus](./xxx_consensus.md)
-- [Distributed System](./xxx_distributed.md)
-- [etcd](./xxx_etcd.md)
+- Consensus
+- Distributed System
+- etcd

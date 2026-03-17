@@ -1,7 +1,7 @@
 +++
 title = "209. POSIX 스케줄링 API"
-weight = 209
 date = "2026-03-04"
+weight = 209
 [extra]
 categories = "studynote-operating-system"
 +++
@@ -13,7 +13,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 개발자가 특정 운영체제에 종속되지 않고 실시간 응답성이 필요한 애플리케이션을 구현할 수 있도록 표준화된 도구를 제공하며, 시스템의 결정성 (Determinism)을 제어하는 핵심 수단이다.
 > 3. **융합**: Pthreads (POSIX Threads) 라이브러리, 실시간 운영체제 (RTOS)의 스케줄링 구조, 그리고 임베디드 시스템의 성능 최적화 전략과 밀접하게 연계된다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -23,7 +23,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 어떤 기종의 비행기를 타더라도 조종석의 조작 버튼(API)이 표준화되어 있어 조종사가 안정적으로 운행할 수 있게 돕는 표준 가이드와 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -54,7 +54,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: FIFO는 한 명씩 끝까지 진료하는 완고한 의사이고, RR은 환자마다 5분씩만 상담하고 다시 줄 세우는 바쁜 의사입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -69,7 +69,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: FIFO는 1등이 다 먹는 승자독식 구조이고, RR은 1등 그룹 내에서 사이좋게 나눠 먹는 구조입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -79,7 +79,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 사이렌을 울리며 달리는 구급차(실시간)는 빨간불도 지나갈 수 있지만, 만약 구급차가 길 한복판에 멈춰 서버리면 전체 교통이 마비되는 것과 같습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -88,12 +88,12 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 표준화된 매뉴얼이 사고를 막고 효율을 높이듯, POSIX API는 프로그래머에게 시스템을 다루는 정교한 핸들을 제공합니다.
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[Pthreads (POSIX Threads)](./790_posix_threads_pthread_api.md)**: 실시간 스케줄링 API가 가장 빈번하게 사용되는 영역
-- **[실시간 리눅스 (PREEMPT_RT)](./219_realtime_linux_preempt_rt.md)**: POSIX API의 응답성을 하드웨어 수준에서 뒷받침하는 기술
-- **[우선순위 역전 (Priority Inversion)](./242_priority_inversion.md)**: API 사용 시 발생할 수 있는 논리적 오류
+- **Pthreads (POSIX Threads)**: 실시간 스케줄링 API가 가장 빈번하게 사용되는 영역
+- **실시간 리눅스 (PREEMPT_RT)**: POSIX API의 응답성을 하드웨어 수준에서 뒷받침하는 기술
+- **우선순위 역전 (Priority Inversion)**: API 사용 시 발생할 수 있는 논리적 오류
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 컴퓨터가 어떤 일을 먼저 할지 정하는 '규칙 책'이 있는데, 그 책의 이름이 'POSIX'예요.

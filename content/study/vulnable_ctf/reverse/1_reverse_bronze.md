@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Reversing Chain 🥉 Bronze"
-description = "LUXORA 플랫폼의 기본 Reversing Chain 취약점을 이용한 바이너리 패치 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Reverse Engineering", "Bronze", "Binary Patching", "Write-up"]

@@ -1,10 +1,9 @@
----
-title: "[ICT] #135. 자율주행 자동차 (Autonomous Vehicle) 및 SAE 발전 단계"
-date: "2026-03-17"
++++
+title = "[ICT] #135. 자율주행 자동차 (Autonomous Vehicle) 및 SAE 발전 단계"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "AutonomousVehicle_SAE_J3016_Level2_Level3_Level4_ADAS_SelfDriving"
----
+keyword = "AutonomousVehicle_SAE_J3016_Level2_Level3_Level4_ADAS_SelfDriving"
++++
 
 # 자율주행 자동차 및 SAE 기술 단계: 운전의 주도권이 인간에서 인공지능으로 넘어가는 여정
 
@@ -13,7 +12,7 @@ keyword: "AutonomousVehicle_SAE_J3016_Level2_Level3_Level4_ADAS_SelfDriving"
 > 2. **가치**: 교통사고의 90% 이상을 차지하는 인적 오류(Human Error)를 제거하여 도로 안전을 확보하고, 운전 시간을 생산/여가 시간으로 환원시켜 모빌리티 서비스(MaaS) 경제를 창출한다.
 > 3. **융합**: 미국공학회(SAE) J3016 기준에 따라 레벨 0에서 5까지 6단계로 분류되며, 현재 산업계는 인간이 보조하는 레벨 2/3 수준에서, 운전대가 사라지고 시스템이 100% 책임지는 레벨 4/5 수준의 완전 자율주행으로 진화하는 융합 기술의 변곡점에 있다.
 
----
++++
 
 ## Ⅰ. 자율주행 자동차 및 SAE 발전 단계 개요
 
@@ -31,7 +30,7 @@ keyword: "AutonomousVehicle_SAE_J3016_Level2_Level3_Level4_ADAS_SelfDriving"
 
 📢 **섹션 요약 비유**: 인간의 가장 불안전한 노동(운전)을 기계에게 완벽히 위임하여, 자동차를 달리는 '바퀴 달린 스마트폰'이자 '움직이는 거실'로 만드는 거대한 기술 독립 선언입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -82,7 +81,7 @@ keyword: "AutonomousVehicle_SAE_J3016_Level2_Level3_Level4_ADAS_SelfDriving"
 
 📢 **섹션 요약 비유**: 훈련병(Lv.2)이 교관의 시선 아래서 차를 몰다가, 특정 고속도로에서만 자격증을 얻은 초보 운전자(Lv.3)를 거쳐, 눈 감고도 전국을 누비는 베테랑 택시 기사(Lv.4/5)로 성장하는 과정입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -102,7 +101,7 @@ keyword: "AutonomousVehicle_SAE_J3016_Level2_Level3_Level4_ADAS_SelfDriving"
 
 📢 **섹션 요약 비유**: 레벨 2에서 3으로 넘어가는 것은 단순히 기술이 조금 좋아지는 게 아니라, 자동차 등록증의 소유자(책임자) 이름이 '내 이름'에서 '자동차 회사 이름'으로 바뀌는 거대한 사회적 횡단(Chasm)입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -120,7 +119,7 @@ keyword: "AutonomousVehicle_SAE_J3016_Level2_Level3_Level4_ADAS_SelfDriving"
 
 📢 **섹션 요약 비유**: 자다가 갑자기 깨어나서 폭풍우 속 운전대를 잡아야 하는 극한 직업(레벨 3)을 만드느니, 차라리 특정 동네에서만은 절대 깨우지 않는 완벽한 로봇(레벨 4)을 만드는 것이 훨씬 안전한 설계 전략입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -134,13 +133,13 @@ keyword: "AutonomousVehicle_SAE_J3016_Level2_Level3_Level4_ADAS_SelfDriving"
 
 📢 **섹션 요약 비유**: 자율주행 자동차는 바퀴의 발명 이후 인류가 만들어낸 가장 위대한 이동의 혁신이며, 자동차를 '탈 것'에서 '살아가는 공간'으로 영원히 뒤바꿀 마법의 양탄자입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[센서 퓨전 (Sensor Fusion)](./138_sensor_fusion_lidar.md)**: 자율주행차가 눈을 뜨고 세상을 입체적으로 인식하는 기술.
-- **[V2X (Vehicle to Everything)](./140_v2x_communication.md)**: 자율주행차가 주변 도로, 다른 차와 대화하는 초고속 통신망.
-- **[엣지 컴퓨팅 (Edge Computing)](./104_edge_fog_computing.md)**: 방대한 센서 데이터를 지연 없이 차량 내부에서 처리하는 두뇌.
-- **[플래투닝 (Platooning)](./143_platooning.md)**: 여러 대의 자율주행 트럭이 좁은 간격으로 기차처럼 달리는 군집 주행.
+- **센서 퓨전 (Sensor Fusion)**: 자율주행차가 눈을 뜨고 세상을 입체적으로 인식하는 기술.
+- **V2X (Vehicle to Everything)**: 자율주행차가 주변 도로, 다른 차와 대화하는 초고속 통신망.
+- **엣지 컴퓨팅 (Edge Computing)**: 방대한 센서 데이터를 지연 없이 차량 내부에서 처리하는 두뇌.
+- **플래투닝 (Platooning)**: 여러 대의 자율주행 트럭이 좁은 간격으로 기차처럼 달리는 군집 주행.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **마법의 운전기사**: 아빠 엄마가 운전대를 잡지 않아도, 자동차 안에 있는 똑똑한 컴퓨터 로봇이 알아서 길을 찾아가고 멈추는 마법의 자동차예요.

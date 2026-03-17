@@ -1,7 +1,6 @@
 +++
 title = "58. 데이터베이스 인스턴스 (Database Instance) - 메모리 구조 및 백그라운드 프로세스"
 date = "2026-03-16"
-draft = false
 weight = 58
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["Database Instance", "데이터베이스 인스턴스", "SGA", "Back
 > 2. **이원화 구조**: 데이터를 캐싱하고 연산하는 **SGA(System Global Area)**와 데이터 기록, 로그 저장, 장애 복구 등을 자동 수행하는 다양한 **백그라운드 프로세스(DBWR, LGWR 등)**가 유기적으로 결합되어 구동된다.
 > 3. **가치**: 데이터베이스 파일(정적인 상태)을 살아있는 서비스(동적인 상태)로 전환하는 실행 엔진이며, 인스턴스의 효율적 관리는 전체 시스템의 가용성과 처리 성능(Throughput)을 결정짓는 핵심 지표가 된다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -46,7 +45,7 @@ keywords = ["Database Instance", "데이터베이스 인스턴스", "SGA", "Back
 
 - **📢 섹션 요약 비유**: 인스턴스는 정적인 데이터에 생명력을 불어넣어 서비스로 만들어주는 '심장'과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -94,7 +93,7 @@ keywords = ["Database Instance", "데이터베이스 인스턴스", "SGA", "Back
 
 - **📢 섹션 요약 비유**: RAC는 '하나의 거대한 도서관(DB)에 여러 개의 대출 창구(인스턴스)가 있는 것'과 같아 줄을 서지 않고 빠르게 이용할 수 있게 합니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -113,7 +112,7 @@ keywords = ["Database Instance", "데이터베이스 인스턴스", "SGA", "Back
 
 - **📢 섹션 요약 비유**: 인스턴스가 '공연 중인 배우들'이라면, 데이터베이스는 '대본과 무대 장치'입니다. 배우가 없으면 공연(서비스)은 일어나지 않습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -132,7 +131,7 @@ keywords = ["Database Instance", "데이터베이스 인스턴스", "SGA", "Back
 
 - **📢 섹션 요약 비유**: 인스턴스 튜닝은 '주방 요리사들의 동선을 최적화하고, 테이블 크기를 손님 수에 딱 맞게 조절하는 식당 경영'과 같습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -150,15 +149,15 @@ keywords = ["Database Instance", "데이터베이스 인스턴스", "SGA", "Back
 
 - **📢 섹션 요약 비유**: 미래의 인스턴스는 필요할 때만 나타나 최고의 성능을 내고 사라지는 '투명한 엔진'으로 진화할 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[SGA (System Global Area)](./57_shared_pool.md)**: 인스턴스의 핵심 메모리 저장소.
-- **[백그라운드 프로세스 (DBWR, LGWR)](./51_logging_engine.md)**: 인스턴스의 실행 주체.
-- **[데이터베이스 파일 (Persistent Storage)](./59_persistent_storage.md)**: 인스턴스가 관리하는 대상.
-- **[Oracle RAC](./31_client_server_architecture.md)**: 다중 인스턴스 고가용성 기술.
+- **SGA (System Global Area)**: 인스턴스의 핵심 메모리 저장소.
+- **백그라운드 프로세스 (DBWR, LGWR)**: 인스턴스의 실행 주체.
+- **데이터베이스 파일 (Persistent Storage)**: 인스턴스가 관리하는 대상.
+- **Oracle RAC**: 다중 인스턴스 고가용성 기술.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **데이터베이스 인스턴스**는 컴퓨터가 잠자고 있는 데이터들을 깨워서 **실제로 일을 하게 만드는 "마법의 시동"**과 같아요.

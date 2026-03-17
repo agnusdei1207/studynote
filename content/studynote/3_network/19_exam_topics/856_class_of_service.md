@@ -1,5 +1,6 @@
 +++
 title = "Class of Service - 서비스 클래스"
+date = "2026-03-14"
 weight = 856
 +++
 
@@ -107,6 +108,6 @@ Class of Service (CoS)는 트래픽을 클래스별로 분류합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [QoS](./855_qos.md)
-- [DiffServ](./xxx_diffserv.md)
-- [VLAN](./xxx_vlan.md)
+- QoS
+- DiffServ
+- VLAN

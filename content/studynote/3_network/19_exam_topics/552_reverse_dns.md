@@ -1,5 +1,6 @@
 +++
 title = "Reverse DNS (rDNS) - 역방향 DNS"
+date = "2026-03-14"
 weight = 552
 +++
 
@@ -95,6 +96,6 @@ Reverse DNS는 IP 주소로 도메인 이름을 찾습니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [DNS](./550_dns.md)
-- [PTR Record](./551_dns_records.md)
-- [SPF](./553_spf.md)
+- DNS
+- PTR Record
+- SPF

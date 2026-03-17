@@ -1,7 +1,7 @@
-Here is the rewritten study note, strictly complying with the **PE (Professional Engineer) guideline format**.
-
-```markdown
 +++
+title = "[디스크 캐시 (Disk Cache) 및 페이지 캐시 (Page Cache)]"
+date = "2026-03-14"
+[extra]
 weight = 543
 title = "543. 디스크 캐시 (Disk Cache) 및 페이지 캐시"
 +++

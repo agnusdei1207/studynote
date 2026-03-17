@@ -1,5 +1,6 @@
 +++
 title = "Packet Scheduling - 패킷 스케줄링"
+date = "2026-03-14"
 weight = 852
 +++
 
@@ -110,6 +111,6 @@ Packet Scheduling은 패킷 전송 순서를 결정합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [QoS](./xxx_qos.md)
-- [Queue](./851_queue.md)
-- [Traffic Shaping](./xxx_traffic_shaping.md)
+- QoS
+- Queue
+- Traffic Shaping

@@ -1,5 +1,6 @@
 +++
 title = "ASK (진폭 편이 변조)"
+date = "2026-03-14"
 weight = 45
 +++
 
@@ -143,10 +144,10 @@ m(t) = 1 (비트 1)
 ---
 
 ### 📌 관련 개념 링크**:
-- [변조 Modulation 개요](./44_modulation_intro.md)
-- [FSK 주파수 편이 변조](./46_fsk_frequency.md)
-- [QAM 직교 진폭 변조](./51_qam_quadrature.md)
-- [광통신 Optical Fiber](./128_optical_fiber.md)
+- 변조 Modulation 개요
+- FSK 주파수 편이 변조
+- QAM 직교 진폭 변조
+- 광통신 Optical Fiber
 
 ---
 

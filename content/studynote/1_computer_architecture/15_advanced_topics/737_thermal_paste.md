@@ -1,5 +1,6 @@
 +++
 title = "thermal paste"
+date = "2026-03-14"
 weight = 737
 +++
 
@@ -299,10 +300,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [히트스프레더](./736_ihs.md) - IHS
-- [베이퍼 체임버](./738_vapor_chamber.md) - 쿨링
-- [히트파이프](./739_heatpipe.md) - 열전달
-- [TjMax](./735_tjmax.md) - 최대 온도
+- 히트스프레더 - IHS
+- 베이퍼 체임버 - 쿨링
+- 히트파이프 - 열전달
+- TjMax - 최대 온도
 
 ---
 

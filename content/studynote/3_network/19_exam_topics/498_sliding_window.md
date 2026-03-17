@@ -1,5 +1,6 @@
 +++
 title = "슬라이딩 윈도우 - Sliding Window"
+date = "2026-03-14"
 weight = 498
 +++
 
@@ -91,5 +92,5 @@ weight = 498
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./332_tcp.md)
-- [플로우 컨트롤](./495_flow_control.md)
+- TCP
+- 플로우 컨트롤

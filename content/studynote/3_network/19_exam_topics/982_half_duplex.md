@@ -1,5 +1,6 @@
 +++
 title = "Half Duplex - 반이중"
+date = "2026-03-14"
 weight = 982
 +++
 
@@ -108,6 +109,6 @@ Half Duplex는 한 번에 한 방향으로만 통신합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Full Duplex](./983_full_duplex.md)
-- [CSMA/CD](./xxx_csmacd.md)
-- [Collision Domain](./980_collision_domain.md)
+- Full Duplex
+- CSMA/CD
+- Collision Domain

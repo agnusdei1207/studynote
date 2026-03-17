@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Command Injection 💎 Platinum"
-description = "LUXORA 플랫폼의 최고 난이도 Command Injection 상세 공략 (강력한 WAF 우회 및 Blind 결합)"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Command Injection", "Platinum", "OOB", "WAF Bypass", "Write-up"]

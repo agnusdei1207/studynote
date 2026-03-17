@@ -1,5 +1,6 @@
 +++
 title = "TCP RTO (Retransmission Timeout) - 재전송 타임아웃"
+date = "2026-03-14"
 weight = 515
 +++
 
@@ -92,6 +93,6 @@ RTO는 재전송을 기다리는 시간입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./332_tcp.md)
-- [RTT Estimation](./514_rtt_estimation.md)
-- [Fast Retransmit](./502_fast_retransmit.md)
+- TCP
+- RTT Estimation
+- Fast Retransmit

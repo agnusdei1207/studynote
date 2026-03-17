@@ -12,7 +12,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 세큐어 코딩(Secure Coding)에서 동시성 제어의 중요성을 강조하는 핵심 개념이며, 주로 파일 시스템 접근 권한 확인이나 데이터 유효성 검증 단계에서 발생한다.
 > 3. **융합**: 운영체제의 경쟁 상태(Race Condition)가 보안 취약점으로 전이된 사례로, 원자적 연산(Atomic Operation)과 락킹(Locking)을 통해 해결해야 한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -24,7 +24,7 @@ categories = "studynote-operating-system"
   1. **멀티태스킹의 부작용**: 여러 프로세스가 공유 자원에 동시에 접근하면서, 한 프로세스의 확인이 끝난 직후 다른 프로세스가 개입할 수 있게 되었다.
   2. **심볼릭 링크의 악용**: 유닉스 계열에서 파일 권한 확인 후 파일을 열기 전, 공격자가 해당 파일을 관리자 권한 파일로 링크를 바꿔버리는 공격이 빈번했다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -36,7 +36,7 @@ categories = "studynote-operating-system"
 | **2. Race Window** | 시스템 콜 처리 대기 중 | **"file.txt"를 삭제하고 "/etc/passwd"로 심볼릭 링크 생성** |
 | **3. Use** | `fd = open("file.txt", O_WRONLY)` | 프로그램은 권한 확인을 마쳤으므로 의심 없이 핵심 파일을 열어 수정함 |
 
----
++++
 
 ### 레이스 윈도우(Race Window) 다이어그램
 
@@ -55,7 +55,7 @@ categories = "studynote-operating-system"
 
 **[다이어그램 해설]** 피해 프로세스가 `access`로 권한 확인을 마친 후 `open`을 호출하기 전의 틈을 타서, 공격자가 파일의 정체를 바꿔치기한다. 운영체제는 `access` 단계에서의 판단을 `open` 단계에서도 유효하다고 믿기 때문에 보안이 뚫리게 된다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -70,7 +70,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: "문을 열기 전에 신분증을 보는 것"보다, "문을 열면서 동시에 신분증을 뺏어 들고 들어가는 것"이 더 안전합니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -83,7 +83,7 @@ categories = "studynote-operating-system"
 - **규칙 2**: `access()` 사용을 지양하고, 대신 직접 `open()`을 시도한 뒤 에러 코드를 확인하라.
 - **규칙 3**: 권한이 높은 프로그램(SetUID)일수록 TOCTOU에 극도로 민감하게 대응해야 한다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -93,14 +93,14 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: TOCTOU 방어는 "눈 깜빡할 사이의 틈을 메워 보안의 완결성을 채우는 정교한 퍼즐"과 같습니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[경쟁 상태 (Race Condition)](./221_race_condition.md)**: TOCTOU의 원인이 되는 현상.
-- **[원자적 연산 (Atomic Operation)](./230_atomic_variable.md)**: TOCTOU를 막는 가장 강력한 도구.
-- **[심볼릭 링크 (Symbolic Link)](../9_file_system/xxx_symbolic_link.md)**: TOCTOU 공격에서 가장 많이 활용되는 매개체.
+- **경쟁 상태 (Race Condition)**: TOCTOU의 원인이 되는 현상.
+- **원자적 연산 (Atomic Operation)**: TOCTOU를 막는 가장 강력한 도구.
+- **심볼릭 링크 (Symbolic Link)**: TOCTOU 공격에서 가장 많이 활용되는 매개체.
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. TOCTOU는 엄마가 간식 통에 **"간식이 있는지 확인하고, 꺼내려는 찰나에 동생이 홀랑 채가는 것"**과 같아요.

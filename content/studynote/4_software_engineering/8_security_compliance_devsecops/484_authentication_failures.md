@@ -1,7 +1,7 @@
----
-title: "484. Identification and Authentication Failures (인증 및 세션 관리 실패)"
-date: 2026-03-15
----
++++
+title = "484. Identification and Authentication Failures (인증 및 세션 관리 실패)"
+date = "2026-03-15"
++++
 
 # 484. Identification and Authentication Failures (인증 및 세션 관리 실패)
 
@@ -155,10 +155,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[OWASP Top 10 (A07)](./477_owasp_top_10.md)**: 인증 실패가 포함된 표준 리포트
-- **[MFA (Multi-Factor Authentication)](./xx_mfa.md)**: 인증 보안 강화의 핵심 기술
-- **[JWT (JSON Web Token)](./510_jwt.md)**: 현대적 세션 관리에 쓰이는 토큰 기술
-- **[Credential Stuffing](./xx_credential_stuffing.md)**: 인증 취약점을 노리는 대표적 공격 기법
+- **OWASP Top 10 (A07)**: 인증 실패가 포함된 표준 리포트
+- **MFA (Multi-Factor Authentication)**: 인증 보안 강화의 핵심 기술
+- **JWT (JSON Web Token)**: 현대적 세션 관리에 쓰이는 토큰 기술
+- **Credential Stuffing**: 인증 취약점을 노리는 대표적 공격 기법
 
 ---
 

@@ -1,7 +1,6 @@
 +++
 title = "166. 전체 테이블 스캔 vs 인덱스 스캔 - 선택 기준과 손익분기점"
 date = "2026-03-16"
-draft = false
 weight = 166
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["Full Table Scan", "Index Scan", "손익분기점", "Multi-block I/O
 > 2. **성능 결정 요인**: 전체 데이터를 뭉텅이로 읽어오는 **Multi-block I/O(Full)**와 하나씩 콕 찝어 읽는 **Single-block I/O(Index)**의 효율성 대결이며, 데이터의 양과 **선택도(Selectivity)**에 따라 어느 쪽이 유리한지 결정되는 지점을 '손익분기점'이라 한다.
 > 3. **가치**: 인덱스가 항상 빠르다는 고정관념을 깨고, 대량 데이터 집계 시에는 오히려 전체 스캔이 효율적일 수 있음을 이해함으로써 리소스 낭비를 방지하고 시스템 전반의 처리량(Throughput)을 최적화한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -51,7 +50,7 @@ keywords = ["Full Table Scan", "Index Scan", "손익분기점", "Multi-block I/O
 
 - **📢 섹션 요약 비유**: 전체 스캔은 '저인망 그물'로 몽땅 훑는 것이고, 인덱스 스캔은 '작살'로 정확히 쏘는 것입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -94,7 +93,7 @@ keywords = ["Full Table Scan", "Index Scan", "손익분기점", "Multi-block I/O
 
 - **📢 섹션 요약 비유**: 손익분기점은 '택시(인덱스)와 버스(전체 스캔)'의 관계와 같아, 사람이 많아지면 버스가 훨씬 경제적입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -111,7 +110,7 @@ keywords = ["Full Table Scan", "Index Scan", "손익분기점", "Multi-block I/O
 
 - **📢 섹션 요약 비유**: 인덱스는 '전화번호부'이고 전체 스캔은 '마을 전수조사'입니다. 한 명 찾을 땐 전화번호부가 최고지만, 마을 전체의 평균 수입을 잴 땐 전수조사가 빠릅니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -130,7 +129,7 @@ keywords = ["Full Table Scan", "Index Scan", "손익분기점", "Multi-block I/O
 
 - **📢 섹션 요약 비유**: 바늘로 수천 개의 구멍을 뚫는 것보다, 송곳으로 한 번에 뚫는 게 빠를 때가 있음을 아는 것이 튜닝의 지혜입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -148,15 +147,15 @@ keywords = ["Full Table Scan", "Index Scan", "손익분기점", "Multi-block I/O
 
 - **📢 섹션 요약 비유**: 미래의 스캔은 우리가 고민하지 않아도, 데이터의 양에 따라 '작살'이 될지 '그물'이 될지 빛의 속도로 변신하는 지능형 채집 시스템이 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[인덱스 스캔 방식](./165_index_scan_types.md)**: 인덱스를 탈 때의 세부 기술.
-- **[클러스터링 팩터 (Clustering Factor)](./167_index_selection_criteria.md)**: 손익분기점을 결정하는 물리적 배치.
-- **[옵티마이저 (Optimizer)](./163_optimizer.md)**: 스캔 방식을 최종 결정하는 두뇌.
-- **[병렬 처리 (Parallelism)](@/studynote/2_operating_system/_index.md)**: 전체 스캔의 강력한 우군.
+- **인덱스 스캔 방식**: 인덱스를 탈 때의 세부 기술.
+- **클러스터링 팩터 (Clustering Factor)**: 손익분기점을 결정하는 물리적 배치.
+- **옵티마이저 (Optimizer)**: 스캔 방식을 최종 결정하는 두뇌.
+- **병렬 처리 (Parallelism)**: 전체 스캔의 강력한 우군.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **인덱스 스캔**은 사탕 바구니에서 **"딱 내가 좋아하는 맛 한 개"**만 쏙 집어내는 거예요.

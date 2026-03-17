@@ -1,5 +1,6 @@
 +++
 title = "안테나 배열 (Antenna Array) - 선형/평면/원형"
+date = "2026-03-14"
 weight = 176
 +++
 
@@ -157,10 +158,10 @@ weight = 176
 ---
 
 ### 📌 관련 개념 링크**:
-- [안테나](./171_antenna.md)
-- [빔포밍](./177_beamforming.md)
-- [MIMO](./178_mimo.md)
-- [5G NR](./211_5g_nr.md)
+- 안테나
+- 빔포밍
+- MIMO
+- 5G NR
 
 ---
 

@@ -1,6 +1,7 @@
 +++
-weight = 399
 title = "399. 전역 교체 (Global Replacement)"
+date = "2026-03-14"
+weight = 399
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -119,4 +120,3 @@ graph TD
     GR -- Risks --> TS[System-wide Thrashing]
     GR -- Comparison --> LR[Local Replacement]
     MU -- Benefit --> TP[Higher Throughput]
-```

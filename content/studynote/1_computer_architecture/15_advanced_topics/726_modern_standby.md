@@ -1,5 +1,6 @@
 +++
 title = "modern standby"
+date = "2026-03-14"
 weight = 726
 +++
 
@@ -349,10 +350,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [ACPI S-States](./725_acpi_sstates.md) - 시스템 절전 상태
-- [Package C-States](./721_package_cstates.md) - 패키지 절전
-- [P-States](./723_pstates.md) - 성능 상태
-- [S0ix 저전력 유휴 상태](./727_s0ix_idle.md) - S0ix 상세
+- ACPI S-States - 시스템 절전 상태
+- Package C-States - 패키지 절전
+- P-States - 성능 상태
+- S0ix 저전력 유휴 상태 - S0ix 상세
 
 ---
 

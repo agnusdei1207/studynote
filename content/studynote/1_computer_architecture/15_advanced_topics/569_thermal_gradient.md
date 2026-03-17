@@ -1,5 +1,6 @@
 +++
 title = "멀티코어 칩 온도 불균형 (Thermal Gradient)"
+date = "2026-03-14"
 weight = 569
 +++
 

@@ -1,5 +1,6 @@
 +++
 title = "난수 생성기 (TRNG, True Random Number Generator)"
+date = "2026-03-14"
 weight = 486
 +++
 

@@ -1,6 +1,7 @@
 +++
-weight = 147
 title = "147. 스레드 안전 (Thread-safe)"
+date = "2026-03-14"
+weight = 147
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -139,10 +140,10 @@ Lock-free 스레드 안전성을 구현하는 핵심 알고리즘이다.
 ---
 
 ### 📌 관련 개념 맵
-- **[임계 구역 (Critical Section)](./xx_critical_section.md)**: 스레드 안전을 위해 보호해야 할 코드 영역.
-- **[뮤텍스 vs 세마포어 (Mutex vs Semaphore)](./xx_mutex_semaphore.md)**: 스레드 안전 구현을 위한 대표적 도구.
-- **[데드락 (Deadlock)](./5_deadlock/xx_deadlock.md)**: 잘못된 동기화로 인해 발생하는 교착 상태.
-- **[재진입 가능 코드 (Reentrant Code)](./148_reentrant_code.md)**: 스레드 안전의 상위 집합이자 특수한 형태.
+- **임계 구역 (Critical Section)**: 스레드 안전을 위해 보호해야 할 코드 영역.
+- **뮤텍스 vs 세마포어 (Mutex vs Semaphore)**: 스레드 안전 구현을 위한 대표적 도구.
+- **데드락 (Deadlock)**: 잘못된 동기화로 인해 발생하는 교착 상태.
+- **재진입 가능 코드 (Reentrant Code)**: 스레드 안전의 상위 집합이자 특수한 형태.
 
 ---
 

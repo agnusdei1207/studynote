@@ -1,5 +1,6 @@
 +++
 title = "회선 제어 규약 (Line Discipline)"
+date = "2026-03-14"
 weight = 32
 +++
 
@@ -148,10 +149,10 @@ A국                             B국
 ---
 
 ### 📌 관련 개념 링크**:
-- [동기 전송 Sync Transmission](./15_동기_전송_문자_동기_SYNC.md)
-- [HDLC 프레임 구조](./201_hdlc_frame.md)
-- [에러 제어 Error Control](./17_에러_제어_오류_검출_정정.md)
-- [흐름 제어 Flow Control](./24_flow_control.md)
+- 동기 전송 Sync Transmission
+- HDLC 프레임 구조
+- 에러 제어 Error Control
+- 흐름 제어 Flow Control
 
 ---
 

@@ -1,7 +1,7 @@
----
-title: "535. 서비스 간 동기 통신 (REST API, gRPC)"
-date: 2026-03-15
----
++++
+title = "535. 서비스 간 동기 통신 (REST API, gRPC)"
+date = "2026-03-15"
++++
 
 # 535. 서비스 간 동기 통신 (REST API, gRPC)
 
@@ -156,10 +156,10 @@ REST가 인터넷의 표준이 된 비결이다.
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[MSA](./532_microservices_decomposition.md)**: 동기 통신이 주로 사용되는 아키텍처 환경
-- **[비동기 통신 (Kafka)](./536_msa_async_communication.md)**: 동기 통신의 단점을 보완하는 대안
-- **[API 게이트웨이](./542_api_gateway.md)**: REST/gRPC 변환 및 인증을 수행하는 입구
-- **[서킷 브레이커](./572_circuit_breaker.md)**: 동기 호출의 장애 전파를 막는 방패
+- **MSA**: 동기 통신이 주로 사용되는 아키텍처 환경
+- **비동기 통신 (Kafka)**: 동기 통신의 단점을 보완하는 대안
+- **API 게이트웨이**: REST/gRPC 변환 및 인증을 수행하는 입구
+- **서킷 브레이커**: 동기 호출의 장애 전파를 막는 방패
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "IPsec - IP 보안"
+date = "2026-03-14"
 weight = 881
 +++
 
@@ -108,6 +109,6 @@ IPsec (IP Security)은 IP 계층에서 보안을 제공합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [VPN](./880_vpn.md)
-- [Encryption](./812_encryption.md)
-- [Tunneling](./xxx_tunneling.md)
+- VPN
+- Encryption
+- Tunneling

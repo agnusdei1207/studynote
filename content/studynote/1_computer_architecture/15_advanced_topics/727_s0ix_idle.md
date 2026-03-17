@@ -1,5 +1,6 @@
 +++
 title = "s0ix idle"
+date = "2026-03-14"
 weight = 727
 +++
 
@@ -357,10 +358,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [모던 스탠바이](./726_modern_standby.md) - Modern Standby
-- [Package C-States](./721_package_cstates.md) - 패키지 절전
-- [Core C-States](./722_core_cstates.md) - 코어 절전
-- [ACPI S-States](./725_acpi_sstates.md) - 시스템 절전
+- 모던 스탠바이 - Modern Standby
+- Package C-States - 패키지 절전
+- Core C-States - 코어 절전
+- ACPI S-States - 시스템 절전
 
 ---
 

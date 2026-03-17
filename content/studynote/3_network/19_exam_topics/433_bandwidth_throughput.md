@@ -1,5 +1,6 @@
 +++
 title = "대역폭 vs 처리량 - Bandwidth vs Throughput"
+date = "2026-03-14"
 weight = 433
 +++
 
@@ -140,10 +141,10 @@ Bandwidth는 최대 용량, Throughput은 실제 전송량입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Latency vs Throughput](./432_latency_throughput.md)
-- [네트워크 성능 지표](./431_performance.md)
-- [QoS](./329_qos.md)
-- [Traffic Shaping](./330_traffic_shaping.md)
+- Latency vs Throughput
+- 네트워크 성능 지표
+- QoS
+- Traffic Shaping
 
 ---
 

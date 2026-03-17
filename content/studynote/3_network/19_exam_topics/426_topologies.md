@@ -1,5 +1,6 @@
 +++
 title = "네트워크 토폴로지 - Network Topologies"
+date = "2026-03-14"
 weight = 426
 +++
 
@@ -144,10 +145,10 @@ weight = 426
 ---
 
 ### 📌 관련 개념 링크**:
-- [스위치](./350_switch.md)
-- [VLAN](./301_vlan.md)
-- [Redundancy](./327_redundancy.md)
-- [스파인-리프](./328_spine_leaf.md)
+- 스위치
+- VLAN
+- Redundancy
+- 스파인-리프
 
 ---
 

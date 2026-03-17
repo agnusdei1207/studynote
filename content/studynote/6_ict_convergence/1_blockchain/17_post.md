@@ -1,10 +1,9 @@
----
-title: "[ICT] #18. 공간 및 시간 증명 (Proof of Space and Time, PoST)"
-date: "2026-03-17"
++++
+title = "[ICT] #18. 공간 및 시간 증명 (Proof of Space and Time, PoST)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "PoST_Proof_of_Space_and_Time_Chia_VDF_Farming"
----
+keyword = "PoST_Proof_of_Space_and_Time_Chia_VDF_Farming"
++++
 
 # 공간 및 시간 증명 (PoST): 스토리지 자원을 활용한 친환경 합의 패러다임
 
@@ -13,7 +12,7 @@ keyword: "PoST_Proof_of_Space_and_Time_Chia_VDF_Farming"
 > 2. **가치**: PoW의 과도한 전력 소모와 PoS의 자산 편중 문제를 해결하기 위해, 유휴 스토리지 자원을 활용함으로써 에너지 효율성과 탈중앙화의 균형을 꾀한다.
 > 3. **융합**: 고도의 암호학적 기법인 **VDF(Verifiable Delay Function)**와 머클 트리 기반의 플로팅(Plotting) 기술이 결합되어, 치아(Chia), 파일코인(Filecoin) 등 차세대 분산 저장 프로토콜의 핵심이 된다.
 
----
++++
 
 ## Ⅰ. 공간 및 시간 증명 (PoST) 개요
 
@@ -31,7 +30,7 @@ keyword: "PoST_Proof_of_Space_and_Time_Chia_VDF_Farming"
 
 📢 **섹션 요약 비유**: 엄청난 에너지를 써서 매번 구멍을 파는 노가다(PoW) 대신, 미리 넓은 밭(공간)을 일궈두고 씨앗이 자라길 기다리는(시간) 지혜로운 농경 방식입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -79,7 +78,7 @@ keyword: "PoST_Proof_of_Space_and_Time_Chia_VDF_Farming"
 
 📢 **섹션 요약 비유**: 넓은 창고(공간)에 보물을 숨겨두고, 정해진 시간이 지나야만 열리는 금고(시간) 시스템을 통해 보물의 가치와 안전을 지키는 구조입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -99,7 +98,7 @@ keyword: "PoST_Proof_of_Space_and_Time_Chia_VDF_Farming"
 
 📢 **섹션 요약 비유**: PoW가 에너지를 태우는 '화력 발전'이라면, PoST는 이미 지어진 댐의 수위를 이용하는 '수력 발전'처럼 지속 가능한 방식입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -113,7 +112,7 @@ keyword: "PoST_Proof_of_Space_and_Time_Chia_VDF_Farming"
 
 📢 **섹션 요약 비유**: 풍부한 수확을 위해 밭을 갈되, 땅(SSD)이 산성화되어 못 쓰게 되지 않도록 적절한 비료와 휴지기(전략적 운용)를 갖춰야 하는 영농 기법과 같습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -127,13 +126,13 @@ keyword: "PoST_Proof_of_Space_and_Time_Chia_VDF_Farming"
 
 📢 **섹션 요약 비유**: PoST는 블록체인을 '전기 먹는 하마'에서 **'디지털 자원 공유 경제'**로 진화시킨 친환경 혁신입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[VDF (Verifiable Delay Function)](./xx_vdf.md)**: PoST의 '시간'을 증명하는 암호학적 핵심 기술.
-- **[치아 네트워크 (Chia Network)](./xx_chia.md)**: PoST를 처음으로 본격 상용화한 블록체인.
-- **[파일코인 (Filecoin)](./75_filecoin.md)**: 데이터 저장 증명(PoSt)을 결합한 대표 사례.
-- **[작업 증명 (PoW)](./13_pow.md)**: PoST가 대체하고자 하는 1세대 합의 방식.
+- **VDF (Verifiable Delay Function)**: PoST의 '시간'을 증명하는 암호학적 핵심 기술.
+- **치아 네트워크 (Chia Network)**: PoST를 처음으로 본격 상용화한 블록체인.
+- **파일코인 (Filecoin)**: 데이터 저장 증명(PoSt)을 결합한 대표 사례.
+- **작업 증명 (PoW)**: PoST가 대체하고자 하는 1세대 합의 방식.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **내 방의 서랍장**: 내 방에 있는 빈 서랍장(하드디스크)을 블록체인 나라에 빌려주는 거예요. 서랍장이 많을수록 더 많은 상금을 받을 수 있죠.

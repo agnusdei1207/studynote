@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Rate Limit Bypass 🥈 Silver"
-description = "LUXORA 플랫폼의 Silver 난이도 Rate Limit Bypass 공략 - Null Byte / 특수 문자 주입을 통한 카운터 분할 우회 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Rate Limit", "Silver", "String Manipulation", "Write-up"]

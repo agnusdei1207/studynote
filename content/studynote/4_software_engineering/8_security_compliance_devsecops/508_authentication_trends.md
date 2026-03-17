@@ -1,7 +1,7 @@
----
-title: "508. 인증 트렌드 (MFA, FIDO, WebAuthn, Passwordless)"
-date: 2026-03-15
----
++++
+title = "508. 인증 트렌드 (MFA, FIDO, WebAuthn, Passwordless)"
+date = "2026-03-15"
++++
 
 # 508. 인증 트렌드 (MFA, FIDO, WebAuthn, Passwordless)
 
@@ -157,10 +157,10 @@ FIDO 기술을 멀티 디바이스 환경으로 확장한 최신 기술이다.
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[세션 관리](./507_session_management.md)**: 안전한 인증 후에 유지되어야 할 상태 관리
-- **[인가 (Authorization) 모델](./509_authorization_models.md)**: 인증된 사용자의 권한을 통제하는 기술
-- **[제로 트러스트](./511_zero_trust.md)**: 인증 트렌드가 궁극적으로 지향하는 보안 철학
-- **[FIDO / WebAuthn](./xx_fido_standard.md)**: 인증 트렌드를 뒷받침하는 핵심 표준 기술
+- **세션 관리**: 안전한 인증 후에 유지되어야 할 상태 관리
+- **인가 (Authorization) 모델**: 인증된 사용자의 권한을 통제하는 기술
+- **제로 트러스트**: 인증 트렌드가 궁극적으로 지향하는 보안 철학
+- **FIDO / WebAuthn**: 인증 트렌드를 뒷받침하는 핵심 표준 기술
 
 ---
 

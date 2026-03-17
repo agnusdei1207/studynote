@@ -1,5 +1,6 @@
 +++
 title = "Router - 라우터"
+date = "2026-03-14"
 weight = 899
 +++
 
@@ -111,6 +112,6 @@ Router는 IP 계층에서 패킷을 전달합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Routing](./891_routing.md)
-- [Gateway](./898_gateway.md)
-- [NAT](./878_nat.md)
+- Routing
+- Gateway
+- NAT

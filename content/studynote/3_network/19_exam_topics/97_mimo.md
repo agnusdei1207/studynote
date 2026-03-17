@@ -1,5 +1,6 @@
 +++
 title = "MIMO (다중 안테나 기술)"
+date = "2026-03-14"
 weight = 97
 +++
 
@@ -150,10 +151,10 @@ MIMO(Multiple-Input Multiple-Output)는 송신과 수신에 여러 안테나를 
 ---
 
 ### 📌 관련 개념 링크**:
-- [SU-MIMO vs MU-MIMO](./98_su_mu_mimo.md)
-- [Massive MIMO](./99_massive_mimo.md)
-- [공간 다중화](./100_spatial_multiplexing.md)
-- [빔포밍](./101_beamforming.md)
+- SU-MIMO vs MU-MIMO
+- Massive MIMO
+- 공간 다중화
+- 빔포밍
 
 ---
 

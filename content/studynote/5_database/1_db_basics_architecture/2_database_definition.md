@@ -1,7 +1,7 @@
 +++
-weight = 2
 title = "2. 데이터베이스 (Database)의 정의"
 date = "2026-03-11"
+weight = 2
 [extra]
 categories = "studynote-database"
 keywords = ["데이터베이스", "Database", "통합 데이터", "공용 데이터", "운영 데이터"]
@@ -13,7 +13,7 @@ series = "데이터베이스 600제"
 > 2. **가치**: 중복과 불일치를 줄이고, 여러 사용자와 애플리케이션이 동일한 사실을 일관되게 참조하도록 해 비즈니스의 단일 진실 원천(Single Source of Truth)을 제공한다.
 > 3. **융합**: 데이터베이스 정의는 곧 데이터 독립성, 스키마, DBMS, 트랜잭션, 보안 정책으로 이어지는 상위 개념의 출발점이다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -25,7 +25,7 @@ series = "데이터베이스 600제"
   3. 데이터 양과 사용자 수 증가로 체계적 저장·검색·보호 메커니즘이 요구됐다.
 - **📢 섹션 요약 비유**: 제각각 쪽지로 흩어진 정보를 하나의 중앙 도서관 규칙으로 묶은 것이 데이터베이스입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -67,7 +67,7 @@ series = "데이터베이스 600제"
 
 - **📢 섹션 요약 비유**: 흩어진 노트를 한 권의 공식 장부로 바꾸면, 모두가 같은 사실을 보고 같은 기준으로 일할 수 있게 됩니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -89,7 +89,7 @@ series = "데이터베이스 600제"
   2. **보안**: 공용성과 운영성이 높을수록 접근 제어와 감사 로그 중요성이 함께 커진다.
 - **📢 섹션 요약 비유**: 개인 서랍장과 중앙 보관소는 목적이 다르며, 조직 규모가 커질수록 중앙 보관소의 가치가 커집니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -110,7 +110,7 @@ series = "데이터베이스 600제"
 - **안티패턴**: 단기 편의 때문에 시스템마다 별도 파일을 유지하면 나중에 통합 비용이 폭증한다.
 - **📢 섹션 요약 비유**: 오늘은 각자 메모하는 편이 편해 보여도, 시간이 지나면 서로 다른 메모 때문에 모두가 더 헷갈리게 됩니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -127,14 +127,14 @@ series = "데이터베이스 600제"
 - **표준 연결**: ANSI/SPARC 3계층 스키마, ISO SQL 표준, 데이터 관리 가이드.
 - **📢 섹션 요약 비유**: 데이터베이스는 단순 창고가 아니라, 조직 전체가 같은 사실을 공유하도록 만드는 공용 장부입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- [`[1_dikw_pyramid.md](./1_dikw_pyramid.md)`]: 데이터가 의미를 갖게 되는 가치 상승 구조.
-- [`[3_dbms.md](./3_dbms.md)`]: 데이터베이스를 실제로 관리하는 소프트웨어 계층.
-- [`[4_data_independence.md](./4_data_independence.md)`]: 파일 중심 관리와 DB의 차이를 설명하는 핵심 개념.
-- [`[/Users/pf/workspace/brainscience/content/studynote/9_security/_index.md](/Users/pf/workspace/brainscience/content/studynote/9_security/_index.md)`]: 공용 데이터의 보호와 접근 통제 관점.
-- [`[/Users/pf/workspace/brainscience/content/studynote/16_bigdata/_index.md](/Users/pf/workspace/brainscience/content/studynote/16_bigdata/_index.md)`]: 운영 DB 이후 분석 확장 관점.
+- `[1_dikw_pyramid.md`]: 데이터가 의미를 갖게 되는 가치 상승 구조.
+- `[3_dbms.md`]: 데이터베이스를 실제로 관리하는 소프트웨어 계층.
+- `[4_data_independence.md`]: 파일 중심 관리와 DB의 차이를 설명하는 핵심 개념.
+- `[/Users/pf/workspace/brainscience/content/studynote/9_security/_index.md`]: 공용 데이터의 보호와 접근 통제 관점.
+- `[/Users/pf/workspace/brainscience/content/studynote/16_bigdata/_index.md`]: 운영 DB 이후 분석 확장 관점.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 데이터베이스는 모두가 같이 보는 큰 공책이에요.

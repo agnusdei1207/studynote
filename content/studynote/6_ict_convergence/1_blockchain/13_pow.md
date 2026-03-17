@@ -1,10 +1,9 @@
----
-title: "[ICT] #14. 작업 증명 (Proof of Work, PoW)"
-date: "2026-03-17"
++++
+title = "[ICT] #14. 작업 증명 (Proof of Work, PoW)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "PoW_Proof_of_Work_Mining_Hash_Puzzle_Energy"
----
+keyword = "PoW_Proof_of_Work_Mining_Hash_Puzzle_Energy"
++++
 
 # 작업 증명 (PoW): 해시 퍼즐 연산을 통한 탈중앙화 신뢰의 구축
 
@@ -13,7 +12,7 @@ keyword: "PoW_Proof_of_Work_Mining_Hash_Puzzle_Energy"
 > 2. **가치**: 막대한 연산 비용을 강제함으로써 악의적인 공격(Sybil Attack, 51% Attack)의 경제적 비용을 천문학적으로 높여, 중앙 기관 없이도 강력한 보안성을 유지한다.
 > 3. **융합**: '가장 긴 체인 법칙(Longest Chain Rule)'을 통해 확률적 완결성에 도달하며, 채굴기(ASIC) 경쟁과 전력 소모라는 환경적 이슈를 동시에 안고 있는 블록체인 1세대의 합의 방식이다.
 
----
++++
 
 ## Ⅰ. 작업 증명 (PoW) 개요
 
@@ -30,7 +29,7 @@ keyword: "PoW_Proof_of_Work_Mining_Hash_Puzzle_Energy"
 
 📢 **섹션 요약 비유**: 누구나 들어올 수 있는 회의장에서 발언권을 얻기 위해 '100kg 무게의 바벨을 10번 드는 노력'을 보여주게 함으로써, 아무나 장난치러 들어오지 못하게 막는 강력한 진입 장벽입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -79,7 +78,7 @@ keyword: "PoW_Proof_of_Work_Mining_Hash_Puzzle_Energy"
 
 📢 **섹션 요약 비유**: 상자를 여는 데 평균 10분이 걸리도록, 사람들이 똑똑해지면 자물쇠를 더 복잡하게 바꾸고 사람이 줄어들면 자물쇠를 쉽게 바꿔주는 '지능형 관리자'가 내장된 시스템입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -98,7 +97,7 @@ keyword: "PoW_Proof_of_Work_Mining_Hash_Puzzle_Energy"
 
 📢 **섹션 요약 비유**: PoW가 "누가 더 열심히 일했는가"를 따지는 육체노동 중심이라면, PoS는 "누가 더 많은 보증금을 맡겼는가"를 따지는 금융 담보 중심의 차이가 있습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -112,7 +111,7 @@ keyword: "PoW_Proof_of_Work_Mining_Hash_Puzzle_Energy"
 
 📢 **섹션 요약 비유**: 1등으로 달리고 있어도 뒤에서 더 긴 줄이 나타나면 순위가 뒤바뀔 수 있는 레이스와 같아서, 결승선을 통과한 뒤에도 잠시 지켜봐야(컨펌) 안심할 수 있는 시스템입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -126,13 +125,13 @@ keyword: "PoW_Proof_of_Work_Mining_Hash_Puzzle_Energy"
 
 📢 **섹션 요약 비유**: PoW는 디지털 영토를 지키기 위해 밤낮없이 성벽을 쌓는 **'철통같은 군대'**이며, 가장 무식해 보이지만 가장 확실한 신뢰의 증명서입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[비트코인 (Bitcoin)](./3_blockchain_dlt.md)**: PoW를 최초로 대중화시킨 사례.
-- **[해시 함수 (Hash Function)](../../9_security/xx_hash_function.md)**: PoW의 수학적 기초.
-- **[51% 공격 (51% Attack)](./67_51_attack.md)**: PoW 시스템이 가진 이론적 한계점.
-- **[채굴 풀 (Mining Pool)](./63_mempool.md)**: 채굴자들이 힘을 합쳐 보상을 나누는 연합체.
+- **비트코인 (Bitcoin)**: PoW를 최초로 대중화시킨 사례.
+- **해시 함수 (Hash Function)**: PoW의 수학적 기초.
+- **51% 공격 (51% Attack)**: PoW 시스템이 가진 이론적 한계점.
+- **채굴 풀 (Mining Pool)**: 채굴자들이 힘을 합쳐 보상을 나누는 연합체.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **어려운 퀴즈 풀기**: 컴퓨터들이 아주아주 어려운 수학 퀴즈를 풀기 위해 경쟁하는 거예요. 퀴즈를 맞힌 컴퓨터만 블록체인 일기장에 글을 쓸 수 있답니다.

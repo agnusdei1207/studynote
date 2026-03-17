@@ -1,5 +1,6 @@
 +++
 title = "확장 페이지 테이블 (Extended Page Table, EPT)"
+date = "2026-03-14"
 weight = 661
 +++
 

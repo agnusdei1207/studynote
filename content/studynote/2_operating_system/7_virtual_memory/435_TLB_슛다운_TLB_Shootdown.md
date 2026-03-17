@@ -1,6 +1,7 @@
 +++
-weight = 435
 title = "435. TLB 슛다운 (TLB Shootdown)"
+date = "2026-03-14"
+weight = 435
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -116,4 +117,3 @@ graph TD
     Ack --> Wait{All ACKs Received?}
     Wait -- No --> Wait
     Wait -- Yes --> Done[Core 0 Resumes Execution & Frees Page]
-```

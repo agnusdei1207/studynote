@@ -1,9 +1,7 @@
----
++++
 title = "574-580. 5G 이동통신과 핵심 기술 (eMBB, URLLC, mMTC)"
-description = "초고속, 초지연, 초연결을 지향하는 5G 이동통신의 3대 서비스 시나리오와 네트워크 슬라이싱 기술 분석"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
-subject = "NW"
 category = "Wireless & Mobile"
 id = 574
 +++
@@ -17,7 +15,7 @@ id = 574
 > 2. **가치**: 셀룰라 IoT의 확장으로 스마트 팩토리 및 자율주행 등 산업 디지털 전환(DX)의 인프라가 되며, 전송 지연(Latency) 1ms 이하와 연결 밀도 $10^6 devices/km^2$을 달성하여 현실과 가상을 잇는 매개체로 작용한다.
 > 3. **융합**: SDN(Software Defined Networking)/NFV(Network Functions Virtualization) 기반의 Core Network와 MEC(Multi-access Edge Computing)를 결합하여 네트워크 지연을 극복하고, AI 기반의 자원 관리(RAN Intelligent Controller)와 융합하여 자립형 최적화(Self-Optimizing Network)를 실현한다.
 
----
++++
 
 ### Ⅰ. 개요 (Context & Background) - 5G 패러다임의 전환
 
@@ -53,7 +51,7 @@ Analog           Digital Voice       Mobile Web        Mobile Broadband       Hy
 
 > 📢 **섹션 요약 비유**: 5G의 등장은 **'단순한 도로 확장'에서 '교통 통제 시스템의 지능화'로의 전환**과 같습니다. 4G까지는 차량(데이터)이 늘어나면 도로(주파수)를 넓히는 것이 전부였다면, 5G는 승용차, 화물차, 긴급 차량이 섞여 달리도록 신호등을 제어하고 차선을 동적으로 할당하여 사고 없이 최대한 많은 차를 고속으로 운영하는 **'지능형 교통 시스템(ITS)'**을 도입한 것입니다.
 
----
++++
 
 ### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -118,7 +116,7 @@ function receive_PDSCH(dciv_msg, tb_data):
 
 > 📢 **섹션 요약 비유**: 5G 아키텍처는 **'대형 조명 시스템'**과 같습니다. 기존 방식이 전체 방을 환하게 비추는 **'전등'**이었다면, 5G는 수많은 LED 소자를 제어하여 특정 사람(사용자)만 따라 움직이며 비추는 **'무대 조명(Spotlight)'** 시스템입니다. 이를 통해 불필요한 빛(간섭)은 줄이고 내가 원하는 곳에만 강력한 빛을 집중시켜 효율을 극대화합니다.
 
----
++++
 
 ### Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 

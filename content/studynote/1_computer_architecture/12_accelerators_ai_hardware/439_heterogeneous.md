@@ -1,5 +1,6 @@
 +++
 title = "이기종 컴퓨팅 (Heterogeneous Computing)"
+date = "2026-03-14"
 weight = 439
 +++
 
@@ -151,10 +152,10 @@ weight = 439
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[오프로딩 (Offloading)](./440_offloading.md)**: 이기종 컴퓨팅의 가장 핵심적인 운영 방식.
-- **[CXL (Compute Express Link)](./441_cxl.md)**: 이기종 프로세서 간 장벽을 허무는 차세대 인터커넥트.
+- **오프로딩 (Offloading)**: 이기종 컴퓨팅의 가장 핵심적인 운영 방식.
+- **CXL (Compute Express Link)**: 이기종 프로세서 간 장벽을 허무는 차세대 인터커넥트.
 - **[NPU / GPU / DPU]**: 이기종 시스템을 구성하는 주요 전문 가속기 소자들.
-- **[암달의 법칙 (Amdahl's Law)](./3_architecture_basics_performance/xx_amdahls_law.md)**: 이기종 컴퓨팅의 성능 향상 한계를 설명하는 이론적 근거.
+- **암달의 법칙 (Amdahl's Law)**: 이기종 컴퓨팅의 성능 향상 한계를 설명하는 이론적 근거.
 
 ---
 

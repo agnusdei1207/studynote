@@ -1,12 +1,17 @@
----
++++
+title = "[이중화 (Dual Redundancy)]"
+date = "2026-03-14"
++++
+
 # [이중화 (Dual Redundancy)]
 
 #### 핵심 인사이트 (3줄 요약)
-> 1. **본질**: 이중화(Dual Redundancy)는 시스템의 핵심 구성 요소(CPU, Memory, PSU 등)를 동일하게 두 개 이상 배치하여, 하나의 부품에 장애가 발생하더라도 서비스 중단 없이 즉시 예비 부품으로 대체 운용하는 고가용성(High Availability) 설계 기술이다.
-> 2. **가치**: 단일 장애점(SPOF, Single Point of Failure)을 제거하여 시스템 가용성을 99.9% 수준에서 99.999%(Five Nines) 이상으로 끌어올리며, 미션 크리티컬(Mission-Critical)한 환경(핵심 금융망, 항공 관제 등)에서 비즈니스 연속성을 보장하는 필수 요소이다.
-> 3. **융합**: 단순한 하드웨어 병렬 구조를 넘어, 분산 시스템의 합의 알고리즘(Consensus Algorithm)과 클라우드의 가용성 영역(AZ, Availability Zone) 개념과 융합되어 소프트웨어 정의 재난 복구(SDR, Software Defined Resilience)의 기반을 형성한다.
+> 1. **본질**= 이중화(Dual Redundancy)는 시스템의 핵심 구성 요소(CPU, Memory, PSU 등)를 동일하게 두 개 이상 배치하여, 하나의 부품에 장애가 발생하더라도 서비스 중단 없이 즉시 예비 부품으로 대체 운용하는 고가용성(High Availability) 설계 기술이다.
+> 2. **가치**= 단일 장애점(SPOF, Single Point of Failure)을 제거하여 시스템 가용성을 99.9% 수준에서 99.999%(Five Nines) 이상으로 끌어올리며, 미션 크리티컬(Mission-Critical)한 환경(핵심 금융망, 항공 관제 등)에서 비즈니스 연속성을 보장하는 필수 요소이다.
+> 3. **융합**= 단순한 하드웨어 병렬 구조를 넘어, 분산 시스템의 합의 알고리즘(Consensus Algorithm)과 클라우드의 가용성 영역(AZ, Availability Zone) 개념과 융합되어 소프트웨어 정의 재난 복구(SDR, Software Defined Resilience)의 기반을 형성한다.
 
----
+
+
 
 ### Ⅰ. 개요 (Context & Background)
 

@@ -1,10 +1,9 @@
----
-title: "[ICT] #46. 샤딩 (Sharding)"
-date: "2026-03-17"
++++
+title = "[ICT] #46. 샤딩 (Sharding)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Sharding_Horizontal_Partitioning_BeaconChain_CrossShard_Scalability"
----
+keyword = "Sharding_Horizontal_Partitioning_BeaconChain_CrossShard_Scalability"
++++
 
 # 샤딩 (Sharding): 수평적 분할을 통한 블록체인 처리 성능의 무한 확장
 
@@ -13,7 +12,7 @@ keyword: "Sharding_Horizontal_Partitioning_BeaconChain_CrossShard_Scalability"
 > 2. **가치**: 모든 노드가 모든 거래를 검증해야 하는 기존 방식의 한계를 극복하여, 노드 수가 늘어날수록 전체 네트워크의 처리량(TPS)이 선형적으로 증가하는 **선형 확장성(Linear Scalability)**을 제공한다.
 > 3. **융합**: 데이터베이스의 수평 분할 기법과 블록체인의 분산 합의 알고리즘이 결합된 기술이며, 샤드 간 데이터를 교환하는 **교차 샤드 통신(Cross-shard Communication)**의 효율성이 시스템 전체 성능을 좌우한다.
 
----
++++
 
 ## Ⅰ. 샤딩 (Sharding) 개요
 
@@ -30,7 +29,7 @@ keyword: "Sharding_Horizontal_Partitioning_BeaconChain_CrossShard_Scalability"
 
 📢 **섹션 요약 비유**: 혼자서 모든 시험지를 채점하던 선생님이, 반장 여러 명에게 시험지를 나누어주고(샤딩) 동시에 채점하게 하여 시간을 단축하는 '집단 지성형 분업 시스템'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -79,7 +78,7 @@ keyword: "Sharding_Horizontal_Partitioning_BeaconChain_CrossShard_Scalability"
 
 📢 **섹션 요약 비유**: 거대한 도서관의 모든 책을 한 방에 모아두는 게 아니라, 역사·과학·문학 등 주제별 별관(샤드)을 지어 관리함으로써 방문객들이 각자 원하는 건물로 흩어져 빠르게 책을 찾게 하는 것과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -99,7 +98,7 @@ keyword: "Sharding_Horizontal_Partitioning_BeaconChain_CrossShard_Scalability"
 
 📢 **섹션 요약 비유**: 샤딩이 '길을 여러 갈래로 만드는 토목 공사'라면, 롤업은 '차에 사람을 많이 태우는 운송 혁신'으로 확장성을 향상시키는 접근 방식이 다릅니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -113,7 +112,7 @@ keyword: "Sharding_Horizontal_Partitioning_BeaconChain_CrossShard_Scalability"
 
 📢 **섹션 요약 비유**: 반장들이 채점을 잘못할 수 있으므로, 선생님은 반장들이 채점한 시험지 중에서 무작위로 몇 장을 뽑아 다시 확인(샘플링 검사)하여 전체의 정직함을 지키는 '지능형 감독관' 역할을 수행해야 합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -127,13 +126,13 @@ keyword: "Sharding_Horizontal_Partitioning_BeaconChain_CrossShard_Scalability"
 
 📢 **섹션 요약 비유**: 샤딩은 블록체인이라는 기차를 수백 대의 열차가 동시에 달리는 **'거대한 철도망'**으로 변모시켜, 전 인류를 태우고 달릴 준비를 마치는 핵심 기술입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[레이어 1 (Layer 1)](./38_layer_1.md)**: 샤딩이 일어나는 주 무대.
-- **[데이터 가용성 (DA)](./94_data_availability.md)**: 샤딩된 데이터가 진짜인지 확인하기 위한 필수 조건.
-- **[댕크샤딩 (Danksharding)](./xx_danksharding.md)**: 현대적인 블록체인 샤딩의 진화 형태.
-- **[블록체인 트릴레마](./40_trilemma.md)**: 샤딩을 통해 극복하고자 하는 근본적 한계.
+- **레이어 1 (Layer 1)**: 샤딩이 일어나는 주 무대.
+- **데이터 가용성 (DA)**: 샤딩된 데이터가 진짜인지 확인하기 위한 필수 조건.
+- **댕크샤딩 (Danksharding)**: 현대적인 블록체인 샤딩의 진화 형태.
+- **블록체인 트릴레마**: 샤딩을 통해 극복하고자 하는 근본적 한계.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **일기장 나눠 쓰기**: 전교생 일기를 한 권에 다 쓰면 너무 무겁고 쓰기 힘들죠? 그래서 반별로 일기장을 나누어서 각자 반에서 쓰고 검사받는 방법이에요.

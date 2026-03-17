@@ -1,6 +1,7 @@
 +++
-weight = 71
 title = "71. CPLD (Complex Programmable Logic Device)"
+date = "2026-03-14"
+weight = 71
 +++
 
 # [CPLD (Complex Programmable Logic Device)]
@@ -173,4 +174,4 @@ CPLD는 독립적으로 쓰이기보다 타 시스템, 특히 **FPGA**와 **MCU*
       │  └───────┬───┘      └────▲─────┘                │
       │          │               │                      │
       │          │ [Power Seq]   │ [Data Proc]          │
-      │          ▼             
+      │          ▼

@@ -1,5 +1,6 @@
 +++
 title = "TACACS+ - 터미널 접근 제어 시스템 플러스"
+date = "2026-03-14"
 weight = 1013
 +++
 
@@ -108,6 +109,6 @@ TACACS+ (Terminal Access Controller Access-Control System Plus)는 AAA 프로토
 ---
 
 ### 📌 관련 개념 링크**:
-- [RADIUS](./1012_radius.md)
-- [AAA](./1014_aaa.md)
-- [Network Access Control](./1010_network_access_control.md)
+- RADIUS
+- AAA
+- Network Access Control

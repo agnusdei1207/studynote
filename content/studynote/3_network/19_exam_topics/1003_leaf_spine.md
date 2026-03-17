@@ -1,5 +1,6 @@
 +++
 title = "Leaf-Spine - 리프 스파인 아키텍처"
+date = "2026-03-14"
 weight = 1003
 +++
 
@@ -114,6 +115,6 @@ Leaf-Spine은 2계층 Clos 기반 데이터센터 아키텍처입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Underlay Network](./1002_underlay_network.md)
-- [Network Fabric](./1004_network_fabric.md)
-- [ECMP](./xxx_ecmp.md)
+- Underlay Network
+- Network Fabric
+- ECMP

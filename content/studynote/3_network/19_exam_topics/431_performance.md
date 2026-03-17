@@ -1,5 +1,6 @@
 +++
 title = "네트워크 성능 지표 - Network Performance Metrics"
+date = "2026-03-14"
 weight = 431
 +++
 
@@ -148,10 +149,10 @@ weight = 431
 ---
 
 ### 📌 관련 개념 링크**:
-- [Latency vs Throughput](./432_latency_throughput.md)
-- [Jitter](./434_jitter.md)
-- [Packet Loss](./435_packet_loss.md)
-- [QoS](./329_qos.md)
+- Latency vs Throughput
+- Jitter
+- Packet Loss
+- QoS
 
 ---
 

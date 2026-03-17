@@ -1,5 +1,6 @@
 +++
 title = "Data Lake - 데이터 레이크"
+date = "2026-03-14"
 weight = 707
 +++
 
@@ -102,6 +103,6 @@ Data Lake는 원시 데이터를 그대로 저장합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Data Warehouse](./704_data_warehouse.md)
-- [Big Data](./685_bigdata.md)
-- [Lake House](./708_lakehouse.md)
+- Data Warehouse
+- Big Data
+- Lake House

@@ -1,5 +1,6 @@
 +++
 title = "양자화 잡음 (Quantization Noise)"
+date = "2026-03-14"
 weight = 60
 +++
 
@@ -149,10 +150,10 @@ weight = 60
 ---
 
 ### 📌 관련 개념 링크**:
-- [양자화 Quantization](./59_quantization.md)
-- [컴팬딩 Companding](./61_companding.md)
-- [PCM 펄스 부호 변조](./62_pcm_pulse.md)
-- [SNR 신호 대 잡음비](./24_snr_signal_noise.md)
+- 양자화 Quantization
+- 컴팬딩 Companding
+- PCM 펄스 부호 변조
+- SNR 신호 대 잡음비
 
 ---
 

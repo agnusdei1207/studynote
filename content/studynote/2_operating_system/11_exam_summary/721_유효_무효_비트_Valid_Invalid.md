@@ -1,5 +1,6 @@
 +++
 title = "유효 무효 비트 Valid Invalid"
+date = "2026-03-14"
 weight = 721
 +++
 
@@ -184,11 +185,11 @@ weight = 721
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[페이지 폴트 Page Fault ISR](./720_페이지_폴트_Page_Fault_ISR.md)**: V=0일 때 발생하는 실제 예외 처리 루틴.
-- **[요구 페이징 Demand Paging](./719_요구_페이징_Demand_Paging.md)**: V/I 비트를 활용하는 상위 메모리 관리 전략.
-- **[TLB (Translation Lookaside Buffer)](../6_memory_hierarchy_cache/357_TLB_Translation_Look-aside_Buffer.md)**: 페이지 테이블 정보의 고속 하드웨어 캐시.
-- **[쓰기 시 복사 COW (Copy-on-Write)](./750_쓰기_시_복사_COW.md)**: V 비트와 권한 비트를 조합하여 메모리를 절약하는 고도화된 기법.
-- **[페이지 교체 알고리즘](./722_페이지_교체_LRU_원리.md)**: V=1인 페이지를 V=0으로 만들 희생자를 고르는 로직.
+- **페이지 폴트 Page Fault ISR**: V=0일 때 발생하는 실제 예외 처리 루틴.
+- **요구 페이징 Demand Paging**: V/I 비트를 활용하는 상위 메모리 관리 전략.
+- **TLB (Translation Lookaside Buffer)**: 페이지 테이블 정보의 고속 하드웨어 캐시.
+- **쓰기 시 복사 COW (Copy-on-Write)**: V 비트와 권한 비트를 조합하여 메모리를 절약하는 고도화된 기법.
+- **페이지 교체 알고리즘**: V=1인 페이지를 V=0으로 만들 희생자를 고르는 로직.
 
 ---
 

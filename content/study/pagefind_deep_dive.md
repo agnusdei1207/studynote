@@ -1,7 +1,6 @@
 +++
 title = "Pagefind 완전 설명 — Rust + WASM 정적 검색 엔진"
-date = 2026-02-28
-
+date = "2026-02-28"
 [extra]
 categories = "devops"
 +++
@@ -275,6 +274,6 @@ Pagefind는 **도서관 사서** 같은 존재예요.
 
 ## 참고
 
-- [Pagefind 공식 문서](https://pagefind.app/)
-- [Pagefind GitHub](https://github.com/CloudCannon/pagefind)
-- [CloudCannon 블로그 — Pagefind 소개](https://cloudcannon.com/blog/introducing-pagefind/)
+- Pagefind 공식 문서
+- Pagefind GitHub
+- CloudCannon 블로그 — Pagefind 소개

@@ -1,6 +1,7 @@
 +++
-weight = 439
 title = "439. Cgroups 메모리 서브시스템의 자원 제한 동작"
+date = "2026-03-14"
+weight = 439
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -113,4 +114,3 @@ graph TD
     subgraph ContainerRuntime[Docker / K8s]
         Cgroup
     end
-```

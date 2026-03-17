@@ -1,8 +1,10 @@
 +++
-weight = 503
 title = "503. 분기 예측 실패 페널티 (Branch Misprediction Penalty)"
+date = "2026-03-14"
+weight = 503
 [extra]
 category = "studynote-computer-architecture"
+date = "2026-03-14"
 +++
 
 # Branch Misprediction Penalty
@@ -11,7 +13,7 @@ category = "studynote-computer-architecture"
 > 2. **가치**: 파이프라인이 깊어질수록(Super-pipelining) 페널티가 기하급수적으로 커지며, 이를 최소화하는 것이 현대 고성능 CPU의 실질적인 성능(IPC)을 결정하는 핵심 지표가 된다.
 > 3. **융합**: 비순차 실행(OoO), 리오더 버퍼(ROB), 분기 표적 버퍼(BTB), 그리고 추측 실행(Speculative Execution) 기술과 밀접하게 연관되어 있다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -26,7 +28,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 예측이 틀렸을 때 파이프라인을 청소하고 다시 시작하는 '허송세월'이 바로 페널티입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -42,7 +44,7 @@ category = "studynote-computer-architecture"
 | **4. Re-fetch** | 재인출 | 올바른 분기 타겟 주소로부터 명령어 인출 시작 | PC (Program Counter), I-Cache | 원래 갈림길로 돌아가기 |
 | **5. Fill & Restart** | 파이프라인 충전 | 인출된 명령어가 다시 파이프라인을 타고 실행단까지 도달 | IF/ID/EX Stages | 다시 가속하여 정속 주행 |
 
----
++++
 
 ### 파이프라인 플러시(Flush)와 페널티 시각화
 
@@ -75,7 +77,7 @@ category = "studynote-computer-architecture"
 
 **[다이어그램 해설]** 분기 명령어(Branch Inst)가 T1에 인출되어 실행단(EX)인 T3 혹은 메모리단(MEM)인 T4에 도달해야만 실제 분기 결과가 확정된다. 그동안 CPU는 T2, T3에서 이미 잘못된 경로의 명령어(C, D)들을 파이프라인에 가득 채워버린다. T4에서 오류가 감지되면, 이미 들어온 C, D 등을 모두 삭제(Flush)해야 한다. 이후 올바른 경로인 Inst E를 T6에서야 다시 인출하게 되는데, 이 Inst E가 실제 실행단(EX)에 도달하는 T8까지 실행 유닛은 아무 일도 못 하고 놀게 된다. 이 T4부터 T8 사이의 공백이 바로 분기 예측 실패 페널티이다. 파이프라인이 20단이라면 이 공백은 최소 20클럭 이상이 되며, 이는 현대 CPU의 엄청난 성능 낭비 요인이 된다.
 
----
++++
 
 ### 심층 동작 원리: 페널티의 정량적 분석
 
@@ -91,7 +93,7 @@ $$CPI_{actual} = CPI_{ideal} + (Misprediction\ Rate \times Branch\ Frequency \ti
 
 - **📢 섹션 요약 비유**: 내비게이션이 100번 중 5번만 틀려도, 그 5번 때문에 전체 여행 시간의 20%를 길바닥(페널티)에서 버리게 되는 것과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -108,7 +110,7 @@ $$CPI_{actual} = CPI_{ideal} + (Misprediction\ Rate \times Branch\ Frequency \ti
 
 - **📢 섹션 요약 비유**: 빨래판(파이프라인)이 길면 빨래를 한꺼번에 많이 널 수 있지만, 한 번 쏟아지면 다시 너는 데 시간이 훨씬 오래 걸리는 것과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -123,7 +125,7 @@ $$CPI_{actual} = CPI_{ideal} + (Misprediction\ Rate \times Branch\ Frequency \ti
 
 - **📢 섹션 요약 비유**: 갈림길을 없애거나(Loop Unrolling), 갈림길에서 고민하지 않고 두 길의 결과를 미리 합쳐버리는(CMOV) 기법들이 실무에서 중요합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -140,15 +142,15 @@ $$CPI_{actual} = CPI_{ideal} + (Misprediction\ Rate \times Branch\ Frequency \ti
 
 - **📢 섹션 요약 비유**: 내비게이션이 단순한 지도를 넘어, 운전자의 습관과 도로 상황까지 완벽히 알아서 길을 절대 틀리지 않게 만드는 방향으로 진화하고 있습니다.
 
----
++++
 
 ## 📌 관련 개념 맵
-- **[분기 예측기 (Branch Predictor)](./xx_branch_predictor.md)**: 페널티 발생을 막는 선제적 방어 기제.
-- **[추측 실행 (Speculative Execution)](./xx_speculative_execution.md)**: 페널티의 근본 원인이자 성능 향상의 핵심 기술.
-- **[파이프라인 플러시 (Pipeline Flush)](./xx_pipeline_flush.md)**: 페널티를 처리하는 물리적 동작.
-- **[점수판 (Scoreboard) / 토마술로](./xx_tomasulo.md)**: 비순차 실행을 통해 페널티 구간에서도 다른 일을 찾게 해주는 기술.
+- **분기 예측기 (Branch Predictor)**: 페널티 발생을 막는 선제적 방어 기제.
+- **추측 실행 (Speculative Execution)**: 페널티의 근본 원인이자 성능 향상의 핵심 기술.
+- **파이프라인 플러시 (Pipeline Flush)**: 페널티를 처리하는 물리적 동작.
+- **점수판 (Scoreboard) / 토마술로**: 비순차 실행을 통해 페널티 구간에서도 다른 일을 찾게 해주는 기술.
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 분기 예측 실패 페널티는 **'길을 잘못 들었을 때 돌아오는 시간'**이에요.

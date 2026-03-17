@@ -11,7 +11,13 @@
         <span>{{ page.date | date(format="%B %d, %Y") }}</span>
         {% if page.extra.categories %}
         <span style="opacity: 0.5;">•</span>
-        <span>{{ page.extra.categories | replace(from="-", to=" ") }}</span>
+        <span>
+            {% if page.extra.categories is string %}
+                {{ page.extra.categories | replace(from="-", to=" ") }}
+            {% else %}
+                {{ page.extra.categories | join(sep=", ") | replace(from="-", to=" ") }}
+            {% endif %}
+        </span>
         {% endif %}
         <span style="opacity: 0.5;">•</span>
         <button class="copy-btn" onclick="copyDetail()" title="Copy all content">

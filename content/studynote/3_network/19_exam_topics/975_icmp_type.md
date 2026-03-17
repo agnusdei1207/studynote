@@ -1,5 +1,6 @@
 +++
 title = "ICMP Type - ICMP 유형"
+date = "2026-03-14"
 weight = 975
 +++
 
@@ -105,6 +106,6 @@ ICMP Type은 ICMP 메시지의 유형을 나타냅니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [ICMP](./888_icmp.md)
-- [Ping](./889_ping.md)
-- [Traceroute](./890_traceroute.md)
+- ICMP
+- Ping
+- Traceroute

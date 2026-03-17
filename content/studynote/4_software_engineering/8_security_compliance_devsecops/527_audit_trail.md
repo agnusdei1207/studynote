@@ -1,7 +1,7 @@
----
-title: "527. 보안 감사 (Audit) 트레일 및 추적 기능"
-date: 2026-03-15
----
++++
+title = "527. 보안 감사 (Audit) 트레일 및 추적 기능"
+date = "2026-03-15"
++++
 
 # 527. 보안 감사 (Audit) 트레일 및 추적 기능
 
@@ -159,10 +159,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[보안 로깅 (Logging)](./526_security_logging.md)**: 감사 트레일의 기술적 재료
-- **[디지털 포렌식](./531_digital_forensics.md)**: 감사 트레일 데이터의 최종 소비 분야
-- **[IAM (Identity and Access Management)](./514_iam.md)**: "누가"에 대한 정확한 신원 정보를 제공하는 시스템
-- **[NTP (Time Sync)](../3_network/xx_ntp.md)**: 로그의 선후 관계를 규명하는 필수 기초 기술
+- **보안 로깅 (Logging)**: 감사 트레일의 기술적 재료
+- **디지털 포렌식**: 감사 트레일 데이터의 최종 소비 분야
+- **IAM (Identity and Access Management)**: "누가"에 대한 정확한 신원 정보를 제공하는 시스템
+- **NTP (Time Sync)**: 로그의 선후 관계를 규명하는 필수 기초 기술
 
 ---
 

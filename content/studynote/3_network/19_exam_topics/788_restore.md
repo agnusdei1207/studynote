@@ -1,5 +1,6 @@
 +++
 title = "Restore - 복구"
+date = "2026-03-14"
 weight = 788
 +++
 
@@ -103,6 +104,6 @@ Restore는 백업에서 데이터를 복원합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Backup](./787_backup.md)
-- [Disaster Recovery](./786_disaster_recovery.md)
-- [RTO](./xxx_rto.md)
+- Backup
+- Disaster Recovery
+- RTO

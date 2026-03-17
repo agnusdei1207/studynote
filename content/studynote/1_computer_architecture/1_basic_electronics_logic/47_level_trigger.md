@@ -1,6 +1,7 @@
 +++
-weight = 47
 title = "47. 레벨 트리거 (Level Trigger)"
+date = "2026-03-14"
+weight = 47
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -112,9 +113,9 @@ title = "47. 레벨 트리거 (Level Trigger)"
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[래치 (Latch)](./48_latch.md)**: 레벨 트리거 방식을 사용하는 기억 소자.
-- **[클럭 게이팅 (Clock Gating)](../13_reliability_power/xx_gating.md)**: 래치를 이용한 전력 절감 기술.
-- **[에지 트리거 (Edge Trigger)](./46_edge_trigger.md)**: 레벨 트리거의 단점을 보완한 방식.
+- **래치 (Latch)**: 레벨 트리거 방식을 사용하는 기억 소자.
+- **클럭 게이팅 (Clock Gating)**: 래치를 이용한 전력 절감 기술.
+- **에지 트리거 (Edge Trigger)**: 레벨 트리거의 단점을 보완한 방식.
 
 ---
 

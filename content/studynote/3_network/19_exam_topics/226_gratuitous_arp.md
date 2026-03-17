@@ -1,5 +1,6 @@
 +++
 title = "Gratuitous ARP - 자기 자신 ARP 광고"
+date = "2026-03-14"
 weight = 226
 +++
 
@@ -135,10 +136,10 @@ Gratuitous ARP는 호스트가 자신의 IP-MAC 매핑을 네트워크에 브로
 ---
 
 ### 📌 관련 개념 링크**:
-- [ARP](./223_arp.md)
-- [VRRP](./227_vrrp.md)
-- [HSRP](./228_hsrp.md)
-- [클러스터링](./229_clustering.md)
+- ARP
+- VRRP
+- HSRP
+- 클러스터링
 
 ---
 

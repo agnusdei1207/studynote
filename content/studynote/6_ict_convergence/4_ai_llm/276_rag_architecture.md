@@ -1,10 +1,9 @@
----
-title: "[ICT] #276. 검색 증강 생성 (RAG: Retrieval-Augmented Generation)"
-date: "2026-03-17"
++++
+title = "[ICT] #276. 검색 증강 생성 (RAG: Retrieval-Augmented Generation)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "RAG_RetrievalAugmentedGeneration_Hallucination_VectorDB_LLM_EnterpriseAI"
----
+keyword = "RAG_RetrievalAugmentedGeneration_Hallucination_VectorDB_LLM_EnterpriseAI"
++++
 
 # RAG (검색 증강 생성): 환각을 없애고 AI에게 '최신 사내 문서'를 읽게 만드는 엔터프라이즈 AI의 표준 아키텍처
 
@@ -13,7 +12,7 @@ keyword: "RAG_RetrievalAugmentedGeneration_Hallucination_VectorDB_LLM_Enterprise
 > 2. **가치**: 모델을 비싸게 재학습(Fine-tuning)시키지 않아도 실시간 최신 정보와 철저한 보안이 유지되는 사내 기밀 문서를 바탕으로 완벽히 정확한 답변을 도출하여, LLM의 가장 치명적 약점인 '환각(Hallucination)'을 억제하는 가장 경제적이고 확실한 방법이다.
 > 3. **융합**: 검색을 위해 문서를 수학적 벡터(Vector)로 변환하는 임베딩(Embedding) 기술과 이를 초고속으로 찾아내는 벡터 데이터베이스(Vector DB)가 완벽하게 결합하여 현대 B2B AI 서비스의 90% 이상을 구동하는 핵심 인프라로 자리 잡았다.
 
----
++++
 
 ## Ⅰ. RAG (검색 증강 생성) 개요
 
@@ -31,7 +30,7 @@ keyword: "RAG_RetrievalAugmentedGeneration_Hallucination_VectorDB_LLM_Enterprise
 
 📢 **섹션 요약 비유**: 뇌 수술(파인튜닝)을 해서 지식을 머릿속에 억지로 구겨 넣는 대신, 그냥 필요할 때마다 옆에 있는 완벽한 '백과사전(RAG)'을 펼쳐서 읽어주도록 만든 가장 합리적인 해결책입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -88,7 +87,7 @@ RAG는 두 가지 페이즈로 나뉜다.
 
 📢 **섹션 요약 비유**: 두꺼운 백과사전을 통째로 복사기에 넣으면 종이가 걸립니다(Context 초과). 사전을 페이지별로 찢어서 서랍에 잘 정리해 두고(Chunking & Vector DB), 손님이 물어볼 때 딱 그 페이지만 꺼내서 보여주는 시스템입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -107,7 +106,7 @@ RAG는 두 가지 페이즈로 나뉜다.
 
 📢 **섹션 요약 비유**: 파인튜닝은 직원을 대학원에 보내 1년간 공부시키는 것이고, RAG는 신입사원 책상 위에 최신 회사 규정집과 인트라넷 검색기를 달아주는 것입니다. 효율성 측면에서 RAG가 압도적입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -126,7 +125,7 @@ RAG는 두 가지 페이즈로 나뉜다.
 
 📢 **섹션 요약 비유**: RAG라는 훌륭한 요리사(LLM)와 최신식 도마(Vector DB)를 샀더라도, 냉장고 안에 있는 식재료(사내 문서)가 썩어있으면 결국 썩은 요리가 나옵니다. 데이터 정제가 8할입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -140,12 +139,12 @@ RAG는 두 가지 페이즈로 나뉜다.
 
 📢 **섹션 요약 비유**: RAG는 인공지능이라는 거대한 뇌에 '검색'이라는 손발을 달아준 완벽한 융합입니다. 앞으로 AI는 기억에만 의존하지 않고 끊임없이 세상을 검색하며 진실을 찾아낼 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[환각 (Hallucination)](./275_hallucination.md)**: RAG 시스템이 세상에 태어나게 된 가장 크고 절망적인 이유.
-- **[벡터 데이터베이스](./277_vector_database.md)**: RAG가 수만 장의 문서를 0.1초 만에 뒤질 수 있게 해주는 마법의 서랍장.
-- **[프롬프트 엔지니어링](./271_prompt_engineering.md)**: 찾은 문서를 LLM에게 "이것만 보고 대답해"라고 예쁘게 포장해서 전달하는 기술.
+- **환각 (Hallucination)**: RAG 시스템이 세상에 태어나게 된 가장 크고 절망적인 이유.
+- **벡터 데이터베이스**: RAG가 수만 장의 문서를 0.1초 만에 뒤질 수 있게 해주는 마법의 서랍장.
+- **프롬프트 엔지니어링**: 찾은 문서를 LLM에게 "이것만 보고 대답해"라고 예쁘게 포장해서 전달하는 기술.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **오픈북 시험**: AI에게 회사 규칙을 물어보면 가끔 헷갈려서 거짓말을 해요. 그래서 답을 맘대로 적지 못하게 '회사 규정집'을 딱 펴놓고 오픈북 시험을 치게 만드는 똑똑한 방법이 RAG예요.

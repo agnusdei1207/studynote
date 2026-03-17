@@ -12,7 +12,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 스레드 간의 엄격한 데이터 교환(Handshaking)이나 상태 일치를 보장하며, 복잡한 메시지 큐 없이도 두 주체 간의 완벽한 순서 제어(Serialization)를 가능하게 한다.
 > 3. **융합**: Ada 언어의 테스크 통신 모델, CSP (Communicating Sequential Processes) 이론의 근간이며, 네트워크 프로토콜의 하이레벨 핸드셰이크나 생산자-소비자 패턴의 동기식 버전으로 활용된다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -27,7 +27,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 마치 두 사람이 무거운 물건을 들어올릴 때 "하나, 둘, 셋!" 하고 신호를 맞추는 것처럼, 서로의 준비 상태를 확인하는 과정입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -40,7 +40,7 @@ categories = "studynote-operating-system"
 | **동기화 지점 (Rendezvous Point)** | 만나기로 약속한 코드 위치 | 두 세마포어 연산이 교차하는 지점 | Serialization Point | 공원 벤치 |
 | **임계 구역 (Optional)** | 만남 직후 공동 작업 영역 | 두 주체가 동시에 진입 | Critical Section | 두 첩보원의 밀담 |
 
----
++++
 
 ### 세마포어를 이용한 랑데부 구현
 
@@ -69,7 +69,7 @@ categories = "studynote-operating-system"
 
 **[다이어그램 해설]** 위 로직에서 중요한 점은 호출 순서다. 만약 두 스레드가 모두 `p()` 연산을 먼저 수행하면 서로를 기다리며 영원히 멈추는 데드락 (Deadlock)이 발생한다. 따라서 반드시 자신의 도착을 먼저 알리는 `v()`를 수행한 후 상대방의 신호를 기다리는 `p()`를 수행해야 한다. 이 "V-P 교차 구조"가 랑데부의 핵심 아키텍처다.
 
----
++++
 
 ### 동작 시나리오와 상태 전이
 
@@ -93,7 +93,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 마치 두 대의 우주선이 도킹할 때 서로의 잠금장치(세마포어)를 확인하고 연결이 확인되어야만 해치(코드 진행)를 여는 것과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -113,7 +113,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 장벽이 부대 전체의 집결이라면, 랑데부는 두 정찰병의 비밀 접선과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -132,7 +132,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 마치 연주자들이 지휘자의 신호(랑데부)에 맞춰 연주를 시작해야 하듯, 어느 한쪽이라도 박자를 놓치면 불협화음(오동작)이 발생하는 것과 같습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -150,15 +150,15 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 서로를 믿고 기다려주는 랑데부 기술은 복잡해지는 현대 컴퓨팅 환경에서 질서를 유지하는 가장 기본적이고도 강력한 약속입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[세마포어 (Semaphore)](./234_semaphore.md)**: 랑데부를 구현하는 기본 물리 소자.
-- **[장벽 동기화 (Barrier)](./261_barrier_synchronization.md)**: 랑데부를 N개 스레드로 확장한 형태.
-- **[데드락 (Deadlock)](../5_deadlock/281_deadlock.md)**: 랑데부 순서 설계 오류 시의 결과.
-- **[동기식 메시지 전달 (Synchronous Message Passing)](./119_message_passing.md)**: 랑데부의 상위 개념 통신 모델.
+- **세마포어 (Semaphore)**: 랑데부를 구현하는 기본 물리 소자.
+- **장벽 동기화 (Barrier)**: 랑데부를 N개 스레드로 확장한 형태.
+- **데드락 (Deadlock)**: 랑데부 순서 설계 오류 시의 결과.
+- **동기식 메시지 전달 (Synchronous Message Passing)**: 랑데부의 상위 개념 통신 모델.
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 랑데부는 두 친구가 떡볶이를 같이 먹기로 약속하고 **"가게 앞에서 만나기"**로 한 것과 같아요.

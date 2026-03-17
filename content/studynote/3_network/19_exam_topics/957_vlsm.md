@@ -1,5 +1,6 @@
 +++
 title = "VLSM - 가변 길이 서브넷 마스크"
+date = "2026-03-14"
 weight = 957
 +++
 
@@ -107,6 +108,6 @@ VLSM (Variable Length Subnet Mask)은 다양한 크기의 서브넷을 허용합
 ---
 
 ### 📌 관련 개념 링크**:
-- [Subnetting](./955_subnetting.md)
-- [Subnet Mask](./896_subnet_mask.md)
-- [CIDR](./897_cidr.md)
+- Subnetting
+- Subnet Mask
+- CIDR

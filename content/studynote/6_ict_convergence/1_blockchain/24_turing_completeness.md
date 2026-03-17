@@ -1,10 +1,9 @@
----
-title: "[ICT] #25. 튜링 완전성 (Turing Completeness)"
-date: "2026-03-17"
++++
+title = "[ICT] #25. 튜링 완전성 (Turing Completeness)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Turing_Completeness_EVM_Halting_Problem_Solidity_Gas"
----
+keyword = "Turing_Completeness_EVM_Halting_Problem_Solidity_Gas"
++++
 
 # 튜링 완전성 (Turing Completeness): 프로그래밍 가능한 경제의 논리적 토대
 
@@ -13,7 +12,7 @@ keyword: "Turing_Completeness_EVM_Halting_Problem_Solidity_Gas"
 > 2. **가치**: 비트코인의 한정된 스크립트 기능을 넘어, 이더리움은 튜링 완전한 EVM을 통해 루프(Loop)와 조건문 등을 자유롭게 사용하여 복잡한 비즈니스 로직을 온체인에서 구현할 수 있게 했다.
 > 3. **융합**: '정지 문제(Halting Problem)'라는 이론적 난제를 **가스(Gas)**라는 경제적 모델로 해결함으로써, 무한 루프 공격으로부터 네트워크를 보호하고 범용 월드 컴퓨터의 실용성을 확보했다.
 
----
++++
 
 ## Ⅰ. 튜링 완전성 (Turing Completeness) 개요
 
@@ -31,7 +30,7 @@ keyword: "Turing_Completeness_EVM_Halting_Problem_Solidity_Gas"
 
 📢 **섹션 요약 비유**: 계산기(단순 연산)의 시대를 지나 스마트폰(범용 앱 실행)의 시대로 블록체인의 패러다임이 전환된 근본적인 이유가 바로 튜링 완전성입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -81,7 +80,7 @@ keyword: "Turing_Completeness_EVM_Halting_Problem_Solidity_Gas"
 
 📢 **섹션 요약 비유**: 연료가 무한하다면 평생 달리는 유령 기차가 나타날 수 있지만, 연료통의 크기(가스 한도)를 정해둠으로써 모든 기차가 언젠가는 멈추거나 정거장에 도착하게 만든 '안전 장치'입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -101,7 +100,7 @@ keyword: "Turing_Completeness_EVM_Halting_Problem_Solidity_Gas"
 
 📢 **섹션 요약 비유**: 튜링 불완전이 정해진 코스만 달리는 '철도 기차'라면, 튜링 완전은 운전자가 어디든 갈 수 있는 '자율주행 자동차'와 같아서 더 자유롭지만 사고 위험도 큰 것입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -115,7 +114,7 @@ keyword: "Turing_Completeness_EVM_Halting_Problem_Solidity_Gas"
 
 📢 **섹션 요약 비유**: 칼이 날카로울수록 훌륭한 요리를 만들 수 있지만 다칠 위험도 크듯이, 튜링 완전성이라는 강력한 도구를 다루기 위해서는 '코드 감사'와 '수학적 검증'이라는 안전 장갑이 필수입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -129,13 +128,13 @@ keyword: "Turing_Completeness_EVM_Halting_Problem_Solidity_Gas"
 
 📢 **섹션 요약 비유**: 튜링 완전성은 블록체인이라는 단단한 땅에 '생명력'을 불어넣어, 스스로 자라나고 열매 맺는 **디지털 생태계**를 탄생시켰습니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[앨런 튜링 (Alan Turing)](./xx_alan_turing.md)**: 컴퓨터 과학의 아버지이자 튜링 머신의 고안자.
-- **[EVM (이더리움 가상머신)](./22_evm.md)**: 튜링 완전성을 실제로 구현한 분산 가상머신.
-- **[가스 (Gas)](./23_gas.md)**: 튜링 완전성의 부작용(무한 루프)을 막는 경제적 방패.
-- **[솔리디티 (Solidity)](./57_solidity.md)**: 튜링 완전 로직을 짜기 위한 이더리움 표준 언어.
+- **앨런 튜링 (Alan Turing)**: 컴퓨터 과학의 아버지이자 튜링 머신의 고안자.
+- **EVM (이더리움 가상머신)**: 튜링 완전성을 실제로 구현한 분산 가상머신.
+- **가스 (Gas)**: 튜링 완전성의 부작용(무한 루프)을 막는 경제적 방패.
+- **솔리디티 (Solidity)**: 튜링 완전 로직을 짜기 위한 이더리움 표준 언어.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **무엇이든 만드는 마법 상자**: 이더리움은 "이것만 해!"라고 정해진 게 아니라, 우리가 상상하는 모든 로봇(프로그램)을 만들 수 있는 마법의 상자와 같아요.

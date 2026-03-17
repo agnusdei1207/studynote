@@ -1,5 +1,6 @@
 +++
 title = "MSTP (Multiple STP) - 다중 스패닝 트리"
+date = "2026-03-14"
 weight = 546
 +++
 
@@ -96,6 +97,6 @@ MSTP는 여러 VLAN을 그룹으로 묶어 STP를 실행합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [RSTP](./545_rstp.md)
-- [STP](./544_stp.md)
-- [VLAN](./542_vlan.md)
+- RSTP
+- STP
+- VLAN

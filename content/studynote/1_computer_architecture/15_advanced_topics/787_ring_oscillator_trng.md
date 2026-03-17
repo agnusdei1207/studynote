@@ -1,5 +1,6 @@
 +++
 title = "ring oscillator trng"
+date = "2026-03-14"
 weight = 787
 +++
 
@@ -146,10 +147,10 @@ weight = 787
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [TRNG 엔트로피 소스](./786_trng_entropy.md)
-- [SRAM PUF](./788_sram_puf.md)
-- [도전-응답 쌍](./789_challenge_response.md)
-- [보안 엔클레이브](./790_secure_enclave.md)
+- TRNG 엔트로피 소스
+- SRAM PUF
+- 도전-응답 쌍
+- 보안 엔클레이브
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "emfi"
+date = "2026-03-14"
 weight = 773
 +++
 
@@ -146,10 +147,10 @@ EMFI(Electromagnetic Fault Injection)는 강력한 전자기 펄스를 방사하
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [볼티지 글리칭 (Voltage Glitching)](./771_voltage_glitching.md)
-- [클럭 글리칭 (Clock Glitching)](./772_clock_glitching.md)
-- [부채널 공격](./774_cache_timing.md)
-- [TEMPEST](./777_tempest.md)
+- 볼티지 글리칭 (Voltage Glitching)
+- 클럭 글리칭 (Clock Glitching)
+- 부채널 공격
+- TEMPEST
 
 ---
 

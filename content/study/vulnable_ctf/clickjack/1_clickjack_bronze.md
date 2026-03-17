@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Clickjacking 🥉 Bronze"
-description = "LUXORA 플랫폼의 Clickjacking 취약점을 이용한 투명 iframe 겹치기 및 강제 클릭 유도 시나리오"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Clickjacking", "Bronze", "UI Redressing", "Write-up"]

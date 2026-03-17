@@ -1,5 +1,6 @@
 +++
 title = "OpenTelemetry - 오픈텔레메트리"
+date = "2026-03-14"
 weight = 739
 +++
 
@@ -103,6 +104,6 @@ OpenTelemetry는 관측성 데이터 수집 표준입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Distributed Tracing](./725_distributed_tracing.md)
-- [Observability](./735_observability.md)
-- [Jaeger](./738_jaeger.md)
+- Distributed Tracing
+- Observability
+- Jaeger

@@ -1,7 +1,7 @@
 +++
-weight = 1
 title = "1. 데이터 (Data) / 정보 (Information) / 지식 (Knowledge) / 지혜 (Wisdom) - DIKW 피라미드"
 date = "2026-03-11"
+weight = 1
 [extra]
 categories = "studynote-database"
 keywords = ["DIKW", "데이터", "정보", "지식", "지혜", "Database"]
@@ -13,7 +13,7 @@ series = "데이터베이스 600제"
 > 2. **가치**: 데이터베이스는 이 피라미드의 가장 아래층인 데이터를 안정적으로 저장·정제·검색 가능하게 만들어 상위 계층의 분석과 의사결정을 가능하게 하는 기반 인프라다.
 > 3. **융합**: ETL (Extract, Transform, Load), BI (Business Intelligence), AI 분석은 모두 DIKW 전환 사슬 위에서 작동하며, 좋은 DB 설계는 단순 저장소를 넘어 지식 생산 공장 역할을 한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -29,7 +29,7 @@ series = "데이터베이스 600제"
   3. 데이터베이스와 분석 시스템의 역할을 명확히 하기 위해 계층적 사고가 널리 쓰이게 됐다.
 - **📢 섹션 요약 비유**: 재료를 창고에 쌓아두는 것만으로는 요리가 되지 않듯, 데이터도 단계별 가공 없이는 가치가 완성되지 않습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -78,7 +78,7 @@ series = "데이터베이스 600제"
 
 - **📢 섹션 요약 비유**: 좋은 창고 정리법이 있어야 재료가 요리가 되고, 결국 손님에게 맞는 식사를 내놓을 수 있는 것과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -100,7 +100,7 @@ series = "데이터베이스 600제"
   2. **경영/거버넌스**: 지혜 계층은 기술 결과만이 아니라 정책, 규정, 리스크 기준과 연결된다.
 - **📢 섹션 요약 비유**: 재료 창고와 레스토랑 운영실은 역할이 다르지만, 둘 중 하나라도 무너지면 제대로 된 식사가 나올 수 없습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -124,7 +124,7 @@ series = "데이터베이스 600제"
 - **안티패턴**: 데이터를 많이 모으는 것 자체를 성과로 착각하면, 저장 비용만 늘고 정보·지식 생산은 오히려 더 어려워진다.
 - **📢 섹션 요약 비유**: 냉장고를 음식 재료로 가득 채웠다고 해서 저절로 맛있는 식사가 나오지는 않는 것과 같습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -141,14 +141,14 @@ series = "데이터베이스 600제"
 - **표준 연결**: DAMA-DMBOK, ISO/IEC 11179 메타데이터 표준, 데이터 품질 관리 가이드.
 - **📢 섹션 요약 비유**: 결국 좋은 데이터베이스는 재료 창고를 넘어서, 조직이 더 똑똑하게 판단하도록 돕는 주방의 기반 설비가 됩니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- [`[2_database_definition.md](./2_database_definition.md)`]: 데이터를 체계적으로 저장하기 위한 기본 정의.
-- [`[3_dbms.md](./3_dbms.md)`]: DIKW 피라미드의 하부 계층을 안정적으로 지탱하는 핵심 소프트웨어.
-- [`[/Users/pf/workspace/brainscience/content/studynote/14_data_engineering/_index.md](/Users/pf/workspace/brainscience/content/studynote/14_data_engineering/_index.md)`]: 데이터 파이프라인과 분석 시스템 확장 관점.
-- [`[/Users/pf/workspace/brainscience/content/studynote/16_bigdata/_index.md](/Users/pf/workspace/brainscience/content/studynote/16_bigdata/_index.md)`]: 대용량 정보/지식 추출 구조.
-- [`[/Users/pf/workspace/brainscience/content/studynote/12_it_management/_index.md](/Users/pf/workspace/brainscience/content/studynote/12_it_management/_index.md)`]: 데이터 기반 의사결정과 거버넌스 관점.
+- `[2_database_definition.md`]: 데이터를 체계적으로 저장하기 위한 기본 정의.
+- `[3_dbms.md`]: DIKW 피라미드의 하부 계층을 안정적으로 지탱하는 핵심 소프트웨어.
+- `[/Users/pf/workspace/brainscience/content/studynote/14_data_engineering/_index.md`]: 데이터 파이프라인과 분석 시스템 확장 관점.
+- `[/Users/pf/workspace/brainscience/content/studynote/16_bigdata/_index.md`]: 대용량 정보/지식 추출 구조.
+- `[/Users/pf/workspace/brainscience/content/studynote/12_it_management/_index.md`]: 데이터 기반 의사결정과 거버넌스 관점.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 데이터는 그냥 숫자나 글자 조각이에요.

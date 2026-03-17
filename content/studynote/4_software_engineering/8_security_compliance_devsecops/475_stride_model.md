@@ -1,7 +1,7 @@
----
-title: "475. STRIDE 모델"
-date: 2026-03-15
----
++++
+title = "475. STRIDE 모델"
+date = "2026-03-15"
++++
 
 # 475. STRIDE 모델
 
@@ -158,10 +158,10 @@ STRIDE는 기술적/상세 위협 식별에 강점이 있고, PASTA는 비즈니
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[위협 모델링 (Threat Modeling)](./474_threat_modeling.md)**: STRIDE를 도구로 사용하는 상위 보안 활동
-- **[DREAD 모델](./476_dread.md)**: STRIDE로 식별된 위협의 우선순위를 정하는 기법
-- **[DFD (Data Flow Diagram)](./xx_dfd.md)**: STRIDE 분석의 기초가 되는 도식화 도구
-- **[Secure SDLC](./471_secure_sdlc.md)**: STRIDE 활동이 포함된 전체 개발 생명주기
+- **위협 모델링 (Threat Modeling)**: STRIDE를 도구로 사용하는 상위 보안 활동
+- **DREAD 모델**: STRIDE로 식별된 위협의 우선순위를 정하는 기법
+- **DFD (Data Flow Diagram)**: STRIDE 분석의 기초가 되는 도식화 도구
+- **Secure SDLC**: STRIDE 활동이 포함된 전체 개발 생명주기
 
 ---
 

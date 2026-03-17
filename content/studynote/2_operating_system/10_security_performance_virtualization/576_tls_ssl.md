@@ -1,7 +1,7 @@
 +++
-weight = 576
 title = "576. TLS/SSL 보안 프로토콜"
 date = "2026-03-16"
+weight = 576
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "TLS", "SSL", "보안 프로토콜", "HTTPS", "Handshake", "Cipher Suite"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "TLS", "SSL", "보안 프로토콜", "HTTPS", "Hands
 > 2. **가치**: HTTPS, SMTPS, FTPS 등 다양한 애플리케이션에 적용되어 **인터넷 보안의 표준**이 되었으며, 비밀번호, 신용카드 정보 등 민감 데이터를 보호한다.
 > 3. **융합**: 공개키 암호화로 키 교환 후 대칭키로 데이터 암호화(하이브리드)하는 **Handshake 프로토콜**을 통해 보안성과 성능의 균형을 실현한다.
 
----
++++
 
 ## Ⅰ. TLS/SSL의 개요
 
@@ -33,7 +33,7 @@ keywords = ["운영체제", "TLS", "SSL", "보안 프로토콜", "HTTPS", "Hands
 
 - **📢 섹션 요약 비유**: 엽서(평문 HTTP) 대비 밀봉된 편지봉투(TLS)를 사용하면 배달过程中内容이 노출되지 않습니다.
 
----
++++
 
 ## Ⅱ. TLS 핸드셰이크 과정 (Deep Dive)
 
@@ -127,7 +127,7 @@ TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
 
 - **📢 섹션 요약 비유**: 핸드셰이크는 "비밀 언어를 사용할 약속을 정하는 과정"입니다. 암호책(키)을 어떻게 교환할지, 어떤 언어(알고리즘)를 쓸지 미리 합의하는 거죠.
 
----
++++
 
 ## Ⅲ. TLS/SSL 버전별 특징
 
@@ -141,7 +141,7 @@ TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
 | **TLS 1.2** | ✅ 권장 | RFC 5246 (2008) | 안전 |
 | **TLS 1.3** | ✅ 최신 | RFC 8446 (2018) | 가장 안전 |
 
----
++++
 
 ## Ⅳ. 실무 적용 및 아키텍처적 판단 (Strategy)
 
@@ -176,7 +176,7 @@ server {
 - **HPKP**: 공개키 고정 (폐지 권장)
 - **CSP**: 콘텐츠 보안 정책
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -190,15 +190,15 @@ server {
 - **ECH (Encrypted Client Hello)**: SNI(서버 이름) 암호화
 - **QUIC Protocol**: UDP 기반 TLS 1.3
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[암호화](./574_encryption.md)**: TLS의 암호학적 기초
-- **[PKI](./575_pki.md)**: 인증서 관리
-- **[공개키 암호화](./574_encryption.md)**: 키 교환 기반
-- **[HTTPS](./xx_https.md)**: TLS 응용
+- **암호화**: TLS의 암호학적 기초
+- **PKI**: 인증서 관리
+- **공개키 암호화**: 키 교환 기반
+- **HTTPS**: TLS 응용
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. TLS는 **'비밀 암호로 대화하는 전화기'** 같아요.

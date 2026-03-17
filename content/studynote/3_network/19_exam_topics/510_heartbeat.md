@@ -1,5 +1,6 @@
 +++
 title = "Heartbeat - 하트비트"
+date = "2026-03-14"
 weight = 510
 +++
 
@@ -92,6 +93,6 @@ Heartbeat는 주기적으로 생존을 알립니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP Keepalive](./509_tcp_keepalive.md)
-- [HA](./570_high_availability.md)
-- [Failover](./571_failover.md)
+- TCP Keepalive
+- HA
+- Failover

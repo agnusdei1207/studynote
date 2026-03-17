@@ -1,5 +1,6 @@
 +++
 title = "OLAP (Online Analytical Processing) - OLAP"
+date = "2026-03-14"
 weight = 705
 +++
 
@@ -101,6 +102,6 @@ OLAP는 다차원 데이터 분석을 제공합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Data Warehouse](./704_data_warehouse.md)
-- [BI](./706_bi.md)
-- [ETL](./706_etl.md)
+- Data Warehouse
+- BI
+- ETL

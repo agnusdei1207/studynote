@@ -1,5 +1,6 @@
 +++
 title = "Denormalization - 반정규화"
+date = "2026-03-14"
 weight = 703
 +++
 
@@ -99,6 +100,6 @@ Denormalization은 성능을 위해 중복을 허용합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Normalization](./702_normalization.md)
-- [Data Warehouse](./704_data_warehouse.md)
-- [OLAP](./705_olap.md)
+- Normalization
+- Data Warehouse
+- OLAP

@@ -1,6 +1,7 @@
 +++
-weight = 546
 title = "546. 파일 시스템의 일관성 체크 (Consistency Checking) - fsck"
+date = "2026-03-14"
+weight = 546
 +++
 
 # # [파일 시스템의 일관성 체크 (Consistency Checking) - fsck]
@@ -139,4 +140,3 @@ title = "546. 파일 시스템의 일관성 체크 (Consistency Checking) - fsck
 ---
 
 ### Ⅴ. 기대효과 및 결론 (Future & Standard)
-

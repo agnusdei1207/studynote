@@ -1,6 +1,6 @@
----
 +++
 title = "페일 소프트 (Fail-Soft)"
+date = "2026-03-14"
 weight = 460
 +++
 

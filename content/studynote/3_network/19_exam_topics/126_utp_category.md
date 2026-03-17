@@ -1,5 +1,6 @@
 +++
 title = "UTP 카테고리 (Cat 3 ~ Cat 8)"
+date = "2026-03-14"
 weight = 126
 +++
 
@@ -138,10 +139,10 @@ UTP 카테고리는 케이블의 성능 등급을 나타내며, 대역폭과 전
 ---
 
 ### 📌 관련 개념 링크**:
-- [UTP](./124_utp.md)
-- [STP](./125_stp.md)
-- [이더넷 PHY](./137_ethernet_phy.md)
-- [10GBASE-T](./140_10gbase.md)
+- UTP
+- STP
+- 이더넷 PHY
+- 10GBASE-T
 
 ---
 

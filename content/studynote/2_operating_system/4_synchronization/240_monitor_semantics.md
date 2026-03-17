@@ -1,7 +1,7 @@
 +++
 title = "240. 모니터 시그널 의미론"
-weight = 240
 date = "2026-03-04"
+weight = 240
 [extra]
 categories = "studynote-operating-system"
 +++
@@ -13,7 +13,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 이 정책에 따라 공유 자원의 상태 일관성을 검사하는 방식(`if` vs `while`)이 결정되며, 시스템의 응답성과 구현 복잡도 사이의 트레이드오프를 결정한다.
 > 3. **융합**: Hoare 스타일(Signal and Wait)의 엄격한 증명 모델과 Mesa 스타일(Signal and Continue)의 실용적 구현 모델로 나뉘며, Java와 Pthreads 등 대부분의 현대 라이브러리는 Mesa 스타일을 채택한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -23,7 +23,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 마치 발표자가 다음 사람을 지목했을 때, 즉시 마이크를 넘기고 내려가는 것과, 발표를 다 마친 뒤에 마이크를 넘겨주는 정책의 차이와 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -48,7 +48,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: Hoare는 "선터치 후퇴근"이고, Mesa는 "선퇴근 후입장"의 원리와 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -66,7 +66,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: Hoare는 규율이 엄격한 '군대식 교대'이고, Mesa는 자율성이 높은 '자유석 도서관' 방식입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -88,7 +88,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 잠에서 깼을 때 바로 밖으로 나가는 것이 아니라, 여전히 비가 오는지 확인(while)하고 나가는 신중한 코딩 습관이 버그를 막습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 

@@ -1,7 +1,7 @@
----
-title: "553. 코레오그래피 사가 (Choreography Saga)"
-date: 2026-03-15
----
++++
+title = "553. 코레오그래피 사가 (Choreography Saga)"
+date = "2026-03-15"
++++
 
 # 553. 코레오그래피 사가 (Choreography Saga)
 
@@ -153,10 +153,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[Saga 패턴](./550_saga_pattern.md)**: 코레오그래피가 속한 상위 설계 전략
-- **[오케스트레이션 사가](./552_orchestration_saga.md)**: 코레오그래피와 대비되는 중앙 제어 방식
-- **[이벤트 기반 아키텍처 (EDA)](./538_eda_architecture.md)**: 코레오그래피의 기술적 배경
-- **[Kafka / RabbitMQ](../3_network/xx_msg_broker.md)**: 이벤트를 실어 나르는 인프라
+- **Saga 패턴**: 코레오그래피가 속한 상위 설계 전략
+- **오케스트레이션 사가**: 코레오그래피와 대비되는 중앙 제어 방식
+- **이벤트 기반 아키텍처 (EDA)**: 코레오그래피의 기술적 배경
+- **Kafka / RabbitMQ**: 이벤트를 실어 나르는 인프라
 
 ---
 

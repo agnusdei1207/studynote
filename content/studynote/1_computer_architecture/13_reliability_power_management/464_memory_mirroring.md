@@ -1,7 +1,8 @@
----
-title: "메모리 미러링 (Memory Mirroring)"
-weight: 464
----
++++
+title = "메모리 미러링 (Memory Mirroring)"
+date = "2026-03-14"
+weight = 464
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 메모리 미러링 (Memory Mirroring)은 물리적 메모리를 두 개의 독립적인 채널에 실시간으로 복제하여 저장함으로써, 한쪽 메모리 채널에서 장애가 발생하더라도 시스템 중단 없이 가동을 유지하는 고가용성 하드웨어 기술이다.
@@ -124,9 +125,9 @@ weight: 464
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[ECC Memory](./463_ecc_memory.md)**: 1차적 메모리 보호 기술.
-- **[RAID 1 (Mirroring)](../8_io_storage_systems/803_raid.md)**: 스토리지 레벨의 미러링 개념.
-- **[Hot Swap](../13_reliability_power_management/457_hot_standby.md)**: 가동 중 부품 교체 기술.
+- **ECC Memory**: 1차적 메모리 보호 기술.
+- **RAID 1 (Mirroring)**: 스토리지 레벨의 미러링 개념.
+- **Hot Swap**: 가동 중 부품 교체 기술.
 
 ---
 

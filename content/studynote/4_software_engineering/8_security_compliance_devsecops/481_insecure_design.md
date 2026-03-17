@@ -1,7 +1,7 @@
----
-title: "481. Insecure Design (안전하지 않은 설계)"
-date: 2026-03-15
----
++++
+title = "481. Insecure Design (안전하지 않은 설계)"
+date = "2026-03-15"
++++
 
 # 481. Insecure Design (안전하지 않은 설계)
 
@@ -154,10 +154,10 @@ Insecure Design을 잡기 위한 가장 강력한 도구는 **위협 모델링 (
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[OWASP Top 10 (A04)](./477_owasp_top_10.md)**: Insecure Design이 포함된 표준 리포트
-- **[위협 모델링 (Threat Modeling)](./474_threat_modeling.md)**: 안전한 설계를 위한 핵심 수행 기법
-- **[시프트 레프트 (Shift-Left)](./466_shift_left.md)**: 보안 활동을 앞 단계로 당기는 보안 철학
-- **[Abuse Case](./xx_abuse_case.md)**: 공격자 관점의 사용자 시나리오 분석
+- **OWASP Top 10 (A04)**: Insecure Design이 포함된 표준 리포트
+- **위협 모델링 (Threat Modeling)**: 안전한 설계를 위한 핵심 수행 기법
+- **시프트 레프트 (Shift-Left)**: 보안 활동을 앞 단계로 당기는 보안 철학
+- **Abuse Case**: 공격자 관점의 사용자 시나리오 분석
 
 ---
 

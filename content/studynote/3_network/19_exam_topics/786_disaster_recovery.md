@@ -1,5 +1,6 @@
 +++
 title = "Disaster Recovery - 재해 복구"
+date = "2026-03-14"
 weight = 786
 +++
 
@@ -99,6 +100,6 @@ Disaster Recovery는 재해 후 서비스를 복구합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Backup](./xxx_backup.md)
-- [High Availability](./785_high_availability.md)
-- [Replication](./xxx_replication.md)
+- Backup
+- High Availability
+- Replication

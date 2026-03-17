@@ -1,5 +1,6 @@
 +++
 title = "에코 (Echo)"
+date = "2026-03-14"
 weight = 31
 +++
 
@@ -153,10 +154,10 @@ weight = 31
 ---
 
 ### 📌 관련 개념 링크**:
-- [누화 Crosstalk](./30_crosstalk.md)
-- [하이브리드 Hybrid](./205_hybrid_circuit.md)
-- [지연 Delay](./15_latency_delay.md)
-- [VoIP 음성 통신](./180_voip_voice.md)
+- 누화 Crosstalk
+- 하이브리드 Hybrid
+- 지연 Delay
+- VoIP 음성 통신
 
 ---
 

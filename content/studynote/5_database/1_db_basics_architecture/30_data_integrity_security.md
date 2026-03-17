@@ -1,7 +1,6 @@
 +++
 title = "30. 데이터 무결성 (Integrity) 및 보안성 (Security)"
 date = "2026-03-16"
-draft = false
 weight = 30
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["데이터 무결성", "데이터 보안성", "Data Integrity", "Dat
 > 2. **상호 보완**: 무결성이 깨지면 데이터는 가치가 없어지며(Garbage in, Garbage out), 보안성이 깨지면 데이터는 기업의 리스크가 된다. 즉, 무결성은 '데이터의 품질'을, 보안성은 '데이터의 안전'을 책임진다.
 > 3. **융합**: DBMS는 제약 조건(Constraints)을 통해 무결성을 자동화하고, 접근 제어(DCL) 및 암호화를 통해 보안성을 결착하여 전사적 데이터 거버넌스의 핵심 교두보 역할을 수행한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -48,7 +47,7 @@ keywords = ["데이터 무결성", "데이터 보안성", "Data Integrity", "Dat
 
 - **📢 섹션 요약 비유**: 무결성은 데이터의 '내실'을 다지는 일이고, 보안성은 데이터의 '외벽'을 쌓는 일입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -102,7 +101,7 @@ keywords = ["데이터 무결성", "데이터 보안성", "Data Integrity", "Dat
 
 - **📢 섹션 요약 비유**: 무결성 제약 조건은 '입구에서 신분증과 자격을 검사하는 안내원'과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -121,7 +120,7 @@ keywords = ["데이터 무결성", "데이터 보안성", "Data Integrity", "Dat
 
 - **📢 섹션 요약 비유**: 무결성이 '음식이 상하지 않게 관리하는 것'이라면, 보안성은 '음식을 아무나 못 먹게 감시하는 것'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -140,7 +139,7 @@ keywords = ["데이터 무결성", "데이터 보안성", "Data Integrity", "Dat
 
 - **📢 섹션 요약 비유**: FK 없는 DB는 '안전벨트 없는 스포츠카'와 같습니다. 평소엔 빠르지만, 사고가 나면 생명을 지킬 수 없습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -158,15 +157,15 @@ keywords = ["데이터 무결성", "데이터 보안성", "Data Integrity", "Dat
 
 - **📢 섹션 요약 비유**: 미래의 데이터 관리는 스스로 상처를 치유하는(무결성) 스마트한 요새(보안성)로 진화할 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[개체 무결성 (Entity Integrity)](./74_entity_integrity.md)**: 무결성의 기초.
-- **[참조 무결성 (Referential Integrity)](./75_referential_integrity.md)**: 테이블 간 연결의 안전장치.
-- **[데이터베이스 암호화 (TDE)](@/studynote/9_security/_index.md)**: 보안성의 물리적 구현.
-- **[접근 제어 (RBAC)](@/studynote/9_security/_index.md)**: 보안성의 논리적 구현.
+- **개체 무결성 (Entity Integrity)**: 무결성의 기초.
+- **참조 무결성 (Referential Integrity)**: 테이블 간 연결의 안전장치.
+- **데이터베이스 암호화 (TDE)**: 보안성의 물리적 구현.
+- **접근 제어 (RBAC)**: 보안성의 논리적 구현.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **무결성**은 일기장에 글씨를 **틀리지 않고 똑바르게** 적는 약속이에요.

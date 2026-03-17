@@ -1,5 +1,6 @@
 +++
 title = "Full Duplex - 전이중"
+date = "2026-03-14"
 weight = 983
 +++
 
@@ -107,6 +108,6 @@ Full Duplex는 동시에 양방향 통신합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Half Duplex](./982_half_duplex.md)
-- [Switch](./900_switch.md)
-- [Ethernet](./901_ethernet.md)
+- Half Duplex
+- Switch
+- Ethernet

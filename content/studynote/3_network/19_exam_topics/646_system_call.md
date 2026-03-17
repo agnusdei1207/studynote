@@ -1,5 +1,6 @@
 +++
 title = "System Call - 시스템 콜"
+date = "2026-03-14"
 weight = 646
 +++
 
@@ -104,6 +105,6 @@ System Call은 사용자 모드에서 커널 서비스를 요청합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Exception](./645_exception.md)
-- [Kernel Mode](./647_kernel_mode.md)
-- [API](./648_api.md)
+- Exception
+- Kernel Mode
+- API

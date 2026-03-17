@@ -1,7 +1,7 @@
 +++
 title = "204. 지연 시간 (Latency)"
-weight = 204
 date = "2026-03-04"
+weight = 204
 [extra]
 categories = "studynote-operating-system"
 +++
@@ -13,7 +13,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 지연 시간의 최소화와 예측 가능성(상한선 존재)은 자율주행, 금융 트레이딩, 공정 제어 등 고속 응답이 필요한 시스템의 신뢰성과 직결된다.
 > 3. **융합**: 인터럽트 처리 메커니즘, 문맥 교환 (Context Switch) 오버헤드, 커널의 선점성 (Preemptibility) 설계와 밀접하게 연계된다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -23,7 +23,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 경주 선수가 출발 신호를 듣고(인터럽트) 근육을 움직여 실제로 출발선을 박차고 나가는(디스패치) 사이의 찰나의 순간과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -56,7 +56,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 인터럽트 지연은 벨 소리를 인지하는 순발력이고, 디스패치 지연은 하던 가위질을 멈추고 전화를 집어 드는 행동의 민첩성입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -71,7 +71,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 인터럽트 지연은 '알람을 듣는 시간'이고, 디스패치 지연은 '이불을 걷고 일어나는 시간'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -81,7 +81,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 물탱크가 비기 전에 물을 채워야 하는데, 수도꼭지를 트는 데 너무 오래 걸려서 물이 끊기는 상황을 막아야 합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -90,12 +90,12 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 빠른 응답도 중요하지만, 언제나 일정한 속도로 대답하는 '예측 가능함'이 진정한 고수의 실력입니다.
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[인터럽트 서비스 루틴 (ISR)](./20_isr.md)**: 지연 시간의 중간 기착지
-- **[선점형 커널 (Preemptive Kernel)](./224_preemptive_vs_nonpreemptive_kernel.md)**: 디스패치 지연을 줄이기 위한 OS 구조
-- **[지터 (Jitter)](./172_turnaround_waiting_response_time.md)**: 지연 시간의 불규칙한 변동
+- **인터럽트 서비스 루틴 (ISR)**: 지연 시간의 중간 기착지
+- **선점형 커널 (Preemptive Kernel)**: 디스패치 지연을 줄이기 위한 OS 구조
+- **지터 (Jitter)**: 지연 시간의 불규칙한 변동
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 엄마가 심부름을 시켰을 때(이벤트), 대답할 때까지 걸리는 시간이 '인터럽트 지연'이에요.

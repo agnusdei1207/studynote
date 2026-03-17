@@ -1,6 +1,7 @@
 +++
-weight = 510
 title = "510. 디렉터리 (Directory) 논리적 구조"
+date = "2026-03-14"
+weight = 510
 +++
 
 # 510. 디렉터리 (Directory) 논리적 구조

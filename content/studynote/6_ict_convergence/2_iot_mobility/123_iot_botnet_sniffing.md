@@ -1,10 +1,9 @@
----
-title: "[ICT] #124. IoT 봇넷 (IoT Botnet) 및 스니핑 보안 위협"
-date: "2026-03-17"
++++
+title = "[ICT] #124. IoT 봇넷 (IoT Botnet) 및 스니핑 보안 위협"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "IoTBotnet_Mirai_DDoS_Sniffing_ReplayAttack_IoTSecurity_DefaultPassword"
----
+keyword = "IoTBotnet_Mirai_DDoS_Sniffing_ReplayAttack_IoTSecurity_DefaultPassword"
++++
 
 # IoT 봇넷 및 스니핑 위협: 초연결 사회를 겨냥한 거대한 해킹 군단과 방어망
 
@@ -13,7 +12,7 @@ keyword: "IoTBotnet_Mirai_DDoS_Sniffing_ReplayAttack_IoTSecurity_DefaultPassword
 > 2. **가치**: 연산 능력과 자원이 부족해 무거운 백신을 설치할 수 없는 IoT 기기의 태생적 한계를 노린 공격이며, 무선 스니핑(Sniffing)과 리플레이 공격(Replay Attack)을 통해 프라이버시 침해 및 무단 기기 제어까지 유발한다.
 > 3. **융합**: 이를 방어하기 위해 하드웨어 기반의 보안 요소(Secure Element, TEE), 네트워크 분리(VLAN), 그리고 디폴트 패스워드 금지와 같은 '제로 트러스트(Zero Trust)' 기반의 융합 보안 설계가 모든 사물인터넷 구축의 최우선 전제 조건이 되고 있다.
 
----
++++
 
 ## Ⅰ. IoT 봇넷 및 보안 위협 개요
 
@@ -31,7 +30,7 @@ keyword: "IoTBotnet_Mirai_DDoS_Sniffing_ReplayAttack_IoTSecurity_DefaultPassword
 
 📢 **섹션 요약 비유**: 우리 집의 편리함을 위해 들여놓은 하인(IoT)이 방패막이 없이 노출되면, 언제든 적의 군대로 돌변하여 세상을 공격하는 무기로 쓰일 수 있다는 경고입니다.
 
----
++++
 
 ## Ⅱ. 봇넷 동작 아키텍처 및 공격 원리 (Deep Dive)
 
@@ -89,7 +88,7 @@ keyword: "IoTBotnet_Mirai_DDoS_Sniffing_ReplayAttack_IoTSecurity_DefaultPassword
 
 📢 **섹션 요약 비유**: 로봇들이 모르는 사람의 명령을 받지 못하도록 '공장 초기 비밀번호'를 반드시 바꾸고, 집 열쇠는 매일 밤 모양이 변하는 '마법의 열쇠(Nonce)'로 바꾸어 도둑의 복사 열쇠를 무용지물로 만들어야 합니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 방어 체계 분석
 
@@ -109,7 +108,7 @@ keyword: "IoTBotnet_Mirai_DDoS_Sniffing_ReplayAttack_IoTSecurity_DefaultPassword
 
 📢 **섹션 요약 비유**: 체력이 약한 아이(IoT)에게 무거운 갑옷(백신)을 입히는 대신, 안전한 울타리(VLAN)를 쳐주고 자물쇠(TEE)를 단단히 채워주는 예방 의학적 접근이 필요합니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -127,7 +126,7 @@ keyword: "IoTBotnet_Mirai_DDoS_Sniffing_ReplayAttack_IoTSecurity_DefaultPassword
 
 📢 **섹션 요약 비유**: 대문을 열어둔 채 개를 키우는 것은 위험합니다. 공장에서부터 문을 꽉 잠그게(기본 암호 금지) 법으로 강제하는 것이 가장 확실한 예방 접종입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -141,13 +140,13 @@ keyword: "IoTBotnet_Mirai_DDoS_Sniffing_ReplayAttack_IoTSecurity_DefaultPassword
 
 📢 **섹션 요약 비유**: IoT 봇넷 방어는 단순히 기기 하나를 고치는 것이 아니라, 디지털 전염병으로부터 초연결 사회 전체를 보호하는 가장 중요한 '사이버 방역' 활동입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[분산 서비스 거부 공격 (DDoS)](../../9_security/xx_ddos.md)**: IoT 봇넷이 최종적으로 목표로 삼는 파괴적인 공격 형태.
-- **[제로 트러스트 (Zero Trust)](../../9_security/xx_zero_trust.md)**: "아무것도 믿지 마라", 홈 네트워크 내부의 기기라도 철저히 인증해야 한다는 보안 철학.
-- **[경량 암호 알고리즘 (LEA)](#)**: 연산력이 부족한 IoT 환경에서 스니핑을 막기 위한 한국산 고효율 암호 기술.
-- **[LwM2M](./120_lwm2m.md)**: 안전한 펌웨어 업데이트(FOTA)를 제공하여 취약점을 패치하는 관리 플랫폼.
+- **분산 서비스 거부 공격 (DDoS)**: IoT 봇넷이 최종적으로 목표로 삼는 파괴적인 공격 형태.
+- **제로 트러스트 (Zero Trust)**: "아무것도 믿지 마라", 홈 네트워크 내부의 기기라도 철저히 인증해야 한다는 보안 철학.
+- **경량 암호 알고리즘 (LEA)**: 연산력이 부족한 IoT 환경에서 스니핑을 막기 위한 한국산 고효율 암호 기술.
+- **LwM2M**: 안전한 펌웨어 업데이트(FOTA)를 제공하여 취약점을 패치하는 관리 플랫폼.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **나쁜 최면술**: 집에 있는 착한 로봇 청소기나 인터넷 카메라에게 나쁜 해커가 마법을 걸어서, 명령에만 따르는 나쁜 좀비 로봇 군단(봇넷)으로 만드는 무서운 일이에요.

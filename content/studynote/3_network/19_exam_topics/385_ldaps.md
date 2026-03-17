@@ -1,5 +1,6 @@
 +++
 title = "LDAPS - 보안 LDAP"
+date = "2026-03-14"
 weight = 385
 +++
 
@@ -144,10 +145,10 @@ LDAPS(LDAP over SSL/TLS)는 암호화된 LDAP 연결입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [LDAP](./384_ldap.md)
-- [TLS/SSL](./9_security/144_tls_ssl.md)
-- [RADIUS](./382_radius.md)
-- [Active Directory](./9_security/174_active_directory.md)
+- LDAP
+- TLS/SSL
+- RADIUS
+- Active Directory
 
 ---
 

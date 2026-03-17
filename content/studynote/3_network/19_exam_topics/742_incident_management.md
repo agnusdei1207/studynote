@@ -1,5 +1,6 @@
 +++
 title = "Incident Management - 인시던트 관리"
+date = "2026-03-14"
 weight = 742
 +++
 
@@ -102,6 +103,6 @@ Incident Management는 장애를 관리합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [On-call](./743_oncall.md)
-- [Runbook](./744_runbook.md)
-- [Postmortem](./745_postmortem.md)
+- On-call
+- Runbook
+- Postmortem

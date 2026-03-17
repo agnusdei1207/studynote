@@ -1,6 +1,7 @@
 +++
-weight = 558
 title = "558. F2FS (Flash-Friendly File System) - 삼성 주도 리눅스 FS"
+date = "2026-03-14"
+weight = 558
 +++
 
 # # [F2FS (Flash-Friendly File System)]

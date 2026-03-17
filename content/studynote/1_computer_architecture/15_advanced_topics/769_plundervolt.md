@@ -1,5 +1,6 @@
 +++
 title = "plundervolt"
+date = "2026-03-14"
 weight = 769
 +++
 
@@ -136,10 +137,10 @@ weight = 769
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [SGAxe 및 CrossTalk](./768_sgaxe_crosstalk.md)
-- [좀비로드 (ZombieLoad)](./767_zombieload.md)
-- [Rowhammer](./770_rowhammer.md)
-- [사이드 채널 공격](./768_side_channel.md)
+- SGAxe 및 CrossTalk
+- 좀비로드 (ZombieLoad)
+- Rowhammer
+- 사이드 채널 공격
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "PCM (펄스 부호 변조)"
+date = "2026-03-14"
 weight = 62
 +++
 
@@ -150,10 +151,10 @@ PCM(Pulse Code Modulation)은 아날로그 신호를 샘플링, 양자화, 부�
 ---
 
 ### 📌 관련 개념 링크**:
-- [표본화 Sampling](./56_sampling.md)
-- [양자화 Quantization](./59_quantization.md)
-- [컴팬딩 Companding](./61_companding.md)
-- [DPCM 차분 PCM](./63_dpcm_differential.md)
+- 표본화 Sampling
+- 양자화 Quantization
+- 컴팬딩 Companding
+- DPCM 차분 PCM
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "Switch - 스위치"
+date = "2026-03-14"
 weight = 900
 +++
 
@@ -109,6 +110,6 @@ Switch는 MAC 주소 기반으로 프레임을 전달합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Switching](./892_switching.md)
-- [VLAN](./894_vlan.md)
-- [STP](./xxx_stp.md)
+- Switching
+- VLAN
+- STP

@@ -1,5 +1,6 @@
 +++
 title = "광증폭기 (EDFA, SOA, 라만 증폭기)"
+date = "2026-03-14"
 weight = 134
 +++
 
@@ -152,10 +153,10 @@ weight = 134
 ---
 
 ### 📌 관련 개념 링크**:
-- [광섬유](./128_optical_fiber.md)
-- [WDM](./79_wdm.md)
-- [분산](./133_dispersion.md)
-- [DWDM](./81_dwdm.md)
+- 광섬유
+- WDM
+- 분산
+- DWDM
 
 ---
 

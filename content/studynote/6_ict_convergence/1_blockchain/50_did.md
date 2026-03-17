@@ -1,10 +1,9 @@
----
-title: "[ICT] #51. 탈중앙화 신원증명 (DID, Decentralized Identity)"
-date: "2026-03-17"
++++
+title = "[ICT] #51. 탈중앙화 신원증명 (DID, Decentralized Identity)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "DID_Decentralized_Identity_SSI_SelfSovereignIdentity_W3C_VC_VP"
----
+keyword = "DID_Decentralized_Identity_SSI_SelfSovereignIdentity_W3C_VC_VP"
++++
 
 # 탈중앙화 신원증명 (DID): 자기 주권 신원 시대의 디지털 열쇠
 
@@ -13,7 +12,7 @@ keyword: "DID_Decentralized_Identity_SSI_SelfSovereignIdentity_W3C_VC_VP"
 > 2. **가치**: 개인정보의 소유권을 사용자에게 돌려주어 프라이버시 침해를 원천 차단하며, 블록체인을 통해 데이터의 위변조 여부만 검증함으로써 **'신뢰의 비대칭성'** 문제를 해결한다.
 > 3. **융합**: W3C 표준인 **VC(검증 가능한 자격증명)**와 **VP(검증 가능한 프레젠테이션)** 체계를 기반으로 하며, 금융, 행정, 온오프라인 출입 통제 등 비대면 신뢰 사회의 핵심 인프라로 기능한다.
 
----
++++
 
 ## Ⅰ. 탈중앙화 신원증명 (DID) 개요
 
@@ -31,7 +30,7 @@ keyword: "DID_Decentralized_Identity_SSI_SelfSovereignIdentity_W3C_VC_VP"
 
 📢 **섹션 요약 비유**: 플랫폼 기업이라는 '거대한 호텔 프런트'에 내 방 열쇠를 맡겨두던 방식에서, 내 주머니에 '마스터 키'를 직접 넣고 다니는 방식으로 주권이 이동한 것입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -82,7 +81,7 @@ keyword: "DID_Decentralized_Identity_SSI_SelfSovereignIdentity_W3C_VC_VP"
 
 📢 **섹션 요약 비유**: 도서관 대출증(VC)을 보여줄 때 주소나 전화번호는 가리고 "이 카드는 진짜입니다"라는 관공서의 암호 도장(블록체인 검증)만 보여주는 '부분 공개 시스템'입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -102,7 +101,7 @@ keyword: "DID_Decentralized_Identity_SSI_SelfSovereignIdentity_W3C_VC_VP"
 
 📢 **섹션 요약 비유**: 소셜 로그인이 '옆집 형의 신분증을 빌려 쓰는 것'이라면, DID는 '내가 직접 만든 무적의 위조 방지 신분증'을 쓰는 차이입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -116,7 +115,7 @@ keyword: "DID_Decentralized_Identity_SSI_SelfSovereignIdentity_W3C_VC_VP"
 
 📢 **섹션 요약 비유**: 신분증 카드가 튼튼한 것도 중요하지만, 전 세계 모든 상점에서 그 신분증을 읽을 수 있는 '공용 카드 단말기(표준)'를 보급하는 것이 실무의 핵심입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -130,13 +129,13 @@ keyword: "DID_Decentralized_Identity_SSI_SelfSovereignIdentity_W3C_VC_VP"
 
 📢 **섹션 요약 비유**: DID는 우리가 태어나서 처음 가지는 '진짜 내 것'인 디지털 이름표이며, 이를 통해 우리는 더 안전하고 자유로운 **디지털 민주주의** 시대로 나아갈 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[자기 주권 신원 (SSI)](./xx_ssi.md)**: DID가 추구하는 철학적 지향점.
-- **[영지식 증명 (ZKP)](./36_zero_knowledge_proof.md)**: DID의 프라이버시를 극대화하는 기술.
-- **[SBT (소울바운드 토큰)](./49_sbt.md)**: 전송 불가능한 신원 증명용 NFT.
-- **[W3C DID 규격](./xx_w3c_did.md)**: 글로벌 신원 기술의 표준 가이드라인.
+- **자기 주권 신원 (SSI)**: DID가 추구하는 철학적 지향점.
+- **영지식 증명 (ZKP)**: DID의 프라이버시를 극대화하는 기술.
+- **SBT (소울바운드 토큰)**: 전송 불가능한 신원 증명용 NFT.
+- **W3C DID 규격**: 글로벌 신원 기술의 표준 가이드라인.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **나만의 비밀 신분증**: 내 이름과 나이가 적힌 카드를 커다란 회사 서버가 아니라, 내 스마트폰 보물 상자에 직접 넣어두는 거예요.

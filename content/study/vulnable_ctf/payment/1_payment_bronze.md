@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Payment Manipulation 🥉 Bronze"
-description = "LUXORA 플랫폼의 기본 Payment Manipulation 취약점을 이용한 가격 위변조 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Payment", "Bronze", "Parameter Tampering", "Write-up"]

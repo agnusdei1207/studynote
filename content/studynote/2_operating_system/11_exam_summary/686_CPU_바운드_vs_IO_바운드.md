@@ -1,5 +1,6 @@
 +++
 title = "CPU 바운드 vs I/O 바운드"
+date = "2026-03-14"
 weight = 686
 +++
 

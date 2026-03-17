@@ -1,6 +1,7 @@
 +++
-weight = 410
 title = "410. MFU (Most Frequently Used) 알고리즘"
+date = "2026-03-14"
+weight = 410
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -122,4 +123,3 @@ graph TD
     MFU -- Disadvantage --> VL[Violates Locality Principle]
     HF -- Measured by --> CNT[Page Counters]
     VL -- Results in --> HPF[High Page Faults in General]
-```

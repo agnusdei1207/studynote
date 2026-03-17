@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Admin Bypass 🥈 Silver"
-description = "LUXORA 플랫폼의 Silver 난이도 Admin Bypass 공략 - Type Juggling(타입 캐스팅) 취약점을 이용한 인증 우회 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Admin Bypass", "Silver", "Type Juggling", "PHP", "Write-up"]

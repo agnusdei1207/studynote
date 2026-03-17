@@ -1,6 +1,7 @@
 +++
-weight = 470
 title = "470. SSTF (Shortest Seek Time First)"
+date = "2026-03-14"
+weight = 470
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -113,9 +114,9 @@ title = "470. SSTF (Shortest Seek Time First)"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[탐색 시간 (Seek Time)](./467_disk_access_time.md)**: SSTF가 줄이고자 하는 유일한 목표.
-- **[SCAN 스케줄링](./xx_scan_scheduling.md)**: SSTF의 기아 현상을 해결한 대안.
-- **[기아 현상 (Starvation)](./xx_starvation.md)**: SSTF가 해결해야 할 최대 과제.
+- **탐색 시간 (Seek Time)**: SSTF가 줄이고자 하는 유일한 목표.
+- **SCAN 스케줄링**: SSTF의 기아 현상을 해결한 대안.
+- **기아 현상 (Starvation)**: SSTF가 해결해야 할 최대 과제.
 
 ---
 

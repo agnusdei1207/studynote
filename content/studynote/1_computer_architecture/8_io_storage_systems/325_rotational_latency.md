@@ -1,8 +1,7 @@
----
 +++
-weight = 325
 title = "325. 회전 지연 (Rotational Latency)"
 date = "2026-03-11"
+weight = 325
 [extra]
 categories = "studynote-computer-architecture"
 keywords = ["컴퓨터구조", "HDD", "회전 지연", "Rotational Latency", "RPM"]
@@ -15,7 +14,7 @@ keywords = ["컴퓨터구조", "HDD", "회전 지연", "Rotational Latency", "RP
 > 2. **가치**: 저장 장치의 **RPM (Revolutions Per Minute)** 설계가 곧 I/O 성능의 결정적 병목 구간(Bottleneck)이 되며, SSD (Solid State Drive)와의 결정적 성능 격차를 만드는 근원적인 물리 한계입니다.
 > 3. **융합**: OS (Operating System)의 **Disk Scheduling Algorithm (디스크 스케줄링 알고리즘)** 성능 평가의 주요 지표로 활용되며, 데이터베이스의 **RAID (Redundant Array of Independent Disks)** 구성 및 데이터 배치 전략에 직접적인 영향을 미칩니다.
 
----
++++
 
 ### Ⅰ. 개요 (Context & Background)
 
@@ -33,7 +32,7 @@ keywords = ["컴퓨터구조", "HDD", "회전 지연", "Rotational Latency", "RP
 **📢 섹션 요약 비유**
 > 복잡한 고속도로 톨게이트에서 차량이 하이패스 차선(트랙)까지 진입하는 시간(탐색 시간)을 마친 후, 회전식 게이트가 돌아아 차량이 통과할 수 있는 틈이 발생할 때까지 기다리는 시간과 같습니다.
 
----
++++
 
 ### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -119,7 +118,7 @@ calculate_io_access_time(7200, 8.0)
 **📢 섹션 요약 비유**
 > 마치 롤러코스터가 승강장(트랙)에 진입한 후, 탑승구(섹터)가 정확히 앞에 멈출 때까지 기다리는 시간과 같습니다. 롤러코스터(플래터) 속도가 빠를수록(RPM 상승) 대기 시간은 그만큼 줄어듭니다.
 
----
++++
 
 ### Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -148,7 +147,7 @@ calculate_io_access_time(7200, 8.0)
 **📢 섹션 요약 비유**
 > 여러 대의 버스(HDD)가 승객(데이터)을 실어 나르는 시스템에서, 각 버스가 출발하기 위해 번호표 순서를 기다리는 시간(회전 지연)이 눈에 띕니다. 버스가 많을수록(RAID) 대기 시간을 상쇄할 수 있지만, 기본적으로 한 대의 버스가 정류장에 멈춰 있는 시간을 없앨 수는 없습니다.
 
----
++++
 
 ### Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 

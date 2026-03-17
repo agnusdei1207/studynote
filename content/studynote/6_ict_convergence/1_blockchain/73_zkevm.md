@@ -1,10 +1,9 @@
----
-title: "[ICT] #74. zkEVM (Zero-Knowledge Ethereum Virtual Machine)"
-date: "2026-03-17"
++++
+title = "[ICT] #74. zkEVM (Zero-Knowledge Ethereum Virtual Machine)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "zkEVM_ZeroKnowledge_EVM_Compatibility_ValidityProof_Rollup_Scalability"
----
+keyword = "zkEVM_ZeroKnowledge_EVM_Compatibility_ValidityProof_Rollup_Scalability"
++++
 
 # zkEVM: 이더리움의 생태계와 영지식의 보안이 만나는 기술적 성배
 
@@ -13,7 +12,7 @@ keyword: "zkEVM_ZeroKnowledge_EVM_Compatibility_ValidityProof_Rollup_Scalability
 > 2. **가치**: 기존 이더리움 개발 도구와 솔리디티(Solidity) 코드를 그대로 사용하면서도, **즉각적 완결성**과 강력한 보안을 제공하는 ZK 롤업의 혜택을 누릴 수 있게 한다.
 > 3. **융합**: 고도의 암호학 산술 회로(Arithmetic Circuit)와 이더리움의 상태 기계 로직이 결합된 기술이며, 호환성 수준에 따라 Type 1~4로 분류되어 이더리움 확장성 로드맵의 최종 단계로 평가받는다.
 
----
++++
 
 ## Ⅰ. zkEVM (Zero-Knowledge EVM) 개요
 
@@ -31,7 +30,7 @@ keyword: "zkEVM_ZeroKnowledge_EVM_Compatibility_ValidityProof_Rollup_Scalability
 
 📢 **섹션 요약 비유**: 이더리움이라는 '익숙한 집'의 구조는 그대로 유지하면서, 벽과 기둥을 영지식이라는 '무적의 강철'로 교체하여 성능과 보안을 동시에 잡은 리모델링 기술입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 호환성 분류 (Deep Dive)
 
@@ -80,7 +79,7 @@ zkEVM은 두 갈래로 일을 한다. 한쪽에서는 일반 EVM처럼 코드를
 
 📢 **섹션 요약 비유**: 수만 번의 덧셈을 직접 하지 않고, 미리 만들어둔 '구구단 표'에서 답을 찾아보는 것처럼 연산 효율을 높이는 암호학적 기법이 숨어 있습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -100,7 +99,7 @@ zkEVM은 두 갈래로 일을 한다. 한쪽에서는 일반 EVM처럼 코드를
 
 📢 **섹션 요약 비유**: 일반 EVM이 '모든 사람이 다 같이 문제를 푸는 교실'이라면, zkEVM은 '천재 한 명이 풀고 정답과 해설지를 나눠주는 시스템'과 같은 효율의 차이가 있습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -114,7 +113,7 @@ zkEVM은 두 갈래로 일을 한다. 한쪽에서는 일반 EVM처럼 코드를
 
 📢 **섹션 요약 비유**: 최고의 성능을 내기 위해 경주용 차(Type 4)를 탈지, 승차감이 좋은 세단(Type 2)을 탈지를 비즈니스 도로 상황(요구사항)에 맞춰 골라주는 능력이 필요합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -128,13 +127,13 @@ zkEVM은 두 갈래로 일을 한다. 한쪽에서는 일반 EVM처럼 코드를
 
 📢 **섹션 요약 비유**: zkEVM은 블록체인이 마침내 '느리고 어려운 실험실 기술'에서 벗어나, 전 세계 모든 정보를 담을 수 있는 **'완벽한 디지털 엔진'**으로 완성되는 과정입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[EVM (이더리움 가상머신)](./22_evm.md)**: zkEVM의 기반이 되는 모태 환경.
-- **[ZK 롤업 (ZK Rollup)](./44_zk_rollup.md)**: zkEVM 기술이 가장 활발히 쓰이는 응용 분야.
-- **[영지식 증명 (ZKP)](./36_zero_knowledge_proof.md)**: zkEVM의 핵심 수학 원리.
-- **[솔리디티 (Solidity)](./57_solidity.md)**: zkEVM 상에서 돌아가는 주력 언어.
+- **EVM (이더리움 가상머신)**: zkEVM의 기반이 되는 모태 환경.
+- **ZK 롤업 (ZK Rollup)**: zkEVM 기술이 가장 활발히 쓰이는 응용 분야.
+- **영지식 증명 (ZKP)**: zkEVM의 핵심 수학 원리.
+- **솔리디티 (Solidity)**: zkEVM 상에서 돌아가는 주력 언어.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **마법의 복사기**: 이더리움 학교의 복잡한 일기장 숙제를 1초 만에 복사하면서, "이건 진짜 제가 쓴 게 맞아요!"라고 수학 요정의 도장까지 쾅 찍어주는 마법 복사기예요.

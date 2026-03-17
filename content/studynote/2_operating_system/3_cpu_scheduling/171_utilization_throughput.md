@@ -1,4 +1,3 @@
----
 +++
 title = "[OS] 171. CPU 이용률 (Utilization) 및 처리량 (Throughput)"
 date = "2026-03-04"
@@ -14,7 +13,7 @@ tags = ["CPU Utilization", "Throughput", "Scheduling Criteria"]
 > 2. **가치**: **멀티프로그래밍 (Multiprogramming)** 환경에서 CPU를 유휴 상태(Idling)로 두지 않고 최대한 가동하여 서비스 수준 계약(SLA)을 준수하고, 서버 수용력(Capacity) 계산의 근거가 되어 투자 대비(ROI) 성과를 극대화함.
 > 3. **융합**: 단순한 OS 지표를 넘어 클라우드 오토스케일링(Auto-scaling) 정책의 트리거, 성능 테스트(Stress Test)의 병목 식별 기준, 그리고 비용 절감을 위한 리소스 라이선싱(Right-sizing)의 핵심 데이터로 활용됨.
 
----
++++
 
 ### Ⅰ. 개요 (Context & Background) - [500자+]
 
@@ -37,7 +36,7 @@ tags = ["CPU Utilization", "Throughput", "Scheduling Criteria"]
 **📢 섹션 요약 비유: 고속도로 톨게이트 관제소**
 CPU 스케줄링의 이용률과 처리량 관리는, **복잡한 고속도로 톨게이트에서 8개 차로를 모두 24시간 내내 가동(CPU Utilization 극대화)시켜 차량이 멈추지 않게 하면서도, 1시간당 통과시키는 차량 대수(Throughput 극대화)를 최대화하는 것과 같습니다. 차로(CPU)가 비어 있으면 국고 손실(이용률 저하)이지만, 차량이 너무 몰려들어 아예 못 움직이면(혼잡) 처리량 자체가 0이 되어버립니다.**
 
----
++++
 
 ### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive) - [1,000자+]
 
@@ -145,7 +144,7 @@ double get_cpu_utilization() {
 **📢 섹션 요약 비유: 피자 가게 주방 라인**
 CPU는 피자 굽는 오븐이자 요리사입니다. 이용률을 높이려면 요리사가 도을 깎거나 청소하는 동안(Idling) 다른 주문을 받아서 채워야 합니다. 하지만 무조건 주문만 받아대면(Ready Queue 길어짐) 주방이 혼잡해져 오히려 피자 구워 나가는 속도(처리량)가 느려집니다. 재료를 손질하는 시간(I/O)과 굽는 시간(CPU Burst)이 섞인 주문들을 잘 섞어서 오븐이 돌아가는 시간을 채우는 것이 핵심입니다.**
 
----
++++
 
 ### Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy) - [비교표 2개+]
 

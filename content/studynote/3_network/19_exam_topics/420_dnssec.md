@@ -1,5 +1,6 @@
 +++
 title = "DNSSEC - DNS 보안 확장"
+date = "2026-03-14"
 weight = 420
 +++
 
@@ -143,10 +144,10 @@ DNSSEC는 DNS 응답의 무결성과 출처를 보증합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [DNS](./308_dns.md)
-- [DoH/DoT](./349_doh_dot.md)
-- [PKI](./387_pki.md)
-- [DNS Spoofing](./9_security/166_dns_spoofing.md)
+- DNS
+- DoH/DoT
+- PKI
+- DNS Spoofing
 
 ---
 

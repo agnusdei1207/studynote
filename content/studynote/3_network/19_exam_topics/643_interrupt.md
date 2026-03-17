@@ -1,5 +1,6 @@
 +++
 title = "Interrupt - 인터럽트"
+date = "2026-03-14"
 weight = 643
 +++
 
@@ -103,6 +104,6 @@ Interrupt는 CPU에 비동기 이벤트를 알립니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [ISR](./644_isr.md)
-- [Exception](./645_exception.md)
-- [System Call](./646_system_call.md)
+- ISR
+- Exception
+- System Call

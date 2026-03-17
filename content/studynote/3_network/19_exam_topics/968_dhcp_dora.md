@@ -1,5 +1,6 @@
 +++
 title = "DHCP DORA - DHCP DORA 프로세스"
+date = "2026-03-14"
 weight = 968
 +++
 
@@ -113,6 +114,6 @@ DORA는 DHCP IP 할당의 4단계 과정입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [DHCP](./886_dhcp.md)
-- [IP Address](./xxx_ip_address.md)
-- [Lease](./xxx_lease.md)
+- DHCP
+- IP Address
+- Lease

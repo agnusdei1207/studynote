@@ -1,7 +1,6 @@
 +++
 title = "Zola + Pagefind로 GitHub Pages 검색 구현 완전 가이드"
-date = 2026-02-28
-
+date = "2026-02-28"
 [extra]
 categories = "devops"
 +++
@@ -736,8 +735,8 @@ GitHub Pages 설정에서 Jekyll 빌더가 기본 활성화된 경우, 우리 Zo
 
 ## 참고
 
-- [Zola 공식 문서](https://www.getzola.org/documentation/)
-- [Tera 템플릿 문서](https://keats.github.io/tera/)
-- [Pagefind 공식 문서](https://pagefind.app/)
-- [Zola GitHub Releases](https://github.com/getzola/zola/releases)
-- [actions/deploy-pages](https://github.com/actions/deploy-pages)
+- Zola 공식 문서
+- Tera 템플릿 문서
+- Pagefind 공식 문서
+- Zola GitHub Releases
+- actions/deploy-pages

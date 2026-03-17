@@ -1,5 +1,6 @@
 +++
 title = "BASE - BASE 속성"
+date = "2026-03-14"
 weight = 688
 +++
 
@@ -101,6 +102,6 @@ BASE는 NoSQL 시스템의 일관성 모델입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [ACID](./630_acid.md)
-- [CAP Theorem](./687_cap_theorem.md)
-- [NoSQL](./686_nosql.md)
+- ACID
+- CAP Theorem
+- NoSQL

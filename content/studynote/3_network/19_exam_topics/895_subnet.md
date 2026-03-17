@@ -1,5 +1,6 @@
 +++
 title = "Subnet - 서브넷"
+date = "2026-03-14"
 weight = 895
 +++
 
@@ -107,6 +108,6 @@ Subnet은 큰 네트워크를 작은 네트워크로 분할합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [IP Address](./xxx_ip_address.md)
-- [CIDR](./xxx_cidr.md)
-- [VLSM](./xxx_vlsm.md)
+- IP Address
+- CIDR
+- VLSM

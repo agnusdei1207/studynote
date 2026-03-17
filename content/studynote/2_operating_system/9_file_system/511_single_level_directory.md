@@ -1,6 +1,7 @@
 +++
-weight = 511
 title = "511. 1단계 디렉터리 (Single-level Directory)"
+date = "2026-03-14"
+weight = 511
 +++
 
 # 511. 1단계 디렉터리 (Single-level Directory)

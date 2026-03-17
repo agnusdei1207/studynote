@@ -1,5 +1,6 @@
 +++
 title = "Bandwidth - 대역폭"
+date = "2026-03-14"
 weight = 803
 +++
 
@@ -105,6 +106,6 @@ Bandwidth는 최대 전송 용량입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Throughput](./802_throughput.md)
-- [Latency](./801_latency.md)
-- [QoS](./xxx_qos.md)
+- Throughput
+- Latency
+- QoS

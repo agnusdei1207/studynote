@@ -1,7 +1,7 @@
----
-title: "478. Broken Access Control (취약한 접근 제어)"
-date: 2026-03-15
----
++++
+title = "478. Broken Access Control (취약한 접근 제어)"
+date = "2026-03-15"
++++
 
 # 478. Broken Access Control (취약한 접근 제어)
 
@@ -158,10 +158,10 @@ IDOR (Insecure Direct Object Reference)는 접근 제어 실패의 가장 대표
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[OWASP Top 10 (A01)](./477_owasp_top_10.md)**: 접근 제어 실패가 1위로 등재된 표준 리포트
-- **[RBAC / ABAC](./xx_rbac_abac.md)**: 접근 제어를 구현하는 핵심 모델
-- **[IDOR (Insecure Direct Object Reference)](./xx_idor.md)**: 접근 제어 실패의 가장 흔한 공격 사례
-- **[Zero Trust](./xx_zero_trust.md)**: 현대 보안의 근간이 되는 "아무도 믿지 않는" 접근 철학
+- **OWASP Top 10 (A01)**: 접근 제어 실패가 1위로 등재된 표준 리포트
+- **RBAC / ABAC**: 접근 제어를 구현하는 핵심 모델
+- **IDOR (Insecure Direct Object Reference)**: 접근 제어 실패의 가장 흔한 공격 사례
+- **Zero Trust**: 현대 보안의 근간이 되는 "아무도 믿지 않는" 접근 철학
 
 ---
 

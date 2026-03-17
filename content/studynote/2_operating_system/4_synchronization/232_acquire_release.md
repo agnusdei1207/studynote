@@ -1,7 +1,7 @@
 +++
 title = "232. acquire() / release() 함수"
-weight = 232
 date = "2026-03-04"
+weight = 232
 [extra]
 categories = "studynote-operating-system"
 +++
@@ -13,7 +13,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 복잡한 하드웨어 명령어 (TAS, CAS 등)를 사용자 수준에서 직관적으로 사용할 수 있도록 캡슐화하여, 개발자가 원자성 보장이라는 낮은 수준의 세부 사항에 매몰되지 않게 한다.
 > 3. **융합**: 이 함수들은 모던 프로그래밍 언어의 RAII (Resource Acquisition Is Initialization) 패턴이나 Java의 `synchronized`, C++의 `std::lock_guard` 등의 근간이 되는 논리 구조다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -23,7 +23,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 마치 놀이기구를 타기 위해 입구에서 안전바를 내리는 것(acquire)과, 운행이 끝난 후 안전바를 올려 하차하는 것(release)의 쌍으로 이루어진 안전 절차와 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -73,7 +73,7 @@ void release(mutex *m) {
 
 - **📢 섹션 요약 비유**: 마치 예약제 식당에서 예약 여부를 확인하고 자리를 차지하는 것(acquire)과, 식사를 마친 후 계산을 하고 자리를 비워주는 것(release)의 엄격한 순서 보장과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -88,7 +88,7 @@ void release(mutex *m) {
 
 - **📢 섹션 요약 비유**: 인터럽트 비활성화가 도시 전체의 전기를 끊어버리는 방식이라면, acquire/release는 특정 방의 불만 끄고 켜는 정밀한 제어 방식입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -99,7 +99,7 @@ void release(mutex *m) {
 
 - **📢 섹션 요약 비유**: 도서관 대출증(acquire)은 있는데 책을 반납(release)하지 않아 뒷사람이 영영 책을 못 보는 상황을 막기 위해, 일정 시간이 지나면 자동 반납 처리되는 시스템을 갖추는 것과 같습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 

@@ -1,5 +1,6 @@
 +++
 title = "폴딩 주파수 (Folding Frequency)"
+date = "2026-03-14"
 weight = 58
 +++
 
@@ -142,10 +143,10 @@ weight = 58
 ---
 
 ### 📌 관련 개념 링크**:
-- [표본화 Sampling](./56_sampling.md)
-- [에일리어싱 Aliasing](./57_aliasing.md)
-- [Nyquist 용량](./20_nyquist_capacity.md)
-- [저역 통과 필터 LPF](./205_lpf_low_pass.md)
+- 표본화 Sampling
+- 에일리어싱 Aliasing
+- Nyquist 용량
+- 저역 통과 필터 LPF
 
 ---
 

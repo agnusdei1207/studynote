@@ -1,5 +1,6 @@
 +++
 title = "Replication - 복제"
+date = "2026-03-14"
 weight = 690
 +++
 
@@ -102,6 +103,6 @@ Replication은 데이터를 여러 노드에 복사합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Eventual Consistency](./689_eventual_consistency.md)
-- [Sharding](./691_sharding.md)
-- [High Availability](./586_high_availability.md)
+- Eventual Consistency
+- Sharding
+- High Availability

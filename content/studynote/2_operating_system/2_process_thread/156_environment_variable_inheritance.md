@@ -1,6 +1,7 @@
 +++
-weight = 156
 title = "156. 환경 변수 (Environment Variables) 상속"
+date = "2026-03-14"
+weight = 156
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -141,10 +142,10 @@ title = "156. 환경 변수 (Environment Variables) 상속"
 ---
 
 ### 📌 관련 개념 맵
-- **[fork/exec 시스템 콜](./104_process_creation.md)**: 환경 변수가 상속되는 실제 시점.
-- **[동적 링커 (ld.so)](./155_dynamic_linking_ld_so.md)**: `LD_LIBRARY_PATH` 변수를 참조하는 핵심 주체.
-- **[도커 (Docker)](../13_cloud_architecture/xx_docker.md)**: 환경 변수를 통한 설정 주입을 극대화한 플랫폼.
-- **[프로세스 주소 공간 (Process Address Space)](./82_process_memory_structure.md)**: 환경 변수가 물리적으로 저장되는 장소.
+- **fork/exec 시스템 콜**: 환경 변수가 상속되는 실제 시점.
+- **동적 링커 (ld.so)**: `LD_LIBRARY_PATH` 변수를 참조하는 핵심 주체.
+- **도커 (Docker)**: 환경 변수를 통한 설정 주입을 극대화한 플랫폼.
+- **프로세스 주소 공간 (Process Address Space)**: 환경 변수가 물리적으로 저장되는 장소.
 
 ---
 

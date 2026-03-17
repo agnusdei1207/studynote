@@ -1,5 +1,6 @@
 +++
 title = "DiffServ - 차별화 서비스"
+date = "2026-03-14"
 weight = 857
 +++
 
@@ -110,6 +111,6 @@ DiffServ (Differentiated Services)는 네트워크 코어에서 QoS를 제공합
 ---
 
 ### 📌 관련 개념 링크**:
-- [QoS](./855_qos.md)
-- [IntServ](./xxx_intserv.md)
-- [DSCP](./xxx_dscp.md)
+- QoS
+- IntServ
+- DSCP

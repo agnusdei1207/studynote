@@ -1,5 +1,6 @@
 +++
 title = "Timeout - 타임아웃"
+date = "2026-03-14"
 weight = 846
 +++
 
@@ -106,6 +107,6 @@ Timeout은 대기 시간의 상한입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Retransmission](./xxx_retransmission.md)
-- [RTT](./xxx_rtt.md)
-- [Retry](./xxx_retry.md)
+- Retransmission
+- RTT
+- Retry

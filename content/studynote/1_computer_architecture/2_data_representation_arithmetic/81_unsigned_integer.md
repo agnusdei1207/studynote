@@ -1,6 +1,7 @@
 +++
-weight = 81
 title = "81. 부호 없는 정수 (Unsigned Integer)"
+date = "2026-03-14"
+weight = 81
 +++
 
 # 부호 없는 정수 (Unsigned Integer)
@@ -155,4 +156,3 @@ for (unsigned int i = 10; i >= 0; i--) {  // i는 항상 0 이상이므로 무�
 ```c
 int signed_val = -1;                  // 32비트 -1 (0xFFFFFFFF)
 unsigned int unsigned_val = 10;       // 32비트 10 (0x0000000A)
-

@@ -1,5 +1,6 @@
 +++
 title = "IntServ - 통합 서비스"
+date = "2026-03-14"
 weight = 858
 +++
 
@@ -107,6 +108,6 @@ IntServ (Integrated Services)는 종단간 자원을 예약합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [DiffServ](./857_diffserv.md)
-- [RSVP](./xxx_rsvp.md)
-- [QoS](./855_qos.md)
+- DiffServ
+- RSVP
+- QoS

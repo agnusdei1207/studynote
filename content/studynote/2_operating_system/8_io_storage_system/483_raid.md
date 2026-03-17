@@ -1,6 +1,7 @@
 +++
-weight = 483
 title = "483. RAID (Redundant Array of Independent Disks)"
+date = "2026-03-14"
+weight = 483
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -108,9 +109,9 @@ title = "483. RAID (Redundant Array of Independent Disks)"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[RAID 0 (스트라이핑)](./484_raid_0.md)**: 성능 극대화 모델.
-- **[RAID 1 (미러링)](./485_raid_1.md)**: 데이터 복제 모델.
-- **[RAID 5 (분산 패리티)](./487_raid_5.md)**: 가장 널리 쓰이는 균형 모델.
+- **RAID 0 (스트라이핑)**: 성능 극대화 모델.
+- **RAID 1 (미러링)**: 데이터 복제 모델.
+- **RAID 5 (분산 패리티)**: 가장 널리 쓰이는 균형 모델.
 
 ---
 

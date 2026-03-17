@@ -1,5 +1,6 @@
 +++
 title = "Replication - 복제"
+date = "2026-03-14"
 weight = 790
 +++
 
@@ -99,6 +100,6 @@ Replication은 데이터를 복제합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [High Availability](./785_high_availability.md)
-- [Disaster Recovery](./786_disaster_recovery.md)
-- [Database Replication](./xxx_db_replication.md)
+- High Availability
+- Disaster Recovery
+- Database Replication

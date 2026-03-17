@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: SSRF 🥉 Bronze"
-description = "LUXORA 플랫폼의 기본 SSRF(Server-Side Request Forgery) 취약점을 통한 내부망(Localhost) 포트 스캐닝 및 데이터 탈취 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "SSRF", "Bronze", "Internal Network", "Write-up"]

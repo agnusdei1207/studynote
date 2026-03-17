@@ -1,5 +1,6 @@
 +++
 title = "iSCSI - IP 기반 스토리지"
+date = "2026-03-14"
 weight = 286
 +++
 
@@ -152,10 +153,10 @@ iSCSI(Internet Small Computer System Interface)는 IP 네트워크를 통해 SCS
 ---
 
 ### 📌 관련 개념 링크**:
-- [SAN](./285_san.md)
-- [Fibre Channel](./287_fibre_channel.md)
-- [NFS](./288_nfs.md)
-- [RAID](./284_raid.md)
+- SAN
+- Fibre Channel
+- NFS
+- RAID
 
 ---
 

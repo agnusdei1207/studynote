@@ -1,5 +1,6 @@
 +++
 title = "reverse engineering"
+date = "2026-03-14"
 weight = 780
 +++
 
@@ -137,10 +138,10 @@ weight = 780
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [DPA (Differential Power Analysis)](./778_dpa.md)
-- [EMA (Electromagnetic Analysis)](./779_ema.md)
-- [EMFI (Electromagnetic Fault Injection)](./773_emfi.md)
-- [하드웨어 보안 모듈 HSM](./781_hsm.md)
+- DPA (Differential Power Analysis)
+- EMA (Electromagnetic Analysis)
+- EMFI (Electromagnetic Fault Injection)
+- 하드웨어 보안 모듈 HSM
 
 ---
 

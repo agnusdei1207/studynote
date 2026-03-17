@@ -1,5 +1,6 @@
 +++
 title = "FDMA (주파수 분할 다중 접속)"
+date = "2026-03-14"
 weight = 88
 +++
 
@@ -144,10 +145,10 @@ FDMA(Frequency Division Multiple Access)는 사용 가능한 주파수 대역을
 ---
 
 ### 📌 관련 개념 링크**:
-- [다중 접속 Multiple Access](./87_multiple_access.md)
-- [FDM 주파수 분할](./73_fdm_frequency.md)
-- [TDMA 시분할 접속](./89_tdma.md)
-- [OFDMA 직교 접속](./94_ofdma.md)
+- 다중 접속 Multiple Access
+- FDM 주파수 분할
+- TDMA 시분할 접속
+- OFDMA 직교 접속
 
 ---
 

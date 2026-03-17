@@ -1,5 +1,6 @@
 +++
 title = "worm storage"
+date = "2026-03-14"
 weight = 693
 +++
 
@@ -433,11 +434,11 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [테이프 라이브러리](./692_tape_library.md) - WORM 테이프 구현
-- [광 디스크 주크박스](./694_optical_disc_jukebox.md) - 물리적 WORM 미디어
-- [데이터 무결성](./data_integrity.md) - 해시 검증, 체크섬
-- [규제 준수 스토리지](./compliance_storage.md) - 법적 요구사항
-- [랜섬웨어 방어](./ransomware_protection.md) - 에어갭, 불변 백업
+- 테이프 라이브러리 - WORM 테이프 구현
+- 광 디스크 주크박스 - 물리적 WORM 미디어
+- 데이터 무결성 - 해시 검증, 체크섬
+- 규제 준수 스토리지 - 법적 요구사항
+- 랜섬웨어 방어 - 에어갭, 불변 백업
 
 ---
 

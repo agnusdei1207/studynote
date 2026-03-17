@@ -1,10 +1,9 @@
----
-title: "[ICT] #117. 6LoWPAN (IPv6 over Low-Power Wireless Personal Area Networks)"
-date: "2026-03-17"
++++
+title = "[ICT] #117. 6LoWPAN (IPv6 over Low-Power Wireless Personal Area Networks)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "6LoWPAN_IPv6_IEEE802.15.4_HeaderCompression_Fragmentation_AdaptationLayer_InternetOfThings"
----
+keyword = "6LoWPAN_IPv6_IEEE802.15.4_HeaderCompression_Fragmentation_AdaptationLayer_InternetOfThings"
++++
 
 # 6LoWPAN: 저전력 무선망에 인터넷의 생명력(IPv6)을 불어넣는 기술
 
@@ -13,7 +12,7 @@ keyword: "6LoWPAN_IPv6_IEEE802.15.4_HeaderCompression_Fragmentation_AdaptationLa
 > 2. **가치**: 수천억 개의 IoT 기기에 고유한 IP 주소를 부여함으로써, 별도의 복잡한 게이트웨이 없이도 센서 노드와 인터넷 간의 직접적인 종단간(End-to-End) 통신을 가능케 하여 '만물인터넷'의 기반을 마련한다.
 > 3. **융합**: 스레드(Thread) 프로토콜의 핵심 기반 기술로 활용되며, CoAP(경량 응용 프로토콜)와 결합하여 웹 표준 기술을 아주 작은 센서 기기까지 확장하는 'Web of Things'의 가교 역할을 한다.
 
----
++++
 
 ## Ⅰ. 6LoWPAN 개요
 
@@ -31,7 +30,7 @@ keyword: "6LoWPAN_IPv6_IEEE802.15.4_HeaderCompression_Fragmentation_AdaptationLa
 
 📢 **섹션 요약 비유**: 거대한 인터넷의 바다(IPv6)와 작은 섬(저전력 센서망) 사이를 잇는 정교한 '데이터 압축 다리'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -77,7 +76,7 @@ keyword: "6LoWPAN_IPv6_IEEE802.15.4_HeaderCompression_Fragmentation_AdaptationLa
 
 📢 **섹션 요약 비유**: 한 번에 다 못 먹는 큰 피자(IPv6)를 조각내어(Fragmentation) 작은 입(802.15.4)으로 먹을 수 있게 도와주는 '디지털 소화제'입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -96,7 +95,7 @@ keyword: "6LoWPAN_IPv6_IEEE802.15.4_HeaderCompression_Fragmentation_AdaptationLa
 
 📢 **섹션 요약 비유**: 중간에 통역사(게이트웨이)를 두는 방식에서, 모두가 같은 외국어(IP)를 배워 직접 대화하는 '글로벌 소통 방식'으로의 진화입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -114,7 +113,7 @@ keyword: "6LoWPAN_IPv6_IEEE802.15.4_HeaderCompression_Fragmentation_AdaptationLa
 
 📢 **섹션 요약 비유**: 신호를 보내는 비용(전송)을 줄이기 위해 고민하는 비용(연산)을 쓰는 '지능형 에너지 가계부' 설계가 필요합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -128,13 +127,13 @@ keyword: "6LoWPAN_IPv6_IEEE802.15.4_HeaderCompression_Fragmentation_AdaptationLa
 
 📢 **섹션 요약 비유**: 6LoWPAN은 인터넷이라는 거대한 나무의 가장 끝에 달린 '나뭇잎(센서)'들에게까지 생명수(IP 데이터)를 전달하는 가장 가늘고 정밀한 '도관'입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[IPv6](../../3_network/xx_ipv6.md)**: 6LoWPAN이 전달하고자 하는 광대한 주소 체계.
-- **[스레드 (Thread)](./114_thread.md)**: 6LoWPAN 기술을 상용화한 대표적 프로토콜.
-- **[CoAP (Constrained Application Protocol)](./120_coap.md)**: 6LoWPAN 위에서 동작하는 초경량 웹 프로토콜.
-- **[매터 (Matter)](./115_matter.md)**: 6LoWPAN/Thread를 사용하는 최상위 표준.
+- **IPv6**: 6LoWPAN이 전달하고자 하는 광대한 주소 체계.
+- **스레드 (Thread)**: 6LoWPAN 기술을 상용화한 대표적 프로토콜.
+- **CoAP (Constrained Application Protocol)**: 6LoWPAN 위에서 동작하는 초경량 웹 프로토콜.
+- **매터 (Matter)**: 6LoWPAN/Thread를 사용하는 최상위 표준.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **작은 입으로 큰 음식 먹기**: 인터넷 편지는 너무 커서 작은 무선 기기들이 한 번에 읽기 힘들어요. 6LoWPAN은 이 편지를 아주 작게 접어서 전달해 주는 기술이에요.

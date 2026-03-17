@@ -1,5 +1,6 @@
 +++
 title = "CQRS - 명령 조회 책임 분리"
+date = "2026-03-14"
 weight = 625
 +++
 
@@ -100,6 +101,6 @@ CQRS는 Command와 Query를 분리하는 패턴입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Event Driven](./624_event_driven.md)
-- [Event Sourcing](./626_event_sourcing.md)
-- [Microservices](./617_microservices.md)
+- Event Driven
+- Event Sourcing
+- Microservices

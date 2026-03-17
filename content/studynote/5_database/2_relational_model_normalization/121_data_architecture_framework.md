@@ -1,7 +1,6 @@
 +++
 title = "121. 데이터 아키텍처 프레임워크 - Zachman 프레임워크와 DA"
 date = "2026-03-16"
-draft = false
 weight = 121
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["Data Architecture", "DA", "Zachman Framework", "EA", "데이터 아
 > 2. **Zachman의 철학**: 1980년대 존 자크먼이 제안한 프레임워크로, 정보 시스템을 구성하는 구성 요소들을 6x6 매트릭스 구조로 시각화하여 데이터 아키텍처(DA)가 전체 **EA(Enterprise Architecture)** 내에서 차지하는 위치와 역할을 명확히 한다.
 > 3. **가치**: 비즈니스 전략과 IT 인프라 사이의 간극을 메우며, 데이터의 중복을 방지하고 상호 운용성을 확보하여 복잡한 엔터프라이즈 환경에서의 **데이터 거버넌스**를 실현하는 나침반이 된다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -47,7 +46,7 @@ keywords = ["Data Architecture", "DA", "Zachman Framework", "EA", "데이터 아
 
 - **📢 섹션 요약 비유**: DA 프레임워크는 흩어진 퍼즐 조각들이 제자리를 찾을 수 있도록 밑바닥에 그려진 '퍼즐 가이드 라인'과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -94,7 +93,7 @@ keywords = ["Data Architecture", "DA", "Zachman Framework", "EA", "데이터 아
 
 - **📢 섹션 요약 비유**: 관점의 분리는 '건축주와 인부가 쓰는 용어가 달라도, 도면(프레임워크) 하나로 소통하는 것'과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -113,7 +112,7 @@ keywords = ["Data Architecture", "DA", "Zachman Framework", "EA", "데이터 아
 
 - **📢 섹션 요약 비유**: Zachman이 '지도 제작법'이라면, TOGAF는 '실제 여행(개발)을 떠나는 경로'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -132,7 +131,7 @@ keywords = ["Data Architecture", "DA", "Zachman Framework", "EA", "데이터 아
 
 - **📢 섹션 요약 비유**: 프레임워크 활용은 '모든 물건에 주소를 부여하는 것'과 같아, 처음엔 힘들지만 정착되면 물건 찾는 시간이 0초에 수렴하게 됩니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -150,15 +149,15 @@ keywords = ["Data Architecture", "DA", "Zachman Framework", "EA", "데이터 아
 
 - **📢 섹션 요약 비유**: 미래의 프레임워크는 굳어있는 표가 아니라, 데이터의 흐름에 따라 스스로 선을 긋고 영역을 넓히는 '살아있는 홀로그램 지도'가 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[데이터 거버넌스](./124_data_governance.md)**: 프레임워크를 운영하는 조직적 힘.
-- **[메타데이터 관리](./125_metadata_management.md)**: 프레임워크의 각 칸을 채우는 정보.
-- **[데이터 모델링](./94_data_modeling_steps.md)**: 프레임워크의 'What' 열을 구체화하는 활동.
-- **[EA (Enterprise Architecture)](@/studynote/12_it_management/_index.md)**: DA 프레임워크가 속한 상위 체계.
+- **데이터 거버넌스**: 프레임워크를 운영하는 조직적 힘.
+- **메타데이터 관리**: 프레임워크의 각 칸을 채우는 정보.
+- **데이터 모델링**: 프레임워크의 'What' 열을 구체화하는 활동.
+- **EA (Enterprise Architecture)**: DA 프레임워크가 속한 상위 체계.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **데이터 아키텍처 프레임워크**는 전교생이 사용하는 거대한 도서관을 지을 때 정한 **"아주 커다란 정리 규칙"**이에요.

@@ -1,8 +1,10 @@
 +++
-weight = 510
 title = "510. 스누핑 버스 병목 현상 (Snooping Bus Bottleneck)"
+date = "2026-03-14"
+weight = 510
 [extra]
 category = "studynote-computer-architecture"
+date = "2026-03-14"
 +++
 
 # Snooping Bus Bottleneck
@@ -11,7 +13,7 @@ category = "studynote-computer-architecture"
 > 2. **가치**: 이 병목 현상을 이해하는 것은 공유 버스 기반의 스누핑 프로토콜(MESI 등)에서 디렉터리 기반 프로토콜(Directory-based)이나 메시 인터커넥트(Mesh Interconnect)로 아키텍처를 전환해야 하는 설계적 근거가 된다.
 > 3. **융합**: 멀티코어 확장성(Scalability), 스누핑 기반 MESI 프로토콜, 공유 버스 아키텍처, 그리고 대역폭 제한(Bandwidth Constraint) 문제와 밀접하게 연동된다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -26,7 +28,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 소통 창구가 하나뿐이라서 사람이 늘어날수록 말이 꼬이고 늦어지는 '중앙 집중식 소통의 한계'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -42,7 +44,7 @@ category = "studynote-computer-architecture"
 | **Tag Array** | 캐시 데이터 상태(MESI) 보관 | 빈번한 스누핑 요청으로 인해 코어의 캐시 접근 방해 | 서류 보관함 열람 빈도 |
 | **Bus Arbiter** | 버스 사용 권한 중재 | 사용 요청이 폭주하여 중재 시간이 길어짐 | 말할 순서를 정하는 사회자 |
 
----
++++
 
 ### 스누핑 기반 병목 현상의 시각화
 
@@ -76,7 +78,7 @@ category = "studynote-computer-architecture"
 
 **[다이어그램 해설]** 스누핑 방식은 어떤 코어가 데이터를 수정하면 "내가 이 데이터를 바꿨으니 나머지는 다 지워!"라는 무효화(Invalidation) 신호를 모든 코어에 동시에 보낸다(Broadcasting). 코어가 2개일 때는 신호가 하나만 가면 되지만, 코어가 8개면 한 번의 수정에 7개의 신호가 버스를 점유한다. 모든 코어가 각자 데이터를 수정하려 한다면 버스는 금세 마비된다. 위 그래프에서 보듯, 특정 임계점(보통 4~8코어)을 넘어가면 코어를 더 추가해도 통신 오버헤드 때문에 전체 성능이 더 이상 올라가지 않는 '확장성 벽(Scalability Wall)'에 부딪히게 된다. 이것이 현대의 서버용 CPU가 단순 버스 방식을 버리고 메시(Mesh)나 디렉터리(Directory) 방식을 쓰는 근본적 이유다.
 
----
++++
 
 ### 심층 동작 원리: 스누핑 트래픽의 종류
 
@@ -86,7 +88,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 시장 한복판에서 모두가 고함을 지르며 물건을 파는 것과 같아서, 사람이 많아지면 시끄러워서(트래픽) 대화(연산)가 안 되는 상황입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -102,7 +104,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 단톡방에 다 소리 지르기(스누핑)와 필요한 사람에게만 갠톡(디렉터리) 보내기의 차이입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -117,7 +119,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 단톡방 알림을 끄거나(Snoop Filter), 꼭 필요한 말만 하게(False Sharing 방지) 교육하는 것이 운영의 핵심입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -134,15 +136,15 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 시끄러운 시장통 소통 방식은 사라지고, 각자 자기 자리에 앉아 메신저로 정확하게 정보를 주고받는 현대식 스마트 오피스 구조로 컴퓨터 아키텍처가 바뀌고 있습니다.
 
----
++++
 
 ## 📌 관련 개념 맵
-- **[캐시 일관성 (Cache Coherency)](./xx_cache_coherency.md)**: 스누핑 버스가 해결하고자 하는 근본적인 문제.
-- **[MESI 프로토콜](./xx_mesi_protocol.md)**: 스누핑 버스를 타고 다니는 대표적인 상태 변화 규칙.
-- **[디렉터리 프로토콜 (Directory Protocol)](./511_directory_cache.md)**: 스누핑 병목을 해결하기 위한 대안 기술.
-- **[메시 인터커넥트 (Mesh Interconnect)](./512_mesi_protocol_state_transition.md)**: 단일 버스 병목을 없애기 위한 물리적 배선 구조.
+- **캐시 일관성 (Cache Coherency)**: 스누핑 버스가 해결하고자 하는 근본적인 문제.
+- **MESI 프로토콜**: 스누핑 버스를 타고 다니는 대표적인 상태 변화 규칙.
+- **디렉터리 프로토콜 (Directory Protocol)**: 스누핑 병목을 해결하기 위한 대안 기술.
+- **메시 인터커넥트 (Mesh Interconnect)**: 단일 버스 병목을 없애기 위한 물리적 배선 구조.
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 스누핑 버스 병목은 **'한 명씩만 말할 수 있는 교실'**과 같아요.

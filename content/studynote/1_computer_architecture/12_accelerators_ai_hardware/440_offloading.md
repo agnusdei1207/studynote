@@ -1,5 +1,6 @@
 +++
 title = "오프로딩 (Offloading)"
+date = "2026-03-14"
 weight = 440
 +++
 

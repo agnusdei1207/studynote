@@ -1,5 +1,6 @@
 +++
 title = "백색 잡음 (White Noise)"
+date = "2026-03-14"
 weight = 27
 +++
 
@@ -146,10 +147,10 @@ weight = 27
 ---
 
 ### 📌 관련 개념 링크**:
-- [SNR 신호 대 잡음비](./24_snr_signal_noise.md)
-- [Shannon 용량](./21_shannon_capacity.md)
-- [충격 잡음 Impulse Noise](./28_impulse_noise.md)
-- [감쇠 Attenuation](./25_attenuation_db.md)
+- SNR 신호 대 잡음비
+- Shannon 용량
+- 충격 잡음 Impulse Noise
+- 감쇠 Attenuation
 
 ---
 

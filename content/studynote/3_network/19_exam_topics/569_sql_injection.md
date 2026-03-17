@@ -1,5 +1,6 @@
 +++
 title = "SQL Injection - SQL 인젝션"
+date = "2026-03-14"
 weight = 569
 +++
 
@@ -96,6 +97,6 @@ SQL Injection은 입력값에 SQL을 주입합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [OWASP](./568_owasp.md)
-- [WAF](./566_waf.md)
-- [XSS](./570_xss.md)
+- OWASP
+- WAF
+- XSS

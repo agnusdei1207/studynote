@@ -1,10 +1,9 @@
----
-title: "[ICT] #267. 인스트럭션 튜닝 (Instruction Tuning)"
-date: "2026-03-17"
++++
+title = "[ICT] #267. 인스트럭션 튜닝 (Instruction Tuning)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "InstructionTuning_SFT_SupervisedFineTuning_LLM_Prompt_Alignment"
----
+keyword = "InstructionTuning_SFT_SupervisedFineTuning_LLM_Prompt_Alignment"
++++
 
 # 인스트럭션 튜닝 (Instruction Tuning): 야생의 AI를 친절한 비서로 길들이는 첫 번째 훈련
 
@@ -13,7 +12,7 @@ keyword: "InstructionTuning_SFT_SupervisedFineTuning_LLM_Prompt_Alignment"
 > 2. **가치**: "한국의 수도는 어디야?"라는 질문에 "일본의 수도는 어디야?"라고 엉뚱하게 되묻던 Base 모델을, "한국의 수도는 서울입니다"라고 정확히 대답하는 챗봇(Chatbot) 형태로 완벽히 탈바꿈시킨다.
 > 3. **융합**: 이 과정은 수천억 원이 드는 사전 학습(Pre-training)과 달리, 단 1만 개~10만 개의 고품질 Q&A 쌍(데이터셋)만으로 모델의 행동을 규정하며, 이후 이어지는 RLHF(인간 피드백 강화학습)와 융합되어 AI의 정렬(Alignment)을 완성하는 핵심 단계다.
 
----
++++
 
 ## Ⅰ. 인스트럭션 튜닝 (Instruction Tuning) 개요
 
@@ -31,7 +30,7 @@ keyword: "InstructionTuning_SFT_SupervisedFineTuning_LLM_Prompt_Alignment"
 
 📢 **섹션 요약 비유**: 엄청난 엔진을 가졌지만 핸들이 없어서 마음대로 굴러가던 자동차(Base Model)에, 인간이 마음대로 조종할 수 있는 '운전대와 브레이크(Instruction)'를 달아주는 작업입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -81,7 +80,7 @@ keyword: "InstructionTuning_SFT_SupervisedFineTuning_LLM_Prompt_Alignment"
 
 📢 **섹션 요약 비유**: 야생마(Base Model)에게 "이럇! 하면 달리고, 워워~ 하면 멈춰야 해"라는 명확한 규칙(Format)을 반복적으로 훈련시켜 명마(Instruct Model)로 길들이는 조련의 과정입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -101,7 +100,7 @@ keyword: "InstructionTuning_SFT_SupervisedFineTuning_LLM_Prompt_Alignment"
 
 📢 **섹션 요약 비유**: 수능 공부(사전 학습)는 밤새워 수만 문제를 풀어야 하지만, 면접 준비(인스트럭션 튜닝)는 나올 만한 예상 질문 100개만 완벽한 억양과 태도로 외워도 훌륭한 점수를 받을 수 있는 것과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -119,7 +118,7 @@ keyword: "InstructionTuning_SFT_SupervisedFineTuning_LLM_Prompt_Alignment"
 
 📢 **섹션 요약 비유**: 법률(새로운 규칙)을 가르치겠다고 너무 몽둥이질(과적합)을 하면 아이가 밥 먹는 법(일반 지식)마저 잊어버리는 바보가 됩니다. 칭찬과 복습을 섞어가며 유연하게 가르쳐야(데이터 믹스) 합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -133,13 +132,13 @@ keyword: "InstructionTuning_SFT_SupervisedFineTuning_LLM_Prompt_Alignment"
 
 📢 **섹션 요약 비유**: 인스트럭션 튜닝은 AI에게 '인간의 언어'를 가르치는 것을 넘어, 인류가 기계를 복종시키고 통제하기 위해 만들어낸 가장 강력한 '디지털 목줄'이자 '소통의 다리'입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[파운데이션 모델 (Base Model)](./261_foundation_model.md)**: 튜닝을 하기 전, 세상의 모든 지식을 빨아들인 순백의 뇌.
-- **[RLHF (강화학습)](./268_rlhf_dpo.md)**: 인스트럭션 튜닝(SFT) 이후에 욕설이나 해킹 방법을 말하지 않도록 도덕을 가르치는 3단계 훈련.
-- **[RAG (검색 증강 생성)](./276_rag_architecture.md)**: 모델을 튜닝하지 않고도 외부 문서를 읽게 하여 환각을 막는 또 다른 대안 기술.
-- **[프롬프트 엔지니어링](./271_prompt_engineering.md)**: 튜닝된 모델이 가장 대답을 잘할 수 있도록 인간이 지시문을 예쁘게 깎아내는 기술.
+- **파운데이션 모델 (Base Model)**: 튜닝을 하기 전, 세상의 모든 지식을 빨아들인 순백의 뇌.
+- **RLHF (강화학습)**: 인스트럭션 튜닝(SFT) 이후에 욕설이나 해킹 방법을 말하지 않도록 도덕을 가르치는 3단계 훈련.
+- **RAG (검색 증강 생성)**: 모델을 튜닝하지 않고도 외부 문서를 읽게 하여 환각을 막는 또 다른 대안 기술.
+- **프롬프트 엔지니어링**: 튜닝된 모델이 가장 대답을 잘할 수 있도록 인간이 지시문을 예쁘게 깎아내는 기술.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **천재지만 눈치 없는 로봇 (베이스 모델)**: 세상 모든 책을 읽어서 똑똑하지만, "안녕?"이라고 인사하면 대답 대신 국어사전의 '안녕' 뜻을 줄줄 읽어주는 눈치 없는 로봇이에요.

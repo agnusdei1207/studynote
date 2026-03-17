@@ -1,5 +1,6 @@
 +++
 title = "NUMA (Non-Uniform Memory Access) - NUMA"
+date = "2026-03-14"
 weight = 660
 +++
 
@@ -100,6 +101,6 @@ NUMA는 CPU마다 메모리 접근 속도가 다릅니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [SMP](./661_smp.md)
-- [Cache Coherence](./659_cache_coherence.md)
-- [Memory Management](./638_memory_management.md)
+- SMP
+- Cache Coherence
+- Memory Management

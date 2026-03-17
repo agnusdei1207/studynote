@@ -1,5 +1,6 @@
 +++
 title = "Kong - API 게이트웨이 플랫폼"
+date = "2026-03-14"
 weight = 268
 +++
 
@@ -158,10 +159,10 @@ Kong은 Nginx 기반의 고성능 API Gateway 플랫폼입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [API Gateway](./266_api_gateway.md)
-- [Ingress Controller](./267_ingress_controller.md)
-- [Nginx](./269_nginx.md)
-- [Service Mesh](./263_service_mesh.md)
+- API Gateway
+- Ingress Controller
+- Nginx
+- Service Mesh
 
 ---
 

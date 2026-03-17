@@ -1,5 +1,6 @@
 +++
 title = "IPv6 Addressing - IPv6 주소 체계"
+date = "2026-03-14"
 weight = 533
 +++
 
@@ -94,6 +95,6 @@ IPv6 주소는 128비트로 구성됩니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [IPv6](./532_ipv6.md)
-- [SLAAC](./533_slaac.md)
-- [IPv4](./330_ip.md)
+- IPv6
+- SLAAC
+- IPv4

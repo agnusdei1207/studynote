@@ -1,5 +1,6 @@
 +++
 title = "Encryption - 암호화"
+date = "2026-03-14"
 weight = 812
 +++
 
@@ -101,6 +102,6 @@ Encryption은 데이터를 암호화합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TLS](./xxx_tls.md)
-- [Authentication](./xxx_authentication.md)
-- [Security](./xxx_security.md)
+- TLS
+- Authentication
+- Security

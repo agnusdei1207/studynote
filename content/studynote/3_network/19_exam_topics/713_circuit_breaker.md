@@ -1,5 +1,6 @@
 +++
 title = "Circuit Breaker - 서킷 브레이커"
+date = "2026-03-14"
 weight = 713
 +++
 
@@ -102,6 +103,6 @@ Circuit Breaker는 장애 전파를 방지합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Microservices](./617_microservices.md)
-- [Retry Pattern](./714_retry_pattern.md)
-- [Resilience](./715_resilience.md)
+- Microservices
+- Retry Pattern
+- Resilience

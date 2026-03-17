@@ -1,7 +1,6 @@
 +++
 title = "Refactoring Master Document"
-date = 2026-02-27
-
+date = "2026-02-27"
 [extra]
 categories = "user-prompt"
 +++

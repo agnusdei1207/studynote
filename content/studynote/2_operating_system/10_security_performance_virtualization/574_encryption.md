@@ -1,7 +1,7 @@
 +++
-weight = 574
 title = "574. 암호화 (Encryption)"
 date = "2026-03-16"
+weight = 574
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "암호화", "Encryption", "대칭키", "공개키", "AES", "RSA", "디스크 암호화"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "암호화", "Encryption", "대칭키", "공개키",
 > 2. **가치**: 데이터 유출 시에도 내용을 알 수 없게 하여 **개인정보 보호, 기업 비밀 보호, 통신 보안**을 실현하며, 규정 준수(GDPR, 개인정보보호법)에 필수적이다.
 > 3. **융합**: 대칭키(AES)와 공개키(RSA, ECC) 방식이 상호 보완적으로 사용되며, TLS/SSL, VPN, 디스크 암호화(BitLocker, LUKS) 등 다양한 계층에서 적용된다.
 
----
++++
 
 ## Ⅰ. 암호화의 개요
 
@@ -32,7 +32,7 @@ keywords = ["운영체제", "암호화", "Encryption", "대칭키", "공개키",
 
 - **📢 섹션 요약 비유**: 누구나 읽을 수 있는 편지(평문)를 암호로 써서, 열쇠 가진 사람만 읽을 수 있게 만드는 비밀 언어입니다.
 
----
++++
 
 ## Ⅱ. 암호화의 기본 원리 (Deep Dive)
 
@@ -71,7 +71,7 @@ keywords = ["운영체제", "암호화", "Encryption", "대칭키", "공개키",
 | **인증 (Authentication)** | 메시지 출처 확인 | Digital Signature |
 | **부인 방지 (Non-repudiation)** | 송수신 사실 증명 | Digital Signature |
 
----
++++
 
 ## Ⅲ. 암호화 알고리즘 분류
 
@@ -163,7 +163,7 @@ keywords = ["운영체제", "암호화", "Encryption", "대칭키", "공개키",
 
 - **📢 섹션 요약 비유**: 대칭키는 '주머니 열쇠'(같은 열쇠로 열고 잠금), 공개키는 '우편함'(누구나 투입 가능, 주인만 개봉)과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 아키텍처적 판단 (Strategy)
 
@@ -186,7 +186,7 @@ keywords = ["운영체제", "암호화", "Encryption", "대칭키", "공개키",
 - **"CBC 모드에서 IV 재사용"** → 랜덤 IV 사용
 - **"MD5/SHA-1 사용"** → SHA-256 이상 사용
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -198,15 +198,15 @@ keywords = ["운영체제", "암호화", "Encryption", "대칭키", "공개키",
 - **Quantum-safe 암호**: 양자 컴퓨터에 강한 포스트양자 암호 (Lattice-based 등)
 - **Homomorphic Encryption**: 암호화된 상태로 연산 가능
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[인증 및 권한 부여](./573_authentication_authorization.md)**: 암호화와 함께 사용
-- **[PKI (Public Key Infrastructure)](./575_pki.md)**: 공개키 인프라
-- **[TLS/SSL](./576_tls_ssl.md)**: 네트워크 암호화
-- **[디지털 서명](./xx_digital_signature.md)**: 공개키 응용
+- **인증 및 권한 부여**: 암호화와 함께 사용
+- **PKI (Public Key Infrastructure)**: 공개키 인프라
+- **TLS/SSL**: 네트워크 암호화
+- **디지털 서명**: 공개키 응용
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 암호화는 **'비밀 언어로 편지 쓰기'** 같아요.

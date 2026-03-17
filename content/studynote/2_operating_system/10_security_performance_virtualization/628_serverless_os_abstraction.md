@@ -1,6 +1,7 @@
 +++
-weight = 628
 title = "628. 서버리스 (Serverless) 운영체제 추상화"
+date = "2026-03-14"
+weight = 628
 +++
 
 # # [628. 서버리스 (Serverless) 운영체제 추상화]

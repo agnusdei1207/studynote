@@ -1,6 +1,7 @@
 +++
-weight = 43
 title = "43. 비교기 (Comparator)"
+date = "2026-03-14"
+weight = 43
 +++
 
 # # [비교기 (Comparator)]

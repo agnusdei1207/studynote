@@ -1,5 +1,6 @@
 +++
 title = "IP Header - IP 헤더"
+date = "2026-03-14"
 weight = 525
 +++
 
@@ -107,6 +108,6 @@ IP Header는 20바이트 기본 구조입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [IP](./330_ip.md)
-- [TTL](./526_ttl.md)
-- [IPv6 Header](./532_ipv6_header.md)
+- IP
+- TTL
+- IPv6 Header

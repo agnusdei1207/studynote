@@ -1,6 +1,7 @@
 +++
-weight = 157
 title = "157. OOM (Out Of Memory) Killer"
+date = "2026-03-14"
+weight = 157
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -139,10 +140,10 @@ title = "157. OOM (Out Of Memory) Killer"
 ---
 
 ### 📌 관련 개념 맵
-- **[가상 메모리 (Virtual Memory)](./7_virtual_memory/xx_virtual_memory.md)**: OOM 상황이 발생하는 근본적인 배경.
-- **[oom_score_adj](./158_oom_score_adj.md)**: OOM Killer의 판단에 개입하는 직접적인 도구.
-- **[cgroups (Control Groups)](../12_it_management/xx_cgroups.md)**: 메모리 제한과 OOM 발생 범위를 제어하는 기술.
-- **[스왑 (Swap)](./6_memory_management/xx_swap.md)**: OOM Killer 작동 전의 1차 완충 지대.
+- **가상 메모리 (Virtual Memory)**: OOM 상황이 발생하는 근본적인 배경.
+- **oom_score_adj**: OOM Killer의 판단에 개입하는 직접적인 도구.
+- **cgroups (Control Groups)**: 메모리 제한과 OOM 발생 범위를 제어하는 기술.
+- **스왑 (Swap)**: OOM Killer 작동 전의 1차 완충 지대.
 
 ---
 

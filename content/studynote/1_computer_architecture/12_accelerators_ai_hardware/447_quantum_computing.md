@@ -1,6 +1,7 @@
-
-```
 +++
+title = "양자 컴퓨터 (Quantum Computer) 기초"
+date = "2026-03-14"
+[extra]
 title = "양자 컴퓨터 (Quantum Computer) 기초"
 weight = 447
 +++

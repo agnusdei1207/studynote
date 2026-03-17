@@ -1,11 +1,11 @@
----
-title: "630. 동등 분할 경계값 분석"
-date: 2026-03-15
-draft: false
-weight: 630
-categories: ["Software Engineering"]
-tags: ["Testing", "Black Box Testing", "Equivalence Partitioning", "Boundary Value Analysis", "Test Design"]
----
++++
+title = "630. 동등 분할 경계값 분석"
+date = "2026-03-15"
+weight = 630
+[extra]
+categories = ["Software Engineering"]
+tags = ["Testing", "Black Box Testing", "Equivalence Partitioning", "Boundary Value Analysis", "Test Design"]
++++
 
 # 동등 분할 경계값 분석
 
@@ -967,10 +967,10 @@ graph LR
 ```
 
 ### 연관 문서
-- [블랙박스 테스트]((#)) - 테스트 설계 기법
-- [화이트 박스 테스트](./580_whitebox_mccabe.md) - 구조적 테스트
-- [테스트 더블](./625_test_double_mock_stub.md) - 테스트 구현
-- [회귀 테스트](./627_regression_test_coverage.md) - 테스트 전략
+- 블랙박스 테스트) - 테스트 설계 기법
+- 화이트 박스 테스트 - 구조적 테스트
+- 테스트 더블 - 테스트 구현
+- 회귀 테스트 - 테스트 전략
 
 ---
 

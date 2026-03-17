@@ -1,7 +1,7 @@
 +++
-weight = 316
 title = "316. 락 오더링 (Lock Ordering) 다이나믹 검증 도구 (Lockdep in Linux)"
 date = "2024-03-20"
+weight = 316
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "락 오더링", "Lock Ordering", "Lockdep", "Linux Kernel", "동적 검증"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "락 오더링", "Lock Ordering", "Lockdep", "Linux 
 > 2. **대표 도구 (Lockdep)**: 리눅스 커널의 Lockdep은 런타임에 락 클래스 간의 의존성 그래프를 구축하고, 새로운 락 획득 시도가 기존의 순서 규칙을 위반하는지 즉각 감시한다.
 > 3. **가치**: 복잡한 커널 수준의 동기화 오류를 사전에 차단함으로써 시스템의 안정성을 획기적으로 향상시키고, 개발자에게 명확한 위반 지점을 보고한다.
 
----
++++
 
 ## Ⅰ. 락 오더링의 기본 원칙
 
@@ -26,7 +26,7 @@ keywords = ["운영체제", "락 오더링", "Lock Ordering", "Lockdep", "Linux 
 
 - **📢 섹션 요약 비유**: "계단을 올라갈 때 항상 왼쪽 발부터 내딛기로 약속했는데, 누군가 오른쪽 발부터 내딛는 것을 발견하고 경고를 주는 것과 같습니다."
 
----
++++
 
 ## Ⅱ. Lockdep 작동 매핑 (ASCII Diagram)
 
@@ -49,7 +49,7 @@ keywords = ["운영체제", "락 오더링", "Lock Ordering", "Lockdep", "Linux 
 
 - **📢 섹션 요약 비유**: "교실에서 모든 학생의 이름을 외우는 대신 '1분단', '2분단'으로 묶어서 이동 순서를 관리하는 것과 같습니다."
 
----
++++
 
 ## Ⅲ. 리눅스 Lockdep의 주요 기능
 
@@ -64,7 +64,7 @@ keywords = ["운영체제", "락 오더링", "Lock Ordering", "Lockdep", "Linux 
 
 - **📢 섹션 요약 비유**: "교통 관제 센터에서 사고가 나기 전에 차선 위반을 하는 차량을 미리 잡아내는 암행어사 순찰차와 같습니다."
 
----
++++
 
 ## Ⅳ. 락 오더링 검증의 실무적 이점
 
@@ -76,7 +76,7 @@ keywords = ["운영체제", "락 오더링", "Lock Ordering", "Lockdep", "Linux 
 
 - **📢 섹션 요약 비유**: "불이 나고 나서 끄는 게 아니라, 가스 밸브가 열려 있는 걸 센서가 미리 감지해서 알려주는 안전 장치입니다."
 
----
++++
 
 ## Ⅴ. 결론 및 실무적 교훈
 
@@ -88,14 +88,14 @@ keywords = ["운영체제", "락 오더링", "Lock Ordering", "Lockdep", "Linux 
 
 - **📢 섹션 요약 비유**: "질서 없는 군중은 혼란을 만들지만, 규칙을 지키는 행렬은 막힘없이 나아간다는 교훈을 줍니다."
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[교착 상태 예방 (Prevention)](./292_deadlock_prevention.md)**: 락 오더링의 궁극적 목표.
-- **[순환 대기 (Circular Wait)](./286_circular_wait.md)**: Lockdep이 방지하려는 핵심 조건.
-- **[리눅스 커널 (Linux Kernel)](../2_operating_system/kernel.md)**: Lockdep이 구현되고 활용되는 주 무대.
+- **교착 상태 예방 (Prevention)**: 락 오더링의 궁극적 목표.
+- **순환 대기 (Circular Wait)**: Lockdep이 방지하려는 핵심 조건.
+- **리눅스 커널 (Linux Kernel)**: Lockdep이 구현되고 활용되는 주 무대.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 급식실에서 숟가락을 먼저 집고 젓가락을 집기로 규칙을 정했어요.

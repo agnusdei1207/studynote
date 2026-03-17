@@ -1,5 +1,6 @@
 +++
 title = "Isolation Level - 격리 수준"
+date = "2026-03-14"
 weight = 631
 +++
 
@@ -97,6 +98,6 @@ Isolation Level은 트랜잭션 간 격리 정도를 정의합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Transaction](./629_transaction.md)
-- [ACID](./630_acid.md)
-- [Lock](./632_lock.md)
+- Transaction
+- ACID
+- Lock

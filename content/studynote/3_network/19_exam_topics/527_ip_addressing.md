@@ -1,5 +1,6 @@
 +++
 title = "IP Addressing - IP 주소 체계"
+date = "2026-03-14"
 weight = 527
 +++
 
@@ -96,6 +97,6 @@ IP 주소는 네트워크에서 장치를 식별합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Subnetting](./528_subnetting.md)
-- [CIDR](./529_cidr.md)
-- [NAT](./530_nat.md)
+- Subnetting
+- CIDR
+- NAT

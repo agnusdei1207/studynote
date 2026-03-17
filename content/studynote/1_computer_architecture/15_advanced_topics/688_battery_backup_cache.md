@@ -1,5 +1,6 @@
 +++
 title = "battery backup cache"
+date = "2026-03-14"
 weight = 688
 +++
 
@@ -368,11 +369,11 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [Write-Back 캐시 정책](./cache_policy.md) - 쓰기 지연 숨김 메커니즘
-- [RAID 컨트롤러 아키텍처](./raid_controller.md) - 하드웨어 RAID 구조
-- [NVRAM (Non-Volatile RAM)](./nvram.md) - 비휘발성 메모리 기술
-- [UPS (무정전 전원 장치)](./ups.md) - 시스템 전체 전원 보호
-- [스토리지 컨트롤러 캐시 미러링](./687_storage_controller_cache_mirroring.md) - 이중화 캐시
+- Write-Back 캐시 정책 - 쓰기 지연 숨김 메커니즘
+- RAID 컨트롤러 아키텍처 - 하드웨어 RAID 구조
+- NVRAM (Non-Volatile RAM) - 비휘발성 메모리 기술
+- UPS (무정전 전원 장치) - 시스템 전체 전원 보호
+- 스토리지 컨트롤러 캐시 미러링 - 이중화 캐시
 
 ---
 

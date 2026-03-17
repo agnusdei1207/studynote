@@ -1,5 +1,6 @@
 +++
 title = "markov reliability"
+date = "2026-03-14"
 weight = 755
 +++
 
@@ -124,10 +125,10 @@ weight = 755
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [신뢰성 블록 다이어그램](./754_rbd.md)
-- [FTA (Fault Tree Analysis)](./753_fta.md)
-- [FMEA (Failure Mode and Effects Analysis)](./752_fmea.md)
-- [무정전 운영 아키텍처](./749_nonstop_operation.md)
+- 신뢰성 블록 다이어그램
+- FTA (Fault Tree Analysis)
+- FMEA (Failure Mode and Effects Analysis)
+- 무정전 운영 아키텍처
 
 ---
 

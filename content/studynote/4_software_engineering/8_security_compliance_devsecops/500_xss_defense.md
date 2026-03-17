@@ -1,7 +1,7 @@
----
-title: "500. 크로스 사이트 스크립팅 (XSS) 방어 - 입/출력값 인코딩, CSP"
-date: 2026-03-15
----
++++
+title = "500. 크로스 사이트 스크립팅 (XSS) 방어 - 입/출력값 인코딩, CSP"
+date = "2026-03-15"
++++
 
 # 500. 크로스 사이트 스크립팅 (XSS) 방어 - 입/출력값 인코딩, CSP
 
@@ -157,10 +157,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[XSS 유형 (Reflected, Stored, DOM)](./501_xss_types.md)**: 방어해야 할 대상의 세부 종류
-- **[CSP (Content Security Policy)](./xx_csp.md)**: 브라우저 기반의 강력한 차세대 방어 기술
-- **[SameSite Cookie](./502_csrf.md)**: XSS와 더불어 세션 보호에 중요한 쿠키 속성
-- **[CSRF (Cross-Site Request Forgery)](./502_csrf.md)**: XSS와 자주 혼동되지만 방어 기법이 다른 취약점
+- **XSS 유형 (Reflected, Stored, DOM)**: 방어해야 할 대상의 세부 종류
+- **CSP (Content Security Policy)**: 브라우저 기반의 강력한 차세대 방어 기술
+- **SameSite Cookie**: XSS와 더불어 세션 보호에 중요한 쿠키 속성
+- **CSRF (Cross-Site Request Forgery)**: XSS와 자주 혼동되지만 방어 기법이 다른 취약점
 
 ---
 

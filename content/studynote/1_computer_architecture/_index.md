@@ -9,7 +9,6 @@ insert_anchor_links = "right"
 category = "studynote-computer-architecture"
 kids_analogy = "컴퓨터라는 아주 복잡하고 거대한 성을 짓는 '설계도'를 배우는 곳이에요. 전기가 어떻게 숫자가 되는지, 두뇌인 CPU가 어떻게 명령을 내리는지 탐험하게 될 거예요!"
 +++
-
 # 도메인 01: 컴퓨터 구조 (Computer Architecture)
 
 ## ## 핵심 인사이트 (3줄 요약)
@@ -17,13 +16,13 @@ kids_analogy = "컴퓨터라는 아주 복잡하고 거대한 성을 짓는 '설
 > 2. **가치**: 폰 노이만 구조의 근본적 한계를 극복하는 병렬 처리(ILP, DLP, TLP) 및 메모리 계층(Memory Hierarchy) 최적화를 통해 테라플롭스(TFLOPS)급 연산 성능과 나노초(ns)급 지연 시간을 달성.
 > 3. **융합**: 고집적 반도체 공정(FinFET, GAA)과 OS 커널 스케줄링 로직 사이의 가교 역할을 완수하며, 현대 AI 하드웨어 가속기(NPU) 및 양자 컴퓨팅(Quantum) 아키텍처로 진화 중.
 
----
++++
 
 ### Ⅰ. 개요 (Context & Background)
 **컴퓨터 구조(Computer Architecture)**는 디지털 논리 회로라는 물리적 실체를 이용하여 인간의 논리 체계를 처리할 수 있는 추상적 연산 장치로 변환하는 설계 철학이자 공학적 실천의 결정체다. 이는 단순히 부품을 조립하는 단계를 넘어, "어떻게 하면 전력 소모(Power)를 최소화하면서 데이터 처리량(Throughput)을 극한으로 끌어올릴 것인가?"라는 근본적인 아키텍처적 질문에 답하는 과정이다.
 초기 에니악(ENIAC)과 같은 배선반(Hard-wired) 방식의 컴퓨터는 프로그램이 바뀔 때마다 물리적 회로를 재조립해야 하는 치명적 한계를 가졌다. 이를 극복하기 위해 폰 노이만(John von Neumann)이 제안한 **내장형 프로그램(Stored-program) 방식**은 메모리에 데이터와 명령어를 함께 저장하는 패러다임 혁명을 일으켰으나, CPU와 메모리 간의 속도 차이로 인한 **'폰 노이만 병목(Von Neumann Bottleneck)'**이라는 구조적 결함을 낳았다. 현대의 컴퓨터 구조는 이 병목을 '파단'하기 위한 파이프라이닝, 캐시 계층, 그리고 멀티코어 설계의 눈물겨운 진화 역사라 할 수 있다.
 
----
++++
 
 ### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -73,7 +72,7 @@ kids_analogy = "컴퓨터라는 아주 복잡하고 거대한 성을 짓는 '설
 5. **WB (Write-back)**: 연산 결과를 레지스터에 기록. 비순차 실행(OoOE) 환경에서는 ROB를 통해 순차적(In-order)으로 커밋(Commit).
 - **Amdahl's Law (성능 향상 한계 수식)**: $Speedup = \frac{1}{(1 - P) + \frac{P}{S}}$ (P: 병렬화 가능 부분, S: 병렬화 노드 수)
 
----
++++
 
 ### Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -94,7 +93,7 @@ kids_analogy = "컴퓨터라는 아주 복잡하고 거대한 성을 짓는 '설
 | **적중률 (Hit Rate)**| 범용 워크로드에서 최상 | 특정 패턴(Zipfian)에서 유리 | 예측 불가 (최악) |
 | **단점 (Anti-pattern)**| 거대한 배열 스캔 시 캐시 오염 극심 | 과거의 잦은 참조가 현재를 방해 | 성능 일관성 결여 |
 
----
++++
 
 ### Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -111,7 +110,7 @@ kids_analogy = "컴퓨터라는 아주 복잡하고 거대한 성을 짓는 '설
 - **운영적**: 클라우드 이전 시 특정 ISA(x86 $\rightarrow$ ARM Graviton) 전환에 따른 컴파일러 호환성 및 오버헤드 검증.
 - **안티패턴**: 멀티스레드 프로그래밍 시 캐시 라인(64 Byte)을 공유하는 변수들을 인접하게 배치하여 발생하는 **거짓 공유(False Sharing)** 안티패턴. 이 경우 코어 간 Cache Invalidation 폭풍이 발생하여 성능이 단일 코어보다 하락함.
 
----
++++
 
 ### Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -129,7 +128,7 @@ kids_analogy = "컴퓨터라는 아주 복잡하고 거대한 성을 짓는 '설
 - IEEE 754: 부동소수점 산술 연산 국제 표준.
 - UCIe (Universal Chiplet Interconnect Express): 차세대 칩렛 간 상호 연결 표준.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
 - [`[명령어 세트 (ISA)]`](@/studynote/1_computer_architecture/4_instruction_set_architecture/_index.md): 아키텍처의 근간이자 SW/HW의 계약.
@@ -138,7 +137,7 @@ kids_analogy = "컴퓨터라는 아주 복잡하고 거대한 성을 짓는 '설
 - [`[암달의 법칙 (Amdahl's Law)]`](@/studynote/1_computer_architecture/3_architecture_basics_performance/_index.md): 병렬화를 통한 성능 향상의 한계를 정의하는 핵심 수학 공식.
 - [`[해밍 코드 (Hamming Code)]`](@/studynote/1_computer_architecture/2_data_representation_arithmetic/_index.md): 메모리의 신뢰성을 보장하기 위한 하드웨어 수준의 에러 정정(ECC) 알고리즘.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 컴퓨터는 사실 엄청나게 많은 전구(트랜지스터) 스위치를 껐다 켰다 하면서 숫자를 계산하는 거대한 '전구 퍼즐 방'이에요.

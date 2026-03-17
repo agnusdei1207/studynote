@@ -1,6 +1,7 @@
 +++
-weight = 7
 title = "7. 인덕터 (Inductor)"
+date = "2026-03-14"
+weight = 7
 +++
 
 # # [인덕터 (Inductor)]

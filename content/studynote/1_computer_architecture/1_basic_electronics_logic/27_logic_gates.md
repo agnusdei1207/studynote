@@ -1,8 +1,7 @@
-
-Here is the rewritten content, strictly adhering to the provided PE Guidelines.
-
-```markdown
 +++
+title = "# [논리 게이트 (Logic Gates)]"
+date = "2026-03-14"
+[extra]
 weight = 27
 title = "27. 논리 게이트 (Logic Gates)"
 +++

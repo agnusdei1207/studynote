@@ -1,6 +1,7 @@
 +++
-weight = 434
 title = "434. 비동기식 페이지 폴트 (Asynchronous Page Faults) 핸들링"
+date = "2026-03-14"
+weight = 434
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -110,4 +111,3 @@ graph TD
     Done --> INT2[Inject APF_Page_Ready Interrupt]
     INT2 --> GOS2[Guest OS Wakes up Task A]
     GOS2 --> Resume[Task A Resumes]
-```

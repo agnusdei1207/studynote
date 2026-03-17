@@ -1,10 +1,9 @@
----
-title: "[ICT] #84. 블록체인 상호운용성 (Polkadot vs Cosmos)"
-date: "2026-03-17"
++++
+title = "[ICT] #84. 블록체인 상호운용성 (Polkadot vs Cosmos)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Polkadot_Cosmos_Interoperability_RelayChain_IBC_HubAndSpoke_SharedSecurity"
----
+keyword = "Polkadot_Cosmos_Interoperability_RelayChain_IBC_HubAndSpoke_SharedSecurity"
++++
 
 # 폴카닷과 코스모스: 블록체인 인터넷을 향한 두 가지 상호운용성 아키텍처
 
@@ -13,7 +12,7 @@ keyword: "Polkadot_Cosmos_Interoperability_RelayChain_IBC_HubAndSpoke_SharedSecu
 > 2. **가치**: 폴카닷은 **'보안 공유(Shared Security)'**를 통해 연결된 체인들의 안전을 책임지는 중앙 집중적 모델을, 코스모스는 **'주권 존중(Sovereignty)'**을 통해 각 체인이 스스로 보안을 책임지는 분산형 허브 모델을 지향한다.
 > 3. **융합**: IBC(Inter-Blockchain Communication) 프로토콜, XCMP, 릴레이 체인 등 혁신적인 네트워크 통신 규격이 집약되어 있으며, 파편화된 Web 3.0 생태계를 하나로 묶는 **'인터넷 오브 블록체인'**의 근간이 된다.
 
----
++++
 
 ## Ⅰ. 폴카닷과 코스모스 개요
 
@@ -27,7 +26,7 @@ keyword: "Polkadot_Cosmos_Interoperability_RelayChain_IBC_HubAndSpoke_SharedSecu
 
 📢 **섹션 요약 비유**: 모든 컴퓨터가 하나의 서버에 접속하는 방식에서, 서로 다른 서버들이 공통 언어(인터넷)로 대화하는 방식으로 블록체인의 질서가 재편되는 과정입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 구현 메커니즘 (Deep Dive)
 
@@ -87,7 +86,7 @@ keyword: "Polkadot_Cosmos_Interoperability_RelayChain_IBC_HubAndSpoke_SharedSecu
 **[다이어그램 해설]** 
 코스모스는 **허브(Hub)**와 **존(Zone)** 구조다. 각 존은 **텐더민트(Tendermint)**라는 고성능 엔진을 사용하여 스스로 블록을 생성한다. 서로 다른 존끼리 소통하고 싶을 때 **IBC**라는 표준 프로토콜을 사용하며, 허브는 이 메시지들이 중복되지 않고 안전하게 전달되도록 중계하는 역할만 수행한다. 한 존이 해킹당해도 다른 존의 보안에는 영향을 주지 않는 구조적 독립성이 강점이다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -108,7 +107,7 @@ keyword: "Polkadot_Cosmos_Interoperability_RelayChain_IBC_HubAndSpoke_SharedSecu
 
 📢 **섹션 요약 비유**: 폴카닷이 보안이 보장된 '프리미엄 쇼핑몰 입점'이라면, 코스모스는 도로(IBC)만 닦여 있으면 누구나 가게를 차릴 수 있는 '개방형 상권'과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -124,7 +123,7 @@ keyword: "Polkadot_Cosmos_Interoperability_RelayChain_IBC_HubAndSpoke_SharedSecu
 
 📢 **섹션 요약 비유**: 대형 마트에 들어가면 청소와 보안을 다 해줘서 편하지만(폴카닷), 월세가 비싸고 간판도 마음대로 못 다는 제약이 있습니다. 반면 길가에 가게를 차리면 내 맘대로 할 수 있지만(코스모스), 도둑이 들지 않게 직접 경비(보안)를 서야 하는 이치입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -138,13 +137,13 @@ keyword: "Polkadot_Cosmos_Interoperability_RelayChain_IBC_HubAndSpoke_SharedSecu
 
 📢 **섹션 요약 비유**: 폴카닷과 코스모스는 각자의 길로 **'디지털 실크로드'**를 닦고 있으며, 이 길이 넓어질수록 블록체인은 하나의 거대한 전 지구적 운영체제로 완성될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[블록체인 상호운용성](./72_blockchain_interoperability.md)**: 두 프로젝트가 해결하려는 상위 기술 주제.
-- **[IBC (Inter-Blockchain Communication)](./xx_ibc.md)**: 코스모스의 핵심 통신 규격.
-- **[서브스트레이트 (Substrate)](./xx_substrate.md)**: 폴카닷 체인을 쉽게 만드는 개발 프레임워크.
-- **[텐더민트 (Tendermint)](./13_pbft.md)**: 코스모스의 합의 알고리즘 기반 기술.
+- **블록체인 상호운용성**: 두 프로젝트가 해결하려는 상위 기술 주제.
+- **IBC (Inter-Blockchain Communication)**: 코스모스의 핵심 통신 규격.
+- **서브스트레이트 (Substrate)**: 폴카닷 체인을 쉽게 만드는 개발 프레임워크.
+- **텐더민트 (Tendermint)**: 코스모스의 합의 알고리즘 기반 기술.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **서로 다른 나라의 대화**: 한국어를 쓰는 마을(이더리움)과 영어를 쓰는 마을(비트코인)이 서로 물건을 바꾸고 대화할 수 있게 도와주는 '마법의 통역사'예요.

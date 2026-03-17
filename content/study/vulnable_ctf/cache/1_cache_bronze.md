@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Cache Poisoning 🥉 Bronze"
-description = "LUXORA 플랫폼의 기본 Web Cache Poisoning 취약점을 이용한 Unkeyed Header 기반 XSS 공격 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Cache Poisoning", "Bronze", "Unkeyed Header", "XSS", "Write-up"]

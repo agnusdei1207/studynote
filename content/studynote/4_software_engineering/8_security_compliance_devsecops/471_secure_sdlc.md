@@ -1,7 +1,7 @@
----
-title: "471. 소프트웨어 개발 보안 (Secure SDLC)"
-date: 2026-03-15
----
++++
+title = "471. 소프트웨어 개발 보안 (Secure SDLC)"
+date = "2026-03-15"
++++
 
 # 471. 소프트웨어 개발 보안 (Secure SDLC)
 
@@ -154,10 +154,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[DevSecOps](./xx_devsecops.md)**: Secure SDLC를 자동화된 파이프라인으로 구현한 운영 형태
-- **[위협 모델링 (Threat Modeling)](./474_threat_modeling.md)**: 설계 단계의 핵심 보안 활동 (STRIDE 등)
-- **[시큐어 코딩 (Secure Coding)](./498_secure_coding.md)**: 구현 단계의 보안 약점 제거 활동
-- **[SBOM (Software Bill of Materials)](./496_sbom.md)**: 소프트웨어 공급망 보안을 위한 자재 명세서
+- **DevSecOps**: Secure SDLC를 자동화된 파이프라인으로 구현한 운영 형태
+- **위협 모델링 (Threat Modeling)**: 설계 단계의 핵심 보안 활동 (STRIDE 등)
+- **시큐어 코딩 (Secure Coding)**: 구현 단계의 보안 약점 제거 활동
+- **SBOM (Software Bill of Materials)**: 소프트웨어 공급망 보안을 위한 자재 명세서
 
 ---
 

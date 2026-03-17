@@ -1,6 +1,7 @@
 +++
-weight = 482
 title = "482. NVMe (Non-Volatile Memory Express)"
+date = "2026-03-14"
+weight = 482
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -111,9 +112,9 @@ title = "482. NVMe (Non-Volatile Memory Express)"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[PCIe (Peripheral Component Interconnect Express)](../../9_system_bus_interconnects/xx_pcie.md)**: NVMe가 물리적으로 올라타는 고속 버스.
-- **[NAND Flash](../../8_io_storage_system/442_block_device_hdd_ssd.md)**: NVMe가 최적화하고자 하는 실제 물리 매체.
-- **[RDMA (Remote Direct Memory Access)](../../3_network/xx_rdma.md)**: NVMe-oF 기술의 근간이 되는 원격 메모리 접근 기술.
+- **PCIe (Peripheral Component Interconnect Express)**: NVMe가 물리적으로 올라타는 고속 버스.
+- **NAND Flash**: NVMe가 최적화하고자 하는 실제 물리 매체.
+- **RDMA (Remote Direct Memory Access)**: NVMe-oF 기술의 근간이 되는 원격 메모리 접근 기술.
 
 ---
 

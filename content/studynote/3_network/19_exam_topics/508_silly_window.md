@@ -1,5 +1,6 @@
 +++
 title = "Silly Window Syndrome (SWS) - 멍청한 윈도우 증후군"
+date = "2026-03-14"
 weight = 508
 +++
 
@@ -92,6 +93,6 @@ SWS는 수신측 윈도우가 작아 효율이 떨어지는 현상입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./332_tcp.md)
-- [Nagle](./507_nagle_algorithm.md)
-- [Sliding Window](./498_sliding_window.md)
+- TCP
+- Nagle
+- Sliding Window

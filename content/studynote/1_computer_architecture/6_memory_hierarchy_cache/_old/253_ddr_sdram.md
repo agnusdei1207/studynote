@@ -1,6 +1,7 @@
 +++
-weight = 253
 title = "253. DDR SDRAM (Double Data Rate)"
+date = "2026-03-14"
+weight = 253
 +++
 
 # 253. DDR SDRAM (Double Data Rate)
@@ -146,11 +147,11 @@ DDR의 핵심은 클럭 에지 활용과 2n-프리패치 아키텍처다. 내부
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[메모리 인터리빙 (Memory Interleaving)](./254_memory_interleaving.md)**: DDR 칩 내부의 다수 뱅크(Bank)에 연속된 주소를 분산 배치하여, 메모리 코어의 충전/방전 지연 시간(tRC)을 숨기고 파이프라이닝 효과를 내는 필수 아키텍처.
-- **[캐시 메모리 (Cache Memory)](./259_cache_memory.md)**: CPU와 DDR SDRAM 사이의 속도 격차를 줄이기 위해 존재하는 SRAM 기반의 초고속 임시 저장소.
-- **[HBM (High Bandwidth Memory)](../12_accelerators_ai_hardware/422_hbm.md)**: 평면적으로 핀을 늘리는 DDR의 한계를 돌파하기 위해, DRAM 다이를 수직으로 적층하여 수천 개의 핀(1024bit)으로 극한의 대역폭을 내는 메모리.
-- **[ECC 메모리 (Error-Correcting Code)](../13_reliability_power_management/439_ecc.md)**: 우주 방사선 등으로 인해 DDR 내부 커패시터의 전하가 변하는 소프트 에러(Soft Error)를 감지하고 수정하여 서버의 RAS(Reliability)를 보장하는 기술.
-- **[CXL (Compute Express Link)](../12_accelerators_ai_hardware/470_cxl.md)**: DDR 채널 수의 물리적 한계를 극복하기 위해 PCIe 물리 계층을 활용하여 메모리를 무한 확장 가능하게 하는 차세대 인터커넥트 표준.
+- **메모리 인터리빙 (Memory Interleaving)**: DDR 칩 내부의 다수 뱅크(Bank)에 연속된 주소를 분산 배치하여, 메모리 코어의 충전/방전 지연 시간(tRC)을 숨기고 파이프라이닝 효과를 내는 필수 아키텍처.
+- **캐시 메모리 (Cache Memory)**: CPU와 DDR SDRAM 사이의 속도 격차를 줄이기 위해 존재하는 SRAM 기반의 초고속 임시 저장소.
+- **HBM (High Bandwidth Memory)**: 평면적으로 핀을 늘리는 DDR의 한계를 돌파하기 위해, DRAM 다이를 수직으로 적층하여 수천 개의 핀(1024bit)으로 극한의 대역폭을 내는 메모리.
+- **ECC 메모리 (Error-Correcting Code)**: 우주 방사선 등으로 인해 DDR 내부 커패시터의 전하가 변하는 소프트 에러(Soft Error)를 감지하고 수정하여 서버의 RAS(Reliability)를 보장하는 기술.
+- **CXL (Compute Express Link)**: DDR 채널 수의 물리적 한계를 극복하기 위해 PCIe 물리 계층을 활용하여 메모리를 무한 확장 가능하게 하는 차세대 인터커넥트 표준.
 
 ---
 

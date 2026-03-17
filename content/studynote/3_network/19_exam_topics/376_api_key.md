@@ -1,5 +1,6 @@
 +++
 title = "API Key - API 인증 키"
+date = "2026-03-14"
 weight = 376
 +++
 
@@ -138,10 +139,10 @@ API Key는 API 접근을 위한 식별자 토큰입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [OAuth](./375_oauth.md)
-- [JWT](./374_jwt.md)
-- [API Gateway](./334_api_gateway.md)
-- [Basic Auth](./377_basic_auth.md)
+- OAuth
+- JWT
+- API Gateway
+- Basic Auth
 
 ---
 

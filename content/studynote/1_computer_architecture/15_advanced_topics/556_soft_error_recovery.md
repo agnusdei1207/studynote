@@ -1,6 +1,7 @@
 +++
-weight = 556
 title = "556. 소프트 에러 복구 매커니즘 (Soft Error Recovery)"
+date = "2026-03-14"
+weight = 556
 +++
 
 # 소프트 에러 복구 매커니즘 (Soft Error Recovery)
@@ -144,10 +145,10 @@ title = "556. 소프트 에러 복구 매커니즘 (Soft Error Recovery)"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[오류 정정 부호 (ECC) 회로](./554_ecc_circuit.md)**: 소프트 에러 탐지 및 복구의 기초 기술.
-- **[메모리 스크러빙 (Memory Scrubbing)](./555_memory_scrubbing.md)**: 소프트 에러가 누적되지 않도록 주기적으로 청소하는 기술.
-- **[기능 안전 (Functional Safety)](./xx_functional_safety.md)**: 소프트 에러 복구를 포함하는 상위 안전 설계 철학.
-- **[락스텝 (Lock-step) 아키텍처](./xx_lockstep.md)**: 두 개의 코어를 동시에 돌려 에러를 복구하는 대표적 구조.
+- **오류 정정 부호 (ECC) 회로**: 소프트 에러 탐지 및 복구의 기초 기술.
+- **메모리 스크러빙 (Memory Scrubbing)**: 소프트 에러가 누적되지 않도록 주기적으로 청소하는 기술.
+- **기능 안전 (Functional Safety)**: 소프트 에러 복구를 포함하는 상위 안전 설계 철학.
+- **락스텝 (Lock-step) 아키텍처**: 두 개의 코어를 동시에 돌려 에러를 복구하는 대표적 구조.
 
 ---
 

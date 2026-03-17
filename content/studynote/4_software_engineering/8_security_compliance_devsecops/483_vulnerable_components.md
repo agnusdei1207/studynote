@@ -1,7 +1,7 @@
----
-title: "483. Vulnerable and Outdated Components (취약하고 만료된 컴포넌트)"
-date: 2026-03-15
----
++++
+title = "483. Vulnerable and Outdated Components (취약하고 만료된 컴포넌트)"
+date = "2026-03-15"
++++
 
 # 483. Vulnerable and Outdated Components (취약하고 만료된 컴포넌트)
 
@@ -153,10 +153,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[OWASP Top 10 (A06)](./477_owasp_top_10.md)**: 취약한 컴포넌트가 포함된 표준 리포트
-- **[SBOM (Software Bill of Materials)](./496_sbom.md)**: 소프트웨어 구성 명세서 표준
-- **[SCA (Software Composition Analysis)](./495_sca.md)**: 오픈소스 취약점 분석 기술
-- **[Supply Chain Attack](./520_supply_chain_attack.md)**: 컴포넌트 취약점을 악용하는 상위 공격 개념
+- **OWASP Top 10 (A06)**: 취약한 컴포넌트가 포함된 표준 리포트
+- **SBOM (Software Bill of Materials)**: 소프트웨어 구성 명세서 표준
+- **SCA (Software Composition Analysis)**: 오픈소스 취약점 분석 기술
+- **Supply Chain Attack**: 컴포넌트 취약점을 악용하는 상위 공격 개념
 
 ---
 

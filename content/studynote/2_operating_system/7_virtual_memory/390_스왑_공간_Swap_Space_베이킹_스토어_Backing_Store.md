@@ -1,6 +1,7 @@
 +++
-weight = 390
 title = "390. 스왑 공간 (Swap Space) / 베이킹 스토어 (Backing Store)"
+date = "2026-03-14"
+weight = 390
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -115,4 +116,3 @@ graph LR
     SO --> MF[Memory Freeing]
     SI --> PF[Page Fault Resolution]
     MF --> AG[Higher Degree of Multiprogramming]
-```

@@ -1,5 +1,6 @@
 +++
 title = "Subnet Mask - 서브넷 마스크"
+date = "2026-03-14"
 weight = 896
 +++
 
@@ -110,6 +111,6 @@ Subnet Mask는 IP 주소에서 네트워크 부분을 식별합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Subnet](./895_subnet.md)
-- [IP Address](./xxx_ip_address.md)
-- [CIDR](./xxx_cidr.md)
+- Subnet
+- IP Address
+- CIDR

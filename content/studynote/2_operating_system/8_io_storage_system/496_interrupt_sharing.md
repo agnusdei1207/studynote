@@ -1,6 +1,7 @@
 +++
-weight = 496
 title = "496. 인터럽트 공유 및 MSI/MSI-X"
+date = "2026-03-14"
+weight = 496
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -99,9 +100,9 @@ title = "496. 인터럽트 공유 및 MSI/MSI-X"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[APIC (Advanced Programmable Interrupt Controller)](../../1_computer_architecture/9_system_bus_interconnects/xx_apic.md)**: MSI 메시지를 받아 처리하는 CPU 내부의 핵심 장치.
-- **[NVMe (Non-Volatile Memory Express)](./482_nvme.md)**: MSI-X를 가장 적극적으로 활용하는 저장 장치 규격.
-- **[SR-IOV](./497_sr_iov.md)**: 가상화에서 MSI 인터럽트를 직접 전달하는 기술.
+- **APIC (Advanced Programmable Interrupt Controller)**: MSI 메시지를 받아 처리하는 CPU 내부의 핵심 장치.
+- **NVMe (Non-Volatile Memory Express)**: MSI-X를 가장 적극적으로 활용하는 저장 장치 규격.
+- **SR-IOV**: 가상화에서 MSI 인터럽트를 직접 전달하는 기술.
 
 ---
 

@@ -1,0 +1,23 @@
+import os
+import glob
+import re
+
+def fix_file(file_path):
+    with open(file_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    # Zola requires front matter to be either entirely +++ (TOML) or entirely --- (YAML)
+    if content.startswith('---'):
+        parts = content.split('---', 2)
+        if len(parts) >= 3:
+            pass
+        else:
+            # Maybe it ends with +++
+            parts2 = content.split('+++', 1)
+            if len(parts2) >= 2 and parts2[0].startswith('---\n'):
+                new_content = '+++' + content[3:]
+                with open(file_path, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+
+for filepath in glob.glob('content/**/*.md', recursive=True):
+    fix_file(filepath)

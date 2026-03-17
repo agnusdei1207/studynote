@@ -1,6 +1,7 @@
 +++
-weight = 498
 title = "498. 컴퓨테이셔널 스토리지 (Computational Storage / Smart SSD)"
+date = "2026-03-14"
+weight = 498
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -105,9 +106,9 @@ title = "498. 컴퓨테이셔널 스토리지 (Computational Storage / Smart SSD
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[NVMe (Non-Volatile Memory Express)](./482_nvme.md)**: 컴퓨테이셔널 스토리지가 통신하는 고속도로.
-- **[FPGA (Field Programmable Gate Array)](../../1_computer_architecture/12_accelerators_ai_hardware/xx_fpga.md)**: SSD 내부 연산 유닛으로 자주 쓰이는 가변형 칩.
-- **[eBPF (Extended Berkeley Packet Filter)](../../2_operating_system/10_security_performance_virtualization/xx_ebpf.md)**: SSD 내부에 안전하게 연산 코드를 주입하는 방식 중 하나.
+- **NVMe (Non-Volatile Memory Express)**: 컴퓨테이셔널 스토리지가 통신하는 고속도로.
+- **FPGA (Field Programmable Gate Array)**: SSD 내부 연산 유닛으로 자주 쓰이는 가변형 칩.
+- **eBPF (Extended Berkeley Packet Filter)**: SSD 내부에 안전하게 연산 코드를 주입하는 방식 중 하나.
 
 ---
 

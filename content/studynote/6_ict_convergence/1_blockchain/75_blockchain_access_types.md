@@ -1,10 +1,9 @@
----
-title: "[ICT] #76. 허가형 vs 무허가형 블록체인"
-date: "2026-03-17"
++++
+title = "[ICT] #76. 허가형 vs 무허가형 블록체인"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Permissioned_Permissionless_Public_Private_Consensus_Governance"
----
+keyword = "Permissioned_Permissionless_Public_Private_Consensus_Governance"
++++
 
 # 허가형 vs 무허가형 블록체인: 참여의 자유와 통제된 신뢰의 균형
 
@@ -13,7 +12,7 @@ keyword: "Permissioned_Permissionless_Public_Private_Consensus_Governance"
 > 2. **가치**: 무허가형은 완전한 탈중앙화와 검열 저항성을 최우선으로 하며, 허가형은 기업 환경에 필수적인 **개인정보 보호, 고성능 처리, 명확한 책임 소재** 확보에 집중한다.
 > 3. **융합**: 비즈니스 목적에 따라 합의 알고리즘(PoW/PoS vs BFT/Raft)과 보안 아키텍처가 달라지며, 최근에는 두 방식의 장점을 결합한 **하이브리드 블록체인** 모델이 실무적 대안으로 부상하고 있다.
 
----
++++
 
 ## Ⅰ. 블록체인 참여 유형 개요
 
@@ -27,7 +26,7 @@ keyword: "Permissioned_Permissionless_Public_Private_Consensus_Governance"
 
 📢 **섹션 요약 비유**: 누구나 참여하는 '디지털 민주주의 광장'과 전문가들이 모여 효율을 극대화하는 '디지털 이사회'의 차이입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 작동 원리 (Deep Dive)
 
@@ -77,7 +76,7 @@ keyword: "Permissioned_Permissionless_Public_Private_Consensus_Governance"
 
 📢 **섹션 요약 비유**: 무허가형이 '전 국민 투표'라면, 허가형은 '국무회의 결정'과 같은 의사결정의 속도와 범위 차이를 보입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -97,7 +96,7 @@ keyword: "Permissioned_Permissionless_Public_Private_Consensus_Governance"
 
 📢 **섹션 요약 비유**: 무허가형이 '자유 시장 경제'라면, 허가형은 '사내 협동조합'과 같은 경제적 보상 및 운영 논리의 차이가 있습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -115,7 +114,7 @@ keyword: "Permissioned_Permissionless_Public_Private_Consensus_Governance"
 
 📢 **섹션 요약 비유**: "누구나 볼 수 있는 유리집(무허가)"과 "우리끼리만 아는 밀실(허가)"을 적절히 섞어, "겉은 튼튼하고 안은 아늑한 집(하이브리드)"을 짓는 능력이 필요합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -129,13 +128,13 @@ keyword: "Permissioned_Permissionless_Public_Private_Consensus_Governance"
 
 📢 **섹션 요약 비유**: 허가형과 무허가형은 대립하는 기술이 아니라, 디지털 세상을 떠받치는 **'두 개의 기둥'**이며 비즈니스 성격에 맞게 골라 쓰는 지혜가 필요합니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[퍼블릭 블록체인](./18_public_blockchain.md)**: 무허가형의 대표적인 운영 형태.
-- **[프라이빗 블록체인](./19_private_blockchain.md)**: 허가형의 대표적인 운영 형태.
-- **[하이퍼레저 패브릭](./57_hyperledger_fabric.md)**: 허가형 블록체인의 표준 프레임워크.
-- **[블록체인 트릴레마](./40_trilemma.md)**: 두 유형이 나뉘게 된 근본적인 기술적 배경.
+- **퍼블릭 블록체인**: 무허가형의 대표적인 운영 형태.
+- **프라이빗 블록체인**: 허가형의 대표적인 운영 형태.
+- **하이퍼레저 패브릭**: 허가형 블록체인의 표준 프레임워크.
+- **블록체인 트릴레마**: 두 유형이 나뉘게 된 근본적인 기술적 배경.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **모두의 놀이터**: 무허가형은 담장도 없고 주인도 없어서 전 세계 누구나 들어와서 신나게 놀 수 있는 커다란 공원 놀이터예요.

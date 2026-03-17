@@ -1,5 +1,6 @@
 +++
 title = "636. 연합 학습 (Federated Learning) 분산 아키텍처"
+date = "2026-03-14"
 weight = 636
 +++
 

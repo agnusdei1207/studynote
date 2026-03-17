@@ -1,6 +1,7 @@
 +++
-weight = 616
 title = "616. CPU 가상화 및 섀도 페이지 테이블 (Shadow Page Table)"
+date = "2026-03-14"
+weight = 616
 +++
 
 # 616. CPU 가상화 및 섀도 페이지 테이블 (Shadow Page Table)

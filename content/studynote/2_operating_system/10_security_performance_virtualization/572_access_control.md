@@ -1,7 +1,7 @@
 +++
-weight = 572
 title = "572. 접근 제어 (Access Control)"
 date = "2026-03-16"
+weight = 572
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "접근 제어", "Access Control", "DAC", "MAC", "RBAC", "ACL"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "접근 제어", "Access Control", "DAC", "MAC", "RB
 > 2. **가치**: 시스템 리소스에 대한 무단 접근을 방지하여 **최소 권한의 원칙(Principle of Least Privilege)**을 구현하고, 데이터 유출과 시스템 장애를 예방한다.
 > 3. **융합**: DAC(임의적), MAC(강제적), RBAC(역할 기반) 등 다양한 모델이 존재하며, 현대 OS는 이를 계층화하여 Defense in Depth를 실현한다.
 
----
++++
 
 ## Ⅰ. 접근 제어의 개요
 
@@ -33,7 +33,7 @@ keywords = ["운영체제", "접근 제어", "Access Control", "DAC", "MAC", "RB
 
 - **📢 섹션 요약 비유**: 아파트 각 세대의 출입키는 그 집 사람만 줍니다. 경비실은 전체 관리 권한을 갖습니다.
 
----
++++
 
 ## Ⅱ. 접근 제어 모델 (Deep Dive)
 
@@ -101,7 +101,7 @@ keywords = ["운영체제", "접근 제어", "Access Control", "DAC", "MAC", "RB
 
 - **📢 섹션 요약 비유**: 회사에서 직책(역할)에 따라 출입카드를 주는 방식입니다. 대리는 2층까지, 과장은 3층까지, 사장은 전층 접근 가능합니다.
 
----
++++
 
 ## Ⅲ. 접근 제어 매트릭스와 구현
 
@@ -132,7 +132,7 @@ keywords = ["운영체제", "접근 제어", "Access Control", "DAC", "MAC", "RB
 | **Capability List** | 사용자별 행 저장 | 사용자 중심 접근 용이 | 권한 취소 어려움 |
 | **Lock-Key** | Lock(객체), Key(사용자) | 유연함 | 복잡함 |
 
----
++++
 
 ## Ⅳ. 실무 적용 및 아키텍처적 판단 (Strategy)
 
@@ -151,7 +151,7 @@ keywords = ["운영체제", "접근 제어", "Access Control", "DAC", "MAC", "RB
 - **Root로 실행**: 최소 권한 원칙 위배
 - **권한 누적**: 사용자가 퇴사해도 권한 회수 안 됨
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -163,15 +163,15 @@ keywords = ["운영체제", "접근 제어", "Access Control", "DAC", "MAC", "RB
 - **ABAC (Attribute-Based)**: 속성 기반 동적 접근 제어
 - **Policy as Code**: 접근 제어 정책을 코드로 관리
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[보호 vs 보안](./571_protection_vs_security.md)**: 상위 개념
-- **[인증 및 권한 부여](./573_authentication_authorization.md)**: 접근 제어의 전제 조건
-- **[SELinux](./642_selinux.md)**: MAC 구현
-- **[최소 권한 원칙](./xx_least_privilege.md)**: 설계 원칙
+- **보호 vs 보안**: 상위 개념
+- **인증 및 권한 부여**: 접근 제어의 전제 조건
+- **SELinux**: MAC 구현
+- **최소 권한 원칙**: 설계 원칙
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 접근 제어는 **'비밀 일기장에 자물쇠를 채우는 것'** 같아요.

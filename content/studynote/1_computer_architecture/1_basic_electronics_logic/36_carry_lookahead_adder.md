@@ -1,6 +1,7 @@
 +++
-weight = 36
 title = "36. 캐리 예측 가산기 (Carry Look-ahead Adder)"
+date = "2026-03-14"
+weight = 36
 +++
 
 # 36. 캐리 예측 가산기 (Carry Look-ahead Adder)

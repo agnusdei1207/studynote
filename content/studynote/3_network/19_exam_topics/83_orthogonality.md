@@ -1,5 +1,6 @@
 +++
 title = "직교성 (Orthogonality)"
+date = "2026-03-14"
 weight = 83
 +++
 
@@ -139,10 +140,10 @@ weight = 83
 ---
 
 ### 📌 관련 개념 링크**:
-- [CDM 코드 분할](./82_cdm_code.md)
-- [OFDM 직교 주파수 분할](./84_ofdm_orthogonal.md)
-- [QAM 직교 진폭 변조](./54_qam.md)
-- [CDMA 코드 분할 다중접속](./90_cdma_code.md)
+- CDM 코드 분할
+- OFDM 직교 주파수 분할
+- QAM 직교 진폭 변조
+- CDMA 코드 분할 다중접속
 
 ---
 

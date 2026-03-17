@@ -1,9 +1,7 @@
----
-title: "607. 팩토리 메서드 vs 추상 팩토리(Abstract Factory)"
-date: "2026-03-15"
-type: "pe_exam"
-id: 607
----
++++
+title = "607. 팩토리 메서드 vs 추상 팩토리(Abstract Factory)"
+date = "2026-03-15"
++++
 
 # 607. 팩토리 메서드 vs 추상 팩토리(Abstract Factory)
 
@@ -339,11 +337,11 @@ DAO(Data Access Object) 패턴은 Factory Method의 실무 적용 사례다.
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[생성 패턴(Creational Patterns)](./564_creational_patterns.md)**: 팩토리 메서드, 추상 팩토리가 속한 상위 카테고리.
-- **[DI(Dependency Injection)](./337_dependency_injection.md)**: 팩토리 패턴을 자동화하는 현대적 접근.
-- **[빌더 패턴(Builder)](./256_builder.md)**: 복잡한 객체 생성에 특화된 패턴.
-- **[OCP(Open-Closed Principle)](./601_solid_principles.md)**: 팩토리 패턴이 준수하는 개방-폐쇄 원칙.
-- **[DIP(Dependency Inversion)](./601_solid_principles.md)**: 팩토리가 달성하는 의존성 역전 원칙.
+- **생성 패턴(Creational Patterns)**: 팩토리 메서드, 추상 팩토리가 속한 상위 카테고리.
+- **DI(Dependency Injection)**: 팩토리 패턴을 자동화하는 현대적 접근.
+- **빌더 패턴(Builder)**: 복잡한 객체 생성에 특화된 패턴.
+- **OCP(Open-Closed Principle)**: 팩토리 패턴이 준수하는 개방-폐쇄 원칙.
+- **DIP(Dependency Inversion)**: 팩토리가 달성하는 의존성 역전 원칙.
 
 ---
 

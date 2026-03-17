@@ -1,5 +1,6 @@
 +++
 title = "Zabbix - 엔터프라이즈 모니터링"
+date = "2026-03-14"
 weight = 320
 +++
 
@@ -153,10 +154,10 @@ Zabbix는 오픈소스 기반 엔터프라이즈급 모니터링 플랫폼입니
 ---
 
 ### 📌 관련 개념 링크**:
-- [Nagios](./319_nagios.md)
-- [Prometheus](./15_devops_sre/222_prometheus.md)
-- [Grafana](./15_devops_sre/223_grafana.md)
-- [SNMP](./297_snmp.md)
+- Nagios
+- Prometheus
+- Grafana
+- SNMP
 
 ---
 

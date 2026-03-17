@@ -1,7 +1,7 @@
----
-title: "490. CVSS (Common Vulnerability Scoring System)"
-date: 2026-03-15
----
++++
+title = "490. CVSS (Common Vulnerability Scoring System)"
+date = "2026-03-15"
++++
 
 # 490. CVSS (Common Vulnerability Scoring System)
 
@@ -167,10 +167,10 @@ CVSS 점수를 자산의 중요도와 결합하여 실제 비즈니스 리스크
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[CVE (Common Vulnerabilities and Exposures)](./489_cve.md)**: CVSS 점수가 매겨지는 대상 식별자
-- **[CWE (Common Weakness Enumeration)](./488_cwe.md)**: 취약점의 근본 원인 분류
-- **[NVD (National Vulnerability Database)](./xx_nvd.md)**: 공식 CVSS 점수가 공표되는 데이터베이스
-- **[DREAD 모델](./476_dread.md)**: CVSS 이전에 주로 쓰였던 위험 평가 모델
+- **CVE (Common Vulnerabilities and Exposures)**: CVSS 점수가 매겨지는 대상 식별자
+- **CWE (Common Weakness Enumeration)**: 취약점의 근본 원인 분류
+- **NVD (National Vulnerability Database)**: 공식 CVSS 점수가 공표되는 데이터베이스
+- **DREAD 모델**: CVSS 이전에 주로 쓰였던 위험 평가 모델
 
 ---
 

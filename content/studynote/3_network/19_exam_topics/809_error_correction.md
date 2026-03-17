@@ -1,5 +1,6 @@
 +++
 title = "Error Correction - 오류 수정"
+date = "2026-03-14"
 weight = 809
 +++
 
@@ -104,6 +105,6 @@ Error Correction은 오류를 자동으로 수정합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Error Detection](./808_error_detection.md)
-- [FEC](./xxx_fec.md)
-- [Reliability](./xxx_reliability.md)
+- Error Detection
+- FEC
+- Reliability

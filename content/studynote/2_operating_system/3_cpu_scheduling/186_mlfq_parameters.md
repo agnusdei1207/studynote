@@ -1,4 +1,3 @@
----
 +++
 title = "[OS] 186. MLFQ 파라미터 (Multi-Level Feedback Queue Parameters)"
 date = "2026-03-04"
@@ -14,7 +13,7 @@ tags = ["MLFQ", "Scheduling Parameters", "Priority", "Time Quantum"]
 > 2. **가치**: 5가지 핵심 파라미터(큐 개수, 알고리즘, 퀀텀, 강격/격하 규칙)의 세밀한 튜닝을 통해, 대화형 작업의 **Response Time (응답 시간)**과 배치 작업의 **Turnaround Time (반환 시간)**을 동시에 최적화합니다.
 > 3. **융합**: 현대 커널의 **CFS (Completely Fair Scheduler)** 및 클라우드 Hypervisor의 **Credit Scheduler** 이론적 기반이며, TCP 혼잡 제어 및 네트워크 **QoS (Quality of Service)** 큐 관리와 동일한 피드백 루프 메커니즘을 공유합니다.
 
----
++++
 
 ### Ⅰ. 개요 (Context & Background)
 
@@ -56,7 +55,7 @@ tags = ["MLFQ", "Scheduling Parameters", "Priority", "Time Quantum"]
 마치 **공항의 심사대 우선 순위 라인**과 같습니다. 
 마일리지가 높은 VIP(Q0)나 비즈니스석은 언제나 짧은 대기열로 바로 통과하지만, 일반석(Q2)은 줄이 길 수 있습니다. 그러나 공항은 주기적으로 '일반석' 승객 중에서 대기 시간이 너무 긴 승객을 발견하면 특별 진료 대기열(Aging)로 안내하여 영원히 기다리게 하지 않으려 노력합니다.
 
----
++++
 
 ### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -168,7 +167,7 @@ void schedule(struct MLFQ* mlfq) {
 마치 **주식 투자의 리스크 관리 시스템**과 유사합니다.
 신규 투자자(프로세스)는 처음에 '공격적 성장 포트폴리오(Q0)'에 배치되어 단기 수익을 노립니다. 그러나 시간이 지나도 수익이 나지 않고 잠만 자는(CPU를 독점하는) '값주买' 종목으로 판명되면, 시스템은 이를 '안전 자산 포트폴리오(Q2)'로 재분류하여 리스크를 격리합니다. 단, 시장이 폭락할 때(Priority Boost)는 모든 자산을 다시 현금화해 기회를 주는 것과 같습니다.
 
----
++++
 
 ### Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 

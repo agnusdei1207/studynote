@@ -1,5 +1,6 @@
 +++
 title = "Transaction - 트랜잭션"
+date = "2026-03-14"
 weight = 629
 +++
 
@@ -101,6 +102,6 @@ Transaction은 하나의 논리적 작업 단위입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [ACID](./630_acid.md)
-- [2PC](./628_2pc.md)
-- [Isolation Level](./631_isolation_level.md)
+- ACID
+- 2PC
+- Isolation Level

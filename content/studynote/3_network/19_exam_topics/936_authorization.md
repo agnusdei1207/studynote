@@ -1,5 +1,6 @@
 +++
 title = "Authorization - 인가"
+date = "2026-03-14"
 weight = 936
 +++
 
@@ -108,6 +109,6 @@ Authorization은 사용자 권한을 확인합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Authentication](./935_authentication.md)
-- [ACL](./xxx_acl.md)
-- [RBAC](./xxx_rbac.md)
+- Authentication
+- ACL
+- RBAC

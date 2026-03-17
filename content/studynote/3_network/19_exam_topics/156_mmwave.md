@@ -1,5 +1,6 @@
 +++
 title = "밀리미터파 (mmWave) - 30GHz ~ 300GHz"
+date = "2026-03-14"
 weight = 156
 +++
 
@@ -146,10 +147,10 @@ weight = 156
 ---
 
 ### 📌 관련 개념 링크**:
-- [마이크로파](./155_microwave.md)
-- [5G NR](./211_5g_nr.md)
-- [빔포밍](./212_beamforming.md)
-- [MIMO](./213_mimo.md)
+- 마이크로파
+- 5G NR
+- 빔포밍
+- MIMO
 
 ---
 

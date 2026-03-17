@@ -1,5 +1,6 @@
 +++
 title = "AMQP - 메시지 큐 프로토콜"
+date = "2026-03-14"
 weight = 344
 +++
 
@@ -145,10 +146,10 @@ AMQP는 엔터프라이즈급 메시지 큐 프로토콜입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [MQTT](./343_mqtt.md)
-- [Kafka](./345_kafka.md)
-- [RabbitMQ](./15_devops_sre/227_rabbitmq.md)
-- [메시지 큐](./4_software_engineering/196_message_queue.md)
+- MQTT
+- Kafka
+- RabbitMQ
+- 메시지 큐
 
 ---
 

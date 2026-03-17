@@ -1,6 +1,7 @@
 +++
-weight = 256
 title = "256. 플래시 메모리 (Flash Memory)"
+date = "2026-03-14"
+weight = 256
 +++
 
 # 256. 플래시 메모리 (Flash Memory)
@@ -141,11 +142,11 @@ title = "256. 플래시 메모리 (Flash Memory)"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[NAND 플래시 vs NOR 플래시](./257_nand_flash.md)**: 플래시는 회로 구조에 따라 고용량 데이터 저장용 NAND 방식과, 코드 실행(XIP)이 가능한 빠른 읽기 속도의 NOR 방식으로 나뉜다.
-- **[가비지 컬렉션 (Garbage Collection in SSD)](../8_io_storage_systems/328_gc.md)**: 덮어쓰기가 불가능한 플래시 메모리에서, 무효화된(Invalid) 데이터가 흩어진 블록들을 지워서 다시 쓸 수 있는 깨끗한 블록으로 재활용하는 핵심 FTL 프로세스.
-- **[마모 평준화 (Wear Leveling)](../8_io_storage_systems/329_wear_leveling.md)**: 플래시 메모리의 물리적 지우기 수명(P/E Cycle)이 특정 블록에 집중되어 조기 사망하는 것을 막기 위해, 모든 블록이 골고루 지워지도록 기록 위치를 회전시키는 기술.
-- **[SSD (Solid State Drive)](../8_io_storage_systems/327_ssd.md)**: 수십 개의 낸드 플래시 칩과 D램 캐시, 전용 프로세서(컨트롤러)를 결합하여 만든 스토리지 시스템의 최종 형태.
-- **[ROM (Read Only Memory)](./255_rom.md)**: 플래시 메모리의 기술적 근원이 되는 비휘발성 메모리로, EEPROM 기술이 플래시 블록 소거 기술로 진화하며 대중화되었다.
+- **NAND 플래시 vs NOR 플래시**: 플래시는 회로 구조에 따라 고용량 데이터 저장용 NAND 방식과, 코드 실행(XIP)이 가능한 빠른 읽기 속도의 NOR 방식으로 나뉜다.
+- **가비지 컬렉션 (Garbage Collection in SSD)**: 덮어쓰기가 불가능한 플래시 메모리에서, 무효화된(Invalid) 데이터가 흩어진 블록들을 지워서 다시 쓸 수 있는 깨끗한 블록으로 재활용하는 핵심 FTL 프로세스.
+- **마모 평준화 (Wear Leveling)**: 플래시 메모리의 물리적 지우기 수명(P/E Cycle)이 특정 블록에 집중되어 조기 사망하는 것을 막기 위해, 모든 블록이 골고루 지워지도록 기록 위치를 회전시키는 기술.
+- **SSD (Solid State Drive)**: 수십 개의 낸드 플래시 칩과 D램 캐시, 전용 프로세서(컨트롤러)를 결합하여 만든 스토리지 시스템의 최종 형태.
+- **ROM (Read Only Memory)**: 플래시 메모리의 기술적 근원이 되는 비휘발성 메모리로, EEPROM 기술이 플래시 블록 소거 기술로 진화하며 대중화되었다.
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "VXLAN (Virtual Extensible LAN) - 가상 확장 LAN"
+date = "2026-03-14"
 weight = 602
 +++
 
@@ -100,6 +101,6 @@ VXLAN은 UDP로 L2를 캡슐화합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [VLAN](./542_vlan.md)
-- [Tunneling](./601_tunneling.md)
-- [SDN](./603_sdn.md)
+- VLAN
+- Tunneling
+- SDN

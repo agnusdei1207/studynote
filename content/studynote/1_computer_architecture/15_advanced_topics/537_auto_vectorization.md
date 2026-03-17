@@ -1,6 +1,7 @@
 +++
-weight = 537
 title = "537. 오토 벡터라이제이션 (Auto-vectorization)"
+date = "2026-03-14"
+weight = 537
 +++
 
 # 537. 오토 벡터라이제이션 (Auto-vectorization)

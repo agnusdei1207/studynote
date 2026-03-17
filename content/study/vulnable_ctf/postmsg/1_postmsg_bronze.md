@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: PostMessage Abuse 🥉 Bronze"
-description = "LUXORA 플랫폼의 HTML5 window.postMessage API 보안 결함을 악용한 DOM 기반 XSS 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "PostMessage", "Bronze", "DOM XSS", "Write-up"]

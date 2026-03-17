@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: SQL Injection 🥈 Silver"
-description = "LUXORA 플랫폼의 SQL Injection Silver 난이도 공백/문자 필터링 우회 기법 상세 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "SQL Injection", "Silver", "Bypass", "Write-up"]
@@ -133,4 +132,3 @@ SQL 인젝션의 유일하고도 완벽한 해결책은 언제나 **파라미터
 ```javascript
 const query = "SELECT * FROM users WHERE name = $1";
 db.query(query, [req.query.search], ...);
-```

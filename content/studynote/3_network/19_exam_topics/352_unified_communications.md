@@ -1,5 +1,6 @@
 +++
 title = "Unified Communications - 통합 커뮤니케이션"
+date = "2026-03-14"
 weight = 352
 +++
 
@@ -152,10 +153,10 @@ UC(Unified Communications)는 모든 커뮤니케이션을 통합합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [VoIP](./351_voip.md)
-- [WebRTC](./342_webrtc.md)
-- [SIP](./350_sip.md)
-- [협업 도구](./4_software_engineering/198_collaboration.md)
+- VoIP
+- WebRTC
+- SIP
+- 협업 도구
 
 ---
 

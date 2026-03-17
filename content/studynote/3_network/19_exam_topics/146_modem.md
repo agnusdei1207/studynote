@@ -1,5 +1,6 @@
 +++
 title = "모뎀 (Modem)"
+date = "2026-03-14"
 weight = 146
 +++
 
@@ -145,10 +146,10 @@ weight = 146
 ---
 
 ### 📌 관련 개념 링크**:
-- [DSU/CSU](./145_dsu_csu.md)
-- [케이블 모뎀](./147_cable_modem.md)
-- [ADSL/VDSL](./148_xdsl.md)
-- [변조](./45_ask.md)
+- DSU/CSU
+- 케이블 모뎀
+- ADSL/VDSL
+- 변조
 
 ---
 

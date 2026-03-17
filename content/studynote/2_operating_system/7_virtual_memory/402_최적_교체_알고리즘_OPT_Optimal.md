@@ -1,6 +1,7 @@
 +++
-weight = 402
 title = "402. 최적 교체 알고리즘 (OPT, Optimal)"
+date = "2026-03-14"
+weight = 402
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -119,4 +120,3 @@ graph TD
     FK -- Not possible in --> RS[Real Systems]
     BM -- Evaluates --> LRU[LRU]
     BM -- Evaluates --> FIFO[FIFO]
-```

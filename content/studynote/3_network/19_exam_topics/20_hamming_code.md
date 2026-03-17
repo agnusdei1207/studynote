@@ -1,5 +1,6 @@
 +++
 title = "hamming code"
+date = "2026-03-14"
 weight = 20
 +++
 
@@ -143,10 +144,10 @@ weight = 20
 ---
 
 ### 📌 관련 개념 링크**:
-- [패리티 Parity Check](./18_parity_check.md)
-- [CRC 순환 중복 검사](./19_crc_cyclic_redundancy.md)
-- [에러 제어 오류 검출 정정](./17_에러_제어_오류_검출_정정.md)
-- [FEC 순방향 오류 정정](./22_fec_forward_error.md)
+- 패리티 Parity Check
+- CRC 순환 중복 검사
+- 에러 제어 오류 검출 정정
+- FEC 순방향 오류 정정
 
 ---
 

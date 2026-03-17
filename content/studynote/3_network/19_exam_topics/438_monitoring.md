@@ -1,5 +1,6 @@
 +++
 title = "네트워크 모니터링 - Network Monitoring"
+date = "2026-03-14"
 weight = 438
 +++
 
@@ -149,10 +150,10 @@ weight = 438
 ---
 
 ### 📌 관련 개념 링크**:
-- [SNMP](./327_snmp.md)
-- [네트워크 성능 지표](./431_performance.md)
-- [Troubleshooting](./437_troubleshooting.md)
-- [로그 분석](./439_log_analysis.md)
+- SNMP
+- 네트워크 성능 지표
+- Troubleshooting
+- 로그 분석
 
 ---
 

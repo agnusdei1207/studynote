@@ -1,5 +1,6 @@
 +++
 title = "윈도우 스케일링 - Window Scaling"
+date = "2026-03-14"
 weight = 500
 +++
 
@@ -91,5 +92,5 @@ weight = 500
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./332_tcp.md)
-- [BDP](./499_bandwidth_delay.md)
+- TCP
+- BDP

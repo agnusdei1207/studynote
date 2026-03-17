@@ -1,5 +1,6 @@
 +++
 title = "Buffer - 버퍼"
+date = "2026-03-14"
 weight = 850
 +++
 
@@ -113,6 +114,6 @@ Buffer는 데이터를 임시로 저장하는 공간입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./552_tcp.md)
-- [Flow Control](./807_flow_control.md)
-- [Window](./838_window.md)
+- TCP
+- Flow Control
+- Window

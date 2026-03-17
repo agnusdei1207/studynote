@@ -1,5 +1,6 @@
 +++
 title = "CUDA (Compute Unified Device Architecture) - CUDA"
+date = "2026-03-14"
 weight = 676
 +++
 
@@ -99,6 +100,6 @@ CUDA는 NVIDIA GPU를 프로그래밍하는 플랫폼입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [GPU](./674_gpu.md)
-- [OpenCL](./677_opencl.md)
-- [DLP](./672_dlp.md)
+- GPU
+- OpenCL
+- DLP

@@ -1,5 +1,6 @@
 +++
 title = "Saga Pattern - 사가 패턴"
+date = "2026-03-14"
 weight = 724
 +++
 
@@ -100,6 +101,6 @@ Saga Pattern은 분산 트랜잭션을 관리합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Microservices](./617_microservices.md)
-- [Event Sourcing](./723_event_sourcing.md)
-- [Distributed Transaction](./622_distributed_transaction.md)
+- Microservices
+- Event Sourcing
+- Distributed Transaction

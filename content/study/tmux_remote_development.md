@@ -1,8 +1,7 @@
 +++
 title = "tmux로 모바일 원격 개발 환경 구축하기"
-description = "모바일에서 우분투 서버에 접속하여 Claude Code로 개발하기 위한 tmux 설정 가이드"
-date = 2026-03-08
-[taxonomies]
+date = "2026-03-08"
+[extra]
 tags = ["tmux", "remote-development", "ubuntu", "mobile", "claude-code"]
 +++
 

@@ -1,6 +1,7 @@
 +++
-weight = 447
 title = "447. 메모리 맵 I/O (Memory-mapped I/O) vs 분리된 I/O (Isolated I/O)"
+date = "2026-03-14"
+weight = 447
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -144,10 +145,10 @@ MMIO의 가장 큰 주의점은 **캐싱 (Caching)**이다.
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[I/O 레지스터](./445_io_hardware_interface_registers.md)**: MMIO를 통해 매핑되는 실제 하드웨어 제어판.
-- **[가상 메모리 (Virtual Memory)](./381_virtual_memory.md)**: MMIO 주소를 관리하고 격리하는 OS 체계.
-- **[BAR (Base Address Register)](./xx_pci_bar.md)**: PCIe 장치가 자신의 MMIO 주소 범위를 OS에 알리는 레지스터.
-- **[Volatile (C언어 키워드)](./xx_volatile.md)**: MMIO 접근 시 최적화를 방지하는 선언.
+- **I/O 레지스터**: MMIO를 통해 매핑되는 실제 하드웨어 제어판.
+- **가상 메모리 (Virtual Memory)**: MMIO 주소를 관리하고 격리하는 OS 체계.
+- **BAR (Base Address Register)**: PCIe 장치가 자신의 MMIO 주소 범위를 OS에 알리는 레지스터.
+- **Volatile (C언어 키워드)**: MMIO 접근 시 최적화를 방지하는 선언.
 
 ---
 

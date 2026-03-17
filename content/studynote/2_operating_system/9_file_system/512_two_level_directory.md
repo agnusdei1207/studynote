@@ -1,6 +1,7 @@
 +++
-weight = 512
 title = "512. 2단계 디렉터리 (Two-level Directory) - MFD, UFD"
+date = "2026-03-14"
+weight = 512
 +++
 
 # 512. 2단계 디렉터리 (Two-level Directory) - MFD, UFD

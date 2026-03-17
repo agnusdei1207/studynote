@@ -1,10 +1,9 @@
----
-title: "[ICT] #55. IPFS (InterPlanetary File System)"
-date: "2026-03-17"
++++
+title = "[ICT] #55. IPFS (InterPlanetary File System)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "IPFS_InterPlanetary_File_System_Content_Addressing_P2P_Distributed_Storage"
----
+keyword = "IPFS_InterPlanetary_File_System_Content_Addressing_P2P_Distributed_Storage"
++++
 
 # IPFS (InterPlanetary File System): 위치가 아닌 내용으로 찾는 분산형 웹의 저장소
 
@@ -13,7 +12,7 @@ keyword: "IPFS_InterPlanetary_File_System_Content_Addressing_P2P_Distributed_Sto
 > 2. **가치**: 중앙 서버 없이 전 세계에 파편화되어 저장되므로 데이터의 **위변조가 불가능**하고 검열 저항성이 높으며, 중복 저장을 방지하여 대역폭 효율성을 극대화한다.
 > 3. **융합**: 블록체인의 스마트 컨트랙트가 처리하기 힘든 대용량 데이터(이미지, 영상, 문서 등)의 실질적인 저장 레이어로 활용되며, NFT 메타데이터와 디앱(DApp) 배포의 표준 인프라로 자리 잡았다.
 
----
++++
 
 ## Ⅰ. IPFS (InterPlanetary File System) 개요
 
@@ -32,7 +31,7 @@ keyword: "IPFS_InterPlanetary_File_System_Content_Addressing_P2P_Distributed_Sto
 
 📢 **섹션 요약 비유**: 주소지를 보고 찾아가는 택배 서비스가 아니라, 물건의 고유 바코드를 외치면 가장 가까운 이웃이 물건을 건네주는 '직거래 장터'와 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -82,7 +81,7 @@ keyword: "IPFS_InterPlanetary_File_System_Content_Addressing_P2P_Distributed_Sto
 
 📢 **섹션 요약 비유**: 전교생이 교과서 페이지를 한 장씩 나누어 들고 있다가, 공부하고 싶은 친구가 "5페이지 가진 사람!"이라고 외치면 그 페이지를 가진 친구들이 즉시 복사해주는 '분산 복사 시스템'입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -103,7 +102,7 @@ keyword: "IPFS_InterPlanetary_File_System_Content_Addressing_P2P_Distributed_Sto
 
 📢 **섹션 요약 비유**: HTTP가 주소를 찾아가는 '우편 배달'이라면, IPFS는 물건의 냄새를 맡고 찾아가는 '사냥개'와 같은 지능형 탐색 시스템입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -117,7 +116,7 @@ keyword: "IPFS_InterPlanetary_File_System_Content_Addressing_P2P_Distributed_Sto
 
 📢 **섹션 요약 비유**: 도서관에 책을 기증(업로드)했다고 해서 영원히 보관되는 건 아니므로, 사서(피닝 서비스)에게 월급(토큰)을 주어 책이 폐기되지 않도록 관리하는 '관리형 분산 저장'이 실무의 정석입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -131,13 +130,13 @@ keyword: "IPFS_InterPlanetary_File_System_Content_Addressing_P2P_Distributed_Sto
 
 📢 **섹션 요약 비유**: IPFS는 인터넷이라는 거대한 바다에 떠다니는 정보들을 하나로 묶어주는 **'디지털 접착제'**이자, 인류의 기억을 지켜주는 **'꺼지지 않는 횃불'**입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[파일코인 (Filecoin)](./75_filecoin.md)**: IPFS에 인센티브를 결합한 저장소 경제.
-- **[NFT (대체 불가능 토큰)](./28_nft.md)**: IPFS를 주 저장소로 사용하는 대표적 사례.
-- **[Merkle Tree](./6_merkle_tree.md)**: IPFS의 데이터 무결성을 지탱하는 수학적 뿌리.
-- **[ENS (Ethereum Name Service)](./xx_ens.md)**: CID를 인간이 읽기 쉬운 이름으로 바꿔주는 서비스.
+- **파일코인 (Filecoin)**: IPFS에 인센티브를 결합한 저장소 경제.
+- **NFT (대체 불가능 토큰)**: IPFS를 주 저장소로 사용하는 대표적 사례.
+- **Merkle Tree**: IPFS의 데이터 무결성을 지탱하는 수학적 뿌리.
+- **ENS (Ethereum Name Service)**: CID를 인간이 읽기 쉬운 이름으로 바꿔주는 서비스.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **이름표 대신 내용표**: 가방을 찾을 때 "저기 책상 위에 있는 거"라고 말하지 않고, "곰 인형이 들어있는 파란 가방"이라고 말해서 찾는 방법이에요.

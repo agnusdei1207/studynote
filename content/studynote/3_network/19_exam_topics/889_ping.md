@@ -1,5 +1,6 @@
 +++
 title = "Ping - 핑"
+date = "2026-03-14"
 weight = 889
 +++
 
@@ -110,6 +111,6 @@ Ping은 ICMP Echo로 호스트 연결을 확인합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [ICMP](./888_icmp.md)
-- [Traceroute](./890_traceroute.md)
-- [Latency](./801_latency.md)
+- ICMP
+- Traceroute
+- Latency

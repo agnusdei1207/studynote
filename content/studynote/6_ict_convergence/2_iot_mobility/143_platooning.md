@@ -1,10 +1,9 @@
----
-title: "[ICT] #144. 플래투닝 (Platooning / 군집 주행)"
-date: "2026-03-17"
++++
+title = "[ICT] #144. 플래투닝 (Platooning / 군집 주행)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Platooning_V2V_C-ACC_AutonomousDriving_Aerodynamics_Logistics"
----
+keyword = "Platooning_V2V_C-ACC_AutonomousDriving_Aerodynamics_Logistics"
++++
 
 # 플래투닝 (Platooning): 통신으로 하나 된 도로 위의 무인 화물 열차
 
@@ -13,7 +12,7 @@ keyword: "Platooning_V2V_C-ACC_AutonomousDriving_Aerodynamics_Logistics"
 > 2. **가치**: 차량 간 간격을 10m 이내로 극단적으로 줄임으로써 공기 저항(Aerodynamics)을 최소화하여 연비를 최대 15% 개선하고, 후행 차량 운전자의 피로도를 낮추어 물류 산업의 경제성을 혁신한다.
 > 3. **융합**: 협력형 적응형 크루즈 컨트롤(C-ACC) 알고리즘과 5G 기반의 초저지연 V2X 통신망, 그리고 자율주행 레벨 3/4 제어 기술이 완벽히 융합되어야 달성 가능한 상용 모빌리티의 끝판왕이다.
 
----
++++
 
 ## Ⅰ. 플래투닝 (Platooning / 군집 주행) 개요
 
@@ -31,7 +30,7 @@ keyword: "Platooning_V2V_C-ACC_AutonomousDriving_Aerodynamics_Logistics"
 
 📢 **섹션 요약 비유**: 철도(선로)를 깔 수 없는 일반 고속도로 위에, 전파로 엮은 '보이지 않는 기차'를 띄워 물류비용을 혁신하는 마법입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -77,7 +76,7 @@ keyword: "Platooning_V2V_C-ACC_AutonomousDriving_Aerodynamics_Logistics"
 
 📢 **섹션 요약 비유**: 앞사람의 뒷모습만 보고 따라 걷는 것이 아니라, 앞사람의 뇌파를 직접 수신하여 앞사람이 멈추려 마음먹는 순간 내 다리도 같이 멈추는 완벽한 동기화입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -97,7 +96,7 @@ keyword: "Platooning_V2V_C-ACC_AutonomousDriving_Aerodynamics_Logistics"
 
 📢 **섹션 요약 비유**: ACC가 '앞차의 브레이크 등에 불이 켜지면 밟는 반사 신경'이라면, C-ACC는 '앞차 운전자가 브레이크 페달에 발을 올리는 순간 나도 같이 밟는 텔레파시'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -114,7 +113,7 @@ keyword: "Platooning_V2V_C-ACC_AutonomousDriving_Aerodynamics_Logistics"
 
 📢 **섹션 요약 비유**: 줄 없는 기차를 만들 때는, 줄(통신)이 끊어졌을 때 기차 칸들이 서로 부딪히지 않고 각자의 브레이크를 잡으며 안전하게 멀어지도록 하는 '이별의 기술'이 가장 중요합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -128,13 +127,13 @@ keyword: "Platooning_V2V_C-ACC_AutonomousDriving_Aerodynamics_Logistics"
 
 📢 **섹션 요약 비유**: 플래투닝은 파편화된 자동차들을 통신이라는 보이지 않는 실로 꿰어, 도로 위의 효율과 안전을 극대화하는 '스마트 물류의 교향곡'입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[V2X 통신](./140_v2x_communication.md)**: 군집 주행의 디지털 토우바(견인봉) 역할을 하는 통신 인프라.
-- **[자율주행 자동차 단계](./134_autonomous_vehicle_levels.md)**: 후행 차량의 무인화를 위해 필요한 레벨 3/4 기술.
-- **[엣지 컴퓨팅](./104_edge_fog_computing.md)**: 10ms 단위의 차량 간 통신 데이터를 지연 없이 처리하는 기술.
-- **[RTOS (실시간 운영체제)](../../2_operating_system/xx_rtos.md)**: 브레이크 신호를 데드라인 내에 무조건 처리해야 하는 차량용 OS.
+- **V2X 통신**: 군집 주행의 디지털 토우바(견인봉) 역할을 하는 통신 인프라.
+- **자율주행 자동차 단계**: 후행 차량의 무인화를 위해 필요한 레벨 3/4 기술.
+- **엣지 컴퓨팅**: 10ms 단위의 차량 간 통신 데이터를 지연 없이 처리하는 기술.
+- **RTOS (실시간 운영체제)**: 브레이크 신호를 데드라인 내에 무조건 처리해야 하는 차량용 OS.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **보이지 않는 밧줄**: 커다란 트럭 여러 대가 눈에 보이지 않는 전파 밧줄로 꽁꽁 묶여서, 맨 앞 트럭만 따라가는 마법 같은 기차예요.

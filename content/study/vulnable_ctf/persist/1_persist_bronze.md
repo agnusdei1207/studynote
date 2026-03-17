@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Persistence 🥉 Bronze"
-description = "LUXORA 플랫폼의 기본 Persistence 취약점을 이용한 SSH Key 등록 및 백도어 유지 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Persistence", "Bronze", "SSH Keys", "Backdoor", "Write-up"]

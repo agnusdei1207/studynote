@@ -1,7 +1,7 @@
----
-title: "544. 외부화된 구성 관리 (Externalized Configuration)"
-date: 2026-03-15
----
++++
+title = "544. 외부화된 구성 관리 (Externalized Configuration)"
+date = "2026-03-15"
++++
 
 # 544. 외부화된 구성 관리 (Externalized Configuration)
 
@@ -161,10 +161,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[12-Factor App](./592_12factor_app.md)**: 외부화된 설정의 사상적 배경
-- **[시크릿 관리 도구](./514_secrets_management.md)**: 민감한 설정 정보를 보호하는 짝꿍 기술
-- **[MSA](./556_msa.md)**: 설정 관리가 복잡해지는 근본 배경
-- **[GitOps](./xx_gitops.md)**: 설정을 Git으로 관리하는 현대적 운영 모델
+- **12-Factor App**: 외부화된 설정의 사상적 배경
+- **시크릿 관리 도구**: 민감한 설정 정보를 보호하는 짝꿍 기술
+- **MSA**: 설정 관리가 복잡해지는 근본 배경
+- **GitOps**: 설정을 Git으로 관리하는 현대적 운영 모델
 
 ---
 

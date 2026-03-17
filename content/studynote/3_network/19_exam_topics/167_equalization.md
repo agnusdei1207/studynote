@@ -1,5 +1,6 @@
 +++
 title = "등화 (Equalization) - 선형/비선형/적응형"
+date = "2026-03-14"
 weight = 167
 +++
 
@@ -148,10 +149,10 @@ weight = 167
 ---
 
 ### 📌 관련 개념 링크**:
-- [ISI](./106_isi.md)
-- [페이딩](./162_fading.md)
-- [OFDM](./107_ofdm.md)
-- [비터비](./202_viterbi.md)
+- ISI
+- 페이딩
+- OFDM
+- 비터비
 
 ---
 

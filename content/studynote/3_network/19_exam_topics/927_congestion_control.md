@@ -1,5 +1,6 @@
 +++
 title = "Congestion Control - 혼잡 제어"
+date = "2026-03-14"
 weight = 927
 +++
 
@@ -106,6 +107,6 @@ Congestion Control은 네트워크 과부하를 방지합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./850_tcp.md)
-- [Flow Control](./928_flow_control.md)
-- [Packet Loss](./926_packet_loss.md)
+- TCP
+- Flow Control
+- Packet Loss

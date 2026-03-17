@@ -1,7 +1,7 @@
----
-title: "561. 컨테이너 기반 배포 (Blue-Green, Canary)"
-date: 2026-03-15
----
++++
+title = "561. 컨테이너 기반 배포 (Blue-Green, Canary)"
+date = "2026-03-15"
++++
 
 # 561. 컨테이너 기반 배포 (Blue-Green, Canary)
 
@@ -160,10 +160,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[컨테이너 보안](./513_container_security.md)**: 안전한 배포의 기초가 되는 이미지 보안
-- **[서비스 메시 (Istio)](./557_service_mesh.md)**: 정밀한 트래픽 라우팅을 가능케 하는 기술
-- **[회복력 패턴 (Circuit Breaker)](./569_resilience_patterns.md)**: 배포 중 장애를 차단하는 협력 기술
-- **[GitOps](./xx_gitops.md)**: 배포 전략을 자동화하는 현대적 운영 모델
+- **컨테이너 보안**: 안전한 배포의 기초가 되는 이미지 보안
+- **서비스 메시 (Istio)**: 정밀한 트래픽 라우팅을 가능케 하는 기술
+- **회복력 패턴 (Circuit Breaker)**: 배포 중 장애를 차단하는 협력 기술
+- **GitOps**: 배포 전략을 자동화하는 현대적 운영 모델
 
 ---
 

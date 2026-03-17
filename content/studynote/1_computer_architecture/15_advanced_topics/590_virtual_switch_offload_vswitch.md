@@ -1,5 +1,6 @@
 +++
 title = "590. 가상 스위치 오프로드 (vSwitch Offload)"
+date = "2026-03-14"
 weight = 590
 +++
 

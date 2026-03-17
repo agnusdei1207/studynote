@@ -1,5 +1,6 @@
 +++
 title = "OWASP (Open Web Application Security Project) - 오픈 웹 애플리케이션 보안 프로젝트"
+date = "2026-03-14"
 weight = 568
 +++
 
@@ -95,6 +96,6 @@ OWASP은 웹 보안 지식을 공유하는 비영리 단체입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [WAF](./566_waf.md)
-- [SQL Injection](./569_sql_injection.md)
-- [XSS](./570_xss.md)
+- WAF
+- SQL Injection
+- XSS

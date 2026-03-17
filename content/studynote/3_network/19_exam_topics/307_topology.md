@@ -1,5 +1,6 @@
 +++
 title = "네트워크 토폴로지 - Network Topology"
+date = "2026-03-14"
 weight = 307
 +++
 
@@ -148,10 +149,10 @@ weight = 307
 ---
 
 ### 📌 관련 개념 링크**:
-- [L2 스위칭](./160_l2_switching.md)
-- [스패닝 트리](./166_spanning_tree.md)
-- [Spine-Leaf](./168_spine_leaf.md)
-- [이중화](./276_high_availability.md)
+- L2 스위칭
+- 스패닝 트리
+- Spine-Leaf
+- 이중화
 
 ---
 

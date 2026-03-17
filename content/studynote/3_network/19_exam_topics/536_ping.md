@@ -1,5 +1,6 @@
 +++
 title = "ping - 핑 (Packet InterNet Groper)"
+date = "2026-03-14"
 weight = 536
 +++
 
@@ -96,6 +97,6 @@ ping은 ICMP Echo로 상대방 도달 여부를 확인합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [ICMP](./535_icmp.md)
-- [traceroute](./537_traceroute.md)
-- [RTT](./514_rtt_estimation.md)
+- ICMP
+- traceroute
+- RTT

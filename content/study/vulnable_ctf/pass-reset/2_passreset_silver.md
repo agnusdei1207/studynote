@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Password Reset 🥈 Silver"
-description = "LUXORA 플랫폼의 Silver 난이도 Password Reset 취약점(토큰 예측 및 브루트포스) 상세 공략 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Password Reset", "Silver", "Token Predictability", "Write-up"]

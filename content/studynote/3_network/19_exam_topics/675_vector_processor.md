@@ -1,5 +1,6 @@
 +++
 title = "Vector Processor - 벡터 프로세서"
+date = "2026-03-14"
 weight = 675
 +++
 
@@ -103,6 +104,6 @@ Vector Processor는 벡터 연산에 최적화된 프로세서입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [SIMD](./673_simd.md)
-- [GPU](./674_gpu.md)
-- [DLP](./672_dlp.md)
+- SIMD
+- GPU
+- DLP

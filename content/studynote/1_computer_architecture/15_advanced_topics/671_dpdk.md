@@ -1,5 +1,6 @@
 +++
 title = "DPDK (Data Plane Development Kit)"
+date = "2026-03-14"
 weight = 671
 +++
 

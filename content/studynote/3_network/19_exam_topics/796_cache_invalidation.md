@@ -1,5 +1,6 @@
 +++
 title = "Cache Invalidation - 캐시 무효화"
+date = "2026-03-14"
 weight = 796
 +++
 
@@ -104,6 +105,6 @@ Cache Invalidation은 캐시를 최신 상태로 유지합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Cache Eviction](./795_cache_eviction.md)
-- [Caching Strategies](./794_caching_strategies.md)
-- [Cache](./610_cache.md)
+- Cache Eviction
+- Caching Strategies
+- Cache

@@ -1,5 +1,6 @@
 +++
 title = "동기식 CDMA vs 비동기식 CDMA"
+date = "2026-03-14"
 weight = 91
 +++
 
@@ -153,10 +154,10 @@ weight = 91
 ---
 
 ### 📌 관련 개념 링크**:
-- [CDMA 코드 분할 접속](./90_cdma_code.md)
-- [PN 시퀀스](./205_pn_sequence.md)
-- [소프트 핸드오버](./205_soft_handover.md)
-- [WCDMA](./205_wcdma.md)
+- CDMA 코드 분할 접속
+- PN 시퀀스
+- 소프트 핸드오버
+- WCDMA
 
 ---
 

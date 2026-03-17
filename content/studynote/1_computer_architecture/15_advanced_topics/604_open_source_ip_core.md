@@ -1,5 +1,6 @@
 +++
 title = "604. 오픈 소스 IP 코어"
+date = "2026-03-14"
 weight = 604
 +++
 
@@ -142,10 +143,10 @@ IP 코어는 제공되는 형태에 따라 세 가지로 나뉜다.
 ---
 
 ### 📌 관련 개념 맵
-- [소프트웨어 정의 엑셀러레이터](./603_software_defined_accelerator.md): 오픈 소스 IP를 다운받아 즉시 하드웨어로 구현할 수 있는 타겟 플랫폼
-- [도메인 특화 아키텍처 (DSA)](../1_computer_architecture/xx_dsa.md): 범용이 아닌 맞춤형 칩을 만드는 목적. 오픈 소스 IP의 주요 활용처
-- [FPGA (Field Programmable Gate Array)](./606_fpga_dynamic_reconfiguration.md): 설계한 오픈 소스 IP를 칩으로 만들기 전 테스트하는 필수 장비
-- [명령어 집합 구조 (ISA) - RISC-V](../1_computer_architecture/4_instruction_set_architecture/xx_riscv.md): 오픈 소스 하드웨어 붐을 일으킨 개방형 명령어 표준
+- 소프트웨어 정의 엑셀러레이터: 오픈 소스 IP를 다운받아 즉시 하드웨어로 구현할 수 있는 타겟 플랫폼
+- 도메인 특화 아키텍처 (DSA): 범용이 아닌 맞춤형 칩을 만드는 목적. 오픈 소스 IP의 주요 활용처
+- FPGA (Field Programmable Gate Array): 설계한 오픈 소스 IP를 칩으로 만들기 전 테스트하는 필수 장비
+- 명령어 집합 구조 (ISA) - RISC-V: 오픈 소스 하드웨어 붐을 일으킨 개방형 명령어 표준
 
 ---
 

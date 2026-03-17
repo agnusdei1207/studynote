@@ -12,7 +12,7 @@ categories = "studynote-se"
 > 2. **가치**: 감사 가능한Audit Trail, 시간 여행(Debugging), CQRS와의 자연스러운 결합 → 복잡한 비즈니스 로직 투명화
 > 3. **융합**: CQRS, Event Store, Projections, Saga Pattern과 연계
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background) - [500자+]
 
@@ -81,7 +81,7 @@ categories = "studynote-se"
 
 마치 **비디오 녹화**와 같습니다. 실시간 방송은 지나간 순간을 다시 볼 수 없지만(CRUD), 녹화된 비디오(이벤트 로그)는 언제든지 되감거나(Event Replay), 특정 장면으로 이동(Temporal Query)할 수 있습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive) - [1,000자+]
 
@@ -575,7 +575,7 @@ class SnapshotPolicy {
 
 마치 **블록체인의 원장(Ledger)**과 같습니다. 모든 거래(이벤트)을 순차적으로 기록하며, 한번 기록된 거래는 변경되지 않습니다(Immutable). 언제든지 원장을 처음부터 다시 읽으면(Replay), 현재 잔고(상태)를 정확히 계산할 수 있습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy) - [비교표 2개+]
 
@@ -645,7 +645,7 @@ class SnapshotPolicy {
 
 마치 **동영상 스트리밍**과 같습니다. 크리에이터가 영상(이벤트)을 올리면, 구독자들은 실시간으로 시청합니다(Projector). 시청자는 언제든지 영상을 처음부터 다시 볼 수 있으며(Replay), 특정 장면으로 이동할 수 있습니다(Temporal Query).
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision) - [800자+]
 
@@ -787,7 +787,7 @@ class OrderItemAdded implements DomainEvent {
 
 마치 **회계 장부**와 같습니다. 모든 거래(이벤트)을 기록하며, 잔고(상태)는 장부를 계산해서 도출합니다. 장부에 기록된 거래는 절대 수정할 수 없으며(Immutable), 오류가 있으면 정정 거래(Compensating Event)를 추가해야 합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard) - [400자+]
 
@@ -820,15 +820,15 @@ class OrderItemAdded implements DomainEvent {
 
 미래의 이벤트 소싱은 **디지털 트윈(Digital Twin)**과 결합하여 더욱 강력해질 것입니다. 물리적 자산의 모든 상태 변경을 이벤트로 기록하여, **가상 공간에서 완벽하게 복제**하고, 시뮬레이션을 통해 미래를 예측할 수 있게 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
 
-- **[CQRS](./621_cqrs.md)**: 명령/조회 책임 분리
-- **[Saga 패턴](./619_saga_pattern.md)**: 분산 트랜잭션
-- **[도메인 주도 설계](./613_ddd_basics.md)**: 애그리거트 패턴
-- **[Event Store](./event_store.md)**: 이벤트 저장소
-- **[Projector](./projection.md)**: 읽기 모델 생성
+- **CQRS**: 명령/조회 책임 분리
+- **Saga 패턴**: 분산 트랜잭션
+- **도메인 주도 설계**: 애그리거트 패턴
+- **Event Store**: 이벤트 저장소
+- **Projector**: 읽기 모델 생성
 
 ### 👶 어린이를 위한 3줄 비유 설명
 

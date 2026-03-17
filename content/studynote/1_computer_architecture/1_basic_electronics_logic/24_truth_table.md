@@ -1,6 +1,7 @@
 +++
-weight = 24
 title = "24. 진리표 (Truth Table)"
+date = "2026-03-14"
+weight = 24
 +++
 
 # 24. 진리표 (Truth Table)
@@ -194,4 +195,3 @@ def majority_logic(bits):
       [Combinational Logic (Truth Table)]      [Sequential Logic (State Diagram)]
       
       Input A + Input B --[LOGIC]--> Output Z     Current State --[LOGIC]--> Next State
-      

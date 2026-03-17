@@ -1,6 +1,7 @@
 +++
-weight = 384
 title = "384. 순수 요구 페이징 (Pure Demand Paging)"
+date = "2026-03-14"
+weight = 384
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -116,4 +117,3 @@ graph TD
     IB --> PFH[Page Fault Handler]
     PFH --> DS[Disk Fetch]
     LR --> SS[Steady State]
-```

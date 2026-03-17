@@ -1,5 +1,6 @@
 +++
 title = "616. 영지식 증명 (ZKP) 가속 반도체 (ZK-Rollup)"
+date = "2026-03-14"
 weight = 616
 +++
 
@@ -150,10 +151,10 @@ MSM은 $P_{total} = \sum s_i P_i$ 를 구하는 연산이다.
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[ZK-Rollup](../7_enterprise_systems/xx_zk_rollup.md)**: ZKP 가속기의 가장 큰 수요처이자 응용 분야.
-- **[스마트 컨트랙트 검증 보조 코프로세서](./615_smart_contract_coprocessor.md)**: 실행 단계 가속기와 증명 단계 가속기의 상호 보완 관계.
-- **[완전 동형 암호 (FHE) 가속기](./617_fhe_modular_multiplier.md)**: ZKP보다 더 복잡한 연산을 다루는 차세대 암호 가속 기술.
-- **[Montgomery Multiplication](../9_security/xx_montgomery.md)**: 거대 정수 나머지 연산의 하드웨어 핵심 알고리즘.
+- **ZK-Rollup**: ZKP 가속기의 가장 큰 수요처이자 응용 분야.
+- **스마트 컨트랙트 검증 보조 코프로세서**: 실행 단계 가속기와 증명 단계 가속기의 상호 보완 관계.
+- **완전 동형 암호 (FHE) 가속기**: ZKP보다 더 복잡한 연산을 다루는 차세대 암호 가속 기술.
+- **Montgomery Multiplication**: 거대 정수 나머지 연산의 하드웨어 핵심 알고리즘.
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "RabbitMQ - 래빗엠큐"
+date = "2026-03-14"
 weight = 775
 +++
 
@@ -103,6 +104,6 @@ RabbitMQ는 메시지 브로커입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Message Queue](./609_message_queue.md)
-- [Kafka](./710_kafka.md)
-- [AMQP](./xxx_amqp.md)
+- Message Queue
+- Kafka
+- AMQP

@@ -1,5 +1,6 @@
 +++
 title = "부호화 (Coding) - 채널/소스/라인"
+date = "2026-03-14"
 weight = 169
 +++
 
@@ -149,10 +150,10 @@ weight = 169
 ---
 
 ### 📌 관련 개념 링크**:
-- [변조](./168_modulation_digital.md)
-- [LDPC](./202_ldpc.md)
-- [Turbo](./202_turbo.md)
-- [암호화](./202_encryption.md)
+- 변조
+- LDPC
+- Turbo
+- 암호화
 
 ---
 

@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: RBAC Bypass 🥈 Silver"
-description = "LUXORA 플랫폼의 Silver 난이도 RBAC 우회 공략 - Mass Assignment 및 입력값 조작을 통한 권한 탈취 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "RBAC", "Silver", "Mass Assignment", "Write-up"]

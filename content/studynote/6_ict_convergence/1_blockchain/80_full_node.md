@@ -1,10 +1,9 @@
----
-title: "[ICT] #81. 풀 노드 (Full Node)"
-date: "2026-03-17"
++++
+title = "[ICT] #81. 풀 노드 (Full Node)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "FullNode_Validation_BlockchainIntegrity_Decentralization_P2P"
----
+keyword = "FullNode_Validation_BlockchainIntegrity_Decentralization_P2P"
++++
 
 # 풀 노드 (Full Node): 블록체인의 무결성과 주권을 지키는 최종 검증자
 
@@ -13,7 +12,7 @@ keyword: "FullNode_Validation_BlockchainIntegrity_Decentralization_P2P"
 > 2. **가치**: 특정 중앙 기관이나 타인의 증명에 의존하지 않고 독립적으로 '진실'을 판별함으로써 블록체인의 **탈중앙화** 가치를 실현하며, 네트워크 전체의 보안성과 복구력을 강화한다.
 > 3. **융합**: P2P 네트워크의 라우팅 기술, 로컬 데이터베이스 관리, 암호학적 검증 로직이 집약된 소프트웨어 엔터티이며, 최근에는 하드웨어 사양 증가에 따른 운영 부담(Full Node Centralization) 문제가 주요 쟁점으로 다뤄진다.
 
----
++++
 
 ## Ⅰ. 풀 노드 (Full Node) 개요
 
@@ -30,7 +29,7 @@ keyword: "FullNode_Validation_BlockchainIntegrity_Decentralization_P2P"
 
 📢 **섹션 요약 비유**: 남이 요약해준 뉴스(Light Node)를 듣는 게 아니라, 직접 현장에 가서 원본 서류(Full Data)를 확인하는 '진실의 수호자'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -82,7 +81,7 @@ keyword: "FullNode_Validation_BlockchainIntegrity_Decentralization_P2P"
 
 📢 **섹션 요약 비유**: 신입 비서가 회사의 지난 10년 치 회의록을 전부 읽어보고 암기하여, 오늘 회의에서 누구의 말이 앞뒤가 안 맞는지 완벽히 잡아낼 준비를 하는 것과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -102,7 +101,7 @@ keyword: "FullNode_Validation_BlockchainIntegrity_Decentralization_P2P"
 
 📢 **섹션 요약 비유**: 풀 노드가 '전집을 소장한 도서관'이라면, 프루닝 노드는 '최신권만 둔 잡지 꽂이', 라이트 노드는 '책 제목만 적힌 목록표'와 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -116,7 +115,7 @@ keyword: "FullNode_Validation_BlockchainIntegrity_Decentralization_P2P"
 
 📢 **섹션 요약 비유**: 남의 집 CCTV에 내 보물을 맡기는 것보다, 우리 집 마당에 직접 카메라를 설치하고 지키는 것이 가장 안전한 보안의 정석입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -130,13 +129,13 @@ keyword: "FullNode_Validation_BlockchainIntegrity_Decentralization_P2P"
 
 📢 **섹션 요약 비유**: 풀 노드는 블록체인이라는 민주주의 국가를 지탱하는 **'한 명 한 명의 깨어있는 시민'**이며, 이들이 많을수록 디지털 세상은 더 정의로워질 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[P2P 네트워크](../../3_network/xx_p2p.md)**: 풀 노드들이 소통하는 물리적 기반.
-- **[SPV (라이트 노드)](./82_light_node.md)**: 풀 노드에게 정보를 요청하는 경량 참여자.
-- **[UTXO 모델](./xx_utxo.md)**: 비트코인 풀 노드가 검증하는 데이터의 핵심.
-- **[머클 증명 (Merkle Proof)](./6_merkle_tree.md)**: 풀 노드가 라이트 노드에게 신뢰를 제공하는 방법.
+- **P2P 네트워크**: 풀 노드들이 소통하는 물리적 기반.
+- **SPV (라이트 노드)**: 풀 노드에게 정보를 요청하는 경량 참여자.
+- **UTXO 모델**: 비트코인 풀 노드가 검증하는 데이터의 핵심.
+- **머클 증명 (Merkle Proof)**: 풀 노드가 라이트 노드에게 신뢰를 제공하는 방법.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **전부 기억하는 일기장**: 블록체인 나라의 첫날부터 오늘까지의 일기를 한 글자도 빠짐없이 다 가지고 있는 아주 똑똑한 컴퓨터예요.

@@ -1,6 +1,7 @@
 +++
-weight = 595
 title = "595. 샌드박스 (Sandboxing) 및 시스템 콜 필터링 (Seccomp (Secure Computing mode))"
+date = "2026-03-14"
+weight = 595
 +++
 
 # 595. 샌드박스 (Sandboxing) 및 시스템 콜 필터링 (Seccomp)

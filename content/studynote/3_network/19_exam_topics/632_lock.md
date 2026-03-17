@@ -1,5 +1,6 @@
 +++
 title = "Lock - 락"
+date = "2026-03-14"
 weight = 632
 +++
 
@@ -97,6 +98,6 @@ Lock은 동시 접근을 제어하는 메커니즘입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Transaction](./629_transaction.md)
-- [Isolation Level](./631_isolation_level.md)
-- [Deadlock](./633_deadlock.md)
+- Transaction
+- Isolation Level
+- Deadlock

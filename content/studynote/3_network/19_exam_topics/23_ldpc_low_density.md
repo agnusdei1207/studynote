@@ -1,5 +1,6 @@
 +++
 title = "LDPC (저밀도 패리티 검사)"
+date = "2026-03-14"
 weight = 23
 +++
 
@@ -134,10 +135,10 @@ LDPC(Low-Density Parity-Check)는 희소 패리티 검사 행렬을 사용하여
 ---
 
 ### 📌 관련 개념 링크**:
-- [FEC 순방향 오류 정정](./21_fec_forward_error.md)
-- [해밍 코드 Hamming Distance](./20_hamming_code.md)
-- [5G NR 무선 접속](./254_5g_nr_radio_access.md)
-- [WiFi 6 802.11ax](./240_wifi6_80211ax.md)
+- FEC 순방향 오류 정정
+- 해밍 코드 Hamming Distance
+- 5G NR 무선 접속
+- WiFi 6 802.11ax
 
 ---
 

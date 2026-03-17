@@ -1,5 +1,6 @@
 +++
 title = "secure enclave"
+date = "2026-03-14"
 weight = 790
 +++
 
@@ -138,10 +139,10 @@ weight = 790
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [애플 Secure Enclave Processor (SEP)](./791_apple_sep.md)
-- [Google Titan 보안 칩](./792_google_titan.md)
-- [TPM](./786_tpm.md)
-- [TRNG 엔트로피 소스](./786_trng_entropy.md)
+- 애플 Secure Enclave Processor (SEP)
+- Google Titan 보안 칩
+- TPM
+- TRNG 엔트로피 소스
 
 ---
 

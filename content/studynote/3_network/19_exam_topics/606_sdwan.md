@@ -1,5 +1,6 @@
 +++
 title = "SD-WAN (Software-Defined WAN) - 소프트웨어 정의 WAN"
+date = "2026-03-14"
 weight = 606
 +++
 
@@ -102,6 +103,6 @@ SD-WAN은 SDN 기술로 WAN을 최적화합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [SDN](./603_sdn.md)
-- [WAN](./608_wan.md)
-- [MPLS](./609_mpls.md)
+- SDN
+- WAN
+- MPLS

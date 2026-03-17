@@ -1,7 +1,8 @@
----
-title: "정적 전력 (Static Power / 누설 전력)"
-weight: 468
----
++++
+title = "정적 전력 (Static Power / 누설 전력)"
+date = "2026-03-14"
+weight = 468
++++
 
 ## 핵심 인사이트 (3줄 요약)
 > 1. **본질**: 정적 전력 (Static Power)은 트랜지스터가 스위칭 동작을 하지 않는 유휴(Idle) 상태에서도 전원에서 접지로 흐르는 미세한 누설 전류(Leakage Current)에 의해 소비되는 전력이다.
@@ -131,9 +132,9 @@ weight: 468
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[Power Gating](./471_power_gating.md)**: 정적 전력을 차단하는 물리적 스위치.
-- **[FinFET / GAA](../1_basic_electronics_logic/101_transistor.md)**: 구조 혁신을 통한 누설 억제.
-- **[Multi-Vt Design](./468_static_power.md)**: 성능과 누설의 전략적 배치.
+- **Power Gating**: 정적 전력을 차단하는 물리적 스위치.
+- **FinFET / GAA**: 구조 혁신을 통한 누설 억제.
+- **Multi-Vt Design**: 성능과 누설의 전략적 배치.
 
 ---
 

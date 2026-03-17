@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Session Attacks 🥇 Gold"
-description = "LUXORA 플랫폼의 Gold 난이도 Session Attack 롸잇업 - 암호화된 세션 쿠키의 서명 위조 및 취약한 직렬화 데이터 악용"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Session Attack", "Gold", "Signature Forgery", "Write-up"]

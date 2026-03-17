@@ -1,5 +1,6 @@
 +++
 title = "648. 캡 정리 (CAP Theorem)와 분산 스토리지"
+date = "2026-03-14"
 weight = 648
 +++
 

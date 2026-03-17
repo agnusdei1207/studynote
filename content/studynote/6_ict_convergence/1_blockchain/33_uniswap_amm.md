@@ -1,10 +1,9 @@
----
-title: "[ICT] #34. 유니스왑 (Uniswap) & AMM"
-date: "2026-03-17"
++++
+title = "[ICT] #34. 유니스왑 (Uniswap) & AMM"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Uniswap_AMM_Automated_Market_Maker_Constant_Product_Formula_Liquidity_Pool"
----
+keyword = "Uniswap_AMM_Automated_Market_Maker_Constant_Product_Formula_Liquidity_Pool"
++++
 
 # 유니스왑 (Uniswap)과 AMM: 알고리즘 기반 탈중앙화 유동성의 혁신
 
@@ -13,7 +12,7 @@ keyword: "Uniswap_AMM_Automated_Market_Maker_Constant_Product_Formula_Liquidity_
 > 2. **가치**: **CPMM(Constant Product Market Maker, $x \times y = k$)** 공식을 통해 자산의 상대적 비율에 따라 가격을 자동 조정하며, 누구나 유동성 공급자(LP)가 되어 거래 수수료 수익을 공유하는 개방형 금융 구조를 제공한다.
 > 3. **융합**: 집중화된 유동성(Uniswap V3), 거버넌스 토큰(UNI)을 통한 탈중앙화 의사결정, 그리고 MEV(최대 추출 가치) 방어 전략 등 고도의 알고리즘 설계가 결합된 **DeFi 생태계의 핵심 유동성 허브**다.
 
----
++++
 
 ## Ⅰ. 유니스왑 (Uniswap) 및 AMM 개요
 
@@ -30,7 +29,7 @@ keyword: "Uniswap_AMM_Automated_Market_Maker_Constant_Product_Formula_Liquidity_
 
 📢 **섹션 요약 비유**: 사고파는 사람을 일일이 매칭해주는 중고차 매매상(호가창) 대신, 정해진 가격표대로 언제든 바꿔주는 무인 중고차 자판기(AMM)가 등장한 것입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -79,7 +78,7 @@ keyword: "Uniswap_AMM_Automated_Market_Maker_Constant_Product_Formula_Liquidity_
 
 📢 **섹션 요약 비유**: 뷔페 식당(유동성 풀)에서 손님들이 한 가지 메뉴(인기 토큰)만 집중적으로 먹으면 주방장(알고리즘)이 즉시 다른 메뉴의 가치를 높여서 전체 음식의 양(유동성)을 일정하게 유지하는 것과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -99,7 +98,7 @@ keyword: "Uniswap_AMM_Automated_Market_Maker_Constant_Product_Formula_Liquidity_
 
 📢 **섹션 요약 비유**: 전문 딜러가 가격을 흥정하는 '중고차 단지'와, 정해진 공식대로만 기계가 바꿔주는 '디지털 자동 인형'의 대결과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -113,7 +112,7 @@ keyword: "Uniswap_AMM_Automated_Market_Maker_Constant_Product_Formula_Liquidity_
 
 📢 **섹션 요약 비유**: 넓은 논바닥 전체에 물을 대는 방식(V2)에서, 벼가 자라는 뿌리 근처에만 집중적으로 물을 주는 스마트 농법(V3)으로 유동성 관리가 진화하고 있습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -127,13 +126,13 @@ keyword: "Uniswap_AMM_Automated_Market_Maker_Constant_Product_Formula_Liquidity_
 
 📢 **섹션 요약 비유**: 유니스왑과 AMM은 잠들지 않는 **'글로벌 유동성의 심장'**이며, 인류 역사상 가장 공정하고 투명한 시장 조성 기술입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[DEX (탈중앙화 거래소)](./32_defi.md)**: AMM이 구현되는 서비스 형태.
-- **[CPMM / CSMM / PMM](./xx_amm_formulas.md)**: AMM을 구현하는 다양한 수학적 공식들.
-- **[비영구적 손실 (Impermanent Loss)](./xx_il.md)**: LP 공급 시 유의해야 할 경제적 리스크.
-- **[오라클 (Oracle)](./36_oracle.md)**: 외부 시세를 가져와 AMM의 한계를 보완하는 기술.
+- **DEX (탈중앙화 거래소)**: AMM이 구현되는 서비스 형태.
+- **CPMM / CSMM / PMM**: AMM을 구현하는 다양한 수학적 공식들.
+- **비영구적 손실 (Impermanent Loss)**: LP 공급 시 유의해야 할 경제적 리스크.
+- **오라클 (Oracle)**: 외부 시세를 가져와 AMM의 한계를 보완하는 기술.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **마법의 사탕 바꾸기 상자**: "사탕 1개 줄 테니 초콜릿 1개 줘"라고 친구를 기다릴 필요 없어요. 사탕을 넣으면 정해진 규칙에 따라 초콜릿이 바로 튀어나오는 마법 상자예요.

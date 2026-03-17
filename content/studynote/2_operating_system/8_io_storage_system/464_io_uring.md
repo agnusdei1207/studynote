@@ -1,6 +1,7 @@
 +++
-weight = 464
 title = "464. io_uring - 최신 리눅스 커널 비동기 I/O"
+date = "2026-03-14"
+weight = 464
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -116,9 +117,9 @@ title = "464. io_uring - 최신 리눅스 커널 비동기 I/O"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[비동기 I/O (Asynchronous I/O)](./461_async_io_aio.md)**: `io_uring`이 완성시킨 기술적 목표.
-- **[공유 메모리 (Shared Memory)](./xx_shared_memory.md)**: 링 버퍼 통신의 핵심 원리.
-- **[NVMe SSD](./xx_nvme_ssd.md)**: `io_uring`의 속도를 제대로 체감할 수 있는 하드웨어.
+- **비동기 I/O (Asynchronous I/O)**: `io_uring`이 완성시킨 기술적 목표.
+- **공유 메모리 (Shared Memory)**: 링 버퍼 통신의 핵심 원리.
+- **NVMe SSD**: `io_uring`의 속도를 제대로 체감할 수 있는 하드웨어.
 
 ---
 

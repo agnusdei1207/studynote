@@ -1,10 +1,9 @@
----
-title: "[ICT] #67. 51% 공격 (51% Attack)"
-date: "2026-03-17"
++++
+title = "[ICT] #67. 51% 공격 (51% Attack)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "51%_Attack_Double_Spending_Selfish_Mining_Hashrate_Consensus_Vulnerability"
----
+keyword = "51%_Attack_Double_Spending_Selfish_Mining_Hashrate_Consensus_Vulnerability"
++++
 
 # 51% 공격: 합의 알고리즘의 맹점과 다수결의 횡포
 
@@ -13,7 +12,7 @@ keyword: "51%_Attack_Double_Spending_Selfish_Mining_Hashrate_Consensus_Vulnerabi
 > 2. **가치**: 이미 확정된 거래를 뒤집어 같은 돈을 두 번 쓰는 **이중 지불(Double Spending)**을 가능케 하며, 특정 거래의 승인을 거부하거나 네트워크를 마비시켜 블록체인의 근간인 '신뢰'를 파괴한다.
 > 3. **융합**: 암호 경제학적 인센티브와 컴퓨팅 자원의 물리적 한계가 결합된 문제이며, 최근에는 ASIC 채굴기의 보급과 지분 증명(PoS)의 자산 편중 현상으로 인해 그 위험성이 재조명되고 있다.
 
----
++++
 
 ## Ⅰ. 51% 공격 (51% Attack) 개요
 
@@ -31,7 +30,7 @@ keyword: "51%_Attack_Double_Spending_Selfish_Mining_Hashrate_Consensus_Vulnerabi
 
 📢 **섹션 요약 비유**: 정직한 사람들이 지키던 성벽을, 적군이 수비대보다 더 많은 인원을 투입해 성문(합의 규칙)을 부수고 들어와 성 안의 규칙을 맘대로 바꾸는 상황입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 작동 원리 (Deep Dive)
 
@@ -78,7 +77,7 @@ keyword: "51%_Attack_Double_Spending_Selfish_Mining_Hashrate_Consensus_Vulnerabi
 
 📢 **섹션 요약 비유**: 시험 정답을 혼자만 알고 있다가, 남들이 다 제출한 뒤에 더 완벽한 정답지를 짠하고 내밀어서 이전 시험 결과 전체를 무효로 만드는 '타임머신형 사기'입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -98,7 +97,7 @@ keyword: "51%_Attack_Double_Spending_Selfish_Mining_Hashrate_Consensus_Vulnerabi
 
 📢 **섹션 요약 비유**: 은행을 털려고 폭탄을 샀는데, 은행을 터는 순간 내가 가진 폭탄의 가치도 0원이 되고 세상의 모든 돈이 종이 조각이 된다면 아무도 은행을 털지 않는 것과 같은 '경제적 평화'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -112,7 +111,7 @@ keyword: "51%_Attack_Double_Spending_Selfish_Mining_Hashrate_Consensus_Vulnerabi
 
 📢 **섹션 요약 비유**: 경찰(보안)이 부족한 동네(소형 코인)에서는 금고 문을 여는 데 걸리는 시간(컨펌 수)을 아주 길게 설정하여 도둑이 도망갈 틈을 주지 않는 전략이 필요합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -126,13 +125,13 @@ keyword: "51%_Attack_Double_Spending_Selfish_Mining_Hashrate_Consensus_Vulnerabi
 
 📢 **섹션 요약 비유**: 51% 공격은 블록체인이 넘어야 할 **'민주주의의 시험대'**이며, 이를 막아내는 힘은 기술적인 해시 파워뿐만 아니라 참여자들의 정직한 커뮤니티 정신에서 나옵니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[합의 알고리즘](./10_consensus_algorithm.md)**: 51% 공격이 발생하는 규칙의 토대.
-- **[이중 지불 (Double Spending)](./10_consensus_algorithm.md)**: 51% 공격의 주된 경제적 목적.
-- **[나카모토 계수](./xx_nakamoto_coefficient.md)**: 네트워크의 탈중앙화 수준을 측정하는 지표.
-- **[하드 포크 (Hard Fork)](./47_hard_fork.md)**: 51% 공격 성공 시 시스템을 복구하는 수단.
+- **합의 알고리즘**: 51% 공격이 발생하는 규칙의 토대.
+- **이중 지불 (Double Spending)**: 51% 공격의 주된 경제적 목적.
+- **나카모토 계수**: 네트워크의 탈중앙화 수준을 측정하는 지표.
+- **하드 포크 (Hard Fork)**: 51% 공격 성공 시 시스템을 복구하는 수단.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **나쁜 친구들의 다수결**: 10명의 친구가 모여서 노는데, 그중 6명이 나쁜 마음을 먹고 "어제 빌려준 장난감, 오늘 다시 돌려받았다고 일기장에 적자!"라고 거짓말을 하는 거예요.

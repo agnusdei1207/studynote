@@ -1,5 +1,6 @@
 +++
 title = "failure periods"
+date = "2026-03-14"
 weight = 757
 +++
 
@@ -138,10 +139,10 @@ weight = 757
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [배스터브 곡선 (Bathtub Curve)](./756_bathtub_curve.md)
-- [번인 (Burn-in) 테스트](./758_burn_in.md)
-- [HALT (Highly Accelerated Life Test)](./759_halt.md)
-- [가속 수명 시험 ALT](./762_alt.md)
+- 배스터브 곡선 (Bathtub Curve)
+- 번인 (Burn-in) 테스트
+- HALT (Highly Accelerated Life Test)
+- 가속 수명 시험 ALT
 
 ---
 

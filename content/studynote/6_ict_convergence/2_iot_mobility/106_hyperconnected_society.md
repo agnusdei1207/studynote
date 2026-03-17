@@ -1,10 +1,9 @@
----
-title: "[ICT] #107. 초연결 사회 (Hyper-connected Society)"
-date: "2026-03-17"
++++
+title = "[ICT] #107. 초연결 사회 (Hyper-connected Society)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Hyperconnectivity_ICT_Convergence_NetworkEffect_SmartEverything_DataDrivenSociety"
----
+keyword = "Hyperconnectivity_ICT_Convergence_NetworkEffect_SmartEverything_DataDrivenSociety"
++++
 
 # 초연결 사회: 사람, 사물, 공간이 하나로 엮이는 지능형 연결 패러다임
 
@@ -13,7 +12,7 @@ keyword: "Hyperconnectivity_ICT_Convergence_NetworkEffect_SmartEverything_DataDr
 > 2. **가치**: 연결의 폭과 깊이가 무한히 확장됨에 따라 새로운 가치가 창출되는 '네트워크 효과'가 극대화되며, 모든 데이터가 실시간으로 공유되고 분석되어 사회 전체의 지능화와 최적화를 달성한다.
 > 3. **융합**: 기술적으로는 5G/6G, 빅데이터, AI가 융합된 결과물이며, 경제적으로는 온오프라인의 경계가 허물어지는 O4O(Online for Offline) 및 플랫폼 경제를 가속화하는 사회적 토대가 된다.
 
----
++++
 
 ## Ⅰ. 초연결 사회 (Hyper-connected Society) 개요
 
@@ -32,7 +31,7 @@ keyword: "Hyperconnectivity_ICT_Convergence_NetworkEffect_SmartEverything_DataDr
 
 📢 **섹션 요약 비유**: 보이지 않는 무수한 디지털 실로 세상의 모든 점을 이어, 거대한 지능형 그물을 짜는 과정과 같습니다.
 
----
++++
 
 ## Ⅱ. 초연결 사회의 구조와 메커니즘 (Deep Dive)
 
@@ -78,7 +77,7 @@ keyword: "Hyperconnectivity_ICT_Convergence_NetworkEffect_SmartEverything_DataDr
 
 📢 **섹션 요약 비유**: 하나하나의 전구(기기)가 켜지는 수준을 넘어, 전구들이 서로 빛을 반사하며 도시 전체를 대낮처럼 밝히는 거대한 시너지를 내는 구조입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 사회적 영향 분석
 
@@ -98,7 +97,7 @@ keyword: "Hyperconnectivity_ICT_Convergence_NetworkEffect_SmartEverything_DataDr
 
 📢 **섹션 요약 비유**: 정보화 사회가 '도서관에서 원하는 책을 빨리 찾는 것'이었다면, 초연결 사회는 '책들이 스스로 나에게 다가와 필요한 지식을 속삭여주는 것'과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -117,7 +116,7 @@ keyword: "Hyperconnectivity_ICT_Convergence_NetworkEffect_SmartEverything_DataDr
 
 📢 **섹션 요약 비유**: 모든 배를 하나로 묶으면 파도에 잘 견디지만, 한 배가 침몰하면 모두가 위험해지는 것과 같습니다. 따라서 '강력한 연결'만큼이나 '안전한 분리(격리) 기술'이 중요합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -131,13 +130,13 @@ keyword: "Hyperconnectivity_ICT_Convergence_NetworkEffect_SmartEverything_DataDr
 
 📢 **섹션 요약 비유**: 초연결 사회는 인류가 만든 가장 크고 복잡한 예술 작품이며, 우리는 그 속에서 각자의 데이터로 저마다의 색을 칠하며 함께 살아가는 '디지털 시민'이 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[사물인터넷 (IoT)](./100_iot_concept.md)**: 초연결 사회를 구현하는 물리적 하부 구조.
-- **[디지털 트윈 (Digital Twin)](./126_digital_twin.md)**: 현실의 초연결 상태를 가상에 복제하여 시뮬레이션하는 기술.
-- **[빅데이터 (Big Data)](../../16_bigdata/xx_bigdata_concept.md)**: 연결을 통해 생성되는 초연결 사회의 원유.
-- **[마이데이터 (MyData)](../1_blockchain/79_mydata.md)**: 초연결 시대의 데이터 주권을 지키는 제도와 기술.
+- **사물인터넷 (IoT)**: 초연결 사회를 구현하는 물리적 하부 구조.
+- **디지털 트윈 (Digital Twin)**: 현실의 초연결 상태를 가상에 복제하여 시뮬레이션하는 기술.
+- **빅데이터 (Big Data)**: 연결을 통해 생성되는 초연결 사회의 원유.
+- **마이데이터 (MyData)**: 초연결 시대의 데이터 주권을 지키는 제도와 기술.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **모두가 친구**: 나랑 친구들뿐만 아니라, 우리 집 강아지, 학교 버스, 심지어 길가에 있는 나무까지도 모두 인터넷으로 연결되어 서로 인사를 나누는 사회예요.

@@ -1,5 +1,6 @@
 +++
 title = "변조 (Modulation) 개요"
+date = "2026-03-14"
 weight = 44
 +++
 
@@ -143,10 +144,10 @@ weight = 44
 ---
 
 ### 📌 관련 개념 링크**:
-- [ASK 진폭 편이 변조](./45_ask_amplitude.md)
-- [FSK 주파수 편이 변조](./46_fsk_frequency.md)
-- [PSK 위상 편이 변조](./47_psk_phase_shift.md)
-- [QAM 직교 진폭 변조](./51_qam_quadrature.md)
+- ASK 진폭 편이 변조
+- FSK 주파수 편이 변조
+- PSK 위상 편이 변조
+- QAM 직교 진폭 변조
 
 ---
 

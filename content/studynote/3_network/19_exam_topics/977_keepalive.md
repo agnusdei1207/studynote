@@ -1,5 +1,6 @@
 +++
 title = "Keepalive - 킵얼라이브"
+date = "2026-03-14"
 weight = 977
 +++
 
@@ -109,6 +110,6 @@ Keepalive는 연결이 활성 상태인지 확인합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./850_tcp.md)
-- [HTTP](./848_http.md)
-- [Heartbeat](./xxx_heartbeat.md)
+- TCP
+- HTTP
+- Heartbeat

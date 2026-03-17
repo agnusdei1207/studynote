@@ -1,6 +1,7 @@
 +++
-weight = 592
 title = "592. Meltdown 및 Spectre 하드웨어 취약점과 커널 대응 (KPTI (Kernel Page-Table Isolation))"
+date = "2026-03-14"
+weight = 592
 +++
 
 # 592. Meltdown 및 Spectre 하드웨어 취약점과 커널 대응 (KPTI (Kernel Page-Table Isolation))

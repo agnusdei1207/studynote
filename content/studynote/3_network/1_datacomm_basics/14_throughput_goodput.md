@@ -1,119 +1,179 @@
 +++
 title = "NW #14 처리량 (Throughput) 및 굿풋 (Goodput)"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "studynote-network"
+weight = 14
 +++
 
 # NW #14 처리량 (Throughput) 및 굿풋 (Goodput)
 
-> **핵심 인사이트**: 대역폭(Bandwidth)이 잠재적인 최대 전송 능력을 의미한다면, 처리량(Throughput)은 실제 전송된 데이터의 양을, 굿풋(Goodput)은 그중 오버헤드와 오류를 제외한 순수 응용 계층 데이터의 유효 전송량을 의미하는 실제 성능 지표이다.
+> **핵심 인사이트**
+> 1. **본질**: **대역폭 (Bandwidth)**이 이론적인 상한선이라면, **처리량 (Throughput)**은 물리적/환경적 제약을 반영한 실제 성능이며, **굿풋 (Goodput)**은 오버헤드와 오류를 제외한 최종 사용자 가치 지표이다.
+> 2. **가치**: 네트워크 튜닝의 목표는 단순히 처리량을 높이는 것이 아니라, 프로토콜 오버헤드와 패킷 손실을 최소화하여 굿풋(Goodput)을 극대화하는 데 있다.
+> 3. **융합**: 전송 계층(TCP/QUIC)의 혼잡 제어(Congestion Control)와 데이터 링크 계층의 MTU 설정, 그리고 애플리케이션 계층의 데이터 압축 기술이 상호작용하여 전체적인 유효 전송량을 결정한다.
 
 ---
 
-## Ⅰ. 대역폭, 처리량, 굿풋의 위계적 이해
+### Ⅰ. 개요 (Context & Background)
 
-### 1. 처리량 (Throughput)
-- 특정 기간 동안 노드 간에 성공적으로 전송된 데이터의 비율 (bps).
-- 하드웨어 한계, 전송 매체 특성, 네트워크 혼잡 등에 의해 결정됨.
+#### 1. 개념 정의 및 위계
+네트워크 성능 논의에서 가장 흔히 혼동되는 개념인 **대역폭**, **처리량**, **굿풋**은 엄격한 위계를 가진다. **대역폭**은 매체가 가진 이론적인 최대 전송 능력이며, **처리량 (Throughput)**은 실제 환경(잡음, 충돌, 프로토콜 제어) 하에서 측정되는 **유효 비트 전송률 (Effective Data Transfer Rate)**이다. 마지막으로 **굿풋 (Goodput)**은 애플리케이션 입장에서 본, 재전송된 패킷과 각종 헤더를 제외한 **순수 애플리케이션 데이터의 전송 속도**를 의미한다.
 
-### 2. 굿풋 (Goodput)
-- 응용 계층(Application Layer) 관점에서 본 유효 전송 속도.
-- 처리량에서 **프로토콜 오버헤드(Header)**와 **재전송(Retransmission)**된 패킷을 제외한 순수 데이터량.
+#### 2. 등장 배경과 필요성
+초기 네트워크(10Mbps 시대)에는 회선 속도가 병목이었으나, 100Gbps 이상의 고속 네트워크가 보편화된 현재, 단순 링크 속도보다 **"실제 데이터가 얼마나 빨리 도착하는가"**가 더 중요한 지표가 되었다. 특히 무선 네트워크(WLAN, 5G) 환경에서는 패킷 손실률이 높아 처리량은 높지만 굿풋은 급격히 떨어지는 현상이 발생하므로, 이를 정밀히 분석하고 최적화하는 기술이 필수적이다.
 
 ```ascii
-[ Hierarchical Structure ]
-+-----------------------------------------------------------+
-|  Bandwidth (Theoretical Max)                              |
-|  +-----------------------------------------------------+  |
-|  |  Throughput (Actual Data bits + Headers + Re-tx)    |  |
-|  |  +-----------------------------------------------+  |  |
-|  |  |  Goodput (Pure User Data only)                |  |  |
-|  |  +-----------------------------------------------+  |  |
-|  +-----------------------------------------------------+  |
-+-----------------------------------------------------------+
+[ Network Performance Hierarchy ]
+      
+ LEVEL 1: [ BANDWIDTH (Potential) ] ................. 10 Gbps (Theoretical Limit)
+            |
+            |---> (Physical Constraints: Noise, Distance)
+            |
+ LEVEL 2: [ THROUGHPUT (Actual) ] ................... 8.5 Gbps (Wire bits + Headers + Retx)
+            |
+            |---> (Protocol Overhead: TCP/IP Header, Ethernet Frame)
+            |
+ LEVEL 3: [ GOODPUT (Application View) ] ........... 6.2 Gbps (Pure User Data)
 ```
+*(해설: 그림은 대역폭이라는 넓은 그릇 안에, 물리적 한계로 인한 처리량이 있고, 그 안에 프로토콜 비효율을 제거한 굿풋이 존재하는 포함 관계(Inclusion Relationship)를 보여줍니다.)*
 
-📢 **섹션 요약 비유**: 대역폭이 '트럭이 다닐 수 있는 최대 속도'라면, 처리량은 '실제 트럭이 달린 속도'이고, 굿풋은 '트럭에 실린 물건 중 파손되지 않고 도착한 진짜 상품의 양'입니다.
-
----
-
-## Ⅱ. 굿풋(Goodput) 산출 공식과 영향 요소
-
-굿풋은 네트워크 효율성을 판단하는 가장 실질적인 척도이다.
-
-### 1. 산출 공식
-$$\text{Goodput} = \frac{\text{순수 유저 데이터 크기}}{\text{총 전송 시간}}$$
-또는
-$$\text{Goodput} = \text{Throughput} \times (1 - \text{오버헤드 비율}) \times (1 - \text{패킷 손실률})$$
-
-### 2. 성능 저하 요인
-- **프로토콜 오버헤드**: TCP/IP 헤더, 이더넷 프레임 오버헤드.
-- **네트워크 혼잡 (Congestion)**: 패킷 유실로 인한 재전송 발생.
-- **애플리케이션 처리 지연**: 서버/클라이언트의 데이터 처리 병목.
-
-📢 **섹션 요약 비유**: 택배를 보낼 때 상자가 너무 크면(오버헤드) 트럭에 많이 못 싣고, 배송 중에 상자가 터져서 다시 보내면(재전송) 실제 받는 물건은 줄어드는 원리입니다.
+📢 **섹션 요약 비유**: 고속도로 도로의 **차선 수(대역폭)**가 아무리 넓어도, 교통 체증과 신호 대기로 인해 실제 주행 가능한 속도가 제한되는 **처리량**과 같으며, 승객(데이터) 입장에서는 차가 달리는 시간보다 목적지에 도착해서 내리는 시간인 **굿풋**이 진짜 체감 속도인 셈입니다.
 
 ---
 
-## Ⅲ. 처리량(Throughput) 최적화를 위한 핵심 기술
+### Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
-| 기술 구분 | 상세 내용 | 기대 효과 |
-|:---:|:---|:---|
-| **슬라이딩 윈도우** | 수신측 확인 없이 여러 패킷 연속 전송 | 전송 효율(Utilization) 극대화 |
-| **MTU 최적화** | 경로 상 최대 전송 단위(Path MTU) 적용 | 단편화(Fragmentation) 방지 |
-| **압축 (Compression)** | 데이터 중복 제거 후 전송 | 동일 대역폭 내 굿풋 향상 |
-| **Zero-Copy** | 커널-유저 메모리 복사 단계 생략 | OS 내부 처리량 병목 해결 |
+#### 1. 구성 요소 및 상관관계 분석
+
+| 구분 | 요소명 | 역할 | 내부 동작 및 주요 파라미터 | 비유 |
+|:---:|:---|:---|:---|:---|
+| **물리적** | **Bandwidth** | 최대 전송 용량 제공 | 주파수 대역, 변조 방식(QAM), 채널 코딩 | 파이프의 굵기 |
+| **링크층** | **MTU (Maximum Transmission Unit)** | 단일 프레임 크기 결정 | 1500 Byte (Ethernet), Fragmentation 여부 결정 | 화물 박스 크기 |
+| **네트워크층** | **Packet Loss** | 처리량 감소 요인 | Bit Error Rate (BER), Queue Overflow (Drop Tail) | 도로상의 파손/분실 |
+| **전송층** | **TCP Overhead** | 굿풋 저하 요인 | Header Size (20~60 Byte), Acknowledgment (ACK) 오버헤드 | 영업별 서류 작업 시간 |
+| **응용층** | **Compression** | 굿풋 증가 기술 | Lempel-Ziv (LZ), Huffman 알고리즘, 압축률 | 짐을 부피 압축 |
+
+#### 2. 굿풋(Goodput) 산출 심화 및 메커니즘
+굿풋은 단순히 '속도'가 아니라 '효율'의 척도이다. 이를 수식적으로 정의하면 다음과 같다.
+
+$$ \text{Goodput} = \frac{\text{Application Data Size (bits)}}{\text{Total Transmission Time (s)}} $$
+
+또한, 처리량($T$)과 오버헤드($O$), 재전송률($L$)을 통해 다음과 같이 표현할 수 있다.
+
+$$ \text{Goodput} = T \times (1 - \text{Loss Rate}) \times \frac{\text{MSS}}{\text{MSS} + \text{Header Size}} $$
+
+여기서 핵심은 **MSS (Maximum Segment Size)**와 **Header Size**의 비율이다. 패킷 크기가 작을수록(Chatty Application) Header 비중이 커져 굿풋이 급격히 하락한다.
 
 ```ascii
-[ Window Size and Throughput ]
+[ Goodput vs Throughput Data Flow ]
+       
+ Sender Host                                      Receiver Host
+   |                                                    ^
+   | [Data Payload: 1460 Bytes]                         |
+   | [TCP Header: 20 Bytes]                             |
+   | [IP Header: 20 Bytes]                              |
+   | [Eth Header: 18 Bytes]                             |
+   |------------> (Physical Transfer: 1518 Bytes) ----->|
+   |                  ^                                 |
+   |                  | (Throughput measures this total)|
+   |                  |                                 |
+   |                  |<-- Application Re-assembles --->|
+   
+   (Throughput) = 1518 Bytes / Time
+   (Goodput)    = 1460 Bytes / Time
+```
+*(해설: 그림은 하나의 이더넷 프레임이 전송될 때, 처리량은 헤더를 포함한 총 1518바이트를 측정하지만, 굿풋은 사용자가 실제 쓰는 1460바이트(MSS)만을 유효 데이터로 간주함을 시각화했습니다.)*
+
+#### 3. 핵심 알고리즘: TCP Window Size와 처리량의 관계
+처리량은 **TCP Sliding Window** 크기와 **RTT (Round Trip Time)**에 의해 결정된다.
+
+$$ \text{Throughput} = \frac{\text{Window Size (bits)}}{\text{RTT (s)}} $$
+
+이는 네트워크 대역폭이 아무리 넓어도, 윈도우 크기가 작거나 RTT가 길면(위성 통신 등) 처리량이 제한됨을 의미한다. 이를 **Bandwidth-Delay Product (BDP)**라고 한다.
+
+📢 **섹션 요약 비유**: 우체부가 편지를 배달할 때, 편지 내용물(굿풋)보다 봉투와 우표비(처리량)가 더 비싸거나 배달 시간이 너무 길다면, 효율이 나쁜 우편 시스템인 것입니다. 이를 해결하기 위해 편지 내용을 최대한 꽉 채워 보내는(MSS 최적화) 것이 관건입니다.
+
+---
+
+### Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
+
+#### 1. 처리량(Throughput) vs 굿풋(Goodput) 심층 비교
+
+| 비교 기준 | 처리량 (Throughput) | 굿풋 (Goodput) |
+|:---|:---|:---|
+| **측정 레벨** | Transport / Network Layer (L3/L4) | Application Layer (L7) |
+| **측정 대상** | Frame / Segment 단위의 전체 비트 수 | 순수 Application Payload (Bytes) |
+| **주요 영향 요인** | 대역폭, 신호 대 잡음비(SNR), 채널 품질 | 패킷 재전송(Retx), 프로토콜 오버헤드, 압축 |
+| **성능 저하 시나리오** | 물리적 거리, 전자기 간섭 | 암호화 오버헤드(TLS), 작은 패킷 잦은 전송 |
+| **관리자 관점** | "회선이 터지나?" (Link Health) | "서비스가 빠른가?" (User XP) |
+
+#### 2. 과목 융합 분석 (OS & 컴퓨터 구조)
+네트워크의 굿풋은 **OS (Operating System)**의 **스케줄링**과 **컴퓨터 구조**의 **메모리 대역폭**과 직결된다.
+- **수신 과부하 (Receive Overhead)**: CPU가 인터럽트 방식으로 패킷을 하나씩 처리하면 컨텍스트 스위칭(Context Switching) 비용이 발생하여 굿풋이 떨어진다.
+- **Zero-Copy 기법**: 커널 공간과 유저 공간 간의 데이터 복사를 제거(DMA 활용)하여 CPU 부하를 줄이면, 네트워크 처리량은 그대로면서 CPU가 처리 가능한 굿풋이 증가한다.
+- **Pacing (Rate Control)**: 송신 버퍼가 순간적으로 터져 나가면 네트워크 스위치 큐에서 패킷 손실이 발생한다. 리눅스 **FQ (Fair Queueing)** 스케줄러와 같은 Pacing 기법을 사용하면 트래픽을 균등하게 분배하여 전체적인 굿풋을 평탄화(Flattening)할 수 있다.
+
+```ascii
+[ System Bottleneck Analysis ]
         
-    Sender                      Receiver
-      |----P1---->|                |
-      |----P2---->|                |  High Throughput
-      |----P3---->|                |  (Pipe Filling)
-      |<---ACK----|                |
+  Network Card (PHY) --(10Gbps)---> [ Switch Queue ]
+                                          ^
+                                          | (1. Packet Loss if Queue Full)
+                                          v
+  Kernel (Driver) ----------> [ Ring Buffer ] 
+                                        ^
+                                        | (2. Copy Overhead)
+  Application (User) --------> [ Memory ]
 ```
+*(해설: 그림은 네트워크 카드에서 애플리케이션까지 데이터가 이동하는 경로에서, 처리량 병목은 주로 스위치 큐(1)에서 발생하고, 굿풋 병목은 메모리 복사(2) 과정에서 발생함을 보여줍니다.)*
 
-📢 **섹션 요약 비유**: 수도꼭지에서 물을 한 방울씩 받는 것이 아니라, 호스를 가득 채워(윈도우) 한꺼번에 쏟아붓는 방식이 처리량을 높이는 길입니다.
-
----
-
-## Ⅳ. 굿풋 극대화를 위한 전송 계층 전략 (QUIC 사례)
-
-### 1. 0-RTT 핸드셰이크
-- 연결 설정 시간을 단축하여 전체 전송 시간 대비 유효 데이터 전송 시간 비중 확대.
-
-### 2. 멀티플렉싱 (Multiplexing)
-- 하나의 연결 내에서 여러 스트림을 독립적으로 처리하여 HOL(Head-of-Line) 블로킹에 의한 굿풋 저하 방지.
-
-📢 **섹션 요약 비유**: 통행료 계산(연결 설정) 시간을 줄이고 여러 차선(멀티플렉싱)을 동시에 열어 물류 흐름을 끊기지 않게 하는 최신 기법들입니다.
+📢 **섹션 요약 비유**: 택배 회사의 트럭(처리량)이 아무리 빨라도, 물류 센터의 직원(OS/CPU)이 물건을 내리느라 바쁘면 고객에게 배송 완료 알림(굿풋)이 늦어집니다. 즉, 도로 위 속도와 창고의 처리 속도를 통합적으로 최적화해야 합니다.
 
 ---
 
-## Ⅴ. 전문가 제언: 성능 평가의 관점 전환
+### Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
-네트워크 엔지니어는 단순한 **Link Speed(bps)**에 매몰되어서는 안 된다. 사용자 경험(UX)에 직접적인 영향을 미치는 것은 **Goodput**과 **Latency**의 조합이다. 특히 패킷 유실이 잦은 무선 환경이나 대용량 트래픽이 몰리는 데이터센터에서는 하드웨어 대역폭 증설보다 **TCP 혼잡 제어 알고리즘 최적화**나 **오버헤드 절감 기술**을 통한 굿풋 개선이 훨씬 비용 효율적일 수 있다.
+#### 1. 성능 이슈 해결을 위한 의사결정 트리
+네트워크 엔지니어는 링크 스피드가 10Gbps임에도 불구하고 파일 전송 속도가 100Mbps에 불과할 경우 다음과 같은 프로세스로 분석해야 한다.
 
----
+1.  **Step 1 (Physical Check)**: `ifconfig` 또는 `ethtool`을 통해 **CRC Error** 및 **Collision** 비율 확인. 물리적 문제라면 케이블 교체.
+2.  **Step 2 (Throughput Check)**: `iperf` 툴로 테스트. 대역폭의 90% 이상 나온다면 링크는 정상.
+3.  **Step 3 (Goodput Check)**: 애플리케이션 전송 속도가 느리다면 **MTU 문제** or **TCP Window Size** 문제일 확률 90%. (특히 WAN 환경)
+4.  **Step 4 (Optimization)**:
+    -   **LAN 환경**: **Jumbo Frame (MTU 9000)** 활성화하여 프레임 당 페이로드 비율 증가.
+    -   **WAN 환경**: **TCP Window Scaling** 옵션 활성화하여 BDP(Bandwidth-Delay Product) 대응.
 
-## 💡 개념 맵 (Knowledge Graph)
+#### 2. 도입 체크리스트
+- [ ] **L2 계층**: **MTU (Maximum Transmission Unit)** 불일치(Mismatch)로 인한 단편화(Fragmentation)가 없는가?
+- [ ] **L4 계층**: 혼잡 제어 알고리즘이 **BBR** 또는 **Cubic**으로 최적화되어 있는가?
+- [ ] **OS 커널**: **TCP Buffer**(`net.ipv4.tcp_rmem/wmem`)가 대기 시간에 비해 너무 작게 설정되어 있지 않은가?
 
-```mermaid
-graph LR
-    A[Bandwidth] -- Limits --> B[Throughput]
-    B -- Subtracts --> C(Protocol Overheads)
-    B -- Subtracts --> D(Retransmissions)
-    C & D --> E[Goodput]
-    E -- Measures --> F{Actual User XP}
-    G[TCP/QUIC Optimization] --> E
-    H[MTU Discovery] --> E
+#### 3. 안티패턴 (Anti-Pattern)
+- **TCP Small Queues**: 웹 서버가 매우 작은 크기의 패킷(수십 바이트)을 수천 개씩 전송할 경우, 헤더 비중이 50%를 넘어 대역폭의 절반이 낭비된다. **HTTP/2** 또는 **HTTP/3 (QUIC)**의 **Frame Multiplexing**을 통해 하나의 패킷에 여러 메시지를 담아야 한다.
+
+```ascii
+[ Optimization Effect Comparison ]
+       
+   (BEFORE) Little Packet Storm
+   | [Data][Head] | [Data][Head] | [Data][Head] | ... -> High Overhead, Low Goodput
+   ^
+   | Latency Spike
+   
+   (AFTER) Aggregation (TCP Segmentation Offloading / HTTP/2)
+   | [Big Data Chunk][Head] ---------------> Low Overhead, High Goodput
+   |
+   | Bulk Transfer
 ```
+*(해설: 그림은 조각난 패킷을 난발하던 기존 방식과, 이를 하나로 묶어서 전송(Bulking)함으로써 헤더 오버헤드를 획기적으로 줄이는 최적화 과정을 비교했습니다.)*
+
+📢 **섹션 요약 비유**: 관공서 민원실에 직원이 한 명일 때, 서류를 한 장씩 떼어내어 내는 것(작은 패킷)보다, 업무를 묶어서 한 번에 처리하는 것(데이터 묶음)이 업무 효율(굿풋)이 훨씬 높습니다.
 
 ---
 
-## 👶 어린이 비유
-- **대역폭**: 아주 넓은 '피자 박스'입니다. 피자를 많이 담을 수 있는 잠재력이에요.
-- **처리량**: 실제로 박스에 담아 배달하는 '피자 조각들'입니다.
-- **굿풋**: 피자 박스 안에서 '토핑이 망가지지 않고 먹을 수 있게 도착한 진짜 맛있는 피자'입니다.
-- **결론**: 박스가 아무리 커도 피자가 다 쏟아져서 오면 소용없겠죠? 진짜 먹을 수 있는 피자(굿풋)가 많아야 좋은 배달입니다!
+### Ⅴ. 기대효과 및 결론 (Future & Standard)
+
+#### 1. 정량적 기대효과
+처리량 및 굿풋 최적화 기술 적용 시 다음과 같은 성능 향상을 기대할 수 있다.
+
+| 기술 적용 분야 | 대상 지표 | 기대 효과

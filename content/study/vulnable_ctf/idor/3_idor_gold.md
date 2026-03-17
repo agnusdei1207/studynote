@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: IDOR 🥇 Gold"
-description = "LUXORA 플랫폼의 IDOR Gold 난이도 공략 - UUID를 사용하는 환경에서의 BOLA(Broken Object Level Authorization) 우회 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "IDOR", "Gold", "BOLA", "UUID", "Write-up"]
@@ -132,4 +131,3 @@ const doc = await db.query(
 if (!doc) {
     return res.status(403).send("Forbidden: You don't have access to this document.");
 }
-```

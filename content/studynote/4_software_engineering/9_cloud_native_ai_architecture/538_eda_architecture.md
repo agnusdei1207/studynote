@@ -1,7 +1,7 @@
----
-title: "538. 이벤트 기반 아키텍처 (EDA): 생산자, 브로커, 소비자"
-date: 2026-03-15
----
++++
+title = "538. 이벤트 기반 아키텍처 (EDA): 생산자, 브로커, 소비자"
+date = "2026-03-15"
++++
 
 # 538. 이벤트 기반 아키텍처 (EDA): 생산자, 브로커, 소비자
 
@@ -153,10 +153,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[MSA](./532_microservices_decomposition.md)**: EDA가 가장 활발히 쓰이는 아키텍처 기반
-- **[비동기 통신](./536_msa_async_communication.md)**: EDA를 가능케 하는 기술적 수단
-- **[Saga 패턴](./550_saga_pattern.md)**: 이벤트를 이용해 데이터 정합성을 맞추는 기법
-- **[Kafka / RabbitMQ](../3_network/xx_msg_brokers.md)**: EDA의 심장인 이벤트 브로커
+- **MSA**: EDA가 가장 활발히 쓰이는 아키텍처 기반
+- **비동기 통신**: EDA를 가능케 하는 기술적 수단
+- **Saga 패턴**: 이벤트를 이용해 데이터 정합성을 맞추는 기법
+- **Kafka / RabbitMQ**: EDA의 심장인 이벤트 브로커
 
 ---
 

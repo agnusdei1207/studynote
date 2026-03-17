@@ -1,7 +1,7 @@
 +++
-weight = 653
 title = "653. 가상화 보안 (Virtualization Security)"
 date = "2026-03-16"
+weight = 653
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "가상화 보안", "Virtualization Security", "VM Escape", "하이퍼바이저 보안", "Isolation"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "가상화 보안", "Virtualization Security", "VM E
 > 2. **가치**: "한 VM이 해킹되어도 다른 VM으로 확산 방지"가 핵심이며, **공격 표면 확장**을 방지한다.
 > 3. **융합**: 하드웨어 지원(Intel VT-x, AMD-V), 보안 커널, TPM과 결합하여 **신뢰할 수 있는 가상화** 환경을 구축한다.
 
----
++++
 
 ## Ⅰ. 가상화 보안의 개요
 
@@ -30,7 +30,7 @@ keywords = ["운영체제", "가상화 보안", "Virtualization Security", "VM E
 
 - **📢 섹션 요약 비유**: 여러 명이 같은 버스를 타도 각자의 좌석에 앉듯, VM도 서로 격리되어야 안전합니다.
 
----
++++
 
 ## Ⅱ. 주요 위협 (Deep Dive)
 
@@ -67,7 +67,7 @@ keywords = ["운영체제", "가상화 보안", "Virtualization Security", "VM E
 | **Side-channel** | 캐시, 타이밍으로 정보 유출 (Spectre/Meltdown) |
 | **리소스 DoS** | 한 VM이 리소스 독점 |
 
----
++++
 
 ## Ⅲ. 격리 기술
 
@@ -94,7 +94,7 @@ keywords = ["운영체제", "가상화 보안", "Virtualization Security", "VM E
     └─────────────────────────────────────────────────────────────────┘
 ```
 
----
++++
 
 ## Ⅳ. 하이퍼바이저 보안
 
@@ -115,7 +115,7 @@ options kvm ignore_msrs=1
   - dynamic_ownership=1
 ```
 
----
++++
 
 ## Ⅴ. 컨테이너 보안
 
@@ -132,7 +132,7 @@ options kvm ignore_msrs=1
 - **AppArmor/SELinux**: 프로필 기반 접근 제어
 - **Rootless 컨테이너**: root 권한 없이 실행
 
----
++++
 
 ## Ⅵ. 실무 적용
 
@@ -145,7 +145,7 @@ options kvm ignore_msrs=1
 - **"Converged Infrastructure"**: 보안 단일 실패점
 - **"VM 무제한 생성"**
 
----
++++
 
 ## Ⅶ. 기대효과 및 결론
 
@@ -156,14 +156,14 @@ options kvm ignore_msrs=1
 ### 2. 미래 전맹
 - **Confidential Computing**: 암호화된 VM/컨테이너
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[가상화](./641_virtualization.md)**: 기반 기술
-- **[SELinux](./651_selinux.md)**: MAC와 결합
-- **[컨테이너](./642_container.md)**: 경량 가상화
+- **가상화**: 기반 기술
+- **SELinux**: MAC와 결합
+- **컨테이너**: 경량 가상화
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 가상화 보안은 **"각 반을 분리하는 학교 건물"**과 같아요.

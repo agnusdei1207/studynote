@@ -1,5 +1,6 @@
 +++
 title = "폴링 / 선택 (Polling / Selection)"
+date = "2026-03-14"
 weight = 114
 +++
 
@@ -153,10 +154,10 @@ weight = 114
 ---
 
 ### 📌 관련 개념 링크**:
-- [토큰 패싱](./115_token_passing.md)
-- [예약 방식](./113_reservation.md)
-- [블루투스](./220_bluetooth.md)
-- [CSMA](./104_csma.md)
+- 토큰 패싱
+- 예약 방식
+- 블루투스
+- CSMA
 
 ---
 

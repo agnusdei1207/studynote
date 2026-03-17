@@ -1,5 +1,6 @@
 +++
 title = "다중 접속 (Multiple Access)"
+date = "2026-03-14"
 weight = 87
 +++
 
@@ -150,10 +151,10 @@ weight = 87
 ---
 
 ### 📌 관련 개념 링크**:
-- [FDMA 주파수 분할 접속](./88_fdma.md)
-- [TDMA 시분할 접속](./89_tdma.md)
-- [CDMA 코드 분할 접속](./90_cdma_code.md)
-- [OFDMA 직교 주파수 접속](./94_ofdma.md)
+- FDMA 주파수 분할 접속
+- TDMA 시분할 접속
+- CDMA 코드 분할 접속
+- OFDMA 직교 주파수 접속
 
 ---
 

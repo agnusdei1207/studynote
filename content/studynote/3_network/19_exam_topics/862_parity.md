@@ -1,5 +1,6 @@
 +++
 title = "Parity - 패리티"
+date = "2026-03-14"
 weight = 862
 +++
 
@@ -112,6 +113,6 @@ Parity는 비트 수로 오류를 감지합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Error Detection](./808_error_detection.md)
-- [Error Correction](./809_error_correction.md)
-- [Hamming Code](./xxx_hamming.md)
+- Error Detection
+- Error Correction
+- Hamming Code

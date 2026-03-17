@@ -1,5 +1,6 @@
 +++
 title = "NRZ (Non-Return to Zero)"
+date = "2026-03-14"
 weight = 37
 +++
 
@@ -141,10 +142,10 @@ NRZ(Non-Return to Zero)는 비트 전송 중 전압 레벨이 0으로 복귀하�
 ---
 
 ### 📌 관련 개념 링크**:
-- [Line Coding 유형](./36_line_coding_types.md)
-- [RZ 복귀 부호화](./38_rz_return.md)
-- [4B/5B Block Coding](./42_4b5b_block.md)
-- [부호화 Encoding](./35_encoding_line_coding.md)
+- Line Coding 유형
+- RZ 복귀 부호화
+- 4B/5B Block Coding
+- 부호화 Encoding
 
 ---
 

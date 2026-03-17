@@ -1,5 +1,6 @@
 +++
 title = "Asymmetric Key - 비대칭키"
+date = "2026-03-14"
 weight = 869
 +++
 
@@ -110,6 +111,6 @@ Asymmetric Key는 공개키와 개인키 쌍을 사용합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Encryption](./812_encryption.md)
-- [Symmetric Key](./868_symmetric_key.md)
-- [Digital Signature](./xxx_digital_signature.md)
+- Encryption
+- Symmetric Key
+- Digital Signature

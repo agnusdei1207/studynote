@@ -1,6 +1,7 @@
 +++
-weight = 448
 title = "448. 폴링 (Polling / Programmed I/O) - 바쁜 대기"
+date = "2026-03-14"
+weight = 448
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -134,10 +135,10 @@ title = "448. 폴링 (Polling / Programmed I/O) - 바쁜 대기"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[PIO (Programmed I/O)](./xx_pio.md)**: 폴링을 포함한 CPU 주도 I/O 방식의 총칭.
-- **[인터럽트 (Interrupt)](./449_interrupt_driven_io.md)**: 폴링의 바쁜 대기 문제를 해결하는 대안.
-- **[스핀락 (Spinlock)](./233_spinlock.md)**: 소프트웨어 레벨의 폴링 동기화 기법.
-- **[NAPI (New API)](./xx_napi.md)**: 리눅스 커널의 인터럽트-폴링 하이브리드 네트워크 처리 방식.
+- **PIO (Programmed I/O)**: 폴링을 포함한 CPU 주도 I/O 방식의 총칭.
+- **인터럽트 (Interrupt)**: 폴링의 바쁜 대기 문제를 해결하는 대안.
+- **스핀락 (Spinlock)**: 소프트웨어 레벨의 폴링 동기화 기법.
+- **NAPI (New API)**: 리눅스 커널의 인터럽트-폴링 하이브리드 네트워크 처리 방식.
 
 ---
 

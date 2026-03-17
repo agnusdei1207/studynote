@@ -1,10 +1,9 @@
----
-title: "[ICT] #90. 슬래싱 (Slashing)"
-date: "2026-03-17"
++++
+title = "[ICT] #90. 슬래싱 (Slashing)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Slashing_PoS_EconomicSecurity_Stake_Validator_Penalty_Integrity"
----
+keyword = "Slashing_PoS_EconomicSecurity_Stake_Validator_Penalty_Integrity"
++++
 
 # 슬래싱 (Slashing): 정직한 행동을 강제하는 지분 증명의 경제적 형벌
 
@@ -13,7 +12,7 @@ keyword: "Slashing_PoS_EconomicSecurity_Stake_Validator_Penalty_Integrity"
 > 2. **가치**: 배신을 통해 얻는 이익보다 처벌로 인한 손실을 압도적으로 크게 설계함으로써, 중앙 관리자 없이도 참여자들이 스스로 **정직하고 성실하게 행동할 경제적 유인**을 제공한다.
 > 3. **융합**: 암호 경제학(Cryptoeconomics)과 합의 알고리즘이 결합된 보안 모델의 핵심이며, 최근에는 거대 스테이킹 풀의 독점을 방지하기 위한 상관관계 슬래싱(Correlated Slashing) 기술로 고도화되고 있다.
 
----
++++
 
 ## Ⅰ. 슬래싱 (Slashing) 개요
 
@@ -30,7 +29,7 @@ keyword: "Slashing_PoS_EconomicSecurity_Stake_Validator_Penalty_Integrity"
 
 📢 **섹션 요약 비유**: "착한 일 하면 상 준다"는 약속만으로는 부족하여, "나쁜 짓 하면 전 재산을 뺏는다"는 무서운 규칙을 더해 완벽한 질서를 만드는 암호학적 법전입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 발생 조건 (Deep Dive)
 
@@ -82,7 +81,7 @@ keyword: "Slashing_PoS_EconomicSecurity_Stake_Validator_Penalty_Integrity"
 
 📢 **섹션 요약 비유**: 한 명이 지각하면 가벼운 벌금을 내지만, 단체로 짜고 보이콧(집단 반발)을 하면 가문의 이름(지분)을 아예 지워버리는 강력한 공동체 유지 규칙입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -102,7 +101,7 @@ keyword: "Slashing_PoS_EconomicSecurity_Stake_Validator_Penalty_Integrity"
 
 📢 **섹션 요약 비유**: PoW가 "열심히 안 하면 밥을 안 준다"는 방식이라면, PoS는 "잘못하면 주머니에 든 돈을 뺏는다"는 훨씬 더 직접적인 통제 방식입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -119,7 +118,7 @@ keyword: "Slashing_PoS_EconomicSecurity_Stake_Validator_Penalty_Integrity"
 
 📢 **섹션 요약 비유**: 전기가 무서워도 전기 없이는 문명을 누릴 수 없듯이, 슬래싱이라는 위험을 완벽히 통제하고 관리하는 능력이 현대 블록체인 운영자의 진정한 실력입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -133,13 +132,13 @@ keyword: "Slashing_PoS_EconomicSecurity_Stake_Validator_Penalty_Integrity"
 
 📢 **섹션 요약 비유**: 슬래싱은 블록체인 생태계를 지탱하는 **'가장 차갑지만 정직한 정의의 칼날'**이며, 무신뢰 사회를 지탱하는 강력한 법과 질서입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[지분 증명 (PoS)](./14_pos.md)**: 슬래싱이 작동하는 모태 시스템.
-- **[검증인 (Validator)](./14_pos.md)**: 슬래싱의 대상이 되는 주체.
-- **[LMD Ghost / Casper](./65_finality.md)**: 이더리움 슬래싱 규칙이 정의된 프로토콜.
-- **[Liquid Staking](./xx_lst.md)**: 슬래싱 리스크가 자산 가치에 반영되는 금융 서비스.
+- **지분 증명 (PoS)**: 슬래싱이 작동하는 모태 시스템.
+- **검증인 (Validator)**: 슬래싱의 대상이 되는 주체.
+- **LMD Ghost / Casper**: 이더리움 슬래싱 규칙이 정의된 프로토콜.
+- **Liquid Staking**: 슬래싱 리스크가 자산 가치에 반영되는 금융 서비스.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **정직 도장 약속**: 블록체인 나라의 일기장을 쓰는 친구들은 "거짓말 안 할게요!"라고 약속하며 자기 용돈(코인)을 선생님께 잠시 맡겨요.

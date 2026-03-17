@@ -1,5 +1,6 @@
 +++
 title = "Split-Brain - 스플릿 브레인"
+date = "2026-03-14"
 weight = 781
 +++
 
@@ -105,6 +106,6 @@ Split-Brain은 네트워크 분할 시 발생합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Quorum](./780_quorum.md)
-- [Raft](./778_raft.md)
-- [High Availability](./xxx_ha.md)
+- Quorum
+- Raft
+- High Availability

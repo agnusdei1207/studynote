@@ -1,5 +1,6 @@
 +++
 title = "Encapsulation - 캡슐화"
+date = "2026-03-14"
 weight = 833
 +++
 
@@ -105,6 +106,6 @@ Encapsulation은 데이터에 헤더/트레일러를 추가합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [PDU](./832_pdu.md)
-- [OSI Model](./xxx_osi_model.md)
-- [Tunneling](./xxx_tunneling.md)
+- PDU
+- OSI Model
+- Tunneling

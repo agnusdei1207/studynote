@@ -1,10 +1,9 @@
----
-title: "[ICT] #63. 트랜잭션 풀 (Mempool / Memory Pool)"
-date: "2026-03-17"
++++
+title = "[ICT] #63. 트랜잭션 풀 (Mempool / Memory Pool)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Mempool_Memory_Pool_Transaction_Queue_GasFee_MEV"
----
+keyword = "Mempool_Memory_Pool_Transaction_Queue_GasFee_MEV"
++++
 
 # 트랜잭션 풀 (Mempool): 블록 기록을 기다리는 디지털 대기실
 
@@ -13,7 +12,7 @@ keyword: "Mempool_Memory_Pool_Transaction_Queue_GasFee_MEV"
 > 2. **가치**: 한정된 블록 공간에 들어갈 거래를 수수료 순으로 정렬하는 **우선순위 큐(Priority Queue)** 역할을 수행하며, 네트워크의 혼잡도를 실시간으로 파악할 수 있는 지표를 제공한다.
 > 3. **융합**: 채굴자의 블록 생성 로직, 가스비(Gas Fee) 산정 알고리즘, 그리고 트랜잭션 순서를 조작해 이득을 취하는 **MEV(최대 추출 가치)** 전략의 핵심 무대로 기능한다.
 
----
++++
 
 ## Ⅰ. 트랜잭션 풀 (Mempool) 개요
 
@@ -30,7 +29,7 @@ keyword: "Mempool_Memory_Pool_Transaction_Queue_GasFee_MEV"
 
 📢 **섹션 요약 비유**: 수만 통의 편지가 우체국(노드)에 쌓여 배달차(블록)가 오기를 기다리는 '디지털 우편물 분류 창고'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -80,7 +79,7 @@ keyword: "Mempool_Memory_Pool_Transaction_Queue_GasFee_MEV"
 
 📢 **섹션 요약 비유**: 줄 서 있는 사람들의 주머니 사정을 미리 보고, 돈 많은 사람 앞에 몰래 끼어들거나 뒤에서 물건을 가로채려는 '디지털 새치기 봇'들이 우글거리는 긴장감 넘치는 대기 줄입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -100,7 +99,7 @@ keyword: "Mempool_Memory_Pool_Transaction_Queue_GasFee_MEV"
 
 📢 **섹션 요약 비유**: 비트코인 멤풀이 짐 크기대로 요금을 받는 '화물 터미널'이라면, 이더리움은 하는 일의 난이도대로 요금을 받는 '용역 대기소'와 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -114,7 +113,7 @@ keyword: "Mempool_Memory_Pool_Transaction_Queue_GasFee_MEV"
 
 📢 **섹션 요약 비유**: 줄을 잘못 서서 진도가 안 나갈 때, 돈을 더 내고 "내 번호표(Nonce)로 다시 줄 설게요!"라고 외쳐서 새치기를 합법적으로 수행하는 것이 실무적 해결법입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -128,13 +127,13 @@ keyword: "Mempool_Memory_Pool_Transaction_Queue_GasFee_MEV"
 
 📢 **섹션 요약 비유**: 멤풀은 블록체인이라는 기차가 안전하게 달릴 수 있도록 승객들을 미리 검사하고 순서를 정해주는 **'디지털 승강장'**이며, 이곳의 효율성이 블록체인의 미래 속도를 결정합니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[가스 (Gas)](./23_gas.md)**: 멤풀에서의 우선순위를 결정하는 화폐.
-- **[비트코인 반감기](./61_bitcoin_halving.md)**: 보상이 줄어들수록 멤풀 수수료의 중요성이 커짐.
-- **[MEV (최대 추출 가치)](./xx_mev.md)**: 멤풀 데이터를 가공하여 얻는 추가 수익.
-- **[Layer 2 (Rollup)](./41_rollup.md)**: 멤풀의 혼잡도를 해결하기 위한 확장 솔루션.
+- **가스 (Gas)**: 멤풀에서의 우선순위를 결정하는 화폐.
+- **비트코인 반감기**: 보상이 줄어들수록 멤풀 수수료의 중요성이 커짐.
+- **MEV (최대 추출 가치)**: 멤풀 데이터를 가공하여 얻는 추가 수익.
+- **Layer 2 (Rollup)**: 멤풀의 혼잡도를 해결하기 위한 확장 솔루션.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **차례차례 줄 서기**: 블록체인 일기장에 글을 쓰고 싶은 친구들이 복도에서 줄을 서서 기다리는 장소예요.

@@ -1,10 +1,9 @@
----
-title: "[ICT] #30. 암호화폐 지갑 (Cryptocurrency Wallet)"
-date: "2026-03-17"
++++
+title = "[ICT] #30. 암호화폐 지갑 (Cryptocurrency Wallet)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Wallet_Hot_Cold_Private_Key_Mnemonic_HD_Wallet"
----
+keyword = "Wallet_Hot_Cold_Private_Key_Mnemonic_HD_Wallet"
++++
 
 # 암호화폐 지갑 (Cryptocurrency Wallet): 자산 주권의 열쇠와 보안의 핵심
 
@@ -13,7 +12,7 @@ keyword: "Wallet_Hot_Cold_Private_Key_Mnemonic_HD_Wallet"
 > 2. **가치**: 보관 방식에 따라 온라인 상태인 **핫 월렛(Hot Wallet)**과 오프라인 상태인 **콜드 월렛(Cold Wallet)**으로 나뉘며, 편의성과 보안성 사이의 균형(Trade-off)을 결정하는 핵심 인터페이스다.
 > 3. **융합**: HD 월렛(Hierarchical Deterministic Wallet) 기술과 니모닉(Mnemonic) 체계를 통해 복잡한 키 관리를 단순화하며, 최근에는 스마트 컨트랙트 기반의 **계정 추상화(Account Abstraction)** 지갑으로 진화하고 있다.
 
----
++++
 
 ## Ⅰ. 암호화폐 지갑 (Cryptocurrency Wallet) 개요
 
@@ -30,7 +29,7 @@ keyword: "Wallet_Hot_Cold_Private_Key_Mnemonic_HD_Wallet"
 
 📢 **섹션 요약 비유**: 실제 돈이 들어있는 지갑이 아니라, 전 세계에 퍼져있는 내 보물 상자들을 열 수 있는 '마법의 열쇠 묶음'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -78,7 +77,7 @@ keyword: "Wallet_Hot_Cold_Private_Key_Mnemonic_HD_Wallet"
 
 📢 **섹션 요약 비유**: 내가 직접 열쇠를 들고 다니는 '우리 집 현금 금고'와, 은행 직원에게 맡겨두고 번호표를 보여주는 '은행 예금'의 차이입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -98,7 +97,7 @@ keyword: "Wallet_Hot_Cold_Private_Key_Mnemonic_HD_Wallet"
 
 📢 **섹션 요약 비유**: 핫 월렛이 매일 쓰는 '주머니 속 현금'이라면, 콜드 월렛은 깊은 산속 지하에 묻어둔 '황금 궤짝'과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -112,7 +111,7 @@ keyword: "Wallet_Hot_Cold_Private_Key_Mnemonic_HD_Wallet"
 
 📢 **섹션 요약 비유**: 혼자서만 열 수 있는 자물쇠(EOA)보다, 가족들이 동의해야 열리는 안전한 '디지털 가족 금고(스마트 월렛)'로 보안의 패러다임이 바뀌고 있습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -126,13 +125,13 @@ keyword: "Wallet_Hot_Cold_Private_Key_Mnemonic_HD_Wallet"
 
 📢 **섹션 요약 비유**: 지갑은 이제 단순히 돈을 담는 주머니가 아니라, 디지털 영토에서 나를 증명하고 내 권리를 행사하는 **'디지털 주권의 상징'**으로 진화하고 있습니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[개인키 / 공개키](../../9_security/xx_pki.md)**: 지갑을 구성하는 암호학적 기초.
-- **[니모닉 (Mnemonic)](./31_mnemonic.md)**: 지갑 복구를 위한 인간 친화적 암호 구문.
-- **[계정 추상화 (Account Abstraction)](./87_account_abstraction.md)**: 차세대 스마트 컨트랙트 지갑 기술.
-- **[멀티시그 (Multi-Sig)](./86_multisig.md)**: 다중 서명을 통한 보안 강화 기술.
+- **개인키 / 공개키**: 지갑을 구성하는 암호학적 기초.
+- **니모닉 (Mnemonic)**: 지갑 복구를 위한 인간 친화적 암호 구문.
+- **계정 추상화 (Account Abstraction)**: 차세대 스마트 컨트랙트 지갑 기술.
+- **멀티시그 (Multi-Sig)**: 다중 서명을 통한 보안 강화 기술.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **마법의 금고 열쇠**: 내 보물(코인)은 인터넷 세상 어딘가에 숨겨져 있고, 지갑은 그 보물 상자를 열 수 있는 '마법의 열쇠'를 안전하게 보관해주는 도구예요.

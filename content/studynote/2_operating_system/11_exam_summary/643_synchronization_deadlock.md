@@ -1,7 +1,7 @@
 +++
-weight = 643
 title = "643. 운영체제 핵심 요약 - 프로세스 동기화 및 데드락"
 date = "2024-05-23"
+weight = 643
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "프로세스 동기화", "Synchronization", "Deadlock", "Mutex", "Semaphore", "교착상태"]
@@ -12,7 +12,7 @@ keywords = ["운영체제", "프로세스 동기화", "Synchronization", "Deadlo
 > 동기화 문제를 완벽히 해결하지 못하면 경쟁 상태(Race Condition)가 발생하며, 반대로 과도하거나 잘못된 동기화 설계는 시스템을 영구적으로 중단시키는 교착상태(Deadlock)를 초래한다.
 > 따라서 효율적인 상호 배제(Mutual Exclusion) 구현과 교착상태 방지/회피 전략 사이의 균형을 맞추는 것이 동시성 프로그래밍의 핵심 과제이다.
 
----
++++
 
 ### Ⅰ. 프로세스 동기화의 기초와 경쟁 상태
 
@@ -27,7 +27,7 @@ keywords = ["운영체제", "프로세스 동기화", "Synchronization", "Deadlo
 
 📢 섹션 요약 비유: 화장실(Critical Section)에 여러 사람이 동시에 들어가려고 하면 사고가 나므로, '문 잠금장치'를 통해 한 명씩만 이용하게 하는 것과 같습니다.
 
----
++++
 
 ### Ⅱ. 동기화 도구: Mutex, Semaphore, Monitor
 
@@ -55,7 +55,7 @@ keywords = ["운영체제", "프로세스 동기화", "Synchronization", "Deadlo
 
 📢 섹션 요약 비유: 뮤텍스는 화장실 '열쇠 하나'를 주고받는 것이고, 세마포어는 '번호표'를 뽑아 빈 자리가 날 때까지 기다리는 것과 같습니다.
 
----
++++
 
 ### Ⅲ. 교착상태(Deadlock)의 정의와 발생 조건
 
@@ -69,7 +69,7 @@ keywords = ["운영체제", "프로세스 동기화", "Synchronization", "Deadlo
 
 📢 섹션 요약 비유: 좁은 골목길에서 두 대의 차가 마주 보고 서서 서로 '먼저 뒤로 빼라'며 한 발짝도 못 움직이는 상황과 같습니다.
 
----
++++
 
 ### Ⅳ. 교착상태 해결 전략
 
@@ -84,7 +84,7 @@ keywords = ["운영체제", "프로세스 동기화", "Synchronization", "Deadlo
 
 📢 섹션 요약 비유: 사고가 안 나게 신호등을 세우거나(예방), 차가 오는지 미리 확인하거나(회피), 사고가 나면 견인차로 치우는(복구) 방법들입니다.
 
----
++++
 
 ### Ⅴ. 전통적인 동기화 문제들 (Classic Problems)
 
@@ -97,7 +97,7 @@ keywords = ["운영체제", "프로세스 동기화", "Synchronization", "Deadlo
 
 📢 섹션 요약 비유: 주방장(생산자)이 음식을 내놓는 속도와 손님(소비자)이 먹는 속도를 맞추는 문제, 도서관에서 책을 보거나 고치는 규칙을 정하는 문제들입니다.
 
----
++++
 
 ### 💡 지식 그래프(Knowledge Graph)
 - **부모 노드**: 프로세스 관리(Process Management)

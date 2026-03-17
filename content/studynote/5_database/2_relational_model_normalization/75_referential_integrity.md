@@ -1,7 +1,6 @@
 +++
 title = "75. 참조 무결성 (Referential Integrity) - 외래 키와 기본 키의 관계 보호"
 date = "2026-03-16"
-draft = false
 weight = 75
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["Referential Integrity", "참조 무결성", "Foreign Key", "외래 
 > 2. **관계 보호**: 부모 테이블의 데이터가 삭제되거나 수정될 때, 이를 참조하고 있는 자식 테이블의 데이터를 연쇄적으로 처리(**CASCADE, SET NULL, RESTRICT**)하여 '부모 없는 자식 데이터(Orphan Data)'가 발생하는 것을 방지한다.
 > 3. **가치**: 테이블 간의 논리적 연결 고리를 물리적으로 강제함으로써 시스템 전반의 **데이터 정합성**을 보장하며, 비즈니스 규칙이 데이터 계층에서 자동으로 수행되게 하는 핵심 메커니즘이다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -47,7 +46,7 @@ keywords = ["Referential Integrity", "참조 무결성", "Foreign Key", "외래 
 
 - **📢 섹션 요약 비유**: 참조 무결성은 '친구와의 약속'과 같아서, 한쪽이 약속을 취소하면 다른 쪽도 그에 맞춰 행동해야 관계가 유지되는 것과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -93,7 +92,7 @@ keywords = ["Referential Integrity", "참조 무결성", "Foreign Key", "외래 
 
 - **📢 섹션 요약 비유**: FK 인덱스는 '부모님이 외출하실 때 집에 아이들이 있는지 즉시 알려주는 인터폰'과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -112,7 +111,7 @@ keywords = ["Referential Integrity", "참조 무결성", "Foreign Key", "외래 
 
 - **📢 섹션 요약 비유**: 참조 무결성이 '기차 칸들의 물리적 연결'이라면, 사용자 정의 무결성은 '승객들이 기차 안에서 지켜야 할 예절'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -131,7 +130,7 @@ keywords = ["Referential Integrity", "참조 무결성", "Foreign Key", "외래 
 
 - **📢 섹션 요약 비유**: CASCADE 남발은 '뿌리가 썩은 나무를 베었더니 숲 전체가 쓰러지는 것'과 같이 위험합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -149,15 +148,15 @@ keywords = ["Referential Integrity", "참조 무결성", "Foreign Key", "외래 
 
 - **📢 섹션 요약 비유**: 미래의 데이터 관리는 눈에 보이지 않는 '지능형 끈'들이 수조 개의 데이터를 연결하고 정합성을 맞추는 형태로 진화할 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[외래 키 (Foreign Key)](./72_foreign_key.md)**: 참조 무결성을 구현하는 기술적 수단.
-- **[개체 무결성 (Entity Integrity)](./74_entity_integrity.md)**: 참조되는 대상이 갖춰야 할 기본 자격.
-- **[강한 개체와 약한 개체](./83_strong_weak_entity.md)**: 참조 무결성의 의존 관계를 정의하는 모델링 개념.
-- **[데이터 정규화 (Normalization)](./100_normalization.md)**: 테이블이 쪼개지며 참조 무결성이 필요하게 되는 원인.
+- **외래 키 (Foreign Key)**: 참조 무결성을 구현하는 기술적 수단.
+- **개체 무결성 (Entity Integrity)**: 참조되는 대상이 갖춰야 할 기본 자격.
+- **강한 개체와 약한 개체**: 참조 무결성의 의존 관계를 정의하는 모델링 개념.
+- **데이터 정규화 (Normalization)**: 테이블이 쪼개지며 참조 무결성이 필요하게 되는 원인.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **참조 무결성**은 "아기 오리는 반드시 엄마 오리를 따라다녀야 한다"는 **가족의 약속**과 같아요.

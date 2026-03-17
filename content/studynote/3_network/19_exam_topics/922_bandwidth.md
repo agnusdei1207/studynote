@@ -1,5 +1,6 @@
 +++
 title = "Bandwidth - 대역폭"
+date = "2026-03-14"
 weight = 922
 +++
 
@@ -107,6 +108,6 @@ Bandwidth는 단위 시간당 전송 가능한 데이터 양입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Throughput](./923_throughput.md)
-- [Latency](./924_latency.md)
-- [QoS](./920_qos.md)
+- Throughput
+- Latency
+- QoS

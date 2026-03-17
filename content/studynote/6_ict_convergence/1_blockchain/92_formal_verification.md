@@ -1,10 +1,9 @@
----
-title: "[ICT] #93. 정형 검증 (Formal Verification)"
-date: "2026-03-17"
++++
+title = "[ICT] #93. 정형 검증 (Formal Verification)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "FormalVerification_SmartContractSecurity_MathematicalProof_ModelChecking_ZeroBugs"
----
+keyword = "FormalVerification_SmartContractSecurity_MathematicalProof_ModelChecking_ZeroBugs"
++++
 
 # 정형 검증 (Formal Verification): 수학으로 증명하는 완벽한 스마트 컨트랙트의 무결성
 
@@ -13,7 +12,7 @@ keyword: "FormalVerification_SmartContractSecurity_MathematicalProof_ModelChecki
 > 2. **가치**: 일반적인 테스트(Testing)가 찾아내지 못하는 엣지 케이스(Edge Case)와 논리적 오류를 100% 포착할 수 있어, 한 번 배포되면 수정이 불가능한 **스마트 컨트랙트 보안**의 최종 병기로 불린다.
 > 3. **융합**: 컴퓨터 과학의 형식 언어 이론과 현대 암호학이 결합되어 있으며, 최근에는 DeFi 프로토콜의 복잡한 금융 로직이 해킹당하는 것을 방지하기 위한 필수적인 표준 절차(Audit)로 안착하고 있다.
 
----
++++
 
 ## Ⅰ. 정형 검증 (Formal Verification) 개요
 
@@ -31,7 +30,7 @@ keyword: "FormalVerification_SmartContractSecurity_MathematicalProof_ModelChecki
 
 📢 **섹션 요약 비유**: 우연에 기대는 '운'의 영역을, 빈틈없는 수학의 '논리' 영역으로 끌어올려 디지털 신뢰의 순도를 100%로 만드는 기술입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 수행 프로세스 (Deep Dive)
 
@@ -86,7 +85,7 @@ keyword: "FormalVerification_SmartContractSecurity_MathematicalProof_ModelChecki
 
 📢 **섹션 요약 비유**: 미로의 모든 길을 직접 가보는 것(모델 체킹)과, 지도를 보고 출구가 하나뿐임을 논리적으로 추론하는 것(정리 증명)의 차이입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -106,7 +105,7 @@ keyword: "FormalVerification_SmartContractSecurity_MathematicalProof_ModelChecki
 
 📢 **섹션 요약 비유**: 테스트가 '예방 접종'이라면, 정형 검증은 유전자 단위를 고쳐서 '무결점 신체'를 만드는 것과 같은 차이가 있습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -123,7 +122,7 @@ keyword: "FormalVerification_SmartContractSecurity_MathematicalProof_ModelChecki
 
 📢 **섹션 요약 비유**: 아무리 계산기가 정확해도 문제를 잘못 읽으면 답이 틀리듯이, 수학적 도구보다 '무엇을 증명할 것인가'에 대한 인간의 통찰력이 실무의 핵심입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -137,13 +136,13 @@ keyword: "FormalVerification_SmartContractSecurity_MathematicalProof_ModelChecki
 
 📢 **섹션 요약 비유**: 정형 검증은 블록체인이라는 불확실한 우주에서 우리가 믿고 기댈 수 있는 **'가장 견고한 논리의 지지대'**입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[스마트 컨트랙트 보안](./56_smart_contract_security.md)**: 정형 검증이 해결하고자 하는 주 목표.
-- **[K-Framework / Z3 Solver](./xx_verification_tools.md)**: 정형 검증을 수행하는 대표적 도구들.
-- **[영지식 증명 (ZKP)](./36_zero_knowledge_proof.md)**: '계산의 정당성'을 증명한다는 점에서 정형 검증과 철학을 공유하는 기술.
-- **[불변성 (Invariants)](./xx_invariants.md)**: 정형 검증 시 시스템이 반드시 지켜야 할 철칙.
+- **스마트 컨트랙트 보안**: 정형 검증이 해결하고자 하는 주 목표.
+- **K-Framework / Z3 Solver**: 정형 검증을 수행하는 대표적 도구들.
+- **영지식 증명 (ZKP)**: '계산의 정당성'을 증명한다는 점에서 정형 검증과 철학을 공유하는 기술.
+- **불변성 (Invariants)**: 정형 검증 시 시스템이 반드시 지켜야 할 철칙.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **완벽한 수학 채점**: 일기를 다 쓰고 나서 "틀린 글자가 하나라도 있을까?" 걱정될 때, 수학 요정이 나타나서 모든 글자를 꼼꼼히 검사해주는 거예요.

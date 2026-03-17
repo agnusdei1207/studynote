@@ -1,10 +1,9 @@
----
-title: "[ICT] #10. 탈중앙화 (Decentralization)"
-date: "2026-03-17"
++++
+title = "[ICT] #10. 탈중앙화 (Decentralization)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Decentralization_SPOF_P2P_Transparency"
----
+keyword = "Decentralization_SPOF_P2P_Transparency"
++++
 
 # 탈중앙화 (Decentralization): 권력의 분산과 무신뢰 시스템의 실현
 
@@ -13,7 +12,7 @@ keyword: "Decentralization_SPOF_P2P_Transparency"
 > 2. **가치**: 특정 중앙 기관에 대한 의존을 제거하여 **단일 장애점(SPOF)** 문제를 해결하고, 데이터의 투명성과 검열 저항성(Censorship Resistance)을 극대화한다.
 > 3. **융합**: Web 3.0의 핵심 가치로서 블록체인, P2P 네트워크, 합의 알고리즘과 결합하여 '플랫폼 경제'에서 '프로토콜 경제'로의 패러다임 전환을 주도한다.
 
----
++++
 
 ## Ⅰ. 탈중앙화 (Decentralization) 개요
 
@@ -30,7 +29,7 @@ keyword: "Decentralization_SPOF_P2P_Transparency"
 
 📢 **섹션 요약 비유**: 왕 한 명의 명령에 따르는 왕국 시스템에서, 모든 시민이 투표권과 감시권을 가진 민주주의 시스템으로 디지털 세계의 질서가 바뀌는 과정입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -70,7 +69,7 @@ keyword: "Decentralization_SPOF_P2P_Transparency"
 
 📢 **섹션 요약 비유**: 중앙 서버라는 단일 심장 대신, 네트워크 전체에 퍼져있는 미세한 혈관들이 스스로 박동하며 생명력(가용성)을 유지하는 유기체와 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -92,7 +91,7 @@ keyword: "Decentralization_SPOF_P2P_Transparency"
 
 📢 **섹션 요약 비유**: 고속도로 하이패스(중앙화)는 빠르지만 정전 시 마비되는 반면, 모든 방향으로 뚫린 일반 도로(탈중앙화)는 조금 느려도 어디든 갈 수 있는 복구력이 있는 것과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -106,7 +105,7 @@ keyword: "Decentralization_SPOF_P2P_Transparency"
 
 📢 **섹션 요약 비유**: 모든 주민이 모여 결정하는 마을 회의가 가장 공정하지만 시간이 오래 걸리는 것처럼, 탈중앙화도 목적에 맞는 '적정 수준'의 설계가 중요합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -120,13 +119,13 @@ keyword: "Decentralization_SPOF_P2P_Transparency"
 
 📢 **섹션 요약 비유**: 탈중앙화는 거대 공룡(중앙 권력)의 시대가 가고, 수많은 작은 생명체(개인)들이 연결되어 살아가는 새로운 **디지털 생태계의 진화**입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[Web 3.0](./1_web_1_2_3.md)**: 탈중앙화 가치를 실현하는 차세대 웹 패러다임.
-- **[블록체인 (Blockchain)](./3_blockchain_dlt.md)**: 탈중앙화를 가능케 하는 핵심 기술 인프라.
-- **[DAO (탈중앙 자율 조직)](./54_dao.md)**: 탈중앙화된 의사결정 및 운영 조직 모델.
-- **[합의 알고리즘 (Consensus)](./11_consensus.md)**: 탈중앙화 환경에서 신뢰를 구축하는 방법.
+- **Web 3.0**: 탈중앙화 가치를 실현하는 차세대 웹 패러다임.
+- **블록체인 (Blockchain)**: 탈중앙화를 가능케 하는 핵심 기술 인프라.
+- **DAO (탈중앙 자율 조직)**: 탈중앙화된 의사결정 및 운영 조직 모델.
+- **합의 알고리즘 (Consensus)**: 탈중앙화 환경에서 신뢰를 구축하는 방법.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **대장 없는 축구팀**: 팀에 대장이 없어도, 우리끼리 정해둔 규칙(코드)에 따라 모두가 똑같이 공을 차고 경기 결과를 확인하는 시스템이에요.

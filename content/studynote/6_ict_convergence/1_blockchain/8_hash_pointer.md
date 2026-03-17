@@ -1,10 +1,9 @@
----
-title: "[ICT] #9. 해시 포인터 (Hash Pointer)"
-date: "2026-03-17"
++++
+title = "[ICT] #9. 해시 포인터 (Hash Pointer)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Hash_Pointer_Tamper_Evident_Hash_Chain"
----
+keyword = "Hash_Pointer_Tamper_Evident_Hash_Chain"
++++
 
 # 해시 포인터 (Hash Pointer): 위치와 무결성을 동시에 증명하는 암호학적 주소
 
@@ -13,7 +12,7 @@ keyword: "Hash_Pointer_Tamper_Evident_Hash_Chain"
 > 2. **가치**: 단순히 데이터를 찾아가는 기능(Address)을 넘어, 가져온 데이터가 원래의 것과 일치하는지(Integrity) 즉시 검증할 수 있는 자가 검증 능력을 제공한다.
 > 3. **융합**: 블록체인의 해시 체인(Hash Chain)과 머클 트리(Merkle Tree)의 연결 고리로 사용되며, 변조 시 상위 노드로 전파되는 '변조 감지 데이터 구조'의 근간을 형성한다.
 
----
++++
 
 ## Ⅰ. 해시 포인터 (Hash Pointer) 개요
 
@@ -30,7 +29,7 @@ keyword: "Hash_Pointer_Tamper_Evident_Hash_Chain"
 
 📢 **섹션 요약 비유**: 주소지만 보고 찾아가는 배달 서비스가 아니라, 도착한 물품이 주문한 것과 일치하는지 그 자리에서 바코드로 확인까지 마치는 '철저한 검수 시스템'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -81,7 +80,7 @@ keyword: "Hash_Pointer_Tamper_Evident_Hash_Chain"
 
 📢 **섹션 요약 비유**: 도미노처럼 연결된 상자들에서 중간의 상자 하나를 바꾸면, 그 뒤에 연결된 모든 장치들이 작동하지 않아 전체 시스템이 멈추는 강력한 보안 장치입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -101,7 +100,7 @@ keyword: "Hash_Pointer_Tamper_Evident_Hash_Chain"
 
 📢 **섹션 요약 비유**: 일반 포인터가 "3번지로 가세요"라고 말한다면, 해시 포인터는 "3번지로 가서 빨간 공이 있는지 확인하세요"라고 구체적인 확인 절차까지 지시하는 것과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -115,7 +114,7 @@ keyword: "Hash_Pointer_Tamper_Evident_Hash_Chain"
 
 📢 **섹션 요약 비유**: 일기장의 모든 페이지 아래에 전날 쓴 일기 내용의 암호 도장을 찍는다면, 어제 일기를 찢거나 고치는 순간 오늘 일기의 도장과 맞지 않게 되는 원리입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -129,13 +128,13 @@ keyword: "Hash_Pointer_Tamper_Evident_Hash_Chain"
 
 📢 **섹션 요약 비유**: 해시 포인터는 디지털 세계의 모든 데이터를 서로 단단히 묶어주는 **암호학적 용접 기술**이며, 신뢰 사회의 기술적 기초입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[해시 함수 (Hash Function)](../../9_security/xx_hash_function.md)**: 해시 포인터의 무결성 정보를 만드는 핵심 도구.
-- **[블록체인 (Blockchain)](./3_blockchain_dlt.md)**: 블록들을 해시 포인터로 연결한 거대한 체인.
-- **[머클 트리 (Merkle Tree)](./6_merkle_tree.md)**: 노드 간 연결을 해시 포인터로 처리한 트리 구조.
-- **[지향성 비순환 그래프 (DAG)](../8_algorithm_stats/xx_dag.md)**: 해시 포인터 구조가 가져야 하는 수학적 형태.
+- **해시 함수 (Hash Function)**: 해시 포인터의 무결성 정보를 만드는 핵심 도구.
+- **블록체인 (Blockchain)**: 블록들을 해시 포인터로 연결한 거대한 체인.
+- **머클 트리 (Merkle Tree)**: 노드 간 연결을 해시 포인터로 처리한 트리 구조.
+- **지향성 비순환 그래프 (DAG)**: 해시 포인터 구조가 가져야 하는 수학적 형태.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **사진이 붙은 이정표**: 길을 알려주는 표지판에 목적지의 사진이 같이 붙어 있는 거예요. 목적지에 도착했는데 사진이랑 다르면 길을 잘못 왔다는 걸 바로 알 수 있죠.

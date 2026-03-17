@@ -1,6 +1,7 @@
-+++ 
-title = "588. TCP 오프로드 엔진 (TOE)" 
-weight = 588 
++++
+title = "588. TCP 오프로드 엔진 (TOE)"
+date = "2026-03-14"
+weight = 588
 +++
 
 # TCP 오프로드 엔진 (TOE, TCP Offload Engine)

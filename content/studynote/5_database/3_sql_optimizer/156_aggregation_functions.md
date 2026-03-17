@@ -1,7 +1,6 @@
 +++
 title = "156. 집계 함수 (Aggregate Function) - 데이터 요약 및 그룹 연산"
 date = "2026-03-16"
-draft = false
 weight = 156
 [extra]
 categories = "studynote-database"
@@ -15,7 +14,7 @@ keywords = ["집계 함수", "Aggregate Function", "SUM", "AVG", "COUNT", "MAX",
 > 2. **작동 원리**: **`GROUP BY`** 절과 결합하여 특정 그룹 단위로 집계를 수행하며, `NULL` 값을 연산에서 자동 제외하는 특성과 중복을 제거하고 계산하는 `DISTINCT` 옵션 등을 제공한다.
 > 3. **가치**: 방대한 로우(Raw) 데이터를 비즈니스 의사결정에 필요한 유의미한 정보(KPI, 통계 리포트)로 변환하며, 인덱스 및 병렬 처리를 통해 대규모 데이터셋에 대한 고속 요약을 실현한다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -47,7 +46,7 @@ keywords = ["집계 함수", "Aggregate Function", "SUM", "AVG", "COUNT", "MAX",
 
 - **📢 섹션 요약 비유**: 집계 함수는 '흩어진 구슬들을 모아서 하나의 무게를 재는 저울'과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -87,7 +86,7 @@ keywords = ["집계 함수", "Aggregate Function", "SUM", "AVG", "COUNT", "MAX",
 
 - **📢 섹션 요약 비유**: GROUP BY가 '동전 분류기'라면, 집계 함수는 각 통에 담긴 '동전의 총합을 계산하는 장치'입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석 (Comparison & Synergy)
 
@@ -106,7 +105,7 @@ keywords = ["집계 함수", "Aggregate Function", "SUM", "AVG", "COUNT", "MAX",
 
 - **📢 섹션 요약 비유**: 단일 행 함수가 '각자의 키를 10cm씩 늘리는 구두'라면, 집계 함수는 '모두의 키를 합쳐서 건물을 세우는 설계'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단 (Strategy & Decision)
 
@@ -125,7 +124,7 @@ keywords = ["집계 함수", "Aggregate Function", "SUM", "AVG", "COUNT", "MAX",
 
 - **📢 섹션 요약 비유**: 잘못된 집계는 '가짜 뉴스를 요약하는 인공지능'과 같아, 결과가 빨라도 내용이 틀리면 아무짝에도 쓸모가 없습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론 (Future & Standard)
 
@@ -143,15 +142,15 @@ keywords = ["집계 함수", "Aggregate Function", "SUM", "AVG", "COUNT", "MAX",
 
 - **📢 섹션 요약 비유**: 미래의 집계 함수는 단순히 더하고 나누는 것을 넘어, 데이터의 흐름 속에서 우리가 물어보기도 전에 '오늘의 한 줄 요약'을 내놓는 예언자가 될 것입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[GROUP BY 절](./131_sql_standards.md)**: 집계 함수의 단짝 파트너.
-- **[윈도우 함수 (Window Function)](./145_window_functions.md)**: 행을 유지하며 집계하는 고도화된 형태.
-- **[NULL 처리](./66_null_value.md)**: 집계 함수가 가장 신경 써야 할 예외 상황.
-- **[HAVING 절](./131_sql_standards.md)**: 집계 결과를 검열하는 게이트웨이.
+- **GROUP BY 절**: 집계 함수의 단짝 파트너.
+- **윈도우 함수 (Window Function)**: 행을 유지하며 집계하는 고도화된 형태.
+- **NULL 처리**: 집계 함수가 가장 신경 써야 할 예외 상황.
+- **HAVING 절**: 집계 결과를 검열하는 게이트웨이.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **집계 함수**는 교실 바닥에 흩어진 레고 블록들을 **"색깔별로 모아서 총 몇 개인지"** 알려주는 똑똑한 로봇 팔과 같아요.

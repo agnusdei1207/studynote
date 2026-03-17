@@ -1,6 +1,7 @@
 +++
-weight = 148
 title = "148. 재진입 가능 코드 (Reentrant Code)"
+date = "2026-03-14"
+weight = 148
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -132,10 +133,10 @@ title = "148. 재진입 가능 코드 (Reentrant Code)"
 ---
 
 ### 📌 관련 개념 맵
-- **[스레드 안전 (Thread-safe)](./147_thread_safe.md)**: 동시성 제어의 일반적인 개념.
-- **[임계 구역 (Critical Section)](./xx_critical_section.md)**: 재진입성 확보를 위해 제거해야 할 영역.
-- **[순수 함수 (Pure Function)](../8_algorithm_stats/xx_pure_function.md)**: 재진입성의 가장 이상적인 형태.
-- **[Async-Signal-Safe](./xx_async_signal_safe.md)**: 리눅스 신호 처리에서의 재진입 표준.
+- **스레드 안전 (Thread-safe)**: 동시성 제어의 일반적인 개념.
+- **임계 구역 (Critical Section)**: 재진입성 확보를 위해 제거해야 할 영역.
+- **순수 함수 (Pure Function)**: 재진입성의 가장 이상적인 형태.
+- **Async-Signal-Safe**: 리눅스 신호 처리에서의 재진입 표준.
 
 ---
 

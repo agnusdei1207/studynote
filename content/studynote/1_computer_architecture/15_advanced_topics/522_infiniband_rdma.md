@@ -1,6 +1,7 @@
 +++
-weight = 522
 title = "522. 인피니밴드 RDMA"
+date = "2026-03-14"
+weight = 522
 +++
 
 # 522. 인피니밴드 RDMA
@@ -136,10 +137,10 @@ RDMA는 데이터 전송 과정에서 호스트 CPU의 개입을 배제하고, N
 ---
 
 ### 📌 관련 개념 맵
-- **[RDMA (Remote Direct Memory Access)](./510_rdma.md)**: 기술적 근간
-- **[RoCE (RDMA over Converged Ethernet)](./523_roce.md)**: 이더넷 기반의 RDMA 대안
-- **[GPU Direct](./499_sdi_hardware.md)**: GPU 최적화 RDMA 기술
-- **[CXL (Compute Express Link)](./519_cxl_memory_pooling.md)**: 차세대 인터커넥트 경쟁자/동반자
+- **RDMA (Remote Direct Memory Access)**: 기술적 근간
+- **RoCE (RDMA over Converged Ethernet)**: 이더넷 기반의 RDMA 대안
+- **GPU Direct**: GPU 최적화 RDMA 기술
+- **CXL (Compute Express Link)**: 차세대 인터커넥트 경쟁자/동반자
 
 ---
 

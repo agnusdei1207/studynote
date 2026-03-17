@@ -1,5 +1,6 @@
 +++
 title = "IntServ (통합 서비스) - Integrated Services"
+date = "2026-03-14"
 weight = 488
 +++
 
@@ -90,5 +91,5 @@ IntServ는 흐름별로 자원을 예약합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [DiffServ](./487_diffserv.md)
-- [RSVP](./489_rsvp.md)
+- DiffServ
+- RSVP

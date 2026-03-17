@@ -1,7 +1,7 @@
----
-title: "549. 2PC (2-Phase Commit) 한계와 장애 시나리오"
-date: 2026-03-15
----
++++
+title = "549. 2PC (2-Phase Commit) 한계와 장애 시나리오"
+date = "2026-03-15"
++++
 
 # 549. 2PC (2-Phase Commit) 한계와 장애 시나리오
 
@@ -161,10 +161,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[로컬 vs 분산 트랜잭션](./548_local_vs_distributed_transaction.md)**: 2PC가 해결하려는 상위 문제
-- **[Saga 패턴](./550_saga_pattern.md)**: 2PC의 실무적 대안 기술
-- **[ACID 원칙](../xx_acid.md)**: 2PC가 지키고자 하는 가치
-- **[BASE 철학](../xx_base.md)**: 2PC가 포기한 가치를 챙기는 철학
+- **로컬 vs 분산 트랜잭션**: 2PC가 해결하려는 상위 문제
+- **Saga 패턴**: 2PC의 실무적 대안 기술
+- **ACID 원칙**: 2PC가 지키고자 하는 가치
+- **BASE 철학**: 2PC가 포기한 가치를 챙기는 철학
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "ZeroConf - 제로 설정"
+date = "2026-03-14"
 weight = 973
 +++
 
@@ -105,6 +106,6 @@ ZeroConf는 수동 설정 없이 네트워크를 구성합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Link Local](./972_link_local.md)
-- [mDNS](./xxx_mdns.md)
-- [DNS](./885_dns.md)
+- Link Local
+- mDNS
+- DNS

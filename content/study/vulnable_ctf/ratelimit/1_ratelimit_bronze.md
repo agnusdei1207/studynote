@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Rate Limit Bypass 🥉 Bronze"
-description = "LUXORA 플랫폼의 기본 Rate Limit Bypass 취약점을 이용한 프로모션 코드 무차별 대입(Brute Force) 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Rate Limit", "Bronze", "Header Spoofing", "Write-up"]

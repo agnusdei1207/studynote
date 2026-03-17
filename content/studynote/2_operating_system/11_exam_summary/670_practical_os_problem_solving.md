@@ -1,7 +1,7 @@
 +++
-weight = 670
 title = "670. 실전 OS 응용 문제 해결 전략"
 date = "2024-05-23"
+weight = 670
 [extra]
 categories = "studynote-operating-system"
 keywords = ["OS Problem Solving", "System Design", "Concurrency Control", "Memory Management", "Real-world Scenario"]
@@ -12,7 +12,7 @@ keywords = ["OS Problem Solving", "System Design", "Concurrency Control", "Memor
 > 동시성(Concurrency), 자원 경합(Race Condition), 메모리 고갈 등 시스템의 병목 현상을 논리적으로 분석하고, 기술 간의 트레이드오프(Trade-off)를 고려한 의사결정이 필수적이다.
 > 특히 대규모 분산 환경이나 초저지연 시스템에서의 OS 수준 최적화 역량은 단순한 구현을 넘어 시스템의 한계를 결정짓는 핵심 차별화 요소가 된다.
 
----
++++
 
 ### Ⅰ. 실전 문제 해결을 위한 4단계 사고 프로세스
 
@@ -27,7 +27,7 @@ keywords = ["OS Problem Solving", "System Design", "Concurrency Control", "Memor
 
 📢 섹션 요약 비유: 실전 문제 해결은 '복잡한 실타래를 푸는 것'과 같아서, 실의 시작점(원인)을 찾아 차근차근 논리적으로 풀어나가는 끈기가 필요합니다.
 
----
++++
 
 ### Ⅱ. 시나리오 기반 문제 해결 맵(Scenario Map)
 
@@ -58,7 +58,7 @@ keywords = ["OS Problem Solving", "System Design", "Concurrency Control", "Memor
 
 📢 섹션 요약 비유: 문제 해결 맵은 '작전 지도'와 같아서, 적(문제)의 위치에 따라 어떤 무기(기술)를 쓸지 미리 계획을 세우는 것과 같습니다.
 
----
++++
 
 ### Ⅲ. 실무적 트레이드오프(Trade-off) 의사결정 기준
 
@@ -71,7 +71,7 @@ keywords = ["OS Problem Solving", "System Design", "Concurrency Control", "Memor
 
 📢 섹션 요약 비유: 트레이드오프는 '시소 타기'와 같아서, 한쪽이 올라가면 다른 쪽은 내려갈 수밖에 없음을 인정하고 최적의 균형점을 찾는 지혜입니다.
 
----
++++
 
 ### Ⅳ. 고급 OS 최적화 기술의 실전 적용
 
@@ -84,7 +84,7 @@ keywords = ["OS Problem Solving", "System Design", "Concurrency Control", "Memor
 
 📢 섹션 요약 비유: 고급 최적화는 '자동차 튜닝'과 같아서, 일반 도심 주행을 넘어 경주용 서킷에서 최고의 기록을 내기 위해 내부 부품을 개조하는 고도의 기술입니다.
 
----
++++
 
 ### Ⅴ. 지속 가능한 시스템 운영 및 발전 전략
 
@@ -97,7 +97,7 @@ keywords = ["OS Problem Solving", "System Design", "Concurrency Control", "Memor
 
 📢 섹션 요약 비유: 운영 전략은 '정원 가꾸기'와 같아서, 한 번 심어놓고 끝나는 게 아니라 끊임없이 잡초(버그)를 뽑고 물(최적화)을 주어야 아름다운 정원(시스템)이 유지됩니다.
 
----
++++
 
 ### 💡 지식 그래프(Knowledge Graph)
 - **부모 노드**: 시스템 엔지니어링 실무(System Engineering Practice)

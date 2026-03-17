@@ -1,6 +1,7 @@
 +++
-weight = 16
 title = "16. FET (전계효과 트랜지스터)"
+date = "2026-03-14"
+weight = 16
 +++
 
 # # [FET (전계효과 트랜지스터, Field Effect Transistor)]

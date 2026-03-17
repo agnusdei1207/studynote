@@ -1,5 +1,6 @@
 +++
 title = "bathtub curve"
+date = "2026-03-14"
 weight = 756
 +++
 
@@ -125,10 +126,10 @@ weight = 756
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [초기 고장기, 우발 고장기, 마모 고장기](./757_failure_periods.md)
-- [번인 (Burn-in) 테스트](./758_burn_in.md)
-- [HALT (Highly Accelerated Life Test)](./759_halt.md)
-- [MTBF](./713_mtbf.md)
+- 초기 고장기, 우발 고장기, 마모 고장기
+- 번인 (Burn-in) 테스트
+- HALT (Highly Accelerated Life Test)
+- MTBF
 
 ---
 

@@ -1,7 +1,8 @@
----
-title: "423. 대형 페이지 (Large Page / Transparent Hugepage)의 가상 메모리 성능 이점"
-weight: 423
----
++++
+title = "423. 대형 페이지 (Large Page / Transparent Hugepage)의 가상 메모리 성능 이점"
+date = "2026-03-14"
+weight = 423
++++
 
 ## 💡 Insight
 - 현대 시스템은 메모리 용량이 비약적으로 증가함에 따라 기본 4KB 페이지 단위가 가져오는 관리 오버헤드(TLB Miss)를 줄이기 위해 대형 페이지(Hugepages)를 활용한다.
@@ -74,11 +75,11 @@ TLB Entry 512 -> Page X (4KB)     (Matches same memory range as 512 entries)
 ---
 
 ## 🌳 지식 그래프 (Knowledge Graph)
-- **부모**: [381. 가상 메모리 개념](./381_가상_메모리_Virtual_Memory_개념.md)
+- **부모**: 381. 가상 메모리 개념
 - **자식**: [하드웨어 페이지 테이블 워커 (추후 예정)]
 - **유사 개념**:
-  - [TLB (Translation Lookaside Buffer)](../6_memory_hierarchy_cache/TLB_개념.md)
-  - [Memory Fragmentation](../6_memory_hierarchy_cache/External_Internal_Fragmentation.md)
+  - TLB (Translation Lookaside Buffer)
+  - Memory Fragmentation
 
 ## 👶 아이의 시각 (Child Analogy)
 > "레고 블록(4KB)이 수백만 개 있으면 정리하기 너무 힘들겠지? 그래서 어떤 블록들은 아주 큰 왕레고 블록(2MB)으로 만들었어. 왕레고 블록 하나만 옮기면 작은 블록 500개를 한꺼번에 옮기는 거랑 똑같아서, 정리 정돈(주소 변환) 속도가 엄청 빨라진단다!"

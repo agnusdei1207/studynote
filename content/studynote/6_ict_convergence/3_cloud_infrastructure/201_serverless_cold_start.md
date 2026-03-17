@@ -1,10 +1,9 @@
----
-title: "[ICT] #201. 서버리스 (Serverless) 아키텍처 한계점 및 극복 방안"
-date: "2026-03-17"
++++
+title = "[ICT] #201. 서버리스 (Serverless) 아키텍처 한계점 및 극복 방안"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Serverless_ColdStart_ProvisionedConcurrency_Stateless_VendorLockIn_FaaS"
----
+keyword = "Serverless_ColdStart_ProvisionedConcurrency_Stateless_VendorLockIn_FaaS"
++++
 
 # 서버리스 (Serverless) 한계점과 극복: 완벽해 보이는 마법의 숨겨진 그림자
 
@@ -13,7 +12,7 @@ keyword: "Serverless_ColdStart_ProvisionedConcurrency_Stateless_VendorLockIn_Faa
 > 2. **가치**: 이러한 한계를 인지하지 못하고 무조건적으로 서버리스를 도입하면 오히려 요금 폭탄을 맞거나 사용자 경험(UX)이 심각하게 훼손되므로, 워크로드의 특성에 맞는 정확한 아키텍처 취사선택이 요구된다.
 > 3. **융합**: 최근에는 콜드 스타트를 돈으로 해결하는 **프로비저닝된 동시성(Provisioned Concurrency)** 옵션이나, 상태 저장을 돕는 외부 고속 캐시(Redis), 무거운 연산을 우회하는 비동기 이벤트 큐(SQS)와의 융합 설계가 표준 디자인 패턴으로 자리 잡고 있다.
 
----
++++
 
 ## Ⅰ. 서버리스 아키텍처 한계점 개요
 
@@ -34,7 +33,7 @@ keyword: "Serverless_ColdStart_ProvisionedConcurrency_Stateless_VendorLockIn_Faa
 
 📢 **섹션 요약 비유**: 서버리스는 만병통치약이 아니라 100m 단거리 달리기에 최적화된 러닝화입니다. 이 신발을 신고 마라톤을 뛰려 하면 발에 심각한 무리가 옵니다.
 
----
++++
 
 ## Ⅱ. 핵심 한계점 심층 분석 (Deep Dive)
 
@@ -86,7 +85,7 @@ keyword: "Serverless_ColdStart_ProvisionedConcurrency_Stateless_VendorLockIn_Faa
 
 📢 **섹션 요약 비유**: 매일 아침 기억 상실증에 걸리는 알바생(Stateless)에게 일을 시키려면, 알바생 머릿속에 외우게 하지 말고 항상 공책(외부 DB)에 적어두라고 지시해야만 업무가 돌아갑니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 극복 기술 분석
 
@@ -104,7 +103,7 @@ keyword: "Serverless_ColdStart_ProvisionedConcurrency_Stateless_VendorLockIn_Faa
 
 📢 **섹션 요약 비유**: 큰 수박(1시간짜리 작업)을 한 번에 삼키려다 목이 막히는(Timeout) 대신, 수박을 깍둑썰기하여 여러 개의 작은 함수가 릴레이로 이어 먹게 만드는 '설계의 묘'가 필요합니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -122,7 +121,7 @@ keyword: "Serverless_ColdStart_ProvisionedConcurrency_Stateless_VendorLockIn_Faa
 
 📢 **섹션 요약 비유**: 수만 명의 좀비(트래픽)가 몰려올 때, 문을 활짝 열고 다 받아주면 집(DB)이 무너집니다. 튼튼한 좁은 문(SQS 큐)을 만들어 한 명씩 차례대로 들여보내는 것이 서버리스 생존의 핵심입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -136,13 +135,13 @@ keyword: "Serverless_ColdStart_ProvisionedConcurrency_Stateless_VendorLockIn_Faa
 
 📢 **섹션 요약 비유**: 모든 도구에는 날카로운 날과 베일 위험이 공존합니다. 서버리스의 한계(그림자)를 명확히 이해하고 길들이는 자만이 클라우드라는 거대한 마검을 완벽히 휘두를 수 있습니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[FaaS / 서버리스](./187_faas_serverless.md)**: 이러한 한계점 논의의 원천이 되는 본질적 서비스 모델.
-- **[마이크로서비스 (MSA)](../../4_software_engineering/xx_msa.md)**: 함수 단위로 쪼개지는 서버리스 설계의 바탕이 되는 철학.
-- **[메시지 큐 (SQS/Kafka)](#)**: 서버리스의 DB 고갈 문제와 타임아웃을 해결하는 최고의 짝꿍 기술.
-- **[NoSQL (DynamoDB)](../../5_database/xx_nosql.md)**: 연결 커넥션 제약이 없어 서버리스와 찰떡궁합을 자랑하는 데이터베이스.
+- **FaaS / 서버리스**: 이러한 한계점 논의의 원천이 되는 본질적 서비스 모델.
+- **마이크로서비스 (MSA)**: 함수 단위로 쪼개지는 서버리스 설계의 바탕이 되는 철학.
+- **메시지 큐 (SQS/Kafka)**: 서버리스의 DB 고갈 문제와 타임아웃을 해결하는 최고의 짝꿍 기술.
+- **NoSQL (DynamoDB)**: 연결 커넥션 제약이 없어 서버리스와 찰떡궁합을 자랑하는 데이터베이스.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **겨울철 자동차 시동 (콜드 스타트)**: 오랫동안 안 쓴 마법 기계를 갑자기 켜면 엔진이 데워질 때까지 2~3초 정도 기다려야 하는 불편함이 있어요.

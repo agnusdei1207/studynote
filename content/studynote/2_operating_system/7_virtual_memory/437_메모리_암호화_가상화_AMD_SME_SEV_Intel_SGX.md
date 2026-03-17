@@ -1,6 +1,7 @@
 +++
-weight = 437
 title = "437. 메모리 암호화 가상화 (AMD SME/SEV, Intel SGX)"
+date = "2026-03-14"
+weight = 437
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -117,4 +118,3 @@ graph TD
         Dec
         Keys[Hardware Keys]
     end
-```

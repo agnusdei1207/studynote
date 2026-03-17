@@ -1,5 +1,6 @@
 +++
 title = "WRED (가중치 무작위 조기 감지) - Weighted Random Early Detection"
+date = "2026-03-14"
 weight = 492
 +++
 
@@ -92,5 +93,5 @@ WRED는 혼잡 전에 패킷을 무작위로 폐기합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [QoS](./486_qos.md)
-- [혼잡 제어](./493_congestion_control.md)
+- QoS
+- 혼잡 제어

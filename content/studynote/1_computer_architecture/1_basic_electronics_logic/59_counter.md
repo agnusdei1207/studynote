@@ -1,6 +1,7 @@
 +++
-weight = 59
 title = "59. 카운터 (Counter)"
+date = "2026-03-14"
+weight = 59
 +++
 
 # 59. 카운터 (Counter)

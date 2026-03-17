@@ -1,5 +1,6 @@
 +++
 title = "650. 결과적 일관성 (Eventual Consistency)"
+date = "2026-03-14"
 weight = 650
 +++
 

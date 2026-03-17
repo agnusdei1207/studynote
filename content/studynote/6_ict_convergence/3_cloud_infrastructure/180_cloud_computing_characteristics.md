@@ -1,10 +1,9 @@
----
-title: "[ICT] #181. 클라우드 컴퓨팅 (Cloud Computing) 5대 특징 (NIST)"
-date: "2026-03-17"
++++
+title = "[ICT] #181. 클라우드 컴퓨팅 (Cloud Computing) 5대 특징 (NIST)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "CloudComputing_NIST_OnDemandSelfService_BroadNetworkAccess_ResourcePooling_RapidElasticity_MeasuredService"
----
+keyword = "CloudComputing_NIST_OnDemandSelfService_BroadNetworkAccess_ResourcePooling_RapidElasticity_MeasuredService"
++++
 
 # 클라우드 컴퓨팅 5대 특징 (NIST): 현대 IT 인프라의 기준을 정의하는 핵심 속성
 
@@ -13,7 +12,7 @@ keyword: "CloudComputing_NIST_OnDemandSelfService_BroadNetworkAccess_ResourcePoo
 > 2. **가치**: 미국 국립표준기술연구소(NIST)가 정의한 5대 특징(주문형 셀프 서비스, 광범위한 네트워크 접근, 자원 풀링, 신속한 탄력성, 측정 가능한 서비스)은 전통적 IT 구축(On-premise) 방식이 갖는 유연성 부족과 과잉 투자(Over-provisioning) 문제를 근본적으로 해결한다.
 > 3. **융합**: 이 5대 특징은 단순한 서버 대여업을 넘어, IaaS, PaaS, SaaS라는 서비스 모델과 결합하여 빅데이터, AI, 사물인터넷(IoT) 생태계를 지탱하는 무한한 컴퓨팅 백본(Backbone) 역할을 수행하게 만든다.
 
----
++++
 
 ## Ⅰ. 클라우드 컴퓨팅 (Cloud Computing) 개요
 
@@ -30,7 +29,7 @@ keyword: "CloudComputing_NIST_OnDemandSelfService_BroadNetworkAccess_ResourcePoo
 
 📢 **섹션 요약 비유**: IT 인프라를 '직접 땅을 사서 짓는 공장'에서, '필요한 만큼만 빌려 쓰고 반납하는 공유 오피스'로 바꾼 패러다임 전환입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 5대 핵심 특징 (Deep Dive)
 
@@ -77,7 +76,7 @@ keyword: "CloudComputing_NIST_OnDemandSelfService_BroadNetworkAccess_ResourcePoo
 
 📢 **섹션 요약 비유**: 수백 명의 손님이 각자 우물을 파게 하지 않고, 거대한 저수지(Pool) 하나를 만들어 파이프를 연결한 뒤 쓴 물의 양만큼만 칼같이 요금을 받는(Measured) 비즈니스 모델입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -96,7 +95,7 @@ keyword: "CloudComputing_NIST_OnDemandSelfService_BroadNetworkAccess_ResourcePoo
 
 📢 **섹션 요약 비유**: 자동차를 비싸게 일시불로 사서(CAPEX) 주차장에 방치하는 대신, 쏘카(Socar)처럼 폰(Self-service)으로 필요할 때만 10분 빌려 타고 내린 시간만큼 결제(Measured)하는 것과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -114,7 +113,7 @@ keyword: "CloudComputing_NIST_OnDemandSelfService_BroadNetworkAccess_ResourcePoo
 
 📢 **섹션 요약 비유**: 택시(클라우드)는 가끔 탈 땐 좋지만, 매일 하루 종일 타야 한다면 차라리 내 차를 한 대 사는 것(온프레미스 회귀)이 훨씬 쌉니다. 목적에 맞는 하이브리드 전략이 진짜 엔지니어링입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -128,13 +127,13 @@ keyword: "CloudComputing_NIST_OnDemandSelfService_BroadNetworkAccess_ResourcePoo
 
 📢 **섹션 요약 비유**: 클라우드 5대 특징은 IT 인프라를 '부동산(소유)'에서 '전기나 수도(구독)' 같은 필수 유틸리티로 바꾸어 놓은 현대 문명의 가장 강력한 수도 펌프입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[IaaS / PaaS / SaaS](./182_iaas_paas_saas.md)**: NIST 5대 특징을 바탕으로 고객에게 제공하는 3가지 서비스 모델.
-- **[오토스케일링 (Auto Scaling)](#)**: '신속한 탄력성'을 기술적으로 구현하는 클라우드의 핵심 기능.
-- **[서버리스 (Serverless)](./186_faas_serverless.md)**: 주문형 셀프 서비스조차 없애버리고, 코드가 실행될 때만 자원을 쓰는 궁극의 클라우드.
-- **[가상화 (Virtualization)](./189_virtualization_architecture.md)**: 자원 풀링을 물리적으로 가능하게 하는 근원적 소프트웨어 기술.
+- **IaaS / PaaS / SaaS**: NIST 5대 특징을 바탕으로 고객에게 제공하는 3가지 서비스 모델.
+- **오토스케일링 (Auto Scaling)**: '신속한 탄력성'을 기술적으로 구현하는 클라우드의 핵심 기능.
+- **서버리스 (Serverless)**: 주문형 셀프 서비스조차 없애버리고, 코드가 실행될 때만 자원을 쓰는 궁극의 클라우드.
+- **가상화 (Virtualization)**: 자원 풀링을 물리적으로 가능하게 하는 근원적 소프트웨어 기술.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **내 맘대로 자판기 (주문형)**: 비디오 게임기가 필요할 때 가게에 갈 필요 없이, 인터넷 자판기 버튼만 누르면 1초 만에 나만의 컴퓨터가 생겨요.

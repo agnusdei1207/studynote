@@ -1,6 +1,7 @@
 +++
-weight = 586
 title = "586. 도메인 (Domain) 및 행렬 (Access Matrix) 기반 접근 제어"
+date = "2026-03-14"
+weight = 586
 +++
 
 # 586. 도메인 (Domain) 및 행렬 (Access Matrix) 기반 접근 제어

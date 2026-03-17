@@ -1,6 +1,7 @@
 +++
-weight = 608
 title = "608. NUMA 자원 배분 최적화 (numactl)"
+date = "2026-03-14"
+weight = 608
 +++
 
 # # [NUMA 자원 배분 최적화 (numactl)]

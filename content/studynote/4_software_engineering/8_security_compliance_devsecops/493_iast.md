@@ -1,7 +1,7 @@
----
-title: "493. IAST (Interactive Application Security Testing)"
-date: 2026-03-15
----
++++
+title = "493. IAST (Interactive Application Security Testing)"
+date = "2026-03-15"
++++
 
 # 493. IAST (Interactive Application Security Testing)
 
@@ -157,10 +157,10 @@ IAST는 별도의 보안 스캔 시간을 갖지 않는다.
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[SAST & DAST](./491_sast.md)**: IAST가 탄생하게 된 배경이자 상호 보완재
-- **[RASP (Runtime Application Self-Protection)](./494_rasp.md)**: IAST와 기술적 뿌리를 공유하는 실시간 방어 기술
-- **[DevSecOps](./xx_devsecops.md)**: IAST가 가장 빛을 발하는 현대적 소프트웨어 운영 체계
-- **[Instrumentation](./xx_instrumentation.md)**: IAST 에이전트의 핵심 기술 원리
+- **SAST & DAST**: IAST가 탄생하게 된 배경이자 상호 보완재
+- **RASP (Runtime Application Self-Protection)**: IAST와 기술적 뿌리를 공유하는 실시간 방어 기술
+- **DevSecOps**: IAST가 가장 빛을 발하는 현대적 소프트웨어 운영 체계
+- **Instrumentation**: IAST 에이전트의 핵심 기술 원리
 
 ---
 

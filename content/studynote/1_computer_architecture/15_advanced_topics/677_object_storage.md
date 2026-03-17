@@ -1,5 +1,6 @@
 +++
 title = "오브젝트 스토리지 (Object Storage)"
+date = "2026-03-14"
 weight = 677
 +++
 

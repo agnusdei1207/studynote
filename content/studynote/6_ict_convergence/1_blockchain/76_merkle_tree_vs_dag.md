@@ -1,10 +1,9 @@
----
-title: "[ICT] #77. 머클 트리 vs 머클 DAG"
-date: "2026-03-17"
++++
+title = "[ICT] #77. 머클 트리 vs 머클 DAG"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Merkle_Tree_vs_Merkle_DAG_IPFS_Blockchain_ContentAddressing_GraphStructure"
----
+keyword = "Merkle_Tree_vs_Merkle_DAG_IPFS_Blockchain_ContentAddressing_GraphStructure"
++++
 
 # 머클 트리 vs 머클 DAG: 무결성 검증을 위한 두 가지 데이터 구조의 핵심 차이
 
@@ -13,7 +12,7 @@ keyword: "Merkle_Tree_vs_Merkle_DAG_IPFS_Blockchain_ContentAddressing_GraphStruc
 > 2. **가치**: 트리는 고정된 블록 내의 빠른 포함 여부 증명($O(\log N)$)에 강점이 있고, DAG는 데이터 중복 제거(Deduplication)와 부분적인 데이터 공유 및 유연한 구조화에 강점을 가진다.
 > 3. **융합**: 두 구조 모두 암호학적 해시(Hash)를 사용하여 데이터의 무결성을 보장하며, 현대 Web 3.0 인프라에서 '상태 저장(Tree)'과 '콘텐츠 저장(DAG)'의 역할을 나누어 분담한다.
 
----
++++
 
 ## Ⅰ. 머클 트리 및 머클 DAG 개요
 
@@ -27,7 +26,7 @@ keyword: "Merkle_Tree_vs_Merkle_DAG_IPFS_Blockchain_ContentAddressing_GraphStruc
 
 📢 **섹션 요약 비유**: 머클 트리가 정해진 틀에 데이터를 끼워 넣는 '격자무형 틀'이라면, 머클 DAG는 데이터 간의 관계를 자유롭게 엮는 '지능형 그물망'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 구조적 차이 (Deep Dive)
 
@@ -65,7 +64,7 @@ keyword: "Merkle_Tree_vs_Merkle_DAG_IPFS_Blockchain_ContentAddressing_GraphStruc
 
 📢 **섹션 요약 비유**: 트리가 모든 학생에게 교과서를 한 권씩 다 나눠주는 방식이라면, DAG는 도서관에 한 권만 비치하고 모두가 필요할 때 그 책을 참조(링크)하게 하는 효율적인 방식입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -84,7 +83,7 @@ keyword: "Merkle_Tree_vs_Merkle_DAG_IPFS_Blockchain_ContentAddressing_GraphStruc
 
 📢 **섹션 요약 비유**: 트리가 '순서대로 줄 서기'에 강하다면, DAG는 '복잡한 인맥 관리'에 강한 기술적 특징을 가집니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -98,7 +97,7 @@ keyword: "Merkle_Tree_vs_Merkle_DAG_IPFS_Blockchain_ContentAddressing_GraphStruc
 
 📢 **섹션 요약 비유**: 전체 건물을 매번 새로 짓는(Full Backup) 대신, 고장 난 전등(변경된 데이터)만 갈아 끼우고 나머지는 그대로 쓰는 '유지보수형 아키텍처'가 실무의 정석입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -112,13 +111,13 @@ keyword: "Merkle_Tree_vs_Merkle_DAG_IPFS_Blockchain_ContentAddressing_GraphStruc
 
 📢 **섹션 요약 비유**: 머클 트리와 머클 DAG는 디지털 세상의 모든 정보를 '절대 변하지 않는 원자'로 쪼개어 다시 엮어내는 **현대 암호학의 연금술**입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[머클 트리 (Merkle Tree)](./6_merkle_tree.md)**: 리지드한 이진 트리 구조.
-- **[IPFS (분산 파일 시스템)](./54_ipfs.md)**: 머클 DAG를 주력으로 사용하는 플랫폼.
-- **[콘텐츠 주소 지정 (CID)](./xx_cid.md)**: DAG 노드의 이름표를 만드는 원리.
-- **[DAG (지향성 비순환 그래프)](../8_algorithm_stats/xx_dag.md)**: DAG 구조의 수학적 토대.
+- **머클 트리 (Merkle Tree)**: 리지드한 이진 트리 구조.
+- **IPFS (분산 파일 시스템)**: 머클 DAG를 주력으로 사용하는 플랫폼.
+- **콘텐츠 주소 지정 (CID)**: DAG 노드의 이름표를 만드는 원리.
+- **DAG (지향성 비순환 그래프)**: DAG 구조의 수학적 토대.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **똑똑한 레고 조립**: 머클 트리는 칸이 딱딱 맞는 상자라면, 머클 DAG는 필요한 조각들을 자유롭게 연결해서 만든 멋진 레고 성과 같아요.

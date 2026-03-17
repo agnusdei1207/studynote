@@ -1,6 +1,7 @@
 +++
-weight = 635
 title = "635. CPU C-States (Idle States) 및 P-States (Performance States)"
+date = "2026-03-14"
+weight = 635
 +++
 
 # # [CPU C-States (Idle States) 및 P-States (Performance States)]

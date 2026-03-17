@@ -1,5 +1,6 @@
 +++
 title = "이더넷 프레임 - Ethernet Frame"
+date = "2026-03-14"
 weight = 430
 +++
 
@@ -143,10 +144,10 @@ weight = 430
 ---
 
 ### 📌 관련 개념 링크**:
-- [이더넷](./300_ethernet.md)
-- [MAC Address](./331_mac.md)
-- [VLAN](./301_vlan.md)
-- [MTU](./320_path_mtu.md)
+- 이더넷
+- MAC Address
+- VLAN
+- MTU
 
 ---
 

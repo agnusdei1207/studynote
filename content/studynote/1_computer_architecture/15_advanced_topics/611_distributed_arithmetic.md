@@ -1,5 +1,6 @@
 +++
 title = "611. 분산 산술 (Distributed Arithmetic) 매크로"
+date = "2026-03-14"
 weight = 611
 +++
 
@@ -168,10 +169,10 @@ $Y = \sum_{k=1}^{W-1} [ \sum_{n=0}^{N-1} c_n \cdot x_{n,k} ] \cdot 2^{-k} - [ \s
 ---
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[MAC (Multiply-Accumulate)](./xx_mac.md)**: 전통적인 곱셈-누산 연산 방식.
-- **[FIR 필터 (Finite Impulse Response)](./xx_fir.md)**: DA가 가장 흔히 적용되는 대표적 신호 처리 알고리즘.
-- **[FPGA LUT (Look-Up Table)](./xx_fpga_lut.md)**: DA 구현의 물리적 기반이 되는 하드웨어 자원.
-- **[CORDIC 알고리즘](./xx_cordic.md)**: 곱셈기 없이 삼각함수 등을 계산하는 또 다른 효율적 연산 기법.
+- **MAC (Multiply-Accumulate)**: 전통적인 곱셈-누산 연산 방식.
+- **FIR 필터 (Finite Impulse Response)**: DA가 가장 흔히 적용되는 대표적 신호 처리 알고리즘.
+- **FPGA LUT (Look-Up Table)**: DA 구현의 물리적 기반이 되는 하드웨어 자원.
+- **CORDIC 알고리즘**: 곱셈기 없이 삼각함수 등을 계산하는 또 다른 효율적 연산 기법.
 
 ---
 

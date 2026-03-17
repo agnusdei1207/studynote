@@ -1,6 +1,7 @@
 +++
-weight = 503
 title = "503. 파일 연산 (File Operations) - create, write, read, reposition, delete, truncate"
+date = "2026-03-14"
+weight = 503
 +++
 
 # # 503. 파일 연산 (File Operations)

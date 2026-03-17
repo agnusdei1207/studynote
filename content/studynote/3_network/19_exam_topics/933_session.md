@@ -1,5 +1,6 @@
 +++
 title = "Session - 세션"
+date = "2026-03-14"
 weight = 933
 +++
 
@@ -109,6 +110,6 @@ Session은 클라이언트와 서버 간 상태를 유지합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Cookie](./934_cookie.md)
-- [HTTP](./848_http.md)
-- [Stateful](./xxx_stateful.md)
+- Cookie
+- HTTP
+- Stateful

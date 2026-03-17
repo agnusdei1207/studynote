@@ -1,7 +1,7 @@
 +++
-weight = 668
 title = "668. 운영체제 성능 튜닝 및 트러블슈팅 프레임워크"
 date = "2024-05-23"
+weight = 668
 [extra]
 categories = "studynote-operating-system"
 keywords = ["Performance Tuning", "Troubleshooting", "USE Method", "Profiling", "Kernel Parameters"]
@@ -12,7 +12,7 @@ keywords = ["Performance Tuning", "Troubleshooting", "USE Method", "Profiling", 
 > 효과적인 트러블슈팅을 위해서는 USE(Utilization, Saturation, Errors) 메서드와 같은 체계적인 분석 프레임워크와 실시간 프로파일링 도구 활용 역량이 필수적이다.
 > 단순히 하드웨어 스펙을 높이는 '스케일 업(Scale-up)' 이전에, 커널 수준의 스케줄링, 메모리 할당 방식, I/O 스택 최적화를 통한 소프트웨어적 효율성 확보가 기술적 완성도의 핵심이다.
 
----
++++
 
 ### Ⅰ. 시스템 성능 분석 프레임워크: USE 메서드
 
@@ -25,7 +25,7 @@ keywords = ["Performance Tuning", "Troubleshooting", "USE Method", "Profiling", 
 
 📢 섹션 요약 비유: 성능 분석은 '정기 건강검진'과 같아서, 몸의 각 장기가 얼마나 열심히 일하는지(활용률), 대기 환자가 얼마나 많은지(포화도), 아픈 곳은 없는지(에러)를 종합적으로 판단하는 과정입니다.
 
----
++++
 
 ### Ⅱ. OS 계층별 튜닝 포인트 및 도구 맵
 
@@ -53,7 +53,7 @@ keywords = ["Performance Tuning", "Troubleshooting", "USE Method", "Profiling", 
 
 📢 섹션 요약 비유: 성능 튜닝 도구는 '의사의 청진기와 엑스레이'와 같아서, 겉으로 보이지 않는 시스템 내부의 흐름을 숫자로 정확히 짚어내게 도와줍니다.
 
----
++++
 
 ### Ⅲ. 주요 커널 파라미터(Kernel Parameters) 최적화
 
@@ -68,7 +68,7 @@ keywords = ["Performance Tuning", "Troubleshooting", "USE Method", "Profiling", 
 
 📢 섹션 요약 비유: 커널 파라미터는 '자동차의 정밀 세팅'과 같아서, 경주로 상황(워크로드)에 맞춰 공기압이나 서스펜션(파라미터)을 미세하게 조절하여 최고 속도를 내는 것과 같습니다.
 
----
++++
 
 ### Ⅳ. 트러블슈팅 단계별 접근 전략(5-Step)
 
@@ -85,7 +85,7 @@ keywords = ["Performance Tuning", "Troubleshooting", "USE Method", "Profiling", 
 
 📢 섹션 요약 비유: 트러블슈팅은 '명탐정의 수사 과정'과 같아서, 현장의 단서(로그)를 모으고 범인(병목 지점)을 추론하여 증거를 잡는 치밀한 논리 싸움입니다.
 
----
++++
 
 ### Ⅴ. 차세대 자가 치유(Self-Healing) OS 기술
 
@@ -98,7 +98,7 @@ keywords = ["Performance Tuning", "Troubleshooting", "USE Method", "Profiling", 
 
 📢 섹션 요약 비유: 자가 치유 OS는 '자동 조종 장치가 달린 비행기'와 같아서, 기류가 불안정해지면 스스로 균형을 잡고 고장 난 부분을 자동으로 우회하는 똑똑한 시스템입니다.
 
----
++++
 
 ### 💡 지식 그래프(Knowledge Graph)
 - **부모 노드**: 운영체제 운영 관리(OS Operation Management)

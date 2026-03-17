@@ -1,8 +1,10 @@
 +++
-weight = 504
 title = "504. 캐시 웨이 예측 (Cache Way Prediction)"
+date = "2026-03-14"
+weight = 504
 [extra]
 category = "studynote-computer-architecture"
+date = "2026-03-14"
 +++
 
 # Cache Way Prediction
@@ -11,7 +13,7 @@ category = "studynote-computer-architecture"
 > 2. **가치**: 캐시 참조 시 발생하는 동적 전력(Dynamic Power)을 획기적으로 절감하며, 예측 성공 시 직접 매핑 캐시(Direct Mapped) 수준의 빠른 접근 속도를 제공하여 전력 대비 성능(Perf/Watt)을 극대화한다.
 > 3. **융합**: 멀티레벨 캐시 계층, 저전력 모바일 프로세서 설계, 그리고 웨이 트래킹 (Way Tracking) 알고리즘과 융합되어 현대 SoC (System on Chip)의 핵심 저전력 기술로 활용된다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -26,7 +28,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 모든 방의 불을 다 켜서 사람을 찾는 대신, 있을 법한 방 한 곳의 불만 먼저 켜보는 영리한 에너지 절약법입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -42,7 +44,7 @@ category = "studynote-computer-architecture"
 | **Fallback Logic** | 예측 실패 시 전체 검색 수행 | 예측 실패 시 나머지 모든 웨이를 활성화하여 재검색 | Serial/Parallel Search | 다른 서랍 다 뒤지기 |
 | **Update Logic** | 예측 이력 갱신 | 최종적으로 데이터가 발견된 Way 번호로 테이블 업데이트 | Feedback Loop | 습관 교정 |
 
----
++++
 
 ### 웨이 예측 기반 캐시 접근 흐름
 
@@ -75,7 +77,7 @@ category = "studynote-computer-architecture"
 
 **[다이어그램 해설]** CPU가 주소를 요청하면, 먼저 웨이 예측기 테이블을 참조하여 가장 유력한 웨이 번호(예: #2)를 알아낸다. 이때 캐시 컨트롤러는 8개의 웨이 중 오직 Way 2의 데이터 뱅크와 태그 메모리만 활성화한다. 여기서 태그 매치가 성공하면, 다른 7개의 웨이는 전기가 전혀 흐르지 않은 상태로 데이터를 얻게 되어 전력 소모를 87.5%(8개 중 7개 차단) 절감할 수 있다. 만약 태그가 틀렸다면(Way Miss), 그때 비로소 나머지 모든 웨이를 깨워서 다시 검색한다. 이 경우 처음부터 다 찾았을 때보다 1~2클럭 정도 더 느려지는 페널티가 발생하지만, 일반적인 프로그램은 데이터 지역성 덕분에 예측 성공률이 90%를 상회하므로 평균적으로는 큰 이득을 본다.
 
----
++++
 
 ### 심층 동작 원리: 예측 알고리즘
 
@@ -85,7 +87,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: "늘 쓰던 곳에 있겠지"라는 믿음(MRU)을 바탕으로 행동하고, 만약 틀리면 "아 맞다, 저번에 옮겨놨지" 하며 다시 찾는 과정과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -102,7 +104,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 한꺼번에 다 열어보기(병렬)와 하나씩 순서대로 열어보기(순차)의 장점만 합쳐서 "찍어서 열어보기"를 하는 것입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -117,7 +119,7 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 찍어서 맞출 확률(성능)이 높은지, 찍어서 틀렸을 때 혼나는 대가(페널티)를 감당할 수 있는지 따져봐야 합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -134,15 +136,15 @@ category = "studynote-computer-architecture"
 
 - **📢 섹션 요약 비유**: 단순히 과거를 기억하는 수준을 넘어, 앞으로 무엇을 쓸지 미리 내다보는 인공지능 비서가 캐시를 관리하는 시대가 올 것입니다.
 
----
++++
 
 ## 📌 관련 개념 맵
-- **[집합 연관 캐시 (Set-Associative Cache)](./6_memory_hierarchy_cache/xx_set_associative.md)**: 웨이 예측이 적용되는 근본적인 캐시 구조.
-- **[태그 비교 (Tag Comparison)](./6_memory_hierarchy_cache/xx_tag_comparison.md)**: 데이터가 일치하는지 확인하는 물리적 과정.
-- **[데이터 지역성 (Data Locality)](./500_von_neumann_bottleneck_mitigation.md)**: 웨이 예측이 성공할 수 있는 수학적 근거.
-- **[은행 분할 (Banking)](./xx_banking.md)**: 특정 웨이만 켜고 끌 수 있게 하는 하드웨어 분할 기술.
+- **집합 연관 캐시 (Set-Associative Cache)**: 웨이 예측이 적용되는 근본적인 캐시 구조.
+- **태그 비교 (Tag Comparison)**: 데이터가 일치하는지 확인하는 물리적 과정.
+- **데이터 지역성 (Data Locality)**: 웨이 예측이 성공할 수 있는 수학적 근거.
+- **은행 분할 (Banking)**: 특정 웨이만 켜고 끌 수 있게 하는 하드웨어 분할 기술.
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. 캐시 웨이 예측은 **'정답을 미리 찍어보는 것'**이에요.

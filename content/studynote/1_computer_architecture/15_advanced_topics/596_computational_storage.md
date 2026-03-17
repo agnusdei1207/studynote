@@ -1,5 +1,6 @@
 +++
 title = "596. 컴퓨테이셔널 스토리지 (Computational Storage)"
+date = "2026-03-14"
 weight = 596
 +++
 
@@ -141,10 +142,10 @@ SNIA에서는 컴퓨테이셔널 스토리지를 세 가지 형태 (CSD, CSP, CS
 ---
 
 ### 📌 관련 개념 맵
-- [스마트 SSD (Smart SSD)](./595_smart_ssd.md): 컴퓨테이셔널 스토리지의 대표적인 구현체
-- [NVMe-oF (NVMe over Fabrics)](../3_network/xx_nvme_of.md): 네트워크를 통한 스토리지 연산 오프로딩 표준
-- [FPGA (Field Programmable Gate Array)](./606_fpga_dynamic_reconfiguration.md): 스토리지 내 연산을 담당하는 핵심 가소성 칩
-- [데이터 중심 컴퓨팅 (Data-Centric Computing)](../1_computer_architecture/xx_data_centric.md): 아키텍처적 지향점
+- 스마트 SSD (Smart SSD): 컴퓨테이셔널 스토리지의 대표적인 구현체
+- NVMe-oF (NVMe over Fabrics): 네트워크를 통한 스토리지 연산 오프로딩 표준
+- FPGA (Field Programmable Gate Array): 스토리지 내 연산을 담당하는 핵심 가소성 칩
+- 데이터 중심 컴퓨팅 (Data-Centric Computing): 아키텍처적 지향점
 
 ---
 

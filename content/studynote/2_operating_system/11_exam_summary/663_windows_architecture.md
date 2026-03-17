@@ -1,7 +1,7 @@
 +++
-weight = 663
 title = "663. 윈도우(Windows) 아키텍처 핵심 요약"
 date = "2024-05-23"
+weight = 663
 [extra]
 categories = "studynote-operating-system"
 keywords = ["Windows Architecture", "Hybrid Kernel", "HAL", "Executive Services", "Win32 Subsystem"]
@@ -12,7 +12,7 @@ keywords = ["Windows Architecture", "Hybrid Kernel", "HAL", "Executive Services"
 > 사용자 모드(User Mode)와 커널 모드(Kernel Mode)의 엄격한 분리를 유지하면서도, 시스템 서비스 간의 효율적인 통신을 위해 LPC(Local Procedure Call)와 객체 관리자(Object Manager)를 핵심 메커니즘으로 활용한다.
 > 특히 하드웨어 추상화 계층인 HAL(Hardware Abstraction Layer)을 통해 다양한 하드웨어 플랫폼에서도 일관된 OS 인터페이스를 제공하는 이식성이 윈도우 생태계의 기반이 된다.
 
----
++++
 
 ### Ⅰ. 윈도우 아키텍처의 기본 구조 및 설계 원칙
 
@@ -25,7 +25,7 @@ keywords = ["Windows Architecture", "Hybrid Kernel", "HAL", "Executive Services"
 
 📢 섹션 요약 비유: 윈도우 아키텍처는 '거대한 백화점'과 같아서, 손님(사용자)이 이용하는 매장과 직원(커널)만 출입 가능한 창고가 엄격히 구분되어 관리되는 것과 같습니다.
 
----
++++
 
 ### Ⅱ. 윈도우 시스템 구성 요소 맵(Component Map)
 
@@ -62,7 +62,7 @@ keywords = ["Windows Architecture", "Hybrid Kernel", "HAL", "Executive Services"
 
 📢 섹션 요약 비유: HAL은 '유니버설 어댑터'와 같아서, 어떤 모양의 하드웨어 콘센트(CPU, 보드)가 오더라도 운영체제라는 가전제품이 정상 작동할 수 있게 변환해주는 역할을 합니다.
 
----
++++
 
 ### Ⅲ. 윈도우 익제큐티브(Executive) 및 핵심 관리자
 
@@ -75,7 +75,7 @@ keywords = ["Windows Architecture", "Hybrid Kernel", "HAL", "Executive Services"
 
 📢 섹션 요약 비유: 윈도우 익제큐티브는 '호텔의 각 부서 부장님들'과 같아서, 객실 관리(객체), 식재료 관리(메모리), 물류 배송(I/O) 등을 전문적으로 처리하는 팀입니다.
 
----
++++
 
 ### Ⅳ. 서브시스템 및 Win32 API 환경
 
@@ -88,7 +88,7 @@ keywords = ["Windows Architecture", "Hybrid Kernel", "HAL", "Executive Services"
 
 📢 섹션 요약 비유: Win32 서브시스템은 '백화점의 고객 서비스 데스크'와 같아서, 손님이 요청하는 각종 편의 기능을 친절하게 안내하고 커널에게 전달하는 창구 역할을 합니다.
 
----
++++
 
 ### Ⅴ. 윈도우 보안 모델 및 프로세스 격리
 
@@ -101,7 +101,7 @@ keywords = ["Windows Architecture", "Hybrid Kernel", "HAL", "Executive Services"
 
 📢 섹션 요약 비유: 윈도우 보안은 '건물의 출입 통제 시스템'과 같아서, 신분증(SID)에 따라 들어갈 수 있는 방을 정해주고 위험한 행동을 할 때는 경비원(UAC)이 다시 한번 확인하는 것과 같습니다.
 
----
++++
 
 ### 💡 지식 그래프(Knowledge Graph)
 - **부모 노드**: 상용 운영체제(Commercial OS)

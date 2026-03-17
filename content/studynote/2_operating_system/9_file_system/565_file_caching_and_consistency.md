@@ -1,6 +1,7 @@
 +++
-weight = 565
 title = "565. 파일 캐싱 및 일관성 문제 - Write-through vs Write-back"
+date = "2026-03-14"
+weight = 565
 +++
 
 # 565. 파일 캐싱 및 일관성 문제 - Write-through vs Write-back

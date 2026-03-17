@@ -1,7 +1,7 @@
 +++
-weight = 651
 title = "651. OS 핵심 메커니즘 통합 다이어그램"
 date = "2024-05-23"
+weight = 651
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "OS Core", "Integrated Diagram", "Kernel", "User Mode", "Hardware"]
@@ -12,7 +12,7 @@ keywords = ["운영체제", "OS Core", "Integrated Diagram", "Kernel", "User Mod
 > 커널(Kernel)을 중심으로 시스템 콜(System Call), 인터럽트(Interrupt), 스케줄링(Scheduling), 메모리 관리(Memory Management)가 맞물려 돌아가는 통합적인 이해가 필수적이다.
 > 각 구성 요소의 상호작용을 파악하는 것은 개별 알고리즘을 넘어서는 시스템 전체의 성능 최적화와 안정성 확보의 근간이 된다.
 
----
++++
 
 ### Ⅰ. 운영체제 계층 구조와 인터페이스
 
@@ -25,7 +25,7 @@ keywords = ["운영체제", "OS Core", "Integrated Diagram", "Kernel", "User Mod
 
 📢 섹션 요약 비유: 운영체제 계층 구조는 '손님(User)', '지배인(Kernel)', '주방 및 창고(Hardware)'로 나뉜 레스토랑의 운영 체계와 같습니다.
 
----
++++
 
 ### Ⅱ. OS 핵심 메커니즘 통합 아키텍처
 
@@ -67,7 +67,7 @@ keywords = ["운영체제", "OS Core", "Integrated Diagram", "Kernel", "User Mod
 
 📢 섹션 요약 비유: 통합 다이어그램은 건물의 '설계도'와 같아서, 전선(Interrupt)이 어디로 연결되고 수도관(System Call)이 어떻게 흐르는지 한눈에 보여주는 지도입니다.
 
----
++++
 
 ### Ⅲ. 프로세스 및 메모리 관리의 연계성
 
@@ -80,7 +80,7 @@ keywords = ["운영체제", "OS Core", "Integrated Diagram", "Kernel", "User Mod
 
 📢 섹션 요약 비유: 각 요리사에게 독립적인 조리대(Virtual Memory)를 주고, 실제 재료 창고(Physical Memory)는 지배인이 효율적으로 관리하여 좁은 공간에서도 여러 요리를 동시에 할 수 있게 하는 것과 같습니다.
 
----
++++
 
 ### Ⅳ. 입출력(I/O) 및 파일 시스템 메커니즘
 
@@ -93,7 +93,7 @@ keywords = ["운영체제", "OS Core", "Integrated Diagram", "Kernel", "User Mod
 
 📢 섹션 요약 비유: 어떤 종류의 식재료 박스(File System)든 동일한 칼(API)로 손질할 수 있게 하고, 자주 쓰는 재료는 미리 조리대 근처(Cache)에 가져다 두는 전략입니다.
 
----
++++
 
 ### Ⅴ. 보안 및 보호 메커니즘(Security & Protection)
 
@@ -106,7 +106,7 @@ keywords = ["운영체제", "OS Core", "Integrated Diagram", "Kernel", "User Mod
 
 📢 섹션 요약 비유: 일반 손님은 주방(Kernel)에 들어올 수 없고, 반드시 웨이터(System Call)를 통해서만 주문할 수 있게 하여 주방의 안전과 위생을 지키는 보안 체계입니다.
 
----
++++
 
 ### 💡 지식 그래프(Knowledge Graph)
 - **부모 노드**: 컴퓨터 시스템 구조(Computer System Architecture)

@@ -1,5 +1,6 @@
 +++
 title = "Broadcast - 브로드캐스트"
+date = "2026-03-14"
 weight = 952
 +++
 
@@ -112,6 +113,6 @@ Broadcast는 하나의 송신자에서 네트워크 전체로 전달합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Unicast](./951_unicast.md)
-- [Multicast](./953_multicast.md)
-- [ARP](./887_arp.md)
+- Unicast
+- Multicast
+- ARP

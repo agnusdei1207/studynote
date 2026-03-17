@@ -1,5 +1,6 @@
 +++
 title = "smartshift"
+date = "2026-03-14"
 weight = 732
 +++
 
@@ -323,10 +324,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [AMD 프리시전 부스트](./731_amd_precision_boost.md) - AMD 부스트 기술
-- [인텔 터보부스트](./730_intel_turbo_boost.md) - Intel 부스트
-- [PL1, PL2](./734_pl1_pl2.md) - 전력 제한
-- [AMD Cool'n'Quiet](./729_amd_coolnquiet.md) - AMD 절전
+- AMD 프리시전 부스트 - AMD 부스트 기술
+- 인텔 터보부스트 - Intel 부스트
+- PL1, PL2 - 전력 제한
+- AMD Cool'n'Quiet - AMD 절전
 
 ---
 

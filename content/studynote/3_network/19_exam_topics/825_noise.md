@@ -1,5 +1,6 @@
 +++
 title = "Noise - 잡음"
+date = "2026-03-14"
 weight = 825
 +++
 
@@ -104,6 +105,6 @@ Noise는 원하지 않는 신호 간섭입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Signal](./823_signal.md)
-- [SNR](./xxx_snr.md)
-- [Interference](./xxx_interference.md)
+- Signal
+- SNR
+- Interference

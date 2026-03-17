@@ -1,6 +1,7 @@
 +++
-weight = 90
 title = "90. 배정밀도 (Double Precision, FP64)"
+date = "2026-03-14"
+weight = 90
 +++
 
 # 배정밀도 (Double Precision, FP64)

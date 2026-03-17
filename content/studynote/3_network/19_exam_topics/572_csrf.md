@@ -1,5 +1,6 @@
 +++
 title = "CSRF (Cross-Site Request Forgery) - 크로스 사이트 요청 위조"
+date = "2026-03-14"
 weight = 572
 +++
 
@@ -94,6 +95,6 @@ CSRF는 사용자가 의도하지 않은 요청을 전송합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [XSS](./570_xss.md)
-- [OWASP](./568_owasp.md)
-- [Cookie](./573_cookie.md)
+- XSS
+- OWASP
+- Cookie

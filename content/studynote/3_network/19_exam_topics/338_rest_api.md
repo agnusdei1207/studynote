@@ -1,5 +1,6 @@
 +++
 title = "REST API - 웹 API 설계"
+date = "2026-03-14"
 weight = 338
 +++
 
@@ -148,10 +149,10 @@ REST API는 HTTP 프로토콜 기반의 웹 API 설계 아키텍처입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [GraphQL](./336_graphql.md)
-- [gRPC](./337_grpc.md)
-- [HTTP](./253_http.md)
-- [OAuth](./9_security/170_oauth.md)
+- GraphQL
+- gRPC
+- HTTP
+- OAuth
 
 ---
 

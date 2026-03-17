@@ -1,5 +1,6 @@
 +++
 title = "cpu downclocking"
+date = "2026-03-14"
 weight = 719
 +++
 
@@ -395,10 +396,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [PROCHOT#](./720_prochot.md) - 프로세서 핫 시그널
-- [P-States](./723_pstates.md) - 성능 상태
-- [T-States](./724_tstates.md) - 스로틀 상태
-- [Hardware Health Monitoring](./715_hardware_health_monitoring.md) - 하드웨어 헬스
+- PROCHOT# - 프로세서 핫 시그널
+- P-States - 성능 상태
+- T-States - 스로틀 상태
+- Hardware Health Monitoring - 하드웨어 헬스
 
 ---
 

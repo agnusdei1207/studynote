@@ -1,5 +1,6 @@
 +++
 title = "Message Queue - 메시지 큐"
+date = "2026-03-14"
 weight = 623
 +++
 
@@ -98,6 +99,6 @@ Message Queue는 비동기 메시지 전달을 제공합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Microservices](./617_microservices.md)
-- [Redis](./621_redis.md)
-- [Event Driven](./624_event_driven.md)
+- Microservices
+- Redis
+- Event Driven

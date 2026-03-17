@@ -1,6 +1,7 @@
 +++
-weight = 582
 title = "582. 보안 위협 (Security Threats) - Trojan, Trap Door, Logic Bomb, Stack Overflow"
+date = "2026-03-14"
+weight = 582
 +++
 
 # 582. 보안 위협 (Security Threats) - Trojan, Trap Door, Logic Bomb, Stack Overflow

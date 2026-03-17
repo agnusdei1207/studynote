@@ -1,11 +1,11 @@
----
-title: "629. 오류 부재의 궤변 요구사항 미달"
-date: 2026-03-15
-draft: false
-weight: 629
-categories: ["Software Engineering"]
-tags: ["Testing", "Error Absence Fallacy", "Requirements Validation", "Quality Assurance", "V&V"]
----
++++
+title = "629. 오류 부재의 궤변 요구사항 미달"
+date = "2026-03-15"
+weight = 629
+[extra]
+categories = ["Software Engineering"]
+tags = ["Testing", "Error Absence Fallacy", "Requirements Validation", "Quality Assurance", "V&V"]
++++
 
 # 오류 부재의 궤변 요구사항 미달
 
@@ -818,10 +818,10 @@ graph LR
 ```
 
 ### 연관 문서
-- [테스트 더블](./625_test_double_mock_stub.md) - 테스트 기법
-- [회귀 테스트](./627_regression_test_coverage.md) - 커버리지 측정
-- [V-모델](./626_v_model_testing.md) - 검증 실증 매핑
-- [동등 분할](./630_equivalence_partitioning.md) - 테스트 설계
+- 테스트 더블 - 테스트 기법
+- 회귀 테스트 - 커버리지 측정
+- V-모델 - 검증 실증 매핑
+- 동등 분할 - 테스트 설계
 
 ---
 

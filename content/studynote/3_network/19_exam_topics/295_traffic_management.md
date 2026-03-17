@@ -1,5 +1,6 @@
 +++
 title = "트래픽 관리 (Traffic Management)"
+date = "2026-03-14"
 weight = 295
 +++
 
@@ -152,10 +153,10 @@ weight = 295
 ---
 
 ### 📌 관련 개념 링크**:
-- [QoS](./175_qos.md)
-- [DiffServ](./176_diffserv.md)
-- [로드밸런서](./150_loadbalancer.md)
-- [TCP 혼잡 제어](./104_tcp_congestion.md)
+- QoS
+- DiffServ
+- 로드밸런서
+- TCP 혼잡 제어
 
 ---
 

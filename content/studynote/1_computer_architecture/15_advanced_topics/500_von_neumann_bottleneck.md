@@ -1,8 +1,8 @@
----
-title: "500. 폰 노이만 병목 (Von Neumann Bottleneck)"
-description: "폰 노이만 아키텍처의 구조적 한계와 이를 극복하기 위한 고성능 컴퓨팅 아키텍처의 진화 과정을 심층 분석합니다."
-weight: 500
----
++++
+title = "500. 폰 노이만 병목 (Von Neumann Bottleneck)"
+date = "2026-03-14"
+weight = 500
++++
 
 # 500. 폰 노이만 병목 (Von Neumann Bottleneck)
 

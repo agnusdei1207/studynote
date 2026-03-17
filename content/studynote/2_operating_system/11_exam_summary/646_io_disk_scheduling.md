@@ -1,7 +1,7 @@
 +++
-weight = 646
 title = "646. 운영체제 핵심 요약 - 입출력 및 디스크 스케줄링"
 date = "2024-05-23"
+weight = 646
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "입출력 시스템", "I/O System", "Disk Scheduling", "DMA", "Interrupt", "RAID"]
@@ -12,7 +12,7 @@ keywords = ["운영체제", "입출력 시스템", "I/O System", "Disk Schedulin
 > CPU와 I/O 장치 간의 속도 차이를 극복하기 위해 버퍼링(Buffering), 캐싱(Caching), 스풀링(Spooling) 기법이 사용되며, DMA(Direct Memory Access)를 통해 CPU의 부하를 최소화한다.
 > 특히 보조기억장치인 디스크 I/O 성능 최적화를 위한 디스크 스케줄링(Disk Scheduling) 알고리즘과 데이터 신뢰성 확보를 위한 RAID 기술이 기술적 핵심을 이룬다.
 
----
++++
 
 ### Ⅰ. 입출력 하드웨어와 제어 방식
 
@@ -26,7 +26,7 @@ keywords = ["운영체제", "입출력 시스템", "I/O System", "Disk Schedulin
 
 📢 섹션 요약 비유: 요리사가 음식이 다 됐는지 계속 확인하는 것이 폴링, 벨이 울리면 나가는 것이 인터럽트, 보조 요리사가 재료를 냉장고에서 꺼내 손질해두는 것이 DMA입니다.
 
----
++++
 
 ### Ⅱ. 디스크 스케줄링(Disk Scheduling) 알고리즘
 
@@ -51,7 +51,7 @@ keywords = ["운영체제", "입출력 시스템", "I/O System", "Disk Schedulin
 
 📢 섹션 요약 비유: 엘리베이터가 층마다 멈추며 승객을 태우듯, 디스크 헤드가 트랙을 따라 움직이며 데이터를 읽는 효율적인 동선 설계입니다.
 
----
++++
 
 ### Ⅲ. RAID(Redundant Array of Independent Disks) 기술
 
@@ -66,7 +66,7 @@ keywords = ["운영체제", "입출력 시스템", "I/O System", "Disk Schedulin
 
 📢 섹션 요약 비유: 중요한 서류를 한 곳에 두지 않고 여러 복사본을 만들거나(Mirroring), 나누어 보관하여(Stripping) 유실을 막는 안전 금고 시스템입니다.
 
----
++++
 
 ### Ⅳ. I/O 성능 향상 기법 (Buffering & Caching)
 
@@ -82,7 +82,7 @@ keywords = ["운영체제", "입출력 시스템", "I/O System", "Disk Schedulin
 
 📢 섹션 요약 비유: 유튜브 영상을 미리 '버퍼'에 담아 끊김 없이 보게 하거나, 자주 보는 자료는 '캐시'처럼 책상 위에 두는 효율화 전략입니다.
 
----
++++
 
 ### Ⅴ. 최신 저장 장치 기술과 트렌드
 
@@ -96,7 +96,7 @@ keywords = ["운영체제", "입출력 시스템", "I/O System", "Disk Schedulin
 
 📢 섹션 요약 비유: LP판을 돌리며 바늘을 옮기던 시대(HDD)에서, 전구 스위치를 켜듯 즉시 데이터를 얻는 시대(SSD)로의 진화입니다.
 
----
++++
 
 ### 💡 지식 그래프(Knowledge Graph)
 - **부모 노드**: 운영체제 자원 관리(Resource Management)

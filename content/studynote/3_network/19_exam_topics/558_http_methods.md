@@ -1,5 +1,6 @@
 +++
 title = "HTTP Methods - HTTP 메서드"
+date = "2026-03-14"
 weight = 558
 +++
 
@@ -99,6 +100,6 @@ HTTP Methods는 리소스에 대한 동작을 정의합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [HTTP](./556_http.md)
-- [HTTP Status Codes](./559_http_status.md)
-- [REST API](./560_rest_api.md)
+- HTTP
+- HTTP Status Codes
+- REST API

@@ -1,5 +1,6 @@
 +++
 title = "MapReduce - 맵리듀스"
+date = "2026-03-14"
 weight = 682
 +++
 
@@ -109,6 +110,6 @@ MapReduce는 대용량 데이터를 병렬로 처리합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Hadoop](./683_hadoop.md)
-- [Spark](./684_spark.md)
-- [Big Data](./685_bigdata.md)
+- Hadoop
+- Spark
+- Big Data

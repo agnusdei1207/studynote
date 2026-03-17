@@ -1,5 +1,6 @@
 +++
 title = "오버레이 네트워크 - Overlay Network"
+date = "2026-03-14"
 weight = 447
 +++
 
@@ -147,10 +148,10 @@ weight = 447
 ---
 
 ### 📌 관련 개념 링크**:
-- [VXLAN](./322_vxlan.md)
-- [가상화](./322_virtualization.md)
-- [컨테이너 네트워킹](./444_container_networking.md)
-- [SDN](./440_sdn.md)
+- VXLAN
+- 가상화
+- 컨테이너 네트워킹
+- SDN
 
 ---
 

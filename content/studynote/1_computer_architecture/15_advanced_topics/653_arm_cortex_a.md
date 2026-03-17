@@ -1,5 +1,6 @@
 +++
 title = "653. ARM Cortex-A 시리즈 특징"
+date = "2026-03-14"
 weight = 653
 +++
 

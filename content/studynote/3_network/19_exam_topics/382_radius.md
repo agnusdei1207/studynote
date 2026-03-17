@@ -1,5 +1,6 @@
 +++
 title = "RADIUS - 원격 인증 프로토콜"
+date = "2026-03-14"
 weight = 382
 +++
 
@@ -141,10 +142,10 @@ RADIUS(Remote Authentication Dial-In User Service)는 AAA 프로토콜입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [TACACS+](./383_tacacs.md)
-- [802.1X](./9_security/142_802.1x.md)
-- [VPN](./306_vpn.md)
-- [Kerberos](./381_kerberos.md)
+- TACACS+
+- 802.1X
+- VPN
+- Kerberos
 
 ---
 

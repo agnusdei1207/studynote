@@ -1,6 +1,7 @@
 +++
-weight = 463
 title = "463. epoll / kqueue"
+date = "2026-03-14"
+weight = 463
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -112,9 +113,9 @@ title = "463. epoll / kqueue"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[I/O 멀티플렉싱 (I/O Multiplexing)](./xx_io_multiplexing.md)**: epoll과 kqueue가 속한 상위 범주.
-- **[C10K 문제 (C10K Problem)](./xx_c10k_problem.md)**: epoll이 탄생하게 된 결정적 계기.
-- **[io_uring](./464_io_uring.md)**: epoll의 성능을 뛰어넘는 리눅스의 차세대 기술.
+- **I/O 멀티플렉싱 (I/O Multiplexing)**: epoll과 kqueue가 속한 상위 범주.
+- **C10K 문제 (C10K Problem)**: epoll이 탄생하게 된 결정적 계기.
+- **io_uring**: epoll의 성능을 뛰어넘는 리눅스의 차세대 기술.
 
 ---
 

@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: OAuth Misconfiguration 🥉 Bronze"
-description = "LUXORA 플랫폼의 OAuth 2.0 구현 결함(Redirect URI 검증 누락)을 이용한 Authorization Code 탈취 시나리오"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "OAuth", "Bronze", "Redirect URI", "Write-up"]

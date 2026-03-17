@@ -1,6 +1,7 @@
 +++
-weight = 396
 title = "396. 변경 비트 (Modify Bit / Dirty Bit)"
+date = "2026-03-14"
+weight = 396
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -111,4 +112,3 @@ graph TD
     MB -- Optimization --> WB[Write-back to Disk]
     WB -- Avoided if --> CL[Clean Page / Bit 0]
     MB -- Efficiency --> IO[Reduce Disk I/O]
-```

@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Host Header Injection 🥈 Silver"
-description = "LUXORA 플랫폼의 Silver 난이도 Host Header Injection 공략 - 다중 Host 헤더와 X-Forwarded-Host를 이용한 WAF 우회 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Host Header", "Silver", "X-Forwarded-Host", "WAF Bypass", "Write-up"]

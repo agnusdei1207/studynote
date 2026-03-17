@@ -1,5 +1,6 @@
 +++
 title = "W-CDMA (Wideband CDMA) / HSPA"
+date = "2026-03-14"
 weight = 120
 +++
 
@@ -148,10 +149,10 @@ W-CDMA(Wideband CDMA)는 3GPP가 정의한 3세대 이동통신 표준으로, 5M
 ---
 
 ### 📌 관련 개념 링크**:
-- [CDMA2000 EV-DO](./119_cdma2000.md)
-- [CDMA](./90_cdma.md)
-- [LTE](./210_lte.md)
-- [GSM](./201_gsm.md)
+- CDMA2000 EV-DO
+- CDMA
+- LTE
+- GSM
 
 ---
 

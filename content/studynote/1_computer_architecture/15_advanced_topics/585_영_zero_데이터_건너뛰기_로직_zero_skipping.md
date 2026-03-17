@@ -1,5 +1,6 @@
 +++
 title = "585. 영(Zero) 데이터 건너뛰기 로직 (Zero-skipping)"
+date = "2026-03-14"
 weight = 585
 +++
 

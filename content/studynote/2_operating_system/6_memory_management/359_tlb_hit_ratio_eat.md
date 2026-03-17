@@ -1,7 +1,7 @@
 +++
-weight = 359
 title = "359. TLB 적중률 (Hit Ratio) / 실질 메모리 접근 시간 (EAT)"
 date = "2024-05-23"
+weight = 359
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "TLB 적중률", "Hit Ratio", "EAT", "Effective Access Time", "성능 수식", "메모리 지연"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "TLB 적중률", "Hit Ratio", "EAT", "Effective Acce
 > 2. **성능 공식**: EAT는 적중 시의 소요 시간(Hit Time)과 미스 시의 소요 시간(Miss Penalty)을 적중률로 가중 평균하여 구하며, 적중률이 1%만 변해도 시스템 성능에 막대한 영향을 미친다.
 > 3. **가치**: 이 지표들은 운영체제가 페이징 시스템을 설계할 때 하드웨어 비용과 소프트웨어 효율 사이의 최적점을 찾는 정량적 근거가 된다.
 
----
++++
 
 ## Ⅰ. TLB 적중률 (Hit Ratio)의 정의
 
@@ -27,7 +27,7 @@ keywords = ["운영체제", "TLB 적중률", "Hit Ratio", "EAT", "Effective Acce
 
 - **📢 섹션 요약 비유**: "시험 문제 중 내가 미리 외워간 문제(적중률)가 몇 %나 되는지에 따라 시험을 다 푸는 속도가 결정되는 것과 같습니다."
 
----
++++
 
 ## Ⅱ. 실질 메모리 접근 시간 (EAT)의 계산 모델
 
@@ -54,7 +54,7 @@ EAT = (Hit Ratio * Hit Time) + (Miss Ratio * Miss Time)
 
 - **📢 섹션 요약 비유**: "지름길로 가면 10분, 돌아가면 20분인데 지름길을 80% 확률로 찾는다면, 평균적으로 도착하는 데 걸리는 시간(12분)을 구하는 것과 같습니다."
 
----
++++
 
 ## Ⅲ. 적중률 변화에 따른 성능 감도 분석
 
@@ -68,7 +68,7 @@ EAT = (Hit Ratio * Hit Time) + (Miss Ratio * Miss Time)
 
 - **📢 섹션 요약 비유**: "자주 쓰는 단어 100개만 외워도(적중률 99%) 사전을 찾는 일이 거의 없어져서 책 읽는 속도가 엄청나게 빨라지는 원리입니다."
 
----
++++
 
 ## Ⅳ. 성능 최적화 전략 (Strategy)
 
@@ -81,7 +81,7 @@ EAT = (Hit Ratio * Hit Time) + (Miss Ratio * Miss Time)
 
 - **📢 섹션 요약 비유**: "시험 시간을 줄이려면 문제를 빨리 읽는 기술(미스 패널티 감소)도 중요하지만, 애초에 문제를 많이 외워가는 것(적중률 향상)이 가장 효과적입니다."
 
----
++++
 
 ## Ⅴ. 결론 및 요약
 
@@ -93,15 +93,15 @@ EAT = (Hit Ratio * Hit Time) + (Miss Ratio * Miss Time)
 
 - **📢 섹션 요약 비유**: "결국 '평균의 승리'를 위해 드문 실수(미스)를 허용하되, 그 실수가 전체에 미치는 영향을 최소화하는 통계적 최적화의 산물입니다."
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
-- **[TLB (Translation Look-aside Buffer)](./357_tlb.md)**: $\epsilon$ 값을 결정하는 하드웨어 장치.
-- **[TLB 적중/미스](./358_tlb_hit_miss.md)**: EAT 수식의 두 가지 케이스 시나리오.
-- **[참조 국부성 (Locality)](./321_memory_hierarchy.md)**: 적중률 $\alpha$를 결정짓는 소프트웨어적 특성.
-- **[다단계 페이지 테이블](./361_multi_level_paging.md)**: 미스 발생 시의 패널티를 높이는 요인.
+- **TLB (Translation Look-aside Buffer)**: $\epsilon$ 값을 결정하는 하드웨어 장치.
+- **TLB 적중/미스**: EAT 수식의 두 가지 케이스 시나리오.
+- **참조 국부성 (Locality)**: 적중률 $\alpha$를 결정짓는 소프트웨어적 특성.
+- **다단계 페이지 테이블**: 미스 발생 시의 패널티를 높이는 요인.
 
----
++++
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. 심부름을 갈 때 물건 위치를 알고 있으면 1분, 모르면 엄마한테 물어보고 오느라 5분이 걸려요.

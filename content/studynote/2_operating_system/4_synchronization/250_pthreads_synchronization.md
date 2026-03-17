@@ -1,7 +1,7 @@
 +++
 title = "250. Pthreads 동기화"
-weight = 250
 date = "2026-03-04"
+weight = 250
 [extra]
 categories = "studynote-operating-system"
 +++
@@ -13,7 +13,7 @@ categories = "studynote-operating-system"
 > 2. **가치**: 운영체제 시스템 콜에 가장 근접한 동기화 성능을 제공하며, C/C++ 언어에서 고성능 멀티스레드 애플리케이션을 작성하기 위한 필수적인 표준이다.
 > 3. **융합**: 리눅스의 NPTL(Native POSIX Thread Library)을 통해 실제 커널의 스케줄링 메커니즘과 직접 연결되어 동작하며, 임베디드부터 HPC까지 광범위하게 사용된다.
 
----
++++
 
 ## Ⅰ. 개요 (Context & Background)
 
@@ -23,7 +23,7 @@ categories = "studynote-operating-system"
 
 - **📢 섹션 요약 비유**: 마치 거대한 오케스트라의 각 악기 연주자들이 지휘자의 사인(Pthreads API)에 맞춰 정확한 박자에 연주를 시작하고 멈추는 정교한 협연과 같습니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -62,7 +62,7 @@ pthread_mutex_unlock(&lock);
 
 - **📢 섹션 요약 비유**: 배리어는 마라톤 출발선에서 모든 선수가 도착할 때까지 기다렸다가 총성을 울리는 것과 같고, 뮤텍스는 화장실의 단 하나뿐인 잠금장치와 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -77,7 +77,7 @@ pthread_mutex_unlock(&lock);
 
 - **📢 섹션 요약 비유**: Mutex는 "안전 가옥"이고, Spinlock은 "출발 대기 중인 레이싱카"이며, Barrier는 "단체 사진을 찍기 위해 모두 모이는 장소"입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -91,7 +91,7 @@ pthread_mutex_unlock(&lock);
 
 - **📢 섹션 요약 비유**: 정밀한 공구일수록 다루는 사람의 숙련도가 중요하듯, Pthreads는 세밀한 설정(Attribute) 하나가 시스템의 명운을 결정합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 

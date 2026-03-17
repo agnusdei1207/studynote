@@ -1,5 +1,6 @@
 +++
 title = "API Gateway - API 게이트웨이"
+date = "2026-03-14"
 weight = 266
 +++
 
@@ -153,10 +154,10 @@ API Gateway는 마이크로서비스 아키텍처에서 모든 API 요청의 진
 ---
 
 ### 📌 관련 개념 링크**:
-- [Kong](./268_kong.md)
-- [Ingress Controller](./267_ingress_controller.md)
-- [Service Mesh](./263_service_mesh.md)
-- [마이크로서비스](./4_software_engineering/150_microservices.md)
+- Kong
+- Ingress Controller
+- Service Mesh
+- 마이크로서비스
 
 ---
 

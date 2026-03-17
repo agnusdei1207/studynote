@@ -1,5 +1,6 @@
 +++
 title = "Virtual IP - 가상 IP"
+date = "2026-03-14"
 weight = 990
 +++
 
@@ -112,6 +113,6 @@ Virtual IP는 물리적 인터페이스에 종속되지 않는 IP입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [HA](./918_high_availability.md)
-- [Failover](./917_failover.md)
-- [Load Balancer](./832_load_balancer.md)
+- HA
+- Failover
+- Load Balancer

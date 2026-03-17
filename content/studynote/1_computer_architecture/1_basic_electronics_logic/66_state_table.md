@@ -1,6 +1,7 @@
 +++
-weight = 66
 title = "66. 상태표 (State Table)"
+date = "2026-03-14"
+weight = 66
 +++
 
 # # [상태표 (State Table)]

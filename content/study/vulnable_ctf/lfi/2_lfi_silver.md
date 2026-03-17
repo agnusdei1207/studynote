@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: LFI 🥈 Silver"
-description = "LUXORA 플랫폼의 Silver 난이도 LFI 공략 - 널 바이트(Null Byte) 및 래퍼(Wrapper)를 이용한 확장자 필터 우회 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "LFI", "Silver", "PHP Wrappers", "Write-up"]

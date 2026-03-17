@@ -1,6 +1,7 @@
 +++
-weight = 21
 title = "21. 인터럽트 핸들러 (Interrupt Handler)"
+date = "2026-03-14"
+weight = 21
 +++
 
 # 인터럽트 핸들러 (Interrupt Handler)
@@ -118,10 +119,10 @@ title = "21. 인터럽트 핸들러 (Interrupt Handler)"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[인터럽트 서비스 루틴 (ISR)](./20_isr.md)**: 핸들러의 실제 실행 코드 부분.
-- **[상반부와 하반부 (Top/Bottom Half)](./xx_top_bottom_half.md)**: 핸들러의 아키텍처적 분리 설계 기법.
-- **[NAPI (New API)](../3_network/xx_napi.md)**: 핸들러 부하를 줄이기 위한 인터럽트-폴링 혼합 기술.
-- **[임계 영역 (Critical Section)](../4_synchronization/xx_critical_section.md)**: 핸들러 간 공유 데이터 보호 영역.
+- **인터럽트 서비스 루틴 (ISR)**: 핸들러의 실제 실행 코드 부분.
+- **상반부와 하반부 (Top/Bottom Half)**: 핸들러의 아키텍처적 분리 설계 기법.
+- **NAPI (New API)**: 핸들러 부하를 줄이기 위한 인터럽트-폴링 혼합 기술.
+- **임계 영역 (Critical Section)**: 핸들러 간 공유 데이터 보호 영역.
 
 ---
 

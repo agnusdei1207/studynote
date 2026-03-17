@@ -1,6 +1,7 @@
 +++
-weight = 624
 title = "624. 컨테이너 런타임 (Container Runtime) - Docker, containerd, CRI-O"
+date = "2026-03-14"
+weight = 624
 +++
 
 ### # 컨테이너 런타임 (Container Runtime)

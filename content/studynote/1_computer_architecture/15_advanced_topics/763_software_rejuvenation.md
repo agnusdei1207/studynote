@@ -1,5 +1,6 @@
 +++
 title = "software rejuvenation"
+date = "2026-03-14"
 weight = 763
 +++
 
@@ -137,10 +138,10 @@ weight = 763
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [무정전 운영 아키텍처](./749_nonstop_operation.md)
-- [HA 클러스터](./749_nonstop_operation.md)
-- [결함 주입 테스트](./750_fault_injection.md)
-- [하드웨어 건전성 모니터링](./715_hardware_health_monitoring.md)
+- 무정전 운영 아키텍처
+- HA 클러스터
+- 결함 주입 테스트
+- 하드웨어 건전성 모니터링
 
 ---
 

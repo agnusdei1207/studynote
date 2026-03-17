@@ -1,6 +1,7 @@
 +++
-weight = 473
 title = "473. LOOK 및 C-LOOK 스케줄링"
+date = "2026-03-14"
+weight = 473
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -111,9 +112,9 @@ title = "473. LOOK 및 C-LOOK 스케줄링"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[SCAN/C-SCAN](./471_scan_scheduling.md)**: LOOK이 최적화하고자 하는 원형 모델.
-- **[SSTF 스케줄링](./470_sstf_scheduling.md)**: LOOK보다 빠를 수 있지만 기아 현상이 있는 경쟁 모델.
-- **[탐색 시간 (Seek Time)](./467_disk_access_time.md)**: LOOK이 줄이고자 하는 핵심 물리 지표.
+- **SCAN/C-SCAN**: LOOK이 최적화하고자 하는 원형 모델.
+- **SSTF 스케줄링**: LOOK보다 빠를 수 있지만 기아 현상이 있는 경쟁 모델.
+- **탐색 시간 (Seek Time)**: LOOK이 줄이고자 하는 핵심 물리 지표.
 
 ---
 

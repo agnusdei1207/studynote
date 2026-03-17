@@ -1,6 +1,7 @@
 +++
-weight = 97
 title = "97. NaN (Not a Number)"
+date = "2026-03-14"
+weight = 97
 +++
 
 # NaN (Not a Number)

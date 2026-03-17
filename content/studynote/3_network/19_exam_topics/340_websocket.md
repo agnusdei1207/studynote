@@ -1,5 +1,6 @@
 +++
 title = "WebSocket - 실시간 통신"
+date = "2026-03-14"
 weight = 340
 +++
 
@@ -149,10 +150,10 @@ WebSocket은 단일 TCP 연결로 양방향 실시간 통신을 제공합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [HTTP](./253_http.md)
-- [SSE](./341_sse.md)
-- [실시간 웹](./342_realtime_web.md)
-- [채팅 시스템](./4_software_engineering/192_chat_system.md)
+- HTTP
+- SSE
+- 실시간 웹
+- 채팅 시스템
 
 ---
 

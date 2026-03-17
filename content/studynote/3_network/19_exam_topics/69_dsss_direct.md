@@ -1,5 +1,6 @@
 +++
 title = "DSSS (직접 수열 확산 스펙트럼)"
+date = "2026-03-14"
 weight = 69
 +++
 
@@ -144,10 +145,10 @@ DSSS(Direct Sequence Spread Spectrum)는 데이터 신호에 고속 PN(Pseudo No
 ---
 
 ### 📌 관련 개념 링크**:
-- [스펙트럼 확산 Spread Spectrum](./68_spread_spectrum.md)
-- [FHSS 주파수 도약](./70_fhss_frequency.md)
-- [CDMA 코드 분할](./90_cdma_code.md)
-- [PN 시퀀스](./205_pn_sequence.md)
+- 스펙트럼 확산 Spread Spectrum
+- FHSS 주파수 도약
+- CDMA 코드 분할
+- PN 시퀀스
 
 ---
 

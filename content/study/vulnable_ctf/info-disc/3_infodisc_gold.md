@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: Info Disclosure 🥇 Gold"
-description = "LUXORA 플랫폼의 Gold 난이도 Info Disclosure 공략 - Server Status 및 디버그 엔드포인트(Actuator/Werkzeug)를 통한 민감 정보 탈취 롸잇업"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "Info Disclosure", "Gold", "Debug Endpoints", "Spring Actuator", "Write-up"]

@@ -1,5 +1,6 @@
 +++
 title = "Process - 프로세스"
+date = "2026-03-14"
 weight = 636
 +++
 
@@ -103,6 +104,6 @@ Process는 실행 중인 프로그램 인스턴스입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Thread](./635_thread.md)
-- [Scheduling](./637_scheduling.md)
-- [Memory Management](./638_memory_management.md)
+- Thread
+- Scheduling
+- Memory Management

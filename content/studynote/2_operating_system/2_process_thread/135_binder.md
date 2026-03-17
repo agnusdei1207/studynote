@@ -1,6 +1,7 @@
 +++
-weight = 135
 title = "135. 안드로이드 바인더 (Android Binder)"
+date = "2026-03-14"
+weight = 135
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -140,10 +141,10 @@ title = "135. 안드로이드 바인더 (Android Binder)"
 ---
 
 ### 📌 관련 개념 맵
-- **[AIDL (Android Interface Definition Language)](./xx_aidl.md)**: 바인더 통신을 위한 인터페이스 정의 언어.
-- **[Ashmem (Anonymous Shared Memory)](./xx_ashmem.md)**: 바인더와 함께 대용량 데이터를 공유하기 위해 사용되는 메모리 기술.
-- **[RPC (Remote Procedure Call)](./126_rpc.md)**: 바인더가 지향하는 논리적 통신 모델.
-- **[Death Recipient](./xx_death_recipient.md)**: 프로세스 비정상 종료 시 자원 정리를 위한 바인더의 독특한 기능.
+- **AIDL (Android Interface Definition Language)**: 바인더 통신을 위한 인터페이스 정의 언어.
+- **Ashmem (Anonymous Shared Memory)**: 바인더와 함께 대용량 데이터를 공유하기 위해 사용되는 메모리 기술.
+- **RPC (Remote Procedure Call)**: 바인더가 지향하는 논리적 통신 모델.
+- **Death Recipient**: 프로세스 비정상 종료 시 자원 정리를 위한 바인더의 독특한 기능.
 
 ---
 

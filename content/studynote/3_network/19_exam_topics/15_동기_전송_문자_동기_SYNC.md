@@ -1,5 +1,6 @@
 +++
 title = "동기 전송 문자 동기 SYNC"
+date = "2026-03-14"
 weight = 15
 +++
 
@@ -138,10 +139,10 @@ weight = 15
 ---
 
 ### 📌 관련 개념 링크**:
-- [동기 비동기 전송 Sync Async](./13_동기_비동기_전송_Sync_Async.md)
-- [비동기 전송 시작 정지 비트](./14_비동기_전송_시작_정지_비트.md)
-- [HDLC 프레임 구조](./201_hdlc_frame.md)
-- [클럭 복구 Manchester 코딩](./45_manchester_encoding.md)
+- 동기 비동기 전송 Sync Async
+- 비동기 전송 시작 정지 비트
+- HDLC 프레임 구조
+- 클럭 복구 Manchester 코딩
 
 ---
 

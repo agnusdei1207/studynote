@@ -1,10 +1,9 @@
----
-title: "[ICT] #95. 모듈러 블록체인 (Modular Blockchain)"
-date: "2026-03-17"
++++
+title = "[ICT] #95. 모듈러 블록체인 (Modular Blockchain)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "ModularBlockchain_Execution_Consensus_Settlement_DataAvailability_SeparationOfConcerns_Scalability"
----
+keyword = "ModularBlockchain_Execution_Consensus_Settlement_DataAvailability_SeparationOfConcerns_Scalability"
++++
 
 # 모듈러 블록체인 (Modular Blockchain): 역할을 쪼개어 한계를 넘는 차세대 아키텍처
 
@@ -13,7 +12,7 @@ keyword: "ModularBlockchain_Execution_Consensus_Settlement_DataAvailability_Sepa
 > 2. **가치**: 모놀리식 블록체인의 고질적 문제인 '확장성 트릴레마'를 해결하기 위해, 각 레이어를 특화된 모듈로 구성함으로써 보안은 유지하면서 처리 성능(TPS)을 획기적으로 향상시킨다.
 > 3. **융합**: 레이어 2(롤업) 기술과 전용 데이터 가용성 계층(Celestia, Avail 등)이 결합된 생태계 중심 아키텍처로, 미래의 블록체인은 거대한 단일 기계가 아닌 '연결된 부품들의 집합'으로 진화하고 있다.
 
----
++++
 
 ## Ⅰ. 모듈러 블록체인 (Modular Blockchain) 개요
 
@@ -31,7 +30,7 @@ keyword: "ModularBlockchain_Execution_Consensus_Settlement_DataAvailability_Sepa
 
 📢 **섹션 요약 비유**: 복잡한 기계를 조립식 블록처럼 만들어, 고장이 나거나 성능이 부족한 부분만 최신 부품으로 갈아 끼울 수 있게 만든 '플러그 앤 플레이' 방식의 혁신입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -76,7 +75,7 @@ keyword: "ModularBlockchain_Execution_Consensus_Settlement_DataAvailability_Sepa
 
 📢 **섹션 요약 비유**: 한 명의 천재가 모든 문제를 푸는 대신, 계산은 계산기가 하고 검토는 검토관이 하며 기록은 도서관이 맡아 효율을 극대화하는 '시스템적 지성'의 구조입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -97,7 +96,7 @@ keyword: "ModularBlockchain_Execution_Consensus_Settlement_DataAvailability_Sepa
 
 📢 **섹션 요약 비유**: 모놀리식이 '튼튼한 통나무집'이라면, 모듈러는 '철골 구조 위에 조립된 고층 빌딩'과 같습니다. 기초(보안)는 단단히 고정하되, 위층(실행)은 자유롭게 늘릴 수 있기 때문입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -115,7 +114,7 @@ keyword: "ModularBlockchain_Execution_Consensus_Settlement_DataAvailability_Sepa
 
 📢 **섹션 요약 비유**: 부품이 많아지면 관리가 복잡해지듯, 모듈러 블록체인은 성능을 얻는 대신 '부품 간의 연결성(관리 포인트)'을 얼마나 매끄럽게 하느냐가 성공의 관건입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -128,13 +127,13 @@ keyword: "ModularBlockchain_Execution_Consensus_Settlement_DataAvailability_Sepa
 
 📢 **섹션 요약 비유**: 개별 건물이 모여 도시를 이루듯, 모듈러 블록체인은 파편화된 기술들을 하나로 엮어 거대한 '디지털 경제 도시'를 건설하는 청사진입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[레이어 2 (Rollup)](./40_layer_2.md)**: 모듈러 아키텍처의 실행 계층을 담당하는 핵심 기술.
-- **[데이터 가용성 (DA)](./93_data_availability.md)**: 모듈러 분리에서 가장 중요한 신뢰의 토대.
-- **[샤딩 (Sharding)](./45_sharding.md)**: 모듈러 구조 내에서 DA 계층의 성능을 높이기 위한 병렬 처리 기법.
-- **[셀레스티아 (Celestia)](./xx_celestia.md)**: 세계 최초의 전용 모듈러 블록체인 프로젝트.
+- **레이어 2 (Rollup)**: 모듈러 아키텍처의 실행 계층을 담당하는 핵심 기술.
+- **데이터 가용성 (DA)**: 모듈러 분리에서 가장 중요한 신뢰의 토대.
+- **샤딩 (Sharding)**: 모듈러 구조 내에서 DA 계층의 성능을 높이기 위한 병렬 처리 기법.
+- **셀레스티아 (Celestia)**: 세계 최초의 전용 모듈러 블록체인 프로젝트.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **역할 분담**: 혼자서 요리, 서빙, 설거지를 다 하던 요리사가 너무 힘들어서 요리사, 서빙 전문가, 설거지 전문가로 팀을 짠 것과 같아요.

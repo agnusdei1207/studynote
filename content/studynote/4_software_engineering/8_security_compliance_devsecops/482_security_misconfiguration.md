@@ -1,7 +1,7 @@
----
-title: "482. Security Misconfiguration (보안 설정 오류)"
-date: 2026-03-15
----
++++
+title = "482. Security Misconfiguration (보안 설정 오류)"
+date = "2026-03-15"
++++
 
 # 482. Security Misconfiguration (보안 설정 오류)
 
@@ -152,10 +152,10 @@ date: 2026-03-15
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[OWASP Top 10 (A05)](./477_owasp_top_10.md)**: Security Misconfiguration이 포함된 표준 리포트
-- **[IaC (Infrastructure as Code)](./xx_iac.md)**: 설정 보안을 자동화하는 핵심 기술
-- **[CSPM (Cloud Security Posture Management)](./xx_cspm.md)**: 클라우드 설정 오류를 실시간 감시하는 도구
-- **[HSTS / CSP](./xx_security_headers.md)**: 설정으로 적용하는 대표적인 브라우저 보안 헤더
+- **OWASP Top 10 (A05)**: Security Misconfiguration이 포함된 표준 리포트
+- **IaC (Infrastructure as Code)**: 설정 보안을 자동화하는 핵심 기술
+- **CSPM (Cloud Security Posture Management)**: 클라우드 설정 오류를 실시간 감시하는 도구
+- **HSTS / CSP**: 설정으로 적용하는 대표적인 브라우저 보안 헤더
 
 ---
 

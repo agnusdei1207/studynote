@@ -1,5 +1,6 @@
 +++
 title = "셀 호흡 (Cell Breathing)"
+date = "2026-03-14"
 weight = 93
 +++
 
@@ -145,10 +146,10 @@ weight = 93
 ---
 
 ### 📌 관련 개념 링크**:
-- [CDMA 코드 분할 접속](./90_cdma_code.md)
-- [Near-Far 문제](./92_near_far.md)
-- [핸드오버](./205_handover.md)
-- [간섭 관리](./205_interference.md)
+- CDMA 코드 분할 접속
+- Near-Far 문제
+- 핸드오버
+- 간섭 관리
 
 ---
 

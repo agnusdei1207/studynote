@@ -1,5 +1,6 @@
 +++
 title = "trng entropy"
+date = "2026-03-14"
 weight = 786
 +++
 
@@ -141,10 +142,10 @@ TRNG(True Random Number Generator)는 물리적 현상(열 잡음, 타이밍 지
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [링 오실레이터 TRNG](./787_ring_oscillator_trng.md)
-- [SRAM PUF](./788_sram_puf.md)
-- [보안 엔클레이브](./790_secure_enclave.md)
-- [HSM](./781_hsm.md)
+- 링 오실레이터 TRNG
+- SRAM PUF
+- 보안 엔클레이브
+- HSM
 
 ---
 

@@ -1,6 +1,7 @@
 +++
-weight = 522
 title = "522. 부트 제어 블록 (Boot Control Block)"
+date = "2026-03-14"
+weight = 522
 +++
 
 # 522. 부트 제어 블록 (Boot Control Block)

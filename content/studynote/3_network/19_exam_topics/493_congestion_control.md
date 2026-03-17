@@ -1,5 +1,6 @@
 +++
 title = "혼잡 제어 - Congestion Control"
+date = "2026-03-14"
 weight = 493
 +++
 
@@ -90,6 +91,6 @@ weight = 493
 ---
 
 ### 📌 관련 개념 링크**:
-- [TCP](./332_tcp.md)
-- [WRED](./492_wred.md)
-- [ECN](./494_ecn.md)
+- TCP
+- WRED
+- ECN

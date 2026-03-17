@@ -1,5 +1,6 @@
 +++
 title = "맨체스터 / 차분 맨체스터 (Manchester / Differential Manchester)"
+date = "2026-03-14"
 weight = 39
 +++
 
@@ -151,10 +152,10 @@ weight = 39
 ---
 
 ### 📌 관련 개념 링크**:
-- [NRZ 비복귀 부호화](./37_nrz_non_return.md)
-- [RZ 복귀 부호화](./38_rz_return.md)
-- [4B/5B Block Coding](./42_4b5b_block.md)
-- [10BASE-T 이더넷](./151_10base_t.md)
+- NRZ 비복귀 부호화
+- RZ 복귀 부호화
+- 4B/5B Block Coding
+- 10BASE-T 이더넷
 
 ---
 

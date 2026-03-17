@@ -1,7 +1,7 @@
 +++
-weight = 660
 title = "660. 운영체제 보안 및 안정성 확보를 위한 체크리스트"
 date = "2024-05-23"
+weight = 660
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "Security", "Stability", "Access Control", "Kernel Protection", "ASLR"]
@@ -12,7 +12,7 @@ keywords = ["운영체제", "Security", "Stability", "Access Control", "Kernel P
 > 하드웨어 수준의 모드 보호부터 소프트웨어 수준의 접근 제어, 메모리 오염 방지 기술이 겹겹이 쌓인 다층 방어(Defense in Depth) 구조를 형성한다.
 > 현대 OS는 날로 지능화되는 공격으로부터 시스템을 보호하기 위해 가상화(Virtualization), 샌드박싱(Sandboxing), 난수화(ASLR) 등의 첨단 기법을 적극 활용한다.
 
----
++++
 
 ### Ⅰ. 운영체제 보안의 3대 핵심 목표 (CIA Triad)
 
@@ -25,7 +25,7 @@ keywords = ["운영체제", "Security", "Stability", "Access Control", "Kernel P
 
 📢 섹션 요약 비유: 운영체제 보안은 '보물 창고(데이터)'를 지키기 위해 '자물쇠(기밀성)', 'CCTV(무결성)', '정상 영업(가용성)'을 동시에 유지하는 보안 업체와 같습니다.
 
----
++++
 
 ### Ⅱ. 하드웨어 및 커널 수준 보안 체크리스트
 
@@ -53,7 +53,7 @@ keywords = ["운영체제", "Security", "Stability", "Access Control", "Kernel P
 
 📢 섹션 요약 비유: 도둑이 집 구조를 알지 못하게 매일 가구 배치를 바꾸고(ASLR), 거실(Data Area)에서는 춤(Code Execution)을 못 추게 금지하는 규칙과 같습니다.
 
----
++++
 
 ### Ⅲ. 사용자 인증 및 접근 제어 (Access Control)
 
@@ -68,7 +68,7 @@ keywords = ["운영체제", "Security", "Stability", "Access Control", "Kernel P
 
 📢 섹션 요약 비유: 아르바이트생에게는 매장 열쇠만 주고, 금고 열쇠는 주지 않는 '역할 분담' 보안 시스템입니다.
 
----
++++
 
 ### Ⅳ. 악성코드 방어 및 시스템 안정성 확보
 
@@ -81,7 +81,7 @@ keywords = ["운영체제", "Security", "Stability", "Access Control", "Kernel P
 
 📢 섹션 요약 비유: 위험할 수 있는 실험은 특수 유리 상자(Sandbox) 안에서 진행하여 실험실 전체가 오염되지 않게 막는 것과 같습니다.
 
----
++++
 
 ### Ⅴ. 보안 감사 및 무결성 검증
 
@@ -94,7 +94,7 @@ keywords = ["운영체제", "Security", "Stability", "Access Control", "Kernel P
 
 📢 섹션 요약 비유: 출입 명부(Audit Log)를 꼼꼼히 적고, 아침에 문을 열 때 검증된 직원만 출근하게 하는 출입 보안과 같습니다.
 
----
++++
 
 ### 💡 지식 그래프(Knowledge Graph)
 - **부모 노드**: 컴퓨터 보안(Computer Security)

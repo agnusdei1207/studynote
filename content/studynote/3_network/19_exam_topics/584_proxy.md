@@ -1,5 +1,6 @@
 +++
 title = "Proxy Server - 프록시 서버"
+date = "2026-03-14"
 weight = 584
 +++
 
@@ -96,6 +97,6 @@ Proxy Server는 클라이언트와 서버 사이에서 중계합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Reverse Proxy](./583_reverse_proxy.md)
-- [Load Balancer](./582_load_balancer.md)
-- [NAT](./530_nat.md)
+- Reverse Proxy
+- Load Balancer
+- NAT

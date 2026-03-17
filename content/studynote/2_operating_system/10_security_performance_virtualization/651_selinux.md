@@ -1,7 +1,7 @@
 +++
-weight = 651
 title = "651. SELinux (Security-Enhanced Linux)"
 date = "2026-03-16"
+weight = 651
 [extra]
 categories = "studynote-operating-system"
 keywords = ["운영체제", "SELinux", "Security-Enhanced Linux", "MAC", "Type Enforcement", "보안 강화"]
@@ -14,7 +14,7 @@ keywords = ["운영체제", "SELinux", "Security-Enhanced Linux", "MAC", "Type E
 > 2. **가치**: "Root 권한을 탈취해도 시스템은 보호"되며, **제로 데이 취약점의 영향을 최소화**하고 **프로세스/파일의 최소 권한 원칙**을 강제한다.
 > 3. **융합**: Type Enforcement, Role-Based Access Control, MLS(Multi-Level Security)를 지원하며, 정책 모듈화로 유연성과 보안의 균형을 맞춘다.
 
----
++++
 
 ## Ⅰ. SELinux의 개요
 
@@ -31,7 +31,7 @@ keywords = ["운영체제", "SELinux", "Security-Enhanced Linux", "MAC", "Type E
 
 - **📢 섹션 요약 비유**: DAC는 "가족 간의 약속"이지만, SELinux는 "법률"입니다. 어떤 경우라도 지켜야 하는 강력한 규칙이죠.
 
----
++++
 
 ## Ⅱ. DAC vs MAC (Deep Dive)
 
@@ -55,7 +55,7 @@ keywords = ["운영체제", "SELinux", "Security-Enhanced Linux", "MAC", "Type E
     └─────────────────────────────────────────────────────────────────┘
 ```
 
----
++++
 
 ## Ⅲ. SELinux 아키텍처
 
@@ -107,7 +107,7 @@ user:role:type:level
 - level: MLS 레벨 (s0, s1, c0.c102)
 ```
 
----
++++
 
 ## Ⅳ. SELinux 모드
 
@@ -133,7 +133,7 @@ setenforce 0
 SELINUX=enforcing
 ```
 
----
++++
 
 ## Ⅴ. Type Enforcement
 
@@ -148,7 +148,7 @@ SELINUX=enforcing
     httpd_t  ─X cannot───▶  user_home_t     (사용자 홈)
 ```
 
----
++++
 
 ## Ⅵ. 실무 적용
 
@@ -169,7 +169,7 @@ semodule -i mymodule.pp
 - **"그냥 끄기"**: Permissive 모드 테스트 후 해결
 - **"Permissive로 운영"**: 보안 효과 없음
 
----
++++
 
 ## Ⅶ. 기대효과 및 결론
 
@@ -181,14 +181,14 @@ semodule -i mymodule.pp
 - **Container 보안**: SELinux + Docker
 - **Policy as Code**: SELinux 정책을 코드로 관리
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[접근 제어](./572_access_control.md)**: 상위 개념
-- **[보안 정책](./577_security_policies.md)**: MAC 보안 모델
-- **[컨테이너 보안](./660_virtualization_security.md)**: SELinux 활용
+- **접근 제어**: 상위 개념
+- **보안 정책**: MAC 보안 모델
+- **컨테이너 보안**: SELinux 활용
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. SELinux는 **"학교의 엄격한 교침"** 같아요.

@@ -1,6 +1,7 @@
 +++
-weight = 500
 title = "500. 이중 경로 (Multipath) I/O 페일오버 및 로드밸런싱"
+date = "2026-03-14"
+weight = 500
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -99,9 +100,9 @@ title = "500. 이중 경로 (Multipath) I/O 페일오버 및 로드밸런싱"
 ---
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[SAN (Storage Area Network)](./493_san.md)**: 멀티패스가 가장 활발히 쓰이는 물리 인프라.
-- **[LUN (Logical Unit Number)](./xx_lun_management.md)**: 멀티패스로 묶이는 대상이 되는 논리적 단위.
-- **[HBA (Host Bus Adapter)](./xx_hba_card.md)**: 멀티패스 경로의 시작점이 되는 서버 측 하드웨어.
+- **SAN (Storage Area Network)**: 멀티패스가 가장 활발히 쓰이는 물리 인프라.
+- **LUN (Logical Unit Number)**: 멀티패스로 묶이는 대상이 되는 논리적 단위.
+- **HBA (Host Bus Adapter)**: 멀티패스 경로의 시작점이 되는 서버 측 하드웨어.
 
 ---
 

@@ -1,10 +1,9 @@
----
-title: "[ICT] #60. 하이퍼레저 패브릭 아키텍처"
-date: "2026-03-17"
++++
+title = "[ICT] #60. 하이퍼레저 패브릭 아키텍처"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Hyperledger_Fabric_Architecture_Peer_Orderer_MSP_Ledger_Channel"
----
+keyword = "Hyperledger_Fabric_Architecture_Peer_Orderer_MSP_Ledger_Channel"
++++
 
 # 하이퍼레저 패브릭 아키텍처: 엔터프라이즈 신뢰를 위한 모듈러 설계
 
@@ -13,7 +12,7 @@ keyword: "Hyperledger_Fabric_Architecture_Peer_Orderer_MSP_Ledger_Channel"
 > 2. **가치**: 채널(Channel) 기반의 논리적 격리를 통해 특정 그룹 간의 비밀 거래를 보장하며, 플러그형(Pluggable) 구조로 설계되어 데이터베이스나 합의 알고리즘을 비즈니스 목적에 맞게 교체할 수 있다.
 > 3. **융합**: 분산 시스템의 가상화 기술(Docker), 통신 프로토콜(gRPC), 암호화 표준(PKI)이 집약되어 있으며, 실행-정렬-검증의 3단계 트랜잭션 흐름을 통해 데이터 정합성과 처리량을 동시에 확보한다.
 
----
++++
 
 ## Ⅰ. 하이퍼레저 패브릭 아키텍처 개요
 
@@ -31,7 +30,7 @@ keyword: "Hyperledger_Fabric_Architecture_Peer_Orderer_MSP_Ledger_Channel"
 
 📢 **섹션 요약 비유**: 한 명의 만능 엔터테이너가 모든 걸 하는 공연이 아니라, 조명, 음향, 무대, 배우가 각자 맡은 바 임무를 수행하여 완벽한 무대를 만드는 '오케스트라형 시스템'입니다.
 
----
++++
 
 ## Ⅱ. 핵심 구성 요소 및 상호작용 (Deep Dive)
 
@@ -91,7 +90,7 @@ keyword: "Hyperledger_Fabric_Architecture_Peer_Orderer_MSP_Ledger_Channel"
 
 📢 **섹션 요약 비유**: 은행에서 매일 일어난 거래 내역(Blockchain)은 창고에 차곡차곡 쌓아두고, 당장 돈을 뽑으러 온 고객에게 보여줄 현재 잔액(World State)은 컴퓨터 화면에 띄워두는 것과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -111,7 +110,7 @@ keyword: "Hyperledger_Fabric_Architecture_Peer_Orderer_MSP_Ledger_Channel"
 
 📢 **섹션 요약 비유**: 모놀리식이 모든 학생이 운동장에 모여 한 번에 체조하는 것이라면, 하이퍼레저는 각 반 교실에서 수업(채널)을 듣고 방송실(오더러)에서 전달사항을 전하는 학교 시스템과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -125,7 +124,7 @@ keyword: "Hyperledger_Fabric_Architecture_Peer_Orderer_MSP_Ledger_Channel"
 
 📢 **섹션 요약 비유**: 회의실이 아무리 좋아도 회의록을 정리하는 사람(오더러)이 한 명뿐이면 병목이 생기므로, 기록원들을 여러 명 두고 교대로 일하게 하는 '고가용성 설계'가 성공의 열쇠입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -139,13 +138,13 @@ keyword: "Hyperledger_Fabric_Architecture_Peer_Orderer_MSP_Ledger_Channel"
 
 📢 **섹션 요약 비유**: 하이퍼레저 아키텍처는 기업들이 서로를 믿지 못하는 디지털 황무지에 세워진 **'가장 정교하고 안전한 디지털 비즈니스 타워'**입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[하이퍼레저 패브릭](./57_hyperledger_fabric.md)**: 아키텍처의 모태가 되는 플랫폼.
-- **[Raft 합의 알고리즘](../../2_operating_system/xx_raft_consensus.md)**: 오더러가 사용하는 고성능 합의 방식.
-- **[체인코드 (Chaincode)](./58_chaincode.md)**: 아키텍처 위에서 실행되는 비즈니스 로직.
-- **[PKI (공개키 기반 구조)](../../9_security/xx_pki.md)**: MSP 신원 관리의 수학적 근간.
+- **하이퍼레저 패브릭**: 아키텍처의 모태가 되는 플랫폼.
+- **Raft 합의 알고리즘**: 오더러가 사용하는 고성능 합의 방식.
+- **체인코드 (Chaincode)**: 아키텍처 위에서 실행되는 비즈니스 로직.
+- **PKI (공개키 기반 구조)**: MSP 신원 관리의 수학적 근간.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **나누어서 일하기**: 블록체인 나라의 큰 일을 할 때, 한 사람이 다 하는 게 아니라 "너는 확인해", "너는 줄을 세워", "너는 일기장에 적어"라고 역할을 나누어서 아주 빠르게 일을 끝내는 방법이에요.

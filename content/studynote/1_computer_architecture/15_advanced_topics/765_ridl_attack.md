@@ -1,5 +1,6 @@
 +++
 title = "ridl attack"
+date = "2026-03-14"
 weight = 765
 +++
 
@@ -130,10 +131,10 @@ weight = 765
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [MDS (Microarchitectural Data Sampling)](./764_mds_attack.md)
-- [스펙터 (Spectre)](./766_spectre.md)
-- [멜트다운 (Meltdown)](./767_meltdown.md)
-- [사이드 채널 공격](./768_side_channel.md)
+- MDS (Microarchitectural Data Sampling)
+- 스펙터 (Spectre)
+- 멜트다운 (Meltdown)
+- 사이드 채널 공격
 
 ---
 

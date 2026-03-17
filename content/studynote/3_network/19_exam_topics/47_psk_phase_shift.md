@@ -1,5 +1,6 @@
 +++
 title = "PSK (위상 편이 변조)"
+date = "2026-03-14"
 weight = 47
 +++
 
@@ -157,10 +158,10 @@ PSK(Phase Shift Keying)는 디지털 데이터에 따라 반송파의 위상을 
 ---
 
 ### 📌 관련 개념 링크**:
-- [BPSK 이진 위상 변조](./48_bpsk_binary.md)
-- [QPSK 직교 위상 변조](./48_qpsk_quadrature.md)
-- [QAM 직교 진폭 변조](./51_qam_quadrature.md)
-- [성상도 Constellation](./53_constellation.md)
+- BPSK 이진 위상 변조
+- QPSK 직교 위상 변조
+- QAM 직교 진폭 변조
+- 성상도 Constellation
 
 ---
 

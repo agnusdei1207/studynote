@@ -1,10 +1,9 @@
----
-title: "[ICT] #2. Web 3.0 (Read-Write-Own) & Semantic Web"
-date: "2026-03-17"
++++
+title = "[ICT] #2. Web 3.0 (Read-Write-Own) & Semantic Web"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Web3_Semantic_Web"
----
+keyword = "Web3_Semantic_Web"
++++
 
 # Web 3.0: Decentralized Sovereignty and Intelligence
 
@@ -13,7 +12,7 @@ keyword: "Web3_Semantic_Web"
 2. **지능형 연결망**: 시맨틱 웹 기술을 통해 기계가 웹 콘텐츠의 의미(Semantics)를 이해하고, 파편화된 정보를 유기적으로 연결하여 지능적인 서비스를 제공한다.
 3. **가치 중심 생태계**: 단순 정보 공유를 넘어 토큰 이코노미와 블록체인을 결합하여 디지털 자산의 가치를 즉시 교환할 수 있는 인프라를 구축한다.
 
----
++++
 
 ## Ⅰ. Web 3.0과 시맨틱 웹(Semantic Web)의 개념
 
@@ -29,7 +28,7 @@ keyword: "Web3_Semantic_Web"
 - **Web 3.0**: 거대 기업이 관리하는 중앙 서버 대신, 전 세계 컴퓨터가 조각조각 정보를 나누어 저장하고 주인이 누구인지 명확히 기록하는 '디지털 민주주의' 마을입니다.
 - **시맨틱 웹**: 컴퓨터가 "사과"라는 단어를 보고 빨간 과일인지, 먹는 행위인지, 컴퓨터 회사인지 문맥에 따라 스스로 이해하고 정답을 찾아주는 '똑똑한 비서'입니다.
 
----
++++
 
 ## Ⅱ. Web 3.0의 3대 핵심 속성 및 기술 구조
 
@@ -52,7 +51,7 @@ keyword: "Web3_Semantic_Web"
 | **기본** | **RDF / RDFS** | 자원 간 관계 기술 (Subject-Predicate-Object 트리 구조) |
 | **하위** | **XML / URI** | 데이터의 구조화 및 전역 고유 식별자 부여 |
 
----
++++
 
 ## Ⅲ. Web 3.0 vs 시맨틱 웹의 상호 보완 관계
 
@@ -64,7 +63,7 @@ keyword: "Web3_Semantic_Web"
 - **지능형 검색**: 사용자 의도를 파악하여 관련 정보를 블록체인 상에서 직접 찾아 결제까지 수행.
 - **상호운용성(Interoperability)**: 서로 다른 플랫폼 간에도 데이터의 의미가 표준화되어 자유롭게 데이터 이동 가능.
 
----
++++
 
 ## Ⅳ. Web 3.0 실현을 위한 도전 과제 및 해결 방안
 
@@ -76,7 +75,7 @@ keyword: "Web3_Semantic_Web"
 - **알고리즘 편향**: AI가 학습하는 온톨로지의 중립성 확보 필요.
 - **해결책**: 탈중앙화 자율 조직(DAO)을 통한 데이터 관리 규칙의 민주적 결정.
 
----
++++
 
 ## Ⅴ. 기술사 시험 대비 전략 (핵심 키워드 및 결론)
 
@@ -89,7 +88,7 @@ keyword: "Web3_Semantic_Web"
 - **'플랫폼 독점에서 개인 주권으로'**라는 거대 담론을 서두에 배치하여 통찰력을 보여줄 것.
 - 최근 이슈인 **LLM(거대언어모델)과 지식 그래프(Knowledge Graph)**의 결합을 Web 3.0의 지능화 사례로 언급하면 차별화 가능.
 
----
++++
 
 ### 📌 관련 개념 맵
 ```mermaid

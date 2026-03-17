@@ -1,10 +1,9 @@
----
-title: "[ICT] #12. 비잔틴 장애 허용 (Byzantine Fault Tolerance, BFT)"
-date: "2026-03-17"
++++
+title = "[ICT] #12. 비잔틴 장애 허용 (Byzantine Fault Tolerance, BFT)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Byzantine_Fault_Tolerance_BFT_3f_1_Consensus"
----
+keyword = "Byzantine_Fault_Tolerance_BFT_3f_1_Consensus"
++++
 
 # 비잔틴 장애 허용 (BFT): 배신자가 존재하는 환경에서의 완벽한 합의
 
@@ -13,7 +12,7 @@ keyword: "Byzantine_Fault_Tolerance_BFT_3f_1_Consensus"
 > 2. **가치**: 수학적으로 전체 노드 수($n$)가 악의적인 노드 수($f$)에 대해 **$n \ge 3f + 1$**의 조건을 만족할 때, 즉 배신자가 전체의 1/3 미만일 때 시스템의 신뢰성을 보장한다.
 > 3. **융합**: 비트코인의 PoW(작업 증명)가 확률적 BFT를 구현했다면, PBFT나 Tendermint는 메시지 교환 기반의 즉각적 BFT를 제공하여 엔터프라이즈 블록체인의 핵심 기반이 된다.
 
----
++++
 
 ## Ⅰ. 비잔틴 장애 허용 (BFT) 개요
 
@@ -30,7 +29,7 @@ keyword: "Byzantine_Fault_Tolerance_BFT_3f_1_Consensus"
 
 📢 **섹션 요약 비유**: 단 한 명의 목격자 말만 믿는 게 아니라, 여러 명의 증언을 교차 검증하여 범인(거짓 정보)을 가려내는 고도로 정밀한 '디지털 거짓말 탐지기' 체계입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -75,7 +74,7 @@ keyword: "Byzantine_Fault_Tolerance_BFT_3f_1_Consensus"
 
 📢 **섹션 요약 비유**: 한 명의 지휘자 말만 듣고 움직이는 게 아니라, 모든 병사가 서로 옆 사람의 명령지를 확인하며 "정말 공격하라는 명령이 맞지?"라고 세 번 확인한 뒤에야 발을 떼는 신중한 작전 수행 방식입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -95,7 +94,7 @@ keyword: "Byzantine_Fault_Tolerance_BFT_3f_1_Consensus"
 
 📢 **섹션 요약 비유**: CFT가 "친구가 아파서 못 오는 상황"을 대비하는 것이라면, BFT는 "친구가 거짓말을 해서 골탕 먹이려는 상황"까지 철저히 대비하는 것입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -109,7 +108,7 @@ keyword: "Byzantine_Fault_Tolerance_BFT_3f_1_Consensus"
 
 📢 **섹션 요약 비유**: 만장일치가 가장 좋지만 시간이 너무 걸리므로, 믿을 만한 대표자들을 뽑아 그들끼리 빠르게 투표하게 하는 '디지털 대의민주주의'로 발전하고 있습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -123,13 +122,13 @@ keyword: "Byzantine_Fault_Tolerance_BFT_3f_1_Consensus"
 
 📢 **섹션 요약 비유**: BFT는 디지털 세상의 모든 거짓말과 오류를 걸러내는 **'암호학적 필터'**이며, 무신뢰 사회를 지탱하는 가장 튼튼한 기술적 뼈대입니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[비잔틴 장군 문제 (Byzantine Generals Problem)](./xx_bgp.md)**: BFT가 해결하고자 하는 근본적인 논리 문제.
-- **[합의 알고리즘 (Consensus Algorithm)](./10_consensus_algorithm.md)**: BFT 성질을 구현하기 위한 구체적인 방법론.
-- **[PBFT (Practical BFT)](./13_pbft.md)**: 실무에서 가장 널리 쓰이는 메시지 기반 BFT 알고리즘.
-- **[FLP 불가능성 (FLP Impossibility)](./xx_flp.md)**: 비동기 시스템에서 합의의 한계를 증명한 정리.
+- **비잔틴 장군 문제 (Byzantine Generals Problem)**: BFT가 해결하고자 하는 근본적인 논리 문제.
+- **합의 알고리즘 (Consensus Algorithm)**: BFT 성질을 구현하기 위한 구체적인 방법론.
+- **PBFT (Practical BFT)**: 실무에서 가장 널리 쓰이는 메시지 기반 BFT 알고리즘.
+- **FLP 불가능성 (FLP Impossibility)**: 비동기 시스템에서 합의의 한계를 증명한 정리.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **거짓말쟁이 소탕 작전**: 여러 친구가 모여서 놀이 규칙을 정하는데, 몇몇 친구가 방해하려고 거짓말을 해도 나머지 착한 친구들이 힘을 합쳐 올바른 규칙을 찾아내는 능력이에요.

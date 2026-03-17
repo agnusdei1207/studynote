@@ -1,5 +1,6 @@
 +++
 title = "트래픽 폴리싱 - Traffic Policing"
+date = "2026-03-14"
 weight = 490
 +++
 
@@ -91,5 +92,5 @@ weight = 490
 ---
 
 ### 📌 관련 개념 링크**:
-- [트래픽 쉐이핑](./330_traffic_shaping.md)
-- [QoS](./486_qos.md)
+- 트래픽 쉐이핑
+- QoS

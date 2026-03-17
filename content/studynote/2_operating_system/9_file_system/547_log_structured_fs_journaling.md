@@ -1,6 +1,7 @@
 +++
-weight = 547
 title = "547. 로그 구조 파일 시스템 (Log-structured File System) / 저널링 (Journaling)"
+date = "2026-03-14"
+weight = 547
 +++
 
 # 547. 로그 구조 파일 시스템 (Log-structured File System) / 저널링 (Journaling)

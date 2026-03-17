@@ -1,6 +1,7 @@
 +++
-weight = 431
 title = "431. 더티 페이지 쓰기 (Dirty Page Writeback) 메커니즘"
+date = "2026-03-14"
+weight = 431
 +++
 
 ## 핵심 인사이트 (3줄 요약)
@@ -112,4 +113,3 @@ graph TD
     WB --> IO[I/O Scheduler]
     IO --> DISK[Disk Storage]
     DISK --> CLN[Dirty Bit Cleared]
-```

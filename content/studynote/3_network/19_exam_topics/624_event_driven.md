@@ -1,5 +1,6 @@
 +++
 title = "Event Driven Architecture - 이벤트 기반 아키텍처"
+date = "2026-03-14"
 weight = 624
 +++
 
@@ -102,6 +103,6 @@ Event Driven Architecture는 이벤트로 통신하는 아키텍처입니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Message Queue](./623_message_queue.md)
-- [Microservices](./617_microservices.md)
-- [CQRS](./625_cqrs.md)
+- Message Queue
+- Microservices
+- CQRS

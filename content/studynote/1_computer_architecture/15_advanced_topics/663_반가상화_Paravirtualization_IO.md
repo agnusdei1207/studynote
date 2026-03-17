@@ -1,7 +1,8 @@
----
++++
 title = "반가상화 (Paravirtualization) I/O"
+date = "2026-03-14"
 weight = 663
----
++++
 
 > 💡 **핵심 인사이트 (3-Line Insight)**
 > 1. **본질**: 반가상화 I/O는 가상 머신 (Virtual Machine, VM)이 자신의 가상화 환경을 인지(Cooperative)하고, 하이퍼바이저 (Hypervisor)와 하이퍼콜 (Hypercall) 및 분할 드라이버 (Split Driver) 아키텍처를 통해 직접 협력하여 복잡한 하드웨어 에뮬레이션 (Emulation) 오버헤드를 제거하는 고성능 통신 메커니즘입니다.

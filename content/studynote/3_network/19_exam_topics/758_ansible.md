@@ -1,5 +1,6 @@
 +++
 title = "Ansible - 앤서블"
+date = "2026-03-14"
 weight = 758
 +++
 
@@ -109,6 +110,6 @@ Ansible은 SSH로 자동화를 수행합니다.
 ---
 
 ### 📌 관련 개념 링크**:
-- [Config Management](./757_config_management.md)
-- [Infrastructure as Code](./750_iac.md)
-- [Automation](./xxx_automation.md)
+- Config Management
+- Infrastructure as Code
+- Automation

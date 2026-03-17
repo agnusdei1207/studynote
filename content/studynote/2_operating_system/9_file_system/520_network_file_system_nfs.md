@@ -1,6 +1,7 @@
 +++
-weight = 520
 title = "520. NFS (Network File System)"
+date = "2026-03-14"
+weight = 520
 +++
 
 # # [NFS (Network File System)]

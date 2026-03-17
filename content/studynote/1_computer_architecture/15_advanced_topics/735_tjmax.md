@@ -1,5 +1,6 @@
 +++
 title = "tjmax"
+date = "2026-03-14"
 weight = 735
 +++
 
@@ -323,10 +324,10 @@ graph TD
 ```
 
 **연관 개념 링크**:
-- [PROCHOT#](./720_prochot.md) - 과열 신호
-- [PL1, PL2](./734_pl1_pl2.md) - 전력 제한
-- [Thermal Velocity Boost](./733_thermal_velocity_boost.md) - 온도 기반 가속
-- [히트스프레더](./736_ihs.md) - 열 분산
+- PROCHOT# - 과열 신호
+- PL1, PL2 - 전력 제한
+- Thermal Velocity Boost - 온도 기반 가속
+- 히트스프레더 - 열 분산
 
 ---
 

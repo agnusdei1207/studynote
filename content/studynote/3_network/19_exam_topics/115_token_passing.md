@@ -1,5 +1,6 @@
 +++
 title = "토큰 패싱 (Token Passing)"
+date = "2026-03-14"
 weight = 115
 +++
 
@@ -151,10 +152,10 @@ weight = 115
 ---
 
 ### 📌 관련 개념 링크**:
-- [폴링 Polling](./114_polling.md)
-- [예약 방식](./113_reservation.md)
-- [이더넷](./160_ethernet.md)
-- [FDDI](./205_fddi.md)
+- 폴링 Polling
+- 예약 방식
+- 이더넷
+- FDDI
 
 ---
 

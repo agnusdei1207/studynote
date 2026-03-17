@@ -1,6 +1,7 @@
 +++
-weight = 611
 title = "611. 가상화 (Virtualization) 정의 및 역사"
+date = "2026-03-14"
+weight = 611
 +++
 
 # 611. 가상화 (Virtualization) 정의 및 역사

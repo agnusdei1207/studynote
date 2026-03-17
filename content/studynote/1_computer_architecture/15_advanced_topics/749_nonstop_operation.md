@@ -1,5 +1,6 @@
 +++
 title = "nonstop operation"
+date = "2026-03-14"
 weight = 749
 +++
 
@@ -130,10 +131,10 @@ weight = 749
 ### 📌 관련 개념 맵
 
 **연관 개념 링크**:
-- [이중화 전원 공급 장치](./741_redundant_power_supply.md)
-- [IPMI](./709_ipmi.md)
-- [BMC](./710_bmc.md)
-- [하드웨어 건전성 모니터링](./715_hardware_health_monitoring.md)
+- 이중화 전원 공급 장치
+- IPMI
+- BMC
+- 하드웨어 건전성 모니터링
 
 ---
 

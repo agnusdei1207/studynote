@@ -1,5 +1,6 @@
 +++
 title = "eBPF - 확장 버클리 패킷 필터"
+date = "2026-03-14"
 weight = 259
 +++
 
@@ -155,10 +156,10 @@ eBPF(extended Berkeley Packet Filter)는 커널 공간에서 안전하게 프로
 ---
 
 ### 📌 관련 개념 링크**:
-- [XDP](./260_xdp.md)
-- [Cilium](./261_cilium.md)
-- [커널](./2_operating_system/102_kernel.md)
-- [Linux](./2_operating_system/101_linux.md)
+- XDP
+- Cilium
+- 커널
+- Linux
 
 ---
 

@@ -1,6 +1,7 @@
 +++
-weight = 550
 title = "550. WAFL (Write Anywhere File Layout) 파일 시스템"
+date = "2026-03-14"
+weight = 550
 +++
 
 # # [WAFL (Write Anywhere File Layout) 파일 시스템]

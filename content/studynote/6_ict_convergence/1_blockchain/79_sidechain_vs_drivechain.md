@@ -1,10 +1,9 @@
----
-title: "[ICT] #80. 사이드체인 vs 드라이브체인 (Sidechain vs Drivechain)"
-date: "2026-03-17"
++++
+title = "[ICT] #80. 사이드체인 vs 드라이브체인 (Sidechain vs Drivechain)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Sidechain_Drivechain_BIP300_BIP301_Bitcoin_Scaling_PegIn_PegOut"
----
+keyword = "Sidechain_Drivechain_BIP300_BIP301_Bitcoin_Scaling_PegIn_PegOut"
++++
 
 # 사이드체인 vs 드라이브체인: 비트코인 확장성을 위한 두 가지 연결 철학
 
@@ -13,7 +12,7 @@ keyword: "Sidechain_Drivechain_BIP300_BIP301_Bitcoin_Scaling_PegIn_PegOut"
 > 2. **가치**: **사이드체인**은 독자적인 연합체나 증명을 통해 독립적으로 운영되는 반면, **드라이브체인**은 메인넷 채굴자들이 자산의 이동(Peg-out)을 직접 승인하는 구조로 메인넷과의 결합도를 극대화한다.
 > 3. **융합**: 비트코인 개선 제안인 **BIP-300(Hashrate Escrows)**과 **BIP-301(Blind Merged Mining)**이 드라이브체인의 핵심이며, 이는 비트코인을 단순한 가치 저장 수단을 넘어 거대한 플랫폼 생태계의 허브로 변모시키려는 시도다.
 
----
++++
 
 ## Ⅰ. 사이드체인 및 드라이브체인 개요
 
@@ -27,7 +26,7 @@ keyword: "Sidechain_Drivechain_BIP300_BIP301_Bitcoin_Scaling_PegIn_PegOut"
 
 📢 **섹션 요약 비유**: 별도의 경비원을 믿을 것인가(사이드체인), 아니면 본사 관리인의 힘을 빌릴 것인가(드라이브체인)라는 '보안 주체'의 선택 문제입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -81,7 +80,7 @@ keyword: "Sidechain_Drivechain_BIP300_BIP301_Bitcoin_Scaling_PegIn_PegOut"
 
 📢 **섹션 요약 비유**: 은행 지점장이 마음대로 돈을 빼가는 게 아니라, 은행 전체의 주주(채굴자)들이 6개월 동안 찬반 투표를 거쳐야만 거액의 인출이 가능한 '초신중 보안 시스템'입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -100,7 +99,7 @@ keyword: "Sidechain_Drivechain_BIP300_BIP301_Bitcoin_Scaling_PegIn_PegOut"
 
 📢 **섹션 요약 비유**: 사이드체인이 '유능한 사설 경호업체'를 고용하는 것이라면, 드라이브체인은 '국가 정규군(채굴자)'에게 경비를 맡기는 것과 같은 신뢰의 층위 차이가 있습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -116,7 +115,7 @@ keyword: "Sidechain_Drivechain_BIP300_BIP301_Bitcoin_Scaling_PegIn_PegOut"
 
 📢 **섹션 요약 비유**: 강력한 무기(드라이브체인)를 손에 넣는 것은 좋지만, 그 무기를 든 군인(채굴자)들이 반란을 일으키지 않도록 '견제와 균형'의 로직을 짜는 것이 진정한 아키텍트의 몫입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -130,13 +129,13 @@ keyword: "Sidechain_Drivechain_BIP300_BIP301_Bitcoin_Scaling_PegIn_PegOut"
 
 📢 **섹션 요약 비유**: 비트코인이라는 거대한 댐(L1)에서 물줄기를 끌어와 수많은 발전소(드라이브체인)를 돌리는 **'디지털 문명의 에너지 혁명'**이 시작되고 있습니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[사이드체인 (Sidechain)](./45_sidechain.md)**: 드라이브체인의 상위 및 비교 개념.
-- **[채굴 및 보상](./13_pow.md)**: 드라이브체인을 움직이는 경제적 동기.
-- **[소프트 포크 (Soft Fork)](./48_soft_fork.md)**: 드라이브체인 도입을 위해 넘어야 할 관문.
-- **[라이트닝 네트워크](./41_layer_2.md)**: 또 다른 강력한 비트코인 확장 솔루션.
+- **사이드체인 (Sidechain)**: 드라이브체인의 상위 및 비교 개념.
+- **채굴 및 보상**: 드라이브체인을 움직이는 경제적 동기.
+- **소프트 포크 (Soft Fork)**: 드라이브체인 도입을 위해 넘어야 할 관문.
+- **라이트닝 네트워크**: 또 다른 강력한 비트코인 확장 솔루션.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **옆 동네 놀이터**: 우리 동네(메인넷)가 너무 좁아서 옆 동네에 큰 놀이터(사이드/드라이브체인)를 만들고 내 장난감을 들고 가서 노는 거예요.

@@ -1,7 +1,7 @@
 +++
-weight = 258
 title = "258. NOR 플래시 (NOR Flash)"
 date = "2026-03-16"
+weight = 258
 [extra]
 categories = "studynote-computer-architecture"
 keywords = ["컴퓨터구조", "NOR 플래시", "NOR Flash", "바이오스", "XIP", "임베디드", "비휘발성 메모리"]
@@ -14,7 +14,7 @@ keywords = ["컴퓨터구조", "NOR 플래시", "NOR Flash", "바이오스", "XI
 > 2. **가치**: NAND 대비 **빠른 랜덤 읽기 속도와 높은 신뢰성**으로 인해 BIOS/UEFI 펌웨어, 임베디드 부트로더, 소규모 코드 저장에 최적화되어 있다.
 > 3. **융합**: 셀당 면적이 커서 대용량에는 부적합하지만, **전원 인가 후 즉시 코드 실행**이 필요한 시스템 초기화 과정에서 필수적인 역할을 수행한다.
 
----
++++
 
 ## Ⅰ. NOR 플래시의 개요
 
@@ -31,7 +31,7 @@ keywords = ["컴퓨터구조", "NOR 플래시", "NOR Flash", "바이오스", "XI
 
 - **📢 섹션 요약 비유**: 도서관에서 책을 찾을 때, 바로 원하는 책 앞으로 갈 수 있는 개방형 서가입니다.
 
----
++++
 
 ## Ⅱ. 구조 및 동작 원리 (Deep Dive)
 
@@ -74,7 +74,7 @@ keywords = ["컴퓨터구조", "NOR 플래시", "NOR Flash", "바이오스", "XI
 
 - **📢 섹션 요약 비유**: 책을 읽을 때는 바로 펼칠 수 있지만(NOR), 책을 다시 쓰려면 한 챕터 전체를 지우고 다시 써야 합니다.
 
----
++++
 
 ## Ⅲ. NOR vs NAND 플래시 비교
 
@@ -89,7 +89,7 @@ keywords = ["컴퓨터구조", "NOR 플래시", "NOR Flash", "바이오스", "XI
 | **XIP** | 가능 | 불가능 |
 | **주 용도** | BIOS, 펌웨어 | SSD, USB |
 
----
++++
 
 ## Ⅳ. 실무 적용 및 아키텍처적 판단 (Strategy)
 
@@ -106,7 +106,7 @@ keywords = ["컴퓨터구조", "NOR 플래시", "NOR Flash", "바이오스", "XI
 - NOR는 비싸고 쓰기가 느려 대용량 데이터 저장에 부적합.
 - 임베디드에서도 사용자 데이터는 외부 NAND/eMMC에 저장.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -118,15 +118,15 @@ keywords = ["컴퓨터구조", "NOR 플래시", "NOR Flash", "바이오스", "XI
 - NOR 플래시는 BIOS, 임베디드 펌웨어 등 **소규모 고신뢰 코드 저장**에 계속 사용될 것.
 - 고속 SPI NOR 플래시(Quad SPI, Octal SPI)로 대역폭 확장 중.
 
----
++++
 
 ## 📌 관련 개념 맵 (Knowledge Graph)
-- **[NAND 플래시](./257_nand_flash.md)**: NOR와 비교되는 고밀도 플래시.
-- **[플래시 메모리](./256_flash_memory.md)**: NOR와 NAND의 상위 개념.
-- **[BIOS/UEFI](../15_advanced_topics/706_uefi.md)**: NOR 플래시에 저장되는 펌웨어.
-- **[XIP (Execute In Place)](./xx_xip.md)**: NOR 플래시의 핵심 활용 기법.
+- **NAND 플래시**: NOR와 비교되는 고밀도 플래시.
+- **플래시 메모리**: NOR와 NAND의 상위 개념.
+- **BIOS/UEFI**: NOR 플래시에 저장되는 펌웨어.
+- **XIP (Execute In Place)**: NOR 플래시의 핵심 활용 기법.
 
----
++++
 
 ## 👶 어린이를 위한 3줄 비유 설명
 1. NOR 플래시은 **'원하는 페이지를 바로 펼칠 수 있는 사전'** 같아요.

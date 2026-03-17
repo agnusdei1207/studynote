@@ -1,7 +1,6 @@
 +++
 title = "VulnABLE CTF [LUXORA] Write-up: RFI 🥉 Bronze"
-description = "LUXORA 플랫폼의 기본 Remote File Inclusion (RFI) 취약점을 이용한 악성 웹 쉘 다운로드 및 실행 시나리오"
-date = 2026-03-14
+date = "2026-03-14"
 [extra]
 categories = "pentesting"
 tags = ["CTF", "LUXORA", "RFI", "Bronze", "Web Shell", "Write-up"]

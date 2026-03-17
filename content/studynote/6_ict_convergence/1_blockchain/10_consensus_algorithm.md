@@ -1,10 +1,9 @@
----
-title: "[ICT] #11. 합의 알고리즘 (Consensus Algorithm)"
-date: "2026-03-17"
++++
+title = "[ICT] #11. 합의 알고리즘 (Consensus Algorithm)"
+date = "2026-03-17"
 [extra]
-subject: "ICT_Convergence"
-keyword: "Consensus_Algorithm_Byzantine_Fault_Tolerance_Safety_Liveness"
----
+keyword = "Consensus_Algorithm_Byzantine_Fault_Tolerance_Safety_Liveness"
++++
 
 # 합의 알고리즘 (Consensus Algorithm): 분산 네트워크의 단일 진실 도출 메커니즘
 
@@ -13,7 +12,7 @@ keyword: "Consensus_Algorithm_Byzantine_Fault_Tolerance_Safety_Liveness"
 > 2. **가치**: 악의적인 노드나 통신 장애가 존재하는 환경에서도 데이터의 무결성과 시스템의 가용성을 유지하며, **'이중 지불(Double Spending)'** 문제를 해결하는 블록체인 신뢰의 핵심 엔진이다.
 > 3. **융합**: 분산 시스템의 CAP 이론(Consistency, Availability, Partition Tolerance)과 FLP 불가능성(FLP Impossibility) 정리를 배경으로 하며, Safety(합의의 정확성)와 Liveness(합의의 지속성) 사이의 최적 균형을 설계한다.
 
----
++++
 
 ## Ⅰ. 합의 알고리즘 (Consensus Algorithm) 개요
 
@@ -31,7 +30,7 @@ keyword: "Consensus_Algorithm_Byzantine_Fault_Tolerance_Safety_Liveness"
 
 📢 **섹션 요약 비유**: 서로 다른 곳에 사는 사람들이 똑같은 시간을 가리키는 시계를 갖기 위해, 서로 신호를 주고받으며 기준 시각을 맞춰나가는 '디지털 동기화 약속'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -78,7 +77,7 @@ keyword: "Consensus_Algorithm_Byzantine_Fault_Tolerance_Safety_Liveness"
 
 📢 **섹션 요약 비유**: 오케스트라에서 지휘자가 없어도 모든 연주자가 옆 사람의 소리를 듣고 박자를 맞춰가며(합의) 하나의 아름다운 곡(단일 진실)을 완성하는 과정과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 다각도 분석
 
@@ -97,7 +96,7 @@ keyword: "Consensus_Algorithm_Byzantine_Fault_Tolerance_Safety_Liveness"
 
 📢 **섹션 요약 비유**: PoW가 노가다로 진심을 증명하는 것이라면, PoS는 재산으로 책임감을 증명하는 것이고, BFT는 서류 절차(투표)로 정당성을 증명하는 방식입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -111,7 +110,7 @@ keyword: "Consensus_Algorithm_Byzantine_Fault_Tolerance_Safety_Liveness"
 
 📢 **섹션 요약 비유**: 100미터 달리기 시합(PoW)은 공정하지만 지치고, 주주총회(PoS)는 효율적이지만 큰 손이 유리하며, 배심원단(BFT)은 빠르지만 신뢰할 수 있는 사람만 뽑아야 하는 차이가 있습니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -125,13 +124,13 @@ keyword: "Consensus_Algorithm_Byzantine_Fault_Tolerance_Safety_Liveness"
 
 📢 **섹션 요약 비유**: 합의 알고리즘은 디지털 세상에서 **'누구의 말이 진짜인가'**를 판결하는 인공지능 판사와 같으며, 점점 더 빠르고 공정한 판결을 내리는 쪽으로 진화하고 있습니다.
 
----
++++
 
 ### 📌 관련 개념 맵
-- **[비잔틴 장애 허용 (BFT)](./12_bft.md)**: 배신자가 있는 환경에서도 합의를 이루는 이론적 토대.
-- **[작업 증명 (PoW)](./14_pow.md)**: 비트코인이 채택한 최초의 성공적인 합의 알고리즘.
-- **[지분 증명 (PoS)](./15_pos.md)**: 현대 블록체인의 주류가 된 저전력 합의 방식.
-- **[확률적 완결성](./65_finality.md)**: 시간이 지남에 따라 합의가 확정될 확률이 100%에 수렴하는 특성.
+- **비잔틴 장애 허용 (BFT)**: 배신자가 있는 환경에서도 합의를 이루는 이론적 토대.
+- **작업 증명 (PoW)**: 비트코인이 채택한 최초의 성공적인 합의 알고리즘.
+- **지분 증명 (PoS)**: 현대 블록체인의 주류가 된 저전력 합의 방식.
+- **확률적 완결성**: 시간이 지남에 따라 합의가 확정될 확률이 100%에 수렴하는 특성.
 
 ### 👶 어린이를 위한 3줄 비유 설명
 1. **모두가 동의하는 규칙**: 단체 카톡방에서 오늘 점심 메뉴를 정할 때, 아무도 반대하지 않게 다 같이 손을 들어 정하는 '약속의 방법'이에요.
