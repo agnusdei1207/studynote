@@ -13,7 +13,7 @@ keyword = "Quantization_QLoRA_NF4_INT8_OnDeviceAI_ModelCompression"
 > 2. **가치**: 모델 크기를 1/4~1/8 수준으로 압축하면서도 성능 저하를 최소화하여, 테라바이트급 거대 모델을 스마트폰(On-device AI)이나 일반 PC의 GPU 메모리 안에 욱여넣을 수 있게 만드는 실질적인 인프라 해방 기술이다.
 > 3. **융합**: 양자화된 모델 위에 LoRA 학습을 수행하는 **QLoRA** 기법은 데이터의 정규 분포 특성을 이용한 NF4(NormalFloat 4) 포맷을 도입하여, 소수점의 정교함과 정수의 가벼움을 완벽하게 융합시켰다.
 
----
++++
 
 ## Ⅰ. 양자화 (Quantization) 개요
 
@@ -31,7 +31,7 @@ keyword = "Quantization_QLoRA_NF4_INT8_OnDeviceAI_ModelCompression"
 
 📢 **섹션 요약 비유**: 덩치 큰 코끼리를 냉장고에 넣기 위해, 코끼리의 핵심 유전자만 뽑아내어 작고 빠른 쥐로 압축하는 '공간 창출'의 기술입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -85,7 +85,7 @@ keyword = "Quantization_QLoRA_NF4_INT8_OnDeviceAI_ModelCompression"
 
 📢 **섹션 요약 비유**: 시험 문제를 0점부터 100점까지 일일이 채점(FP16)하는 대신, 수우미양가(INT4)로 나누어 채점해도 누가 공부를 잘하는지는 충분히 구별할 수 있는 것과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -104,7 +104,7 @@ keyword = "Quantization_QLoRA_NF4_INT8_OnDeviceAI_ModelCompression"
 
 📢 **섹션 요약 비유**: 자동차 엔진(알고리즘)을 가볍게 만들었더니, 이제는 더 작은 차체(하드웨어)에도 실을 수 있고 연비(통신 비용)까지 좋아진 셈입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -122,7 +122,7 @@ keyword = "Quantization_QLoRA_NF4_INT8_OnDeviceAI_ModelCompression"
 
 📢 **섹션 요약 비유**: 짐을 줄이겠다고 등산복을 다 버리고 속옷만 입고 산에 오르면(저비트 양자화), 가볍긴 하겠지만 추위에 얼어 죽을 수 있습니다. 최소한의 체온(정밀도)은 유지하는 선에서 짐을 줄여야 합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -136,7 +136,7 @@ keyword = "Quantization_QLoRA_NF4_INT8_OnDeviceAI_ModelCompression"
 
 📢 **섹션 요약 비유**: 양자화는 인공지능이라는 거인이 다이어트에 성공하여, 우리 손바닥 위에서 춤을 출 수 있게 만든 '현대 인공지능의 가장 실질적인 승리'입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
 | 관련 개념 | 관계 및 시너지 설명 |

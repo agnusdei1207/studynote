@@ -13,7 +13,7 @@ keyword = "Diffusion_vs_GAN_GenerativeAI_ModelComparison_ModeCollapse_TrainingSt
 > 2. **기술적 우위**: 디퓨전은 GAN의 고질병인 **'모드 붕괴(Mode Collapse)'**가 발생하지 않아 데이터의 다양성과 고해상도 품질에서 압도적 우위를 점하지만, 수백 번의 반복 연산(Sampling)으로 인해 생성 속도가 GAN보다 훨씬 느리다는 단점이 있다.
 > 3. **융합**: 최근에는 디퓨전의 고품질과 GAN의 빠른 속도를 결합하려는 시도가 활발하며, 고도의 창의성이 필요한 예술/디자인 분야는 **디퓨전**이, 실시간성과 모바일 구동이 중요한 분야는 **GAN**이 주도하는 상호 보완적 생태계가 형성되었다.
 
----
++++
 
 ## Ⅰ. 디퓨전(Diffusion) vs GAN 개요
 
@@ -27,7 +27,7 @@ keyword = "Diffusion_vs_GAN_GenerativeAI_ModelComparison_ModeCollapse_TrainingSt
 
 📢 **섹션 요약 비유**: 한 번에 정답을 맞히려는 '도박형 천재(GAN)'와 수만 번의 연습 끝에 완벽에 도달하는 '성실한 수재(Diffusion)'의 대결입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 비교 (Deep Dive)
 
@@ -67,7 +67,7 @@ keyword = "Diffusion_vs_GAN_GenerativeAI_ModelComparison_ModeCollapse_TrainingSt
 
 📢 **섹션 요약 비유**: 1초 만에 폴라로이드 사진을 찍는 것(GAN)과, 화가가 몇 시간에 걸쳐 유화를 덧칠하며 그리는 것(Diffusion)의 차이입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -81,7 +81,7 @@ keyword = "Diffusion_vs_GAN_GenerativeAI_ModelComparison_ModeCollapse_TrainingSt
 
 📢 **섹션 요약 비유**: 속도만 빨랐던 스포츠카(GAN)에, 튼튼한 장갑차의 안정성(Diffusion)을 결합하여 고속 고성능의 새로운 하이브리드 머신을 만드는 중입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -98,7 +98,7 @@ keyword = "Diffusion_vs_GAN_GenerativeAI_ModelComparison_ModeCollapse_TrainingSt
 
 📢 **섹션 요약 비유**: 주방장(기술사)은 요리의 완성도(Diffusion)뿐만 아니라 손님에게 나가는 시간(GAN의 속도)과 식재료의 원산지(저작권)까지 모두 책임져야 합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -112,7 +112,7 @@ keyword = "Diffusion_vs_GAN_GenerativeAI_ModelComparison_ModeCollapse_TrainingSt
 
 📢 **섹션 요약 비유**: GAN이 인공지능 생성의 시대를 연 '개척자'였다면, 디퓨전은 그 시대를 완성하고 문명을 꽃피운 '지배자'입니다. 이제 인류는 상상하는 모든 것을 즉시 현실의 이미지로 볼 수 있게 되었습니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
 | 관련 개념 | 관계 및 시너지 설명 |

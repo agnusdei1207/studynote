@@ -13,7 +13,7 @@ keyword = "FeatureStore_DataPipeline_FeatureReuse_OnlineStore_OfflineStore_MLOps
 > 2. **가치**: 데이터 엔지니어가 한 번 깎아놓은 특징(예: 고객의 지난 30일간 구매 합계)을 여러 팀이 재사용(Reuse)하게 함으로써 중복 연산을 방지하고, 학습 시점과 추론 시점의 데이터 불일치인 **'Training-Serving Skew'** 문제를 근본적으로 해결한다.
 > 3. **융합**: 데이터 웨어하우스(Offline Store)의 분석 역량과 인메모리 DB(Online Store)의 저지연 조회 기술이 융합되어 있으며, 최근에는 데이터 계보(Lineage) 관리 기술과 결합하여 MLOps의 신뢰성을 지탱하는 핵심 인프라로 자리 잡았다.
 
----
++++
 
 ## Ⅰ. 피처 스토어 (Feature Store) 개요
 
@@ -31,7 +31,7 @@ keyword = "FeatureStore_DataPipeline_FeatureReuse_OnlineStore_OfflineStore_MLOps
 
 📢 **섹션 요약 비유**: 요리할 때마다 밭에 가서 채소를 따오는 게 아니라, 미리 손질된 신선한 재료를 정갈하게 담아놓은 'AI 전용 식재료 마트'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -83,7 +83,7 @@ keyword = "FeatureStore_DataPipeline_FeatureReuse_OnlineStore_OfflineStore_MLOps
 
 📢 **섹션 요약 비유**: 수능 모의고사를 풀 때 미래의 정답지(미래 데이터)를 미리 보지 못하도록, 시험 시간 당시의 지식 상태만 딱 골라주는 '시간 관리자'와 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -103,7 +103,7 @@ keyword = "FeatureStore_DataPipeline_FeatureReuse_OnlineStore_OfflineStore_MLOps
 
 📢 **섹션 요약 비유**: 도서관(DB)에 책을 꽂아만 두는 게 아니라, 책의 핵심 구절을 요약해서 요약 카드(Feature)로 만들어두고, 신간이 나오면 즉시 카드를 업데이트하는 '지능형 도서관'입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -121,7 +121,7 @@ keyword = "FeatureStore_DataPipeline_FeatureReuse_OnlineStore_OfflineStore_MLOps
 
 📢 **섹션 요약 비유**: 모든 재료를 손질해두면 편하겠지만 마트 운영비가 많이 듭니다. 잘 팔리는 재료(핵심 특징)만 신선하게 유지하는 것이 기술사의 경영 능력입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -135,7 +135,7 @@ keyword = "FeatureStore_DataPipeline_FeatureReuse_OnlineStore_OfflineStore_MLOps
 
 📢 **섹션 요약 비유**: 피처 스토어는 인공지능 산업이 '가내 수공업' 단계에서 벗어나 '표준화된 대량 생산' 단계인 포드 시스템(Fordism)으로 넘어갔음을 상징하는 데이터 공학의 정점입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
 | 관련 개념 | 관계 및 시너지 설명 |

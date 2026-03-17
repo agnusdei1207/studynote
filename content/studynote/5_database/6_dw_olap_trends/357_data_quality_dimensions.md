@@ -1,10 +1,10 @@
----
++++
 title = "357. 데이터 품질(Data Quality) 6대 차원 - 정량적 평가의 기준"
 date = "2026-03-16"
 [extra]
 categories = "studynote-database"
 id = 357
----
++++
 # 357. 데이터 품질(Data Quality) 6대 차원 - 정량적 평가의 기준
 
 ## 핵심 인사이트 (3줄 요약)

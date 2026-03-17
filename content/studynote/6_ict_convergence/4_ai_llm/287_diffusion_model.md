@@ -13,7 +13,7 @@ keyword = "DiffusionModel_Denoising_GaussianNoise_GenerativeAI_ForwardProcess_Re
 > 2. **가치**: 기존의 생성 모델인 GAN(생성적 적대 신경망)이 가진 학습 불안정성과 모드 붕괴(Mode Collapse) 문제를 근본적으로 해결하였으며, 극도로 높은 해상도와 창의적인 디테일을 가진 이미지를 안정적으로 생성하여 현대 생성형 AI 혁명의 중심축이 되었다.
 > 3. **융합**: 텍스트 인코더(CLIP)와 결합하여 사용자의 설명에 맞는 이미지를 생성하는 **Text-to-Image** 기술로 융합되었으며, 최근에는 비디오, 오디오, 3D 모델링 생성 분야까지 그 원리가 확장 적용되고 있다.
 
----
++++
 
 ## Ⅰ. 디퓨전 모델 (Diffusion Model) 개요
 
@@ -30,7 +30,7 @@ keyword = "DiffusionModel_Denoising_GaussianNoise_GenerativeAI_ForwardProcess_Re
 
 📢 **섹션 요약 비유**: 맑은 물에 잉크 한 방울이 퍼져나가는 것(노이즈 주입)은 쉽지만, 퍼진 잉크를 다시 모아 한 방울의 정수로 만드는 것(생성)은 기적과 같은 일입니다. 디퓨전 모델은 그 기적을 수학으로 풀어낸 기술입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -78,7 +78,7 @@ keyword = "DiffusionModel_Denoising_GaussianNoise_GenerativeAI_ForwardProcess_Re
 
 📢 **섹션 요약 비유**: 안개가 자욱한 산속(노이즈)에서 길을 찾는 과정과 같습니다. 모델은 안개를 한 겹씩 걷어내며 마침내 산 아래의 아름다운 마을(이미지)을 찾아냅니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -98,7 +98,7 @@ keyword = "DiffusionModel_Denoising_GaussianNoise_GenerativeAI_ForwardProcess_Re
 
 📢 **섹션 요약 비유**: GAN이 두 명의 화가가 서로 시기하며 그림을 그리는 경쟁이라면, 디퓨전은 안개 속에서 형체를 찾아내는 수도승의 고행과 같습니다. 경쟁은 빠르지만, 고행은 깊고 정교한 결과물을 낳습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -116,7 +116,7 @@ keyword = "DiffusionModel_Denoising_GaussianNoise_GenerativeAI_ForwardProcess_Re
 
 📢 **섹션 요약 비유**: 성능 좋은 엔진(디퓨전)을 가졌다면, 이제는 그 엔진을 더 빨리 돌리는 법(LDM)과 안전하게 운전하는 법(저작권 관리)을 고민하는 것이 기술사의 역할입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -130,7 +130,7 @@ keyword = "DiffusionModel_Denoising_GaussianNoise_GenerativeAI_ForwardProcess_Re
 
 📢 **섹션 요약 비유**: 디퓨전 모델은 인류가 발명한 가장 강력한 '디지털 붓'입니다. 이 붓은 화가의 손놀림이 아니라 인간의 '상상력'과 '언어'에 반응하여 무한한 우주를 그려냅니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
 | 관련 개념 | 관계 및 시너지 설명 |

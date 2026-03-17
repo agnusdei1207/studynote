@@ -13,7 +13,7 @@ keyword = "LoRA_LowRankAdaptation_PEFT_MatrixDecomposition_Backpropagation_VRAM"
 > 2. **가치**: 전체 파라미터의 약 0.01%~0.1%만 훈련하면서도 전체 파인튜닝과 대등한 성능을 내며, 특히 훈련 시 필요한 GPU 메모리(VRAM)와 학습 후 저장되는 체크포인트 용량을 10,000배 이상 획기적으로 줄여준다.
 > 3. **융합**: 학습이 끝나면 LoRA 행렬을 원본 가중치에 수학적으로 더해버릴 수 있어(Merge), 추론(Inference) 시 추가적인 연산 지연(Latency) 없이도 튜닝된 지능을 즉시 발휘할 수 있는 완벽한 최적화 아키텍처를 제공한다.
 
----
++++
 
 ## Ⅰ. 로라 (LoRA) 개요
 
@@ -31,7 +31,7 @@ keyword = "LoRA_LowRankAdaptation_PEFT_MatrixDecomposition_Backpropagation_VRAM"
 
 📢 **섹션 요약 비유**: 수만 명의 군대를 한꺼번에 훈련시키는 대신, 군대 옆에 똑똑한 '작전 참모(LoRA)' 한 명만 배치하여 전체 군대의 움직임을 조종하는 고도의 전술입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -86,7 +86,7 @@ keyword = "LoRA_LowRankAdaptation_PEFT_MatrixDecomposition_Backpropagation_VRAM"
 
 📢 **섹션 요약 비유**: 안경(LoRA)을 쓰고 세상을 보다가, 나중에는 라식 수술(Merge)을 해서 안경 없이도 밝은 세상을 보게 되는 것과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -106,7 +106,7 @@ keyword = "LoRA_LowRankAdaptation_PEFT_MatrixDecomposition_Backpropagation_VRAM"
 
 📢 **섹션 요약 비유**: 무거운 책을 통째로 복사해서 전달(Full FT)하는 대신, 수정할 페이지 번호와 내용만 적은 '쪽지(LoRA)'를 전달하는 통신의 혁명입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -124,7 +124,7 @@ keyword = "LoRA_LowRankAdaptation_PEFT_MatrixDecomposition_Backpropagation_VRAM"
 
 📢 **섹션 요약 비유**: 전 세계 모든 요리를 할 줄 아는 쉐프(Base)를 고용하고, 메뉴판(LoRA)만 바꿔 끼워가며 이탈리안 레스토랑도 했다가 한식집도 하는 영리한 경영 전략입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -138,7 +138,7 @@ keyword = "LoRA_LowRankAdaptation_PEFT_MatrixDecomposition_Backpropagation_VRAM"
 
 📢 **섹션 요약 비유**: LoRA는 인공지능이라는 거대한 거인에게 채워진 '무거운 학습의 사슬'을 끊어내고, 나비처럼 가볍게 날아올라 어디든 앉을 수 있게 만든 자유의 날개입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
 | 관련 개념 | 관계 및 시너지 설명 |

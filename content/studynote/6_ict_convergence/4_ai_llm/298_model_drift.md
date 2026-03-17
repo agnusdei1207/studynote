@@ -13,7 +13,7 @@ keyword = "ModelDrift_DataDrift_ConceptDrift_ModelDecay_Retraining_Monitoring"
 > 2. **유형**: 입력 데이터의 분포가 변하는 **데이터 드리프트(Data Drift)**와, 데이터와 정답 사이의 관계 자체가 변하는 **컨셉 드리프트(Concept Drift)**로 나뉘며, 이는 외부 환경(시장 트렌드, 계절성, 돌발 사건 등)의 변화에 기인한다.
 > 3. **융합**: MLOps의 실시간 모니터링 및 자동 재학습(CT) 파이프라인과 결합하여 해결하며, 최근에는 데이터의 변화를 즉시 감지하여 모델을 미세 조정하는 **적응형 학습(Adaptive Learning)** 기술로 융합 발전하고 있다.
 
----
++++
 
 ## Ⅰ. 모델 드리프트 (Model Drift) 개요
 
@@ -31,7 +31,7 @@ keyword = "ModelDrift_DataDrift_ConceptDrift_ModelDecay_Retraining_Monitoring"
 
 📢 **섹션 요약 비유**: 날씨가 변하면 입는 옷도 바뀌어야 하듯, 세상의 데이터가 변하면 인공지능의 뇌(가중치)도 그에 맞춰 새로 고침 되어야 한다는 자연의 이치입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -83,7 +83,7 @@ keyword = "ModelDrift_DataDrift_ConceptDrift_ModelDecay_Retraining_Monitoring"
 
 📢 **섹션 요약 비유**: 우유의 유통기한(모델 성능)을 매일 확인하는 신선도 센서와 같습니다. 상하기 직전(드리프트 발생)에 새 우유(신규 모델)로 바꿔주는 지능형 냉장고 시스템입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -103,7 +103,7 @@ keyword = "ModelDrift_DataDrift_ConceptDrift_ModelDecay_Retraining_Monitoring"
 
 📢 **섹션 요약 비유**: 입력되는 재료(Data)가 변한 것인지, 손님의 입맛(Concept)이 변한 것인지 구분하여 대응하는 것이 최고의 식당 지배인(기술사)입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -121,7 +121,7 @@ keyword = "ModelDrift_DataDrift_ConceptDrift_ModelDecay_Retraining_Monitoring"
 
 📢 **섹션 요약 비유**: 아이가 한 번 시험을 못 봤다고(일시적 오차) 바로 학원을 옮기는 것이 아니라, 실력이 계속 떨어지는지(지속적 드리프트) 확인하고 전략을 짜는 현명한 부모의 마음이 필요합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -135,7 +135,7 @@ keyword = "ModelDrift_DataDrift_ConceptDrift_ModelDecay_Retraining_Monitoring"
 
 📢 **섹션 요약 비유**: 모델 드리프트는 인공지능이 완벽하지 않다는 증거인 동시에, 끊임없이 세상과 소통하며 함께 성장해야 한다는 '공존의 신호'입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
 | 관련 개념 | 관계 및 시너지 설명 |

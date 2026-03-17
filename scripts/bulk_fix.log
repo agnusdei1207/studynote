@@ -2086,3 +2086,745 @@ Processing: content/studynote/5_database/6_dw_olap_trends/390_db_master_summary.
 API Error (attempt 1): HTTP Error 429: Too Many Requests
 Failed to process content/studynote/5_database/6_dw_olap_trends/390_db_master_summary.md: module 'time' has no attribute 'append'
 Processing: content/studynote/5_database/7_exam_summary_depth/391_relation_schema_intension.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/391_relation_schema_intension.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/392_relation_instance_extension.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/392_relation_instance_extension.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/393_data_dictionary_metadata.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/393_data_dictionary_metadata.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/394_system_catalog_concepts.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/394_system_catalog_concepts.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/395_data_independence_two_levels.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/395_data_independence_two_levels.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/396_mapping_rules_entity_to_table.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/396_mapping_rules_entity_to_table.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/397_partial_functional_dependency_2nf.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/397_partial_functional_dependency_2nf.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/398_transitive_dependency_3nf.md
+Done: content/studynote/5_database/6_dw_olap_trends/367_data_masking_techniques.md
+Processing: content/studynote/5_database/7_exam_summary_depth/399_bcnf_normal_form.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/399_bcnf_normal_form.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/400_multi_valued_dependency_4nf.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/400_multi_valued_dependency_4nf.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/401_join_dependency_5nf.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/401_join_dependency_5nf.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/402_insertion_anomaly.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/402_insertion_anomaly.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/403_deletion_anomaly.md
+Done: content/studynote/5_database/6_dw_olap_trends/370_database_audit_logs.md
+Processing: content/studynote/5_database/7_exam_summary_depth/404_update_anomaly.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/403_deletion_anomaly.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/405_entity_integrity_rule.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/404_update_anomaly.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/406_referential_integrity_rule.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/405_entity_integrity_rule.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/407_super_key_concept.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/406_referential_integrity_rule.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/408_alternate_key_concept.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/407_super_key_concept.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/409_relational_algebra_procedural.md
+Done: content/studynote/5_database/6_dw_olap_trends/387_data_monetization.md
+Processing: content/studynote/5_database/7_exam_summary_depth/410_relational_calculus_logic.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/410_relational_calculus_logic.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/411_division_operation.md
+Done: content/studynote/5_database/6_dw_olap_trends/385_vpc_database_security.md
+Processing: content/studynote/5_database/7_exam_summary_depth/412_cartesian_product.md
+Done: content/studynote/5_database/7_exam_summary_depth/398_transitive_dependency_3nf.md
+Processing: content/studynote/5_database/7_exam_summary_depth/413_natural_join.md
+Done: content/studynote/5_database/7_exam_summary_depth/409_relational_algebra_procedural.md
+Processing: content/studynote/5_database/7_exam_summary_depth/414_outer_join_variants.md
+Done: content/studynote/5_database/7_exam_summary_depth/408_alternate_key_concept.md
+Processing: content/studynote/5_database/7_exam_summary_depth/415_ddl_commands.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/415_ddl_commands.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/416_dml_commands.md
+Done: content/studynote/5_database/7_exam_summary_depth/416_dml_commands.md
+Processing: content/studynote/5_database/7_exam_summary_depth/417_dcl_commands.md
+Done: content/studynote/5_database/7_exam_summary_depth/413_natural_join.md
+Processing: content/studynote/5_database/7_exam_summary_depth/418_tcl_commands.md
+Done: content/studynote/5_database/7_exam_summary_depth/412_cartesian_product.md
+Processing: content/studynote/5_database/7_exam_summary_depth/419_view_concept.md
+Done: content/studynote/5_database/7_exam_summary_depth/411_division_operation.md
+Processing: content/studynote/5_database/7_exam_summary_depth/420_cbo_optimizer_stats.md
+Done: content/studynote/5_database/7_exam_summary_depth/414_outer_join_variants.md
+Processing: content/studynote/5_database/7_exam_summary_depth/421_execution_plan_analysis.md
+Done: content/studynote/5_database/7_exam_summary_depth/418_tcl_commands.md
+Processing: content/studynote/5_database/7_exam_summary_depth/422_b_plus_tree_index.md
+Done: content/studynote/5_database/7_exam_summary_depth/417_dcl_commands.md
+Processing: content/studynote/5_database/7_exam_summary_depth/423_non_clustered_index.md
+Done: content/studynote/5_database/7_exam_summary_depth/419_view_concept.md
+Processing: content/studynote/5_database/7_exam_summary_depth/424_clustered_index.md
+Done: content/studynote/5_database/7_exam_summary_depth/420_cbo_optimizer_stats.md
+Processing: content/studynote/5_database/7_exam_summary_depth/425_hash_index_mechanism.md
+Done: content/studynote/5_database/7_exam_summary_depth/421_execution_plan_analysis.md
+Processing: content/studynote/5_database/7_exam_summary_depth/426_bitmap_index_low_cardinality.md
+Done: content/studynote/5_database/7_exam_summary_depth/422_b_plus_tree_index.md
+Processing: content/studynote/5_database/7_exam_summary_depth/427_composite_index_ordering.md
+Done: content/studynote/5_database/7_exam_summary_depth/423_non_clustered_index.md
+Processing: content/studynote/5_database/7_exam_summary_depth/428_full_table_scan.md
+Done: content/studynote/5_database/7_exam_summary_depth/424_clustered_index.md
+Processing: content/studynote/5_database/7_exam_summary_depth/429_index_range_scan.md
+Done: content/studynote/5_database/7_exam_summary_depth/425_hash_index_mechanism.md
+Processing: content/studynote/5_database/7_exam_summary_depth/430_index_fast_full_scan.md
+Done: content/studynote/5_database/7_exam_summary_depth/426_bitmap_index_low_cardinality.md
+Processing: content/studynote/5_database/7_exam_summary_depth/431_nested_loop_join.md
+Done: content/studynote/5_database/7_exam_summary_depth/429_index_range_scan.md
+Processing: content/studynote/5_database/7_exam_summary_depth/432_sort_merge_join.md
+Done: content/studynote/5_database/7_exam_summary_depth/427_composite_index_ordering.md
+Processing: content/studynote/5_database/7_exam_summary_depth/433_hash_join_algorithm.md
+Done: content/studynote/5_database/7_exam_summary_depth/430_index_fast_full_scan.md
+Processing: content/studynote/5_database/7_exam_summary_depth/434_subquery_in_operator.md
+Done: content/studynote/5_database/7_exam_summary_depth/428_full_table_scan.md
+Processing: content/studynote/5_database/7_exam_summary_depth/435_exists_operator_logic.md
+Done: content/studynote/5_database/7_exam_summary_depth/433_hash_join_algorithm.md
+Processing: content/studynote/5_database/7_exam_summary_depth/436_window_functions_over.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/436_window_functions_over.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/437_rank_vs_dense_rank.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/437_rank_vs_dense_rank.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/438_multidimensional_aggregation.md
+Done: content/studynote/5_database/7_exam_summary_depth/431_nested_loop_join.md
+Processing: content/studynote/5_database/7_exam_summary_depth/439_optimizer_hints.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/439_optimizer_hints.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/440_acid_properties.md
+Done: content/studynote/5_database/7_exam_summary_depth/434_subquery_in_operator.md
+Processing: content/studynote/5_database/7_exam_summary_depth/441_atomicity_transaction.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/441_atomicity_transaction.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/442_consistency_transaction.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/442_consistency_transaction.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/443_isolation_transaction.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/443_isolation_transaction.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/444_durability_transaction.md
+Done: content/studynote/5_database/7_exam_summary_depth/432_sort_merge_join.md
+Processing: content/studynote/5_database/7_exam_summary_depth/445_lost_update_anomaly.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/444_durability_transaction.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/446_dirty_read_anomaly.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/445_lost_update_anomaly.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/447_non_repeatable_read_anomaly.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/446_dirty_read_anomaly.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/448_phantom_read_anomaly.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/448_phantom_read_anomaly.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/449_locking_concurrency_control.md
+Done: content/studynote/5_database/7_exam_summary_depth/438_multidimensional_aggregation.md
+Processing: content/studynote/5_database/7_exam_summary_depth/450_two_phase_locking_protocol.md
+Done: content/studynote/5_database/7_exam_summary_depth/440_acid_properties.md
+Processing: content/studynote/5_database/7_exam_summary_depth/451_deadlock_handling_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/451_deadlock_handling_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/452_timestamp_ordering_concurrency.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/452_timestamp_ordering_concurrency.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/453_mvcc_concurrency_control.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/453_mvcc_concurrency_control.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/454_undo_mechanism.md
+API Error (attempt 1): The read operation timed out
+Failed to process content/studynote/5_database/7_exam_summary_depth/435_exists_operator_logic.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/455_redo_mechanism.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/454_undo_mechanism.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/456_wal_protocol_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/455_redo_mechanism.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/457_checkpoint_mechanism.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/456_wal_protocol_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/458_transaction_isolation_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/457_checkpoint_mechanism.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/459_location_transparency_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/458_transaction_isolation_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/460_data_fragmentation_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/459_location_transparency_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/461_database_replication_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/460_data_fragmentation_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/462_two_phase_commit_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/461_database_replication_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/463_cap_theorem_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/462_two_phase_commit_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/464_base_properties_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/463_cap_theorem_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/465_key_value_redis_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/464_base_properties_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/466_mongodb_document_store.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/465_key_value_redis_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/467_column_family_wide_column.md
+Done: content/studynote/5_database/7_exam_summary_depth/447_non_repeatable_read_anomaly.md
+Processing: content/studynote/5_database/7_exam_summary_depth/468_graph_db_neo4j_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/467_column_family_wide_column.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/469_database_sharding_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/468_graph_db_neo4j_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/470_hash_sharding_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/469_database_sharding_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/471_consistent_hashing_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/470_hash_sharding_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/472_newsql_google_spanner.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/471_consistent_hashing_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/473_inmon_data_warehouse.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/472_newsql_google_spanner.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/474_kimball_data_warehouse.md
+Done: content/studynote/5_database/7_exam_summary_depth/449_locking_concurrency_control.md
+Processing: content/studynote/5_database/7_exam_summary_depth/475_oltp_overview.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/473_inmon_data_warehouse.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/476_olap_analytical_summary.md
+Done: content/studynote/5_database/7_exam_summary_depth/450_two_phase_locking_protocol.md
+Processing: content/studynote/5_database/7_exam_summary_depth/477_star_schema_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/476_olap_analytical_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/478_snowflake_schema_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/477_star_schema_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/481_pivot_crosstab_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/478_snowflake_schema_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/482_data_lake_schema_on_read.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/481_pivot_crosstab_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/483_etl_bottleneck_issues.md
+API Error (attempt 1): HTTP Error 429: Too Many RequestsAPI Error (attempt 1): HTTP Error 429: Too Many Requests
+
+Failed to process content/studynote/5_database/7_exam_summary_depth/482_data_lake_schema_on_read.md: module 'time' has no attribute 'append'Failed to process content/studynote/5_database/7_exam_summary_depth/483_etl_bottleneck_issues.md: module 'time' has no attribute 'append'
+
+Processing: content/studynote/5_database/7_exam_summary_depth/485_vector_database_summary.mdProcessing: content/studynote/5_database/7_exam_summary_depth/484_elt_cloud_dw_summary.md
+
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/485_vector_database_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/486_cosine_similarity_metrics.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/484_elt_cloud_dw_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/487_ann_hnsw_algorithm.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/486_cosine_similarity_metrics.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/488_rag_framework_overview.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/487_ann_hnsw_algorithm.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/489_data_mesh_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/488_rag_framework_overview.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/490_cdc_concepts_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/489_data_mesh_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/491_dataops_lifecycle.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/490_cdc_concepts_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/491_tde_encryption_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/491_dataops_lifecycle.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/492_blockchain_smart_contract.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/491_tde_encryption_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/492_data_virtualization_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/492_blockchain_smart_contract.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/493_data_governance_3_elements.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/492_data_virtualization_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/493_lsm_tree_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/493_data_governance_3_elements.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/494_memtable_flush_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/493_lsm_tree_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/494_metadata_dictionary_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/494_memtable_flush_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/495_data_lineage_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/494_metadata_dictionary_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/495_gossip_protocol_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/495_data_lineage_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/496_data_quality_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/495_gossip_protocol_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/496_quorum_consensus_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/496_data_quality_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/497_data_anonymization_models.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/496_quorum_consensus_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/497_tombstone_deletion_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/497_tombstone_deletion_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/498_dataops_framework_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/497_data_anonymization_models.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/498_homomorphic_encryption_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/498_dataops_framework_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/499_differential_privacy_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/498_homomorphic_encryption_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/499_orm_n_plus_one_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/499_differential_privacy_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/500_blockchain_ledger_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/499_orm_n_plus_one_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/500_inverted_index_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/500_blockchain_ledger_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/501_data_monetization_framework.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/500_inverted_index_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/501_storage_compute_separation.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/501_data_monetization_framework.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/502_automated_lineage_parsing.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/501_storage_compute_separation.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/502_data_lineage_traceability.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/502_automated_lineage_parsing.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/503_data_virtualization_pushdown.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/502_data_lineage_traceability.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/503_integrated_data_governance.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/503_data_virtualization_pushdown.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/504_data_mesh_self_serve.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/503_integrated_data_governance.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/504_hot_cold_backup_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/504_data_mesh_self_serve.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/505_database_failure_recovery.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/504_hot_cold_backup_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/505_micro_segmentation_db_security.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/505_database_failure_recovery.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/506_catalog_vs_directory.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/505_micro_segmentation_db_security.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/506_tde_key_hierarchy.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/506_catalog_vs_directory.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/507_database_trigger_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/506_tde_key_hierarchy.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/507_dynamic_data_masking.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/507_database_trigger_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/508_procedure_vs_function.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/507_dynamic_data_masking.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/508_token_vault_security.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/508_procedure_vs_function.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/509_abac_security_model.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/508_token_vault_security.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/509_clustering_factor_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/509_abac_security_model.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/510_audit_log_anti_tamper.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/509_clustering_factor_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/510_bind_variable_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/510_audit_log_anti_tamper.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/511_database_monitoring_metrics.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/510_bind_variable_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/511_optimizer_hints_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/511_database_monitoring_metrics.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/512_buffer_cache_hit_ratio.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/511_optimizer_hints_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/512_denormalization_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/512_buffer_cache_hit_ratio.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/513_bind_variable_optimization.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/512_denormalization_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/513_recursive_cte_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/513_bind_variable_optimization.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/514_fact_table_dimensional_model.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/513_recursive_cte_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/514_join_order_driving_table.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/514_fact_table_dimensional_model.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/515_database_sizing_guidelines.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/514_join_order_driving_table.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/515_tsdb_retention_policy.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/515_database_sizing_guidelines.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/516_gnn_recommendation_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/515_tsdb_retention_policy.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/516_zero_downtime_migration.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/516_gnn_recommendation_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/517_dark_data_security_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/516_zero_downtime_migration.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/517_database_consolidation_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/517_dark_data_security_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/518_autonomous_database_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/517_database_consolidation_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/518_data_clean_room_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/518_autonomous_database_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/519_amazon_aurora_storage.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/518_data_clean_room_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/519_graph_algorithm_analysis.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/519_amazon_aurora_storage.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/520_federated_query_processing.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/519_graph_algorithm_analysis.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/520_pacelc_theorem_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/520_federated_query_processing.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/521_data_profiling_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/520_pacelc_theorem_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/521_dynamic_sql_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/521_data_profiling_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/522_data_governance_3_pillars.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/521_dynamic_sql_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/522_data_governance_maturity_model.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/522_data_governance_3_pillars.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/523_information_engineering_methodology.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/522_data_governance_maturity_model.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/523_mdm_golden_record.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/523_information_engineering_methodology.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/524_enhanced_er_model.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/524_enhanced_er_model.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/524_lineage_forensics_audit.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/523_mdm_golden_record.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/525_btree_split_merge.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/524_lineage_forensics_audit.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/525_zero_trust_iam_db.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/525_btree_split_merge.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/526_db_encryption_comparison.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/525_zero_trust_iam_db.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/526_hash_join_cost_analysis.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/526_db_encryption_comparison.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/527_database_access_control_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/526_hash_join_cost_analysis.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/527_normalization_paradox_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/527_database_access_control_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/528_dirty_read_avoidance.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/527_normalization_paradox_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/528_random_token_mechanism.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/528_dirty_read_avoidance.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/529_repeatable_read_phantom.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/528_random_token_mechanism.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/529_vpn_vs_direct_connect.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/529_repeatable_read_phantom.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/530_database_master_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/529_vpn_vs_direct_connect.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/530_serializable_performance_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/530_serializable_performance_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/531_2pc_blocking_issue.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/530_database_master_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/532_3pc_non_blocking_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many RequestsAPI Error (attempt 1): HTTP Error 429: Too Many Requests
+
+Failed to process content/studynote/5_database/7_exam_summary_depth/532_3pc_non_blocking_summary.md: module 'time' has no attribute 'append'Failed to process content/studynote/5_database/7_exam_summary_depth/531_2pc_blocking_issue.md: module 'time' has no attribute 'append'
+
+Processing: content/studynote/5_database/7_exam_summary_depth/533_event_sourcing_summary.md
+Processing: content/studynote/5_database/7_exam_summary_depth/534_saga_pattern_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/534_saga_pattern_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/535_base_properties_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/533_event_sourcing_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/536_sharding_hotspot_issues.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/535_base_properties_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/537_tsdb_rollup_optimization.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/536_sharding_hotspot_issues.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/538_multi_model_database_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/537_tsdb_rollup_optimization.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/539_mdm_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/538_multi_model_database_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/540_federated_query_engine.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/539_mdm_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/541_snowflake_architecture_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/540_federated_query_engine.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/542_data_protection_comparison.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/541_snowflake_architecture_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/543_db_firewall_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/542_data_protection_comparison.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/544_blind_sql_injection.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/543_db_firewall_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/545_secure_coding_orm_security.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/544_blind_sql_injection.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/546_spatial_query_mbr.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/545_secure_coding_orm_security.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/547_shortest_path_algorithm.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/546_spatial_query_mbr.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/548_data_lakehouse_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/547_shortest_path_algorithm.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/549_ai_foundation_rag_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/549_ai_foundation_rag_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/550_htap_architecture_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/548_data_lakehouse_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/551_mapreduce_shuffle_sort.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/550_htap_architecture_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/552_consistent_hashing_rebalancing.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/551_mapreduce_shuffle_sort.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/553_homomorphic_encryption_acceleration.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/552_consistent_hashing_rebalancing.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/554_tree_structure_mapping.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/553_homomorphic_encryption_acceleration.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/555_kd_tree_indexing.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/555_kd_tree_indexing.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/556_replication_lag_resolution.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/554_tree_structure_mapping.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/557_last_writer_wins_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/556_replication_lag_resolution.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/558_vector_ann_tuning_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/557_last_writer_wins_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/559_cosine_similarity_calculation.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/558_vector_ann_tuning_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/560_data_fabric_knowledge_graph.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/559_cosine_similarity_calculation.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/561_multi_az_failover_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/560_data_fabric_knowledge_graph.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/562_btree_io_optimization.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/561_multi_az_failover_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/563_hash_collision_resolution.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/562_btree_io_optimization.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/564_columnar_storage_rle.md
+Done: content/studynote/5_database/7_exam_summary_depth/466_mongodb_document_store.md
+Processing: content/studynote/5_database/7_exam_summary_depth/565_in_memory_db_persistence.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/564_columnar_storage_rle.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/566_cache_stampede_defense.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/565_in_memory_db_persistence.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/567_redis_eviction_policies.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/566_cache_stampede_defense.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/568_mongodb_sharding_rebalancing.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/567_redis_eviction_policies.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/569_cassandra_write_path.md
+Done: content/studynote/5_database/7_exam_summary_depth/475_oltp_overview.md
+Processing: content/studynote/5_database/7_exam_summary_depth/570_hive_pig_abstraction.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/569_cassandra_write_path.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/571_spark_vs_flink_streaming.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/570_hive_pig_abstraction.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/572_dataops_automation_test.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/571_spark_vs_flink_streaming.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/573_ods_vs_dw_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/572_dataops_automation_test.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/574_conformed_dimension_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/573_ods_vs_dw_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/575_scd_types_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/574_conformed_dimension_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/576_factless_fact_table.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/575_scd_types_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/577_many_to_many_resolution.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/576_factless_fact_table.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/578_super_subtype_physical_design.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/578_super_subtype_physical_design.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/579_referential_integrity_options.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/577_many_to_many_resolution.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/580_domain_integrity_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/579_referential_integrity_options.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/581_select_vs_project_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/580_domain_integrity_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/581_tablespace_management.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/581_tablespace_management.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/582_dynamic_performance_views.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/581_select_vs_project_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/582_join_operations_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/582_dynamic_performance_views.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/583_parameter_sniffing_issues.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/582_join_operations_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/583_subquery_optimization_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/583_parameter_sniffing_issues.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/584_window_frame_rows_between.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/583_subquery_optimization_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/584_window_ranking_functions.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/584_window_frame_rows_between.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/585_audit_log_integration_siem.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/584_window_ranking_functions.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/585_subquery_unnesting_optimization.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/585_audit_log_integration_siem.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/586_encryption_key_lifecycle_hsm.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/585_subquery_unnesting_optimization.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/586_join_predicate_pushdown.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/586_encryption_key_lifecycle_hsm.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/587_data_monetization_clean_room.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/586_join_predicate_pushdown.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/587_star_transformation_optimization.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/587_data_monetization_clean_room.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/588_distributed_transaction_coordinator.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/587_star_transformation_optimization.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/588_query_optimizer_logic.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/588_distributed_transaction_coordinator.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/589_index_selection_criteria.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/588_query_optimizer_logic.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/589_lamport_clock_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/589_index_selection_criteria.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/590_clock_skew_truetime.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/589_lamport_clock_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/590_database_exam_keywords_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/590_clock_skew_truetime.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/591_vacuum_garbage_collection.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/590_database_exam_keywords_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/592_shadow_paging_recovery.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/591_vacuum_garbage_collection.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/593_aries_recovery_algorithm.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/592_shadow_paging_recovery.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/594_wal_lsn_recovery_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/593_aries_recovery_algorithm.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/595_data_literacy_summary.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/594_wal_lsn_recovery_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/596_data_discovery_catalog.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/595_data_literacy_summary.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/597_data_anonymization_models.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/597_data_anonymization_models.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/598_db_encryption_integrated_strategy.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/596_data_discovery_catalog.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/599_graph_mining_analytics.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/598_db_encryption_integrated_strategy.md: module 'time' has no attribute 'append'
+Processing: content/studynote/5_database/7_exam_summary_depth/600_post_quantum_db_security.md
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/599_graph_mining_analytics.md: module 'time' has no attribute 'append'
+API Error (attempt 1): HTTP Error 429: Too Many Requests
+Failed to process content/studynote/5_database/7_exam_summary_depth/600_post_quantum_db_security.md: module 'time' has no attribute 'append'
+Done: content/studynote/5_database/7_exam_summary_depth/474_kimball_data_warehouse.md
+Done: content/studynote/5_database/7_exam_summary_depth/563_hash_collision_resolution.md
+Done: content/studynote/5_database/7_exam_summary_depth/568_mongodb_sharding_rebalancing.md
+Finished processing. Success: 2939/3273

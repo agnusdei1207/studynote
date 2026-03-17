@@ -13,7 +13,7 @@ keyword = "PagedAttention_vLLM_KVCache_MemoryFragmentation_VirtualMemory_OS_Conv
 > 2. **가치**: 기존 서빙 방식에서 발생하던 메모리 파편화(Fragmentation)와 최대 길이 선점(Over-reservation) 문제를 해결하여, 동일한 GPU 자원에서 추론 처리량(Throughput)을 최대 **2~4배**까지 향상시키는 'AI 인프라의 경제학'을 실현했다.
 > 3. **융합**: 컴퓨터 아키텍처의 가상 메모리(Virtual Memory) 및 페이징(Paging) 개념이 생성형 AI의 메모리 병목 문제와 완벽하게 융합된 사례로, 현재 업계 표준 서빙 엔진인 **vLLM**의 핵심 엔진으로 자리 잡았다.
 
----
++++
 
 ## Ⅰ. 페이즈드 어텐션 (PagedAttention) 개요
 
@@ -30,7 +30,7 @@ keyword = "PagedAttention_vLLM_KVCache_MemoryFragmentation_VirtualMemory_OS_Conv
 
 📢 **섹션 요약 비유**: 덩치 큰 가구(연속 메모리)를 통째로 옮기려다 포기하고, 가구를 조립식(페이지)으로 바꿔 좁은 틈새 공간까지 알뜰하게 활용하는 수납의 마법입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -83,7 +83,7 @@ keyword = "PagedAttention_vLLM_KVCache_MemoryFragmentation_VirtualMemory_OS_Conv
 
 📢 **섹션 요약 비유**: 한 권의 책을 여러 명이 읽을 때, 각자 책을 한 권씩 사는 게 아니라 한 권의 책을 같이 보다가(메모리 공유), 메모할 때만 자기 포스트잇을 붙이는(CoW) 방식입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -103,7 +103,7 @@ keyword = "PagedAttention_vLLM_KVCache_MemoryFragmentation_VirtualMemory_OS_Conv
 
 📢 **섹션 요약 비유**: 최신형 우주선(AI)의 연료 누출 문제를 해결하기 위해, 오래된 범선(OS)의 방수 격벽 기술을 가져와 완벽하게 수리한 것과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -121,7 +121,7 @@ keyword = "PagedAttention_vLLM_KVCache_MemoryFragmentation_VirtualMemory_OS_Conv
 
 📢 **섹션 요약 비유**: 창고(GPU VRAM)가 꽉 찼다고 새 창고를 짓는(GPU 증설) 대신, 짐을 박스(페이지)에 잘 담아 천장 끝까지 쌓아 올리고, 자주 안 쓰는 짐은 마당(CPU RAM)으로 잠시 내놓는 영리한 창고지기가 되어야 합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -135,7 +135,7 @@ keyword = "PagedAttention_vLLM_KVCache_MemoryFragmentation_VirtualMemory_OS_Conv
 
 📢 **섹션 요약 비유**: 페이즈드 어텐션은 인공지능이 '어떻게 똑똑해질 것인가'를 고민할 때, '어떻게 효율적으로 기억할 것인가'를 해결하여 비즈니스의 완성도를 높인 실질적인 공학의 승리입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
 | 관련 개념 | 관계 및 시너지 설명 |

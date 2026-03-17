@@ -13,7 +13,7 @@ keyword = "AIAgents_AgenticAI_Planning_ToolUse_Memory_ReAct_Autonomy"
 > 2. **핵심 프레임워크**: 생각(Thought)과 행동(Action)을 반복하는 **ReAct** 루프가 지능의 중심이며, 브라우저 검색, 코드 실행, 외부 API 호출 등 현실 세계에 영향을 미칠 수 있는 '실행력'을 갖춘 것이 특징이다.
 > 3. **융합**: 거대 언어 모델(LLM)을 두뇌로 삼고, 벡터 DB를 장기 기억으로, 함수 호출(Function Calling)을 손발로 삼아 융합되며, 최근에는 여러 에이전트가 협업하는 **멀티 에이전트 시스템(MAS)**으로 진화하고 있다.
 
----
++++
 
 ## Ⅰ. AI 에이전트 (AI Agents) 개요
 
@@ -31,7 +31,7 @@ keyword = "AIAgents_AgenticAI_Planning_ToolUse_Memory_ReAct_Autonomy"
 
 📢 **섹션 요약 비유**: 도서관에 앉아 책만 읽어주던 천재(LLM)가, 드디어 책상 밖으로 걸어 나와 직접 장을 보고 요리를 하기 시작한 '행동하는 지능'의 시대입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -89,7 +89,7 @@ keyword = "AIAgents_AgenticAI_Planning_ToolUse_Memory_ReAct_Autonomy"
 
 📢 **섹션 요약 비유**: 내비게이션(LLM)이 경로만 알려주는 것이 아니라, 자율주행 기능(에이전트)이 탑재되어 직접 핸들을 꺾고 브레이크를 밟으며 목적지까지 운전하는 것과 같습니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -109,7 +109,7 @@ keyword = "AIAgents_AgenticAI_Planning_ToolUse_Memory_ReAct_Autonomy"
 
 📢 **섹션 요약 비유**: 개별적으로 일하는 프리랜서들이 아니라, 서로 다른 전공을 가진 팀원들이 모여 회의(통신)를 하고 프로젝트를 끝내는 '디지털 팀'을 꾸리는 과정입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -127,7 +127,7 @@ keyword = "AIAgents_AgenticAI_Planning_ToolUse_Memory_ReAct_Autonomy"
 
 📢 **섹션 요약 비유**: 유능한 비서라도 수천만 원을 결제할 때는 반드시 사장님(인간)의 도장을 받아야 사고가 안 나는 법입니다. 자율성이 높아질수록 검증 장치도 정교해져야 합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -141,7 +141,7 @@ keyword = "AIAgents_AgenticAI_Planning_ToolUse_Memory_ReAct_Autonomy"
 
 📢 **섹션 요약 비유**: AI 에이전트는 인류가 만든 가장 똑똑한 '도구'를 넘어, 우리와 함께 일하고 고민하는 '디지털 동료'가 되어가고 있습니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
 | 관련 개념 | 관계 및 시너지 설명 |

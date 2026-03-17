@@ -13,7 +13,7 @@ keyword = "FineTuning_TransferLearning_PreTraining_DomainAdaptation_SFT"
 > 2. **가치**: 모델을 바닥부터 새로 학습시키는 사전 학습(Pre-training) 대비 약 1/1,000 수준의 시간과 자원만으로도 전문가 수준의 성능을 확보할 수 있어, 기업용 맞춤형 AI 구축의 가장 경제적이고 확실한 기술적 경로를 제공한다.
 > 3. **융합**: 고품질 정답 세트를 이용한 지도 미세조정(SFT)에서 시작하여, 최근에는 자원을 극도로 아끼는 PEFT와 LoRA 기술로 융합 발전하며 클라우드를 넘어 온디바이스 AI 환경까지 침투하고 있다.
 
----
++++
 
 ## Ⅰ. 파인튜닝 (Fine-Tuning) 개요
 
@@ -31,7 +31,7 @@ keyword = "FineTuning_TransferLearning_PreTraining_DomainAdaptation_SFT"
 
 📢 **섹션 요약 비유**: 거대한 도서관의 모든 책을 읽어 기억력이 좋아진 천재에게, 우리 회사 전용 업무 매뉴얼 한 권을 더 읽혀서 1등 사원으로 만드는 과정입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -83,7 +83,7 @@ keyword = "FineTuning_TransferLearning_PreTraining_DomainAdaptation_SFT"
 
 📢 **섹션 요약 비유**: 이미 근육질인 운동선수(Pre-trained)에게 야구 배트 휘두르는 법(Fine-tuning)만 며칠 가르치면, 운동 안 한 일반인을 10년 가르치는 것보다 훨씬 훌륭한 타자가 되는 원리입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -103,7 +103,7 @@ keyword = "FineTuning_TransferLearning_PreTraining_DomainAdaptation_SFT"
 
 📢 **섹션 요약 비유**: 사전 학습이 거대한 원석을 캐내는 광산 작업이라면, 파인튜닝은 그 원석을 깎아 보석(특정 서비스)으로 만드는 세공 작업입니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -121,7 +121,7 @@ keyword = "FineTuning_TransferLearning_PreTraining_DomainAdaptation_SFT"
 
 📢 **섹션 요약 비유**: 직원이 공부를 너무 열심히 해서 예전에 배운 가족 얼굴(상식)도 못 알아보는 일이 없도록, 적당히 복습(Replay)을 시켜가며 가르치는 지혜가 필요합니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -135,7 +135,7 @@ keyword = "FineTuning_TransferLearning_PreTraining_DomainAdaptation_SFT"
 
 📢 **섹션 요약 비유**: 파인튜닝은 인공지능이라는 거대한 대리석상에 마지막 숨결을 불어넣어, 우리 곁에서 실제로 말을 걸게 만드는 '화룡점정'의 기술입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
 | 관련 개념 | 관계 및 시너지 설명 |

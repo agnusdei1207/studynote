@@ -13,7 +13,7 @@ keyword = "PEFT_ParameterEfficientFineTuning_LoRA_Adapter_PrefixTuning_PromptTun
 > 2. **가치**: 모델 전체를 튜닝할 때 드는 막대한 VRAM(비디오 메모리) 사용량과 컴퓨팅 비용을 90% 이상 절감하여, 일반 소비자용 GPU 한 장만으로도 초거대 AI를 우리 회사에 맞게 튜닝할 수 있는 'AI 개발의 민주화'를 실현한다.
 > 3. **융합**: 가중치를 분해하는 LoRA, 입력단에 힌트를 넣는 프롬프트 튜닝(Prompt Tuning), 층 사이에 모듈을 끼우는 어댑터(Adapter) 기법으로 나뉘며, 양자화 기술(QLoRA)과 융합되어 모바일 기기 내 학습(On-device Learning)의 기반이 된다.
 
----
++++
 
 ## Ⅰ. PEFT (Parameter-Efficient Fine-Tuning) 개요
 
@@ -30,7 +30,7 @@ keyword = "PEFT_ParameterEfficientFineTuning_LoRA_Adapter_PrefixTuning_PromptTun
 
 📢 **섹션 요약 비유**: 무거운 코끼리(거대 모델)를 직접 움직이는 대신, 코끼리 등에 탄 가벼운 조련사(PEFT 모듈)만 교육시켜 코끼리의 방향을 바꾸는 기술입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -82,7 +82,7 @@ keyword = "PEFT_ParameterEfficientFineTuning_LoRA_Adapter_PrefixTuning_PromptTun
 
 📢 **섹션 요약 비유**: 두꺼운 백과사전의 모든 내용을 고치는 것이 아니라, 중요한 부분에만 **'포스트잇(PEFT 모듈)'**을 붙여서 내용을 보충하는 효율적인 수정 방식입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -101,7 +101,7 @@ keyword = "PEFT_ParameterEfficientFineTuning_LoRA_Adapter_PrefixTuning_PromptTun
 
 📢 **섹션 요약 비유**: 거대한 엔진(원본 모델) 하나에, 경주용 타이어(모듈 A), 오프로드용 타이어(모듈 B)만 갈아 끼우며 상황에 맞춰 운전하는 레이싱 전략과 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -119,7 +119,7 @@ keyword = "PEFT_ParameterEfficientFineTuning_LoRA_Adapter_PrefixTuning_PromptTun
 
 📢 **섹션 요약 비유**: 집을 매번 새로 짓는(Full FT) 건축가는 망합니다. 튼튼한 골조(Base Model)는 두고 내부 인테리어(PEFT)만 바꿔서 호텔도 만들고 병원도 만드는 건축가가 진정한 기술사입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -133,7 +133,7 @@ keyword = "PEFT_ParameterEfficientFineTuning_LoRA_Adapter_PrefixTuning_PromptTun
 
 📢 **섹션 요약 비유**: PEFT는 거대한 인공지능이라는 기차를 멈추지 않고도, 목적지에 따라 객차 한 칸만 갈아 끼우는 '가장 우아한 철도 시스템'입니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
 | 관련 개념 | 관계 및 시너지 설명 |

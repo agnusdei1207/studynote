@@ -13,7 +13,7 @@ keyword = "KVCache_KeyVector_ValueVector_AttentionOptimization_InferenceAccelera
 > 2. **가치**: 매번 문장의 처음부터 끝까지 중복 연산을 반복해야 하는 트랜스포머의 구조적 비효율을 제거하여, 문장이 길어질수록 기하급수적으로 늘어나는 추론 지연시간(Latency)을 선형적 수준으로 억제한다.
 > 3. **융합**: 고성능 서빙 프레임워크(vLLM, TGI)의 핵심 컴포넌트이며, 최근에는 메모리 사용량을 더욱 줄이기 위해 Multi-Query Attention(MQA)이나 Grouped-Query Attention(GQA) 기술과 융합되어 발전하고 있다.
 
----
++++
 
 ## Ⅰ. KV 캐시 (Key-Value Cache) 개요
 
@@ -30,7 +30,7 @@ keyword = "KVCache_KeyVector_ValueVector_AttentionOptimization_InferenceAccelera
 
 📢 **섹션 요약 비유**: 과거의 기억을 매번 새로 떠올리는 게 아니라, 중요한 요점만 메모해두고 필요할 때 즉시 꺼내 쓰는 'AI의 단기 기억 장치'입니다.
 
----
++++
 
 ## Ⅱ. 아키텍처 및 핵심 원리 (Deep Dive)
 
@@ -85,7 +85,7 @@ keyword = "KVCache_KeyVector_ValueVector_AttentionOptimization_InferenceAccelera
 
 📢 **섹션 요약 비유**: 요리할 때 매번 야채를 씻고 써는 대신, 미리 썰어둔 야채(KV)를 통에 담아 냉장고(GPU RAM)에 넣어두고 필요할 때마다 꺼내 쓰는 '프렙(Prep)' 과정입니다.
 
----
++++
 
 ## Ⅲ. 융합 비교 및 기술 분석
 
@@ -103,7 +103,7 @@ keyword = "KVCache_KeyVector_ValueVector_AttentionOptimization_InferenceAccelera
 
 📢 **섹션 요약 비유**: 혼자 밥 먹을 땐 작은 냉장고로 충분하지만, 단체 손님(Batch)이 오면 거대한 창고형 냉장고(GQA/PagedAttention)가 있어야 식당이 돌아가는 원리와 같습니다.
 
----
++++
 
 ## Ⅳ. 실무 적용 및 기술사적 판단
 
@@ -121,7 +121,7 @@ keyword = "KVCache_KeyVector_ValueVector_AttentionOptimization_InferenceAccelera
 
 📢 **섹션 요약 비유**: 무작정 큰 메모지를 준비하는 게 능사가 아닙니다. 메모지가 꽉 차면 중요한 것만 남기고 지우는(Windowing) 기술이 있어야 똑똑한 비서입니다.
 
----
++++
 
 ## Ⅴ. 기대효과 및 결론
 
@@ -135,7 +135,7 @@ keyword = "KVCache_KeyVector_ValueVector_AttentionOptimization_InferenceAccelera
 
 📢 **섹션 요약 비유**: KV 캐시는 인공지능이 '순간의 번뜩임'을 넘어 '지속적인 지혜'를 유지하게 만드는 기억의 근육입니다. 이 근육이 튼튼해야 AI가 인간의 실무에 깊숙이 들어올 수 있습니다.
 
----
++++
 
 ### 📌 관련 개념 맵 (Knowledge Graph)
 | 관련 개념 | 관계 및 시너지 설명 |
