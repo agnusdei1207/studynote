@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: 엔터프라이즈 시스템 (Enterprise Systems) — `content/studynote/7_enterprise_systems/`
-- **완료**: Enterprise **#1~#91** 작성 완료
-- **다음**: Enterprise **#92**
+- **완료**: Enterprise **#1~#92** 작성 완료
+- **다음**: Enterprise **#93** (불황 효과 / 채찍 효과)
 - **참조**: `content/studynote/7_enterprise_systems/_keyword_list.md`
 
 ---
@@ -46,8 +46,8 @@
 | SE | 800 | ~800 | 100% ✅ |
 | DB | 600 | ~600 | 100% ✅ |
 | ICT | 300 | ~800 | 37.5% |
-| Enterprise | 91 | 482 | 18.9% |
-| **합계** | **4,659** | **~5,550** | **83.9%** |
+| Enterprise | 92 | 482 | 19.1% |
+| **합계** | **4,660** | **~5,550** | **84.0%** |
 
 
 
