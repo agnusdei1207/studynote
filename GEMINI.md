@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: 엔터프라이즈 시스템 (Enterprise Systems) — `content/studynote/7_enterprise_systems/`
-- **완료**: Enterprise **#1~#104** 작성 완료
-- **다음**: Enterprise **#105** (모바일 ERP)
+- **완료**: Enterprise **#1~#107** 작성 완료
+- **다음**: Enterprise **#108** (CRM)
 - **참조**: `content/studynote/7_enterprise_systems/_keyword_list.md`
 
 ---
@@ -46,8 +46,8 @@
 | SE | 800 | ~800 | 100% ✅ |
 | DB | 600 | ~600 | 100% ✅ |
 | ICT | 300 | ~800 | 37.5% |
-| Enterprise | 104 | 482 | 21.6% |
-| **합계** | **4,672** | **~5,550** | **84.2%** |
+| Enterprise | 107 | 482 | 22.2% |
+| **합계** | **4,675** | **~5,550** | **84.2%** |
 
 
 
