@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: 엔터프라이즈 시스템 (Enterprise Systems) — `content/studynote/7_enterprise_systems/`
-- **완료**: Enterprise **#1~#170** 작성 완료
-- **다음**: Enterprise **#171** (BPR / ISP / ISMP)
+- **완료**: Enterprise **#1~#174** 작성 완료
+- **다음**: Enterprise **#175** (Value Chain Analysis / 5 Forces Model)
 - **참조**: `content/studynote/7_enterprise_systems/_keyword_list.md`
 
 ---
