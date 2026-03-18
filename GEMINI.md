@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: 엔터프라이즈 시스템 (Enterprise Systems) — `content/studynote/7_enterprise_systems/`
-- **완료**: Enterprise **#1~#201** 작성 완료
-- **다음**: Enterprise **#202** (중앙 집중화된 구성 관리 Externalized Configuration)
+- **완료**: Enterprise **#1~#223** 작성 완료
+- **다음**: Enterprise **#224** (가치 흐름 매핑 (VSM, Value Stream Mapping) 도식화)
 - **참조**: `content/studynote/7_enterprise_systems/_keyword_list.md`
 
 ---
@@ -46,8 +46,8 @@
 | SE | 800 | ~800 | 100% ✅ |
 | DB | 600 | ~600 | 100% ✅ |
 | ICT | 300 | ~800 | 37.5% |
-| Enterprise | 201 | 482 | 41.7% |
-| **합계** | **4,765** | **~5,550** | **85.8%** |
+| Enterprise | 223 | 482 | 46.3% |
+| **합계** | **4,787** | **~5,550** | **86.3%** |
 
 
 
