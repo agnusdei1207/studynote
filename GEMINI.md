@@ -60,7 +60,7 @@
 ### ⚡ 다음 작업
 - **과목**: 컴퓨터구조 (Computer Architecture) — `content/studynote/1_computer_architecture/1_basic_electronics_logic/`
 - **작업 방식**: 키워드 리스트 순서대로 **1개씩 순차 재작성** (병렬 절대 금지)
-- **다음**: `#2 전류 (Current)` → `2_current.md` 재작성
+- **다음**: `#3 저항 (Resistance)` → `3_resistance.md` 재작성
 - **진행 현황 파일**: `CA_UPGRADE_STATUS.md` (루트 디렉토리)
 - **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
 
