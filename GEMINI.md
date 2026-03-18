@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: 엔터프라이즈 시스템 (Enterprise Systems) — `content/studynote/7_enterprise_systems/`
-- **완료**: Enterprise **#1~#165** 작성 완료
-- **다음**: Enterprise **#166** (AHP / Delphi / Decision Making)
+- **완료**: Enterprise **#1~#170** 작성 완료
+- **다음**: Enterprise **#171** (BPR / ISP / ISMP)
 - **참조**: `content/studynote/7_enterprise_systems/_keyword_list.md`
 
 ---
@@ -46,8 +46,8 @@
 | SE | 800 | ~800 | 100% ✅ |
 | DB | 600 | ~600 | 100% ✅ |
 | ICT | 300 | ~800 | 37.5% |
-| Enterprise | 165 | 482 | 34.2% |
-| **합계** | **4,733** | **~5,550** | **85.3%** |
+| Enterprise | 170 | 482 | 35.3% |
+| **합계** | **4,738** | **~5,550** | **85.4%** |
 
 
 
