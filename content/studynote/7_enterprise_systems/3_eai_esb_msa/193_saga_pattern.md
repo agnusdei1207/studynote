@@ -1,3 +1,8 @@
++++
+title = "사가 패턴 (Saga Pattern)"
+description = "MSA 환경에서 긴 트랜잭션 보장, 각 서비스의 로컬 트랜잭션을 연속적으로 실행하고, 중간 실패 시 역순으로 보상 트랜잭션(Compensating Transaction)을 발행해 논리적 롤백 수행 (Eventual Consistency 보장)"
+weight = 193
++++
 # 사가 패턴 (Saga Pattern)
 
 > **약어 (Abbreviation)**: Saga (Long-running transaction pattern for distributed systems)
