@@ -30,8 +30,8 @@
 
 ### ⚡ 다음 작업
 - **과목**: 엔터프라이즈 시스템 (Enterprise Systems) — `content/studynote/7_enterprise_systems/`
-- **완료**: Enterprise **#1~#147** 작성 완료
-- **다음**: Enterprise **#148** (서킷 브레이커)
+- **완료**: Enterprise **#1~#150** 작성 완료
+- **다음**: Enterprise **#151** (분산 트랜잭션 / 2PC)
 - **참조**: `content/studynote/7_enterprise_systems/_keyword_list.md`
 
 ---
@@ -46,8 +46,8 @@
 | SE | 800 | ~800 | 100% ✅ |
 | DB | 600 | ~600 | 100% ✅ |
 | ICT | 300 | ~800 | 37.5% |
-| Enterprise | 147 | 482 | 30.5% |
-| **합계** | **4,715** | **~5,550** | **85.0%** |
+| Enterprise | 150 | 482 | 31.1% |
+| **합계** | **4,718** | **~5,550** | **85.0%** |
 
 
 
