@@ -57,9 +57,9 @@
 
 ### ⚡ 다음 작업
 - **과목**: 컴퓨터구조 (Computer Architecture) — `content/studynote/1_computer_architecture/4_instruction_set_architecture/`
-- **작업 방식**: 여러 파일을 병렬로 고도화 진행 (현재 1장 #1~72, 2장 #73~122, 3장 #123~156, 4장 #157~161 완료)
+- **작업 방식**: 여러 파일을 병렬로 고도화 진행 (현재 1장 #1~72, 2장 #73~122, 3장 #123~156, 4장 #157~169 완료)
 - **기타**: 데이터베이스(DB) #1 고도화 완료 (`5_database/1_db_basics_architecture/1_dikw_pyramid.md`)
-- **다음**: `#162 범용 레지스터` → `162_gpr.md` 재작성
+- **다음**: `#170 명령어 형식` → `170_instruction_format.md` 재작성
 - **참조**: `content/studynote/1_computer_architecture/_keyword_list.md`
 
 ---
