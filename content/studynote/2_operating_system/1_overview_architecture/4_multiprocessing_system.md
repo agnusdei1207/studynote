@@ -1,4 +1,5 @@
 +++
+weight = 4
 title = "다중 처리 시스템 (Multiprocessing System)"
 date = "2026-03-21"
 [extra]

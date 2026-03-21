@@ -1,4 +1,5 @@
 +++
+weight = 210
 title = "210. 실행 사이클 (Execute Cycle)"
 date = 2024-01-01
 [taxonomies]

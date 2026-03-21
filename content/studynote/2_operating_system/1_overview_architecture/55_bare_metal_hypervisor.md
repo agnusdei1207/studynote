@@ -1,4 +1,5 @@
 +++
+weight = 55
 title = "베어메탈 (Bare-metal) 하이퍼바이저 (Type 1)"
 date = "2026-03-21"
 [extra]

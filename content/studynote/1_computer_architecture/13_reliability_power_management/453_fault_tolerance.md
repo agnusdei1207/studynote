@@ -1,4 +1,5 @@
 +++
+weight = 453
 title = "453. 고장 허용 시스템 (Fault Tolerance)"
 date = "2026-03-20"
 [extra]

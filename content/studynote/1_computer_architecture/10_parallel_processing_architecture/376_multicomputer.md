@@ -1,4 +1,5 @@
 +++
+weight = 376
 title = "376. 다중 컴퓨터 (Multicomputer)"
 date = "2026-03-20"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 72
 title = "타이머 인터럽트 (Timer Interrupt)"
 date = "2026-03-21"
 [extra]

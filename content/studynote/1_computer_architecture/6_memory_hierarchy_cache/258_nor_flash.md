@@ -1,4 +1,5 @@
 +++
+weight = 258
 title = "258. NOR 플래시 (NOR Flash Memory)"
 date = "2026-03-20"
 [extra]

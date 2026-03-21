@@ -1,4 +1,5 @@
 +++
+weight = 383
 title = "383. 클러스터 컴퓨팅 (Cluster Computing)"
 date = "2026-03-20"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 792
 title = "Google Titan 보안 칩 (Google Titan Security Chip)"
 date = "2026-03-21"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 435
 title = "435. 가지치기 (Pruning) 지원 하드웨어"
 date = "2026-03-20"
 [extra]

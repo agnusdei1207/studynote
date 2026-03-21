@@ -1,4 +1,5 @@
 +++
+weight = 373
 title = "373. 벡터 프로세서 (Vector Processor)"
 date = "2026-03-20"
 [extra]

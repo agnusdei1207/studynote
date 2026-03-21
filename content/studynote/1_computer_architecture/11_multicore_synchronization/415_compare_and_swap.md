@@ -1,4 +1,5 @@
 +++
+weight = 415
 title = "415. Compare-and-Swap (CAS) 연산"
 date = "2026-03-20"
 [extra]

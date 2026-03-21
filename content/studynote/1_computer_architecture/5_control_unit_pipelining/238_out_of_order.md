@@ -1,4 +1,5 @@
 +++
+weight = 238
 title = "238. 비순차 실행 (Out-of-Order Execution, OoO)"
 date = 2024-01-01
 [taxonomies]

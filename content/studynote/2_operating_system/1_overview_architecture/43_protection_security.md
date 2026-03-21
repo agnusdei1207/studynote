@@ -1,4 +1,5 @@
 +++
+weight = 43
 title = "보호 (Protection) 및 보안 (Security)"
 date = "2026-03-21"
 [extra]

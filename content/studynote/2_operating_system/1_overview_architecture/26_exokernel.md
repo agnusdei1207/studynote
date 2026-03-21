@@ -1,4 +1,5 @@
 +++
+weight = 26
 title = "엑소 커널 (Exokernel)"
 date = "2026-03-21"
 [extra]

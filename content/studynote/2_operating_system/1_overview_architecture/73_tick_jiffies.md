@@ -1,4 +1,5 @@
 +++
+weight = 73
 title = "틱 (Tick) / 지피스 (Jiffies)"
 date = "2026-03-21"
 [extra]

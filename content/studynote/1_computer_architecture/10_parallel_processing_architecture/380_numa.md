@@ -1,4 +1,5 @@
 +++
+weight = 380
 title = "380. NUMA (Non-Uniform Memory Access)"
 date = "2026-03-20"
 [extra]

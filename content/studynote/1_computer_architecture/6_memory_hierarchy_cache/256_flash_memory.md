@@ -1,4 +1,5 @@
 +++
+weight = 256
 title = "256. 플래시 메모리 (Flash Memory)"
 date = "2026-03-20"
 [extra]

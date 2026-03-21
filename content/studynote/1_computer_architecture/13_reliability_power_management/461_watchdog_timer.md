@@ -1,4 +1,5 @@
 +++
+weight = 461
 title = "461. 워치독 타이머 (Watchdog Timer)"
 date = "2026-03-20"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 267
 title = "267. 직접 사상 (Direct Mapping)"
 date = "2026-03-20"
 [extra]

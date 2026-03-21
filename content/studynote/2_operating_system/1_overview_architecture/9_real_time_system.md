@@ -1,4 +1,5 @@
 +++
+weight = 9
 title = "실시간 시스템 (Real-time System)"
 date = "2026-03-21"
 [extra]

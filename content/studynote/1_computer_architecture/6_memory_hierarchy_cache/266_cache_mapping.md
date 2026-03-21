@@ -1,4 +1,5 @@
 +++
+weight = 266
 title = "266. 캐시 맵핑 방식 (Cache Mapping)"
 date = "2026-03-20"
 [extra]

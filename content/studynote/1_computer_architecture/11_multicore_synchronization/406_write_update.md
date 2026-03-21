@@ -1,4 +1,5 @@
 +++
+weight = 406
 title = "406. 갱신 정책 (Write-Update)"
 date = "2026-03-20"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 387
 title = "387. 상호 연결망 (Interconnection Network)"
 date = "2026-03-20"
 [extra]

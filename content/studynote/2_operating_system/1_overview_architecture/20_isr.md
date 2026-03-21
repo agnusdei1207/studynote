@@ -1,4 +1,5 @@
 +++
+weight = 20
 title = "인터럽트 서비스 루틴 (ISR, Interrupt Service Routine)"
 date = "2026-03-21"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 393
 title = "393. 멀티코어 프로세서 (Multi-core Processor)"
 date = "2026-03-20"
 [extra]

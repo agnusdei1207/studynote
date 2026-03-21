@@ -1,4 +1,5 @@
 +++
+weight = 5
 title = "비대칭 다중 처리 (ASMP, Asymmetric Multiprocessing)"
 date = "2026-03-21"
 [extra]

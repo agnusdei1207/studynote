@@ -1,4 +1,5 @@
 +++
+weight = 3
 title = "시분할 시스템 (Time-sharing System)"
 date = "2026-03-21"
 [extra]

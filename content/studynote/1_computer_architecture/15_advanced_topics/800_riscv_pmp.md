@@ -1,4 +1,5 @@
 +++
+weight = 800
 title = "RISC-V PMP (Physical Memory Protection)"
 date = "2026-03-21"
 [extra]

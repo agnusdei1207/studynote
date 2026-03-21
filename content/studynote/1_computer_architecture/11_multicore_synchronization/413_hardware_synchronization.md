@@ -1,4 +1,5 @@
 +++
+weight = 413
 title = "413. 하드웨어 동기화 (Hardware Synchronization)"
 date = "2026-03-20"
 [extra]

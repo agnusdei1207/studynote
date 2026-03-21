@@ -1,4 +1,5 @@
 +++
+weight = 398
 title = "398. 거친 멀티스레딩 (Coarse-grained Multithreading)"
 date = "2026-03-20"
 [extra]

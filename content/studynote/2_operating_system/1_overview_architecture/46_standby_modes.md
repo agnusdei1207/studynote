@@ -1,4 +1,5 @@
 +++
+weight = 46
 title = "핫 스탠바이 (Hot Standby) / 콜드 스탠바이 (Cold Standby)"
 date = "2026-03-21"
 [extra]

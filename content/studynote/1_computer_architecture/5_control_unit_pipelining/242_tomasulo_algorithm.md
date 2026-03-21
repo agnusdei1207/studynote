@@ -1,4 +1,5 @@
 +++
+weight = 242
 title = "242. 토마술로 알고리즘 (Tomasulo's Algorithm)"
 date = 2024-01-01
 [taxonomies]

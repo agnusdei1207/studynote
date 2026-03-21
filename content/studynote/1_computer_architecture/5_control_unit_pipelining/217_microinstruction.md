@@ -1,4 +1,5 @@
 +++
+weight = 217
 title = "217. 마이크로명령어 (Microinstruction)"
 date = 2024-01-01
 [taxonomies]

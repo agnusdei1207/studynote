@@ -1,4 +1,5 @@
 +++
+weight = 410
 title = "410. 메모리 일관성 모델 (Memory Consistency Model)"
 date = "2026-03-20"
 [extra]

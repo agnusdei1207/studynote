@@ -1,4 +1,5 @@
 +++
+weight = 264
 title = "264. 적중률 (Hit Ratio)"
 date = "2026-03-20"
 [extra]

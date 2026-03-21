@@ -1,4 +1,5 @@
 +++
+weight = 419
 title = "419. GPGPU (General-Purpose GPU)"
 date = "2026-03-20"
 [extra]

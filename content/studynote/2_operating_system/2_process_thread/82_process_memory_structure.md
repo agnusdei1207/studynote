@@ -1,4 +1,5 @@
 +++
+weight = 82
 title = "프로세스 메모리 구조 - Text, Data, BSS, Heap, Stack"
 date = "2026-03-21"
 [extra]

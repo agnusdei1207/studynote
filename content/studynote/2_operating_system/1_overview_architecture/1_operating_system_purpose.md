@@ -1,4 +1,5 @@
 +++
+weight = 1
 title = "운영체제 (Operating System)의 목적"
 date = "2026-03-21"
 [extra]

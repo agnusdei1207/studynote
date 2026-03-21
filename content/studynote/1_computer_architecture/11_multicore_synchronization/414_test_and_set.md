@@ -1,4 +1,5 @@
 +++
+weight = 414
 title = "414. Test-and-Set 연산"
 date = "2026-03-20"
 [extra]

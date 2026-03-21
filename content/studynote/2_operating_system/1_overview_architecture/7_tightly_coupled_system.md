@@ -1,4 +1,5 @@
 +++
+weight = 7
 title = "강결합 시스템 (Tightly Coupled System)"
 date = "2026-03-21"
 [extra]

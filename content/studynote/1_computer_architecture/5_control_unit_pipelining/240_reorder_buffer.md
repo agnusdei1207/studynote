@@ -1,4 +1,5 @@
 +++
+weight = 240
 title = "240. 재주문 버퍼 (ROB, Reorder Buffer)"
 date = 2024-01-01
 [taxonomies]

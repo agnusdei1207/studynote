@@ -1,4 +1,5 @@
 +++
+weight = 403
 title = "403. 스누핑 프로토콜 (Snooping Protocol)"
 date = "2026-03-20"
 [extra]

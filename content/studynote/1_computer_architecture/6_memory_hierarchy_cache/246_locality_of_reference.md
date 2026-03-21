@@ -1,4 +1,5 @@
 +++
+weight = 246
 title = "246. 참조의 지역성 (Locality of Reference)"
 date = 2024-01-01
 [taxonomies]

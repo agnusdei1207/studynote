@@ -1,4 +1,5 @@
 +++
+weight = 74
 title = "틱리스 커널 (Tickless Kernel)"
 date = "2026-03-21"
 [extra]

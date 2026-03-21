@@ -1,4 +1,5 @@
 +++
+weight = 222
 title = "222. 구조적 해저드 (Structural Hazard)"
 date = 2024-01-01
 [taxonomies]

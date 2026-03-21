@@ -1,4 +1,5 @@
 +++
+weight = 372
 title = "372. MIMD (다중 명령어 다중 데이터)"
 date = "2026-03-20"
 [extra]

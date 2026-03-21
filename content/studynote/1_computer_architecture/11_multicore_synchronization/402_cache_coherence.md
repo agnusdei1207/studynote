@@ -1,4 +1,5 @@
 +++
+weight = 402
 title = "402. 캐시 일관성 (Cache Coherence)"
 date = "2026-03-20"
 [extra]

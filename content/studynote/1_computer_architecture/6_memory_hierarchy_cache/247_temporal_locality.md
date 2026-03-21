@@ -1,4 +1,5 @@
 +++
+weight = 247
 title = "247. 시간적 지역성 (Temporal Locality)"
 date = 2024-01-01
 [taxonomies]

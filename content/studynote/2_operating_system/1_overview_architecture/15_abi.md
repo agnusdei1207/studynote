@@ -1,4 +1,5 @@
 +++
+weight = 15
 title = "ABI (Application Binary Interface)"
 date = "2026-03-21"
 [extra]

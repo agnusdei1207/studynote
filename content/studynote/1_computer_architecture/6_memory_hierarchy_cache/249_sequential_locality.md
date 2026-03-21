@@ -1,4 +1,5 @@
 +++
+weight = 249
 title = "249. 순차적 지역성 (Sequential Locality)"
 date = "2026-03-20"
 [extra]

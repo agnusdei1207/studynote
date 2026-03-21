@@ -1,4 +1,5 @@
 +++
+weight = 434
 title = "434. 양자화 (Quantization, INT8, INT4)"
 date = "2026-03-20"
 [extra]

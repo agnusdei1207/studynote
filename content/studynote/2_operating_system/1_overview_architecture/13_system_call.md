@@ -1,4 +1,5 @@
 +++
+weight = 13
 title = "시스템 호출 (System Call)"
 date = "2026-03-21"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 427
 title = "427. 텐서 코어 (Tensor Core)"
 date = "2026-03-20"
 [extra]

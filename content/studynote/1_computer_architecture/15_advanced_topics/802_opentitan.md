@@ -1,4 +1,5 @@
 +++
+weight = 802
 title = "오픈소스 하드웨어 RoT (OpenTitan)"
 date = "2026-03-21"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 428
 title = "428. MAC 연산 (Multiply-Accumulate)"
 date = "2026-03-20"
 [extra]

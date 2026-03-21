@@ -1,4 +1,5 @@
 +++
+weight = 16
 title = "인터럽트 메커니즘 (Interrupt Mechanism)"
 date = "2026-03-21"
 [extra]

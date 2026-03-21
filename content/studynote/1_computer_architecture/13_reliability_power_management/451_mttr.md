@@ -1,4 +1,5 @@
 +++
+weight = 451
 title = "451. MTTR (평균 수리 시간)"
 date = "2026-03-20"
 [extra]

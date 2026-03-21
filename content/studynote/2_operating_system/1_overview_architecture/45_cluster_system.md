@@ -1,4 +1,5 @@
 +++
+weight = 45
 title = "클러스터 시스템 (Clustered System)"
 date = "2026-03-21"
 [extra]

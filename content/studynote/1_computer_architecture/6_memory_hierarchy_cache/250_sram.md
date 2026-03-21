@@ -1,4 +1,5 @@
 +++
+weight = 250
 title = "250. SRAM (Static Random Access Memory)"
 date = "2026-03-20"
 [extra]

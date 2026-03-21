@@ -1,4 +1,5 @@
 +++
+weight = 390
 title = "390. 토러스 (Torus)"
 date = "2026-03-20"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 8
 title = "약결합 시스템 (Loosely Coupled System)"
 date = "2026-03-21"
 [extra]

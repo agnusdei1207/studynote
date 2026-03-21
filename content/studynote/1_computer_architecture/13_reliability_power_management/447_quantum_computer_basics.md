@@ -1,4 +1,5 @@
 +++
+weight = 447
 title = "447. 양자 컴퓨터 (Quantum Computer) 기초"
 date = "2026-03-20"
 [extra]

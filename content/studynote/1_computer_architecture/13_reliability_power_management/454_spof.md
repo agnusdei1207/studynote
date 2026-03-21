@@ -1,4 +1,5 @@
 +++
+weight = 454
 title = "454. 단일 장애점 (SPOF, Single Point of Failure)"
 date = "2026-03-20"
 [extra]

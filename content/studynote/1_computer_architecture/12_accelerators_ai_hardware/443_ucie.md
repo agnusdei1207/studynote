@@ -1,4 +1,5 @@
 +++
+weight = 443
 title = "443. UCIe (Universal Chiplet Interconnect Express)"
 date = "2026-03-20"
 [extra]

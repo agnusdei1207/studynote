@@ -1,4 +1,5 @@
 +++
+weight = 401
 title = "401. 하이퍼스레딩 (Hyper-Threading)"
 date = "2026-03-20"
 [extra]

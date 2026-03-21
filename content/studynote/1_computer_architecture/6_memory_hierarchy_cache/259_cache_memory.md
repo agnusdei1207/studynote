@@ -1,4 +1,5 @@
 +++
+weight = 259
 title = "259. 캐시 메모리 (Cache Memory)"
 date = "2026-03-20"
 [extra]

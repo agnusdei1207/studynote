@@ -1,4 +1,5 @@
 +++
+weight = 219
 title = "219. 파이프라인 단계 (IF, ID, EX, MEM, WB)"
 date = 2024-01-01
 [taxonomies]

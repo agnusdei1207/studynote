@@ -1,4 +1,5 @@
 +++
+weight = 206
 title = "206. 제어 유닛 (Control Unit)"
 date = 2024-01-01
 [taxonomies]

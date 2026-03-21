@@ -1,4 +1,5 @@
 +++
+weight = 439
 title = "439. 이기종 컴퓨팅 (Heterogeneous Computing)"
 date = "2026-03-20"
 [extra]

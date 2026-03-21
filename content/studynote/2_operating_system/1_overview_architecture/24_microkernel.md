@@ -1,4 +1,5 @@
 +++
+weight = 24
 title = "마이크로 커널 (Microkernel)"
 date = "2026-03-21"
 [extra]

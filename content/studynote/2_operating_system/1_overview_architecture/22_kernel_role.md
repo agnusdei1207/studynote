@@ -1,4 +1,5 @@
 +++
+weight = 22
 title = "커널 (Kernel)의 역할"
 date = "2026-03-21"
 [extra]

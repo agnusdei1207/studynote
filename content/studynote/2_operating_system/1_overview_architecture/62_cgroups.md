@@ -1,4 +1,5 @@
 +++
+weight = 62
 title = "컨트롤 그룹 (cgroups)"
 date = "2026-03-21"
 [extra]

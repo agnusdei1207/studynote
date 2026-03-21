@@ -1,4 +1,5 @@
 +++
+weight = 211
 title = "211. 간접 사이클 (Indirect Cycle)"
 date = 2024-01-01
 [taxonomies]

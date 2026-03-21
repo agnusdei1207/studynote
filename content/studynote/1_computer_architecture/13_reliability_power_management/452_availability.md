@@ -1,4 +1,5 @@
 +++
+weight = 452
 title = "452. 가용성 (Availability)"
 date = "2026-03-20"
 [extra]

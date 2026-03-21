@@ -1,4 +1,5 @@
 +++
+weight = 456
 title = "456. 이중화 (Dual Redundancy)"
 date = "2026-03-20"
 [extra]

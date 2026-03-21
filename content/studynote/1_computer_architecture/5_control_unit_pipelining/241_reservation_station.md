@@ -1,4 +1,5 @@
 +++
+weight = 241
 title = "241. 예약역 (Reservation Station)"
 date = 2024-01-01
 [taxonomies]

@@ -1,4 +1,5 @@
 +++
+weight = 448
 title = "448. 큐비트 (Qubit)"
 date = "2026-03-20"
 [extra]

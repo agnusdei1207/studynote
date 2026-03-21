@@ -1,4 +1,5 @@
 +++
+weight = 232
 title = "232. 정적 분기 예측 (Static Prediction)"
 date = 2024-01-01
 [taxonomies]

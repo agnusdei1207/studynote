@@ -1,4 +1,5 @@
 +++
+weight = 389
 title = "389. 메시 (Mesh) 토폴로지"
 date = "2026-03-20"
 [extra]

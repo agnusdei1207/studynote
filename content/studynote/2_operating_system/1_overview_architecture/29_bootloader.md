@@ -1,4 +1,5 @@
 +++
+weight = 29
 title = "부트로더 (Bootloader)"
 date = "2026-03-21"
 [extra]

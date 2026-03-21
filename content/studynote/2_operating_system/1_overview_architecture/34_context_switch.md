@@ -1,4 +1,5 @@
 +++
+weight = 34
 title = "문맥 교환 (Context Switch)"
 date = "2026-03-21"
 [extra]

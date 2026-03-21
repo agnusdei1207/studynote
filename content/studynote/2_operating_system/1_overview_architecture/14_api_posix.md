@@ -1,4 +1,5 @@
 +++
+weight = 14
 title = "API 및 POSIX 표준"
 date = "2026-03-21"
 [extra]

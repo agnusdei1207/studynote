@@ -1,4 +1,5 @@
 +++
+weight = 40
 title = "오류 탐지 (Error Detection)"
 date = "2026-03-21"
 [extra]

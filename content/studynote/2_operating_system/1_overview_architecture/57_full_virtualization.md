@@ -1,4 +1,5 @@
 +++
+weight = 57
 title = "전가상화 (Full Virtualization)"
 date = "2026-03-21"
 [extra]

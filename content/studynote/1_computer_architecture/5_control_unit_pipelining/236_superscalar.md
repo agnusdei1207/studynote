@@ -1,4 +1,5 @@
 +++
+weight = 236
 title = "236. 수퍼스칼라 (Superscalar)"
 date = 2024-01-01
 [taxonomies]

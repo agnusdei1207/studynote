@@ -1,4 +1,5 @@
 +++
+weight = 17
 title = "하드웨어 인터럽트 (Hardware Interrupt)"
 date = "2026-03-21"
 [extra]

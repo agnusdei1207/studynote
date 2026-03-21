@@ -1,4 +1,5 @@
 +++
+weight = 69
 title = "eBPF (Extended Berkeley Packet Filter)"
 date = "2026-03-21"
 [extra]

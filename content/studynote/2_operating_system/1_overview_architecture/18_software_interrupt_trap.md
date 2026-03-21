@@ -1,4 +1,5 @@
 +++
+weight = 18
 title = "소프트웨어 인터럽트, 트랩 및 예외 (Software Interrupt, Trap & Exception)"
 date = "2026-03-21"
 [extra]

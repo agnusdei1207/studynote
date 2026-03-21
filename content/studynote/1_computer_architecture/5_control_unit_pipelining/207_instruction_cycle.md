@@ -1,4 +1,5 @@
 +++
+weight = 207
 title = "207. 명령어 사이클 (Instruction Cycle)"
 date = 2024-01-01
 [taxonomies]

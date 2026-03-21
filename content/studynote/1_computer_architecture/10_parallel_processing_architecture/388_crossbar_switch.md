@@ -1,4 +1,5 @@
 +++
+weight = 388
 title = "388. 크로스바 스위치 (Crossbar Switch)"
 date = "2026-03-20"
 [extra]

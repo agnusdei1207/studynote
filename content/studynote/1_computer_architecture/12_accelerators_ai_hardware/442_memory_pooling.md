@@ -1,4 +1,5 @@
 +++
+weight = 442
 title = "442. 메모리 풀링 (Memory Pooling)"
 date = "2026-03-20"
 [extra]

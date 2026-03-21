@@ -1,4 +1,5 @@
 +++
+weight = 248
 title = "248. 공간적 지역성 (Spatial Locality)"
 date = 2024-01-01
 [taxonomies]

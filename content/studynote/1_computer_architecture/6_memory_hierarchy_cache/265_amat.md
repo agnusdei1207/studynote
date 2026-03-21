@@ -1,4 +1,5 @@
 +++
+weight = 265
 title = "265. 평균 메모리 접근 시간 (AMAT)"
 date = "2026-03-20"
 [extra]

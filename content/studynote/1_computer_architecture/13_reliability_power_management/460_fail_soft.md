@@ -1,4 +1,5 @@
 +++
+weight = 460
 title = "460. 페일 소프트 (Fail-Soft)"
 date = "2026-03-20"
 [extra]

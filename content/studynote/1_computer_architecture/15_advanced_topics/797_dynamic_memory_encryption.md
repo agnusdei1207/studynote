@@ -1,4 +1,5 @@
 +++
+weight = 797
 title = "동적 메모리 암호화 (Dynamic Memory Encryption)"
 date = "2026-03-21"
 [extra]

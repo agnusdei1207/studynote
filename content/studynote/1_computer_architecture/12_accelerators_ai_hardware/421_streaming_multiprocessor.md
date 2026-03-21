@@ -1,4 +1,5 @@
 +++
+weight = 421
 title = "421. 스트리밍 멀티프로세서 (SM, Streaming Multiprocessor)"
 date = "2026-03-20"
 [extra]

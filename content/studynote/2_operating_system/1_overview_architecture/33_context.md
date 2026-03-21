@@ -1,4 +1,5 @@
 +++
+weight = 33
 title = "문맥 (Context)"
 date = "2026-03-21"
 [extra]

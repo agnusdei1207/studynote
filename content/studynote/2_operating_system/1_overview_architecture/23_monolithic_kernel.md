@@ -1,4 +1,5 @@
 +++
+weight = 23
 title = "모놀리식 커널 (Monolithic Kernel)"
 date = "2026-03-21"
 [extra]

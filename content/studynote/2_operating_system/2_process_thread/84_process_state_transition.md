@@ -1,4 +1,5 @@
 +++
+weight = 84
 title = "프로세스 상태 전이 (Process State Transition)"
 date = "2026-03-21"
 [extra]

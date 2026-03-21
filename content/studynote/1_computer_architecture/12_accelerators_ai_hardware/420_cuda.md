@@ -1,4 +1,5 @@
 +++
+weight = 420
 title = "420. CUDA (Compute Unified Device Architecture)"
 date = "2026-03-20"
 [extra]

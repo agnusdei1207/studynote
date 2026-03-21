@@ -1,4 +1,5 @@
 +++
+weight = 25
 title = "하이브리드 커널 (Hybrid Kernel)"
 date = "2026-03-21"
 [extra]

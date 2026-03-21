@@ -1,4 +1,5 @@
 +++
+weight = 262
 title = "262. L3 캐시 (Level 3 Cache)"
 date = "2026-03-20"
 [extra]

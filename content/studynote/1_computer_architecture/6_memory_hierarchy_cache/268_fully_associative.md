@@ -1,4 +1,5 @@
 +++
+weight = 268
 title = "268. 완전 연관 사상 (Fully Associative Mapping)"
 date = "2026-03-20"
 [extra]

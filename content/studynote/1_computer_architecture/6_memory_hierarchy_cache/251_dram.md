@@ -1,4 +1,5 @@
 +++
+weight = 251
 title = "251. DRAM (Dynamic Random Access Memory)"
 date = "2026-03-20"
 [extra]

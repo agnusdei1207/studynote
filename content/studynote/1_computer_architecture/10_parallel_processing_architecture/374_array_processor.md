@@ -1,4 +1,5 @@
 +++
+weight = 374
 title = "374. 배열 프로세서 (Array Processor)"
 date = "2026-03-20"
 [extra]

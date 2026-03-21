@@ -1,4 +1,5 @@
 +++
+weight = 83
 title = "프로세스 제어 블록 (PCB, Process Control Block)"
 date = "2026-03-21"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 229
 title = "229. 파이프라인 스톨 (Pipeline Stall / Bubble)"
 date = 2024-01-01
 [taxonomies]

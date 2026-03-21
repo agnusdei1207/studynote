@@ -1,4 +1,5 @@
 +++
+weight = 11
 title = "듀얼 모드 (Dual Mode)"
 date = "2026-03-21"
 [extra]

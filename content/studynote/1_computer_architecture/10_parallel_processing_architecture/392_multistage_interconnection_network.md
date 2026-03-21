@@ -1,4 +1,5 @@
 +++
+weight = 392
 title = "392. 다단 연결망 (MIN, Multistage Interconnection Network)"
 date = "2026-03-20"
 [extra]

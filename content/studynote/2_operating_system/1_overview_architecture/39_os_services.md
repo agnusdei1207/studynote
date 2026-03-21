@@ -1,4 +1,5 @@
 +++
+weight = 39
 title = "운영체제 서비스 (OS Services)"
 date = "2026-03-21"
 [extra]

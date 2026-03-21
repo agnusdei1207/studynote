@@ -1,4 +1,5 @@
 +++
+weight = 208
 title = "208. 인출 사이클 (Fetch Cycle)"
 date = 2024-01-01
 [taxonomies]

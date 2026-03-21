@@ -1,4 +1,5 @@
 +++
+weight = 230
 title = "230. 분기 지연 (Delayed Branch)"
 date = 2024-01-01
 [taxonomies]

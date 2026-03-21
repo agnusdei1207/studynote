@@ -1,4 +1,5 @@
 +++
+weight = 412
 title = "412. 완화된 일관성 (Relaxed Consistency)"
 date = "2026-03-20"
 [extra]

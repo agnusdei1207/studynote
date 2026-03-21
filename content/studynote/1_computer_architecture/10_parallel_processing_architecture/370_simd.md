@@ -1,4 +1,5 @@
 +++
+weight = 370
 title = "370. SIMD (단일 명령어 다중 데이터)"
 date = "2026-03-20"
 [extra]

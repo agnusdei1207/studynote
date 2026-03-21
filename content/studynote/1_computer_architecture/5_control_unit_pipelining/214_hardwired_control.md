@@ -1,4 +1,5 @@
 +++
+weight = 214
 title = "214. 하드와이어드 제어 (Hardwired Control)"
 date = 2024-01-01
 [taxonomies]

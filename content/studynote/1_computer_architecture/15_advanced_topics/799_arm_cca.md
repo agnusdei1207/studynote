@@ -1,4 +1,5 @@
 +++
+weight = 799
 title = "ARM CCA (Confidential Compute Architecture)"
 date = "2026-03-21"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 252
 title = "252. SDRAM (Synchronous Dynamic RAM)"
 date = "2026-03-20"
 [extra]

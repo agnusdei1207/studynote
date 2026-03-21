@@ -1,4 +1,5 @@
 +++
+weight = 30
 title = "UEFI vs BIOS"
 date = "2026-03-21"
 [extra]

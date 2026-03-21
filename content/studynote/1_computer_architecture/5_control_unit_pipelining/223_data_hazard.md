@@ -1,4 +1,5 @@
 +++
+weight = 223
 title = "223. 데이터 해저드 (Data Hazard)"
 date = 2024-01-01
 [taxonomies]

@@ -1,4 +1,5 @@
 +++
+weight = 396
 title = "396. big.LITTLE 아키텍처"
 date = "2026-03-20"
 [extra]

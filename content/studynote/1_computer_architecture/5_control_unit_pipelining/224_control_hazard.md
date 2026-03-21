@@ -1,4 +1,5 @@
 +++
+weight = 224
 title = "224. 제어 해저드 (Control Hazard / Branch Hazard)"
 date = 2024-01-01
 [taxonomies]

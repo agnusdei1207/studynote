@@ -1,4 +1,5 @@
 +++
+weight = 375
 title = "375. 다중 프로세서 (Multiprocessor)"
 date = "2026-03-20"
 [extra]

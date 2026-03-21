@@ -1,4 +1,5 @@
 +++
+weight = 395
 title = "395. 이기종 멀티코어 (Heterogeneous Multi-core)"
 date = "2026-03-20"
 [extra]

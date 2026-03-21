@@ -1,4 +1,5 @@
 +++
+weight = 245
 title = "245. 메모리 계층 구조 (Memory Hierarchy)"
 date = 2024-01-01
 [taxonomies]

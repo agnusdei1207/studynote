@@ -1,4 +1,5 @@
 +++
+weight = 426
 title = "426. 시스톨릭 어레이 (Systolic Array)"
 date = "2026-03-20"
 [extra]

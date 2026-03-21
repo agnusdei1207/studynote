@@ -1,4 +1,5 @@
 +++
+weight = 257
 title = "257. NAND 플래시 (NAND Flash Memory)"
 date = "2026-03-20"
 [extra]

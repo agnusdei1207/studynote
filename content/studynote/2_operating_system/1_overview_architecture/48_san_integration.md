@@ -1,4 +1,5 @@
 +++
+weight = 48
 title = "스토리지 영역 네트워크 (SAN) 연동"
 date = "2026-03-21"
 [extra]

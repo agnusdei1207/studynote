@@ -1,4 +1,5 @@
 +++
+weight = 50
 title = "P2P (Peer-to-Peer) 시스템"
 date = "2026-03-21"
 [extra]

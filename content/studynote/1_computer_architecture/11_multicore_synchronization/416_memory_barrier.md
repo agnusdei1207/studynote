@@ -1,4 +1,5 @@
 +++
+weight = 416
 title = "416. 메모리 배리어 (Memory Barrier / Fence)"
 date = "2026-03-20"
 [extra]

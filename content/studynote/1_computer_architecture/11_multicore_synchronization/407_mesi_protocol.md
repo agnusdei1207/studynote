@@ -1,4 +1,5 @@
 +++
+weight = 407
 title = "407. MESI 프로토콜 (Modified, Exclusive, Shared, Invalid)"
 date = "2026-03-20"
 [extra]

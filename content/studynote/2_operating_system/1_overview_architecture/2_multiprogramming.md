@@ -1,4 +1,5 @@
 +++
+weight = 2
 title = "다중 프로그래밍 (Multiprogramming)"
 date = "2026-03-21"
 [extra]

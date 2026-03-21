@@ -1,4 +1,5 @@
 +++
+weight = 71
 title = "운영체제 타이머 (Timer)"
 date = "2026-03-21"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 10
 title = "임베디드 시스템 (Embedded System)"
 date = "2026-03-21"
 [extra]

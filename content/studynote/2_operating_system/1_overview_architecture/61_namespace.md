@@ -1,4 +1,5 @@
 +++
+weight = 61
 title = "네임스페이스 (Namespace)"
 date = "2026-03-21"
 [extra]

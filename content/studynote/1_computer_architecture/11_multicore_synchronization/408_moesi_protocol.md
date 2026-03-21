@@ -1,4 +1,5 @@
 +++
+weight = 408
 title = "408. MOESI 프로토콜"
 date = "2026-03-20"
 [extra]

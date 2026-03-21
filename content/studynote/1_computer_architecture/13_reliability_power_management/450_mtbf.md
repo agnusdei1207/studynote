@@ -1,4 +1,5 @@
 +++
+weight = 450
 title = "450. MTBF (평균 무고장 시간)"
 date = "2026-03-20"
 [extra]

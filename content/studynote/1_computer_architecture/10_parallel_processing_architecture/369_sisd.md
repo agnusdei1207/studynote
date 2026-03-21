@@ -1,4 +1,5 @@
 +++
+weight = 369
 title = "369. SISD (단일 명령어 단일 데이터)"
 date = "2026-03-20"
 [extra]

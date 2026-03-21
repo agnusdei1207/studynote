@@ -1,4 +1,5 @@
 +++
+weight = 794
 title = "AWS Nitro Enclaves (AWS 니트로 엔클레이브)"
 date = "2026-03-21"
 [extra]

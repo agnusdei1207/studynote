@@ -1,49 +1,53 @@
 import os
-import glob
 import re
 
-def fix_file(file_path):
-    with open(file_path, 'r', encoding='utf-8') as f:
-        content = f.read()
-    
-    # 1. Strip leading/trailing whitespaces
-    content = content.strip()
-    
-    # 2. Find the first occurrence of +++ or ---
-    # We want to find the real front matter content
-    # Look for title = "..." or title: "..."
-    
-    # Let's try to extract anything between the first and second delimiters
-    # but be careful about nested ones.
-    
-    # Actually, a better way:
-    # Remove any combination of --- and +++ at the very start
-    while content.startswith('---') or content.startswith('+++'):
-        content = re.sub(r'^(\+\+\+|---)\s*', '', content)
-    
-    # Now the content should start with the actual fields.
-    # Find where the front matter ends (the first +++ or ---)
-    end_match = re.search(r'\n(\+\+\+|---)', content)
-    if end_match:
-        fm = content[:end_match.start()].strip()
-        body = content[end_match.end():].strip()
-        
-        # Clean up fm: remove any internal +++ or --- lines
-        fm_lines = [line.strip() for line in fm.split('\n') if line.strip() not in ['---', '+++', '```', '```markdown']]
-        
-        # Standardize fm lines to TOML (key = value)
-        new_fm_lines = []
-        for line in fm_lines:
-            if not line: continue
-            if ':' in line and '=' not in line and not line.startswith('['):
-                line = re.sub(r'^([a-zA-Z0-9_]+)\s*:\s*(.*)$', r'\1 = \2', line)
-            new_fm_lines.append(line)
-            
-        new_content = '+++\n' + '\n'.join(new_fm_lines) + '\n+++\n\n' + body
-        
-        with open(file_path, 'w', encoding='utf-8') as f:
-            f.write(new_content)
+base_dir = "content/studynote"
+fixed_count = 0
 
-for filepath in glob.glob('content/**/*.md', recursive=True):
-    if '_index.md' in filepath: continue
-    fix_file(filepath)
+for root, _, files in os.walk(base_dir):
+    for filename in files:
+        if filename.endswith(".md") and not filename.startswith("_"):
+            file_path = os.path.join(root, filename)
+            
+            with open(file_path, 'r', encoding='utf-8') as f:
+                lines = f.readlines()
+            
+            if not lines or lines[0].strip() != "+++":
+                continue
+                
+            # Find the end of front matter
+            end_fm_idx = -1
+            for i in range(1, len(lines)):
+                if lines[i].strip() == "+++":
+                    end_fm_idx = i
+                    break
+            
+            if end_fm_idx == -1:
+                continue
+
+            fm_lines = lines[1:end_fm_idx]
+            
+            weight_val = None
+            new_fm_lines = []
+            
+            # Extract existing weight and filter it out
+            for line in fm_lines:
+                if line.startswith("weight =") or line.startswith("weight="):
+                    weight_val = line.split("=")[1].strip()
+                else:
+                    new_fm_lines.append(line)
+            
+            if weight_val:
+                # Insert weight at the very beginning of the front matter
+                new_fm_lines.insert(0, f"weight = {weight_val}\n")
+                
+                # Reconstruct file
+                new_lines = ["+++\n"] + new_fm_lines + ["+++\n"] + lines[end_fm_idx+1:]
+                
+                # Check if it was actually modified
+                if lines != new_lines:
+                    with open(file_path, 'w', encoding='utf-8') as f:
+                        f.writelines(new_lines)
+                    fixed_count += 1
+
+print(f"Fixed weight location in {fixed_count} files.")

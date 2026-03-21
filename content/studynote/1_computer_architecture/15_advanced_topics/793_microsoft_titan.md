@@ -1,4 +1,5 @@
 +++
+weight = 793
 title = "Microsoft Titan 보안 칩 (Microsoft Titan Security Chip - Azure RoT)"
 date = "2026-03-21"
 [extra]

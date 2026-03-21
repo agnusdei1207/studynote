@@ -1,4 +1,5 @@
 +++
+weight = 213
 title = "213. 마이크로 오퍼레이션 (Micro-operation)"
 date = 2024-01-01
 [taxonomies]

@@ -1,4 +1,5 @@
 +++
+weight = 37
 title = "시스템 데몬 (System Daemon) / 백그라운드 프로세스"
 date = "2026-03-21"
 [extra]

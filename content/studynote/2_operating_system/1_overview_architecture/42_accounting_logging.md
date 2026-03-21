@@ -1,4 +1,5 @@
 +++
+weight = 42
 title = "회계 (Accounting) 및 로깅"
 date = "2026-03-21"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 47
 title = "분산 잠금 관리자 (DLM, Distributed Lock Manager)"
 date = "2026-03-21"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 67
 title = "모듈 적재 (Loadable Kernel Modules, LKM)"
 date = "2026-03-21"
 [extra]

@@ -1,4 +1,5 @@
 +++
+weight = 405
 title = "405. 무효화 정책 (Write-Invalidate)"
 date = "2026-03-20"
 [extra]

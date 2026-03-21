@@ -1,4 +1,5 @@
 +++
+weight = 38
 title = "init 프로세스 / systemd"
 date = "2026-03-21"
 [extra]

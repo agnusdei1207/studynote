@@ -1,4 +1,5 @@
 +++
+weight = 458
 title = "458. 콜드 스탠바이 (Cold Standby)"
 date = "2026-03-20"
 [extra]

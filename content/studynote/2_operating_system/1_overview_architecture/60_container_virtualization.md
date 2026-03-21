@@ -1,4 +1,5 @@
 +++
+weight = 60
 title = "컨테이너 가상화 (Container Virtualization)"
 date = "2026-03-21"
 [extra]
