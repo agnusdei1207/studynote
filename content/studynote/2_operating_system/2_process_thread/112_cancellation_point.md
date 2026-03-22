@@ -1,6 +1,6 @@
 +++
 title = "취소 점 (Cancellation Point)"
-date = "2026-2026-03-22"
+date = "2026-03-22"
 weight = 112
 [extra]
 categories = "studynote-operating-system"
