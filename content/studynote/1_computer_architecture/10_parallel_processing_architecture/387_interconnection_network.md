@@ -28,7 +28,7 @@ categories = "studynote-computer-architecture"
 
 (A) 공유 버스 (Shared Bus) 구조 - 코어가 늘면 사망
 [CPU1] [CPU2] [CPU3] [CPU4] 
-   └──────┼──────┴─────┘ 
+   └──────┼──────┴──────┘
           ▼ (4대가 동시에 진입 불가능. 한 명씩 순서대로!)
    =======[ System Bus ]=======
           ▼

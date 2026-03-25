@@ -79,19 +79,19 @@ categories = "studynote-operating-system"
 운영체제가 "누가 무엇을 할 수 있는가"를 관리하는 방식은 크게 '객체 중심'과 '주체 중심'으로 나뉜다.
 
 ```text
- ┌──────────────────────────────────────────────────────────────────┐
- │                Access Control Implementation Styles              │
- ├──────────────────────────────────────────────────────────────────┤
- │                                                                  │
- │   1. Access Control List (ACL)      2. Capability List           │
- │      [ Object: File_A ]                [ Subject: User_X ]       │
- │         - User_1: Read/Write              - File_A: Read/Write   │
- │         - User_2: Read Only               - File_B: Execute      │
- │         - Group_A: No Access              - Device_C: Control    │
- │                                                                  │
+ ┌─────────────────────────────────────────────────────────────────────────┐
+ │                Access Control Implementation Styles                     │
+ ├─────────────────────────────────────────────────────────────────────────┤
+ │                                                                         │
+ │   1. Access Control List (ACL)      2. Capability List                  │
+ │      [ Object: File_A ]                [ Subject: User_X ]              │
+ │         - User_1: Read/Write              - File_A: Read/Write          │
+ │         - User_2: Read Only               - File_B: Execute             │
+ │         - Group_A: No Access              - Device_C: Control           │
+ │                                                                         │
  │      (파일에 명단을 붙여둠)              (사용자가 티켓을 들고다님)     │
- │                                                                  │
- └──────────────────────────────────────────────────────────────────┘
+ │                                                                         │
+ └─────────────────────────────────────────────────────────────────────────┘
 ```
 
 **[다이어그램 해설]** ACL (Access Control List)은 객체 (Object) 관점에서 접근 권한을 나열한 것이다. 파일 시스템에서 흔히 사용되며, 특정 파일의 주인이 누구인지, 어떤 그룹이 읽을 수 있는지를 관리하기에 유리하다. 반면 Capability List는 주체 (Subject) 관점에서 자신이 가진 '권한 티켓'을 나열한 것이다. 이는 분산 시스템이나 객체 지향 운영체제에서 특정 사용자의 권한을 한눈에 파악하고 제어하기에 효율적이다. 현대 운영체제는 이 두 방식을 혼합하여 사용한다. 예를 들어 유닉스는 기본적으로 ACL (rwxrwxrwx)을 사용하면서도, 프로세스 실행 시에는 Capability (특권 분할)를 부여하여 보안 사고 시 피해 범위를 최소화한다.
@@ -143,20 +143,20 @@ DAC는 사용자의 편의성을 중시하지만, 악성 코드가 사용자의 
 사용자 인증 수단별 강점과 약점을 분석하여 최적의 보안 전략을 도출한다.
 
 ```text
-  ┌─────────────────────────────────────────────────────────────┐
-  │              Authentication Strategy Matrix                 │
-  ├─────────────────────────────────────────────────────────────┤
-  │                                                             │
-  │   [ Method ]      [ Security ]   [ Cost ]   [ UX Flow ]     │
-  │   Password        ● Low          ● Low      ● Easy          │
-  │   Smart Card      ● High         ▲ Med      ▼ Slow          │
-  │   Biometrics      ▲ High         ▲ High     ▲ Fast          │
-  │   MFA (2FA)       ★ Very High   ● Med      ● Med           │
-  │                                                             │
+  ┌─────────────────────────────────────────────────────────────────┐
+  │              Authentication Strategy Matrix                     │
+  ├─────────────────────────────────────────────────────────────────┤
+  │                                                                 │
+  │   [ Method ]      [ Security ]   [ Cost ]   [ UX Flow ]         │
+  │   Password        ● Low          ● Low      ● Easy              │
+  │   Smart Card      ● High         ▲ Med      ▼ Slow              │
+  │   Biometrics      ▲ High         ▲ High     ▲ Fast              │
+  │   MFA (2FA)       ★ Very High   ● Med      ● Med                │
+  │                                                                 │
   │   - 보안성 vs 편의성: 강력한 보안은 대개 사용자 불편을 초래     │
   │   - 비용 vs 신뢰도: 생체 인식 장비 등은 구축 비용이 높음        │
-  │                                                             │
-  └─────────────────────────────────────────────────────────────┘
+  │                                                                 │
+  └─────────────────────────────────────────────────────────────────┘
 ```
 
 **[다이어그램 해설]** 운영체제 보안 설계 시 가장 큰 고민은 '인증의 강도'와 '사용자의 불편함' 사이의 균형이다. 비밀번호 방식은 가장 저렴하고 익숙하지만 유출 위험이 크다. 반면 다중 요소 인증 (MFA)은 보안성은 최고 수준이나 로그인이 번거로워진다. 실무에서는 중요도가 낮은 일반 계정은 간편 인증을, 커널 관리자 (root/admin) 계정은 반드시 하드웨어 토큰이나 생체 인식을 동반한 MFA를 적용하는 '차등적 보안 정책'을 수립해야 한다. 이러한 의사결정 트리가 시스템의 전체적인 보안 ROI (Return on Investment)를 결정한다.

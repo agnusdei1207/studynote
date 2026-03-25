@@ -78,9 +78,9 @@ Process P0         Operating System         Process P1
  │                │        │                │        │  stack_ptr     │
  │  Stack Pointer │        │  Prev Frame    │        │                │
  │  (SP / ESP)    │        └────────────────┘        └────────────────┘
- └────────────────┘                 ▲                         │
-         │                          │                         │
-         └──────────────────────────┴─────────────────────────┘
+ └────────────────┘                 ▲                                 │
+         │                          │                                 │
+         └──────────────────────────┴─────────────────────────────────┘
 ```
 
 **[다이어그램 해설]** 문맥 교환의 물리적 동작은 2단계로 진행된다. ① 하드웨어 자동 저장: 인터럽트가 발생하는 순간 CPU는 하드웨어적으로 현재의 PC와 일부 상태 레지스터를 '커널 스택'에 즉시 Push한다. 이는 소프트웨어가 개입하기 전의 원자적 보호 조치다. ② 소프트웨어 수동 저장: 커널 모드에 진입한 디스패처 (Dispatcher)는 나머지 모든 범용 레지스터 값들을 커널 스택에 추가로 쌓거나, 최종적으로 PCB 구조체의 특정 필드 (`thread_struct` 등)로 복사한다. 반대로 새로운 프로세스를 로드할 때는 이 경로를 정확히 역순으로 거친다. 특히 Stack Pointer (SP)의 변경은 "내가 지금 누구의 메모리를 쓰고 있는가"를 바꾸는 지점으로, 문맥 교환의 '결정적 순간 (Point of No Return)'이라 불린다. 이 과정에서 한 비트의 오차라도 발생하면 복귀 후 시스템은 즉시 크래시된다.
@@ -132,12 +132,12 @@ ret                     ; 새로운 프로세스의 PC로 복귀
 
 ```text
 [ Process A ]           [ Context Switch ]           [ Process B ]
-      │                         │                         │
+      │                         │                               │
 ┌─────┴─────┐           ┌───────┴───────┐           ┌─────┴─────┐
 │ TLB Hit!  │           │ CR3 Reg Change│           │ TLB Miss! │
 │ (1~2 cyc) │           │ (Flush TLB)   │           │ (100+ cyc)│
 └─────┬─────┘           └───────┬───────┘           └─────┬─────┘
-      │                         ▼                         │
+      │                         ▼                               │
 [ Fast Access ]          [ Pipeline Stall ]          [ Slow Walk ]
 ```
 
@@ -168,14 +168,14 @@ ret                     ; 새로운 프로세스의 PC로 복귀
 
 ```text
 [Event: Interrupt / Trap]
-          │
+                 │
           ▼
 [Is Scheduler Action Required?] --No--> [Return to Current Process]
-          │
+                 │
          Yes
-          │
+                 │
 [Select Next Process (Policy)]
-          │
+                 │
           ▼
 [Is Address Space Different?]
    │             │

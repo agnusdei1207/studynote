@@ -61,19 +61,19 @@ categories = "studynote-computer-architecture"
 CPU 요청 주소: [ Tag: "A" | Index: "5" | Offset: "0" ]
 
 1. "5"번 선에 전기가 통함 (Index Decoder)
-        │
+              │
         ▼
    [ 캐시 메모리 어레이 ]
    ...
    방 5: [ Valid: 1 | Tag: "A" | Data Block (64B) ]  <-- 이 방만 스위치가 켜져서 전기가 통함
    ...
-        │
+              │
         ▼ (Tag 값 "A"가 흘러나옴)
-        │
+              │
   ┌─────▼─────┐
   │ 비교기(==)│ <── CPU가 요구한 Tag "A"와 비교
   └─────┬─────┘
-        │
+              │
   (True/Hit!) ──> MUX 구동 ──> Offset 0 위치의 데이터 CPU로 즉시 발사!
 ```
 

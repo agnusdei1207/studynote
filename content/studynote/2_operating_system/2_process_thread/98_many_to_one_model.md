@@ -129,7 +129,7 @@ categories = "studynote-operating-system"
 
 ```text
    [ 다중 스레드 기반 애플리케이션 성능 저하 발생 ]
-                       │
+                             │
                        ▼
          다대일 (Many-to-One) 모델 기반인가?
             ├── 예 ──▶ [ I/O 작업 또는 무거운 연산 확인 ]
@@ -140,7 +140,7 @@ categories = "studynote-operating-system"
             │        │           └─▶ 논블로킹 I/O로 전환 또는 모델 교체
             │        └── 아니오 ─▶ 단일 코어 병목 확인
             │                    └─▶ 스케일 아웃(Scale-out)으로 대응
-            │
+                             │
             └── 아니오 ─▶ [ 락(Lock) 경합, 문맥 교환 오버헤드 등 타 원인 조사 ]
 ```
 

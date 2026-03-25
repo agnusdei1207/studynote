@@ -28,23 +28,23 @@ categories = "studynote-operating-system"
 회계 및 로깅 데이터가 생성되고 저장되는 전체적인 흐름을 시각화하면 다음과 같다. 운영체제는 하드웨어와 소프트웨어의 접점에서 발생하는 모든 유의미한 수치를 수집하여 관리자에게 전달한다.
 
 ```text
-  ┌─────────────────────────────────────────────────────────────┐
+  ┌──────────────────────────────────────────────────────────────┐
   │              운영체제 회계 및 로깅 데이터 흐름               │
-  ├─────────────────────────────────────────────────────────────┤
-  │                                                             │
-  │   [ Event / Usage Source ]     [ Collection ]               │
-  │     Process Execution    ───▶   Accounting Hook             │
-  │     Resource Consumption ───▶   Usage Counter               │
-  │     System Errors        ───▶   Event Logger                │
-  │            │                          │                     │
-  │   [ Processing Layer ]         [ Buffer / Queue ]           │
-  │     Kernel Metrics Aggregator ◀── Ring Buffer               │
-  │            │                          │                     │
-  │   [ Output / Storage ]         [ Analysis Tools ]           │
-  │     /var/log/* (Syslog)  ────▶  Dashboard / Audit Report    │
-  │     Accounting DB        ────▶  Billing System              │
-  │                                                             │
-  └─────────────────────────────────────────────────────────────┘
+  ├──────────────────────────────────────────────────────────────┤
+  │                                                              │
+  │   [ Event / Usage Source ]     [ Collection ]                │
+  │     Process Execution    ───▶   Accounting Hook              │
+  │     Resource Consumption ───▶   Usage Counter                │
+  │     System Errors        ───▶   Event Logger                 │
+  │            │                          │                      │
+  │   [ Processing Layer ]         [ Buffer / Queue ]            │
+  │     Kernel Metrics Aggregator ◀── Ring Buffer                │
+  │            │                          │                      │
+  │   [ Output / Storage ]         [ Analysis Tools ]            │
+  │     /var/log/* (Syslog)  ────▶  Dashboard / Audit Report     │
+  │     Accounting DB        ────▶  Billing System               │
+  │                                                              │
+  └──────────────────────────────────────────────────────────────┘
 ```
 
 **[다이어그램 해설]** 운영체제 커널 내부에 심어진 훅 (Hook)과 카운터 (Counter)는 프로세스의 생명주기 동안 발생하는 모든 자원 소비량을 실시간으로 갱신한다. 이 데이터는 성능 저하를 방지하기 위해 먼저 메모리상의 링 버퍼 (Ring Buffer)에 기록된 후, 주기적으로 영구 저장소에 저장된다. 회계 데이터는 과금 시스템으로, 이벤트 로그는 시스템 로그 (Syslog) 서비스를 통해 관리 대시보드로 전달된다. 이러한 일련의 과정은 시스템 운영의 '가시성'을 확보하는 기초가 되며, 실무적으로는 장애 복구 시간 (MTTR)을 단축시키는 결정적인 역할을 한다.
@@ -72,20 +72,20 @@ categories = "studynote-operating-system"
 로그 데이터는 발생 지점에서 저장소까지 성능 오버헤드를 최소화하기 위한 계층적 구조를 가진다.
 
 ```text
- ┌──────────────────────────────────────────────────────────────────┐
- │                Hierarchical Logging Architecture                 │
- ├──────────────────────────────────────────────────────────────────┤
- │                                                                  │
+ ┌───────────────────────────────────────────────────────────────────┐
+ │                Hierarchical Logging Architecture                  │
+ ├───────────────────────────────────────────────────────────────────┤
+ │                                                                   │
  │   [ App / Kernel ]        [ Log Collector ]      [ Storage ]      │
- │        │                          │                      │       │
- │   ① printk() / log() ──▶  ② Message Queue ──────▶ ③ Persistent  │
- │        │                  (Memory Buffer)            Storage     │
- │        │                          │                      │       │
- │   ④ Filter / Priority  ◀──────────┘                      │       │
- │        │                                                 │       │
- │        └─(Emergency/Error) ──────▶ ⑤ Real-time Alert     │       │
- │                                                                  │
- └──────────────────────────────────────────────────────────────────┘
+ │        │                          │                      │        │
+ │   ① printk() / log() ──▶  ② Message Queue ──────▶ ③ Persistent    │
+ │        │                  (Memory Buffer)            Storage      │
+ │        │                          │                      │        │
+ │   ④ Filter / Priority  ◀──────────┘                      │        │
+ │        │                                                 │        │
+ │        └─(Emergency/Error) ──────▶ ⑤ Real-time Alert     │        │
+ │                                                                   │
+ └───────────────────────────────────────────────────────────────────┘
 ```
 
 **[다이어그램 해설]** 로깅의 가장 큰 기술적 도전은 '로깅 자체가 시스템 부하를 주지 않아야 한다'는 점이다. 따라서 ①번 단계에서 생성된 로그는 즉시 디스크에 쓰지 않고, ②번의 메모리 버퍼에 임시 저장된다. 커널의 `printk()` 함수는 버퍼가 가득 차거나 특정 주기가 되면 ③번의 영구 저장소로 데이터를 덤프한다. 또한 ④번 단계에서는 로그의 심각도 (Priority: Emergency ~ Debug)에 따라 필터링을 수행하여, 중요한 오류 (Emergency)인 경우 ⑤번처럼 실시간 알림 서비스로 즉시 전송한다. 이러한 계층 구조를 통해 시스템은 성능 저하를 최소화하면서도 중요한 기록을 빠짐없이 보존할 수 있다.
@@ -137,19 +137,19 @@ categories = "studynote-operating-system"
 방대한 로그 데이터를 얼마나 오래, 어떤 형태로 보관할지 결정하는 기준을 분석한다.
 
 ```text
-  ┌─────────────────────────────────────────────────────────────┐
-  │              Log Retention Strategy Matrix                  │
-  ├─────────────────────────────────────────────────────────────┤
-  │                                                             │
-  │   [ Log Category ]   [ Storage ]   [ Period ]  [ Usage ]     │
-  │   Debug Logs         In-Memory     1 Hour      Dev Only      │
-  │   System Logs        SSD/HDD       30 Days     Ops T-shoot   │
-  │   Audit/Security     Cloud/Cold    1~2 Years   Legal/Compliance│
-  │                                                             │
+  ┌──────────────────────────────────────────────────────────────────┐
+  │              Log Retention Strategy Matrix                       │
+  ├──────────────────────────────────────────────────────────────────┤
+  │                                                                  │
+  │   [ Log Category ]   [ Storage ]   [ Period ]  [ Usage ]         │
+  │   Debug Logs         In-Memory     1 Hour      Dev Only          │
+  │   System Logs        SSD/HDD       30 Days     Ops T-shoot       │
+  │   Audit/Security     Cloud/Cold    1~2 Years   Legal/Compliance  │
+  │                                                                  │
   │   - Hot Storage: 빠른 검색이 필요한 최근 데이터 (Index 생성)     │
   │   - Cold Storage: 비용 절감을 위한 장기 보관 (압축 보관)         │
-  │                                                             │
-  └─────────────────────────────────────────────────────────────┘
+  │                                                                  │
+  └──────────────────────────────────────────────────────────────────┘
 ```
 
 **[다이어그램 해설]** 로깅 시스템 설계의 가장 큰 병목은 저장 공간과 검색 성능이다. 모든 로그를 무한정 보관할 수 없으므로, 로그의 가치에 따라 계층화된 보관 정책을 수립해야 한다. 개발용 디버그 로그는 메모리에서만 유지하다 소멸시키고, 운영용 시스템 로그는 한 달 정도 로컬 디스크에 두며, 보안 및 법적 증거가 되는 감사 로그는 저렴한 원격 저장소 (Cold Storage)로 옮겨 장기 보관한다. 실무에서는 로그 로테이션 (Log Rotation) 기술을 통해 파일 크기를 관리하고 오래된 로그를 자동으로 정리한다.

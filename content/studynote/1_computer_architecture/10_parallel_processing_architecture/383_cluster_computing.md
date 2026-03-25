@@ -56,10 +56,10 @@ categories = "studynote-computer-architecture"
 [클러스터 내부의 Fail-over(장애 조치) 및 Load Balancing 메커니즘]
 
 외부 요청 폭주! (초당 1만 건)
-       │
+                         │
        ▼
 [ 로드 밸런서 (마스터 노드) ] --> (Health Check: "다들 살아있나?")
-       │
+                         │
   ┌────┼────────┬────────┐
   ▼    ▼        ▼        ▼
 [N 1] [N 2]   [N 3(죽음)] [N 4]

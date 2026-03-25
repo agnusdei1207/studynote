@@ -34,7 +34,7 @@ categories = "studynote-computer-architecture"
 
 * 2차원 (N=2) : 사각형 (노드 2^2 = 4개)
   [00] ── [01]
-   │       │
+   │             │
   [10] ── [11]
 
 * 3차원 (N=3) : 정육면체 (노드 2^3 = 8개)

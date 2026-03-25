@@ -101,7 +101,7 @@ categories = "studynote-operating-system"
 
 ```text
  [Client Request] ──▶ [ Load Balancer ]
-                           │
+                                         │
              ┌─────────────┼─────────────┐
              ▼             ▼             ▼
        [ Node 1 ]    [ Node 2 ]    [ Node 3 ]

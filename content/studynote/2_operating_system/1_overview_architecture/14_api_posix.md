@@ -65,15 +65,15 @@ categories = "studynote-operating-system"
 POSIX가 다루는 기술 영역은 단순히 함수 호출을 넘어 프로세스 관리, 파일 시스템, 셸 환경 등을 포괄한다. 이 다이어그램은 POSIX.1부터 확장 규격까지의 범위를 보여준다.
 
 ```text
- ┌──────────────────────────────────────────────────────────┐
- │                  POSIX Standard (IEEE 1003)              │
- ├──────────────────┬──────────────────┬────────────────────┤
- │  [POSIX.1]       │  [POSIX.2]       │ [Extended POSIX]   │
+ ┌───────────────────────────────────────────────────────────┐
+ │                  POSIX Standard (IEEE 1003)               │
+ ├──────────────────┬──────────────────┬─────────────────────┤
+ │  [POSIX.1]       │  [POSIX.2]       │ [Extended POSIX]    │
  │  - System Inter. │  - Shell & Utils │ - Threads (pthreads)│
- │  - File I/O      │  - Command Line  │ - Real-time Ext.   │
- │  - Signals       │  - Scripting     │ - Network (Sockets)│
- └────────┬─────────┴────────┬─────────┴────────┬───────────┘
-          │                  │                  │
+ │  - File I/O      │  - Command Line  │ - Real-time Ext.    │
+ │  - Signals       │  - Scripting     │ - Network (Sockets) │
+ └────────┬─────────┴────────┬─────────┴────────┬────────────┘
+          │                  │                               │
    [C Library API]    [Shell Interface]   [System Services]
 ```
 
@@ -130,7 +130,7 @@ int main() {
 
 ```text
     [User APIs]             [System Calls]
-  ┌─────────────┐         ┌────────────────┐
+  ┌─────────────┐         ┌─────────────────┐
   │   printf()  │──┐   ┌──▶│    write()     │ (N:1)
   │   puts()    │──┴───┘   └────────────────┘
   │   fprintf() │──┐       ┌────────────────┐
@@ -170,7 +170,7 @@ int main() {
 
 ```text
  [OS Specific Task?]
-          │
+                │
     ┌─────┴─────┐
   [No]        [Yes]
     │           │

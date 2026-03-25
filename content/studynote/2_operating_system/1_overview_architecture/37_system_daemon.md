@@ -30,13 +30,13 @@ categories = "studynote-operating-system"
 
 ```text
  [ User Session ]                    [ System Session ]
-┌─────────────────────────┐         ┌───────────────────────────┐
-│  TTY / Terminal         │         │  No Controlling Terminal  │
-├─────────────────────────┤         ├───────────────────────────┤
+┌─────────────────────────┐         ┌────────────────────────────┐
+│  TTY / Terminal         │         │  No Controlling Terminal   │
+├─────────────────────────┤         ├────────────────────────────┤
 │  User App (Foreground)  │         │  System Daemon (Background)│
-│  (Parent: Shell)        │         │  (Parent: PID 1 / init)   │
-└────────────┬────────────┘         └─────────────┬─────────────┘
-             │                                    │
+│  (Parent: Shell)        │         │  (Parent: PID 1 / init)    │
+└────────────┬────────────┘         └─────────────┬──────────────┘
+             │                                                   │
     (Logout -> Terminate)                (Logout -> Still Running)
              ▼                                    ▼
        [ Process Exit ]                    [ Infinite Loop ]
@@ -67,7 +67,7 @@ categories = "studynote-operating-system"
  [ Start ] --▶ 1. fork() & Parent Exit --▶ [ Background Job ]
                                                 │
  [ Independent ] ◀-- 3. fork() & Parent Exit ◀-- 2. setsid() (New Session)
-      │
+                                                │
       ▼
  4. chdir("/") & umask(0) --▶ 5. Close FDs --▶ [ Daemon Ready! ]
 ```
@@ -134,10 +134,10 @@ void daemonize() {
 
 ```text
  [ Network Request ] ──▶ [ inetd (Super Daemon) ]
-          │                         │
+          │                                                            │
      (Port 21, 23, 80)       (Monitoring Ports)
-          │                         │
-          └─────────────────────────┼────────────────────────┐
+          │                                                            │
+          └─────────────────────────┼──────────────────────────────────┐
                                     ▼                        ▼
                           ┌──────────────────┐      ┌──────────────────┐
                           │    ftpd (Forked) │      │    telnetd (New) │
@@ -176,16 +176,16 @@ void daemonize() {
     (Health Check)                                (SIGCHLD / Monitoring)
           │                                              │
           └──────────────────────────────────────────────┘
-                                    │
+                                                         │
                                     ▼
-                          ┌──────────────────┐
+                          ┌──────────────────────────────┐
                           │  Back-off Delay  │◀── [ Prevent Infinite Loop ]
-                          └──────────────────┘
-                                    │
+                          └──────────────────────────────┘
+                                                         │
                                     ▼
-                          ┌──────────────────┐
+                          ┌──────────────────────────────┐
                           │  Restart Daemon  │──▶ [ Service Recovered ]
-                          └──────────────────┘
+                          └──────────────────────────────┘
 ```
 
 **[다이어그램 해설]** 데몬의 가장 큰 미덕은 '영속성'이다. 하지만 코드 버그로 인해 데몬이 죽을 수 있다. 현대 운영체제는 서비스 매니저(systemd 등)가 데몬의 생사 여부를 감시한다. ① 데몬이 죽으면 커널은 부모인 서비스 매니저에게 신호를 보낸다. ② 서비스 매니저는 설정 파일(`Restart=always`)을 확인하고 재시작을 시도한다. ③ 이때 중요한 것은 'Back-off' 전략이다. 만약 설정 오류로 계속 죽는 데몬을 즉시 다시 살리면 무한 루프에 빠져 CPU를 100% 점유하게 된다. 따라서 시스템은 재시작 사이에 점진적으로 늘어나는 지연 시간을 두어 시스템 전체의 붕괴를 막는다. 이 자가 치유(Self-healing) 구조는 현대 서버 인프라 운영의 핵심 기술이다.

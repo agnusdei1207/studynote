@@ -20,36 +20,36 @@ categories = "studynote-operating-system"
 - **💡 비유**: 취소 점은 "안전 체크포인트"와 같습니다. 긴 여행 중 휴게소, 식당, 점검소 등 정기적으로 안전을 확인하는 곳에서만 정지 결정을 내리는 것과 같다.
 
 ```text
-┌────────────────────────────────────────────────────────┐
-│           취소 점점의 두 가지 종류                        │
-├────────────────────────────────────────────────────────┤
-│                                                        │
-│  명시적 점점 (pthread_testcancel):                       │
-│  while (!done) {                                      │
-│      pthread_testcancel();  ◀── 명시적 검사 지점      │
-│      data = process_item();                           │
-│  }                                                     │
+┌────────────────────────────────────────────────────────────┐
+│           취소 점점의 두 가지 종류                         │
+├────────────────────────────────────────────────────────────┤
+│                                                            │
+│  명시적 점점 (pthread_testcancel):                         │
+│  while (!done) {                                           │
+│      pthread_testcancel();  ◀── 명시적 검사 지점           │
+│      data = process_item();                                │
+│  }                                                         │
 │  특징: 개발자가 직접 삽입, 검사 주기 조절 가능             │
-│                                                        │
-│  암시적 점점 (POSIX 정의):                             │
-│  data = read(fd, buf, size);  ◀── read()가 내부적으로    │
-│                              취소 플래그를 검사     │
-│  pthread_cond_wait(&cond, &mutex); ◀── cond_wait도 검사  │
-│  sem_wait(&sem);               ◀─ 세마포어도 검사    │
-│                                                        │
-│  POSIX 표준 취소 점점 목록:                             │
-│  accept(), aio_suspend(), clock_nanosleep(),             │
-│  close(), connect(), creat(), fcntl(),                  │
-│  fopen(), flock(), fsync(), msync(),                    │
-│  mq_receive(), mq_send(), msgrcv(), msgsnd(),          │
-│  nanosleep(), open(), pause(), poll(),                  │
-│  pread(), pwrite(), pthread_cond_timedwait(),          │
+│                                                            │
+│  암시적 점점 (POSIX 정의):                                 │
+│  data = read(fd, buf, size);  ◀── read()가 내부적으로      │
+│                              취소 플래그를 검사            │
+│  pthread_cond_wait(&cond, &mutex); ◀── cond_wait도 검사    │
+│  sem_wait(&sem);               ◀─ 세마포어도 검사          │
+│                                                            │
+│  POSIX 표준 취소 점점 목록:                                │
+│  accept(), aio_suspend(), clock_nanosleep(),               │
+│  close(), connect(), creat(), fcntl(),                     │
+│  fopen(), flock(), fsync(), msync(),                       │
+│  mq_receive(), mq_send(), msgrcv(), msgsnd(),              │
+│  nanosleep(), open(), pause(), poll(),                     │
+│  pread(), pwrite(), pthread_cond_timedwait(),              │
 │  pthread_cond_wait(), pthread_join(), pthread_mutex_lock(),│
-│  pthread_testcancel(), putc(), pthread_rwlock_*(),     │
-│  read(), recv(), recvfrom(), select(), sem_wait(),      │
-│  sigwait(), sigtimedwait(), sleep(), system(),          │
-│  wait(), waitpid(), write()                             │
-└────────────────────────────────────────────────────────┘
+│  pthread_testcancel(), putc(), pthread_rwlock_*(),         │
+│  read(), recv(), recvfrom(), select(), sem_wait(),         │
+│  sigwait(), sigtimedwait(), sleep(), system(),             │
+│  wait(), waitpid(), write()                                │
+└────────────────────────────────────────────────────────────┘
 ```
 
 **[다이어그램 해설]** POSIX는 수십 개의 블로킹 시스템 콜을 암시적 취소 점점으로 정의한다. 이 함수들이 블로킹되어 커널로 진입할 때, 커널은 스레드의 취소 플래그를 검사하고 설정되어 있으면 EINTR을 반환하여 스레드가 루프에서 탈출할 수 있게 한다. 이 설계 덕분에 개발자가 매 반복문마다 pthread_testcancel()을 삽입하지 않아도 취소가 가능하다. pthread_testcancel()은 CPU 집약적인 루프에서 취소 응답성을 높이고 싶을 때 추가로 사용한다.
@@ -63,24 +63,24 @@ categories = "studynote-operating-system"
 ### 취소 점점 내부 동작
 
 ```text
-┌──────────────────────────────────────────────────────┐
-│  블로킹 시스템 콜 내부 취소 점점 검사 흐름           │
-├──────────────────────────────────────────────────────┤
-│                                                      │
-│  ① 사용자 코드: read(fd, buf, size) 호출              │
-│     │                                                │
-│  ② glibc 래퍼: read() → syscall(SYS_read, ...)     │
-│     │                                                │
-│  ③ 커널 진입: sys_read() → 블로킹 전에              │
+┌─────────────────────────────────────────────────────────┐
+│  블로킹 시스템 콜 내부 취소 점점 검사 흐름              │
+├─────────────────────────────────────────────────────────┤
+│                                                         │
+│  ① 사용자 코드: read(fd, buf, size) 호출                │
+│     │                                                   │
+│  ② glibc 래퍼: read() → syscall(SYS_read, ...)          │
+│     │                                                   │
+│  ③ 커널 진입: sys_read() → 블로킹 전에                  │
 │     │   if (fatal_signal_pending(current))              │
-│     │     → EINTR 반환                              │
-│     │   if (current->cancel_pending)                │
-│     │     → 스레드 종료 (PTHREAD_CANCE)              │
-│     │   else                                       │
-│     │     → 실제 블로킹 (슬립)                      │
-│                                                      │
-│  ④ 데이터 도착 → 루프 재개                           │
-└──────────────────────────────────────────────────────┘
+│     │     → EINTR 반환                                  │
+│     │   if (current->cancel_pending)                    │
+│     │     → 스레드 종료 (PTHREAD_CANCE)                 │
+│     │   else                                            │
+│     │     → 실제 블로킹 (슬립)                          │
+│                                                         │
+│  ④ 데이터 도착 → 루프 재개                              │
+└─────────────────────────────────────────────────────────┘
 ```
 
 **[다이어그램 해설]** 커널의 시스템 콜 진입 지점에서는 취소 플래그와 시그널 펜딩(pending signal)을 검사한다. 취소 플래그가 설정되어 있으면 스레드를 종료시키고, 펜딩된 시그널이 있으면 EINTR을 반환하여 사용자 공간에서 루프를 탈출하게 한다. 이 3단계 검사가 매 블로킹 시스템 콜에 공통으로 적용되어 있다.

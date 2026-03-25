@@ -32,7 +32,7 @@ categories = "studynote-computer-architecture"
 1. 코어 0이 A를 읽어감 -> 코어 0 캐시: A=5
 2. 코어 1이 A를 읽어감 -> 코어 1 캐시: A=5
 3. 코어 0이 A를 10으로 바꿈! (Write A=10)
-        │
+                 │
         ▼ (스누핑 로직 발동)
 [ 코어 0 ] ──> 시스템 버스에 확성기로 외침: "나 주소 A 수정한다!!!" (Write-Miss 신호 방송)
                  │

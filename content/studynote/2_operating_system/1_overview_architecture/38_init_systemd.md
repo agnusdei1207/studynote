@@ -30,11 +30,11 @@ categories = "studynote-operating-system"
 
 ```text
  [ BIOS / UEFI ] ────▶ [ Boot Loader ] ────▶ [ Kernel Entry ]
-                                                │
+                                                       │
                                          (Init Hardware)
-                                                │
+                                                       │
                                          (Mount Root FS)
-                                                │
+                                                       │
  [ User Space ] ◀───────────────────────────────┴──── [ PID 1 Start ]
       │                                                │
  (Runlevel 3/5) ◀── [ Load Services in Parallel ] ◀── [ init / systemd ]
@@ -62,14 +62,14 @@ categories = "studynote-operating-system"
 이 도식은 서비스들이 단순 나열이 아니라 복잡한 의존 관계(DAG)를 형성하고 있으며, systemd가 이를 어떻게 효율적으로 처리하는지 보여준다.
 
 ```text
-       ┌───────────┐
+       ┌────────────────┐
        │ Multi-User│ (Target)
        └───┬───┬───┘
-           │   │
-   ┌───────▼───┴───────┐
+           │            │
+   ┌───────▼───┴────────┐
    │ Network.target    │ (의존성 상위)
-   └───┬───────┬───────┘
-       │       │
+   └───┬───────┬────────┘
+       │                │
 ┌──────▼───┐ ┌─▼────────┐
 │  SSHD    │ │  Apache  │ (병렬 실행 가능)
 └──────────┘ └──────────┘
@@ -122,10 +122,10 @@ WantedBy=multi-user.target  # 멀티유저 모드일 때 자동 시작 등록
 
 ```text
  [ systemd (PID 1) ]
-          │
-    ┌─────┴─────┐
+                        │
+    ┌─────┴─────────────┐
  [ Service A ] [ Service B ] (Cgroup Layer)
-    │             │
+    │                   │
  ┌──┴──┐       ┌──┴──┬──┐
 [P1]  [P2]    [P3]  [P4][P5] (Actual Processes)
 ```
@@ -160,9 +160,9 @@ WantedBy=multi-user.target  # 멀티유저 모드일 때 자동 시작 등록
  [ Admin Command ] --▶ [ Unit File Parsing ] --▶ [ Dependency Check ]
                                                        │
  [ Running ] ◀── [ ExecStart ] ◀── [ Success? ] ◀── [ Condition Check ]
-      │                                 │
+      │                                                │
  [ Crash! ] --▶ [ Restart Policy? ] ----┘
-      │
+                                                       │
  [ Stop Command ] --▶ [ SIGTERM ] --▶ [ SIGKILL ] --▶ [ Dead ]
 ```
 

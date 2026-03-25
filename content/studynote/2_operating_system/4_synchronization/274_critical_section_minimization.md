@@ -24,23 +24,23 @@ categories = ["studynote-operating-system"]
 
 ```text
 ┌──────────────────────────────────────────────────────────────┐
-│         임계 구역 크기화의 변화 비교                        │
+│         임계 구역 크기화의 변화 비교                         │
 ├──────────────────────────────────────────────────────────────┤
 │                                                              │
-│  [Anti-Pattern (거대한 임계 구역)]                          │
+│  [Anti-Pattern (거대한 임계 구역)]                           │
 │  lock.acquire();                                             │
-│  Data data = DB_Read();      // (❌) I/O 블로킹 발생!      │
-│  data.value += shared_var;   // (⭕) 유일한 공유 상태 변경 │
-│  Save_File(data);            // (❌) 느린 I/O 연산 수행!   │
+│  Data data = DB_Read();      // (❌) I/O 블로킹 발생!        │
+│  data.value += shared_var;   // (⭕) 유일한 공유 상태 변경   │
+│  Save_File(data);            // (❌) 느린 I/O 연산 수행!     │
 │  lock.release();                                             │
-│  → 전체 스레드가 DB와 파일 쓰기를 대기 (성능 붕괴)         │
+│  → 전체 스레드가 DB와 파일 쓰기를 대기 (성능 붕괴)           │
 │                                                              │
-│  [Best Practice (최소화된 임계 구역)]                       │
+│  [Best Practice (최소화된 임계 구역)]                        │
 │  Data data = DB_Read();      // 락 외부 사전 준비!           │
 │  int snap_var;                                               │
 │  lock.acquire();             // ─────────────── 시작         │
-│  snap_var = shared_var;      // 공유 변수 스냅샷 복사      │
-│  shared_var++;               // 최소한의 상태 갱신         │
+│  snap_var = shared_var;      // 공유 변수 스냅샷 복사        │
+│  shared_var++;               // 최소한의 상태 갱신           │
 │  lock.release();             // ─────────────── 끝 (수 ns)   │
 │  data.value += snap_var;     // 락 외부 지역변수 연산        │
 │  Save_File(data);            // 락 외부 사후 처리 저장       │

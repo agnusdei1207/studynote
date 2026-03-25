@@ -130,7 +130,7 @@ struct task_struct {
 이 그림은 물리적인 CPU 코어 하나가 어떻게 두 개의 논리적 스레드를 지원하여 문맥 교환 효율을 높이는지 보여준다. 레지스터 세트의 중복 배치가 핵심이다.
 
 ```text
-┌───────────────── CPU Core ─────────────────┐
+┌───────────────── CPU Core ───────────────────┐
 │  ┌───────────────┐        ┌───────────────┐  │
 │  │ Register Set 0│        │ Register Set 1│  │
 │  │ (Context A)   │        │ (Context B)   │  │
@@ -167,11 +167,11 @@ struct task_struct {
 
 ```text
 [Running State] --Interrupt--> [HW Auto Save (PC, SP, Flags)]
-                                          │
+                                                        │
 [User Mode] ◀─────────────────────────────┴─────── [Kernel Mode Transition]
                                                         │
 [Update PCB with General Regs] ◀── [Context Save Routine]
-          │
+                                                        │
 [Scheduler Selects Next Process] ──▶ [Context Restore from New PCB]
                                                         │
 [User Mode Return] ◀── [iret Instruction] ◀── [HW Auto Restore]
