@@ -1,5 +1,5 @@
 +++
-weight = 10
+weight = 9010
 title = "10: 인공지능 (Artificial Intelligence)"
 render = true
 paginate_by = 10

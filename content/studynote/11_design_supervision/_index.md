@@ -1,5 +1,5 @@
 +++
-weight = 11
+weight = 10011
 title = "11: IT 디자인 및 감리 (Design & Supervision)"
 render = true
 paginate_by = 10
