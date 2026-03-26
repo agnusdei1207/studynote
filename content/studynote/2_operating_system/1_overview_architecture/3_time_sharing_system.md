@@ -17,7 +17,7 @@ categories = "studynote-operating-system"
 
 ## Ⅰ. 개요 및 필요성 (Context & Necessity)
 
-- **概念**: 시분할 시스템 (Time-sharing System)은 다중 프로그래밍 (Multiprogramming)의 논리적 확장으로, CPU 스케줄링과 다중 프로그래밍을 사용하여 각 사용자에게 컴퓨터의 작은 부분을 시각적으로 동시에 제공하는 방식이다. 핵심은 '응답 시간 (Response Time)'의 최소화에 있으며, 이를 위해 라운드 로빈 (RR, Round Robin)과 같은 선점형 스케줄링 알고리즘을 사용한다.
+- **개념**: 시분할 시스템 (Time-sharing System)은 다중 프로그래밍 (Multiprogramming)의 논리적 확장으로, CPU 스케줄링과 다중 프로그래밍을 사용하여 각 사용자에게 컴퓨터의 작은 부분을 시각적으로 동시에 제공하는 방식이다. 핵심은 '응답 시간 (Response Time)'의 최소화에 있으며, 이를 위해 라운드 로빈 (RR, Round Robin)과 같은 선점형 스케줄링 알고리즘을 사용한다.
 
 - **필요성**: 초기 일괄 처리 (Batch Processing) 환경에서는 한 사용자의 작업이 끝날 때까지 다른 사용자는 몇 시간씩 기다려야 했다. 또한 프로그램 실행 중에 사용자가 개입하여 데이터를 입력하거나 수정하는 '상호작용 (Interaction)'이 불가능했다. 시분할 시스템은 이러한 긴 반환 시간 (Turnaround Time) 문제를 해결하고, 여러 사용자가 동시에 단말기를 통해 컴퓨터와 대화하며 작업할 수 있는 환경을 구축하기 위해 등장했다.
 
