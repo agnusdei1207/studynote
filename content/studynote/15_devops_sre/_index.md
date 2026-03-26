@@ -1,5 +1,5 @@
 +++
-weight = 15
+weight = 14000
 title = "15: 데브옵스 및 SRE (DevOps & SRE)"
 render = true
 paginate_by = 10
