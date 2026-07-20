@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}태그 · {{ config.title }}{% endblock title %}
+
+{% block content %}
+<section class="hero small">
+  <p class="eyebrow">INDEX</p>
+  <h1>태그</h1>
+  <p>노트에 사용된 태그를 모아봅니다.</p>
+</section>
+<div class="tag-cloud">
+  {% for term in terms %}
+    <a href="{{ term.permalink }}">#{{ term.name }} <span>{{ term.pages | length }}</span></a>
+  {% endfor %}
+</div>
+{% endblock content %}

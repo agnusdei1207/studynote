@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}{{ section.title }} · {{ config.title }}{% endblock title %}
+{% block canonical %}{{ section.permalink }}{% endblock canonical %}
+
+{% block content %}
+<section class="hero">
+  <p class="eyebrow">PERSONAL KNOWLEDGE BASE</p>
+  <h1>{{ section.title }}</h1>
+  <div class="lede">{{ section.content | safe }}</div>
+</section>
+
+<section aria-labelledby="topics-title">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">TOPICS</p>
+      <h2 id="topics-title">학습 주제</h2>
+    </div>
+    <label class="filter">
+      <span class="sr-only">주제 필터</span>
+      <input type="search" data-filter-input placeholder="주제 찾기" autocomplete="off">
+    </label>
+  </div>
+  <div class="topic-grid" data-filter-list>
+    {% for subsection_path in section.subsections %}
+      {% set subsection = get_section(path=subsection_path) %}
+      <a class="topic-card" data-filter-item href="{{ subsection.permalink }}">
+        <span class="topic-number">{{ loop.index }}</span>
+        <h3>{{ subsection.title }}</h3>
+        <p>{{ subsection.description | default(value="개념과 원리를 주제별로 정리한 학습 노트") }}</p>
+        <span class="card-meta">{{ subsection.pages | length }}개 문서 · 하위 주제 {{ subsection.subsections | length }}개</span>
+      </a>
+    {% endfor %}
+  </div>
+</section>
+{% endblock content %}

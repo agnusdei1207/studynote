@@ -1,0 +1,23 @@
+base_url = "https://agnusdei1207.github.io/studynote"
+title = "Study Notes"
+description = "컴퓨터 과학과 소프트웨어 시스템을 공부하며 정리한 개인 노트"
+default_language = "ko"
+compile_sass = false
+build_search_index = false
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+minify_html = true
+
+taxonomies = [
+  { name = "tags", feed = true }
+]
+
+[markdown]
+highlight_code = false
+smart_punctuation = true
+external_links_target_blank = true
+external_links_no_follow = true
+external_links_no_referrer = true
+
+[extra]
+author = "agnusdei1207"

@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}#{{ term.name }} · {{ config.title }}{% endblock title %}
+{% block canonical %}{{ term.permalink }}{% endblock canonical %}
+
+{% block content %}
+<section class="hero small">
+  <p class="eyebrow">TAG</p>
+  <h1>#{{ term.name }}</h1>
+  <p>{{ term.pages | length }}개의 노트</p>
+</section>
+<ol class="note-list">
+  {% for page in term.pages %}
+  <li>
+    <a href="{{ page.permalink }}">{{ page.title }}</a>
+    {% if page.date %}<time datetime="{{ page.date }}">{{ page.date }}</time>{% endif %}
+  </li>
+  {% endfor %}
+</ol>
+{% endblock content %}

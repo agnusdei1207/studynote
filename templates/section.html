@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block title %}{{ section.title }} · {{ config.title }}{% endblock title %}
+{% block description %}{{ section.description | default(value=config.description) }}{% endblock description %}
+{% block canonical %}{{ section.permalink }}{% endblock canonical %}
+
+{% block content %}
+<nav class="breadcrumb" aria-label="현재 위치">
+  <a href="{{ get_url(path='/') }}">Study Notes</a>
+  <span aria-hidden="true">/</span>
+  <span>{{ section.title }}</span>
+</nav>
+
+<article class="section-intro">
+  <h1>{{ section.title }}</h1>
+  {% if section.content %}<div class="prose">{{ section.content | safe }}</div>{% endif %}
+</article>
+
+{% if section.subsections | length > 0 %}
+<section class="listing" aria-labelledby="subtopics-title">
+  <div class="section-heading">
+    <h2 id="subtopics-title">하위 주제</h2>
+    <label class="filter">
+      <span class="sr-only">하위 주제 필터</span>
+      <input type="search" data-filter-input placeholder="목록에서 찾기" autocomplete="off">
+    </label>
+  </div>
+  <div class="topic-grid" data-filter-list>
+    {% for subsection_path in section.subsections %}
+      {% set subsection = get_section(path=subsection_path) %}
+      <a class="topic-card compact" data-filter-item href="{{ subsection.permalink }}">
+        <h3>{{ subsection.title }}</h3>
+        <span class="card-meta">{{ subsection.pages | length }}개 문서</span>
+      </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{% if section.pages | length > 0 %}
+<section class="listing" aria-labelledby="notes-title">
+  <div class="section-heading">
+    <h2 id="notes-title">노트</h2>
+    {% if section.subsections | length == 0 %}
+    <label class="filter">
+      <span class="sr-only">노트 필터</span>
+      <input type="search" data-filter-input placeholder="목록에서 찾기" autocomplete="off">
+    </label>
+    {% endif %}
+  </div>
+  <ol class="note-list" data-filter-list>
+    {% for page in section.pages %}
+    <li data-filter-item>
+      <a href="{{ page.permalink }}">{{ page.title }}</a>
+      {% if page.date %}<time datetime="{{ page.date }}">{{ page.date }}</time>{% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+{% endif %}
+{% endblock content %}

@@ -1,0 +1,11 @@
+{
+  "name": "studynote",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal computer science study notes",
+  "scripts": {
+    "build": "zola build",
+    "serve": "zola serve",
+    "check": "zola check"
+  }
+}

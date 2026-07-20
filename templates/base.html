@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{% block description %}{{ config.description }}{% endblock description %}">
+  <meta name="color-scheme" content="light dark">
+  <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+  <link rel="canonical" href="{% block canonical %}{{ config.base_url }}{% endblock canonical %}">
+  <link rel="stylesheet" href="{{ get_url(path='style.css', cachebust=true) }}">
+  <link rel="alternate" type="application/atom+xml" title="{{ config.title }}" href="{{ get_url(path='atom.xml') }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="{{ get_url(path='/') }}">Study Notes</a>
+      <nav aria-label="주요 탐색">
+        <a href="{{ get_url(path='/') }}">주제</a>
+        <a href="{{ get_url(path='/tags/') }}">태그</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="shell">
+    {% block content %}{% endblock content %}
+  </main>
+  <footer class="site-footer">
+    <div class="shell">Personal CS Study Notes</div>
+  </footer>
+  <script src="{{ get_url(path='site.js', cachebust=true) }}" defer></script>
+</body>
+</html>
