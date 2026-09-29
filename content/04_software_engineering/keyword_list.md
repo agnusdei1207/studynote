@@ -14,824 +14,824 @@ weight: 50
 ---
 
 ## 1. 소프트웨어 공학 기초 및 프로세스 모델 (60개)
-1. 소프트웨어 공학 (Software 엔진ering)의 정의 및 목표 (신뢰성, 효율성, 유지보수성)
-2. 소프트웨어 위기 (Software Crisis) - 비용 초과, 일정 지연, 품질 저하
-3. 소프트웨어 생명주기 (SDLC, Software Development Life Cycle)
-4. 폭포수 모델 (Waterfall Model) - 순차적, 문서 중심
-5. V-모델 (V-Model) - 검증(Verification)과 확인(Validation)의 대응
-6. 프로토타입 모델 (Prototype Model) - 요구사항 명확화, 시제품
-7. 나선형 모델 (Spiral Model) - 위험 분석(Risk Analysis) 강조, 점진적 확장
-8. 반복적/점진적 모델 (Iterative and Incremental Model)
-9. RAD (Rapid Application Development) 모델 - JAD, CASE 도구 활용
-10. 진화적 프로세스 모델 (Evolutionary Process Model)
-11. 클린룸 소프트웨어 공학 (Cleanroom Software 엔진ering) - 통계적 품질 제어
-12. 애자일 방법론 (Agile Methodology) 개요
-13. ISO/IEC 12207 (소프트웨어 생명주기 공정 표준) - 기본, 지원, 조직 공정
-14. ISO/IEC 15504 (SPICE) - 소프트웨어 프로세스 평가 표준
-15. CMMI (Capability Maturity Model Integration) - 단계형/연속형 모델
-16. CMMI 5단계 - 초기, 관리, 정의, 정량적 관리, 최적화
-17. 프로세스 자산 (Process Assets) 및 조직 표준 프로세스
-18. PSP (Personal Software Process) / TSP (Team Software Process)
-19. 소프트웨어 제품 라인 (SPL, Software Product Line) - 도메인/어플리케이션 공학
-20. 형상 관리 (SCM, Software Configuration Management)
-21. 형상 식별 (Configuration Identification) - 형상 항목(CI) 선정
-22. 형상 통제 (Configuration Control) - 변경 제어 위원회(CCB)
-23. 형상 감사 (Configuration Audit) - 무결성 확인
-24. 형상 기록/보고 (Configuration Status Accounting)
-25. 기준선 (Baseline) - 기능적, 설계, 시험, 제품 기준선
-26. 버전 관리 시스템 (VCS) - Centralized (SVN) vs Distributed (Git)
-27. 변경 관리 (Change Management) 프로세스
-28. 소프트웨어 재공학 (Re-engineering) - 분석, 재구성, 역공학, 이관
-29. 역공학 (Reverse 엔진ering) - 소스코드에서 설계서 추출
-30. 재사용 (Reuse) - 자산의 공유, 컴포넌트 기반 개발(CBD)
-31. 유지보수 (Maintenance)의 4가지 유형 - 수정, 적응, 완전(개선), 예방
-32. 소프트웨어 노후화 (Software Obsolescence)
-33. 기술 부채 (Technical Debt) - 단기적 편의성으로 인한 장기적 비용 증가
-34. 레거시 시스템 (Legacy System) 현대화 전략
-35. 프로젝트 관리 (PM) 10대 지식 영역 (PMBOK)
-36. WBS (Work Breakdown Structure) - 작업 분할 구조도
-37. CPM (Critical Path Method) - 주공정법, 최장 경로
-38. PERT (Program Evaluation and Review Technique) - 낙관, 비관, 기대치 분석
-39. 간트 차트 (Gantt Chart) - 일정 시각화
-40. EVM (Earned Value Management) - 성과 측정 관리 (PV, EV, AC, SV, CV, SPI, CPI)
-41. 위험 관리 (Risk Management) 4단계 - 식별, 분석, 대응, 모니터링
-42. 위험 대응 전략 - 회피, 전가, 완화, 수용
-43. 품질 보증 (QA) vs 품질 제어 (QC)
-44. 소프트웨어 비용 산정 기법 개요
-45. 하향식 산정 - 전문가 감정, 델타이 기법
-46. 상향식 산정 - LOC (Line of Code), 단계별 인월 산정
-47. COCOMO (Constructive Cost Model) - 유기적, 준분리형, 내장형
-48. COCOMO II - 응용 구성, 초기 설계, 포스트 아키텍처 모델
-49. 기능점수 (FP, Function Point) 산정 - 데이터 기능(ILF, EIF), 트랜잭션 기능(EI, EO, EQ)
-50. 간이법 vs 상세법 기능점수 산정
-51. 델파이 기법 (Delphi Method) - 전문가 합의 기반 예측
-52. 와이드밴드 델파이 (Wideband Delphi) - 팀 단위 반복적 리뷰
-53. 백파이어링 (Backfiring) 기법 - LOC와 FP 간 변환
-54. 브룩스의 법칙 (Brooks's Law) - 지체된 프로젝트에 인력 투입 시 더 지체됨
-55. 잭맨 프레임워크 (Zachman Framework) - 전사적 아키텍처(EA) 프레임워크
-56. 토가프 (TOGAF) - The Open Group Architecture Framework
-57. 모델 주도 아키텍처 (MDA, Model Driven Architecture) - PIM, PSM 매핑
-58. 방법론 테일러링 (Tailoring) - 표준 프로세스를 조직/프로젝트에 맞게 최적화
-59. PMO (Project Management Office) - 전사 프로젝트 관리 조직
-60. 브레인스토밍 4원칙 (비판금지, 자유분방, 다다익선, 결합개선)
+1. [소프트웨어 공학 (Software 엔진ering)의 정의 및 목표 (신뢰성, 효율성, 유지보수성)](@/04_software_engineering/01_overview_principles/001_software_engineering_definition.md)
+2. [소프트웨어 위기 (Software Crisis) - 비용 초과, 일정 지연, 품질 저하](@/04_software_engineering/01_overview_principles/002_software_crisis.md)
+3. [소프트웨어 생명주기 (SDLC, Software Development Life Cycle)](@/04_software_engineering/01_overview_principles/003_sdlc.md)
+4. [폭포수 모델 (Waterfall Model) - 순차적, 문서 중심](@/04_software_engineering/01_overview_principles/004_waterfall_model.md)
+5. [V-모델 (V-Model) - 검증(Verification)과 확인(Validation)의 대응](@/04_software_engineering/01_overview_principles/005_v_model.md)
+6. [프로토타입 모델 (Prototype Model) - 요구사항 명확화, 시제품](@/04_software_engineering/01_overview_principles/006_prototype_model.md)
+7. [나선형 모델 (Spiral Model) - 위험 분석(Risk Analysis) 강조, 점진적 확장](@/04_software_engineering/01_overview_principles/007_spiral_model.md)
+8. [반복적/점진적 모델 (Iterative and Incremental Model)](@/04_software_engineering/01_overview_principles/008_iterative_incremental_model.md)
+9. [RAD (Rapid Application Development) 모델 - JAD, CASE 도구 활용](@/04_software_engineering/01_overview_principles/009_rad_model.md)
+10. [진화적 프로세스 모델 (Evolutionary Process Model)](@/04_software_engineering/01_overview_principles/010_evolutionary_process_model.md)
+11. [클린룸 소프트웨어 공학 (Cleanroom Software 엔진ering) - 통계적 품질 제어](@/04_software_engineering/01_overview_principles/011_cleanroom_software_engineering.md)
+12. [애자일 방법론 (Agile Methodology) 개요](@/04_software_engineering/01_overview_principles/012_agile_methodology.md)
+13. [ISO/IEC 12207 (소프트웨어 생명주기 공정 표준) - 기본, 지원, 조직 공정](@/04_software_engineering/01_overview_principles/013_iso_iec_12207.md)
+14. [ISO/IEC 15504 (SPICE) - 소프트웨어 프로세스 평가 표준](@/04_software_engineering/01_overview_principles/014_iso_iec_15504_spice.md)
+15. [CMMI (Capability Maturity Model Integration) - 단계형/연속형 모델](@/04_software_engineering/01_overview_principles/015_cmmi.md)
+16. [CMMI 5단계 - 초기, 관리, 정의, 정량적 관리, 최적화](@/04_software_engineering/01_overview_principles/016_cmmi_5_levels.md)
+17. [프로세스 자산 (Process Assets) 및 조직 표준 프로세스](@/04_software_engineering/01_overview_principles/017_process_assets_osp.md)
+18. [PSP (Personal Software Process) / TSP (Team Software Process)](@/04_software_engineering/01_overview_principles/018_psp_tsp.md)
+19. [소프트웨어 제품 라인 (SPL, Software Product Line) - 도메인/어플리케이션 공학](@/04_software_engineering/01_overview_principles/019_software_product_line.md)
+20. [형상 관리 (SCM, Software Configuration Management)](@/04_software_engineering/01_overview_principles/020_software_configuration_management.md)
+21. [형상 식별 (Configuration Identification) - 형상 항목(CI) 선정](@/04_software_engineering/01_overview_principles/021_configuration_identification.md)
+22. [형상 통제 (Configuration Control) - 변경 제어 위원회(CCB)](@/04_software_engineering/01_overview_principles/022_configuration_control.md)
+23. [형상 감사 (Configuration Audit) - 무결성 확인](@/04_software_engineering/01_overview_principles/023_configuration_audit.md)
+24. [형상 기록/보고 (Configuration Status Accounting)](@/04_software_engineering/01_overview_principles/024_configuration_status_accounting.md)
+25. [기준선 (Baseline) - 기능적, 설계, 시험, 제품 기준선](@/04_software_engineering/01_overview_principles/025_baseline.md)
+26. [버전 관리 시스템 (VCS) - Centralized (SVN) vs Distributed (Git)](@/04_software_engineering/01_overview_principles/026_version_control_system.md)
+27. [변경 관리 (Change Management) 프로세스](@/04_software_engineering/01_overview_principles/027_change_management.md)
+28. [소프트웨어 재공학 (Re-engineering) - 분석, 재구성, 역공학, 이관](@/04_software_engineering/01_overview_principles/028_software_reengineering.md)
+29. [역공학 (Reverse 엔진ering) - 소스코드에서 설계서 추출](@/04_software_engineering/01_overview_principles/029_reverse_engineering.md)
+30. [재사용 (Reuse) - 자산의 공유, 컴포넌트 기반 개발(CBD)](@/04_software_engineering/01_overview_principles/030_software_reuse_cbd.md)
+31. [유지보수 (Maintenance)의 4가지 유형 - 수정, 적응, 완전(개선), 예방](@/04_software_engineering/01_overview_principles/031_software_maintenance_types.md)
+32. [소프트웨어 노후화 (Software Obsolescence)](@/04_software_engineering/01_overview_principles/032_software_obsolescence.md)
+33. [기술 부채 (Technical Debt) - 단기적 편의성으로 인한 장기적 비용 증가](@/04_software_engineering/01_overview_principles/033_technical_debt.md)
+34. [레거시 시스템 (Legacy System) 현대화 전략](@/04_software_engineering/01_overview_principles/034_legacy_system_modernization.md)
+35. [프로젝트 관리 (PM) 10대 지식 영역 (PMBOK)](@/04_software_engineering/01_overview_principles/035_pmbok_10_knowledge_areas.md)
+36. [WBS (Work Breakdown Structure) - 작업 분할 구조도](@/04_software_engineering/01_overview_principles/036_wbs.md)
+37. [CPM (Critical Path Method) - 주공정법, 최장 경로](@/04_software_engineering/01_overview_principles/037_cpm.md)
+38. [PERT (Program Evaluation and Review Technique) - 낙관, 비관, 기대치 분석](@/04_software_engineering/01_overview_principles/038_pert.md)
+39. [간트 차트 (Gantt Chart) - 일정 시각화](@/04_software_engineering/01_overview_principles/039_gantt_chart.md)
+40. [EVM (Earned Value Management) - 성과 측정 관리 (PV, EV, AC, SV, CV, SPI, CPI)](@/04_software_engineering/01_overview_principles/040_evm.md)
+41. [위험 관리 (Risk Management) 4단계 - 식별, 분석, 대응, 모니터링](@/04_software_engineering/01_overview_principles/041_risk_management_4_steps.md)
+42. [위험 대응 전략 - 회피, 전가, 완화, 수용](@/04_software_engineering/01_overview_principles/042_risk_response_strategies.md)
+43. [품질 보증 (QA) vs 품질 제어 (QC)](@/04_software_engineering/01_overview_principles/043_qa_vs_qc.md)
+44. [소프트웨어 비용 산정 기법 개요](@/04_software_engineering/01_overview_principles/044_software_cost_estimation_overview.md)
+45. [하향식 산정 - 전문가 감정, 델타이 기법](@/04_software_engineering/01_overview_principles/045_top_down_estimation.md)
+46. [상향식 산정 - LOC (Line of Code), 단계별 인월 산정](@/04_software_engineering/01_overview_principles/046_bottom_up_estimation_loc.md)
+47. [COCOMO (Constructive Cost Model) - 유기적, 준분리형, 내장형](@/04_software_engineering/01_overview_principles/047_cocomo_model.md)
+48. [COCOMO II - 응용 구성, 초기 설계, 포스트 아키텍처 모델](@/04_software_engineering/01_overview_principles/048_cocomo_2_model.md)
+49. [기능점수 (FP, Function Point) 산정 - 데이터 기능(ILF, EIF), 트랜잭션 기능(EI, EO, EQ)](@/04_software_engineering/01_overview_principles/049_function_point_fp_estimation.md)
+50. [간이법 vs 상세법 기능점수 산정](@/04_software_engineering/01_overview_principles/050_fp_simple_vs_detailed.md)
+51. [델파이 기법 (Delphi Method) - 전문가 합의 기반 예측](@/04_software_engineering/01_overview_principles/051_delphi_method.md)
+52. [와이드밴드 델파이 (Wideband Delphi) - 팀 단위 반복적 리뷰](@/04_software_engineering/01_overview_principles/052_wideband_delphi.md)
+53. [백파이어링 (Backfiring) 기법 - LOC와 FP 간 변환](@/04_software_engineering/01_overview_principles/053_backfiring_technique.md)
+54. [브룩스의 법칙 (Brooks's Law) - 지체된 프로젝트에 인력 투입 시 더 지체됨](@/04_software_engineering/01_overview_principles/054_brooks_s_law.md)
+55. [잭맨 프레임워크 (Zachman Framework) - 전사적 아키텍처(EA) 프레임워크](@/04_software_engineering/01_overview_principles/055_zachman_framework.md)
+56. [토가프 (TOGAF) - The Open Group Architecture Framework](@/04_software_engineering/01_overview_principles/056_togaf_ea_framework.md)
+57. [모델 주도 아키텍처 (MDA, Model Driven Architecture) - PIM, PSM 매핑](@/04_software_engineering/01_overview_principles/057_mda_model_driven_architecture.md)
+58. [방법론 테일러링 (Tailoring) - 표준 프로세스를 조직/프로젝트에 맞게 최적화](@/04_software_engineering/01_overview_principles/058_methodology_tailoring.md)
+59. [PMO (Project Management Office) - 전사 프로젝트 관리 조직](@/04_software_engineering/01_overview_principles/059_pmo_project_management_office.md)
+60. [브레인스토밍 4원칙 (비판금지, 자유분방, 다다익선, 결합개선)](@/04_software_engineering/01_overview_principles/060_brainstorming_4_principles.md)
 
 ## 2. 애자일 개발 및 최신 방법론 (70개)
-61. 애자일 선언문 (Agile Manifesto) - 4가지 가치, 12가지 원칙
-62. 스크럼 (Scrum) 프레임워크 - 역할, 이벤트, 산출물
-63. 제품 책임자 (Product Owner) - 비즈니스 가치 극대화, 백로그 관리
-64. 스크럼 마스터 (Scrum Master) - 가이드, 장애 제거
-65. 개발 팀 (Development Team) - 자기 조직화, 다기능 팀
-66. 제품 백로그 (Product Backlog) - 요구사항 우선순위 목록
-67. 스프린트 (Sprint) - 1~4주의 개발 주기
-68. 스프린트 계획 회의 (Sprint Planning)
-69. 데일리 스탠드업 (Daily Scrum) - 진행 상황 공유, 장애 파악
-70. 스프린트 리뷰 (Sprint Review) - 데모 및 피드백
-71. 스프린트 회고 (Sprint Retrospective) - 프로세스 개선
-72. 번다운 차트 (Burndown Chart) / 번업 차트 (Burnup Chart)
-73. XP (e/Xtreme Programming) - 5가지 가치, 12가지 실천 방법
-74. 짝 프로그래밍 (Pair Programming) - 내비게이터와 드라이버
-75. 공동 코드 소유 (Collective Code Ownership)
-76. 지속적 통합 (CI, Continuous Integration)
-77. 테스트 주도 개발 (TDD, Test Driven Development) - Red-Green-Refactor
-78. 리팩토링 (Refactoring) - 외부 동작 변경 없이 내부 구조 개선
-79. 메타포 (Metaphor) - 시스템의 전체적 가이드라인
-80. 소규모 릴리즈 (Small Releases)
-81. 사용자 스토리 (User Story) - Who, What, Why 형식
-82. 스토리 포인트 (Story Point) - 상대적 규모 산정
-83. 플래닝 포커 (Planning Poker) - 다수 전문가 합의 기반 산정
-84. 칸반 (Kanban) - 워크플로우 시각화, WIP(Work In Progress) 제한
-85. 리드 타임 (Lead Time) / 사이클 타임 (Cycle Time)
-86. 누적 흐름도 (CFD, Cumulative Flow Diagram)
-87. 린 (Lean) 소프트웨어 개발 - 7대 원칙 (낭비 제거, 학습 증진 등)
-88. 가치 스트림 맵 (Value Stream Mapping)
-89. 린 스타트업 (Lean Startup) - 구축-측정-학습 피드백 루프
-90. 최소 존립 제품 (MVP, Minimum Viable Product)
-91. 피벗 (Pivot) - 전략적 방향 전환
-92. 대규모 애자일 (Scaled Agile) 프레임워크
-93. SAFe (Scaled Agile Framework) - 기업용 대규모 애자일
-94. LeSS (Large-Scale Scrum) - 다수 팀 스크럼 확장
-95. Nexus - 스크럼 팀 간 의존성 관리
-96. Spotify 모델 - Tribe, Squad, Chapter, Guild
-97. DevOps (Development + Operations) - 문화, 자동화, 측정, 공유
-98. 인프라로서의 코드 (IaC, Infrastructure as Code)
-99. 지속적 배포 (CD, Continuous Deployment / Delivery)
-100. SRE (Site Reliability 엔진ering) - 구글의 운영 방식, 에러 예산
-101. 에러 예산 (Error Budget) - 안정성 vs 속도 트레이드 오프
-102. SLI (Service Level Indicator) / SLO (Service Level Objective)
-103. SLA (Service Level Agreement)
-104. 토일 (Toil) - SRE에서 줄여야 할 단순 반복적 운영 작업
-105. DevSecOps - 보안의 좌측 이동 (Shift-Left Security)
-106. FinOps - 클라우드 비용 최적화 및 관리
-107. MLOps - 머신러닝 생명주기 관리
-108. LLMOps - 대규모 언어 모델 운영 및 미세 조정 관리
-109. 플랫폼 엔지니어링 (Platform 엔진ering) - 개발자 셀프 서비스 포털 (IDP)
-110. 내부 개발자 플랫폼 (IDP, Internal Developer Platform)
-111. 가시성 (Observability) - Metrics, Logs, Traces (3대 요소)
-112. 분산 추적 (Distributed Tracing) - 마이크로서비스 간 호출 추적
-113. 카오스 엔지니어링 (Chaos 엔진ering) - 시스템 회복력 테스트
-114. 피처 플래그 (Feature Flag / Toggle) - 런타임 기능 활성/비활성
-115. 카나리 배포 (Canary Deployment) - 점진적 릴리즈
-116. 블루/그린 배포 (Blue/Green Deployment) - 무중단 배포 전략
-117. 롤링 업데이트 (Rolling Update)
-118. 섀도우 배포 (Shadow Deployment) - 실트래픽 미러링 테스트
-119. GitOps - Git을 진실의 원천(Source of Truth)으로 하는 운영
-120. 선언적 인프라 관리 (Declarative Infrastructure)
-121. CI/CD 파이프라인 (Pipeline) 자동화
-122. 컨테이너 오케스트레이션 (Kubernetes 등) 연계
-123. 서버리스 (Serverless) 개발 모델 및 FaaS
-124. 클라우드 네이티브 개발 (Cloud Native Development)
-125. 12 팩터 앱 (12-Factor App) 아키텍처 방법론
-126. 행동 주도 개발 (BDD, Behavior-Driven Development)
-127. 도메인 주도 개발 (DDD)의 애자일적 접근
-128. 워터스크럼폴 (Water-Scrum-Fall) 안티패턴
-129. 스파이크 (Spike) - 기술적 위험 해소를 위한 짧은 조사/프로토타이핑
-130. 인수 기준 (Acceptance Criteria) 명확화 (INVEST 원칙)
+61. [애자일 선언문 (Agile Manifesto) - 4가지 가치, 12가지 원칙](@/04_software_engineering/02_requirements_analysis/061_agile_manifesto.md)
+62. [스크럼 (Scrum) 프레임워크 - 역할, 이벤트, 산출물](@/04_software_engineering/02_requirements_analysis/062_scrum_framework_overview.md)
+63. [제품 책임자 (Product Owner) - 비즈니스 가치 극대화, 백로그 관리](@/04_software_engineering/02_requirements_analysis/063_product_owner_po.md)
+64. [스크럼 마스터 (Scrum Master) - 가이드, 장애 제거](@/04_software_engineering/02_requirements_analysis/064_scrum_master_sm.md)
+65. [개발 팀 (Development Team) - 자기 조직화, 다기능 팀](@/04_software_engineering/02_requirements_analysis/065_development_team_scrum.md)
+66. [제품 백로그 (Product Backlog) - 요구사항 우선순위 목록](@/04_software_engineering/02_requirements_analysis/066_product_backlog_grooming.md)
+67. [스프린트 (Sprint) - 1~4주의 개발 주기](@/04_software_engineering/02_requirements_analysis/067_sprint_timebox.md)
+68. [스프린트 계획 회의 (Sprint Planning)](@/04_software_engineering/02_requirements_analysis/068_sprint_planning.md)
+69. [데일리 스탠드업 (Daily Scrum) - 진행 상황 공유, 장애 파악](@/04_software_engineering/02_requirements_analysis/069_daily_standup_scrum.md)
+70. [스프린트 리뷰 (Sprint Review) - 데모 및 피드백](@/04_software_engineering/02_requirements_analysis/070_sprint_review_demo.md)
+71. [스프린트 회고 (Sprint Retrospective) - 프로세스 개선](@/04_software_engineering/02_requirements_analysis/071_sprint_retrospective.md)
+72. [번다운 차트 (Burndown Chart) / 번업 차트 (Burnup Chart)](@/04_software_engineering/02_requirements_analysis/072_burndown_burnup_chart.md)
+73. [XP (e/Xtreme Programming) - 5가지 가치, 12가지 실천 방법](@/04_software_engineering/02_requirements_analysis/073_xp_extreme_programming.md)
+74. [짝 프로그래밍 (Pair Programming) - 내비게이터와 드라이버](@/04_software_engineering/02_requirements_analysis/074_pair_programming_driver_navigator.md)
+75. [공동 코드 소유 (Collective Code Ownership)](@/04_software_engineering/02_requirements_analysis/075_collective_code_ownership.md)
+76. [지속적 통합 (CI, Continuous Integration)](@/04_software_engineering/02_requirements_analysis/076_ci_continuous_integration.md)
+77. [테스트 주도 개발 (TDD, Test Driven Development) - Red-Green-Refactor](@/04_software_engineering/02_requirements_analysis/077_tdd_test_driven_development.md)
+78. [리팩토링 (Refactoring) - 외부 동작 변경 없이 내부 구조 개선](@/04_software_engineering/02_requirements_analysis/078_refactoring_code_smells.md)
+79. [메타포 (Metaphor) - 시스템의 전체적 가이드라인](@/04_software_engineering/02_requirements_analysis/079_metaphor_xp_practice.md)
+80. [소규모 릴리즈 (Small Releases)](@/04_software_engineering/02_requirements_analysis/080_small_releases.md)
+81. [사용자 스토리 (User Story) - Who, What, Why 형식](@/04_software_engineering/02_requirements_analysis/081_user_story_invest.md)
+82. [스토리 포인트 (Story Point) - 상대적 규모 산정](@/04_software_engineering/02_requirements_analysis/082_story_point_velocity.md)
+83. [플래닝 포커 (Planning Poker) - 다수 전문가 합의 기반 산정](@/04_software_engineering/02_requirements_analysis/083_planning_poker.md)
+84. [칸반 (Kanban) - 워크플로우 시각화, WIP(Work In Progress) 제한](@/04_software_engineering/02_requirements_analysis/084_kanban_board_wip_limit.md)
+85. [리드 타임 (Lead Time) / 사이클 타임 (Cycle Time)](@/04_software_engineering/02_requirements_analysis/085_lead_time_cycle_time.md)
+86. [누적 흐름도 (CFD, Cumulative Flow Diagram)](@/04_software_engineering/02_requirements_analysis/086_cumulative_flow_diagram_cfd.md)
+87. [린 (Lean) 소프트웨어 개발 - 7대 원칙 (낭비 제거, 학습 증진 등)](@/04_software_engineering/02_requirements_analysis/087_lean_software_development_7_principles.md)
+88. [가치 스트림 맵 (Value Stream Mapping)](@/04_software_engineering/02_requirements_analysis/088_value_stream_mapping_vsm.md)
+89. [린 스타트업 (Lean Startup) - 구축-측정-학습 피드백 루프](@/04_software_engineering/02_requirements_analysis/089_lean_startup_bml_loop.md)
+90. [최소 존립 제품 (MVP, Minimum Viable Product)](@/04_software_engineering/02_requirements_analysis/090_mvp_minimum_viable_product.md)
+91. [피벗 (Pivot) - 전략적 방향 전환](@/04_software_engineering/02_requirements_analysis/091_lean_startup_pivot.md)
+92. [대규모 애자일 (Scaled Agile) 프레임워크](@/04_software_engineering/02_requirements_analysis/092_scaled_agile_frameworks_overview.md)
+93. [SAFe (Scaled Agile Framework) - 기업용 대규모 애자일](@/04_software_engineering/02_requirements_analysis/093_safe_scaled_agile_framework_art_pi.md)
+94. [LeSS (Large-Scale Scrum) - 다수 팀 스크럼 확장](@/04_software_engineering/02_requirements_analysis/094_less_large_scale_scrum.md)
+95. [Nexus - 스크럼 팀 간 의존성 관리](@/04_software_engineering/02_requirements_analysis/095_nexus_scaled_agile_framework.md)
+96. [Spotify 모델 - Tribe, Squad, Chapter, Guild](@/04_software_engineering/02_requirements_analysis/096_spotify_model_tribe_squad.md)
+97. [DevOps (Development + Operations) - 문화, 자동화, 측정, 공유](@/04_software_engineering/02_requirements_analysis/097_devops_culture_calms.md)
+98. [인프라로서의 코드 (IaC, Infrastructure as Code)](@/04_software_engineering/02_requirements_analysis/098_iac_infrastructure_as_code_terraform.md)
+99. [지속적 배포 (CD, Continuous Deployment / Delivery)](@/04_software_engineering/02_requirements_analysis/099_continuous_deployment_cd.md)
+100. [SRE (Site Reliability 엔진ering) - 구글의 운영 방식, 에러 예산](@/04_software_engineering/02_requirements_analysis/100_sre_site_reliability_engineering_error_budget.md)
+101. [에러 예산 (Error Budget) - 안정성 vs 속도 트레이드 오프](@/04_software_engineering/02_requirements_analysis/101_error_budget_sre.md)
+102. [SLI (Service Level Indicator) / SLO (Service Level Objective)](@/04_software_engineering/02_requirements_analysis/102_sli_slo_service_level_indicator_objective.md)
+103. [SLA (Service Level Agreement)](@/04_software_engineering/02_requirements_analysis/103_sla_service_level_agreement_penalty.md)
+104. [토일 (Toil) - SRE에서 줄여야 할 단순 반복적 운영 작업](@/04_software_engineering/02_requirements_analysis/104_toil_automation_sre.md)
+105. [DevSecOps - 보안의 좌측 이동 (Shift-Left Security)](@/04_software_engineering/02_requirements_analysis/105_devsecops_shift_left_security.md)
+106. [FinOps - 클라우드 비용 최적화 및 관리](@/04_software_engineering/02_requirements_analysis/106_finops_cloud_cost_optimization.md)
+107. [MLOps - 머신러닝 생명주기 관리](@/04_software_engineering/02_requirements_analysis/107_mlops_machine_learning_lifecycle.md)
+108. [LLMOps - 대규모 언어 모델 운영 및 미세 조정 관리](@/04_software_engineering/02_requirements_analysis/108_llmops_large_language_model.md)
+109. [플랫폼 엔지니어링 (Platform 엔진ering) - 개발자 셀프 서비스 포털 (IDP)](@/04_software_engineering/02_requirements_analysis/109_platform_engineering_cognitive_load.md)
+110. [내부 개발자 플랫폼 (IDP, Internal Developer Platform)](@/04_software_engineering/02_requirements_analysis/110_idp_internal_developer_platform_backstage.md)
+111. [가시성 (Observability) - Metrics, Logs, Traces (3대 요소)](@/04_software_engineering/02_requirements_analysis/111_observability_metrics_logs_traces.md)
+112. [분산 추적 (Distributed Tracing) - 마이크로서비스 간 호출 추적](@/04_software_engineering/02_requirements_analysis/112_distributed_tracing_microservices.md)
+113. [카오스 엔지니어링 (Chaos 엔진ering) - 시스템 회복력 테스트](@/04_software_engineering/02_requirements_analysis/113_chaos_engineering_chaos_monkey.md)
+114. [피처 플래그 (Feature Flag / Toggle) - 런타임 기능 활성/비활성](@/04_software_engineering/02_requirements_analysis/114_feature_flag_toggle_deployment.md)
+115. [카나리 배포 (Canary Deployment) - 점진적 릴리즈](@/04_software_engineering/02_requirements_analysis/115_canary_deployment_gradual_rollout.md)
+116. [블루/그린 배포 (Blue/Green Deployment) - 무중단 배포 전략](@/04_software_engineering/02_requirements_analysis/116_blue_green_deployment.md)
+117. [롤링 업데이트 (Rolling Update)](@/04_software_engineering/02_requirements_analysis/117_rolling_update_deployment.md)
+118. [섀도우 배포 (Shadow Deployment) - 실트래픽 미러링 테스트](@/04_software_engineering/02_requirements_analysis/118_shadow_deployment_traffic_mirroring.md)
+119. [GitOps - Git을 진실의 원천(Source of Truth)으로 하는 운영](@/04_software_engineering/02_requirements_analysis/119_gitops_single_source_of_truth.md)
+120. [선언적 인프라 관리 (Declarative Infrastructure)](@/04_software_engineering/02_requirements_analysis/120_declarative_infrastructure_idempotence.md)
+121. [CI/CD 파이프라인 (Pipeline) 자동화](@/04_software_engineering/02_requirements_analysis/121_cicd_pipeline_automation.md)
+122. [컨테이너 오케스트레이션 (Kubernetes 등) 연계](@/04_software_engineering/02_requirements_analysis/122_container_orchestration_kubernetes_k8s.md)
+123. [서버리스 (Serverless) 개발 모델 및 FaaS](@/04_software_engineering/02_requirements_analysis/123_serverless_faas_aws_lambda.md)
+124. [클라우드 네이티브 개발 (Cloud Native Development)](@/04_software_engineering/02_requirements_analysis/124_cloud_native_development_architecture.md)
+125. [12 팩터 앱 (12-Factor App) 아키텍처 방법론](@/04_software_engineering/02_requirements_analysis/125_12_factor_app_cloud_native_architecture.md)
+126. [행동 주도 개발 (BDD, Behavior-Driven Development)](@/04_software_engineering/02_requirements_analysis/126_bdd_behavior_driven_development_given_when_then.md)
+127. [도메인 주도 개발 (DDD)의 애자일적 접근](@/04_software_engineering/02_requirements_analysis/127_ddd_domain_driven_design.md)
+128. [워터스크럼폴 (Water-Scrum-Fall) 안티패턴](@/04_software_engineering/02_requirements_analysis/128_water_scrum_fall_anti_pattern.md)
+129. [스파이크 (Spike) - 기술적 위험 해소를 위한 짧은 조사/프로토타이핑](@/04_software_engineering/02_requirements_analysis/129_spike_agile_technical_investigation.md)
+130. [인수 기준 (Acceptance Criteria) 명확화 (INVEST 원칙)](@/04_software_engineering/02_requirements_analysis/130_acceptance_criteria_vs_dod.md)
 
 ## 3. 요구공학 및 비즈니스 분석 (60개)
-131. 요구공학 (Requirements 엔진ering) 정의 및 필요성
-132. 요구사항의 유형 - 기능적 요구사항 vs 비기능적 요구사항
-133. 비기능 요구사항 (Quality Attributes) - 성능, 보안, 가용성, 신뢰성 등
-134. 요구공학 프로세스 - 도출, 분석, 명세, 확인, 관리
-135. 요구사항 도출 (Elicitation) 기법 - 인터뷰, 설문, 워크숍, 관찰
-136. 브레인스토밍 (Brainstorming) / JAD (Joint Application Design)
-137. 페르소나 (Persona) 분석 - 가상 사용자 모델링
-138. 사용자 여정 지도 (User Journey Map)
-139. 프로토타이핑 (Prototyping) - Low-fidelity vs High-fidelity
-140. 섀도잉 (Shadowing) - 사용자 업무 환경 직접 관찰
-141. 포커스 그룹 인터뷰 (FGI)
-142. 요구사항 분석 (Analysis) - 모순 해결, 범위 확정
-143. 구조적 분석 (Structured Analysis) - DFD, Data Dictionary, Mini-Spec
-144. 자료 흐름도 (DFD, Data Flow Diagram) - Process, Data Flow, Data Store, Terminator
-145. 자료 사전 (DD, Data Dictionary)
-146. 객체지향 분석 (OOA, Object-Oriented Analysis)
-147. 유스케이스 다이어그램 (Use Case Diagram) - 액터, 유스케이스, 관계(포함, 확장)
-148. 요구사항 명세 (Specification) - 정형 명세 vs 비정형 명세
-149. 소프트웨어 요구사항 명세서 (SRS, Software Requirements Specification)
-150. SRS의 품질 특성 - 정확성, 명확성, 완전성, 일관성, 수정 용이성, 추적 가능성
-151. 요구사항 확인 및 검증 (V&V, Verification & Validation)
-152. 요구사항 검토 (Review) - 인스펙션, 워크쓰루
-153. 인스펙션 (Inspection) - 공식적 검토, 중재자, 체크리스트
-154. 워크쓰루 (Walkthrough) - 비공식적, 지식 공유 위주
-155. 동료 검토 (Peer Review)
-156. 요구사항 추적성 (Traceability) - 수직적/수평적 추적성
-157. 요구사항 추적 매트릭스 (RTM, Requirements Traceability Matrix)
-158. 요구사항 관리 (Management) - 변경 통제, 버전 관리
-159. 베이스라인 (Baseline) 설정 및 관리
-160. 형상 통제 위원회 (CCB) 요구사항 변경 심사
-161. 범위 크리프 (Scope Creep) - 무분별한 요구사항 확장 방지
-162. 골드 플래팅 (Gold Plating) - 요구사항에 없는 기능 임의 추가 (안티패턴)
-163. 비즈니스 프로세스 모델링 (BPMN)
-164. 유스케이스 시나리오 (Use Case Scenario) - 기본 흐름, 대안 흐름, 예외 흐름
-165. 인수 기준 (Acceptance Criteria) 정의
-166. MoSCoW 기법 - Must, Should, Could, Won't 우선순위 결정
-167. 카노 모델 (Kano Model) - 당연적, 일원적, 매력적 품질
-168. 품질 기능 전개 (QFD, Quality Function Deployment)
-169. 품질의 집 (HoQ, House of Quality) 매트릭스
-170. 도메인 분석 (Domain Analysis)
-171. 요구사항 일관성 검사 (Consistency Checking)
-172. 비즈니스 케이스 (Business Case) 및 ROI 분석
-173. 이해관계자 (Stakeholder) 식별 및 영향도 매트릭스
-174. 페어와이즈 (Pairwise) 우선순위 결정 기법
-175. 요구사항 명세 언어 (Z, VDM 등 정형 언어)
-176. 페트리 넷 (Petri Net) - 병행 시스템 명세
-177. 요구사항 도구 (Jira, DOORS 등) 활용 전략
-178. AS-IS (현재 상태) / TO-BE (미래 상태) 분석
-179. SWOT 분석, 3C/4C 분석 연계 요구 도출
-180. 마인드 맵 (Mind Map) 및 친화도 (Affinity Diagram)
-181. 역공학을 통한 요구사항 추출
-182. 에픽 (Epic) - 거시적 스토리 집합
-183. 유저 스토리 맵 (User Story Mapping)
-184. 테마 (Theme) - 에픽들의 상위 카테고리
-185. 린 캔버스 (Lean Canvas) 1페이지 비즈니스 모델
-186. 가치 제안 캔버스 (Value Proposition Canvas)
-187. 소프트웨어 제품 라인 (SPL) 요구사항 가변성(Variability) 분석
-188. 피쳐 모델 (Feature Model) 가변성 트리
-189. BDD의 Given-When-Then 문법을 이용한 명세
-190. AI(LLM) 기반 요구사항 명세서 초안 자동 생성 지원
+131. [요구공학 (Requirements 엔진ering) 정의 및 필요성](@/04_software_engineering/03_design_architecture/131_requirements_engineering.md)
+132. [요구사항의 유형 - 기능적 요구사항 vs 비기능적 요구사항](@/04_software_engineering/03_design_architecture/132_vs.md)
+133. [비기능 요구사항 (Quality Attributes) - 성능, 보안, 가용성, 신뢰성 등](@/04_software_engineering/03_design_architecture/133_non_functional_requirements.md)
+134. [요구공학 프로세스 - 도출, 분석, 명세, 확인, 관리](@/04_software_engineering/03_design_architecture/134_requirements_engineering_process.md)
+135. [요구사항 도출 (Elicitation) 기법 - 인터뷰, 설문, 워크숍, 관찰](@/04_software_engineering/03_design_architecture/135_elicitation.md)
+136. [브레인스토밍 (Brainstorming) / JAD (Joint Application Design)](@/04_software_engineering/03_design_architecture/136_brainstorming_jad_joint.md)
+137. [페르소나 (Persona) 분석 - 가상 사용자 모델링](@/04_software_engineering/03_design_architecture/137_persona.md)
+138. [사용자 여정 지도 (User Journey Map)](@/04_software_engineering/03_design_architecture/138_user_journey_map.md)
+139. [프로토타이핑 (Prototyping) - Low-fidelity vs High-fidelity](@/04_software_engineering/03_design_architecture/139_prototyping_low_fidelit.md)
+140. [섀도잉 (Shadowing) - 사용자 업무 환경 직접 관찰](@/04_software_engineering/03_design_architecture/140_shadowing.md)
+141. [포커스 그룹 인터뷰 (FGI)](@/04_software_engineering/03_design_architecture/141_focus_group_interview_fgi.md)
+142. [요구사항 분석 (Analysis) - 모순 해결, 범위 확정](@/04_software_engineering/03_design_architecture/142_analysis.md)
+143. [구조적 분석 (Structured Analysis) - DFD, Data Dictionary, Mini-Spec](@/04_software_engineering/03_design_architecture/143_structured_analysis_dfd_dd_minispec.md)
+144. [자료 흐름도 (DFD, Data Flow Diagram) - Process, Data Flow, Data Store, Terminator](@/04_software_engineering/03_design_architecture/144_dfd_data_flow_diagram.md)
+145. [자료 사전 (DD, Data Dictionary)](@/04_software_engineering/03_design_architecture/145_1_mini_spec.md)
+146. [객체지향 분석 (OOA, Object-Oriented Analysis)](@/04_software_engineering/03_design_architecture/146_ooa_object_oriented_analysis.md)
+147. [유스케이스 다이어그램 (Use Case Diagram) - 액터, 유스케이스, 관계(포함, 확장)](@/04_software_engineering/03_design_architecture/147_use_case_diagram.md)
+148. [요구사항 명세 (Specification) - 정형 명세 vs 비정형 명세](@/04_software_engineering/03_design_architecture/148_requirements_specification_formal_informal.md)
+149. [소프트웨어 요구사항 명세서 (SRS, Software Requirements Specification)](@/04_software_engineering/03_design_architecture/149_software_requirements_specification_srs.md)
+150. [SRS의 품질 특성 - 정확성, 명확성, 완전성, 일관성, 수정 용이성, 추적 가능성](@/04_software_engineering/03_design_architecture/150_srs_quality_characteristics.md)
+151. [요구사항 확인 및 검증 (V&V, Verification & Validation)](@/04_software_engineering/03_design_architecture/151_requirements_verification_and_validation_v_v.md)
+152. [요구사항 검토 (Review) - 인스펙션, 워크쓰루](@/04_software_engineering/03_design_architecture/152_requirements_review_inspection_walkthrough.md)
+153. [인스펙션 (Inspection) - 공식적 검토, 중재자, 체크리스트](@/04_software_engineering/03_design_architecture/153_requirements_review_inspection_walkthrough.md)
+154. [워크쓰루 (Walkthrough) - 비공식적, 지식 공유 위주](@/04_software_engineering/03_design_architecture/154_requirements_review_walkthrough.md)
+155. [동료 검토 (Peer Review)](@/04_software_engineering/03_design_architecture/155_peer_review.md)
+156. [요구사항 추적성 (Traceability) - 수직적/수평적 추적성](@/04_software_engineering/03_design_architecture/156_requirements_traceability_vertical_horizontal.md)
+157. [요구사항 추적 매트릭스 (RTM, Requirements Traceability Matrix)](@/04_software_engineering/03_design_architecture/157_requirements_traceability_matrix_rtm.md)
+158. [요구사항 관리 (Management) - 변경 통제, 버전 관리](@/04_software_engineering/03_design_architecture/158_requirements_management_change_control.md)
+159. [베이스라인 (Baseline) 설정 및 관리](@/04_software_engineering/03_design_architecture/159_baseline_requirements_configuration_management.md)
+160. [형상 통제 위원회 (CCB) 요구사항 변경 심사](@/04_software_engineering/03_design_architecture/160_change_control_board_ccb_requirements_review.md)
+161. [범위 크리프 (Scope Creep) - 무분별한 요구사항 확장 방지](@/04_software_engineering/03_design_architecture/161_scope_creep_requirements_inflation_prevention.md)
+162. [골드 플래팅 (Gold Plating) - 요구사항에 없는 기능 임의 추가 (안티패턴)](@/04_software_engineering/03_design_architecture/162_gold_plating_anti_pattern.md)
+163. [비즈니스 프로세스 모델링 (BPMN)](@/04_software_engineering/03_design_architecture/163_bpmn_business_process_modeling_notation.md)
+164. [유스케이스 시나리오 (Use Case Scenario) - 기본 흐름, 대안 흐름, 예외 흐름](@/04_software_engineering/03_design_architecture/164_use_case_scenario_flows.md)
+165. [인수 기준 (Acceptance Criteria) 정의](@/04_software_engineering/03_design_architecture/165_acceptance_criteria_definition.md)
+166. [MoSCoW 기법 - Must, Should, Could, Won't 우선순위 결정](@/04_software_engineering/03_design_architecture/166_moscow_prioritization_technique.md)
+167. [카노 모델 (Kano Model) - 당연적, 일원적, 매력적 품질](@/04_software_engineering/03_design_architecture/167_kano_model_quality_attributes.md)
+168. [품질 기능 전개 (QFD, Quality Function Deployment)](@/04_software_engineering/03_design_architecture/168_qfd_quality_function_deployment.md)
+169. [품질의 집 (HoQ, House of Quality) 매트릭스](@/04_software_engineering/03_design_architecture/169_hoq_house_of_quality_matrix.md)
+170. [도메인 분석 (Domain Analysis)](@/04_software_engineering/03_design_architecture/170_domain_analysis.md)
+171. [요구사항 일관성 검사 (Consistency Checking)](@/04_software_engineering/03_design_architecture/171_requirements_consistency_checking.md)
+172. [비즈니스 케이스 (Business Case) 및 ROI 분석](@/04_software_engineering/03_design_architecture/172_business_case_roi_analysis.md)
+173. [이해관계자 (Stakeholder) 식별 및 영향도 매트릭스](@/04_software_engineering/03_design_architecture/173_stakeholder_identification_impact_matrix.md)
+174. [페어와이즈 (Pairwise) 우선순위 결정 기법](@/04_software_engineering/03_design_architecture/174_pairwise_comparison_priority_matrix.md)
+175. [요구사항 명세 언어 (Z, VDM 등 정형 언어)](@/04_software_engineering/03_design_architecture/175_formal_informal_specification_languages.md)
+176. [페트리 넷 (Petri Net) - 병행 시스템 명세](@/04_software_engineering/03_design_architecture/176_petri_net_concurrent_system_specification.md)
+177. [요구사항 도구 (Jira, DOORS 등) 활용 전략](@/04_software_engineering/03_design_architecture/177_requirements_management_tools_jira_doors.md)
+178. [AS-IS (현재 상태) / TO-BE (미래 상태) 분석](@/04_software_engineering/03_design_architecture/178_as_is_to_be_analysis.md)
+179. [SWOT 분석, 3C/4C 분석 연계 요구 도출](@/04_software_engineering/03_design_architecture/179_swot_3c_4c_analysis.md)
+180. [마인드 맵 (Mind Map) 및 친화도 (Affinity Diagram)](@/04_software_engineering/03_design_architecture/180_mind_map_affinity_diagram.md)
+181. [역공학을 통한 요구사항 추출](@/04_software_engineering/03_design_architecture/181_reverse_engineering_requirements.md)
+182. [에픽 (Epic) - 거시적 스토리 집합](@/04_software_engineering/03_design_architecture/182_epic_agile_requirements.md)
+183. [유저 스토리 맵 (User Story Mapping)](@/04_software_engineering/03_design_architecture/183_user_story_mapping.md)
+184. [테마 (Theme) - 에픽들의 상위 카테고리](@/04_software_engineering/03_design_architecture/184_theme_agile_requirements.md)
+185. [린 캔버스 (Lean Canvas) 1페이지 비즈니스 모델](@/04_software_engineering/03_design_architecture/185_lean_canvas_business_model.md)
+186. [가치 제안 캔버스 (Value Proposition Canvas)](@/04_software_engineering/03_design_architecture/186_value_proposition_canvas.md)
+187. [소프트웨어 제품 라인 (SPL) 요구사항 가변성(Variability) 분석](@/04_software_engineering/03_design_architecture/187_spl_software_product_line_variability.md)
+188. [피쳐 모델 (Feature Model) 가변성 트리](@/04_software_engineering/03_design_architecture/188_feature_model_variability_tree.md)
+189. [BDD의 Given-When-Then 문법을 이용한 명세](@/04_software_engineering/03_design_architecture/189_bdd_given_when_then.md)
+190. [AI(LLM) 기반 요구사항 명세서 초안 자동 생성 지원](@/04_software_engineering/03_design_architecture/190_ai_llm_requirements_specification.md)
 
 ## 4. 소프트웨어 설계 및 아키텍처 (80개)
-191. 소프트웨어 설계 원칙 - 추상화, 캡슐화, 모듈화, 정보 은닉
-192. 모듈 (Module) - 독립적 기능을 수행하는 단위
-193. 응집도 (Cohesion) - 모듈 내부 요소들의 연관 정도 (높을수록 좋음)
-194. 응집도 단계 - 우연적, 논리적, 시간적, 절차적, 통신적, 순차적, 기능적 응집도
-195. 결합도 (Coupling) - 모듈 간 상호 의존 정도 (낮을수록 좋음)
-196. 결합도 단계 - 내용, 공통, 제어, 스탬프, 자료 결합도
-197. 팬인 (Fan-in) / 팬아웃 (Fan-out) - 모듈 복잡도 지표
-198. 추상화 (Abstraction) - 제어, 자료, 과정 추상화
-199. 정보 은닉 (Information Hiding) - 내부 구현 상세를 숨김
-200. 분할과 정복 (Divide and Conquer)
-201. 소프트웨어 아키텍처 (Software Architecture) 정의
-202. 아키텍처 드라이버 (Architecture Drivers) - 비즈니스 목표, 제약, 품질 속성
-203. 아키텍처 뷰 모델 (4+1 View) - 논리, 구현, 프로세스, 배치 + 유스케이스 뷰
-204. 아키텍처 스타일 및 패턴 개요
-205. 계층형 아키텍처 (Layered Architecture) - 관심사 분리 (Presentation, Business, Data)
-206. 클라이언트-서버 아키텍처 (Client-Server)
-207. 파이프-필터 아키텍처 (Pipe-Filter) - 데이터 스트림 처리
-208. 브로커 패턴 (Broker Pattern) - 분산 시스템 메세지 중계
-209. 블랙보드 패턴 (Blackboard Pattern) - 음성/패턴 인식, 공용 데이터소스를 여러 지식 모듈이 참조
-210. 모델-뷰-컨트롤러 (MVC, Model-View-Controller)
-211. MVP (Model-View-Presenter) / MVVM (Model-View-ViewModel)
-212. 서비스 지향 아키텍처 (SOA, Service Oriented Architecture) - ESB 기반
-213. 마이크로서비스 아키텍처 (MSA, Microservices Architecture)
-214. 이벤트 드리븐 아키텍처 (EDA, Event-Driven Architecture)
-215. 서버리스 아키텍처 (Serverless Architecture / FaaS)
-216. 헥사고날 아키텍처 (Hexagonal Architecture / Ports and Adapters)
-217. 클린 아키텍처 (Clean Architecture) - Robert C. Martin (Uncle Bob)
-218. 어니언 아키텍처 (Onion Architecture)
-219. 도메인 주도 설계 (DDD, Domain-Driven Design) - 에릭 에반스
-220. 유비쿼터스 언어 (Ubiquitous Language) - 비즈니스와 기술의 공통 언어
-221. 바운디드 컨텍스트 (Bounded Context) - 경계가 명확한 컨텍스트
-222. 애그리게이트 (Aggregate) - 데이터 변경의 단위가 되는 객체 묶음
-223. 컨텍스트 매핑 (Context Mapping) - 컨텍스트 간의 연동 관계 정의
-224. 안티 코럽션 레이어 (ACL, Anti-Corruption Layer)
-225. CQRS (Command Query Responsibility Segregation) - 명령과 조회 모델 분리
-226. 이벤트 소싱 (Event Sourcing) - 상태 변경 이력을 이벤트 스트림으로 저장
-227. 아키텍처 평가 기법 개요
-228. SAAM (Software Architecture Analysis Method)
-229. ATAM (Architecture Trade-off Analysis Method) - 품질 속성 간 상충 관계 분석
-230. CBAM (Cost Benefit Analysis Method) - 경제적 관점의 평가
-231. ADR (Architecture Decision Record) - 아키텍처 결정 기록
-232. UML (Unified Modeling Language) - OMG 표준 객체지향 모델링 언어
-233. 클래스 다이어그램 (Class Diagram) - 정적 구조 표현
-234. 클래스 간 관계 - 일반화(상속), 실체화(인터페이스), 의존, 연관, 집합, 합성
-235. 시퀀스 다이어그램 (Sequence Diagram) - 시간 흐름에 따른 상호작용 (동적)
-236. 상태 다이어그램 (State Machine Diagram) - 객체의 상태 변화 (동적)
-237. 액티비티 다이어그램 (Activity Diagram) - 처리 로직 및 워크플로우 (동적)
-238. 유스케이스 다이어그램 (정적/기능)
-239. 컴포넌트 다이어그램 / 배치 다이어그램 (Deployment Diagram) (정적/물리)
-240. 통신 다이어그램 (Communication Diagram / Collaboration Diagram)
-241. 패키지 다이어그램 / 복합 구조 다이어그램
-242. 객체지향 설계 원칙 (SOLID)
-243. SRP (Single Responsibility Principle) - 단일 책임 원칙
-244. OCP (Open-Closed Principle) - 개방-폐쇄 원칙 (확장엔 열려있고 변경엔 닫혀있음)
-245. LSP (Liskov Substitution Principle) - 리스코프 치환 원칙 (자식은 부모를 대체 가능)
-246. ISP (Interface Segregation Principle) - 인터페이스 분리 원칙
-247. DIP (Dependency Inversion Principle) - 의존 역전 원칙 (추상화에 의존)
-248. DRY (Don't Repeat Yourself) 원칙
-249. KISS (Keep It Simple, Stupid) 원칙
-250. YAGNI (You Aren't Gonna Need It) 원칙
-251. 디자인 패턴 (Design Patterns) 개요 - GoF (Gang of Four) 23가지
-252. 생성 패턴 (Creational Patterns) - 객체 생성 메커니즘
-253. 싱글톤 (Singleton) - 오직 하나의 인스턴스
-254. 팩토리 메서드 (Factory Method) - 서브클래스가 생성할 객체 결정
-255. 추상 팩토리 (Abstract Factory) - 구체적인 클래스 지정 없이 연관 객체군 생성
-256. 빌더 (Builder) - 복잡한 객체를 단계별로 생성
-257. 프로토타입 (Prototype) - 원본 객체를 복사하여 생성
-258. 구조 패턴 (Structural Patterns) - 클래스/객체 조합
-259. 어댑터 (Adapter) - 인터페이스 호환성 제공
-260. 브리지 (Bridge) - 구현부에서 추상층을 분리
-261. 컴포지트 (Composite) - 부분-전체 트리 구조 (단일 객체/복합 객체 동일 취급)
-262. 데코레이터 (Decorator) - 동적으로 책임(기능) 추가
-263. 퍼사드 (Facade) - 서브시스템에 대한 단순한 단일 인터페이스 제공
-264. 프록시 (Proxy) - 대리 객체를 통한 접근 제어
-265. 플라이웨이트 (Flyweight) - 인스턴스 공유로 메모리 절약
-266. 행위 패턴 (Behavioral Patterns) - 알고리즘 및 책임 할당
-267. 옵저버 (Observer) - 상태 변화 시 구독자에게 자동 알림
-268. 전략 (Strategy) - 알고리즘을 캡슐화하여 동적으로 교체 가능
-269. 템플릿 메서드 (Template Method) - 상위 클래스는 뼈대, 하위 클래스는 세부 구현
-270. 이터레이터 (Iterator) - 내부 표현 노출 없이 순차 접근
+191. [소프트웨어 설계 원칙 - 추상화, 캡슐화, 모듈화, 정보 은닉](@/04_software_engineering/04_testing_quality/191_software_design_principles.md)
+192. [모듈 (Module) - 독립적 기능을 수행하는 단위](@/04_software_engineering/04_testing_quality/192_module_independence.md)
+193. [응집도 (Cohesion) - 모듈 내부 요소들의 연관 정도 (높을수록 좋음)](@/04_software_engineering/04_testing_quality/193_cohesion_levels.md)
+194. [응집도 단계 - 우연적, 논리적, 시간적, 절차적, 통신적, 순차적, 기능적 응집도](@/04_software_engineering/04_testing_quality/194_cohesion_7_levels.md)
+195. [결합도 (Coupling) - 모듈 간 상호 의존 정도 (낮을수록 좋음)](@/04_software_engineering/04_testing_quality/195_coupling_levels.md)
+196. [결합도 단계 - 내용, 공통, 제어, 스탬프, 자료 결합도](@/04_software_engineering/04_testing_quality/196_coupling_5_levels.md)
+197. [팬인 (Fan-in) / 팬아웃 (Fan-out) - 모듈 복잡도 지표](@/04_software_engineering/04_testing_quality/197_fan_in_fan_out.md)
+198. [추상화 (Abstraction) - 제어, 자료, 과정 추상화](@/04_software_engineering/04_testing_quality/198_abstraction_control_data_process.md)
+199. [정보 은닉 (Information Hiding) - 내부 구현 상세를 숨김](@/04_software_engineering/04_testing_quality/199_information_hiding_encapsulation.md)
+200. [분할과 정복 (Divide and Conquer)](@/04_software_engineering/04_testing_quality/200_divide_and_conquer_software_design.md)
+201. [소프트웨어 아키텍처 (Software Architecture) 정의](@/04_software_engineering/04_testing_quality/201_software_architecture_definition.md)
+202. [아키텍처 드라이버 (Architecture Drivers) - 비즈니스 목표, 제약, 품질 속성](@/04_software_engineering/04_testing_quality/202_architecture_drivers_quality_attributes.md)
+203. [아키텍처 뷰 모델 (4+1 View) - 논리, 구현, 프로세스, 배치 + 유스케이스 뷰](@/04_software_engineering/04_testing_quality/203_4_plus_1_view_model_architecture.md)
+204. [아키텍처 스타일 및 패턴 개요](@/04_software_engineering/04_testing_quality/204_architecture_style_pattern_overview.md)
+205. [계층형 아키텍처 (Layered Architecture) - 관심사 분리 (Presentation, Business, Data)](@/04_software_engineering/04_testing_quality/205_layered_architecture_separation_of_concerns.md)
+206. [클라이언트-서버 아키텍처 (Client-Server)](@/04_software_engineering/04_testing_quality/206_client_server_architecture_model.md)
+207. [파이프-필터 아키텍처 (Pipe-Filter) - 데이터 스트림 처리](@/04_software_engineering/04_testing_quality/207_pipe_filter_architecture_data_stream.md)
+208. [브로커 패턴 (Broker Pattern) - 분산 시스템 메세지 중계](@/04_software_engineering/04_testing_quality/208_broker_pattern_distributed_systems_message.md)
+209. [블랙보드 패턴 (Blackboard Pattern) - 음성/패턴 인식, 공용 데이터소스를 여러 지식 모듈이 참조](@/04_software_engineering/04_testing_quality/209_blackboard_pattern_ai_heuristic.md)
+210. [모델-뷰-컨트롤러 (MVC, Model-View-Controller)](@/04_software_engineering/04_testing_quality/210_mvc_model_view_controller_architecture.md)
+211. [MVP (Model-View-Presenter) / MVVM (Model-View-ViewModel)](@/04_software_engineering/04_testing_quality/211_mvp_mvvm_architecture_frontend.md)
+212. [서비스 지향 아키텍처 (SOA, Service Oriented Architecture) - ESB 기반](@/04_software_engineering/04_testing_quality/212_soa_service_oriented_architecture_esb.md)
+213. [마이크로서비스 아키텍처 (MSA, Microservices Architecture)](@/04_software_engineering/04_testing_quality/213_msa_microservices_architecture.md)
+214. [이벤트 드리븐 아키텍처 (EDA, Event-Driven Architecture)](@/04_software_engineering/04_testing_quality/214_eda_event_driven_architecture_async.md)
+215. [서버리스 아키텍처 (Serverless Architecture / FaaS)](@/04_software_engineering/04_testing_quality/215_serverless_architecture_faas_aws_lambda.md)
+216. [헥사고날 아키텍처 (Hexagonal Architecture / Ports and Adapters)](@/04_software_engineering/04_testing_quality/216_hexagonal_architecture_ports_and_adapters.md)
+217. [클린 아키텍처 (Clean Architecture) - Robert C. Martin (Uncle Bob)](@/04_software_engineering/04_testing_quality/217_clean_architecture_dependency_rule.md)
+218. [어니언 아키텍처 (Onion Architecture)](@/04_software_engineering/04_testing_quality/218_onion_architecture_domain_centric_design.md)
+219. [도메인 주도 설계 (DDD, Domain-Driven Design) - 에릭 에반스](@/04_software_engineering/04_testing_quality/219_ddd_domain_driven_design_eric_evans.md)
+220. [유비쿼터스 언어 (Ubiquitous Language) - 비즈니스와 기술의 공통 언어](@/04_software_engineering/04_testing_quality/220_ubiquitous_language_ddd_communication.md)
+221. [바운디드 컨텍스트 (Bounded Context) - 경계가 명확한 컨텍스트](@/04_software_engineering/04_testing_quality/221_bounded_context_ddd_msa_boundary.md)
+222. [애그리게이트 (Aggregate) - 데이터 변경의 단위가 되는 객체 묶음](@/04_software_engineering/04_testing_quality/222_aggregate_ddd_transaction_consistency.md)
+223. [컨텍스트 매핑 (Context Mapping) - 컨텍스트 간의 연동 관계 정의](@/04_software_engineering/04_testing_quality/223_context_mapping_bounded_context_integration.md)
+224. [안티 코럽션 레이어 (ACL, Anti-Corruption Layer)](@/04_software_engineering/04_testing_quality/224_acl_anti_corruption_layer_legacy_integration.md)
+225. [CQRS (Command Query Responsibility Segregation) - 명령과 조회 모델 분리](@/04_software_engineering/04_testing_quality/225_cqrs_command_query_responsibility_segregation.md)
+226. [이벤트 소싱 (Event Sourcing) - 상태 변경 이력을 이벤트 스트림으로 저장](@/04_software_engineering/04_testing_quality/226_event_sourcing_state_change_history.md)
+227. [아키텍처 평가 기법 개요](@/04_software_engineering/04_testing_quality/227_architecture_evaluation_methods_overview.md)
+228. [SAAM (Software Architecture Analysis Method)](@/04_software_engineering/04_testing_quality/228_saam_software_architecture_analysis_method.md)
+229. [ATAM (Architecture Trade-off Analysis Method) - 품질 속성 간 상충 관계 분석](@/04_software_engineering/04_testing_quality/229_atam_architecture_trade_off_analysis_method.md)
+230. [CBAM (Cost Benefit Analysis Method) - 경제적 관점의 평가](@/04_software_engineering/04_testing_quality/230_cbam_cost_benefit_analysis_method.md)
+231. [ADR (Architecture Decision Record) - 아키텍처 결정 기록](@/04_software_engineering/04_testing_quality/231_adr_architecture_decision_record_documentation.md)
+232. [UML (Unified Modeling Language) - OMG 표준 객체지향 모델링 언어](@/04_software_engineering/04_testing_quality/232_uml_unified_modeling_language_overview.md)
+233. [클래스 다이어그램 (Class Diagram) - 정적 구조 표현](@/04_software_engineering/04_testing_quality/233_class_diagram_static_structure_uml.md)
+234. [클래스 간 관계 - 일반화(상속), 실체화(인터페이스), 의존, 연관, 집합, 합성](@/04_software_engineering/04_testing_quality/234_uml_class_relationships_generalization_dependency.md)
+235. [시퀀스 다이어그램 (Sequence Diagram) - 시간 흐름에 따른 상호작용 (동적)](@/04_software_engineering/04_testing_quality/235_sequence_diagram_dynamic_interaction_uml.md)
+236. [상태 다이어그램 (State Machine Diagram) - 객체의 상태 변화 (동적)](@/04_software_engineering/04_testing_quality/236_state_machine_diagram_uml_dynamic.md)
+237. [액티비티 다이어그램 (Activity Diagram) - 처리 로직 및 워크플로우 (동적)](@/04_software_engineering/04_testing_quality/237_activity_diagram_dynamic_workflow_uml.md)
+238. [유스케이스 다이어그램 (정적/기능)](@/04_software_engineering/04_testing_quality/238_use_case_diagram_functional_modeling.md)
+239. [컴포넌트 다이어그램 / 배치 다이어그램 (Deployment Diagram) (정적/물리)](@/04_software_engineering/04_testing_quality/239_component_deployment_diagram_uml.md)
+240. [통신 다이어그램 (Communication Diagram / Collaboration Diagram)](@/04_software_engineering/04_testing_quality/240_communication_collaboration_diagram_uml.md)
+241. [패키지 다이어그램 / 복합 구조 다이어그램](@/04_software_engineering/04_testing_quality/241_package_composite_structure_diagram_uml.md)
+242. [객체지향 설계 원칙 (SOLID)](@/04_software_engineering/04_testing_quality/242_solid_object_oriented_design_principles.md)
+243. [SRP (Single Responsibility Principle) - 단일 책임 원칙](@/04_software_engineering/04_testing_quality/243_srp_single_responsibility_principle.md)
+244. [OCP (Open-Closed Principle) - 개방-폐쇄 원칙 (확장엔 열려있고 변경엔 닫혀있음)](@/04_software_engineering/04_testing_quality/244_ocp_open_closed_principle.md)
+245. [LSP (Liskov Substitution Principle) - 리스코프 치환 원칙 (자식은 부모를 대체 가능)](@/04_software_engineering/04_testing_quality/245_lsp_liskov_substitution_principle.md)
+246. [ISP (Interface Segregation Principle) - 인터페이스 분리 원칙](@/04_software_engineering/04_testing_quality/246_isp_interface_segregation_principle.md)
+247. [DIP (Dependency Inversion Principle) - 의존 역전 원칙 (추상화에 의존)](@/04_software_engineering/04_testing_quality/247_dip_dependency_inversion_principle.md)
+248. [DRY (Don't Repeat Yourself) 원칙](@/04_software_engineering/04_testing_quality/248_dry_dont_repeat_yourself_principle.md)
+249. [KISS (Keep It Simple, Stupid) 원칙](@/04_software_engineering/04_testing_quality/249_kiss_keep_it_simple_stupid.md)
+250. [YAGNI (You Aren't Gonna Need It) 원칙](@/04_software_engineering/04_testing_quality/250_yagni_you_arent_gonna_need_it.md)
+251. [디자인 패턴 (Design Patterns) 개요 - GoF (Gang of Four) 23가지](@/04_software_engineering/04_testing_quality/251_design_patterns_gof_overview.md)
+252. [생성 패턴 (Creational Patterns) - 객체 생성 메커니즘](@/04_software_engineering/04_testing_quality/252_creational_patterns_overview.md)
+253. [싱글톤 (Singleton) - 오직 하나의 인스턴스](@/04_software_engineering/04_testing_quality/253_singleton_pattern_single_instance.md)
+254. [팩토리 메서드 (Factory Method) - 서브클래스가 생성할 객체 결정](@/04_software_engineering/04_testing_quality/254_factory_method_pattern_subclass_creation.md)
+255. [추상 팩토리 (Abstract Factory) - 구체적인 클래스 지정 없이 연관 객체군 생성](@/04_software_engineering/04_testing_quality/255_abstract_factory_pattern_object_families.md)
+256. [빌더 (Builder) - 복잡한 객체를 단계별로 생성](@/04_software_engineering/04_testing_quality/256_builder_pattern_step_by_step_creation.md)
+257. [프로토타입 (Prototype) - 원본 객체를 복사하여 생성](@/04_software_engineering/04_testing_quality/257_prototype_pattern_object_cloning.md)
+258. [구조 패턴 (Structural Patterns) - 클래스/객체 조합](@/04_software_engineering/04_testing_quality/258_structural_patterns_overview.md)
+259. [어댑터 (Adapter) - 인터페이스 호환성 제공](@/04_software_engineering/04_testing_quality/259_adapter_pattern_interface_wrapper.md)
+260. [브리지 (Bridge) - 구현부에서 추상층을 분리](@/04_software_engineering/04_testing_quality/260_bridge_pattern_abstraction_implementation.md)
+261. [컴포지트 (Composite) - 부분-전체 트리 구조 (단일 객체/복합 객체 동일 취급)](@/04_software_engineering/04_testing_quality/261_composite_pattern_tree_structure.md)
+262. [데코레이터 (Decorator) - 동적으로 책임(기능) 추가](@/04_software_engineering/04_testing_quality/262_decorator_pattern_dynamic_wrapper.md)
+263. [퍼사드 (Facade) - 서브시스템에 대한 단순한 단일 인터페이스 제공](@/04_software_engineering/04_testing_quality/263_facade_pattern_simplified_interface.md)
+264. [프록시 (Proxy) - 대리 객체를 통한 접근 제어](@/04_software_engineering/04_testing_quality/264_proxy_pattern_surrogate_access_control.md)
+265. [플라이웨이트 (Flyweight) - 인스턴스 공유로 메모리 절약](@/04_software_engineering/04_testing_quality/265_flyweight_pattern_instance_sharing.md)
+266. [행위 패턴 (Behavioral Patterns) - 알고리즘 및 책임 할당](@/04_software_engineering/04_testing_quality/266_behavioral_patterns_overview.md)
+267. [옵저버 (Observer) - 상태 변화 시 구독자에게 자동 알림](@/04_software_engineering/04_testing_quality/267_observer_pattern.md)
+268. [전략 (Strategy) - 알고리즘을 캡슐화하여 동적으로 교체 가능](@/04_software_engineering/04_testing_quality/268_strategy_pattern.md)
+269. [템플릿 메서드 (Template Method) - 상위 클래스는 뼈대, 하위 클래스는 세부 구현](@/04_software_engineering/04_testing_quality/269_template_method_pattern.md)
+270. [이터레이터 (Iterator) - 내부 표현 노출 없이 순차 접근](@/04_software_engineering/04_testing_quality/270_iterator_pattern.md)
 
 ## 5. 설계 심화 및 시스템 품질 (50개)
-271. 커맨드 (Command) - 요청을 객체로 캡슐화 (Undo/Redo 지원)
-272. 스테이트 (State) - 상태에 따라 객체 행위 변경
-273. 중재자 (Mediator) - 객체 간의 복잡한 상호작용을 캡슐화하여 결합도 저하
-274. 메멘토 (Memento) - 객체 상태 저장 및 복원
-275. 방문자 (Visitor) - 객체 구조 변경 없이 새로운 연산 추가
-276. 책임 연쇄 (Chain of Responsibility) - 요청을 처리할 수 있는 객체를 찾을 때까지 고리 전달
-277. 해석자 (Interpreter) - 문법 규칙을 정의하고 해석
-278. 동시성 패턴 (Concurrency Patterns) - Active Object, Monitor Object, Thread Pool
-279. 아키텍처 품질 속성 (Quality Attributes) - 시나리오 기반 정의
-280. 품질 시나리오 요소 - 자극원, 자극, 환경, 대상, 응답, 응답 척도
-281. 가용성 (Availability) - 결함 탐지, 복구, 예방 전술
-282. 성능 (Performance) - 자원 요구 관리, 자원 관리, 스케줄링 전술
-283. 보안성 (Security) - 공격 탐지, 방어, 복구 전술
-284. 유지보수성/변경용이성 (Modifiability) - 국소화, 결합 방지, 의존성 지연
-285. 시험 용이성 (Testability) - 관찰 가능성, 제어 가능성 향상 전술
-286. 사용성 (Usability) - 사용자 인터페이스 설계 전술
-287. 상호운용성 (Interoperability) - 시스템 간 정보 교환 전술
-288. 개념적 무결성 (Conceptual Integrity) - 아키텍처 전반의 일관성
-289. UI/UX 설계 원칙 - 직관성, 유효성, 학습성, 유연성
-290. 니코보코 (Nielsen-Norman) 10대 휴리스틱 원칙
-291. 정보 아키텍처 (Information Architecture) 설계
-292. 접근성 (Accessibility) - KWCAG, WCAG 웹 접근성 지침
-293. 반응형 웹 디자인 (Responsive Web Design)
-294. 다크 패턴 (Dark Pattern) 회피 설계
-295. 시스템 신뢰성 모델링 - 직렬 모델, 병렬 모델
-296. 결함 허용 (Fault Tolerance) 시스템 설계
-297. N-버전 프로그래밍 (N-Version Programming) 다중화 설계
-298. 페일 세이프 (Fail-Safe) - 고장 시 안전한 상태로 유지
-299. 페일 소프트 (Fail-Soft) - 고장 시 기능은 저하되나 시스템 자체는 유지
-300. 페일 오버 (Failover) - 장애 시 예비 시스템으로 자동 전환
-301. 결함 회피 (Fault Avoidance) 기법
-302. 보안 아키텍처 (Security Architecture) 설계
-303. 인증 (Authentication) 및 인가 (Authorization) 패턴
-304. 데이터 암호화 전송 및 저장 패턴
-305. 마이크로서비스 설계 - API 게이트웨이 패턴
-306. 서비스 디스커버리 (Service Discovery) 패턴
-307. 서킷 브레이커 (Circuit Breaker) 패턴 - 연쇄 장애 방지
-308. 벌크헤드 (Bulkhead) 패턴 - 스레드 풀 격리로 장애 전파 차단
-309. 백엔드 포 프론트엔드 (BFF, Backend For Frontend) 패턴
-310. 스트랭글러 피그 (Strangler Fig) 패턴 - 레거시를 점진적으로 MSA로 마이그레이션
-311. 데이터베이스 퍼 서비스 (Database per Service) 패턴
-312. 사가 (Saga) 패턴의 코레오그래피 (Choreography) vs 오케스트레이션 (Orchestration)
-313. 로그 취합 아키텍처 (Log Aggregation Pattern)
-314. 트랜잭셔널 아웃박스 (Transactional Outbox) 패턴
-315. 마이크로 프론트엔드 (Micro Frontends) 아키텍처
-316. 서버 사이드 렌더링 (SSR) vs 클라이언트 사이드 렌더링 (CSR)
-317. 단일 페이지 애플리케이션 (SPA, Single Page Application) 설계
-318. 프로그레시브 웹 앱 (PWA, Progressive Web App) 아키텍처
-319. 웹어셈블리 (WebAssembly) 적용 아키텍처
-320. 엣지 컴퓨팅 (Edge Computing) 분산 아키텍처 설계
+271. [커맨드 (Command) - 요청을 객체로 캡슐화 (Undo/Redo 지원)](@/04_software_engineering/05_devops_ci_cd/271_command_pattern.md)
+272. [스테이트 (State) - 상태에 따라 객체 행위 변경](@/04_software_engineering/05_devops_ci_cd/272_state_pattern.md)
+273. [중재자 (Mediator) - 객체 간의 복잡한 상호작용을 캡슐화하여 결합도 저하](@/04_software_engineering/05_devops_ci_cd/273_mediator_pattern.md)
+274. [메멘토 (Memento) - 객체 상태 저장 및 복원](@/04_software_engineering/05_devops_ci_cd/274_memento_pattern.md)
+275. [방문자 (Visitor) - 객체 구조 변경 없이 새로운 연산 추가](@/04_software_engineering/05_devops_ci_cd/275_visitor_pattern.md)
+276. [책임 연쇄 (Chain of Responsibility) - 요청을 처리할 수 있는 객체를 찾을 때까지 고리 전달](@/04_software_engineering/05_devops_ci_cd/276_chain_of_responsibility_pattern.md)
+277. [해석자 (Interpreter) - 문법 규칙을 정의하고 해석](@/04_software_engineering/05_devops_ci_cd/277_interpreter_pattern.md)
+278. [동시성 패턴 (Concurrency Patterns) - Active Object, Monitor Object, Thread Pool](@/04_software_engineering/05_devops_ci_cd/278_concurrency_patterns.md)
+279. [아키텍처 품질 속성 (Quality Attributes) - 시나리오 기반 정의](@/04_software_engineering/05_devops_ci_cd/279_quality_attributes_scenario.md)
+280. [품질 시나리오 요소 - 자극원, 자극, 환경, 대상, 응답, 응답 척도](@/04_software_engineering/05_devops_ci_cd/280_quality_scenario_elements.md)
+281. [가용성 (Availability) - 결함 탐지, 복구, 예방 전술](@/04_software_engineering/05_devops_ci_cd/281_availability_tactics.md)
+282. [성능 (Performance) - 자원 요구 관리, 자원 관리, 스케줄링 전술](@/04_software_engineering/05_devops_ci_cd/282_performance_tactics.md)
+283. [보안성 (Security) - 공격 탐지, 방어, 복구 전술](@/04_software_engineering/05_devops_ci_cd/283_security_tactics.md)
+284. [유지보수성/변경용이성 (Modifiability) - 국소화, 결합 방지, 의존성 지연](@/04_software_engineering/05_devops_ci_cd/284_modifiability_tactics.md)
+285. [시험 용이성 (Testability) - 관찰 가능성, 제어 가능성 향상 전술](@/04_software_engineering/05_devops_ci_cd/285_testability_tactics.md)
+286. [사용성 (Usability) - 사용자 인터페이스 설계 전술](@/04_software_engineering/05_devops_ci_cd/286_usability_tactics.md)
+287. [상호운용성 (Interoperability) - 시스템 간 정보 교환 전술](@/04_software_engineering/05_devops_ci_cd/287_interoperability_tactics.md)
+288. [개념적 무결성 (Conceptual Integrity) - 아키텍처 전반의 일관성](@/04_software_engineering/05_devops_ci_cd/288_conceptual_integrity.md)
+289. [UI/UX 설계 원칙 - 직관성, 유효성, 학습성, 유연성](@/04_software_engineering/05_devops_ci_cd/289_ui_ux_design_principles.md)
+290. [니코보코 (Nielsen-Norman) 10대 휴리스틱 원칙](@/04_software_engineering/05_devops_ci_cd/290_nielsen_norman_10_heuristics.md)
+291. [정보 아키텍처 (Information Architecture) 설계](@/04_software_engineering/05_devops_ci_cd/291_information_architecture.md)
+292. [접근성 (Accessibility) - KWCAG, WCAG 웹 접근성 지침](@/04_software_engineering/05_devops_ci_cd/292_accessibility_kwcag_wcag.md)
+293. [반응형 웹 디자인 (Responsive Web Design)](@/04_software_engineering/05_devops_ci_cd/293_responsive_web_design.md)
+294. [다크 패턴 (Dark Pattern) 회피 설계](@/04_software_engineering/05_devops_ci_cd/294_dark_pattern_avoidance.md)
+295. [시스템 신뢰성 모델링 - 직렬 모델, 병렬 모델](@/04_software_engineering/05_devops_ci_cd/295_system_reliability_models.md)
+296. [결함 허용 (Fault Tolerance) 시스템 설계](@/04_software_engineering/05_devops_ci_cd/296_fault_tolerance_architecture.md)
+297. [N-버전 프로그래밍 (N-Version Programming) 다중화 설계](@/04_software_engineering/05_devops_ci_cd/297_n_version_programming.md)
+298. [페일 세이프 (Fail-Safe) - 고장 시 안전한 상태로 유지](@/04_software_engineering/05_devops_ci_cd/298_fail_safe_design.md)
+299. [페일 소프트 (Fail-Soft) - 고장 시 기능은 저하되나 시스템 자체는 유지](@/04_software_engineering/05_devops_ci_cd/299_fail_soft_design.md)
+300. [페일 오버 (Failover) - 장애 시 예비 시스템으로 자동 전환](@/04_software_engineering/05_devops_ci_cd/300_failover_architecture.md)
+301. [결함 회피 (Fault Avoidance) 기법](@/04_software_engineering/05_devops_ci_cd/301_fault_avoidance_techniques.md)
+302. [보안 아키텍처 (Security Architecture) 설계](@/04_software_engineering/05_devops_ci_cd/302_security_architecture_design.md)
+303. [인증 (Authentication) 및 인가 (Authorization) 패턴](@/04_software_engineering/05_devops_ci_cd/303_authentication_authorization_patterns.md)
+304. [데이터 암호화 전송 및 저장 패턴](@/04_software_engineering/05_devops_ci_cd/304_data_encryption_patterns.md)
+305. [마이크로서비스 설계 - API 게이트웨이 패턴](@/04_software_engineering/05_devops_ci_cd/305_api_gateway_pattern.md)
+306. [서비스 디스커버리 (Service Discovery) 패턴](@/04_software_engineering/05_devops_ci_cd/306_service_discovery_pattern.md)
+307. [서킷 브레이커 (Circuit Breaker) 패턴 - 연쇄 장애 방지](@/04_software_engineering/05_devops_ci_cd/307_circuit_breaker_pattern.md)
+308. [벌크헤드 (Bulkhead) 패턴 - 스레드 풀 격리로 장애 전파 차단](@/04_software_engineering/05_devops_ci_cd/308_bulkhead_pattern.md)
+309. [백엔드 포 프론트엔드 (BFF, Backend For Frontend) 패턴](@/04_software_engineering/05_devops_ci_cd/309_bff_backend_for_frontend_pattern.md)
+310. [스트랭글러 피그 (Strangler Fig) 패턴 - 레거시를 점진적으로 MSA로 마이그레이션](@/04_software_engineering/05_devops_ci_cd/310_strangler_fig_pattern.md)
+311. [데이터베이스 퍼 서비스 (Database per Service) 패턴](@/04_software_engineering/05_devops_ci_cd/311_database_per_service_pattern.md)
+312. [사가 (Saga) 패턴의 코레오그래피 (Choreography) vs 오케스트레이션 (Orchestration)](@/04_software_engineering/05_devops_ci_cd/312_saga_pattern_choreography_orchestration.md)
+313. [로그 취합 아키텍처 (Log Aggregation Pattern)](@/04_software_engineering/05_devops_ci_cd/313_log_aggregation_pattern.md)
+314. [트랜잭셔널 아웃박스 (Transactional Outbox) 패턴](@/04_software_engineering/05_devops_ci_cd/314_transactional_outbox_pattern.md)
+315. [마이크로 프론트엔드 (Micro Frontends) 아키텍처](@/04_software_engineering/05_devops_ci_cd/315_micro_frontends_architecture.md)
+316. [서버 사이드 렌더링 (SSR) vs 클라이언트 사이드 렌더링 (CSR)](@/04_software_engineering/05_devops_ci_cd/316_ssr_vs_csr.md)
+317. [단일 페이지 애플리케이션 (SPA, Single Page Application) 설계](@/04_software_engineering/05_devops_ci_cd/317_spa_single_page_application.md)
+318. [프로그레시브 웹 앱 (PWA, Progressive Web App) 아키텍처](@/04_software_engineering/05_devops_ci_cd/318_pwa_progressive_web_app.md)
+319. [웹어셈블리 (WebAssembly) 적용 아키텍처](@/04_software_engineering/05_devops_ci_cd/319_webassembly_architecture.md)
+320. [엣지 컴퓨팅 (Edge Computing) 분산 아키텍처 설계](@/04_software_engineering/05_devops_ci_cd/320_edge_computing_architecture.md)
 
 ## 6. 구현, 품질 관리 및 유지보수 (70개)
-321. 프로그래밍 패러다임 - 절차적, 객체지향, 함수형, 논리형
-322. 객체지향 프로그래밍 (OOP)의 4대 특징 - 캡슐화, 상속, 다형성, 추상화
-323. 오버로딩 (Overloading) vs 오버라이딩 (Overriding)
-324. 함수형 프로그래밍 (Functional Programming) - 일급 객체, 순수 함수, 불변성
-325. 고차 함수 (Higher-Order Function) 및 클로저 (Closure)
-326. 지연 평가 (Lazy Evaluation)
-327. 반응형 프로그래밍 (Reactive Programming) - 데이터 스트림과 변화 전파
-328. 코딩 컨벤션 (Coding Convention) 및 스타일 가이드
-329. 시큐어 코딩 (Secure Coding) 원칙
-330. 코드 리뷰 (Code Review) - 동료 검토 (Peer Review), 풀 리퀘스트 (PR) 기반 검토
-331. 정적 분석 (Static Analysis) - 실행하지 않고 소스코드의 결함 탐지
-332. 동적 분석 (Dynamic Analysis) - 실행 중 메모리 누수, 성능 병목 탐지
-333. 가독성 (Readability) vs 효율성 (Efficiency) 트레이드오프
-334. 클린 코드 (Clean Code) 원칙 - 의미 있는 이름, 작고 단일 역할의 함수, 주석의 최소화
-335. 기술 부채 (Technical Debt)의 관리 및 상환 전략
-336. 라이브러리 (Library) vs 프레임워크 (Framework) - 제어의 역전 (IoC, Inversion of Control) 차이
-337. 의존성 주입 (DI, Dependency Injection) - 객체 결합도 감소
-338. 관점 지향 프로그래밍 (AOP, Aspect Oriented Programming) - 횡단 관심사(Cross-cutting Concern) 분리
-339. 소프트웨어 품질 (Software Quality)의 정의 (명시적, 묵시적 요구사항 충족)
-340. ISO/IEC 9126 품질 특성 - 기능성, 신뢰성, 사용성, 효율성, 유지보수성, 이식성
-341. ISO/IEC 25010 (SQuaRE) - 9126의 진화 모델 (보안성, 호환성 추가)
-342. 기능 적합성 (Functional Suitability)
-343. 성능 효율성 (Performance Efficiency)
-344. 호환성 (Compatibility) / 사용성 (Usability)
-345. 신뢰성 (Reliability) / 보안성 (Security)
-346. 유지보수성 (Maintainability) / 이식성 (Portability)
-347. 사용 품질 (Quality in Use) - 유효성, 생산성, 만족도, 리스크 완화
-348. 맥콜(McCall)의 품질 모델 - 제품 운영, 제품 수정, 제품 전이 관점
-349. 품질 비용 (COQ, Cost of Quality) - 예방 비용, 평가 비용, 내부 실패 비용, 외부 실패 비용
-350. 전사적 품질 관리 (TQM, Total Quality Management)
-351. 식스 시그마 (6 Sigma) - DMAIC (Define, Measure, Analyze, Improve, Control)
-352. 결함(Defect)의 정의 - 오류(Error/Mistake), 결점(Fault/Bug), 고장/실패(Failure)
-353. 결함 생명주기 - 발생, 등록, 분석, 할당, 수정, 조치 확인, 종료
-354. 결함 심각도 (Severity) vs 결함 우선순위 (Priority)
-355. 결함 밀도 (Defect Density) - 코드 규모(KLOC) 대비 결함 수
-356. 신뢰성 성장 모델 (SRGM, Software Reliability Growth Model) - 고장 시간, 고장 간격 모델링
-357. 가용성 (Availability) 계산 = MTBF / (MTBF + MTTR)
-358. MTBF (Mean Time Between Failures) - 평균 무고장 시간
-359. MTTR (Mean Time To Repair) - 평균 수리 시간
-360. MTTF (Mean Time To Failure) - 평균 고장 시간
-361. 소프트웨어 복잡도 측정 - 맥케이브 순환 복잡도 (McCabe's Cyclomatic Complexity, V(G) = e - n + 2)
-362. 할스테드 (Halstead) 복잡도 - 연산자(Operator)와 피연산자(Operand) 수 기반 측정
-363. 객체지향 메트릭 (CK 메트릭스) - WMC, DIT, NOC, CBO, RFC, LCOM
-364. 정형 기술 검토 (FTR, Formal Technical Review) 의 지침
-365. 소프트웨어 품질 보증 (SQA, Software Quality Assurance) 조직 및 활동
-366. 골-질문-메트릭 (GQM, Goal-Question-Metric) 접근법 - 측정 지표 도출 기법
-367. 품질 대시보드 (Quality Dashboard) 구축
-368. 통계적 공정 관리 (SPC, Statistical Process Control) 및 정량적 관리
-369. 소프트웨어 프로세스 개선 (SPI) 프레임워크 - IDEAL 모델
-370. 코드 스멜 (Code Smell) - 리팩토링의 징후 (코드 중복, 거대 클래스, 긴 파라미터 목록)
-371. 기술적 단편화 (Technical Fragmentation) 문제
-372. 상용 소프트웨어 (COTS, Commercial Off-The-Shelf) 통합 및 품질
-373. 오픈 소스 소프트웨어 (OSS) 거버넌스 - 라이선스(GPL, MIT, Apache 등) 컴플라이언스
-374. 공급망 보안 (Supply Chain Security) - 오픈소스 취약점 관리
-375. SBOM (Software Bill of Materials) - 소프트웨어 구성 요소 명세서 의무화 동향
-376. 소프트웨어 빌드 및 배포 자동화의 품질 검증 단계
-377. 체크섬(Checksum), 서명(Signature)을 통한 무결성(Integrity) 검증
-378. 소프트웨어 문서화 (Documentation) 표준 및 지식 관리 (Wiki, Confluence)
-379. 재해 복구 (DR) 아키텍처 - RTO (Recovery Time Objective), RPO (Recovery Point Objective)
-380. 소프트웨어 유지보수의 종류 - 수정(Corrective), 적응(Adaptive), 완전/개선(Perfective), 예방(Preventive)
-381. 메이먼의 법칙 (Lehman's Laws of Software Evolution) - 지속적 변경, 복잡도 증가의 법칙
-382. 방어적 프로그래밍 (Defensive Programming) - 예외 처리, Assertion 적극 활용
-383. 데이터 중심(Data-Centric) 아키텍처의 품질 보증
-384. AI 기반 코드 생성기(Copilot 등) 산출물의 품질 평가 한계
-385. 서버리스 환경의 콜드 스타트(Cold Start) 모니터링 및 튜닝
-386. 지속 가능성 (Sustainability) 및 그린 코딩 (Green Coding) - 탄소 배출 저감 코드
-387. 접근 통제 (Access Control) 패턴 로직 구현
-388. 디자인 바이 컨트랙트 (Design by Contract) - 사전조건, 사후조건, 불변조건 명시
-389. 리버스 엔지니어링 (Reverse 엔진ering) 툴을 통한 난독화 코드 분석
-390. 애플리케이션 라이프사이클 관리 (ALM) 시스템 도입
+321. [프로그래밍 패러다임 - 절차적, 객체지향, 함수형, 논리형](@/04_software_engineering/06_software_architecture/321_programming_paradigms.md)
+322. [객체지향 프로그래밍 (OOP)의 4대 특징 - 캡슐화, 상속, 다형성, 추상화](@/04_software_engineering/06_software_architecture/322_oop_4_characteristics.md)
+323. [오버로딩 (Overloading) vs 오버라이딩 (Overriding)](@/04_software_engineering/06_software_architecture/323_overloading_vs_overriding.md)
+324. [함수형 프로그래밍 (Functional Programming) - 일급 객체, 순수 함수, 불변성](@/04_software_engineering/06_software_architecture/324_functional_programming_core.md)
+325. [고차 함수 (Higher-Order Function) 및 클로저 (Closure)](@/04_software_engineering/06_software_architecture/325_higher_order_function_closure.md)
+326. [지연 평가 (Lazy Evaluation)](@/04_software_engineering/06_software_architecture/326_lazy_evaluation.md)
+327. [반응형 프로그래밍 (Reactive Programming) - 데이터 스트림과 변화 전파](@/04_software_engineering/06_software_architecture/327_reactive_programming.md)
+328. [코딩 컨벤션 (Coding Convention) 및 스타일 가이드](@/04_software_engineering/06_software_architecture/328_coding_convention_style_guide.md)
+329. [시큐어 코딩 (Secure Coding) 원칙](@/04_software_engineering/06_software_architecture/329_secure_coding.md)
+330. [코드 리뷰 (Code Review) - 동료 검토 (Peer Review), 풀 리퀘스트 (PR) 기반 검토](@/04_software_engineering/06_software_architecture/330_code_review.md)
+331. [정적 분석 (Static Analysis) - 실행하지 않고 소스코드의 결함 탐지](@/04_software_engineering/06_software_architecture/331_static_analysis.md)
+332. [동적 분석 (Dynamic Analysis) - 실행 중 메모리 누수, 성능 병목 탐지](@/04_software_engineering/06_software_architecture/332_dynamic_analysis.md)
+333. [가독성 (Readability) vs 효율성 (Efficiency) 트레이드오프](@/04_software_engineering/06_software_architecture/333_readability_vs_efficiency.md)
+334. [클린 코드 (Clean Code) 원칙 - 의미 있는 이름, 작고 단일 역할의 함수, 주석의 최소화](@/04_software_engineering/06_software_architecture/334_clean_code_principles.md)
+335. [기술 부채 (Technical Debt)의 관리 및 상환 전략](@/04_software_engineering/06_software_architecture/335_technical_debt_management.md)
+336. [라이브러리 (Library) vs 프레임워크 (Framework) - 제어의 역전 (IoC, Inversion of Control) 차이](@/04_software_engineering/06_software_architecture/336_library_vs_framework.md)
+337. [의존성 주입 (DI, Dependency Injection) - 객체 결합도 감소](@/04_software_engineering/06_software_architecture/337_dependency_injection.md)
+338. [관점 지향 프로그래밍 (AOP, Aspect Oriented Programming) - 횡단 관심사(Cross-cutting Concern) 분리](@/04_software_engineering/06_software_architecture/338_aspect_oriented_programming.md)
+339. [소프트웨어 품질 (Software Quality)의 정의 (명시적, 묵시적 요구사항 충족)](@/04_software_engineering/06_software_architecture/339_software_quality_definition.md)
+340. [ISO/IEC 9126 품질 특성 - 기능성, 신뢰성, 사용성, 효율성, 유지보수성, 이식성](@/04_software_engineering/06_software_architecture/340_iso_iec_9126.md)
+341. [ISO/IEC 25010 (SQuaRE) - 9126의 진화 모델 (보안성, 호환성 추가)](@/04_software_engineering/06_software_architecture/341_iso_iec_25010.md)
+342. [기능 적합성 (Functional Suitability)](@/04_software_engineering/06_software_architecture/342_functional_suitability.md)
+343. [성능 효율성 (Performance Efficiency)](@/04_software_engineering/06_software_architecture/343_performance_efficiency.md)
+344. [호환성 (Compatibility) / 사용성 (Usability)](@/04_software_engineering/06_software_architecture/344_compatibility_usability.md)
+345. [신뢰성 (Reliability) / 보안성 (Security)](@/04_software_engineering/06_software_architecture/345_reliability_security.md)
+346. [유지보수성 (Maintainability) / 이식성 (Portability)](@/04_software_engineering/06_software_architecture/346_maintainability_portability.md)
+347. [사용 품질 (Quality in Use) - 유효성, 생산성, 만족도, 리스크 완화](@/04_software_engineering/06_software_architecture/347_quality_in_use.md)
+348. [맥콜(McCall)의 품질 모델 - 제품 운영, 제품 수정, 제품 전이 관점](@/04_software_engineering/06_software_architecture/348_mccall_quality_model.md)
+349. [품질 비용 (COQ, Cost of Quality) - 예방 비용, 평가 비용, 내부 실패 비용, 외부 실패 비용](@/04_software_engineering/06_software_architecture/349_cost_of_quality.md)
+350. [전사적 품질 관리 (TQM, Total Quality Management)](@/04_software_engineering/06_software_architecture/350_total_quality_management.md)
+351. [식스 시그마 (6 Sigma) - DMAIC (Define, Measure, Analyze, Improve, Control)](@/04_software_engineering/06_software_architecture/351_six_sigma.md)
+352. [결함(Defect)의 정의 - 오류(Error/Mistake), 결점(Fault/Bug), 고장/실패(Failure)](@/04_software_engineering/06_software_architecture/352_defect_definition.md)
+353. [결함 생명주기 - 발생, 등록, 분석, 할당, 수정, 조치 확인, 종료](@/04_software_engineering/06_software_architecture/353_defect_lifecycle.md)
+354. [결함 심각도 (Severity) vs 결함 우선순위 (Priority)](@/04_software_engineering/06_software_architecture/354_defect_severity_priority.md)
+355. [결함 밀도 (Defect Density) - 코드 규모(KLOC) 대비 결함 수](@/04_software_engineering/06_software_architecture/355_defect_density.md)
+356. [신뢰성 성장 모델 (SRGM, Software Reliability Growth Model) - 고장 시간, 고장 간격 모델링](@/04_software_engineering/06_software_architecture/356_software_reliability_growth_model.md)
+357. [가용성 (Availability) 계산 = MTBF / (MTBF + MTTR)](@/04_software_engineering/06_software_architecture/357_availability_calculation.md)
+358. [MTBF (Mean Time Between Failures) - 평균 무고장 시간](@/04_software_engineering/06_software_architecture/358_mtbf.md)
+359. [MTTR (Mean Time To Repair) - 평균 수리 시간](@/04_software_engineering/06_software_architecture/359_mttr.md)
+360. [MTTF (Mean Time To Failure) - 평균 고장 시간](@/04_software_engineering/06_software_architecture/360_mttf.md)
+361. [소프트웨어 복잡도 측정 - 맥케이브 순환 복잡도 (McCabe's Cyclomatic Complexity, V(G) = e - n + 2)](@/04_software_engineering/06_software_architecture/361_mccabe_cyclomatic_complexity.md)
+362. [할스테드 (Halstead) 복잡도 - 연산자(Operator)와 피연산자(Operand) 수 기반 측정](@/04_software_engineering/06_software_architecture/362_halstead_complexity.md)
+363. [객체지향 메트릭 (CK 메트릭스) - WMC, DIT, NOC, CBO, RFC, LCOM](@/04_software_engineering/06_software_architecture/363_ck_metrics.md)
+364. [정형 기술 검토 (FTR, Formal Technical Review) 의 지침](@/04_software_engineering/06_software_architecture/364_formal_technical_review.md)
+365. [소프트웨어 품질 보증 (SQA, Software Quality Assurance) 조직 및 활동](@/04_software_engineering/06_software_architecture/365_sqa.md)
+366. [골-질문-메트릭 (GQM, Goal-Question-Metric) 접근법 - 측정 지표 도출 기법](@/04_software_engineering/06_software_architecture/366_gqm.md)
+367. [품질 대시보드 (Quality Dashboard) 구축](@/04_software_engineering/06_software_architecture/367_quality_dashboard.md)
+368. [통계적 공정 관리 (SPC, Statistical Process Control) 및 정량적 관리](@/04_software_engineering/06_software_architecture/368_spc.md)
+369. [소프트웨어 프로세스 개선 (SPI) 프레임워크 - IDEAL 모델](@/04_software_engineering/06_software_architecture/369_spi_ideal_model.md)
+370. [코드 스멜 (Code Smell) - 리팩토링의 징후 (코드 중복, 거대 클래스, 긴 파라미터 목록)](@/04_software_engineering/06_software_architecture/370_code_smell.md)
+371. [기술적 단편화 (Technical Fragmentation) 문제](@/04_software_engineering/06_software_architecture/371_technical_fragmentation.md)
+372. [상용 소프트웨어 (COTS, Commercial Off-The-Shelf) 통합 및 품질](@/04_software_engineering/06_software_architecture/372_cots.md)
+373. [오픈 소스 소프트웨어 (OSS) 거버넌스 - 라이선스(GPL, MIT, Apache 등) 컴플라이언스](@/04_software_engineering/06_software_architecture/373_oss_governance.md)
+374. [공급망 보안 (Supply Chain Security) - 오픈소스 취약점 관리](@/04_software_engineering/06_software_architecture/374_supply_chain_security.md)
+375. [SBOM (Software Bill of Materials) - 소프트웨어 구성 요소 명세서 의무화 동향](@/04_software_engineering/06_software_architecture/375_sbom.md)
+376. [소프트웨어 빌드 및 배포 자동화의 품질 검증 단계](@/04_software_engineering/06_software_architecture/376_build_deployment_automation.md)
+377. [체크섬(Checksum), 서명(Signature)을 통한 무결성(Integrity) 검증](@/04_software_engineering/06_software_architecture/377_checksum_signature_integrity.md)
+378. [소프트웨어 문서화 (Documentation) 표준 및 지식 관리 (Wiki, Confluence)](@/04_software_engineering/06_software_architecture/378_software_documentation.md)
+379. [재해 복구 (DR) 아키텍처 - RTO (Recovery Time Objective), RPO (Recovery Point Objective)](@/04_software_engineering/06_software_architecture/379_dr_architecture.md)
+380. [소프트웨어 유지보수의 종류 - 수정(Corrective), 적응(Adaptive), 완전/개선(Perfective), 예방(Preventive)](@/04_software_engineering/06_software_architecture/380_maintenance_types.md)
+381. [메이먼의 법칙 (Lehman's Laws of Software Evolution) - 지속적 변경, 복잡도 증가의 법칙](@/04_software_engineering/06_software_architecture/381_lehman_laws.md)
+382. [방어적 프로그래밍 (Defensive Programming) - 예외 처리, Assertion 적극 활용](@/04_software_engineering/06_software_architecture/382_defensive_programming.md)
+383. [데이터 중심(Data-Centric) 아키텍처의 품질 보증](@/04_software_engineering/06_software_architecture/383_data_centric_architecture.md)
+384. [AI 기반 코드 생성기(Copilot 등) 산출물의 품질 평가 한계](@/04_software_engineering/06_software_architecture/384_ai_code_generation_quality.md)
+385. [서버리스 환경의 콜드 스타트(Cold Start) 모니터링 및 튜닝](@/04_software_engineering/06_software_architecture/385_serverless_cold_start.md)
+386. [지속 가능성 (Sustainability) 및 그린 코딩 (Green Coding) - 탄소 배출 저감 코드](@/04_software_engineering/06_software_architecture/386_sustainability_green_coding.md)
+387. [접근 통제 (Access Control) 패턴 로직 구현](@/04_software_engineering/06_software_architecture/387_access_control_pattern.md)
+388. [디자인 바이 컨트랙트 (Design by Contract) - 사전조건, 사후조건, 불변조건 명시](@/04_software_engineering/06_software_architecture/388_design_by_contract.md)
+389. [리버스 엔지니어링 (Reverse 엔진ering) 툴을 통한 난독화 코드 분석](@/04_software_engineering/06_software_architecture/389_reverse_engineering.md)
+390. [애플리케이션 라이프사이클 관리 (ALM) 시스템 도입](@/04_software_engineering/06_software_architecture/390_application_lifecycle_management.md)
 
 ## 7. 소프트웨어 테스팅 및 검증 심화 (80개)
-391. 소프트웨어 테스팅의 7가지 원리 (결함 발견, 완벽한 테스트 불가능, 조기 테스트, 결함 집중, 살충제 패러독스, 정황 의존, 오류 부재의 궤변)
-392. 살충제 패러독스 (Pesticide Paradox) 극복을 위한 테스트 케이스 주기적 갱신
-393. 오류 부재의 궤변 (Absence of Errors Fallacy) - 요구사항 미충족 시 결함이 없어도 무용지물
-394. V-모델의 매핑 (요구사항-인수테스트, 기본설계-시스템테스트, 상세설계-통합테스트, 코딩-단위테스트)
-395. 검증 (Verification) - 제품을 올바르게 만들고 있는가 (과정, 산출물 리뷰)
-396. 확인 (Validation) - 올바른 제품을 만들었는가 (결과, 실행 테스트)
-397. 단위 테스트 (Unit Test) - 최소 단위(모듈/함수) 기능 검증, 화이트박스 위주
-398. 단위 테스트 프레임워크 (JUnit, pytest, NUnit 등)
-399. 목 객체 (Mock Object) 기반 격리 테스트
-400. 통합 테스트 (Integration Test) - 모듈 간 인터페이스 및 상호작용 검증
-401. 빅뱅 통합 (Big Bang Integration) - 한 번에 모두 결합 (오류 추적 어려움)
-402. 하향식 통합 (Top-down Integration) - 깊이/넓이 우선, 하위 모듈 대체용 스텁(Stub) 사용
-403. 상향식 통합 (Bottom-up Integration) - 클러스터 결합, 상위 제어 모듈 대체용 드라이버(Driver) 사용
-404. 샌드위치 통합 (Sandwich / Hybrid Integration) - 주요 모듈 중심 상/하향 병행
-405. 시스템 테스트 (System Test) - 전체 시스템의 기능 및 비기능 요구사항 검증
-406. 인수 테스트 (Acceptance Test) - 사용자(고객)가 요구사항 충족 여부 최종 확인
-407. 알파 테스트 (Alpha Test) - 개발자 환경에서 통제된 사용자 테스트
-408. 베타 테스트 (Beta Test) - 실제 환경에서 다수 사용자가 수행 (필드 테스트)
-409. OAT (Operational Acceptance Testing) - 운영 전환 전 백업, 이중화 등 검증
-410. 회귀 테스트 (Regression Test) - 코드 수정 후 기존 기능에 예기치 않은 결함(사이드 이펙트) 발생 확인
-411. 리그레션 테스트 자동화 및 선택적 수행 (Retest All vs Selective)
-412. 블랙박스 테스트 (Black-box Test / 명세 기반 테스트) - 내부 구조를 보지 않고 입력/출력 기반 검증
-413. 동등 분할 (Equivalence Partitioning) - 입력 영역을 유효/무효 클래스로 분할하여 대푯값 테스트
-414. 경계값 분석 (Boundary Value Analysis) - 경계 부분에서 결함이 많다는 점 이용 (분할의 가장자리 값)
-415. 의사 결정 테이블 (Decision Table) - 복잡한 논리적 조건들의 조합을 표로 구성하여 테스트
-416. 상태 전이 테스트 (State Transition Testing) - 객체의 상태 변화 시나리오 검증
-417. 유스케이스 테스팅 (Use Case Testing) - 액터와의 상호작용 흐름 기반
-418. 페어와이즈 테스팅 (Pairwise Testing) - 변수 값들의 모든 쌍(Pair) 조합이 최소 한 번 테스트되도록 최적화 (조합 폭발 방지)
-419. 원인-결과 그래프 (Cause-Effect Graphing)
-420. 화이트박스 테스트 (White-box Test / 구조 기반 테스트) - 소스코드의 내부 논리 구조를 모두 검증
-421. 제어 흐름 테스트 (Control Flow Testing)
-422. 구문 커버리지 (Statement Coverage) - 코드의 모든 문장을 최소 한 번 실행
-423. 결정 커버리지 (Decision Coverage / 분기 커버리지) - 분기문(If, While 등)의 참/거짓을 최소 한 번씩 실행
-424. 조건 커버리지 (Condition Coverage) - 분기문 내의 각 개별 조건식이 참/거짓을 한 번씩 가짐
-425. 조건/결정 커버리지 (Condition/Decision Coverage) - 개별 조건과 전체 결정이 모두 참/거짓을 가짐
-426. 변경 조건/결정 커버리지 (MC/DC, Modified Condition/Decision Coverage) - 각 개별 조건이 독립적으로 전체 결과에 영향을 미침을 증명 (DO-178B/C 항공/안전 표준)
-427. 다중 조건 커버리지 (Multiple Condition Coverage) - 개별 조건의 모든 가능한 진리값 조합 (2^N)
-428. 경로 커버리지 (Path Coverage) - 가능한 모든 실행 경로를 테스트
-429. 데이터 흐름 테스팅 (Data Flow Testing) - 변수의 정의(Define)와 사용(Use) 경로 (DU 경로) 기반 검증
-430. 정적 테스팅 (Static Testing) - 코드를 실행하지 않고 리뷰나 도구를 통해 검증 (인스펙션, 정적 분석)
-431. 동적 테스팅 (Dynamic Testing) - 코드를 직접 컴파일하고 실행하여 검증
-432. 리스크 기반 테스팅 (Risk-based Testing) - 비즈니스 리스크가 높은 모듈에 테스트 자원 집중
-433. 탐색적 테스팅 (Exploratory Testing) - 명세서 없이 테스터의 직관과 경험을 바탕으로 테스트 설계와 수행을 동시 진행 (차터, 타임박스 활용)
-434. 오류 추정 (Error Guessing) - 테스터의 경험을 바탕으로 결함이 발생할 만한 곳을 추정하여 테스트
-435. 체크리스트 (Checklist) 기반 테스팅
-436. 테스트 오라클 (Test Oracle) - 테스트 결과의 참/거짓을 판단하기 위한 기준
-437. 참 오라클 (True Oracle) - 모든 입력에 대해 기대 결과 제공 (현실적 적용 어려움)
-438. 샘플링 오라클 (Sampling Oracle) - 특정 몇몇 입력 값에 대해서만 결과 제공
-439. 휴리스틱 오라클 (Heuristic Oracle) - 샘플링에 직관적/경험적 판단 추가
-440. 일관성 오라클 (Consistent Oracle) - 변경 전/후의 결과가 동일한지 확인 (회귀 테스트에 유용)
-441. 테스트 케이스 (Test Case) 구조 - 식별자, 전제조건, 입력 데이터, 기대 결과
-442. 테스트 시나리오 (Test Scenario) - 테스트 케이스들을 흐름에 따라 묶은 집합
-443. 테스트 절차 (Test Procedure) / 테스트 스크립트 (Test Script)
-444. 테스트 데이터 (Test Data) 생성 및 익명화 관리 (Test Data Management, TDM)
-445. 성능 테스트 (Performance Test) 4가지 유형
-446. 부하 테스트 (Load Test) - 시스템의 임계점(목표치)까지 부하를 증가시키며 상태 확인
-447. 스트레스 테스트 (Stress Test) - 임계점 이상의 과부하 상태에서 시스템 붕괴 및 복구 반응 확인
-448. 스파이크 테스트 (Spike Test) - 갑작스럽게 사용자가 급증할 때의 반응 확인
-449. 내구성 테스트 (Endurance / Soak Test) - 장시간 부하를 주어 메모리 누수(Leak) 등 확인
-450. 벤치마크 테스트 (BMT, Benchmark Test) - 동일한 환경에서 여러 제품의 성능을 비교
-451. 사용성 테스트 (Usability Test) - 사용자가 시스템을 얼마나 쉽게 다룰 수 있는지 UI/UX 관점 평가
-452. A/B 테스트 - 두 가지 UI/기능을 실 사용자에게 노출하여 반응 비교
-453. 호환성 테스트 (Compatibility Test) - OS, 브라우저, 기기(모바일) 등 이기종 환경 동작 확인
-454. 이식성 테스트 (Portability Test) - 다른 환경으로 시스템을 이전했을 때의 동작 확인
-455. 모의 해킹 (Penetration Testing) 및 취약점 스캐닝
-456. 뮤테이션 테스팅 (Mutation Testing / 돌연변이 테스팅) - 원본 코드에 고의로 에러(돌연변이)를 주입하여 기존 테스트 케이스가 이를 잡아내는지(Kill) 검증 (테스트 케이스의 품질 평가)
-457. 퍼즈 테스팅 (Fuzz Testing / Fuzzing) - 무작위 또는 기형적인 데이터를 입력하여 크래시(Crash)나 예외 상황 유발
-458. 테스트 더블 (Test Double) 5가지 개념 (xUnit 테스트 패턴)
-459. Dummy (더미) - 인자 채우기용, 실제 사용 안됨
-460. Stub (스텁) - 호출 시 준비된 답변만 반환 (상태 검증용)
-461. Spy (스파이) - 스텁 역할 + 호출 정보 기록
-462. Mock (목) - 행위(Behavior) 검증을 위해 예상되는 호출 명세가 프로그래밍된 객체
-463. Fake (페이크) - 실제 동작하지만 프로덕션에는 적합하지 않은 축소판 (인메모리 DB 등)
-464. 서비스 가상화 (Service Virtualization) - MSA 환경에서 외부 의존 API를 모사하는 스텁 서버
-465. 지속적 테스팅 (Continuous Testing) - CI/CD 파이프라인 전 과정에 테스트 자동화 통합
-466. 시프트 레프트 테스팅 (Shift-Left Testing) - 테스트 활동을 개발 초기(왼쪽) 단계로 당겨 결함 조기 발견
-467. 시프트 라이트 테스팅 (Shift-Right Testing) - 운영 환경(오른쪽)에서의 테스트 (카나리, 카오스 엔지니어링)
-468. 운영 환경 테스트 (Testing in Production / TiP)
-469. 모델 기반 테스팅 (MBT, Model-Based Testing) - 시스템 모델(UML 등)에서 테스트 케이스 자동 생성
-470. TDD (Test Driven Development) 생명주기 - 실패하는 테스트 작성(Red) -> 통과하는 최소 코드 작성(Green) -> 리팩토링(Refactor)
+391. [소프트웨어 테스팅의 7가지 원리 (결함 발견, 완벽한 테스트 불가능, 조기 테스트, 결함 집중, 살충제 패러독스, 정황 의존, 오류 부재의 궤변)](@/04_software_engineering/07_object_oriented/391_seven_principles_of_software_testing.md)
+392. [살충제 패러독스 (Pesticide Paradox) 극복을 위한 테스트 케이스 주기적 갱신](@/04_software_engineering/07_object_oriented/392_pesticide_paradox_test_renewal.md)
+393. [오류 부재의 궤변 (Absence of Errors Fallacy) - 요구사항 미충족 시 결함이 없어도 무용지물](@/04_software_engineering/11_testing_validation/393_absence_of_errors_fallacy.md)
+394. [V-모델의 매핑 (요구사항-인수테스트, 기본설계-시스템테스트, 상세설계-통합테스트, 코딩-단위테스트)](@/04_software_engineering/07_object_oriented/394_v_model_testing_mapping.md)
+395. [검증 (Verification) - 제품을 올바르게 만들고 있는가 (과정, 산출물 리뷰)](@/04_software_engineering/07_object_oriented/395_verification_process_review.md)
+396. [확인 (Validation) - 올바른 제품을 만들었는가 (결과, 실행 테스트)](@/04_software_engineering/12_testing_maintenance/396_validation.md)
+397. [단위 테스트 (Unit Test) - 최소 단위(모듈/함수) 기능 검증, 화이트박스 위주](@/04_software_engineering/12_testing_maintenance/397_unit_test.md)
+398. [단위 테스트 프레임워크 (JUnit, pytest, NUnit 등)](@/04_software_engineering/12_testing_maintenance/398_unit_test_framework_xunit.md)
+399. [목 객체 (Mock Object) 기반 격리 테스트](@/04_software_engineering/12_testing_maintenance/399_mock_object.md)
+400. [통합 테스트 (Integration Test) - 모듈 간 인터페이스 및 상호작용 검증](@/04_software_engineering/12_testing_maintenance/400_integration_testing.md)
+401. [빅뱅 통합 (Big Bang Integration) - 한 번에 모두 결합 (오류 추적 어려움)](@/04_software_engineering/12_testing_maintenance/401_big_bang_integration.md)
+402. [하향식 통합 (Top-down Integration) - 깊이/넓이 우선, 하위 모듈 대체용 스텁(Stub) 사용](@/04_software_engineering/12_testing_maintenance/402_top_down_integration.md)
+403. [상향식 통합 (Bottom-up Integration) - 클러스터 결합, 상위 제어 모듈 대체용 드라이버(Driver) 사용](@/04_software_engineering/12_testing_maintenance/403_bottom_up_integration.md)
+404. [샌드위치 통합 (Sandwich / Hybrid Integration) - 주요 모듈 중심 상/하향 병행](@/04_software_engineering/12_testing_maintenance/404_sandwich_integration.md)
+405. [시스템 테스트 (System Test) - 전체 시스템의 기능 및 비기능 요구사항 검증](@/04_software_engineering/12_testing_maintenance/405_system_test.md)
+406. [인수 테스트 (Acceptance Test) - 사용자(고객)가 요구사항 충족 여부 최종 확인](@/04_software_engineering/12_testing_maintenance/406_acceptance_test_uat.md)
+407. [알파 테스트 (Alpha Test) - 개발자 환경에서 통제된 사용자 테스트](@/04_software_engineering/12_testing_maintenance/407_alpha_test.md)
+408. [베타 테스트 (Beta Test) - 실제 환경에서 다수 사용자가 수행 (필드 테스트)](@/04_software_engineering/12_testing_maintenance/408_beta_test.md)
+409. [OAT (Operational Acceptance Testing) - 운영 전환 전 백업, 이중화 등 검증](@/04_software_engineering/12_testing_maintenance/409_oat_operational_acceptance.md)
+410. [회귀 테스트 (Regression Test) - 코드 수정 후 기존 기능에 예기치 않은 결함(사이드 이펙트) 발생 확인](@/04_software_engineering/12_testing_maintenance/410_regression_test.md)
+411. [리그레션 테스트 자동화 및 선택적 수행 (Retest All vs Selective)](@/04_software_engineering/12_testing_maintenance/411_regression_test_strategy.md)
+412. [블랙박스 테스트 (Black-box Test / 명세 기반 테스트) - 내부 구조를 보지 않고 입력/출력 기반 검증](@/04_software_engineering/12_testing_maintenance/412_black_box_testing.md)
+413. [동등 분할 (Equivalence Partitioning) - 입력 영역을 유효/무효 클래스로 분할하여 대푯값 테스트](@/04_software_engineering/07_object_oriented/413_equivalence_partitioning.md)
+414. [경계값 분석 (Boundary Value Analysis) - 경계 부분에서 결함이 많다는 점 이용 (분할의 가장자리 값)](@/04_software_engineering/07_object_oriented/414_boundary_value_analysis.md)
+415. [의사 결정 테이블 (Decision Table) - 복잡한 논리적 조건들의 조합을 표로 구성하여 테스트](@/04_software_engineering/07_object_oriented/415_decision_table.md)
+416. [상태 전이 테스트 (State Transition Testing) - 객체의 상태 변화 시나리오 검증](@/04_software_engineering/07_object_oriented/416_state_transition_testing.md)
+417. [유스케이스 테스팅 (Use Case Testing) - 액터와의 상호작용 흐름 기반](@/04_software_engineering/07_object_oriented/417_cause_effect_graphing.md)
+418. [페어와이즈 테스팅 (Pairwise Testing) - 변수 값들의 모든 쌍(Pair) 조합이 최소 한 번 테스트되도록 최적화 (조합 폭발 방지)](@/04_software_engineering/07_object_oriented/418_pairwise_testing.md)
+419. [원인-결과 그래프 (Cause-Effect Graphing)](@/04_software_engineering/07_object_oriented/419_cause_effect_graphing.md)
+420. [화이트박스 테스트 (White-box Test / 구조 기반 테스트) - 소스코드의 내부 논리 구조를 모두 검증](@/04_software_engineering/07_object_oriented/420_whitebox_testing.md)
+421. [제어 흐름 테스트 (Control Flow Testing)](@/04_software_engineering/07_object_oriented/421_control_flow_testing.md)
+422. [구문 커버리지 (Statement Coverage) - 코드의 모든 문장을 최소 한 번 실행](@/04_software_engineering/07_object_oriented/422_statement_coverage.md)
+423. [결정 커버리지 (Decision Coverage / 분기 커버리지) - 분기문(If, While 등)의 참/거짓을 최소 한 번씩 실행](@/04_software_engineering/07_object_oriented/423_decision_coverage.md)
+424. [조건 커버리지 (Condition Coverage) - 분기문 내의 각 개별 조건식이 참/거짓을 한 번씩 가짐](@/04_software_engineering/07_object_oriented/424_condition_coverage.md)
+425. [조건/결정 커버리지 (Condition/Decision Coverage) - 개별 조건과 전체 결정이 모두 참/거짓을 가짐](@/04_software_engineering/07_object_oriented/425_condition_decision_coverage.md)
+426. [변경 조건/결정 커버리지 (MC/DC, Modified Condition/Decision Coverage) - 각 개별 조건이 독립적으로 전체 결과에 영향을 미침을 증명 (DO-178B/C 항공/안전 표준)](@/04_software_engineering/07_object_oriented/426_mcdc.md)
+427. [다중 조건 커버리지 (Multiple Condition Coverage) - 개별 조건의 모든 가능한 진리값 조합 (2^N)](@/04_software_engineering/07_object_oriented/427_multiple_condition_coverage.md)
+428. [경로 커버리지 (Path Coverage) - 가능한 모든 실행 경로를 테스트](@/04_software_engineering/07_object_oriented/428_path_coverage.md)
+429. [데이터 흐름 테스팅 (Data Flow Testing) - 변수의 정의(Define)와 사용(Use) 경로 (DU 경로) 기반 검증](@/04_software_engineering/07_object_oriented/429_data_flow_testing.md)
+430. [정적 테스팅 (Static Testing) - 코드를 실행하지 않고 리뷰나 도구를 통해 검증 (인스펙션, 정적 분석)](@/04_software_engineering/07_object_oriented/430_static_testing.md)
+431. [동적 테스팅 (Dynamic Testing) - 코드를 직접 컴파일하고 실행하여 검증](@/04_software_engineering/07_object_oriented/431_dynamic_testing.md)
+432. [리스크 기반 테스팅 (Risk-based Testing) - 비즈니스 리스크가 높은 모듈에 테스트 자원 집중](@/04_software_engineering/07_object_oriented/432_risk_based_testing.md)
+433. [탐색적 테스팅 (Exploratory Testing) - 명세서 없이 테스터의 직관과 경험을 바탕으로 테스트 설계와 수행을 동시 진행 (차터, 타임박스 활용)](@/04_software_engineering/07_object_oriented/433_exploratory_testing.md)
+434. [오류 추정 (Error Guessing) - 테스터의 경험을 바탕으로 결함이 발생할 만한 곳을 추정하여 테스트](@/04_software_engineering/07_object_oriented/434_error_guessing.md)
+435. [체크리스트 (Checklist) 기반 테스팅](@/04_software_engineering/12_testing_maintenance/435_checklist_based_testing.md)
+436. [테스트 오라클 (Test Oracle) - 테스트 결과의 참/거짓을 판단하기 위한 기준](@/04_software_engineering/12_testing_maintenance/436_test_oracle.md)
+437. [참 오라클 (True Oracle) - 모든 입력에 대해 기대 결과 제공 (현실적 적용 어려움)](@/04_software_engineering/12_testing_maintenance/437_true_oracle.md)
+438. [샘플링 오라클 (Sampling Oracle) - 특정 몇몇 입력 값에 대해서만 결과 제공](@/04_software_engineering/12_testing_maintenance/438_sampling_oracle.md)
+439. [휴리스틱 오라클 (Heuristic Oracle) - 샘플링에 직관적/경험적 판단 추가](@/04_software_engineering/07_object_oriented/439_heuristic_oracle.md)
+440. [일관성 오라클 (Consistent Oracle) - 변경 전/후의 결과가 동일한지 확인 (회귀 테스트에 유용)](@/04_software_engineering/07_object_oriented/440_consistent_oracle.md)
+441. [테스트 케이스 (Test Case) 구조 - 식별자, 전제조건, 입력 데이터, 기대 결과](@/04_software_engineering/07_object_oriented/441_test_case.md)
+442. [테스트 시나리오 (Test Scenario) - 테스트 케이스들을 흐름에 따라 묶은 집합](@/04_software_engineering/07_object_oriented/442_test_scenario.md)
+443. [테스트 절차 (Test Procedure) / 테스트 스크립트 (Test Script)](@/04_software_engineering/07_object_oriented/443_test_procedure.md)
+444. [테스트 데이터 (Test Data) 생성 및 익명화 관리 (Test Data Management, TDM)](@/04_software_engineering/07_object_oriented/444_test_data_management.md)
+445. [성능 테스트 (Performance Test) 4가지 유형](@/04_software_engineering/07_object_oriented/445_performance_test_types.md)
+446. [부하 테스트 (Load Test) - 시스템의 임계점(목표치)까지 부하를 증가시키며 상태 확인](@/04_software_engineering/07_object_oriented/446_load_test.md)
+447. [스트레스 테스트 (Stress Test) - 임계점 이상의 과부하 상태에서 시스템 붕괴 및 복구 반응 확인](@/04_software_engineering/07_object_oriented/447_stress_test.md)
+448. [스파이크 테스트 (Spike Test) - 갑작스럽게 사용자가 급증할 때의 반응 확인](@/04_software_engineering/07_object_oriented/448_spike_test.md)
+449. [내구성 테스트 (Endurance / Soak Test) - 장시간 부하를 주어 메모리 누수(Leak) 등 확인](@/04_software_engineering/07_object_oriented/449_endurance_soak_test.md)
+450. [벤치마크 테스트 (BMT, Benchmark Test) - 동일한 환경에서 여러 제품의 성능을 비교](@/04_software_engineering/07_object_oriented/450_benchmark_test.md)
+451. [사용성 테스트 (Usability Test) - 사용자가 시스템을 얼마나 쉽게 다룰 수 있는지 UI/UX 관점 평가](@/04_software_engineering/07_object_oriented/451_usability_test.md)
+452. [A/B 테스트 - 두 가지 UI/기능을 실 사용자에게 노출하여 반응 비교](@/04_software_engineering/07_object_oriented/452_ab_test.md)
+453. [호환성 테스트 (Compatibility Test) - OS, 브라우저, 기기(모바일) 등 이기종 환경 동작 확인](@/04_software_engineering/07_object_oriented/453_compatibility_test.md)
+454. [이식성 테스트 (Portability Test) - 다른 환경으로 시스템을 이전했을 때의 동작 확인](@/04_software_engineering/07_object_oriented/454_portability_test.md)
+455. [모의 해킹 (Penetration Testing) 및 취약점 스캐닝](@/04_software_engineering/07_object_oriented/455_penetration_testing_vulnerability_scanning.md)
+456. [뮤테이션 테스팅 (Mutation Testing / 돌연변이 테스팅) - 원본 코드에 고의로 에러(돌연변이)를 주입하여 기존 테스트 케이스가 이를 잡아내는지(Kill) 검증 (테스트 케이스의 품질 평가)](@/04_software_engineering/07_object_oriented/456_mutation_testing.md)
+457. [퍼즈 테스팅 (Fuzz Testing / Fuzzing) - 무작위 또는 기형적인 데이터를 입력하여 크래시(Crash)나 예외 상황 유발](@/04_software_engineering/07_object_oriented/457_fuzz_testing.md)
+458. [테스트 더블 (Test Double) 5가지 개념 (xUnit 테스트 패턴)](@/04_software_engineering/07_object_oriented/458_test_double.md)
+459. [Dummy (더미) - 인자 채우기용, 실제 사용 안됨](@/04_software_engineering/07_object_oriented/459_dummy_test_double.md)
+460. [Stub (스텁) - 호출 시 준비된 답변만 반환 (상태 검증용)](@/04_software_engineering/07_object_oriented/460_stub_test_double.md)
+461. [Spy (스파이) - 스텁 역할 + 호출 정보 기록](@/04_software_engineering/07_object_oriented/461_spy_test_double.md)
+462. [Mock (목) - 행위(Behavior) 검증을 위해 예상되는 호출 명세가 프로그래밍된 객체](@/04_software_engineering/07_object_oriented/462_mock_test_double.md)
+463. [Fake (페이크) - 실제 동작하지만 프로덕션에는 적합하지 않은 축소판 (인메모리 DB 등)](@/04_software_engineering/07_object_oriented/463_fake_test_double.md)
+464. [서비스 가상화 (Service Virtualization) - MSA 환경에서 외부 의존 API를 모사하는 스텁 서버](@/04_software_engineering/07_object_oriented/464_service_virtualization.md)
+465. [지속적 테스팅 (Continuous Testing) - CI/CD 파이프라인 전 과정에 테스트 자동화 통합](@/04_software_engineering/07_object_oriented/465_continuous_testing.md)
+466. [시프트 레프트 테스팅 (Shift-Left Testing) - 테스트 활동을 개발 초기(왼쪽) 단계로 당겨 결함 조기 발견](@/04_software_engineering/07_object_oriented/466_shift_left_testing.md)
+467. [시프트 라이트 테스팅 (Shift-Right Testing) - 운영 환경(오른쪽)에서의 테스트 (카나리, 카오스 엔지니어링)](@/04_software_engineering/07_object_oriented/467_shift_right_testing.md)
+468. [운영 환경 테스트 (Testing in Production / TiP)](@/04_software_engineering/07_object_oriented/468_testing_in_production.md)
+469. [모델 기반 테스팅 (MBT, Model-Based Testing) - 시스템 모델(UML 등)에서 테스트 케이스 자동 생성](@/04_software_engineering/07_object_oriented/469_model_based_testing_mbt.md)
+470. [TDD (Test Driven Development) 생명주기 - 실패하는 테스트 작성(Red) -> 통과하는 최소 코드 작성(Green) -> 리팩토링(Refactor)](@/04_software_engineering/07_object_oriented/470_tdd_lifecycle.md)
 
 ## 8. SW 보안 (DevSecOps) 및 컴플라이언스 (60개)
-471. 소프트웨어 개발 보안 (Secure SDLC) - 기획, 설계, 구현, 테스트 전 단계 보안 활동
-472. BSIMM (Building Security In Maturity Model) - SW 보안 성숙도 평가 모델
-473. Microsoft SDL (Security Development Lifecycle) - 7단계 보안 생명주기
-474. 위협 모델링 (Threat Modeling) 아키텍처 보안 분석
-475. STRIDE 모델 - Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege
-476. DREAD 모델 - 위협 리스크 산정 지표 (Damage, Reproducibility, Exploitability, Affected users, Discoverability)
-477. OWASP Top 10 (2021 기준 주요 취약점)
-478. Broken Access Control (취약한 접근 제어)
-479. Cryptographic Failures (암호화 실패 / 민감 데이터 노출)
-480. Injection (인젝션 / SQLi, OS Command, NoSQL 등)
-481. Insecure Design (안전하지 않은 설계)
-482. Security Misconfiguration (보안 설정 오류)
-483. Vulnerable and Outdated Components (취약하고 만료된 컴포넌트)
-484. Identification and Authentication Failures (인증 및 세션 관리 실패)
-485. Software and Data Integrity Failures (소프트웨어 및 데이터 무결성 실패)
-486. Security Logging and Monitoring Failures (보안 로깅 및 모니터링 실패)
-487. SSRF (Server-Side Request Forgery) - 서버 측 요청 위조
-488. CWE (Common Weakness Enumeration) - 보안 약점 사전
-489. CVE (Common Vulnerabilities and Exposures) - 공개된 보안 취약점 목록
-490. CVSS (Common Vulnerability Scoring System) - 취약점 위험도 평가 점수 (0~10)
-491. SAST (Static Application Security Testing) - 소스코드 정적 분석 도구 (보안 룰셋 기반)
-492. DAST (Dynamic Application Security Testing) - 런타임 환경에 공격 페이로드 주입 분석 (블랙박스)
-493. IAST (Interactive Application Security Testing) - SAST와 DAST 결합, 에이전트 기반 내부 메모리/흐름 분석
-494. RASP (Runtime Application Self-Protection) - 실행 환경 내부에서 공격 실시간 방어
-495. SCA (Software Composition Analysis) - 오픈소스 라이브러리 취약점 및 라이선스 스캔
-496. SBOM (Software Bill of Materials) 포맷 - SPDX, CycloneDX
-497. 행정안전부/KISA 소프트웨어 개발 보안 가이드 (47개 보안 약점)
-498. 입력 데이터 검증 및 표현 (Input Validation) 원칙
-499. SQL 인젝션 방어 - Prepared Statement (파라미터화된 쿼리), ORM 프레임워크 사용
-500. 크로스 사이트 스크립팅 (XSS) 방어 - 입/출력값 인코딩, CSP(Content Security Policy) 헤더 설정
-501. XSS 유형 - Reflected XSS, Stored XSS, DOM-based XSS
-502. 크로스 사이트 요청 위조 (CSRF) 방어 - Anti-CSRF 토큰 발급, SameSite 쿠키 속성
-503. 보안 기능 (Security Features)의 설계
-504. 암호화 알고리즘 (대칭키-AES, 비대칭키-RSA/ECC, 일방향-SHA) 적용 기준
-505. 비밀번호 저장 방식 - KDF(Key Derivation Function) 활용 (PBKDF2, bcrypt, scrypt, Argon2) 및 솔트(Salt) 적용
-506. 양자 내성 암호 (PQC) 전환 대비 SW 아키텍처 검토
-507. 세션 관리 (Session Management) 보완 - 만료 시간, 재사용 방지, 세션 ID 추측 난해성
-508. 인증 (Authentication) 트렌드 - MFA, FIDO, WebAuthn, 패스워드리스(Passwordless)
-509. 인가 (Authorization) 모델 - RBAC(역할 기반), ABAC(속성 기반, 조건부 규칙)
-510. API 보안 관리 - OAuth 2.0 (Access Token 인가), OIDC(인증), JWT(JSON Web Token) 서명/만료 검증
-511. API Rate Limiting (비율 제한) 및 Throttling (스로틀링) - DDoS 및 크롤링 방어
-512. 마이크로서비스 간 보안 (Service-to-Service Security) - mTLS (상호 TLS 인증)
-513. 컨테이너 보안 - 이미지 스캐닝, 루트 권한 실행 금지 (Non-root user), 네임스페이스 샌드박스
-514. 시크릿(Secret) 관리 도구 - 하드코딩 금지, HashiCorp Vault, AWS Secrets Manager 활용
-515. 쿠버네티스 (Kubernetes) 보안 - RBAC, Network Policy, Pod Security Admission
-516. 개인정보 보호 중심 설계 (Privacy by Design - PbD) 7원칙
-517. 데이터 3법 및 GDPR 컴플라이언스 대응 SW 기능 (잊혀질 권리, 동의 철회 기능)
-518. 가명 처리 및 비식별화 기술 (K-익명성, L-다양성, T-근접성) SW 적용
-519. 사이버 레질리언스 (Cyber Resilience) 아키텍처
-520. 공급망 (Supply Chain) 공격 사례 및 서명된 커밋(Signed Commit), CI 파이프라인 보호
-521. 인공지능 모델 공격 방어 - 적대적 예제(Adversarial Example), 데이터 포이즈닝 방어 설계
-522. 블록체인/스마트 컨트랙트 (Smart Contract) 보안 감사 (Reentrancy 공격 방어 등)
-523. IoT 기기 펌웨어 무결성 검증망 및 OTA (Over-The-Air) 안전 배포
-524. 클라우드 보안 형상 관리 (CSPM) 연동 개발 프로세스
-525. 컴플라이언스 애즈 코드 (Compliance as Code) 자동화
-526. 보안 로깅 (Logging) - 6하 원칙 기록, 중앙 집중식 보관(ELK), 위변조 방지 (WORM 스토리지)
-527. 보안 감사 (Audit) 트레일 추적 기능
-528. 난독화 (Obfuscation) 및 안티 디버깅 (Anti-debugging) 적용 (모바일 앱 보안)
-529. 메모리 안전성(Memory Safety) 보장을 위한 Rust, Go 언어 도입 동향
-530. 보안 조직 분리 정책 위반(SoD, Segregation of Duties)의 SW 통제 로직
+471. [소프트웨어 개발 보안 (Secure SDLC) - 기획, 설계, 구현, 테스트 전 단계 보안 활동](@/04_software_engineering/08_security_compliance_devsecops/471_secure_sdlc.md)
+472. [BSIMM (Building Security In Maturity Model) - SW 보안 성숙도 평가 모델](@/04_software_engineering/08_security_compliance_devsecops/472_bsimm_maturity_model.md)
+473. [Microsoft SDL (Security Development Lifecycle) - 7단계 보안 생명주기](@/04_software_engineering/08_security_compliance_devsecops/473_ms_sdl.md)
+474. [위협 모델링 (Threat Modeling) 아키텍처 보안 분석](@/04_software_engineering/08_security_compliance_devsecops/474_threat_modeling.md)
+475. [STRIDE 모델 - Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege](@/04_software_engineering/08_security_compliance_devsecops/475_stride_threat_modeling.md)
+476. [DREAD 모델 - 위협 리스크 산정 지표 (Damage, Reproducibility, Exploitability, Affected users, Discoverability)](@/04_software_engineering/08_security_compliance_devsecops/476_dread_model.md)
+477. [OWASP Top 10 (2021 기준 주요 취약점)](@/04_software_engineering/08_security_compliance_devsecops/477_owasp_top_10.md)
+478. [Broken Access Control (취약한 접근 제어)](@/04_software_engineering/08_security_compliance_devsecops/478_broken_access_control.md)
+479. [Cryptographic Failures (암호화 실패 / 민감 데이터 노출)](@/04_software_engineering/08_security_compliance_devsecops/479_cryptographic_failures.md)
+480. [Injection (인젝션 / SQLi, OS Command, NoSQL 등)](@/04_software_engineering/08_security_compliance_devsecops/480_sqli_os_command_nosql.md)
+481. [Insecure Design (안전하지 않은 설계)](@/04_software_engineering/08_security_compliance_devsecops/481_insecure_design.md)
+482. [Security Misconfiguration (보안 설정 오류)](@/04_software_engineering/08_security_compliance_devsecops/482_security_misconfiguration.md)
+483. [Vulnerable and Outdated Components (취약하고 만료된 컴포넌트)](@/04_software_engineering/08_security_compliance_devsecops/483_vulnerable_and_outdated_components.md)
+484. [Identification and Authentication Failures (인증 및 세션 관리 실패)](@/04_software_engineering/08_security_compliance_devsecops/484_identification_authentication_failures.md)
+485. [Software and Data Integrity Failures (소프트웨어 및 데이터 무결성 실패)](@/04_software_engineering/08_security_compliance_devsecops/485_integrity_failures.md)
+486. [Security Logging and Monitoring Failures (보안 로깅 및 모니터링 실패)](@/04_software_engineering/08_security_compliance_devsecops/486_security_logging_and_monitoring_failures.md)
+487. [SSRF (Server-Side Request Forgery) - 서버 측 요청 위조](@/04_software_engineering/08_security_compliance_devsecops/487_ssrf_server_side_request_forgery.md)
+488. [CWE (Common Weakness Enumeration) - 보안 약점 사전](@/04_software_engineering/08_security_compliance_devsecops/488_cwe_weakness_enumeration.md)
+489. [CVE (Common Vulnerabilities and Exposures) - 공개된 보안 취약점 목록](@/04_software_engineering/08_security_compliance_devsecops/489_cve_vulnerabilities_exposures.md)
+490. [CVSS (Common Vulnerability Scoring System) - 취약점 위험도 평가 점수 (0~10)](@/04_software_engineering/08_security_compliance_devsecops/490_cvss_vulnerability_scoring.md)
+491. [SAST (Static Application Security Testing) - 소스코드 정적 분석 도구 (보안 룰셋 기반)](@/04_software_engineering/08_security_compliance_devsecops/491_sast_static_analysis.md)
+492. [DAST (Dynamic Application Security Testing) - 런타임 환경에 공격 페이로드 주입 분석 (블랙박스)](@/04_software_engineering/08_security_compliance_devsecops/492_dast_dynamic_analysis.md)
+493. [IAST (Interactive Application Security Testing) - SAST와 DAST 결합, 에이전트 기반 내부 메모리/흐름 분석](@/04_software_engineering/08_security_compliance_devsecops/493_iast_interactive_analysis.md)
+494. [RASP (Runtime Application Self-Protection) - 실행 환경 내부에서 공격 실시간 방어](@/04_software_engineering/08_security_compliance_devsecops/494_rasp_runtime_protection.md)
+495. [SCA (Software Composition Analysis) - 오픈소스 라이브러리 취약점 및 라이선스 스캔](@/04_software_engineering/08_security_compliance_devsecops/495_sca_software_composition_analysis.md)
+496. [SBOM (Software Bill of Materials) 포맷 - SPDX, CycloneDX](@/04_software_engineering/08_security_compliance_devsecops/496_sbom_format_spdx_cyclonedx.md)
+497. [행정안전부/KISA 소프트웨어 개발 보안 가이드 (47개 보안 약점)](@/04_software_engineering/08_security_compliance_devsecops/497_kisa_secure_coding_guide.md)
+498. [입력 데이터 검증 및 표현 (Input Validation) 원칙](@/04_software_engineering/08_security_compliance_devsecops/498_input_validation.md)
+499. [SQL 인젝션 방어 - Prepared Statement (파라미터화된 쿼리), ORM 프레임워크 사용](@/04_software_engineering/08_security_compliance_devsecops/499_sql_injection_defense.md)
+500. [크로스 사이트 스크립팅 (XSS) 방어 - 입/출력값 인코딩, CSP(Content Security Policy) 헤더 설정](@/04_software_engineering/08_security_compliance_devsecops/500_xss_defense_escaping_csp.md)
+501. [XSS 유형 - Reflected XSS, Stored XSS, DOM-based XSS](@/04_software_engineering/08_security_compliance_devsecops/501_xss_types.md)
+502. [크로스 사이트 요청 위조 (CSRF) 방어 - Anti-CSRF 토큰 발급, SameSite 쿠키 속성](@/04_software_engineering/08_security_compliance_devsecops/502_csrf_cross_site_request_forgery.md)
+503. [보안 기능 (Security Features)의 설계](@/04_software_engineering/08_security_compliance_devsecops/503_security_features_design.md)
+504. [암호화 알고리즘 (대칭키-AES, 비대칭키-RSA/ECC, 일방향-SHA) 적용 기준](@/04_software_engineering/08_security_compliance_devsecops/504_cryptography_algorithms_aes_rsa_sha.md)
+505. [비밀번호 저장 방식 - KDF(Key Derivation Function) 활용 (PBKDF2, bcrypt, scrypt, Argon2) 및 솔트(Salt) 적용](@/04_software_engineering/08_security_compliance_devsecops/505_password_storage_kdf_salt.md)
+506. [양자 내성 암호 (PQC) 전환 대비 SW 아키텍처 검토](@/04_software_engineering/08_security_compliance_devsecops/506_post_quantum_cryptography_architecture.md)
+507. [세션 관리 (Session Management) 보완 - 만료 시간, 재사용 방지, 세션 ID 추측 난해성](@/04_software_engineering/08_security_compliance_devsecops/507_session_management_security.md)
+508. [인증 (Authentication) 트렌드 - MFA, FIDO, WebAuthn, 패스워드리스(Passwordless)](@/04_software_engineering/08_security_compliance_devsecops/508_authentication_trends_mfa_fido.md)
+509. [인가 (Authorization) 모델 - RBAC(역할 기반), ABAC(속성 기반, 조건부 규칙)](@/04_software_engineering/08_security_compliance_devsecops/509_authorization_models_rbac_abac.md)
+510. [API 보안 관리 - OAuth 2.0 (Access Token 인가), OIDC(인증), JWT(JSON Web Token) 서명/만료 검증](@/04_software_engineering/08_security_compliance_devsecops/510_api_security_oauth_oidc_jwt.md)
+511. [API Rate Limiting (비율 제한) 및 Throttling (스로틀링) - DDoS 및 크롤링 방어](@/04_software_engineering/08_security_compliance_devsecops/511_api_rate_limiting_throttling.md)
+512. [마이크로서비스 간 보안 (Service-to-Service Security) - mTLS (상호 TLS 인증)](@/04_software_engineering/08_security_compliance_devsecops/512_mtls_service_to_service_security.md)
+513. [컨테이너 보안 - 이미지 스캐닝, 루트 권한 실행 금지 (Non-root user), 네임스페이스 샌드박스](@/04_software_engineering/08_security_compliance_devsecops/513_container_security.md)
+514. [시크릿(Secret) 관리 도구 - 하드코딩 금지, HashiCorp Vault, AWS Secrets Manager 활용](@/04_software_engineering/08_security_compliance_devsecops/514_secret_management_vault_kms.md)
+515. [쿠버네티스 (Kubernetes) 보안 - RBAC, Network Policy, Pod Security Admission](@/04_software_engineering/08_security_compliance_devsecops/515_kubernetes_security_rbac_network_policy.md)
+516. [개인정보 보호 중심 설계 (Privacy by Design - PbD) 7원칙](@/04_software_engineering/08_security_compliance_devsecops/516_privacy_by_design_pbd.md)
+517. [데이터 3법 및 GDPR 컴플라이언스 대응 SW 기능 (잊혀질 권리, 동의 철회 기능)](@/04_software_engineering/08_security_compliance_devsecops/517_data_privacy_compliance_gdpr.md)
+518. [가명 처리 및 비식별화 기술 (K-익명성, L-다양성, T-근접성) SW 적용](@/04_software_engineering/08_security_compliance_devsecops/518_pseudonymization_kanonymity.md)
+519. [사이버 레질리언스 (Cyber Resilience) 아키텍처](@/04_software_engineering/08_security_compliance_devsecops/519_cyber_resilience_architecture.md)
+520. [공급망 (Supply Chain) 공격 사례 및 서명된 커밋(Signed Commit), CI 파이프라인 보호](@/04_software_engineering/08_security_compliance_devsecops/520_supply_chain_attack_and_ci_cd_security.md)
+521. [인공지능 모델 공격 방어 - 적대적 예제(Adversarial Example), 데이터 포이즈닝 방어 설계](@/04_software_engineering/08_security_compliance_devsecops/521_ai_model_security_adversarial_poisoning.md)
+522. [블록체인/스마트 컨트랙트 (Smart Contract) 보안 감사 (Reentrancy 공격 방어 등)](@/04_software_engineering/08_security_compliance_devsecops/522_smart_contract_security_audit.md)
+523. [IoT 기기 펌웨어 무결성 검증망 및 OTA (Over-The-Air) 안전 배포](@/04_software_engineering/08_security_compliance_devsecops/523_iot_firmware_ota_security.md)
+524. [클라우드 보안 형상 관리 (CSPM) 연동 개발 프로세스](@/04_software_engineering/08_security_compliance_devsecops/524_cspm_cloud_security_posture.md)
+525. [컴플라이언스 애즈 코드 (Compliance as Code) 자동화](@/04_software_engineering/08_security_compliance_devsecops/525_compliance_as_code_automation.md)
+526. [보안 로깅 (Logging) - 6하 원칙 기록, 중앙 집중식 보관(ELK), 위변조 방지 (WORM 스토리지)](@/04_software_engineering/08_security_compliance_devsecops/526_security_logging_and_monitoring_failures.md)
+527. [보안 감사 (Audit) 트레일 추적 기능](@/04_software_engineering/08_security_compliance_devsecops/527_security_audit_trail.md)
+528. [난독화 (Obfuscation) 및 안티 디버깅 (Anti-debugging) 적용 (모바일 앱 보안)](@/04_software_engineering/08_security_compliance_devsecops/528_obfuscation_anti_debugging_mobile.md)
+529. [메모리 안전성(Memory Safety) 보장을 위한 Rust, Go 언어 도입 동향](@/04_software_engineering/08_security_compliance_devsecops/529_memory_safety_rust_go.md)
+530. [보안 조직 분리 정책 위반(SoD, Segregation of Duties)의 SW 통제 로직](@/04_software_engineering/08_security_compliance_devsecops/530_segregation_of_duties_sod.md)
 
 ## 9. SW 아키텍처 심화, 클라우드 네이티브 및 AI (80개)
-531. 클라우드 네이티브 아키텍처 (Cloud Native Architecture) 철학
-532. 마이크로서비스 (Microservices) 분해 패턴
-533. 비즈니스 능력에 따른 분해 (Decompose by Business Capability)
-534. 하위 도메인에 따른 분해 (Decompose by Subdomain - DDD 기반)
-535. 서비스 간 동기 통신 - REST API, gRPC (Protocol Buffers)
-536. 서비스 간 비동기 통신 - 메시지 큐 (RabbitMQ, Kafka), AMQP 프로토콜
-537. 안티패턴: 분산 모놀리스 (Distributed Monolith) - 독립 배포 불가능한 MSA
-538. 이벤트 기반 아키텍처 (EDA) - 이벤트 생산자, 브로커, 소비자
-539. 이벤트 버스 (Event Bus) 및 스트림 프로세싱
-540. 서비스 디스커버리 (Service Discovery) - 동적 IP/Port 레지스트리 (Eureka, Consul)
-541. 클라이언트 사이드 디스커버리 vs 서버 사이드 디스커버리
-542. API 게이트웨이 (API Gateway) - 인증, 라우팅, 로드밸런싱, 통합(Aggregation)
-543. BFF (Backend For Frontend) - 모바일, 웹 등 클라이언트 전용 맞춤형 게이트웨이
-544. 외부화된 구성 관리 (Externalized Configuration) - Config Server (Spring Cloud Config 등)
-545. 서비스 메시 (Service Mesh) - 애플리케이션 외부(인프라 계층)에서 통신 제어
-546. 사이드카 (Sidecar) 프록시 패턴 - Istio, Envoy, Linkerd
-547. 트래픽 라우팅, 카나리 배포 제어 (Service Mesh의 역할)
-548. 로컬 트랜잭션 (Local Transaction) vs 분산 트랜잭션 (Distributed Transaction)
-549. 2PC (Two-Phase Commit)의 MSA 적용 한계
-550. 사가 패턴 (Saga Pattern) - 로컬 트랜잭션들의 연속된 체인
-551. 보상 트랜잭션 (Compensating Transaction) - 롤백을 논리적으로 수행하는 역방향 연산
-552. 오케스트레이션 사가 (Orchestration Saga) - 중앙 통제기가 흐름 제어
-553. 코레오그래피 사가 (Choreography Saga) - 이벤트 구독 기반의 자율적 흐름
-554. CQRS (명령과 조회 책임 분리) - 쓰기 DB와 읽기 DB 분리, 동기화 문제 해결 (Eventual Consistency)
-555. 이벤트 소싱 (Event Sourcing) - CRUD 대신 상태 변경 이력(Event) 자체를 추가(Append-only) 저장
-556. 마이크로 프론트엔드 (Micro Frontends) - 모놀리식 프론트엔드를 독립적 팀 단위 컴포넌트로 분할
-557. 모듈 페더레이션 (Module Federation) (Webpack)
-558. 서버리스 아키텍처 (Serverless / FaaS)
-559. 콜드 스타트 (Cold Start) 지연 문제 및 극복 방안 (Provisioned Concurrency 등)
-560. 데이터 메시 (Data Mesh) - 데이터 소유권의 탈중앙화 (도메인 중심)
-561. 컨테이너 (Container) 기반 배포 아키텍처
-562. 도커(Docker) 이미지 계층(Layer) 최소화 기법
-563. 쿠버네티스 (Kubernetes) 오브젝트 아키텍처 (Pod, Service, Deployment, Ingress)
-564. 헬름 (Helm) 차트를 이용한 SW 패키지 관리
-565. 오퍼레이터 (Operator) 패턴 - 쿠버네티스 사용자 정의 컨트롤러 확장을 통한 복잡한 앱 관리 자동화
-566. 옵저버빌리티 (Observability / 가시성) 아키텍처
-567. 메트릭 (Metrics) - 시계열 데이터 수집 (Prometheus, Grafana)
-568. 로그 (Logs) - 분산 로그 수집 (ELK Stack - Elasticsearch, Logstash, Kibana / Fluentd)
-569. 분산 추적 (Distributed Tracing) - 트랜잭션 경로 추적 (OpenTelemetry, Jaeger, Zipkin)
-570. Trace ID와 Span ID의 전파 (Context Propagation)
-571. 탄력성 (Resiliency) 및 결함 허용 (Fault Tolerance) 패턴
-572. 서킷 브레이커 (Circuit Breaker) - 상태(Closed, Open, Half-Open) 기반 장애 확산 차단 (Resilience4j)
-573. 타임아웃 (Timeout) 및 재시도 (Retry) 백오프(Backoff) 전략
-574. 벌크헤드 (Bulkhead) - 스레드 풀 격리로 일부 장애가 전체 리소스 고갈로 이어지는 현상 방지
-575. 섀도우 배포 (Shadow Deployment / 트래픽 미러링) - 실운영 트래픽을 복제하여 신규 버전에 테스트
-576. 피처 플래그 (Feature Flag) 기반 A/B 테스트 및 점진적 롤아웃
-577. 서버 사이드 렌더링 (SSR) 컴포넌트 아키텍처 (Next.js, Nuxt.js)
-578. 정적 사이트 생성 (SSG) / 증분 정적 재생성 (ISR) 패턴
-579. 오프라인 우선 (Offline-first) 아키텍처 (PWA, Service Worker, IndexedDB)
-580. 웹어셈블리 (WebAssembly, WASM) 아키텍처 - 브라우저 내 고성능 네이티브 코드 실행
-581. AI4SE (AI for Software 엔진ering) - AI를 활용한 SW 엔지니어링 패러다임 변화
-582. LLM(대규모 언어 모델) 기반 코드 생성 지원 도구 (GitHub Copilot, Cursor 등)
-583. AI 어시스턴트 코드 산출물의 라이선스 충돌(저작권) 이슈 및 보안 위협 (Hallucination 버그)
-584. 프롬프트 엔지니어링 (Prompt 엔진ering) 가이드라인 설계
-585. RAG (Retrieval-Augmented Generation) 패턴 아키텍처 통합 설계
-586. 랭체인 (LangChain) 프레임워크 기반 AI 파이프라인 설계
-587. 에이전틱 AI (Agentic AI) 시스템 - 도구(Tool)를 직접 호출하는 자율형 SW 모듈 설계
-588. MLOps 파이프라인 - 데이터 수집, 모델 학습(Training), 서빙(Serving), 모니터링 자동화
-589. 모델 드리프트 (Model Drift / Data Drift) 모니터링 및 재학습 루프 설계
-590. 엣지 AI (Edge AI) / 온디바이스 AI (On-Device AI) - 모델 경량화 (양자화, 가지치기, 지식 증류) 아키텍처
-591. 양자 컴퓨팅 (Quantum Computing) 알고리즘 (쇼어 알고리즘 등)에 대비한 하이브리드 아키텍처 연구
-592. 블록체인 DApp (Decentralized Application) 아키텍처 - 프론트엔드 + 스마트 컨트랙트 + IPFS
-593. 디지털 트윈 (Digital Twin) 소프트웨어 통합 통신 아키텍처
-594. 메타버스 (Metaverse) 실시간 동기화 아키텍처 및 렌더링 오프로딩
-595. RPA (Robotic Process Automation) 봇 결합 아키텍처
-596. 로우코드/노코드 (Low-Code / No-Code) 플랫폼 아키텍처 한계와 확장성 제어
-597. 헤드리스 (Headless) CMS 아키텍처 - 프론트엔드와 백엔드 분리 유연성 제공
-598. 마이크로 커널 (Microkernel / 플러그인) 아키텍처 - 이클립스, VS Code 확장 구조
-599. 모듈러 모놀리스 (Modular Monolith) 아키텍처 - MSA 전환 전 단계, 모듈 간 강결합 방지 아키텍처
-600. 아키텍처 런웨이 (Architecture Runway) - 비즈니스 요구 수용을 위해 사전에 마련하는 기술적 기반 구조
+531. [클라우드 네이티브 아키텍처 (Cloud Native Architecture) 철학](@/04_software_engineering/09_cloud_native_ai_architecture/531_cloud_native_architecture.md)
+532. [마이크로서비스 (Microservices) 분해 패턴](@/04_software_engineering/09_cloud_native_ai_architecture/532_microservices_decomposition_patterns.md)
+533. [비즈니스 능력에 따른 분해 (Decompose by Business Capability)](@/04_software_engineering/09_cloud_native_ai_architecture/533_decompose_by_business_capability.md)
+534. [하위 도메인에 따른 분해 (Decompose by Subdomain - DDD 기반)](@/04_software_engineering/09_cloud_native_ai_architecture/534_decompose_by_subdomain_ddd.md)
+535. [서비스 간 동기 통신 - REST API, gRPC (Protocol Buffers)](@/04_software_engineering/09_cloud_native_ai_architecture/535_sync_communication_rest_grpc.md)
+536. [서비스 간 비동기 통신 - 메시지 큐 (RabbitMQ, Kafka), AMQP 프로토콜](@/04_software_engineering/09_cloud_native_ai_architecture/536_asynchronous_communication_kafka_rabbitmq.md)
+537. [안티패턴: 분산 모놀리스 (Distributed Monolith) - 독립 배포 불가능한 MSA](@/04_software_engineering/09_cloud_native_ai_architecture/537_anti_pattern_distributed_monolith.md)
+538. [이벤트 기반 아키텍처 (EDA) - 이벤트 생산자, 브로커, 소비자](@/04_software_engineering/09_cloud_native_ai_architecture/538_event_driven_architecture_eda.md)
+539. [이벤트 버스 (Event Bus) 및 스트림 프로세싱](@/04_software_engineering/09_cloud_native_ai_architecture/539_event_bus_stream_processing.md)
+540. [서비스 디스커버리 (Service Discovery) - 동적 IP/Port 레지스트리 (Eureka, Consul)](@/04_software_engineering/09_cloud_native_ai_architecture/540_service_discovery.md)
+541. [클라이언트 사이드 디스커버리 vs 서버 사이드 디스커버리](@/04_software_engineering/09_cloud_native_ai_architecture/541_service_discovery_client_vs_server.md)
+542. [API 게이트웨이 (API Gateway) - 인증, 라우팅, 로드밸런싱, 통합(Aggregation)](@/04_software_engineering/09_cloud_native_ai_architecture/542_api_gateway.md)
+543. [BFF (Backend For Frontend) - 모바일, 웹 등 클라이언트 전용 맞춤형 게이트웨이](@/04_software_engineering/09_cloud_native_ai_architecture/543_bff_backend_for_frontend.md)
+544. [외부화된 구성 관리 (Externalized Configuration) - Config Server (Spring Cloud Config 등)](@/04_software_engineering/12_testing_maintenance/544_externalized_configuration.md)
+545. [서비스 메시 (Service Mesh) - 애플리케이션 외부(인프라 계층)에서 통신 제어](@/04_software_engineering/09_cloud_native_ai_architecture/545_service_mesh_architecture.md)
+546. [사이드카 (Sidecar) 프록시 패턴 - Istio, Envoy, Linkerd](@/04_software_engineering/09_cloud_native_ai_architecture/546_sidecar_proxy_pattern.md)
+547. [트래픽 라우팅, 카나리 배포 제어 (Service Mesh의 역할)](@/04_software_engineering/09_cloud_native_ai_architecture/547_service_mesh_traffic_routing_canary.md)
+548. [로컬 트랜잭션 (Local Transaction) vs 분산 트랜잭션 (Distributed Transaction)](@/04_software_engineering/09_cloud_native_ai_architecture/548_local_vs_distributed_transactions.md)
+549. [2PC (Two-Phase Commit)의 MSA 적용 한계](@/04_software_engineering/09_cloud_native_ai_architecture/549_2pc_two_phase_commit_limitations_msa.md)
+550. [사가 패턴 (Saga Pattern) - 로컬 트랜잭션들의 연속된 체인](@/04_software_engineering/09_cloud_native_ai_architecture/550_saga_pattern_local_transactions_chain.md)
+551. [보상 트랜잭션 (Compensating Transaction) - 롤백을 논리적으로 수행하는 역방향 연산](@/04_software_engineering/09_cloud_native_ai_architecture/551_compensating_transaction_logical_rollback.md)
+552. [오케스트레이션 사가 (Orchestration Saga) - 중앙 통제기가 흐름 제어](@/04_software_engineering/09_cloud_native_ai_architecture/552_orchestration_saga_centralized_control.md)
+553. [코레오그래피 사가 (Choreography Saga) - 이벤트 구독 기반의 자율적 흐름](@/04_software_engineering/09_cloud_native_ai_architecture/553_choreography_saga_event_driven.md)
+554. [CQRS (명령과 조회 책임 분리) - 쓰기 DB와 읽기 DB 분리, 동기화 문제 해결 (Eventual Consistency)](@/04_software_engineering/09_cloud_native_ai_architecture/554_cqrs_command_query_responsibility_segregation.md)
+555. [이벤트 소싱 (Event Sourcing) - CRUD 대신 상태 변경 이력(Event) 자체를 추가(Append-only) 저장](@/04_software_engineering/09_cloud_native_ai_architecture/555_event_sourcing_append_only_log.md)
+556. [마이크로 프론트엔드 (Micro Frontends) - 모놀리식 프론트엔드를 독립적 팀 단위 컴포넌트로 분할](@/04_software_engineering/09_cloud_native_ai_architecture/556_micro_frontends_architecture.md)
+557. [모듈 페더레이션 (Module Federation) (Webpack)](@/04_software_engineering/09_cloud_native_ai_architecture/557_webpack_module_federation.md)
+558. [서버리스 아키텍처 (Serverless / FaaS)](@/04_software_engineering/09_cloud_native_ai_architecture/558_serverless_architecture_faas.md)
+559. [콜드 스타트 (Cold Start) 지연 문제 및 극복 방안 (Provisioned Concurrency 등)](@/04_software_engineering/09_cloud_native_ai_architecture/559_serverless_cold_start_mitigation.md)
+560. [데이터 메시 (Data Mesh) - 데이터 소유권의 탈중앙화 (도메인 중심)](@/04_software_engineering/09_cloud_native_ai_architecture/560_data_mesh_decentralized_data_ownership.md)
+561. [컨테이너 (Container) 기반 배포 아키텍처](@/04_software_engineering/09_cloud_native_ai_architecture/561_container_based_deployment.md)
+562. [도커(Docker) 이미지 계층(Layer) 최소화 기법](@/04_software_engineering/09_cloud_native_ai_architecture/562_docker_image_layer_optimization.md)
+563. [쿠버네티스 (Kubernetes) 오브젝트 아키텍처 (Pod, Service, Deployment, Ingress)](@/04_software_engineering/09_cloud_native_ai_architecture/563_kubernetes_object_architecture.md)
+564. [헬름 (Helm) 차트를 이용한 SW 패키지 관리](@/04_software_engineering/09_cloud_native_ai_architecture/564_helm_chart_package_manager.md)
+565. [오퍼레이터 (Operator) 패턴 - 쿠버네티스 사용자 정의 컨트롤러 확장을 통한 복잡한 앱 관리 자동화](@/04_software_engineering/09_cloud_native_ai_architecture/565_operator_pattern_kubernetes_automation.md)
+566. [옵저버빌리티 (Observability / 가시성) 아키텍처](@/04_software_engineering/09_cloud_native_ai_architecture/566_observability_architecture.md)
+567. [메트릭 (Metrics) - 시계열 데이터 수집 (Prometheus, Grafana)](@/04_software_engineering/09_cloud_native_ai_architecture/567_metrics_time_series_prometheus_grafana.md)
+568. [로그 (Logs) - 분산 로그 수집 (ELK Stack - Elasticsearch, Logstash, Kibana / Fluentd)](@/04_software_engineering/09_cloud_native_ai_architecture/568_logs_distributed_logging_elk_fluentd.md)
+569. [분산 추적 (Distributed Tracing) - 트랜잭션 경로 추적 (OpenTelemetry, Jaeger, Zipkin)](@/04_software_engineering/09_cloud_native_ai_architecture/569_distributed_tracing_opentelemetry_jaeger.md)
+570. [Trace ID와 Span ID의 전파 (Context Propagation)](@/04_software_engineering/09_cloud_native_ai_architecture/570_trace_id_span_id_context_propagation.md)
+571. [탄력성 (Resiliency) 및 결함 허용 (Fault Tolerance) 패턴](@/04_software_engineering/09_cloud_native_ai_architecture/571_resiliency_fault_tolerance_patterns.md)
+572. [서킷 브레이커 (Circuit Breaker) - 상태(Closed, Open, Half-Open) 기반 장애 확산 차단 (Resilience4j)](@/04_software_engineering/09_cloud_native_ai_architecture/572_circuit_breaker_pattern_resilience4j.md)
+573. [타임아웃 (Timeout) 및 재시도 (Retry) 백오프(Backoff) 전략](@/04_software_engineering/09_cloud_native_ai_architecture/573_timeout_retry_backoff_strategy.md)
+574. [벌크헤드 (Bulkhead) - 스레드 풀 격리로 일부 장애가 전체 리소스 고갈로 이어지는 현상 방지](@/04_software_engineering/09_cloud_native_ai_architecture/574_bulkhead_pattern_thread_pool_isolation.md)
+575. [섀도우 배포 (Shadow Deployment / 트래픽 미러링) - 실운영 트래픽을 복제하여 신규 버전에 테스트](@/04_software_engineering/09_cloud_native_ai_architecture/575_shadow_deployment_traffic_mirroring.md)
+576. [피처 플래그 (Feature Flag) 기반 A/B 테스트 및 점진적 롤아웃](@/04_software_engineering/09_cloud_native_ai_architecture/576_feature_flag_ab_testing_rollout.md)
+577. [서버 사이드 렌더링 (SSR) 컴포넌트 아키텍처 (Next.js, Nuxt.js)](@/04_software_engineering/09_cloud_native_ai_architecture/577_server_side_rendering_ssr_nextjs.md)
+578. [정적 사이트 생성 (SSG) / 증분 정적 재생성 (ISR) 패턴](@/04_software_engineering/09_cloud_native_ai_architecture/578_ssg_and_isr_architecture.md)
+579. [오프라인 우선 (Offline-first) 아키텍처 (PWA, Service Worker, IndexedDB)](@/04_software_engineering/09_cloud_native_ai_architecture/579_offline_first_pwa_service_worker.md)
+580. [웹어셈블리 (WebAssembly, WASM) 아키텍처 - 브라우저 내 고성능 네이티브 코드 실행](@/04_software_engineering/09_cloud_native_ai_architecture/580_webassembly_wasm_architecture.md)
+581. [AI4SE (AI for Software 엔진ering) - AI를 활용한 SW 엔지니어링 패러다임 변화](@/04_software_engineering/09_cloud_native_ai_architecture/581_ai4se_ai_software_engineering_paradigm.md)
+582. [LLM(대규모 언어 모델) 기반 코드 생성 지원 도구 (GitHub Copilot, Cursor 등)](@/04_software_engineering/09_cloud_native_ai_architecture/582_llm_based_code_generation_tools.md)
+583. [AI 어시스턴트 코드 산출물의 라이선스 충돌(저작권) 이슈 및 보안 위협 (Hallucination 버그)](@/04_software_engineering/09_cloud_native_ai_architecture/583_ai_code_license_security_threats.md)
+584. [프롬프트 엔지니어링 (Prompt 엔진ering) 가이드라인 설계](@/04_software_engineering/09_cloud_native_ai_architecture/584_prompt_engineering_guideline.md)
+585. [RAG (Retrieval-Augmented Generation) 패턴 아키텍처 통합 설계](@/04_software_engineering/09_cloud_native_ai_architecture/585_rag_retrieval_augmented_generation.md)
+586. [랭체인 (LangChain) 프레임워크 기반 AI 파이프라인 설계](@/04_software_engineering/09_cloud_native_ai_architecture/586_langchain_ai_pipeline_framework.md)
+587. [에이전틱 AI (Agentic AI) 시스템 - 도구(Tool)를 직접 호출하는 자율형 SW 모듈 설계](@/04_software_engineering/09_cloud_native_ai_architecture/587_agentic_ai_autonomous_tools.md)
+588. [MLOps 파이프라인 - 데이터 수집, 모델 학습(Training), 서빙(Serving), 모니터링 자동화](@/04_software_engineering/09_cloud_native_ai_architecture/588_mlops_pipeline_automation.md)
+589. [모델 드리프트 (Model Drift / Data Drift) 모니터링 및 재학습 루프 설계](@/04_software_engineering/09_cloud_native_ai_architecture/589_model_drift_monitoring_retraining_loop.md)
+590. [엣지 AI (Edge AI) / 온디바이스 AI (On-Device AI) - 모델 경량화 (양자화, 가지치기, 지식 증류) 아키텍처](@/04_software_engineering/09_cloud_native_ai_architecture/590_edge_ai_model_compression_architecture.md)
+591. [양자 컴퓨팅 (Quantum Computing) 알고리즘 (쇼어 알고리즘 등)에 대비한 하이브리드 아키텍처 연구](@/04_software_engineering/09_cloud_native_ai_architecture/591_quantum_computing_hybrid_architecture.md)
+592. [블록체인 DApp (Decentralized Application) 아키텍처 - 프론트엔드 + 스마트 컨트랙트 + IPFS](@/04_software_engineering/09_cloud_native_ai_architecture/592_blockchain_dapp_architecture_ipfs.md)
+593. [디지털 트윈 (Digital Twin) 소프트웨어 통합 통신 아키텍처](@/04_software_engineering/09_cloud_native_ai_architecture/593_digital_twin_integration_architecture.md)
+594. [메타버스 (Metaverse) 실시간 동기화 아키텍처 및 렌더링 오프로딩](@/04_software_engineering/09_cloud_native_ai_architecture/594_metaverse_realtime_sync_rendering_offloading.md)
+595. [RPA (Robotic Process Automation) 봇 결합 아키텍처](@/04_software_engineering/09_cloud_native_ai_architecture/595_rpa_robotic_process_automation_architecture.md)
+596. [로우코드/노코드 (Low-Code / No-Code) 플랫폼 아키텍처 한계와 확장성 제어](@/04_software_engineering/09_cloud_native_ai_architecture/596_low_code_no_code_architecture_limitations.md)
+597. [헤드리스 (Headless) CMS 아키텍처 - 프론트엔드와 백엔드 분리 유연성 제공](@/04_software_engineering/09_cloud_native_ai_architecture/597_headless_cms_architecture.md)
+598. [마이크로 커널 (Microkernel / 플러그인) 아키텍처 - 이클립스, VS Code 확장 구조](@/04_software_engineering/09_cloud_native_ai_architecture/598_microkernel_plugin_architecture.md)
+599. [모듈러 모놀리스 (Modular Monolith) 아키텍처 - MSA 전환 전 단계, 모듈 간 강결합 방지 아키텍처](@/04_software_engineering/09_cloud_native_ai_architecture/599_modular_monolith_architecture.md)
+600. [아키텍처 런웨이 (Architecture Runway) - 비즈니스 요구 수용을 위해 사전에 마련하는 기술적 기반 구조](@/04_software_engineering/09_cloud_native_ai_architecture/600_architecture_runway_agile_foundation.md)
 
 ## 10. 최신 트렌드 및 프로젝트 관리/품질 심화 (200개 요약)
-601. 객체지향 5원칙 SOLID 완벽 매핑
-602. 정보 은닉(Information Hiding) 캡슐화 연계
-603. 컴포넌트(Component) 독립 배포 단위
-604. 디자인 패턴 23가지 구조적 분류
-605. 싱글톤 패턴 메모리/쓰레드 세이프 설계
-606. 옵저버 패턴 (Pub/Sub 연계)
-607. 팩토리 메서드 vs 추상 팩토리
-608. 전략 패턴 알고리즘 교체 용이성
-609. 파이프-필터 아키텍처 스트림
-610. MVC, MVP, MVVM 프론트엔드 패턴 진화
-611. 클린 아키텍처 의존성 규칙 (내부로만 향함)
-612. 헥사고날 포트와 어댑터 외부 격리
-613. 도메인 주도 설계 (DDD) 기본 구성 (엔티티, VO, 리포지토리)
-614. 바운디드 컨텍스트 마이크로서비스 식별 기준
-615. 애그리게이트 루트 트랜잭션 경계
-616. 마이크로서비스 API 게이트웨이 인증 통합
-617. 서비스 디스커버리 Eureka
-618. 서킷 브레이커 장애 연쇄 차단 메커니즘
-619. 사가 (Saga) 패턴 2PC 한계 극복 분산 트랜잭션
-620. 이벤트 소싱 상태 재생 가능성 보장
-621. CQRS 읽기 쓰기 분리 스케일 아웃
-622. 모듈러 모놀리스 MSA 대안적 접근
-623. 서버리스 콜드 스타트 이슈
-624. 클라우드 네이티브 12 Factor App
-625. 테스트 더블 Mock과 Stub의 차이
-626. V-모델 개발-테스트 매핑 구조
-627. 회귀 테스트 커버리지 도구
-628. 살충제 패러독스 테스트 갱신
-629. 오류 부재의 궤변 요구사항 미달
-630. 동등 분할 (Equivalence Partitioning) 경계값 분석
-631. 결정 테이블 (Decision Table) 논리 조합
-632. 상태 전이 (State Transition) 다이어그램
-633. 페어와이즈 (Pairwise) 직교 배열 (Orthogonal Array)
-634. 구문, 분기, 조건 커버리지 포함 관계
-635. MC/DC 항공/자동차 안전 표준 조건
-636. 탐색적 테스트 차터 기반 휴리스틱
-637. 퍼즈 테스트 보안 취약점 발견
-638. 뮤테이션 테스트 (돌연변이) 테스트 케이스 검증
-639. A/B 테스팅
-640. 성능 테스트 부하/스트레스/스파이크/인듀어런스
-641. ISO 25010 소프트웨어 품질 모델
-642. 신뢰성 (MTBF, MTTR, MTTF) 가용성 공식
-643. 결함 밀도 측정 및 프로세스 통제
-644. 기술 부채 마틴 파울러 사분면
-645. 리팩토링 악취(Code Smell) 제거
-646. 코드 리뷰 페어 프로그래밍
-647. FTR (정형 기술 검토) 인스펙션/워크스루
-648. 소프트웨어 형상 관리 (SCM) 통제 위원회 CCB
+601. [객체지향 5원칙 SOLID 완벽 매핑](@/04_software_engineering/10_trends_pm_quality/601_solid_principles_object_oriented_design.md)
+602. [정보 은닉(Information Hiding) 캡슐화 연계](@/04_software_engineering/10_trends_pm_quality/602_information_hiding_encapsulation.md)
+603. [컴포넌트(Component) 독립 배포 단위](@/04_software_engineering/10_trends_pm_quality/603_component_independent_deployment_unit.md)
+604. [디자인 패턴 23가지 구조적 분류](@/04_software_engineering/10_trends_pm_quality/604_gof_design_patterns_23_classification.md)
+605. [싱글톤 패턴 메모리/쓰레드 세이프 설계](@/04_software_engineering/10_trends_pm_quality/605_singleton_pattern_thread_safety.md)
+606. [옵저버 패턴 (Pub/Sub 연계)](@/04_software_engineering/10_trends_pm_quality/606_observer_pattern_pub_sub.md)
+607. [팩토리 메서드 vs 추상 팩토리](@/04_software_engineering/10_trends_pm_quality/607_factory_method_vs_abstract_factory.md)
+608. [전략 패턴 알고리즘 교체 용이성](@/04_software_engineering/10_trends_pm_quality/608_strategy_pattern_algorithm_swap.md)
+609. [파이프-필터 아키텍처 스트림](@/04_software_engineering/10_trends_pm_quality/609_pipe_and_filter_architecture.md)
+610. [MVC, MVP, MVVM 프론트엔드 패턴 진화](@/04_software_engineering/10_trends_pm_quality/610_mvc_mvp_mvvm_frontend_patterns.md)
+611. [클린 아키텍처 의존성 규칙 (내부로만 향함)](@/04_software_engineering/10_trends_pm_quality/611_clean_architecture_dependency_rule.md)
+612. [헥사고날 포트와 어댑터 외부 격리](@/04_software_engineering/10_trends_pm_quality/612_hexagonal_architecture_ports_and_adapters.md)
+613. [도메인 주도 설계 (DDD) 기본 구성 (엔티티, VO, 리포지토리)](@/04_software_engineering/10_trends_pm_quality/613_ddd_tactical_design_entity_vo_repository.md)
+614. [바운디드 컨텍스트 마이크로서비스 식별 기준](@/04_software_engineering/10_trends_pm_quality/614_bounded_context_microservices_identification.md)
+615. [애그리게이트 루트 트랜잭션 경계](@/04_software_engineering/10_trends_pm_quality/615_aggregate_root_transaction_boundary.md)
+616. [마이크로서비스 API 게이트웨이 인증 통합](@/04_software_engineering/10_trends_pm_quality/616_microservices_api_gateway_authentication.md)
+617. [서비스 디스커버리 Eureka](@/04_software_engineering/10_trends_pm_quality/617_service_discovery_eureka.md)
+618. [서킷 브레이커 장애 연쇄 차단 메커니즘](@/04_software_engineering/10_trends_pm_quality/618_circuit_breaker_cascade_failure_prevention.md)
+619. [사가 (Saga) 패턴 2PC 한계 극복 분산 트랜잭션](@/04_software_engineering/10_trends_pm_quality/619_saga_pattern_distributed_transaction.md)
+620. [이벤트 소싱 상태 재생 가능성 보장](@/04_software_engineering/10_trends_pm_quality/620_event_sourcing_state_reproducibility.md)
+621. [CQRS 읽기 쓰기 분리 스케일 아웃](@/04_software_engineering/10_trends_pm_quality/621_cqrs_read_write_separation_scale_out.md)
+622. [모듈러 모놀리스 MSA 대안적 접근](@/04_software_engineering/10_trends_pm_quality/622_modular_monolith_msa_alternative.md)
+623. [서버리스 콜드 스타트 이슈](@/04_software_engineering/10_trends_pm_quality/623_serverless_cold_start_issue.md)
+624. [클라우드 네이티브 12 Factor App](@/04_software_engineering/10_trends_pm_quality/624_cloud_native_12_factor_app.md)
+625. [테스트 더블 Mock과 Stub의 차이](@/04_software_engineering/10_trends_pm_quality/625_test_double_mock_vs_stub.md)
+626. [V-모델 개발-테스트 매핑 구조](@/04_software_engineering/10_trends_pm_quality/626_v_model_development_testing_mapping.md)
+627. [회귀 테스트 커버리지 도구](@/04_software_engineering/10_trends_pm_quality/627_regression_testing_coverage_tools.md)
+628. [살충제 패러독스 테스트 갱신](@/04_software_engineering/10_trends_pm_quality/628_pesticide_paradox_test_renewal.md)
+629. [오류 부재의 궤변 요구사항 미달](@/04_software_engineering/10_trends_pm_quality/629_absence_of_errors_fallacy.md)
+630. [동등 분할 (Equivalence Partitioning) 경계값 분석](@/04_software_engineering/10_trends_pm_quality/630_equivalence_partitioning_boundary_value_analysis.md)
+631. [결정 테이블 (Decision Table) 논리 조합](@/04_software_engineering/10_trends_pm_quality/631_decision_table_logical_combination.md)
+632. [상태 전이 (State Transition) 다이어그램](@/04_software_engineering/10_trends_pm_quality/632_state_transition_diagram_testing.md)
+633. [페어와이즈 (Pairwise) 직교 배열 (Orthogonal Array)](@/04_software_engineering/10_trends_pm_quality/633_pairwise_orthogonal_array_testing.md)
+634. [구문, 분기, 조건 커버리지 포함 관계](@/04_software_engineering/10_trends_pm_quality/634_statement_branch_condition_coverage_inclusion.md)
+635. [MC/DC 항공/자동차 안전 표준 조건](@/04_software_engineering/10_trends_pm_quality/635_mcdc_modified_condition_decision_coverage.md)
+636. [탐색적 테스트 차터 기반 휴리스틱](@/04_software_engineering/10_trends_pm_quality/636_exploratory_testing_charter_heuristic.md)
+637. [퍼즈 테스트 보안 취약점 발견](@/04_software_engineering/10_trends_pm_quality/637_fuzz_testing_vulnerability_discovery.md)
+638. [뮤테이션 테스트 (돌연변이) 테스트 케이스 검증](@/04_software_engineering/10_trends_pm_quality/638_mutation_testing_test_case_verification.md)
+639. [A/B 테스팅](@/04_software_engineering/10_trends_pm_quality/639_ab_testing_hypothesis_validation.md)
+640. [성능 테스트 부하/스트레스/스파이크/인듀어런스](@/04_software_engineering/10_trends_pm_quality/640_performance_testing_load_stress_spike_endurance.md)
+641. [ISO 25010 소프트웨어 품질 모델](@/04_software_engineering/10_trends_pm_quality/641_iso_25010_software_quality_model.md)
+642. [신뢰성 (MTBF, MTTR, MTTF) 가용성 공식](@/04_software_engineering/10_trends_pm_quality/642_reliability_mtbf_mttr_mttf_availability.md)
+643. [결함 밀도 측정 및 프로세스 통제](@/04_software_engineering/10_trends_pm_quality/643_defect_density_measurement_process_control.md)
+644. [기술 부채 마틴 파울러 사분면](@/04_software_engineering/10_trends_pm_quality/644_technical_debt_martin_fowler_quadrant.md)
+645. [리팩토링 악취(Code Smell) 제거](@/04_software_engineering/10_trends_pm_quality/645_refactoring_code_smell.md)
+646. [코드 리뷰 페어 프로그래밍](@/04_software_engineering/10_trends_pm_quality/646_code_review_pair_programming.md)
+647. [FTR (정형 기술 검토) 인스펙션/워크스루](@/04_software_engineering/10_trends_pm_quality/647_ftr_formal_technical_review_inspection_walkthrough.md)
+648. [소프트웨어 형상 관리 (SCM) 통제 위원회 CCB](@/04_software_engineering/10_trends_pm_quality/648_ccb_configuration_control_board.md)
 649. 기준선 (Baseline) 수립 변경 통제
 650. CI/CD 지속적 통합, 배포 파이프라인
-651. 카나리 배포 / 블루-그린 배포 무중단
-652. 데브옵스 (DevOps) CALMS 문화
-653. 데브섹옵스 (DevSecOps) 시프트 레프트
-654. SRE SLI, SLO, SLA 에러 예산
-655. 카오스 엔지니어링 카오스 몽키 복원력
-656. GitOps 인프라 선언적 관리
-657. 옵저버빌리티 로그, 메트릭, 분산 추적(Tracing)
+651. [카나리 배포 / 블루-그린 배포 무중단](@/04_software_engineering/11_testing_validation/651_canary_blue_green_deployment.md)
+652. [데브옵스 (DevOps) CALMS 문화](@/04_software_engineering/11_testing_validation/652_devops_calms_culture.md)
+653. [데브섹옵스 (DevSecOps) 시프트 레프트](@/04_software_engineering/11_testing_validation/653_devsecops_shift_left.md)
+654. [SRE SLI, SLO, SLA 에러 예산](@/04_software_engineering/11_testing_validation/654_sre_sli_slo_sla_error_budget.md)
+655. [카오스 엔지니어링 카오스 몽키 복원력](@/04_software_engineering/11_testing_validation/655_chaos_engineering_monkey.md)
+656. [GitOps 인프라 선언적 관리](@/04_software_engineering/11_testing_validation/656_gitops_declarative_infrastructure.md)
+657. [옵저버빌리티 로그, 메트릭, 분산 추적(Tracing)](@/04_software_engineering/11_testing_validation/657_observability.md)
 658. 애자일 스크럼 (Scrum) 역할 분담
-659. 스프린트 백로그 / 프로덕트 백로그
-660. 번다운 차트 작업 진척도
-661. 칸반 WIP (Work In Progress) 제한
+659. [스프린트 백로그 / 프로덕트 백로그](@/04_software_engineering/11_testing_validation/659_sprint_product_backlog.md)
+660. [번다운 차트 작업 진척도](@/04_software_engineering/11_testing_validation/660_burndown_chart.md)
+661. [칸반 WIP (Work In Progress) 제한](@/04_software_engineering/11_testing_validation/661_kanban_wip_limit.md)
 662. XP 테스트 주도 개발 (TDD) 리팩토링
-663. 스토리 포인트 플래닝 포커 합의
-664. 대규모 애자일 SAFe, LeSS
+663. [스토리 포인트 플래닝 포커 합의](@/04_software_engineering/11_testing_validation/663_story_point_planning_poker.md)
+664. [대규모 애자일 SAFe, LeSS](@/04_software_engineering/11_testing_validation/664_scaled_agile_safe_less.md)
 665. 린 스타트업 MVP 피벗 사이클
-666. 요구사항 도출 JAD 페르소나
-667. 요구사항 검증 추적성 매트릭스 (RTM)
-668. 비기능 요구사항 아키텍처 드라이버
+666. [요구사항 도출 JAD 페르소나](@/04_software_engineering/11_testing_validation/666_requirements_jad_persona.md)
+667. [요구사항 검증 추적성 매트릭스 (RTM)](@/04_software_engineering/11_testing_validation/667_requirements_traceability_matrix.md)
+668. [비기능 요구사항 아키텍처 드라이버](@/04_software_engineering/11_testing_validation/668_non_functional_requirements.md)
 669. DFD 자료 흐름도 4요소
-670. 유스케이스 포함(Include) 확장(Extend)
-671. UML 클래스, 시퀀스, 액티비티 다이어그램
-672. 소프트웨어 비용 산정 COCOMO
-673. 기능점수 (FP) 내부논리파일(ILF) 외부연계파일(EIF)
-674. 델파이 기법 전문가 합의
-675. 프로젝트 관리 WBS, CPM, PERT
-676. EVM (Earned Value Management) SPI, CPI 계산
-677. CMMI 성숙도 5단계 (초기-관리-정의-정량-최적)
-678. SPICE 프로세스 역량 평가
-679. 소프트웨어 재공학 역공학
-680. 역 콘웨이 전략 아키텍처에 맞춘 조직 구성
-681. 모노레포 vs 멀티레포
-682. 마이크로 프론트엔드 웹팩 연계
-683. API 게이트웨이 BFF (Backend for Frontend)
-684. 스트랭글러 패턴 레거시 분할
-685. 토일 (Toil) 자동화 축소 대상 작업
-686. 인지 부하 (Cognitive Load) 팀 토폴로지
-687. 시큐어 코딩 입력값 검증 XSS SQLi 방어
-688. SAST / DAST / IAST 보안 테스팅 도구 비교
-689. RASP 런타임 자체 보호
-690. 소프트웨어 자재 명세서 (SBOM) 공급망 보안
-691. 오픈소스 컴플라이언스 GPL 카피레프트
-692. 위협 모델링 STRIDE
-693. 제로 트러스트 아키텍처 최소 권한 원칙
-694. 기밀 컴퓨팅 데이터 인 유즈(In Use) 보호
-695. 사이버 레질리언스 시스템 생존성
-696. AI 기반 코드 생성 코파일럿 프롬프트
-697. LLM 환각 방지 RAG 아키텍처
-698. MLOps 데이터 드리프트 모니터링
-699. 데이터 메시 탈중앙 도메인 오너십
-700. 서버리스 FaaS 아키텍처 제약
-701. WebAssembly (Wasm) 프론트 성능 가속
-702. PWA (Progressive Web App) 오프라인 워커
-703. 백파이어링 FP LOC 역산
-704. 피쳐 플래그 런타임 기능 토글
-705. 서비스 메시 (Istio) 사이드카 통신 제어
-706. 트랜잭셔널 아웃박스 이벤트 유실 방지
-707. OAT (운영 인수 테스트) 백업 복구 검증
-708. 블랙보드 패턴 비결정적 문제 해결
-709. 브로커 패턴 분산 시스템 미들웨어
-710. ATDD (인수 테스트 주도 개발) BDD 연계
-711. KWCAG 웹 접근성 지침
-712. 다크 패턴 기만적 UX 방지
-713. 기능 안전 ISO 26262 ASIL 등급
-714. FMEA / FTA 결함 분석망
-715. N-버전 프로그래밍 이종 다중화
-716. 페일 세이프 / 페일 소프트 비교
-717. 클라우드 네이티브 스토리지 컴퓨팅 분리
-718. 블록체인 DApp 스마트 컨트랙트 구조
-719. 양자 컴퓨팅 대비 PQC 소프트웨어 구조 전환
-720. 데이터옵스 (DataOps) 자동화
-721. 클린 아키텍처 Usecase Interactor 설계
-722. 어니언 아키텍처 도메인 코어 격리
-723. COTS 상용 기성품 통합 테스팅
-724. 인프라스트럭처 애즈 코드 (IaC) 테라폼
-725. 선언적 인프라 상태 일치 루프
-726. 플랫폼 엔지니어링 IDP 포털 개발자 경험(DX)
-727. DORA 메트릭스 4대 지표 (배포 빈도 등)
-728. SPACE 프레임워크 생산성 다각화
-729. 객체지향 결합도 (내용, 공통, 제어, 스탬프, 자료)
-730. 객체지향 응집도 (우연, 논리, 시간, 절차, 통신, 순차, 기능)
-731. ATAM 트레이드오프 분석 평가 트리
-732. TQM 전사적 품질 관리 예방 위주
-733. GQM 지표 측정 골 기반 구조
-734. 방어적 프로그래밍 Assertion 계약 기반 설계
-735. 디자인 바이 컨트랙트 불변 조건
-736. 로그 6하 원칙 WORM 스토리지 무결성
-737. SBOM 규격 SPDX CycloneDX
-738. 컨테이너 이미지 스캐닝 권한 통제
-739. MFA 인증 OIDC 인가 보안 구조
-740. API 스로틀링 Rate Limit DDoS 방어
-741. mTLS 상호 인증 서비스 간 보안
-742. K-익명성 프라이버시 디자인(PbD) 설계
-743. 데이터 마스킹 FPE 암호 유지
-744. 엣지 컴퓨팅 데이터 로컬 최적화
-745. 디지털 트윈 동기화 인터페이스 모델
-746. 메타버스 네트워크 렌더링 지연 단축 기술
-747. 탄소 인지적 소프트웨어 그린 코딩
-748. 로우코드/노코드 섀도우 IT 거버넌스
-749. 마이크로 커널 아키텍처 플러그인 확장
-750. 아키텍처 런웨이 기술적 기반 조기 확보
-751. 소프트웨어 위기 비용 지연 품질 문제
-752. 프로토타입 버리기 모델 vs 진화적 모델
-753. 나선형 위험 분석 4단계 루프
-754. 테일러링 프로젝트 맞춤형 프로세스 재단
-755. PMO 전사 품질 통제 및 감사 조직
-756. 잭맨 프레임워크 6x6 매트릭스
-757. MoSCoW 요구사항 우선순위 판별
-758. Kano 모델 매력적, 당연적 품질 요소 분류
-759. QFD 품질 기능 전개 요구사항 변환 기법
-760. 인스펙션 중재자(Moderator) 주도 공식 검토
-761. 워크스루 비공식 기술 검토 회의
-762. 애자일 에픽, 스토리, 테마, 태스크 계층
-763. 지속적 통합 테스트 빌드 자동화 서버
-764. 리드 타임 프로세스 시작부터 배포 완료
-765. 누적 흐름도 병목 지점 병목 분석
-766. 소프트웨어 노후화 기술 부채 연계
-767. 객체지향 추상화 자료/제어/과정 분리
-768. 럼바우 객체 모델링 (객체/동적/기능 모델)
-769. 구조적 분석 도구 데이터 사전(DD) 표기법
-770. 페트리 넷 병행/비동기 시스템 정형 명세
-771. BDD Given-When-Then 행동 명세 테스트
-772. ATDD 인수 테스트 주도 개발 구조
-773. 테스트 하네스 스텁, 드라이버, 슈트 포괄 환경
-774. 소프트웨어 안전성 Fail-Safe, Fail-Soft
-775. 정보시스템 감리 절차 모델
-776. 소프트웨어 품질 비용 통제 그래프 최적점
-777. 정량적 프로젝트 관리 SPI 통제 한계선
-778. 소프트웨어 테스트 성숙도 모델 (TMMi)
-779. ISO/IEC/IEEE 29119 소프트웨어 테스팅 국제 표준
-780. 클라우드 보안 형상 관리 (CSPM) 데브옵스 결합
-781. 안티 디버깅 코드 난독화 리버스엔지니어링 차단
-782. 메모리 안전성 언어 (Rust) 컴파일러 검증 차용
-783. 서버 사이드 렌더링(SSR) 하이드레이션(Hydration)
-784. 웹 프로그레시브 서비스워커(Service Worker) 연계망
-785. 마이크로서비스 데이터 일관성 결과적 일관성 확보
-786. 분산 시스템 옵저버빌리티 Trace ID 상관관계 분석
-787. 애그리게이트 루트 외부 접근 단일 진입점 설계
-788. 헥사고날 아키텍처 어댑터 포트 매핑 구조
-789. 클린 아키텍처 엔티티 유스케이스 프레젠테이션 계층 분리
-790. 이벤트 버스 카프카(Kafka) 비동기 내결함성 설계
-791. 서비스 지향 아키텍처(SOA) ESB 성능 병목 한계
-792. API 게이트웨이 인증 및 라우팅 병목 관리망
-793. 인프라 코드 (IaC) 멱등성 보장 템플릿 기술
-794. 지속적 배포 롤백 자동화 정책 파이프라인 구성
-795. 린 개발 7원칙 낭비 제거 전체 최적화 배포망
-796. 스크럼 스프린트 회고(Retrospective) 개선 액션 도출
-797. XP 실천 방법 TDD 페어 지속 통합 코드 공동 소유
-798. 형상 통제 베이스라인 변경 심의 이력 추적
-799. COCOMO 비용 산정 모드 (Organic, Semi, Embedded)
-800. 소프트웨어 공학 실무자 10개년 기출 핵심 융합 토픽 결론 정리
+670. [유스케이스 포함(Include) 확장(Extend)](@/04_software_engineering/11_testing_validation/670_use_case_include_extend.md)
+671. [UML 클래스, 시퀀스, 액티비티 다이어그램](@/04_software_engineering/11_testing_validation/671_uml_diagrams_class_sequence.md)
+672. [소프트웨어 비용 산정 COCOMO](@/04_software_engineering/11_testing_validation/672_software_cost_estimation_cocomo.md)
+673. [기능점수 (FP) 내부논리파일(ILF) 외부연계파일(EIF)](@/04_software_engineering/11_testing_validation/673_function_point_ilf_eif.md)
+674. [델파이 기법 전문가 합의](@/04_software_engineering/11_testing_validation/674_delphi_method_consensus.md)
+675. [프로젝트 관리 WBS, CPM, PERT](@/04_software_engineering/11_testing_validation/675_project_management_wbs_cpm_pert.md)
+676. [EVM (Earned Value Management) SPI, CPI 계산](@/04_software_engineering/11_testing_validation/676_evm_earned_value_management.md)
+677. [CMMI 성숙도 5단계 (초기-관리-정의-정량-최적)](@/04_software_engineering/10_trends_pm_quality/677_cmmi_5_levels_maturity.md)
+678. [SPICE 프로세스 역량 평가](@/04_software_engineering/10_trends_pm_quality/678_spice_process_capability.md)
+679. [소프트웨어 재공학 역공학](@/04_software_engineering/10_trends_pm_quality/679_software_reengineering_reverse.md)
+680. [역 콘웨이 전략 아키텍처에 맞춘 조직 구성](@/04_software_engineering/10_trends_pm_quality/680_reverse_conways_law_architecture.md)
+681. [모노레포 vs 멀티레포](@/04_software_engineering/10_trends_pm_quality/681_monorepo_vs_multirepo.md)
+682. [마이크로 프론트엔드 웹팩 연계](@/04_software_engineering/10_trends_pm_quality/682_micro_frontend_webpack_federation.md)
+683. [API 게이트웨이 BFF (Backend for Frontend)](@/04_software_engineering/10_trends_pm_quality/683_api_gateway_bff_backend_for_frontend.md)
+684. [스트랭글러 패턴 레거시 분할](@/04_software_engineering/10_trends_pm_quality/684_strangler_pattern_legacy_migration.md)
+685. [토일 (Toil) 자동화 축소 대상 작업](@/04_software_engineering/10_trends_pm_quality/685_toil_automation_sre.md)
+686. [인지 부하 (Cognitive Load) 팀 토폴로지](@/04_software_engineering/10_trends_pm_quality/686_cognitive_load_team_topologies.md)
+687. [시큐어 코딩 입력값 검증 XSS SQLi 방어](@/04_software_engineering/10_trends_pm_quality/687_secure_coding_xss_sqli.md)
+688. [SAST / DAST / IAST 보안 테스팅 도구 비교](@/04_software_engineering/10_trends_pm_quality/688_sast_dast_iast_security_testing.md)
+689. [RASP 런타임 자체 보호](@/04_software_engineering/10_trends_pm_quality/689_rasp_runtime_application_self_protection.md)
+690. [소프트웨어 자재 명세서 (SBOM) 공급망 보안](@/04_software_engineering/10_trends_pm_quality/690_sbom_software_supply_chain_security.md)
+691. [오픈소스 컴플라이언스 GPL 카피레프트](@/04_software_engineering/10_trends_pm_quality/691_opensource_compliance_gpl_copyleft.md)
+692. [위협 모델링 STRIDE](@/04_software_engineering/10_trends_pm_quality/692_threat_modeling_stride.md)
+693. [제로 트러스트 아키텍처 최소 권한 원칙](@/04_software_engineering/10_trends_pm_quality/693_zero_trust_architecture_least_privilege.md)
+694. [기밀 컴퓨팅 데이터 인 유즈(In Use) 보호](@/04_software_engineering/10_trends_pm_quality/694_confidential_computing_data_in_use.md)
+695. [사이버 레질리언스 시스템 생존성](@/04_software_engineering/10_trends_pm_quality/695_cyber_resilience_system_survivability.md)
+696. [AI 기반 코드 생성 코파일럿 프롬프트](@/04_software_engineering/10_trends_pm_quality/696_ai_code_generation_copilot_prompt.md)
+697. [LLM 환각 방지 RAG 아키텍처](@/04_software_engineering/10_trends_pm_quality/697_llm_hallucination_rag_architecture.md)
+698. [MLOps 데이터 드리프트 모니터링](@/04_software_engineering/10_trends_pm_quality/698_mlops_data_drift_monitoring.md)
+699. [데이터 메시 탈중앙 도메인 오너십](@/04_software_engineering/10_trends_pm_quality/699_data_mesh_decentralized_ownership.md)
+700. [서버리스 FaaS 아키텍처 제약](@/04_software_engineering/10_trends_pm_quality/700_serverless_faas_architecture_constraints.md)
+701. [WebAssembly (Wasm) 프론트 성능 가속](@/04_software_engineering/10_trends_pm_quality/701_webassembly_wasm_frontend_performance.md)
+702. [PWA (Progressive Web App) 오프라인 워커](@/04_software_engineering/10_trends_pm_quality/702_pwa_progressive_web_app_service_worker.md)
+703. [백파이어링 FP LOC 역산](@/04_software_engineering/10_trends_pm_quality/703_backfiring_fp_loc_conversion.md)
+704. [피쳐 플래그 런타임 기능 토글](@/04_software_engineering/10_trends_pm_quality/704_feature_flag_runtime_toggle.md)
+705. [서비스 메시 (Istio) 사이드카 통신 제어](@/04_software_engineering/10_trends_pm_quality/705_service_mesh_istio_sidecar.md)
+706. [트랜잭셔널 아웃박스 이벤트 유실 방지](@/04_software_engineering/10_trends_pm_quality/706_transactional_outbox_event_guarantee.md)
+707. [OAT (운영 인수 테스트) 백업 복구 검증](@/04_software_engineering/10_trends_pm_quality/707_oat_operational_acceptance_testing.md)
+708. [블랙보드 패턴 비결정적 문제 해결](@/04_software_engineering/10_trends_pm_quality/708_blackboard_pattern_non_deterministic.md)
+709. [브로커 패턴 분산 시스템 미들웨어](@/04_software_engineering/10_trends_pm_quality/709_broker_pattern_distributed_middleware.md)
+710. [ATDD (인수 테스트 주도 개발) BDD 연계](@/04_software_engineering/10_trends_pm_quality/710_atdd_acceptance_test_driven_development.md)
+711. [KWCAG 웹 접근성 지침](@/04_software_engineering/10_trends_pm_quality/711_kwcag_web_accessibility_guidelines.md)
+712. [다크 패턴 기만적 UX 방지](@/04_software_engineering/10_trends_pm_quality/712_dark_pattern_deceptive_ux.md)
+713. [기능 안전 ISO 26262 ASIL 등급](@/04_software_engineering/10_trends_pm_quality/713_functional_safety_iso26262_asil.md)
+714. [FMEA / FTA 결함 분석망](@/04_software_engineering/10_trends_pm_quality/714_fmea_fta_fault_analysis.md)
+715. [N-버전 프로그래밍 이종 다중화](@/04_software_engineering/10_trends_pm_quality/715_n_version_programming_diversity.md)
+716. [페일 세이프 / 페일 소프트 비교](@/04_software_engineering/10_trends_pm_quality/716_fail_safe_vs_fail_soft.md)
+717. [클라우드 네이티브 스토리지 컴퓨팅 분리](@/04_software_engineering/10_trends_pm_quality/717_cloud_native_storage_compute_separation.md)
+718. [블록체인 DApp 스마트 컨트랙트 구조](@/04_software_engineering/10_trends_pm_quality/718_blockchain_dapp_smart_contract_architecture.md)
+719. [양자 컴퓨팅 대비 PQC 소프트웨어 구조 전환](@/04_software_engineering/10_trends_pm_quality/719_quantum_computing_pqc_migration.md)
+720. [데이터옵스 (DataOps) 자동화](@/04_software_engineering/10_trends_pm_quality/720_dataops_automation_pipeline.md)
+721. [클린 아키텍처 Usecase Interactor 설계](@/04_software_engineering/10_trends_pm_quality/721_clean_architecture_usecase_interactor.md)
+722. [어니언 아키텍처 도메인 코어 격리](@/04_software_engineering/10_trends_pm_quality/722_onion_architecture_domain_isolation.md)
+723. [COTS 상용 기성품 통합 테스팅](@/04_software_engineering/10_trends_pm_quality/723_cots_commercial_off_the_shelf_testing.md)
+724. [인프라스트럭처 애즈 코드 (IaC) 테라폼](@/04_software_engineering/10_trends_pm_quality/724_infrastructure_as_code_terraform.md)
+725. [선언적 인프라 상태 일치 루프](@/04_software_engineering/10_trends_pm_quality/725_declarative_infrastructure_reconciliation_loop.md)
+726. [플랫폼 엔지니어링 IDP 포털 개발자 경험(DX)](@/04_software_engineering/10_trends_pm_quality/726_platform_engineering_idp_dx.md)
+727. [DORA 메트릭스 4대 지표 (배포 빈도 등)](@/04_software_engineering/10_trends_pm_quality/727_dora_metrics_4_indicators.md)
+728. [SPACE 프레임워크 생산성 다각화](@/04_software_engineering/10_trends_pm_quality/728_space_framework_developer_productivity.md)
+729. [객체지향 결합도 (내용, 공통, 제어, 스탬프, 자료)](@/04_software_engineering/10_trends_pm_quality/729_oo_coupling_types.md)
+730. [객체지향 응집도 (우연, 논리, 시간, 절차, 통신, 순차, 기능)](@/04_software_engineering/10_trends_pm_quality/730_oo_cohesion_types.md)
+731. [ATAM 트레이드오프 분석 평가 트리](@/04_software_engineering/10_trends_pm_quality/731_atam_architecture_tradeoff_analysis.md)
+732. [TQM 전사적 품질 관리 예방 위주](@/04_software_engineering/10_trends_pm_quality/732_tqm_total_quality_management.md)
+733. [GQM 지표 측정 골 기반 구조](@/04_software_engineering/10_trends_pm_quality/733_gqm_goal_question_metric.md)
+734. [방어적 프로그래밍 Assertion 계약 기반 설계](@/04_software_engineering/10_trends_pm_quality/734_defensive_programming_assertion.md)
+735. [디자인 바이 컨트랙트 불변 조건](@/04_software_engineering/10_trends_pm_quality/735_design_by_contract_invariant.md)
+736. [로그 6하 원칙 WORM 스토리지 무결성](@/04_software_engineering/10_trends_pm_quality/736_log_6w1h_worm_storage_integrity.md)
+737. [SBOM 규격 SPDX CycloneDX](@/04_software_engineering/10_trends_pm_quality/737_sbom_standards_spdx_cyclonedx.md)
+738. [컨테이너 이미지 스캐닝 권한 통제](@/04_software_engineering/10_trends_pm_quality/738_container_image_scanning_rbac.md)
+739. [MFA 인증 OIDC 인가 보안 구조](@/04_software_engineering/10_trends_pm_quality/739_mfa_oidc_authentication_authorization.md)
+740. [API 스로틀링 Rate Limit DDoS 방어](@/04_software_engineering/10_trends_pm_quality/740_api_throttling_rate_limit_ddos.md)
+741. [mTLS 상호 인증 서비스 간 보안](@/04_software_engineering/10_trends_pm_quality/741_mtls_mutual_tls_service_security.md)
+742. [K-익명성 프라이버시 디자인(PbD) 설계](@/04_software_engineering/10_trends_pm_quality/742_k_anonymity_privacy_by_design.md)
+743. [데이터 마스킹 FPE 암호 유지](@/04_software_engineering/10_trends_pm_quality/743_data_masking_fpe_encryption.md)
+744. [엣지 컴퓨팅 데이터 로컬 최적화](@/04_software_engineering/10_trends_pm_quality/744_edge_computing_local_optimization.md)
+745. [디지털 트윈 동기화 인터페이스 모델](@/04_software_engineering/10_trends_pm_quality/745_digital_twin_synchronization_model.md)
+746. [메타버스 네트워크 렌더링 지연 단축 기술](@/04_software_engineering/10_trends_pm_quality/746_metaverse_network_rendering_latency.md)
+747. [탄소 인지적 소프트웨어 그린 코딩](@/04_software_engineering/10_trends_pm_quality/747_carbon_aware_software_green_coding.md)
+748. [로우코드/노코드 섀도우 IT 거버넌스](@/04_software_engineering/10_trends_pm_quality/748_lowcode_nocode_shadow_it.md)
+749. [마이크로 커널 아키텍처 플러그인 확장](@/04_software_engineering/10_trends_pm_quality/749_microkernel_architecture_plugin.md)
+750. [아키텍처 런웨이 기술적 기반 조기 확보](@/04_software_engineering/10_trends_pm_quality/750_architectural_runway_enabler.md)
+751. [소프트웨어 위기 비용 지연 품질 문제](@/04_software_engineering/10_trends_pm_quality/751_software_crisis_cost_delay.md)
+752. [프로토타입 버리기 모델 vs 진화적 모델](@/04_software_engineering/10_trends_pm_quality/752_prototyping_throwaway_vs_evolutionary.md)
+753. [나선형 위험 분석 4단계 루프](@/04_software_engineering/10_trends_pm_quality/753_spiral_model_risk_analysis.md)
+754. [테일러링 프로젝트 맞춤형 프로세스 재단](@/04_software_engineering/10_trends_pm_quality/754_tailoring_software_process.md)
+755. [PMO 전사 품질 통제 및 감사 조직](@/04_software_engineering/10_trends_pm_quality/755_pmo_project_management_office.md)
+756. [잭맨 프레임워크 6x6 매트릭스](@/04_software_engineering/10_trends_pm_quality/756_zachman_framework_matrix.md)
+757. [MoSCoW 요구사항 우선순위 판별](@/04_software_engineering/10_trends_pm_quality/757_moscow_requirement_prioritization.md)
+758. [Kano 모델 매력적, 당연적 품질 요소 분류](@/04_software_engineering/10_trends_pm_quality/758_kano_model_quality_attributes.md)
+759. [QFD 품질 기능 전개 요구사항 변환 기법](@/04_software_engineering/10_trends_pm_quality/759_qfd_quality_function_deployment.md)
+760. [인스펙션 중재자(Moderator) 주도 공식 검토](@/04_software_engineering/10_trends_pm_quality/760_inspection_moderator_formal_review.md)
+761. [워크스루 비공식 기술 검토 회의](@/04_software_engineering/10_trends_pm_quality/761_walkthrough_informal_technical_review.md)
+762. [애자일 에픽, 스토리, 테마, 태스크 계층](@/04_software_engineering/10_trends_pm_quality/762_agile_epic_story_theme_task.md)
+763. [지속적 통합 테스트 빌드 자동화 서버](@/04_software_engineering/10_trends_pm_quality/763_studynote_software_engineering_tren.md)
+764. [리드 타임 프로세스 시작부터 배포 완료](@/04_software_engineering/10_trends_pm_quality/764_lead_time_process_deployment.md)
+765. [누적 흐름도 병목 지점 병목 분석](@/04_software_engineering/10_trends_pm_quality/765_cumulative_flow_diagram_bottleneck.md)
+766. [소프트웨어 노후화 기술 부채 연계](@/04_software_engineering/10_trends_pm_quality/766_software_aging_technical_debt.md)
+767. [객체지향 추상화 자료/제어/과정 분리](@/04_software_engineering/10_trends_pm_quality/767_oo_abstraction_data_control.md)
+768. [럼바우 객체 모델링 (객체/동적/기능 모델)](@/04_software_engineering/10_trends_pm_quality/768_rumbaugh_omt_object_dynamic_functional.md)
+769. [구조적 분석 도구 데이터 사전(DD) 표기법](@/04_software_engineering/10_trends_pm_quality/769_structure.md)
+770. [페트리 넷 병행/비동기 시스템 정형 명세](@/04_software_engineering/10_trends_pm_quality/770_petri_net_formal_specification.md)
+771. [BDD Given-When-Then 행동 명세 테스트](@/04_software_engineering/10_trends_pm_quality/771_bdd_behavior_driven_development.md)
+772. [ATDD 인수 테스트 주도 개발 구조](@/04_software_engineering/10_trends_pm_quality/772_atdd_acceptance_testing_structure.md)
+773. [테스트 하네스 스텁, 드라이버, 슈트 포괄 환경](@/04_software_engineering/10_trends_pm_quality/773_test_harness_stub_driver_suite.md)
+774. [소프트웨어 안전성 Fail-Safe, Fail-Soft](@/04_software_engineering/10_trends_pm_quality/774_software_safety_failsafe_failsoft.md)
+775. [정보시스템 감리 절차 모델](@/04_software_engineering/10_trends_pm_quality/775_information_system_audit_process.md)
+776. [소프트웨어 품질 비용 통제 그래프 최적점](@/04_software_engineering/10_trends_pm_quality/776_cost_of_quality_control_graph.md)
+777. [정량적 프로젝트 관리 SPI 통제 한계선](@/04_software_engineering/10_trends_pm_quality/777_quantitative_project_management_spi.md)
+778. [소프트웨어 테스트 성숙도 모델 (TMMi)](@/04_software_engineering/10_trends_pm_quality/778_tmmi_test_maturity_model_integration.md)
+779. [ISO/IEC/IEEE 29119 소프트웨어 테스팅 국제 표준](@/04_software_engineering/10_trends_pm_quality/779_iso_29119_software_testing_standard.md)
+780. [클라우드 보안 형상 관리 (CSPM) 데브옵스 결합](@/04_software_engineering/10_trends_pm_quality/780_cspm_cloud_security_posture_management.md)
+781. [안티 디버깅 코드 난독화 리버스엔지니어링 차단](@/04_software_engineering/10_trends_pm_quality/781_anti_debugging_code_obfuscation.md)
+782. [메모리 안전성 언어 (Rust) 컴파일러 검증 차용](@/04_software_engineering/10_trends_pm_quality/782_memory_safety_rust_compiler_verification.md)
+783. [서버 사이드 렌더링(SSR) 하이드레이션(Hydration)](@/04_software_engineering/10_trends_pm_quality/783_ssr_server_side_rendering_hydration.md)
+784. [웹 프로그레시브 서비스워커(Service Worker) 연계망](@/04_software_engineering/10_trends_pm_quality/784_pwa_service_worker_caching_network.md)
+785. [마이크로서비스 데이터 일관성 결과적 일관성 확보](@/04_software_engineering/10_trends_pm_quality/785_msa_eventual_consistency_data.md)
+786. [분산 시스템 옵저버빌리티 Trace ID 상관관계 분석](@/04_software_engineering/10_trends_pm_quality/786_distributed_tracing_observability_trace_id.md)
+787. [애그리게이트 루트 외부 접근 단일 진입점 설계](@/04_software_engineering/10_trends_pm_quality/787_aggregate_root_single_entry_point.md)
+788. [헥사고날 아키텍처 어댑터 포트 매핑 구조](@/04_software_engineering/10_trends_pm_quality/788_hexagonal_architecture_port_adapter.md)
+789. [클린 아키텍처 엔티티 유스케이스 프레젠테이션 계층 분리](@/04_software_engineering/10_trends_pm_quality/789_clean_architecture_entity_usecase.md)
+790. [이벤트 버스 카프카(Kafka) 비동기 내결함성 설계](@/04_software_engineering/10_trends_pm_quality/790_event_bus_kafka_asynchronous.md)
+791. [서비스 지향 아키텍처(SOA) ESB 성능 병목 한계](@/04_software_engineering/10_trends_pm_quality/791_soa_esb_performance_bottleneck.md)
+792. [API 게이트웨이 인증 및 라우팅 병목 관리망](@/04_software_engineering/10_trends_pm_quality/792_api_gateway_authentication_routing.md)
+793. [인프라 코드 (IaC) 멱등성 보장 템플릿 기술](@/04_software_engineering/10_trends_pm_quality/793_iac_idempotency_template.md)
+794. [지속적 배포 롤백 자동화 정책 파이프라인 구성](@/04_software_engineering/10_trends_pm_quality/794_continuous_deployment_rollback_automation.md)
+795. [린 개발 7원칙 낭비 제거 전체 최적화 배포망](@/04_software_engineering/10_trends_pm_quality/795_lean_development.md)
+796. [스크럼 스프린트 회고(Retrospective) 개선 액션 도출](@/04_software_engineering/10_trends_pm_quality/796_retrospective.md)
+797. [XP 실천 방법 TDD 페어 지속 통합 코드 공동 소유](@/04_software_engineering/10_trends_pm_quality/797_xp_tdd.md)
+798. [형상 통제 베이스라인 변경 심의 이력 추적](@/04_software_engineering/10_trends_pm_quality/798_configuration_control.md)
+799. [COCOMO 비용 산정 모드 (Organic, Semi, Embedded)](@/04_software_engineering/10_trends_pm_quality/799_cocomo_organic_semi_embedded.md)
+800. [소프트웨어 공학 실무자 10개년 기출 핵심 융합 토픽 결론 정리](@/04_software_engineering/10_trends_pm_quality/800_software_engineering_summary.md)
 
 
 ## 추가 학습 키워드 (Additional Study Keywords)
